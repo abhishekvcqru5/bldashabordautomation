@@ -1,0 +1,46 @@
+2026-04-29 18:49:56,382 - INFO - User selected: Brand Setting
+2026-04-29 18:50:14,672 - INFO -   Found logo asset: logo.png
+2026-04-29 18:50:14,672 - INFO -   Found splash asset: splash.png
+2026-04-29 18:50:14,673 - INFO - ============================================================
+2026-04-29 18:50:14,673 - INFO - BRAND SETTING — Image Processing
+2026-04-29 18:50:14,673 - INFO - ============================================================
+2026-04-29 18:50:14,716 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-04-29 18:50:15,049 - INFO - ✓ Logo  → logo_processed.png  |  181.9 KB  |  PNG lossless
+2026-04-29 18:50:15,199 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-04-29 18:50:15,461 - INFO - ✓ Splash → splash_processed.png  |  0.62 MB  |  PNG lossless
+2026-04-29 18:50:15,462 - INFO - 
+2026-04-29 18:50:15,462 - INFO - Extracting brand colours from logo...
+2026-04-29 18:50:15,619 - INFO -   Colours extracted from logo:
+2026-04-29 18:50:15,619 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-04-29 18:50:15,619 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-04-29 18:50:15,619 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-04-29 18:50:15,619 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-04-29 18:50:15,627 - INFO - ✓ Both images ready
+
+2026-04-29 18:50:15,627 - INFO - ============================================================
+2026-04-29 18:50:15,627 - INFO - BRAND SETTING — Browser Automation
+2026-04-29 18:50:15,627 - INFO - ============================================================
+2026-04-29 18:50:16,068 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 18:50:17,342 - INFO - ✓ Chrome driver initialized
+2026-04-29 18:50:17,342 - INFO - Opening login page...
+2026-04-29 18:50:18,972 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 18:50:20,856 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 18:50:20,949 - INFO - ✓ Login successful
+2026-04-29 18:50:22,950 - INFO - Going to App Settings...
+2026-04-29 18:50:29,307 - INFO -   → Identity & Branding section opened
+2026-04-29 18:50:31,572 - INFO -   → Edit Branding popup opened
+2026-04-29 18:50:31,609 - INFO - ✓ Brand setting form is ready
+2026-04-29 18:50:31,610 - INFO -   Setting company name: VCQRU
+2026-04-29 18:50:31,838 - INFO -     → HeaderColor: #F00000
+2026-04-29 18:50:31,877 - INFO -     → FooterColor: #F5F5F5
+2026-04-29 18:50:31,913 - INFO -     → BodyColor: #FFFFFF
+2026-04-29 18:50:32,000 - INFO -     → BackgroundColor: #9C0000
+2026-04-29 18:50:34,056 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-04-29 18:50:36,098 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-04-29 18:50:36,205 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-04-29 18:50:39,222 - INFO - ✓ Brand settings saved successfully!
+2026-04-29 18:50:39,481 - INFO - Browser closed
+2026-04-29 18:50:39,481 - INFO - 
+Automation completed at 2026-04-29 18:50:39
+2026-04-29 18:50:39,482 - INFO - Full log available at: automation/logs/full_automation_20260429_184953.log
+

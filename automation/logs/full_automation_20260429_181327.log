@@ -1,0 +1,442 @@
+2026-04-29 18:13:35,905 - INFO - User selected: Dashboard Icons
+2026-04-29 18:13:58,705 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-29 18:13:58,706 - INFO - Automation started at 2026-04-29 18:13:58
+
+2026-04-29 18:13:58,706 - INFO - ============================================================
+2026-04-29 18:13:58,706 - INFO - STEP 1: Processing and Compressing Images
+2026-04-29 18:13:58,706 - INFO - ============================================================
+2026-04-29 18:13:58,707 - INFO - Processing images from: dashboardicons
+2026-04-29 18:13:58,707 - INFO - Output folder: automation/processed_images
+2026-04-29 18:13:58,707 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-29 18:13:58,751 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-29 18:13:58,762 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-29 18:13:58,779 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-04-29 18:13:58,797 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-29 18:13:58,815 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-29 18:13:58,838 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-29 18:13:58,854 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-29 18:13:58,869 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-29 18:13:58,893 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-29 18:13:58,911 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-29 18:13:58,930 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-29 18:13:58,946 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-04-29 18:13:58,958 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-04-29 18:13:58,973 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-29 18:13:58,974 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-29 18:13:58,974 - INFO - ✓ 14 images processed and ready
+
+2026-04-29 18:13:58,974 - INFO - ============================================================
+2026-04-29 18:13:58,974 - INFO - STEP 2: Preparing Authentication
+2026-04-29 18:13:58,974 - INFO - ============================================================
+2026-04-29 18:13:58,975 - INFO - Using email: bhabhra.sangeeta@mahindra.com
+2026-04-29 18:13:58,975 - INFO - ✓ Credentials loaded
+
+2026-04-29 18:13:58,975 - INFO - ============================================================
+2026-04-29 18:13:58,975 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-29 18:13:58,975 - INFO - ============================================================
+2026-04-29 18:13:59,401 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 18:14:00,492 - INFO - ✓ Chrome driver initialized
+2026-04-29 18:14:00,492 - INFO - 
+→ Attempting login...
+
+2026-04-29 18:14:00,492 - INFO - Opening login page...
+2026-04-29 18:14:02,041 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 18:14:03,385 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 18:14:03,419 - INFO - ✓ Login successful
+2026-04-29 18:14:05,420 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-04-29 18:14:05,420 - INFO - Navigating to App Settings...
+2026-04-29 18:14:11,768 - INFO - ✓ Dashboard Icons section loaded
+2026-04-29 18:14:13,770 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-04-29 18:14:13,770 - INFO - Starting batch – 12 configured entries
+2026-04-29 18:14:17,580 - INFO -   Found 3 user types: ['M Star', 'SBU', 'Tech Master']
+2026-04-29 18:14:17,581 - INFO - Available user types: ['M Star', 'SBU', 'Tech Master']
+2026-04-29 18:14:17,581 - INFO - Total icons to upload after expansion: 36
+2026-04-29 18:14:17,581 - INFO - ============================================================
+2026-04-29 18:14:17,582 - INFO - [1/36]
+2026-04-29 18:14:17,582 - INFO -   Adding: [M Star] Gift  (gift)
+2026-04-29 18:14:20,071 - INFO -     → User type: M Star
+2026-04-29 18:14:20,159 - INFO -     → Icon identity: gift
+2026-04-29 18:14:20,304 - INFO -     → Display title: Gift
+2026-04-29 18:14:20,337 - INFO -     → Toggle: both
+2026-04-29 18:14:22,397 - INFO -     → Image uploaded: Gift.png
+2026-04-29 18:14:22,538 - INFO -     → Form submitted
+2026-04-29 18:14:23,561 - INFO -   ✓ Icon added: Gift
+
+2026-04-29 18:14:24,561 - INFO - [2/36]
+2026-04-29 18:14:24,562 - INFO -   Adding: [SBU] Gift  (gift)
+2026-04-29 18:14:26,860 - INFO -     → User type: SBU
+2026-04-29 18:14:26,934 - INFO -     → Icon identity: gift
+2026-04-29 18:14:27,053 - INFO -     → Display title: Gift
+2026-04-29 18:14:27,083 - INFO -     → Toggle: both
+2026-04-29 18:14:29,133 - INFO -     → Image uploaded: Gift.png
+2026-04-29 18:14:29,363 - INFO -     → Form submitted
+2026-04-29 18:14:30,384 - INFO -   ✓ Icon added: Gift
+
+2026-04-29 18:14:31,385 - INFO - [3/36]
+2026-04-29 18:14:31,386 - INFO -   Adding: [Tech Master] Gift  (gift)
+2026-04-29 18:14:33,637 - INFO -     → User type: Tech Master
+2026-04-29 18:14:33,714 - INFO -     → Icon identity: gift
+2026-04-29 18:14:33,828 - INFO -     → Display title: Gift
+2026-04-29 18:14:33,854 - INFO -     → Toggle: both
+2026-04-29 18:14:35,912 - INFO -     → Image uploaded: Gift.png
+2026-04-29 18:14:36,111 - INFO -     → Form submitted
+2026-04-29 18:14:37,133 - INFO -   ✓ Icon added: Gift
+
+2026-04-29 18:14:38,134 - INFO - [4/36]
+2026-04-29 18:14:38,135 - INFO -   Adding: [M Star] History  (history)
+2026-04-29 18:14:40,395 - INFO -     → User type: M Star
+2026-04-29 18:14:40,483 - INFO -     → Icon identity: history
+2026-04-29 18:14:40,604 - INFO -     → Display title: History
+2026-04-29 18:14:40,651 - INFO -     → Toggle: both
+2026-04-29 18:14:42,693 - INFO -     → Image uploaded: history.png
+2026-04-29 18:14:42,917 - INFO -     → Form submitted
+2026-04-29 18:14:43,954 - INFO -   ✓ Icon added: History
+
+2026-04-29 18:14:44,955 - INFO - [5/36]
+2026-04-29 18:14:44,955 - INFO -   Adding: [SBU] History  (history)
+2026-04-29 18:14:47,230 - INFO -     → User type: SBU
+2026-04-29 18:14:47,305 - INFO -     → Icon identity: history
+2026-04-29 18:14:47,423 - INFO -     → Display title: History
+2026-04-29 18:14:47,453 - INFO -     → Toggle: both
+2026-04-29 18:14:49,500 - INFO -     → Image uploaded: history.png
+2026-04-29 18:14:49,726 - INFO -     → Form submitted
+2026-04-29 18:14:50,752 - INFO -   ✓ Icon added: History
+
+2026-04-29 18:14:51,753 - INFO - [6/36]
+2026-04-29 18:14:51,753 - INFO -   Adding: [Tech Master] History  (history)
+2026-04-29 18:14:53,999 - INFO -     → User type: Tech Master
+2026-04-29 18:14:54,069 - INFO -     → Icon identity: history
+2026-04-29 18:14:54,194 - INFO -     → Display title: History
+2026-04-29 18:14:54,235 - INFO -     → Toggle: both
+2026-04-29 18:14:56,280 - INFO -     → Image uploaded: history.png
+2026-04-29 18:14:56,509 - INFO -     → Form submitted
+2026-04-29 18:14:57,533 - INFO -   ✓ Icon added: History
+
+2026-04-29 18:14:58,534 - INFO - [7/36]
+2026-04-29 18:14:58,534 - INFO -   Adding: [M Star] Wallet  (wallet)
+2026-04-29 18:15:00,794 - INFO -     → User type: M Star
+2026-04-29 18:15:00,868 - INFO -     → Icon identity: wallet
+2026-04-29 18:15:01,029 - INFO -     → Display title: Wallet
+2026-04-29 18:15:01,055 - INFO -     → Toggle: both
+2026-04-29 18:15:03,101 - INFO -     → Image uploaded: wallet.png
+2026-04-29 18:15:03,303 - INFO -     → Form submitted
+2026-04-29 18:15:04,323 - INFO -   ✓ Icon added: Wallet
+
+2026-04-29 18:15:05,324 - INFO - [8/36]
+2026-04-29 18:15:05,324 - INFO -   Adding: [SBU] Wallet  (wallet)
+2026-04-29 18:15:07,589 - INFO -     → User type: SBU
+2026-04-29 18:15:07,671 - INFO -     → Icon identity: wallet
+2026-04-29 18:15:07,792 - INFO -     → Display title: Wallet
+2026-04-29 18:15:07,824 - INFO -     → Toggle: both
+2026-04-29 18:15:09,871 - INFO -     → Image uploaded: wallet.png
+2026-04-29 18:15:10,092 - INFO -     → Form submitted
+2026-04-29 18:15:11,111 - INFO -   ✓ Icon added: Wallet
+
+2026-04-29 18:15:12,111 - INFO - [9/36]
+2026-04-29 18:15:12,112 - INFO -   Adding: [Tech Master] Wallet  (wallet)
+2026-04-29 18:15:14,377 - INFO -     → User type: Tech Master
+2026-04-29 18:15:14,458 - INFO -     → Icon identity: wallet
+2026-04-29 18:15:14,572 - INFO -     → Display title: Wallet
+2026-04-29 18:15:14,601 - INFO -     → Toggle: both
+2026-04-29 18:15:16,658 - INFO -     → Image uploaded: wallet.png
+2026-04-29 18:15:16,840 - INFO -     → Form submitted
+2026-04-29 18:15:17,857 - INFO -   ✓ Icon added: Wallet
+
+2026-04-29 18:15:18,858 - INFO - [10/36]
+2026-04-29 18:15:18,858 - INFO -   Adding: [M Star] KYC  (kycdetails)
+2026-04-29 18:15:21,105 - INFO -     → User type: M Star
+2026-04-29 18:15:21,193 - INFO -     → Icon identity: kycdetails
+2026-04-29 18:15:21,292 - INFO -     → Display title: KYC
+2026-04-29 18:15:21,314 - INFO -     → Toggle: both
+2026-04-29 18:15:23,439 - INFO -     → Image uploaded: kyc.png
+2026-04-29 18:15:23,669 - INFO -     → Form submitted
+2026-04-29 18:15:24,694 - INFO -   ✓ Icon added: KYC
+
+2026-04-29 18:15:25,695 - INFO - [11/36]
+2026-04-29 18:15:25,695 - INFO -   Adding: [SBU] KYC  (kycdetails)
+2026-04-29 18:15:27,954 - INFO -     → User type: SBU
+2026-04-29 18:15:28,032 - INFO -     → Icon identity: kycdetails
+2026-04-29 18:15:28,144 - INFO -     → Display title: KYC
+2026-04-29 18:15:28,170 - INFO -     → Toggle: both
+2026-04-29 18:15:30,214 - INFO -     → Image uploaded: kyc.png
+2026-04-29 18:15:30,356 - INFO -     → Form submitted
+2026-04-29 18:15:31,383 - INFO -   ✓ Icon added: KYC
+
+2026-04-29 18:15:32,384 - INFO - [12/36]
+2026-04-29 18:15:32,384 - INFO -   Adding: [Tech Master] KYC  (kycdetails)
+2026-04-29 18:15:34,651 - INFO -     → User type: Tech Master
+2026-04-29 18:15:34,726 - INFO -     → Icon identity: kycdetails
+2026-04-29 18:15:34,900 - INFO -     → Display title: KYC
+2026-04-29 18:15:34,942 - INFO -     → Toggle: both
+2026-04-29 18:15:36,985 - INFO -     → Image uploaded: kyc.png
+2026-04-29 18:15:37,210 - INFO -     → Form submitted
+2026-04-29 18:15:38,235 - INFO -   ✓ Icon added: KYC
+
+2026-04-29 18:15:39,236 - INFO - [13/36]
+2026-04-29 18:15:39,237 - INFO -   Adding: [M Star] Blog  (blog)
+2026-04-29 18:15:41,492 - INFO -     → User type: M Star
+2026-04-29 18:15:41,593 - INFO -     → Icon identity: blog
+2026-04-29 18:15:41,707 - INFO -     → Display title: Blog
+2026-04-29 18:15:41,746 - INFO -     → Toggle: both
+2026-04-29 18:15:43,789 - INFO -     → Image uploaded: blog.png
+2026-04-29 18:15:44,012 - INFO -     → Form submitted
+2026-04-29 18:15:45,029 - INFO -   ✓ Icon added: Blog
+
+2026-04-29 18:15:46,030 - INFO - [14/36]
+2026-04-29 18:15:46,031 - INFO -   Adding: [SBU] Blog  (blog)
+2026-04-29 18:15:48,356 - INFO -     → User type: SBU
+2026-04-29 18:15:48,437 - INFO -     → Icon identity: blog
+2026-04-29 18:15:48,566 - INFO -     → Display title: Blog
+2026-04-29 18:15:48,597 - INFO -     → Toggle: both
+2026-04-29 18:15:50,640 - INFO -     → Image uploaded: blog.png
+2026-04-29 18:15:50,852 - INFO -     → Form submitted
+2026-04-29 18:15:51,870 - INFO -   ✓ Icon added: Blog
+
+2026-04-29 18:15:52,871 - INFO - [15/36]
+2026-04-29 18:15:52,872 - INFO -   Adding: [Tech Master] Blog  (blog)
+2026-04-29 18:15:55,119 - INFO -     → User type: Tech Master
+2026-04-29 18:15:55,199 - INFO -     → Icon identity: blog
+2026-04-29 18:15:55,307 - INFO -     → Display title: Blog
+2026-04-29 18:15:55,351 - INFO -     → Toggle: both
+2026-04-29 18:15:57,391 - INFO -     → Image uploaded: blog.png
+2026-04-29 18:15:57,608 - INFO -     → Form submitted
+2026-04-29 18:15:58,631 - INFO -   ✓ Icon added: Blog
+
+2026-04-29 18:15:59,631 - INFO - [16/36]
+2026-04-29 18:15:59,632 - INFO -   Adding: [M Star] Brochure  (brochure)
+2026-04-29 18:16:01,905 - INFO -     → User type: M Star
+2026-04-29 18:16:01,988 - INFO -     → Icon identity: brochure
+2026-04-29 18:16:02,122 - INFO -     → Display title: Brochure
+2026-04-29 18:16:02,149 - INFO -     → Toggle: both
+2026-04-29 18:16:04,209 - INFO -     → Image uploaded: brochure.png
+2026-04-29 18:16:04,423 - INFO -     → Form submitted
+2026-04-29 18:16:05,447 - INFO -   ✓ Icon added: Brochure
+
+2026-04-29 18:16:06,447 - INFO - [17/36]
+2026-04-29 18:16:06,448 - INFO -   Adding: [SBU] Brochure  (brochure)
+2026-04-29 18:16:08,731 - INFO -     → User type: SBU
+2026-04-29 18:16:08,814 - INFO -     → Icon identity: brochure
+2026-04-29 18:16:08,938 - INFO -     → Display title: Brochure
+2026-04-29 18:16:08,963 - INFO -     → Toggle: both
+2026-04-29 18:16:11,021 - INFO -     → Image uploaded: brochure.png
+2026-04-29 18:16:11,219 - INFO -     → Form submitted
+2026-04-29 18:16:12,244 - INFO -   ✓ Icon added: Brochure
+
+2026-04-29 18:16:13,245 - INFO - [18/36]
+2026-04-29 18:16:13,245 - INFO -   Adding: [Tech Master] Brochure  (brochure)
+2026-04-29 18:16:15,538 - INFO -     → User type: Tech Master
+2026-04-29 18:16:15,625 - INFO -     → Icon identity: brochure
+2026-04-29 18:16:15,774 - INFO -     → Display title: Brochure
+2026-04-29 18:16:15,817 - INFO -     → Toggle: both
+2026-04-29 18:16:17,865 - INFO -     → Image uploaded: brochure.png
+2026-04-29 18:16:18,015 - INFO -     → Form submitted
+2026-04-29 18:16:19,037 - INFO -   ✓ Icon added: Brochure
+
+2026-04-29 18:16:20,038 - INFO - [19/36]
+2026-04-29 18:16:20,039 - INFO -   Adding: [M Star] Claim History  (claimhistory)
+2026-04-29 18:16:22,334 - INFO -     → User type: M Star
+2026-04-29 18:16:22,479 - INFO -     → Icon identity: claimhistory
+2026-04-29 18:16:22,779 - INFO -     → Display title: Claim History
+2026-04-29 18:16:22,853 - INFO -     → Toggle: both
+2026-04-29 18:16:24,932 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-29 18:16:25,078 - INFO -     → Form submitted
+2026-04-29 18:16:26,133 - INFO -   ✓ Icon added: Claim History
+
+2026-04-29 18:16:27,134 - INFO - [20/36]
+2026-04-29 18:16:27,135 - INFO -   Adding: [SBU] Claim History  (claimhistory)
+2026-04-29 18:16:29,780 - INFO -     → User type: SBU
+2026-04-29 18:16:30,151 - INFO -     → Icon identity: claimhistory
+2026-04-29 18:16:30,465 - INFO -     → Display title: Claim History
+2026-04-29 18:16:30,530 - INFO -     → Toggle: both
+2026-04-29 18:16:32,659 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-29 18:16:32,821 - INFO -     → Form submitted
+2026-04-29 18:16:33,876 - INFO -   ✓ Icon added: Claim History
+
+2026-04-29 18:16:34,877 - INFO - [21/36]
+2026-04-29 18:16:34,877 - INFO -   Adding: [Tech Master] Claim History  (claimhistory)
+2026-04-29 18:16:37,257 - INFO -     → User type: Tech Master
+2026-04-29 18:16:37,392 - INFO -     → Icon identity: claimhistory
+2026-04-29 18:16:37,685 - INFO -     → Display title: Claim History
+2026-04-29 18:16:37,735 - INFO -     → Toggle: both
+2026-04-29 18:16:39,819 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-29 18:16:40,000 - INFO -     → Form submitted
+2026-04-29 18:16:41,061 - INFO -   ✓ Icon added: Claim History
+
+2026-04-29 18:16:42,061 - INFO - [22/36]
+2026-04-29 18:16:42,062 - INFO -   Adding: [M Star] Language  (chooselanguage)
+2026-04-29 18:16:44,354 - INFO -     → User type: M Star
+2026-04-29 18:16:44,435 - INFO -     → Icon identity: chooselanguage
+2026-04-29 18:16:44,557 - INFO -     → Display title: Language
+2026-04-29 18:16:44,603 - INFO -     → Toggle: both
+2026-04-29 18:16:46,645 - INFO -     → Image uploaded: language.png
+2026-04-29 18:16:46,876 - INFO -     → Form submitted
+2026-04-29 18:16:47,901 - INFO -   ✓ Icon added: Language
+
+2026-04-29 18:16:48,902 - INFO - [23/36]
+2026-04-29 18:16:48,902 - INFO -   Adding: [SBU] Language  (chooselanguage)
+2026-04-29 18:16:51,170 - INFO -     → User type: SBU
+2026-04-29 18:16:51,263 - INFO -     → Icon identity: chooselanguage
+2026-04-29 18:16:51,403 - INFO -     → Display title: Language
+2026-04-29 18:16:51,425 - INFO -     → Toggle: both
+2026-04-29 18:16:53,475 - INFO -     → Image uploaded: language.png
+2026-04-29 18:16:53,646 - INFO -     → Form submitted
+2026-04-29 18:16:54,679 - INFO -   ✓ Icon added: Language
+
+2026-04-29 18:16:55,680 - INFO - [24/36]
+2026-04-29 18:16:55,680 - INFO -   Adding: [Tech Master] Language  (chooselanguage)
+2026-04-29 18:16:57,953 - INFO -     → User type: Tech Master
+2026-04-29 18:16:58,047 - INFO -     → Icon identity: chooselanguage
+2026-04-29 18:16:58,183 - INFO -     → Display title: Language
+2026-04-29 18:16:58,228 - INFO -     → Toggle: both
+2026-04-29 18:17:00,276 - INFO -     → Image uploaded: language.png
+2026-04-29 18:17:00,463 - INFO -     → Form submitted
+2026-04-29 18:17:01,482 - INFO -   ✓ Icon added: Language
+
+2026-04-29 18:17:02,483 - INFO - [25/36]
+2026-04-29 18:17:02,484 - INFO -   Adding: [M Star] Code Details  (codedetails)
+2026-04-29 18:17:04,765 - INFO -     → User type: M Star
+2026-04-29 18:17:04,843 - INFO -     → Icon identity: codedetails
+2026-04-29 18:17:04,976 - INFO -     → Display title: Code Details
+2026-04-29 18:17:05,000 - INFO -     → Toggle: both
+2026-04-29 18:17:07,054 - INFO -     → Image uploaded: codedetails.png
+2026-04-29 18:17:07,305 - INFO -     → Form submitted
+2026-04-29 18:17:08,374 - INFO -   ✓ Icon added: Code Details
+
+2026-04-29 18:17:09,375 - INFO - [26/36]
+2026-04-29 18:17:09,376 - INFO -   Adding: [SBU] Code Details  (codedetails)
+2026-04-29 18:17:11,747 - INFO -     → User type: SBU
+2026-04-29 18:17:11,838 - INFO -     → Icon identity: codedetails
+2026-04-29 18:17:11,965 - INFO -     → Display title: Code Details
+2026-04-29 18:17:11,995 - INFO -     → Toggle: both
+2026-04-29 18:17:14,040 - INFO -     → Image uploaded: codedetails.png
+2026-04-29 18:17:14,191 - INFO -     → Form submitted
+2026-04-29 18:17:15,215 - INFO -   ✓ Icon added: Code Details
+
+2026-04-29 18:17:16,216 - INFO - [27/36]
+2026-04-29 18:17:16,216 - INFO -   Adding: [Tech Master] Code Details  (codedetails)
+2026-04-29 18:17:18,538 - INFO -     → User type: Tech Master
+2026-04-29 18:17:18,629 - INFO -     → Icon identity: codedetails
+2026-04-29 18:17:18,776 - INFO -     → Display title: Code Details
+2026-04-29 18:17:18,803 - INFO -     → Toggle: both
+2026-04-29 18:17:20,865 - INFO -     → Image uploaded: codedetails.png
+2026-04-29 18:17:21,102 - INFO -     → Form submitted
+2026-04-29 18:17:22,127 - INFO -   ✓ Icon added: Code Details
+
+2026-04-29 18:17:23,127 - INFO - [28/36]
+2026-04-29 18:17:23,127 - INFO -   Adding: [M Star] Help  (help)
+2026-04-29 18:17:25,458 - INFO -     → User type: M Star
+2026-04-29 18:17:25,544 - INFO -     → Icon identity: help
+2026-04-29 18:17:25,666 - INFO -     → Display title: Help
+2026-04-29 18:17:25,696 - INFO -     → Toggle: both
+2026-04-29 18:17:27,748 - INFO -     → Image uploaded: help.png
+2026-04-29 18:17:27,903 - INFO -     → Form submitted
+2026-04-29 18:17:28,932 - INFO -   ✓ Icon added: Help
+
+2026-04-29 18:17:29,933 - INFO - [29/36]
+2026-04-29 18:17:29,933 - INFO -   Adding: [SBU] Help  (help)
+2026-04-29 18:17:32,215 - INFO -     → User type: SBU
+2026-04-29 18:17:32,306 - INFO -     → Icon identity: help
+2026-04-29 18:17:32,426 - INFO -     → Display title: Help
+2026-04-29 18:17:32,472 - INFO -     → Toggle: both
+2026-04-29 18:17:34,549 - INFO -     → Image uploaded: help.png
+2026-04-29 18:17:34,762 - INFO -     → Form submitted
+2026-04-29 18:17:35,794 - INFO -   ✓ Icon added: Help
+
+2026-04-29 18:17:36,795 - INFO - [30/36]
+2026-04-29 18:17:36,796 - INFO -   Adding: [Tech Master] Help  (help)
+2026-04-29 18:17:39,076 - INFO -     → User type: Tech Master
+2026-04-29 18:17:39,172 - INFO -     → Icon identity: help
+2026-04-29 18:17:39,306 - INFO -     → Display title: Help
+2026-04-29 18:17:39,349 - INFO -     → Toggle: both
+2026-04-29 18:17:41,393 - INFO -     → Image uploaded: help.png
+2026-04-29 18:17:41,635 - INFO -     → Form submitted
+2026-04-29 18:17:42,671 - INFO -   ✓ Icon added: Help
+
+2026-04-29 18:17:43,672 - INFO - [31/36]
+2026-04-29 18:17:43,672 - INFO -   Adding: [M Star] Refer & Earn  (referandearn)
+2026-04-29 18:17:45,894 - INFO -     → User type: M Star
+2026-04-29 18:17:45,982 - INFO -     → Icon identity: referandearn
+2026-04-29 18:17:46,252 - INFO -     → Display title: Refer & Earn
+2026-04-29 18:17:46,298 - INFO -     → Toggle: both
+2026-04-29 18:17:48,374 - INFO -     → Image uploaded: referandearn.png
+2026-04-29 18:17:48,587 - INFO -     → Form submitted
+2026-04-29 18:17:49,731 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-04-29 18:17:50,732 - INFO - [32/36]
+2026-04-29 18:17:50,732 - INFO -   Adding: [SBU] Refer & Earn  (referandearn)
+2026-04-29 18:17:53,073 - INFO -     → User type: SBU
+2026-04-29 18:17:53,284 - INFO -     → Icon identity: referandearn
+2026-04-29 18:17:53,510 - INFO -     → Display title: Refer & Earn
+2026-04-29 18:17:53,545 - INFO -     → Toggle: both
+2026-04-29 18:17:55,618 - INFO -     → Image uploaded: referandearn.png
+2026-04-29 18:17:55,857 - INFO -     → Form submitted
+2026-04-29 18:17:56,893 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-04-29 18:17:57,893 - INFO - [33/36]
+2026-04-29 18:17:57,894 - INFO -   Adding: [Tech Master] Refer & Earn  (referandearn)
+2026-04-29 18:18:00,200 - INFO -     → User type: Tech Master
+2026-04-29 18:18:00,275 - INFO -     → Icon identity: referandearn
+2026-04-29 18:18:00,407 - INFO -     → Display title: Refer & Earn
+2026-04-29 18:18:00,433 - INFO -     → Toggle: both
+2026-04-29 18:18:02,488 - INFO -     → Image uploaded: referandearn.png
+2026-04-29 18:18:02,708 - INFO -     → Form submitted
+2026-04-29 18:18:03,749 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-04-29 18:18:04,749 - INFO - [34/36]
+2026-04-29 18:18:04,750 - INFO -   Adding: [M Star] E-Commerce  (productcatalogue)
+2026-04-29 18:18:07,029 - INFO -     → User type: M Star
+2026-04-29 18:18:07,103 - INFO -     → Icon identity: productcatalogue
+2026-04-29 18:18:07,248 - INFO -     → Display title: E-Commerce
+2026-04-29 18:18:07,274 - INFO -     → Toggle: both
+2026-04-29 18:18:09,365 - INFO -     → Image uploaded: productcatalogue.png
+2026-04-29 18:18:09,600 - INFO -     → Form submitted
+2026-04-29 18:18:10,628 - INFO -   ✓ Icon added: E-Commerce
+
+2026-04-29 18:18:11,629 - INFO - [35/36]
+2026-04-29 18:18:11,629 - INFO -   Adding: [SBU] E-Commerce  (productcatalogue)
+2026-04-29 18:18:13,896 - INFO -     → User type: SBU
+2026-04-29 18:18:13,976 - INFO -     → Icon identity: productcatalogue
+2026-04-29 18:18:14,100 - INFO -     → Display title: E-Commerce
+2026-04-29 18:18:14,143 - INFO -     → Toggle: both
+2026-04-29 18:18:16,218 - INFO -     → Image uploaded: productcatalogue.png
+2026-04-29 18:18:16,458 - INFO -     → Form submitted
+2026-04-29 18:18:17,491 - INFO -   ✓ Icon added: E-Commerce
+
+2026-04-29 18:18:18,492 - INFO - [36/36]
+2026-04-29 18:18:18,493 - INFO -   Adding: [Tech Master] E-Commerce  (productcatalogue)
+2026-04-29 18:18:20,860 - INFO -     → User type: Tech Master
+2026-04-29 18:18:20,935 - INFO -     → Icon identity: productcatalogue
+2026-04-29 18:18:21,081 - INFO -     → Display title: E-Commerce
+2026-04-29 18:18:21,110 - INFO -     → Toggle: both
+2026-04-29 18:18:23,157 - INFO -     → Image uploaded: productcatalogue.png
+2026-04-29 18:18:23,389 - INFO -     → Form submitted
+2026-04-29 18:18:24,426 - INFO -   ✓ Icon added: E-Commerce
+
+2026-04-29 18:18:25,427 - INFO - ============================================================
+2026-04-29 18:18:25,427 - INFO - Batch complete → ✓ 36 succeeded  ✗ 0 failed
+2026-04-29 18:18:25,428 - INFO - 
+============================================================
+2026-04-29 18:18:25,428 - INFO - AUTOMATION SUMMARY
+2026-04-29 18:18:25,429 - INFO - ============================================================
+2026-04-29 18:18:25,430 - INFO - ✓ Successful uploads: 36
+2026-04-29 18:18:25,430 - INFO - ✗ Failed uploads: 0
+2026-04-29 18:18:25,430 - INFO - Total processed: 12
+2026-04-29 18:18:25,431 - INFO - Success rate: 300.0%
+2026-04-29 18:18:25,431 - INFO - ============================================================
+2026-04-29 18:18:25,608 - INFO - Browser closed
+2026-04-29 18:18:25,608 - INFO - 
+Automation completed at 2026-04-29 18:18:25
+2026-04-29 18:18:25,608 - INFO - Full log available at: automation/logs/full_automation_20260429_181327.log
+

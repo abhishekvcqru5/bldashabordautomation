@@ -1,0 +1,108 @@
+{
+  "_note": "user_type can be 'all' to add for every user type, or a specific name like 'Retailer' or 'Painter'",
+  "_icon_identities_available": [
+    "gift",
+    "referandearn",
+    "wallet",
+    "claimhistory",
+    "productcatalogue",
+    "help",
+    "kycdetails",
+    "codedetails",
+    "brochure",
+    "tds",
+    "chooselanguage",
+    "blog",
+    "aboutus",
+    "tremsandcondition",
+    "contactus",
+    "history",
+    "scaneinvoice"
+  ],
+  "icons": [
+    {
+      "user_type": "all",
+      "icon_identity": "gift",
+      "display_title": "Gift",
+      "image_path": "automation/processed_images/Gift.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "history",
+      "display_title": "History",
+      "image_path": "automation/processed_images/history.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "wallet",
+      "display_title": "Wallet",
+      "image_path": "automation/processed_images/wallet.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "kycdetails",
+      "display_title": "KYC",
+      "image_path": "automation/processed_images/kyc.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "blog",
+      "display_title": "Blog",
+      "image_path": "automation/processed_images/blog.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "brochure",
+      "display_title": "Brochure",
+      "image_path": "automation/processed_images/brochure.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "claimhistory",
+      "display_title": "Claim History",
+      "image_path": "automation/processed_images/claimhistory1.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "chooselanguage",
+      "display_title": "Language",
+      "image_path": "automation/processed_images/language.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "codedetails",
+      "display_title": "Code Details",
+      "image_path": "automation/processed_images/codedetails.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "help",
+      "display_title": "Help",
+      "image_path": "automation/processed_images/help.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "referandearn",
+      "display_title": "Refer & Earn",
+      "image_path": "automation/processed_images/referandearn.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "productcatalogue",
+      "display_title": "E-Commerce",
+      "image_path": "automation/processed_images/productcatalogue.png",
+      "toggle_option": "both"
+    }
+  ]
+}

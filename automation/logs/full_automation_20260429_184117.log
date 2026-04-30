@@ -1,0 +1,18 @@
+2026-04-29 18:41:21,094 - INFO - User selected: Brand Setting
+2026-04-29 18:41:39,958 - INFO - ============================================================
+2026-04-29 18:41:39,958 - INFO - BRAND SETTING — Image Processing
+2026-04-29 18:41:39,958 - INFO - ============================================================
+2026-04-29 18:41:40,018 - INFO - ✓ Logo  → logo_processed.jpg  |  56.0 KB  |  quality 95
+2026-04-29 18:41:40,019 - ERROR - Splash file not found: brandsetting/splash.jpg
+2026-04-29 18:41:40,019 - INFO - 
+2026-04-29 18:41:40,019 - INFO - Extracting brand colours from logo...
+2026-04-29 18:41:40,186 - INFO -   Colours extracted from logo:
+2026-04-29 18:41:40,186 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-04-29 18:41:40,186 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-04-29 18:41:40,186 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-04-29 18:41:40,186 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-04-29 18:41:40,194 - ERROR - Splash could not be processed. Aborting brand setting.
+2026-04-29 18:41:40,194 - INFO - 
+Automation completed at 2026-04-29 18:41:40
+2026-04-29 18:41:40,194 - INFO - Full log available at: automation/logs/full_automation_20260429_184117.log
+

@@ -1,0 +1,48 @@
+2026-04-29 20:27:25,492 - INFO - User selected: Promotion Banners
+2026-04-29 20:27:25,495 - INFO - ============================================================
+2026-04-29 20:27:25,495 - INFO - PROMOTION BANNERS — Image Processing
+2026-04-29 20:27:25,495 - INFO - ============================================================
+2026-04-29 20:27:25,497 - INFO - Found 2 banner image(s) in banner/
+2026-04-29 20:27:25,593 - INFO -   ⚙ Processing VcqruIntro banner 1.jpeg  (size 480×180 → need 1920×1080)
+2026-04-29 20:27:25,850 - INFO -   ✓ VcqruIntro banner 1.jpeg  →  VcqruIntro banner 1_processed.jpg  |  1920×1080  |  0.24 MB  |  quality 92
+2026-04-29 20:27:25,853 - INFO -   ⚙ Processing VcqruIntro banner 2.jpeg  (size 480×180 → need 1920×1080)
+2026-04-29 20:27:26,073 - INFO -   ✓ VcqruIntro banner 2.jpeg  →  VcqruIntro banner 2_processed.jpg  |  1920×1080  |  0.24 MB  |  quality 92
+2026-04-29 20:27:26,075 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-04-29 20:27:26,076 - INFO - ============================================================
+2026-04-29 20:27:26,076 - INFO - PROMOTION BANNERS — Browser Automation
+2026-04-29 20:27:26,077 - INFO - ============================================================
+2026-04-29 20:27:26,849 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 20:27:29,789 - INFO - ✓ Chrome driver initialized
+2026-04-29 20:27:29,793 - INFO - Opening login page...
+2026-04-29 20:27:33,001 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 20:27:34,624 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 20:27:34,680 - INFO - ✓ Login successful
+2026-04-29 20:27:36,681 - INFO - Going to App Settings...
+2026-04-29 20:27:43,334 - INFO -   → Promotion Banners section opened
+2026-04-29 20:27:45,016 - INFO - ✓ Promotion Banners page ready
+2026-04-29 20:27:45,137 - INFO - Starting batch  —  2 banner(s) to publish
+2026-04-29 20:27:45,138 - INFO - ============================================================
+2026-04-29 20:27:45,138 - INFO - [1/2]
+2026-04-29 20:27:45,172 - INFO -   Publishing: [VcqruIntro banner 1]  (VcqruIntro banner 1_processed.jpg)
+2026-04-29 20:27:47,629 - INFO -     → Title entered: VcqruIntro banner 1
+2026-04-29 20:27:49,762 - INFO -     → Image uploaded: VcqruIntro banner 1_processed.jpg
+2026-04-29 20:27:49,994 - INFO -     → Publish Banner clicked
+2026-04-29 20:27:54,077 - INFO -   ✓ Banner published: VcqruIntro banner 1
+
+2026-04-29 20:27:55,078 - INFO - [2/2]
+2026-04-29 20:27:55,080 - INFO -   Publishing: [VcqruIntro banner 2]  (VcqruIntro banner 2_processed.jpg)
+2026-04-29 20:27:57,989 - INFO -     → Title entered: VcqruIntro banner 2
+2026-04-29 20:28:00,386 - INFO -     → Image uploaded: VcqruIntro banner 2_processed.jpg
+2026-04-29 20:28:00,654 - INFO -     → Publish Banner clicked
+2026-04-29 20:28:04,679 - INFO -   ✓ Banner published: VcqruIntro banner 2
+
+2026-04-29 20:28:05,680 - INFO - ============================================================
+2026-04-29 20:28:05,681 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-04-29 20:28:06,073 - INFO - Browser closed
+2026-04-29 20:28:06,074 - INFO - 
+Task finished at 2026-04-29 20:28:06
+2026-04-29 20:28:06,075 - INFO - Log: automation/logs/full_automation_20260429_202553.log
+
+2026-04-29 20:28:17,386 - INFO - Automation cancelled by user (Ctrl+C)

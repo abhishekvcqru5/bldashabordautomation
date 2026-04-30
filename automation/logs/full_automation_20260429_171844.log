@@ -1,0 +1,27 @@
+2026-04-29 17:18:47,895 - INFO - User selected: Promotion Banners
+2026-04-29 17:19:15,450 - INFO - ============================================================
+2026-04-29 17:19:15,450 - INFO - PROMOTION BANNERS — Image Processing
+2026-04-29 17:19:15,450 - INFO - ============================================================
+2026-04-29 17:19:15,451 - INFO - Found 3 banner image(s) in banner/
+2026-04-29 17:19:15,500 - INFO -   ✓ vcqrubanne01.jpeg  →  Already OK  (1920×1080, 0.32 MB)
+2026-04-29 17:19:15,641 - INFO -   ✓ vcqrubanne02.jpeg  →  Already OK  (1920×1080, 0.31 MB)
+2026-04-29 17:19:15,751 - INFO -   ✓ vcqrubanne03.jpeg  →  Already OK  (1920×1080, 0.25 MB)
+2026-04-29 17:19:15,853 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-04-29 17:19:15,853 - INFO - ============================================================
+2026-04-29 17:19:15,853 - INFO - PROMOTION BANNERS — Browser Automation
+2026-04-29 17:19:15,853 - INFO - ============================================================
+2026-04-29 17:19:16,280 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 17:19:17,606 - INFO - ✓ Chrome driver initialized
+2026-04-29 17:19:17,606 - INFO - Opening login page...
+2026-04-29 17:19:19,258 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 17:19:21,210 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 17:19:21,238 - INFO - ✓ Login successful
+2026-04-29 17:19:23,239 - INFO - Going to App Settings...
+2026-04-29 17:19:53,327 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=34495): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf7d76edc63be05f29d1c7c2b0e43199
+2026-04-29 17:19:53,363 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=34495): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf7d76edc63be05f29d1c7c2b0e43199
+2026-04-29 17:19:53,363 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=34495): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf7d76edc63be05f29d1c7c2b0e43199
+2026-04-29 17:19:53,425 - INFO - Browser closed
+2026-04-29 17:19:53,544 - INFO - 
+Automation cancelled by user

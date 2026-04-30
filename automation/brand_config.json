@@ -1,0 +1,4 @@
+{
+  "_note": "Place your logo and splash files inside brand_folder. File extension does not matter — any of .png .jpg .jpeg .webp etc. is accepted. Colors are auto-extracted from the logo at runtime.",
+  "brand_folder": "brandsetting"
+}

@@ -1,0 +1,519 @@
+2026-04-30 18:12:36,542 - INFO - User selected: Brand Setting
+2026-04-30 18:12:41,409 - INFO -   Found logo asset: logo.png
+2026-04-30 18:12:41,410 - INFO -   Found splash asset: splash.png
+2026-04-30 18:12:41,410 - INFO - ============================================================
+2026-04-30 18:12:41,410 - INFO - BRAND SETTING — Image Processing
+2026-04-30 18:12:41,410 - INFO - ============================================================
+2026-04-30 18:12:41,490 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-04-30 18:12:41,616 - INFO - ✓ Logo  → logo_processed.png  |  74.4 KB  |  PNG lossless
+2026-04-30 18:12:41,654 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-04-30 18:12:42,385 - INFO - ✓ Splash → splash_processed.png  |  0.39 MB  |  PNG lossless
+2026-04-30 18:12:42,388 - INFO - 
+2026-04-30 18:12:42,388 - INFO - Extracting brand colours from logo...
+2026-04-30 18:12:42,603 - INFO -   Colours extracted from logo:
+2026-04-30 18:12:42,603 - INFO -     Header Color     →  #2060E0  (dominant logo colour)
+2026-04-30 18:12:42,603 - INFO -     Background Color →  #143E91  (35% darker)
+2026-04-30 18:12:42,603 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-04-30 18:12:42,603 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-04-30 18:12:42,613 - INFO - ✓ Both images ready
+
+2026-04-30 18:12:42,613 - INFO - ============================================================
+2026-04-30 18:12:42,614 - INFO - BRAND SETTING — Browser Automation
+2026-04-30 18:12:42,614 - INFO - ============================================================
+2026-04-30 18:12:47,119 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-30 18:12:49,153 - INFO - ✓ Chrome driver initialized
+2026-04-30 18:12:49,154 - INFO - Opening login page...
+2026-04-30 18:12:51,162 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-30 18:12:52,478 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-30 18:12:52,566 - INFO - ✓ Login successful
+2026-04-30 18:12:54,566 - INFO - Going to App Settings...
+2026-04-30 18:13:01,011 - INFO -   → Identity & Branding section opened
+2026-04-30 18:13:03,302 - INFO -   → Edit Branding popup opened
+2026-04-30 18:13:03,351 - INFO - ✓ Brand setting form is ready
+2026-04-30 18:13:03,353 - INFO -   Setting company name: vcqru
+2026-04-30 18:13:04,327 - INFO -     → HeaderColor: #2060E0
+2026-04-30 18:13:05,048 - INFO -     → FooterColor: #F5F5F5
+2026-04-30 18:13:05,791 - INFO -     → BodyColor: #FFFFFF
+2026-04-30 18:13:06,517 - INFO -     → BackgroundColor: #143E91
+2026-04-30 18:13:08,573 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-04-30 18:13:10,649 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-04-30 18:13:10,768 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-04-30 18:13:13,799 - INFO - ✓ Brand settings saved successfully!
+2026-04-30 18:13:13,974 - INFO - Browser closed
+2026-04-30 18:13:13,974 - INFO - 
+Task finished at 2026-04-30 18:13:13
+2026-04-30 18:13:13,975 - INFO - Log: automation/logs/full_automation_20260430_181213.log
+
+2026-04-30 18:13:52,008 - INFO - User selected: Promotion Banners
+2026-04-30 18:13:52,008 - INFO - ============================================================
+2026-04-30 18:13:52,009 - INFO - PROMOTION BANNERS — Image Processing
+2026-04-30 18:13:52,009 - INFO - ============================================================
+2026-04-30 18:13:52,010 - INFO - Found 3 banner image(s) in banner/
+2026-04-30 18:13:52,011 - INFO -   ✓ vcqrubanne01.jpeg  →  Already OK  (1920×1080, 0.32 MB)
+2026-04-30 18:13:52,187 - INFO -   ✓ vcqrubanne02.jpeg  →  Already OK  (1920×1080, 0.31 MB)
+2026-04-30 18:13:52,302 - INFO -   ✓ vcqrubanne03.jpeg  →  Already OK  (1920×1080, 0.25 MB)
+2026-04-30 18:13:52,421 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-04-30 18:13:52,422 - INFO - ============================================================
+2026-04-30 18:13:52,422 - INFO - PROMOTION BANNERS — Browser Automation
+2026-04-30 18:13:52,422 - INFO - ============================================================
+2026-04-30 18:13:52,863 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-30 18:13:54,022 - INFO - ✓ Chrome driver initialized
+2026-04-30 18:13:54,022 - INFO - Opening login page...
+2026-04-30 18:13:55,730 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-30 18:13:57,120 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-30 18:13:57,238 - INFO - ✓ Login successful
+2026-04-30 18:13:59,239 - INFO - Going to App Settings...
+2026-04-30 18:14:05,679 - INFO -   → Promotion Banners section opened
+2026-04-30 18:14:05,719 - INFO - ✓ Promotion Banners page ready
+2026-04-30 18:14:05,719 - INFO - Starting batch  —  3 banner(s) to publish
+2026-04-30 18:14:05,720 - INFO - ============================================================
+2026-04-30 18:14:05,720 - INFO - [1/3]
+2026-04-30 18:14:05,721 - INFO -   Publishing: [vcqrubanne01]  (vcqrubanne01_processed.jpg)
+2026-04-30 18:14:08,083 - INFO -     → Title entered: vcqrubanne01
+2026-04-30 18:14:10,148 - INFO -     → Image uploaded: vcqrubanne01_processed.jpg
+2026-04-30 18:14:10,308 - INFO -     → Publish Banner clicked
+2026-04-30 18:14:14,338 - INFO -   ✓ Banner published: vcqrubanne01
+
+2026-04-30 18:14:15,339 - INFO - [2/3]
+2026-04-30 18:14:15,339 - INFO -   Publishing: [vcqrubanne02]  (vcqrubanne02_processed.jpg)
+2026-04-30 18:14:17,674 - INFO -     → Title entered: vcqrubanne02
+2026-04-30 18:14:19,707 - INFO -     → Image uploaded: vcqrubanne02_processed.jpg
+2026-04-30 18:14:19,900 - INFO -     → Publish Banner clicked
+2026-04-30 18:14:23,921 - INFO -   ✓ Banner published: vcqrubanne02
+
+2026-04-30 18:14:24,922 - INFO - [3/3]
+2026-04-30 18:14:24,923 - INFO -   Publishing: [vcqrubanne03]  (vcqrubanne03_processed.jpg)
+2026-04-30 18:14:27,244 - INFO -     → Title entered: vcqrubanne03
+2026-04-30 18:14:29,320 - INFO -     → Image uploaded: vcqrubanne03_processed.jpg
+2026-04-30 18:14:29,485 - INFO -     → Publish Banner clicked
+2026-04-30 18:14:33,494 - INFO -   ✓ Banner published: vcqrubanne03
+
+2026-04-30 18:14:34,494 - INFO - ============================================================
+2026-04-30 18:14:34,495 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-04-30 18:14:34,639 - INFO - Browser closed
+2026-04-30 18:14:34,639 - INFO - 
+Task finished at 2026-04-30 18:14:34
+2026-04-30 18:14:34,639 - INFO - Log: automation/logs/full_automation_20260430_181213.log
+
+2026-04-30 18:22:38,935 - INFO - User selected: Dashboard Icons
+2026-04-30 18:22:38,935 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-30 18:22:38,936 - INFO - Automation started at 2026-04-30 18:22:38
+
+2026-04-30 18:22:38,936 - INFO - ============================================================
+2026-04-30 18:22:38,936 - INFO - STEP 1: Processing and Compressing Images
+2026-04-30 18:22:38,936 - INFO - ============================================================
+2026-04-30 18:22:38,936 - INFO - Processing images from: dashboardicons
+2026-04-30 18:22:38,936 - INFO - Output folder: automation/processed_images
+2026-04-30 18:22:38,936 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-30 18:22:38,959 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-30 18:22:38,980 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-30 18:22:39,013 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-04-30 18:22:39,036 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-30 18:22:39,053 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-30 18:22:39,071 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-30 18:22:39,086 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-30 18:22:39,101 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-30 18:22:39,124 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-30 18:22:39,140 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-30 18:22:39,161 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-30 18:22:39,186 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-04-30 18:22:39,202 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-04-30 18:22:39,221 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-30 18:22:39,221 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-30 18:22:39,222 - INFO - ✓ 14 images processed and ready
+
+2026-04-30 18:22:39,222 - INFO - ============================================================
+2026-04-30 18:22:39,223 - INFO - STEP 2: Preparing Authentication
+2026-04-30 18:22:39,223 - INFO - ============================================================
+2026-04-30 18:22:39,223 - INFO - Using email: invo@gmail.com
+2026-04-30 18:22:39,223 - INFO - ✓ Credentials loaded
+
+2026-04-30 18:22:39,223 - INFO - ============================================================
+2026-04-30 18:22:39,223 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-30 18:22:39,224 - INFO - ============================================================
+2026-04-30 18:22:40,004 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-30 18:22:42,597 - INFO - ✓ Chrome driver initialized
+2026-04-30 18:22:42,597 - INFO - 
+→ Attempting login...
+
+2026-04-30 18:22:42,597 - INFO - Opening login page...
+2026-04-30 18:22:45,839 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-30 18:22:48,042 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-30 18:22:48,146 - INFO - ✓ Login successful
+2026-04-30 18:22:50,148 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-04-30 18:22:50,148 - INFO - Navigating to App Settings...
+2026-04-30 18:22:58,333 - INFO - ✓ Dashboard Icons section loaded
+2026-04-30 18:23:00,336 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-04-30 18:23:00,336 - INFO - Starting batch – 12 configured entries
+2026-04-30 18:23:03,889 - INFO -   Found 2 user types: ['Applicator', 'Distributor']
+2026-04-30 18:23:03,889 - INFO - Available user types: ['Applicator', 'Distributor']
+2026-04-30 18:23:03,889 - INFO - Total icons to upload after expansion: 24
+2026-04-30 18:23:03,890 - INFO - ============================================================
+2026-04-30 18:23:03,890 - INFO - [1/24]
+2026-04-30 18:23:03,890 - INFO -   Adding: [Applicator] Gift  (gift)
+2026-04-30 18:23:06,490 - INFO -     → User type: Applicator
+2026-04-30 18:23:06,869 - INFO -     → Icon identity: gift
+2026-04-30 18:23:07,126 - INFO -     → Display title: Gift
+2026-04-30 18:23:07,240 - INFO -     → Toggle: both
+2026-04-30 18:23:09,471 - INFO -     → Image uploaded: Gift.png
+2026-04-30 18:23:09,748 - INFO -     → Form submitted
+2026-04-30 18:23:10,840 - INFO -   ✓ Icon added: Gift
+
+2026-04-30 18:23:11,841 - INFO - [2/24]
+2026-04-30 18:23:11,841 - INFO -   Adding: [Distributor] Gift  (gift)
+2026-04-30 18:23:14,844 - INFO -     → User type: Distributor
+2026-04-30 18:23:15,675 - INFO -     → Icon identity: gift
+2026-04-30 18:23:16,158 - INFO -     → Display title: Gift
+2026-04-30 18:23:16,258 - INFO -     → Toggle: both
+2026-04-30 18:23:18,388 - INFO -     → Image uploaded: Gift.png
+2026-04-30 18:23:18,673 - INFO -     → Form submitted
+2026-04-30 18:23:19,759 - INFO -   ✓ Icon added: Gift
+
+2026-04-30 18:23:20,761 - INFO - [3/24]
+2026-04-30 18:23:20,761 - INFO -   Adding: [Applicator] History  (history)
+2026-04-30 18:23:23,371 - INFO -     → User type: Applicator
+2026-04-30 18:23:23,722 - INFO -     → Icon identity: history
+2026-04-30 18:23:24,106 - INFO -     → Display title: History
+2026-04-30 18:23:24,168 - INFO -     → Toggle: both
+2026-04-30 18:23:26,243 - INFO -     → Image uploaded: history.png
+2026-04-30 18:23:26,460 - INFO -     → Form submitted
+2026-04-30 18:23:27,508 - INFO -   ✓ Icon added: History
+
+2026-04-30 18:23:28,508 - INFO - [4/24]
+2026-04-30 18:23:28,509 - INFO -   Adding: [Distributor] History  (history)
+2026-04-30 18:23:30,968 - INFO -     → User type: Distributor
+2026-04-30 18:23:31,189 - INFO -     → Icon identity: history
+2026-04-30 18:23:31,867 - INFO -     → Display title: History
+2026-04-30 18:23:31,930 - INFO -     → Toggle: both
+2026-04-30 18:23:34,084 - INFO -     → Image uploaded: history.png
+2026-04-30 18:23:34,282 - INFO -     → Form submitted
+2026-04-30 18:23:35,334 - INFO -   ✓ Icon added: History
+
+2026-04-30 18:23:36,334 - INFO - [5/24]
+2026-04-30 18:23:36,335 - INFO -   Adding: [Applicator] Wallet  (wallet)
+2026-04-30 18:23:39,441 - INFO -     → User type: Applicator
+2026-04-30 18:23:39,696 - INFO -     → Icon identity: wallet
+2026-04-30 18:23:39,958 - INFO -     → Display title: Wallet
+2026-04-30 18:23:40,026 - INFO -     → Toggle: both
+2026-04-30 18:23:42,135 - INFO -     → Image uploaded: wallet.png
+2026-04-30 18:23:42,520 - INFO -     → Form submitted
+2026-04-30 18:23:44,073 - INFO -   ✓ Icon added: Wallet
+
+2026-04-30 18:23:45,075 - INFO - [6/24]
+2026-04-30 18:23:45,076 - INFO -   Adding: [Distributor] Wallet  (wallet)
+2026-04-30 18:23:47,528 - INFO -     → User type: Distributor
+2026-04-30 18:23:47,744 - INFO -     → Icon identity: wallet
+2026-04-30 18:23:47,992 - INFO -     → Display title: Wallet
+2026-04-30 18:23:48,051 - INFO -     → Toggle: both
+2026-04-30 18:23:50,179 - INFO -     → Image uploaded: wallet.png
+2026-04-30 18:23:50,397 - INFO -     → Form submitted
+2026-04-30 18:23:51,450 - INFO -   ✓ Icon added: Wallet
+
+2026-04-30 18:23:52,450 - INFO - [7/24]
+2026-04-30 18:23:52,451 - INFO -   Adding: [Applicator] KYC  (kycdetails)
+2026-04-30 18:23:54,963 - INFO -     → User type: Applicator
+2026-04-30 18:23:55,197 - INFO -     → Icon identity: kycdetails
+2026-04-30 18:23:55,450 - INFO -     → Display title: KYC
+2026-04-30 18:23:55,511 - INFO -     → Toggle: both
+2026-04-30 18:23:57,612 - INFO -     → Image uploaded: kyc.png
+2026-04-30 18:23:58,031 - INFO -     → Form submitted
+2026-04-30 18:23:59,102 - INFO -   ✓ Icon added: KYC
+
+2026-04-30 18:24:00,103 - INFO - [8/24]
+2026-04-30 18:24:00,105 - INFO -   Adding: [Distributor] KYC  (kycdetails)
+2026-04-30 18:24:01,311 - ERROR -   ✗ Failed to add [KYC]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x56cafd7e13ea <unknown>
+#1 0x56cafd1f1845 <unknown>
+#2 0x56cafd24ad7b <unknown>
+#3 0x56cafd2489b2 <unknown>
+#4 0x56cafd245ec9 <unknown>
+#5 0x56cafd244fc7 <unknown>
+#6 0x56cafd2390b2 <unknown>
+#7 0x56cafd2389f8 <unknown>
+#8 0x56cafd28c175 <unknown>
+#9 0x56cafd237204 <unknown>
+#10 0x56cafd237fc1 <unknown>
+#11 0x56cafd7a49cb <unknown>
+#12 0x56cafd7a7c93 <unknown>
+#13 0x56cafd79265c <unknown>
+#14 0x56cafd7a8429 <unknown>
+#15 0x56cafd77a9d7 <unknown>
+#16 0x56cafd7cec08 <unknown>
+#17 0x56cafd7cee33 <unknown>
+#18 0x56cafd7dfdf7 <unknown>
+#19 0x7a1e10c9caa4 <unknown>
+#20 0x7a1e10d29c6c <unknown>
+
+2026-04-30 18:24:02,109 - INFO -   📸 Screenshot saved: automation/screenshots/error_KYC_20260430_182401.png
+2026-04-30 18:24:04,283 - INFO - [9/24]
+2026-04-30 18:24:04,283 - INFO -   Adding: [Applicator] Blog  (blog)
+2026-04-30 18:24:06,693 - INFO -     → User type: Applicator
+2026-04-30 18:24:06,929 - INFO -     → Icon identity: blog
+2026-04-30 18:24:07,196 - INFO -     → Display title: Blog
+2026-04-30 18:24:07,265 - INFO -     → Toggle: both
+2026-04-30 18:24:09,380 - INFO -     → Image uploaded: blog.png
+2026-04-30 18:24:22,117 - ERROR -   ✗ Failed to add [Blog]: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x56cafd7e13ea <unknown>
+#1 0x56cafd1f1845 <unknown>
+#2 0x56cafd1f8691 <unknown>
+#3 0x56cafd1faec6 <unknown>
+#4 0x56cafd1faf93 <unknown>
+#5 0x56cafd245b43 <unknown>
+#6 0x56cafd244daa <unknown>
+#7 0x56cafd2394a1 <unknown>
+#8 0x56cafd2389f8 <unknown>
+#9 0x56cafd28c175 <unknown>
+#10 0x56cafd237204 <unknown>
+#11 0x56cafd237fc1 <unknown>
+#12 0x56cafd7a49cb <unknown>
+#13 0x56cafd7a7c93 <unknown>
+#14 0x56cafd79265c <unknown>
+#15 0x56cafd7a8429 <unknown>
+#16 0x56cafd77a9d7 <unknown>
+#17 0x56cafd7cec08 <unknown>
+#18 0x56cafd7cee33 <unknown>
+#19 0x56cafd7dfdf7 <unknown>
+#20 0x7a1e10c9caa4 <unknown>
+#21 0x7a1e10d29c6c <unknown>
+
+2026-04-30 18:24:22,871 - INFO -   📸 Screenshot saved: automation/screenshots/error_Blog_20260430_182422.png
+2026-04-30 18:24:23,918 - INFO - [10/24]
+2026-04-30 18:24:23,918 - INFO -   Adding: [Distributor] Blog  (blog)
+2026-04-30 18:24:26,598 - INFO -     → User type: Distributor
+2026-04-30 18:24:26,766 - INFO -     → Icon identity: blog
+2026-04-30 18:24:27,048 - INFO -     → Display title: Blog
+2026-04-30 18:24:27,130 - INFO -     → Toggle: both
+2026-04-30 18:24:29,255 - INFO -     → Image uploaded: blog.png
+2026-04-30 18:24:29,583 - INFO -     → Form submitted
+2026-04-30 18:24:30,608 - INFO -   ✓ Icon added: Blog
+
+2026-04-30 18:24:31,613 - INFO - [11/24]
+2026-04-30 18:24:31,613 - INFO -   Adding: [Applicator] Brochure  (brochure)
+2026-04-30 18:24:34,153 - INFO -     → User type: Applicator
+2026-04-30 18:24:34,337 - INFO -     → Icon identity: brochure
+2026-04-30 18:24:34,647 - INFO -     → Display title: Brochure
+2026-04-30 18:24:34,735 - INFO -     → Toggle: both
+2026-04-30 18:24:36,870 - INFO -     → Image uploaded: brochure.png
+2026-04-30 18:24:37,033 - INFO -     → Form submitted
+2026-04-30 18:24:38,089 - INFO -   ✓ Icon added: Brochure
+
+2026-04-30 18:24:39,089 - INFO - [12/24]
+2026-04-30 18:24:39,090 - INFO -   Adding: [Distributor] Brochure  (brochure)
+2026-04-30 18:24:41,523 - INFO -     → User type: Distributor
+2026-04-30 18:24:41,764 - INFO -     → Icon identity: brochure
+2026-04-30 18:24:42,067 - INFO -     → Display title: Brochure
+2026-04-30 18:24:42,199 - INFO -     → Toggle: both
+2026-04-30 18:24:44,340 - INFO -     → Image uploaded: brochure.png
+2026-04-30 18:24:44,516 - INFO -     → Form submitted
+2026-04-30 18:24:45,552 - INFO -   ✓ Icon added: Brochure
+
+2026-04-30 18:24:46,552 - INFO - [13/24]
+2026-04-30 18:24:46,552 - INFO -   Adding: [Applicator] Claim History  (claimhistory)
+2026-04-30 18:24:48,992 - INFO -     → User type: Applicator
+2026-04-30 18:24:49,202 - INFO -     → Icon identity: claimhistory
+2026-04-30 18:24:49,548 - INFO -     → Display title: Claim History
+2026-04-30 18:24:49,605 - INFO -     → Toggle: both
+2026-04-30 18:24:51,729 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-30 18:24:51,935 - INFO -     → Form submitted
+2026-04-30 18:24:52,973 - INFO -   ✓ Icon added: Claim History
+
+2026-04-30 18:24:53,973 - INFO - [14/24]
+2026-04-30 18:24:53,974 - INFO -   Adding: [Distributor] Claim History  (claimhistory)
+2026-04-30 18:24:56,213 - INFO -     → User type: Distributor
+2026-04-30 18:24:56,293 - INFO -     → Icon identity: claimhistory
+2026-04-30 18:24:56,442 - INFO -     → Display title: Claim History
+2026-04-30 18:24:56,485 - INFO -     → Toggle: both
+2026-04-30 18:24:58,534 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-30 18:24:58,626 - INFO -     → Form submitted
+2026-04-30 18:24:59,652 - INFO -   ✓ Icon added: Claim History
+
+2026-04-30 18:25:00,652 - INFO - [15/24]
+2026-04-30 18:25:00,653 - INFO -   Adding: [Applicator] Language  (chooselanguage)
+2026-04-30 18:25:02,914 - INFO -     → User type: Applicator
+2026-04-30 18:25:02,999 - INFO -     → Icon identity: chooselanguage
+2026-04-30 18:25:03,146 - INFO -     → Display title: Language
+2026-04-30 18:25:03,198 - INFO -     → Toggle: both
+2026-04-30 18:25:05,273 - INFO -     → Image uploaded: language.png
+2026-04-30 18:25:05,408 - INFO -     → Form submitted
+2026-04-30 18:25:06,432 - INFO -   ✓ Icon added: Language
+
+2026-04-30 18:25:07,433 - INFO - [16/24]
+2026-04-30 18:25:07,434 - INFO -   Adding: [Distributor] Language  (chooselanguage)
+2026-04-30 18:25:09,681 - INFO -     → User type: Distributor
+2026-04-30 18:25:09,765 - INFO -     → Icon identity: chooselanguage
+2026-04-30 18:25:09,902 - INFO -     → Display title: Language
+2026-04-30 18:25:09,929 - INFO -     → Toggle: both
+2026-04-30 18:25:11,988 - INFO -     → Image uploaded: language.png
+2026-04-30 18:25:12,084 - INFO -     → Form submitted
+2026-04-30 18:25:13,106 - INFO -   ✓ Icon added: Language
+
+2026-04-30 18:25:14,107 - INFO - [17/24]
+2026-04-30 18:25:14,107 - INFO -   Adding: [Applicator] Code Details  (codedetails)
+2026-04-30 18:25:16,358 - INFO -     → User type: Applicator
+2026-04-30 18:25:16,449 - INFO -     → Icon identity: codedetails
+2026-04-30 18:25:16,580 - INFO -     → Display title: Code Details
+2026-04-30 18:25:16,610 - INFO -     → Toggle: both
+2026-04-30 18:25:18,683 - INFO -     → Image uploaded: codedetails.png
+2026-04-30 18:25:18,840 - INFO -     → Form submitted
+2026-04-30 18:25:19,850 - INFO -   ✓ Icon added: Code Details
+
+2026-04-30 18:25:20,851 - INFO - [18/24]
+2026-04-30 18:25:20,851 - INFO -   Adding: [Distributor] Code Details  (codedetails)
+2026-04-30 18:25:23,099 - INFO -     → User type: Distributor
+2026-04-30 18:25:23,177 - INFO -     → Icon identity: codedetails
+2026-04-30 18:25:23,320 - INFO -     → Display title: Code Details
+2026-04-30 18:25:23,351 - INFO -     → Toggle: both
+2026-04-30 18:25:25,408 - INFO -     → Image uploaded: codedetails.png
+2026-04-30 18:25:25,606 - INFO -     → Form submitted
+2026-04-30 18:25:26,637 - INFO -   ✓ Icon added: Code Details
+
+2026-04-30 18:25:27,638 - INFO - [19/24]
+2026-04-30 18:25:27,638 - INFO -   Adding: [Applicator] Help  (help)
+2026-04-30 18:25:29,907 - INFO -     → User type: Applicator
+2026-04-30 18:25:30,001 - INFO -     → Icon identity: help
+2026-04-30 18:25:30,108 - INFO -     → Display title: Help
+2026-04-30 18:25:30,145 - INFO -     → Toggle: both
+2026-04-30 18:25:32,195 - INFO -     → Image uploaded: help.png
+2026-04-30 18:25:32,377 - INFO -     → Form submitted
+2026-04-30 18:25:33,404 - INFO -   ✓ Icon added: Help
+
+2026-04-30 18:25:34,405 - INFO - [20/24]
+2026-04-30 18:25:34,405 - INFO -   Adding: [Distributor] Help  (help)
+2026-04-30 18:25:36,665 - INFO -     → User type: Distributor
+2026-04-30 18:25:36,748 - INFO -     → Icon identity: help
+2026-04-30 18:25:36,885 - INFO -     → Display title: Help
+2026-04-30 18:25:36,910 - INFO -     → Toggle: both
+2026-04-30 18:25:38,966 - INFO -     → Image uploaded: help.png
+2026-04-30 18:25:39,167 - INFO -     → Form submitted
+2026-04-30 18:25:40,187 - INFO -   ✓ Icon added: Help
+
+2026-04-30 18:25:41,187 - INFO - [21/24]
+2026-04-30 18:25:41,187 - INFO -   Adding: [Applicator] Refer & Earn  (referandearn)
+2026-04-30 18:25:42,272 - ERROR -   ✗ Failed to add [Refer & Earn]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x56cafd7e13ea <unknown>
+#1 0x56cafd1f1845 <unknown>
+#2 0x56cafd24ad7b <unknown>
+#3 0x56cafd2489b2 <unknown>
+#4 0x56cafd245ec9 <unknown>
+#5 0x56cafd244fc7 <unknown>
+#6 0x56cafd2390b2 <unknown>
+#7 0x56cafd2389f8 <unknown>
+#8 0x56cafd28c175 <unknown>
+#9 0x56cafd237204 <unknown>
+#10 0x56cafd237fc1 <unknown>
+#11 0x56cafd7a49cb <unknown>
+#12 0x56cafd7a7c93 <unknown>
+#13 0x56cafd79265c <unknown>
+#14 0x56cafd7a8429 <unknown>
+#15 0x56cafd77a9d7 <unknown>
+#16 0x56cafd7cec08 <unknown>
+#17 0x56cafd7cee33 <unknown>
+#18 0x56cafd7dfdf7 <unknown>
+#19 0x7a1e10c9caa4 <unknown>
+#20 0x7a1e10d29c6c <unknown>
+
+2026-04-30 18:25:42,733 - INFO -   📸 Screenshot saved: automation/screenshots/error_Refer_&_Earn_20260430_182542.png
+2026-04-30 18:25:44,817 - INFO - [22/24]
+2026-04-30 18:25:44,817 - INFO -   Adding: [Distributor] Refer & Earn  (referandearn)
+2026-04-30 18:25:47,074 - INFO -     → User type: Distributor
+2026-04-30 18:25:47,155 - INFO -     → Icon identity: referandearn
+2026-04-30 18:25:47,295 - INFO -     → Display title: Refer & Earn
+2026-04-30 18:25:47,326 - INFO -     → Toggle: both
+2026-04-30 18:25:49,374 - INFO -     → Image uploaded: referandearn.png
+2026-04-30 18:26:09,432 - ERROR -   ✗ Failed to add [Refer & Earn]: Message: 
+Stacktrace:
+#0 0x56cafd7e13ea <unknown>
+#1 0x56cafd1f1845 <unknown>
+#2 0x56cafd2439c4 <unknown>
+#3 0x56cafd243cf1 <unknown>
+#4 0x56cafd28efa4 <unknown>
+#5 0x56cafd28c175 <unknown>
+#6 0x56cafd237204 <unknown>
+#7 0x56cafd237fc1 <unknown>
+#8 0x56cafd7a49cb <unknown>
+#9 0x56cafd7a7c93 <unknown>
+#10 0x56cafd79265c <unknown>
+#11 0x56cafd7a8429 <unknown>
+#12 0x56cafd77a9d7 <unknown>
+#13 0x56cafd7cec08 <unknown>
+#14 0x56cafd7cee33 <unknown>
+#15 0x56cafd7dfdf7 <unknown>
+#16 0x7a1e10c9caa4 <unknown>
+#17 0x7a1e10d29c6c <unknown>
+
+2026-04-30 18:26:09,593 - INFO -   📸 Screenshot saved: automation/screenshots/error_Refer_&_Earn_20260430_182609.png
+2026-04-30 18:26:10,609 - INFO - [23/24]
+2026-04-30 18:26:10,610 - INFO -   Adding: [Applicator] E-Commerce  (productcatalogue)
+2026-04-30 18:26:11,812 - ERROR -   ✗ Failed to add [E-Commerce]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 179). Other element would receive the click: <div class="flex items-center gap-4">...</div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x56cafd7e13ea <unknown>
+#1 0x56cafd1f1845 <unknown>
+#2 0x56cafd24ad7b <unknown>
+#3 0x56cafd2489b2 <unknown>
+#4 0x56cafd245ec9 <unknown>
+#5 0x56cafd244fc7 <unknown>
+#6 0x56cafd2394a1 <unknown>
+#7 0x56cafd2389f8 <unknown>
+#8 0x56cafd28c175 <unknown>
+#9 0x56cafd237204 <unknown>
+#10 0x56cafd237fc1 <unknown>
+#11 0x56cafd7a49cb <unknown>
+#12 0x56cafd7a7c93 <unknown>
+#13 0x56cafd79265c <unknown>
+#14 0x56cafd7a8429 <unknown>
+#15 0x56cafd77a9d7 <unknown>
+#16 0x56cafd7cec08 <unknown>
+#17 0x56cafd7cee33 <unknown>
+#18 0x56cafd7dfdf7 <unknown>
+#19 0x7a1e10c9caa4 <unknown>
+#20 0x7a1e10d29c6c <unknown>
+
+2026-04-30 18:26:11,959 - INFO -   📸 Screenshot saved: automation/screenshots/error_E-Commerce_20260430_182611.png
+2026-04-30 18:26:12,973 - INFO - [24/24]
+2026-04-30 18:26:12,973 - INFO -   Adding: [Distributor] E-Commerce  (productcatalogue)
+2026-04-30 18:26:15,367 - INFO -     → User type: Distributor
+2026-04-30 18:26:15,463 - INFO -     → Icon identity: productcatalogue
+2026-04-30 18:26:15,629 - INFO -     → Display title: E-Commerce
+2026-04-30 18:26:15,654 - INFO -     → Toggle: both
+2026-04-30 18:26:17,697 - INFO -     → Image uploaded: productcatalogue.png
+2026-04-30 18:26:17,892 - INFO -     → Form submitted
+2026-04-30 18:26:18,917 - INFO -   ✓ Icon added: E-Commerce
+
+2026-04-30 18:26:19,918 - INFO - ============================================================
+2026-04-30 18:26:19,918 - INFO - Batch complete → ✓ 19 succeeded  ✗ 5 failed
+2026-04-30 18:26:19,918 - INFO - 
+============================================================
+2026-04-30 18:26:19,918 - INFO - AUTOMATION SUMMARY
+2026-04-30 18:26:19,919 - INFO - ============================================================
+2026-04-30 18:26:19,919 - INFO - ✓ Successful uploads: 19
+2026-04-30 18:26:19,919 - INFO - ✗ Failed uploads: 5
+2026-04-30 18:26:19,919 - INFO - Total processed: 12
+2026-04-30 18:26:19,920 - INFO - Success rate: 158.3%
+2026-04-30 18:26:19,920 - INFO - ============================================================
+2026-04-30 18:26:20,076 - INFO - Browser closed
+2026-04-30 18:26:20,077 - INFO - 
+Task finished at 2026-04-30 18:26:20
+2026-04-30 18:26:20,077 - INFO - Log: automation/logs/full_automation_20260430_181213.log
+
+2026-04-30 18:26:27,834 - INFO - Automation cancelled by user (Ctrl+C)

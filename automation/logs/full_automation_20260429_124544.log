@@ -1,0 +1,321 @@
+2026-04-29 12:45:44,835 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-29 12:45:44,835 - INFO - Automation started at 2026-04-29 12:45:44
+
+2026-04-29 12:45:44,835 - INFO - ============================================================
+2026-04-29 12:45:44,835 - INFO - STEP 1: Processing and Compressing Images
+2026-04-29 12:45:44,835 - INFO - ============================================================
+2026-04-29 12:45:44,836 - INFO - Processing images from: dashboardicons
+2026-04-29 12:45:44,836 - INFO - Output folder: automation/processed_images
+2026-04-29 12:45:44,836 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-29 12:45:44,879 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-29 12:45:44,889 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-29 12:45:44,905 - INFO - ✓ Processed: referoutput.png | Size: 29.7 KB | Quality: 95
+2026-04-29 12:45:44,921 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-29 12:45:44,932 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-29 12:45:44,949 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-29 12:45:44,964 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-29 12:45:44,979 - INFO - ✓ Processed: helpoutput.png | Size: 22.9 KB | Quality: 95
+2026-04-29 12:45:44,994 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-29 12:45:45,010 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-29 12:45:45,029 - INFO - ✓ Processed: prooutput.png | Size: 29.4 KB | Quality: 95
+2026-04-29 12:45:45,042 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-29 12:45:45,056 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-29 12:45:45,069 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-29 12:45:45,070 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-29 12:45:45,070 - INFO - ✓ 14 images processed and ready
+
+2026-04-29 12:45:45,070 - INFO - ============================================================
+2026-04-29 12:45:45,070 - INFO - STEP 2: Preparing Authentication
+2026-04-29 12:45:45,070 - INFO - ============================================================
+2026-04-29 12:45:45,070 - INFO - Using email: Nayurpaints@gmail.com
+2026-04-29 12:45:45,070 - INFO - ✓ Credentials loaded
+
+2026-04-29 12:45:45,070 - INFO - ============================================================
+2026-04-29 12:45:45,071 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-29 12:45:45,071 - INFO - ============================================================
+2026-04-29 12:45:45,616 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 12:45:46,971 - INFO - ✓ Chrome driver initialized
+2026-04-29 12:45:46,971 - INFO - 
+→ Attempting login...
+
+2026-04-29 12:45:46,971 - INFO - Opening login page...
+2026-04-29 12:45:48,580 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 12:45:49,898 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 12:45:49,938 - INFO - ✓ Login successful
+2026-04-29 12:45:51,939 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-04-29 12:45:51,939 - INFO - Navigating to App Settings...
+2026-04-29 12:45:58,350 - INFO - ✓ Dashboard Icons section loaded
+2026-04-29 12:46:00,351 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-04-29 12:46:00,351 - INFO - Starting batch – 12 configured entries
+2026-04-29 12:46:03,819 - INFO -   Found 2 user types: ['Retailer', 'Painter']
+2026-04-29 12:46:03,819 - INFO - Available user types: ['Retailer', 'Painter']
+2026-04-29 12:46:03,819 - INFO - Total icons to upload after expansion: 24
+2026-04-29 12:46:03,820 - INFO - ============================================================
+2026-04-29 12:46:03,820 - INFO - [1/24]
+2026-04-29 12:46:03,820 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-04-29 12:46:06,163 - INFO -     → User type: Retailer
+2026-04-29 12:46:06,256 - INFO -     → Icon identity: gift
+2026-04-29 12:46:06,406 - INFO -     → Display title: Gift
+2026-04-29 12:46:06,442 - INFO -     → Toggle: both
+2026-04-29 12:46:08,503 - INFO -     → Image uploaded: Gift.png
+2026-04-29 12:46:08,657 - INFO -     → Form submitted
+2026-04-29 12:46:09,684 - INFO -   ✓ Icon added: Gift
+
+2026-04-29 12:46:10,685 - INFO - [2/24]
+2026-04-29 12:46:10,685 - INFO -   Adding: [Painter] Gift  (gift)
+2026-04-29 12:46:12,940 - INFO -     → User type: Painter
+2026-04-29 12:46:13,107 - INFO -     → Icon identity: gift
+2026-04-29 12:46:13,242 - INFO -     → Display title: Gift
+2026-04-29 12:46:13,278 - INFO -     → Toggle: both
+2026-04-29 12:46:15,326 - INFO -     → Image uploaded: Gift.png
+2026-04-29 12:46:15,475 - INFO -     → Form submitted
+2026-04-29 12:46:16,500 - INFO -   ✓ Icon added: Gift
+
+2026-04-29 12:46:17,500 - INFO - [3/24]
+2026-04-29 12:46:17,501 - INFO -   Adding: [Retailer] History  (history)
+2026-04-29 12:46:19,792 - INFO -     → User type: Retailer
+2026-04-29 12:46:19,894 - INFO -     → Icon identity: history
+2026-04-29 12:46:20,115 - INFO -     → Display title: History
+2026-04-29 12:46:20,145 - INFO -     → Toggle: both
+2026-04-29 12:46:22,192 - INFO -     → Image uploaded: history.png
+2026-04-29 12:46:22,346 - INFO -     → Form submitted
+2026-04-29 12:46:23,373 - INFO -   ✓ Icon added: History
+
+2026-04-29 12:46:24,374 - INFO - [4/24]
+2026-04-29 12:46:24,374 - INFO -   Adding: [Painter] History  (history)
+2026-04-29 12:46:26,605 - INFO -     → User type: Painter
+2026-04-29 12:46:26,680 - INFO -     → Icon identity: history
+2026-04-29 12:46:26,823 - INFO -     → Display title: History
+2026-04-29 12:46:26,859 - INFO -     → Toggle: both
+2026-04-29 12:46:28,998 - INFO -     → Image uploaded: history.png
+2026-04-29 12:46:29,165 - INFO -     → Form submitted
+2026-04-29 12:46:30,177 - INFO -   ✓ Icon added: History
+
+2026-04-29 12:46:31,178 - INFO - [5/24]
+2026-04-29 12:46:31,178 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-04-29 12:46:33,444 - INFO -     → User type: Retailer
+2026-04-29 12:46:33,549 - INFO -     → Icon identity: wallet
+2026-04-29 12:46:33,676 - INFO -     → Display title: Wallet
+2026-04-29 12:46:33,707 - INFO -     → Toggle: both
+2026-04-29 12:46:35,764 - INFO -     → Image uploaded: wallet.png
+2026-04-29 12:46:35,941 - INFO -     → Form submitted
+2026-04-29 12:46:36,961 - INFO -   ✓ Icon added: Wallet
+
+2026-04-29 12:46:37,962 - INFO - [6/24]
+2026-04-29 12:46:37,962 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-04-29 12:46:40,257 - INFO -     → User type: Painter
+2026-04-29 12:46:40,590 - INFO -     → Icon identity: wallet
+2026-04-29 12:46:40,773 - INFO -     → Display title: Wallet
+2026-04-29 12:46:40,810 - INFO -     → Toggle: both
+2026-04-29 12:46:42,871 - INFO -     → Image uploaded: wallet.png
+2026-04-29 12:46:43,022 - INFO -     → Form submitted
+2026-04-29 12:46:44,047 - INFO -   ✓ Icon added: Wallet
+
+2026-04-29 12:46:45,047 - INFO - [7/24]
+2026-04-29 12:46:45,047 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-04-29 12:46:47,294 - INFO -     → User type: Retailer
+2026-04-29 12:46:47,387 - INFO -     → Icon identity: kycdetails
+2026-04-29 12:46:47,526 - INFO -     → Display title: KYC
+2026-04-29 12:46:47,549 - INFO -     → Toggle: both
+2026-04-29 12:46:49,593 - INFO -     → Image uploaded: kyc.png
+2026-04-29 12:46:49,732 - INFO -     → Form submitted
+2026-04-29 12:46:50,757 - INFO -   ✓ Icon added: KYC
+
+2026-04-29 12:46:51,758 - INFO - [8/24]
+2026-04-29 12:46:51,758 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-04-29 12:46:54,035 - INFO -     → User type: Painter
+2026-04-29 12:46:54,127 - INFO -     → Icon identity: kycdetails
+2026-04-29 12:46:54,256 - INFO -     → Display title: KYC
+2026-04-29 12:46:54,383 - INFO -     → Toggle: both
+2026-04-29 12:46:56,454 - INFO -     → Image uploaded: kyc.png
+2026-04-29 12:46:56,626 - INFO -     → Form submitted
+2026-04-29 12:46:57,647 - INFO -   ✓ Icon added: KYC
+
+2026-04-29 12:46:58,647 - INFO - [9/24]
+2026-04-29 12:46:58,647 - INFO -   Adding: [Retailer] Blog  (blog)
+2026-04-29 12:47:00,900 - INFO -     → User type: Retailer
+2026-04-29 12:47:00,989 - INFO -     → Icon identity: blog
+2026-04-29 12:47:01,121 - INFO -     → Display title: Blog
+2026-04-29 12:47:01,150 - INFO -     → Toggle: both
+2026-04-29 12:47:03,205 - INFO -     → Image uploaded: blog.png
+2026-04-29 12:47:03,339 - INFO -     → Form submitted
+2026-04-29 12:47:04,364 - INFO -   ✓ Icon added: Blog
+
+2026-04-29 12:47:05,364 - INFO - [10/24]
+2026-04-29 12:47:05,365 - INFO -   Adding: [Painter] Blog  (blog)
+2026-04-29 12:47:07,703 - INFO -     → User type: Painter
+2026-04-29 12:47:07,899 - INFO -     → Icon identity: blog
+2026-04-29 12:47:08,069 - INFO -     → Display title: Blog
+2026-04-29 12:47:08,101 - INFO -     → Toggle: both
+2026-04-29 12:47:10,178 - INFO -     → Image uploaded: blog.png
+2026-04-29 12:47:10,315 - INFO -     → Form submitted
+2026-04-29 12:47:11,339 - INFO -   ✓ Icon added: Blog
+
+2026-04-29 12:47:12,339 - INFO - [11/24]
+2026-04-29 12:47:12,340 - INFO -   Adding: [Retailer] Brochure  (brochure)
+2026-04-29 12:47:14,590 - INFO -     → User type: Retailer
+2026-04-29 12:47:14,679 - INFO -     → Icon identity: brochure
+2026-04-29 12:47:14,824 - INFO -     → Display title: Brochure
+2026-04-29 12:47:14,850 - INFO -     → Toggle: both
+2026-04-29 12:47:16,913 - INFO -     → Image uploaded: brochure.png
+2026-04-29 12:47:17,057 - INFO -     → Form submitted
+2026-04-29 12:47:18,075 - INFO -   ✓ Icon added: Brochure
+
+2026-04-29 12:47:19,076 - INFO - [12/24]
+2026-04-29 12:47:19,076 - INFO -   Adding: [Painter] Brochure  (brochure)
+2026-04-29 12:47:21,360 - INFO -     → User type: Painter
+2026-04-29 12:47:21,524 - INFO -     → Icon identity: brochure
+2026-04-29 12:47:21,662 - INFO -     → Display title: Brochure
+2026-04-29 12:47:21,694 - INFO -     → Toggle: both
+2026-04-29 12:47:23,735 - INFO -     → Image uploaded: brochure.png
+2026-04-29 12:47:23,870 - INFO -     → Form submitted
+2026-04-29 12:47:24,891 - INFO -   ✓ Icon added: Brochure
+
+2026-04-29 12:47:25,891 - INFO - [13/24]
+2026-04-29 12:47:25,891 - INFO -   Adding: [Retailer] Claim History  (claimhistory)
+2026-04-29 12:47:28,156 - INFO -     → User type: Retailer
+2026-04-29 12:47:28,246 - INFO -     → Icon identity: claimhistory
+2026-04-29 12:47:28,400 - INFO -     → Display title: Claim History
+2026-04-29 12:47:28,432 - INFO -     → Toggle: both
+2026-04-29 12:47:30,481 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-29 12:47:30,636 - INFO -     → Form submitted
+2026-04-29 12:47:31,650 - INFO -   ✓ Icon added: Claim History
+
+2026-04-29 12:47:32,650 - INFO - [14/24]
+2026-04-29 12:47:32,651 - INFO -   Adding: [Painter] Claim History  (claimhistory)
+2026-04-29 12:47:34,917 - INFO -     → User type: Painter
+2026-04-29 12:47:35,090 - INFO -     → Icon identity: claimhistory
+2026-04-29 12:47:35,265 - INFO -     → Display title: Claim History
+2026-04-29 12:47:35,294 - INFO -     → Toggle: both
+2026-04-29 12:47:37,343 - INFO -     → Image uploaded: claimhistory1.png
+2026-04-29 12:47:37,483 - INFO -     → Form submitted
+2026-04-29 12:47:38,503 - INFO -   ✓ Icon added: Claim History
+
+2026-04-29 12:47:39,503 - INFO - [15/24]
+2026-04-29 12:47:39,503 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-04-29 12:47:41,762 - INFO -     → User type: Retailer
+2026-04-29 12:47:41,866 - INFO -     → Icon identity: chooselanguage
+2026-04-29 12:47:42,022 - INFO -     → Display title: Language
+2026-04-29 12:47:42,045 - INFO -     → Toggle: both
+2026-04-29 12:47:44,104 - INFO -     → Image uploaded: language.png
+2026-04-29 12:47:44,257 - INFO -     → Form submitted
+2026-04-29 12:47:45,274 - INFO -   ✓ Icon added: Language
+
+2026-04-29 12:47:46,274 - INFO - [16/24]
+2026-04-29 12:47:46,274 - INFO -   Adding: [Painter] Language  (chooselanguage)
+2026-04-29 12:47:48,563 - INFO -     → User type: Painter
+2026-04-29 12:47:48,657 - INFO -     → Icon identity: chooselanguage
+2026-04-29 12:47:48,799 - INFO -     → Display title: Language
+2026-04-29 12:47:48,837 - INFO -     → Toggle: both
+2026-04-29 12:47:50,893 - INFO -     → Image uploaded: language.png
+2026-04-29 12:47:51,051 - INFO -     → Form submitted
+2026-04-29 12:47:52,069 - INFO -   ✓ Icon added: Language
+
+2026-04-29 12:47:53,070 - INFO - [17/24]
+2026-04-29 12:47:53,070 - INFO -   Adding: [Retailer] Code Details  (codedetails)
+2026-04-29 12:47:55,338 - INFO -     → User type: Retailer
+2026-04-29 12:47:55,423 - INFO -     → Icon identity: codedetails
+2026-04-29 12:47:55,587 - INFO -     → Display title: Code Details
+2026-04-29 12:47:55,617 - INFO -     → Toggle: both
+2026-04-29 12:47:57,672 - INFO -     → Image uploaded: codedetails.png
+2026-04-29 12:47:57,788 - INFO -     → Form submitted
+2026-04-29 12:47:58,809 - INFO -   ✓ Icon added: Code Details
+
+2026-04-29 12:47:59,810 - INFO - [18/24]
+2026-04-29 12:47:59,810 - INFO -   Adding: [Painter] Code Details  (codedetails)
+2026-04-29 12:48:02,065 - INFO -     → User type: Painter
+2026-04-29 12:48:02,150 - INFO -     → Icon identity: codedetails
+2026-04-29 12:48:02,311 - INFO -     → Display title: Code Details
+2026-04-29 12:48:02,335 - INFO -     → Toggle: both
+2026-04-29 12:48:04,396 - INFO -     → Image uploaded: codedetails.png
+2026-04-29 12:48:04,546 - INFO -     → Form submitted
+2026-04-29 12:48:05,570 - INFO -   ✓ Icon added: Code Details
+
+2026-04-29 12:48:06,570 - INFO - [19/24]
+2026-04-29 12:48:06,571 - INFO -   Adding: [Retailer] Help  (help)
+2026-04-29 12:48:08,835 - INFO -     → User type: Retailer
+2026-04-29 12:48:08,921 - INFO -     → Icon identity: help
+2026-04-29 12:48:09,078 - INFO -     → Display title: Help
+2026-04-29 12:48:09,109 - INFO -     → Toggle: both
+2026-04-29 12:48:11,169 - INFO -     → Image uploaded: helpoutput.png
+2026-04-29 12:48:11,304 - INFO -     → Form submitted
+2026-04-29 12:48:12,323 - INFO -   ✓ Icon added: Help
+
+2026-04-29 12:48:13,324 - INFO - [20/24]
+2026-04-29 12:48:13,324 - INFO -   Adding: [Painter] Help  (help)
+2026-04-29 12:48:15,845 - INFO -     → User type: Painter
+2026-04-29 12:48:15,941 - INFO -     → Icon identity: help
+2026-04-29 12:48:16,073 - INFO -     → Display title: Help
+2026-04-29 12:48:16,106 - INFO -     → Toggle: both
+2026-04-29 12:48:18,160 - INFO -     → Image uploaded: helpoutput.png
+2026-04-29 12:48:18,282 - INFO -     → Form submitted
+2026-04-29 12:48:19,307 - INFO -   ✓ Icon added: Help
+
+2026-04-29 12:48:20,308 - INFO - [21/24]
+2026-04-29 12:48:20,308 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-04-29 12:48:22,588 - INFO -     → User type: Retailer
+2026-04-29 12:48:22,693 - INFO -     → Icon identity: referandearn
+2026-04-29 12:48:22,853 - INFO -     → Display title: Refer & Earn
+2026-04-29 12:48:22,906 - INFO -     → Toggle: both
+2026-04-29 12:48:24,955 - INFO -     → Image uploaded: referoutput.png
+2026-04-29 12:48:25,095 - INFO -     → Form submitted
+2026-04-29 12:48:26,109 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-04-29 12:48:27,109 - INFO - [22/24]
+2026-04-29 12:48:27,110 - INFO -   Adding: [Painter] Refer & Earn  (referandearn)
+2026-04-29 12:48:29,362 - INFO -     → User type: Painter
+2026-04-29 12:48:29,454 - INFO -     → Icon identity: referandearn
+2026-04-29 12:48:29,604 - INFO -     → Display title: Refer & Earn
+2026-04-29 12:48:29,635 - INFO -     → Toggle: both
+2026-04-29 12:48:31,750 - INFO -     → Image uploaded: referoutput.png
+2026-04-29 12:48:31,889 - INFO -     → Form submitted
+2026-04-29 12:48:32,909 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-04-29 12:48:33,910 - INFO - [23/24]
+2026-04-29 12:48:33,910 - INFO -   Adding: [Retailer] E-Commerce  (productcatalogue)
+2026-04-29 12:48:36,411 - INFO -     → User type: Retailer
+2026-04-29 12:48:36,511 - INFO -     → Icon identity: productcatalogue
+2026-04-29 12:48:36,646 - INFO -     → Display title: E-Commerce
+2026-04-29 12:48:36,679 - INFO -     → Toggle: both
+2026-04-29 12:48:38,743 - INFO -     → Image uploaded: ecommerce.png
+2026-04-29 12:48:38,887 - INFO -     → Form submitted
+2026-04-29 12:48:39,914 - INFO -   ✓ Icon added: E-Commerce
+
+2026-04-29 12:48:40,914 - INFO - [24/24]
+2026-04-29 12:48:40,915 - INFO -   Adding: [Painter] E-Commerce  (productcatalogue)
+2026-04-29 12:48:43,170 - INFO -     → User type: Painter
+2026-04-29 12:48:43,253 - INFO -     → Icon identity: productcatalogue
+2026-04-29 12:48:43,401 - INFO -     → Display title: E-Commerce
+2026-04-29 12:48:43,448 - INFO -     → Toggle: both
+2026-04-29 12:48:45,497 - INFO -     → Image uploaded: ecommerce.png
+2026-04-29 12:48:45,669 - INFO -     → Form submitted
+2026-04-29 12:48:46,711 - INFO -   ✓ Icon added: E-Commerce
+
+2026-04-29 12:48:47,711 - INFO - ============================================================
+2026-04-29 12:48:47,711 - INFO - Batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-04-29 12:48:47,711 - INFO - 
+============================================================
+2026-04-29 12:48:47,712 - INFO - AUTOMATION SUMMARY
+2026-04-29 12:48:47,712 - INFO - ============================================================
+2026-04-29 12:48:47,712 - INFO - ✓ Successful uploads: 24
+2026-04-29 12:48:47,712 - INFO - ✗ Failed uploads: 0
+2026-04-29 12:48:47,712 - INFO - Total processed: 12
+2026-04-29 12:48:47,712 - INFO - Success rate: 200.0%
+2026-04-29 12:48:47,712 - INFO - ============================================================
+2026-04-29 12:48:47,917 - INFO - Browser closed
+2026-04-29 12:48:47,917 - INFO - 
+Automation completed at 2026-04-29 12:48:47
+2026-04-29 12:48:47,918 - INFO - Full log available at: automation/logs/full_automation_20260429_124544.log
+

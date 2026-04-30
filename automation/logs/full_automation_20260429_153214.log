@@ -1,0 +1,57 @@
+2026-04-29 15:32:23,554 - INFO - User selected: Dashboard Icons
+2026-04-29 15:32:54,892 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-29 15:32:54,894 - INFO - Automation started at 2026-04-29 15:32:54
+
+2026-04-29 15:32:54,894 - INFO - ============================================================
+2026-04-29 15:32:54,894 - INFO - STEP 1: Processing and Compressing Images
+2026-04-29 15:32:54,895 - INFO - ============================================================
+2026-04-29 15:32:54,896 - INFO - Processing images from: dashboardicons
+2026-04-29 15:32:54,897 - INFO - Output folder: automation/processed_images
+2026-04-29 15:32:54,897 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-29 15:32:55,118 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-29 15:32:55,190 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-29 15:32:55,270 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-04-29 15:32:55,343 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-29 15:32:55,446 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-29 15:32:55,606 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-29 15:32:55,774 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-29 15:32:55,936 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-29 15:32:56,131 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-29 15:32:56,295 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-29 15:32:56,371 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-29 15:32:56,479 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-04-29 15:32:56,555 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-04-29 15:32:56,714 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-29 15:32:56,715 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-29 15:32:56,718 - INFO - ✓ 14 images processed and ready
+
+2026-04-29 15:32:56,723 - INFO - ============================================================
+2026-04-29 15:32:56,726 - INFO - STEP 2: Preparing Authentication
+2026-04-29 15:32:56,728 - INFO - ============================================================
+2026-04-29 15:32:56,730 - INFO - Using email: Kannavmahajan@gmail.com
+2026-04-29 15:32:56,731 - INFO - ✓ Credentials loaded
+
+2026-04-29 15:32:56,736 - INFO - ============================================================
+2026-04-29 15:32:56,737 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-29 15:32:56,740 - INFO - ============================================================
+2026-04-29 15:33:05,076 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 15:33:16,065 - INFO - ✓ Chrome driver initialized
+2026-04-29 15:33:16,069 - INFO - 
+→ Attempting login...
+
+2026-04-29 15:33:16,070 - INFO - Opening login page...
+2026-04-29 15:33:29,023 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 15:33:38,054 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43937): Failed to establish a new connection: [Errno 111] Connection refused")': /session/55b61ba27690e565b4924223275cb4f4
+2026-04-29 15:33:38,059 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43937): Failed to establish a new connection: [Errno 111] Connection refused")': /session/55b61ba27690e565b4924223275cb4f4
+2026-04-29 15:33:38,073 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43937): Failed to establish a new connection: [Errno 111] Connection refused")': /session/55b61ba27690e565b4924223275cb4f4
+2026-04-29 15:33:38,096 - INFO - Browser closed
+2026-04-29 15:33:38,097 - INFO - 
+Automation cancelled by user

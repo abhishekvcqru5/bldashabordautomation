@@ -1,0 +1,42 @@
+2026-04-29 16:54:55,697 - INFO - User selected: Brand Setting
+2026-04-29 16:55:53,919 - INFO - ============================================================
+2026-04-29 16:55:53,920 - INFO - BRAND SETTING — Image Processing
+2026-04-29 16:55:53,921 - INFO - ============================================================
+2026-04-29 16:55:54,215 - INFO - ✓ Logo  → logo_processed.jpg  |  26.5 KB  |  quality 95
+2026-04-29 16:55:54,319 - INFO - ✓ Splash → splash_processed.jpg  |  0.08 MB  |  quality 90
+2026-04-29 16:55:54,321 - INFO - 
+2026-04-29 16:55:54,324 - INFO - Extracting brand colours from logo...
+2026-04-29 16:55:54,591 - INFO -   Colours extracted from logo:
+2026-04-29 16:55:54,592 - INFO -     Header Color     →  #101030  (dominant logo colour)
+2026-04-29 16:55:54,593 - INFO -     Background Color →  #0A0A1F  (35% darker)
+2026-04-29 16:55:54,594 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-04-29 16:55:54,595 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-04-29 16:55:54,611 - INFO - ✓ Both images ready
+
+2026-04-29 16:55:54,611 - INFO - ============================================================
+2026-04-29 16:55:54,611 - INFO - BRAND SETTING — Browser Automation
+2026-04-29 16:55:54,611 - INFO - ============================================================
+2026-04-29 16:55:56,270 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 16:56:04,051 - INFO - ✓ Chrome driver initialized
+2026-04-29 16:56:04,051 - INFO - Opening login page...
+2026-04-29 16:56:09,414 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 16:56:12,558 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 16:56:13,680 - INFO - ✓ Login successful
+2026-04-29 16:56:15,684 - INFO - Going to App Settings...
+2026-04-29 16:56:23,338 - INFO -   → Identity & Branding section opened
+2026-04-29 16:56:25,808 - INFO -   → Edit Branding popup opened
+2026-04-29 16:56:25,843 - INFO - ✓ Brand setting form is ready
+2026-04-29 16:56:25,844 - INFO -   Setting company name: Bludip
+2026-04-29 16:56:27,440 - INFO -     → HeaderColor: #101030
+2026-04-29 16:56:27,537 - INFO -     → FooterColor: #F5F5F5
+2026-04-29 16:56:27,628 - INFO -     → BodyColor: #FFFFFF
+2026-04-29 16:56:27,750 - INFO -     → BackgroundColor: #0A0A1F
+2026-04-29 16:56:29,880 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-04-29 16:56:31,979 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-04-29 16:56:32,786 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-04-29 16:56:35,972 - INFO - ✓ Brand settings saved successfully!
+2026-04-29 16:56:36,588 - INFO - Browser closed
+2026-04-29 16:56:36,590 - INFO - 
+Automation completed at 2026-04-29 16:56:36
+2026-04-29 16:56:36,590 - INFO - Full log available at: automation/logs/full_automation_20260429_165446.log
+

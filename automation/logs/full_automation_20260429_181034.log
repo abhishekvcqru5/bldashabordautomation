@@ -1,0 +1,56 @@
+2026-04-29 18:10:38,186 - INFO - User selected: Intro Screens
+2026-04-29 18:11:01,363 - INFO - ============================================================
+2026-04-29 18:11:01,364 - INFO - INTRO SCREENS — Image Processing
+2026-04-29 18:11:01,364 - INFO - ============================================================
+2026-04-29 18:11:01,364 - INFO - Found 3 intro image(s) in introscreen/
+2026-04-29 18:11:01,386 - INFO -   ⚙ Processing vcqruslide1.jpeg  (731×1300 → need 1080×1920)
+2026-04-29 18:11:01,487 - INFO -   ✓ vcqruslide1.jpeg  →  vcqruslide1_processed.jpg  |  1080×1920  |  0.28 MB  |  quality 92
+2026-04-29 18:11:01,488 - INFO -   ✓ vcqruslide22.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-04-29 18:11:01,663 - INFO -   ✓ vcqruslide333.jpeg  →  Already OK (1080×1920, 0.45 MB)
+2026-04-29 18:11:01,798 - INFO -   Processed 3/3 intro images successfully
+
+2026-04-29 18:11:06,924 - INFO - ============================================================
+2026-04-29 18:11:06,924 - INFO - INTRO SCREENS — Browser Automation
+2026-04-29 18:11:06,924 - INFO - ============================================================
+2026-04-29 18:11:07,358 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 18:11:08,743 - INFO - ✓ Chrome driver initialized
+2026-04-29 18:11:08,744 - INFO - Opening login page...
+2026-04-29 18:11:10,470 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 18:11:12,333 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 18:11:12,385 - INFO - ✓ Login successful
+2026-04-29 18:11:14,385 - INFO - Going to App Settings...
+2026-04-29 18:11:20,783 - INFO -   → Intro Screens section opened
+2026-04-29 18:11:20,827 - INFO - ✓ Intro Screens page ready
+2026-04-29 18:11:20,827 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-04-29 18:11:20,828 - INFO - ============================================================
+2026-04-29 18:11:20,828 - INFO - [1/3]
+2026-04-29 18:11:20,829 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-04-29 18:11:23,385 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-04-29 18:11:24,027 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-04-29 18:11:26,175 - INFO -     → Image uploaded: vcqruslide1_processed.jpg
+2026-04-29 18:11:26,397 - INFO -     → Launch Screen clicked
+2026-04-29 18:11:30,426 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-04-29 18:11:31,426 - INFO - [2/3]
+2026-04-29 18:11:31,427 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-04-29 18:11:33,874 - INFO -     → Header: Scan, Earn, Celebrate
+2026-04-29 18:11:34,461 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-04-29 18:11:36,521 - INFO -     → Image uploaded: vcqruslide22_processed.jpg
+2026-04-29 18:11:36,753 - INFO -     → Launch Screen clicked
+2026-04-29 18:11:40,777 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-04-29 18:11:41,778 - INFO - [3/3]
+2026-04-29 18:11:41,778 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-04-29 18:11:44,157 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-04-29 18:11:44,787 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-04-29 18:11:46,835 - INFO -     → Image uploaded: vcqruslide333_processed.jpg
+2026-04-29 18:11:47,061 - INFO -     → Launch Screen clicked
+2026-04-29 18:11:51,090 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-04-29 18:11:52,091 - INFO - ============================================================
+2026-04-29 18:11:52,092 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-04-29 18:11:52,268 - INFO - Browser closed
+2026-04-29 18:11:52,269 - INFO - 
+Automation completed at 2026-04-29 18:11:52
+2026-04-29 18:11:52,269 - INFO - Full log available at: automation/logs/full_automation_20260429_181034.log
+

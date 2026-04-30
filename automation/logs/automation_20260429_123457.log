@@ -1,0 +1,77 @@
+2026-04-29 12:34:57,398 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-29 12:34:57,399 - INFO - Automation started at 2026-04-29 12:34:57
+
+2026-04-29 12:34:57,399 - INFO - ============================================================
+2026-04-29 12:34:57,399 - INFO - STEP 1: Processing and Compressing Images
+2026-04-29 12:34:57,399 - INFO - ============================================================
+2026-04-29 12:34:57,399 - INFO - Processing images from: dashboardicons
+2026-04-29 12:34:57,399 - INFO - Output folder: automation/processed_images
+2026-04-29 12:34:57,399 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-29 12:34:57,431 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-29 12:34:57,445 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-29 12:34:57,462 - INFO - ✓ Processed: referoutput.png | Size: 29.7 KB | Quality: 95
+2026-04-29 12:34:57,477 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-29 12:34:57,491 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-29 12:34:57,510 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-29 12:34:57,523 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-29 12:34:57,539 - INFO - ✓ Processed: helpoutput.png | Size: 22.9 KB | Quality: 95
+2026-04-29 12:34:57,551 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-29 12:34:57,571 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-29 12:34:57,586 - INFO - ✓ Processed: prooutput.png | Size: 29.4 KB | Quality: 95
+2026-04-29 12:34:57,602 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-29 12:34:57,618 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-29 12:34:57,634 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-29 12:34:57,634 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-29 12:34:57,635 - INFO - ✓ 14 images processed and ready
+
+2026-04-29 12:34:57,635 - INFO - ============================================================
+2026-04-29 12:34:57,635 - INFO - STEP 2: Preparing Authentication
+2026-04-29 12:34:57,635 - INFO - ============================================================
+2026-04-29 12:34:57,635 - INFO - Using email: Nayurpaints@gmail.com
+2026-04-29 12:34:57,635 - INFO - ✓ Credentials loaded
+
+2026-04-29 12:34:57,635 - INFO - ============================================================
+2026-04-29 12:34:57,635 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-29 12:34:57,635 - INFO - ============================================================
+2026-04-29 12:35:23,497 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 12:35:24,438 - INFO - ✓ Chrome driver initialized
+2026-04-29 12:35:24,438 - INFO - 
+→ Attempting login...
+
+2026-04-29 12:35:24,438 - INFO - Logging in with email: Nayurpaints@gmail.com
+2026-04-29 12:35:26,068 - ERROR - Login failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Login')]"}
+  (Session info: chrome=148.0.7778.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5c010fc833ea <unknown>
+#1 0x5c010f693845 <unknown>
+#2 0x5c010f6e59c4 <unknown>
+#3 0x5c010f6e5cf1 <unknown>
+#4 0x5c010f730fa4 <unknown>
+#5 0x5c010f72e175 <unknown>
+#6 0x5c010f6d9204 <unknown>
+#7 0x5c010f6d9fc1 <unknown>
+#8 0x5c010fc469cb <unknown>
+#9 0x5c010fc49c93 <unknown>
+#10 0x5c010fc3465c <unknown>
+#11 0x5c010fc4a429 <unknown>
+#12 0x5c010fc1c9d7 <unknown>
+#13 0x5c010fc70c08 <unknown>
+#14 0x5c010fc70e33 <unknown>
+#15 0x5c010fc81df7 <unknown>
+#16 0x7d865209caa4 <unknown>
+#17 0x7d8652129c6c <unknown>
+
+2026-04-29 12:35:26,068 - ERROR - ✗ Login failed. Aborting.
+2026-04-29 12:35:26,224 - INFO - Browser closed
+2026-04-29 12:35:26,224 - INFO - 
+Automation completed at 2026-04-29 12:35:26
+2026-04-29 12:35:26,224 - INFO - Full log available at: automation/logs/full_automation_20260429_123457.log
+

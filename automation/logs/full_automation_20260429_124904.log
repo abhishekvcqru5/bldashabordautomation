@@ -1,0 +1,258 @@
+2026-04-29 12:49:04,093 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-29 12:49:04,093 - INFO - Automation started at 2026-04-29 12:49:04
+
+2026-04-29 12:49:04,093 - INFO - ============================================================
+2026-04-29 12:49:04,093 - INFO - STEP 1: Processing and Compressing Images
+2026-04-29 12:49:04,093 - INFO - ============================================================
+2026-04-29 12:49:04,093 - INFO - Processing images from: dashboardicons
+2026-04-29 12:49:04,093 - INFO - Output folder: automation/processed_images
+2026-04-29 12:49:04,093 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-29 12:49:04,130 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-29 12:49:04,142 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-29 12:49:04,157 - INFO - ✓ Processed: referoutput.png | Size: 29.7 KB | Quality: 95
+2026-04-29 12:49:04,174 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-29 12:49:04,190 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-29 12:49:04,205 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-29 12:49:04,217 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-29 12:49:04,230 - INFO - ✓ Processed: helpoutput.png | Size: 22.9 KB | Quality: 95
+2026-04-29 12:49:04,241 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-29 12:49:04,255 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-29 12:49:04,271 - INFO - ✓ Processed: prooutput.png | Size: 29.4 KB | Quality: 95
+2026-04-29 12:49:04,284 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-29 12:49:04,300 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-29 12:49:04,314 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-29 12:49:04,315 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-29 12:49:04,315 - INFO - ✓ 14 images processed and ready
+
+2026-04-29 12:49:04,315 - INFO - ============================================================
+2026-04-29 12:49:04,315 - INFO - STEP 2: Preparing Authentication
+2026-04-29 12:49:04,315 - INFO - ============================================================
+2026-04-29 12:49:04,315 - INFO - Using email: Nayurpaints@gmail.com
+2026-04-29 12:49:04,315 - INFO - ✓ Credentials loaded
+
+2026-04-29 12:49:04,315 - INFO - ============================================================
+2026-04-29 12:49:04,315 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-29 12:49:04,315 - INFO - ============================================================
+2026-04-29 12:49:04,819 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 12:49:06,110 - INFO - ✓ Chrome driver initialized
+2026-04-29 12:49:06,110 - INFO - 
+→ Attempting login...
+
+2026-04-29 12:49:06,110 - INFO - Opening login page...
+2026-04-29 12:49:08,102 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 12:49:09,903 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 12:49:10,018 - INFO - ✓ Login successful
+2026-04-29 12:49:12,019 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-04-29 12:49:12,019 - INFO - Navigating to App Settings...
+2026-04-29 12:49:18,433 - INFO - ✓ Dashboard Icons section loaded
+2026-04-29 12:49:20,433 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-04-29 12:49:20,434 - INFO - Starting batch – 12 configured entries
+2026-04-29 12:49:23,865 - INFO -   Found 2 user types: ['Retailer', 'Painter']
+2026-04-29 12:49:23,866 - INFO - Available user types: ['Retailer', 'Painter']
+2026-04-29 12:49:23,866 - INFO - Total icons to upload after expansion: 24
+2026-04-29 12:49:23,866 - INFO - ============================================================
+2026-04-29 12:49:23,866 - INFO - [1/24]
+2026-04-29 12:49:23,867 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-04-29 12:49:26,318 - INFO -     → User type: Retailer
+2026-04-29 12:49:26,413 - INFO -     → Icon identity: gift
+2026-04-29 12:49:26,566 - INFO -     → Display title: Gift
+2026-04-29 12:49:26,596 - INFO -     → Toggle: both
+2026-04-29 12:49:28,657 - INFO -     → Image uploaded: Gift.png
+2026-04-29 12:49:28,804 - INFO -     → Form submitted
+2026-04-29 12:49:29,833 - INFO -   ✓ Icon added: Gift
+
+2026-04-29 12:49:30,833 - INFO - [2/24]
+2026-04-29 12:49:30,834 - INFO -   Adding: [Painter] Gift  (gift)
+2026-04-29 12:49:31,954 - ERROR -   ✗ Failed to add [Gift]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x618be66c03ea <unknown>
+#1 0x618be60d0845 <unknown>
+#2 0x618be6129d7b <unknown>
+#3 0x618be61279b2 <unknown>
+#4 0x618be6124ec9 <unknown>
+#5 0x618be6123fc7 <unknown>
+#6 0x618be61180b2 <unknown>
+#7 0x618be61179f8 <unknown>
+#8 0x618be616b175 <unknown>
+#9 0x618be6116204 <unknown>
+#10 0x618be6116fc1 <unknown>
+#11 0x618be66839cb <unknown>
+#12 0x618be6686c93 <unknown>
+#13 0x618be667165c <unknown>
+#14 0x618be6687429 <unknown>
+#15 0x618be66599d7 <unknown>
+#16 0x618be66adc08 <unknown>
+#17 0x618be66ade33 <unknown>
+#18 0x618be66bedf7 <unknown>
+#19 0x72b0b869caa4 <unknown>
+#20 0x72b0b8729c6c <unknown>
+
+2026-04-29 12:49:32,150 - INFO -   📸 Screenshot saved: automation/screenshots/error_Gift_20260429_124931.png
+2026-04-29 12:49:33,164 - INFO - [3/24]
+2026-04-29 12:49:33,164 - INFO -   Adding: [Retailer] History  (history)
+2026-04-29 12:49:36,179 - INFO -     → User type: Retailer
+2026-04-29 12:49:36,268 - INFO -     → Icon identity: history
+2026-04-29 12:49:36,448 - INFO -     → Display title: History
+2026-04-29 12:49:36,477 - INFO -     → Toggle: both
+2026-04-29 12:49:38,533 - INFO -     → Image uploaded: history.png
+2026-04-29 12:49:38,651 - INFO -     → Form submitted
+2026-04-29 12:49:39,670 - INFO -   ✓ Icon added: History
+
+2026-04-29 12:49:40,670 - INFO - [4/24]
+2026-04-29 12:49:40,671 - INFO -   Adding: [Painter] History  (history)
+2026-04-29 12:49:41,786 - ERROR -   ✗ Failed to add [History]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x618be66c03ea <unknown>
+#1 0x618be60d0845 <unknown>
+#2 0x618be6129d7b <unknown>
+#3 0x618be61279b2 <unknown>
+#4 0x618be6124ec9 <unknown>
+#5 0x618be6123fc7 <unknown>
+#6 0x618be61180b2 <unknown>
+#7 0x618be61179f8 <unknown>
+#8 0x618be616b175 <unknown>
+#9 0x618be6116204 <unknown>
+#10 0x618be6116fc1 <unknown>
+#11 0x618be66839cb <unknown>
+#12 0x618be6686c93 <unknown>
+#13 0x618be667165c <unknown>
+#14 0x618be6687429 <unknown>
+#15 0x618be66599d7 <unknown>
+#16 0x618be66adc08 <unknown>
+#17 0x618be66ade33 <unknown>
+#18 0x618be66bedf7 <unknown>
+#19 0x72b0b869caa4 <unknown>
+#20 0x72b0b8729c6c <unknown>
+
+2026-04-29 12:49:41,982 - INFO -   📸 Screenshot saved: automation/screenshots/error_History_20260429_124941.png
+2026-04-29 12:49:42,996 - INFO - [5/24]
+2026-04-29 12:49:42,996 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-04-29 12:49:45,283 - INFO -     → User type: Retailer
+2026-04-29 12:49:45,390 - INFO -     → Icon identity: wallet
+2026-04-29 12:49:45,538 - INFO -     → Display title: Wallet
+2026-04-29 12:49:45,565 - INFO -     → Toggle: both
+2026-04-29 12:49:47,607 - INFO -     → Image uploaded: wallet.png
+2026-04-29 12:49:47,752 - INFO -     → Form submitted
+2026-04-29 12:49:48,795 - INFO -   ✓ Icon added: Wallet
+
+2026-04-29 12:49:49,796 - INFO - [6/24]
+2026-04-29 12:49:49,797 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-04-29 12:49:50,939 - ERROR -   ✗ Failed to add [Wallet]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x618be66c03ea <unknown>
+#1 0x618be60d0845 <unknown>
+#2 0x618be6129d7b <unknown>
+#3 0x618be61279b2 <unknown>
+#4 0x618be6124ec9 <unknown>
+#5 0x618be6123fc7 <unknown>
+#6 0x618be61180b2 <unknown>
+#7 0x618be61179f8 <unknown>
+#8 0x618be616b175 <unknown>
+#9 0x618be6116204 <unknown>
+#10 0x618be6116fc1 <unknown>
+#11 0x618be66839cb <unknown>
+#12 0x618be6686c93 <unknown>
+#13 0x618be667165c <unknown>
+#14 0x618be6687429 <unknown>
+#15 0x618be66599d7 <unknown>
+#16 0x618be66adc08 <unknown>
+#17 0x618be66ade33 <unknown>
+#18 0x618be66bedf7 <unknown>
+#19 0x72b0b869caa4 <unknown>
+#20 0x72b0b8729c6c <unknown>
+
+2026-04-29 12:49:51,153 - INFO -   📸 Screenshot saved: automation/screenshots/error_Wallet_20260429_124950.png
+2026-04-29 12:49:52,171 - INFO - [7/24]
+2026-04-29 12:49:52,172 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-04-29 12:49:54,513 - INFO -     → User type: Retailer
+2026-04-29 12:49:54,616 - INFO -     → Icon identity: kycdetails
+2026-04-29 12:49:54,751 - INFO -     → Display title: KYC
+2026-04-29 12:49:54,780 - INFO -     → Toggle: both
+2026-04-29 12:49:56,821 - INFO -     → Image uploaded: kyc.png
+2026-04-29 12:49:56,959 - INFO -     → Form submitted
+2026-04-29 12:49:57,993 - INFO -   ✓ Icon added: KYC
+
+2026-04-29 12:49:58,993 - INFO - [8/24]
+2026-04-29 12:49:58,993 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-04-29 12:50:00,221 - ERROR -   ✗ Failed to add [KYC]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x618be66c03ea <unknown>
+#1 0x618be60d0845 <unknown>
+#2 0x618be6129d7b <unknown>
+#3 0x618be61279b2 <unknown>
+#4 0x618be6124ec9 <unknown>
+#5 0x618be6123fc7 <unknown>
+#6 0x618be61180b2 <unknown>
+#7 0x618be61179f8 <unknown>
+#8 0x618be616b175 <unknown>
+#9 0x618be6116204 <unknown>
+#10 0x618be6116fc1 <unknown>
+#11 0x618be66839cb <unknown>
+#12 0x618be6686c93 <unknown>
+#13 0x618be667165c <unknown>
+#14 0x618be6687429 <unknown>
+#15 0x618be66599d7 <unknown>
+#16 0x618be66adc08 <unknown>
+#17 0x618be66ade33 <unknown>
+#18 0x618be66bedf7 <unknown>
+#19 0x72b0b869caa4 <unknown>
+#20 0x72b0b8729c6c <unknown>
+
+2026-04-29 12:50:00,423 - INFO -   📸 Screenshot saved: automation/screenshots/error_KYC_20260429_125000.png
+2026-04-29 12:50:01,447 - INFO - [9/24]
+2026-04-29 12:50:01,447 - INFO -   Adding: [Retailer] Blog  (blog)
+2026-04-29 12:50:03,749 - INFO -     → User type: Retailer
+2026-04-29 12:50:03,841 - INFO -     → Icon identity: blog
+2026-04-29 12:50:03,973 - INFO -     → Display title: Blog
+2026-04-29 12:50:04,014 - INFO -     → Toggle: both
+2026-04-29 12:50:06,057 - INFO -     → Image uploaded: blog.png
+2026-04-29 12:50:06,190 - INFO -     → Form submitted
+2026-04-29 12:50:07,218 - INFO -   ✓ Icon added: Blog
+
+2026-04-29 12:50:08,218 - INFO - [10/24]
+2026-04-29 12:50:08,218 - INFO -   Adding: [Painter] Blog  (blog)
+2026-04-29 12:50:09,378 - ERROR -   ✗ Failed to add [Blog]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x618be66c03ea <unknown>
+#1 0x618be60d0845 <unknown>
+#2 0x618be6129d7b <unknown>
+#3 0x618be61279b2 <unknown>
+#4 0x618be6124ec9 <unknown>
+#5 0x618be6123fc7 <unknown>
+#6 0x618be61180b2 <unknown>
+#7 0x618be61179f8 <unknown>
+#8 0x618be616b175 <unknown>
+#9 0x618be6116204 <unknown>
+#10 0x618be6116fc1 <unknown>
+#11 0x618be66839cb <unknown>
+#12 0x618be6686c93 <unknown>
+#13 0x618be667165c <unknown>
+#14 0x618be6687429 <unknown>
+#15 0x618be66599d7 <unknown>
+#16 0x618be66adc08 <unknown>
+#17 0x618be66ade33 <unknown>
+#18 0x618be66bedf7 <unknown>
+#19 0x72b0b869caa4 <unknown>
+#20 0x72b0b8729c6c <unknown>
+
+2026-04-29 12:50:09,559 - INFO -   📸 Screenshot saved: automation/screenshots/error_Blog_20260429_125009.png
+2026-04-29 12:50:10,572 - INFO - [11/24]
+2026-04-29 12:50:10,573 - INFO -   Adding: [Retailer] Brochure  (brochure)
+2026-04-29 12:50:13,076 - INFO -     → User type: Retailer

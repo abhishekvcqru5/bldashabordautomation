@@ -1,0 +1,71 @@
+2026-05-01 00:54:02,234 - INFO - User selected: Promotion Banners
+2026-05-01 00:54:02,235 - INFO - ============================================================
+2026-05-01 00:54:02,235 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-01 00:54:02,235 - INFO - ============================================================
+2026-05-01 00:54:02,236 - INFO - Found 5 banner image(s) in banner/
+2026-05-01 00:54:02,287 - INFO -   ⚙ Processing VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM.png  (size 1536×1024 → need 1920×1080)
+2026-05-01 00:54:02,677 - INFO -   ✓ VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM.png  →  VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-01 00:54:02,678 - INFO -   ⚙ Processing VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM.png  (size 1536×1024 → need 1920×1080)
+2026-05-01 00:54:02,984 - INFO -   ✓ VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM.png  →  VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM_processed.jpg  |  1920×1080  |  0.35 MB  |  quality 92
+2026-05-01 00:54:02,991 - INFO -   ✓ vcqrubanne01.jpeg  →  Already OK  (1920×1080, 0.32 MB)
+2026-05-01 00:54:03,172 - INFO -   ✓ vcqrubanne02.jpeg  →  Already OK  (1920×1080, 0.31 MB)
+2026-05-01 00:54:03,368 - INFO -   ✓ vcqrubanne03.jpeg  →  Already OK  (1920×1080, 0.25 MB)
+2026-05-01 00:54:04,117 - INFO - 
+  Processed 5/5 banners successfully
+
+2026-05-01 00:54:04,119 - INFO - ============================================================
+2026-05-01 00:54:04,120 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-01 00:54:04,120 - INFO - ============================================================
+2026-05-01 00:54:05,067 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-01 00:54:08,592 - INFO - ✓ Chrome driver initialized
+2026-05-01 00:54:08,592 - INFO - Opening login page...
+2026-05-01 00:54:10,577 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-01 00:54:11,806 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-01 00:54:11,883 - INFO - ✓ Login successful
+2026-05-01 00:54:13,885 - INFO - Going to App Settings...
+2026-05-01 00:54:20,286 - INFO -   → Promotion Banners section opened
+2026-05-01 00:54:20,314 - INFO - ✓ Promotion Banners page ready
+2026-05-01 00:54:20,314 - INFO - Starting batch  —  5 banner(s) to publish
+2026-05-01 00:54:20,314 - INFO - ============================================================
+2026-05-01 00:54:20,314 - INFO - [1/5]
+2026-05-01 00:54:20,314 - INFO -   Publishing: [VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM]  (VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM_processed.jpg)
+2026-05-01 00:54:22,672 - INFO -     → Title entered: VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM
+2026-05-01 00:54:24,827 - INFO -     → Image uploaded: VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM_processed.jpg
+2026-05-01 00:54:25,033 - INFO -     → Publish Banner clicked
+2026-05-01 00:54:29,041 - INFO -   ✓ Banner published: VcqruChatGPT Image Sep 1, 2025, 06_17_56 PM
+
+2026-05-01 00:54:30,042 - INFO - [2/5]
+2026-05-01 00:54:30,042 - INFO -   Publishing: [VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM]  (VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM_processed.jpg)
+2026-05-01 00:54:32,668 - INFO -     → Title entered: VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM
+2026-05-01 00:54:34,888 - INFO -     → Image uploaded: VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM_processed.jpg
+2026-05-01 00:54:35,083 - INFO -     → Publish Banner clicked
+2026-05-01 00:54:39,107 - INFO -   ✓ Banner published: VcqruChatGPT Image Sep 1, 2025, 06_18_56 PM
+
+2026-05-01 00:54:40,107 - INFO - [3/5]
+2026-05-01 00:54:40,124 - INFO -   Publishing: [vcqrubanne01]  (vcqrubanne01_processed.jpg)
+2026-05-01 00:54:43,386 - INFO -     → Title entered: vcqrubanne01
+2026-05-01 00:54:45,684 - INFO -     → Image uploaded: vcqrubanne01_processed.jpg
+2026-05-01 00:54:47,129 - INFO -     → Publish Banner clicked
+2026-05-01 00:54:51,212 - INFO -   ✓ Banner published: vcqrubanne01
+
+2026-05-01 00:54:52,215 - INFO - [4/5]
+2026-05-01 00:54:52,225 - INFO -   Publishing: [vcqrubanne02]  (vcqrubanne02_processed.jpg)
+2026-05-01 00:54:56,368 - INFO -     → Title entered: vcqrubanne02
+2026-05-01 00:54:59,031 - INFO -     → Image uploaded: vcqrubanne02_processed.jpg
+2026-05-01 00:55:00,461 - INFO -     → Publish Banner clicked
+2026-05-01 00:55:04,484 - INFO -   ✓ Banner published: vcqrubanne02
+
+2026-05-01 00:55:05,488 - INFO - [5/5]
+2026-05-01 00:55:05,507 - INFO -   Publishing: [vcqrubanne03]  (vcqrubanne03_processed.jpg)
+2026-05-01 00:55:11,281 - INFO -     → Title entered: vcqrubanne03
+2026-05-01 00:55:13,516 - INFO -     → Image uploaded: vcqrubanne03_processed.jpg
+2026-05-01 00:55:16,326 - INFO -     → Publish Banner clicked
+2026-05-01 00:55:21,320 - INFO -   ✓ Banner published: vcqrubanne03
+
+2026-05-01 00:55:22,321 - INFO - ============================================================
+2026-05-01 00:55:22,321 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-05-01 00:55:22,714 - INFO - Browser closed
+2026-05-01 00:55:22,717 - INFO - 
+Task finished at 2026-05-01 00:55:22
+2026-05-01 00:55:22,717 - INFO - Log: automation/logs/full_automation_20260501_005340.log
+

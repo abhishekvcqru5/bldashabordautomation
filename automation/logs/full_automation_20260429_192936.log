@@ -1,0 +1,46 @@
+2026-04-29 19:29:39,938 - INFO - User selected: Brand Setting
+2026-04-29 19:30:08,766 - INFO -   Found logo asset: logo.png
+2026-04-29 19:30:08,767 - INFO -   Found splash asset: splash.png
+2026-04-29 19:30:08,767 - INFO - ============================================================
+2026-04-29 19:30:08,768 - INFO - BRAND SETTING — Image Processing
+2026-04-29 19:30:08,768 - INFO - ============================================================
+2026-04-29 19:30:09,060 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-04-29 19:30:09,229 - INFO - ✓ Logo  → logo_processed.png  |  52.7 KB  |  PNG lossless
+2026-04-29 19:30:09,256 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-04-29 19:30:09,563 - INFO - ✓ Splash → splash_processed.png  |  0.09 MB  |  PNG lossless
+2026-04-29 19:30:09,563 - INFO - 
+2026-04-29 19:30:09,564 - INFO - Extracting brand colours from logo...
+2026-04-29 19:30:13,888 - INFO -   Colours extracted from logo:
+2026-04-29 19:30:13,888 - INFO -     Header Color     →  #405070  (dominant logo colour)
+2026-04-29 19:30:13,888 - INFO -     Background Color →  #293448  (35% darker)
+2026-04-29 19:30:13,888 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-04-29 19:30:13,888 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-04-29 19:30:14,156 - INFO - ✓ Both images ready
+
+2026-04-29 19:30:14,156 - INFO - ============================================================
+2026-04-29 19:30:14,157 - INFO - BRAND SETTING — Browser Automation
+2026-04-29 19:30:14,157 - INFO - ============================================================
+2026-04-29 19:30:15,075 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 19:30:18,385 - INFO - ✓ Chrome driver initialized
+2026-04-29 19:30:18,386 - INFO - Opening login page...
+2026-04-29 19:30:23,611 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 19:30:25,384 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 19:30:25,501 - INFO - ✓ Login successful
+2026-04-29 19:30:27,502 - INFO - Going to App Settings...
+2026-04-29 19:30:34,228 - INFO -   → Identity & Branding section opened
+2026-04-29 19:30:36,688 - INFO -   → Edit Branding popup opened
+2026-04-29 19:30:36,727 - INFO - ✓ Brand setting form is ready
+2026-04-29 19:30:36,727 - INFO -   Setting company name: Golden Crown Original
+2026-04-29 19:30:41,184 - INFO -     → HeaderColor: #405070
+2026-04-29 19:30:42,888 - INFO -     → FooterColor: #F5F5F5
+2026-04-29 19:30:44,009 - INFO -     → BodyColor: #FFFFFF
+2026-04-29 19:30:45,111 - INFO -     → BackgroundColor: #293448
+2026-04-29 19:30:47,226 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-04-29 19:30:49,266 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-04-29 19:30:49,482 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-04-29 19:30:52,505 - INFO - ✓ Brand settings saved successfully!
+2026-04-29 19:30:52,800 - INFO - Browser closed
+2026-04-29 19:30:52,800 - INFO - 
+Automation completed at 2026-04-29 19:30:52
+2026-04-29 19:30:52,800 - INFO - Full log available at: automation/logs/full_automation_20260429_192936.log
+

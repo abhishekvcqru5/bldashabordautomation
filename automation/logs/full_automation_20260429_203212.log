@@ -1,0 +1,83 @@
+2026-04-29 20:32:30,355 - INFO - User selected: Dashboard Icons
+2026-04-29 20:32:30,356 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-04-29 20:32:30,356 - INFO - Automation started at 2026-04-29 20:32:30
+
+2026-04-29 20:32:30,356 - INFO - ============================================================
+2026-04-29 20:32:30,356 - INFO - STEP 1: Processing and Compressing Images
+2026-04-29 20:32:30,356 - INFO - ============================================================
+2026-04-29 20:32:30,357 - INFO - Processing images from: dashboardicons
+2026-04-29 20:32:30,357 - INFO - Output folder: automation/processed_images
+2026-04-29 20:32:30,357 - INFO - Target: 512x512 px, max 50 KB
+
+2026-04-29 20:32:30,437 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-04-29 20:32:30,458 - INFO - ✓ Processed: wallet.png | Size: 14.1 KB | Quality: 95
+2026-04-29 20:32:30,484 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-04-29 20:32:30,512 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-04-29 20:32:30,527 - INFO - ✓ Processed: brochure.png | Size: 20.1 KB | Quality: 95
+2026-04-29 20:32:30,550 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-04-29 20:32:30,574 - INFO - ✓ Processed: Gift.png | Size: 21.6 KB | Quality: 95
+2026-04-29 20:32:30,599 - INFO - ✓ Processed: codedetails.png | Size: 17.1 KB | Quality: 95
+2026-04-29 20:32:30,627 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-04-29 20:32:30,650 - INFO - ✓ Processed: language.png | Size: 22.3 KB | Quality: 95
+2026-04-29 20:32:30,672 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-04-29 20:32:30,701 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-04-29 20:32:30,719 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-04-29 20:32:30,741 - INFO - ✓ Processed: blog.png | Size: 26.7 KB | Quality: 95
+2026-04-29 20:32:30,742 - INFO - 
+✓ Processed 14 images successfully
+
+2026-04-29 20:32:30,742 - INFO - ✓ 14 images processed and ready
+
+2026-04-29 20:32:30,742 - INFO - ============================================================
+2026-04-29 20:32:30,742 - INFO - STEP 2: Preparing Authentication
+2026-04-29 20:32:30,742 - INFO - ============================================================
+2026-04-29 20:32:30,742 - INFO - Using email: info@namamiindustries.in
+2026-04-29 20:32:30,742 - INFO - ✓ Credentials loaded
+
+2026-04-29 20:32:30,742 - INFO - ============================================================
+2026-04-29 20:32:30,743 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-04-29 20:32:30,743 - INFO - ============================================================
+2026-04-29 20:32:31,637 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-29 20:32:35,178 - INFO - ✓ Chrome driver initialized
+2026-04-29 20:32:35,178 - INFO - 
+→ Attempting login...
+
+2026-04-29 20:32:35,179 - INFO - Opening login page...
+2026-04-29 20:32:37,065 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-04-29 20:32:38,951 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-04-29 20:32:39,031 - INFO - ✓ Login successful
+2026-04-29 20:32:41,032 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-04-29 20:32:41,033 - INFO - Navigating to App Settings...
+2026-04-29 20:32:47,581 - INFO - ✓ Dashboard Icons section loaded
+2026-04-29 20:32:49,582 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-04-29 20:32:49,582 - INFO - Starting batch – 12 configured entries
+2026-04-29 20:32:53,227 - INFO -   Found 0 user types: []
+2026-04-29 20:32:53,227 - INFO - Available user types: []
+2026-04-29 20:32:53,227 - INFO - Total icons to upload after expansion: 0
+2026-04-29 20:32:53,227 - INFO - ============================================================
+2026-04-29 20:32:53,228 - INFO - ============================================================
+2026-04-29 20:32:53,228 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-04-29 20:32:53,228 - INFO - 
+============================================================
+2026-04-29 20:32:53,228 - INFO - AUTOMATION SUMMARY
+2026-04-29 20:32:53,228 - INFO - ============================================================
+2026-04-29 20:32:53,228 - INFO - ✓ Successful uploads: 0
+2026-04-29 20:32:53,228 - INFO - ✗ Failed uploads: 0
+2026-04-29 20:32:53,228 - INFO - Total processed: 12
+2026-04-29 20:32:53,229 - INFO - Success rate: 0.0%
+2026-04-29 20:32:53,229 - INFO - ============================================================
+2026-04-29 20:32:53,499 - INFO - Browser closed
+2026-04-29 20:32:53,499 - INFO - 
+Task finished at 2026-04-29 20:32:53
+2026-04-29 20:32:53,500 - INFO - Log: automation/logs/full_automation_20260429_203212.log
+
+2026-04-29 20:36:09,296 - INFO - Automation cancelled by user (Ctrl+C)
