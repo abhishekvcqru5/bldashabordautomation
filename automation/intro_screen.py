@@ -90,17 +90,12 @@ class IntroImageProcessor:
             return bg
         return img.convert("RGB") if img.mode != "RGB" else img
 
-    def _fit_with_padding(self, img, target):
-        """Scale to fit inside target keeping aspect ratio; pad with white."""
-        ratio = min(target[0] / img.width, target[1] / img.height)
-        if ratio > 1:
-            ratio = 1.0
-        new_w = int(img.width * ratio)
-        new_h = int(img.height * ratio)
-        img = img.resize((new_w, new_h), Image.Resampling.LANCZOS)
-        canvas = Image.new("RGB", target, (255, 255, 255))
-        canvas.paste(img, ((target[0] - new_w) // 2, (target[1] - new_h) // 2))
-        return canvas
+    def _force_resize(self, img, target):
+        """
+        Force-resize to exact target dimensions — same as ImageMagick  -resize WxH!
+        Stretches to fill the full frame with NO padding and NO white space.
+        """
+        return img.resize(target, Image.Resampling.LANCZOS)
 
     def _compress(self, img, out_path, max_bytes, start_quality=92):
         for q in range(start_quality, 9, -5):
@@ -161,7 +156,7 @@ class IntroImageProcessor:
         logger.info(f"  ⚙ Processing {src.name}  ({reason})")
         try:
             img = self._to_rgb(Image.open(src))
-            img = self._fit_with_padding(img, self.TARGET)
+            img = self._force_resize(img, self.TARGET)
             success, q = self._compress(img, out_path, self.MAX_BYTES)
             mb = out_path.stat().st_size / (1024 * 1024)
             if success:

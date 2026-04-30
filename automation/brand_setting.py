@@ -195,26 +195,12 @@ class BrandImageProcessor:
             return bg
         return img.convert("RGB") if img.mode != "RGB" else img
 
-    def _fit_with_padding(self, img, target, transparent=False):
+    def _force_resize(self, img, target):
         """
-        Scale to fit inside target (no crop, no stretch).
-        transparent=True  → pad with transparent pixels (preserves alpha)
-        transparent=False → pad with white pixels
+        Force-resize to exact target dimensions — same as ImageMagick  -resize WxH!
+        Stretches to fill the full frame with NO padding and NO white space.
         """
-        ratio = min(target[0] / img.width, target[1] / img.height)
-        if ratio > 1:
-            ratio = 1.0
-        new_w = int(img.width * ratio)
-        new_h = int(img.height * ratio)
-        img = img.resize((new_w, new_h), Image.Resampling.LANCZOS)
-
-        if transparent:
-            canvas = Image.new("RGBA", target, (0, 0, 0, 0))  # fully transparent
-            canvas.paste(img, ((target[0] - new_w) // 2, (target[1] - new_h) // 2))
-        else:
-            canvas = Image.new("RGB", target, (255, 255, 255))  # white
-            canvas.paste(img, ((target[0] - new_w) // 2, (target[1] - new_h) // 2))
-        return canvas
+        return img.resize(target, Image.Resampling.LANCZOS)
 
     def _save(
         self, img, out_path_no_ext, max_bytes, start_quality=95, transparent=False
@@ -269,11 +255,11 @@ class BrandImageProcessor:
 
             if transparent:
                 img = self._to_rgba(raw)
-                img = self._fit_with_padding(img, self.LOGO_TARGET, transparent=True)
+                img = self._force_resize(img, self.LOGO_TARGET)
                 logger.info("  Logo has transparency — preserving (saving as PNG)")
             else:
                 img = self._to_rgb(raw)
-                img = self._fit_with_padding(img, self.LOGO_TARGET, transparent=False)
+                img = self._force_resize(img, self.LOGO_TARGET)
 
             out, ok, note = self._save(
                 img,
@@ -307,11 +293,11 @@ class BrandImageProcessor:
 
             if transparent:
                 img = self._to_rgba(raw)
-                img = self._fit_with_padding(img, self.SPLASH_TARGET, transparent=True)
+                img = self._force_resize(img, self.SPLASH_TARGET)
                 logger.info("  Splash has transparency — preserving (saving as PNG)")
             else:
                 img = self._to_rgb(raw)
-                img = self._fit_with_padding(img, self.SPLASH_TARGET, transparent=False)
+                img = self._force_resize(img, self.SPLASH_TARGET)
 
             out, ok, note = self._save(
                 img,

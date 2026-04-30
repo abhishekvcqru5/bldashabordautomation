@@ -51,8 +51,8 @@ class ImageProcessor:
                 rgb_img.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
                 img = rgb_img
 
-            # Resize maintaining aspect ratio with padding if needed
-            img = self._resize_with_aspect_ratio(img)
+            # Force resize to exact target dimensions (512x512!)
+            img = img.resize(self.TARGET_SIZE, Image.Resampling.LANCZOS)
 
             # Save and compress
             output_path = self.output_folder / img_path.name
@@ -72,15 +72,13 @@ class ImageProcessor:
 
                 quality -= 5
 
-            # If still too large, reduce dimensions
-            logger.warning(f"Image {img_path.name} too large even with compression, reducing size...")
-            img.thumbnail((450, 450), Image.Resampling.LANCZOS)
-            img = self._resize_with_aspect_ratio(img)
-            img.save(output_path, 'JPEG', quality=60, optimize=True)
+            # If still too large, reduce quality significantly (don't change dimensions)
+            logger.warning(f"Image {img_path.name} too large even with compression, forcing lower quality...")
+            img.save(output_path, 'JPEG', quality=40, optimize=True)
 
             file_size = output_path.stat().st_size
             logger.info(
-                f"✓ Processed (reduced): {img_path.name} | "
+                f"✓ Processed (low quality): {img_path.name} | "
                 f"Size: {file_size / 1024:.1f} KB"
             )
             return str(output_path)
@@ -91,30 +89,11 @@ class ImageProcessor:
 
     def _resize_with_aspect_ratio(self, img):
         """
-        Resize image to 512x512 maintaining aspect ratio
-        Pads with white background if needed
+        [DEPRECATED] Resize image to 512x512 maintaining aspect ratio
+        Pads with white background if needed.
+        User now prefers forced resize (no padding).
         """
-        # Calculate scaling to fit within 512x512
-        width_ratio = self.TARGET_SIZE[0] / img.width
-        height_ratio = self.TARGET_SIZE[1] / img.height
-        ratio = min(width_ratio, height_ratio)
-
-        # If image is smaller, don't upscale too much
-        if ratio > 1:
-            ratio = min(ratio, 1.0)
-
-        new_size = (int(img.width * ratio), int(img.height * ratio))
-        img = img.resize(new_size, Image.Resampling.LANCZOS)
-
-        # Create 512x512 canvas with white background
-        canvas = Image.new('RGB', self.TARGET_SIZE, (255, 255, 255))
-
-        # Calculate position to center the image
-        x_offset = (self.TARGET_SIZE[0] - img.width) // 2
-        y_offset = (self.TARGET_SIZE[1] - img.height) // 2
-
-        canvas.paste(img, (x_offset, y_offset))
-        return canvas
+        return img.resize(self.TARGET_SIZE, Image.Resampling.LANCZOS)
 
     def process_all_images(self):
         """Process all images in input folder"""

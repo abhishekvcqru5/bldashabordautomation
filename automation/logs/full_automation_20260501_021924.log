@@ -1,0 +1,150 @@
+2026-05-01 02:20:59,825 - INFO - User selected: Brand Setting
+2026-05-01 02:21:26,273 - INFO -   Found logo asset: logo.png
+2026-05-01 02:21:26,277 - INFO -   Found splash asset: splash.png
+2026-05-01 02:21:26,282 - INFO - ============================================================
+2026-05-01 02:21:26,283 - INFO - BRAND SETTING — Image Processing
+2026-05-01 02:21:26,286 - INFO - ============================================================
+2026-05-01 02:21:27,435 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-01 02:21:27,980 - INFO - ✓ Logo  → logo_processed.png  |  147.0 KB  |  PNG lossless
+2026-05-01 02:21:28,126 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-01 02:21:32,677 - INFO - ✓ Splash → splash_processed.png  |  0.82 MB  |  PNG lossless
+2026-05-01 02:21:32,678 - INFO - 
+2026-05-01 02:21:32,679 - INFO - Extracting brand colours from logo...
+2026-05-01 02:21:32,721 - INFO -   Colours extracted from logo:
+2026-05-01 02:21:32,721 - INFO -     Header Color     →  #304070  (dominant logo colour)
+2026-05-01 02:21:32,721 - INFO -     Background Color →  #1F2948  (35% darker)
+2026-05-01 02:21:32,721 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-01 02:21:32,721 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-01 02:21:32,725 - INFO - ✓ Both images ready
+
+2026-05-01 02:21:32,726 - INFO - ============================================================
+2026-05-01 02:21:32,726 - INFO - BRAND SETTING — Browser Automation
+2026-05-01 02:21:32,726 - INFO - ============================================================
+2026-05-01 02:21:36,871 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-01 02:21:43,965 - INFO - ✓ Chrome driver initialized
+2026-05-01 02:21:44,071 - INFO - Opening login page...
+2026-05-01 02:21:48,835 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-01 02:21:51,174 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-01 02:21:51,204 - INFO - ✓ Login successful
+2026-05-01 02:21:53,206 - INFO - Going to App Settings...
+2026-05-01 02:22:01,516 - INFO -   → Identity & Branding section opened
+2026-05-01 02:22:03,936 - INFO -   → Edit Branding popup opened
+2026-05-01 02:22:03,969 - INFO - ✓ Brand setting form is ready
+2026-05-01 02:22:03,989 - INFO -   Setting company name: Adhezion Poly Chem
+2026-05-01 02:22:05,519 - INFO -     → HeaderColor: #304070
+2026-05-01 02:22:07,438 - INFO -     → FooterColor: #F5F5F5
+2026-05-01 02:22:09,117 - INFO -     → BodyColor: #FFFFFF
+2026-05-01 02:22:10,400 - INFO -     → BackgroundColor: #1F2948
+2026-05-01 02:22:12,596 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-01 02:22:14,688 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-01 02:22:15,018 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-01 02:22:18,066 - INFO - ✓ Brand settings saved successfully!
+2026-05-01 02:22:18,540 - INFO - Browser closed
+2026-05-01 02:22:18,596 - INFO - 
+Task finished at 2026-05-01 02:22:18
+2026-05-01 02:22:18,596 - INFO - Log: automation/logs/full_automation_20260501_021924.log
+
+2026-05-01 02:23:58,388 - INFO - User selected: Brand Setting
+2026-05-01 02:24:15,336 - INFO -   Found logo asset: logo.png
+2026-05-01 02:24:15,340 - INFO -   Found splash asset: splash.png
+2026-05-01 02:24:15,341 - INFO - ============================================================
+2026-05-01 02:24:15,341 - INFO - BRAND SETTING — Image Processing
+2026-05-01 02:24:15,341 - INFO - ============================================================
+2026-05-01 02:24:15,852 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-01 02:24:16,187 - INFO - ✓ Logo  → logo_processed.png  |  147.0 KB  |  PNG lossless
+2026-05-01 02:24:16,309 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-01 02:24:21,107 - INFO - ✓ Splash → splash_processed.png  |  0.82 MB  |  PNG lossless
+2026-05-01 02:24:21,108 - INFO - 
+2026-05-01 02:24:21,117 - INFO - Extracting brand colours from logo...
+2026-05-01 02:24:21,323 - INFO -   Colours extracted from logo:
+2026-05-01 02:24:21,324 - INFO -     Header Color     →  #304070  (dominant logo colour)
+2026-05-01 02:24:21,324 - INFO -     Background Color →  #1F2948  (35% darker)
+2026-05-01 02:24:21,324 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-01 02:24:21,324 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-01 02:24:21,325 - INFO - ✓ Both images ready
+
+2026-05-01 02:24:21,326 - INFO - ============================================================
+2026-05-01 02:24:21,326 - INFO - BRAND SETTING — Browser Automation
+2026-05-01 02:24:21,326 - INFO - ============================================================
+2026-05-01 02:24:22,441 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-01 02:24:28,043 - INFO - ✓ Chrome driver initialized
+2026-05-01 02:24:28,045 - INFO - Opening login page...
+2026-05-01 02:24:32,876 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-01 02:24:35,024 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-01 02:24:35,378 - INFO - ✓ Login successful
+2026-05-01 02:24:37,380 - INFO - Going to App Settings...
+2026-05-01 02:24:44,939 - INFO -   → Identity & Branding section opened
+2026-05-01 02:24:47,810 - INFO -   → Edit Branding popup opened
+2026-05-01 02:24:47,849 - INFO - ✓ Brand setting form is ready
+2026-05-01 02:24:47,849 - INFO -   Setting company name: Adhezion Poly Chem
+2026-05-01 02:24:50,457 - INFO -     → HeaderColor: #304070
+2026-05-01 02:24:51,833 - INFO -     → FooterColor: #F5F5F5
+2026-05-01 02:24:53,678 - INFO -     → BodyColor: #FFFFFF
+2026-05-01 02:24:55,420 - INFO -     → BackgroundColor: #1F2948
+2026-05-01 02:24:57,631 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-01 02:24:59,744 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-01 02:25:00,335 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-01 02:25:05,360 - INFO - ✓ Brand settings saved successfully!
+2026-05-01 02:25:05,705 - INFO - Browser closed
+2026-05-01 02:25:05,710 - INFO - 
+Task finished at 2026-05-01 02:25:05
+2026-05-01 02:25:05,711 - INFO - Log: automation/logs/full_automation_20260501_021924.log
+
+2026-05-01 02:28:21,125 - INFO - User selected: Intro Screens
+2026-05-01 02:28:21,151 - INFO - ============================================================
+2026-05-01 02:28:21,152 - INFO - INTRO SCREENS — Image Processing
+2026-05-01 02:28:21,153 - INFO - ============================================================
+2026-05-01 02:28:21,368 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-01 02:28:21,459 - INFO -   ⚙ Processing 3be7d5cf-e667-4c94-9fad-86b0995cc2b9.png  (360×800 → need 1080×1920)
+2026-05-01 02:28:22,001 - INFO -   ✓ 3be7d5cf-e667-4c94-9fad-86b0995cc2b9.png  →  3be7d5cf-e667-4c94-9fad-86b0995cc2b9_processed.jpg  |  1080×1920  |  0.29 MB  |  quality 92
+2026-05-01 02:28:22,022 - INFO -   ⚙ Processing intro.png  (360×800 → need 1080×1920)
+2026-05-01 02:28:22,563 - INFO -   ✓ intro.png  →  intro_processed.jpg  |  1080×1920  |  0.35 MB  |  quality 92
+2026-05-01 02:28:22,579 - INFO -   ⚙ Processing intro2.png  (360×800 → need 1080×1920)
+2026-05-01 02:28:23,073 - INFO -   ✓ intro2.png  →  intro2_processed.jpg  |  1080×1920  |  0.36 MB  |  quality 92
+2026-05-01 02:28:23,075 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-01 02:29:47,045 - INFO - ============================================================
+2026-05-01 02:29:47,056 - INFO - INTRO SCREENS — Browser Automation
+2026-05-01 02:29:47,056 - INFO - ============================================================
+2026-05-01 02:29:49,281 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-01 02:30:00,709 - INFO - ✓ Chrome driver initialized
+2026-05-01 02:30:00,720 - INFO - Opening login page...
+2026-05-01 02:30:11,342 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-01 02:30:13,680 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-01 02:30:13,698 - INFO - ✓ Login successful
+2026-05-01 02:30:15,927 - INFO - Going to App Settings...
+2026-05-01 02:30:23,603 - INFO -   → Intro Screens section opened
+2026-05-01 02:30:23,679 - INFO - ✓ Intro Screens page ready
+2026-05-01 02:30:23,698 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-01 02:30:23,699 - INFO - ============================================================
+2026-05-01 02:30:23,700 - INFO - [1/3]
+2026-05-01 02:30:23,709 - INFO -   Launching screen: [Engaging Customers with UPI Rewards]
+2026-05-01 02:30:27,681 - INFO -     → Header: Engaging Customers with UPI Rewards
+2026-05-01 02:30:29,356 - INFO -     → Description: A dynamic, app-based loyalty initiative offering instant Rs....
+2026-05-01 02:30:31,863 - INFO -     → Image uploaded: 3be7d5cf-e667-4c94-9fad-86b0995cc2b9_processed.jpg
+2026-05-01 02:30:32,961 - INFO -     → Launch Screen clicked
+2026-05-01 02:30:37,079 - INFO -   ✓ Intro screen launched: Engaging Customers with UPI Rewards
+
+2026-05-01 02:30:38,130 - INFO - [2/3]
+2026-05-01 02:30:38,133 - INFO -   Launching screen: [Seamless QR Code Experience]
+2026-05-01 02:30:41,549 - INFO -     → Header: Seamless QR Code Experience
+2026-05-01 02:30:42,662 - INFO -     → Description: Customers scan unique QR codes on product stickers using the...
+2026-05-01 02:30:45,064 - INFO -     → Image uploaded: intro_processed.jpg
+2026-05-01 02:30:45,836 - INFO -     → Launch Screen clicked
+2026-05-01 02:30:49,937 - INFO -   ✓ Intro screen launched: Seamless QR Code Experience
+
+2026-05-01 02:30:50,938 - INFO - [3/3]
+2026-05-01 02:30:50,940 - INFO -   Launching screen: [Vendor and Client Oversight]
+2026-05-01 02:30:54,661 - INFO -     → Header: Vendor and Client Oversight
+2026-05-01 02:30:56,263 - INFO -     → Description: Vendors track code verifications, while Adhezion Poly Chemic...
+2026-05-01 02:30:58,424 - INFO -     → Image uploaded: intro2_processed.jpg
+2026-05-01 02:30:59,107 - INFO -     → Launch Screen clicked
+2026-05-01 02:31:03,254 - INFO -   ✓ Intro screen launched: Vendor and Client Oversight
+
+2026-05-01 02:31:04,255 - INFO - ============================================================
+2026-05-01 02:31:04,257 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-01 02:31:05,174 - INFO - Browser closed
+2026-05-01 02:31:05,181 - INFO - 
+Task finished at 2026-05-01 02:31:05
+2026-05-01 02:31:05,183 - INFO - Log: automation/logs/full_automation_20260501_021924.log
+
