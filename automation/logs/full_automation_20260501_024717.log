@@ -1,0 +1,16 @@
+2026-05-01 02:47:43,956 - INFO - User selected: Registration Fields
+2026-05-01 02:47:43,956 - INFO - ============================================================
+2026-05-01 02:47:43,957 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-01 02:47:43,959 - INFO - ============================================================
+2026-05-01 02:47:47,293 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-01 02:47:52,968 - INFO - ✓ Chrome driver initialized
+2026-05-01 02:47:52,968 - INFO - Opening login page...
+2026-05-01 02:47:55,181 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-01 02:47:57,107 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-01 02:47:57,207 - INFO - ✓ Login successful
+2026-05-01 02:47:59,208 - INFO - Going to App Settings...
+2026-05-01 02:48:05,313 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/e8956af2cf234050542548db13a9f59a
+2026-05-01 02:48:05,316 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=38653): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e8956af2cf234050542548db13a9f59a
+2026-05-01 02:48:05,318 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=38653): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e8956af2cf234050542548db13a9f59a
+2026-05-01 02:48:05,322 - INFO - Browser closed
+2026-05-01 02:48:05,325 - INFO - Automation cancelled by user (Ctrl+C)

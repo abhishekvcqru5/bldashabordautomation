@@ -34,6 +34,7 @@ from intro_screen import (
     build_slides_custom,
     build_slides_default,
 )
+from registration_fields import RegistrationFieldsAutomation
 
 # Setup logging
 log_dir = Path("automation/logs")
@@ -461,6 +462,40 @@ def run_intro_screens(email, password):
         return False
 
 
+# ══════════════════════════════════════════════════════════════
+# Registration Fields runner
+# ══════════════════════════════════════════════════════════════
+def run_registration_fields(email, password):
+    """Add mandatory registration fields for all user types."""
+    logger.info("=" * 60)
+    logger.info("REGISTRATION FIELDS — Browser Automation")
+    logger.info("=" * 60)
+
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as auto:
+            if not auto.login():
+                logger.error("✗ Login failed. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            reg_auto = RegistrationFieldsAutomation(auto.driver)
+
+            if not reg_auto.navigate():
+                logger.error("✗ Navigation failed. Aborting.")
+                return False
+
+            success = reg_auto.process_all()
+            return success
+
+    except Exception as e:
+        logger.error(f"Unexpected error in registration fields automation: {e}")
+        import traceback
+
+        logger.error(traceback.format_exc())
+        return False
+
+
 def show_menu():
     """
     Main menu — add new options here in the future.
@@ -475,6 +510,7 @@ def show_menu():
     print("║   Press 2 : Brand Setting  (Identity & Branding)             ║")
     print("║   Press 3 : Promotion Banners                                ║")
     print("║   Press 4 : Intro Screens                                    ║")
+    print("║   Press 5 : Registration Fields                              ║")
     print("║   Press 0 : Exit                                             ║")
     print("║                                                              ║")
     print("╚══════════════════════════════════════════════════════════════╝")
@@ -493,7 +529,7 @@ if __name__ == "__main__":
                 sys.exit(0)
 
             # ── Invalid ───────────────────────────────────────────────
-            elif choice not in {"1", "2", "3", "4"}:
+            elif choice not in {"1", "2", "3", "4", "5"}:
                 print(
                     f"\n  ❌ Invalid choice '{choice}'. Please enter a valid option.\n"
                 )
@@ -521,6 +557,10 @@ if __name__ == "__main__":
             elif choice == "4":
                 logger.info("User selected: Intro Screens")
                 success = run_intro_screens(email, password)
+
+            elif choice == "5":
+                logger.info("User selected: Registration Fields")
+                success = run_registration_fields(email, password)
 
             # ── Result summary ────────────────────────────────────────
             logger.info(
