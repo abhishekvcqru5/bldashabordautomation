@@ -1,0 +1,13 @@
+2026-05-02 17:36:21,949 - INFO - User selected: Old Dashboard
+2026-05-02 17:36:28,469 - INFO - ============================================================
+2026-05-02 17:36:28,471 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 17:36:28,472 - INFO - ============================================================
+2026-05-02 17:36:28,914 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 17:36:30,852 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 17:36:38,033 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-02 17:36:38,301 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-02 17:36:41,301 - INFO -   → Filling Vendor credentials...
+2026-05-02 17:36:41,731 - INFO -     - Email entered: gm.operations@holyland.co.in
+2026-05-02 17:36:41,731 - INFO -     - Clicking 'login' button...
+2026-05-02 17:36:41,829 - INFO -   → Waiting for successful login redirect...
+2026-05-02 17:37:15,806 - INFO - Automation cancelled by user (Ctrl+C)

@@ -35,6 +35,7 @@ from intro_screen import (
     build_slides_default,
 )
 from registration_fields import RegistrationFieldsAutomation
+from old_dashboard_migration import run_old_dashboard_migration
 
 # Setup logging
 log_dir = Path("automation/logs")
@@ -511,6 +512,7 @@ def show_menu():
     print("║   Press 3 : Promotion Banners                                ║")
     print("║   Press 4 : Intro Screens                                    ║")
     print("║   Press 5 : Registration Fields                              ║")
+    print("║   Press 6 : Old Dashboard                                    ║")
     print("║   Press 0 : Exit                                             ║")
     print("║                                                              ║")
     print("╚══════════════════════════════════════════════════════════════╝")
@@ -520,26 +522,27 @@ def show_menu():
 
 if __name__ == "__main__":
     try:
+        # Ask credentials ONCE at the very beginning of the session
+        email, password = ask_credentials()
+        if not email or not password:
+            print("  ❌ Email or password cannot be empty.\n")
+            sys.exit(1)
+
         while True:  # ← keep looping until user quits
             choice = show_menu()
 
             # ── Exit ──────────────────────────────────────────────────
             if choice == "0":
                 print("\n  Goodbye! 👋\n")
+                # Credentials will disappear from memory when the process exits
                 sys.exit(0)
 
             # ── Invalid ───────────────────────────────────────────────
-            elif choice not in {"1", "2", "3", "4", "5"}:
+            elif choice not in {"1", "2", "3", "4", "5", "6"}:
                 print(
                     f"\n  ❌ Invalid choice '{choice}'. Please enter a valid option.\n"
                 )
                 continue  # show menu again immediately
-
-            # ── Ask credentials (shared for every task) ───────────────
-            email, password = ask_credentials()
-            if not email or not password:
-                print("  ❌ Email or password cannot be empty.\n")
-                continue  # show menu again
 
             # ── Run selected task ─────────────────────────────────────
             if choice == "1":
@@ -561,6 +564,19 @@ if __name__ == "__main__":
             elif choice == "5":
                 logger.info("User selected: Registration Fields")
                 success = run_registration_fields(email, password)
+
+            elif choice == "6":
+                logger.info("User selected: Old Dashboard")
+                print("\n  ─── Old Dashboard Sub-Menu ───")
+                print("  1. Introduction Screens")
+                # Add more migration tasks here later
+                sub_choice = input("\n  Select task: ").strip()
+                if sub_choice == "1":
+                    # Migration function handles old + new dashboard flows internally.
+                    success = run_old_dashboard_migration(email, password)
+                else:
+                    print("  ❌ Invalid sub-choice.")
+                    success = False
 
             # ── Result summary ────────────────────────────────────────
             logger.info(

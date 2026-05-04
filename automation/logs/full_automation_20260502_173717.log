@@ -1,0 +1,67 @@
+2026-05-02 17:37:37,256 - INFO - User selected: Old Dashboard
+2026-05-02 17:37:39,098 - INFO - ============================================================
+2026-05-02 17:37:39,101 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 17:37:39,101 - INFO - ============================================================
+2026-05-02 17:37:39,590 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 17:37:41,128 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 17:37:47,366 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-02 17:37:47,624 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-02 17:37:50,625 - INFO -   → Filling Vendor credentials...
+2026-05-02 17:37:51,060 - INFO -     - Email entered: gm.operations@holyland.co.in
+2026-05-02 17:37:51,061 - INFO -     - Clicking 'login' button...
+2026-05-02 17:37:51,203 - INFO -   → Waiting for successful login redirect...
+2026-05-02 17:38:52,624 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-02 17:38:52,631 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-02 17:38:52,634 - INFO -   → Checking for any blocking popups...
+2026-05-02 17:38:57,705 - INFO -   → Searching sidebar across 1 context(s)
+2026-05-02 17:38:57,709 - INFO -     → Checking default content
+2026-05-02 17:38:57,858 - ERROR -   ✗ Could not navigate to 'Introduction Setting'.
+2026-05-02 17:38:57,964 - INFO -   📸 Screenshot: automation/screenshots/old_dash_full_page_debug_20260502_173857.png
+2026-05-02 17:38:58,062 - INFO -   📸 Screenshot: automation/screenshots/old_dash_loyalty_menu_not_found_20260502_173857.png
+2026-05-02 17:38:58,063 - INFO - 
+Task finished at 2026-05-02 17:38:58
+2026-05-02 17:38:58,065 - INFO - Log: automation/logs/full_automation_20260502_173717.log
+
+2026-05-02 17:42:32,043 - INFO - User selected: Intro Screens
+2026-05-02 17:42:32,044 - INFO - ============================================================
+2026-05-02 17:42:32,044 - INFO - INTRO SCREENS — Image Processing
+2026-05-02 17:42:32,044 - INFO - ============================================================
+2026-05-02 17:42:32,045 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-02 17:42:32,331 - INFO -   ⚙ Processing 1b295303-e524-4854-b38e-41a4f9872f0a.png  (360×800 → need 1080×1920)
+2026-05-02 17:42:32,504 - INFO -   ✓ 1b295303-e524-4854-b38e-41a4f9872f0a.png  →  1b295303-e524-4854-b38e-41a4f9872f0a_processed.jpg  |  1080×1920  |  0.36 MB  |  quality 92
+2026-05-02 17:42:32,506 - INFO -   ⚙ Processing 45cec5ad-1b96-460a-be0e-2acf9ab89014.png  (360×800 → need 1080×1920)
+2026-05-02 17:42:32,718 - INFO -   ✓ 45cec5ad-1b96-460a-be0e-2acf9ab89014.png  →  45cec5ad-1b96-460a-be0e-2acf9ab89014_processed.jpg  |  1080×1920  |  0.31 MB  |  quality 92
+2026-05-02 17:42:32,721 - INFO -   ⚙ Processing 57e1a2bc-2598-417f-92d4-d9f2bdaa1b9b.png  (360×800 → need 1080×1920)
+2026-05-02 17:42:32,923 - INFO -   ✓ 57e1a2bc-2598-417f-92d4-d9f2bdaa1b9b.png  →  57e1a2bc-2598-417f-92d4-d9f2bdaa1b9b_processed.jpg  |  1080×1920  |  0.29 MB  |  quality 92
+2026-05-02 17:42:32,926 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-02 17:45:15,744 - INFO - ============================================================
+2026-05-02 17:45:15,745 - INFO - INTRO SCREENS — Browser Automation
+2026-05-02 17:45:15,745 - INFO - ============================================================
+2026-05-02 17:45:16,578 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 17:45:18,266 - INFO - ✓ Chrome driver initialized
+2026-05-02 17:45:18,267 - INFO - Opening login page...
+2026-05-02 17:45:20,341 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-02 17:45:22,651 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-02 17:45:22,990 - INFO - ✓ Login successful
+2026-05-02 17:45:24,994 - INFO - Going to App Settings...
+2026-05-02 17:45:31,416 - INFO -   → Intro Screens section opened
+2026-05-02 17:45:31,443 - INFO - ✓ Intro Screens page ready
+2026-05-02 17:45:31,445 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-02 17:45:31,445 - INFO - ============================================================
+2026-05-02 17:45:31,446 - INFO - [1/3]
+2026-05-02 17:45:31,447 - INFO -   Launching screen: [Digital Loyalty and Product Verification Platform]
+2026-05-02 17:45:34,041 - INFO -     → Header: Digital Loyalty and Product Verification Platform
+2026-05-02 17:45:35,542 - INFO -     → Description: This app is a complete solution for verifying authentic FMCG...
+2026-05-02 17:45:37,665 - INFO -     → Image uploaded: 1b295303-e524-4854-b38e-41a4f9872f0a_processed.jpg
+2026-05-02 17:45:37,937 - INFO -     → Launch Screen clicked
+2026-05-02 17:45:41,975 - INFO -   ✓ Intro screen launched: Digital Loyalty and Product Verification Platform
+
+2026-05-02 17:45:42,976 - INFO - [2/3]
+2026-05-02 17:45:42,978 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-02 17:45:45,475 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-02 17:45:46,397 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/c4f2c1c09170fc0bfe52fe3924c1d2ac
+2026-05-02 17:45:46,400 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51463): Failed to establish a new connection: [Errno 111] Connection refused")': /session/c4f2c1c09170fc0bfe52fe3924c1d2ac
+2026-05-02 17:45:46,403 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51463): Failed to establish a new connection: [Errno 111] Connection refused")': /session/c4f2c1c09170fc0bfe52fe3924c1d2ac
+2026-05-02 17:45:46,412 - INFO - Browser closed
+2026-05-02 17:45:46,414 - INFO - Automation cancelled by user (Ctrl+C)

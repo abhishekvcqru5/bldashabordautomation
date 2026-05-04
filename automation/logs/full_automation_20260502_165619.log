@@ -1,0 +1,22 @@
+2026-05-02 16:56:37,188 - INFO - User selected: Old Dashboard Migration
+2026-05-02 16:56:39,116 - INFO - ============================================================
+2026-05-02 16:56:39,116 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 16:56:39,116 - INFO - ============================================================
+2026-05-02 16:56:39,536 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 16:56:40,703 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 16:56:45,660 - INFO -   → Attempting to select Vendor mode...
+2026-05-02 16:57:06,261 - INFO -     ✓ Selected Vendor via JS click on checkbox
+2026-05-02 16:57:08,261 - INFO -   → Locating credential fields...
+2026-05-02 16:57:08,649 - INFO -   → Entering email: gm.operations@holyland.co.in
+2026-05-02 16:57:08,650 - INFO -   → Clicking Login button...
+2026-05-02 16:57:08,667 - INFO -   → Waiting for dashboard redirect...
+2026-05-02 16:57:57,327 - INFO - ✓ Successfully redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-02 16:57:57,328 - INFO - Navigating to Build Loyalty -> Introduction Setting...
+2026-05-02 16:57:57,328 - INFO -   → Searching for 'Build Loyalty' menu...
+2026-05-02 16:57:57,460 - ERROR -   ✗ Could not find 'Build Loyalty' menu
+2026-05-02 16:57:57,561 - INFO -   📸 Screenshot: automation/screenshots/old_dash_menu_not_found_20260502_165757.png
+2026-05-02 16:57:57,561 - INFO - 
+Task finished at 2026-05-02 16:57:57
+2026-05-02 16:57:57,561 - INFO - Log: automation/logs/full_automation_20260502_165619.log
+
+2026-05-02 17:01:13,664 - INFO - Automation cancelled by user (Ctrl+C)

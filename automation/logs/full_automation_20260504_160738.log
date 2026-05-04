@@ -1,0 +1,79 @@
+2026-05-04 16:08:13,438 - INFO - User selected: Dashboard Icons
+2026-05-04 16:08:13,439 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-04 16:08:13,439 - INFO - Automation started at 2026-05-04 16:08:13
+
+2026-05-04 16:08:13,439 - INFO - ============================================================
+2026-05-04 16:08:13,440 - INFO - STEP 1: Processing and Compressing Images
+2026-05-04 16:08:13,440 - INFO - ============================================================
+2026-05-04 16:08:13,440 - INFO - Processing images from: dashboardicons
+2026-05-04 16:08:13,440 - INFO - Output folder: automation/processed_images
+2026-05-04 16:08:13,441 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-04 16:08:13,517 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-04 16:08:13,533 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-04 16:08:13,556 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-04 16:08:13,577 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-04 16:08:13,585 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-04 16:08:13,599 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-04 16:08:13,606 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-04 16:08:13,612 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-04 16:08:13,628 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-04 16:08:13,637 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-04 16:08:13,651 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-04 16:08:13,668 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-04 16:08:13,680 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-04 16:08:13,691 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-04 16:08:13,691 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-04 16:08:13,692 - INFO - ✓ 14 images processed and ready
+
+2026-05-04 16:08:13,692 - INFO - ============================================================
+2026-05-04 16:08:13,692 - INFO - STEP 2: Preparing Authentication
+2026-05-04 16:08:13,692 - INFO - ============================================================
+2026-05-04 16:08:13,692 - INFO - Using email: cc@suriepolex.com
+2026-05-04 16:08:13,692 - INFO - ✓ Credentials loaded
+
+2026-05-04 16:08:13,692 - INFO - ============================================================
+2026-05-04 16:08:13,692 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-04 16:08:13,692 - INFO - ============================================================
+2026-05-04 16:08:15,311 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 16:08:17,063 - INFO - ✓ Chrome driver initialized
+2026-05-04 16:08:17,063 - INFO - 
+→ Attempting login...
+
+2026-05-04 16:08:17,063 - INFO - Opening login page...
+2026-05-04 16:08:18,771 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 16:08:38,821 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x60629d3fd3ea <unknown>
+#1 0x60629ce0d845 <unknown>
+#2 0x60629ce5f9c4 <unknown>
+#3 0x60629ce5fcf1 <unknown>
+#4 0x60629ceaafa4 <unknown>
+#5 0x60629cea8175 <unknown>
+#6 0x60629ce53204 <unknown>
+#7 0x60629ce53fc1 <unknown>
+#8 0x60629d3c09cb <unknown>
+#9 0x60629d3c3c93 <unknown>
+#10 0x60629d3ae65c <unknown>
+#11 0x60629d3c4429 <unknown>
+#12 0x60629d3969d7 <unknown>
+#13 0x60629d3eac08 <unknown>
+#14 0x60629d3eae33 <unknown>
+#15 0x60629d3fbdf7 <unknown>
+#16 0x70c290a9caa4 <unknown>
+#17 0x70c290b29c6c <unknown>
+
+2026-05-04 16:08:39,086 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260504_160838.png
+2026-05-04 16:08:39,086 - ERROR - ✗ Login failed. Aborting.
+2026-05-04 16:08:39,367 - INFO - Browser closed
+2026-05-04 16:08:39,368 - INFO - 
+Task finished at 2026-05-04 16:08:39
+2026-05-04 16:08:39,368 - INFO - Log: automation/logs/full_automation_20260504_160738.log
+

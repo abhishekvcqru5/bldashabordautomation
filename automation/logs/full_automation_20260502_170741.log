@@ -1,0 +1,27 @@
+2026-05-02 17:08:00,952 - INFO - User selected: Old Dashboard Migration
+2026-05-02 17:08:02,543 - INFO - ============================================================
+2026-05-02 17:08:02,544 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 17:08:02,544 - INFO - ============================================================
+2026-05-02 17:08:03,115 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 17:08:04,597 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 17:08:10,885 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-02 17:08:11,105 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-02 17:08:14,105 - INFO -   → Filling Vendor credentials...
+2026-05-02 17:08:14,488 - INFO -     - Email entered: gm.operations@holyland.co.in
+2026-05-02 17:08:14,488 - INFO -     - Clicking 'login' button...
+2026-05-02 17:08:14,666 - INFO -   → Waiting for successful login redirect...
+2026-05-02 17:09:12,965 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-02 17:09:12,976 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-02 17:09:13,011 - INFO -   → Checking for any blocking popups...
+2026-05-02 17:09:18,081 - INFO -   → Searching for 'Build Loyalty App' section...
+2026-05-02 17:09:18,082 - INFO -     - Looking for: 'Build Loyalty App'
+2026-05-02 17:09:18,120 - INFO -     - Looking for: 'Build Loyalty'
+2026-05-02 17:09:18,157 - INFO -     - Looking for: 'Loyalty App'
+2026-05-02 17:09:18,178 - INFO -     - Looking for: 'Loyalty'
+2026-05-02 17:09:18,217 - ERROR -   ✗ Could not find the Loyalty menu.
+2026-05-02 17:09:18,429 - INFO -   📸 Screenshot: automation/screenshots/old_dash_loyalty_menu_not_found_20260502_170918.png
+2026-05-02 17:09:18,430 - INFO - 
+Task finished at 2026-05-02 17:09:18
+2026-05-02 17:09:18,430 - INFO - Log: automation/logs/full_automation_20260502_170741.log
+
+2026-05-02 17:11:15,308 - INFO - Automation cancelled by user (Ctrl+C)

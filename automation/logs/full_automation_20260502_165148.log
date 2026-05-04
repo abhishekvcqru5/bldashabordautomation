@@ -1,0 +1,41 @@
+2026-05-02 16:52:06,123 - INFO - User selected: Old Dashboard Migration
+2026-05-02 16:52:08,186 - INFO - ============================================================
+2026-05-02 16:52:08,187 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 16:52:08,187 - INFO - ============================================================
+2026-05-02 16:52:08,647 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 16:52:10,040 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 16:52:15,911 - INFO -   → Attempting to select Vendor mode...
+2026-05-02 16:52:36,102 - INFO -     ✓ Selected Vendor via JS click on checkbox
+2026-05-02 16:52:38,102 - INFO -   → Locating credential fields...
+2026-05-02 16:52:38,792 - INFO -   → Entering email: gm.operations@holyland.co.in
+2026-05-02 16:52:38,793 - INFO -   → Clicking Login button...
+2026-05-02 16:52:38,813 - INFO -   → Waiting for dashboard redirect...
+2026-05-02 16:54:05,783 - INFO - ✓ Successfully redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-02 16:54:05,783 - INFO - Navigating to Build Loyalty -> Introduction Setting...
+2026-05-02 16:54:25,866 - ERROR - Navigation to intro settings failed: Message: 
+Stacktrace:
+#0 0x5776bb1ec3ea <unknown>
+#1 0x5776babfc845 <unknown>
+#2 0x5776bac4e9c4 <unknown>
+#3 0x5776bac4ecf1 <unknown>
+#4 0x5776bac99fa4 <unknown>
+#5 0x5776bac97175 <unknown>
+#6 0x5776bac42204 <unknown>
+#7 0x5776bac42fc1 <unknown>
+#8 0x5776bb1af9cb <unknown>
+#9 0x5776bb1b2c93 <unknown>
+#10 0x5776bb19d65c <unknown>
+#11 0x5776bb1b3429 <unknown>
+#12 0x5776bb1859d7 <unknown>
+#13 0x5776bb1d9c08 <unknown>
+#14 0x5776bb1d9e33 <unknown>
+#15 0x5776bb1eadf7 <unknown>
+#16 0x73ef2069caa4 <unknown>
+#17 0x73ef20729c6c <unknown>
+
+2026-05-02 16:54:25,971 - INFO -   📸 Screenshot: automation/screenshots/old_dash_nav_error_20260502_165425.png
+2026-05-02 16:54:25,971 - INFO - 
+Task finished at 2026-05-02 16:54:25
+2026-05-02 16:54:25,974 - INFO - Log: automation/logs/full_automation_20260502_165148.log
+
+2026-05-02 16:56:17,762 - INFO - Automation cancelled by user (Ctrl+C)

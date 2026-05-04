@@ -1,0 +1,287 @@
+2026-05-04 16:12:28,353 - INFO - User selected: Dashboard Icons
+2026-05-04 16:12:28,355 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-04 16:12:28,355 - INFO - Automation started at 2026-05-04 16:12:28
+
+2026-05-04 16:12:28,355 - INFO - ============================================================
+2026-05-04 16:12:28,356 - INFO - STEP 1: Processing and Compressing Images
+2026-05-04 16:12:28,356 - INFO - ============================================================
+2026-05-04 16:12:28,356 - INFO - Processing images from: dashboardicons
+2026-05-04 16:12:28,357 - INFO - Output folder: automation/processed_images
+2026-05-04 16:12:28,357 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-04 16:12:28,413 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-04 16:12:28,428 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-04 16:12:28,450 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-04 16:12:28,484 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-04 16:12:28,494 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-04 16:12:28,516 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-04 16:12:28,524 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-04 16:12:28,534 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-04 16:12:28,554 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-04 16:12:28,565 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-04 16:12:28,583 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-04 16:12:28,613 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-04 16:12:28,632 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-04 16:12:28,649 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-04 16:12:28,649 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-04 16:12:28,649 - INFO - ✓ 14 images processed and ready
+
+2026-05-04 16:12:28,649 - INFO - ============================================================
+2026-05-04 16:12:28,650 - INFO - STEP 2: Preparing Authentication
+2026-05-04 16:12:28,650 - INFO - ============================================================
+2026-05-04 16:12:28,650 - INFO - Using email: cc@suriepolex.com
+2026-05-04 16:12:28,650 - INFO - ✓ Credentials loaded
+
+2026-05-04 16:12:28,650 - INFO - ============================================================
+2026-05-04 16:12:28,650 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-04 16:12:28,650 - INFO - ============================================================
+2026-05-04 16:12:29,482 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 16:12:31,940 - INFO - ✓ Chrome driver initialized
+2026-05-04 16:12:31,940 - INFO - 
+→ Attempting login...
+
+2026-05-04 16:12:31,940 - INFO - Opening login page...
+2026-05-04 16:12:34,402 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 16:12:54,537 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x608acfc573ea <unknown>
+#1 0x608acf667845 <unknown>
+#2 0x608acf6b99c4 <unknown>
+#3 0x608acf6b9cf1 <unknown>
+#4 0x608acf704fa4 <unknown>
+#5 0x608acf702175 <unknown>
+#6 0x608acf6ad204 <unknown>
+#7 0x608acf6adfc1 <unknown>
+#8 0x608acfc1a9cb <unknown>
+#9 0x608acfc1dc93 <unknown>
+#10 0x608acfc0865c <unknown>
+#11 0x608acfc1e429 <unknown>
+#12 0x608acfbf09d7 <unknown>
+#13 0x608acfc44c08 <unknown>
+#14 0x608acfc44e33 <unknown>
+#15 0x608acfc55df7 <unknown>
+#16 0x792db5c9caa4 <unknown>
+#17 0x792db5d29c6c <unknown>
+
+2026-05-04 16:12:54,720 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260504_161254.png
+2026-05-04 16:12:54,720 - ERROR - ✗ Login failed. Aborting.
+2026-05-04 16:12:55,015 - INFO - Browser closed
+2026-05-04 16:12:55,015 - INFO - 
+Task finished at 2026-05-04 16:12:55
+2026-05-04 16:12:55,015 - INFO - Log: automation/logs/full_automation_20260504_161212.log
+
+2026-05-04 16:14:25,040 - INFO - User selected: Registration Fields
+2026-05-04 16:14:25,041 - INFO - ============================================================
+2026-05-04 16:14:25,041 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-04 16:14:25,041 - INFO - ============================================================
+2026-05-04 16:14:25,515 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 16:14:27,384 - INFO - ✓ Chrome driver initialized
+2026-05-04 16:14:27,384 - INFO - Opening login page...
+2026-05-04 16:14:29,583 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 16:14:49,889 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x6228e513e3ea <unknown>
+#1 0x6228e4b4e845 <unknown>
+#2 0x6228e4ba09c4 <unknown>
+#3 0x6228e4ba0cf1 <unknown>
+#4 0x6228e4bebfa4 <unknown>
+#5 0x6228e4be9175 <unknown>
+#6 0x6228e4b94204 <unknown>
+#7 0x6228e4b94fc1 <unknown>
+#8 0x6228e51019cb <unknown>
+#9 0x6228e5104c93 <unknown>
+#10 0x6228e50ef65c <unknown>
+#11 0x6228e5105429 <unknown>
+#12 0x6228e50d79d7 <unknown>
+#13 0x6228e512bc08 <unknown>
+#14 0x6228e512be33 <unknown>
+#15 0x6228e513cdf7 <unknown>
+#16 0x7e00f549caa4 <unknown>
+#17 0x7e00f5529c6c <unknown>
+
+2026-05-04 16:14:50,096 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260504_161449.png
+2026-05-04 16:14:50,096 - ERROR - ✗ Login failed. Aborting.
+2026-05-04 16:14:50,297 - INFO - Browser closed
+2026-05-04 16:14:50,297 - INFO - 
+Task finished at 2026-05-04 16:14:50
+2026-05-04 16:14:50,297 - INFO - Log: automation/logs/full_automation_20260504_161212.log
+
+2026-05-04 16:17:08,110 - INFO - User selected: Brand Setting
+2026-05-04 16:17:13,456 - INFO -   Found logo asset: logo.png
+2026-05-04 16:17:13,456 - INFO -   Found splash asset: Splash.png
+2026-05-04 16:17:13,456 - INFO - ============================================================
+2026-05-04 16:17:13,456 - INFO - BRAND SETTING — Image Processing
+2026-05-04 16:17:13,456 - INFO - ============================================================
+2026-05-04 16:17:13,502 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-04 16:17:13,895 - INFO - ✓ Logo  → logo_processed.png  |  187.7 KB  |  PNG lossless
+2026-05-04 16:17:13,946 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-04 16:17:15,042 - INFO - ✓ Splash → splash_processed.png  |  0.84 MB  |  PNG lossless
+2026-05-04 16:17:15,042 - INFO - 
+2026-05-04 16:17:15,043 - INFO - Extracting brand colours from logo...
+2026-05-04 16:17:15,313 - INFO -   Colours extracted from logo:
+2026-05-04 16:17:15,313 - INFO -     Header Color     →  #F0E000  (dominant logo colour)
+2026-05-04 16:17:15,313 - INFO -     Background Color →  #9C9100  (35% darker)
+2026-05-04 16:17:15,313 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-04 16:17:15,313 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-04 16:17:15,327 - INFO - ✓ Both images ready
+
+2026-05-04 16:17:15,327 - INFO - ============================================================
+2026-05-04 16:17:15,327 - INFO - BRAND SETTING — Browser Automation
+2026-05-04 16:17:15,327 - INFO - ============================================================
+2026-05-04 16:17:15,795 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 16:17:16,964 - INFO - ✓ Chrome driver initialized
+2026-05-04 16:17:16,965 - INFO - Opening login page...
+2026-05-04 16:17:18,655 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 16:17:38,701 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x583498e733ea <unknown>
+#1 0x583498883845 <unknown>
+#2 0x5834988d59c4 <unknown>
+#3 0x5834988d5cf1 <unknown>
+#4 0x583498920fa4 <unknown>
+#5 0x58349891e175 <unknown>
+#6 0x5834988c9204 <unknown>
+#7 0x5834988c9fc1 <unknown>
+#8 0x583498e369cb <unknown>
+#9 0x583498e39c93 <unknown>
+#10 0x583498e2465c <unknown>
+#11 0x583498e3a429 <unknown>
+#12 0x583498e0c9d7 <unknown>
+#13 0x583498e60c08 <unknown>
+#14 0x583498e60e33 <unknown>
+#15 0x583498e71df7 <unknown>
+#16 0x7f0bf009caa4 <unknown>
+#17 0x7f0bf0129c6c <unknown>
+
+2026-05-04 16:17:38,892 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260504_161738.png
+2026-05-04 16:17:38,893 - ERROR - ✗ Login failed. Aborting.
+2026-05-04 16:17:39,007 - INFO - Browser closed
+2026-05-04 16:17:39,007 - INFO - 
+Task finished at 2026-05-04 16:17:39
+2026-05-04 16:17:39,007 - INFO - Log: automation/logs/full_automation_20260504_161212.log
+
+2026-05-04 16:17:45,042 - INFO - User selected: Brand Setting
+2026-05-04 16:17:50,546 - INFO -   Found logo asset: logo.png
+2026-05-04 16:17:50,547 - INFO -   Found splash asset: Splash.png
+2026-05-04 16:17:50,547 - INFO - ============================================================
+2026-05-04 16:17:50,547 - INFO - BRAND SETTING — Image Processing
+2026-05-04 16:17:50,547 - INFO - ============================================================
+2026-05-04 16:17:50,586 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-04 16:17:50,966 - INFO - ✓ Logo  → logo_processed.png  |  187.7 KB  |  PNG lossless
+2026-05-04 16:17:51,028 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-04 16:17:52,120 - INFO - ✓ Splash → splash_processed.png  |  0.84 MB  |  PNG lossless
+2026-05-04 16:17:52,122 - INFO - 
+2026-05-04 16:17:52,122 - INFO - Extracting brand colours from logo...
+2026-05-04 16:17:52,411 - INFO -   Colours extracted from logo:
+2026-05-04 16:17:52,411 - INFO -     Header Color     →  #F0E000  (dominant logo colour)
+2026-05-04 16:17:52,412 - INFO -     Background Color →  #9C9100  (35% darker)
+2026-05-04 16:17:52,412 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-04 16:17:52,412 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-04 16:17:52,430 - INFO - ✓ Both images ready
+
+2026-05-04 16:17:52,430 - INFO - ============================================================
+2026-05-04 16:17:52,430 - INFO - BRAND SETTING — Browser Automation
+2026-05-04 16:17:52,430 - INFO - ============================================================
+2026-05-04 16:17:52,873 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 16:17:53,966 - INFO - ✓ Chrome driver initialized
+2026-05-04 16:17:53,966 - INFO - Opening login page...
+2026-05-04 16:17:55,741 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 16:18:15,932 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x5be4ed5403ea <unknown>
+#1 0x5be4ecf50845 <unknown>
+#2 0x5be4ecfa29c4 <unknown>
+#3 0x5be4ecfa2cf1 <unknown>
+#4 0x5be4ecfedfa4 <unknown>
+#5 0x5be4ecfeb175 <unknown>
+#6 0x5be4ecf96204 <unknown>
+#7 0x5be4ecf96fc1 <unknown>
+#8 0x5be4ed5039cb <unknown>
+#9 0x5be4ed506c93 <unknown>
+#10 0x5be4ed4f165c <unknown>
+#11 0x5be4ed507429 <unknown>
+#12 0x5be4ed4d99d7 <unknown>
+#13 0x5be4ed52dc08 <unknown>
+#14 0x5be4ed52de33 <unknown>
+#15 0x5be4ed53edf7 <unknown>
+#16 0x74ca4e09caa4 <unknown>
+#17 0x74ca4e129c6c <unknown>
+
+2026-05-04 16:18:16,090 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260504_161815.png
+2026-05-04 16:18:16,090 - ERROR - ✗ Login failed. Aborting.
+2026-05-04 16:18:16,252 - INFO - Browser closed
+2026-05-04 16:18:16,252 - INFO - 
+Task finished at 2026-05-04 16:18:16
+2026-05-04 16:18:16,252 - INFO - Log: automation/logs/full_automation_20260504_161212.log
+
+2026-05-04 16:18:19,669 - INFO - User selected: Promotion Banners
+2026-05-04 16:18:19,670 - INFO - ============================================================
+2026-05-04 16:18:19,671 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-04 16:18:19,671 - INFO - ============================================================
+2026-05-04 16:18:19,672 - INFO - Found 10 banner image(s) in banner/
+2026-05-04 16:18:19,672 - INFO -   ⚙ Processing VcqruBanner of 40 years celeibration APP.png  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:19,780 - INFO -   ✓ VcqruBanner of 40 years celeibration APP.png  →  VcqruBanner of 40 years celeibration APP_processed.jpg  |  1920×1080  |  0.16 MB  |  quality 92
+2026-05-04 16:18:19,782 - INFO -   ⚙ Processing VcqruEPOXY RESINS.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:19,893 - INFO -   ✓ VcqruEPOXY RESINS.jpg  →  VcqruEPOXY RESINS_processed.jpg  |  1920×1080  |  0.12 MB  |  quality 92
+2026-05-04 16:18:19,896 - INFO -   ⚙ Processing VcqruMARBLE DENSIFIERS.jpg  (size 400×200 → need 1920×1080)
+2026-05-04 16:18:20,016 - INFO -   ✓ VcqruMARBLE DENSIFIERS.jpg  →  VcqruMARBLE DENSIFIERS_processed.jpg  |  1920×1080  |  0.14 MB  |  quality 92
+2026-05-04 16:18:20,018 - INFO -   ⚙ Processing VcqruMARBLE GLUES.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:20,145 - INFO -   ✓ VcqruMARBLE GLUES.jpg  →  VcqruMARBLE GLUES_processed.jpg  |  1920×1080  |  0.14 MB  |  quality 92
+2026-05-04 16:18:20,150 - INFO -   ⚙ Processing VcqruNOTICE-ENGLISH.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:20,292 - INFO -   ✓ VcqruNOTICE-ENGLISH.jpg  →  VcqruNOTICE-ENGLISH_processed.jpg  |  1920×1080  |  0.22 MB  |  quality 92
+2026-05-04 16:18:20,294 - INFO -   ⚙ Processing VcqruNOTICE-HINDI.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:20,415 - INFO -   ✓ VcqruNOTICE-HINDI.jpg  →  VcqruNOTICE-HINDI_processed.jpg  |  1920×1080  |  0.23 MB  |  quality 92
+2026-05-04 16:18:20,416 - INFO -   ⚙ Processing VcqruPOLISHING POWDERS.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:20,544 - INFO -   ✓ VcqruPOLISHING POWDERS.jpg  →  VcqruPOLISHING POWDERS_processed.jpg  |  1920×1080  |  0.13 MB  |  quality 92
+2026-05-04 16:18:20,548 - INFO -   ⚙ Processing VcqruRESINS.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:20,659 - INFO -   ✓ VcqruRESINS.jpg  →  VcqruRESINS_processed.jpg  |  1920×1080  |  0.13 MB  |  quality 92
+2026-05-04 16:18:20,662 - INFO -   ⚙ Processing VcqruSEALERS.jpg  (size 400×201 → need 1920×1080)
+2026-05-04 16:18:20,777 - INFO -   ✓ VcqruSEALERS.jpg  →  VcqruSEALERS_processed.jpg  |  1920×1080  |  0.11 MB  |  quality 92
+2026-05-04 16:18:20,779 - INFO -   ⚙ Processing VcqruSHINERS & WAXES.jpg  (size 401×201 → need 1920×1080)
+2026-05-04 16:18:20,891 - INFO -   ✓ VcqruSHINERS & WAXES.jpg  →  VcqruSHINERS & WAXES_processed.jpg  |  1920×1080  |  0.13 MB  |  quality 92
+2026-05-04 16:18:20,893 - INFO - 
+  Processed 10/10 banners successfully
+
+2026-05-04 16:18:20,893 - INFO - ============================================================
+2026-05-04 16:18:20,893 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-04 16:18:20,893 - INFO - ============================================================
+2026-05-04 16:18:21,337 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 16:18:22,500 - INFO - ✓ Chrome driver initialized
+2026-05-04 16:18:22,500 - INFO - Opening login page...
+2026-05-04 16:18:25,146 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 16:18:45,365 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x5b9f33c063ea <unknown>
+#1 0x5b9f33616845 <unknown>
+#2 0x5b9f336689c4 <unknown>
+#3 0x5b9f33668cf1 <unknown>
+#4 0x5b9f336b3fa4 <unknown>
+#5 0x5b9f336b1175 <unknown>
+#6 0x5b9f3365c204 <unknown>
+#7 0x5b9f3365cfc1 <unknown>
+#8 0x5b9f33bc99cb <unknown>
+#9 0x5b9f33bccc93 <unknown>
+#10 0x5b9f33bb765c <unknown>
+#11 0x5b9f33bcd429 <unknown>
+#12 0x5b9f33b9f9d7 <unknown>
+#13 0x5b9f33bf3c08 <unknown>
+#14 0x5b9f33bf3e33 <unknown>
+#15 0x5b9f33c04df7 <unknown>
+#16 0x7a9de1e9caa4 <unknown>
+#17 0x7a9de1f29c6c <unknown>
+
+2026-05-04 16:18:45,547 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260504_161845.png
+2026-05-04 16:18:45,548 - ERROR - ✗ Login failed. Aborting.
+2026-05-04 16:18:45,705 - INFO - Browser closed
+2026-05-04 16:18:45,705 - INFO - 
+Task finished at 2026-05-04 16:18:45
+2026-05-04 16:18:45,706 - INFO - Log: automation/logs/full_automation_20260504_161212.log
+
+2026-05-04 16:18:51,232 - INFO - Automation cancelled by user (Ctrl+C)

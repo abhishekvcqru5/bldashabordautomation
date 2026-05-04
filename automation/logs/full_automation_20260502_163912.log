@@ -1,0 +1,33 @@
+2026-05-02 16:39:35,256 - INFO - User selected: Old Dashboard Migration
+2026-05-02 16:39:39,098 - INFO - ============================================================
+2026-05-02 16:39:39,099 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 16:39:39,100 - INFO - ============================================================
+2026-05-02 16:39:39,889 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 16:39:41,025 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 16:40:03,632 - ERROR - Old dashboard login failed: Message: 
+Stacktrace:
+#0 0x610caafa63ea <unknown>
+#1 0x610caa9b6845 <unknown>
+#2 0x610caaa089c4 <unknown>
+#3 0x610caaa08cf1 <unknown>
+#4 0x610caaa53fa4 <unknown>
+#5 0x610caaa51175 <unknown>
+#6 0x610caa9fc204 <unknown>
+#7 0x610caa9fcfc1 <unknown>
+#8 0x610caaf699cb <unknown>
+#9 0x610caaf6cc93 <unknown>
+#10 0x610caaf5765c <unknown>
+#11 0x610caaf6d429 <unknown>
+#12 0x610caaf3f9d7 <unknown>
+#13 0x610caaf93c08 <unknown>
+#14 0x610caaf93e33 <unknown>
+#15 0x610caafa4df7 <unknown>
+#16 0x79109ec9caa4 <unknown>
+#17 0x79109ed29c6c <unknown>
+
+2026-05-02 16:40:03,760 - INFO -   📸 Screenshot: automation/screenshots/old_dash_login_error_20260502_164003.png
+2026-05-02 16:40:03,761 - INFO - 
+Task finished at 2026-05-02 16:40:03
+2026-05-02 16:40:03,761 - INFO - Log: automation/logs/full_automation_20260502_163912.log
+
+2026-05-02 16:44:36,512 - INFO - Automation cancelled by user (Ctrl+C)

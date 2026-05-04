@@ -1,0 +1,15 @@
+2026-05-02 16:46:44,659 - INFO - User selected: Old Dashboard Migration
+2026-05-02 16:46:46,154 - INFO - ============================================================
+2026-05-02 16:46:46,155 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-02 16:46:46,155 - INFO - ============================================================
+2026-05-02 16:46:46,712 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-02 16:46:48,142 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 16:46:50,161 - INFO -   → Selecting Vendor login mode...
+2026-05-02 16:47:10,260 - ERROR - Old dashboard login failed: Message: 
+
+2026-05-02 16:47:10,464 - INFO -   📸 Screenshot: automation/screenshots/old_dash_login_error_20260502_164710.png
+2026-05-02 16:47:10,465 - INFO - 
+Task finished at 2026-05-02 16:47:10
+2026-05-02 16:47:10,465 - INFO - Log: automation/logs/full_automation_20260502_164628.log
+
+2026-05-02 16:51:47,406 - INFO - Automation cancelled by user (Ctrl+C)

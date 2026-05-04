@@ -1,0 +1,214 @@
+2026-05-04 00:44:43,702 - INFO - User selected: Dashboard Icons
+2026-05-04 00:44:43,702 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-04 00:44:43,702 - INFO - Automation started at 2026-05-04 00:44:43
+
+2026-05-04 00:44:43,702 - INFO - ============================================================
+2026-05-04 00:44:43,702 - INFO - STEP 1: Processing and Compressing Images
+2026-05-04 00:44:43,703 - INFO - ============================================================
+2026-05-04 00:44:43,704 - INFO - Processing images from: dashboardicons
+2026-05-04 00:44:43,704 - INFO - Output folder: automation/processed_images
+2026-05-04 00:44:43,704 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-04 00:44:43,743 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-04 00:44:43,752 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-04 00:44:43,768 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-04 00:44:43,793 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-04 00:44:43,805 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-04 00:44:43,824 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-04 00:44:43,836 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-04 00:44:43,845 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-04 00:44:43,863 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-04 00:44:43,875 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-04 00:44:43,897 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-04 00:44:43,918 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-04 00:44:43,934 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-04 00:44:43,946 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-04 00:44:43,951 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-04 00:44:43,951 - INFO - ✓ 14 images processed and ready
+
+2026-05-04 00:44:43,951 - INFO - ============================================================
+2026-05-04 00:44:43,951 - INFO - STEP 2: Preparing Authentication
+2026-05-04 00:44:43,951 - INFO - ============================================================
+2026-05-04 00:44:43,952 - INFO - Using email: Adhezionpolychem@gmail.com
+2026-05-04 00:44:43,952 - INFO - ✓ Credentials loaded
+
+2026-05-04 00:44:43,952 - INFO - ============================================================
+2026-05-04 00:44:43,952 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-04 00:44:43,952 - INFO - ============================================================
+2026-05-04 00:44:44,594 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-04 00:44:45,888 - INFO - ✓ Chrome driver initialized
+2026-05-04 00:44:45,888 - INFO - 
+→ Attempting login...
+
+2026-05-04 00:44:45,888 - INFO - Opening login page...
+2026-05-04 00:44:47,431 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-04 00:44:48,684 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-04 00:44:48,752 - INFO - ✓ Login successful
+2026-05-04 00:44:50,754 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-04 00:44:50,755 - INFO - Navigating to App Settings...
+2026-05-04 00:44:57,322 - INFO - ✓ Dashboard Icons section loaded
+2026-05-04 00:44:59,324 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-04 00:44:59,324 - INFO - Starting batch – 12 configured entries
+2026-05-04 00:45:02,825 - INFO -   Found 2 user types: ['Consumer', 'Retailer']
+2026-05-04 00:45:02,825 - INFO - Available user types: ['Consumer', 'Retailer']
+2026-05-04 00:45:02,825 - INFO - Total icons to upload after expansion: 24
+2026-05-04 00:45:02,826 - INFO - ============================================================
+2026-05-04 00:45:02,826 - INFO - [1/24]
+2026-05-04 00:45:02,826 - INFO -   Adding: [Consumer] Gift  (gift)
+2026-05-04 00:45:05,208 - INFO -     → User type: Consumer
+2026-05-04 00:45:05,497 - INFO -     → Icon identity: gift
+2026-05-04 00:45:05,790 - INFO -     → Display title: Gift
+2026-05-04 00:45:05,882 - INFO -     → Toggle: both
+2026-05-04 00:45:08,031 - INFO -     → Image uploaded: Gift.png
+2026-05-04 00:45:08,292 - INFO -     → Form submitted
+2026-05-04 00:45:09,316 - INFO -   ✓ Icon added: Gift
+
+2026-05-04 00:45:10,317 - INFO - [2/24]
+2026-05-04 00:45:10,323 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-05-04 00:45:13,172 - INFO -     → User type: Retailer
+2026-05-04 00:45:13,331 - INFO -     → Icon identity: gift
+2026-05-04 00:45:13,533 - INFO -     → Display title: Gift
+2026-05-04 00:45:13,574 - INFO -     → Toggle: both
+2026-05-04 00:45:15,677 - INFO -     → Image uploaded: Gift.png
+2026-05-04 00:45:15,814 - INFO -     → Form submitted
+2026-05-04 00:45:16,858 - INFO -   ✓ Icon added: Gift
+
+2026-05-04 00:45:17,859 - INFO - [3/24]
+2026-05-04 00:45:17,860 - INFO -   Adding: [Consumer] History  (history)
+2026-05-04 00:45:20,696 - INFO -     → User type: Consumer
+2026-05-04 00:45:20,831 - INFO -     → Icon identity: history
+2026-05-04 00:45:21,068 - INFO -     → Display title: History
+2026-05-04 00:45:21,157 - INFO -     → Toggle: both
+2026-05-04 00:45:23,264 - INFO -     → Image uploaded: history.png
+2026-05-04 00:45:23,563 - INFO -     → Form submitted
+2026-05-04 00:45:24,602 - INFO -   ✓ Icon added: History
+
+2026-05-04 00:45:25,603 - INFO - [4/24]
+2026-05-04 00:45:25,603 - INFO -   Adding: [Retailer] History  (history)
+2026-05-04 00:45:27,911 - INFO -     → User type: Retailer
+2026-05-04 00:45:28,009 - INFO -     → Icon identity: history
+2026-05-04 00:45:28,195 - INFO -     → Display title: History
+2026-05-04 00:45:28,236 - INFO -     → Toggle: both
+2026-05-04 00:45:30,309 - INFO -     → Image uploaded: history.png
+2026-05-04 00:45:30,427 - INFO -     → Form submitted
+2026-05-04 00:45:31,473 - INFO -   ✓ Icon added: History
+
+2026-05-04 00:45:32,473 - INFO - [5/24]
+2026-05-04 00:45:32,473 - INFO -   Adding: [Consumer] Wallet  (wallet)
+2026-05-04 00:45:34,788 - INFO -     → User type: Consumer
+2026-05-04 00:45:34,926 - INFO -     → Icon identity: wallet
+2026-05-04 00:45:35,134 - INFO -     → Display title: Wallet
+2026-05-04 00:45:35,179 - INFO -     → Toggle: both
+2026-05-04 00:45:37,268 - INFO -     → Image uploaded: wallet.png
+2026-05-04 00:45:37,433 - INFO -     → Form submitted
+2026-05-04 00:45:38,462 - INFO -   ✓ Icon added: Wallet
+
+2026-05-04 00:45:39,462 - INFO - [6/24]
+2026-05-04 00:45:39,463 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-05-04 00:45:41,805 - INFO -     → User type: Retailer
+2026-05-04 00:45:41,950 - INFO -     → Icon identity: wallet
+2026-05-04 00:45:42,291 - INFO -     → Display title: Wallet
+2026-05-04 00:45:42,468 - INFO -     → Toggle: both
+2026-05-04 00:45:44,745 - INFO -     → Image uploaded: wallet.png
+2026-05-04 00:45:45,084 - INFO -     → Form submitted
+2026-05-04 00:45:46,142 - INFO -   ✓ Icon added: Wallet
+
+2026-05-04 00:45:47,143 - INFO - [7/24]
+2026-05-04 00:45:47,144 - INFO -   Adding: [Consumer] KYC  (kycdetails)
+2026-05-04 00:45:49,498 - INFO -     → User type: Consumer
+2026-05-04 00:45:49,643 - INFO -     → Icon identity: kycdetails
+2026-05-04 00:45:49,848 - INFO -     → Display title: KYC
+2026-05-04 00:45:49,903 - INFO -     → Toggle: both
+2026-05-04 00:45:51,984 - INFO -     → Image uploaded: kyc.png
+2026-05-04 00:45:52,158 - INFO -     → Form submitted
+2026-05-04 00:45:53,178 - INFO -   ✓ Icon added: KYC
+
+2026-05-04 00:45:54,179 - INFO - [8/24]
+2026-05-04 00:45:54,180 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-05-04 00:45:56,637 - INFO -     → User type: Retailer
+2026-05-04 00:45:56,919 - INFO -     → Icon identity: kycdetails
+2026-05-04 00:45:57,183 - INFO -     → Display title: KYC
+2026-05-04 00:45:57,209 - INFO -     → Toggle: both
+2026-05-04 00:45:59,262 - INFO -     → Image uploaded: kyc.png
+2026-05-04 00:45:59,410 - INFO -     → Form submitted
+2026-05-04 00:46:00,461 - INFO -   ✓ Icon added: KYC
+
+2026-05-04 00:46:01,462 - INFO - [9/24]
+2026-05-04 00:46:01,462 - INFO -   Adding: [Consumer] Blog  (blog)
+2026-05-04 00:46:03,918 - INFO -     → User type: Consumer
+2026-05-04 00:46:04,290 - INFO -     → Icon identity: blog
+2026-05-04 00:46:04,490 - INFO -     → Display title: Blog
+2026-05-04 00:46:04,554 - INFO -     → Toggle: both
+2026-05-04 00:46:06,643 - INFO -     → Image uploaded: blog.png
+2026-05-04 00:46:06,837 - INFO -     → Form submitted
+2026-05-04 00:46:07,878 - INFO -   ✓ Icon added: Blog
+
+2026-05-04 00:46:08,878 - INFO - [10/24]
+2026-05-04 00:46:08,878 - INFO -   Adding: [Retailer] Blog  (blog)
+2026-05-04 00:46:11,251 - INFO -     → User type: Retailer
+2026-05-04 00:46:11,415 - INFO -     → Icon identity: blog
+2026-05-04 00:46:11,735 - INFO -     → Display title: Blog
+2026-05-04 00:46:11,814 - INFO -     → Toggle: both
+2026-05-04 00:46:13,893 - INFO -     → Image uploaded: blog.png
+2026-05-04 00:46:14,035 - INFO -     → Form submitted
+2026-05-04 00:46:15,061 - INFO -   ✓ Icon added: Blog
+
+2026-05-04 00:46:16,061 - INFO - [11/24]
+2026-05-04 00:46:16,062 - INFO -   Adding: [Consumer] Brochure  (brochure)
+2026-05-04 00:46:18,399 - INFO -     → User type: Consumer
+2026-05-04 00:46:18,506 - INFO -     → Icon identity: brochure
+2026-05-04 00:46:18,689 - INFO -     → Display title: Brochure
+2026-05-04 00:46:18,742 - INFO -     → Toggle: both
+2026-05-04 00:46:20,831 - INFO -     → Image uploaded: brochure.png
+2026-05-04 00:46:21,058 - INFO -     → Form submitted
+2026-05-04 00:46:22,091 - INFO -   ✓ Icon added: Brochure
+
+2026-05-04 00:46:23,092 - INFO - [12/24]
+2026-05-04 00:46:23,093 - INFO -   Adding: [Retailer] Brochure  (brochure)
+2026-05-04 00:46:25,453 - INFO -     → User type: Retailer
+2026-05-04 00:46:25,651 - INFO -     → Icon identity: brochure
+2026-05-04 00:46:26,066 - INFO -     → Display title: Brochure
+2026-05-04 00:46:26,140 - INFO -     → Toggle: both
+2026-05-04 00:46:28,234 - INFO -     → Image uploaded: brochure.png
+2026-05-04 00:46:28,390 - INFO -     → Form submitted
+2026-05-04 00:46:29,421 - INFO -   ✓ Icon added: Brochure
+
+2026-05-04 00:46:30,421 - INFO - [13/24]
+2026-05-04 00:46:30,422 - INFO -   Adding: [Consumer] Claim History  (claimhistory)
+2026-05-04 00:46:32,873 - INFO -     → User type: Consumer
+2026-05-04 00:46:33,132 - INFO -     → Icon identity: claimhistory
+2026-05-04 00:46:33,433 - INFO -     → Display title: Claim History
+2026-05-04 00:46:33,503 - INFO -     → Toggle: both
+2026-05-04 00:46:35,613 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-04 00:46:35,860 - INFO -     → Form submitted
+2026-05-04 00:46:36,894 - INFO -   ✓ Icon added: Claim History
+
+2026-05-04 00:46:37,894 - INFO - [14/24]
+2026-05-04 00:46:37,894 - INFO -   Adding: [Retailer] Claim History  (claimhistory)
+2026-05-04 00:46:40,228 - INFO -     → User type: Retailer
+2026-05-04 00:46:40,482 - INFO -     → Icon identity: claimhistory
+2026-05-04 00:46:40,713 - INFO -     → Display title: Claim History
+2026-05-04 00:46:40,767 - INFO -     → Toggle: both
+2026-05-04 00:46:42,813 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-04 00:46:42,984 - INFO -     → Form submitted
+2026-05-04 00:46:44,017 - INFO -   ✓ Icon added: Claim History
+
+2026-05-04 00:46:45,018 - INFO - [15/24]
+2026-05-04 00:46:45,018 - INFO -   Adding: [Consumer] Language  (chooselanguage)
+2026-05-04 00:46:47,348 - INFO -     → User type: Consumer
+2026-05-04 00:46:47,481 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/45dad84dc302a8fd94a24895e90387c1
+2026-05-04 00:46:47,482 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47731): Failed to establish a new connection: [Errno 111] Connection refused")': /session/45dad84dc302a8fd94a24895e90387c1
+2026-05-04 00:46:47,483 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47731): Failed to establish a new connection: [Errno 111] Connection refused")': /session/45dad84dc302a8fd94a24895e90387c1
+2026-05-04 00:46:47,487 - INFO - Browser closed
+2026-05-04 00:46:47,487 - INFO - Automation cancelled by user (Ctrl+C)
