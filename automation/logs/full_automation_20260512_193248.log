@@ -1,0 +1,29 @@
+2026-05-12 19:33:25,894 - INFO - User selected: Old Dashboard
+2026-05-12 19:33:29,109 - INFO -   Old Dashboard → Brand Setting
+2026-05-12 19:33:29,110 - INFO - ============================================================
+2026-05-12 19:33:29,110 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-12 19:33:29,110 - INFO - ============================================================
+2026-05-12 19:33:30,726 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 19:33:32,811 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-12 19:33:32,811 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-12 19:33:39,550 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-12 19:33:41,550 - INFO -     → Filling credentials …
+2026-05-12 19:33:41,820 - INFO -       Email → field #login_txt_id
+2026-05-12 19:33:42,003 - INFO -       Password → field #login_txt_pass
+2026-05-12 19:33:42,146 - INFO -       Login button clicked: #btnVendor
+2026-05-12 19:33:42,146 - INFO -     → Waiting for post-login redirect …
+2026-05-12 19:33:59,892 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-12 19:33:59,893 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-12 19:33:59,894 - INFO -   → Navigating to Build Loyalty App → Brand Setting …
+2026-05-12 19:34:03,024 - INFO -     Searching across 1 frame context(s)
+2026-05-12 19:34:03,030 - INFO -       Checking default …
+2026-05-12 19:34:03,113 - ERROR -   ✗ Could not navigate to Brand Setting
+2026-05-12 19:34:03,228 - INFO -   📸 Screenshot saved: automation/screenshots/old_brand_nav_brand_fail_20260512_193403.png
+2026-05-12 19:34:03,228 - ERROR - ✗ Navigation failed. Aborting.
+2026-05-12 19:34:03,728 - INFO -   Browser closed
+2026-05-12 19:34:03,729 - INFO - 
+Task finished at 2026-05-12 19:34:03
+2026-05-12 19:34:03,729 - INFO - Log: automation/logs/full_automation_20260512_193248.log
+

@@ -1,0 +1,54 @@
+2026-05-07 15:17:09,764 - INFO - User selected: Brand Setting
+2026-05-07 15:17:13,073 - INFO -   Found logo asset: logo.png
+2026-05-07 15:17:13,073 - INFO -   Found splash asset: splash.png
+2026-05-07 15:17:13,073 - INFO - ============================================================
+2026-05-07 15:17:13,073 - INFO - BRAND SETTING — Image Processing
+2026-05-07 15:17:13,074 - INFO - ============================================================
+2026-05-07 15:17:14,025 - INFO - ✓ Logo  → logo_processed.jpg  |  31.4 KB  |  JPEG q95
+2026-05-07 15:17:14,393 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-07 15:17:16,109 - INFO - ✓ Splash → splash_processed.png  |  0.85 MB  |  PNG lossless
+2026-05-07 15:17:16,121 - INFO - 
+2026-05-07 15:17:16,121 - INFO - Extracting brand colours from logo...
+2026-05-07 15:17:16,785 - INFO -   Colours extracted from logo:
+2026-05-07 15:17:16,788 - INFO -     Header Color     →  #803050  (dominant logo colour)
+2026-05-07 15:17:16,789 - INFO -     Background Color →  #531F34  (35% darker)
+2026-05-07 15:17:16,789 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-07 15:17:16,790 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-07 15:17:16,846 - INFO - ✓ Both images ready
+
+2026-05-07 15:17:16,846 - INFO - ============================================================
+2026-05-07 15:17:16,846 - INFO - BRAND SETTING — Browser Automation
+2026-05-07 15:17:16,847 - INFO - ============================================================
+2026-05-07 15:17:21,134 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 15:17:28,786 - INFO - ✓ Chrome driver initialized
+2026-05-07 15:17:28,790 - INFO - Opening login page...
+2026-05-07 15:17:34,262 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 15:17:54,335 - ERROR - Login failed: Message: 
+Stacktrace:
+#0 0x63a416d6e3ea <unknown>
+#1 0x63a41677e845 <unknown>
+#2 0x63a4167d09c4 <unknown>
+#3 0x63a4167d0cf1 <unknown>
+#4 0x63a41681bfa4 <unknown>
+#5 0x63a416819175 <unknown>
+#6 0x63a4167c4204 <unknown>
+#7 0x63a4167c4fc1 <unknown>
+#8 0x63a416d319cb <unknown>
+#9 0x63a416d34c93 <unknown>
+#10 0x63a416d1f65c <unknown>
+#11 0x63a416d35429 <unknown>
+#12 0x63a416d079d7 <unknown>
+#13 0x63a416d5bc08 <unknown>
+#14 0x63a416d5be33 <unknown>
+#15 0x63a416d6cdf7 <unknown>
+#16 0x76c83509caa4 <unknown>
+#17 0x76c835129c6c <unknown>
+
+2026-05-07 15:17:54,671 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260507_151754.png
+2026-05-07 15:17:54,672 - ERROR - ✗ Login failed. Aborting.
+2026-05-07 15:17:54,993 - INFO - Browser closed
+2026-05-07 15:17:54,993 - INFO - 
+Task finished at 2026-05-07 15:17:54
+2026-05-07 15:17:55,019 - INFO - Log: automation/logs/full_automation_20260507_151637.log
+
+2026-05-07 15:17:57,049 - INFO - Automation cancelled by user (Ctrl+C)

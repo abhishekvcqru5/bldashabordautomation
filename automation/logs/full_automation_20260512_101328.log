@@ -1,0 +1,492 @@
+2026-05-12 10:15:28,223 - INFO - User selected: Dashboard Icons
+2026-05-12 10:15:28,223 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-12 10:15:28,223 - INFO - Automation started at 2026-05-12 10:15:28
+
+2026-05-12 10:15:28,223 - INFO - ============================================================
+2026-05-12 10:15:28,223 - INFO - STEP 1: Processing and Compressing Images
+2026-05-12 10:15:28,224 - INFO - ============================================================
+2026-05-12 10:15:28,224 - INFO - Processing images from: dashboardicons
+2026-05-12 10:15:28,224 - INFO - Output folder: automation/processed_images
+2026-05-12 10:15:28,224 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-12 10:15:28,279 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-12 10:15:28,287 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-12 10:15:28,304 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-12 10:15:28,322 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-12 10:15:28,332 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-12 10:15:28,347 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-12 10:15:28,356 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-12 10:15:28,367 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-12 10:15:28,385 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-12 10:15:28,393 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-12 10:15:28,405 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-12 10:15:28,419 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-12 10:15:28,437 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-12 10:15:28,452 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-12 10:15:28,452 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-12 10:15:28,452 - INFO - ✓ 14 images processed and ready
+
+2026-05-12 10:15:28,452 - INFO - ============================================================
+2026-05-12 10:15:28,452 - INFO - STEP 2: Preparing Authentication
+2026-05-12 10:15:28,452 - INFO - ============================================================
+2026-05-12 10:15:28,452 - INFO - Using email: crm@phenobond.com
+2026-05-12 10:15:28,453 - INFO - ✓ Credentials loaded
+
+2026-05-12 10:15:28,453 - INFO - ============================================================
+2026-05-12 10:15:28,453 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-12 10:15:28,453 - INFO - ============================================================
+2026-05-12 10:15:31,483 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 10:15:33,070 - INFO - ✓ Chrome driver initialized
+2026-05-12 10:15:33,070 - INFO - 
+→ Attempting login...
+
+2026-05-12 10:15:33,070 - INFO - Opening login page...
+2026-05-12 10:15:34,779 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 10:15:35,816 - INFO - ✓ Login successful
+2026-05-12 10:15:37,816 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-12 10:15:37,817 - INFO - Navigating to App Settings...
+2026-05-12 10:15:44,345 - INFO - ✓ Dashboard Icons section loaded
+2026-05-12 10:15:46,346 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-12 10:15:46,346 - INFO - Starting batch – 12 configured entries
+2026-05-12 10:15:49,785 - INFO -   Found 0 user types: []
+2026-05-12 10:15:49,785 - INFO - Available user types: []
+2026-05-12 10:15:49,786 - INFO - Total icons to upload after expansion: 0
+2026-05-12 10:15:49,786 - INFO - ============================================================
+2026-05-12 10:15:49,786 - INFO - ============================================================
+2026-05-12 10:15:49,786 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-05-12 10:15:49,787 - INFO - 
+============================================================
+2026-05-12 10:15:49,787 - INFO - AUTOMATION SUMMARY
+2026-05-12 10:15:49,787 - INFO - ============================================================
+2026-05-12 10:15:49,787 - INFO - ✓ Successful uploads: 0
+2026-05-12 10:15:49,788 - INFO - ✗ Failed uploads: 0
+2026-05-12 10:15:49,788 - INFO - Total processed: 12
+2026-05-12 10:15:49,788 - INFO - Success rate: 0.0%
+2026-05-12 10:15:49,788 - INFO - ============================================================
+2026-05-12 10:15:49,954 - INFO - Browser closed
+2026-05-12 10:15:49,954 - INFO - 
+Task finished at 2026-05-12 10:15:49
+2026-05-12 10:15:49,955 - INFO - Log: automation/logs/full_automation_20260512_101328.log
+
+2026-05-12 10:19:31,498 - INFO - User selected: Dashboard Icons
+2026-05-12 10:19:31,499 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-12 10:19:31,499 - INFO - Automation started at 2026-05-12 10:19:31
+
+2026-05-12 10:19:31,499 - INFO - ============================================================
+2026-05-12 10:19:31,499 - INFO - STEP 1: Processing and Compressing Images
+2026-05-12 10:19:31,499 - INFO - ============================================================
+2026-05-12 10:19:31,499 - INFO - Processing images from: dashboardicons
+2026-05-12 10:19:31,499 - INFO - Output folder: automation/processed_images
+2026-05-12 10:19:31,499 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-12 10:19:31,514 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-12 10:19:31,520 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-12 10:19:31,533 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-12 10:19:31,548 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-12 10:19:31,555 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-12 10:19:31,572 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-12 10:19:31,583 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-12 10:19:31,589 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-12 10:19:31,613 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-12 10:19:31,626 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-12 10:19:31,645 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-12 10:19:31,667 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-12 10:19:31,683 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-12 10:19:31,696 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-12 10:19:31,696 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-12 10:19:31,697 - INFO - ✓ 14 images processed and ready
+
+2026-05-12 10:19:31,697 - INFO - ============================================================
+2026-05-12 10:19:31,697 - INFO - STEP 2: Preparing Authentication
+2026-05-12 10:19:31,697 - INFO - ============================================================
+2026-05-12 10:19:31,697 - INFO - Using email: crm@phenobond.com
+2026-05-12 10:19:31,698 - INFO - ✓ Credentials loaded
+
+2026-05-12 10:19:31,698 - INFO - ============================================================
+2026-05-12 10:19:31,698 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-12 10:19:31,698 - INFO - ============================================================
+2026-05-12 10:19:32,296 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 10:19:33,869 - INFO - ✓ Chrome driver initialized
+2026-05-12 10:19:33,869 - INFO - 
+→ Attempting login...
+
+2026-05-12 10:19:33,870 - INFO - Opening login page...
+2026-05-12 10:19:35,454 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 10:19:37,111 - INFO - ✓ Login successful
+2026-05-12 10:19:39,111 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-12 10:19:39,111 - INFO - Navigating to App Settings...
+2026-05-12 10:19:45,620 - INFO - ✓ Dashboard Icons section loaded
+2026-05-12 10:19:47,621 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-12 10:19:47,622 - INFO - Starting batch – 12 configured entries
+2026-05-12 10:19:51,192 - INFO -   Found 1 user types: ['Painter']
+2026-05-12 10:19:51,193 - INFO - Available user types: ['Painter']
+2026-05-12 10:19:51,193 - INFO - Total icons to upload after expansion: 12
+2026-05-12 10:19:51,193 - INFO - ============================================================
+2026-05-12 10:19:51,194 - INFO - [1/12]
+2026-05-12 10:19:51,194 - INFO -   Adding: [Painter] Gift  (gift)
+2026-05-12 10:19:53,657 - INFO -     → User type: Painter
+2026-05-12 10:19:53,800 - INFO -     → Icon identity: gift
+2026-05-12 10:19:53,960 - INFO -     → Display title: Gift
+2026-05-12 10:19:53,999 - INFO -     → Toggle: both
+2026-05-12 10:19:56,083 - INFO -     → Image uploaded: Gift.png
+2026-05-12 10:19:56,273 - INFO -     → Form submitted
+2026-05-12 10:19:57,308 - INFO -   ✓ Icon added: Gift
+
+2026-05-12 10:19:58,312 - INFO - [2/12]
+2026-05-12 10:19:58,312 - INFO -   Adding: [Painter] History  (history)
+2026-05-12 10:20:00,602 - INFO -     → User type: Painter
+2026-05-12 10:20:00,706 - INFO -     → Icon identity: history
+2026-05-12 10:20:00,880 - INFO -     → Display title: History
+2026-05-12 10:20:00,903 - INFO -     → Toggle: both
+2026-05-12 10:20:02,959 - INFO -     → Image uploaded: history.png
+2026-05-12 10:20:03,132 - INFO -     → Form submitted
+2026-05-12 10:20:04,164 - INFO -   ✓ Icon added: History
+
+2026-05-12 10:20:05,165 - INFO - [3/12]
+2026-05-12 10:20:05,166 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-05-12 10:20:07,448 - INFO -     → User type: Painter
+2026-05-12 10:20:07,577 - INFO -     → Icon identity: wallet
+2026-05-12 10:20:07,774 - INFO -     → Display title: Wallet
+2026-05-12 10:20:07,833 - INFO -     → Toggle: both
+2026-05-12 10:20:09,925 - INFO -     → Image uploaded: wallet.png
+2026-05-12 10:20:10,099 - INFO -     → Form submitted
+2026-05-12 10:20:11,122 - INFO -   ✓ Icon added: Wallet
+
+2026-05-12 10:20:12,122 - INFO - [4/12]
+2026-05-12 10:20:12,123 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-05-12 10:20:14,380 - INFO -     → User type: Painter
+2026-05-12 10:20:14,504 - INFO -     → Icon identity: kycdetails
+2026-05-12 10:20:14,658 - INFO -     → Display title: KYC
+2026-05-12 10:20:14,751 - INFO -     → Toggle: both
+2026-05-12 10:20:16,847 - INFO -     → Image uploaded: kyc.png
+2026-05-12 10:20:17,008 - INFO -     → Form submitted
+2026-05-12 10:20:18,034 - INFO -   ✓ Icon added: KYC
+
+2026-05-12 10:20:19,035 - INFO - [5/12]
+2026-05-12 10:20:19,035 - INFO -   Adding: [Painter] Blog  (blog)
+2026-05-12 10:20:21,322 - INFO -     → User type: Painter
+2026-05-12 10:20:21,426 - INFO -     → Icon identity: blog
+2026-05-12 10:20:21,573 - INFO -     → Display title: Blog
+2026-05-12 10:20:21,616 - INFO -     → Toggle: both
+2026-05-12 10:20:23,683 - INFO -     → Image uploaded: blog.png
+2026-05-12 10:20:23,823 - INFO -     → Form submitted
+2026-05-12 10:20:24,847 - INFO -   ✓ Icon added: Blog
+
+2026-05-12 10:20:25,848 - INFO - [6/12]
+2026-05-12 10:20:25,848 - INFO -   Adding: [Painter] Brochure  (brochure)
+2026-05-12 10:20:28,108 - INFO -     → User type: Painter
+2026-05-12 10:20:28,278 - INFO -     → Icon identity: brochure
+2026-05-12 10:20:28,466 - INFO -     → Display title: Brochure
+2026-05-12 10:20:28,497 - INFO -     → Toggle: both
+2026-05-12 10:20:30,559 - INFO -     → Image uploaded: brochure.png
+2026-05-12 10:20:30,731 - INFO -     → Form submitted
+2026-05-12 10:20:31,756 - INFO -   ✓ Icon added: Brochure
+
+2026-05-12 10:20:32,756 - INFO - [7/12]
+2026-05-12 10:20:32,757 - INFO -   Adding: [Painter] Claim History  (claimhistory)
+2026-05-12 10:20:35,007 - INFO -     → User type: Painter
+2026-05-12 10:20:35,113 - INFO -     → Icon identity: claimhistory
+2026-05-12 10:20:35,275 - INFO -     → Display title: Claim History
+2026-05-12 10:20:35,319 - INFO -     → Toggle: both
+2026-05-12 10:20:37,362 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-12 10:20:37,539 - INFO -     → Form submitted
+2026-05-12 10:20:38,559 - INFO -   ✓ Icon added: Claim History
+
+2026-05-12 10:20:39,560 - INFO - [8/12]
+2026-05-12 10:20:39,561 - INFO -   Adding: [Painter] Language  (chooselanguage)
+2026-05-12 10:20:41,996 - INFO -     → User type: Painter
+2026-05-12 10:20:42,245 - INFO -     → Icon identity: chooselanguage
+2026-05-12 10:20:42,628 - INFO -     → Display title: Language
+2026-05-12 10:20:42,707 - INFO -     → Toggle: both
+2026-05-12 10:20:44,835 - INFO -     → Image uploaded: language.png
+2026-05-12 10:20:45,012 - INFO -     → Form submitted
+2026-05-12 10:20:46,033 - INFO -   ✓ Icon added: Language
+
+2026-05-12 10:20:47,034 - INFO - [9/12]
+2026-05-12 10:20:47,035 - INFO -   Adding: [Painter] Code Details  (codedetails)
+2026-05-12 10:20:49,284 - INFO -     → User type: Painter
+2026-05-12 10:20:49,608 - INFO -     → Icon identity: codedetails
+2026-05-12 10:20:49,883 - INFO -     → Display title: Code Details
+2026-05-12 10:20:49,936 - INFO -     → Toggle: both
+2026-05-12 10:20:51,981 - INFO -     → Image uploaded: codedetails.png
+2026-05-12 10:20:52,156 - INFO -     → Form submitted
+2026-05-12 10:20:53,177 - INFO -   ✓ Icon added: Code Details
+
+2026-05-12 10:20:54,178 - INFO - [10/12]
+2026-05-12 10:20:54,178 - INFO -   Adding: [Painter] Help  (help)
+2026-05-12 10:20:56,412 - INFO -     → User type: Painter
+2026-05-12 10:20:56,545 - INFO -     → Icon identity: help
+2026-05-12 10:20:56,660 - INFO -     → Display title: Help
+2026-05-12 10:20:56,720 - INFO -     → Toggle: both
+2026-05-12 10:20:58,777 - INFO -     → Image uploaded: help.png
+2026-05-12 10:20:59,111 - INFO -     → Form submitted
+2026-05-12 10:21:00,148 - INFO -   ✓ Icon added: Help
+
+2026-05-12 10:21:01,148 - INFO - [11/12]
+2026-05-12 10:21:01,150 - INFO -   Adding: [Painter] Refer & Earn  (referandearn)
+2026-05-12 10:21:03,427 - INFO -     → User type: Painter
+2026-05-12 10:21:03,534 - INFO -     → Icon identity: referandearn
+2026-05-12 10:21:03,713 - INFO -     → Display title: Refer & Earn
+2026-05-12 10:21:03,763 - INFO -     → Toggle: both
+2026-05-12 10:21:05,848 - INFO -     → Image uploaded: referandearn.png
+2026-05-12 10:21:06,035 - INFO -     → Form submitted
+2026-05-12 10:21:07,053 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-12 10:21:08,054 - INFO - [12/12]
+2026-05-12 10:21:08,054 - INFO -   Adding: [Painter] E-Commerce  (productcatalogue)
+2026-05-12 10:21:10,336 - INFO -     → User type: Painter
+2026-05-12 10:21:10,431 - INFO -     → Icon identity: productcatalogue
+2026-05-12 10:21:10,727 - INFO -     → Display title: E-Commerce
+2026-05-12 10:21:10,841 - INFO -     → Toggle: both
+2026-05-12 10:21:12,957 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-12 10:21:13,143 - INFO -     → Form submitted
+2026-05-12 10:21:14,163 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-12 10:21:15,163 - INFO - ============================================================
+2026-05-12 10:21:15,164 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-12 10:21:15,164 - INFO - 
+============================================================
+2026-05-12 10:21:15,164 - INFO - AUTOMATION SUMMARY
+2026-05-12 10:21:15,166 - INFO - ============================================================
+2026-05-12 10:21:15,168 - INFO - ✓ Successful uploads: 12
+2026-05-12 10:21:15,168 - INFO - ✗ Failed uploads: 0
+2026-05-12 10:21:15,168 - INFO - Total processed: 12
+2026-05-12 10:21:15,168 - INFO - Success rate: 100.0%
+2026-05-12 10:21:15,168 - INFO - ============================================================
+2026-05-12 10:21:15,307 - INFO - Browser closed
+2026-05-12 10:21:15,307 - INFO - 
+Task finished at 2026-05-12 10:21:15
+2026-05-12 10:21:15,307 - INFO - Log: automation/logs/full_automation_20260512_101328.log
+
+2026-05-12 10:22:44,792 - INFO - User selected: Brand Setting
+2026-05-12 10:24:12,797 - INFO -   Found logo asset: logo.png
+2026-05-12 10:24:12,798 - INFO -   Found splash asset: splash.png
+2026-05-12 10:24:12,798 - INFO - ============================================================
+2026-05-12 10:24:12,798 - INFO - BRAND SETTING — Image Processing
+2026-05-12 10:24:12,798 - INFO - ============================================================
+2026-05-12 10:24:12,827 - INFO - ✓ Logo  → logo_processed.jpg  |  37.6 KB  |  JPEG q95
+2026-05-12 10:24:12,980 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-12 10:24:13,712 - INFO - ✓ Splash → splash_processed.png  |  0.85 MB  |  PNG lossless
+2026-05-12 10:24:13,713 - INFO - 
+2026-05-12 10:24:13,713 - INFO - Extracting brand colours from logo...
+2026-05-12 10:24:13,883 - INFO -   Colours extracted from logo:
+2026-05-12 10:24:13,884 - INFO -     Header Color     →  #F07030  (dominant logo colour)
+2026-05-12 10:24:13,884 - INFO -     Background Color →  #9C481F  (35% darker)
+2026-05-12 10:24:13,884 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-12 10:24:13,884 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-12 10:24:13,891 - INFO - ✓ Both images ready
+
+2026-05-12 10:24:13,891 - INFO - ============================================================
+2026-05-12 10:24:13,891 - INFO - BRAND SETTING — Browser Automation
+2026-05-12 10:24:13,891 - INFO - ============================================================
+2026-05-12 10:24:14,281 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 10:24:15,378 - INFO - ✓ Chrome driver initialized
+2026-05-12 10:24:15,378 - INFO - Opening login page...
+2026-05-12 10:24:17,251 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 10:24:17,799 - INFO - ✓ Login successful
+2026-05-12 10:24:19,800 - INFO - Going to App Settings...
+2026-05-12 10:24:26,149 - INFO -   → Identity & Branding section opened
+2026-05-12 10:24:28,314 - INFO -   → Edit Branding popup opened
+2026-05-12 10:24:28,367 - INFO - ✓ Brand setting form is ready
+2026-05-12 10:24:28,368 - INFO -   Setting company name: Phenobond
+2026-05-12 10:24:29,280 - INFO -     → HeaderColor: #F07030
+2026-05-12 10:24:29,939 - INFO -     → FooterColor: #F5F5F5
+2026-05-12 10:24:30,604 - INFO -     → BodyColor: #FFFFFF
+2026-05-12 10:24:31,259 - INFO -     → BackgroundColor: #9C481F
+2026-05-12 10:24:33,310 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-12 10:24:35,381 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-12 10:24:35,577 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-12 10:24:38,611 - INFO - ✓ Brand settings saved successfully!
+2026-05-12 10:24:38,765 - INFO - Browser closed
+2026-05-12 10:24:38,765 - INFO - 
+Task finished at 2026-05-12 10:24:38
+2026-05-12 10:24:38,766 - INFO - Log: automation/logs/full_automation_20260512_101328.log
+
+2026-05-12 10:24:49,967 - INFO - User selected: Promotion Banners
+2026-05-12 10:24:49,967 - INFO - ============================================================
+2026-05-12 10:24:49,967 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-12 10:24:49,967 - INFO - ============================================================
+2026-05-12 10:24:49,967 - INFO - Found 2 banner image(s) in banner/
+2026-05-12 10:24:49,969 - INFO -   ⚙ Processing 539f4dd7-8dea-4824-9f60-916fa252a2ce.png  (size 1672×941 → need 1920×1080)
+2026-05-12 10:24:50,227 - INFO -   ✓ 539f4dd7-8dea-4824-9f60-916fa252a2ce.png  →  539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-12 10:24:50,229 - INFO -   ⚙ Processing vcqrubanne.jpeg  (size 1200×675 → need 1920×1080)
+2026-05-12 10:24:50,369 - INFO -   ✓ vcqrubanne.jpeg  →  vcqrubanne_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-12 10:24:50,370 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-12 10:24:50,370 - INFO - ============================================================
+2026-05-12 10:24:50,371 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-12 10:24:50,371 - INFO - ============================================================
+2026-05-12 10:24:50,786 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 10:24:51,860 - INFO - ✓ Chrome driver initialized
+2026-05-12 10:24:51,860 - INFO - Opening login page...
+2026-05-12 10:24:54,078 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 10:24:54,638 - INFO - ✓ Login successful
+2026-05-12 10:24:56,639 - INFO - Going to App Settings...
+2026-05-12 10:25:03,271 - INFO -   → Promotion Banners section opened
+2026-05-12 10:25:03,317 - INFO - ✓ Promotion Banners page ready
+2026-05-12 10:25:03,317 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-12 10:25:03,318 - INFO - ============================================================
+2026-05-12 10:25:03,318 - INFO - [1/2]
+2026-05-12 10:25:03,319 - INFO -   Publishing: [539f4dd7-8dea-4824-9f60-916fa252a2ce]  (539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg)
+2026-05-12 10:25:05,796 - INFO -     → Title entered: 539f4dd7-8dea-4824-9f60-916fa252a2ce
+2026-05-12 10:25:07,857 - INFO -     → Image uploaded: 539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg
+2026-05-12 10:25:08,043 - INFO -     → Publish Banner clicked
+2026-05-12 10:25:12,072 - INFO -   ✓ Banner published: 539f4dd7-8dea-4824-9f60-916fa252a2ce
+
+2026-05-12 10:25:13,073 - INFO - [2/2]
+2026-05-12 10:25:13,074 - INFO -   Publishing: [vcqrubanne]  (vcqrubanne_processed.jpg)
+2026-05-12 10:25:15,455 - INFO -     → Title entered: vcqrubanne
+2026-05-12 10:25:17,521 - INFO -     → Image uploaded: vcqrubanne_processed.jpg
+2026-05-12 10:25:17,710 - INFO -     → Publish Banner clicked
+2026-05-12 10:25:21,736 - INFO -   ✓ Banner published: vcqrubanne
+
+2026-05-12 10:25:22,737 - INFO - ============================================================
+2026-05-12 10:25:22,737 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-12 10:25:22,901 - INFO - Browser closed
+2026-05-12 10:25:22,901 - INFO - 
+Task finished at 2026-05-12 10:25:22
+2026-05-12 10:25:22,901 - INFO - Log: automation/logs/full_automation_20260512_101328.log
+
+2026-05-12 10:25:41,974 - INFO - User selected: Intro Screens
+2026-05-12 10:25:41,974 - INFO - ============================================================
+2026-05-12 10:25:41,974 - INFO - INTRO SCREENS — Image Processing
+2026-05-12 10:25:41,974 - INFO - ============================================================
+2026-05-12 10:25:41,975 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-12 10:25:41,976 - INFO -   ⚙ Processing vcqruslide1.jpeg  (731×1300 → need 1080×1920)
+2026-05-12 10:25:42,184 - INFO -   ✓ vcqruslide1.jpeg  →  vcqruslide1_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-12 10:25:42,186 - INFO -   ✓ vcqruslide22.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-05-12 10:25:42,321 - INFO -   ✓ vcqruslide333.jpeg  →  Already OK (1080×1920, 0.45 MB)
+2026-05-12 10:25:42,474 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-12 10:25:44,148 - INFO - ============================================================
+2026-05-12 10:25:44,148 - INFO - INTRO SCREENS — Browser Automation
+2026-05-12 10:25:44,148 - INFO - ============================================================
+2026-05-12 10:25:44,582 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 10:25:45,638 - INFO - ✓ Chrome driver initialized
+2026-05-12 10:25:45,638 - INFO - Opening login page...
+2026-05-12 10:25:48,198 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 10:25:48,760 - INFO - ✓ Login successful
+2026-05-12 10:25:50,760 - INFO - Going to App Settings...
+2026-05-12 10:25:57,217 - INFO -   → Intro Screens section opened
+2026-05-12 10:25:57,263 - INFO - ✓ Intro Screens page ready
+2026-05-12 10:25:57,263 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-12 10:25:57,264 - INFO - ============================================================
+2026-05-12 10:25:57,264 - INFO - [1/3]
+2026-05-12 10:25:57,264 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-12 10:25:59,766 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-12 10:26:00,434 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-12 10:26:02,488 - INFO -     → Image uploaded: vcqruslide1_processed.jpg
+2026-05-12 10:26:02,681 - INFO -     → Launch Screen clicked
+2026-05-12 10:26:06,712 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-12 10:26:07,712 - INFO - [2/3]
+2026-05-12 10:26:07,713 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-12 10:26:10,158 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-12 10:26:10,778 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-12 10:26:12,849 - INFO -     → Image uploaded: vcqruslide22_processed.jpg
+2026-05-12 10:26:13,027 - INFO -     → Launch Screen clicked
+2026-05-12 10:26:17,057 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-12 10:26:18,057 - INFO - [3/3]
+2026-05-12 10:26:18,058 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-12 10:26:20,530 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-12 10:26:21,152 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-12 10:26:23,195 - INFO -     → Image uploaded: vcqruslide333_processed.jpg
+2026-05-12 10:26:23,374 - INFO -     → Launch Screen clicked
+2026-05-12 10:26:27,400 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-12 10:26:28,401 - INFO - ============================================================
+2026-05-12 10:26:28,401 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-12 10:26:28,550 - INFO - Browser closed
+2026-05-12 10:26:28,550 - INFO - 
+Task finished at 2026-05-12 10:26:28
+2026-05-12 10:26:28,550 - INFO - Log: automation/logs/full_automation_20260512_101328.log
+
+2026-05-12 10:27:11,007 - INFO - User selected: Registration Fields
+2026-05-12 10:27:11,007 - INFO - ============================================================
+2026-05-12 10:27:11,007 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-12 10:27:11,007 - INFO - ============================================================
+2026-05-12 10:27:11,417 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 10:27:12,535 - INFO - ✓ Chrome driver initialized
+2026-05-12 10:27:12,535 - INFO - Opening login page...
+2026-05-12 10:27:14,398 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 10:27:14,922 - INFO - ✓ Login successful
+2026-05-12 10:27:16,924 - INFO - Going to App Settings...
+2026-05-12 10:27:23,298 - INFO -   → Registration Field section opened
+2026-05-12 10:27:23,338 - INFO - ✓ Registration Fields page ready
+2026-05-12 10:27:26,919 - INFO - Found 1 user types: ['Painter']
+2026-05-12 10:27:26,919 - INFO - Starting registration fields automation: 6 fields total
+2026-05-12 10:27:26,919 - INFO - ============================================================
+2026-05-12 10:27:26,920 - INFO - Processing User Type: Painter
+2026-05-12 10:27:26,920 - INFO -   Adding field: [Painter] -> First Name
+2026-05-12 10:27:29,419 - INFO -     → User Type selected: Painter
+2026-05-12 10:27:49,728 - INFO -     → System Data Point selected: First Name
+2026-05-12 10:27:49,807 - INFO -     → Mandatory toggle enabled
+2026-05-12 10:27:49,945 - INFO -     → Integrate Now clicked
+2026-05-12 10:27:52,976 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-12 10:27:53,977 - INFO -   Adding field: [Painter] -> Phone Number
+2026-05-12 10:27:56,419 - INFO -     → User Type selected: Painter
+2026-05-12 10:28:16,758 - INFO -     → System Data Point selected: Phone Number
+2026-05-12 10:28:16,820 - INFO -     → Mandatory toggle enabled
+2026-05-12 10:28:16,954 - INFO -     → Integrate Now clicked
+2026-05-12 10:28:19,983 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-12 10:28:20,984 - INFO -   Adding field: [Painter] -> Pincode
+2026-05-12 10:28:23,415 - INFO -     → User Type selected: Painter
+2026-05-12 10:28:43,727 - INFO -     → System Data Point selected: Pincode
+2026-05-12 10:28:43,796 - INFO -     → Mandatory toggle enabled
+2026-05-12 10:28:43,931 - INFO -     → Integrate Now clicked
+2026-05-12 10:28:46,967 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-12 10:28:47,968 - INFO -   Adding field: [Painter] -> City
+2026-05-12 10:28:50,378 - INFO -     → User Type selected: Painter
+2026-05-12 10:29:10,766 - INFO -     → System Data Point selected: City
+2026-05-12 10:29:10,837 - INFO -     → Mandatory toggle enabled
+2026-05-12 10:29:10,970 - INFO -     → Integrate Now clicked
+2026-05-12 10:29:14,003 - INFO -   ✓ Field added successfully: City
+
+2026-05-12 10:29:15,004 - INFO -   Adding field: [Painter] -> State
+2026-05-12 10:29:17,435 - INFO -     → User Type selected: Painter
+2026-05-12 10:29:37,812 - INFO -     → System Data Point selected: State
+2026-05-12 10:29:37,858 - INFO -     → Mandatory toggle enabled
+2026-05-12 10:29:38,029 - INFO -     → Integrate Now clicked
+2026-05-12 10:29:41,060 - INFO -   ✓ Field added successfully: State
+
+2026-05-12 10:29:42,060 - INFO -   Adding field: [Painter] -> Address
+2026-05-12 10:29:44,484 - INFO -     → User Type selected: Painter
+2026-05-12 10:30:04,843 - INFO -     → System Data Point selected: Address
+2026-05-12 10:30:04,875 - INFO -     → Mandatory toggle enabled
+2026-05-12 10:30:05,038 - INFO -     → Integrate Now clicked
+2026-05-12 10:30:08,070 - INFO -   ✓ Field added successfully: Address
+
+2026-05-12 10:30:09,071 - INFO - ============================================================
+2026-05-12 10:30:09,071 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-05-12 10:30:09,211 - INFO - Browser closed
+2026-05-12 10:30:09,212 - INFO - 
+Task finished at 2026-05-12 10:30:09
+2026-05-12 10:30:09,212 - INFO - Log: automation/logs/full_automation_20260512_101328.log
+

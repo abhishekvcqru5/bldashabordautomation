@@ -73,28 +73,9 @@ class VendorPortalAutomation:
 
             # 3) Click Sign In  (the submit button)
             self.driver.find_element(By.XPATH, "//button[@type='submit']").click()
-            logger.info("  → Credentials submitted, waiting for agreement modal...")
+            logger.info("  → Credentials submitted, waiting for dashboard...")
 
-            # 4) Wait for the agreement checkbox to appear
-            WebDriverWait(self.driver, self.wait_time).until(
-                EC.presence_of_element_located((By.NAME, "agreement"))
-            )
-
-            # 5) Tick the agreement checkbox if not already checked
-            cb = self.driver.find_element(By.NAME, "agreement")
-            if not cb.is_selected():
-                cb.click()
-            time.sleep(0.5)
-
-            # 6) Click "Continue To Dashboard"
-            WebDriverWait(self.driver, self.wait_time).until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Continue To Dashboard')]")
-                )
-            ).click()
-            logger.info("  → Agreement accepted, waiting for dashboard...")
-
-            # 7) Wait until URL contains /vendor/dashboard
+            # 4) Wait until URL contains /vendor/dashboard
             WebDriverWait(self.driver, self.wait_time).until(
                 EC.url_contains("/vendor/dashboard")
             )

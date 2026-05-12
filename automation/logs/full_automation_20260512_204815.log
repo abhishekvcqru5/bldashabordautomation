@@ -1,0 +1,62 @@
+2026-05-12 20:48:26,711 - INFO - User selected: Old Dashboard
+2026-05-12 20:48:28,806 - INFO -   Old Dashboard → Brand Setting
+2026-05-12 20:48:28,807 - INFO - ============================================================
+2026-05-12 20:48:28,807 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-12 20:48:28,808 - INFO - ============================================================
+2026-05-12 20:48:29,333 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 20:48:30,712 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-12 20:48:30,712 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-12 20:48:37,478 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-12 20:48:39,478 - INFO -     → Filling credentials …
+2026-05-12 20:48:39,730 - INFO -       Email → field #login_txt_id
+2026-05-12 20:48:39,905 - INFO -       Password → field #login_txt_pass
+2026-05-12 20:48:40,083 - INFO -       Login button clicked: #btnVendor
+2026-05-12 20:48:40,083 - INFO -     → Waiting for post-login redirect …
+2026-05-12 20:48:49,644 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-12 20:48:49,644 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-12 20:49:07,518 - INFO - 
+[3/4] Extracting brand data …
+2026-05-12 20:49:07,668 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-12 20:49:07,975 - INFO -   ✓ Downloaded: logo.jpeg  (20.2 KB)
+2026-05-12 20:49:08,325 - INFO -   ✓ Downloaded: splash.jpg  (69.3 KB)
+2026-05-12 20:49:08,328 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-12 20:49:08,672 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-12 20:49:09,259 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 20:49:10,693 - INFO - ✓ Chrome driver initialized
+2026-05-12 20:49:10,694 - INFO - Opening login page...
+2026-05-12 20:49:12,347 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 20:49:19,533 - INFO - ✓ Login successful
+2026-05-12 20:49:19,626 - INFO - ✓ Logo  → logo_processed.jpg  |  13.8 KB  |  JPEG q95
+2026-05-12 20:49:19,702 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-12 20:49:21,386 - INFO - ✓ Splash → splash_processed.png  |  0.35 MB  |  PNG lossless
+2026-05-12 20:49:21,795 - INFO -   Colours extracted from logo:
+2026-05-12 20:49:21,795 - INFO -     Header Color     →  #00C0F0  (dominant logo colour)
+2026-05-12 20:49:21,796 - INFO -     Background Color →  #007C9C  (35% darker)
+2026-05-12 20:49:21,796 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-12 20:49:21,797 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-12 20:49:21,818 - INFO - Going to App Settings...
+2026-05-12 20:49:28,287 - INFO -   → Identity & Branding section opened
+2026-05-12 20:49:30,450 - INFO -   → Edit Branding popup opened
+2026-05-12 20:49:30,478 - INFO - ✓ Brand setting form is ready
+2026-05-12 20:49:30,479 - INFO -   Setting company name: SAFFROKOL                                                                HERO BEHIND EVERY BUILD
+2026-05-12 20:49:31,999 - INFO -     → HeaderColor: #00C0F0
+2026-05-12 20:49:32,799 - INFO -     → FooterColor: #F5F5F5
+2026-05-12 20:49:33,640 - INFO -     → BodyColor: #FFFFFF
+2026-05-12 20:49:34,401 - INFO -     → BackgroundColor: #007C9C
+2026-05-12 20:49:36,501 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-12 20:49:38,552 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-12 20:49:38,716 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-12 20:49:41,749 - INFO - ✓ Brand settings saved successfully!
+2026-05-12 20:49:41,961 - INFO - Browser closed
+2026-05-12 20:49:41,963 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51389): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0f98e4bc54df87cac4b9d8c728d18fc5
+2026-05-12 20:49:41,964 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51389): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0f98e4bc54df87cac4b9d8c728d18fc5
+2026-05-12 20:49:41,965 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51389): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0f98e4bc54df87cac4b9d8c728d18fc5
+2026-05-12 20:49:41,966 - INFO -   Browser closed
+2026-05-12 20:49:41,966 - INFO - 
+Task finished at 2026-05-12 20:49:41
+2026-05-12 20:49:41,967 - INFO - Log: automation/logs/full_automation_20260512_204815.log
+

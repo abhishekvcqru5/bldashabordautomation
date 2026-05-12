@@ -1,0 +1,36 @@
+2026-05-07 00:32:26,172 - INFO - User selected: Registration Fields
+2026-05-07 00:32:26,221 - INFO - ============================================================
+2026-05-07 00:32:26,223 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-07 00:32:26,223 - INFO - ============================================================
+2026-05-07 00:32:26,896 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:32:27,351 - ERROR - Failed to initialize Chrome driver: Message: session not created
+from unknown error: cannot create temp dir for user data dir; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x63989fa613ea <unknown>
+#1 0x63989f471845 <unknown>
+#2 0x63989f4ab96d <unknown>
+#3 0x63989f4a9bc8 <unknown>
+#4 0x63989f4f899a <unknown>
+#5 0x63989f4f80ec <unknown>
+#6 0x63989f4b7204 <unknown>
+#7 0x63989f4b7fc1 <unknown>
+#8 0x63989fa249cb <unknown>
+#9 0x63989fa27c93 <unknown>
+#10 0x63989fa1265c <unknown>
+#11 0x63989fa28429 <unknown>
+#12 0x63989f9fa9d7 <unknown>
+#13 0x63989fa4ec08 <unknown>
+#14 0x63989fa4ee33 <unknown>
+#15 0x63989fa5fdf7 <unknown>
+#16 0x7d89d349caa4 <unknown>
+#17 0x7d89d3529c6c <unknown>
+
+2026-05-07 00:32:27,358 - INFO - Opening login page...
+2026-05-07 00:32:27,359 - ERROR - Login failed: 'NoneType' object has no attribute 'get'
+2026-05-07 00:32:27,361 - WARNING - Screenshot failed: 'NoneType' object has no attribute 'save_screenshot'
+2026-05-07 00:32:27,364 - ERROR - ✗ Login failed. Aborting.
+2026-05-07 00:32:27,365 - INFO - 
+Task finished at 2026-05-07 00:32:27
+2026-05-07 00:32:27,366 - INFO - Log: automation/logs/full_automation_20260507_003219.log
+
+2026-05-07 00:36:03,565 - INFO - Automation cancelled by user (Ctrl+C)

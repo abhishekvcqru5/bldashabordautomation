@@ -1,0 +1,351 @@
+2026-05-07 00:13:18,340 - INFO - User selected: Dashboard Icons
+2026-05-07 00:13:18,895 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-07 00:13:18,914 - INFO - Automation started at 2026-05-07 00:13:18
+
+2026-05-07 00:13:18,915 - INFO - ============================================================
+2026-05-07 00:13:18,917 - INFO - STEP 1: Processing and Compressing Images
+2026-05-07 00:13:18,918 - INFO - ============================================================
+2026-05-07 00:13:19,060 - INFO - Processing images from: dashboardicons
+2026-05-07 00:13:19,064 - INFO - Output folder: automation/processed_images
+2026-05-07 00:13:19,070 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-07 00:13:21,610 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-07 00:13:21,669 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-07 00:13:21,739 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-07 00:13:21,807 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-07 00:13:21,854 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-07 00:13:21,899 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-07 00:13:21,997 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-07 00:13:23,609 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-07 00:13:24,033 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-07 00:13:24,138 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-07 00:13:24,247 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-07 00:13:24,772 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-07 00:13:25,395 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-07 00:13:25,494 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-07 00:13:25,495 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-07 00:13:25,498 - INFO - ✓ 14 images processed and ready
+
+2026-05-07 00:13:25,498 - INFO - ============================================================
+2026-05-07 00:13:25,499 - INFO - STEP 2: Preparing Authentication
+2026-05-07 00:13:25,499 - INFO - ============================================================
+2026-05-07 00:13:25,503 - INFO - Using email: Hyperlinkbrand@gmail.com
+2026-05-07 00:13:25,503 - INFO - ✓ Credentials loaded
+
+2026-05-07 00:13:25,504 - INFO - ============================================================
+2026-05-07 00:13:25,504 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-07 00:13:25,504 - INFO - ============================================================
+2026-05-07 00:13:30,883 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:13:43,343 - INFO - ✓ Chrome driver initialized
+2026-05-07 00:13:43,344 - INFO - 
+→ Attempting login...
+
+2026-05-07 00:13:43,345 - INFO - Opening login page...
+2026-05-07 00:13:49,384 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 00:13:50,873 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-07 00:13:51,019 - INFO - ✓ Login successful
+2026-05-07 00:13:53,021 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-07 00:13:53,022 - INFO - Navigating to App Settings...
+2026-05-07 00:14:00,096 - INFO - ✓ Dashboard Icons section loaded
+2026-05-07 00:14:02,250 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-07 00:14:02,255 - INFO - Starting batch – 12 configured entries
+2026-05-07 00:14:07,408 - INFO -   Found 2 user types: ['Retailer', 'Mechanic']
+2026-05-07 00:14:07,408 - INFO - Available user types: ['Retailer', 'Mechanic']
+2026-05-07 00:14:07,409 - INFO - Total icons to upload after expansion: 24
+2026-05-07 00:14:07,409 - INFO - ============================================================
+2026-05-07 00:14:07,415 - INFO - [1/24]
+2026-05-07 00:14:07,451 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-05-07 00:14:11,628 - INFO -     → User type: Retailer
+2026-05-07 00:14:11,752 - INFO -     → Icon identity: gift
+2026-05-07 00:14:12,175 - INFO -     → Display title: Gift
+2026-05-07 00:14:12,258 - INFO -     → Toggle: both
+2026-05-07 00:14:16,115 - INFO -     → Image uploaded: Gift.png
+2026-05-07 00:14:17,432 - INFO -     → Form submitted
+2026-05-07 00:14:18,452 - INFO -   ✓ Icon added: Gift
+
+2026-05-07 00:14:19,528 - INFO - [2/24]
+2026-05-07 00:14:19,528 - INFO -   Adding: [Mechanic] Gift  (gift)
+2026-05-07 00:14:22,656 - INFO -     → User type: Mechanic
+2026-05-07 00:14:22,909 - INFO -     → Icon identity: gift
+2026-05-07 00:14:23,450 - INFO -     → Display title: Gift
+2026-05-07 00:14:23,516 - INFO -     → Toggle: both
+2026-05-07 00:14:25,767 - INFO -     → Image uploaded: Gift.png
+2026-05-07 00:14:26,060 - INFO -     → Form submitted
+2026-05-07 00:14:27,079 - INFO -   ✓ Icon added: Gift
+
+2026-05-07 00:14:28,080 - INFO - [3/24]
+2026-05-07 00:14:28,080 - INFO -   Adding: [Retailer] History  (history)
+2026-05-07 00:14:30,843 - INFO -     → User type: Retailer
+2026-05-07 00:14:31,502 - INFO -     → Icon identity: history
+2026-05-07 00:14:32,208 - INFO -     → Display title: History
+2026-05-07 00:14:32,352 - INFO -     → Toggle: both
+2026-05-07 00:14:34,554 - INFO -     → Image uploaded: history.png
+2026-05-07 00:14:35,155 - INFO -     → Form submitted
+2026-05-07 00:14:36,262 - INFO -   ✓ Icon added: History
+
+2026-05-07 00:14:37,266 - INFO - [4/24]
+2026-05-07 00:14:37,268 - INFO -   Adding: [Mechanic] History  (history)
+2026-05-07 00:14:41,183 - INFO -     → User type: Mechanic
+2026-05-07 00:14:41,523 - INFO -     → Icon identity: history
+2026-05-07 00:14:42,002 - INFO -     → Display title: History
+2026-05-07 00:14:42,090 - INFO -     → Toggle: both
+2026-05-07 00:14:44,306 - INFO -     → Image uploaded: history.png
+2026-05-07 00:14:44,821 - INFO -     → Form submitted
+2026-05-07 00:14:45,897 - INFO -   ✓ Icon added: History
+
+2026-05-07 00:14:46,898 - INFO - [5/24]
+2026-05-07 00:14:46,898 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-05-07 00:14:50,313 - INFO -     → User type: Retailer
+2026-05-07 00:14:51,009 - INFO -     → Icon identity: wallet
+2026-05-07 00:14:51,569 - INFO -     → Display title: Wallet
+2026-05-07 00:14:51,700 - INFO -     → Toggle: both
+2026-05-07 00:14:53,973 - INFO -     → Image uploaded: wallet.png
+2026-05-07 00:14:54,655 - INFO -     → Form submitted
+2026-05-07 00:14:55,697 - INFO -   ✓ Icon added: Wallet
+
+2026-05-07 00:14:56,697 - INFO - [6/24]
+2026-05-07 00:14:56,698 - INFO -   Adding: [Mechanic] Wallet  (wallet)
+2026-05-07 00:15:00,095 - INFO -     → User type: Mechanic
+2026-05-07 00:15:00,357 - INFO -     → Icon identity: wallet
+2026-05-07 00:15:00,815 - INFO -     → Display title: Wallet
+2026-05-07 00:15:00,951 - INFO -     → Toggle: both
+2026-05-07 00:15:03,161 - INFO -     → Image uploaded: wallet.png
+2026-05-07 00:15:03,360 - INFO -     → Form submitted
+2026-05-07 00:15:04,383 - INFO -   ✓ Icon added: Wallet
+
+2026-05-07 00:15:05,383 - INFO - [7/24]
+2026-05-07 00:15:05,384 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-05-07 00:15:07,696 - INFO -     → User type: Retailer
+2026-05-07 00:15:07,936 - INFO -     → Icon identity: kycdetails
+2026-05-07 00:15:08,116 - INFO -     → Display title: KYC
+2026-05-07 00:15:08,196 - INFO -     → Toggle: both
+2026-05-07 00:15:10,686 - INFO -     → Image uploaded: kyc.png
+2026-05-07 00:15:10,862 - INFO -     → Form submitted
+2026-05-07 00:15:11,878 - INFO -   ✓ Icon added: KYC
+
+2026-05-07 00:15:12,886 - INFO - [8/24]
+2026-05-07 00:15:12,886 - INFO -   Adding: [Mechanic] KYC  (kycdetails)
+2026-05-07 00:15:18,245 - INFO -     → User type: Mechanic
+2026-05-07 00:15:18,413 - INFO -     → Icon identity: kycdetails
+2026-05-07 00:15:18,692 - INFO -     → Display title: KYC
+2026-05-07 00:15:18,719 - INFO -     → Toggle: both
+2026-05-07 00:15:20,807 - INFO -     → Image uploaded: kyc.png
+2026-05-07 00:15:21,152 - INFO -     → Form submitted
+2026-05-07 00:15:22,192 - INFO -   ✓ Icon added: KYC
+
+2026-05-07 00:15:23,192 - INFO - [9/24]
+2026-05-07 00:15:23,193 - INFO -   Adding: [Retailer] Blog  (blog)
+2026-05-07 00:15:25,960 - INFO -     → User type: Retailer
+2026-05-07 00:15:26,425 - INFO -     → Icon identity: blog
+2026-05-07 00:15:27,189 - INFO -     → Display title: Blog
+2026-05-07 00:15:27,270 - INFO -     → Toggle: both
+2026-05-07 00:15:29,433 - INFO -     → Image uploaded: blog.png
+2026-05-07 00:15:29,676 - INFO -     → Form submitted
+2026-05-07 00:15:30,694 - INFO -   ✓ Icon added: Blog
+
+2026-05-07 00:15:31,695 - INFO - [10/24]
+2026-05-07 00:15:31,696 - INFO -   Adding: [Mechanic] Blog  (blog)
+2026-05-07 00:15:34,183 - INFO -     → User type: Mechanic
+2026-05-07 00:15:34,282 - INFO -     → Icon identity: blog
+2026-05-07 00:15:34,455 - INFO -     → Display title: Blog
+2026-05-07 00:15:34,504 - INFO -     → Toggle: both
+2026-05-07 00:15:36,654 - INFO -     → Image uploaded: blog.png
+2026-05-07 00:15:36,926 - INFO -     → Form submitted
+2026-05-07 00:15:37,996 - INFO -   ✓ Icon added: Blog
+
+2026-05-07 00:15:38,997 - INFO - [11/24]
+2026-05-07 00:15:38,998 - INFO -   Adding: [Retailer] Brochure  (brochure)
+2026-05-07 00:15:43,193 - INFO -     → User type: Retailer
+2026-05-07 00:15:43,781 - INFO -     → Icon identity: brochure
+2026-05-07 00:15:44,407 - INFO -     → Display title: Brochure
+2026-05-07 00:15:44,631 - INFO -     → Toggle: both
+2026-05-07 00:15:46,824 - INFO -     → Image uploaded: brochure.png
+2026-05-07 00:15:49,054 - INFO -     → Form submitted
+2026-05-07 00:15:50,335 - INFO -   ✓ Icon added: Brochure
+
+2026-05-07 00:15:51,336 - INFO - [12/24]
+2026-05-07 00:15:51,336 - INFO -   Adding: [Mechanic] Brochure  (brochure)
+2026-05-07 00:15:54,111 - INFO -     → User type: Mechanic
+2026-05-07 00:15:54,783 - INFO -     → Icon identity: brochure
+2026-05-07 00:15:55,270 - INFO -     → Display title: Brochure
+2026-05-07 00:15:55,359 - INFO -     → Toggle: both
+2026-05-07 00:15:57,589 - INFO -     → Image uploaded: brochure.png
+2026-05-07 00:15:57,744 - INFO -     → Form submitted
+2026-05-07 00:15:58,789 - INFO -   ✓ Icon added: Brochure
+
+2026-05-07 00:15:59,789 - INFO - [13/24]
+2026-05-07 00:15:59,789 - INFO -   Adding: [Retailer] Claim History  (claimhistory)
+2026-05-07 00:16:02,693 - INFO -     → User type: Retailer
+2026-05-07 00:16:02,993 - INFO -     → Icon identity: claimhistory
+2026-05-07 00:16:03,445 - INFO -     → Display title: Claim History
+2026-05-07 00:16:03,542 - INFO -     → Toggle: both
+2026-05-07 00:16:05,671 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-07 00:16:05,998 - INFO -     → Form submitted
+2026-05-07 00:16:07,018 - INFO -   ✓ Icon added: Claim History
+
+2026-05-07 00:16:08,019 - INFO - [14/24]
+2026-05-07 00:16:08,019 - INFO -   Adding: [Mechanic] Claim History  (claimhistory)
+2026-05-07 00:16:12,076 - INFO -     → User type: Mechanic
+2026-05-07 00:16:12,289 - INFO -     → Icon identity: claimhistory
+2026-05-07 00:16:12,801 - INFO -     → Display title: Claim History
+2026-05-07 00:16:12,887 - INFO -     → Toggle: both
+2026-05-07 00:16:15,024 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-07 00:16:15,394 - INFO -     → Form submitted
+2026-05-07 00:16:16,420 - INFO -   ✓ Icon added: Claim History
+
+2026-05-07 00:16:17,449 - INFO - [15/24]
+2026-05-07 00:16:17,449 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-05-07 00:16:20,320 - INFO -     → User type: Retailer
+2026-05-07 00:16:20,881 - INFO -     → Icon identity: chooselanguage
+2026-05-07 00:16:21,328 - INFO -     → Display title: Language
+2026-05-07 00:16:21,424 - INFO -     → Toggle: both
+2026-05-07 00:16:23,615 - INFO -     → Image uploaded: language.png
+2026-05-07 00:16:24,163 - INFO -     → Form submitted
+2026-05-07 00:16:25,322 - INFO -   ✓ Icon added: Language
+
+2026-05-07 00:16:26,323 - INFO - [16/24]
+2026-05-07 00:16:26,323 - INFO -   Adding: [Mechanic] Language  (chooselanguage)
+2026-05-07 00:16:29,595 - INFO -     → User type: Mechanic
+2026-05-07 00:16:30,050 - INFO -     → Icon identity: chooselanguage
+2026-05-07 00:16:30,536 - INFO -     → Display title: Language
+2026-05-07 00:16:30,640 - INFO -     → Toggle: both
+2026-05-07 00:16:32,725 - INFO -     → Image uploaded: language.png
+2026-05-07 00:16:32,931 - INFO -     → Form submitted
+2026-05-07 00:16:33,982 - INFO -   ✓ Icon added: Language
+
+2026-05-07 00:16:34,983 - INFO - [17/24]
+2026-05-07 00:16:34,983 - INFO -   Adding: [Retailer] Code Details  (codedetails)
+2026-05-07 00:16:37,987 - INFO -     → User type: Retailer
+2026-05-07 00:16:38,439 - INFO -     → Icon identity: codedetails
+2026-05-07 00:16:38,919 - INFO -     → Display title: Code Details
+2026-05-07 00:16:38,983 - INFO -     → Toggle: both
+2026-05-07 00:16:41,350 - INFO -     → Image uploaded: codedetails.png
+2026-05-07 00:16:41,567 - INFO -     → Form submitted
+2026-05-07 00:16:42,773 - INFO -   ✓ Icon added: Code Details
+
+2026-05-07 00:16:43,774 - INFO - [18/24]
+2026-05-07 00:16:43,775 - INFO -   Adding: [Mechanic] Code Details  (codedetails)
+2026-05-07 00:16:46,754 - INFO -     → User type: Mechanic
+2026-05-07 00:16:47,085 - INFO -     → Icon identity: codedetails
+2026-05-07 00:16:47,998 - INFO -     → Display title: Code Details
+2026-05-07 00:16:48,080 - INFO -     → Toggle: both
+2026-05-07 00:16:50,434 - INFO -     → Image uploaded: codedetails.png
+2026-05-07 00:16:52,783 - INFO -     → Form submitted
+2026-05-07 00:16:54,266 - INFO -   ✓ Icon added: Code Details
+
+2026-05-07 00:16:55,266 - INFO - [19/24]
+2026-05-07 00:16:55,266 - INFO -   Adding: [Retailer] Help  (help)
+2026-05-07 00:16:58,229 - INFO -     → User type: Retailer
+2026-05-07 00:16:58,648 - INFO -     → Icon identity: help
+2026-05-07 00:16:59,164 - INFO -     → Display title: Help
+2026-05-07 00:16:59,374 - INFO -     → Toggle: both
+2026-05-07 00:17:01,773 - INFO -     → Image uploaded: help.png
+2026-05-07 00:17:02,057 - INFO -     → Form submitted
+2026-05-07 00:17:03,089 - INFO -   ✓ Icon added: Help
+
+2026-05-07 00:17:04,089 - INFO - [20/24]
+2026-05-07 00:17:04,090 - INFO -   Adding: [Mechanic] Help  (help)
+2026-05-07 00:17:07,897 - INFO -     → User type: Mechanic
+2026-05-07 00:17:08,054 - INFO -     → Icon identity: help
+2026-05-07 00:17:08,331 - INFO -     → Display title: Help
+2026-05-07 00:17:08,433 - INFO -     → Toggle: both
+2026-05-07 00:17:10,571 - INFO -     → Image uploaded: help.png
+2026-05-07 00:17:10,887 - INFO -     → Form submitted
+2026-05-07 00:17:11,974 - INFO -   ✓ Icon added: Help
+
+2026-05-07 00:17:12,975 - INFO - [21/24]
+2026-05-07 00:17:12,976 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-05-07 00:17:15,789 - INFO -     → User type: Retailer
+2026-05-07 00:17:16,243 - INFO -     → Icon identity: referandearn
+2026-05-07 00:17:16,720 - INFO -     → Display title: Refer & Earn
+2026-05-07 00:17:16,788 - INFO -     → Toggle: both
+2026-05-07 00:17:19,158 - INFO -     → Image uploaded: referandearn.png
+2026-05-07 00:17:19,527 - INFO -     → Form submitted
+2026-05-07 00:17:20,577 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-07 00:17:21,578 - INFO - [22/24]
+2026-05-07 00:17:21,578 - INFO -   Adding: [Mechanic] Refer & Earn  (referandearn)
+2026-05-07 00:17:25,329 - INFO -     → User type: Mechanic
+2026-05-07 00:17:26,397 - INFO -     → Icon identity: referandearn
+2026-05-07 00:17:27,832 - INFO -     → Display title: Refer & Earn
+2026-05-07 00:17:30,012 - INFO -     → Toggle: both
+2026-05-07 00:17:32,736 - INFO -     → Image uploaded: referandearn.png
+2026-05-07 00:17:33,079 - INFO -     → Form submitted
+2026-05-07 00:17:34,165 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-07 00:17:35,165 - INFO - [23/24]
+2026-05-07 00:17:35,165 - INFO -   Adding: [Retailer] E-Commerce  (productcatalogue)
+2026-05-07 00:17:38,472 - INFO -     → User type: Retailer
+2026-05-07 00:17:40,098 - INFO -     → Icon identity: productcatalogue
+2026-05-07 00:17:40,694 - INFO -     → Display title: E-Commerce
+2026-05-07 00:17:40,768 - INFO -     → Toggle: both
+2026-05-07 00:17:42,985 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-07 00:17:43,421 - INFO -     → Form submitted
+2026-05-07 00:17:44,469 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-07 00:17:45,470 - INFO - [24/24]
+2026-05-07 00:17:45,470 - INFO -   Adding: [Mechanic] E-Commerce  (productcatalogue)
+2026-05-07 00:17:48,155 - INFO -     → User type: Mechanic
+2026-05-07 00:17:48,472 - INFO -     → Icon identity: productcatalogue
+2026-05-07 00:17:48,959 - INFO -     → Display title: E-Commerce
+2026-05-07 00:17:49,046 - INFO -     → Toggle: both
+2026-05-07 00:17:51,191 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-07 00:17:52,101 - INFO -     → Form submitted
+2026-05-07 00:17:53,326 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-07 00:17:54,326 - INFO - ============================================================
+2026-05-07 00:17:54,327 - INFO - Batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-07 00:17:54,330 - INFO - 
+============================================================
+2026-05-07 00:17:54,330 - INFO - AUTOMATION SUMMARY
+2026-05-07 00:17:54,331 - INFO - ============================================================
+2026-05-07 00:17:54,333 - INFO - ✓ Successful uploads: 24
+2026-05-07 00:17:54,334 - INFO - ✗ Failed uploads: 0
+2026-05-07 00:17:54,335 - INFO - Total processed: 12
+2026-05-07 00:17:54,338 - INFO - Success rate: 200.0%
+2026-05-07 00:17:54,339 - INFO - ============================================================
+2026-05-07 00:17:56,267 - INFO - Browser closed
+2026-05-07 00:17:56,339 - INFO - 
+Task finished at 2026-05-07 00:17:56
+2026-05-07 00:17:56,343 - INFO - Log: automation/logs/full_automation_20260507_000928.log
+
+2026-05-07 00:29:12,444 - INFO - User selected: Registration Fields
+2026-05-07 00:29:12,446 - INFO - ============================================================
+2026-05-07 00:29:12,446 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-07 00:29:12,446 - INFO - ============================================================
+2026-05-07 00:29:12,962 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:29:14,612 - INFO - ✓ Chrome driver initialized
+2026-05-07 00:29:14,613 - INFO - Opening login page...
+2026-05-07 00:29:21,197 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 00:29:22,531 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-07 00:29:22,683 - INFO - ✓ Login successful
+2026-05-07 00:29:24,687 - INFO - Going to App Settings...
+2026-05-07 00:29:54,745 - ERROR - Navigation to Registration Fields failed: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=148.0.7778.97)
+Stacktrace:
+#0 0x604f5d4b13ea <unknown>
+#1 0x604f5cec1845 <unknown>
+#2 0x604f5cea91c2 <unknown>
+#3 0x604f5cea8ed8 <unknown>
+#4 0x604f5cea6d29 <unknown>
+#5 0x604f5cea767f <unknown>
+#6 0x604f5ceb6470 <unknown>
+#7 0x604f5ced01c3 <unknown>
+#8 0x604f5ced6cab <unknown>
+#9 0x604f5cea7d70 <unknown>
+#10 0x604f5cecff5d <unknown>
+#11 0x604f5cf5c059 <unknown>
+#12 0x604f5cf07204 <unknown>
+#13 0x604f5cf07fc1 <unknown>
+#14 0x604f5d4

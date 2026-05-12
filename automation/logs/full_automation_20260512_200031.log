@@ -1,0 +1,36 @@
+2026-05-12 20:00:57,676 - INFO - User selected: Old Dashboard
+2026-05-12 20:00:59,648 - INFO -   Old Dashboard → Brand Setting
+2026-05-12 20:00:59,651 - INFO - ============================================================
+2026-05-12 20:00:59,651 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-12 20:00:59,651 - INFO - ============================================================
+2026-05-12 20:01:00,938 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 20:01:04,937 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-12 20:01:04,943 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-12 20:01:15,633 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-12 20:01:17,637 - INFO -     → Filling credentials …
+2026-05-12 20:01:18,470 - INFO -       Email → field #login_txt_id
+2026-05-12 20:01:19,163 - INFO -       Password → field #login_txt_pass
+2026-05-12 20:01:20,177 - INFO -       Login button clicked: #btnVendor
+2026-05-12 20:01:20,178 - INFO -     → Waiting for post-login redirect …
+2026-05-12 20:02:00,994 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-12 20:02:00,996 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-12 20:02:32,079 - INFO - 
+[3/4] Extracting brand data …
+2026-05-12 20:02:32,082 - INFO -   → Extracting brand data from page …
+2026-05-12 20:02:36,074 - INFO -       Company Name: 'Teramix'
+2026-05-12 20:02:36,340 - INFO -       Logo URL found: https://www.vcqru.com/Info/img/logos/1945/SOLIXO%20LOGO-1945.jpg…
+2026-05-12 20:02:37,555 - INFO -   ✓ Extraction done — company='Teramix' logo=yes splash=no
+2026-05-12 20:02:37,559 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-12 20:02:38,764 - INFO -   ✓ Downloaded: logo.jpg  (660.7 KB)
+2026-05-12 20:02:38,774 - WARNING -   ⚠ No splash URL found — skipping splash download
+2026-05-12 20:02:38,791 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-12 20:02:38,795 - INFO - ✓ Brand Setting extraction completed successfully
+2026-05-12 20:02:40,273 - INFO -   Browser closed
+2026-05-12 20:02:40,274 - INFO - 
+Task finished at 2026-05-12 20:02:40
+2026-05-12 20:02:40,274 - INFO - Log: automation/logs/full_automation_20260512_200031.log
+
+2026-05-12 20:03:09,410 - ERROR - Fatal error: 

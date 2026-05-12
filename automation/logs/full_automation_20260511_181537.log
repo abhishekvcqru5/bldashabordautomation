@@ -1,0 +1,146 @@
+2026-05-11 18:16:02,390 - INFO - User selected: Brand Setting
+2026-05-11 18:16:12,928 - INFO -   Found logo asset: logo.png
+2026-05-11 18:16:12,928 - INFO -   Found splash asset: splash.png
+2026-05-11 18:16:12,928 - INFO - ============================================================
+2026-05-11 18:16:12,928 - INFO - BRAND SETTING — Image Processing
+2026-05-11 18:16:12,928 - INFO - ============================================================
+2026-05-11 18:16:13,022 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-11 18:16:13,148 - INFO - ✓ Logo  → logo_processed.png  |  43.4 KB  |  PNG lossless
+2026-05-11 18:16:13,273 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-11 18:16:14,143 - INFO - ✓ Splash → splash_processed.png  |  1.55 MB  |  PNG lossless
+2026-05-11 18:16:14,144 - INFO - 
+2026-05-11 18:16:14,144 - INFO - Extracting brand colours from logo...
+2026-05-11 18:16:14,333 - INFO -   Colours extracted from logo:
+2026-05-11 18:16:14,334 - INFO -     Header Color     →  #F0C0C0  (dominant logo colour)
+2026-05-11 18:16:14,334 - INFO -     Background Color →  #9C7C7C  (35% darker)
+2026-05-11 18:16:14,334 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-11 18:16:14,334 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-11 18:16:14,347 - INFO - ✓ Both images ready
+
+2026-05-11 18:16:14,348 - INFO - ============================================================
+2026-05-11 18:16:14,348 - INFO - BRAND SETTING — Browser Automation
+2026-05-11 18:16:14,348 - INFO - ============================================================
+2026-05-11 18:16:14,800 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-11 18:16:15,929 - INFO - ✓ Chrome driver initialized
+2026-05-11 18:16:15,929 - INFO - Opening login page...
+2026-05-11 18:16:17,771 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-11 18:16:29,572 - INFO - ✓ Login successful
+2026-05-11 18:16:31,573 - INFO - Going to App Settings...
+2026-05-11 18:16:38,161 - INFO -   → Identity & Branding section opened
+2026-05-11 18:16:40,362 - INFO -   → Edit Branding popup opened
+2026-05-11 18:16:40,404 - INFO - ✓ Brand setting form is ready
+2026-05-11 18:16:40,404 - INFO -   Setting company name: Siddhant
+2026-05-11 18:16:41,307 - INFO -     → HeaderColor: #F0C0C0
+2026-05-11 18:16:41,965 - INFO -     → FooterColor: #F5F5F5
+2026-05-11 18:16:42,626 - INFO -     → BodyColor: #FFFFFF
+2026-05-11 18:16:43,282 - INFO -     → BackgroundColor: #9C7C7C
+2026-05-11 18:16:45,325 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-11 18:16:47,387 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-11 18:16:47,580 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-11 18:16:50,603 - INFO - ✓ Brand settings saved successfully!
+2026-05-11 18:16:50,827 - INFO - Browser closed
+2026-05-11 18:16:50,828 - INFO - 
+Task finished at 2026-05-11 18:16:50
+2026-05-11 18:16:50,828 - INFO - Log: automation/logs/full_automation_20260511_181537.log
+
+2026-05-11 18:30:18,038 - INFO - User selected: Intro Screens
+2026-05-11 18:30:18,038 - INFO - ============================================================
+2026-05-11 18:30:18,038 - INFO - INTRO SCREENS — Image Processing
+2026-05-11 18:30:18,038 - INFO - ============================================================
+2026-05-11 18:30:18,039 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-11 18:30:18,040 - INFO -   ⚙ Processing vcqruslide1.jpeg  (731×1300 → need 1080×1920)
+2026-05-11 18:30:18,245 - INFO -   ✓ vcqruslide1.jpeg  →  vcqruslide1_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-11 18:30:18,247 - INFO -   ✓ vcqruslide22.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-05-11 18:30:18,380 - INFO -   ✓ vcqruslide333.jpeg  →  Already OK (1080×1920, 0.45 MB)
+2026-05-11 18:30:18,513 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-11 18:30:21,335 - INFO - ============================================================
+2026-05-11 18:30:21,335 - INFO - INTRO SCREENS — Browser Automation
+2026-05-11 18:30:21,335 - INFO - ============================================================
+2026-05-11 18:30:21,729 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-11 18:30:22,902 - INFO - ✓ Chrome driver initialized
+2026-05-11 18:30:22,902 - INFO - Opening login page...
+2026-05-11 18:30:24,398 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-11 18:30:43,376 - INFO - ✓ Login successful
+2026-05-11 18:30:45,377 - INFO - Going to App Settings...
+2026-05-11 18:30:51,793 - INFO -   → Intro Screens section opened
+2026-05-11 18:30:51,840 - INFO - ✓ Intro Screens page ready
+2026-05-11 18:30:51,840 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-11 18:30:51,840 - INFO - ============================================================
+2026-05-11 18:30:51,840 - INFO - [1/3]
+2026-05-11 18:30:51,840 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-11 18:30:54,291 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-11 18:30:54,842 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-11 18:30:56,914 - INFO -     → Image uploaded: vcqruslide1_processed.jpg
+2026-05-11 18:30:57,090 - INFO -     → Launch Screen clicked
+2026-05-11 18:31:01,121 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-11 18:31:02,121 - INFO - [2/3]
+2026-05-11 18:31:02,122 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-11 18:31:04,493 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-11 18:31:05,047 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-11 18:31:07,099 - INFO -     → Image uploaded: vcqruslide22_processed.jpg
+2026-05-11 18:31:07,271 - INFO -     → Launch Screen clicked
+2026-05-11 18:31:11,302 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-11 18:31:12,303 - INFO - [3/3]
+2026-05-11 18:31:12,303 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-11 18:31:14,750 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-11 18:31:15,331 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-11 18:31:17,364 - INFO -     → Image uploaded: vcqruslide333_processed.jpg
+2026-05-11 18:31:17,544 - INFO -     → Launch Screen clicked
+2026-05-11 18:31:21,563 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-11 18:31:22,563 - INFO - ============================================================
+2026-05-11 18:31:22,564 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-11 18:31:22,762 - INFO - Browser closed
+2026-05-11 18:31:22,762 - INFO - 
+Task finished at 2026-05-11 18:31:22
+2026-05-11 18:31:22,762 - INFO - Log: automation/logs/full_automation_20260511_181537.log
+
+2026-05-11 18:33:46,771 - INFO - User selected: Promotion Banners
+2026-05-11 18:33:46,771 - INFO - ============================================================
+2026-05-11 18:33:46,771 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-11 18:33:46,772 - INFO - ============================================================
+2026-05-11 18:33:46,773 - INFO - Found 2 banner image(s) in banner/
+2026-05-11 18:33:46,774 - INFO -   ⚙ Processing 539f4dd7-8dea-4824-9f60-916fa252a2ce.png  (size 1672×941 → need 1920×1080)
+2026-05-11 18:33:47,006 - INFO -   ✓ 539f4dd7-8dea-4824-9f60-916fa252a2ce.png  →  539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-11 18:33:47,009 - INFO -   ⚙ Processing vcqrubanne.jpeg  (size 1200×675 → need 1920×1080)
+2026-05-11 18:33:47,183 - INFO -   ✓ vcqrubanne.jpeg  →  vcqrubanne_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-11 18:33:47,185 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-11 18:33:47,185 - INFO - ============================================================
+2026-05-11 18:33:47,185 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-11 18:33:47,185 - INFO - ============================================================
+2026-05-11 18:33:47,632 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-11 18:33:48,743 - INFO - ✓ Chrome driver initialized
+2026-05-11 18:33:48,743 - INFO - Opening login page...
+2026-05-11 18:33:50,176 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-11 18:34:09,883 - INFO - ✓ Login successful
+2026-05-11 18:34:11,886 - INFO - Going to App Settings...
+2026-05-11 18:34:18,274 - INFO -   → Promotion Banners section opened
+2026-05-11 18:34:18,314 - INFO - ✓ Promotion Banners page ready
+2026-05-11 18:34:18,315 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-11 18:34:18,315 - INFO - ============================================================
+2026-05-11 18:34:18,315 - INFO - [1/2]
+2026-05-11 18:34:18,316 - INFO -   Publishing: [539f4dd7-8dea-4824-9f60-916fa252a2ce]  (539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg)
+2026-05-11 18:34:20,729 - INFO -     → Title entered: 539f4dd7-8dea-4824-9f60-916fa252a2ce
+2026-05-11 18:34:22,776 - INFO -     → Image uploaded: 539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg
+2026-05-11 18:34:22,945 - INFO -     → Publish Banner clicked
+2026-05-11 18:34:26,976 - INFO -   ✓ Banner published: 539f4dd7-8dea-4824-9f60-916fa252a2ce
+
+2026-05-11 18:34:27,976 - INFO - [2/2]
+2026-05-11 18:34:27,977 - INFO -   Publishing: [vcqrubanne]  (vcqrubanne_processed.jpg)
+2026-05-11 18:34:30,387 - INFO -     → Title entered: vcqrubanne
+2026-05-11 18:34:32,422 - INFO -     → Image uploaded: vcqrubanne_processed.jpg
+2026-05-11 18:34:32,583 - INFO -     → Publish Banner clicked
+2026-05-11 18:34:36,603 - INFO -   ✓ Banner published: vcqrubanne
+
+2026-05-11 18:34:37,604 - INFO - ============================================================
+2026-05-11 18:34:37,604 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-11 18:34:37,745 - INFO - Browser closed
+2026-05-11 18:34:37,745 - INFO - 
+Task finished at 2026-05-11 18:34:37
+2026-05-11 18:34:37,745 - INFO - Log: automation/logs/full_automation_20260511_181537.log
+

@@ -1,0 +1,38 @@
+2026-05-05 19:49:57,318 - INFO - User selected: Intro Screens
+2026-05-05 19:49:57,319 - INFO - ============================================================
+2026-05-05 19:49:57,319 - INFO - INTRO SCREENS — Image Processing
+2026-05-05 19:49:57,319 - INFO - ============================================================
+2026-05-05 19:49:57,320 - INFO - Found 1 intro image(s) in introscreen/
+2026-05-05 19:49:57,359 - INFO -   ⚙ Processing d6e3cd5e-5557-40d2-b583-7edebb0638ff.png  (360×800 → need 1080×1920)
+2026-05-05 19:49:57,561 - INFO -   ✓ d6e3cd5e-5557-40d2-b583-7edebb0638ff.png  →  d6e3cd5e-5557-40d2-b583-7edebb0638ff_processed.jpg  |  1080×1920  |  0.21 MB  |  quality 92
+2026-05-05 19:49:57,562 - INFO -   Processed 1/1 intro images successfully
+
+2026-05-05 19:49:59,294 - INFO - ============================================================
+2026-05-05 19:49:59,294 - INFO - INTRO SCREENS — Browser Automation
+2026-05-05 19:49:59,295 - INFO - ============================================================
+2026-05-05 19:50:00,005 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 19:50:01,613 - INFO - ✓ Chrome driver initialized
+2026-05-05 19:50:01,613 - INFO - Opening login page...
+2026-05-05 19:50:03,682 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 19:50:04,942 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 19:50:05,102 - INFO - ✓ Login successful
+2026-05-05 19:50:07,102 - INFO - Going to App Settings...
+2026-05-05 19:50:13,571 - INFO -   → Intro Screens section opened
+2026-05-05 19:50:13,612 - INFO - ✓ Intro Screens page ready
+2026-05-05 19:50:13,613 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-05-05 19:50:13,613 - INFO - ============================================================
+2026-05-05 19:50:13,613 - INFO - [1/1]
+2026-05-05 19:50:13,613 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-05 19:50:16,081 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-05 19:50:16,985 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-05 19:50:19,069 - INFO -     → Image uploaded: d6e3cd5e-5557-40d2-b583-7edebb0638ff_processed.jpg
+2026-05-05 19:50:19,264 - INFO -     → Launch Screen clicked
+2026-05-05 19:50:23,274 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-05 19:50:24,275 - INFO - ============================================================
+2026-05-05 19:50:24,276 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-05-05 19:50:24,519 - INFO - Browser closed
+2026-05-05 19:50:24,519 - INFO - 
+Task finished at 2026-05-05 19:50:24
+2026-05-05 19:50:24,519 - INFO - Log: automation/logs/full_automation_20260505_194937.log
+

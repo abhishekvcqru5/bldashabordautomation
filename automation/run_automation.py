@@ -36,6 +36,7 @@ from intro_screen import (
 )
 from registration_fields import RegistrationFieldsAutomation
 from old_dashboard_migration import run_old_dashboard_migration
+from old_dashboard_brand_setting import run_old_dashboard_brand_setting
 
 # Setup logging
 log_dir = Path("automation/logs")
@@ -497,6 +498,27 @@ def run_registration_fields(email, password):
         return False
 
 
+def show_old_dashboard_menu() -> str:
+    """
+    Sub-menu for Old Dashboard operations.
+    Returns the user's sub-choice as a string.
+    """
+    print()
+    print("  ╔══════════════════════════════════════════════════════════╗")
+    print("  ║          OLD DASHBOARD — Select Operation               ║")
+    print("  ╠══════════════════════════════════════════════════════════╣")
+    print("  ║                                                          ║")
+    print("  ║   Press 1 : Brand Setting      (Logo / Splash / Name)   ║")
+    print("  ║   Press 2 : Introduction Setting                         ║")
+    print("  ║   Press 3 : Banner BL          (coming soon)             ║")
+    print("  ║   Press 4 : Product Catalogue  (coming soon)             ║")
+    print("  ║   Press 0 : Back to Main Menu                            ║")
+    print("  ║                                                          ║")
+    print("  ╚══════════════════════════════════════════════════════════╝")
+    print()
+    return input("  Select task: ").strip()
+
+
 def show_menu():
     """
     Main menu — add new options here in the future.
@@ -567,15 +589,38 @@ if __name__ == "__main__":
 
             elif choice == "6":
                 logger.info("User selected: Old Dashboard")
-                print("\n  ─── Old Dashboard Sub-Menu ───")
-                print("  1. Introduction Screens")
-                # Add more migration tasks here later
-                sub_choice = input("\n  Select task: ").strip()
-                if sub_choice == "1":
-                    # Migration function handles old + new dashboard flows internally.
+                sub_choice = show_old_dashboard_menu()
+
+                if sub_choice == "0":
+                    # Go back to main menu without marking success/failure
+                    continue
+
+                elif sub_choice == "1":
+                    # ── Brand Setting — extract logo, splash & company name ──
+                    logger.info("  Old Dashboard → Brand Setting")
+                    success = run_old_dashboard_brand_setting(email, password)
+
+                elif sub_choice == "2":
+                    # ── Introduction Setting — migrate intro screens ─────────
+                    logger.info("  Old Dashboard → Introduction Setting")
                     success = run_old_dashboard_migration(email, password)
+
+                elif sub_choice == "3":
+                    # ── Banner BL ───────────────────────────────────────────
+                    logger.info("  Old Dashboard → Banner BL (not yet implemented)")
+                    print("\n  ⚠ Banner BL extraction is not yet implemented.")
+                    print("    It will be added in a future update.\n")
+                    success = False
+
+                elif sub_choice == "4":
+                    # ── Product Catalogue ───────────────────────────────────
+                    logger.info("  Old Dashboard → Product Catalogue (not yet implemented)")
+                    print("\n  ⚠ Product Catalogue extraction is not yet implemented.")
+                    print("    It will be added in a future update.\n")
+                    success = False
+
                 else:
-                    print("  ❌ Invalid sub-choice.")
+                    print(f"\n  ❌ Invalid sub-choice '{sub_choice}'.\n")
                     success = False
 
             # ── Result summary ────────────────────────────────────────

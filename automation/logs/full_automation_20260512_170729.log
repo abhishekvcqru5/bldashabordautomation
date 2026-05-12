@@ -1,0 +1,805 @@
+2026-05-12 17:07:46,594 - INFO - User selected: Dashboard Icons
+2026-05-12 17:07:46,594 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-12 17:07:46,594 - INFO - Automation started at 2026-05-12 17:07:46
+
+2026-05-12 17:07:46,594 - INFO - ============================================================
+2026-05-12 17:07:46,594 - INFO - STEP 1: Processing and Compressing Images
+2026-05-12 17:07:46,595 - INFO - ============================================================
+2026-05-12 17:07:46,595 - INFO - Processing images from: dashboardicons
+2026-05-12 17:07:46,595 - INFO - Output folder: automation/processed_images
+2026-05-12 17:07:46,595 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-12 17:07:46,680 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-12 17:07:46,694 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-12 17:07:46,716 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-12 17:07:46,735 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-12 17:07:46,742 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-12 17:07:46,757 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-12 17:07:46,770 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-12 17:07:46,781 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-12 17:07:46,805 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-12 17:07:46,818 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-12 17:07:46,831 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-12 17:07:46,847 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-12 17:07:46,861 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-12 17:07:46,878 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-12 17:07:46,878 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-12 17:07:46,878 - INFO - ✓ 14 images processed and ready
+
+2026-05-12 17:07:46,878 - INFO - ============================================================
+2026-05-12 17:07:46,878 - INFO - STEP 2: Preparing Authentication
+2026-05-12 17:07:46,879 - INFO - ============================================================
+2026-05-12 17:07:46,879 - INFO - Using email: info@johnsonpaints.co.in
+2026-05-12 17:07:46,879 - INFO - ✓ Credentials loaded
+
+2026-05-12 17:07:46,879 - INFO - ============================================================
+2026-05-12 17:07:46,879 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-12 17:07:46,879 - INFO - ============================================================
+2026-05-12 17:07:49,121 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 17:07:50,815 - INFO - ✓ Chrome driver initialized
+2026-05-12 17:07:50,816 - INFO - 
+→ Attempting login...
+
+2026-05-12 17:07:50,817 - INFO - Opening login page...
+2026-05-12 17:07:52,432 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 17:07:52,973 - INFO - ✓ Login successful
+2026-05-12 17:07:54,974 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-12 17:07:54,974 - INFO - Navigating to App Settings...
+2026-05-12 17:08:01,517 - INFO - ✓ Dashboard Icons section loaded
+2026-05-12 17:08:03,518 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-12 17:08:03,518 - INFO - Starting batch – 12 configured entries
+2026-05-12 17:08:07,261 - INFO -   Found 3 user types: ['Painter', 'Distributer', 'Retailer']
+2026-05-12 17:08:07,261 - INFO - Available user types: ['Painter', 'Distributer', 'Retailer']
+2026-05-12 17:08:07,262 - INFO - Total icons to upload after expansion: 36
+2026-05-12 17:08:07,262 - INFO - ============================================================
+2026-05-12 17:08:07,262 - INFO - [1/36]
+2026-05-12 17:08:07,263 - INFO -   Adding: [Painter] Gift  (gift)
+2026-05-12 17:08:09,744 - INFO -     → User type: Painter
+2026-05-12 17:08:09,838 - INFO -     → Icon identity: gift
+2026-05-12 17:08:09,993 - INFO -     → Display title: Gift
+2026-05-12 17:08:10,045 - INFO -     → Toggle: both
+2026-05-12 17:08:12,115 - INFO -     → Image uploaded: Gift.png
+2026-05-12 17:08:12,304 - INFO -     → Form submitted
+2026-05-12 17:08:13,330 - INFO -   ✓ Icon added: Gift
+
+2026-05-12 17:08:14,330 - INFO - [2/36]
+2026-05-12 17:08:14,331 - INFO -   Adding: [Distributer] Gift  (gift)
+2026-05-12 17:08:16,606 - INFO -     → User type: Distributer
+2026-05-12 17:08:16,678 - INFO -     → Icon identity: gift
+2026-05-12 17:08:16,807 - INFO -     → Display title: Gift
+2026-05-12 17:08:16,845 - INFO -     → Toggle: both
+2026-05-12 17:08:18,885 - INFO -     → Image uploaded: Gift.png
+2026-05-12 17:08:19,052 - INFO -     → Form submitted
+2026-05-12 17:08:20,063 - INFO -   ✓ Icon added: Gift
+
+2026-05-12 17:08:21,063 - INFO - [3/36]
+2026-05-12 17:08:21,064 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-05-12 17:08:23,332 - INFO -     → User type: Retailer
+2026-05-12 17:08:23,414 - INFO -     → Icon identity: gift
+2026-05-12 17:08:23,545 - INFO -     → Display title: Gift
+2026-05-12 17:08:23,571 - INFO -     → Toggle: both
+2026-05-12 17:08:25,634 - INFO -     → Image uploaded: Gift.png
+2026-05-12 17:08:25,819 - INFO -     → Form submitted
+2026-05-12 17:08:26,841 - INFO -   ✓ Icon added: Gift
+
+2026-05-12 17:08:27,842 - INFO - [4/36]
+2026-05-12 17:08:27,843 - INFO -   Adding: [Painter] History  (history)
+2026-05-12 17:08:30,099 - INFO -     → User type: Painter
+2026-05-12 17:08:30,190 - INFO -     → Icon identity: history
+2026-05-12 17:08:30,328 - INFO -     → Display title: History
+2026-05-12 17:08:30,350 - INFO -     → Toggle: both
+2026-05-12 17:08:32,395 - INFO -     → Image uploaded: history.png
+2026-05-12 17:08:32,580 - INFO -     → Form submitted
+2026-05-12 17:08:33,597 - INFO -   ✓ Icon added: History
+
+2026-05-12 17:08:34,598 - INFO - [5/36]
+2026-05-12 17:08:34,598 - INFO -   Adding: [Distributer] History  (history)
+2026-05-12 17:08:36,877 - INFO -     → User type: Distributer
+2026-05-12 17:08:36,965 - INFO -     → Icon identity: history
+2026-05-12 17:08:37,095 - INFO -     → Display title: History
+2026-05-12 17:08:37,143 - INFO -     → Toggle: both
+2026-05-12 17:08:39,196 - INFO -     → Image uploaded: history.png
+2026-05-12 17:08:39,378 - INFO -     → Form submitted
+2026-05-12 17:08:40,398 - INFO -   ✓ Icon added: History
+
+2026-05-12 17:08:41,399 - INFO - [6/36]
+2026-05-12 17:08:41,400 - INFO -   Adding: [Retailer] History  (history)
+2026-05-12 17:08:43,662 - INFO -     → User type: Retailer
+2026-05-12 17:08:43,744 - INFO -     → Icon identity: history
+2026-05-12 17:08:43,865 - INFO -     → Display title: History
+2026-05-12 17:08:43,888 - INFO -     → Toggle: both
+2026-05-12 17:08:45,947 - INFO -     → Image uploaded: history.png
+2026-05-12 17:08:46,121 - INFO -     → Form submitted
+2026-05-12 17:08:47,154 - INFO -   ✓ Icon added: History
+
+2026-05-12 17:08:48,155 - INFO - [7/36]
+2026-05-12 17:08:48,155 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-05-12 17:08:50,439 - INFO -     → User type: Painter
+2026-05-12 17:08:50,537 - INFO -     → Icon identity: wallet
+2026-05-12 17:08:50,665 - INFO -     → Display title: Wallet
+2026-05-12 17:08:50,710 - INFO -     → Toggle: both
+2026-05-12 17:08:52,754 - INFO -     → Image uploaded: wallet.png
+2026-05-12 17:08:52,934 - INFO -     → Form submitted
+2026-05-12 17:08:53,951 - INFO -   ✓ Icon added: Wallet
+
+2026-05-12 17:08:54,952 - INFO - [8/36]
+2026-05-12 17:08:54,952 - INFO -   Adding: [Distributer] Wallet  (wallet)
+2026-05-12 17:08:57,248 - INFO -     → User type: Distributer
+2026-05-12 17:08:57,332 - INFO -     → Icon identity: wallet
+2026-05-12 17:08:57,451 - INFO -     → Display title: Wallet
+2026-05-12 17:08:57,475 - INFO -     → Toggle: both
+2026-05-12 17:08:59,532 - INFO -     → Image uploaded: wallet.png
+2026-05-12 17:08:59,709 - INFO -     → Form submitted
+2026-05-12 17:09:00,735 - INFO -   ✓ Icon added: Wallet
+
+2026-05-12 17:09:01,736 - INFO - [9/36]
+2026-05-12 17:09:01,736 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-05-12 17:09:03,972 - INFO -     → User type: Retailer
+2026-05-12 17:09:04,062 - INFO -     → Icon identity: wallet
+2026-05-12 17:09:04,186 - INFO -     → Display title: Wallet
+2026-05-12 17:09:04,210 - INFO -     → Toggle: both
+2026-05-12 17:09:06,269 - INFO -     → Image uploaded: wallet.png
+2026-05-12 17:09:06,453 - INFO -     → Form submitted
+2026-05-12 17:09:07,476 - INFO -   ✓ Icon added: Wallet
+
+2026-05-12 17:09:08,476 - INFO - [10/36]
+2026-05-12 17:09:08,477 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-05-12 17:09:10,740 - INFO -     → User type: Painter
+2026-05-12 17:09:10,826 - INFO -     → Icon identity: kycdetails
+2026-05-12 17:09:10,944 - INFO -     → Display title: KYC
+2026-05-12 17:09:10,980 - INFO -     → Toggle: both
+2026-05-12 17:09:13,025 - INFO -     → Image uploaded: kyc.png
+2026-05-12 17:09:13,262 - INFO -     → Form submitted
+2026-05-12 17:09:14,300 - INFO -   ✓ Icon added: KYC
+
+2026-05-12 17:09:15,301 - INFO - [11/36]
+2026-05-12 17:09:15,301 - INFO -   Adding: [Distributer] KYC  (kycdetails)
+2026-05-12 17:09:17,570 - INFO -     → User type: Distributer
+2026-05-12 17:09:17,651 - INFO -     → Icon identity: kycdetails
+2026-05-12 17:09:17,768 - INFO -     → Display title: KYC
+2026-05-12 17:09:17,792 - INFO -     → Toggle: both
+2026-05-12 17:09:19,840 - INFO -     → Image uploaded: kyc.png
+2026-05-12 17:09:20,019 - INFO -     → Form submitted
+2026-05-12 17:09:21,041 - INFO -   ✓ Icon added: KYC
+
+2026-05-12 17:09:22,042 - INFO - [12/36]
+2026-05-12 17:09:22,042 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-05-12 17:09:24,305 - INFO -     → User type: Retailer
+2026-05-12 17:09:24,382 - INFO -     → Icon identity: kycdetails
+2026-05-12 17:09:24,514 - INFO -     → Display title: KYC
+2026-05-12 17:09:24,549 - INFO -     → Toggle: both
+2026-05-12 17:09:26,596 - INFO -     → Image uploaded: kyc.png
+2026-05-12 17:09:26,770 - INFO -     → Form submitted
+2026-05-12 17:09:27,793 - INFO -   ✓ Icon added: KYC
+
+2026-05-12 17:09:28,794 - INFO - [13/36]
+2026-05-12 17:09:28,795 - INFO -   Adding: [Painter] Blog  (blog)
+2026-05-12 17:09:31,063 - INFO -     → User type: Painter
+2026-05-12 17:09:31,167 - INFO -     → Icon identity: blog
+2026-05-12 17:09:31,308 - INFO -     → Display title: Blog
+2026-05-12 17:09:31,341 - INFO -     → Toggle: both
+2026-05-12 17:09:33,391 - INFO -     → Image uploaded: blog.png
+2026-05-12 17:09:33,566 - INFO -     → Form submitted
+2026-05-12 17:09:34,587 - INFO -   ✓ Icon added: Blog
+
+2026-05-12 17:09:35,588 - INFO - [14/36]
+2026-05-12 17:09:35,588 - INFO -   Adding: [Distributer] Blog  (blog)
+2026-05-12 17:09:37,882 - INFO -     → User type: Distributer
+2026-05-12 17:09:37,962 - INFO -     → Icon identity: blog
+2026-05-12 17:09:38,096 - INFO -     → Display title: Blog
+2026-05-12 17:09:38,128 - INFO -     → Toggle: both
+2026-05-12 17:09:40,172 - INFO -     → Image uploaded: blog.png
+2026-05-12 17:09:40,347 - INFO -     → Form submitted
+2026-05-12 17:09:41,365 - INFO -   ✓ Icon added: Blog
+
+2026-05-12 17:09:42,365 - INFO - [15/36]
+2026-05-12 17:09:42,366 - INFO -   Adding: [Retailer] Blog  (blog)
+2026-05-12 17:09:44,640 - INFO -     → User type: Retailer
+2026-05-12 17:09:44,733 - INFO -     → Icon identity: blog
+2026-05-12 17:09:44,881 - INFO -     → Display title: Blog
+2026-05-12 17:09:44,918 - INFO -     → Toggle: both
+2026-05-12 17:09:46,961 - INFO -     → Image uploaded: blog.png
+2026-05-12 17:09:47,130 - INFO -     → Form submitted
+2026-05-12 17:09:48,150 - INFO -   ✓ Icon added: Blog
+
+2026-05-12 17:09:49,152 - INFO - [16/36]
+2026-05-12 17:09:49,152 - INFO -   Adding: [Painter] Brochure  (brochure)
+2026-05-12 17:09:51,423 - INFO -     → User type: Painter
+2026-05-12 17:09:51,563 - INFO -     → Icon identity: brochure
+2026-05-12 17:09:51,674 - INFO -     → Display title: Brochure
+2026-05-12 17:09:51,726 - INFO -     → Toggle: both
+2026-05-12 17:09:53,774 - INFO -     → Image uploaded: brochure.png
+2026-05-12 17:09:53,947 - INFO -     → Form submitted
+2026-05-12 17:09:54,974 - INFO -   ✓ Icon added: Brochure
+
+2026-05-12 17:09:55,974 - INFO - [17/36]
+2026-05-12 17:09:55,975 - INFO -   Adding: [Distributer] Brochure  (brochure)
+2026-05-12 17:09:58,249 - INFO -     → User type: Distributer
+2026-05-12 17:09:58,349 - INFO -     → Icon identity: brochure
+2026-05-12 17:09:58,475 - INFO -     → Display title: Brochure
+2026-05-12 17:09:58,497 - INFO -     → Toggle: both
+2026-05-12 17:10:00,555 - INFO -     → Image uploaded: brochure.png
+2026-05-12 17:10:00,737 - INFO -     → Form submitted
+2026-05-12 17:10:01,754 - INFO -   ✓ Icon added: Brochure
+
+2026-05-12 17:10:02,755 - INFO - [18/36]
+2026-05-12 17:10:02,755 - INFO -   Adding: [Retailer] Brochure  (brochure)
+2026-05-12 17:10:04,984 - INFO -     → User type: Retailer
+2026-05-12 17:10:05,068 - INFO -     → Icon identity: brochure
+2026-05-12 17:10:05,243 - INFO -     → Display title: Brochure
+2026-05-12 17:10:05,269 - INFO -     → Toggle: both
+2026-05-12 17:10:07,327 - INFO -     → Image uploaded: brochure.png
+2026-05-12 17:10:07,491 - INFO -     → Form submitted
+2026-05-12 17:10:08,511 - INFO -   ✓ Icon added: Brochure
+
+2026-05-12 17:10:09,511 - INFO - [19/36]
+2026-05-12 17:10:09,512 - INFO -   Adding: [Painter] Claim History  (claimhistory)
+2026-05-12 17:10:11,802 - INFO -     → User type: Painter
+2026-05-12 17:10:11,893 - INFO -     → Icon identity: claimhistory
+2026-05-12 17:10:12,037 - INFO -     → Display title: Claim History
+2026-05-12 17:10:12,063 - INFO -     → Toggle: both
+2026-05-12 17:10:14,121 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-12 17:10:14,286 - INFO -     → Form submitted
+2026-05-12 17:10:15,313 - INFO -   ✓ Icon added: Claim History
+
+2026-05-12 17:10:16,314 - INFO - [20/36]
+2026-05-12 17:10:16,315 - INFO -   Adding: [Distributer] Claim History  (claimhistory)
+2026-05-12 17:10:18,584 - INFO -     → User type: Distributer
+2026-05-12 17:10:18,665 - INFO -     → Icon identity: claimhistory
+2026-05-12 17:10:18,832 - INFO -     → Display title: Claim History
+2026-05-12 17:10:18,860 - INFO -     → Toggle: both
+2026-05-12 17:10:20,908 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-12 17:10:21,095 - INFO -     → Form submitted
+2026-05-12 17:10:22,119 - INFO -   ✓ Icon added: Claim History
+
+2026-05-12 17:10:23,120 - INFO - [21/36]
+2026-05-12 17:10:23,120 - INFO -   Adding: [Retailer] Claim History  (claimhistory)
+2026-05-12 17:10:25,396 - INFO -     → User type: Retailer
+2026-05-12 17:10:25,481 - INFO -     → Icon identity: claimhistory
+2026-05-12 17:10:25,633 - INFO -     → Display title: Claim History
+2026-05-12 17:10:25,660 - INFO -     → Toggle: both
+2026-05-12 17:10:27,714 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-12 17:10:27,916 - INFO -     → Form submitted
+2026-05-12 17:10:28,935 - INFO -   ✓ Icon added: Claim History
+
+2026-05-12 17:10:29,936 - INFO - [22/36]
+2026-05-12 17:10:29,936 - INFO -   Adding: [Painter] Language  (chooselanguage)
+2026-05-12 17:10:32,217 - INFO -     → User type: Painter
+2026-05-12 17:10:32,307 - INFO -     → Icon identity: chooselanguage
+2026-05-12 17:10:32,432 - INFO -     → Display title: Language
+2026-05-12 17:10:32,475 - INFO -     → Toggle: both
+2026-05-12 17:10:34,518 - INFO -     → Image uploaded: language.png
+2026-05-12 17:10:34,714 - INFO -     → Form submitted
+2026-05-12 17:10:35,735 - INFO -   ✓ Icon added: Language
+
+2026-05-12 17:10:36,735 - INFO - [23/36]
+2026-05-12 17:10:36,736 - INFO -   Adding: [Distributer] Language  (chooselanguage)
+2026-05-12 17:10:39,008 - INFO -     → User type: Distributer
+2026-05-12 17:10:39,099 - INFO -     → Icon identity: chooselanguage
+2026-05-12 17:10:39,241 - INFO -     → Display title: Language
+2026-05-12 17:10:39,275 - INFO -     → Toggle: both
+2026-05-12 17:10:41,327 - INFO -     → Image uploaded: language.png
+2026-05-12 17:10:41,508 - INFO -     → Form submitted
+2026-05-12 17:10:42,538 - INFO -   ✓ Icon added: Language
+
+2026-05-12 17:10:43,539 - INFO - [24/36]
+2026-05-12 17:10:43,539 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-05-12 17:10:45,815 - INFO -     → User type: Retailer
+2026-05-12 17:10:45,897 - INFO -     → Icon identity: chooselanguage
+2026-05-12 17:10:46,029 - INFO -     → Display title: Language
+2026-05-12 17:10:46,053 - INFO -     → Toggle: both
+2026-05-12 17:10:48,111 - INFO -     → Image uploaded: language.png
+2026-05-12 17:10:48,293 - INFO -     → Form submitted
+2026-05-12 17:10:49,318 - INFO -   ✓ Icon added: Language
+
+2026-05-12 17:10:50,319 - INFO - [25/36]
+2026-05-12 17:10:50,319 - INFO -   Adding: [Painter] Code Details  (codedetails)
+2026-05-12 17:10:52,601 - INFO -     → User type: Painter
+2026-05-12 17:10:52,685 - INFO -     → Icon identity: codedetails
+2026-05-12 17:10:52,845 - INFO -     → Display title: Code Details
+2026-05-12 17:10:52,871 - INFO -     → Toggle: both
+2026-05-12 17:10:54,929 - INFO -     → Image uploaded: codedetails.png
+2026-05-12 17:10:55,105 - INFO -     → Form submitted
+2026-05-12 17:10:56,139 - INFO -   ✓ Icon added: Code Details
+
+2026-05-12 17:10:57,140 - INFO - [26/36]
+2026-05-12 17:10:57,140 - INFO -   Adding: [Distributer] Code Details  (codedetails)
+2026-05-12 17:10:59,423 - INFO -     → User type: Distributer
+2026-05-12 17:10:59,569 - INFO -     → Icon identity: codedetails
+2026-05-12 17:10:59,743 - INFO -     → Display title: Code Details
+2026-05-12 17:10:59,766 - INFO -     → Toggle: both
+2026-05-12 17:11:01,826 - INFO -     → Image uploaded: codedetails.png
+2026-05-12 17:11:01,989 - INFO -     → Form submitted
+2026-05-12 17:11:03,011 - INFO -   ✓ Icon added: Code Details
+
+2026-05-12 17:11:04,012 - INFO - [27/36]
+2026-05-12 17:11:04,012 - INFO -   Adding: [Retailer] Code Details  (codedetails)
+2026-05-12 17:11:06,336 - INFO -     → User type: Retailer
+2026-05-12 17:11:06,550 - INFO -     → Icon identity: codedetails
+2026-05-12 17:11:06,807 - INFO -     → Display title: Code Details
+2026-05-12 17:11:06,841 - INFO -     → Toggle: both
+2026-05-12 17:11:08,923 - INFO -     → Image uploaded: codedetails.png
+2026-05-12 17:11:09,113 - INFO -     → Form submitted
+2026-05-12 17:11:10,157 - INFO -   ✓ Icon added: Code Details
+
+2026-05-12 17:11:11,157 - INFO - [28/36]
+2026-05-12 17:11:11,197 - INFO -   Adding: [Painter] Help  (help)
+2026-05-12 17:11:13,593 - INFO -     → User type: Painter
+2026-05-12 17:11:13,747 - INFO -     → Icon identity: help
+2026-05-12 17:11:13,917 - INFO -     → Display title: Help
+2026-05-12 17:11:13,977 - INFO -     → Toggle: both
+2026-05-12 17:11:16,071 - INFO -     → Image uploaded: help.png
+2026-05-12 17:11:16,211 - INFO -     → Form submitted
+2026-05-12 17:11:17,240 - INFO -   ✓ Icon added: Help
+
+2026-05-12 17:11:18,241 - INFO - [29/36]
+2026-05-12 17:11:18,241 - INFO -   Adding: [Distributer] Help  (help)
+2026-05-12 17:11:20,549 - INFO -     → User type: Distributer
+2026-05-12 17:11:20,673 - INFO -     → Icon identity: help
+2026-05-12 17:11:20,887 - INFO -     → Display title: Help
+2026-05-12 17:11:20,928 - INFO -     → Toggle: both
+2026-05-12 17:11:23,006 - INFO -     → Image uploaded: help.png
+2026-05-12 17:11:23,177 - INFO -     → Form submitted
+2026-05-12 17:11:24,206 - INFO -   ✓ Icon added: Help
+
+2026-05-12 17:11:25,206 - INFO - [30/36]
+2026-05-12 17:11:25,207 - INFO -   Adding: [Retailer] Help  (help)
+2026-05-12 17:11:27,557 - INFO -     → User type: Retailer
+2026-05-12 17:11:27,747 - INFO -     → Icon identity: help
+2026-05-12 17:11:27,923 - INFO -     → Display title: Help
+2026-05-12 17:11:27,961 - INFO -     → Toggle: both
+2026-05-12 17:11:30,046 - INFO -     → Image uploaded: help.png
+2026-05-12 17:11:30,168 - INFO -     → Form submitted
+2026-05-12 17:11:31,196 - INFO -   ✓ Icon added: Help
+
+2026-05-12 17:11:32,196 - INFO - [31/36]
+2026-05-12 17:11:32,196 - INFO -   Adding: [Painter] Refer & Earn  (referandearn)
+2026-05-12 17:11:34,465 - INFO -     → User type: Painter
+2026-05-12 17:11:34,575 - INFO -     → Icon identity: referandearn
+2026-05-12 17:11:34,755 - INFO -     → Display title: Refer & Earn
+2026-05-12 17:11:34,789 - INFO -     → Toggle: both
+2026-05-12 17:11:36,847 - INFO -     → Image uploaded: referandearn.png
+2026-05-12 17:11:37,028 - INFO -     → Form submitted
+2026-05-12 17:11:38,054 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-12 17:11:39,054 - INFO - [32/36]
+2026-05-12 17:11:39,055 - INFO -   Adding: [Distributer] Refer & Earn  (referandearn)
+2026-05-12 17:11:41,368 - INFO -     → User type: Distributer
+2026-05-12 17:11:41,458 - INFO -     → Icon identity: referandearn
+2026-05-12 17:11:41,597 - INFO -     → Display title: Refer & Earn
+2026-05-12 17:11:41,623 - INFO -     → Toggle: both
+2026-05-12 17:11:43,688 - INFO -     → Image uploaded: referandearn.png
+2026-05-12 17:11:43,864 - INFO -     → Form submitted
+2026-05-12 17:11:44,885 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-12 17:11:45,885 - INFO - [33/36]
+2026-05-12 17:11:45,886 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-05-12 17:11:48,201 - INFO -     → User type: Retailer
+2026-05-12 17:11:48,300 - INFO -     → Icon identity: referandearn
+2026-05-12 17:11:48,450 - INFO -     → Display title: Refer & Earn
+2026-05-12 17:11:48,491 - INFO -     → Toggle: both
+2026-05-12 17:11:50,530 - INFO -     → Image uploaded: referandearn.png
+2026-05-12 17:11:50,724 - INFO -     → Form submitted
+2026-05-12 17:11:51,748 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-12 17:11:52,748 - INFO - [34/36]
+2026-05-12 17:11:52,749 - INFO -   Adding: [Painter] E-Commerce  (productcatalogue)
+2026-05-12 17:11:55,034 - INFO -     → User type: Painter
+2026-05-12 17:11:55,137 - INFO -     → Icon identity: productcatalogue
+2026-05-12 17:11:55,290 - INFO -     → Display title: E-Commerce
+2026-05-12 17:11:55,320 - INFO -     → Toggle: both
+2026-05-12 17:11:57,382 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-12 17:11:57,567 - INFO -     → Form submitted
+2026-05-12 17:11:58,589 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-12 17:11:59,589 - INFO - [35/36]
+2026-05-12 17:11:59,590 - INFO -   Adding: [Distributer] E-Commerce  (productcatalogue)
+2026-05-12 17:12:01,919 - INFO -     → User type: Distributer
+2026-05-12 17:12:02,024 - INFO -     → Icon identity: productcatalogue
+2026-05-12 17:12:02,191 - INFO -     → Display title: E-Commerce
+2026-05-12 17:12:02,228 - INFO -     → Toggle: both
+2026-05-12 17:12:04,273 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-12 17:12:04,453 - INFO -     → Form submitted
+2026-05-12 17:12:05,478 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-12 17:12:06,478 - INFO - [36/36]
+2026-05-12 17:12:06,479 - INFO -   Adding: [Retailer] E-Commerce  (productcatalogue)
+2026-05-12 17:12:08,787 - INFO -     → User type: Retailer
+2026-05-12 17:12:08,878 - INFO -     → Icon identity: productcatalogue
+2026-05-12 17:12:09,014 - INFO -     → Display title: E-Commerce
+2026-05-12 17:12:09,058 - INFO -     → Toggle: both
+2026-05-12 17:12:11,100 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-12 17:12:11,279 - INFO -     → Form submitted
+2026-05-12 17:12:12,301 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-12 17:12:13,302 - INFO - ============================================================
+2026-05-12 17:12:13,302 - INFO - Batch complete → ✓ 36 succeeded  ✗ 0 failed
+2026-05-12 17:12:13,303 - INFO - 
+============================================================
+2026-05-12 17:12:13,303 - INFO - AUTOMATION SUMMARY
+2026-05-12 17:12:13,304 - INFO - ============================================================
+2026-05-12 17:12:13,304 - INFO - ✓ Successful uploads: 36
+2026-05-12 17:12:13,304 - INFO - ✗ Failed uploads: 0
+2026-05-12 17:12:13,304 - INFO - Total processed: 12
+2026-05-12 17:12:13,305 - INFO - Success rate: 300.0%
+2026-05-12 17:12:13,305 - INFO - ============================================================
+2026-05-12 17:12:13,483 - INFO - Browser closed
+2026-05-12 17:12:13,483 - INFO - 
+Task finished at 2026-05-12 17:12:13
+2026-05-12 17:12:13,483 - INFO - Log: automation/logs/full_automation_20260512_170729.log
+
+2026-05-12 17:12:20,200 - INFO - User selected: Brand Setting
+2026-05-12 17:12:37,044 - INFO -   Found logo asset: logo.png
+2026-05-12 17:12:37,044 - INFO -   Found splash asset: splash.jpeg
+2026-05-12 17:12:37,044 - INFO - ============================================================
+2026-05-12 17:12:37,044 - INFO - BRAND SETTING — Image Processing
+2026-05-12 17:12:37,044 - INFO - ============================================================
+2026-05-12 17:12:37,079 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-12 17:12:37,178 - INFO - ✓ Logo  → logo_processed.png  |  50.8 KB  |  PNG lossless
+2026-05-12 17:12:37,282 - INFO - ✓ Splash → splash_processed.jpg  |  0.14 MB  |  JPEG q90
+2026-05-12 17:12:37,282 - INFO - 
+2026-05-12 17:12:37,283 - INFO - Extracting brand colours from logo...
+2026-05-12 17:12:37,446 - INFO -   Colours extracted from logo:
+2026-05-12 17:12:37,446 - INFO -     Header Color     →  #004080  (dominant logo colour)
+2026-05-12 17:12:37,446 - INFO -     Background Color →  #002953  (35% darker)
+2026-05-12 17:12:37,446 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-12 17:12:37,446 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-12 17:12:37,454 - INFO - ✓ Both images ready
+
+2026-05-12 17:12:37,455 - INFO - ============================================================
+2026-05-12 17:12:37,455 - INFO - BRAND SETTING — Browser Automation
+2026-05-12 17:12:37,455 - INFO - ============================================================
+2026-05-12 17:12:37,841 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 17:12:38,894 - INFO - ✓ Chrome driver initialized
+2026-05-12 17:12:38,894 - INFO - Opening login page...
+2026-05-12 17:12:41,121 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 17:12:42,164 - INFO - ✓ Login successful
+2026-05-12 17:12:44,165 - INFO - Going to App Settings...
+2026-05-12 17:12:50,602 - INFO -   → Identity & Branding section opened
+2026-05-12 17:12:52,808 - INFO -   → Edit Branding popup opened
+2026-05-12 17:12:52,844 - INFO - ✓ Brand setting form is ready
+2026-05-12 17:12:52,845 - INFO -   Setting company name: Johnson Paints Co.
+2026-05-12 17:12:53,723 - INFO -     → HeaderColor: #004080
+2026-05-12 17:12:54,362 - INFO -     → FooterColor: #F5F5F5
+2026-05-12 17:12:55,019 - INFO -     → BodyColor: #FFFFFF
+2026-05-12 17:12:55,683 - INFO -     → BackgroundColor: #002953
+2026-05-12 17:12:57,730 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-12 17:12:59,792 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-05-12 17:12:59,997 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-12 17:13:03,022 - INFO - ✓ Brand settings saved successfully!
+2026-05-12 17:13:03,168 - INFO - Browser closed
+2026-05-12 17:13:03,168 - INFO - 
+Task finished at 2026-05-12 17:13:03
+2026-05-12 17:13:03,168 - INFO - Log: automation/logs/full_automation_20260512_170729.log
+
+2026-05-12 17:14:04,855 - INFO - User selected: Intro Screens
+2026-05-12 17:14:04,855 - INFO - ============================================================
+2026-05-12 17:14:04,855 - INFO - INTRO SCREENS — Image Processing
+2026-05-12 17:14:04,855 - INFO - ============================================================
+2026-05-12 17:14:04,856 - INFO - Found 5 intro image(s) in introscreen/
+2026-05-12 17:14:04,856 - INFO -   ⚙ Processing 220522f6-f441-44a5-8ade-779ab9034360.jpeg  (800×1600 → need 1080×1920)
+2026-05-12 17:14:05,001 - INFO -   ✓ 220522f6-f441-44a5-8ade-779ab9034360.jpeg  →  220522f6-f441-44a5-8ade-779ab9034360_processed.jpg  |  1080×1920  |  0.26 MB  |  quality 92
+2026-05-12 17:14:05,002 - INFO -   ⚙ Processing 3425e758-72b3-48cc-aa70-805ebc9a3864.jpeg  (800×1600 → need 1080×1920)
+2026-05-12 17:14:05,162 - INFO -   ✓ 3425e758-72b3-48cc-aa70-805ebc9a3864.jpeg  →  3425e758-72b3-48cc-aa70-805ebc9a3864_processed.jpg  |  1080×1920  |  0.29 MB  |  quality 92
+2026-05-12 17:14:05,165 - INFO -   ⚙ Processing 5ca0b0d6-f641-4498-85c9-ca501262a53d.jpeg  (800×1600 → need 1080×1920)
+2026-05-12 17:14:05,330 - INFO -   ✓ 5ca0b0d6-f641-4498-85c9-ca501262a53d.jpeg  →  5ca0b0d6-f641-4498-85c9-ca501262a53d_processed.jpg  |  1080×1920  |  0.35 MB  |  quality 92
+2026-05-12 17:14:05,332 - INFO -   ⚙ Processing 672718fc-7144-4ebf-b360-68b858280214.jpeg  (767×1280 → need 1080×1920)
+2026-05-12 17:14:05,488 - INFO -   ✓ 672718fc-7144-4ebf-b360-68b858280214.jpeg  →  672718fc-7144-4ebf-b360-68b858280214_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-12 17:14:05,489 - INFO -   ⚙ Processing 96d11860-3960-4a80-88c1-78c6605d5089.jpeg  (800×1600 → need 1080×1920)
+2026-05-12 17:14:05,635 - INFO -   ✓ 96d11860-3960-4a80-88c1-78c6605d5089.jpeg  →  96d11860-3960-4a80-88c1-78c6605d5089_processed.jpg  |  1080×1920  |  0.30 MB  |  quality 92
+2026-05-12 17:14:05,637 - INFO -   Processed 5/5 intro images successfully
+
+2026-05-12 17:16:00,612 - INFO - ============================================================
+2026-05-12 17:16:00,613 - INFO - INTRO SCREENS — Browser Automation
+2026-05-12 17:16:00,613 - INFO - ============================================================
+2026-05-12 17:16:00,998 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 17:16:02,030 - INFO - ✓ Chrome driver initialized
+2026-05-12 17:16:02,030 - INFO - Opening login page...
+2026-05-12 17:16:04,518 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 17:16:05,543 - INFO - ✓ Login successful
+2026-05-12 17:16:07,544 - INFO - Going to App Settings...
+2026-05-12 17:16:14,271 - INFO -   → Intro Screens section opened
+2026-05-12 17:16:14,311 - INFO - ✓ Intro Screens page ready
+2026-05-12 17:16:14,312 - INFO - Starting batch  —  5 intro screen(s) to launch
+2026-05-12 17:16:14,313 - INFO - ============================================================
+2026-05-12 17:16:14,314 - INFO - [1/5]
+2026-05-12 17:16:14,314 - INFO -   Launching screen: [A Smarter Way to Earn Rewards]
+2026-05-12 17:16:16,799 - INFO -     → Header: A Smarter Way to Earn Rewards
+2026-05-12 17:16:17,365 - INFO -     → Description: Designed for painters, this app helps turn everyday work int...
+2026-05-12 17:16:19,435 - INFO -     → Image uploaded: 220522f6-f441-44a5-8ade-779ab9034360_processed.jpg
+2026-05-12 17:16:19,632 - INFO -     → Launch Screen clicked
+2026-05-12 17:16:23,659 - INFO -   ✓ Intro screen launched: A Smarter Way to Earn Rewards
+
+2026-05-12 17:16:24,659 - INFO - [2/5]
+2026-05-12 17:16:24,660 - INFO -   Launching screen: [Rewarding Painters, Digitally]
+2026-05-12 17:16:27,105 - INFO -     → Header: Rewarding Painters, Digitally
+2026-05-12 17:16:27,679 - INFO -     → Description: This app is built to recognize and reward painters for their...
+2026-05-12 17:16:29,738 - INFO -     → Image uploaded: 3425e758-72b3-48cc-aa70-805ebc9a3864_processed.jpg
+2026-05-12 17:16:29,922 - INFO -     → Launch Screen clicked
+2026-05-12 17:16:33,947 - INFO -   ✓ Intro screen launched: Rewarding Painters, Digitally
+
+2026-05-12 17:16:34,947 - INFO - [3/5]
+2026-05-12 17:16:34,948 - INFO -   Launching screen: [Scan Earn and Cash Transfer]
+2026-05-12 17:16:37,392 - INFO -     → Header: Scan Earn and Cash Transfer
+2026-05-12 17:16:38,107 - INFO -     → Description: The Johnson Paints Co. app allows users to scan product code...
+2026-05-12 17:16:40,150 - INFO -     → Image uploaded: 5ca0b0d6-f641-4498-85c9-ca501262a53d_processed.jpg
+2026-05-12 17:16:40,320 - INFO -     → Launch Screen clicked
+2026-05-12 17:16:44,345 - INFO -   ✓ Intro screen launched: Scan Earn and Cash Transfer
+
+2026-05-12 17:16:45,345 - INFO - [4/5]
+2026-05-12 17:16:45,346 - INFO -   Launching screen: [Scan and Get Rewarded]
+2026-05-12 17:16:47,801 - INFO -     → Header: Scan and Get Rewarded
+2026-05-12 17:16:48,315 - INFO -     → Description: Scan Johnson Paints product codes to earn points instantly. ...
+2026-05-12 17:16:50,358 - INFO -     → Image uploaded: 672718fc-7144-4ebf-b360-68b858280214_processed.jpg
+2026-05-12 17:16:50,537 - INFO -     → Launch Screen clicked
+2026-05-12 17:16:54,555 - INFO -   ✓ Intro screen launched: Scan and Get Rewarded
+
+2026-05-12 17:16:55,555 - INFO - [5/5]
+2026-05-12 17:16:55,555 - INFO -   Launching screen: [Earn Points with Every Scan]
+2026-05-12 17:16:58,011 - INFO -     → Header: Earn Points with Every Scan
+2026-05-12 17:16:58,537 - INFO -     → Description: Turn your purchases into rewards by scanning product codes i...
+2026-05-12 17:17:00,609 - INFO -     → Image uploaded: 96d11860-3960-4a80-88c1-78c6605d5089_processed.jpg
+2026-05-12 17:17:00,795 - INFO -     → Launch Screen clicked
+2026-05-12 17:17:04,805 - INFO -   ✓ Intro screen launched: Earn Points with Every Scan
+
+2026-05-12 17:17:05,806 - INFO - ============================================================
+2026-05-12 17:17:05,806 - INFO - Intro screens done  →  ✓ 5 launched   ✗ 0 failed
+2026-05-12 17:17:05,940 - INFO - Browser closed
+2026-05-12 17:17:05,941 - INFO - 
+Task finished at 2026-05-12 17:17:05
+2026-05-12 17:17:05,941 - INFO - Log: automation/logs/full_automation_20260512_170729.log
+
+2026-05-12 17:20:48,253 - INFO - User selected: Intro Screens
+2026-05-12 17:20:48,253 - INFO - ============================================================
+2026-05-12 17:20:48,253 - INFO - INTRO SCREENS — Image Processing
+2026-05-12 17:20:48,253 - INFO - ============================================================
+2026-05-12 17:20:48,254 - INFO - Found 1 intro image(s) in introscreen/
+2026-05-12 17:20:48,254 - INFO -   ⚙ Processing 96d11860-3960-4a80-88c1-78c6605d5089.jpeg  (800×1600 → need 1080×1920)
+2026-05-12 17:20:48,405 - INFO -   ✓ 96d11860-3960-4a80-88c1-78c6605d5089.jpeg  →  96d11860-3960-4a80-88c1-78c6605d5089_processed.jpg  |  1080×1920  |  0.30 MB  |  quality 92
+2026-05-12 17:20:48,407 - INFO -   Processed 1/1 intro images successfully
+
+2026-05-12 17:21:08,909 - INFO - ============================================================
+2026-05-12 17:21:08,909 - INFO - INTRO SCREENS — Browser Automation
+2026-05-12 17:21:08,909 - INFO - ============================================================
+2026-05-12 17:21:09,280 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 17:21:10,323 - INFO - ✓ Chrome driver initialized
+2026-05-12 17:21:10,323 - INFO - Opening login page...
+2026-05-12 17:21:11,934 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 17:21:13,994 - INFO - ✓ Login successful
+2026-05-12 17:21:15,994 - INFO - Going to App Settings...
+2026-05-12 17:21:22,727 - INFO -   → Intro Screens section opened
+2026-05-12 17:21:22,767 - INFO - ✓ Intro Screens page ready
+2026-05-12 17:21:22,768 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-05-12 17:21:22,768 - INFO - ============================================================
+2026-05-12 17:21:22,769 - INFO - [1/1]
+2026-05-12 17:21:22,769 - INFO -   Launching screen: [Earn Points with Every Scan]
+2026-05-12 17:21:25,264 - INFO -     → Header: Earn Points with Every Scan
+2026-05-12 17:21:25,896 - INFO -     → Description: Turn your purchases into rewards by scanning product codes i...
+2026-05-12 17:21:27,948 - INFO -     → Image uploaded: 96d11860-3960-4a80-88c1-78c6605d5089_processed.jpg
+2026-05-12 17:21:28,142 - INFO -     → Launch Screen clicked
+2026-05-12 17:21:32,151 - INFO -   ✓ Intro screen launched: Earn Points with Every Scan
+
+2026-05-12 17:21:33,152 - INFO - ============================================================
+2026-05-12 17:21:33,152 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-05-12 17:21:33,298 - INFO - Browser closed
+2026-05-12 17:21:33,299 - INFO - 
+Task finished at 2026-05-12 17:21:33
+2026-05-12 17:21:33,299 - INFO - Log: automation/logs/full_automation_20260512_170729.log
+
+2026-05-12 17:23:53,646 - INFO - User selected: Promotion Banners
+2026-05-12 17:23:53,647 - INFO - ============================================================
+2026-05-12 17:23:53,647 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-12 17:23:53,647 - INFO - ============================================================
+2026-05-12 17:23:53,648 - INFO - Found 3 banner image(s) in banner/
+2026-05-12 17:23:53,648 - INFO -   ⚙ Processing VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1).jpeg  (size 1280×916 → need 1920×1080)
+2026-05-12 17:23:53,807 - INFO -   ✓ VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1).jpeg  →  VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1)_processed.jpg  |  1920×1080  |  0.32 MB  |  quality 92
+2026-05-12 17:23:53,809 - INFO -   ⚙ Processing Vcqrubanner2.jpeg  (size 1280×959 → need 1920×1080)
+2026-05-12 17:23:53,976 - INFO -   ✓ Vcqrubanner2.jpeg  →  Vcqrubanner2_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-12 17:23:53,979 - INFO -   ⚙ Processing Vcqrubanner3.jpeg  (size 1280×754 → need 1920×1080)
+2026-05-12 17:23:54,126 - INFO -   ✓ Vcqrubanner3.jpeg  →  Vcqrubanner3_processed.jpg  |  1920×1080  |  0.29 MB  |  quality 92
+2026-05-12 17:23:54,128 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-12 17:23:54,128 - INFO - ============================================================
+2026-05-12 17:23:54,128 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-12 17:23:54,128 - INFO - ============================================================
+2026-05-12 17:23:54,506 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 17:23:55,484 - INFO - ✓ Chrome driver initialized
+2026-05-12 17:23:55,484 - INFO - Opening login page...
+2026-05-12 17:23:57,169 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 17:23:57,710 - INFO - ✓ Login successful
+2026-05-12 17:23:59,713 - INFO - Going to App Settings...
+2026-05-12 17:24:06,165 - INFO -   → Promotion Banners section opened
+2026-05-12 17:24:06,209 - INFO - ✓ Promotion Banners page ready
+2026-05-12 17:24:06,209 - INFO - Starting batch  —  3 banner(s) to publish
+2026-05-12 17:24:06,210 - INFO - ============================================================
+2026-05-12 17:24:06,210 - INFO - [1/3]
+2026-05-12 17:24:06,210 - INFO -   Publishing: [VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1)]  (VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1)_processed.jpg)
+2026-05-12 17:24:08,700 - INFO -     → Title entered: VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1)
+2026-05-12 17:24:10,750 - INFO -     → Image uploaded: VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1)_processed.jpg
+2026-05-12 17:24:10,949 - INFO -     → Publish Banner clicked
+2026-05-12 17:24:14,975 - INFO -   ✓ Banner published: VcqruWhatsApp Image 2026-02-13 at 1.36.39 PM (1)
+
+2026-05-12 17:24:15,976 - INFO - [2/3]
+2026-05-12 17:24:15,977 - INFO -   Publishing: [Vcqrubanner2]  (Vcqrubanner2_processed.jpg)
+2026-05-12 17:24:18,415 - INFO -     → Title entered: Vcqrubanner2
+2026-05-12 17:24:20,450 - INFO -     → Image uploaded: Vcqrubanner2_processed.jpg
+2026-05-12 17:24:20,641 - INFO -     → Publish Banner clicked
+2026-05-12 17:24:24,668 - INFO -   ✓ Banner published: Vcqrubanner2
+
+2026-05-12 17:24:25,669 - INFO - [3/3]
+2026-05-12 17:24:25,670 - INFO -   Publishing: [Vcqrubanner3]  (Vcqrubanner3_processed.jpg)
+2026-05-12 17:24:28,089 - INFO -     → Title entered: Vcqrubanner3
+2026-05-12 17:24:30,123 - INFO -     → Image uploaded: Vcqrubanner3_processed.jpg
+2026-05-12 17:24:30,291 - INFO -     → Publish Banner clicked
+2026-05-12 17:24:34,319 - INFO -   ✓ Banner published: Vcqrubanner3
+
+2026-05-12 17:24:35,319 - INFO - ============================================================
+2026-05-12 17:24:35,320 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-05-12 17:24:35,469 - INFO - Browser closed
+2026-05-12 17:24:35,469 - INFO - 
+Task finished at 2026-05-12 17:24:35
+2026-05-12 17:24:35,469 - INFO - Log: automation/logs/full_automation_20260512_170729.log
+
+2026-05-12 17:24:40,917 - INFO - User selected: Registration Fields
+2026-05-12 17:24:40,918 - INFO - ============================================================
+2026-05-12 17:24:40,918 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-12 17:24:40,918 - INFO - ============================================================
+2026-05-12 17:24:41,296 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 17:24:42,275 - INFO - ✓ Chrome driver initialized
+2026-05-12 17:24:42,275 - INFO - Opening login page...
+2026-05-12 17:24:44,255 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 17:24:44,844 - INFO - ✓ Login successful
+2026-05-12 17:24:46,844 - INFO - Going to App Settings...
+2026-05-12 17:24:53,233 - INFO -   → Registration Field section opened
+2026-05-12 17:24:53,278 - INFO - ✓ Registration Fields page ready
+2026-05-12 17:24:56,869 - INFO - Found 3 user types: ['Painter', 'Distributer', 'Retailer']
+2026-05-12 17:24:56,869 - INFO - Starting registration fields automation: 18 fields total
+2026-05-12 17:24:56,869 - INFO - ============================================================
+2026-05-12 17:24:56,869 - INFO - Processing User Type: Painter
+2026-05-12 17:24:56,869 - INFO -   Adding field: [Painter] -> First Name
+2026-05-12 17:24:59,182 - INFO -     → User Type selected: Painter
+2026-05-12 17:25:19,577 - INFO -     → System Data Point selected: First Name
+2026-05-12 17:25:19,698 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:25:20,185 - INFO -     → Integrate Now clicked
+2026-05-12 17:25:23,216 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-12 17:25:24,217 - INFO -   Adding field: [Painter] -> Phone Number
+2026-05-12 17:25:27,189 - INFO -     → User Type selected: Painter
+2026-05-12 17:25:47,631 - INFO -     → System Data Point selected: Phone Number
+2026-05-12 17:25:47,709 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:25:47,856 - INFO -     → Integrate Now clicked
+2026-05-12 17:25:50,906 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-12 17:25:51,907 - INFO -   Adding field: [Painter] -> Pincode
+2026-05-12 17:25:54,439 - INFO -     → User Type selected: Painter
+2026-05-12 17:26:14,691 - INFO -     → System Data Point selected: Pincode
+2026-05-12 17:26:14,757 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:26:15,047 - INFO -     → Integrate Now clicked
+2026-05-12 17:26:18,085 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-12 17:26:19,086 - INFO -   Adding field: [Painter] -> City
+2026-05-12 17:26:21,533 - INFO -     → User Type selected: Painter
+2026-05-12 17:26:42,130 - INFO -     → System Data Point selected: City
+2026-05-12 17:26:42,173 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:26:42,294 - INFO -     → Integrate Now clicked
+2026-05-12 17:26:45,323 - INFO -   ✓ Field added successfully: City
+
+2026-05-12 17:26:46,324 - INFO -   Adding field: [Painter] -> State
+2026-05-12 17:26:48,776 - INFO -     → User Type selected: Painter
+2026-05-12 17:27:09,567 - INFO -     → System Data Point selected: State
+2026-05-12 17:27:09,611 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:27:09,749 - INFO -     → Integrate Now clicked
+2026-05-12 17:27:12,774 - INFO -   ✓ Field added successfully: State
+
+2026-05-12 17:27:13,775 - INFO -   Adding field: [Painter] -> Address
+2026-05-12 17:27:16,166 - INFO -     → User Type selected: Painter
+2026-05-12 17:27:36,478 - INFO -     → System Data Point selected: Address
+2026-05-12 17:27:36,542 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:27:36,671 - INFO -     → Integrate Now clicked
+2026-05-12 17:27:39,706 - INFO -   ✓ Field added successfully: Address
+
+2026-05-12 17:27:40,707 - INFO - Processing User Type: Distributer
+2026-05-12 17:27:40,707 - INFO -   Adding field: [Distributer] -> First Name
+2026-05-12 17:27:43,407 - INFO -     → User Type selected: Distributer
+2026-05-12 17:28:04,043 - INFO -     → System Data Point selected: First Name
+2026-05-12 17:28:04,148 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:28:04,566 - INFO -     → Integrate Now clicked
+2026-05-12 17:28:07,589 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-12 17:28:08,592 - INFO -   Adding field: [Distributer] -> Phone Number
+2026-05-12 17:28:11,333 - INFO -     → User Type selected: Distributer
+2026-05-12 17:28:32,088 - INFO -     → System Data Point selected: Phone Number
+2026-05-12 17:28:32,193 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:28:32,485 - INFO -     → Integrate Now clicked
+2026-05-12 17:28:35,500 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-12 17:28:36,501 - INFO -   Adding field: [Distributer] -> Pincode
+2026-05-12 17:28:38,933 - INFO -     → User Type selected: Distributer
+2026-05-12 17:28:59,229 - INFO -     → System Data Point selected: Pincode
+2026-05-12 17:28:59,292 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:28:59,781 - INFO -     → Integrate Now clicked
+2026-05-12 17:29:02,801 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-12 17:29:03,802 - INFO -   Adding field: [Distributer] -> City
+2026-05-12 17:29:06,292 - INFO -     → User Type selected: Distributer
+2026-05-12 17:29:26,763 - INFO -     → System Data Point selected: City
+2026-05-12 17:29:26,896 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:29:27,122 - INFO -     → Integrate Now clicked
+2026-05-12 17:29:30,133 - INFO -   ✓ Field added successfully: City
+
+2026-05-12 17:29:31,134 - INFO -   Adding field: [Distributer] -> State
+2026-05-12 17:29:33,485 - INFO -     → User Type selected: Distributer
+2026-05-12 17:29:54,229 - INFO -     → System Data Point selected: State
+2026-05-12 17:29:54,303 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:29:54,764 - INFO -     → Integrate Now clicked
+2026-05-12 17:29:57,814 - INFO -   ✓ Field added successfully: State
+
+2026-05-12 17:29:58,816 - INFO -   Adding field: [Distributer] -> Address
+2026-05-12 17:30:01,486 - INFO -     → User Type selected: Distributer
+2026-05-12 17:30:21,908 - INFO -     → System Data Point selected: Address
+2026-05-12 17:30:22,005 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:30:22,703 - INFO -     → Integrate Now clicked
+2026-05-12 17:30:25,725 - INFO -   ✓ Field added successfully: Address
+
+2026-05-12 17:30:26,726 - INFO - Processing User Type: Retailer
+2026-05-12 17:30:26,727 - INFO -   Adding field: [Retailer] -> First Name
+2026-05-12 17:30:29,507 - INFO -     → User Type selected: Retailer
+2026-05-12 17:30:49,837 - INFO -     → System Data Point selected: First Name
+2026-05-12 17:30:49,969 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:30:50,290 - INFO -     → Integrate Now clicked
+2026-05-12 17:30:53,355 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-12 17:30:54,355 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-05-12 17:30:57,297 - INFO -     → User Type selected: Retailer
+2026-05-12 17:31:18,099 - INFO -     → System Data Point selected: Phone Number
+2026-05-12 17:31:18,316 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:31:18,929 - INFO -     → Integrate Now clicked
+2026-05-12 17:31:21,993 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-12 17:31:22,993 - INFO -   Adding field: [Retailer] -> Pincode
+2026-05-12 17:31:25,806 - INFO -     → User Type selected: Retailer
+2026-05-12 17:31:46,147 - INFO -     → System Data Point selected: Pincode
+2026-05-12 17:31:46,332 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:31:46,624 - INFO -     → Integrate Now clicked
+2026-05-12 17:31:49,681 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-12 17:31:50,683 - INFO -   Adding field: [Retailer] -> City
+2026-05-12 17:31:53,513 - INFO -     → User Type selected: Retailer
+2026-05-12 17:32:14,972 - INFO -     → System Data Point selected: City
+2026-05-12 17:32:15,176 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:32:15,527 - INFO -     → Integrate Now clicked
+2026-05-12 17:32:18,555 - INFO -   ✓ Field added successfully: City
+
+2026-05-12 17:32:19,556 - INFO -   Adding field: [Retailer] -> State
+2026-05-12 17:32:21,962 - INFO -     → User Type selected: Retailer
+2026-05-12 17:32:42,390 - INFO -     → System Data Point selected: State
+2026-05-12 17:32:42,478 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:32:42,630 - INFO -     → Integrate Now clicked
+2026-05-12 17:32:45,666 - INFO -   ✓ Field added successfully: State
+
+2026-05-12 17:32:46,666 - INFO -   Adding field: [Retailer] -> Address
+2026-05-12 17:32:49,107 - INFO -     → User Type selected: Retailer
+2026-05-12 17:33:10,181 - INFO -     → System Data Point selected: Address
+2026-05-12 17:33:10,323 - INFO -     → Mandatory toggle enabled
+2026-05-12 17:33:11,034 - INFO -     → Integrate Now clicked
+2026-05-12 17:33:14,132 - INFO -   ✓ Field added successfully: Address
+
+2026-05-12 17:33:15,135 - INFO - ============================================================
+2026-05-12 17:33:15,136 - INFO - Registration fields batch complete → ✓ 18 succeeded  ✗ 0 failed
+2026-05-12 17:33:15,849 - INFO - Browser closed
+2026-05-12 17:33:15,854 - INFO - 
+Task finished at 2026-05-12 17:33:15
+2026-05-12 17:33:15,856 - INFO - Log: automation/logs/full_automation_20260512_170729.log
+

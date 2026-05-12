@@ -1,0 +1,80 @@
+2026-05-11 18:14:04,579 - INFO - User selected: Brand Setting
+2026-05-11 18:14:11,807 - INFO -   Found logo asset: logo.png
+2026-05-11 18:14:11,808 - INFO -   Found splash asset: splash.png
+2026-05-11 18:14:11,808 - INFO - ============================================================
+2026-05-11 18:14:11,808 - INFO - BRAND SETTING — Image Processing
+2026-05-11 18:14:11,808 - INFO - ============================================================
+2026-05-11 18:14:11,877 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-11 18:14:12,076 - INFO - ✓ Logo  → logo_processed.png  |  43.4 KB  |  PNG lossless
+2026-05-11 18:14:12,263 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-11 18:14:13,598 - INFO - ✓ Splash → splash_processed.png  |  1.55 MB  |  PNG lossless
+2026-05-11 18:14:13,600 - INFO - 
+2026-05-11 18:14:13,600 - INFO - Extracting brand colours from logo...
+2026-05-11 18:14:13,848 - INFO -   Colours extracted from logo:
+2026-05-11 18:14:13,849 - INFO -     Header Color     →  #F0C0C0  (dominant logo colour)
+2026-05-11 18:14:13,849 - INFO -     Background Color →  #9C7C7C  (35% darker)
+2026-05-11 18:14:13,849 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-11 18:14:13,849 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-11 18:14:13,862 - INFO - ✓ Both images ready
+
+2026-05-11 18:14:13,862 - INFO - ============================================================
+2026-05-11 18:14:13,862 - INFO - BRAND SETTING — Browser Automation
+2026-05-11 18:14:13,862 - INFO - ============================================================
+2026-05-11 18:14:18,734 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-11 18:14:20,833 - INFO - ✓ Chrome driver initialized
+2026-05-11 18:14:20,833 - INFO - Opening login page...
+2026-05-11 18:14:22,551 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-11 18:14:26,164 - INFO - ✓ Login successful
+2026-05-11 18:14:28,164 - INFO - Going to App Settings...
+2026-05-11 18:14:34,557 - INFO -   → Identity & Branding section opened
+2026-05-11 18:14:36,689 - INFO -   → Edit Branding popup opened
+2026-05-11 18:14:45,143 - ERROR - Navigation to brand setting failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.97)
+Stacktrace:
+#0 0x564c56a2f3ea <unknown>
+#1 0x564c5643f845 <unknown>
+#2 0x564c564135b8 <unknown>
+#3 0x564c564c0248 <unknown>
+#4 0x564c564d9b18 <unknown>
+#5 0x564c56485204 <unknown>
+#6 0x564c56485fc1 <unknown>
+#7 0x564c569f29cb <unknown>
+#8 0x564c569f5c93 <unknown>
+#9 0x564c569e065c <unknown>
+#10 0x564c569f6429 <unknown>
+#11 0x564c569c89d7 <unknown>
+#12 0x564c56a1cc08 <unknown>
+#13 0x564c56a1ce33 <unknown>
+#14 0x564c56a2ddf7 <unknown>
+#15 0x72916d09caa4 <unknown>
+#16 0x72916d129c6c <unknown>
+
+2026-05-11 18:14:45,158 - WARNING - Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.97)
+Stacktrace:
+#0 0x564c56a2f3ea <unknown>
+#1 0x564c5643f845 <unknown>
+#2 0x564c564135b8 <unknown>
+#3 0x564c564c0248 <unknown>
+#4 0x564c564d9b18 <unknown>
+#5 0x564c56485204 <unknown>
+#6 0x564c56485fc1 <unknown>
+#7 0x564c569f29cb <unknown>
+#8 0x564c569f5c93 <unknown>
+#9 0x564c569e065c <unknown>
+#10 0x564c569f6429 <unknown>
+#11 0x564c569c89d7 <unknown>
+#12 0x564c56a1cc08 <unknown>
+#13 0x564c56a1ce33 <unknown>
+#14 0x564c56a2ddf7 <unknown>
+#15 0x72916d09caa4 <unknown>
+#16 0x72916d129c6c <unknown>
+
+2026-05-11 18:14:45,162 - ERROR - ✗ Navigation failed. Aborting.
+2026-05-11 18:14:45,452 - INFO - Browser closed
+2026-05-11 18:14:45,453 - INFO - 
+Task finished at 2026-05-11 18:14:45
+2026-05-11 18:14:45,453 - INFO - Log: automation/logs/full_automation_20260511_181346.log
+

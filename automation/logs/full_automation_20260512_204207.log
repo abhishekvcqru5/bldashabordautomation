@@ -1,0 +1,43 @@
+2026-05-12 20:42:44,909 - INFO - User selected: Old Dashboard
+2026-05-12 20:42:46,444 - INFO -   Old Dashboard → Brand Setting
+2026-05-12 20:42:46,448 - INFO - ============================================================
+2026-05-12 20:42:46,449 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-12 20:42:46,449 - INFO - ============================================================
+2026-05-12 20:42:49,277 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 20:42:51,131 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-12 20:42:51,131 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-12 20:42:58,445 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-12 20:43:00,445 - INFO -     → Filling credentials …
+2026-05-12 20:43:01,388 - INFO -       Email → field #login_txt_id
+2026-05-12 20:43:01,627 - INFO -       Password → field #login_txt_pass
+2026-05-12 20:43:01,830 - INFO -       Login button clicked: #btnVendor
+2026-05-12 20:43:01,830 - INFO -     → Waiting for post-login redirect …
+2026-05-12 20:43:13,991 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-12 20:43:13,991 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-12 20:43:31,029 - INFO - 
+[3/4] Extracting brand data …
+2026-05-12 20:43:31,154 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-12 20:43:31,481 - INFO -   ✓ Downloaded: logo.png  (47.7 KB)
+2026-05-12 20:43:31,842 - INFO -   ✓ Downloaded: splash.png  (102.7 KB)
+2026-05-12 20:43:31,846 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-12 20:43:32,208 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-12 20:43:32,793 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 20:43:34,268 - INFO - ✓ Chrome driver initialized
+2026-05-12 20:43:34,268 - INFO - Opening login page...
+2026-05-12 20:43:36,473 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 20:43:56,571 - ERROR - Login failed: Message: 
+
+2026-05-12 20:43:56,857 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260512_204356.png
+2026-05-12 20:43:57,067 - INFO - Browser closed
+2026-05-12 20:43:57,068 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41271): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf926d7a75ce454e27fd12519e358e3b
+2026-05-12 20:43:57,070 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41271): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf926d7a75ce454e27fd12519e358e3b
+2026-05-12 20:43:57,072 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41271): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf926d7a75ce454e27fd12519e358e3b
+2026-05-12 20:43:57,076 - INFO -   Browser closed
+2026-05-12 20:43:57,076 - INFO - 
+Task finished at 2026-05-12 20:43:57
+2026-05-12 20:43:57,077 - INFO - Log: automation/logs/full_automation_20260512_204207.log
+

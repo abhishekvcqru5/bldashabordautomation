@@ -1,0 +1,969 @@
+2026-05-05 14:47:18,998 - INFO - User selected: Brand Setting
+2026-05-05 14:47:34,672 - INFO -   Found logo asset: logo.png
+2026-05-05 14:47:34,672 - INFO -   Found splash asset: splash.png
+2026-05-05 14:47:34,672 - INFO - ============================================================
+2026-05-05 14:47:34,672 - INFO - BRAND SETTING — Image Processing
+2026-05-05 14:47:34,672 - INFO - ============================================================
+2026-05-05 14:47:34,804 - INFO - ✓ Logo  → logo_processed.jpg  |  42.3 KB  |  JPEG q95
+2026-05-05 14:47:34,871 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-05 14:47:36,135 - INFO - ✓ Splash → splash_processed.png  |  0.81 MB  |  PNG lossless
+2026-05-05 14:47:36,137 - INFO - 
+2026-05-05 14:47:36,138 - INFO - Extracting brand colours from logo...
+2026-05-05 14:47:36,918 - INFO -   Colours extracted from logo:
+2026-05-05 14:47:36,919 - INFO -     Header Color     →  #D02010  (dominant logo colour)
+2026-05-05 14:47:36,919 - INFO -     Background Color →  #87140A  (35% darker)
+2026-05-05 14:47:36,919 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-05 14:47:36,919 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-05 14:47:36,970 - INFO - ✓ Both images ready
+
+2026-05-05 14:47:36,970 - INFO - ============================================================
+2026-05-05 14:47:36,971 - INFO - BRAND SETTING — Browser Automation
+2026-05-05 14:47:36,971 - INFO - ============================================================
+2026-05-05 14:47:41,656 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 14:47:44,087 - INFO - ✓ Chrome driver initialized
+2026-05-05 14:47:44,087 - INFO - Opening login page...
+2026-05-05 14:47:46,437 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 14:47:52,969 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 14:47:52,997 - INFO - ✓ Login successful
+2026-05-05 14:47:54,998 - INFO - Going to App Settings...
+2026-05-05 14:48:01,535 - INFO -   → Identity & Branding section opened
+2026-05-05 14:48:03,891 - INFO -   → Edit Branding popup opened
+2026-05-05 14:48:03,907 - INFO - ✓ Brand setting form is ready
+2026-05-05 14:48:03,907 - INFO -   Setting company name: Radilite Connect.
+2026-05-05 14:48:04,953 - INFO -     → HeaderColor: #D02010
+2026-05-05 14:48:05,834 - INFO -     → FooterColor: #F5F5F5
+2026-05-05 14:48:06,735 - INFO -     → BodyColor: #FFFFFF
+2026-05-05 14:48:07,615 - INFO -     → BackgroundColor: #87140A
+2026-05-05 14:48:09,753 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-05 14:48:11,787 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-05 14:48:12,058 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-05 14:48:15,074 - INFO - ✓ Brand settings saved successfully!
+2026-05-05 14:48:15,417 - INFO - Browser closed
+2026-05-05 14:48:15,418 - INFO - 
+Task finished at 2026-05-05 14:48:15
+2026-05-05 14:48:15,418 - INFO - Log: automation/logs/full_automation_20260505_144635.log
+
+2026-05-05 14:48:24,601 - INFO - User selected: Promotion Banners
+2026-05-05 14:48:24,601 - INFO - ============================================================
+2026-05-05 14:48:24,601 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-05 14:48:24,601 - INFO - ============================================================
+2026-05-05 14:48:24,602 - INFO - Found 5 banner image(s) in banner/
+2026-05-05 14:48:24,602 - INFO -   ⚙ Processing Vcqruambicab2.jpg  (size 328×157 → need 1920×1080)
+2026-05-05 14:48:24,770 - INFO -   ✓ Vcqruambicab2.jpg  →  Vcqruambicab2_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-05 14:48:24,772 - INFO -   ⚙ Processing Vcqruambicab3.jpg  (size 328×157 → need 1920×1080)
+2026-05-05 14:48:24,924 - INFO -   ✓ Vcqruambicab3.jpg  →  Vcqruambicab3_processed.jpg  |  1920×1080  |  0.22 MB  |  quality 92
+2026-05-05 14:48:24,926 - INFO -   ⚙ Processing Vcqruambicab4.jpg  (size 328×157 → need 1920×1080)
+2026-05-05 14:48:25,061 - INFO -   ✓ Vcqruambicab4.jpg  →  Vcqruambicab4_processed.jpg  |  1920×1080  |  0.22 MB  |  quality 92
+2026-05-05 14:48:25,066 - INFO -   ⚙ Processing Vcqruambicab5.png  (size 328×157 → need 1920×1080)
+2026-05-05 14:48:25,364 - INFO -   ✓ Vcqruambicab5.png  →  Vcqruambicab5_processed.jpg  |  1920×1080  |  0.31 MB  |  quality 92
+2026-05-05 14:48:25,376 - INFO -   ⚙ Processing Vcqruambicabanner1.jpg  (size 328×157 → need 1920×1080)
+2026-05-05 14:48:25,589 - INFO -   ✓ Vcqruambicabanner1.jpg  →  Vcqruambicabanner1_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-05 14:48:25,592 - INFO - 
+  Processed 5/5 banners successfully
+
+2026-05-05 14:48:25,593 - INFO - ============================================================
+2026-05-05 14:48:25,593 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-05 14:48:25,594 - INFO - ============================================================
+2026-05-05 14:48:26,388 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 14:48:28,113 - INFO - ✓ Chrome driver initialized
+2026-05-05 14:48:28,113 - INFO - Opening login page...
+2026-05-05 14:48:29,955 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 14:48:31,279 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 14:48:31,326 - INFO - ✓ Login successful
+2026-05-05 14:48:33,330 - INFO - Going to App Settings...
+2026-05-05 14:48:39,896 - INFO -   → Promotion Banners section opened
+2026-05-05 14:48:39,919 - INFO - ✓ Promotion Banners page ready
+2026-05-05 14:48:39,919 - INFO - Starting batch  —  5 banner(s) to publish
+2026-05-05 14:48:39,919 - INFO - ============================================================
+2026-05-05 14:48:39,919 - INFO - [1/5]
+2026-05-05 14:48:39,919 - INFO -   Publishing: [Vcqruambicab2]  (Vcqruambicab2_processed.jpg)
+2026-05-05 14:48:42,277 - INFO -     → Title entered: Vcqruambicab2
+2026-05-05 14:48:44,432 - INFO -     → Image uploaded: Vcqruambicab2_processed.jpg
+2026-05-05 14:48:44,571 - INFO -     → Publish Banner clicked
+2026-05-05 14:48:48,585 - INFO -   ✓ Banner published: Vcqruambicab2
+
+2026-05-05 14:48:49,585 - INFO - [2/5]
+2026-05-05 14:48:49,585 - INFO -   Publishing: [Vcqruambicab3]  (Vcqruambicab3_processed.jpg)
+2026-05-05 14:48:51,928 - INFO -     → Title entered: Vcqruambicab3
+2026-05-05 14:48:54,036 - INFO -     → Image uploaded: Vcqruambicab3_processed.jpg
+2026-05-05 14:48:54,204 - INFO -     → Publish Banner clicked
+2026-05-05 14:48:58,220 - INFO -   ✓ Banner published: Vcqruambicab3
+
+2026-05-05 14:48:59,220 - INFO - [3/5]
+2026-05-05 14:48:59,221 - INFO -   Publishing: [Vcqruambicab4]  (Vcqruambicab4_processed.jpg)
+2026-05-05 14:49:01,672 - INFO -     → Title entered: Vcqruambicab4
+2026-05-05 14:49:03,796 - INFO -     → Image uploaded: Vcqruambicab4_processed.jpg
+2026-05-05 14:49:03,951 - INFO -     → Publish Banner clicked
+2026-05-05 14:49:07,977 - INFO -   ✓ Banner published: Vcqruambicab4
+
+2026-05-05 14:49:08,977 - INFO - [4/5]
+2026-05-05 14:49:08,978 - INFO -   Publishing: [Vcqruambicab5]  (Vcqruambicab5_processed.jpg)
+2026-05-05 14:49:11,411 - INFO -     → Title entered: Vcqruambicab5
+2026-05-05 14:49:13,509 - INFO -     → Image uploaded: Vcqruambicab5_processed.jpg
+2026-05-05 14:49:13,699 - INFO -     → Publish Banner clicked
+2026-05-05 14:49:17,719 - INFO -   ✓ Banner published: Vcqruambicab5
+
+2026-05-05 14:49:18,719 - INFO - [5/5]
+2026-05-05 14:49:18,720 - INFO -   Publishing: [Vcqruambicabanner1]  (Vcqruambicabanner1_processed.jpg)
+2026-05-05 14:49:21,108 - INFO -     → Title entered: Vcqruambicabanner1
+2026-05-05 14:49:23,225 - INFO -     → Image uploaded: Vcqruambicabanner1_processed.jpg
+2026-05-05 14:49:23,526 - INFO -     → Publish Banner clicked
+2026-05-05 14:49:27,544 - INFO -   ✓ Banner published: Vcqruambicabanner1
+
+2026-05-05 14:49:28,545 - INFO - ============================================================
+2026-05-05 14:49:28,546 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-05-05 14:49:28,747 - INFO - Browser closed
+2026-05-05 14:49:28,748 - INFO - 
+Task finished at 2026-05-05 14:49:28
+2026-05-05 14:49:28,748 - INFO - Log: automation/logs/full_automation_20260505_144635.log
+
+2026-05-05 14:49:33,683 - INFO - User selected: Intro Screens
+2026-05-05 14:49:33,684 - INFO - ============================================================
+2026-05-05 14:49:33,685 - INFO - INTRO SCREENS — Image Processing
+2026-05-05 14:49:33,685 - INFO - ============================================================
+2026-05-05 14:49:33,685 - INFO - Found 2 intro image(s) in introscreen/
+2026-05-05 14:49:33,688 - INFO -   ⚙ Processing 1509669f-1767-4201-a240-705ec0b06038.png  (360×800 → need 1080×1920)
+2026-05-05 14:49:33,900 - INFO -   ✓ 1509669f-1767-4201-a240-705ec0b06038.png  →  1509669f-1767-4201-a240-705ec0b06038_processed.jpg  |  1080×1920  |  0.38 MB  |  quality 92
+2026-05-05 14:49:33,905 - INFO -   ⚙ Processing ef358f73-0a5f-4993-ae16-68320dfd059a.png  (360×800 → need 1080×1920)
+2026-05-05 14:49:34,142 - INFO -   ✓ ef358f73-0a5f-4993-ae16-68320dfd059a.png  →  ef358f73-0a5f-4993-ae16-68320dfd059a_processed.jpg  |  1080×1920  |  0.35 MB  |  quality 92
+2026-05-05 14:49:34,144 - INFO -   Processed 2/2 intro images successfully
+
+2026-05-05 14:50:07,857 - INFO - ============================================================
+2026-05-05 14:50:07,858 - INFO - INTRO SCREENS — Browser Automation
+2026-05-05 14:50:07,859 - INFO - ============================================================
+2026-05-05 14:50:08,539 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 14:50:10,247 - INFO - ✓ Chrome driver initialized
+2026-05-05 14:50:10,248 - INFO - Opening login page...
+2026-05-05 14:50:12,440 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 14:50:13,796 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 14:50:13,833 - INFO - ✓ Login successful
+2026-05-05 14:50:15,834 - INFO - Going to App Settings...
+2026-05-05 14:50:22,308 - INFO -   → Intro Screens section opened
+2026-05-05 14:50:22,338 - INFO - ✓ Intro Screens page ready
+2026-05-05 14:50:22,338 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-05 14:50:22,338 - INFO - ============================================================
+2026-05-05 14:50:22,338 - INFO - [1/2]
+2026-05-05 14:50:22,338 - INFO -   Launching screen: [Connecting]
+2026-05-05 14:50:24,776 - INFO -     → Header: Connecting
+2026-05-05 14:50:25,228 - INFO -     → Description: Connecting you to the power for a better future...
+2026-05-05 14:50:27,309 - INFO -     → Image uploaded: 1509669f-1767-4201-a240-705ec0b06038_processed.jpg
+2026-05-05 14:50:27,535 - INFO -     → Launch Screen clicked
+2026-05-05 14:50:31,550 - INFO -   ✓ Intro screen launched: Connecting
+
+2026-05-05 14:50:32,551 - INFO - [2/2]
+2026-05-05 14:50:32,551 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-05 14:50:34,946 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-05 14:50:35,911 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-05 14:50:37,988 - INFO -     → Image uploaded: ef358f73-0a5f-4993-ae16-68320dfd059a_processed.jpg
+2026-05-05 14:50:38,219 - INFO -     → Launch Screen clicked
+2026-05-05 14:50:42,237 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-05 14:50:43,238 - INFO - ============================================================
+2026-05-05 14:50:43,238 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-05 14:50:43,469 - INFO - Browser closed
+2026-05-05 14:50:43,469 - INFO - 
+Task finished at 2026-05-05 14:50:43
+2026-05-05 14:50:43,470 - INFO - Log: automation/logs/full_automation_20260505_144635.log
+
+2026-05-05 14:50:48,053 - INFO - User selected: Dashboard Icons
+2026-05-05 14:50:48,054 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-05 14:50:48,054 - INFO - Automation started at 2026-05-05 14:50:48
+
+2026-05-05 14:50:48,054 - INFO - ============================================================
+2026-05-05 14:50:48,054 - INFO - STEP 1: Processing and Compressing Images
+2026-05-05 14:50:48,054 - INFO - ============================================================
+2026-05-05 14:50:48,054 - INFO - Processing images from: dashboardicons
+2026-05-05 14:50:48,054 - INFO - Output folder: automation/processed_images
+2026-05-05 14:50:48,055 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-05 14:50:48,079 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-05 14:50:48,091 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-05 14:50:48,108 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-05 14:50:48,143 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-05 14:50:48,162 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-05 14:50:48,178 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-05 14:50:48,189 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-05 14:50:48,202 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-05 14:50:48,224 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-05 14:50:48,235 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-05 14:50:48,253 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-05 14:50:48,273 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-05 14:50:48,290 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-05 14:50:48,301 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-05 14:50:48,302 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-05 14:50:48,302 - INFO - ✓ 14 images processed and ready
+
+2026-05-05 14:50:48,302 - INFO - ============================================================
+2026-05-05 14:50:48,302 - INFO - STEP 2: Preparing Authentication
+2026-05-05 14:50:48,302 - INFO - ============================================================
+2026-05-05 14:50:48,303 - INFO - Using email: ambicacableco1985@gmail.com
+2026-05-05 14:50:48,303 - INFO - ✓ Credentials loaded
+
+2026-05-05 14:50:48,303 - INFO - ============================================================
+2026-05-05 14:50:48,303 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-05 14:50:48,303 - INFO - ============================================================
+2026-05-05 14:50:49,103 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 14:50:50,781 - INFO - ✓ Chrome driver initialized
+2026-05-05 14:50:50,781 - INFO - 
+→ Attempting login...
+
+2026-05-05 14:50:50,782 - INFO - Opening login page...
+2026-05-05 14:50:52,781 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 14:50:54,505 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 14:50:54,565 - INFO - ✓ Login successful
+2026-05-05 14:50:56,567 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-05 14:50:56,569 - INFO - Navigating to App Settings...
+2026-05-05 14:51:02,956 - INFO - ✓ Dashboard Icons section loaded
+2026-05-05 14:51:04,960 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-05 14:51:04,960 - INFO - Starting batch – 12 configured entries
+2026-05-05 14:51:08,626 - INFO -   Found 4 user types: ['Distributor', 'Contractor', 'Electrician', 'Dealer']
+2026-05-05 14:51:08,626 - INFO - Available user types: ['Distributor', 'Contractor', 'Electrician', 'Dealer']
+2026-05-05 14:51:08,626 - INFO - Total icons to upload after expansion: 48
+2026-05-05 14:51:08,626 - INFO - ============================================================
+2026-05-05 14:51:08,626 - INFO - [1/48]
+2026-05-05 14:51:08,626 - INFO -   Adding: [Distributor] Gift  (gift)
+2026-05-05 14:51:10,937 - INFO -     → User type: Distributor
+2026-05-05 14:51:11,117 - INFO -     → Icon identity: gift
+2026-05-05 14:51:11,385 - INFO -     → Display title: Gift
+2026-05-05 14:51:11,486 - INFO -     → Toggle: both
+2026-05-05 14:51:13,613 - INFO -     → Image uploaded: Gift.png
+2026-05-05 14:51:13,834 - INFO -     → Form submitted
+2026-05-05 14:51:14,871 - INFO -   ✓ Icon added: Gift
+
+2026-05-05 14:51:15,875 - INFO - [2/48]
+2026-05-05 14:51:15,876 - INFO -   Adding: [Contractor] Gift  (gift)
+2026-05-05 14:51:18,345 - INFO -     → User type: Contractor
+2026-05-05 14:51:18,532 - INFO -     → Icon identity: gift
+2026-05-05 14:51:18,798 - INFO -     → Display title: Gift
+2026-05-05 14:51:18,843 - INFO -     → Toggle: both
+2026-05-05 14:51:20,902 - INFO -     → Image uploaded: Gift.png
+2026-05-05 14:51:21,034 - INFO -     → Form submitted
+2026-05-05 14:51:22,076 - INFO -   ✓ Icon added: Gift
+
+2026-05-05 14:51:23,078 - INFO - [3/48]
+2026-05-05 14:51:23,079 - INFO -   Adding: [Electrician] Gift  (gift)
+2026-05-05 14:51:25,481 - INFO -     → User type: Electrician
+2026-05-05 14:51:25,640 - INFO -     → Icon identity: gift
+2026-05-05 14:51:25,864 - INFO -     → Display title: Gift
+2026-05-05 14:51:25,895 - INFO -     → Toggle: both
+2026-05-05 14:51:28,035 - INFO -     → Image uploaded: Gift.png
+2026-05-05 14:51:28,194 - INFO -     → Form submitted
+2026-05-05 14:51:29,221 - INFO -   ✓ Icon added: Gift
+
+2026-05-05 14:51:30,222 - INFO - [4/48]
+2026-05-05 14:51:30,223 - INFO -   Adding: [Dealer] Gift  (gift)
+2026-05-05 14:51:32,583 - INFO -     → User type: Dealer
+2026-05-05 14:51:32,733 - INFO -     → Icon identity: gift
+2026-05-05 14:51:32,979 - INFO -     → Display title: Gift
+2026-05-05 14:51:33,045 - INFO -     → Toggle: both
+2026-05-05 14:51:35,113 - INFO -     → Image uploaded: Gift.png
+2026-05-05 14:51:35,244 - INFO -     → Form submitted
+2026-05-05 14:51:36,287 - INFO -   ✓ Icon added: Gift
+
+2026-05-05 14:51:37,288 - INFO - [5/48]
+2026-05-05 14:51:37,288 - INFO -   Adding: [Distributor] History  (history)
+2026-05-05 14:51:39,650 - INFO -     → User type: Distributor
+2026-05-05 14:51:39,792 - INFO -     → Icon identity: history
+2026-05-05 14:51:39,997 - INFO -     → Display title: History
+2026-05-05 14:51:40,046 - INFO -     → Toggle: both
+2026-05-05 14:51:42,147 - INFO -     → Image uploaded: history.png
+2026-05-05 14:51:42,323 - INFO -     → Form submitted
+2026-05-05 14:51:43,366 - INFO -   ✓ Icon added: History
+
+2026-05-05 14:51:44,367 - INFO - [6/48]
+2026-05-05 14:51:44,367 - INFO -   Adding: [Contractor] History  (history)
+2026-05-05 14:51:46,733 - INFO -     → User type: Contractor
+2026-05-05 14:51:46,907 - INFO -     → Icon identity: history
+2026-05-05 14:51:47,135 - INFO -     → Display title: History
+2026-05-05 14:51:47,195 - INFO -     → Toggle: both
+2026-05-05 14:51:49,292 - INFO -     → Image uploaded: history.png
+2026-05-05 14:51:49,396 - INFO -     → Form submitted
+2026-05-05 14:51:50,440 - INFO -   ✓ Icon added: History
+
+2026-05-05 14:51:51,443 - INFO - [7/48]
+2026-05-05 14:51:51,443 - INFO -   Adding: [Electrician] History  (history)
+2026-05-05 14:51:53,818 - INFO -     → User type: Electrician
+2026-05-05 14:51:54,019 - INFO -     → Icon identity: history
+2026-05-05 14:51:54,229 - INFO -     → Display title: History
+2026-05-05 14:51:54,278 - INFO -     → Toggle: both
+2026-05-05 14:51:56,354 - INFO -     → Image uploaded: history.png
+2026-05-05 14:51:56,517 - INFO -     → Form submitted
+2026-05-05 14:51:57,556 - INFO -   ✓ Icon added: History
+
+2026-05-05 14:51:58,556 - INFO - [8/48]
+2026-05-05 14:51:58,557 - INFO -   Adding: [Dealer] History  (history)
+2026-05-05 14:52:00,922 - INFO -     → User type: Dealer
+2026-05-05 14:52:01,086 - INFO -     → Icon identity: history
+2026-05-05 14:52:01,359 - INFO -     → Display title: History
+2026-05-05 14:52:01,460 - INFO -     → Toggle: both
+2026-05-05 14:52:03,574 - INFO -     → Image uploaded: history.png
+2026-05-05 14:52:03,701 - INFO -     → Form submitted
+2026-05-05 14:52:04,734 - INFO -   ✓ Icon added: History
+
+2026-05-05 14:52:05,735 - INFO - [9/48]
+2026-05-05 14:52:05,735 - INFO -   Adding: [Distributor] Wallet  (wallet)
+2026-05-05 14:52:08,141 - INFO -     → User type: Distributor
+2026-05-05 14:52:08,339 - INFO -     → Icon identity: wallet
+2026-05-05 14:52:08,654 - INFO -     → Display title: Wallet
+2026-05-05 14:52:08,719 - INFO -     → Toggle: both
+2026-05-05 14:52:10,820 - INFO -     → Image uploaded: wallet.png
+2026-05-05 14:52:11,006 - INFO -     → Form submitted
+2026-05-05 14:52:12,068 - INFO -   ✓ Icon added: Wallet
+
+2026-05-05 14:52:13,070 - INFO - [10/48]
+2026-05-05 14:52:13,070 - INFO -   Adding: [Contractor] Wallet  (wallet)
+2026-05-05 14:52:15,453 - INFO -     → User type: Contractor
+2026-05-05 14:52:15,627 - INFO -     → Icon identity: wallet
+2026-05-05 14:52:15,890 - INFO -     → Display title: Wallet
+2026-05-05 14:52:15,953 - INFO -     → Toggle: both
+2026-05-05 14:52:18,081 - INFO -     → Image uploaded: wallet.png
+2026-05-05 14:52:18,278 - INFO -     → Form submitted
+2026-05-05 14:52:19,308 - INFO -   ✓ Icon added: Wallet
+
+2026-05-05 14:52:20,309 - INFO - [11/48]
+2026-05-05 14:52:20,310 - INFO -   Adding: [Electrician] Wallet  (wallet)
+2026-05-05 14:52:22,700 - INFO -     → User type: Electrician
+2026-05-05 14:52:22,906 - INFO -     → Icon identity: wallet
+2026-05-05 14:52:23,159 - INFO -     → Display title: Wallet
+2026-05-05 14:52:23,215 - INFO -     → Toggle: both
+2026-05-05 14:52:25,330 - INFO -     → Image uploaded: wallet.png
+2026-05-05 14:52:25,466 - INFO -     → Form submitted
+2026-05-05 14:52:26,500 - INFO -   ✓ Icon added: Wallet
+
+2026-05-05 14:52:27,501 - INFO - [12/48]
+2026-05-05 14:52:27,501 - INFO -   Adding: [Dealer] Wallet  (wallet)
+2026-05-05 14:52:29,920 - INFO -     → User type: Dealer
+2026-05-05 14:52:30,061 - INFO -     → Icon identity: wallet
+2026-05-05 14:52:30,258 - INFO -     → Display title: Wallet
+2026-05-05 14:52:30,294 - INFO -     → Toggle: both
+2026-05-05 14:52:32,358 - INFO -     → Image uploaded: wallet.png
+2026-05-05 14:52:32,548 - INFO -     → Form submitted
+2026-05-05 14:52:33,587 - INFO -   ✓ Icon added: Wallet
+
+2026-05-05 14:52:34,588 - INFO - [13/48]
+2026-05-05 14:52:34,588 - INFO -   Adding: [Distributor] KYC  (kycdetails)
+2026-05-05 14:52:36,956 - INFO -     → User type: Distributor
+2026-05-05 14:52:37,142 - INFO -     → Icon identity: kycdetails
+2026-05-05 14:52:37,420 - INFO -     → Display title: KYC
+2026-05-05 14:52:37,486 - INFO -     → Toggle: both
+2026-05-05 14:52:39,582 - INFO -     → Image uploaded: kyc.png
+2026-05-05 14:52:39,693 - INFO -     → Form submitted
+2026-05-05 14:52:40,723 - INFO -   ✓ Icon added: KYC
+
+2026-05-05 14:52:41,723 - INFO - [14/48]
+2026-05-05 14:52:41,723 - INFO -   Adding: [Contractor] KYC  (kycdetails)
+2026-05-05 14:52:44,145 - INFO -     → User type: Contractor
+2026-05-05 14:52:44,257 - INFO -     → Icon identity: kycdetails
+2026-05-05 14:52:44,487 - INFO -     → Display title: KYC
+2026-05-05 14:52:44,539 - INFO -     → Toggle: both
+2026-05-05 14:52:46,605 - INFO -     → Image uploaded: kyc.png
+2026-05-05 14:52:46,844 - INFO -     → Form submitted
+2026-05-05 14:52:47,871 - INFO -   ✓ Icon added: KYC
+
+2026-05-05 14:52:48,872 - INFO - [15/48]
+2026-05-05 14:52:48,872 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-05-05 14:52:51,267 - INFO -     → User type: Electrician
+2026-05-05 14:52:51,436 - INFO -     → Icon identity: kycdetails
+2026-05-05 14:52:51,718 - INFO -     → Display title: KYC
+2026-05-05 14:52:51,757 - INFO -     → Toggle: both
+2026-05-05 14:52:53,822 - INFO -     → Image uploaded: kyc.png
+2026-05-05 14:52:53,962 - INFO -     → Form submitted
+2026-05-05 14:52:55,006 - INFO -   ✓ Icon added: KYC
+
+2026-05-05 14:52:56,006 - INFO - [16/48]
+2026-05-05 14:52:56,006 - INFO -   Adding: [Dealer] KYC  (kycdetails)
+2026-05-05 14:52:58,511 - INFO -     → User type: Dealer
+2026-05-05 14:52:58,696 - INFO -     → Icon identity: kycdetails
+2026-05-05 14:52:58,928 - INFO -     → Display title: KYC
+2026-05-05 14:52:58,986 - INFO -     → Toggle: both
+2026-05-05 14:53:01,072 - INFO -     → Image uploaded: kyc.png
+2026-05-05 14:53:01,257 - INFO -     → Form submitted
+2026-05-05 14:53:02,312 - INFO -   ✓ Icon added: KYC
+
+2026-05-05 14:53:03,313 - INFO - [17/48]
+2026-05-05 14:53:03,313 - INFO -   Adding: [Distributor] Blog  (blog)
+2026-05-05 14:53:05,774 - INFO -     → User type: Distributor
+2026-05-05 14:53:05,994 - INFO -     → Icon identity: blog
+2026-05-05 14:53:06,229 - INFO -     → Display title: Blog
+2026-05-05 14:53:06,309 - INFO -     → Toggle: both
+2026-05-05 14:53:08,415 - INFO -     → Image uploaded: blog.png
+2026-05-05 14:53:08,584 - INFO -     → Form submitted
+2026-05-05 14:53:09,623 - INFO -   ✓ Icon added: Blog
+
+2026-05-05 14:53:10,623 - INFO - [18/48]
+2026-05-05 14:53:10,623 - INFO -   Adding: [Contractor] Blog  (blog)
+2026-05-05 14:53:13,037 - INFO -     → User type: Contractor
+2026-05-05 14:53:13,245 - INFO -     → Icon identity: blog
+2026-05-05 14:53:13,537 - INFO -     → Display title: Blog
+2026-05-05 14:53:13,572 - INFO -     → Toggle: both
+2026-05-05 14:53:15,694 - INFO -     → Image uploaded: blog.png
+2026-05-05 14:53:15,865 - INFO -     → Form submitted
+2026-05-05 14:53:16,910 - INFO -   ✓ Icon added: Blog
+
+2026-05-05 14:53:17,910 - INFO - [19/48]
+2026-05-05 14:53:17,911 - INFO -   Adding: [Electrician] Blog  (blog)
+2026-05-05 14:53:20,380 - INFO -     → User type: Electrician
+2026-05-05 14:53:20,551 - INFO -     → Icon identity: blog
+2026-05-05 14:53:20,807 - INFO -     → Display title: Blog
+2026-05-05 14:53:20,861 - INFO -     → Toggle: both
+2026-05-05 14:53:22,954 - INFO -     → Image uploaded: blog.png
+2026-05-05 14:53:23,177 - INFO -     → Form submitted
+2026-05-05 14:53:24,230 - INFO -   ✓ Icon added: Blog
+
+2026-05-05 14:53:25,230 - INFO - [20/48]
+2026-05-05 14:53:25,231 - INFO -   Adding: [Dealer] Blog  (blog)
+2026-05-05 14:53:27,608 - INFO -     → User type: Dealer
+2026-05-05 14:53:27,804 - INFO -     → Icon identity: blog
+2026-05-05 14:53:28,056 - INFO -     → Display title: Blog
+2026-05-05 14:53:28,122 - INFO -     → Toggle: both
+2026-05-05 14:53:30,242 - INFO -     → Image uploaded: blog.png
+2026-05-05 14:53:30,361 - INFO -     → Form submitted
+2026-05-05 14:53:31,405 - INFO -   ✓ Icon added: Blog
+
+2026-05-05 14:53:32,405 - INFO - [21/48]
+2026-05-05 14:53:32,406 - INFO -   Adding: [Distributor] Brochure  (brochure)
+2026-05-05 14:53:34,843 - INFO -     → User type: Distributor
+2026-05-05 14:53:34,992 - INFO -     → Icon identity: brochure
+2026-05-05 14:53:35,226 - INFO -     → Display title: Brochure
+2026-05-05 14:53:35,292 - INFO -     → Toggle: both
+2026-05-05 14:53:37,399 - INFO -     → Image uploaded: brochure.png
+2026-05-05 14:53:37,567 - INFO -     → Form submitted
+2026-05-05 14:53:38,596 - INFO -   ✓ Icon added: Brochure
+
+2026-05-05 14:53:39,597 - INFO - [22/48]
+2026-05-05 14:53:39,597 - INFO -   Adding: [Contractor] Brochure  (brochure)
+2026-05-05 14:53:41,946 - INFO -     → User type: Contractor
+2026-05-05 14:53:42,125 - INFO -     → Icon identity: brochure
+2026-05-05 14:53:42,389 - INFO -     → Display title: Brochure
+2026-05-05 14:53:42,428 - INFO -     → Toggle: both
+2026-05-05 14:53:44,557 - INFO -     → Image uploaded: brochure.png
+2026-05-05 14:53:44,678 - INFO -     → Form submitted
+2026-05-05 14:53:45,715 - INFO -   ✓ Icon added: Brochure
+
+2026-05-05 14:53:46,716 - INFO - [23/48]
+2026-05-05 14:53:46,719 - INFO -   Adding: [Electrician] Brochure  (brochure)
+2026-05-05 14:53:49,168 - INFO -     → User type: Electrician
+2026-05-05 14:53:49,326 - INFO -     → Icon identity: brochure
+2026-05-05 14:53:49,573 - INFO -     → Display title: Brochure
+2026-05-05 14:53:49,618 - INFO -     → Toggle: both
+2026-05-05 14:53:51,764 - INFO -     → Image uploaded: brochure.png
+2026-05-05 14:53:51,955 - INFO -     → Form submitted
+2026-05-05 14:53:53,010 - INFO -   ✓ Icon added: Brochure
+
+2026-05-05 14:53:54,011 - INFO - [24/48]
+2026-05-05 14:53:54,011 - INFO -   Adding: [Dealer] Brochure  (brochure)
+2026-05-05 14:53:56,433 - INFO -     → User type: Dealer
+2026-05-05 14:53:56,636 - INFO -     → Icon identity: brochure
+2026-05-05 14:53:56,883 - INFO -     → Display title: Brochure
+2026-05-05 14:53:56,924 - INFO -     → Toggle: both
+2026-05-05 14:53:59,055 - INFO -     → Image uploaded: brochure.png
+2026-05-05 14:53:59,185 - INFO -     → Form submitted
+2026-05-05 14:54:00,231 - INFO -   ✓ Icon added: Brochure
+
+2026-05-05 14:54:01,231 - INFO - [25/48]
+2026-05-05 14:54:01,233 - INFO -   Adding: [Distributor] Claim History  (claimhistory)
+2026-05-05 14:54:03,694 - INFO -     → User type: Distributor
+2026-05-05 14:54:03,892 - INFO -     → Icon identity: claimhistory
+2026-05-05 14:54:04,246 - INFO -     → Display title: Claim History
+2026-05-05 14:54:04,426 - INFO -     → Toggle: both
+2026-05-05 14:54:06,513 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-05 14:54:06,739 - INFO -     → Form submitted
+2026-05-05 14:54:07,800 - INFO -   ✓ Icon added: Claim History
+
+2026-05-05 14:54:08,801 - INFO - [26/48]
+2026-05-05 14:54:08,801 - INFO -   Adding: [Contractor] Claim History  (claimhistory)
+2026-05-05 14:54:11,204 - INFO -     → User type: Contractor
+2026-05-05 14:54:11,343 - INFO -     → Icon identity: claimhistory
+2026-05-05 14:54:11,636 - INFO -     → Display title: Claim History
+2026-05-05 14:54:11,689 - INFO -     → Toggle: both
+2026-05-05 14:54:13,819 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-05 14:54:13,943 - INFO -     → Form submitted
+2026-05-05 14:54:14,986 - INFO -   ✓ Icon added: Claim History
+
+2026-05-05 14:54:15,986 - INFO - [27/48]
+2026-05-05 14:54:15,987 - INFO -   Adding: [Electrician] Claim History  (claimhistory)
+2026-05-05 14:54:18,432 - INFO -     → User type: Electrician
+2026-05-05 14:54:18,601 - INFO -     → Icon identity: claimhistory
+2026-05-05 14:54:18,819 - INFO -     → Display title: Claim History
+2026-05-05 14:54:18,854 - INFO -     → Toggle: both
+2026-05-05 14:54:20,911 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-05 14:54:21,062 - INFO -     → Form submitted
+2026-05-05 14:54:22,088 - INFO -   ✓ Icon added: Claim History
+
+2026-05-05 14:54:23,089 - INFO - [28/48]
+2026-05-05 14:54:23,090 - INFO -   Adding: [Dealer] Claim History  (claimhistory)
+2026-05-05 14:54:25,571 - INFO -     → User type: Dealer
+2026-05-05 14:54:25,716 - INFO -     → Icon identity: claimhistory
+2026-05-05 14:54:25,983 - INFO -     → Display title: Claim History
+2026-05-05 14:54:26,060 - INFO -     → Toggle: both
+2026-05-05 14:54:28,179 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-05 14:54:28,370 - INFO -     → Form submitted
+2026-05-05 14:54:29,412 - INFO -   ✓ Icon added: Claim History
+
+2026-05-05 14:54:30,412 - INFO - [29/48]
+2026-05-05 14:54:30,412 - INFO -   Adding: [Distributor] Language  (chooselanguage)
+2026-05-05 14:54:33,002 - INFO -     → User type: Distributor
+2026-05-05 14:54:33,220 - INFO -     → Icon identity: chooselanguage
+2026-05-05 14:54:33,494 - INFO -     → Display title: Language
+2026-05-05 14:54:33,575 - INFO -     → Toggle: both
+2026-05-05 14:54:35,695 - INFO -     → Image uploaded: language.png
+2026-05-05 14:54:35,850 - INFO -     → Form submitted
+2026-05-05 14:54:36,898 - INFO -   ✓ Icon added: Language
+
+2026-05-05 14:54:37,898 - INFO - [30/48]
+2026-05-05 14:54:37,898 - INFO -   Adding: [Contractor] Language  (chooselanguage)
+2026-05-05 14:54:40,409 - INFO -     → User type: Contractor
+2026-05-05 14:54:40,626 - INFO -     → Icon identity: chooselanguage
+2026-05-05 14:54:40,888 - INFO -     → Display title: Language
+2026-05-05 14:54:40,926 - INFO -     → Toggle: both
+2026-05-05 14:54:42,999 - INFO -     → Image uploaded: language.png
+2026-05-05 14:54:43,227 - INFO -     → Form submitted
+2026-05-05 14:54:44,284 - INFO -   ✓ Icon added: Language
+
+2026-05-05 14:54:45,284 - INFO - [31/48]
+2026-05-05 14:54:45,284 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-05-05 14:54:47,735 - INFO -     → User type: Electrician
+2026-05-05 14:54:47,943 - INFO -     → Icon identity: chooselanguage
+2026-05-05 14:54:48,206 - INFO -     → Display title: Language
+2026-05-05 14:54:48,268 - INFO -     → Toggle: both
+2026-05-05 14:54:50,352 - INFO -     → Image uploaded: language.png
+2026-05-05 14:54:50,513 - INFO -     → Form submitted
+2026-05-05 14:54:51,551 - INFO -   ✓ Icon added: Language
+
+2026-05-05 14:54:52,552 - INFO - [32/48]
+2026-05-05 14:54:52,552 - INFO -   Adding: [Dealer] Language  (chooselanguage)
+2026-05-05 14:54:54,971 - INFO -     → User type: Dealer
+2026-05-05 14:54:55,067 - INFO -     → Icon identity: chooselanguage
+2026-05-05 14:54:55,305 - INFO -     → Display title: Language
+2026-05-05 14:54:55,380 - INFO -     → Toggle: both
+2026-05-05 14:54:57,479 - INFO -     → Image uploaded: language.png
+2026-05-05 14:54:57,678 - INFO -     → Form submitted
+2026-05-05 14:54:58,729 - INFO -   ✓ Icon added: Language
+
+2026-05-05 14:54:59,729 - INFO - [33/48]
+2026-05-05 14:54:59,729 - INFO -   Adding: [Distributor] Code Details  (codedetails)
+2026-05-05 14:55:02,153 - INFO -     → User type: Distributor
+2026-05-05 14:55:02,307 - INFO -     → Icon identity: codedetails
+2026-05-05 14:55:02,601 - INFO -     → Display title: Code Details
+2026-05-05 14:55:02,673 - INFO -     → Toggle: both
+2026-05-05 14:55:04,749 - INFO -     → Image uploaded: codedetails.png
+2026-05-05 14:55:04,862 - INFO -     → Form submitted
+2026-05-05 14:55:05,915 - INFO -   ✓ Icon added: Code Details
+
+2026-05-05 14:55:06,916 - INFO - [34/48]
+2026-05-05 14:55:06,916 - INFO -   Adding: [Contractor] Code Details  (codedetails)
+2026-05-05 14:55:09,427 - INFO -     → User type: Contractor
+2026-05-05 14:55:09,687 - INFO -     → Icon identity: codedetails
+2026-05-05 14:55:09,895 - INFO -     → Display title: Code Details
+2026-05-05 14:55:09,938 - INFO -     → Toggle: both
+2026-05-05 14:55:12,012 - INFO -     → Image uploaded: codedetails.png
+2026-05-05 14:55:12,197 - INFO -     → Form submitted
+2026-05-05 14:55:13,238 - INFO -   ✓ Icon added: Code Details
+
+2026-05-05 14:55:14,238 - INFO - [35/48]
+2026-05-05 14:55:14,241 - INFO -   Adding: [Electrician] Code Details  (codedetails)
+2026-05-05 14:55:16,596 - INFO -     → User type: Electrician
+2026-05-05 14:55:16,775 - INFO -     → Icon identity: codedetails
+2026-05-05 14:55:17,101 - INFO -     → Display title: Code Details
+2026-05-05 14:55:17,150 - INFO -     → Toggle: both
+2026-05-05 14:55:19,209 - INFO -     → Image uploaded: codedetails.png
+2026-05-05 14:55:19,330 - INFO -     → Form submitted
+2026-05-05 14:55:20,373 - INFO -   ✓ Icon added: Code Details
+
+2026-05-05 14:55:21,374 - INFO - [36/48]
+2026-05-05 14:55:21,374 - INFO -   Adding: [Dealer] Code Details  (codedetails)
+2026-05-05 14:55:23,868 - INFO -     → User type: Dealer
+2026-05-05 14:55:24,055 - INFO -     → Icon identity: codedetails
+2026-05-05 14:55:24,285 - INFO -     → Display title: Code Details
+2026-05-05 14:55:24,349 - INFO -     → Toggle: both
+2026-05-05 14:55:26,437 - INFO -     → Image uploaded: codedetails.png
+2026-05-05 14:55:26,640 - INFO -     → Form submitted
+2026-05-05 14:55:27,677 - INFO -   ✓ Icon added: Code Details
+
+2026-05-05 14:55:28,677 - INFO - [37/48]
+2026-05-05 14:55:28,677 - INFO -   Adding: [Distributor] Help  (help)
+2026-05-05 14:55:31,085 - INFO -     → User type: Distributor
+2026-05-05 14:55:31,249 - INFO -     → Icon identity: help
+2026-05-05 14:55:31,477 - INFO -     → Display title: Help
+2026-05-05 14:55:31,523 - INFO -     → Toggle: both
+2026-05-05 14:55:33,618 - INFO -     → Image uploaded: help.png
+2026-05-05 14:55:33,744 - INFO -     → Form submitted
+2026-05-05 14:55:34,816 - INFO -   ✓ Icon added: Help
+
+2026-05-05 14:55:35,817 - INFO - [38/48]
+2026-05-05 14:55:35,817 - INFO -   Adding: [Contractor] Help  (help)
+2026-05-05 14:55:38,282 - INFO -     → User type: Contractor
+2026-05-05 14:55:38,434 - INFO -     → Icon identity: help
+2026-05-05 14:55:38,662 - INFO -     → Display title: Help
+2026-05-05 14:55:38,693 - INFO -     → Toggle: both
+2026-05-05 14:55:40,759 - INFO -     → Image uploaded: help.png
+2026-05-05 14:55:40,901 - INFO -     → Form submitted
+2026-05-05 14:55:41,952 - INFO -   ✓ Icon added: Help
+
+2026-05-05 14:55:42,952 - INFO - [39/48]
+2026-05-05 14:55:42,952 - INFO -   Adding: [Electrician] Help  (help)
+2026-05-05 14:55:45,522 - INFO -     → User type: Electrician
+2026-05-05 14:55:45,718 - INFO -     → Icon identity: help
+2026-05-05 14:55:45,987 - INFO -     → Display title: Help
+2026-05-05 14:55:46,049 - INFO -     → Toggle: both
+2026-05-05 14:55:48,158 - INFO -     → Image uploaded: help.png
+2026-05-05 14:55:48,338 - INFO -     → Form submitted
+2026-05-05 14:55:49,381 - INFO -   ✓ Icon added: Help
+
+2026-05-05 14:55:50,382 - INFO - [40/48]
+2026-05-05 14:55:50,382 - INFO -   Adding: [Dealer] Help  (help)
+2026-05-05 14:55:52,847 - INFO -     → User type: Dealer
+2026-05-05 14:55:53,031 - INFO -     → Icon identity: help
+2026-05-05 14:55:53,265 - INFO -     → Display title: Help
+2026-05-05 14:55:53,331 - INFO -     → Toggle: both
+2026-05-05 14:55:55,449 - INFO -     → Image uploaded: help.png
+2026-05-05 14:55:55,595 - INFO -     → Form submitted
+2026-05-05 14:55:56,635 - INFO -   ✓ Icon added: Help
+
+2026-05-05 14:55:57,636 - INFO - [41/48]
+2026-05-05 14:55:57,637 - INFO -   Adding: [Distributor] Refer & Earn  (referandearn)
+2026-05-05 14:56:00,241 - INFO -     → User type: Distributor
+2026-05-05 14:56:00,398 - INFO -     → Icon identity: referandearn
+2026-05-05 14:56:00,680 - INFO -     → Display title: Refer & Earn
+2026-05-05 14:56:00,711 - INFO -     → Toggle: both
+2026-05-05 14:56:02,805 - INFO -     → Image uploaded: referandearn.png
+2026-05-05 14:56:03,023 - INFO -     → Form submitted
+2026-05-05 14:56:04,076 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-05 14:56:05,079 - INFO - [42/48]
+2026-05-05 14:56:05,080 - INFO -   Adding: [Contractor] Refer & Earn  (referandearn)
+2026-05-05 14:56:07,589 - INFO -     → User type: Contractor
+2026-05-05 14:56:07,745 - INFO -     → Icon identity: referandearn
+2026-05-05 14:56:08,025 - INFO -     → Display title: Refer & Earn
+2026-05-05 14:56:08,074 - INFO -     → Toggle: both
+2026-05-05 14:56:10,185 - INFO -     → Image uploaded: referandearn.png
+2026-05-05 14:56:10,309 - INFO -     → Form submitted
+2026-05-05 14:56:11,338 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-05 14:56:12,338 - INFO - [43/48]
+2026-05-05 14:56:12,339 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-05-05 14:56:14,874 - INFO -     → User type: Electrician
+2026-05-05 14:56:15,006 - INFO -     → Icon identity: referandearn
+2026-05-05 14:56:15,287 - INFO -     → Display title: Refer & Earn
+2026-05-05 14:56:15,349 - INFO -     → Toggle: both
+2026-05-05 14:56:17,441 - INFO -     → Image uploaded: referandearn.png
+2026-05-05 14:56:17,635 - INFO -     → Form submitted
+2026-05-05 14:56:18,692 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-05 14:56:19,693 - INFO - [44/48]
+2026-05-05 14:56:19,693 - INFO -   Adding: [Dealer] Refer & Earn  (referandearn)
+2026-05-05 14:56:22,071 - INFO -     → User type: Dealer
+2026-05-05 14:56:22,245 - INFO -     → Icon identity: referandearn
+2026-05-05 14:56:22,546 - INFO -     → Display title: Refer & Earn
+2026-05-05 14:56:22,605 - INFO -     → Toggle: both
+2026-05-05 14:56:24,718 - INFO -     → Image uploaded: referandearn.png
+2026-05-05 14:56:24,828 - INFO -     → Form submitted
+2026-05-05 14:56:25,872 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-05 14:56:26,872 - INFO - [45/48]
+2026-05-05 14:56:26,873 - INFO -   Adding: [Distributor] E-Commerce  (productcatalogue)
+2026-05-05 14:56:29,356 - INFO -     → User type: Distributor
+2026-05-05 14:56:29,484 - INFO -     → Icon identity: productcatalogue
+2026-05-05 14:56:29,682 - INFO -     → Display title: E-Commerce
+2026-05-05 14:56:29,722 - INFO -     → Toggle: both
+2026-05-05 14:56:31,790 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-05 14:56:31,964 - INFO -     → Form submitted
+2026-05-05 14:56:33,023 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-05 14:56:34,023 - INFO - [46/48]
+2026-05-05 14:56:34,024 - INFO -   Adding: [Contractor] E-Commerce  (productcatalogue)
+2026-05-05 14:56:36,528 - INFO -     → User type: Contractor
+2026-05-05 14:56:36,854 - INFO -     → Icon identity: productcatalogue
+2026-05-05 14:56:37,189 - INFO -     → Display title: E-Commerce
+2026-05-05 14:56:37,253 - INFO -     → Toggle: both
+2026-05-05 14:56:39,372 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-05 14:56:39,494 - INFO -     → Form submitted
+2026-05-05 14:56:40,536 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-05 14:56:41,537 - INFO - [47/48]
+2026-05-05 14:56:41,538 - INFO -   Adding: [Electrician] E-Commerce  (productcatalogue)
+2026-05-05 14:56:44,104 - INFO -     → User type: Electrician
+2026-05-05 14:56:44,279 - INFO -     → Icon identity: productcatalogue
+2026-05-05 14:56:44,468 - INFO -     → Display title: E-Commerce
+2026-05-05 14:56:44,503 - INFO -     → Toggle: both
+2026-05-05 14:56:46,561 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-05 14:56:46,739 - INFO -     → Form submitted
+2026-05-05 14:56:47,780 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-05 14:56:48,783 - INFO - [48/48]
+2026-05-05 14:56:48,783 - INFO -   Adding: [Dealer] E-Commerce  (productcatalogue)
+2026-05-05 14:56:51,298 - INFO -     → User type: Dealer
+2026-05-05 14:56:51,519 - INFO -     → Icon identity: productcatalogue
+2026-05-05 14:56:51,794 - INFO -     → Display title: E-Commerce
+2026-05-05 14:56:51,860 - INFO -     → Toggle: both
+2026-05-05 14:56:53,952 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-05 14:56:54,125 - INFO -     → Form submitted
+2026-05-05 14:56:55,171 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-05 14:56:56,172 - INFO - ============================================================
+2026-05-05 14:56:56,172 - INFO - Batch complete → ✓ 48 succeeded  ✗ 0 failed
+2026-05-05 14:56:56,172 - INFO - 
+============================================================
+2026-05-05 14:56:56,172 - INFO - AUTOMATION SUMMARY
+2026-05-05 14:56:56,172 - INFO - ============================================================
+2026-05-05 14:56:56,172 - INFO - ✓ Successful uploads: 48
+2026-05-05 14:56:56,173 - INFO - ✗ Failed uploads: 0
+2026-05-05 14:56:56,173 - INFO - Total processed: 12
+2026-05-05 14:56:56,173 - INFO - Success rate: 400.0%
+2026-05-05 14:56:56,173 - INFO - ============================================================
+2026-05-05 14:56:56,361 - INFO - Browser closed
+2026-05-05 14:56:56,361 - INFO - 
+Task finished at 2026-05-05 14:56:56
+2026-05-05 14:56:56,361 - INFO - Log: automation/logs/full_automation_20260505_144635.log
+
+2026-05-05 14:57:33,730 - INFO - User selected: Registration Fields
+2026-05-05 14:57:33,731 - INFO - ============================================================
+2026-05-05 14:57:33,731 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-05 14:57:33,733 - INFO - ============================================================
+2026-05-05 14:57:34,287 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 14:57:35,639 - INFO - ✓ Chrome driver initialized
+2026-05-05 14:57:35,640 - INFO - Opening login page...
+2026-05-05 14:57:37,675 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 14:57:38,984 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 14:57:39,032 - INFO - ✓ Login successful
+2026-05-05 14:57:41,033 - INFO - Going to App Settings...
+2026-05-05 14:57:47,546 - INFO -   → Registration Field section opened
+2026-05-05 14:57:47,573 - INFO - ✓ Registration Fields page ready
+2026-05-05 14:57:51,060 - INFO - Found 4 user types: ['Distributor', 'Contractor', 'Electrician', 'Dealer']
+2026-05-05 14:57:51,060 - INFO - Starting registration fields automation: 24 fields total
+2026-05-05 14:57:51,060 - INFO - ============================================================
+2026-05-05 14:57:51,060 - INFO - Processing User Type: Distributor
+2026-05-05 14:57:51,060 - INFO -   Adding field: [Distributor] -> First Name
+2026-05-05 14:57:53,445 - INFO -     → User Type selected: Distributor
+2026-05-05 14:58:13,764 - INFO -     → System Data Point selected: First Name
+2026-05-05 14:58:13,842 - INFO -     → Mandatory toggle enabled
+2026-05-05 14:58:14,064 - INFO -     → Integrate Now clicked
+2026-05-05 14:58:17,078 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-05 14:58:18,079 - INFO -   Adding field: [Distributor] -> Phone Number
+2026-05-05 14:58:20,429 - INFO -     → User Type selected: Distributor
+2026-05-05 14:58:40,728 - INFO -     → System Data Point selected: Phone Number
+2026-05-05 14:58:40,799 - INFO -     → Mandatory toggle enabled
+2026-05-05 14:58:41,011 - INFO -     → Integrate Now clicked
+2026-05-05 14:58:44,027 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-05 14:58:45,028 - INFO -   Adding field: [Distributor] -> Pincode
+2026-05-05 14:58:47,429 - INFO -     → User Type selected: Distributor
+2026-05-05 14:59:07,733 - INFO -     → System Data Point selected: Pincode
+2026-05-05 14:59:07,808 - INFO -     → Mandatory toggle enabled
+2026-05-05 14:59:08,074 - INFO -     → Integrate Now clicked
+2026-05-05 14:59:11,091 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-05 14:59:12,092 - INFO -   Adding field: [Distributor] -> City
+2026-05-05 14:59:14,475 - INFO -     → User Type selected: Distributor
+2026-05-05 14:59:34,743 - INFO -     → System Data Point selected: City
+2026-05-05 14:59:34,793 - INFO -     → Mandatory toggle enabled
+2026-05-05 14:59:34,993 - INFO -     → Integrate Now clicked
+2026-05-05 14:59:38,025 - INFO -   ✓ Field added successfully: City
+
+2026-05-05 14:59:39,025 - INFO -   Adding field: [Distributor] -> State
+2026-05-05 14:59:41,418 - INFO -     → User Type selected: Distributor
+2026-05-05 15:00:01,740 - INFO -     → System Data Point selected: State
+2026-05-05 15:00:01,823 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:00:02,035 - INFO -     → Integrate Now clicked
+2026-05-05 15:00:05,047 - INFO -   ✓ Field added successfully: State
+
+2026-05-05 15:00:06,047 - INFO -   Adding field: [Distributor] -> Address
+2026-05-05 15:00:08,437 - INFO -     → User Type selected: Distributor
+2026-05-05 15:00:28,688 - INFO -     → System Data Point selected: Address
+2026-05-05 15:00:28,744 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:00:28,950 - INFO -     → Integrate Now clicked
+2026-05-05 15:00:31,974 - INFO -   ✓ Field added successfully: Address
+
+2026-05-05 15:00:32,975 - INFO - Processing User Type: Contractor
+2026-05-05 15:00:32,976 - INFO -   Adding field: [Contractor] -> First Name
+2026-05-05 15:00:35,395 - INFO -     → User Type selected: Contractor
+2026-05-05 15:00:55,680 - INFO -     → System Data Point selected: First Name
+2026-05-05 15:00:55,748 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:00:55,969 - INFO -     → Integrate Now clicked
+2026-05-05 15:00:58,983 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-05 15:00:59,983 - INFO -   Adding field: [Contractor] -> Phone Number
+2026-05-05 15:01:02,452 - INFO -     → User Type selected: Contractor
+2026-05-05 15:01:22,805 - INFO -     → System Data Point selected: Phone Number
+2026-05-05 15:01:22,862 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:01:23,135 - INFO -     → Integrate Now clicked
+2026-05-05 15:01:26,161 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-05 15:01:27,161 - INFO -   Adding field: [Contractor] -> Pincode
+2026-05-05 15:01:29,528 - INFO -     → User Type selected: Contractor
+2026-05-05 15:01:49,756 - INFO -     → System Data Point selected: Pincode
+2026-05-05 15:01:49,812 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:01:50,017 - INFO -     → Integrate Now clicked
+2026-05-05 15:01:53,032 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-05 15:01:54,033 - INFO -   Adding field: [Contractor] -> City
+2026-05-05 15:01:56,402 - INFO -     → User Type selected: Contractor
+2026-05-05 15:02:16,703 - INFO -     → System Data Point selected: City
+2026-05-05 15:02:16,777 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:02:17,070 - INFO -     → Integrate Now clicked
+2026-05-05 15:02:20,086 - INFO -   ✓ Field added successfully: City
+
+2026-05-05 15:02:21,087 - INFO -   Adding field: [Contractor] -> State
+2026-05-05 15:02:23,511 - INFO -     → User Type selected: Contractor
+2026-05-05 15:02:43,762 - INFO -     → System Data Point selected: State
+2026-05-05 15:02:43,851 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:02:44,045 - INFO -     → Integrate Now clicked
+2026-05-05 15:02:47,062 - INFO -   ✓ Field added successfully: State
+
+2026-05-05 15:02:48,063 - INFO -   Adding field: [Contractor] -> Address
+2026-05-05 15:02:50,467 - INFO -     → User Type selected: Contractor
+2026-05-05 15:03:10,854 - INFO -     → System Data Point selected: Address
+2026-05-05 15:03:10,949 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:03:11,163 - INFO -     → Integrate Now clicked
+2026-05-05 15:03:14,179 - INFO -   ✓ Field added successfully: Address
+
+2026-05-05 15:03:15,180 - INFO - Processing User Type: Electrician
+2026-05-05 15:03:15,180 - INFO -   Adding field: [Electrician] -> First Name
+2026-05-05 15:03:17,601 - INFO -     → User Type selected: Electrician
+2026-05-05 15:03:37,924 - INFO -     → System Data Point selected: First Name
+2026-05-05 15:03:38,005 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:03:38,224 - INFO -     → Integrate Now clicked
+2026-05-05 15:03:41,250 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-05 15:03:42,251 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-05-05 15:03:44,636 - INFO -     → User Type selected: Electrician
+2026-05-05 15:04:04,867 - INFO -     → System Data Point selected: Phone Number
+2026-05-05 15:04:04,918 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:04:05,125 - INFO -     → Integrate Now clicked
+2026-05-05 15:04:08,146 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-05 15:04:09,147 - INFO -   Adding field: [Electrician] -> Pincode
+2026-05-05 15:04:11,500 - INFO -     → User Type selected: Electrician
+2026-05-05 15:04:31,794 - INFO -     → System Data Point selected: Pincode
+2026-05-05 15:04:31,854 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:04:32,101 - INFO -     → Integrate Now clicked
+2026-05-05 15:04:35,154 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-05 15:04:36,159 - INFO -   Adding field: [Electrician] -> City
+2026-05-05 15:04:38,842 - INFO -     → User Type selected: Electrician
+2026-05-05 15:04:59,449 - INFO -     → System Data Point selected: City
+2026-05-05 15:04:59,506 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:04:59,734 - INFO -     → Integrate Now clicked
+2026-05-05 15:05:02,806 - INFO -   ✓ Field added successfully: City
+
+2026-05-05 15:05:03,810 - INFO -   Adding field: [Electrician] -> State
+2026-05-05 15:05:06,258 - INFO -     → User Type selected: Electrician
+2026-05-05 15:05:26,948 - INFO -     → System Data Point selected: State
+2026-05-05 15:05:27,034 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:05:27,279 - INFO -     → Integrate Now clicked
+2026-05-05 15:05:30,313 - INFO -   ✓ Field added successfully: State
+
+2026-05-05 15:05:31,316 - INFO -   Adding field: [Electrician] -> Address
+2026-05-05 15:05:33,944 - INFO -     → User Type selected: Electrician
+2026-05-05 15:05:54,408 - INFO -     → System Data Point selected: Address
+2026-05-05 15:05:54,503 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:05:54,827 - INFO -     → Integrate Now clicked
+2026-05-05 15:05:57,857 - INFO -   ✓ Field added successfully: Address
+
+2026-05-05 15:05:58,857 - INFO - Processing User Type: Dealer
+2026-05-05 15:05:58,858 - INFO -   Adding field: [Dealer] -> First Name
+2026-05-05 15:06:01,362 - INFO -     → User Type selected: Dealer
+2026-05-05 15:06:21,898 - INFO -     → System Data Point selected: First Name
+2026-05-05 15:06:22,039 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:06:22,281 - INFO -     → Integrate Now clicked
+2026-05-05 15:06:25,296 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-05 15:06:26,296 - INFO -   Adding field: [Dealer] -> Phone Number
+2026-05-05 15:06:28,924 - INFO -     → User Type selected: Dealer
+2026-05-05 15:06:49,619 - INFO -     → System Data Point selected: Phone Number
+2026-05-05 15:06:49,715 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:06:49,969 - INFO -     → Integrate Now clicked
+2026-05-05 15:06:53,004 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-05 15:06:54,004 - INFO -   Adding field: [Dealer] -> Pincode
+2026-05-05 15:06:56,466 - INFO -     → User Type selected: Dealer
+2026-05-05 15:07:17,051 - INFO -     → System Data Point selected: Pincode
+2026-05-05 15:07:17,295 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:07:17,766 - INFO -     → Integrate Now clicked
+2026-05-05 15:07:20,783 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-05 15:07:21,784 - INFO -   Adding field: [Dealer] -> City
+2026-05-05 15:07:24,229 - INFO -     → User Type selected: Dealer
+2026-05-05 15:07:44,556 - INFO -     → System Data Point selected: City
+2026-05-05 15:07:44,605 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:07:44,794 - INFO -     → Integrate Now clicked
+2026-05-05 15:07:47,825 - INFO -   ✓ Field added successfully: City
+
+2026-05-05 15:07:48,827 - INFO -   Adding field: [Dealer] -> State
+2026-05-05 15:07:51,271 - INFO -     → User Type selected: Dealer
+2026-05-05 15:08:11,677 - INFO -     → System Data Point selected: State
+2026-05-05 15:08:11,740 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:08:11,971 - INFO -     → Integrate Now clicked
+2026-05-05 15:08:14,989 - INFO -   ✓ Field added successfully: State
+
+2026-05-05 15:08:15,989 - INFO -   Adding field: [Dealer] -> Address
+2026-05-05 15:08:18,524 - INFO -     → User Type selected: Dealer
+2026-05-05 15:08:38,858 - INFO -     → System Data Point selected: Address
+2026-05-05 15:08:38,936 - INFO -     → Mandatory toggle enabled
+2026-05-05 15:08:39,198 - INFO -     → Integrate Now clicked
+2026-05-05 15:08:42,227 - INFO -   ✓ Field added successfully: Address
+
+2026-05-05 15:08:43,229 - INFO - ============================================================
+2026-05-05 15:08:43,233 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-05 15:08:43,402 - INFO - Browser closed
+2026-05-05 15:08:43,402 - INFO - 
+Task finished at 2026-05-05 15:08:43
+2026-05-05 15:08:43,402 - INFO - Log: automation/logs/full_automation_20260505_144635.log
+
+2026-05-05 15:10:52,922 - INFO - User selected: Brand Setting
+2026-05-05 15:13:38,094 - INFO -   Found logo asset: logo.png
+2026-05-05 15:13:38,094 - INFO -   Found splash asset: splash.png
+2026-05-05 15:13:38,095 - INFO - ============================================================
+2026-05-05 15:13:38,095 - INFO - BRAND SETTING — Image Processing
+2026-05-05 15:13:38,095 - INFO - ============================================================
+2026-05-05 15:13:38,180 - INFO - ✓ Logo  → logo_processed.jpg  |  42.3 KB  |  JPEG q95
+2026-05-05 15:13:38,225 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-05 15:13:39,225 - INFO - ✓ Splash → splash_processed.png  |  0.81 MB  |  PNG lossless
+2026-05-05 15:13:39,226 - INFO - 
+2026-05-05 15:13:39,226 - INFO - Extracting brand colours from logo...
+2026-05-05 15:13:39,727 - INFO -   Colours extracted from logo:
+2026-05-05 15:13:39,727 - INFO -     Header Color     →  #D02010  (dominant logo colour)
+2026-05-05 15:13:39,727 - INFO -     Background Color →  #87140A  (35% darker)
+2026-05-05 15:13:39,727 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-05 15:13:39,727 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-05 15:13:39,752 - INFO - ✓ Both images ready
+
+2026-05-05 15:13:39,753 - INFO - ============================================================
+2026-05-05 15:13:39,753 - INFO - BRAND SETTING — Browser Automation
+2026-05-05 15:13:39,753 - INFO - ============================================================
+2026-05-05 15:13:40,167 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-05 15:13:41,427 - INFO - ✓ Chrome driver initialized
+2026-05-05 15:13:41,427 - INFO - Opening login page...
+2026-05-05 15:13:43,591 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-05 15:13:44,956 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-05 15:13:45,045 - INFO - ✓ Login successful
+2026-05-05 15:13:47,045 - INFO - Going to App Settings...
+2026-05-05 15:13:53,575 - INFO -   → Identity & Branding section opened
+2026-05-05 15:13:55,766 - INFO -   → Edit Branding popup opened
+2026-05-05 15:13:55,807 - INFO - ✓ Brand setting form is ready
+2026-05-05 15:13:55,808 - INFO -   Setting company name: Ambica Cable
+2026-05-05 15:13:56,704 - INFO -     → HeaderColor: #D02010
+2026-05-05 15:13:57,465 - INFO -     → FooterColor: #F5F5F5
+2026-05-05 15:13:58,161 - INFO -     → BodyColor: #FFFFFF
+2026-05-05 15:13:58,823 - INFO -     → BackgroundColor: #87140A
+2026-05-05 15:14:00,876 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-05 15:14:02,944 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-05 15:14:03,106 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-05 15:14:06,120 - INFO - ✓ Brand settings saved successfully!
+2026-05-05 15:14:06,277 - INFO - Browser closed
+2026-05-05 15:14:06,277 - INFO - 
+Task finished at 2026-05-05 15:14:06
+2026-05-05 15:14:06,277 - INFO - Log: automation/logs/full_automation_20260505_144635.log
+

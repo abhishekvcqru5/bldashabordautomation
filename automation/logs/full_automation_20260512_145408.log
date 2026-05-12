@@ -1,0 +1,564 @@
+2026-05-12 14:54:33,717 - INFO - User selected: Dashboard Icons
+2026-05-12 14:54:33,717 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-12 14:54:33,718 - INFO - Automation started at 2026-05-12 14:54:33
+
+2026-05-12 14:54:33,718 - INFO - ============================================================
+2026-05-12 14:54:33,718 - INFO - STEP 1: Processing and Compressing Images
+2026-05-12 14:54:33,718 - INFO - ============================================================
+2026-05-12 14:54:33,718 - INFO - Processing images from: dashboardicons
+2026-05-12 14:54:33,718 - INFO - Output folder: automation/processed_images
+2026-05-12 14:54:33,718 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-12 14:54:33,794 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-12 14:54:33,804 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-12 14:54:33,828 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-12 14:54:33,857 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-12 14:54:33,866 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-12 14:54:33,883 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-12 14:54:33,894 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-12 14:54:33,903 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-12 14:54:33,923 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-12 14:54:33,936 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-12 14:54:33,957 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-12 14:54:33,971 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-12 14:54:33,989 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-12 14:54:34,000 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-12 14:54:34,000 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-12 14:54:34,000 - INFO - ✓ 14 images processed and ready
+
+2026-05-12 14:54:34,001 - INFO - ============================================================
+2026-05-12 14:54:34,001 - INFO - STEP 2: Preparing Authentication
+2026-05-12 14:54:34,001 - INFO - ============================================================
+2026-05-12 14:54:34,001 - INFO - Using email: industriessurbhi85@gmail.com
+2026-05-12 14:54:34,001 - INFO - ✓ Credentials loaded
+
+2026-05-12 14:54:34,002 - INFO - ============================================================
+2026-05-12 14:54:34,002 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-12 14:54:34,002 - INFO - ============================================================
+2026-05-12 14:54:34,492 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 14:54:35,626 - INFO - ✓ Chrome driver initialized
+2026-05-12 14:54:35,626 - INFO - 
+→ Attempting login...
+
+2026-05-12 14:54:35,627 - INFO - Opening login page...
+2026-05-12 14:54:37,237 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 14:54:37,777 - INFO - ✓ Login successful
+2026-05-12 14:54:39,778 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-12 14:54:39,778 - INFO - Navigating to App Settings...
+2026-05-12 14:54:46,297 - INFO - ✓ Dashboard Icons section loaded
+2026-05-12 14:54:48,299 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-12 14:54:48,299 - INFO - Starting batch – 12 configured entries
+2026-05-12 14:54:51,825 - INFO -   Found 0 user types: []
+2026-05-12 14:54:51,825 - INFO - Available user types: []
+2026-05-12 14:54:51,826 - INFO - Total icons to upload after expansion: 0
+2026-05-12 14:54:51,826 - INFO - ============================================================
+2026-05-12 14:54:51,826 - INFO - ============================================================
+2026-05-12 14:54:51,827 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-05-12 14:54:51,827 - INFO - 
+============================================================
+2026-05-12 14:54:51,827 - INFO - AUTOMATION SUMMARY
+2026-05-12 14:54:51,827 - INFO - ============================================================
+2026-05-12 14:54:51,827 - INFO - ✓ Successful uploads: 0
+2026-05-12 14:54:51,828 - INFO - ✗ Failed uploads: 0
+2026-05-12 14:54:51,828 - INFO - Total processed: 12
+2026-05-12 14:54:51,828 - INFO - Success rate: 0.0%
+2026-05-12 14:54:51,828 - INFO - ============================================================
+2026-05-12 14:54:52,017 - INFO - Browser closed
+2026-05-12 14:54:52,017 - INFO - 
+Task finished at 2026-05-12 14:54:52
+2026-05-12 14:54:52,017 - INFO - Log: automation/logs/full_automation_20260512_145408.log
+
+2026-05-12 14:57:05,801 - INFO - User selected: Dashboard Icons
+2026-05-12 14:57:05,802 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-12 14:57:05,803 - INFO - Automation started at 2026-05-12 14:57:05
+
+2026-05-12 14:57:05,803 - INFO - ============================================================
+2026-05-12 14:57:05,803 - INFO - STEP 1: Processing and Compressing Images
+2026-05-12 14:57:05,803 - INFO - ============================================================
+2026-05-12 14:57:05,804 - INFO - Processing images from: dashboardicons
+2026-05-12 14:57:05,804 - INFO - Output folder: automation/processed_images
+2026-05-12 14:57:05,804 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-12 14:57:05,818 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-12 14:57:05,826 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-12 14:57:05,846 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-12 14:57:05,871 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-12 14:57:05,880 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-12 14:57:05,898 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-12 14:57:05,912 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-12 14:57:05,922 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-12 14:57:05,943 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-12 14:57:05,950 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-12 14:57:05,973 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-12 14:57:05,996 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-12 14:57:06,014 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-12 14:57:06,034 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-12 14:57:06,036 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-12 14:57:06,037 - INFO - ✓ 14 images processed and ready
+
+2026-05-12 14:57:06,037 - INFO - ============================================================
+2026-05-12 14:57:06,037 - INFO - STEP 2: Preparing Authentication
+2026-05-12 14:57:06,037 - INFO - ============================================================
+2026-05-12 14:57:06,037 - INFO - Using email: industriessurbhi85@gmail.com
+2026-05-12 14:57:06,038 - INFO - ✓ Credentials loaded
+
+2026-05-12 14:57:06,038 - INFO - ============================================================
+2026-05-12 14:57:06,038 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-12 14:57:06,038 - INFO - ============================================================
+2026-05-12 14:57:06,554 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 14:57:07,801 - INFO - ✓ Chrome driver initialized
+2026-05-12 14:57:07,801 - INFO - 
+→ Attempting login...
+
+2026-05-12 14:57:07,801 - INFO - Opening login page...
+2026-05-12 14:57:10,878 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 14:57:17,019 - INFO - ✓ Login successful
+2026-05-12 14:57:19,019 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-12 14:57:19,020 - INFO - Navigating to App Settings...
+2026-05-12 14:57:25,500 - INFO - ✓ Dashboard Icons section loaded
+2026-05-12 14:57:27,502 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-12 14:57:27,502 - INFO - Starting batch – 12 configured entries
+2026-05-12 14:57:31,110 - INFO -   Found 1 user types: ['PAINTERS']
+2026-05-12 14:57:31,110 - INFO - Available user types: ['PAINTERS']
+2026-05-12 14:57:31,111 - INFO - Total icons to upload after expansion: 12
+2026-05-12 14:57:31,111 - INFO - ============================================================
+2026-05-12 14:57:31,111 - INFO - [1/12]
+2026-05-12 14:57:31,112 - INFO -   Adding: [PAINTERS] Gift  (gift)
+2026-05-12 14:57:33,588 - INFO -     → User type: PAINTERS
+2026-05-12 14:57:33,680 - INFO -     → Icon identity: gift
+2026-05-12 14:57:33,833 - INFO -     → Display title: Gift
+2026-05-12 14:57:33,871 - INFO -     → Toggle: both
+2026-05-12 14:57:35,933 - INFO -     → Image uploaded: Gift.png
+2026-05-12 14:57:36,098 - INFO -     → Form submitted
+2026-05-12 14:57:37,127 - INFO -   ✓ Icon added: Gift
+
+2026-05-12 14:57:38,128 - INFO - [2/12]
+2026-05-12 14:57:38,128 - INFO -   Adding: [PAINTERS] History  (history)
+2026-05-12 14:57:40,405 - INFO -     → User type: PAINTERS
+2026-05-12 14:57:40,496 - INFO -     → Icon identity: history
+2026-05-12 14:57:40,648 - INFO -     → Display title: History
+2026-05-12 14:57:40,680 - INFO -     → Toggle: both
+2026-05-12 14:57:42,726 - INFO -     → Image uploaded: history.png
+2026-05-12 14:57:42,931 - INFO -     → Form submitted
+2026-05-12 14:57:43,962 - INFO -   ✓ Icon added: History
+
+2026-05-12 14:57:44,962 - INFO - [3/12]
+2026-05-12 14:57:44,963 - INFO -   Adding: [PAINTERS] Wallet  (wallet)
+2026-05-12 14:57:47,237 - INFO -     → User type: PAINTERS
+2026-05-12 14:57:47,325 - INFO -     → Icon identity: wallet
+2026-05-12 14:57:47,460 - INFO -     → Display title: Wallet
+2026-05-12 14:57:47,488 - INFO -     → Toggle: both
+2026-05-12 14:57:49,554 - INFO -     → Image uploaded: wallet.png
+2026-05-12 14:57:49,732 - INFO -     → Form submitted
+2026-05-12 14:57:50,758 - INFO -   ✓ Icon added: Wallet
+
+2026-05-12 14:57:51,759 - INFO - [4/12]
+2026-05-12 14:57:51,759 - INFO -   Adding: [PAINTERS] KYC  (kycdetails)
+2026-05-12 14:57:54,036 - INFO -     → User type: PAINTERS
+2026-05-12 14:57:54,127 - INFO -     → Icon identity: kycdetails
+2026-05-12 14:57:54,264 - INFO -     → Display title: KYC
+2026-05-12 14:57:54,295 - INFO -     → Toggle: both
+2026-05-12 14:57:56,350 - INFO -     → Image uploaded: kyc.png
+2026-05-12 14:57:56,539 - INFO -     → Form submitted
+2026-05-12 14:57:57,559 - INFO -   ✓ Icon added: KYC
+
+2026-05-12 14:57:58,559 - INFO - [5/12]
+2026-05-12 14:57:58,560 - INFO -   Adding: [PAINTERS] Blog  (blog)
+2026-05-12 14:58:00,842 - INFO -     → User type: PAINTERS
+2026-05-12 14:58:00,932 - INFO -     → Icon identity: blog
+2026-05-12 14:58:01,067 - INFO -     → Display title: Blog
+2026-05-12 14:58:01,100 - INFO -     → Toggle: both
+2026-05-12 14:58:03,155 - INFO -     → Image uploaded: blog.png
+2026-05-12 14:58:03,262 - INFO -     → Form submitted
+2026-05-12 14:58:04,290 - INFO -   ✓ Icon added: Blog
+
+2026-05-12 14:58:05,291 - INFO - [6/12]
+2026-05-12 14:58:05,292 - INFO -   Adding: [PAINTERS] Brochure  (brochure)
+2026-05-12 14:58:06,461 - ERROR -   ✗ Failed to add [Brochure]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5831552f63ea <unknown>
+#1 0x583154d06845 <unknown>
+#2 0x583154d5fd7b <unknown>
+#3 0x583154d5d9b2 <unknown>
+#4 0x583154d5aec9 <unknown>
+#5 0x583154d59fc7 <unknown>
+#6 0x583154d4e0b2 <unknown>
+#7 0x583154d4d9f8 <unknown>
+#8 0x583154da1175 <unknown>
+#9 0x583154d4c204 <unknown>
+#10 0x583154d4cfc1 <unknown>
+#11 0x5831552b99cb <unknown>
+#12 0x5831552bcc93 <unknown>
+#13 0x5831552a765c <unknown>
+#14 0x5831552bd429 <unknown>
+#15 0x58315528f9d7 <unknown>
+#16 0x5831552e3c08 <unknown>
+#17 0x5831552e3e33 <unknown>
+#18 0x5831552f4df7 <unknown>
+#19 0x7d8e2529caa4 <unknown>
+#20 0x7d8e25329c6c <unknown>
+
+2026-05-12 14:58:06,692 - INFO -   📸 Screenshot saved: automation/screenshots/error_Brochure_20260512_145806.png
+2026-05-12 14:58:07,708 - INFO - [7/12]
+2026-05-12 14:58:07,708 - INFO -   Adding: [PAINTERS] Claim History  (claimhistory)
+2026-05-12 14:58:10,066 - INFO -     → User type: PAINTERS
+2026-05-12 14:58:10,148 - INFO -     → Icon identity: claimhistory
+2026-05-12 14:58:10,293 - INFO -     → Display title: Claim History
+2026-05-12 14:58:10,333 - INFO -     → Toggle: both
+2026-05-12 14:58:12,384 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-12 14:58:12,560 - INFO -     → Form submitted
+2026-05-12 14:58:13,583 - INFO -   ✓ Icon added: Claim History
+
+2026-05-12 14:58:14,584 - INFO - [8/12]
+2026-05-12 14:58:14,584 - INFO -   Adding: [PAINTERS] Language  (chooselanguage)
+2026-05-12 14:58:15,797 - ERROR -   ✗ Failed to add [Language]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5831552f63ea <unknown>
+#1 0x583154d06845 <unknown>
+#2 0x583154d5fd7b <unknown>
+#3 0x583154d5d9b2 <unknown>
+#4 0x583154d5aec9 <unknown>
+#5 0x583154d59fc7 <unknown>
+#6 0x583154d4e0b2 <unknown>
+#7 0x583154d4d9f8 <unknown>
+#8 0x583154da1175 <unknown>
+#9 0x583154d4c204 <unknown>
+#10 0x583154d4cfc1 <unknown>
+#11 0x5831552b99cb <unknown>
+#12 0x5831552bcc93 <unknown>
+#13 0x5831552a765c <unknown>
+#14 0x5831552bd429 <unknown>
+#15 0x58315528f9d7 <unknown>
+#16 0x5831552e3c08 <unknown>
+#17 0x5831552e3e33 <unknown>
+#18 0x5831552f4df7 <unknown>
+#19 0x7d8e2529caa4 <unknown>
+#20 0x7d8e25329c6c <unknown>
+
+2026-05-12 14:58:16,026 - INFO -   📸 Screenshot saved: automation/screenshots/error_Language_20260512_145815.png
+2026-05-12 14:58:17,039 - INFO - [9/12]
+2026-05-12 14:58:17,039 - INFO -   Adding: [PAINTERS] Code Details  (codedetails)
+2026-05-12 14:58:19,599 - INFO -     → User type: PAINTERS
+2026-05-12 14:58:19,697 - INFO -     → Icon identity: codedetails
+2026-05-12 14:58:19,839 - INFO -     → Display title: Code Details
+2026-05-12 14:58:19,872 - INFO -     → Toggle: both
+2026-05-12 14:58:21,923 - INFO -     → Image uploaded: codedetails.png
+2026-05-12 14:58:22,089 - INFO -     → Form submitted
+2026-05-12 14:58:23,098 - INFO -   ✓ Icon added: Code Details
+
+2026-05-12 14:58:24,099 - INFO - [10/12]
+2026-05-12 14:58:24,099 - INFO -   Adding: [PAINTERS] Help  (help)
+2026-05-12 14:58:25,253 - ERROR -   ✗ Failed to add [Help]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5831552f63ea <unknown>
+#1 0x583154d06845 <unknown>
+#2 0x583154d5fd7b <unknown>
+#3 0x583154d5d9b2 <unknown>
+#4 0x583154d5aec9 <unknown>
+#5 0x583154d59fc7 <unknown>
+#6 0x583154d4e0b2 <unknown>
+#7 0x583154d4d9f8 <unknown>
+#8 0x583154da1175 <unknown>
+#9 0x583154d4c204 <unknown>
+#10 0x583154d4cfc1 <unknown>
+#11 0x5831552b99cb <unknown>
+#12 0x5831552bcc93 <unknown>
+#13 0x5831552a765c <unknown>
+#14 0x5831552bd429 <unknown>
+#15 0x58315528f9d7 <unknown>
+#16 0x5831552e3c08 <unknown>
+#17 0x5831552e3e33 <unknown>
+#18 0x5831552f4df7 <unknown>
+#19 0x7d8e2529caa4 <unknown>
+#20 0x7d8e25329c6c <unknown>
+
+2026-05-12 14:58:25,448 - INFO -   📸 Screenshot saved: automation/screenshots/error_Help_20260512_145825.png
+2026-05-12 14:58:26,461 - INFO - [11/12]
+2026-05-12 14:58:26,461 - INFO -   Adding: [PAINTERS] Refer & Earn  (referandearn)
+2026-05-12 14:58:28,921 - INFO -     → User type: PAINTERS
+2026-05-12 14:58:29,014 - INFO -     → Icon identity: referandearn
+2026-05-12 14:58:29,176 - INFO -     → Display title: Refer & Earn
+2026-05-12 14:58:29,200 - INFO -     → Toggle: both
+2026-05-12 14:58:31,258 - INFO -     → Image uploaded: referandearn.png
+2026-05-12 14:58:31,431 - INFO -     → Form submitted
+2026-05-12 14:58:32,451 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-12 14:58:33,452 - INFO - [12/12]
+2026-05-12 14:58:33,452 - INFO -   Adding: [PAINTERS] E-Commerce  (productcatalogue)
+2026-05-12 14:58:34,604 - ERROR -   ✗ Failed to add [E-Commerce]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5831552f63ea <unknown>
+#1 0x583154d06845 <unknown>
+#2 0x583154d5fd7b <unknown>
+#3 0x583154d5d9b2 <unknown>
+#4 0x583154d5aec9 <unknown>
+#5 0x583154d59fc7 <unknown>
+#6 0x583154d4e0b2 <unknown>
+#7 0x583154d4d9f8 <unknown>
+#8 0x583154da1175 <unknown>
+#9 0x583154d4c204 <unknown>
+#10 0x583154d4cfc1 <unknown>
+#11 0x5831552b99cb <unknown>
+#12 0x5831552bcc93 <unknown>
+#13 0x5831552a765c <unknown>
+#14 0x5831552bd429 <unknown>
+#15 0x58315528f9d7 <unknown>
+#16 0x5831552e3c08 <unknown>
+#17 0x5831552e3e33 <unknown>
+#18 0x5831552f4df7 <unknown>
+#19 0x7d8e2529caa4 <unknown>
+#20 0x7d8e25329c6c <unknown>
+
+2026-05-12 14:58:34,848 - INFO -   📸 Screenshot saved: automation/screenshots/error_E-Commerce_20260512_145834.png
+2026-05-12 14:58:35,864 - INFO - ============================================================
+2026-05-12 14:58:35,865 - INFO - Batch complete → ✓ 8 succeeded  ✗ 4 failed
+2026-05-12 14:58:35,865 - INFO - 
+============================================================
+2026-05-12 14:58:35,866 - INFO - AUTOMATION SUMMARY
+2026-05-12 14:58:35,866 - INFO - ============================================================
+2026-05-12 14:58:35,867 - INFO - ✓ Successful uploads: 8
+2026-05-12 14:58:35,867 - INFO - ✗ Failed uploads: 4
+2026-05-12 14:58:35,867 - INFO - Total processed: 12
+2026-05-12 14:58:35,868 - INFO - Success rate: 66.7%
+2026-05-12 14:58:35,868 - INFO - ============================================================
+2026-05-12 14:58:36,054 - INFO - Browser closed
+2026-05-12 14:58:36,054 - INFO - 
+Task finished at 2026-05-12 14:58:36
+2026-05-12 14:58:36,054 - INFO - Log: automation/logs/full_automation_20260512_145408.log
+
+2026-05-12 14:58:39,537 - INFO - User selected: Brand Setting
+2026-05-12 14:58:43,197 - INFO -   Found logo asset: logo.png
+2026-05-12 14:58:43,197 - INFO -   Found splash asset: splash.png
+2026-05-12 14:58:43,197 - INFO - ============================================================
+2026-05-12 14:58:43,197 - INFO - BRAND SETTING — Image Processing
+2026-05-12 14:58:43,197 - INFO - ============================================================
+2026-05-12 14:58:43,222 - INFO - ✓ Logo  → logo_processed.jpg  |  36.9 KB  |  JPEG q95
+2026-05-12 14:58:43,346 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-12 14:58:44,069 - INFO - ✓ Splash → splash_processed.png  |  0.85 MB  |  PNG lossless
+2026-05-12 14:58:44,070 - INFO - 
+2026-05-12 14:58:44,070 - INFO - Extracting brand colours from logo...
+2026-05-12 14:58:44,235 - INFO -   Colours extracted from logo:
+2026-05-12 14:58:44,236 - INFO -     Header Color     →  #F01010  (dominant logo colour)
+2026-05-12 14:58:44,236 - INFO -     Background Color →  #9C0A0A  (35% darker)
+2026-05-12 14:58:44,236 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-12 14:58:44,236 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-12 14:58:44,243 - INFO - ✓ Both images ready
+
+2026-05-12 14:58:44,243 - INFO - ============================================================
+2026-05-12 14:58:44,243 - INFO - BRAND SETTING — Browser Automation
+2026-05-12 14:58:44,243 - INFO - ============================================================
+2026-05-12 14:58:44,661 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 14:58:45,773 - INFO - ✓ Chrome driver initialized
+2026-05-12 14:58:45,773 - INFO - Opening login page...
+2026-05-12 14:58:47,900 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 14:58:48,534 - INFO - ✓ Login successful
+2026-05-12 14:58:50,535 - INFO - Going to App Settings...
+2026-05-12 14:58:56,967 - INFO -   → Identity & Branding section opened
+2026-05-12 14:58:59,167 - INFO -   → Edit Branding popup opened
+2026-05-12 14:58:59,207 - INFO - ✓ Brand setting form is ready
+2026-05-12 14:58:59,208 - INFO -   Setting company name: Surbhi
+2026-05-12 14:59:00,084 - INFO -     → HeaderColor: #F01010
+2026-05-12 14:59:00,754 - INFO -     → FooterColor: #F5F5F5
+2026-05-12 14:59:01,431 - INFO -     → BodyColor: #FFFFFF
+2026-05-12 14:59:02,098 - INFO -     → BackgroundColor: #9C0A0A
+2026-05-12 14:59:04,150 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-12 14:59:06,216 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-12 14:59:06,413 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-12 14:59:09,439 - INFO - ✓ Brand settings saved successfully!
+2026-05-12 14:59:09,633 - INFO - Browser closed
+2026-05-12 14:59:09,633 - INFO - 
+Task finished at 2026-05-12 14:59:09
+2026-05-12 14:59:09,634 - INFO - Log: automation/logs/full_automation_20260512_145408.log
+
+2026-05-12 14:59:17,080 - INFO - User selected: Intro Screens
+2026-05-12 14:59:17,080 - INFO - ============================================================
+2026-05-12 14:59:17,081 - INFO - INTRO SCREENS — Image Processing
+2026-05-12 14:59:17,081 - INFO - ============================================================
+2026-05-12 14:59:17,081 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-12 14:59:17,087 - INFO -   ⚙ Processing vcqruslide1.jpeg  (731×1300 → need 1080×1920)
+2026-05-12 14:59:17,282 - INFO -   ✓ vcqruslide1.jpeg  →  vcqruslide1_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-12 14:59:17,284 - INFO -   ✓ vcqruslide22.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-05-12 14:59:17,420 - INFO -   ✓ vcqruslide333.jpeg  →  Already OK (1080×1920, 0.45 MB)
+2026-05-12 14:59:17,550 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-12 14:59:19,247 - INFO - ============================================================
+2026-05-12 14:59:19,247 - INFO - INTRO SCREENS — Browser Automation
+2026-05-12 14:59:19,248 - INFO - ============================================================
+2026-05-12 14:59:19,635 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 14:59:20,771 - INFO - ✓ Chrome driver initialized
+2026-05-12 14:59:20,771 - INFO - Opening login page...
+2026-05-12 14:59:22,491 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 14:59:23,070 - INFO - ✓ Login successful
+2026-05-12 14:59:25,070 - INFO - Going to App Settings...
+2026-05-12 14:59:31,531 - INFO -   → Intro Screens section opened
+2026-05-12 14:59:31,575 - INFO - ✓ Intro Screens page ready
+2026-05-12 14:59:31,575 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-12 14:59:31,575 - INFO - ============================================================
+2026-05-12 14:59:31,575 - INFO - [1/3]
+2026-05-12 14:59:31,575 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-12 14:59:34,080 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-12 14:59:34,694 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-12 14:59:36,769 - INFO -     → Image uploaded: vcqruslide1_processed.jpg
+2026-05-12 14:59:36,970 - INFO -     → Launch Screen clicked
+2026-05-12 14:59:40,999 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-12 14:59:41,999 - INFO - [2/3]
+2026-05-12 14:59:42,000 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-12 14:59:44,444 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-12 14:59:45,101 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-12 14:59:47,158 - INFO -     → Image uploaded: vcqruslide22_processed.jpg
+2026-05-12 14:59:47,352 - INFO -     → Launch Screen clicked
+2026-05-12 14:59:51,377 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-12 14:59:52,378 - INFO - [3/3]
+2026-05-12 14:59:52,378 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-12 14:59:54,836 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-12 14:59:55,440 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-12 14:59:57,489 - INFO -     → Image uploaded: vcqruslide333_processed.jpg
+2026-05-12 14:59:57,678 - INFO -     → Launch Screen clicked
+2026-05-12 15:00:01,711 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-12 15:00:02,712 - INFO - ============================================================
+2026-05-12 15:00:02,712 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-12 15:00:02,868 - INFO - Browser closed
+2026-05-12 15:00:02,868 - INFO - 
+Task finished at 2026-05-12 15:00:02
+2026-05-12 15:00:02,868 - INFO - Log: automation/logs/full_automation_20260512_145408.log
+
+2026-05-12 15:00:07,852 - INFO - User selected: Promotion Banners
+2026-05-12 15:00:07,853 - INFO - ============================================================
+2026-05-12 15:00:07,853 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-12 15:00:07,853 - INFO - ============================================================
+2026-05-12 15:00:07,854 - INFO - Found 2 banner image(s) in banner/
+2026-05-12 15:00:07,860 - INFO -   ⚙ Processing 539f4dd7-8dea-4824-9f60-916fa252a2ce.png  (size 1672×941 → need 1920×1080)
+2026-05-12 15:00:08,098 - INFO -   ✓ 539f4dd7-8dea-4824-9f60-916fa252a2ce.png  →  539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-12 15:00:08,100 - INFO -   ⚙ Processing vcqrubanne.jpeg  (size 1200×675 → need 1920×1080)
+2026-05-12 15:00:08,242 - INFO -   ✓ vcqrubanne.jpeg  →  vcqrubanne_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-12 15:00:08,243 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-12 15:00:08,243 - INFO - ============================================================
+2026-05-12 15:00:08,243 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-12 15:00:08,244 - INFO - ============================================================
+2026-05-12 15:00:08,635 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 15:00:09,620 - INFO - ✓ Chrome driver initialized
+2026-05-12 15:00:09,620 - INFO - Opening login page...
+2026-05-12 15:00:11,296 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 15:00:12,877 - INFO - ✓ Login successful
+2026-05-12 15:00:14,877 - INFO - Going to App Settings...
+2026-05-12 15:00:21,725 - INFO -   → Promotion Banners section opened
+2026-05-12 15:00:21,766 - INFO - ✓ Promotion Banners page ready
+2026-05-12 15:00:21,767 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-12 15:00:21,767 - INFO - ============================================================
+2026-05-12 15:00:21,767 - INFO - [1/2]
+2026-05-12 15:00:21,767 - INFO -   Publishing: [539f4dd7-8dea-4824-9f60-916fa252a2ce]  (539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg)
+2026-05-12 15:00:24,232 - INFO -     → Title entered: 539f4dd7-8dea-4824-9f60-916fa252a2ce
+2026-05-12 15:00:26,288 - INFO -     → Image uploaded: 539f4dd7-8dea-4824-9f60-916fa252a2ce_processed.jpg
+2026-05-12 15:00:26,483 - INFO -     → Publish Banner clicked
+2026-05-12 15:00:30,515 - INFO -   ✓ Banner published: 539f4dd7-8dea-4824-9f60-916fa252a2ce
+
+2026-05-12 15:00:31,516 - INFO - [2/2]
+2026-05-12 15:00:31,516 - INFO -   Publishing: [vcqrubanne]  (vcqrubanne_processed.jpg)
+2026-05-12 15:00:33,857 - INFO -     → Title entered: vcqrubanne
+2026-05-12 15:00:35,897 - INFO -     → Image uploaded: vcqrubanne_processed.jpg
+2026-05-12 15:00:36,074 - INFO -     → Publish Banner clicked
+2026-05-12 15:00:40,103 - INFO -   ✓ Banner published: vcqrubanne
+
+2026-05-12 15:00:41,103 - INFO - ============================================================
+2026-05-12 15:00:41,104 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-12 15:00:41,258 - INFO - Browser closed
+2026-05-12 15:00:41,258 - INFO - 
+Task finished at 2026-05-12 15:00:41
+2026-05-12 15:00:41,258 - INFO - Log: automation/logs/full_automation_20260512_145408.log
+
+2026-05-12 15:07:04,715 - INFO - User selected: Registration Fields
+2026-05-12 15:07:04,715 - INFO - ============================================================
+2026-05-12 15:07:04,715 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-12 15:07:04,715 - INFO - ============================================================
+2026-05-12 15:07:05,099 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-12 15:07:06,112 - INFO - ✓ Chrome driver initialized
+2026-05-12 15:07:06,113 - INFO - Opening login page...
+2026-05-12 15:07:27,552 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-12 15:07:28,123 - INFO - ✓ Login successful
+2026-05-12 15:07:30,123 - INFO - Going to App Settings...
+2026-05-12 15:07:36,588 - INFO -   → Registration Field section opened
+2026-05-12 15:07:36,629 - INFO - ✓ Registration Fields page ready
+2026-05-12 15:07:40,218 - INFO - Found 1 user types: ['Painters']
+2026-05-12 15:07:40,219 - INFO - Starting registration fields automation: 6 fields total
+2026-05-12 15:07:40,219 - INFO - ============================================================
+2026-05-12 15:07:40,219 - INFO - Processing User Type: Painters
+2026-05-12 15:07:40,220 - INFO -   Adding field: [Painters] -> First Name
+2026-05-12 15:07:42,736 - INFO -     → User Type selected: Painters
+2026-05-12 15:08:03,157 - INFO -     → System Data Point selected: First Name
+2026-05-12 15:08:03,217 - INFO -     → Mandatory toggle enabled
+2026-05-12 15:08:03,350 - INFO -     → Integrate Now clicked
+2026-05-12 15:08:06,378 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-12 15:08:07,378 - INFO -   Adding field: [Painters] -> Phone Number
+2026-05-12 15:08:09,806 - INFO -     → User Type selected: Painters
+2026-05-12 15:08:29,929 - INFO -     → System Data Point selected: Phone Number
+2026-05-12 15:08:29,970 - INFO -     → Mandatory toggle enabled
+2026-05-12 15:08:30,182 - INFO -     → Integrate Now clicked
+2026-05-12 15:08:33,209 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-12 15:08:34,209 - INFO -   Adding field: [Painters] -> Pincode
+2026-05-12 15:08:36,560 - INFO -     → User Type selected: Painters
+2026-05-12 15:08:57,115 - INFO -     → System Data Point selected: Pincode
+2026-05-12 15:08:57,301 - INFO -     → Mandatory toggle enabled
+2026-05-12 15:08:57,994 - INFO -     → Integrate Now clicked
+2026-05-12 15:09:01,019 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-12 15:09:02,021 - INFO -   Adding field: [Painters] -> City
+2026-05-12 15:09:04,669 - INFO -     → User Type selected: Painters
+2026-05-12 15:09:25,440 - INFO -     → System Data Point selected: City
+2026-05-12 15:09:25,546 - INFO -     → Mandatory toggle enabled
+2026-05-12 15:09:25,793 - INFO -     → Integrate Now clicked
+2026-05-12 15:09:28,840 - INFO -   ✓ Field added successfully: City
+
+2026-05-12 15:09:29,843 - INFO -   Adding field: [Painters] -> State
+2026-05-12 15:09:32,539 - INFO -     → User Type selected: Painters
+2026-05-12 15:09:52,822 - INFO -     → System Data Point selected: State
+2026-05-12 15:09:52,866 - INFO -     → Mandatory toggle enabled
+2026-05-12 15:09:53,010 - INFO -     → Integrate Now clicked
+2026-05-12 15:09:56,041 - INFO -   ✓ Field added successfully: State
+
+2026-05-12 15:09:57,041 - INFO -   Adding field: [Painters] -> Address
+2026-05-12 15:09:59,327 - INFO -     → User Type selected: Painters
+2026-05-12 15:10:20,145 - INFO -     → System Data Point selected: Address
+2026-05-12 15:10:20,258 - INFO -     → Mandatory toggle enabled
+2026-05-12 15:10:20,514 - INFO -     → Integrate Now clicked
+2026-05-12 15:10:23,530 - INFO -   ✓ Field added successfully: Address
+
+2026-05-12 15:10:24,530 - INFO - ============================================================
+2026-05-12 15:10:24,531 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-05-12 15:10:24,646 - INFO - Browser closed
+2026-05-12 15:10:24,646 - INFO - 
+Task finished at 2026-05-12 15:10:24
+2026-05-12 15:10:24,646 - INFO - Log: automation/logs/full_automation_20260512_145408.log
+

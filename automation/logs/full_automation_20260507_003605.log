@@ -1,0 +1,251 @@
+2026-05-07 00:36:20,374 - INFO - User selected: Registration Fields
+2026-05-07 00:36:20,375 - INFO - ============================================================
+2026-05-07 00:36:20,375 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-07 00:36:20,375 - INFO - ============================================================
+2026-05-07 00:36:21,167 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:36:22,622 - INFO - ✓ Chrome driver initialized
+2026-05-07 00:36:22,622 - INFO - Opening login page...
+2026-05-07 00:36:24,402 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 00:36:26,400 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-07 00:36:26,539 - INFO - ✓ Login successful
+2026-05-07 00:36:28,542 - INFO - Going to App Settings...
+2026-05-07 00:36:35,176 - INFO -   → Registration Field section opened
+2026-05-07 00:36:35,217 - INFO - ✓ Registration Fields page ready
+2026-05-07 00:36:38,833 - INFO - Found 2 user types: ['Retailer', 'Mechanic']
+2026-05-07 00:36:38,834 - INFO - Starting registration fields automation: 12 fields total
+2026-05-07 00:36:38,834 - INFO - ============================================================
+2026-05-07 00:36:38,834 - INFO - Processing User Type: Retailer
+2026-05-07 00:36:38,835 - INFO -   Adding field: [Retailer] -> First Name
+2026-05-07 00:36:41,283 - INFO -     → User Type selected: Retailer
+2026-05-07 00:37:01,593 - INFO -     → System Data Point selected: First Name
+2026-05-07 00:37:01,647 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:37:01,918 - INFO -     → Integrate Now clicked
+2026-05-07 00:37:04,946 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-07 00:37:05,946 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-05-07 00:37:08,367 - INFO -     → User Type selected: Retailer
+2026-05-07 00:37:29,082 - INFO -     → System Data Point selected: Phone Number
+2026-05-07 00:37:29,117 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:37:29,244 - INFO -     → Integrate Now clicked
+2026-05-07 00:37:32,265 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-07 00:37:33,266 - INFO -   Adding field: [Retailer] -> Pincode
+2026-05-07 00:37:35,665 - INFO -     → User Type selected: Retailer
+2026-05-07 00:37:56,310 - INFO -     → System Data Point selected: Pincode
+2026-05-07 00:37:56,342 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:37:56,464 - INFO -     → Integrate Now clicked
+2026-05-07 00:37:59,545 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-07 00:38:00,547 - INFO -   Adding field: [Retailer] -> City
+2026-05-07 00:38:03,803 - INFO -     → User Type selected: Retailer
+2026-05-07 00:38:24,118 - INFO -     → System Data Point selected: City
+2026-05-07 00:38:24,149 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:38:24,269 - INFO -     → Integrate Now clicked
+2026-05-07 00:38:27,283 - INFO -   ✓ Field added successfully: City
+
+2026-05-07 00:38:28,283 - INFO -   Adding field: [Retailer] -> State
+2026-05-07 00:38:30,601 - INFO -     → User Type selected: Retailer
+2026-05-07 00:38:51,337 - INFO -     → System Data Point selected: State
+2026-05-07 00:38:51,376 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:38:51,504 - INFO -     → Integrate Now clicked
+2026-05-07 00:38:54,515 - INFO -   ✓ Field added successfully: State
+
+2026-05-07 00:38:55,516 - INFO -   Adding field: [Retailer] -> Address
+2026-05-07 00:38:57,837 - INFO -     → User Type selected: Retailer
+2026-05-07 00:39:18,135 - INFO -     → System Data Point selected: Address
+2026-05-07 00:39:18,196 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:39:18,368 - INFO -     → Integrate Now clicked
+2026-05-07 00:39:21,378 - INFO -   ✓ Field added successfully: Address
+
+2026-05-07 00:39:22,378 - INFO - Processing User Type: Mechanic
+2026-05-07 00:39:22,378 - INFO -   Adding field: [Mechanic] -> First Name
+2026-05-07 00:39:24,613 - INFO -     → User Type selected: Mechanic
+2026-05-07 00:39:45,120 - INFO -     → System Data Point selected: First Name
+2026-05-07 00:39:45,149 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:39:45,277 - INFO -     → Integrate Now clicked
+2026-05-07 00:39:48,289 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-07 00:39:49,290 - INFO -   Adding field: [Mechanic] -> Phone Number
+2026-05-07 00:39:51,606 - INFO -     → User Type selected: Mechanic
+2026-05-07 00:40:12,010 - INFO -     → System Data Point selected: Phone Number
+2026-05-07 00:40:12,052 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:40:12,207 - INFO -     → Integrate Now clicked
+2026-05-07 00:40:15,217 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-07 00:40:16,217 - INFO -   Adding field: [Mechanic] -> Pincode
+2026-05-07 00:40:18,647 - INFO -     → User Type selected: Mechanic
+2026-05-07 00:40:39,261 - INFO -     → System Data Point selected: Pincode
+2026-05-07 00:40:39,296 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:40:39,446 - INFO -     → Integrate Now clicked
+2026-05-07 00:40:42,474 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-07 00:40:43,474 - INFO -   Adding field: [Mechanic] -> City
+2026-05-07 00:40:45,905 - INFO -     → User Type selected: Mechanic
+2026-05-07 00:41:06,579 - INFO -     → System Data Point selected: City
+2026-05-07 00:41:06,622 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:41:06,776 - INFO -     → Integrate Now clicked
+2026-05-07 00:41:09,794 - INFO -   ✓ Field added successfully: City
+
+2026-05-07 00:41:10,794 - INFO -   Adding field: [Mechanic] -> State
+2026-05-07 00:41:13,164 - INFO -     → User Type selected: Mechanic
+2026-05-07 00:41:33,445 - INFO -     → System Data Point selected: State
+2026-05-07 00:41:33,498 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:41:33,633 - INFO -     → Integrate Now clicked
+2026-05-07 00:41:36,657 - INFO -   ✓ Field added successfully: State
+
+2026-05-07 00:41:37,658 - INFO -   Adding field: [Mechanic] -> Address
+2026-05-07 00:41:40,119 - INFO -     → User Type selected: Mechanic
+2026-05-07 00:42:00,857 - INFO -     → System Data Point selected: Address
+2026-05-07 00:42:00,942 - INFO -     → Mandatory toggle enabled
+2026-05-07 00:42:01,109 - INFO -     → Integrate Now clicked
+2026-05-07 00:42:04,123 - INFO -   ✓ Field added successfully: Address
+
+2026-05-07 00:42:05,123 - INFO - ============================================================
+2026-05-07 00:42:05,124 - INFO - Registration fields batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-07 00:42:05,358 - INFO - Browser closed
+2026-05-07 00:42:05,358 - INFO - 
+Task finished at 2026-05-07 00:42:05
+2026-05-07 00:42:05,358 - INFO - Log: automation/logs/full_automation_20260507_003605.log
+
+2026-05-07 00:44:01,596 - INFO - User selected: Brand Setting
+2026-05-07 00:44:23,168 - INFO -   Found logo asset: logo.png
+2026-05-07 00:44:23,168 - INFO -   Found splash asset: splash.png
+2026-05-07 00:44:23,168 - INFO - ============================================================
+2026-05-07 00:44:23,169 - INFO - BRAND SETTING — Image Processing
+2026-05-07 00:44:23,169 - INFO - ============================================================
+2026-05-07 00:44:23,213 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-07 00:44:23,304 - INFO - ✓ Logo  → logo_processed.png  |  62.0 KB  |  PNG lossless
+2026-05-07 00:44:23,352 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-07 00:44:25,452 - INFO - ✓ Splash → splash_processed.png  |  0.75 MB  |  PNG lossless
+2026-05-07 00:44:25,452 - INFO - 
+2026-05-07 00:44:25,452 - INFO - Extracting brand colours from logo...
+2026-05-07 00:44:25,461 - INFO -   Colours extracted from logo:
+2026-05-07 00:44:25,461 - INFO -     Header Color     →  #C02070  (dominant logo colour)
+2026-05-07 00:44:25,461 - INFO -     Background Color →  #7C1448  (35% darker)
+2026-05-07 00:44:25,461 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-07 00:44:25,461 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-07 00:44:25,462 - INFO - ✓ Both images ready
+
+2026-05-07 00:44:25,462 - INFO - ============================================================
+2026-05-07 00:44:25,462 - INFO - BRAND SETTING — Browser Automation
+2026-05-07 00:44:25,463 - INFO - ============================================================
+2026-05-07 00:44:25,888 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:44:27,108 - INFO - ✓ Chrome driver initialized
+2026-05-07 00:44:27,108 - INFO - Opening login page...
+2026-05-07 00:44:28,542 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 00:44:29,922 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-07 00:44:29,997 - INFO - ✓ Login successful
+2026-05-07 00:44:31,998 - INFO - Going to App Settings...
+2026-05-07 00:44:38,526 - INFO -   → Identity & Branding section opened
+2026-05-07 00:44:40,707 - INFO -   → Edit Branding popup opened
+2026-05-07 00:44:40,746 - INFO - ✓ Brand setting form is ready
+2026-05-07 00:44:40,747 - INFO -   Setting company name: Hyperlink
+2026-05-07 00:44:41,697 - INFO -     → HeaderColor: #C02070
+2026-05-07 00:44:42,353 - INFO -     → FooterColor: #F5F5F5
+2026-05-07 00:44:43,225 - INFO -     → BodyColor: #FFFFFF
+2026-05-07 00:44:43,884 - INFO -     → BackgroundColor: #7C1448
+2026-05-07 00:44:45,946 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-07 00:44:48,010 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-07 00:44:48,184 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-07 00:44:51,210 - INFO - ✓ Brand settings saved successfully!
+2026-05-07 00:44:51,355 - INFO - Browser closed
+2026-05-07 00:44:51,355 - INFO - 
+Task finished at 2026-05-07 00:44:51
+2026-05-07 00:44:51,355 - INFO - Log: automation/logs/full_automation_20260507_003605.log
+
+2026-05-07 00:49:04,837 - INFO - User selected: Intro Screens
+2026-05-07 00:49:04,837 - INFO - ============================================================
+2026-05-07 00:49:04,837 - INFO - INTRO SCREENS — Image Processing
+2026-05-07 00:49:04,837 - INFO - ============================================================
+2026-05-07 00:49:04,838 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-07 00:49:04,839 - INFO -   ⚙ Processing 3be2bbf1-9151-479e-bbbc-6ee0934c8e06.png  (360×800 → need 1080×1920)
+2026-05-07 00:49:04,992 - INFO -   ✓ 3be2bbf1-9151-479e-bbbc-6ee0934c8e06.png  →  3be2bbf1-9151-479e-bbbc-6ee0934c8e06_processed.jpg  |  1080×1920  |  0.33 MB  |  quality 92
+2026-05-07 00:49:04,994 - INFO -   ⚙ Processing c1162e8a-3f9d-488b-ae7a-dc401cd405bc.png  (360×800 → need 1080×1920)
+2026-05-07 00:49:05,113 - INFO -   ✓ c1162e8a-3f9d-488b-ae7a-dc401cd405bc.png  →  c1162e8a-3f9d-488b-ae7a-dc401cd405bc_processed.jpg  |  1080×1920  |  0.21 MB  |  quality 92
+2026-05-07 00:49:05,115 - INFO -   ⚙ Processing d3da0f37-d5b8-4633-ad6d-75aabdbf4411.png  (360×800 → need 1080×1920)
+2026-05-07 00:49:05,273 - INFO -   ✓ d3da0f37-d5b8-4633-ad6d-75aabdbf4411.png  →  d3da0f37-d5b8-4633-ad6d-75aabdbf4411_processed.jpg  |  1080×1920  |  0.35 MB  |  quality 92
+2026-05-07 00:49:05,275 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-07 00:50:06,512 - INFO - ============================================================
+2026-05-07 00:50:06,513 - INFO - INTRO SCREENS — Browser Automation
+2026-05-07 00:50:06,513 - INFO - ============================================================
+2026-05-07 00:50:06,926 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:50:07,944 - INFO - ✓ Chrome driver initialized
+2026-05-07 00:50:07,944 - INFO - Opening login page...
+2026-05-07 00:50:09,439 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 00:50:10,847 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-07 00:50:10,878 - INFO - ✓ Login successful
+2026-05-07 00:50:12,878 - INFO - Going to App Settings...
+2026-05-07 00:50:19,353 - INFO -   → Intro Screens section opened
+2026-05-07 00:50:19,368 - INFO - ✓ Intro Screens page ready
+2026-05-07 00:50:19,368 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-07 00:50:19,368 - INFO - ============================================================
+2026-05-07 00:50:19,368 - INFO - [1/3]
+2026-05-07 00:50:19,369 - INFO -   Launching screen: [Welcome to the Hyper link App]
+2026-05-07 00:50:21,833 - INFO -     → Header: Welcome to the Hyper link App
+2026-05-07 00:50:22,114 - INFO -     → Description: Signup and earn Rewards on every scan...
+2026-05-07 00:50:24,161 - INFO -     → Image uploaded: 3be2bbf1-9151-479e-bbbc-6ee0934c8e06_processed.jpg
+2026-05-07 00:50:24,346 - INFO -     → Launch Screen clicked
+2026-05-07 00:50:28,374 - INFO -   ✓ Intro screen launched: Welcome to the Hyper link App
+
+2026-05-07 00:50:29,375 - INFO - [2/3]
+2026-05-07 00:50:29,375 - INFO -   Launching screen: [KYC]
+2026-05-07 00:50:31,661 - INFO -     → Header: KYC
+2026-05-07 00:50:31,853 - INFO -     → Description: Complete your KYC,For Seamless Benefits...
+2026-05-07 00:50:33,923 - INFO -     → Image uploaded: c1162e8a-3f9d-488b-ae7a-dc401cd405bc_processed.jpg
+2026-05-07 00:50:34,090 - INFO -     → Launch Screen clicked
+2026-05-07 00:50:38,115 - INFO -   ✓ Intro screen launched: KYC
+
+2026-05-07 00:50:39,115 - INFO - [3/3]
+2026-05-07 00:50:39,116 - INFO -   Launching screen: [Join Now & Unlock Rewards]
+2026-05-07 00:50:41,528 - INFO -     → Header: Join Now & Unlock Rewards
+2026-05-07 00:50:41,790 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes...
+2026-05-07 00:50:43,828 - INFO -     → Image uploaded: d3da0f37-d5b8-4633-ad6d-75aabdbf4411_processed.jpg
+2026-05-07 00:50:43,946 - INFO -     → Launch Screen clicked
+2026-05-07 00:50:47,957 - INFO -   ✓ Intro screen launched: Join Now & Unlock Rewards
+
+2026-05-07 00:50:48,957 - INFO - ============================================================
+2026-05-07 00:50:48,958 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-07 00:50:49,086 - INFO - Browser closed
+2026-05-07 00:50:49,087 - INFO - 
+Task finished at 2026-05-07 00:50:49
+2026-05-07 00:50:49,087 - INFO - Log: automation/logs/full_automation_20260507_003605.log
+
+2026-05-07 00:51:36,788 - INFO - User selected: Promotion Banners
+2026-05-07 00:51:36,788 - INFO - ============================================================
+2026-05-07 00:51:36,789 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-07 00:51:36,789 - INFO - ============================================================
+2026-05-07 00:51:36,789 - INFO - Found 1 banner image(s) in banner/
+2026-05-07 00:51:36,789 - INFO -   ⚙ Processing Vcqrubanner-1 (1).png  (size 328×157 → need 1920×1080)
+2026-05-07 00:51:36,898 - INFO -   ✓ Vcqrubanner-1 (1).png  →  Vcqrubanner-1 (1)_processed.jpg  |  1920×1080  |  0.11 MB  |  quality 92
+2026-05-07 00:51:36,899 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-05-07 00:51:36,900 - INFO - ============================================================
+2026-05-07 00:51:36,900 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-07 00:51:36,900 - INFO - ============================================================
+2026-05-07 00:51:37,358 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-07 00:51:38,505 - INFO - ✓ Chrome driver initialized
+2026-05-07 00:51:38,505 - INFO - Opening login page...
+2026-05-07 00:51:40,013 - INFO -   → Credentials submitted, waiting for agreement modal...
+2026-05-07 00:51:41,439 - INFO -   → Agreement accepted, waiting for dashboard...
+2026-05-07 00:51:41,471 - INFO - ✓ Login successful
+2026-05-07 00:51:43,471 - INFO - Going to App Settings...
+2026-05-07 00:51:49,879 - INFO -   → Promotion Banners section opened
+2026-05-07 00:51:49,913 - INFO - ✓ Promotion Banners page ready
+2026-05-07 00:51:49,913 - INFO - Starting batch  —  1 banner(s) to publish
+2026-05-07 00:51:49,914 - INFO - ============================================================
+2026-05-07 00:51:49,914 - INFO - [1/1]
+2026-05-07 00:51:49,914 - INFO -   Publishing: [Vcqrubanner-1 (1)]  (Vcqrubanner-1 (1)_processed.jpg)
+2026-05-07 00:51:52,239 - INFO -     → Title entered: Vcqrubanner-1 (1)
+2026-05-07 00:51:54,287 - INFO -     → Image uploaded: Vcqrubanner-1 (1)_processed.jpg
+2026-05-07 00:51:54,454 - INFO -     → Publish Banner clicked
+2026-05-07 00:51:58,481 - INFO -   ✓ Banner published: Vcqrubanner-1 (1)
+
+2026-05-07 00:51:59,481 - INFO - ============================================================
+2026-05-07 00:51:59,482 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-05-07 00:51:59,631 - INFO - Browser closed
+2026-05-07 00:51:59,631 - INFO - 
+Task finished at 2026-05-07 00:51:59
+2026-05-07 00:51:59,631 - INFO - Log: automation/logs/full_automation_20260507_003605.log
+

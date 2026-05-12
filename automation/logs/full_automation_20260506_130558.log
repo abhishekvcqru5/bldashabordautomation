@@ -1,0 +1,111 @@
+2026-05-06 13:06:10,825 - INFO - User selected: Brand Setting
+2026-05-06 13:06:14,241 - INFO -   Found logo asset: logo.png
+2026-05-06 13:06:14,242 - INFO -   Found splash asset: splash.png
+2026-05-06 13:06:14,242 - INFO - ============================================================
+2026-05-06 13:06:14,242 - INFO - BRAND SETTING — Image Processing
+2026-05-06 13:06:14,242 - INFO - ============================================================
+2026-05-06 13:06:14,276 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-06 13:06:14,652 - INFO - ✓ Logo  → logo_processed.png  |  181.9 KB  |  PNG lossless
+2026-05-06 13:06:14,690 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-06 13:06:16,306 - INFO - ✓ Splash → splash_processed.png  |  0.57 MB  |  PNG lossless
+2026-05-06 13:06:16,307 - INFO - 
+2026-05-06 13:06:16,307 - INFO - Extracting brand colours from logo...
+2026-05-06 13:06:16,501 - INFO -   Colours extracted from logo:
+2026-05-06 13:06:16,501 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-05-06 13:06:16,501 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-05-06 13:06:16,501 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-06 13:06:16,502 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-06 13:06:16,509 - INFO - ✓ Both images ready
+
+2026-05-06 13:06:16,510 - INFO - ============================================================
+2026-05-06 13:06:16,510 - INFO - BRAND SETTING — Browser Automation
+2026-05-06 13:06:16,510 - INFO - ============================================================
+2026-05-06 13:06:27,057 - WARNING - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
+2026-05-06 13:06:27,057 - WARNING - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
+2026-05-06 13:06:27,057 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (); currently, chromedriver  is recommended for chrome .*, so it is advised to delete the driver in PATH and retry
+2026-05-06 13:06:27,058 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-05-06 13:06:27,378 - ERROR - Failed to initialize Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x59a7f1f3f3ea <unknown>
+#1 0x59a7f194f845 <unknown>
+#2 0x59a7f198b293 <unknown>
+#3 0x59a7f1987bc8 <unknown>
+#4 0x59a7f19d699a <unknown>
+#5 0x59a7f19d60ec <unknown>
+#6 0x59a7f1995204 <unknown>
+#7 0x59a7f1995fc1 <unknown>
+#8 0x59a7f1f029cb <unknown>
+#9 0x59a7f1f05c93 <unknown>
+#10 0x59a7f1ef065c <unknown>
+#11 0x59a7f1f06429 <unknown>
+#12 0x59a7f1ed89d7 <unknown>
+#13 0x59a7f1f2cc08 <unknown>
+#14 0x59a7f1f2ce33 <unknown>
+#15 0x59a7f1f3ddf7 <unknown>
+#16 0x74995b09caa4 <unknown>
+#17 0x74995b129c6c <unknown>
+
+2026-05-06 13:06:27,379 - INFO - Opening login page...
+2026-05-06 13:06:27,379 - ERROR - Login failed: 'NoneType' object has no attribute 'get'
+2026-05-06 13:06:27,379 - WARNING - Screenshot failed: 'NoneType' object has no attribute 'save_screenshot'
+2026-05-06 13:06:27,379 - ERROR - ✗ Login failed. Aborting.
+2026-05-06 13:06:27,379 - INFO - 
+Task finished at 2026-05-06 13:06:27
+2026-05-06 13:06:27,379 - INFO - Log: automation/logs/full_automation_20260506_130558.log
+
+2026-05-06 13:06:36,506 - INFO - User selected: Brand Setting
+2026-05-06 13:06:41,801 - INFO -   Found logo asset: logo.png
+2026-05-06 13:06:41,802 - INFO -   Found splash asset: splash.png
+2026-05-06 13:06:41,802 - INFO - ============================================================
+2026-05-06 13:06:41,802 - INFO - BRAND SETTING — Image Processing
+2026-05-06 13:06:41,802 - INFO - ============================================================
+2026-05-06 13:06:41,816 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-06 13:06:42,184 - INFO - ✓ Logo  → logo_processed.png  |  181.9 KB  |  PNG lossless
+2026-05-06 13:06:42,216 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-06 13:06:43,884 - INFO - ✓ Splash → splash_processed.png  |  0.57 MB  |  PNG lossless
+2026-05-06 13:06:43,884 - INFO - 
+2026-05-06 13:06:43,884 - INFO - Extracting brand colours from logo...
+2026-05-06 13:06:44,083 - INFO -   Colours extracted from logo:
+2026-05-06 13:06:44,083 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-05-06 13:06:44,083 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-05-06 13:06:44,083 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-06 13:06:44,084 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-06 13:06:44,093 - INFO - ✓ Both images ready
+
+2026-05-06 13:06:44,093 - INFO - ============================================================
+2026-05-06 13:06:44,094 - INFO - BRAND SETTING — Browser Automation
+2026-05-06 13:06:44,094 - INFO - ============================================================
+2026-05-06 13:06:54,568 - WARNING - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
+2026-05-06 13:06:54,568 - WARNING - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
+2026-05-06 13:06:54,568 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (); currently, chromedriver  is recommended for chrome .*, so it is advised to delete the driver in PATH and retry
+2026-05-06 13:06:54,847 - ERROR - Failed to initialize Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x568d81c163ea <unknown>
+#1 0x568d81626845 <unknown>
+#2 0x568d81662293 <unknown>
+#3 0x568d8165ebc8 <unknown>
+#4 0x568d816ad99a <unknown>
+#5 0x568d816ad0ec <unknown>
+#6 0x568d8166c204 <unknown>
+#7 0x568d8166cfc1 <unknown>
+#8 0x568d81bd99cb <unknown>
+#9 0x568d81bdcc93 <unknown>
+#10 0x568d81bc765c <unknown>
+#11 0x568d81bdd429 <unknown>
+#12 0x568d81baf9d7 <unknown>
+#13 0x568d81c03c08 <unknown>
+#14 0x568d81c03e33 <unknown>
+#15 0x568d81c14df7 <unknown>
+#16 0x77f96969caa4 <unknown>
+#17 0x77f969729c6c <unknown>
+
+2026-05-06 13:06:54,847 - INFO - Opening login page...
+2026-05-06 13:06:54,847 - ERROR - Login failed: 'NoneType' object has no attribute 'get'
+2026-05-06 13:06:54,848 - WARNING - Screenshot failed: 'NoneType' object has no attribute 'save_screenshot'
+2026-05-06 13:06:54,848 - ERROR - ✗ Login failed. Aborting.
+2026-05-06 13:06:54,848 - INFO - 
+Task finished at 2026-05-06 13:06:54
+2026-05-06 13:06:54,848 - INFO - Log: automation/logs/full_automation_20260506_130558.log
+
+2026-05-06 13:07:21,501 - INFO - User selected: Brand Setting
+2026-05-06 13:07:24,280 - INFO - Automation cancelled by user (Ctrl+C)
