@@ -1,0 +1,35 @@
+2026-05-31 11:27:00,813 - INFO - User selected: Registration Fields
+2026-05-31 11:27:00,814 - INFO - ============================================================
+2026-05-31 11:27:00,814 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-31 11:27:00,814 - INFO - ============================================================
+2026-05-31 11:27:00,818 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:27:00,818 - INFO - ====== WebDriver manager ======
+2026-05-31 11:27:01,288 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:27:01,395 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:27:01,507 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:27:01,725 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-31 11:27:01,732 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-31 11:27:01,732 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-31 11:27:02,070 - INFO - Driver downloading response is 200
+2026-05-31 11:27:03,051 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:27:03,365 - INFO - Driver has been saved in cache [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-31 11:27:04,952 - INFO - ✓ Chrome driver initialized
+2026-05-31 11:27:04,952 - INFO - Opening login page...
+2026-05-31 11:27:06,697 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-05-31 11:27:08,920 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-05-31 11:27:08,984 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-05-31 11:27:09,018 - INFO - ✓ Login successful
+2026-05-31 11:27:11,020 - INFO - Going to App Settings...
+2026-05-31 11:27:12,594 - INFO -   → Registration Field section opened
+2026-05-31 11:27:12,877 - INFO - ✓ Registration Fields page ready
+2026-05-31 11:27:13,846 - INFO - Found 5 user types: ['Mason', 'Painter', 'Retailer', 'Applicator', 'Distributor']
+2026-05-31 11:27:13,846 - INFO - Starting registration fields automation: 30 fields total
+2026-05-31 11:27:13,846 - INFO - ============================================================
+2026-05-31 11:27:13,846 - INFO - Processing User Type: Mason
+2026-05-31 11:27:13,846 - INFO -   Adding field: [Mason] -> First Name
+2026-05-31 11:27:14,298 - INFO -     → User Type selected: Mason
+2026-05-31 11:27:22,163 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/9847dbefc7cecc3d0e70694eac40f331
+2026-05-31 11:27:22,165 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49785): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9847dbefc7cecc3d0e70694eac40f331
+2026-05-31 11:27:22,165 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49785): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9847dbefc7cecc3d0e70694eac40f331
+2026-05-31 11:27:22,166 - INFO - Browser closed
+2026-05-31 11:27:22,167 - INFO - Automation cancelled by user (Ctrl+C)

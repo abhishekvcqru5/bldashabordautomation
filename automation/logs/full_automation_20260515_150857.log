@@ -1,0 +1,23 @@
+2026-05-15 15:09:22,431 - INFO - User selected: Old Dashboard
+2026-05-15 15:09:26,383 - INFO -   Old Dashboard → Brand Setting
+2026-05-15 15:09:26,383 - INFO - ============================================================
+2026-05-15 15:09:26,383 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-15 15:09:26,384 - INFO - ============================================================
+2026-05-15 15:09:30,686 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:09:33,558 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-15 15:09:33,558 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 15:09:40,774 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-15 15:09:42,775 - INFO -     → Filling credentials …
+2026-05-15 15:09:43,042 - INFO -       Email → field #login_txt_id
+2026-05-15 15:09:43,168 - INFO -       Password → field #login_txt_pass
+2026-05-15 15:09:43,297 - INFO -       Login button clicked: #btnVendor
+2026-05-15 15:09:43,298 - INFO -     → Waiting for post-login redirect …
+2026-05-15 15:10:46,157 - ERROR -   ✗ Login timed out — still on login page or unknown state
+2026-05-15 15:10:46,405 - INFO -   📸 Screenshot saved: automation/screenshots/old_brand_login_timeout_20260515_151046.png
+2026-05-15 15:10:46,405 - ERROR - ✗ Login failed. Aborting.
+2026-05-15 15:10:46,656 - INFO -   Browser closed
+2026-05-15 15:10:46,656 - INFO - 
+Task finished at 2026-05-15 15:10:46
+2026-05-15 15:10:46,657 - INFO - Log: automation/logs/full_automation_20260515_150857.log
+

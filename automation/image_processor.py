@@ -23,11 +23,19 @@ class ImageProcessor:
     def __init__(self, input_folder, output_folder):
         self.input_folder = Path(input_folder)
         self.output_folder = Path(output_folder)
+        if self.output_folder.exists():
+            for f in self.output_folder.iterdir():
+                if f.is_file():
+                    try:
+                        f.unlink()
+                    except Exception as e:
+                        logger.warning(f"Could not delete old file {f}: {e}")
         self.output_folder.mkdir(parents=True, exist_ok=True)
 
     def process_image(self, image_path):
         """
         Process a single image: resize and compress
+        Preserves transparent backgrounds for PNGs.
 
         Args:
             image_path: Path to the image file
@@ -44,12 +52,8 @@ class ImageProcessor:
 
             # Open image
             img = Image.open(img_path)
-
-            # Convert RGBA to RGB if necessary (for JPEG compression)
-            if img.mode in ('RGBA', 'LA', 'P'):
-                rgb_img = Image.new('RGB', img.size, (255, 255, 255))
-                rgb_img.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
-                img = rgb_img
+            
+            is_png = img_path.suffix.lower() == '.png'
 
             # Force resize to exact target dimensions (512x512!)
             img = img.resize(self.TARGET_SIZE, Image.Resampling.LANCZOS)
@@ -57,31 +61,53 @@ class ImageProcessor:
             # Save and compress
             output_path = self.output_folder / img_path.name
 
-            # Try different quality levels to meet size requirement
-            quality = 95
-            while quality >= 10:
-                img.save(output_path, 'JPEG', quality=quality, optimize=True)
+            if is_png:
+                # Save as PNG with transparency preserved
+                img.save(output_path, 'PNG', optimize=True)
                 file_size = output_path.stat().st_size
+                
+                # If still too large (> 50KB), convert to palette mode (P) to compress while maintaining transparency
+                if file_size > self.MAX_SIZE_BYTES:
+                    logger.info(f"PNG {img_path.name} is {file_size / 1024:.1f} KB, compressing via quantize...")
+                    quantized_img = img.quantize(colors=256, method=Image.Resampling.MAXCOVERAGE)
+                    quantized_img.save(output_path, 'PNG', optimize=True)
+                    file_size = output_path.stat().st_size
+                    
+                logger.info(
+                    f"✓ Processed PNG: {img_path.name} | "
+                    f"Size: {file_size / 1024:.1f} KB"
+                )
+                return str(output_path)
+            else:
+                # Convert RGBA to RGB if necessary (for JPEG compression)
+                if img.mode in ('RGBA', 'LA', 'P'):
+                    rgb_img = Image.new('RGB', img.size, (255, 255, 255))
+                    rgb_img.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+                    img = rgb_img
 
-                if file_size <= self.MAX_SIZE_BYTES:
-                    logger.info(
-                        f"✓ Processed: {img_path.name} | "
-                        f"Size: {file_size / 1024:.1f} KB | Quality: {quality}"
-                    )
-                    return str(output_path)
+                # Try different quality levels to meet size requirement
+                quality = 95
+                while quality >= 10:
+                    img.save(output_path, 'JPEG', quality=quality, optimize=True)
+                    file_size = output_path.stat().st_size
 
-                quality -= 5
+                    if file_size <= self.MAX_SIZE_BYTES:
+                        logger.info(
+                            f"✓ Processed JPEG: {img_path.name} | "
+                            f"Size: {file_size / 1024:.1f} KB | Quality: {quality}"
+                        )
+                        return str(output_path)
 
-            # If still too large, reduce quality significantly (don't change dimensions)
-            logger.warning(f"Image {img_path.name} too large even with compression, forcing lower quality...")
-            img.save(output_path, 'JPEG', quality=40, optimize=True)
+                    quality -= 5
 
-            file_size = output_path.stat().st_size
-            logger.info(
-                f"✓ Processed (low quality): {img_path.name} | "
-                f"Size: {file_size / 1024:.1f} KB"
-            )
-            return str(output_path)
+                # If still too large, force lower quality
+                img.save(output_path, 'JPEG', quality=40, optimize=True)
+                file_size = output_path.stat().st_size
+                logger.info(
+                    f"✓ Processed (low quality JPEG): {img_path.name} | "
+                    f"Size: {file_size / 1024:.1f} KB"
+                )
+                return str(output_path)
 
         except Exception as e:
             logger.error(f"Failed to process {image_path}: {str(e)}")

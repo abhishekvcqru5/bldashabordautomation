@@ -1,0 +1,47 @@
+2026-05-20 10:34:45,361 - INFO - User selected: Intro Screens
+2026-05-20 10:34:45,870 - INFO - ============================================================
+2026-05-20 10:34:45,870 - INFO - INTRO SCREENS — Image Processing
+2026-05-20 10:34:45,870 - INFO - ============================================================
+2026-05-20 10:34:46,059 - INFO - Found 2 intro image(s) in introscreen/
+2026-05-20 10:34:46,456 - INFO -   ⚙ Processing 1f484555-eee3-4b55-a328-510f447722cd.png  (1024×1536 → need 1080×1920)
+2026-05-20 10:34:47,230 - INFO -   ✓ 1f484555-eee3-4b55-a328-510f447722cd.png  →  1f484555-eee3-4b55-a328-510f447722cd_processed.jpg  |  1080×1920  |  0.20 MB  |  quality 92
+2026-05-20 10:34:47,242 - INFO -   ⚙ Processing b82915cb-1a30-46dd-92ef-cc7cb64edd82.png  (1024×1536 → need 1080×1920)
+2026-05-20 10:34:47,695 - INFO -   ✓ b82915cb-1a30-46dd-92ef-cc7cb64edd82.png  →  b82915cb-1a30-46dd-92ef-cc7cb64edd82_processed.jpg  |  1080×1920  |  0.20 MB  |  quality 92
+2026-05-20 10:34:47,712 - INFO -   Processed 2/2 intro images successfully
+
+2026-05-20 10:37:00,048 - INFO - ============================================================
+2026-05-20 10:37:00,049 - INFO - INTRO SCREENS — Browser Automation
+2026-05-20 10:37:00,050 - INFO - ============================================================
+2026-05-20 10:37:45,720 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 10:37:52,403 - INFO - ✓ Chrome driver initialized
+2026-05-20 10:37:52,403 - INFO - Opening login page...
+2026-05-20 10:38:04,482 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 10:38:16,433 - INFO - ✓ Login successful
+2026-05-20 10:38:18,436 - INFO - Going to App Settings...
+2026-05-20 10:38:28,130 - INFO -   → Intro Screens section opened
+2026-05-20 10:38:28,220 - INFO - ✓ Intro Screens page ready
+2026-05-20 10:38:28,222 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-20 10:38:28,224 - INFO - ============================================================
+2026-05-20 10:38:28,225 - INFO - [1/2]
+2026-05-20 10:38:28,225 - INFO -   Launching screen: [Fast & Secure Cash Transfer]
+2026-05-20 10:38:31,855 - INFO -     → Header: Fast & Secure Cash Transfer
+2026-05-20 10:38:33,822 - INFO -     → Description: Send and receive money instantly with a safe, seamless, and ...
+2026-05-20 10:38:36,505 - INFO -     → Image uploaded: 1f484555-eee3-4b55-a328-510f447722cd_processed.jpg
+2026-05-20 10:38:39,325 - INFO -     → Launch Screen clicked
+2026-05-20 10:38:43,365 - INFO -   ✓ Intro screen launched: Fast & Secure Cash Transfer
+
+2026-05-20 10:38:44,369 - INFO - [2/2]
+2026-05-20 10:38:44,370 - INFO -   Launching screen: [Smart Anti-Counterfeit Protection]
+2026-05-20 10:38:50,042 - INFO -     → Header: Smart Anti-Counterfeit Protection
+2026-05-20 10:38:52,574 - INFO -     → Description: Protect your products and customers with advanced anti-count...
+2026-05-20 10:38:55,047 - INFO -     → Image uploaded: b82915cb-1a30-46dd-92ef-cc7cb64edd82_processed.jpg
+2026-05-20 10:38:57,579 - INFO -     → Launch Screen clicked
+2026-05-20 10:39:02,178 - INFO -   ✓ Intro screen launched: Smart Anti-Counterfeit Protection
+
+2026-05-20 10:39:03,184 - INFO - ============================================================
+2026-05-20 10:39:03,184 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-20 10:39:03,800 - INFO - Browser closed
+2026-05-20 10:39:03,804 - INFO - 
+Task finished at 2026-05-20 10:39:03
+2026-05-20 10:39:03,804 - INFO - Log: automation/logs/full_automation_20260520_103122.log
+

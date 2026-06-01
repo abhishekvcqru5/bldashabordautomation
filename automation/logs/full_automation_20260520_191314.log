@@ -1,0 +1,44 @@
+2026-05-20 19:13:38,079 - INFO - User selected: Brand Setting
+2026-05-20 19:13:39,875 - INFO -   Found logo asset: logo.jpeg
+2026-05-20 19:13:39,876 - INFO -   Found splash asset: splash.png
+2026-05-20 19:13:39,877 - INFO - ============================================================
+2026-05-20 19:13:39,878 - INFO - BRAND SETTING — Image Processing
+2026-05-20 19:13:39,878 - INFO - ============================================================
+2026-05-20 19:13:39,985 - INFO - ✓ Logo  → logo_processed.jpg  |  111.0 KB  |  JPEG q95
+2026-05-20 19:13:40,024 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-20 19:13:41,840 - INFO - ✓ Splash → splash_processed.png  |  0.45 MB  |  PNG lossless
+2026-05-20 19:13:41,841 - INFO - 
+2026-05-20 19:13:41,841 - INFO - Extracting brand colours from logo...
+2026-05-20 19:13:42,657 - INFO -   Colours extracted from logo:
+2026-05-20 19:13:42,657 - INFO -     Header Color     →  #304050  (dominant logo colour)
+2026-05-20 19:13:42,657 - INFO -     Background Color →  #1F2934  (35% darker)
+2026-05-20 19:13:42,657 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-20 19:13:42,658 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-20 19:13:42,706 - INFO - ✓ Both images ready
+
+2026-05-20 19:13:42,706 - INFO - ============================================================
+2026-05-20 19:13:42,706 - INFO - BRAND SETTING — Browser Automation
+2026-05-20 19:13:42,706 - INFO - ============================================================
+2026-05-20 19:13:44,213 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 19:13:46,202 - INFO - ✓ Chrome driver initialized
+2026-05-20 19:13:46,202 - INFO - Opening login page...
+2026-05-20 19:13:48,073 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 19:13:51,342 - INFO - ✓ Login successful
+2026-05-20 19:13:53,343 - INFO - Going to App Settings...
+2026-05-20 19:13:59,816 - INFO -   → Identity & Branding section opened
+2026-05-20 19:14:01,973 - INFO -   → Edit Branding popup opened
+2026-05-20 19:14:02,005 - INFO - ✓ Brand setting form is ready
+2026-05-20 19:14:02,005 - INFO -   Setting company name: KAPOOR ENTERPRISE
+2026-05-20 19:14:03,443 - INFO -     → HeaderColor: #304050
+2026-05-20 19:14:04,276 - INFO -     → FooterColor: #F5F5F5
+2026-05-20 19:14:05,074 - INFO -     → BodyColor: #FFFFFF
+2026-05-20 19:14:05,852 - INFO -     → BackgroundColor: #1F2934
+2026-05-20 19:14:07,926 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-20 19:14:09,982 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-20 19:14:10,196 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-20 19:14:13,215 - INFO - ✓ Brand settings saved successfully!
+2026-05-20 19:14:13,444 - INFO - Browser closed
+2026-05-20 19:14:13,444 - INFO - 
+Task finished at 2026-05-20 19:14:13
+2026-05-20 19:14:13,444 - INFO - Log: automation/logs/full_automation_20260520_191314.log
+

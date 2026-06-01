@@ -1,0 +1,518 @@
+2026-05-15 15:20:00,610 - INFO - User selected: Old Dashboard
+2026-05-15 15:20:04,618 - INFO -   Old Dashboard → Brand Setting
+2026-05-15 15:20:04,618 - INFO - ============================================================
+2026-05-15 15:20:04,618 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-15 15:20:04,619 - INFO - ============================================================
+2026-05-15 15:20:05,091 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:20:06,673 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-15 15:20:06,673 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 15:20:13,886 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-15 15:20:15,887 - INFO -     → Filling credentials …
+2026-05-15 15:20:16,153 - INFO -       Email → field #login_txt_id
+2026-05-15 15:20:16,291 - INFO -       Password → field #login_txt_pass
+2026-05-15 15:20:16,414 - INFO -       Login button clicked: #btnVendor
+2026-05-15 15:20:16,415 - INFO -     → Waiting for post-login redirect …
+2026-05-15 15:20:41,644 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-15 15:20:41,645 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-15 15:20:56,956 - INFO - 
+[3/4] Extracting brand data …
+2026-05-15 15:20:57,274 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-15 15:20:57,274 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-15 15:20:57,274 - INFO -   ↩ Already exists, skipping download: splash.png
+2026-05-15 15:20:57,275 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-15 15:20:57,456 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-15 15:20:57,851 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:20:58,956 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:20:58,957 - INFO - Opening login page...
+2026-05-15 15:21:00,904 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:21:09,041 - INFO - ✓ Login successful
+2026-05-15 15:21:09,112 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-15 15:21:09,378 - INFO - ✓ Logo  → logo_processed.png  |  100.2 KB  |  PNG lossless
+2026-05-15 15:21:09,457 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-15 15:21:11,163 - INFO - ✓ Splash → splash_processed.png  |  0.66 MB  |  PNG lossless
+2026-05-15 15:21:11,175 - INFO -   No saturated colour found — using darkest neutral tone
+2026-05-15 15:21:11,186 - INFO -   Colours extracted from logo:
+2026-05-15 15:21:11,187 - INFO -     Header Color     →  #0E0D0D  (dominant logo colour)
+2026-05-15 15:21:11,187 - INFO -     Background Color →  #090808  (35% darker)
+2026-05-15 15:21:11,187 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-15 15:21:11,187 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-15 15:21:11,188 - INFO - Going to App Settings...
+2026-05-15 15:21:17,639 - INFO -   → Identity & Branding section opened
+2026-05-15 15:21:19,823 - INFO -   → Edit Branding popup opened
+2026-05-15 15:21:19,836 - INFO - ✓ Brand setting form is ready
+2026-05-15 15:21:19,836 - INFO -   Setting company name: BINITO
+2026-05-15 15:21:20,677 - INFO -     → HeaderColor: #0E0D0D
+2026-05-15 15:21:21,381 - INFO -     → FooterColor: #F5F5F5
+2026-05-15 15:21:22,044 - INFO -     → BodyColor: #FFFFFF
+2026-05-15 15:21:22,724 - INFO -     → BackgroundColor: #090808
+2026-05-15 15:21:24,771 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-15 15:21:26,798 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-15 15:21:26,929 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-15 15:21:29,959 - INFO - ✓ Brand settings saved successfully!
+2026-05-15 15:21:29,959 - INFO - Going to App Settings for Support Network...
+2026-05-15 15:21:33,207 - INFO -   → Support Network section opened
+2026-05-15 15:21:36,299 - INFO -   → Edit Support Network popup opened
+2026-05-15 15:21:38,299 - INFO - ✓ Support Network form is ready
+2026-05-15 15:21:38,362 - WARNING -     ⚠ Could not find field for: phone
+2026-05-15 15:21:38,553 - INFO -     ✓ email filled
+2026-05-15 15:21:38,616 - WARNING -     ⚠ Could not find field for: website
+2026-05-15 15:21:39,134 - INFO -     ✓ terms_conditions filled
+2026-05-15 15:21:39,532 - INFO -     ✓ support_content filled
+2026-05-15 15:21:39,823 - INFO -     ✓ privacy_policy filled
+2026-05-15 15:21:40,866 - INFO -   → Save clicked
+2026-05-15 15:21:43,866 - INFO - ✓ Support Network saved successfully!
+2026-05-15 15:21:44,020 - INFO - Browser closed
+2026-05-15 15:21:44,021 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49039): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a9fda5b5494e419c6d6942416fbde4b0
+2026-05-15 15:21:44,021 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49039): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a9fda5b5494e419c6d6942416fbde4b0
+2026-05-15 15:21:44,022 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49039): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a9fda5b5494e419c6d6942416fbde4b0
+2026-05-15 15:21:44,023 - INFO -   Browser closed
+2026-05-15 15:21:44,023 - INFO - 
+Task finished at 2026-05-15 15:21:44
+2026-05-15 15:21:44,023 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+
+2026-05-15 15:26:47,208 - INFO - User selected: Old Dashboard
+2026-05-15 15:26:51,080 - INFO -   Old Dashboard → Brand Setting
+2026-05-15 15:26:51,080 - INFO - ============================================================
+2026-05-15 15:26:51,080 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-15 15:26:51,080 - INFO - ============================================================
+2026-05-15 15:26:51,568 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:26:52,740 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-15 15:26:52,740 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 15:26:59,823 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-15 15:27:01,823 - INFO -     → Filling credentials …
+2026-05-15 15:27:02,084 - INFO -       Email → field #login_txt_id
+2026-05-15 15:27:02,234 - INFO -       Password → field #login_txt_pass
+2026-05-15 15:27:02,354 - INFO -       Login button clicked: #btnVendor
+2026-05-15 15:27:02,354 - INFO -     → Waiting for post-login redirect …
+2026-05-15 15:27:24,888 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-15 15:27:24,888 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-15 15:27:40,094 - INFO - 
+[3/4] Extracting brand data …
+2026-05-15 15:27:40,407 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-15 15:27:40,965 - INFO -   ✓ Downloaded: logo.png  (250.3 KB)
+2026-05-15 15:27:41,458 - INFO -   ✓ Downloaded: splash.png  (121.6 KB)
+2026-05-15 15:27:41,463 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-15 15:27:41,638 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-15 15:27:42,064 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:27:43,229 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:27:43,229 - INFO - Opening login page...
+2026-05-15 15:27:45,052 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:27:47,755 - INFO - ✓ Login successful
+2026-05-15 15:27:48,020 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-15 15:27:48,257 - INFO - ✓ Logo  → logo_processed.png  |  84.9 KB  |  PNG lossless
+2026-05-15 15:27:48,312 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-15 15:27:50,203 - INFO - ✓ Splash → splash_processed.png  |  0.69 MB  |  PNG lossless
+2026-05-15 15:27:53,007 - INFO -   Colours extracted from logo:
+2026-05-15 15:27:53,007 - INFO -     Header Color     →  #0030A0  (dominant logo colour)
+2026-05-15 15:27:53,007 - INFO -     Background Color →  #001F68  (35% darker)
+2026-05-15 15:27:53,007 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-15 15:27:53,008 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-15 15:27:53,166 - INFO - Going to App Settings...
+2026-05-15 15:27:59,584 - INFO -   → Identity & Branding section opened
+2026-05-15 15:28:01,758 - INFO -   → Edit Branding popup opened
+2026-05-15 15:28:01,779 - INFO - ✓ Brand setting form is ready
+2026-05-15 15:28:01,780 - INFO -   Setting company name: BINITO
+2026-05-15 15:28:02,635 - INFO -     → HeaderColor: #0030A0
+2026-05-15 15:28:03,316 - INFO -     → FooterColor: #F5F5F5
+2026-05-15 15:28:03,970 - INFO -     → BodyColor: #FFFFFF
+2026-05-15 15:28:04,642 - INFO -     → BackgroundColor: #001F68
+2026-05-15 15:28:06,693 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-15 15:28:08,723 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-15 15:28:08,870 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-15 15:28:11,895 - INFO - ✓ Brand settings saved successfully!
+2026-05-15 15:28:11,896 - INFO - Going to App Settings for Support Network...
+2026-05-15 15:28:15,170 - INFO -   → Support Network section opened
+2026-05-15 15:28:18,316 - INFO -   → Edit Support Network popup opened
+2026-05-15 15:28:20,317 - INFO - ✓ Support Network form is ready
+2026-05-15 15:28:20,424 - WARNING -     ⚠ Could not find field for: phone
+2026-05-15 15:28:20,821 - INFO -     ✓ email filled
+2026-05-15 15:28:20,951 - WARNING -     ⚠ Could not find field for: website
+2026-05-15 15:28:21,874 - INFO -     ✓ terms_conditions filled
+2026-05-15 15:28:22,432 - INFO -     ✓ support_content filled
+2026-05-15 15:28:22,786 - INFO -     ✓ privacy_policy filled
+2026-05-15 15:28:23,836 - INFO -   → Save clicked
+2026-05-15 15:28:26,836 - INFO - ✓ Support Network saved successfully!
+2026-05-15 15:28:26,999 - INFO - Browser closed
+2026-05-15 15:28:27,001 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57493): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fd2d259d1957f5a283636dcd522f3e7c
+2026-05-15 15:28:27,002 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57493): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fd2d259d1957f5a283636dcd522f3e7c
+2026-05-15 15:28:27,003 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57493): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fd2d259d1957f5a283636dcd522f3e7c
+2026-05-15 15:28:27,004 - INFO -   Browser closed
+2026-05-15 15:28:27,004 - INFO - 
+Task finished at 2026-05-15 15:28:27
+2026-05-15 15:28:27,004 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+
+2026-05-15 15:33:00,669 - INFO - User selected: Promotion Banners
+2026-05-15 15:33:00,670 - INFO - ============================================================
+2026-05-15 15:33:00,670 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 15:33:00,670 - INFO - ============================================================
+2026-05-15 15:33:00,671 - INFO - Found 1 banner image(s) in banner/
+2026-05-15 15:33:00,671 - INFO -   ⚙ Processing VcqruBINITO LOGO_PNG-1798.png  (size 2420×1844 → need 1920×1080)
+2026-05-15 15:33:00,969 - INFO -   ✓ VcqruBINITO LOGO_PNG-1798.png  →  VcqruBINITO LOGO_PNG-1798_processed.jpg  |  1920×1080  |  0.10 MB  |  quality 92
+2026-05-15 15:33:00,972 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-05-15 15:33:00,972 - INFO - ============================================================
+2026-05-15 15:33:00,972 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-15 15:33:00,972 - INFO - ============================================================
+2026-05-15 15:33:01,405 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:33:02,442 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:33:02,443 - INFO - Opening login page...
+2026-05-15 15:33:05,195 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:33:07,258 - INFO - ✓ Login successful
+2026-05-15 15:33:09,258 - INFO - Going to App Settings...
+2026-05-15 15:33:15,803 - INFO -   → Promotion Banners section opened
+2026-05-15 15:33:15,845 - INFO - ✓ Promotion Banners page ready
+2026-05-15 15:33:15,845 - INFO - Starting batch  —  1 banner(s) to publish
+2026-05-15 15:33:15,846 - INFO - ============================================================
+2026-05-15 15:33:15,846 - INFO - [1/1]
+2026-05-15 15:33:15,847 - INFO -   Publishing: [VcqruBINITO LOGO_PNG-1798]  (VcqruBINITO LOGO_PNG-1798_processed.jpg)
+2026-05-15 15:33:18,192 - INFO -     → Title entered: VcqruBINITO LOGO_PNG-1798
+2026-05-15 15:33:20,241 - INFO -     → Image uploaded: VcqruBINITO LOGO_PNG-1798_processed.jpg
+2026-05-15 15:33:20,381 - INFO -     → Publish Banner clicked
+2026-05-15 15:33:24,404 - INFO -   ✓ Banner published: VcqruBINITO LOGO_PNG-1798
+
+2026-05-15 15:33:25,405 - INFO - ============================================================
+2026-05-15 15:33:25,406 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-05-15 15:33:25,547 - INFO - Browser closed
+2026-05-15 15:33:25,547 - INFO - 
+Task finished at 2026-05-15 15:33:25
+2026-05-15 15:33:25,547 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+
+2026-05-15 15:33:34,266 - INFO - User selected: Intro Screens
+2026-05-15 15:33:34,267 - INFO - ============================================================
+2026-05-15 15:33:34,267 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 15:33:34,267 - INFO - ============================================================
+2026-05-15 15:33:34,268 - INFO - Found 2 intro image(s) in introscreen/
+2026-05-15 15:33:34,269 - INFO -   ⚙ Processing 36bdd521-b2c5-4de9-851c-27826e441e9c.png  (360×799 → need 1080×1920)
+2026-05-15 15:33:34,417 - INFO -   ✓ 36bdd521-b2c5-4de9-851c-27826e441e9c.png  →  36bdd521-b2c5-4de9-851c-27826e441e9c_processed.jpg  |  1080×1920  |  0.17 MB  |  quality 92
+2026-05-15 15:33:34,418 - INFO -   ⚙ Processing d198fcf8-1ef1-46b9-84ec-2688b2ab28ab.png  (360×799 → need 1080×1920)
+2026-05-15 15:33:34,573 - INFO -   ✓ d198fcf8-1ef1-46b9-84ec-2688b2ab28ab.png  →  d198fcf8-1ef1-46b9-84ec-2688b2ab28ab_processed.jpg  |  1080×1920  |  0.19 MB  |  quality 92
+2026-05-15 15:33:34,573 - INFO -   Processed 2/2 intro images successfully
+
+2026-05-15 15:34:14,899 - INFO - ============================================================
+2026-05-15 15:34:14,899 - INFO - INTRO SCREENS — Browser Automation
+2026-05-15 15:34:14,900 - INFO - ============================================================
+2026-05-15 15:34:15,317 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:34:16,449 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:34:16,449 - INFO - Opening login page...
+2026-05-15 15:34:18,190 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:34:23,299 - INFO - ✓ Login successful
+2026-05-15 15:34:25,299 - INFO - Going to App Settings...
+2026-05-15 15:34:31,837 - INFO -   → Intro Screens section opened
+2026-05-15 15:34:31,885 - INFO - ✓ Intro Screens page ready
+2026-05-15 15:34:31,885 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-15 15:34:31,886 - INFO - ============================================================
+2026-05-15 15:34:31,886 - INFO - [1/2]
+2026-05-15 15:34:31,886 - INFO -   Launching screen: [1	Join Now and Unlock Exclusive Loyalty Rewards]
+2026-05-15 15:34:34,323 - INFO -     → Header: 1	Join Now and Unlock Exclusive Loyalty Rewards
+2026-05-15 15:34:34,742 - INFO -     → Description: Sign up now and start earning exciting loyalty rewards with ...
+2026-05-15 15:34:36,795 - INFO -     → Image uploaded: 36bdd521-b2c5-4de9-851c-27826e441e9c_processed.jpg
+2026-05-15 15:34:37,005 - INFO -     → Launch Screen clicked
+2026-05-15 15:34:41,037 - INFO -   ✓ Intro screen launched: 1	Join Now and Unlock Exclusive Loyalty Rewards
+
+2026-05-15 15:34:42,037 - INFO - [2/2]
+2026-05-15 15:34:42,038 - INFO -   Launching screen: [Get the Latest Offers and Loyalty Updates with Not]
+2026-05-15 15:34:44,461 - INFO -     → Header: Get the Latest Offers and Loyalty Updates with Notifications!
+2026-05-15 15:34:44,942 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes throug...
+2026-05-15 15:34:46,998 - INFO -     → Image uploaded: d198fcf8-1ef1-46b9-84ec-2688b2ab28ab_processed.jpg
+2026-05-15 15:34:47,204 - INFO -     → Launch Screen clicked
+2026-05-15 15:34:51,234 - INFO -   ✓ Intro screen launched: Get the Latest Offers and Loyalty Updates with Notifications!
+
+2026-05-15 15:34:52,235 - INFO - ============================================================
+2026-05-15 15:34:52,235 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-15 15:34:52,397 - INFO - Browser closed
+2026-05-15 15:34:52,397 - INFO - 
+Task finished at 2026-05-15 15:34:52
+2026-05-15 15:34:52,397 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+
+2026-05-15 15:36:31,732 - INFO - User selected: Dashboard Icons
+2026-05-15 15:36:31,732 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-15 15:36:31,733 - INFO - Automation started at 2026-05-15 15:36:31
+
+2026-05-15 15:36:31,733 - INFO - ============================================================
+2026-05-15 15:36:31,733 - INFO - STEP 1: Processing and Compressing Images
+2026-05-15 15:36:31,733 - INFO - ============================================================
+2026-05-15 15:36:31,733 - INFO - Processing images from: dashboardicons
+2026-05-15 15:36:31,733 - INFO - Output folder: automation/processed_images
+2026-05-15 15:36:31,733 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-15 15:36:31,756 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-15 15:36:31,769 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-15 15:36:31,791 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-15 15:36:31,815 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-15 15:36:31,824 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-15 15:36:31,844 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-15 15:36:31,854 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-15 15:36:31,865 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-15 15:36:31,884 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-15 15:36:31,892 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-15 15:36:31,904 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-15 15:36:31,919 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-15 15:36:31,935 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-15 15:36:31,946 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-15 15:36:31,946 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-15 15:36:31,946 - INFO - ✓ 14 images processed and ready
+
+2026-05-15 15:36:31,947 - INFO - ============================================================
+2026-05-15 15:36:31,947 - INFO - STEP 2: Preparing Authentication
+2026-05-15 15:36:31,947 - INFO - ============================================================
+2026-05-15 15:36:31,947 - INFO - Using email: inquiry@binito.in
+2026-05-15 15:36:31,947 - INFO - ✓ Credentials loaded
+
+2026-05-15 15:36:31,947 - INFO - ============================================================
+2026-05-15 15:36:31,947 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-15 15:36:31,947 - INFO - ============================================================
+2026-05-15 15:36:32,554 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:36:33,834 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:36:33,834 - INFO - 
+→ Attempting login...
+
+2026-05-15 15:36:33,834 - INFO - Opening login page...
+2026-05-15 15:36:35,611 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:36:37,691 - INFO - ✓ Login successful
+2026-05-15 15:36:39,692 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-15 15:36:39,692 - INFO - Navigating to App Settings...
+2026-05-15 15:36:46,159 - INFO - ✓ Dashboard Icons section loaded
+2026-05-15 15:36:48,160 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-15 15:36:48,161 - INFO - Starting batch – 12 configured entries
+2026-05-15 15:36:51,518 - INFO -   Found 1 user types: ['Applicators']
+2026-05-15 15:36:51,518 - INFO - Available user types: ['Applicators']
+2026-05-15 15:36:51,518 - INFO - Total icons to upload after expansion: 12
+2026-05-15 15:36:51,519 - INFO - ============================================================
+2026-05-15 15:36:51,519 - INFO - [1/12]
+2026-05-15 15:36:51,519 - INFO -   Adding: [Applicators] Gift  (gift)
+2026-05-15 15:36:53,862 - INFO -     → User type: Applicators
+2026-05-15 15:36:53,957 - INFO -     → Icon identity: gift
+2026-05-15 15:36:54,094 - INFO -     → Display title: Gift
+2026-05-15 15:36:54,139 - INFO -     → Toggle: both
+2026-05-15 15:36:56,193 - INFO -     → Image uploaded: Gift.png
+2026-05-15 15:36:56,318 - INFO -     → Form submitted
+2026-05-15 15:36:57,338 - INFO -   ✓ Icon added: Gift
+
+2026-05-15 15:36:58,339 - INFO - [2/12]
+2026-05-15 15:36:58,339 - INFO -   Adding: [Applicators] History  (history)
+2026-05-15 15:37:00,572 - INFO -     → User type: Applicators
+2026-05-15 15:37:00,654 - INFO -     → Icon identity: history
+2026-05-15 15:37:00,815 - INFO -     → Display title: History
+2026-05-15 15:37:00,852 - INFO -     → Toggle: both
+2026-05-15 15:37:02,908 - INFO -     → Image uploaded: history.png
+2026-05-15 15:37:03,057 - INFO -     → Form submitted
+2026-05-15 15:37:04,072 - INFO -   ✓ Icon added: History
+
+2026-05-15 15:37:05,073 - INFO - [3/12]
+2026-05-15 15:37:05,073 - INFO -   Adding: [Applicators] Wallet  (wallet)
+2026-05-15 15:37:07,327 - INFO -     → User type: Applicators
+2026-05-15 15:37:07,415 - INFO -     → Icon identity: wallet
+2026-05-15 15:37:07,551 - INFO -     → Display title: Wallet
+2026-05-15 15:37:07,584 - INFO -     → Toggle: both
+2026-05-15 15:37:09,664 - INFO -     → Image uploaded: wallet.png
+2026-05-15 15:37:09,770 - INFO -     → Form submitted
+2026-05-15 15:37:10,788 - INFO -   ✓ Icon added: Wallet
+
+2026-05-15 15:37:11,789 - INFO - [4/12]
+2026-05-15 15:37:11,790 - INFO -   Adding: [Applicators] KYC  (kycdetails)
+2026-05-15 15:37:14,059 - INFO -     → User type: Applicators
+2026-05-15 15:37:14,145 - INFO -     → Icon identity: kycdetails
+2026-05-15 15:37:14,283 - INFO -     → Display title: KYC
+2026-05-15 15:37:14,321 - INFO -     → Toggle: both
+2026-05-15 15:37:16,372 - INFO -     → Image uploaded: kyc.png
+2026-05-15 15:37:16,472 - INFO -     → Form submitted
+2026-05-15 15:37:17,490 - INFO -   ✓ Icon added: KYC
+
+2026-05-15 15:37:18,490 - INFO - [5/12]
+2026-05-15 15:37:18,491 - INFO -   Adding: [Applicators] Blog  (blog)
+2026-05-15 15:37:20,783 - INFO -     → User type: Applicators
+2026-05-15 15:37:20,870 - INFO -     → Icon identity: blog
+2026-05-15 15:37:21,033 - INFO -     → Display title: Blog
+2026-05-15 15:37:21,061 - INFO -     → Toggle: both
+2026-05-15 15:37:23,121 - INFO -     → Image uploaded: blog.png
+2026-05-15 15:37:23,245 - INFO -     → Form submitted
+2026-05-15 15:37:24,259 - INFO -   ✓ Icon added: Blog
+
+2026-05-15 15:37:25,259 - INFO - [6/12]
+2026-05-15 15:37:25,260 - INFO -   Adding: [Applicators] Brochure  (brochure)
+2026-05-15 15:37:27,516 - INFO -     → User type: Applicators
+2026-05-15 15:37:27,598 - INFO -     → Icon identity: brochure
+2026-05-15 15:37:27,735 - INFO -     → Display title: Brochure
+2026-05-15 15:37:27,766 - INFO -     → Toggle: both
+2026-05-15 15:37:29,856 - INFO -     → Image uploaded: brochure.png
+2026-05-15 15:37:29,982 - INFO -     → Form submitted
+2026-05-15 15:37:30,996 - INFO -   ✓ Icon added: Brochure
+
+2026-05-15 15:37:31,997 - INFO - [7/12]
+2026-05-15 15:37:31,998 - INFO -   Adding: [Applicators] Claim History  (claimhistory)
+2026-05-15 15:37:34,237 - INFO -     → User type: Applicators
+2026-05-15 15:37:34,334 - INFO -     → Icon identity: claimhistory
+2026-05-15 15:37:34,475 - INFO -     → Display title: Claim History
+2026-05-15 15:37:34,510 - INFO -     → Toggle: both
+2026-05-15 15:37:36,554 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-15 15:37:36,654 - INFO -     → Form submitted
+2026-05-15 15:37:37,666 - INFO -   ✓ Icon added: Claim History
+
+2026-05-15 15:37:38,667 - INFO - [8/12]
+2026-05-15 15:37:38,668 - INFO -   Adding: [Applicators] Language  (chooselanguage)
+2026-05-15 15:37:40,912 - INFO -     → User type: Applicators
+2026-05-15 15:37:40,997 - INFO -     → Icon identity: chooselanguage
+2026-05-15 15:37:41,162 - INFO -     → Display title: Language
+2026-05-15 15:37:41,194 - INFO -     → Toggle: both
+2026-05-15 15:37:43,242 - INFO -     → Image uploaded: language.png
+2026-05-15 15:37:43,346 - INFO -     → Form submitted
+2026-05-15 15:37:44,367 - INFO -   ✓ Icon added: Language
+
+2026-05-15 15:37:45,369 - INFO - [9/12]
+2026-05-15 15:37:45,370 - INFO -   Adding: [Applicators] Code Details  (codedetails)
+2026-05-15 15:37:47,603 - INFO -     → User type: Applicators
+2026-05-15 15:37:47,693 - INFO -     → Icon identity: codedetails
+2026-05-15 15:37:47,862 - INFO -     → Display title: Code Details
+2026-05-15 15:37:47,895 - INFO -     → Toggle: both
+2026-05-15 15:37:49,954 - INFO -     → Image uploaded: codedetails.png
+2026-05-15 15:37:50,110 - INFO -     → Form submitted
+2026-05-15 15:37:51,126 - INFO -   ✓ Icon added: Code Details
+
+2026-05-15 15:37:52,126 - INFO - [10/12]
+2026-05-15 15:37:52,126 - INFO -   Adding: [Applicators] Help  (help)
+2026-05-15 15:37:54,483 - INFO -     → User type: Applicators
+2026-05-15 15:37:54,578 - INFO -     → Icon identity: help
+2026-05-15 15:37:54,748 - INFO -     → Display title: Help
+2026-05-15 15:37:54,793 - INFO -     → Toggle: both
+2026-05-15 15:37:56,855 - INFO -     → Image uploaded: help.png
+2026-05-15 15:37:56,996 - INFO -     → Form submitted
+2026-05-15 15:37:58,022 - INFO -   ✓ Icon added: Help
+
+2026-05-15 15:37:59,023 - INFO - [11/12]
+2026-05-15 15:37:59,023 - INFO -   Adding: [Applicators] Refer & Earn  (referandearn)
+2026-05-15 15:38:01,469 - INFO -     → User type: Applicators
+2026-05-15 15:38:01,609 - INFO -     → Icon identity: referandearn
+2026-05-15 15:38:01,830 - INFO -     → Display title: Refer & Earn
+2026-05-15 15:38:01,854 - INFO -     → Toggle: both
+2026-05-15 15:38:03,912 - INFO -     → Image uploaded: referandearn.png
+2026-05-15 15:38:04,036 - INFO -     → Form submitted
+2026-05-15 15:38:05,083 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-15 15:38:06,084 - INFO - [12/12]
+2026-05-15 15:38:06,085 - INFO -   Adding: [Applicators] E-Commerce  (productcatalogue)
+2026-05-15 15:38:08,390 - INFO -     → User type: Applicators
+2026-05-15 15:38:08,480 - INFO -     → Icon identity: productcatalogue
+2026-05-15 15:38:08,656 - INFO -     → Display title: E-Commerce
+2026-05-15 15:38:08,679 - INFO -     → Toggle: both
+2026-05-15 15:38:10,757 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-15 15:38:10,855 - INFO -     → Form submitted
+2026-05-15 15:38:11,875 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-15 15:38:12,876 - INFO - ============================================================
+2026-05-15 15:38:12,876 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-15 15:38:12,876 - INFO - 
+============================================================
+2026-05-15 15:38:12,876 - INFO - AUTOMATION SUMMARY
+2026-05-15 15:38:12,876 - INFO - ============================================================
+2026-05-15 15:38:12,876 - INFO - ✓ Successful uploads: 12
+2026-05-15 15:38:12,876 - INFO - ✗ Failed uploads: 0
+2026-05-15 15:38:12,876 - INFO - Total processed: 12
+2026-05-15 15:38:12,877 - INFO - Success rate: 100.0%
+2026-05-15 15:38:12,877 - INFO - ============================================================
+2026-05-15 15:38:13,026 - INFO - Browser closed
+2026-05-15 15:38:13,027 - INFO - 
+Task finished at 2026-05-15 15:38:13
+2026-05-15 15:38:13,027 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+
+2026-05-15 15:43:32,320 - INFO - User selected: Registration Fields
+2026-05-15 15:43:32,320 - INFO - ============================================================
+2026-05-15 15:43:32,320 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-15 15:43:32,321 - INFO - ============================================================
+2026-05-15 15:43:32,767 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:43:33,872 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:43:33,872 - INFO - Opening login page...
+2026-05-15 15:43:36,231 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:43:56,485 - ERROR - Login failed: Message: 
+
+2026-05-15 15:43:56,868 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260515_154356.png
+2026-05-15 15:43:56,868 - ERROR - ✗ Login failed. Aborting.
+2026-05-15 15:43:56,987 - INFO - Browser closed
+2026-05-15 15:43:56,987 - INFO - 
+Task finished at 2026-05-15 15:43:56
+2026-05-15 15:43:56,987 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+
+2026-05-15 15:44:03,548 - INFO - User selected: Registration Fields
+2026-05-15 15:44:03,548 - INFO - ============================================================
+2026-05-15 15:44:03,548 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-15 15:44:03,548 - INFO - ============================================================
+2026-05-15 15:44:03,957 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 15:44:05,050 - INFO - ✓ Chrome driver initialized
+2026-05-15 15:44:05,051 - INFO - Opening login page...
+2026-05-15 15:44:07,494 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 15:44:11,098 - INFO - ✓ Login successful
+2026-05-15 15:44:13,099 - INFO - Going to App Settings...
+2026-05-15 15:44:19,345 - INFO -   → Registration Field section opened
+2026-05-15 15:44:19,392 - INFO - ✓ Registration Fields page ready
+2026-05-15 15:44:22,724 - INFO - Found 1 user types: ['Applicators']
+2026-05-15 15:44:22,725 - INFO - Starting registration fields automation: 6 fields total
+2026-05-15 15:44:22,725 - INFO - ============================================================
+2026-05-15 15:44:22,725 - INFO - Processing User Type: Applicators
+2026-05-15 15:44:22,725 - INFO -   Adding field: [Applicators] -> First Name
+2026-05-15 15:44:25,031 - INFO -     → User Type selected: Applicators
+2026-05-15 15:44:45,687 - INFO -     → System Data Point selected: First Name
+2026-05-15 15:44:45,724 - INFO -     → Mandatory toggle enabled
+2026-05-15 15:44:45,884 - INFO -     → Integrate Now clicked
+2026-05-15 15:44:48,912 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 15:44:49,912 - INFO -   Adding field: [Applicators] -> Phone Number
+2026-05-15 15:44:52,192 - INFO -     → User Type selected: Applicators
+2026-05-15 15:45:12,367 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 15:45:12,415 - INFO -     → Mandatory toggle enabled
+2026-05-15 15:45:12,596 - INFO -     → Integrate Now clicked
+2026-05-15 15:45:15,610 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 15:45:16,611 - INFO -   Adding field: [Applicators] -> Pincode
+2026-05-15 15:45:18,967 - INFO -     → User Type selected: Applicators
+2026-05-15 15:45:39,230 - INFO -     → System Data Point selected: Pincode
+2026-05-15 15:45:39,266 - INFO -     → Mandatory toggle enabled
+2026-05-15 15:45:39,445 - INFO -     → Integrate Now clicked
+2026-05-15 15:45:42,461 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 15:45:43,462 - INFO -   Adding field: [Applicators] -> City
+2026-05-15 15:45:45,761 - INFO -     → User Type selected: Applicators
+2026-05-15 15:46:06,357 - INFO -     → System Data Point selected: City
+2026-05-15 15:46:06,428 - INFO -     → Mandatory toggle enabled
+2026-05-15 15:46:06,561 - INFO -     → Integrate Now clicked
+2026-05-15 15:46:09,587 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 15:46:10,587 - INFO -   Adding field: [Applicators] -> State
+2026-05-15 15:46:12,854 - INFO -     → User Type selected: Applicators
+2026-05-15 15:46:32,995 - INFO -     → System Data Point selected: State
+2026-05-15 15:46:33,018 - INFO -     → Mandatory toggle enabled
+2026-05-15 15:46:33,158 - INFO -     → Integrate Now clicked
+2026-05-15 15:46:36,185 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 15:46:37,186 - INFO -   Adding field: [Applicators] -> Address
+2026-05-15 15:46:39,514 - INFO -     → User Type selected: Applicators
+2026-05-15 15:46:59,649 - INFO -     → System Data Point selected: Address
+2026-05-15 15:46:59,678 - INFO -     → Mandatory toggle enabled
+2026-05-15 15:46:59,816 - INFO -     → Integrate Now clicked
+2026-05-15 15:47:02,835 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 15:47:03,835 - INFO - ============================================================
+2026-05-15 15:47:03,836 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-05-15 15:47:03,952 - INFO - Browser closed
+2026-05-15 15:47:03,952 - INFO - 
+Task finished at 2026-05-15 15:47:03
+2026-05-15 15:47:03,952 - INFO - Log: automation/logs/full_automation_20260515_151949.log
+

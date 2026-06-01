@@ -1,0 +1,554 @@
+2026-05-14 14:44:26,012 - INFO - User selected: Promotion Banners
+2026-05-14 14:44:26,012 - INFO - ============================================================
+2026-05-14 14:44:26,013 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-14 14:44:26,013 - INFO - ============================================================
+2026-05-14 14:44:26,013 - INFO - Found 3 banner image(s) in banner/
+2026-05-14 14:44:26,045 - INFO -   ⚙ Processing Vcqrubanner-1 (16).png  (size 1045×500 → need 1920×1080)
+2026-05-14 14:44:26,301 - INFO -   ✓ Vcqrubanner-1 (16).png  →  Vcqrubanner-1 (16)_processed.jpg  |  1920×1080  |  0.57 MB  |  quality 92
+2026-05-14 14:44:26,302 - INFO -   ⚙ Processing Vcqrubanner-1 (17).png  (size 1045×500 → need 1920×1080)
+2026-05-14 14:44:26,627 - INFO -   ✓ Vcqrubanner-1 (17).png  →  Vcqrubanner-1 (17)_processed.jpg  |  1920×1080  |  0.35 MB  |  quality 92
+2026-05-14 14:44:26,634 - INFO -   ⚙ Processing Vcqrubanner-1 (19).png  (size 1045×500 → need 1920×1080)
+2026-05-14 14:44:26,907 - INFO -   ✓ Vcqrubanner-1 (19).png  →  Vcqrubanner-1 (19)_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-05-14 14:44:26,910 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-14 14:44:26,911 - INFO - ============================================================
+2026-05-14 14:44:26,911 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-14 14:44:26,911 - INFO - ============================================================
+2026-05-14 14:44:28,851 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 14:44:31,217 - INFO - ✓ Chrome driver initialized
+2026-05-14 14:44:31,217 - INFO - Opening login page...
+2026-05-14 14:44:34,267 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 14:44:54,635 - ERROR - Login failed: Message: 
+
+2026-05-14 14:44:55,439 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260514_144454.png
+2026-05-14 14:44:55,440 - ERROR - ✗ Login failed. Aborting.
+2026-05-14 14:44:55,734 - INFO - Browser closed
+2026-05-14 14:44:55,734 - INFO - 
+Task finished at 2026-05-14 14:44:55
+2026-05-14 14:44:55,734 - INFO - Log: automation/logs/full_automation_20260514_144302.log
+
+2026-05-14 14:45:00,036 - INFO - User selected: Intro Screens
+2026-05-14 14:45:00,036 - INFO - ============================================================
+2026-05-14 14:45:00,037 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 14:45:00,037 - INFO - ============================================================
+2026-05-14 14:45:00,037 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-14 14:45:00,039 - INFO -   ⚙ Processing 1654a813-b7b1-4cbd-a9b8-16ea7a0d6059.jpg  (672×1536 → need 1080×1920)
+2026-05-14 14:45:00,264 - INFO -   ✓ 1654a813-b7b1-4cbd-a9b8-16ea7a0d6059.jpg  →  1654a813-b7b1-4cbd-a9b8-16ea7a0d6059_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-05-14 14:45:00,267 - INFO -   ⚙ Processing 5423c604-9fa0-4546-a422-169f5431ce51.jpg  (1728×2304 → need 1080×1920)
+2026-05-14 14:45:00,604 - INFO -   ✓ 5423c604-9fa0-4546-a422-169f5431ce51.jpg  →  5423c604-9fa0-4546-a422-169f5431ce51_processed.jpg  |  1080×1920  |  0.44 MB  |  quality 92
+2026-05-14 14:45:00,605 - INFO -   ⚙ Processing 5c42f05a-6129-4988-8d05-d8b82dce05c1.jpg  (168×300 → need 1080×1920)
+2026-05-14 14:45:00,758 - INFO -   ✓ 5c42f05a-6129-4988-8d05-d8b82dce05c1.jpg  →  5c42f05a-6129-4988-8d05-d8b82dce05c1_processed.jpg  |  1080×1920  |  0.17 MB  |  quality 92
+2026-05-14 14:45:00,758 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-14 14:46:24,017 - INFO - ============================================================
+2026-05-14 14:46:24,017 - INFO - INTRO SCREENS — Browser Automation
+2026-05-14 14:46:24,017 - INFO - ============================================================
+2026-05-14 14:46:24,639 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 14:46:26,253 - INFO - ✓ Chrome driver initialized
+2026-05-14 14:46:26,254 - INFO - Opening login page...
+2026-05-14 14:46:28,746 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 14:46:49,053 - ERROR - Login failed: Message: 
+
+2026-05-14 14:46:49,802 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260514_144649.png
+2026-05-14 14:46:49,803 - ERROR - ✗ Login failed. Aborting.
+2026-05-14 14:46:50,034 - INFO - Browser closed
+2026-05-14 14:46:50,034 - INFO - 
+Task finished at 2026-05-14 14:46:50
+2026-05-14 14:46:50,034 - INFO - Log: automation/logs/full_automation_20260514_144302.log
+
+2026-05-14 14:49:42,452 - INFO - User selected: Promotion Banners
+2026-05-14 14:49:42,453 - INFO - ============================================================
+2026-05-14 14:49:42,454 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-14 14:49:42,454 - INFO - ============================================================
+2026-05-14 14:49:42,461 - INFO - Found 3 banner image(s) in banner/
+2026-05-14 14:49:42,466 - INFO -   ⚙ Processing Vcqrubanner-1 (16).png  (size 1045×500 → need 1920×1080)
+2026-05-14 14:49:42,918 - INFO -   ✓ Vcqrubanner-1 (16).png  →  Vcqrubanner-1 (16)_processed.jpg  |  1920×1080  |  0.57 MB  |  quality 92
+2026-05-14 14:49:42,920 - INFO -   ⚙ Processing Vcqrubanner-1 (17).png  (size 1045×500 → need 1920×1080)
+2026-05-14 14:49:43,258 - INFO -   ✓ Vcqrubanner-1 (17).png  →  Vcqrubanner-1 (17)_processed.jpg  |  1920×1080  |  0.35 MB  |  quality 92
+2026-05-14 14:49:43,267 - INFO -   ⚙ Processing Vcqrubanner-1 (19).png  (size 1045×500 → need 1920×1080)
+2026-05-14 14:49:43,610 - INFO -   ✓ Vcqrubanner-1 (19).png  →  Vcqrubanner-1 (19)_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-05-14 14:49:43,611 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-14 14:49:43,612 - INFO - ============================================================
+2026-05-14 14:49:43,613 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-14 14:49:43,613 - INFO - ============================================================
+2026-05-14 14:49:44,734 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 14:49:48,151 - INFO - ✓ Chrome driver initialized
+2026-05-14 14:49:48,151 - INFO - Opening login page...
+2026-05-14 14:49:51,794 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 14:49:56,237 - INFO - ✓ Login successful
+2026-05-14 14:49:58,238 - INFO - Going to App Settings...
+2026-05-14 14:50:05,793 - INFO -   → Promotion Banners section opened
+2026-05-14 14:50:05,826 - INFO - ✓ Promotion Banners page ready
+2026-05-14 14:50:05,827 - INFO - Starting batch  —  3 banner(s) to publish
+2026-05-14 14:50:05,827 - INFO - ============================================================
+2026-05-14 14:50:05,827 - INFO - [1/3]
+2026-05-14 14:50:05,827 - INFO -   Publishing: [Vcqrubanner-1 (16)]  (Vcqrubanner-1 (16)_processed.jpg)
+2026-05-14 14:50:08,721 - INFO -     → Title entered: Vcqrubanner-1 (16)
+2026-05-14 14:50:10,899 - INFO -     → Image uploaded: Vcqrubanner-1 (16)_processed.jpg
+2026-05-14 14:50:11,166 - INFO -     → Publish Banner clicked
+2026-05-14 14:50:15,192 - INFO -   ✓ Banner published: Vcqrubanner-1 (16)
+
+2026-05-14 14:50:16,193 - INFO - [2/3]
+2026-05-14 14:50:16,193 - INFO -   Publishing: [Vcqrubanner-1 (17)]  (Vcqrubanner-1 (17)_processed.jpg)
+2026-05-14 14:50:19,582 - INFO -     → Title entered: Vcqrubanner-1 (17)
+2026-05-14 14:50:22,117 - INFO -     → Image uploaded: Vcqrubanner-1 (17)_processed.jpg
+2026-05-14 14:50:23,819 - INFO -     → Publish Banner clicked
+2026-05-14 14:50:27,850 - INFO -   ✓ Banner published: Vcqrubanner-1 (17)
+
+2026-05-14 14:50:28,850 - INFO - [3/3]
+2026-05-14 14:50:28,850 - INFO -   Publishing: [Vcqrubanner-1 (19)]  (Vcqrubanner-1 (19)_processed.jpg)
+2026-05-14 14:50:32,612 - INFO -     → Title entered: Vcqrubanner-1 (19)
+2026-05-14 14:50:35,580 - INFO -     → Image uploaded: Vcqrubanner-1 (19)_processed.jpg
+2026-05-14 14:50:36,508 - INFO -     → Publish Banner clicked
+2026-05-14 14:50:40,568 - INFO -   ✓ Banner published: Vcqrubanner-1 (19)
+
+2026-05-14 14:50:41,568 - INFO - ============================================================
+2026-05-14 14:50:41,569 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-05-14 14:50:41,958 - INFO - Browser closed
+2026-05-14 14:50:41,960 - INFO - 
+Task finished at 2026-05-14 14:50:41
+2026-05-14 14:50:41,960 - INFO - Log: automation/logs/full_automation_20260514_144302.log
+
+2026-05-14 14:51:47,381 - INFO - User selected: Intro Screens
+2026-05-14 14:51:47,385 - INFO - ============================================================
+2026-05-14 14:51:47,387 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 14:51:47,389 - INFO - ============================================================
+2026-05-14 14:51:47,398 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-14 14:51:47,401 - INFO -   ⚙ Processing 1654a813-b7b1-4cbd-a9b8-16ea7a0d6059.jpg  (672×1536 → need 1080×1920)
+2026-05-14 14:51:47,759 - INFO -   ✓ 1654a813-b7b1-4cbd-a9b8-16ea7a0d6059.jpg  →  1654a813-b7b1-4cbd-a9b8-16ea7a0d6059_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-05-14 14:51:47,762 - INFO -   ⚙ Processing 5423c604-9fa0-4546-a422-169f5431ce51.jpg  (1728×2304 → need 1080×1920)
+2026-05-14 14:51:48,222 - INFO -   ✓ 5423c604-9fa0-4546-a422-169f5431ce51.jpg  →  5423c604-9fa0-4546-a422-169f5431ce51_processed.jpg  |  1080×1920  |  0.44 MB  |  quality 92
+2026-05-14 14:51:48,233 - INFO -   ⚙ Processing 5c42f05a-6129-4988-8d05-d8b82dce05c1.jpg  (168×300 → need 1080×1920)
+2026-05-14 14:51:48,447 - INFO -   ✓ 5c42f05a-6129-4988-8d05-d8b82dce05c1.jpg  →  5c42f05a-6129-4988-8d05-d8b82dce05c1_processed.jpg  |  1080×1920  |  0.17 MB  |  quality 92
+2026-05-14 14:51:48,448 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-14 14:52:50,520 - INFO - ============================================================
+2026-05-14 14:52:50,524 - INFO - INTRO SCREENS — Browser Automation
+2026-05-14 14:52:50,525 - INFO - ============================================================
+2026-05-14 14:52:51,961 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 14:52:55,338 - INFO - ✓ Chrome driver initialized
+2026-05-14 14:52:55,339 - INFO - Opening login page...
+2026-05-14 14:52:58,237 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 14:53:01,914 - INFO - ✓ Login successful
+2026-05-14 14:53:03,925 - INFO - Going to App Settings...
+2026-05-14 14:53:12,557 - INFO -   → Intro Screens section opened
+2026-05-14 14:53:12,577 - INFO - ✓ Intro Screens page ready
+2026-05-14 14:53:12,606 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-14 14:53:12,606 - INFO - ============================================================
+2026-05-14 14:53:12,607 - INFO - [1/3]
+2026-05-14 14:53:12,607 - INFO -   Launching screen: [Dream House]
+2026-05-14 14:53:15,509 - INFO -     → Header: Dream House
+2026-05-14 14:53:16,158 - INFO -     → Description: We Make your Dream House true...
+2026-05-14 14:53:18,626 - INFO -     → Image uploaded: 1654a813-b7b1-4cbd-a9b8-16ea7a0d6059_processed.jpg
+2026-05-14 14:53:20,156 - INFO -     → Launch Screen clicked
+2026-05-14 14:53:24,228 - INFO -   ✓ Intro screen launched: Dream House
+
+2026-05-14 14:53:25,230 - INFO - [2/3]
+2026-05-14 14:53:25,233 - INFO -   Launching screen: [Good Quality]
+2026-05-14 14:53:29,312 - INFO -     → Header: Good Quality
+2026-05-14 14:53:30,395 - INFO -     → Description: No compromise with Quality...
+2026-05-14 14:53:32,638 - INFO -     → Image uploaded: 5423c604-9fa0-4546-a422-169f5431ce51_processed.jpg
+2026-05-14 14:53:33,462 - INFO -     → Launch Screen clicked
+2026-05-14 14:53:37,511 - INFO -   ✓ Intro screen launched: Good Quality
+
+2026-05-14 14:53:38,513 - INFO - [3/3]
+2026-05-14 14:53:38,513 - INFO -   Launching screen: [Welcome to Adstud Specialities – Leaders in Constr]
+2026-05-14 14:53:42,429 - INFO -     → Header: Welcome to Adstud Specialities – Leaders in Construction & Chemical Solutions
+2026-05-14 14:53:45,867 - INFO -     → Description: Adstud Specialities is a pioneering manufacturer and supplie...
+2026-05-14 14:53:48,053 - INFO -     → Image uploaded: 5c42f05a-6129-4988-8d05-d8b82dce05c1_processed.jpg
+2026-05-14 14:53:48,279 - INFO -     → Launch Screen clicked
+2026-05-14 14:53:52,403 - INFO -   ✓ Intro screen launched: Welcome to Adstud Specialities – Leaders in Construction & Chemical Solutions
+
+2026-05-14 14:53:53,404 - INFO - ============================================================
+2026-05-14 14:53:53,405 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-14 14:53:53,934 - INFO - Browser closed
+2026-05-14 14:53:53,935 - INFO - 
+Task finished at 2026-05-14 14:53:53
+2026-05-14 14:53:53,936 - INFO - Log: automation/logs/full_automation_20260514_144302.log
+
+2026-05-14 14:54:53,231 - INFO - User selected: Dashboard Icons
+2026-05-14 14:54:53,234 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-14 14:54:53,235 - INFO - Automation started at 2026-05-14 14:54:53
+
+2026-05-14 14:54:53,236 - INFO - ============================================================
+2026-05-14 14:54:53,238 - INFO - STEP 1: Processing and Compressing Images
+2026-05-14 14:54:53,239 - INFO - ============================================================
+2026-05-14 14:54:53,242 - INFO - Processing images from: dashboardicons
+2026-05-14 14:54:53,242 - INFO - Output folder: automation/processed_images
+2026-05-14 14:54:53,242 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-14 14:54:53,387 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-14 14:54:53,447 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-14 14:54:53,490 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-14 14:54:53,532 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-14 14:54:53,551 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-14 14:54:53,586 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-14 14:54:53,600 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-14 14:54:53,631 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-14 14:54:53,659 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-14 14:54:53,677 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-14 14:54:53,700 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-14 14:54:53,733 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-14 14:54:53,755 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-14 14:54:53,774 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-14 14:54:53,774 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-14 14:54:53,774 - INFO - ✓ 14 images processed and ready
+
+2026-05-14 14:54:53,775 - INFO - ============================================================
+2026-05-14 14:54:53,775 - INFO - STEP 2: Preparing Authentication
+2026-05-14 14:54:53,776 - INFO - ============================================================
+2026-05-14 14:54:53,777 - INFO - Using email: gbatta676@gmail.com
+2026-05-14 14:54:53,777 - INFO - ✓ Credentials loaded
+
+2026-05-14 14:54:53,778 - INFO - ============================================================
+2026-05-14 14:54:53,778 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-14 14:54:53,778 - INFO - ============================================================
+2026-05-14 14:54:56,138 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 14:55:01,438 - INFO - ✓ Chrome driver initialized
+2026-05-14 14:55:01,438 - INFO - 
+→ Attempting login...
+
+2026-05-14 14:55:01,439 - INFO - Opening login page...
+2026-05-14 14:55:04,855 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 14:55:08,876 - INFO - ✓ Login successful
+2026-05-14 14:55:10,880 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-14 14:55:10,886 - INFO - Navigating to App Settings...
+2026-05-14 14:55:17,584 - INFO - ✓ Dashboard Icons section loaded
+2026-05-14 14:55:19,588 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-14 14:55:19,589 - INFO - Starting batch – 12 configured entries
+2026-05-14 14:55:23,321 - INFO -   Found 2 user types: ['Contractor', 'Applicator']
+2026-05-14 14:55:23,321 - INFO - Available user types: ['Contractor', 'Applicator']
+2026-05-14 14:55:23,322 - INFO - Total icons to upload after expansion: 24
+2026-05-14 14:55:23,322 - INFO - ============================================================
+2026-05-14 14:55:23,322 - INFO - [1/24]
+2026-05-14 14:55:23,322 - INFO -   Adding: [Contractor] Gift  (gift)
+2026-05-14 14:55:25,844 - INFO -     → User type: Contractor
+2026-05-14 14:55:26,111 - INFO -     → Icon identity: gift
+2026-05-14 14:55:26,640 - INFO -     → Display title: Gift
+2026-05-14 14:55:26,745 - INFO -     → Toggle: both
+2026-05-14 14:55:28,916 - INFO -     → Image uploaded: Gift.png
+2026-05-14 14:55:29,337 - INFO -     → Form submitted
+2026-05-14 14:55:30,372 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 14:55:31,375 - INFO - [2/24]
+2026-05-14 14:55:31,376 - INFO -   Adding: [Applicator] Gift  (gift)
+2026-05-14 14:55:35,544 - INFO -     → User type: Applicator
+2026-05-14 14:55:36,595 - INFO -     → Icon identity: gift
+2026-05-14 14:55:37,940 - INFO -     → Display title: Gift
+2026-05-14 14:55:38,122 - INFO -     → Toggle: both
+2026-05-14 14:55:40,224 - INFO -     → Image uploaded: Gift.png
+2026-05-14 14:55:41,026 - INFO -     → Form submitted
+2026-05-14 14:55:42,057 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 14:55:43,059 - INFO - [3/24]
+2026-05-14 14:55:43,060 - INFO -   Adding: [Contractor] History  (history)
+2026-05-14 14:55:46,446 - INFO -     → User type: Contractor
+2026-05-14 14:55:47,045 - INFO -     → Icon identity: history
+2026-05-14 14:55:48,992 - INFO -     → Display title: History
+2026-05-14 14:55:49,091 - INFO -     → Toggle: both
+2026-05-14 14:55:51,226 - INFO -     → Image uploaded: history.png
+2026-05-14 14:55:51,552 - INFO -     → Form submitted
+2026-05-14 14:55:52,597 - INFO -   ✓ Icon added: History
+
+2026-05-14 14:55:53,598 - INFO - [4/24]
+2026-05-14 14:55:53,601 - INFO -   Adding: [Applicator] History  (history)
+2026-05-14 14:55:56,602 - INFO -     → User type: Applicator
+2026-05-14 14:55:56,979 - INFO -     → Icon identity: history
+2026-05-14 14:55:57,557 - INFO -     → Display title: History
+2026-05-14 14:55:57,640 - INFO -     → Toggle: both
+2026-05-14 14:55:59,785 - INFO -     → Image uploaded: history.png
+2026-05-14 14:56:00,055 - INFO -     → Form submitted
+2026-05-14 14:56:01,083 - INFO -   ✓ Icon added: History
+
+2026-05-14 14:56:02,083 - INFO - [5/24]
+2026-05-14 14:56:02,084 - INFO -   Adding: [Contractor] Wallet  (wallet)
+2026-05-14 14:56:05,064 - INFO -     → User type: Contractor
+2026-05-14 14:56:05,638 - INFO -     → Icon identity: wallet
+2026-05-14 14:56:05,892 - INFO -     → Display title: Wallet
+2026-05-14 14:56:05,998 - INFO -     → Toggle: both
+2026-05-14 14:56:08,317 - INFO -     → Image uploaded: wallet.png
+2026-05-14 14:56:10,766 - INFO -     → Form submitted
+2026-05-14 14:56:11,962 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 14:56:12,963 - INFO - [6/24]
+2026-05-14 14:56:12,964 - INFO -   Adding: [Applicator] Wallet  (wallet)
+2026-05-14 14:56:16,781 - INFO -     → User type: Applicator
+2026-05-14 14:56:17,012 - INFO -     → Icon identity: wallet
+2026-05-14 14:56:17,327 - INFO -     → Display title: Wallet
+2026-05-14 14:56:17,409 - INFO -     → Toggle: both
+2026-05-14 14:56:19,568 - INFO -     → Image uploaded: wallet.png
+2026-05-14 14:56:19,932 - INFO -     → Form submitted
+2026-05-14 14:56:20,949 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 14:56:21,956 - INFO - [7/24]
+2026-05-14 14:56:21,957 - INFO -   Adding: [Contractor] KYC  (kycdetails)
+2026-05-14 14:56:24,349 - INFO -     → User type: Contractor
+2026-05-14 14:56:24,541 - INFO -     → Icon identity: kycdetails
+2026-05-14 14:56:24,849 - INFO -     → Display title: KYC
+2026-05-14 14:56:24,960 - INFO -     → Toggle: both
+2026-05-14 14:56:27,123 - INFO -     → Image uploaded: kyc.png
+2026-05-14 14:56:27,398 - INFO -     → Form submitted
+2026-05-14 14:56:28,444 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 14:56:29,447 - INFO - [8/24]
+2026-05-14 14:56:29,447 - INFO -   Adding: [Applicator] KYC  (kycdetails)
+2026-05-14 14:56:33,020 - INFO -     → User type: Applicator
+2026-05-14 14:56:33,483 - INFO -     → Icon identity: kycdetails
+2026-05-14 14:56:33,718 - INFO -     → Display title: KYC
+2026-05-14 14:56:33,871 - INFO -     → Toggle: both
+2026-05-14 14:56:35,951 - INFO -     → Image uploaded: kyc.png
+2026-05-14 14:56:36,166 - INFO -     → Form submitted
+2026-05-14 14:56:37,223 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 14:56:38,225 - INFO - [9/24]
+2026-05-14 14:56:38,225 - INFO -   Adding: [Contractor] Blog  (blog)
+2026-05-14 14:56:40,748 - INFO -     → User type: Contractor
+2026-05-14 14:56:40,896 - INFO -     → Icon identity: blog
+2026-05-14 14:56:41,067 - INFO -     → Display title: Blog
+2026-05-14 14:56:41,134 - INFO -     → Toggle: both
+2026-05-14 14:56:43,313 - INFO -     → Image uploaded: blog.png
+2026-05-14 14:56:43,483 - INFO -     → Form submitted
+2026-05-14 14:56:44,513 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 14:56:45,513 - INFO - [10/24]
+2026-05-14 14:56:45,513 - INFO -   Adding: [Applicator] Blog  (blog)
+2026-05-14 14:56:48,286 - INFO -     → User type: Applicator
+2026-05-14 14:56:48,580 - INFO -     → Icon identity: blog
+2026-05-14 14:56:48,985 - INFO -     → Display title: Blog
+2026-05-14 14:56:49,032 - INFO -     → Toggle: both
+2026-05-14 14:56:51,098 - INFO -     → Image uploaded: blog.png
+2026-05-14 14:56:51,365 - INFO -     → Form submitted
+2026-05-14 14:56:52,377 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 14:56:53,379 - INFO - [11/24]
+2026-05-14 14:56:53,379 - INFO -   Adding: [Contractor] Brochure  (brochure)
+2026-05-14 14:56:55,946 - INFO -     → User type: Contractor
+2026-05-14 14:56:56,133 - INFO -     → Icon identity: brochure
+2026-05-14 14:56:56,406 - INFO -     → Display title: Brochure
+2026-05-14 14:56:56,694 - INFO -     → Toggle: both
+2026-05-14 14:56:59,872 - INFO -     → Image uploaded: brochure.png
+2026-05-14 14:57:00,403 - INFO -     → Form submitted
+2026-05-14 14:57:01,445 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 14:57:02,446 - INFO - [12/24]
+2026-05-14 14:57:02,447 - INFO -   Adding: [Applicator] Brochure  (brochure)
+2026-05-14 14:57:06,103 - INFO -     → User type: Applicator
+2026-05-14 14:57:06,447 - INFO -     → Icon identity: brochure
+2026-05-14 14:57:06,956 - INFO -     → Display title: Brochure
+2026-05-14 14:57:07,053 - INFO -     → Toggle: both
+2026-05-14 14:57:09,254 - INFO -     → Image uploaded: brochure.png
+2026-05-14 14:57:09,698 - INFO -     → Form submitted
+2026-05-14 14:57:10,753 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 14:57:11,755 - INFO - [13/24]
+2026-05-14 14:57:11,756 - INFO -   Adding: [Contractor] Claim History  (claimhistory)
+2026-05-14 14:57:15,050 - INFO -     → User type: Contractor
+2026-05-14 14:57:15,372 - INFO -     → Icon identity: claimhistory
+2026-05-14 14:57:15,827 - INFO -     → Display title: Claim History
+2026-05-14 14:57:15,890 - INFO -     → Toggle: both
+2026-05-14 14:57:18,023 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 14:57:18,417 - INFO -     → Form submitted
+2026-05-14 14:57:19,506 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 14:57:20,507 - INFO - [14/24]
+2026-05-14 14:57:20,507 - INFO -   Adding: [Applicator] Claim History  (claimhistory)
+2026-05-14 14:57:21,660 - ERROR -   ✗ Failed to add [Claim History]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5a21db0643ea <unknown>
+#1 0x5a21daa74845 <unknown>
+#2 0x5a21daacdd7b <unknown>
+#3 0x5a21daacb9b2 <unknown>
+#4 0x5a21daac8ec9 <unknown>
+#5 0x5a21daac7fc7 <unknown>
+#6 0x5a21daabc0b2 <unknown>
+#7 0x5a21daabb9f8 <unknown>
+#8 0x5a21dab0f175 <unknown>
+#9 0x5a21daaba204 <unknown>
+#10 0x5a21daabafc1 <unknown>
+#11 0x5a21db0279cb <unknown>
+#12 0x5a21db02ac93 <unknown>
+#13 0x5a21db01565c <unknown>
+#14 0x5a21db02b429 <unknown>
+#15 0x5a21daffd9d7 <unknown>
+#16 0x5a21db051c08 <unknown>
+#17 0x5a21db051e33 <unknown>
+#18 0x5a21db062df7 <unknown>
+#19 0x73375c09caa4 <unknown>
+#20 0x73375c129c6c <unknown>
+
+2026-05-14 14:57:22,654 - INFO -   📸 Screenshot saved: automation/screenshots/error_Claim_History_20260514_145721.png
+2026-05-14 14:57:24,916 - INFO - [15/24]
+2026-05-14 14:57:24,916 - INFO -   Adding: [Contractor] Language  (chooselanguage)
+2026-05-14 14:57:27,425 - INFO -     → User type: Contractor
+2026-05-14 14:57:27,620 - INFO -     → Icon identity: chooselanguage
+2026-05-14 14:57:27,889 - INFO -     → Display title: Language
+2026-05-14 14:57:27,988 - INFO -     → Toggle: both
+2026-05-14 14:57:30,107 - INFO -     → Image uploaded: language.png
+2026-05-14 14:57:30,405 - INFO -     → Form submitted
+2026-05-14 14:57:31,467 - INFO -   ✓ Icon added: Language
+
+2026-05-14 14:57:32,468 - INFO - [16/24]
+2026-05-14 14:57:32,469 - INFO -   Adding: [Applicator] Language  (chooselanguage)
+2026-05-14 14:57:35,074 - INFO -     → User type: Applicator
+2026-05-14 14:57:35,409 - INFO -     → Icon identity: chooselanguage
+2026-05-14 14:57:35,738 - INFO -     → Display title: Language
+2026-05-14 14:57:35,809 - INFO -     → Toggle: both
+2026-05-14 14:57:37,947 - INFO -     → Image uploaded: language.png
+2026-05-14 14:57:38,399 - INFO -     → Form submitted
+2026-05-14 14:57:39,788 - INFO -   ✓ Icon added: Language
+
+2026-05-14 14:57:40,789 - INFO - [17/24]
+2026-05-14 14:57:40,790 - INFO -   Adding: [Contractor] Code Details  (codedetails)
+2026-05-14 14:57:43,755 - INFO -     → User type: Contractor
+2026-05-14 14:57:44,354 - INFO -     → Icon identity: codedetails
+2026-05-14 14:57:44,984 - INFO -     → Display title: Code Details
+2026-05-14 14:57:45,153 - INFO -     → Toggle: both
+2026-05-14 14:57:47,382 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 14:57:48,219 - INFO -     → Form submitted
+2026-05-14 14:57:49,273 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 14:57:50,274 - INFO - [18/24]
+2026-05-14 14:57:50,274 - INFO -   Adding: [Applicator] Code Details  (codedetails)
+2026-05-14 14:57:53,448 - INFO -     → User type: Applicator
+2026-05-14 14:57:54,310 - INFO -     → Icon identity: codedetails
+2026-05-14 14:57:55,610 - INFO -     → Display title: Code Details
+2026-05-14 14:57:55,832 - INFO -     → Toggle: both
+2026-05-14 14:57:58,105 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 14:57:58,651 - INFO -     → Form submitted
+2026-05-14 14:57:59,668 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 14:58:00,668 - INFO - [19/24]
+2026-05-14 14:58:00,669 - INFO -   Adding: [Contractor] Help  (help)
+2026-05-14 14:58:03,295 - INFO -     → User type: Contractor
+2026-05-14 14:58:03,514 - INFO -     → Icon identity: help
+2026-05-14 14:58:03,814 - INFO -     → Display title: Help
+2026-05-14 14:58:03,963 - INFO -     → Toggle: both
+2026-05-14 14:58:06,121 - INFO -     → Image uploaded: help.png
+2026-05-14 14:58:06,439 - INFO -     → Form submitted
+2026-05-14 14:58:07,563 - INFO -   ✓ Icon added: Help
+
+2026-05-14 14:58:08,563 - INFO - [20/24]
+2026-05-14 14:58:08,563 - INFO -   Adding: [Applicator] Help  (help)
+2026-05-14 14:58:11,195 - INFO -     → User type: Applicator
+2026-05-14 14:58:11,458 - INFO -     → Icon identity: help
+2026-05-14 14:58:11,865 - INFO -     → Display title: Help
+2026-05-14 14:58:11,993 - INFO -     → Toggle: both
+2026-05-14 14:58:14,256 - INFO -     → Image uploaded: help.png
+2026-05-14 14:58:14,971 - INFO -     → Form submitted
+2026-05-14 14:58:16,011 - INFO -   ✓ Icon added: Help
+
+2026-05-14 14:58:17,011 - INFO - [21/24]
+2026-05-14 14:58:17,011 - INFO -   Adding: [Contractor] Refer & Earn  (referandearn)
+2026-05-14 14:58:19,481 - INFO -     → User type: Contractor
+2026-05-14 14:58:19,733 - INFO -     → Icon identity: referandearn
+2026-05-14 14:58:20,053 - INFO -     → Display title: Refer & Earn
+2026-05-14 14:58:20,129 - INFO -     → Toggle: both
+2026-05-14 14:58:22,567 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 14:58:23,489 - INFO -     → Form submitted
+2026-05-14 14:58:24,979 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 14:58:26,006 - INFO - [22/24]
+2026-05-14 14:58:26,007 - INFO -   Adding: [Applicator] Refer & Earn  (referandearn)
+2026-05-14 14:58:27,681 - ERROR -   ✗ Failed to add [Refer & Earn]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5a21db0643ea <unknown>
+#1 0x5a21daa74845 <unknown>
+#2 0x5a21daacdd7b <unknown>
+#3 0x5a21daacb9b2 <unknown>
+#4 0x5a21daac8ec9 <unknown>
+#5 0x5a21daac7fc7 <unknown>
+#6 0x5a21daabc0b2 <unknown>
+#7 0x5a21daabb9f8 <unknown>
+#8 0x5a21dab0f175 <unknown>
+#9 0x5a21daaba204 <unknown>
+#10 0x5a21daabafc1 <unknown>
+#11 0x5a21db0279cb <unknown>
+#12 0x5a21db02ac93 <unknown>
+#13 0x5a21db01565c <unknown>
+#14 0x5a21db02b429 <unknown>
+#15 0x5a21daffd9d7 <unknown>
+#16 0x5a21db051c08 <unknown>
+#17 0x5a21db051e33 <unknown>
+#18 0x5a21db062df7 <unknown>
+#19 0x73375c09caa4 <unknown>
+#20 0x73375c129c6c <unknown>
+
+2026-05-14 14:58:28,829 - INFO -   📸 Screenshot saved: automation/screenshots/error_Refer_&_Earn_20260514_145827.png
+2026-05-14 14:58:31,034 - INFO - [23/24]
+2026-05-14 14:58:31,042 - INFO -   Adding: [Contractor] E-Commerce  (productcatalogue)
+2026-05-14 14:58:33,650 - INFO -     → User type: Contractor
+2026-05-14 14:58:33,990 - INFO -     → Icon identity: productcatalogue
+2026-05-14 14:58:34,465 - INFO -     → Display title: E-Commerce
+2026-05-14 14:58:34,584 - INFO -     → Toggle: both
+2026-05-14 14:58:36,765 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 14:58:42,358 - ERROR -   ✗ Failed to add [E-Commerce]: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5a21db0643ea <unknown>
+#1 0x5a21daa74845 <unknown>
+#2 0x5a21daa7b691 <unknown>
+#3 0x5a21daa7dec6 <unknown>
+#4 0x5a21daa7df93 <unknown>
+#5 0x5a21daacdb21 <unknown>
+#6 0x5a21daacb4cd <unknown>
+#7 0x5a21daac8ec9 <unknown>
+#8 0x5a21daac7fc7 <unknown>
+#9 0x5a21daabc0b2 <unknown>
+#10 0x5a21daabb9f8 <unknown>
+#11 0x5a21dab0f175 <unknown>
+#12 0x5a21daaba204 <unknown>
+#13 0x5a21daabafc1 <unknown>
+#14 0x5a21db0279cb <unknown>
+#15 0x5a21db02ac93 <unknown>
+#16 0x5a21db01565c <unknown>
+#17 0x5a21db02b429 <unknown>
+#18 0x5a21daffd9d7 <unknown>
+#19 0x5a21db051c08 <unknown>
+#20 0x5a21db051e33 <unknown>
+#21 0x5a21db062df7 <unknown>
+#22 0x73375c09caa4 <unknown>
+#23 0x73375c129c6c <unknown>
+
+2026-05-14 14:58:43,015 - INFO -   📸 Screenshot saved: automation/screenshots/error_E-Commerce_20260514_145842.png
+2026-05-14 14:58:44,078 - INFO - [24/24]
+2026-05-14 14:58:44,078 - INFO -   Adding: [Applicator] E-Commerce  (productcatalogue)
+2026-05-14 14:58:46,846 - INFO -     → User type: Applicator
+2026-05-14 14:58:47,025 - INFO -     → Icon identity: productcatalogue
+2026-05-14 14:58:47,669 - INFO -     → Display title: E-Commerce
+2026-05-14 14:58:47,778 - INFO -     → Toggle: both
+2026-05-14 14:58:49,966 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 14:58:50,846 - INFO -     → Form submitted
+2026-05-14 14:58:51,935 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 14:58:52,935 - INFO - ============================================================
+2026-05-14 14:58:52,936 - INFO - Batch complete → ✓ 21 succeeded  ✗ 3 failed
+2026-05-14 14:58:52,938 - INFO - 
+============================================================
+2026-05-14 14:58:52,942 - INFO - AUTOMATION SUMMARY
+2026-05-14 14:58:52,946 - INFO - ============================================================
+2026-05-14 14:58:52,946 - INFO - ✓ Successful uploads: 21
+2026-05-14 14:58:52,946 - INFO - ✗ Failed uploads: 3
+2026-05-14 14:58:52,947 - INFO - Total processed: 12
+2026-05-14 14:58:52,948 - INFO - Success rate: 175.0%
+2026-05-14 14:58:52,948 - INFO - ============================================================
+2026-05-14 14:58:53,400 - INFO - Browser closed
+2026-05-14 14:58:53,402 - INFO - 
+Task finished at 2026-05-14 14:58:53
+2026-05-14 14:58:53,402 - INFO - Log: automation/logs/full_automation_20260514_144302.log
+

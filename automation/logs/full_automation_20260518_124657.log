@@ -1,0 +1,237 @@
+2026-05-18 12:47:14,707 - INFO - User selected: Old Dashboard
+2026-05-18 12:47:16,450 - INFO -   Old Dashboard → Brand Setting
+2026-05-18 12:47:16,450 - INFO - ============================================================
+2026-05-18 12:47:16,451 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-18 12:47:16,451 - INFO - ============================================================
+2026-05-18 12:47:23,949 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 12:47:30,350 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-18 12:47:30,351 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-18 12:47:38,987 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-18 12:47:40,988 - INFO -     → Filling credentials …
+2026-05-18 12:47:41,441 - INFO -       Email → field #login_txt_id
+2026-05-18 12:47:41,857 - INFO -       Password → field #login_txt_pass
+2026-05-18 12:47:42,128 - INFO -       Login button clicked: #btnVendor
+2026-05-18 12:47:42,128 - INFO -     → Waiting for post-login redirect …
+2026-05-18 12:47:59,191 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-18 12:47:59,191 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-18 12:48:13,925 - INFO - 
+[3/4] Extracting brand data …
+2026-05-18 12:48:14,392 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-18 12:48:15,812 - INFO -   ✓ Downloaded: logo.png  (28.8 KB)
+2026-05-18 12:48:16,459 - INFO -   ✓ Downloaded: splash.png  (139.5 KB)
+2026-05-18 12:48:16,462 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-18 12:48:16,770 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-18 12:48:17,794 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 12:48:20,477 - INFO - ✓ Chrome driver initialized
+2026-05-18 12:48:20,477 - INFO - Opening login page...
+2026-05-18 12:48:22,893 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 12:48:24,223 - INFO - ✓ Login successful
+2026-05-18 12:48:24,514 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-18 12:48:24,671 - INFO - ✓ Logo  → logo_processed.png  |  39.1 KB  |  PNG lossless
+2026-05-18 12:48:24,792 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-18 12:48:28,041 - INFO - ✓ Splash → splash_processed.png  |  0.82 MB  |  PNG lossless
+2026-05-18 12:48:28,431 - INFO -   Colours extracted from logo:
+2026-05-18 12:48:28,432 - INFO -     Header Color     →  #204050  (dominant logo colour)
+2026-05-18 12:48:28,432 - INFO -     Background Color →  #142934  (35% darker)
+2026-05-18 12:48:28,433 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-18 12:48:28,433 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-18 12:48:28,449 - INFO - Going to App Settings...
+2026-05-18 12:48:36,381 - INFO -   → Identity & Branding section opened
+2026-05-18 12:48:39,042 - INFO -   → Edit Branding popup opened
+2026-05-18 12:48:39,493 - INFO - ✓ Brand setting form is ready
+2026-05-18 12:48:39,494 - INFO -   Setting company name: ANTIFREEZE REWARD PROGRAM
+2026-05-18 12:48:42,062 - INFO -     → HeaderColor: #204050
+2026-05-18 12:48:43,570 - INFO -     → FooterColor: #F5F5F5
+2026-05-18 12:48:45,502 - INFO -     → BodyColor: #FFFFFF
+2026-05-18 12:48:47,055 - INFO -     → BackgroundColor: #142934
+2026-05-18 12:48:49,290 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-18 12:48:52,091 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-18 12:48:52,657 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-18 12:48:55,678 - INFO - ✓ Brand settings saved successfully!
+2026-05-18 12:48:55,679 - INFO - Going to App Settings for Support Network...
+2026-05-18 12:49:00,152 - INFO -   → Support Network section opened
+2026-05-18 12:49:03,251 - INFO -   → Edit Support Network popup opened
+2026-05-18 12:49:05,252 - INFO - ✓ Support Network form is ready
+2026-05-18 12:49:05,329 - WARNING -     ⚠ Could not find field for: phone
+2026-05-18 12:49:07,099 - INFO -     ✓ email filled
+2026-05-18 12:49:07,290 - WARNING -     ⚠ Could not find field for: website
+2026-05-18 12:49:08,679 - INFO -     ✓ terms_conditions filled
+2026-05-18 12:49:14,735 - INFO -     ✓ support_content filled
+2026-05-18 12:49:17,768 - INFO -     ✓ privacy_policy filled
+2026-05-18 12:49:19,850 - INFO -   → Save clicked
+2026-05-18 12:49:22,851 - INFO - ✓ Support Network saved successfully!
+2026-05-18 12:49:23,106 - INFO - Browser closed
+2026-05-18 12:49:23,133 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47913): Failed to establish a new connection: [Errno 111] Connection refused")': /session/96a3d4c7dc6dc70970557c7840bd7887
+2026-05-18 12:49:23,135 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47913): Failed to establish a new connection: [Errno 111] Connection refused")': /session/96a3d4c7dc6dc70970557c7840bd7887
+2026-05-18 12:49:23,136 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47913): Failed to establish a new connection: [Errno 111] Connection refused")': /session/96a3d4c7dc6dc70970557c7840bd7887
+2026-05-18 12:49:23,157 - INFO -   Browser closed
+2026-05-18 12:49:23,161 - INFO - 
+Task finished at 2026-05-18 12:49:23
+2026-05-18 12:49:23,161 - INFO - Log: automation/logs/full_automation_20260518_124657.log
+
+2026-05-18 12:55:09,795 - INFO - User selected: Dashboard Icons
+2026-05-18 12:55:10,216 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-18 12:55:10,264 - INFO - Automation started at 2026-05-18 12:55:10
+
+2026-05-18 12:55:10,266 - INFO - ============================================================
+2026-05-18 12:55:10,267 - INFO - STEP 1: Processing and Compressing Images
+2026-05-18 12:55:10,267 - INFO - ============================================================
+2026-05-18 12:55:10,416 - INFO - Processing images from: dashboardicons
+2026-05-18 12:55:10,417 - INFO - Output folder: automation/processed_images
+2026-05-18 12:55:10,420 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-18 12:55:10,556 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-18 12:55:10,567 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-18 12:55:10,592 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-18 12:55:10,613 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-18 12:55:10,624 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-18 12:55:10,641 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-18 12:55:10,651 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-18 12:55:10,665 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-18 12:55:10,693 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-18 12:55:10,718 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-18 12:55:10,814 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-18 12:55:10,860 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-18 12:55:10,934 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-18 12:55:11,432 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-18 12:55:11,433 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-18 12:55:11,438 - INFO - ✓ 14 images processed and ready
+
+2026-05-18 12:55:11,438 - INFO - ============================================================
+2026-05-18 12:55:11,438 - INFO - STEP 2: Preparing Authentication
+2026-05-18 12:55:11,438 - INFO - ============================================================
+2026-05-18 12:55:11,438 - INFO - Using email: mittal.rishi@gmail.com
+2026-05-18 12:55:11,438 - INFO - ✓ Credentials loaded
+
+2026-05-18 12:55:11,439 - INFO - ============================================================
+2026-05-18 12:55:11,439 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-18 12:55:11,439 - INFO - ============================================================
+2026-05-18 12:55:14,246 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 12:55:23,461 - INFO - ✓ Chrome driver initialized
+2026-05-18 12:55:23,461 - INFO - 
+→ Attempting login...
+
+2026-05-18 12:55:23,466 - INFO - Opening login page...
+2026-05-18 12:55:25,473 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 12:55:26,728 - INFO - ✓ Login successful
+2026-05-18 12:55:28,731 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-18 12:55:28,731 - INFO - Navigating to App Settings...
+2026-05-18 12:55:35,255 - INFO - ✓ Dashboard Icons section loaded
+2026-05-18 12:55:37,259 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-18 12:55:37,260 - INFO - Starting batch – 12 configured entries
+2026-05-18 12:55:41,057 - INFO -   Found 0 user types: []
+2026-05-18 12:55:41,057 - INFO - Available user types: []
+2026-05-18 12:55:41,057 - INFO - Total icons to upload after expansion: 0
+2026-05-18 12:55:41,057 - INFO - ============================================================
+2026-05-18 12:55:41,057 - INFO - ============================================================
+2026-05-18 12:55:41,058 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-05-18 12:55:41,058 - INFO - 
+============================================================
+2026-05-18 12:55:41,058 - INFO - AUTOMATION SUMMARY
+2026-05-18 12:55:41,058 - INFO - ============================================================
+2026-05-18 12:55:41,058 - INFO - ✓ Successful uploads: 0
+2026-05-18 12:55:41,058 - INFO - ✗ Failed uploads: 0
+2026-05-18 12:55:41,058 - INFO - Total processed: 12
+2026-05-18 12:55:41,058 - INFO - Success rate: 0.0%
+2026-05-18 12:55:41,058 - INFO - ============================================================
+2026-05-18 12:55:41,482 - INFO - Browser closed
+2026-05-18 12:55:41,483 - INFO - 
+Task finished at 2026-05-18 12:55:41
+2026-05-18 12:55:41,483 - INFO - Log: automation/logs/full_automation_20260518_124657.log
+
+2026-05-18 13:07:42,826 - INFO - User selected: Dashboard Icons
+2026-05-18 13:07:42,866 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-18 13:07:42,873 - INFO - Automation started at 2026-05-18 13:07:42
+
+2026-05-18 13:07:42,875 - INFO - ============================================================
+2026-05-18 13:07:42,878 - INFO - STEP 1: Processing and Compressing Images
+2026-05-18 13:07:42,878 - INFO - ============================================================
+2026-05-18 13:07:42,900 - INFO - Processing images from: dashboardicons
+2026-05-18 13:07:42,901 - INFO - Output folder: automation/processed_images
+2026-05-18 13:07:42,902 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-18 13:07:43,019 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-18 13:07:43,037 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-18 13:07:43,088 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-18 13:07:43,148 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-18 13:07:43,161 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-18 13:07:43,270 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-18 13:07:43,287 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-18 13:07:43,317 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-18 13:07:43,352 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-18 13:07:43,377 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-18 13:07:43,406 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-18 13:07:43,444 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-18 13:07:43,493 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-18 13:07:43,527 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-18 13:07:43,527 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-18 13:07:43,529 - INFO - ✓ 14 images processed and ready
+
+2026-05-18 13:07:43,529 - INFO - ============================================================
+2026-05-18 13:07:43,529 - INFO - STEP 2: Preparing Authentication
+2026-05-18 13:07:43,529 - INFO - ============================================================
+2026-05-18 13:07:43,529 - INFO - Using email: mittal.rishi@gmail.com
+2026-05-18 13:07:43,529 - INFO - ✓ Credentials loaded
+
+2026-05-18 13:07:43,530 - INFO - ============================================================
+2026-05-18 13:07:43,530 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-18 13:07:43,530 - INFO - ============================================================
+2026-05-18 13:07:44,710 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 13:07:49,655 - INFO - ✓ Chrome driver initialized
+2026-05-18 13:07:49,655 - INFO - 
+→ Attempting login...
+
+2026-05-18 13:07:49,655 - INFO - Opening login page...
+2026-05-18 13:07:53,364 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 13:07:53,981 - INFO - ✓ Login successful
+2026-05-18 13:07:55,983 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-18 13:07:55,986 - INFO - Navigating to App Settings...
+2026-05-18 13:08:02,671 - INFO - ✓ Dashboard Icons section loaded
+2026-05-18 13:08:04,675 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-18 13:08:04,676 - INFO - Starting batch – 12 configured entries
+2026-05-18 13:08:08,817 - INFO -   Found 0 user types: []
+2026-05-18 13:08:08,818 - INFO - Available user types: []
+2026-05-18 13:08:08,818 - INFO - Total icons to upload after expansion: 0
+2026-05-18 13:08:08,818 - INFO - ============================================================
+2026-05-18 13:08:08,819 - INFO - ============================================================
+2026-05-18 13:08:08,819 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-05-18 13:08:08,819 - INFO - 
+============================================================
+2026-05-18 13:08:08,820 - INFO - AUTOMATION SUMMARY
+2026-05-18 13:08:08,820 - INFO - ============================================================
+2026-05-18 13:08:08,820 - INFO - ✓ Successful uploads: 0
+2026-05-18 13:08:08,821 - INFO - ✗ Failed uploads: 0
+2026-05-18 13:08:08,821 - INFO - Total processed: 12
+2026-05-18 13:08:08,821 - INFO - Success rate: 0.0%
+2026-05-18 13:08:08,822 - INFO - ============================================================
+2026-05-18 13:08:09,273 - INFO - Browser closed
+2026-05-18 13:08:09,274 - INFO - 
+Task finished at 2026-05-18 13:08:09
+2026-05-18 13:08:09,274 - INFO - Log: automation/logs/full_automation_20260518_124657.log
+

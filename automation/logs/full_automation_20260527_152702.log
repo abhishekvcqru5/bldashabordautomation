@@ -1,0 +1,173 @@
+2026-05-27 15:27:17,071 - INFO - User selected: Brand Setting
+2026-05-27 15:27:21,055 - INFO -   Found logo asset: logo.png
+2026-05-27 15:27:21,056 - ERROR - No file named 'splash' found in brandsetting/  (checked extensions: .bmp, .gif, .jpeg, .jpg, .png, .tiff, .webp)
+2026-05-27 15:27:21,056 - INFO - 
+Task finished at 2026-05-27 15:27:21
+2026-05-27 15:27:21,056 - INFO - Log: automation/logs/full_automation_20260527_152702.log
+
+2026-05-27 15:27:45,485 - INFO - User selected: Brand Setting
+2026-05-27 15:27:48,610 - INFO -   Found logo asset: logo.png
+2026-05-27 15:27:48,610 - INFO -   Found splash asset: splash.png
+2026-05-27 15:27:48,611 - INFO - ============================================================
+2026-05-27 15:27:48,612 - INFO - BRAND SETTING — Image Processing
+2026-05-27 15:27:48,612 - INFO - ============================================================
+2026-05-27 15:27:48,663 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-27 15:27:48,864 - INFO - ✓ Logo  → logo_processed.png  |  87.0 KB  |  PNG lossless
+2026-05-27 15:27:48,921 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-27 15:27:49,598 - INFO - ✓ Splash → splash_processed.png  |  0.26 MB  |  PNG lossless
+2026-05-27 15:27:49,600 - INFO - 
+2026-05-27 15:27:49,600 - INFO - Extracting brand colours from logo...
+2026-05-27 15:27:49,859 - INFO -   Colours extracted from logo:
+2026-05-27 15:27:49,859 - INFO -     Header Color     →  #9070B0  (dominant logo colour)
+2026-05-27 15:27:49,859 - INFO -     Background Color →  #5D4872  (35% darker)
+2026-05-27 15:27:49,859 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-27 15:27:49,859 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-27 15:27:49,873 - INFO - ✓ Both images ready
+
+2026-05-27 15:27:49,873 - INFO - ============================================================
+2026-05-27 15:27:49,873 - INFO - BRAND SETTING — Browser Automation
+2026-05-27 15:27:49,873 - INFO - ============================================================
+2026-05-27 15:27:49,874 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 15:27:49,874 - INFO - ====== WebDriver manager ======
+2026-05-27 15:27:50,605 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:27:51,106 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:27:51,355 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 15:27:53,141 - INFO - ✓ Chrome driver initialized
+2026-05-27 15:27:53,141 - INFO - Opening login page...
+2026-05-27 15:27:56,919 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 15:28:02,626 - INFO - ✓ Login successful
+2026-05-27 15:28:04,631 - INFO - Going to App Settings...
+2026-05-27 15:28:14,658 - INFO -   → Identity & Branding section opened
+2026-05-27 15:28:16,838 - INFO -   → Edit Branding popup opened
+2026-05-27 15:28:16,864 - INFO - ✓ Brand setting form is ready
+2026-05-27 15:28:16,865 - INFO -   Setting company name: Nayur Paints
+2026-05-27 15:28:18,403 - INFO -     → HeaderColor: #9070B0
+2026-05-27 15:28:19,354 - INFO -     → FooterColor: #F5F5F5
+2026-05-27 15:28:20,384 - INFO -     → BodyColor: #FFFFFF
+2026-05-27 15:28:21,610 - INFO -     → BackgroundColor: #5D4872
+2026-05-27 15:28:23,725 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-27 15:28:25,806 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-27 15:28:26,012 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-27 15:28:29,021 - INFO - ✓ Brand settings saved successfully!
+2026-05-27 15:28:29,228 - INFO - Browser closed
+2026-05-27 15:28:29,228 - INFO - 
+Task finished at 2026-05-27 15:28:29
+2026-05-27 15:28:29,228 - INFO - Log: automation/logs/full_automation_20260527_152702.log
+
+2026-05-27 15:30:13,824 - INFO - User selected: Promotion Banners
+2026-05-27 15:30:13,825 - INFO - ============================================================
+2026-05-27 15:30:13,825 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-27 15:30:13,825 - INFO - ============================================================
+2026-05-27 15:30:13,826 - INFO - Found 1 banner image(s) in banner/
+2026-05-27 15:30:13,827 - INFO -   ⚙ Processing Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions.png  (size 334×186 → need 1920×1080)
+2026-05-27 15:30:13,948 - INFO -   ✓ Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions.png  →  Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions_processed.jpg  |  1920×1080  |  0.18 MB  |  quality 92
+2026-05-27 15:30:13,949 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-05-27 15:30:13,949 - INFO - ============================================================
+2026-05-27 15:30:13,950 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-27 15:30:13,950 - INFO - ============================================================
+2026-05-27 15:30:13,950 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 15:30:13,950 - INFO - ====== WebDriver manager ======
+2026-05-27 15:30:14,370 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:30:14,963 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:30:15,204 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 15:30:16,517 - INFO - ✓ Chrome driver initialized
+2026-05-27 15:30:16,518 - INFO - Opening login page...
+2026-05-27 15:30:18,406 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 15:30:21,657 - INFO - ✓ Login successful
+2026-05-27 15:30:23,657 - INFO - Going to App Settings...
+2026-05-27 15:30:30,275 - INFO -   → Promotion Banners section opened
+2026-05-27 15:30:30,324 - INFO - ✓ Promotion Banners page ready
+2026-05-27 15:30:30,324 - INFO - Starting batch  —  1 banner(s) to publish
+2026-05-27 15:30:30,324 - INFO - ============================================================
+2026-05-27 15:30:30,325 - INFO - [1/1]
+2026-05-27 15:30:30,325 - INFO -   Publishing: [Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions]  (Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions_processed.jpg)
+2026-05-27 15:30:33,425 - INFO -     → Title entered: Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions
+2026-05-27 15:30:35,531 - INFO -     → Image uploaded: Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions_processed.jpg
+2026-05-27 15:30:36,143 - INFO -     → Publish Banner clicked
+2026-05-27 15:30:40,156 - INFO -   ✓ Banner published: Screenshot 2026-05-15 at 10-49-26 VCQRU – Advanced Anti-Counterfeiting Solutions
+
+2026-05-27 15:30:41,156 - INFO - ============================================================
+2026-05-27 15:30:41,156 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-05-27 15:30:41,362 - INFO - Browser closed
+2026-05-27 15:30:41,362 - INFO - 
+Task finished at 2026-05-27 15:30:41
+2026-05-27 15:30:41,363 - INFO - Log: automation/logs/full_automation_20260527_152702.log
+
+2026-05-27 15:30:49,146 - INFO - User selected: Intro Screens
+2026-05-27 15:30:49,147 - INFO - ============================================================
+2026-05-27 15:30:49,147 - INFO - INTRO SCREENS — Image Processing
+2026-05-27 15:30:49,147 - INFO - ============================================================
+2026-05-27 15:30:49,149 - INFO - Found 2 intro image(s) in introscreen/
+2026-05-27 15:30:49,152 - INFO -   ✓ vcqruslide11.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-05-27 15:30:49,323 - INFO -   ✓ vcqruslide22.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-05-27 15:30:49,489 - INFO -   Processed 2/2 intro images successfully
+
+2026-05-27 15:30:52,669 - INFO - ============================================================
+2026-05-27 15:30:52,670 - INFO - INTRO SCREENS — Browser Automation
+2026-05-27 15:30:52,670 - INFO - ============================================================
+2026-05-27 15:30:52,671 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 15:30:52,671 - INFO - ====== WebDriver manager ======
+2026-05-27 15:30:53,031 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:30:53,478 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:30:53,738 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 15:30:55,014 - INFO - ✓ Chrome driver initialized
+2026-05-27 15:30:55,014 - INFO - Opening login page...
+2026-05-27 15:30:57,495 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 15:31:02,110 - INFO - ✓ Login successful
+2026-05-27 15:31:04,111 - INFO - Going to App Settings...
+2026-05-27 15:31:10,644 - INFO -   → Intro Screens section opened
+2026-05-27 15:31:10,684 - INFO - ✓ Intro Screens page ready
+2026-05-27 15:31:10,684 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-27 15:31:10,684 - INFO - ============================================================
+2026-05-27 15:31:10,684 - INFO - [1/2]
+2026-05-27 15:31:10,685 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-27 15:31:13,400 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-27 15:31:14,514 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-27 15:31:16,628 - INFO -     → Image uploaded: vcqruslide11_processed.jpg
+2026-05-27 15:31:16,847 - INFO -     → Launch Screen clicked
+2026-05-27 15:31:20,874 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-27 15:31:21,877 - INFO - [2/2]
+2026-05-27 15:31:21,878 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-27 15:31:25,032 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-27 15:31:27,697 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-27 15:31:29,889 - INFO -     → Image uploaded: vcqruslide22_processed.jpg
+2026-05-27 15:31:30,321 - INFO -     → Launch Screen clicked
+2026-05-27 15:31:34,337 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-27 15:31:35,338 - INFO - ============================================================
+2026-05-27 15:31:35,339 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-27 15:31:35,830 - INFO - Browser closed
+2026-05-27 15:31:35,831 - INFO - 
+Task finished at 2026-05-27 15:31:35
+2026-05-27 15:31:35,832 - INFO - Log: automation/logs/full_automation_20260527_152702.log
+
+2026-05-27 15:31:44,511 - INFO - User selected: Registration Fields
+2026-05-27 15:31:44,514 - INFO - ============================================================
+2026-05-27 15:31:44,515 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-27 15:31:44,516 - INFO - ============================================================
+2026-05-27 15:31:44,516 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 15:31:44,517 - INFO - ====== WebDriver manager ======
+2026-05-27 15:31:44,965 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:31:45,285 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 15:31:45,527 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 15:31:47,153 - INFO - ✓ Chrome driver initialized
+2026-05-27 15:31:47,153 - INFO - Opening login page...
+2026-05-27 15:31:49,142 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 15:31:52,273 - INFO - ✓ Login successful
+2026-05-27 15:31:54,275 - INFO - Going to App Settings...
+2026-05-27 15:31:55,881 - INFO -   → Registration Field section opened
+2026-05-27 15:31:56,141 - INFO - ✓ Registration Fields page ready
+2026-05-27 15:31:57,486 - INFO - Found 2 user types: ['Retailer', 'Painter']
+2026-05-27 15:31:57,486 - INFO - Starting registration fields automation: 12 fields total
+2026-05-27 15:31:57,486 - INFO - ============================================================
+2026-05-27 15:31:57,486 - INFO - Processing User Type: Retailer
+2026-05-27 15:31:57,486 - INFO -   Adding field: [Retailer] -> First Name
+2026-05-27 15:31:58,135 - INFO -     → User Type selected: Retailer
+2026-05-27 15:32:03,590 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/584a7273b72c0ddb6d049ba467a82320
+2026-05-27 15:32:03,591 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43107): Failed to establish a new connection: [Errno 111] Connection refused")': /session/584a7273b72c0ddb6d049ba467a82320
+2026-05-27 15:32:03,594 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43107): Failed to establish a new connection: [Errno 111] Connection refused")': /session/584a7273b72c0ddb6d049ba467a82320
+2026-05-27 15:32:03,596 - INFO - Browser closed
+2026-05-27 15:32:03,596 - INFO - Automation cancelled by user (Ctrl+C)

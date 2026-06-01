@@ -1,0 +1,81 @@
+2026-05-18 13:08:48,001 - INFO - User selected: Dashboard Icons
+2026-05-18 13:08:48,001 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-18 13:08:48,001 - INFO - Automation started at 2026-05-18 13:08:48
+
+2026-05-18 13:08:48,001 - INFO - ============================================================
+2026-05-18 13:08:48,001 - INFO - STEP 1: Processing and Compressing Images
+2026-05-18 13:08:48,001 - INFO - ============================================================
+2026-05-18 13:08:48,002 - INFO - Processing images from: dashboardicons
+2026-05-18 13:08:48,002 - INFO - Output folder: automation/processed_images
+2026-05-18 13:08:48,002 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-18 13:08:48,069 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-18 13:08:48,076 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-18 13:08:48,088 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-18 13:08:48,110 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-18 13:08:48,124 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-18 13:08:48,147 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-18 13:08:48,163 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-18 13:08:48,173 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-18 13:08:48,197 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-18 13:08:48,209 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-18 13:08:48,226 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-18 13:08:48,247 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-18 13:08:48,267 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-18 13:08:48,279 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-18 13:08:48,279 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-18 13:08:48,279 - INFO - ✓ 14 images processed and ready
+
+2026-05-18 13:08:48,279 - INFO - ============================================================
+2026-05-18 13:08:48,279 - INFO - STEP 2: Preparing Authentication
+2026-05-18 13:08:48,279 - INFO - ============================================================
+2026-05-18 13:08:48,279 - INFO - Using email: mittal.rishi@gmail.com
+2026-05-18 13:08:48,280 - INFO - ✓ Credentials loaded
+
+2026-05-18 13:08:48,280 - INFO - ============================================================
+2026-05-18 13:08:48,280 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-18 13:08:48,280 - INFO - ============================================================
+2026-05-18 13:08:51,641 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 13:08:58,353 - INFO - ✓ Chrome driver initialized
+2026-05-18 13:08:58,353 - INFO - 
+→ Attempting login...
+
+2026-05-18 13:08:58,353 - INFO - Opening login page...
+2026-05-18 13:09:01,017 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 13:09:01,926 - INFO - ✓ Login successful
+2026-05-18 13:09:03,929 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-18 13:09:03,929 - INFO - Navigating to App Settings...
+2026-05-18 13:09:11,605 - INFO - ✓ Dashboard Icons section loaded
+2026-05-18 13:09:13,606 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-18 13:09:13,606 - INFO - Starting batch – 12 configured entries
+2026-05-18 13:09:17,023 - INFO -   Found 0 user types: []
+2026-05-18 13:09:17,024 - INFO - Available user types: []
+2026-05-18 13:09:17,024 - INFO - Total icons to upload after expansion: 0
+2026-05-18 13:09:17,024 - INFO - ============================================================
+2026-05-18 13:09:17,024 - INFO - ============================================================
+2026-05-18 13:09:17,024 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-05-18 13:09:17,025 - INFO - 
+============================================================
+2026-05-18 13:09:17,025 - INFO - AUTOMATION SUMMARY
+2026-05-18 13:09:17,025 - INFO - ============================================================
+2026-05-18 13:09:17,025 - INFO - ✓ Successful uploads: 0
+2026-05-18 13:09:17,025 - INFO - ✗ Failed uploads: 0
+2026-05-18 13:09:17,025 - INFO - Total processed: 12
+2026-05-18 13:09:17,025 - INFO - Success rate: 0.0%
+2026-05-18 13:09:17,025 - INFO - ============================================================
+2026-05-18 13:09:17,277 - INFO - Browser closed
+2026-05-18 13:09:17,277 - INFO - 
+Task finished at 2026-05-18 13:09:17
+2026-05-18 13:09:17,277 - INFO - Log: automation/logs/full_automation_20260518_130819.log
+

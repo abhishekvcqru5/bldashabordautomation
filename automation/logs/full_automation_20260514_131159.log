@@ -1,0 +1,27 @@
+2026-05-14 13:12:34,133 - INFO - User selected: Old Dashboard
+2026-05-14 13:12:39,036 - INFO -   Old Dashboard → Brand Setting
+2026-05-14 13:12:39,036 - INFO - ============================================================
+2026-05-14 13:12:39,037 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-14 13:12:39,037 - INFO - ============================================================
+2026-05-14 13:12:49,930 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 13:13:17,222 - ERROR - Fatal error: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x59a07d2383ea <unknown>
+#1 0x59a07cc48845 <unknown>
+#2 0x59a07cc84293 <unknown>
+#3 0x59a07cc80bc8 <unknown>
+#4 0x59a07cccf99a <unknown>
+#5 0x59a07cccf0ec <unknown>
+#6 0x59a07cc8e204 <unknown>
+#7 0x59a07cc8efc1 <unknown>
+#8 0x59a07d1fb9cb <unknown>
+#9 0x59a07d1fec93 <unknown>
+#10 0x59a07d1e965c <unknown>
+#11 0x59a07d1ff429 <unknown>
+#12 0x59a07d1d19d7 <unknown>
+#13 0x59a07d225c08 <unknown>
+#14 0x59a07d225e33 <unknown>
+#15 0x59a07d236df7 <unknown>
+#16 0x72dd7169caa4 <unknown>
+#17 0x72dd71729c6c <unknown>
+

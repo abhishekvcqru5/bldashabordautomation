@@ -1,0 +1,23 @@
+2026-05-19 16:53:07,533 - INFO - User selected: Old Dashboard
+2026-05-19 16:53:09,667 - INFO -   Old Dashboard → Brand Setting
+2026-05-19 16:53:09,668 - INFO - ============================================================
+2026-05-19 16:53:09,669 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-19 16:53:09,669 - INFO - ============================================================
+2026-05-19 16:53:16,057 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 16:53:22,740 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-19 16:53:22,742 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-19 16:53:31,213 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-19 16:53:33,216 - INFO -     → Filling credentials …
+2026-05-19 16:53:34,536 - INFO -       Email → field #login_txt_id
+2026-05-19 16:53:36,923 - INFO -       Password → field #login_txt_pass
+2026-05-19 16:53:38,194 - INFO -       Login button clicked: #btnVendor
+2026-05-19 16:53:38,201 - INFO -     → Waiting for post-login redirect …
+2026-05-19 16:53:44,241 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 16:53:44,241 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-19 16:53:58,305 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/27dbbab025982261fe8042ddcd52aec2
+2026-05-19 16:53:58,307 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39921): Failed to establish a new connection: [Errno 111] Connection refused")': /session/27dbbab025982261fe8042ddcd52aec2
+2026-05-19 16:53:58,309 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39921): Failed to establish a new connection: [Errno 111] Connection refused")': /session/27dbbab025982261fe8042ddcd52aec2
+2026-05-19 16:53:58,310 - INFO -   Browser closed
+2026-05-19 16:53:58,311 - INFO - Automation cancelled by user (Ctrl+C)

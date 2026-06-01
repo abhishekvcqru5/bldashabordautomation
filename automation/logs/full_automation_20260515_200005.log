@@ -1,0 +1,26 @@
+2026-05-15 20:00:46,425 - INFO - User selected: Promotion Banners
+2026-05-15 20:00:46,426 - INFO - ============================================================
+2026-05-15 20:00:46,426 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 20:00:46,426 - INFO - ============================================================
+2026-05-15 20:00:46,427 - INFO - Found 3 banner image(s) in banner/
+2026-05-15 20:00:46,490 - INFO -   ⚙ Processing 31a897d2-985d-4b54-bd77-4041f3180b17.png  (size 1672×941 → need 1920×1080)
+2026-05-15 20:00:46,929 - INFO -   ✓ 31a897d2-985d-4b54-bd77-4041f3180b17.png  →  31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-15 20:00:46,938 - INFO -   ⚙ Processing a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  (size 1672×941 → need 1920×1080)
+2026-05-15 20:00:47,451 - INFO -   ✓ a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  →  a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-15 20:00:47,578 - INFO -   ⚙ Processing ac45067f-7651-45f7-a833-a3046c3193dd.png  (size 1672×941 → need 1920×1080)
+2026-05-15 20:00:47,993 - INFO -   ✓ ac45067f-7651-45f7-a833-a3046c3193dd.png  →  ac45067f-7651-45f7-a833-a3046c3193dd_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-15 20:00:47,997 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-15 20:00:47,997 - INFO - ============================================================
+2026-05-15 20:00:47,997 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-15 20:00:47,997 - INFO - ============================================================
+2026-05-15 20:00:51,342 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 20:01:00,377 - INFO - ✓ Chrome driver initialized
+2026-05-15 20:01:00,378 - INFO - Opening login page...
+2026-05-15 20:01:06,890 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 20:01:16,888 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/9b5344cb5436c1da6d444e3f41b7cd14
+2026-05-15 20:01:16,892 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50861): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b5344cb5436c1da6d444e3f41b7cd14
+2026-05-15 20:01:16,900 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50861): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b5344cb5436c1da6d444e3f41b7cd14
+2026-05-15 20:01:16,908 - INFO - Browser closed
+2026-05-15 20:01:16,910 - INFO - Automation cancelled by user (Ctrl+C)

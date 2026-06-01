@@ -30,7 +30,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from brand_setting import BrandImageProcessor, BrandSettingAutomation, extract_colors_from_logo
+from brand_setting import BrandImageProcessor, BrandSettingAutomation, SupportNetworkAutomation, extract_colors_from_logo
 from dashboard_automation import VendorPortalAutomation
 
 logger = logging.getLogger(__name__)
@@ -402,8 +402,18 @@ class OldDashboardBrandExtractor:
 
     # ── Extraction ────────────────────────────────────────────────────────────
     def extract_brand_data(self) -> dict:
-        """Extract brand data using exact selectors."""
-        result = {"company_name": "", "logo_url": "", "splash_url": ""}
+        """Extract brand and support data using exact selectors."""
+        result = {
+            "company_name": "", 
+            "logo_url": "", 
+            "splash_url": "",
+            "phone": "",
+            "email": "",
+            "website": "",
+            "terms_conditions": "",
+            "support_content": "",
+            "privacy_policy": ""
+        }
         try:
             # Scan default content and all frames/iframes
             frames = [None] + self.driver.find_elements(By.TAG_NAME, "iframe") + self.driver.find_elements(By.TAG_NAME, "frame")
@@ -412,6 +422,7 @@ class OldDashboardBrandExtractor:
                     self.driver.switch_to.default_content()
                     if frame: self.driver.switch_to.frame(frame)
                     
+                    # Brand fields
                     if not result["company_name"]:
                         try:
                             el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtcompanyName")
@@ -429,9 +440,43 @@ class OldDashboardBrandExtractor:
                             el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_imgSplashPreview")
                             result["splash_url"] = el.get_attribute("src") or ""
                         except: pass
-                    
-                    if result["company_name"] and result["logo_url"] and result["splash_url"]:
-                        break
+
+                    # Support / Contact fields
+                    if not result["phone"]:
+                        try:
+                            el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtcontactusmobile")
+                            result["phone"] = el.get_attribute("value") or ""
+                        except: pass
+
+                    if not result["email"]:
+                        try:
+                            el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtcontactusemail")
+                            result["email"] = el.get_attribute("value") or ""
+                        except: pass
+
+                    if not result["support_content"]:
+                        try:
+                            el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtcon")
+                            result["support_content"] = el.get_attribute("value") or ""
+                        except: pass
+
+                    if not result["terms_conditions"]:
+                        try:
+                            el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtterm")
+                            result["terms_conditions"] = el.get_attribute("value") or ""
+                        except: pass
+
+                    if not result["website"]:
+                        try:
+                            el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtaboutus")
+                            result["website"] = el.get_attribute("value") or ""
+                        except: pass
+
+                    if not result["privacy_policy"]:
+                        try:
+                            el = self.driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_txtprevicypolicy")
+                            result["privacy_policy"] = el.get_attribute("value") or ""
+                        except: pass
                 except: continue
                 
             self.driver.switch_to.default_content()
@@ -498,6 +543,12 @@ class OldDashboardBrandExtractor:
                 "company_name": data.get("company_name", ""),
                 "logo_url_source": data.get("logo_url", ""),
                 "splash_url_source": data.get("splash_url", ""),
+                "phone": data.get("phone", ""),
+                "email": data.get("email", ""),
+                "website": data.get("website", ""),
+                "terms_conditions": data.get("terms_conditions", ""),
+                "support_content": data.get("support_content", ""),
+                "privacy_policy": data.get("privacy_policy", ""),
                 "extracted_at": datetime.now().isoformat(),
             })
 
@@ -530,13 +581,29 @@ def run_old_dashboard_brand_setting(email: str, password: str) -> bool:
     logger.info("OLD DASHBOARD — Brand Setting Extraction")
     logger.info("=" * 60)
 
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    
     opts = Options()
     opts.add_argument("--disable-gpu")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-notifications")
-    # Visible browser so user can monitor progress
-    driver = webdriver.Chrome(options=opts)
+    
+    # Force system Chrome binary and use webdriver-manager
+    import shutil
+    system_chrome = (
+        shutil.which("google-chrome-stable")
+        or shutil.which("google-chrome")
+        or shutil.which("chromium-browser")
+        or shutil.which("chromium")
+    )
+    if system_chrome:
+        opts.binary_location = system_chrome
+        logger.info(f"  Using system Chrome binary: {system_chrome}")
+    
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=opts)
     driver.maximize_window()
 
     try:
@@ -582,12 +649,24 @@ def run_old_dashboard_brand_setting(email: str, password: str) -> bool:
             brand_auto = BrandSettingAutomation(auto.driver)
             
             if brand_auto.navigate():
-                return brand_auto.fill_and_save(
+                brand_auto.fill_and_save(
                     company_name=summary["company_name"],
                     logo_path=l_path,
                     splash_path=s_path,
                     colors=colors
                 )
+
+            # Support Network
+            support_auto = SupportNetworkAutomation(auto.driver)
+            if support_auto.navigate():
+                return support_auto.fill_and_save({
+                    "phone": data.get("phone", ""),
+                    "email": data.get("email", ""),
+                    "website": data.get("website", ""),
+                    "terms_conditions": data.get("terms_conditions", ""),
+                    "support_content": data.get("support_content", ""),
+                    "privacy_policy": data.get("privacy_policy", "")
+                })
         return False
 
     except Exception as e:

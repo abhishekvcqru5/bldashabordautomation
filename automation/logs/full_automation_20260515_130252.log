@@ -1,0 +1,195 @@
+2026-05-15 13:03:08,502 - INFO - User selected: Registration Fields
+2026-05-15 13:03:08,502 - INFO - ============================================================
+2026-05-15 13:03:08,502 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-15 13:03:08,502 - INFO - ============================================================
+2026-05-15 13:03:10,741 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 13:03:16,080 - INFO - ✓ Chrome driver initialized
+2026-05-15 13:03:16,081 - INFO - Opening login page...
+2026-05-15 13:03:20,330 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 13:03:23,345 - INFO - ✓ Login successful
+2026-05-15 13:03:25,345 - INFO - Going to App Settings...
+2026-05-15 13:03:33,470 - INFO -   → Registration Field section opened
+2026-05-15 13:03:33,511 - INFO - ✓ Registration Fields page ready
+2026-05-15 13:03:38,139 - INFO - Found 4 user types: ['Architect', 'Dealer', 'Contractor', 'Mason']
+2026-05-15 13:03:38,142 - INFO - Starting registration fields automation: 24 fields total
+2026-05-15 13:03:38,142 - INFO - ============================================================
+2026-05-15 13:03:38,142 - INFO - Processing User Type: Architect
+2026-05-15 13:03:38,142 - INFO -   Adding field: [Architect] -> First Name
+2026-05-15 13:03:41,377 - INFO -     → User Type selected: Architect
+2026-05-15 13:04:02,182 - INFO -     → System Data Point selected: First Name
+2026-05-15 13:04:02,732 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:04:03,440 - INFO -     → Integrate Now clicked
+2026-05-15 13:04:06,735 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 13:04:07,738 - INFO -   Adding field: [Architect] -> Phone Number
+2026-05-15 13:04:11,039 - INFO -     → User Type selected: Architect
+2026-05-15 13:04:31,840 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 13:04:32,263 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:04:33,049 - INFO -     → Integrate Now clicked
+2026-05-15 13:04:36,346 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 13:04:37,349 - INFO -   Adding field: [Architect] -> Pincode
+2026-05-15 13:04:40,563 - INFO -     → User Type selected: Architect
+2026-05-15 13:05:01,892 - INFO -     → System Data Point selected: Pincode
+2026-05-15 13:05:02,165 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:05:03,084 - INFO -     → Integrate Now clicked
+2026-05-15 13:05:06,135 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 13:05:07,136 - INFO -   Adding field: [Architect] -> City
+2026-05-15 13:05:12,052 - INFO -     → User Type selected: Architect
+2026-05-15 13:05:33,250 - INFO -     → System Data Point selected: City
+2026-05-15 13:05:33,411 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:05:34,028 - INFO -     → Integrate Now clicked
+2026-05-15 13:05:37,202 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 13:05:38,205 - INFO -   Adding field: [Architect] -> State
+2026-05-15 13:05:41,947 - INFO -     → User Type selected: Architect
+2026-05-15 13:06:03,257 - INFO -     → System Data Point selected: State
+2026-05-15 13:06:03,459 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:06:04,482 - INFO -     → Integrate Now clicked
+2026-05-15 13:06:07,532 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 13:06:08,714 - INFO -   Adding field: [Architect] -> Address
+2026-05-15 13:06:12,463 - INFO -     → User Type selected: Architect
+2026-05-15 13:06:33,520 - INFO -     → System Data Point selected: Address
+2026-05-15 13:06:33,933 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:06:35,770 - INFO -     → Integrate Now clicked
+2026-05-15 13:06:38,830 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 13:06:39,832 - INFO - Processing User Type: Dealer
+2026-05-15 13:06:39,833 - INFO -   Adding field: [Dealer] -> First Name
+2026-05-15 13:06:42,525 - INFO -     → User Type selected: Dealer
+2026-05-15 13:07:03,107 - INFO -     → System Data Point selected: First Name
+2026-05-15 13:07:03,261 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:07:03,983 - INFO -     → Integrate Now clicked
+2026-05-15 13:07:07,112 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 13:07:08,116 - INFO -   Adding field: [Dealer] -> Phone Number
+2026-05-15 13:07:12,020 - INFO -     → User Type selected: Dealer
+2026-05-15 13:07:33,080 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 13:07:33,255 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:07:33,944 - INFO -     → Integrate Now clicked
+2026-05-15 13:07:37,003 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 13:07:38,004 - INFO -   Adding field: [Dealer] -> Pincode
+2026-05-15 13:07:42,260 - INFO -     → User Type selected: Dealer
+2026-05-15 13:08:03,980 - INFO -     → System Data Point selected: Pincode
+2026-05-15 13:08:04,338 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:08:06,141 - INFO -     → Integrate Now clicked
+2026-05-15 13:08:09,300 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 13:08:10,305 - INFO -   Adding field: [Dealer] -> City
+2026-05-15 13:08:14,093 - INFO -     → User Type selected: Dealer
+2026-05-15 13:08:35,858 - INFO -     → System Data Point selected: City
+2026-05-15 13:08:36,310 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:08:38,018 - INFO -     → Integrate Now clicked
+2026-05-15 13:08:41,220 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 13:08:42,233 - INFO -   Adding field: [Dealer] -> State
+2026-05-15 13:08:48,467 - INFO -     → User Type selected: Dealer
+2026-05-15 13:09:09,992 - INFO -     → System Data Point selected: State
+2026-05-15 13:09:10,085 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:09:10,521 - INFO -     → Integrate Now clicked
+2026-05-15 13:09:13,740 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 13:09:14,747 - INFO -   Adding field: [Dealer] -> Address
+2026-05-15 13:09:20,835 - INFO -     → User Type selected: Dealer
+2026-05-15 13:09:44,221 - INFO -     → System Data Point selected: Address
+2026-05-15 13:09:44,657 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:09:46,703 - INFO -     → Integrate Now clicked
+2026-05-15 13:09:50,124 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 13:09:51,125 - INFO - Processing User Type: Contractor
+2026-05-15 13:09:51,125 - INFO -   Adding field: [Contractor] -> First Name
+2026-05-15 13:09:59,892 - INFO -     → User Type selected: Contractor
+2026-05-15 13:10:21,036 - INFO -     → System Data Point selected: First Name
+2026-05-15 13:10:21,129 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:10:21,688 - INFO -     → Integrate Now clicked
+2026-05-15 13:10:24,846 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 13:10:25,847 - INFO -   Adding field: [Contractor] -> Phone Number
+2026-05-15 13:10:29,662 - INFO -     → User Type selected: Contractor
+2026-05-15 13:10:52,202 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 13:10:52,661 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:10:54,186 - INFO -     → Integrate Now clicked
+2026-05-15 13:10:57,616 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 13:10:58,627 - INFO -   Adding field: [Contractor] -> Pincode
+2026-05-15 13:11:03,780 - INFO -     → User Type selected: Contractor
+2026-05-15 13:11:26,680 - INFO -     → System Data Point selected: Pincode
+2026-05-15 13:11:27,091 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:11:28,930 - INFO -     → Integrate Now clicked
+2026-05-15 13:11:32,117 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 13:11:33,124 - INFO -   Adding field: [Contractor] -> City
+2026-05-15 13:11:39,395 - INFO -     → User Type selected: Contractor
+2026-05-15 13:12:00,024 - INFO -     → System Data Point selected: City
+2026-05-15 13:12:00,125 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:12:00,891 - INFO -     → Integrate Now clicked
+2026-05-15 13:12:04,060 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 13:12:05,062 - INFO -   Adding field: [Contractor] -> State
+2026-05-15 13:12:10,718 - INFO -     → User Type selected: Contractor
+2026-05-15 13:12:32,773 - INFO -     → System Data Point selected: State
+2026-05-15 13:12:33,812 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:12:35,681 - INFO -     → Integrate Now clicked
+2026-05-15 13:12:39,523 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 13:12:40,530 - INFO -   Adding field: [Contractor] -> Address
+2026-05-15 13:12:47,012 - INFO -     → User Type selected: Contractor
+2026-05-15 13:13:09,528 - INFO -     → System Data Point selected: Address
+2026-05-15 13:13:10,112 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:13:12,398 - INFO -     → Integrate Now clicked
+2026-05-15 13:13:15,716 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 13:13:16,722 - INFO - Processing User Type: Mason
+2026-05-15 13:13:16,724 - INFO -   Adding field: [Mason] -> First Name
+2026-05-15 13:13:22,496 - INFO -     → User Type selected: Mason
+2026-05-15 13:13:43,334 - INFO -     → System Data Point selected: First Name
+2026-05-15 13:13:43,418 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:13:44,140 - INFO -     → Integrate Now clicked
+2026-05-15 13:13:47,382 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 13:13:48,390 - INFO -   Adding field: [Mason] -> Phone Number
+2026-05-15 13:13:52,884 - INFO -     → User Type selected: Mason
+2026-05-15 13:14:13,814 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 13:14:14,211 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:14:17,439 - INFO -     → Integrate Now clicked
+2026-05-15 13:14:20,542 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 13:14:21,652 - INFO -   Adding field: [Mason] -> Pincode
+2026-05-15 13:14:25,627 - INFO -     → User Type selected: Mason
+2026-05-15 13:14:47,501 - INFO -     → System Data Point selected: Pincode
+2026-05-15 13:14:47,751 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:14:48,844 - INFO -     → Integrate Now clicked
+2026-05-15 13:14:52,068 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 13:14:53,077 - INFO -   Adding field: [Mason] -> City
+2026-05-15 13:14:59,528 - INFO -     → User Type selected: Mason
+2026-05-15 13:15:23,164 - INFO -     → System Data Point selected: City
+2026-05-15 13:15:23,519 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:15:25,350 - INFO -     → Integrate Now clicked
+2026-05-15 13:15:28,580 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 13:15:29,590 - INFO -   Adding field: [Mason] -> State
+2026-05-15 13:15:37,165 - INFO -     → User Type selected: Mason
+2026-05-15 13:15:58,729 - INFO -     → System Data Point selected: State
+2026-05-15 13:15:59,522 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:15:59,961 - INFO -     → Integrate Now clicked
+2026-05-15 13:16:03,289 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 13:16:04,290 - INFO -   Adding field: [Mason] -> Address
+2026-05-15 13:16:12,340 - INFO -     → User Type selected: Mason
+2026-05-15 13:16:33,319 - INFO -     → System Data Point selected: Address
+2026-05-15 13:16:33,507 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:16:34,477 - INFO -     → Integrate Now clicked
+2026-05-15 13:16:38,048 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 13:16:39,051 - INFO - ============================================================
+2026-05-15 13:16:39,052 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-15 13:16:40,196 - INFO - Browser closed
+2026-05-15 13:16:40,201 - INFO - 
+Task finished at 2026-05-15 13:16:40
+2026-05-15 13:16:40,202 - INFO - Log: automation/logs/full_automation_20260515_130252.log
+
+2026-05-15 13:16:47,806 - INFO - Automation cancelled by user (Ctrl+C)

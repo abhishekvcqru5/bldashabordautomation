@@ -1,0 +1,849 @@
+2026-05-14 11:37:11,406 - INFO - User selected: Promotion Banners
+2026-05-14 11:37:11,406 - INFO - ============================================================
+2026-05-14 11:37:11,407 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-14 11:37:11,407 - INFO - ============================================================
+2026-05-14 11:37:11,407 - INFO - Found 1 banner image(s) in banner/
+2026-05-14 11:37:11,448 - INFO -   ⚙ Processing VcqruBuild_loyalty.png  (size 972×414 → need 1920×1080)
+2026-05-14 11:37:11,634 - INFO -   ✓ VcqruBuild_loyalty.png  →  VcqruBuild_loyalty_processed.jpg  |  1920×1080  |  0.15 MB  |  quality 92
+2026-05-14 11:37:11,635 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-05-14 11:37:11,635 - INFO - ============================================================
+2026-05-14 11:37:11,635 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-14 11:37:11,635 - INFO - ============================================================
+2026-05-14 11:37:12,070 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 11:37:13,554 - INFO - ✓ Chrome driver initialized
+2026-05-14 11:37:13,554 - INFO - Opening login page...
+2026-05-14 11:37:16,075 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 11:37:20,212 - INFO - ✓ Login successful
+2026-05-14 11:37:22,213 - INFO - Going to App Settings...
+2026-05-14 11:37:28,726 - INFO -   → Promotion Banners section opened
+2026-05-14 11:37:28,766 - INFO - ✓ Promotion Banners page ready
+2026-05-14 11:37:28,767 - INFO - Starting batch  —  1 banner(s) to publish
+2026-05-14 11:37:28,767 - INFO - ============================================================
+2026-05-14 11:37:28,767 - INFO - [1/1]
+2026-05-14 11:37:28,768 - INFO -   Publishing: [VcqruBuild_loyalty]  (VcqruBuild_loyalty_processed.jpg)
+2026-05-14 11:37:31,068 - INFO -     → Title entered: VcqruBuild_loyalty
+2026-05-14 11:37:33,122 - INFO -     → Image uploaded: VcqruBuild_loyalty_processed.jpg
+2026-05-14 11:37:33,270 - INFO -     → Publish Banner clicked
+2026-05-14 11:37:37,294 - INFO -   ✓ Banner published: VcqruBuild_loyalty
+
+2026-05-14 11:37:38,295 - INFO - ============================================================
+2026-05-14 11:37:38,295 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-05-14 11:37:38,469 - INFO - Browser closed
+2026-05-14 11:37:38,469 - INFO - 
+Task finished at 2026-05-14 11:37:38
+2026-05-14 11:37:38,469 - INFO - Log: automation/logs/full_automation_20260514_113652.log
+
+2026-05-14 11:37:53,160 - INFO - User selected: Intro Screens
+2026-05-14 11:37:53,160 - INFO - ============================================================
+2026-05-14 11:37:53,160 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 11:37:53,161 - INFO - ============================================================
+2026-05-14 11:37:53,161 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-14 11:37:53,162 - INFO -   ⚙ Processing 23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af.jpeg  (395×604 → need 1080×1920)
+2026-05-14 11:37:53,315 - INFO -   ✓ 23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af.jpeg  →  23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af_processed.jpg  |  1080×1920  |  0.32 MB  |  quality 92
+2026-05-14 11:37:53,317 - INFO -   ⚙ Processing 55c7fbd0-aefd-43a1-8b07-19296c27b87d.jpg  (720×960 → need 1080×1920)
+2026-05-14 11:37:53,482 - INFO -   ✓ 55c7fbd0-aefd-43a1-8b07-19296c27b87d.jpg  →  55c7fbd0-aefd-43a1-8b07-19296c27b87d_processed.jpg  |  1080×1920  |  0.32 MB  |  quality 92
+2026-05-14 11:37:53,484 - INFO -   ⚙ Processing c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930.jpeg  (403×606 → need 1080×1920)
+2026-05-14 11:37:53,624 - INFO -   ✓ c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930.jpeg  →  c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930_processed.jpg  |  1080×1920  |  0.38 MB  |  quality 92
+2026-05-14 11:37:53,625 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-14 11:39:09,299 - INFO - ============================================================
+2026-05-14 11:39:09,300 - INFO - INTRO SCREENS — Browser Automation
+2026-05-14 11:39:09,300 - INFO - ============================================================
+2026-05-14 11:39:09,681 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 11:39:10,749 - INFO - ✓ Chrome driver initialized
+2026-05-14 11:39:10,749 - INFO - Opening login page...
+2026-05-14 11:39:13,372 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 11:39:24,051 - INFO - ✓ Login successful
+2026-05-14 11:39:26,051 - INFO - Going to App Settings...
+2026-05-14 11:39:32,516 - INFO -   → Intro Screens section opened
+2026-05-14 11:39:32,555 - INFO - ✓ Intro Screens page ready
+2026-05-14 11:39:32,555 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-14 11:39:32,556 - INFO - ============================================================
+2026-05-14 11:39:32,556 - INFO - [1/3]
+2026-05-14 11:39:32,556 - INFO -   Launching screen: [Scan. Earn. Claim.]
+2026-05-14 11:39:34,863 - INFO -     → Header: Scan. Earn. Claim.
+2026-05-14 11:39:35,378 - INFO -     → Description: Use the OCI app to scan product QR codes, collect reward poi...
+2026-05-14 11:39:37,446 - INFO -     → Image uploaded: 23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af_processed.jpg
+2026-05-14 11:39:37,546 - INFO -     → Launch Screen clicked
+2026-05-14 11:39:41,571 - INFO -   ✓ Intro screen launched: Scan. Earn. Claim.
+
+2026-05-14 11:39:42,571 - INFO - [2/3]
+2026-05-14 11:39:42,572 - INFO -   Launching screen: [Your Rewards, Made Easy]
+2026-05-14 11:39:44,897 - INFO -     → Header: Your Rewards, Made Easy
+2026-05-14 11:39:45,403 - INFO -     → Description: Scan eligible OCI product codes through the app, earn points...
+2026-05-14 11:39:47,444 - INFO -     → Image uploaded: 55c7fbd0-aefd-43a1-8b07-19296c27b87d_processed.jpg
+2026-05-14 11:39:47,531 - INFO -     → Launch Screen clicked
+2026-05-14 11:39:51,556 - INFO -   ✓ Intro screen launched: Your Rewards, Made Easy
+
+2026-05-14 11:39:52,557 - INFO - [3/3]
+2026-05-14 11:39:52,558 - INFO -   Launching screen: [Scan & Get Rewarded]
+2026-05-14 11:39:54,874 - INFO -     → Header: Scan & Get Rewarded
+2026-05-14 11:39:55,293 - INFO -     → Description: Turn every eligible OCI purchase into points. Just scan the ...
+2026-05-14 11:39:57,327 - INFO -     → Image uploaded: c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930_processed.jpg
+2026-05-14 11:39:57,426 - INFO -     → Launch Screen clicked
+2026-05-14 11:40:01,454 - INFO -   ✓ Intro screen launched: Scan & Get Rewarded
+
+2026-05-14 11:40:02,455 - INFO - ============================================================
+2026-05-14 11:40:02,455 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-14 11:40:02,594 - INFO - Browser closed
+2026-05-14 11:40:02,594 - INFO - 
+Task finished at 2026-05-14 11:40:02
+2026-05-14 11:40:02,595 - INFO - Log: automation/logs/full_automation_20260514_113652.log
+
+2026-05-14 11:40:47,908 - INFO - User selected: Registration Fields
+2026-05-14 11:40:47,909 - INFO - ============================================================
+2026-05-14 11:40:47,909 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-14 11:40:47,909 - INFO - ============================================================
+2026-05-14 11:40:48,329 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 11:40:49,359 - INFO - ✓ Chrome driver initialized
+2026-05-14 11:40:49,360 - INFO - Opening login page...
+2026-05-14 11:40:51,136 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 11:40:57,253 - INFO - ✓ Login successful
+2026-05-14 11:40:59,254 - INFO - Going to App Settings...
+2026-05-14 11:41:05,634 - INFO -   → Registration Field section opened
+2026-05-14 11:41:05,681 - INFO - ✓ Registration Fields page ready
+2026-05-14 11:41:09,048 - INFO - Found 4 user types: ['User', 'Shop', 'Electrician', 'Contractor']
+2026-05-14 11:41:09,049 - INFO - Starting registration fields automation: 24 fields total
+2026-05-14 11:41:09,049 - INFO - ============================================================
+2026-05-14 11:41:09,049 - INFO - Processing User Type: User
+2026-05-14 11:41:09,050 - INFO -   Adding field: [User] -> First Name
+2026-05-14 11:41:11,303 - INFO -     → User Type selected: User
+2026-05-14 11:41:31,594 - INFO -     → System Data Point selected: First Name
+2026-05-14 11:41:31,698 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:41:31,985 - INFO -     → Integrate Now clicked
+2026-05-14 11:41:34,997 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-14 11:41:35,998 - INFO -   Adding field: [User] -> Phone Number
+2026-05-14 11:41:38,342 - INFO -     → User Type selected: User
+2026-05-14 11:41:58,563 - INFO -     → System Data Point selected: Phone Number
+2026-05-14 11:41:58,590 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:41:58,768 - INFO -     → Integrate Now clicked
+2026-05-14 11:42:01,791 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-14 11:42:02,792 - INFO -   Adding field: [User] -> Pincode
+2026-05-14 11:42:05,026 - INFO -     → User Type selected: User
+2026-05-14 11:42:25,200 - INFO -     → System Data Point selected: Pincode
+2026-05-14 11:42:25,228 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:42:25,383 - INFO -     → Integrate Now clicked
+2026-05-14 11:42:28,409 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-14 11:42:29,410 - INFO -   Adding field: [User] -> City
+2026-05-14 11:42:31,701 - INFO -     → User Type selected: User
+2026-05-14 11:42:52,361 - INFO -     → System Data Point selected: City
+2026-05-14 11:42:52,953 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:42:53,493 - INFO -     → Integrate Now clicked
+2026-05-14 11:42:56,557 - INFO -   ✓ Field added successfully: City
+
+2026-05-14 11:42:57,557 - INFO -   Adding field: [User] -> State
+2026-05-14 11:43:01,091 - INFO -     → User Type selected: User
+2026-05-14 11:43:23,217 - INFO -     → System Data Point selected: State
+2026-05-14 11:43:23,364 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:43:23,973 - INFO -     → Integrate Now clicked
+2026-05-14 11:43:27,052 - INFO -   ✓ Field added successfully: State
+
+2026-05-14 11:43:28,057 - INFO -   Adding field: [User] -> Address
+2026-05-14 11:43:30,843 - INFO -     → User Type selected: User
+2026-05-14 11:43:52,542 - INFO -     → System Data Point selected: Address
+2026-05-14 11:43:52,688 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:43:53,072 - INFO -     → Integrate Now clicked
+2026-05-14 11:43:56,163 - INFO -   ✓ Field added successfully: Address
+
+2026-05-14 11:43:57,165 - INFO - Processing User Type: Shop
+2026-05-14 11:43:57,165 - INFO -   Adding field: [Shop] -> First Name
+2026-05-14 11:44:00,384 - INFO -     → User Type selected: Shop
+2026-05-14 11:44:21,032 - INFO -     → System Data Point selected: First Name
+2026-05-14 11:44:21,195 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:44:21,734 - INFO -     → Integrate Now clicked
+2026-05-14 11:44:24,775 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-14 11:44:25,775 - INFO -   Adding field: [Shop] -> Phone Number
+2026-05-14 11:44:28,425 - INFO -     → User Type selected: Shop
+2026-05-14 11:44:48,609 - INFO -     → System Data Point selected: Phone Number
+2026-05-14 11:44:48,652 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:44:48,804 - INFO -     → Integrate Now clicked
+2026-05-14 11:44:51,825 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-14 11:44:52,825 - INFO -   Adding field: [Shop] -> Pincode
+2026-05-14 11:44:55,196 - INFO -     → User Type selected: Shop
+2026-05-14 11:45:15,337 - INFO -     → System Data Point selected: Pincode
+2026-05-14 11:45:15,363 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:45:15,520 - INFO -     → Integrate Now clicked
+2026-05-14 11:45:18,548 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-14 11:45:19,549 - INFO -   Adding field: [Shop] -> City
+2026-05-14 11:45:21,825 - INFO -     → User Type selected: Shop
+2026-05-14 11:45:41,977 - INFO -     → System Data Point selected: City
+2026-05-14 11:45:42,036 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:45:42,212 - INFO -     → Integrate Now clicked
+2026-05-14 11:45:45,230 - INFO -   ✓ Field added successfully: City
+
+2026-05-14 11:45:46,231 - INFO -   Adding field: [Shop] -> State
+2026-05-14 11:45:48,507 - INFO -     → User Type selected: Shop
+2026-05-14 11:46:09,087 - INFO -     → System Data Point selected: State
+2026-05-14 11:46:09,130 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:46:09,504 - INFO -     → Integrate Now clicked
+2026-05-14 11:46:12,540 - INFO -   ✓ Field added successfully: State
+
+2026-05-14 11:46:13,540 - INFO -   Adding field: [Shop] -> Address
+2026-05-14 11:46:16,590 - INFO -     → User Type selected: Shop
+2026-05-14 11:46:37,248 - INFO -     → System Data Point selected: Address
+2026-05-14 11:46:37,334 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:46:37,623 - INFO -     → Integrate Now clicked
+2026-05-14 11:46:40,659 - INFO -   ✓ Field added successfully: Address
+
+2026-05-14 11:46:41,659 - INFO - Processing User Type: Electrician
+2026-05-14 11:46:41,660 - INFO -   Adding field: [Electrician] -> First Name
+2026-05-14 11:46:44,279 - INFO -     → User Type selected: Electrician
+2026-05-14 11:47:04,920 - INFO -     → System Data Point selected: First Name
+2026-05-14 11:47:05,016 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:47:05,384 - INFO -     → Integrate Now clicked
+2026-05-14 11:47:08,406 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-14 11:47:09,407 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-05-14 11:47:12,641 - INFO -     → User Type selected: Electrician
+2026-05-14 11:47:33,272 - INFO -     → System Data Point selected: Phone Number
+2026-05-14 11:47:33,350 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:47:33,630 - INFO -     → Integrate Now clicked
+2026-05-14 11:47:36,693 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-14 11:47:37,693 - INFO -   Adding field: [Electrician] -> Pincode
+2026-05-14 11:47:40,381 - INFO -     → User Type selected: Electrician
+2026-05-14 11:48:01,167 - INFO -     → System Data Point selected: Pincode
+2026-05-14 11:48:01,262 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:48:01,467 - INFO -     → Integrate Now clicked
+2026-05-14 11:48:04,493 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-14 11:48:05,496 - INFO -   Adding field: [Electrician] -> City
+2026-05-14 11:48:08,408 - INFO -     → User Type selected: Electrician
+2026-05-14 11:48:29,039 - INFO -     → System Data Point selected: City
+2026-05-14 11:48:29,502 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:48:31,429 - INFO -     → Integrate Now clicked
+2026-05-14 11:48:34,460 - INFO -   ✓ Field added successfully: City
+
+2026-05-14 11:48:35,461 - INFO -   Adding field: [Electrician] -> State
+2026-05-14 11:48:38,987 - INFO -     → User Type selected: Electrician
+2026-05-14 11:48:59,434 - INFO -     → System Data Point selected: State
+2026-05-14 11:48:59,668 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:49:00,585 - INFO -     → Integrate Now clicked
+2026-05-14 11:49:03,767 - INFO -   ✓ Field added successfully: State
+
+2026-05-14 11:49:04,769 - INFO -   Adding field: [Electrician] -> Address
+2026-05-14 11:49:07,723 - INFO -     → User Type selected: Electrician
+2026-05-14 11:49:28,401 - INFO -     → System Data Point selected: Address
+2026-05-14 11:49:28,619 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:49:28,885 - INFO -     → Integrate Now clicked
+2026-05-14 11:49:31,916 - INFO -   ✓ Field added successfully: Address
+
+2026-05-14 11:49:32,916 - INFO - Processing User Type: Contractor
+2026-05-14 11:49:32,918 - INFO -   Adding field: [Contractor] -> First Name
+2026-05-14 11:49:36,456 - INFO -     → User Type selected: Contractor
+2026-05-14 11:49:57,094 - INFO -     → System Data Point selected: First Name
+2026-05-14 11:49:57,145 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:49:57,363 - INFO -     → Integrate Now clicked
+2026-05-14 11:50:00,381 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-14 11:50:01,381 - INFO -   Adding field: [Contractor] -> Phone Number
+2026-05-14 11:50:03,766 - INFO -     → User Type selected: Contractor
+2026-05-14 11:50:24,058 - INFO -     → System Data Point selected: Phone Number
+2026-05-14 11:50:24,155 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:50:24,350 - INFO -     → Integrate Now clicked
+2026-05-14 11:50:27,368 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-14 11:50:28,369 - INFO -   Adding field: [Contractor] -> Pincode
+2026-05-14 11:50:30,811 - INFO -     → User Type selected: Contractor
+2026-05-14 11:50:51,393 - INFO -     → System Data Point selected: Pincode
+2026-05-14 11:50:51,532 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:50:51,751 - INFO -     → Integrate Now clicked
+2026-05-14 11:50:54,801 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-14 11:50:55,802 - INFO -   Adding field: [Contractor] -> City
+2026-05-14 11:50:58,589 - INFO -     → User Type selected: Contractor
+2026-05-14 11:51:19,129 - INFO -     → System Data Point selected: City
+2026-05-14 11:51:19,444 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:51:19,758 - INFO -     → Integrate Now clicked
+2026-05-14 11:51:22,789 - INFO -   ✓ Field added successfully: City
+
+2026-05-14 11:51:23,793 - INFO -   Adding field: [Contractor] -> State
+2026-05-14 11:51:26,567 - INFO -     → User Type selected: Contractor
+2026-05-14 11:51:46,930 - INFO -     → System Data Point selected: State
+2026-05-14 11:51:47,067 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:51:47,415 - INFO -     → Integrate Now clicked
+2026-05-14 11:51:50,456 - INFO -   ✓ Field added successfully: State
+
+2026-05-14 11:51:51,457 - INFO -   Adding field: [Contractor] -> Address
+2026-05-14 11:51:54,466 - INFO -     → User Type selected: Contractor
+2026-05-14 11:52:14,835 - INFO -     → System Data Point selected: Address
+2026-05-14 11:52:14,867 - INFO -     → Mandatory toggle enabled
+2026-05-14 11:52:15,051 - INFO -     → Integrate Now clicked
+2026-05-14 11:52:18,098 - INFO -   ✓ Field added successfully: Address
+
+2026-05-14 11:52:19,099 - INFO - ============================================================
+2026-05-14 11:52:19,099 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-14 11:52:19,925 - INFO - Browser closed
+2026-05-14 11:52:19,938 - INFO - 
+Task finished at 2026-05-14 11:52:19
+2026-05-14 11:52:19,939 - INFO - Log: automation/logs/full_automation_20260514_113652.log
+
+2026-05-14 11:53:01,648 - INFO - User selected: Dashboard Icons
+2026-05-14 11:53:01,651 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-14 11:53:01,656 - INFO - Automation started at 2026-05-14 11:53:01
+
+2026-05-14 11:53:01,656 - INFO - ============================================================
+2026-05-14 11:53:01,657 - INFO - STEP 1: Processing and Compressing Images
+2026-05-14 11:53:01,658 - INFO - ============================================================
+2026-05-14 11:53:01,674 - INFO - Processing images from: dashboardicons
+2026-05-14 11:53:01,674 - INFO - Output folder: automation/processed_images
+2026-05-14 11:53:01,674 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-14 11:53:01,873 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-14 11:53:01,916 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-14 11:53:01,976 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-14 11:53:02,019 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-14 11:53:02,038 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-14 11:53:02,060 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-14 11:53:02,074 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-14 11:53:02,085 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-14 11:53:02,115 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-14 11:53:02,131 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-14 11:53:02,157 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-14 11:53:02,197 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-14 11:53:02,237 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-14 11:53:02,273 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-14 11:53:02,273 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-14 11:53:02,275 - INFO - ✓ 14 images processed and ready
+
+2026-05-14 11:53:02,276 - INFO - ============================================================
+2026-05-14 11:53:02,276 - INFO - STEP 2: Preparing Authentication
+2026-05-14 11:53:02,278 - INFO - ============================================================
+2026-05-14 11:53:02,280 - INFO - Using email: ociwires@gmail.com
+2026-05-14 11:53:02,280 - INFO - ✓ Credentials loaded
+
+2026-05-14 11:53:02,280 - INFO - ============================================================
+2026-05-14 11:53:02,280 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-14 11:53:02,281 - INFO - ============================================================
+2026-05-14 11:53:06,487 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 11:53:11,796 - INFO - ✓ Chrome driver initialized
+2026-05-14 11:53:11,796 - INFO - 
+→ Attempting login...
+
+2026-05-14 11:53:11,797 - INFO - Opening login page...
+2026-05-14 11:53:16,316 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 11:53:30,660 - INFO - ✓ Login successful
+2026-05-14 11:53:32,755 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-14 11:53:32,758 - INFO - Navigating to App Settings...
+2026-05-14 11:53:42,843 - INFO - ✓ Dashboard Icons section loaded
+2026-05-14 11:53:44,853 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-14 11:53:44,854 - INFO - Starting batch – 12 configured entries
+2026-05-14 11:53:48,985 - INFO -   Found 4 user types: ['User', 'Shop', 'Electrician', 'Contractor']
+2026-05-14 11:53:48,986 - INFO - Available user types: ['User', 'Shop', 'Electrician', 'Contractor']
+2026-05-14 11:53:48,987 - INFO - Total icons to upload after expansion: 48
+2026-05-14 11:53:48,987 - INFO - ============================================================
+2026-05-14 11:53:48,987 - INFO - [1/48]
+2026-05-14 11:53:48,988 - INFO -   Adding: [User] Gift  (gift)
+2026-05-14 11:53:51,994 - INFO -     → User type: User
+2026-05-14 11:53:52,330 - INFO -     → Icon identity: gift
+2026-05-14 11:53:53,038 - INFO -     → Display title: Gift
+2026-05-14 11:53:53,285 - INFO -     → Toggle: both
+2026-05-14 11:53:55,566 - INFO -     → Image uploaded: Gift.png
+2026-05-14 11:53:55,856 - INFO -     → Form submitted
+2026-05-14 11:53:56,875 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 11:53:57,876 - INFO - [2/48]
+2026-05-14 11:53:57,877 - INFO -   Adding: [Shop] Gift  (gift)
+2026-05-14 11:54:00,542 - INFO -     → User type: Shop
+2026-05-14 11:54:00,660 - INFO -     → Icon identity: gift
+2026-05-14 11:54:00,929 - INFO -     → Display title: Gift
+2026-05-14 11:54:01,174 - INFO -     → Toggle: both
+2026-05-14 11:54:03,293 - INFO -     → Image uploaded: Gift.png
+2026-05-14 11:54:03,534 - INFO -     → Form submitted
+2026-05-14 11:54:04,556 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 11:54:05,558 - INFO - [3/48]
+2026-05-14 11:54:05,559 - INFO -   Adding: [Electrician] Gift  (gift)
+2026-05-14 11:54:07,980 - INFO -     → User type: Electrician
+2026-05-14 11:54:08,140 - INFO -     → Icon identity: gift
+2026-05-14 11:54:08,472 - INFO -     → Display title: Gift
+2026-05-14 11:54:08,539 - INFO -     → Toggle: both
+2026-05-14 11:54:10,609 - INFO -     → Image uploaded: Gift.png
+2026-05-14 11:54:10,845 - INFO -     → Form submitted
+2026-05-14 11:54:11,875 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 11:54:12,877 - INFO - [4/48]
+2026-05-14 11:54:12,877 - INFO -   Adding: [Contractor] Gift  (gift)
+2026-05-14 11:54:15,601 - INFO -     → User type: Contractor
+2026-05-14 11:54:15,830 - INFO -     → Icon identity: gift
+2026-05-14 11:54:16,091 - INFO -     → Display title: Gift
+2026-05-14 11:54:16,154 - INFO -     → Toggle: both
+2026-05-14 11:54:18,253 - INFO -     → Image uploaded: Gift.png
+2026-05-14 11:54:18,449 - INFO -     → Form submitted
+2026-05-14 11:54:19,468 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 11:54:20,470 - INFO - [5/48]
+2026-05-14 11:54:20,470 - INFO -   Adding: [User] History  (history)
+2026-05-14 11:54:23,005 - INFO -     → User type: User
+2026-05-14 11:54:23,254 - INFO -     → Icon identity: history
+2026-05-14 11:54:23,616 - INFO -     → Display title: History
+2026-05-14 11:54:23,664 - INFO -     → Toggle: both
+2026-05-14 11:54:25,739 - INFO -     → Image uploaded: history.png
+2026-05-14 11:54:25,943 - INFO -     → Form submitted
+2026-05-14 11:54:26,972 - INFO -   ✓ Icon added: History
+
+2026-05-14 11:54:27,972 - INFO - [6/48]
+2026-05-14 11:54:27,973 - INFO -   Adding: [Shop] History  (history)
+2026-05-14 11:54:30,450 - INFO -     → User type: Shop
+2026-05-14 11:54:30,601 - INFO -     → Icon identity: history
+2026-05-14 11:54:30,821 - INFO -     → Display title: History
+2026-05-14 11:54:30,858 - INFO -     → Toggle: both
+2026-05-14 11:54:32,924 - INFO -     → Image uploaded: history.png
+2026-05-14 11:54:33,094 - INFO -     → Form submitted
+2026-05-14 11:54:34,109 - INFO -   ✓ Icon added: History
+
+2026-05-14 11:54:35,109 - INFO - [7/48]
+2026-05-14 11:54:35,109 - INFO -   Adding: [Electrician] History  (history)
+2026-05-14 11:54:37,629 - INFO -     → User type: Electrician
+2026-05-14 11:54:37,735 - INFO -     → Icon identity: history
+2026-05-14 11:54:37,974 - INFO -     → Display title: History
+2026-05-14 11:54:38,124 - INFO -     → Toggle: both
+2026-05-14 11:54:40,296 - INFO -     → Image uploaded: history.png
+2026-05-14 11:54:40,554 - INFO -     → Form submitted
+2026-05-14 11:54:41,590 - INFO -   ✓ Icon added: History
+
+2026-05-14 11:54:42,590 - INFO - [8/48]
+2026-05-14 11:54:42,591 - INFO -   Adding: [Contractor] History  (history)
+2026-05-14 11:54:45,266 - INFO -     → User type: Contractor
+2026-05-14 11:54:45,469 - INFO -     → Icon identity: history
+2026-05-14 11:54:45,847 - INFO -     → Display title: History
+2026-05-14 11:54:45,923 - INFO -     → Toggle: both
+2026-05-14 11:54:48,094 - INFO -     → Image uploaded: history.png
+2026-05-14 11:54:48,330 - INFO -     → Form submitted
+2026-05-14 11:54:49,367 - INFO -   ✓ Icon added: History
+
+2026-05-14 11:54:50,370 - INFO - [9/48]
+2026-05-14 11:54:50,370 - INFO -   Adding: [User] Wallet  (wallet)
+2026-05-14 11:54:53,372 - INFO -     → User type: User
+2026-05-14 11:54:53,593 - INFO -     → Icon identity: wallet
+2026-05-14 11:54:54,167 - INFO -     → Display title: Wallet
+2026-05-14 11:54:54,261 - INFO -     → Toggle: both
+2026-05-14 11:54:56,391 - INFO -     → Image uploaded: wallet.png
+2026-05-14 11:54:56,915 - INFO -     → Form submitted
+2026-05-14 11:54:57,992 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 11:54:58,999 - INFO - [10/48]
+2026-05-14 11:54:59,000 - INFO -   Adding: [Shop] Wallet  (wallet)
+2026-05-14 11:55:01,786 - INFO -     → User type: Shop
+2026-05-14 11:55:02,128 - INFO -     → Icon identity: wallet
+2026-05-14 11:55:02,510 - INFO -     → Display title: Wallet
+2026-05-14 11:55:02,560 - INFO -     → Toggle: both
+2026-05-14 11:55:04,648 - INFO -     → Image uploaded: wallet.png
+2026-05-14 11:55:05,165 - INFO -     → Form submitted
+2026-05-14 11:55:06,198 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 11:55:07,198 - INFO - [11/48]
+2026-05-14 11:55:07,200 - INFO -   Adding: [Electrician] Wallet  (wallet)
+2026-05-14 11:55:10,025 - INFO -     → User type: Electrician
+2026-05-14 11:55:10,416 - INFO -     → Icon identity: wallet
+2026-05-14 11:55:10,784 - INFO -     → Display title: Wallet
+2026-05-14 11:55:10,923 - INFO -     → Toggle: both
+2026-05-14 11:55:13,010 - INFO -     → Image uploaded: wallet.png
+2026-05-14 11:55:13,293 - INFO -     → Form submitted
+2026-05-14 11:55:14,310 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 11:55:15,314 - INFO - [12/48]
+2026-05-14 11:55:15,314 - INFO -   Adding: [Contractor] Wallet  (wallet)
+2026-05-14 11:55:19,442 - INFO -     → User type: Contractor
+2026-05-14 11:55:19,615 - INFO -     → Icon identity: wallet
+2026-05-14 11:55:19,971 - INFO -     → Display title: Wallet
+2026-05-14 11:55:20,028 - INFO -     → Toggle: both
+2026-05-14 11:55:22,165 - INFO -     → Image uploaded: wallet.png
+2026-05-14 11:55:22,496 - INFO -     → Form submitted
+2026-05-14 11:55:23,515 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 11:55:24,516 - INFO - [13/48]
+2026-05-14 11:55:24,518 - INFO -   Adding: [User] KYC  (kycdetails)
+2026-05-14 11:55:27,251 - INFO -     → User type: User
+2026-05-14 11:55:27,595 - INFO -     → Icon identity: kycdetails
+2026-05-14 11:55:27,953 - INFO -     → Display title: KYC
+2026-05-14 11:55:28,020 - INFO -     → Toggle: both
+2026-05-14 11:55:30,107 - INFO -     → Image uploaded: kyc.png
+2026-05-14 11:55:30,323 - INFO -     → Form submitted
+2026-05-14 11:55:31,407 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 11:55:32,409 - INFO - [14/48]
+2026-05-14 11:55:32,409 - INFO -   Adding: [Shop] KYC  (kycdetails)
+2026-05-14 11:55:35,017 - INFO -     → User type: Shop
+2026-05-14 11:55:35,185 - INFO -     → Icon identity: kycdetails
+2026-05-14 11:55:35,390 - INFO -     → Display title: KYC
+2026-05-14 11:55:35,425 - INFO -     → Toggle: both
+2026-05-14 11:55:37,510 - INFO -     → Image uploaded: kyc.png
+2026-05-14 11:55:38,074 - INFO -     → Form submitted
+2026-05-14 11:55:39,127 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 11:55:40,203 - INFO - [15/48]
+2026-05-14 11:55:40,204 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-05-14 11:55:43,154 - INFO -     → User type: Electrician
+2026-05-14 11:55:43,509 - INFO -     → Icon identity: kycdetails
+2026-05-14 11:55:43,751 - INFO -     → Display title: KYC
+2026-05-14 11:55:43,816 - INFO -     → Toggle: both
+2026-05-14 11:55:45,915 - INFO -     → Image uploaded: kyc.png
+2026-05-14 11:55:46,510 - INFO -     → Form submitted
+2026-05-14 11:55:47,541 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 11:55:48,544 - INFO - [16/48]
+2026-05-14 11:55:48,547 - INFO -   Adding: [Contractor] KYC  (kycdetails)
+2026-05-14 11:55:51,287 - INFO -     → User type: Contractor
+2026-05-14 11:55:51,458 - INFO -     → Icon identity: kycdetails
+2026-05-14 11:55:51,675 - INFO -     → Display title: KYC
+2026-05-14 11:55:51,732 - INFO -     → Toggle: both
+2026-05-14 11:55:53,811 - INFO -     → Image uploaded: kyc.png
+2026-05-14 11:55:54,136 - INFO -     → Form submitted
+2026-05-14 11:55:55,174 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 11:55:56,174 - INFO - [17/48]
+2026-05-14 11:55:56,175 - INFO -   Adding: [User] Blog  (blog)
+2026-05-14 11:55:59,073 - INFO -     → User type: User
+2026-05-14 11:55:59,272 - INFO -     → Icon identity: blog
+2026-05-14 11:55:59,595 - INFO -     → Display title: Blog
+2026-05-14 11:55:59,711 - INFO -     → Toggle: both
+2026-05-14 11:56:01,883 - INFO -     → Image uploaded: blog.png
+2026-05-14 11:56:02,208 - INFO -     → Form submitted
+2026-05-14 11:56:03,229 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 11:56:04,233 - INFO - [18/48]
+2026-05-14 11:56:04,235 - INFO -   Adding: [Shop] Blog  (blog)
+2026-05-14 11:56:08,251 - INFO -     → User type: Shop
+2026-05-14 11:56:08,772 - INFO -     → Icon identity: blog
+2026-05-14 11:56:09,596 - INFO -     → Display title: Blog
+2026-05-14 11:56:09,684 - INFO -     → Toggle: both
+2026-05-14 11:56:11,807 - INFO -     → Image uploaded: blog.png
+2026-05-14 11:56:12,091 - INFO -     → Form submitted
+2026-05-14 11:56:13,112 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 11:56:14,113 - INFO - [19/48]
+2026-05-14 11:56:14,115 - INFO -   Adding: [Electrician] Blog  (blog)
+2026-05-14 11:56:17,436 - INFO -     → User type: Electrician
+2026-05-14 11:56:17,925 - INFO -     → Icon identity: blog
+2026-05-14 11:56:18,188 - INFO -     → Display title: Blog
+2026-05-14 11:56:18,251 - INFO -     → Toggle: both
+2026-05-14 11:56:20,318 - INFO -     → Image uploaded: blog.png
+2026-05-14 11:56:20,586 - INFO -     → Form submitted
+2026-05-14 11:56:21,649 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 11:56:22,654 - INFO - [20/48]
+2026-05-14 11:56:22,654 - INFO -   Adding: [Contractor] Blog  (blog)
+2026-05-14 11:56:25,712 - INFO -     → User type: Contractor
+2026-05-14 11:56:25,923 - INFO -     → Icon identity: blog
+2026-05-14 11:56:26,467 - INFO -     → Display title: Blog
+2026-05-14 11:56:26,613 - INFO -     → Toggle: both
+2026-05-14 11:56:28,976 - INFO -     → Image uploaded: blog.png
+2026-05-14 11:56:29,276 - INFO -     → Form submitted
+2026-05-14 11:56:30,298 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 11:56:31,299 - INFO - [21/48]
+2026-05-14 11:56:31,300 - INFO -   Adding: [User] Brochure  (brochure)
+2026-05-14 11:56:34,350 - INFO -     → User type: User
+2026-05-14 11:56:34,584 - INFO -     → Icon identity: brochure
+2026-05-14 11:56:35,214 - INFO -     → Display title: Brochure
+2026-05-14 11:56:35,342 - INFO -     → Toggle: both
+2026-05-14 11:56:37,460 - INFO -     → Image uploaded: brochure.png
+2026-05-14 11:56:37,989 - INFO -     → Form submitted
+2026-05-14 11:56:39,361 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 11:56:40,362 - INFO - [22/48]
+2026-05-14 11:56:40,363 - INFO -   Adding: [Shop] Brochure  (brochure)
+2026-05-14 11:56:44,209 - INFO -     → User type: Shop
+2026-05-14 11:56:44,508 - INFO -     → Icon identity: brochure
+2026-05-14 11:56:45,059 - INFO -     → Display title: Brochure
+2026-05-14 11:56:45,205 - INFO -     → Toggle: both
+2026-05-14 11:56:47,421 - INFO -     → Image uploaded: brochure.png
+2026-05-14 11:56:48,481 - INFO -     → Form submitted
+2026-05-14 11:56:49,502 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 11:56:50,506 - INFO - [23/48]
+2026-05-14 11:56:50,506 - INFO -   Adding: [Electrician] Brochure  (brochure)
+2026-05-14 11:56:56,645 - INFO -     → User type: Electrician
+2026-05-14 11:56:56,920 - INFO -     → Icon identity: brochure
+2026-05-14 11:56:57,299 - INFO -     → Display title: Brochure
+2026-05-14 11:56:57,356 - INFO -     → Toggle: both
+2026-05-14 11:56:59,477 - INFO -     → Image uploaded: brochure.png
+2026-05-14 11:56:59,886 - INFO -     → Form submitted
+2026-05-14 11:57:00,911 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 11:57:01,924 - INFO - [24/48]
+2026-05-14 11:57:01,924 - INFO -   Adding: [Contractor] Brochure  (brochure)
+2026-05-14 11:57:04,500 - INFO -     → User type: Contractor
+2026-05-14 11:57:04,624 - INFO -     → Icon identity: brochure
+2026-05-14 11:57:04,872 - INFO -     → Display title: Brochure
+2026-05-14 11:57:04,957 - INFO -     → Toggle: both
+2026-05-14 11:57:07,127 - INFO -     → Image uploaded: brochure.png
+2026-05-14 11:57:07,376 - INFO -     → Form submitted
+2026-05-14 11:57:08,550 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 11:57:09,550 - INFO - [25/48]
+2026-05-14 11:57:09,550 - INFO -   Adding: [User] Claim History  (claimhistory)
+2026-05-14 11:57:12,316 - INFO -     → User type: User
+2026-05-14 11:57:12,679 - INFO -     → Icon identity: claimhistory
+2026-05-14 11:57:13,393 - INFO -     → Display title: Claim History
+2026-05-14 11:57:13,677 - INFO -     → Toggle: both
+2026-05-14 11:57:15,869 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 11:57:16,128 - INFO -     → Form submitted
+2026-05-14 11:57:17,148 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 11:57:18,164 - INFO - [26/48]
+2026-05-14 11:57:18,165 - INFO -   Adding: [Shop] Claim History  (claimhistory)
+2026-05-14 11:57:22,059 - INFO -     → User type: Shop
+2026-05-14 11:57:22,256 - INFO -     → Icon identity: claimhistory
+2026-05-14 11:57:22,691 - INFO -     → Display title: Claim History
+2026-05-14 11:57:22,748 - INFO -     → Toggle: both
+2026-05-14 11:57:24,937 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 11:57:25,320 - INFO -     → Form submitted
+2026-05-14 11:57:26,416 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 11:57:27,417 - INFO - [27/48]
+2026-05-14 11:57:27,417 - INFO -   Adding: [Electrician] Claim History  (claimhistory)
+2026-05-14 11:57:30,799 - INFO -     → User type: Electrician
+2026-05-14 11:57:30,942 - INFO -     → Icon identity: claimhistory
+2026-05-14 11:57:31,250 - INFO -     → Display title: Claim History
+2026-05-14 11:57:31,349 - INFO -     → Toggle: both
+2026-05-14 11:57:33,435 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 11:57:33,733 - INFO -     → Form submitted
+2026-05-14 11:57:34,770 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 11:57:35,770 - INFO - [28/48]
+2026-05-14 11:57:35,770 - INFO -   Adding: [Contractor] Claim History  (claimhistory)
+2026-05-14 11:57:38,201 - INFO -     → User type: Contractor
+2026-05-14 11:57:38,376 - INFO -     → Icon identity: claimhistory
+2026-05-14 11:57:38,576 - INFO -     → Display title: Claim History
+2026-05-14 11:57:38,608 - INFO -     → Toggle: both
+2026-05-14 11:57:40,649 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 11:57:40,817 - INFO -     → Form submitted
+2026-05-14 11:57:41,838 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 11:57:42,840 - INFO - [29/48]
+2026-05-14 11:57:42,843 - INFO -   Adding: [User] Language  (chooselanguage)
+2026-05-14 11:57:45,328 - INFO -     → User type: User
+2026-05-14 11:57:45,471 - INFO -     → Icon identity: chooselanguage
+2026-05-14 11:57:45,736 - INFO -     → Display title: Language
+2026-05-14 11:57:45,794 - INFO -     → Toggle: both
+2026-05-14 11:57:47,886 - INFO -     → Image uploaded: language.png
+2026-05-14 11:57:48,061 - INFO -     → Form submitted
+2026-05-14 11:57:49,111 - INFO -   ✓ Icon added: Language
+
+2026-05-14 11:57:50,111 - INFO - [30/48]
+2026-05-14 11:57:50,114 - INFO -   Adding: [Shop] Language  (chooselanguage)
+2026-05-14 11:57:52,525 - INFO -     → User type: Shop
+2026-05-14 11:57:52,639 - INFO -     → Icon identity: chooselanguage
+2026-05-14 11:57:52,902 - INFO -     → Display title: Language
+2026-05-14 11:57:52,956 - INFO -     → Toggle: both
+2026-05-14 11:57:55,011 - INFO -     → Image uploaded: language.png
+2026-05-14 11:57:55,427 - INFO -     → Form submitted
+2026-05-14 11:57:56,451 - INFO -   ✓ Icon added: Language
+
+2026-05-14 11:57:57,451 - INFO - [31/48]
+2026-05-14 11:57:57,452 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-05-14 11:58:01,210 - INFO -     → User type: Electrician
+2026-05-14 11:58:01,451 - INFO -     → Icon identity: chooselanguage
+2026-05-14 11:58:01,839 - INFO -     → Display title: Language
+2026-05-14 11:58:01,964 - INFO -     → Toggle: both
+2026-05-14 11:58:04,150 - INFO -     → Image uploaded: language.png
+2026-05-14 11:58:04,667 - INFO -     → Form submitted
+2026-05-14 11:58:05,806 - INFO -   ✓ Icon added: Language
+
+2026-05-14 11:58:06,806 - INFO - [32/48]
+2026-05-14 11:58:06,807 - INFO -   Adding: [Contractor] Language  (chooselanguage)
+2026-05-14 11:58:09,690 - INFO -     → User type: Contractor
+2026-05-14 11:58:09,996 - INFO -     → Icon identity: chooselanguage
+2026-05-14 11:58:10,438 - INFO -     → Display title: Language
+2026-05-14 11:58:10,545 - INFO -     → Toggle: both
+2026-05-14 11:58:12,960 - INFO -     → Image uploaded: language.png
+2026-05-14 11:58:13,358 - INFO -     → Form submitted
+2026-05-14 11:58:14,385 - INFO -   ✓ Icon added: Language
+
+2026-05-14 11:58:15,386 - INFO - [33/48]
+2026-05-14 11:58:15,388 - INFO -   Adding: [User] Code Details  (codedetails)
+2026-05-14 11:58:18,486 - INFO -     → User type: User
+2026-05-14 11:58:19,304 - INFO -     → Icon identity: codedetails
+2026-05-14 11:58:19,610 - INFO -     → Display title: Code Details
+2026-05-14 11:58:19,702 - INFO -     → Toggle: both
+2026-05-14 11:58:21,820 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 11:58:22,290 - INFO -     → Form submitted
+2026-05-14 11:58:23,378 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 11:58:24,378 - INFO - [34/48]
+2026-05-14 11:58:24,380 - INFO -   Adding: [Shop] Code Details  (codedetails)
+2026-05-14 11:58:27,524 - INFO -     → User type: Shop
+2026-05-14 11:58:27,857 - INFO -     → Icon identity: codedetails
+2026-05-14 11:58:28,196 - INFO -     → Display title: Code Details
+2026-05-14 11:58:28,319 - INFO -     → Toggle: both
+2026-05-14 11:58:30,508 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 11:58:30,872 - INFO -     → Form submitted
+2026-05-14 11:58:31,964 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 11:58:32,967 - INFO - [35/48]
+2026-05-14 11:58:32,967 - INFO -   Adding: [Electrician] Code Details  (codedetails)
+2026-05-14 11:58:36,472 - INFO -     → User type: Electrician
+2026-05-14 11:58:37,300 - INFO -     → Icon identity: codedetails
+2026-05-14 11:58:37,701 - INFO -     → Display title: Code Details
+2026-05-14 11:58:37,774 - INFO -     → Toggle: both
+2026-05-14 11:58:40,271 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 11:58:40,923 - INFO -     → Form submitted
+2026-05-14 11:58:41,945 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 11:58:42,945 - INFO - [36/48]
+2026-05-14 11:58:42,948 - INFO -   Adding: [Contractor] Code Details  (codedetails)
+2026-05-14 11:58:46,153 - INFO -     → User type: Contractor
+2026-05-14 11:58:46,339 - INFO -     → Icon identity: codedetails
+2026-05-14 11:58:46,707 - INFO -     → Display title: Code Details
+2026-05-14 11:58:46,782 - INFO -     → Toggle: both
+2026-05-14 11:58:48,923 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 11:58:49,286 - INFO -     → Form submitted
+2026-05-14 11:58:50,350 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 11:58:51,350 - INFO - [37/48]
+2026-05-14 11:58:51,351 - INFO -   Adding: [User] Help  (help)
+2026-05-14 11:58:54,815 - INFO -     → User type: User
+2026-05-14 11:58:55,056 - INFO -     → Icon identity: help
+2026-05-14 11:58:55,379 - INFO -     → Display title: Help
+2026-05-14 11:58:55,460 - INFO -     → Toggle: both
+2026-05-14 11:58:57,607 - INFO -     → Image uploaded: help.png
+2026-05-14 11:58:58,485 - INFO -     → Form submitted
+2026-05-14 11:58:59,521 - INFO -   ✓ Icon added: Help
+
+2026-05-14 11:59:00,521 - INFO - [38/48]
+2026-05-14 11:59:00,522 - INFO -   Adding: [Shop] Help  (help)
+2026-05-14 11:59:05,070 - INFO -     → User type: Shop
+2026-05-14 11:59:06,004 - INFO -     → Icon identity: help
+2026-05-14 11:59:06,517 - INFO -     → Display title: Help
+2026-05-14 11:59:06,580 - INFO -     → Toggle: both
+2026-05-14 11:59:08,748 - INFO -     → Image uploaded: help.png
+2026-05-14 11:59:09,113 - INFO -     → Form submitted
+2026-05-14 11:59:10,227 - INFO -   ✓ Icon added: Help
+
+2026-05-14 11:59:11,229 - INFO - [39/48]
+2026-05-14 11:59:11,229 - INFO -   Adding: [Electrician] Help  (help)
+2026-05-14 11:59:14,718 - INFO -     → User type: Electrician
+2026-05-14 11:59:15,164 - INFO -     → Icon identity: help
+2026-05-14 11:59:15,687 - INFO -     → Display title: Help
+2026-05-14 11:59:15,773 - INFO -     → Toggle: both
+2026-05-14 11:59:18,061 - INFO -     → Image uploaded: help.png
+2026-05-14 11:59:18,622 - INFO -     → Form submitted
+2026-05-14 11:59:19,713 - INFO -   ✓ Icon added: Help
+
+2026-05-14 11:59:20,714 - INFO - [40/48]
+2026-05-14 11:59:20,715 - INFO -   Adding: [Contractor] Help  (help)
+2026-05-14 11:59:23,914 - INFO -     → User type: Contractor
+2026-05-14 11:59:24,302 - INFO -     → Icon identity: help
+2026-05-14 11:59:24,570 - INFO -     → Display title: Help
+2026-05-14 11:59:24,664 - INFO -     → Toggle: both
+2026-05-14 11:59:26,827 - INFO -     → Image uploaded: help.png
+2026-05-14 11:59:27,118 - INFO -     → Form submitted
+2026-05-14 11:59:28,353 - INFO -   ✓ Icon added: Help
+
+2026-05-14 11:59:29,355 - INFO - [41/48]
+2026-05-14 11:59:29,355 - INFO -   Adding: [User] Refer & Earn  (referandearn)
+2026-05-14 11:59:32,805 - INFO -     → User type: User
+2026-05-14 11:59:33,280 - INFO -     → Icon identity: referandearn
+2026-05-14 11:59:33,989 - INFO -     → Display title: Refer & Earn
+2026-05-14 11:59:34,070 - INFO -     → Toggle: both
+2026-05-14 11:59:36,314 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 11:59:36,753 - INFO -     → Form submitted
+2026-05-14 11:59:37,786 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 11:59:38,788 - INFO - [42/48]
+2026-05-14 11:59:38,788 - INFO -   Adding: [Shop] Refer & Earn  (referandearn)
+2026-05-14 11:59:42,381 - INFO -     → User type: Shop
+2026-05-14 11:59:42,711 - INFO -     → Icon identity: referandearn
+2026-05-14 11:59:43,245 - INFO -     → Display title: Refer & Earn
+2026-05-14 11:59:43,398 - INFO -     → Toggle: both
+2026-05-14 11:59:45,598 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 11:59:45,953 - INFO -     → Form submitted
+2026-05-14 11:59:47,090 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 11:59:48,092 - INFO - [43/48]
+2026-05-14 11:59:48,092 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-05-14 11:59:52,011 - INFO -     → User type: Electrician
+2026-05-14 11:59:52,235 - INFO -     → Icon identity: referandearn
+2026-05-14 11:59:52,685 - INFO -     → Display title: Refer & Earn
+2026-05-14 11:59:52,859 - INFO -     → Toggle: both
+2026-05-14 11:59:55,141 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 11:59:55,436 - INFO -     → Form submitted
+2026-05-14 11:59:56,485 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 11:59:57,485 - INFO - [44/48]
+2026-05-14 11:59:57,488 - INFO -   Adding: [Contractor] Refer & Earn  (referandearn)
+2026-05-14 12:00:00,511 - INFO -     → User type: Contractor
+2026-05-14 12:00:00,751 - INFO -     → Icon identity: referandearn
+2026-05-14 12:00:01,180 - INFO -     → Display title: Refer & Earn
+2026-05-14 12:00:01,393 - INFO -     → Toggle: both
+2026-05-14 12:00:03,526 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 12:00:03,840 - INFO -     → Form submitted
+2026-05-14 12:00:04,894 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 12:00:05,895 - INFO - [45/48]
+2026-05-14 12:00:05,895 - INFO -   Adding: [User] E-Commerce  (productcatalogue)
+2026-05-14 12:00:09,304 - INFO -     → User type: User
+2026-05-14 12:00:09,758 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:00:10,135 - INFO -     → Display title: E-Commerce
+2026-05-14 12:00:10,271 - INFO -     → Toggle: both
+2026-05-14 12:00:12,594 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:00:12,805 - INFO -     → Form submitted
+2026-05-14 12:00:13,847 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:00:14,848 - INFO - [46/48]
+2026-05-14 12:00:14,849 - INFO -   Adding: [Shop] E-Commerce  (productcatalogue)
+2026-05-14 12:00:18,574 - INFO -     → User type: Shop
+2026-05-14 12:00:19,104 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:00:19,510 - INFO -     → Display title: E-Commerce
+2026-05-14 12:00:19,598 - INFO -     → Toggle: both
+2026-05-14 12:00:21,809 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:00:22,272 - INFO -     → Form submitted
+2026-05-14 12:00:23,301 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:00:24,301 - INFO - [47/48]
+2026-05-14 12:00:24,302 - INFO -   Adding: [Electrician] E-Commerce  (productcatalogue)
+2026-05-14 12:00:27,672 - INFO -     → User type: Electrician
+2026-05-14 12:00:28,083 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:00:28,618 - INFO -     → Display title: E-Commerce
+2026-05-14 12:00:28,978 - INFO -     → Toggle: both
+2026-05-14 12:00:31,192 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:00:31,803 - INFO -     → Form submitted
+2026-05-14 12:00:32,839 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:00:33,841 - INFO - [48/48]
+2026-05-14 12:00:33,841 - INFO -   Adding: [Contractor] E-Commerce  (productcatalogue)
+2026-05-14 12:00:36,532 - INFO -     → User type: Contractor
+2026-05-14 12:00:36,689 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:00:36,937 - INFO -     → Display title: E-Commerce
+2026-05-14 12:00:36,984 - INFO -     → Toggle: both
+2026-05-14 12:00:39,083 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:00:39,365 - INFO -     → Form submitted
+2026-05-14 12:00:40,388 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:00:41,391 - INFO - ============================================================
+2026-05-14 12:00:41,392 - INFO - Batch complete → ✓ 48 succeeded  ✗ 0 failed
+2026-05-14 12:00:41,392 - INFO - 
+============================================================
+2026-05-14 12:00:41,392 - INFO - AUTOMATION SUMMARY
+2026-05-14 12:00:41,392 - INFO - ============================================================
+2026-05-14 12:00:41,393 - INFO - ✓ Successful uploads: 48
+2026-05-14 12:00:41,393 - INFO - ✗ Failed uploads: 0
+2026-05-14 12:00:41,394 - INFO - Total processed: 12
+2026-05-14 12:00:41,397 - INFO - Success rate: 400.0%
+2026-05-14 12:00:41,398 - INFO - ============================================================
+2026-05-14 12:00:41,953 - INFO - Browser closed
+2026-05-14 12:00:41,959 - INFO - 
+Task finished at 2026-05-14 12:00:41
+2026-05-14 12:00:41,959 - INFO - Log: automation/logs/full_automation_20260514_113652.log
+

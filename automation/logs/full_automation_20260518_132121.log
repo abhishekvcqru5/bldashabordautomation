@@ -1,0 +1,755 @@
+2026-05-18 13:21:39,759 - INFO - User selected: Dashboard Icons
+2026-05-18 13:21:39,760 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-18 13:21:39,760 - INFO - Automation started at 2026-05-18 13:21:39
+
+2026-05-18 13:21:39,761 - INFO - ============================================================
+2026-05-18 13:21:39,761 - INFO - STEP 1: Processing and Compressing Images
+2026-05-18 13:21:39,761 - INFO - ============================================================
+2026-05-18 13:21:39,762 - INFO - Processing images from: dashboardicons
+2026-05-18 13:21:39,762 - INFO - Output folder: automation/processed_images
+2026-05-18 13:21:39,762 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-18 13:21:39,833 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-18 13:21:39,845 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-18 13:21:39,871 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-18 13:21:39,911 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-18 13:21:39,924 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-18 13:21:39,944 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-18 13:21:39,956 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-18 13:21:39,965 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-18 13:21:39,987 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-18 13:21:40,014 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-18 13:21:40,037 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-18 13:21:40,063 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-18 13:21:40,099 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-18 13:21:40,130 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-18 13:21:40,130 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-18 13:21:40,131 - INFO - ✓ 14 images processed and ready
+
+2026-05-18 13:21:40,131 - INFO - ============================================================
+2026-05-18 13:21:40,132 - INFO - STEP 2: Preparing Authentication
+2026-05-18 13:21:40,132 - INFO - ============================================================
+2026-05-18 13:21:40,132 - INFO - Using email: gautam@etac.in
+2026-05-18 13:21:40,132 - INFO - ✓ Credentials loaded
+
+2026-05-18 13:21:40,132 - INFO - ============================================================
+2026-05-18 13:21:40,132 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-18 13:21:40,132 - INFO - ============================================================
+2026-05-18 13:21:41,658 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 13:21:47,941 - INFO - ✓ Chrome driver initialized
+2026-05-18 13:21:47,942 - INFO - 
+→ Attempting login...
+
+2026-05-18 13:21:47,944 - INFO - Opening login page...
+2026-05-18 13:21:51,596 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 13:21:53,787 - INFO - ✓ Login successful
+2026-05-18 13:21:55,788 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-18 13:21:55,789 - INFO - Navigating to App Settings...
+2026-05-18 13:22:03,040 - INFO - ✓ Dashboard Icons section loaded
+2026-05-18 13:22:05,046 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-18 13:22:05,047 - INFO - Starting batch – 12 configured entries
+2026-05-18 13:22:09,508 - INFO -   Found 4 user types: ['BUILDERS', 'RCC CONTRACTOR', 'TILE CONTRACTOR', 'ARCHITECTURE']
+2026-05-18 13:22:09,508 - INFO - Available user types: ['BUILDERS', 'RCC CONTRACTOR', 'TILE CONTRACTOR', 'ARCHITECTURE']
+2026-05-18 13:22:09,509 - INFO - Total icons to upload after expansion: 48
+2026-05-18 13:22:09,509 - INFO - ============================================================
+2026-05-18 13:22:09,510 - INFO - [1/48]
+2026-05-18 13:22:09,510 - INFO -   Adding: [BUILDERS] Gift  (gift)
+2026-05-18 13:22:11,911 - INFO -     → User type: BUILDERS
+2026-05-18 13:22:12,074 - INFO -     → Icon identity: gift
+2026-05-18 13:22:12,326 - INFO -     → Display title: Gift
+2026-05-18 13:22:12,369 - INFO -     → Toggle: both
+2026-05-18 13:22:14,990 - INFO -     → Image uploaded: Gift.png
+2026-05-18 13:22:19,503 - INFO -     → Form submitted
+2026-05-18 13:22:20,736 - INFO -   ✓ Icon added: Gift
+
+2026-05-18 13:22:21,737 - INFO - [2/48]
+2026-05-18 13:22:21,739 - INFO -   Adding: [RCC CONTRACTOR] Gift  (gift)
+2026-05-18 13:22:24,532 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:22:24,804 - INFO -     → Icon identity: gift
+2026-05-18 13:22:25,232 - INFO -     → Display title: Gift
+2026-05-18 13:22:25,380 - INFO -     → Toggle: both
+2026-05-18 13:22:27,553 - INFO -     → Image uploaded: Gift.png
+2026-05-18 13:22:27,804 - INFO -     → Form submitted
+2026-05-18 13:22:28,854 - INFO -   ✓ Icon added: Gift
+
+2026-05-18 13:22:29,854 - INFO - [3/48]
+2026-05-18 13:22:29,854 - INFO -   Adding: [TILE CONTRACTOR] Gift  (gift)
+2026-05-18 13:22:32,623 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:22:32,961 - INFO -     → Icon identity: gift
+2026-05-18 13:22:33,178 - INFO -     → Display title: Gift
+2026-05-18 13:22:33,254 - INFO -     → Toggle: both
+2026-05-18 13:22:35,372 - INFO -     → Image uploaded: Gift.png
+2026-05-18 13:22:35,810 - INFO -     → Form submitted
+2026-05-18 13:22:36,974 - INFO -   ✓ Icon added: Gift
+
+2026-05-18 13:22:37,975 - INFO - [4/48]
+2026-05-18 13:22:37,976 - INFO -   Adding: [ARCHITECTURE] Gift  (gift)
+2026-05-18 13:22:40,759 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:22:40,945 - INFO -     → Icon identity: gift
+2026-05-18 13:22:41,249 - INFO -     → Display title: Gift
+2026-05-18 13:22:41,351 - INFO -     → Toggle: both
+2026-05-18 13:22:43,505 - INFO -     → Image uploaded: Gift.png
+2026-05-18 13:22:43,738 - INFO -     → Form submitted
+2026-05-18 13:22:44,760 - INFO -   ✓ Icon added: Gift
+
+2026-05-18 13:22:45,761 - INFO - [5/48]
+2026-05-18 13:22:45,761 - INFO -   Adding: [BUILDERS] History  (history)
+2026-05-18 13:22:48,291 - INFO -     → User type: BUILDERS
+2026-05-18 13:22:48,493 - INFO -     → Icon identity: history
+2026-05-18 13:22:48,768 - INFO -     → Display title: History
+2026-05-18 13:22:48,823 - INFO -     → Toggle: both
+2026-05-18 13:22:50,911 - INFO -     → Image uploaded: history.png
+2026-05-18 13:22:51,229 - INFO -     → Form submitted
+2026-05-18 13:22:52,250 - INFO -   ✓ Icon added: History
+
+2026-05-18 13:22:53,254 - INFO - [6/48]
+2026-05-18 13:22:53,254 - INFO -   Adding: [RCC CONTRACTOR] History  (history)
+2026-05-18 13:22:55,893 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:22:55,981 - INFO -     → Icon identity: history
+2026-05-18 13:22:56,197 - INFO -     → Display title: History
+2026-05-18 13:22:56,225 - INFO -     → Toggle: both
+2026-05-18 13:22:58,303 - INFO -     → Image uploaded: history.png
+2026-05-18 13:22:58,502 - INFO -     → Form submitted
+2026-05-18 13:22:59,530 - INFO -   ✓ Icon added: History
+
+2026-05-18 13:23:00,560 - INFO - [7/48]
+2026-05-18 13:23:00,561 - INFO -   Adding: [TILE CONTRACTOR] History  (history)
+2026-05-18 13:23:03,321 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:23:03,554 - INFO -     → Icon identity: history
+2026-05-18 13:23:03,853 - INFO -     → Display title: History
+2026-05-18 13:23:03,902 - INFO -     → Toggle: both
+2026-05-18 13:23:06,015 - INFO -     → Image uploaded: history.png
+2026-05-18 13:23:06,267 - INFO -     → Form submitted
+2026-05-18 13:23:07,294 - INFO -   ✓ Icon added: History
+
+2026-05-18 13:23:08,294 - INFO - [8/48]
+2026-05-18 13:23:08,295 - INFO -   Adding: [ARCHITECTURE] History  (history)
+2026-05-18 13:23:11,044 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:23:11,153 - INFO -     → Icon identity: history
+2026-05-18 13:23:11,486 - INFO -     → Display title: History
+2026-05-18 13:23:11,555 - INFO -     → Toggle: both
+2026-05-18 13:23:13,649 - INFO -     → Image uploaded: history.png
+2026-05-18 13:23:14,085 - INFO -     → Form submitted
+2026-05-18 13:23:15,146 - INFO -   ✓ Icon added: History
+
+2026-05-18 13:23:16,147 - INFO - [9/48]
+2026-05-18 13:23:16,148 - INFO -   Adding: [BUILDERS] Wallet  (wallet)
+2026-05-18 13:23:19,198 - INFO -     → User type: BUILDERS
+2026-05-18 13:23:19,612 - INFO -     → Icon identity: wallet
+2026-05-18 13:23:20,127 - INFO -     → Display title: Wallet
+2026-05-18 13:23:20,244 - INFO -     → Toggle: both
+2026-05-18 13:23:22,578 - INFO -     → Image uploaded: wallet.png
+2026-05-18 13:23:22,819 - INFO -     → Form submitted
+2026-05-18 13:23:23,892 - INFO -   ✓ Icon added: Wallet
+
+2026-05-18 13:23:24,896 - INFO - [10/48]
+2026-05-18 13:23:24,898 - INFO -   Adding: [RCC CONTRACTOR] Wallet  (wallet)
+2026-05-18 13:23:28,572 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:23:28,837 - INFO -     → Icon identity: wallet
+2026-05-18 13:23:29,272 - INFO -     → Display title: Wallet
+2026-05-18 13:23:29,420 - INFO -     → Toggle: both
+2026-05-18 13:23:31,603 - INFO -     → Image uploaded: wallet.png
+2026-05-18 13:23:31,984 - INFO -     → Form submitted
+2026-05-18 13:23:33,047 - INFO -   ✓ Icon added: Wallet
+
+2026-05-18 13:23:34,049 - INFO - [11/48]
+2026-05-18 13:23:34,049 - INFO -   Adding: [TILE CONTRACTOR] Wallet  (wallet)
+2026-05-18 13:23:39,655 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:23:40,025 - INFO -     → Icon identity: wallet
+2026-05-18 13:23:40,462 - INFO -     → Display title: Wallet
+2026-05-18 13:23:40,533 - INFO -     → Toggle: both
+2026-05-18 13:23:42,610 - INFO -     → Image uploaded: wallet.png
+2026-05-18 13:23:43,199 - INFO -     → Form submitted
+2026-05-18 13:23:44,228 - INFO -   ✓ Icon added: Wallet
+
+2026-05-18 13:23:45,230 - INFO - [12/48]
+2026-05-18 13:23:45,231 - INFO -   Adding: [ARCHITECTURE] Wallet  (wallet)
+2026-05-18 13:23:48,903 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:23:49,167 - INFO -     → Icon identity: wallet
+2026-05-18 13:23:50,128 - INFO -     → Display title: Wallet
+2026-05-18 13:23:50,280 - INFO -     → Toggle: both
+2026-05-18 13:23:52,480 - INFO -     → Image uploaded: wallet.png
+2026-05-18 13:23:54,094 - INFO -     → Form submitted
+2026-05-18 13:23:55,174 - INFO -   ✓ Icon added: Wallet
+
+2026-05-18 13:23:56,174 - INFO - [13/48]
+2026-05-18 13:23:56,176 - INFO -   Adding: [BUILDERS] KYC  (kycdetails)
+2026-05-18 13:23:59,051 - INFO -     → User type: BUILDERS
+2026-05-18 13:23:59,143 - INFO -     → Icon identity: kycdetails
+2026-05-18 13:23:59,262 - INFO -     → Display title: KYC
+2026-05-18 13:23:59,287 - INFO -     → Toggle: both
+2026-05-18 13:24:01,492 - INFO -     → Image uploaded: kyc.png
+2026-05-18 13:24:02,033 - INFO -     → Form submitted
+2026-05-18 13:24:03,314 - INFO -   ✓ Icon added: KYC
+
+2026-05-18 13:24:04,315 - INFO - [14/48]
+2026-05-18 13:24:04,317 - INFO -   Adding: [RCC CONTRACTOR] KYC  (kycdetails)
+2026-05-18 13:24:07,535 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:24:07,771 - INFO -     → Icon identity: kycdetails
+2026-05-18 13:24:08,336 - INFO -     → Display title: KYC
+2026-05-18 13:24:08,578 - INFO -     → Toggle: both
+2026-05-18 13:24:10,808 - INFO -     → Image uploaded: kyc.png
+2026-05-18 13:24:11,129 - INFO -     → Form submitted
+2026-05-18 13:24:12,176 - INFO -   ✓ Icon added: KYC
+
+2026-05-18 13:24:13,177 - INFO - [15/48]
+2026-05-18 13:24:13,179 - INFO -   Adding: [TILE CONTRACTOR] KYC  (kycdetails)
+2026-05-18 13:24:15,777 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:24:15,917 - INFO -     → Icon identity: kycdetails
+2026-05-18 13:24:16,217 - INFO -     → Display title: KYC
+2026-05-18 13:24:16,249 - INFO -     → Toggle: both
+2026-05-18 13:24:18,513 - INFO -     → Image uploaded: kyc.png
+2026-05-18 13:24:18,949 - INFO -     → Form submitted
+2026-05-18 13:24:19,971 - INFO -   ✓ Icon added: KYC
+
+2026-05-18 13:24:20,971 - INFO - [16/48]
+2026-05-18 13:24:20,972 - INFO -   Adding: [ARCHITECTURE] KYC  (kycdetails)
+2026-05-18 13:24:24,379 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:24:24,736 - INFO -     → Icon identity: kycdetails
+2026-05-18 13:24:24,964 - INFO -     → Display title: KYC
+2026-05-18 13:24:25,113 - INFO -     → Toggle: both
+2026-05-18 13:24:27,203 - INFO -     → Image uploaded: kyc.png
+2026-05-18 13:24:27,356 - INFO -     → Form submitted
+2026-05-18 13:24:28,367 - INFO -   ✓ Icon added: KYC
+
+2026-05-18 13:24:29,388 - INFO - [17/48]
+2026-05-18 13:24:29,388 - INFO -   Adding: [BUILDERS] Blog  (blog)
+2026-05-18 13:24:32,399 - INFO -     → User type: BUILDERS
+2026-05-18 13:24:32,675 - INFO -     → Icon identity: blog
+2026-05-18 13:24:32,920 - INFO -     → Display title: Blog
+2026-05-18 13:24:32,965 - INFO -     → Toggle: both
+2026-05-18 13:24:35,092 - INFO -     → Image uploaded: blog.png
+2026-05-18 13:24:35,382 - INFO -     → Form submitted
+2026-05-18 13:24:36,421 - INFO -   ✓ Icon added: Blog
+
+2026-05-18 13:24:37,422 - INFO - [18/48]
+2026-05-18 13:24:37,423 - INFO -   Adding: [RCC CONTRACTOR] Blog  (blog)
+2026-05-18 13:24:40,307 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:24:40,552 - INFO -     → Icon identity: blog
+2026-05-18 13:24:40,825 - INFO -     → Display title: Blog
+2026-05-18 13:24:40,966 - INFO -     → Toggle: both
+2026-05-18 13:24:43,158 - INFO -     → Image uploaded: blog.png
+2026-05-18 13:24:43,943 - INFO -     → Form submitted
+2026-05-18 13:24:47,233 - INFO -   ✓ Icon added: Blog
+
+2026-05-18 13:24:48,240 - INFO - [19/48]
+2026-05-18 13:24:48,243 - INFO -   Adding: [TILE CONTRACTOR] Blog  (blog)
+2026-05-18 13:24:51,178 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:24:51,331 - INFO -     → Icon identity: blog
+2026-05-18 13:24:51,543 - INFO -     → Display title: Blog
+2026-05-18 13:24:51,582 - INFO -     → Toggle: both
+2026-05-18 13:24:53,663 - INFO -     → Image uploaded: blog.png
+2026-05-18 13:24:53,972 - INFO -     → Form submitted
+2026-05-18 13:24:54,992 - INFO -   ✓ Icon added: Blog
+
+2026-05-18 13:24:56,010 - INFO - [20/48]
+2026-05-18 13:24:56,011 - INFO -   Adding: [ARCHITECTURE] Blog  (blog)
+2026-05-18 13:24:58,584 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:24:58,902 - INFO -     → Icon identity: blog
+2026-05-18 13:24:59,833 - INFO -     → Display title: Blog
+2026-05-18 13:24:59,957 - INFO -     → Toggle: both
+2026-05-18 13:25:02,044 - INFO -     → Image uploaded: blog.png
+2026-05-18 13:25:02,260 - INFO -     → Form submitted
+2026-05-18 13:25:03,287 - INFO -   ✓ Icon added: Blog
+
+2026-05-18 13:25:04,288 - INFO - [21/48]
+2026-05-18 13:25:04,288 - INFO -   Adding: [BUILDERS] Brochure  (brochure)
+2026-05-18 13:25:07,090 - INFO -     → User type: BUILDERS
+2026-05-18 13:25:07,236 - INFO -     → Icon identity: brochure
+2026-05-18 13:25:07,659 - INFO -     → Display title: Brochure
+2026-05-18 13:25:07,700 - INFO -     → Toggle: both
+2026-05-18 13:25:09,785 - INFO -     → Image uploaded: brochure.png
+2026-05-18 13:25:10,318 - INFO -     → Form submitted
+2026-05-18 13:25:11,365 - INFO -   ✓ Icon added: Brochure
+
+2026-05-18 13:25:12,366 - INFO - [22/48]
+2026-05-18 13:25:12,366 - INFO -   Adding: [RCC CONTRACTOR] Brochure  (brochure)
+2026-05-18 13:25:14,786 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:25:14,986 - INFO -     → Icon identity: brochure
+2026-05-18 13:25:15,191 - INFO -     → Display title: Brochure
+2026-05-18 13:25:15,234 - INFO -     → Toggle: both
+2026-05-18 13:25:17,298 - INFO -     → Image uploaded: brochure.png
+2026-05-18 13:25:17,424 - INFO -     → Form submitted
+2026-05-18 13:25:18,445 - INFO -   ✓ Icon added: Brochure
+
+2026-05-18 13:25:19,445 - INFO - [23/48]
+2026-05-18 13:25:19,446 - INFO -   Adding: [TILE CONTRACTOR] Brochure  (brochure)
+2026-05-18 13:25:21,782 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:25:21,887 - INFO -     → Icon identity: brochure
+2026-05-18 13:25:22,050 - INFO -     → Display title: Brochure
+2026-05-18 13:25:22,098 - INFO -     → Toggle: both
+2026-05-18 13:25:24,165 - INFO -     → Image uploaded: brochure.png
+2026-05-18 13:25:24,379 - INFO -     → Form submitted
+2026-05-18 13:25:25,413 - INFO -   ✓ Icon added: Brochure
+
+2026-05-18 13:25:26,414 - INFO - [24/48]
+2026-05-18 13:25:26,415 - INFO -   Adding: [ARCHITECTURE] Brochure  (brochure)
+2026-05-18 13:25:28,808 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:25:28,939 - INFO -     → Icon identity: brochure
+2026-05-18 13:25:29,126 - INFO -     → Display title: Brochure
+2026-05-18 13:25:29,174 - INFO -     → Toggle: both
+2026-05-18 13:25:31,239 - INFO -     → Image uploaded: brochure.png
+2026-05-18 13:25:31,394 - INFO -     → Form submitted
+2026-05-18 13:25:32,416 - INFO -   ✓ Icon added: Brochure
+
+2026-05-18 13:25:33,416 - INFO - [25/48]
+2026-05-18 13:25:33,418 - INFO -   Adding: [BUILDERS] Claim History  (claimhistory)
+2026-05-18 13:25:35,856 - INFO -     → User type: BUILDERS
+2026-05-18 13:25:36,044 - INFO -     → Icon identity: claimhistory
+2026-05-18 13:25:36,409 - INFO -     → Display title: Claim History
+2026-05-18 13:25:36,463 - INFO -     → Toggle: both
+2026-05-18 13:25:38,569 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-18 13:25:38,743 - INFO -     → Form submitted
+2026-05-18 13:25:39,759 - INFO -   ✓ Icon added: Claim History
+
+2026-05-18 13:25:40,760 - INFO - [26/48]
+2026-05-18 13:25:40,760 - INFO -   Adding: [RCC CONTRACTOR] Claim History  (claimhistory)
+2026-05-18 13:25:43,159 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:25:43,355 - INFO -     → Icon identity: claimhistory
+2026-05-18 13:25:43,626 - INFO -     → Display title: Claim History
+2026-05-18 13:25:43,693 - INFO -     → Toggle: both
+2026-05-18 13:25:45,791 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-18 13:25:45,925 - INFO -     → Form submitted
+2026-05-18 13:25:46,983 - INFO -   ✓ Icon added: Claim History
+
+2026-05-18 13:25:47,984 - INFO - [27/48]
+2026-05-18 13:25:47,984 - INFO -   Adding: [TILE CONTRACTOR] Claim History  (claimhistory)
+2026-05-18 13:25:50,376 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:25:50,493 - INFO -     → Icon identity: claimhistory
+2026-05-18 13:25:51,092 - INFO -     → Display title: Claim History
+2026-05-18 13:25:51,149 - INFO -     → Toggle: both
+2026-05-18 13:25:53,204 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-18 13:25:53,444 - INFO -     → Form submitted
+2026-05-18 13:25:54,479 - INFO -   ✓ Icon added: Claim History
+
+2026-05-18 13:25:55,480 - INFO - [28/48]
+2026-05-18 13:25:55,481 - INFO -   Adding: [ARCHITECTURE] Claim History  (claimhistory)
+2026-05-18 13:25:58,005 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:25:58,107 - INFO -     → Icon identity: claimhistory
+2026-05-18 13:25:58,418 - INFO -     → Display title: Claim History
+2026-05-18 13:25:58,477 - INFO -     → Toggle: both
+2026-05-18 13:26:00,594 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-18 13:26:00,764 - INFO -     → Form submitted
+2026-05-18 13:26:01,785 - INFO -   ✓ Icon added: Claim History
+
+2026-05-18 13:26:02,785 - INFO - [29/48]
+2026-05-18 13:26:02,786 - INFO -   Adding: [BUILDERS] Language  (chooselanguage)
+2026-05-18 13:26:05,123 - INFO -     → User type: BUILDERS
+2026-05-18 13:26:05,259 - INFO -     → Icon identity: chooselanguage
+2026-05-18 13:26:05,464 - INFO -     → Display title: Language
+2026-05-18 13:26:05,720 - INFO -     → Toggle: both
+2026-05-18 13:26:07,968 - INFO -     → Image uploaded: language.png
+2026-05-18 13:26:08,178 - INFO -     → Form submitted
+2026-05-18 13:26:09,221 - INFO -   ✓ Icon added: Language
+
+2026-05-18 13:26:10,222 - INFO - [30/48]
+2026-05-18 13:26:10,224 - INFO -   Adding: [RCC CONTRACTOR] Language  (chooselanguage)
+2026-05-18 13:26:12,682 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:26:12,822 - INFO -     → Icon identity: chooselanguage
+2026-05-18 13:26:13,068 - INFO -     → Display title: Language
+2026-05-18 13:26:13,111 - INFO -     → Toggle: both
+2026-05-18 13:26:15,216 - INFO -     → Image uploaded: language.png
+2026-05-18 13:26:16,066 - INFO -     → Form submitted
+2026-05-18 13:26:17,147 - INFO -   ✓ Icon added: Language
+
+2026-05-18 13:26:18,148 - INFO - [31/48]
+2026-05-18 13:26:18,148 - INFO -   Adding: [TILE CONTRACTOR] Language  (chooselanguage)
+2026-05-18 13:26:22,006 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:26:22,237 - INFO -     → Icon identity: chooselanguage
+2026-05-18 13:26:22,494 - INFO -     → Display title: Language
+2026-05-18 13:26:22,526 - INFO -     → Toggle: both
+2026-05-18 13:26:24,792 - INFO -     → Image uploaded: language.png
+2026-05-18 13:26:25,033 - INFO -     → Form submitted
+2026-05-18 13:26:26,126 - INFO -   ✓ Icon added: Language
+
+2026-05-18 13:26:27,127 - INFO - [32/48]
+2026-05-18 13:26:27,127 - INFO -   Adding: [ARCHITECTURE] Language  (chooselanguage)
+2026-05-18 13:26:30,326 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:26:30,724 - INFO -     → Icon identity: chooselanguage
+2026-05-18 13:26:31,269 - INFO -     → Display title: Language
+2026-05-18 13:26:31,386 - INFO -     → Toggle: both
+2026-05-18 13:26:33,554 - INFO -     → Image uploaded: language.png
+2026-05-18 13:26:34,480 - INFO -     → Form submitted
+2026-05-18 13:26:35,575 - INFO -   ✓ Icon added: Language
+
+2026-05-18 13:26:36,575 - INFO - [33/48]
+2026-05-18 13:26:36,576 - INFO -   Adding: [BUILDERS] Code Details  (codedetails)
+2026-05-18 13:26:40,951 - INFO -     → User type: BUILDERS
+2026-05-18 13:26:41,225 - INFO -     → Icon identity: codedetails
+2026-05-18 13:26:42,279 - INFO -     → Display title: Code Details
+2026-05-18 13:26:42,348 - INFO -     → Toggle: both
+2026-05-18 13:26:44,531 - INFO -     → Image uploaded: codedetails.png
+2026-05-18 13:26:46,648 - INFO -     → Form submitted
+2026-05-18 13:26:47,662 - INFO -   ✓ Icon added: Code Details
+
+2026-05-18 13:26:49,254 - INFO - [34/48]
+2026-05-18 13:26:49,254 - INFO -   Adding: [RCC CONTRACTOR] Code Details  (codedetails)
+2026-05-18 13:26:52,686 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:26:53,607 - INFO -     → Icon identity: codedetails
+2026-05-18 13:26:54,106 - INFO -     → Display title: Code Details
+2026-05-18 13:26:54,261 - INFO -     → Toggle: both
+2026-05-18 13:26:57,178 - INFO -     → Image uploaded: codedetails.png
+2026-05-18 13:26:57,699 - INFO -     → Form submitted
+2026-05-18 13:26:58,716 - INFO -   ✓ Icon added: Code Details
+
+2026-05-18 13:26:59,716 - INFO - [35/48]
+2026-05-18 13:26:59,718 - INFO -   Adding: [TILE CONTRACTOR] Code Details  (codedetails)
+2026-05-18 13:27:04,239 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:27:05,089 - INFO -     → Icon identity: codedetails
+2026-05-18 13:27:05,893 - INFO -     → Display title: Code Details
+2026-05-18 13:27:05,978 - INFO -     → Toggle: both
+2026-05-18 13:27:08,183 - INFO -     → Image uploaded: codedetails.png
+2026-05-18 13:27:08,561 - INFO -     → Form submitted
+2026-05-18 13:27:09,664 - INFO -   ✓ Icon added: Code Details
+
+2026-05-18 13:27:10,665 - INFO - [36/48]
+2026-05-18 13:27:10,667 - INFO -   Adding: [ARCHITECTURE] Code Details  (codedetails)
+2026-05-18 13:27:14,710 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:27:15,067 - INFO -     → Icon identity: codedetails
+2026-05-18 13:27:16,786 - INFO -     → Display title: Code Details
+2026-05-18 13:27:17,257 - INFO -     → Toggle: both
+2026-05-18 13:27:19,537 - INFO -     → Image uploaded: codedetails.png
+2026-05-18 13:27:20,075 - INFO -     → Form submitted
+2026-05-18 13:27:21,155 - INFO -   ✓ Icon added: Code Details
+
+2026-05-18 13:27:22,156 - INFO - [37/48]
+2026-05-18 13:27:22,156 - INFO -   Adding: [BUILDERS] Help  (help)
+2026-05-18 13:27:25,274 - INFO -     → User type: BUILDERS
+2026-05-18 13:27:25,723 - INFO -     → Icon identity: help
+2026-05-18 13:27:26,103 - INFO -     → Display title: Help
+2026-05-18 13:27:26,202 - INFO -     → Toggle: both
+2026-05-18 13:27:28,330 - INFO -     → Image uploaded: help.png
+2026-05-18 13:27:28,784 - INFO -     → Form submitted
+2026-05-18 13:27:29,940 - INFO -   ✓ Icon added: Help
+
+2026-05-18 13:27:30,943 - INFO - [38/48]
+2026-05-18 13:27:30,944 - INFO -   Adding: [RCC CONTRACTOR] Help  (help)
+2026-05-18 13:27:34,136 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:27:34,385 - INFO -     → Icon identity: help
+2026-05-18 13:27:34,811 - INFO -     → Display title: Help
+2026-05-18 13:27:34,990 - INFO -     → Toggle: both
+2026-05-18 13:27:37,197 - INFO -     → Image uploaded: help.png
+2026-05-18 13:27:37,599 - INFO -     → Form submitted
+2026-05-18 13:27:38,608 - INFO -   ✓ Icon added: Help
+
+2026-05-18 13:27:39,608 - INFO - [39/48]
+2026-05-18 13:27:39,608 - INFO -   Adding: [TILE CONTRACTOR] Help  (help)
+2026-05-18 13:27:43,355 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:27:43,741 - INFO -     → Icon identity: help
+2026-05-18 13:27:44,686 - INFO -     → Display title: Help
+2026-05-18 13:27:44,779 - INFO -     → Toggle: both
+2026-05-18 13:27:47,038 - INFO -     → Image uploaded: help.png
+2026-05-18 13:27:47,508 - INFO -     → Form submitted
+2026-05-18 13:27:48,584 - INFO -   ✓ Icon added: Help
+
+2026-05-18 13:27:49,586 - INFO - [40/48]
+2026-05-18 13:27:49,587 - INFO -   Adding: [ARCHITECTURE] Help  (help)
+2026-05-18 13:27:53,333 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:27:53,669 - INFO -     → Icon identity: help
+2026-05-18 13:27:54,058 - INFO -     → Display title: Help
+2026-05-18 13:27:54,157 - INFO -     → Toggle: both
+2026-05-18 13:27:56,334 - INFO -     → Image uploaded: help.png
+2026-05-18 13:27:56,660 - INFO -     → Form submitted
+2026-05-18 13:27:57,679 - INFO -   ✓ Icon added: Help
+
+2026-05-18 13:27:58,679 - INFO - [41/48]
+2026-05-18 13:27:58,753 - INFO -   Adding: [BUILDERS] Refer & Earn  (referandearn)
+2026-05-18 13:28:02,353 - INFO -     → User type: BUILDERS
+2026-05-18 13:28:02,814 - INFO -     → Icon identity: referandearn
+2026-05-18 13:28:03,364 - INFO -     → Display title: Refer & Earn
+2026-05-18 13:28:03,454 - INFO -     → Toggle: both
+2026-05-18 13:28:05,918 - INFO -     → Image uploaded: referandearn.png
+2026-05-18 13:28:06,415 - INFO -     → Form submitted
+2026-05-18 13:28:07,641 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-18 13:28:08,643 - INFO - [42/48]
+2026-05-18 13:28:08,643 - INFO -   Adding: [RCC CONTRACTOR] Refer & Earn  (referandearn)
+2026-05-18 13:28:11,485 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:28:11,686 - INFO -     → Icon identity: referandearn
+2026-05-18 13:28:12,030 - INFO -     → Display title: Refer & Earn
+2026-05-18 13:28:12,127 - INFO -     → Toggle: both
+2026-05-18 13:28:14,283 - INFO -     → Image uploaded: referandearn.png
+2026-05-18 13:28:15,100 - INFO -     → Form submitted
+2026-05-18 13:28:16,176 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-18 13:28:17,177 - INFO - [43/48]
+2026-05-18 13:28:17,178 - INFO -   Adding: [TILE CONTRACTOR] Refer & Earn  (referandearn)
+2026-05-18 13:28:22,041 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:28:22,278 - INFO -     → Icon identity: referandearn
+2026-05-18 13:28:22,590 - INFO -     → Display title: Refer & Earn
+2026-05-18 13:28:22,657 - INFO -     → Toggle: both
+2026-05-18 13:28:24,722 - INFO -     → Image uploaded: referandearn.png
+2026-05-18 13:28:26,432 - INFO -     → Form submitted
+2026-05-18 13:28:27,481 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-18 13:28:28,483 - INFO - [44/48]
+2026-05-18 13:28:28,484 - INFO -   Adding: [ARCHITECTURE] Refer & Earn  (referandearn)
+2026-05-18 13:28:32,316 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:28:32,758 - INFO -     → Icon identity: referandearn
+2026-05-18 13:28:33,318 - INFO -     → Display title: Refer & Earn
+2026-05-18 13:28:33,440 - INFO -     → Toggle: both
+2026-05-18 13:28:35,632 - INFO -     → Image uploaded: referandearn.png
+2026-05-18 13:28:36,018 - INFO -     → Form submitted
+2026-05-18 13:28:37,038 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-18 13:28:38,041 - INFO - [45/48]
+2026-05-18 13:28:38,041 - INFO -   Adding: [BUILDERS] E-Commerce  (productcatalogue)
+2026-05-18 13:28:41,359 - INFO -     → User type: BUILDERS
+2026-05-18 13:28:41,640 - INFO -     → Icon identity: productcatalogue
+2026-05-18 13:28:42,039 - INFO -     → Display title: E-Commerce
+2026-05-18 13:28:42,117 - INFO -     → Toggle: both
+2026-05-18 13:28:44,266 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-18 13:28:44,740 - INFO -     → Form submitted
+2026-05-18 13:28:46,165 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-18 13:28:47,166 - INFO - [46/48]
+2026-05-18 13:28:47,166 - INFO -   Adding: [RCC CONTRACTOR] E-Commerce  (productcatalogue)
+2026-05-18 13:28:51,134 - INFO -     → User type: RCC CONTRACTOR
+2026-05-18 13:28:51,472 - INFO -     → Icon identity: productcatalogue
+2026-05-18 13:28:51,873 - INFO -     → Display title: E-Commerce
+2026-05-18 13:28:52,147 - INFO -     → Toggle: both
+2026-05-18 13:28:54,331 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-18 13:28:55,052 - INFO -     → Form submitted
+2026-05-18 13:28:56,156 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-18 13:28:57,159 - INFO - [47/48]
+2026-05-18 13:28:57,159 - INFO -   Adding: [TILE CONTRACTOR] E-Commerce  (productcatalogue)
+2026-05-18 13:29:00,698 - INFO -     → User type: TILE CONTRACTOR
+2026-05-18 13:29:00,992 - INFO -     → Icon identity: productcatalogue
+2026-05-18 13:29:01,525 - INFO -     → Display title: E-Commerce
+2026-05-18 13:29:01,620 - INFO -     → Toggle: both
+2026-05-18 13:29:03,799 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-18 13:29:04,245 - INFO -     → Form submitted
+2026-05-18 13:29:05,287 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-18 13:29:06,295 - INFO - [48/48]
+2026-05-18 13:29:06,315 - INFO -   Adding: [ARCHITECTURE] E-Commerce  (productcatalogue)
+2026-05-18 13:29:10,272 - INFO -     → User type: ARCHITECTURE
+2026-05-18 13:29:10,715 - INFO -     → Icon identity: productcatalogue
+2026-05-18 13:29:10,972 - INFO -     → Display title: E-Commerce
+2026-05-18 13:29:11,022 - INFO -     → Toggle: both
+2026-05-18 13:29:13,194 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-18 13:29:13,558 - INFO -     → Form submitted
+2026-05-18 13:29:14,589 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-18 13:29:15,595 - INFO - ============================================================
+2026-05-18 13:29:15,596 - INFO - Batch complete → ✓ 48 succeeded  ✗ 0 failed
+2026-05-18 13:29:15,728 - INFO - 
+============================================================
+2026-05-18 13:29:15,728 - INFO - AUTOMATION SUMMARY
+2026-05-18 13:29:15,728 - INFO - ============================================================
+2026-05-18 13:29:15,729 - INFO - ✓ Successful uploads: 48
+2026-05-18 13:29:15,730 - INFO - ✗ Failed uploads: 0
+2026-05-18 13:29:15,732 - INFO - Total processed: 12
+2026-05-18 13:29:15,748 - INFO - Success rate: 400.0%
+2026-05-18 13:29:15,749 - INFO - ============================================================
+2026-05-18 13:29:16,485 - INFO - Browser closed
+2026-05-18 13:29:16,495 - INFO - 
+Task finished at 2026-05-18 13:29:16
+2026-05-18 13:29:16,496 - INFO - Log: automation/logs/full_automation_20260518_132121.log
+
+2026-05-18 13:39:10,574 - INFO - User selected: Registration Fields
+2026-05-18 13:39:10,611 - INFO - ============================================================
+2026-05-18 13:39:10,611 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-18 13:39:10,612 - INFO - ============================================================
+2026-05-18 13:39:12,779 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 13:39:21,388 - INFO - ✓ Chrome driver initialized
+2026-05-18 13:39:21,392 - INFO - Opening login page...
+2026-05-18 13:39:28,113 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 13:39:30,697 - INFO - ✓ Login successful
+2026-05-18 13:39:32,731 - INFO - Going to App Settings...
+2026-05-18 13:39:41,437 - INFO -   → Registration Field section opened
+2026-05-18 13:39:41,453 - INFO - ✓ Registration Fields page ready
+2026-05-18 13:39:46,259 - INFO - Found 4 user types: ['Builders', 'Rcc Contractor', 'Tile Contractor', 'Architecture']
+2026-05-18 13:39:46,259 - INFO - Starting registration fields automation: 24 fields total
+2026-05-18 13:39:46,260 - INFO - ============================================================
+2026-05-18 13:39:46,260 - INFO - Processing User Type: Builders
+2026-05-18 13:39:46,260 - INFO -   Adding field: [Builders] -> First Name
+2026-05-18 13:39:49,388 - INFO -     → User Type selected: Builders
+2026-05-18 13:40:10,090 - INFO -     → System Data Point selected: First Name
+2026-05-18 13:40:10,164 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:40:10,371 - INFO -     → Integrate Now clicked
+2026-05-18 13:40:13,385 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-18 13:40:14,385 - INFO -   Adding field: [Builders] -> Phone Number
+2026-05-18 13:40:16,679 - INFO -     → User Type selected: Builders
+2026-05-18 13:40:36,975 - INFO -     → System Data Point selected: Phone Number
+2026-05-18 13:40:37,008 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:40:37,177 - INFO -     → Integrate Now clicked
+2026-05-18 13:40:40,201 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-18 13:40:41,202 - INFO -   Adding field: [Builders] -> Pincode
+2026-05-18 13:40:43,480 - INFO -     → User Type selected: Builders
+2026-05-18 13:41:03,723 - INFO -     → System Data Point selected: Pincode
+2026-05-18 13:41:03,759 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:41:03,918 - INFO -     → Integrate Now clicked
+2026-05-18 13:41:06,942 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-18 13:41:07,942 - INFO -   Adding field: [Builders] -> City
+2026-05-18 13:41:10,245 - INFO -     → User Type selected: Builders
+2026-05-18 13:41:30,494 - INFO -     → System Data Point selected: City
+2026-05-18 13:41:30,566 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:41:30,731 - INFO -     → Integrate Now clicked
+2026-05-18 13:41:33,756 - INFO -   ✓ Field added successfully: City
+
+2026-05-18 13:41:34,757 - INFO -   Adding field: [Builders] -> State
+2026-05-18 13:41:37,048 - INFO -     → User Type selected: Builders
+2026-05-18 13:41:57,256 - INFO -     → System Data Point selected: State
+2026-05-18 13:41:57,340 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:41:57,505 - INFO -     → Integrate Now clicked
+2026-05-18 13:42:00,519 - INFO -   ✓ Field added successfully: State
+
+2026-05-18 13:42:01,521 - INFO -   Adding field: [Builders] -> Address
+2026-05-18 13:42:03,982 - INFO -     → User Type selected: Builders
+2026-05-18 13:42:24,207 - INFO -     → System Data Point selected: Address
+2026-05-18 13:42:24,243 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:42:24,389 - INFO -     → Integrate Now clicked
+2026-05-18 13:42:27,412 - INFO -   ✓ Field added successfully: Address
+
+2026-05-18 13:42:28,412 - INFO - Processing User Type: Rcc Contractor
+2026-05-18 13:42:28,415 - INFO -   Adding field: [Rcc Contractor] -> First Name
+2026-05-18 13:42:30,674 - INFO -     → User Type selected: Rcc Contractor
+2026-05-18 13:42:51,078 - INFO -     → System Data Point selected: First Name
+2026-05-18 13:42:51,140 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:42:51,279 - INFO -     → Integrate Now clicked
+2026-05-18 13:42:54,295 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-18 13:42:55,295 - INFO -   Adding field: [Rcc Contractor] -> Phone Number
+2026-05-18 13:42:57,745 - INFO -     → User Type selected: Rcc Contractor
+2026-05-18 13:43:18,174 - INFO -     → System Data Point selected: Phone Number
+2026-05-18 13:43:18,368 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:43:18,670 - INFO -     → Integrate Now clicked
+2026-05-18 13:43:21,684 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-18 13:43:22,684 - INFO -   Adding field: [Rcc Contractor] -> Pincode
+2026-05-18 13:43:25,345 - INFO -     → User Type selected: Rcc Contractor
+2026-05-18 13:43:45,866 - INFO -     → System Data Point selected: Pincode
+2026-05-18 13:43:45,939 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:43:46,240 - INFO -     → Integrate Now clicked
+2026-05-18 13:43:49,261 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-18 13:43:50,263 - INFO -   Adding field: [Rcc Contractor] -> City
+2026-05-18 13:43:53,115 - INFO -     → User Type selected: Rcc Contractor
+2026-05-18 13:44:13,642 - INFO -     → System Data Point selected: City
+2026-05-18 13:44:13,704 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:44:13,937 - INFO -     → Integrate Now clicked
+2026-05-18 13:44:16,963 - INFO -   ✓ Field added successfully: City
+
+2026-05-18 13:44:17,964 - INFO -   Adding field: [Rcc Contractor] -> State
+2026-05-18 13:44:20,554 - INFO -     → User Type selected: Rcc Contractor
+2026-05-18 13:44:41,305 - INFO -     → System Data Point selected: State
+2026-05-18 13:44:41,361 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:44:41,589 - INFO -     → Integrate Now clicked
+2026-05-18 13:44:44,608 - INFO -   ✓ Field added successfully: State
+
+2026-05-18 13:44:45,609 - INFO -   Adding field: [Rcc Contractor] -> Address
+2026-05-18 13:44:48,056 - INFO -     → User Type selected: Rcc Contractor
+2026-05-18 13:45:08,761 - INFO -     → System Data Point selected: Address
+2026-05-18 13:45:08,823 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:45:09,084 - INFO -     → Integrate Now clicked
+2026-05-18 13:45:12,135 - INFO -   ✓ Field added successfully: Address
+
+2026-05-18 13:45:13,136 - INFO - Processing User Type: Tile Contractor
+2026-05-18 13:45:13,137 - INFO -   Adding field: [Tile Contractor] -> First Name
+2026-05-18 13:45:16,289 - INFO -     → User Type selected: Tile Contractor
+2026-05-18 13:45:36,619 - INFO -     → System Data Point selected: First Name
+2026-05-18 13:45:36,656 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:45:36,869 - INFO -     → Integrate Now clicked
+2026-05-18 13:45:39,893 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-18 13:45:40,894 - INFO -   Adding field: [Tile Contractor] -> Phone Number
+2026-05-18 13:45:43,413 - INFO -     → User Type selected: Tile Contractor
+2026-05-18 13:46:04,260 - INFO -     → System Data Point selected: Phone Number
+2026-05-18 13:46:04,336 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:46:04,593 - INFO -     → Integrate Now clicked
+2026-05-18 13:46:07,603 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-18 13:46:08,604 - INFO -   Adding field: [Tile Contractor] -> Pincode
+2026-05-18 13:46:11,275 - INFO -     → User Type selected: Tile Contractor
+2026-05-18 13:46:32,036 - INFO -     → System Data Point selected: Pincode
+2026-05-18 13:46:32,086 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:46:32,322 - INFO -     → Integrate Now clicked
+2026-05-18 13:46:35,348 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-18 13:46:36,348 - INFO -   Adding field: [Tile Contractor] -> City
+2026-05-18 13:46:38,693 - INFO -     → User Type selected: Tile Contractor
+2026-05-18 13:46:59,190 - INFO -     → System Data Point selected: City
+2026-05-18 13:46:59,242 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:46:59,429 - INFO -     → Integrate Now clicked
+2026-05-18 13:47:02,450 - INFO -   ✓ Field added successfully: City
+
+2026-05-18 13:47:03,450 - INFO -   Adding field: [Tile Contractor] -> State
+2026-05-18 13:47:05,914 - INFO -     → User Type selected: Tile Contractor
+2026-05-18 13:47:26,396 - INFO -     → System Data Point selected: State
+2026-05-18 13:47:26,538 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:47:26,875 - INFO -     → Integrate Now clicked
+2026-05-18 13:47:29,896 - INFO -   ✓ Field added successfully: State
+
+2026-05-18 13:47:30,897 - INFO -   Adding field: [Tile Contractor] -> Address
+2026-05-18 13:47:33,467 - INFO -     → User Type selected: Tile Contractor
+2026-05-18 13:47:53,883 - INFO -     → System Data Point selected: Address
+2026-05-18 13:47:53,982 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:47:54,322 - INFO -     → Integrate Now clicked
+2026-05-18 13:47:57,341 - INFO -   ✓ Field added successfully: Address
+
+2026-05-18 13:47:58,342 - INFO - Processing User Type: Architecture
+2026-05-18 13:47:58,342 - INFO -   Adding field: [Architecture] -> First Name
+2026-05-18 13:48:00,818 - INFO -     → User Type selected: Architecture
+2026-05-18 13:48:21,061 - INFO -     → System Data Point selected: First Name
+2026-05-18 13:48:21,118 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:48:21,361 - INFO -     → Integrate Now clicked
+2026-05-18 13:48:24,387 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-18 13:48:25,387 - INFO -   Adding field: [Architecture] -> Phone Number
+2026-05-18 13:48:28,549 - INFO -     → User Type selected: Architecture
+2026-05-18 13:48:50,347 - INFO -     → System Data Point selected: Phone Number
+2026-05-18 13:48:50,445 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:48:50,928 - INFO -     → Integrate Now clicked
+2026-05-18 13:48:54,059 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-18 13:48:55,062 - INFO -   Adding field: [Architecture] -> Pincode
+2026-05-18 13:48:59,653 - INFO -     → User Type selected: Architecture
+2026-05-18 13:49:20,458 - INFO -     → System Data Point selected: Pincode
+2026-05-18 13:49:20,533 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:49:20,926 - INFO -     → Integrate Now clicked
+2026-05-18 13:49:23,971 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-18 13:49:24,971 - INFO -   Adding field: [Architecture] -> City
+2026-05-18 13:49:28,234 - INFO -     → User Type selected: Architecture
+2026-05-18 13:49:48,698 - INFO -     → System Data Point selected: City
+2026-05-18 13:49:48,930 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:49:49,695 - INFO -     → Integrate Now clicked
+2026-05-18 13:49:53,279 - INFO -   ✓ Field added successfully: City
+
+2026-05-18 13:49:54,285 - INFO -   Adding field: [Architecture] -> State
+2026-05-18 13:49:57,340 - INFO -     → User Type selected: Architecture
+2026-05-18 13:50:18,125 - INFO -     → System Data Point selected: State
+2026-05-18 13:50:18,235 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:50:18,508 - INFO -     → Integrate Now clicked
+2026-05-18 13:50:21,565 - INFO -   ✓ Field added successfully: State
+
+2026-05-18 13:50:22,568 - INFO -   Adding field: [Architecture] -> Address
+2026-05-18 13:50:25,272 - INFO -     → User Type selected: Architecture
+2026-05-18 13:50:45,630 - INFO -     → System Data Point selected: Address
+2026-05-18 13:50:45,653 - INFO -     → Mandatory toggle enabled
+2026-05-18 13:50:45,820 - INFO -     → Integrate Now clicked
+2026-05-18 13:50:48,836 - INFO -   ✓ Field added successfully: Address
+
+2026-05-18 13:50:49,837 - INFO - ============================================================
+2026-05-18 13:50:49,837 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-18 13:50:50,087 - INFO - Browser closed
+2026-05-18 13:50:50,091 - INFO - 
+Task finished at 2026-05-18 13:50:50
+2026-05-18 13:50:50,092 - INFO - Log: automation/logs/full_automation_20260518_132121.log
+

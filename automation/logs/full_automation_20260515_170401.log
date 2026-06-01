@@ -1,0 +1,93 @@
+2026-05-15 17:04:25,520 - INFO - User selected: Old Dashboard
+2026-05-15 17:04:27,064 - INFO -   Old Dashboard → Brand Setting
+2026-05-15 17:04:27,064 - INFO - ============================================================
+2026-05-15 17:04:27,064 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-15 17:04:27,064 - INFO - ============================================================
+2026-05-15 17:04:27,777 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 17:04:32,585 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-15 17:04:32,585 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 17:04:39,798 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-15 17:04:41,798 - INFO -     → Filling credentials …
+2026-05-15 17:04:42,013 - INFO -       Email → field #login_txt_id
+2026-05-15 17:04:42,149 - INFO -       Password → field #login_txt_pass
+2026-05-15 17:04:42,272 - INFO -       Login button clicked: #btnVendor
+2026-05-15 17:04:42,273 - INFO -     → Waiting for post-login redirect …
+2026-05-15 17:05:08,770 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-15 17:05:08,771 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-15 17:05:22,766 - INFO - 
+[3/4] Extracting brand data …
+2026-05-15 17:05:23,027 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-15 17:05:23,242 - INFO -   ✓ Downloaded: logo.png  (5.0 KB)
+2026-05-15 17:05:23,585 - INFO -   ✓ Downloaded: splash.png  (139.1 KB)
+2026-05-15 17:05:23,589 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-15 17:05:23,838 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-15 17:05:24,387 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 17:05:25,774 - INFO - ✓ Chrome driver initialized
+2026-05-15 17:05:25,774 - INFO - Opening login page...
+2026-05-15 17:05:27,517 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 17:05:29,698 - INFO - ✓ Login successful
+2026-05-15 17:05:29,763 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-15 17:05:30,005 - INFO - ✓ Logo  → logo_processed.png  |  50.9 KB  |  PNG lossless
+2026-05-15 17:05:30,095 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-15 17:05:33,039 - INFO - ✓ Splash → splash_processed.png  |  0.79 MB  |  PNG lossless
+2026-05-15 17:05:33,056 - INFO -   Colours extracted from logo:
+2026-05-15 17:05:33,057 - INFO -     Header Color     →  #E00010  (dominant logo colour)
+2026-05-15 17:05:33,057 - INFO -     Background Color →  #91000A  (35% darker)
+2026-05-15 17:05:33,057 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-15 17:05:33,057 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-15 17:05:33,058 - INFO - Going to App Settings...
+2026-05-15 17:05:39,464 - INFO -   → Identity & Branding section opened
+2026-05-15 17:05:41,633 - INFO -   → Edit Branding popup opened
+2026-05-15 17:05:41,652 - INFO - ✓ Brand setting form is ready
+2026-05-15 17:05:41,652 - INFO -   Setting company name: ETAC ENTERPRISE
+2026-05-15 17:05:42,720 - INFO -     → HeaderColor: #E00010
+2026-05-15 17:05:43,493 - INFO -     → FooterColor: #F5F5F5
+2026-05-15 17:05:44,331 - INFO -     → BodyColor: #FFFFFF
+2026-05-15 17:05:45,093 - INFO -     → BackgroundColor: #91000A
+2026-05-15 17:05:47,151 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-15 17:05:49,182 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-15 17:05:49,317 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-15 17:05:52,346 - INFO - ✓ Brand settings saved successfully!
+2026-05-15 17:05:52,346 - INFO - Going to App Settings for Support Network...
+2026-05-15 17:05:55,648 - INFO -   → Support Network section opened
+2026-05-15 17:05:58,731 - INFO -   → Edit Support Network popup opened
+2026-05-15 17:06:00,732 - INFO - ✓ Support Network form is ready
+2026-05-15 17:06:00,816 - WARNING -     ⚠ Could not find field for: phone
+2026-05-15 17:06:01,122 - INFO -     ✓ email filled
+2026-05-15 17:06:01,216 - WARNING -     ⚠ Could not find field for: website
+2026-05-15 17:06:01,951 - INFO -     ✓ terms_conditions filled
+2026-05-15 17:06:02,506 - INFO -     ✓ support_content filled
+2026-05-15 17:06:02,878 - INFO -     ✓ privacy_policy filled
+2026-05-15 17:06:03,967 - INFO -   → Save clicked
+2026-05-15 17:06:06,968 - INFO - ✓ Support Network saved successfully!
+2026-05-15 17:06:07,161 - INFO - Browser closed
+2026-05-15 17:06:07,162 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57771): Failed to establish a new connection: [Errno 111] Connection refused")': /session/ea933860bedc6221197038c9105e329c
+2026-05-15 17:06:07,163 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57771): Failed to establish a new connection: [Errno 111] Connection refused")': /session/ea933860bedc6221197038c9105e329c
+2026-05-15 17:06:07,163 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57771): Failed to establish a new connection: [Errno 111] Connection refused")': /session/ea933860bedc6221197038c9105e329c
+2026-05-15 17:06:07,164 - INFO -   Browser closed
+2026-05-15 17:06:07,164 - INFO - 
+Task finished at 2026-05-15 17:06:07
+2026-05-15 17:06:07,164 - INFO - Log: automation/logs/full_automation_20260515_170401.log
+
+2026-05-15 17:14:00,673 - INFO - User selected: Intro Screens
+2026-05-15 17:14:00,693 - INFO - ============================================================
+2026-05-15 17:14:00,693 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 17:14:00,693 - INFO - ============================================================
+2026-05-15 17:14:00,716 - INFO - Found 5 intro image(s) in introscreen/
+2026-05-15 17:14:00,740 - INFO -   ⚙ Processing 0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff.jpg  (360×800 → need 1080×1920)
+2026-05-15 17:14:00,910 - INFO -   ✓ 0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff.jpg  →  0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-15 17:14:00,913 - INFO -   ⚙ Processing 278a8adc-4e7c-4b75-8a0d-d8df70913568.jpg  (360×800 → need 1080×1920)
+2026-05-15 17:14:01,070 - INFO -   ✓ 278a8adc-4e7c-4b75-8a0d-d8df70913568.jpg  →  278a8adc-4e7c-4b75-8a0d-d8df70913568_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-15 17:14:01,079 - INFO -   ⚙ Processing 36bdd521-b2c5-4de9-851c-27826e441e9c.png  (360×799 → need 1080×1920)
+2026-05-15 17:14:01,242 - INFO -   ✓ 36bdd521-b2c5-4de9-851c-27826e441e9c.png  →  36bdd521-b2c5-4de9-851c-27826e441e9c_processed.jpg  |  1080×1920  |  0.17 MB  |  quality 92
+2026-05-15 17:14:01,245 - INFO -   ⚙ Processing 5868cfad-2931-4faf-bd3d-9a3c6856eb2a.jpg  (360×800 → need 1080×1920)
+2026-05-15 17:14:01,416 - INFO -   ✓ 5868cfad-2931-4faf-bd3d-9a3c6856eb2a.jpg  →  5868cfad-2931-4faf-bd3d-9a3c6856eb2a_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-15 17:14:01,420 - INFO -   ⚙ Processing d198fcf8-1ef1-46b9-84ec-2688b2ab28ab.png  (360×799 → need 1080×1920)
+2026-05-15 17:14:01,595 - INFO -   ✓ d198fcf8-1ef1-46b9-84ec-2688b2ab28ab.png  →  d198fcf8-1ef1-46b9-84ec-2688b2ab28ab_processed.jpg  |  1080×1920  |  0.19 MB  |  quality 92
+2026-05-15 17:14:01,597 - INFO -   Processed 5/5 intro images successfully
+
+2026-05-15 17:15:26,677 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,53 @@
+2026-05-21 11:03:15,576 - INFO - User selected: Brand Setting
+2026-05-21 11:03:20,009 - INFO -   Found logo asset: logo.png
+2026-05-21 11:03:20,041 - INFO -   Found splash asset: splash.jpg
+2026-05-21 11:03:20,042 - INFO - ============================================================
+2026-05-21 11:03:20,042 - INFO - BRAND SETTING — Image Processing
+2026-05-21 11:03:20,042 - INFO - ============================================================
+2026-05-21 11:03:20,329 - INFO - ✓ Logo  → logo_processed.jpg  |  41.2 KB  |  JPEG q95
+2026-05-21 11:03:21,223 - INFO - ✓ Splash → splash_processed.jpg  |  0.10 MB  |  JPEG q90
+2026-05-21 11:03:21,236 - INFO - 
+2026-05-21 11:03:21,236 - INFO - Extracting brand colours from logo...
+2026-05-21 11:03:21,374 - INFO -   Colours extracted from logo:
+2026-05-21 11:03:21,374 - INFO -     Header Color     →  #001040  (dominant logo colour)
+2026-05-21 11:03:21,374 - INFO -     Background Color →  #000A29  (35% darker)
+2026-05-21 11:03:21,375 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-21 11:03:21,375 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-21 11:03:21,380 - INFO - ✓ Both images ready
+
+2026-05-21 11:03:21,380 - INFO - ============================================================
+2026-05-21 11:03:21,380 - INFO - BRAND SETTING — Browser Automation
+2026-05-21 11:03:21,380 - INFO - ============================================================
+2026-05-21 11:03:21,884 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (149.0.7827.22); currently, chromedriver 149.0.7827.22 is recommended for chrome 149.*, so it is advised to delete the driver in PATH and retry
+2026-05-21 11:03:23,178 - ERROR - Failed to initialize Chrome driver: Message: session not created: This version of ChromeDriver only supports Chrome version 147
+Current browser version is 149.0.7827.22 with binary path /home/adminmac/.cache/selenium/chrome/linux64/149.0.7827.22/chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5d1196c3a3ea <unknown>
+#1 0x5d119664a845 <unknown>
+#2 0x5d119668d18f <unknown>
+#3 0x5d119668c008 <unknown>
+#4 0x5d1196686e95 <unknown>
+#5 0x5d1196682bc8 <unknown>
+#6 0x5d11966d199a <unknown>
+#7 0x5d11966d10ec <unknown>
+#8 0x5d1196690204 <unknown>
+#9 0x5d1196690fc1 <unknown>
+#10 0x5d1196bfd9cb <unknown>
+#11 0x5d1196c00c93 <unknown>
+#12 0x5d1196beb65c <unknown>
+#13 0x5d1196c01429 <unknown>
+#14 0x5d1196bd39d7 <unknown>
+#15 0x5d1196c27c08 <unknown>
+#16 0x5d1196c27e33 <unknown>
+#17 0x5d1196c38df7 <unknown>
+#18 0x775ec729caa4 <unknown>
+#19 0x775ec7329c6c <unknown>
+
+2026-05-21 11:03:23,178 - INFO - Opening login page...
+2026-05-21 11:03:23,178 - ERROR - Login failed: 'NoneType' object has no attribute 'get'
+2026-05-21 11:03:23,179 - WARNING - Screenshot failed: 'NoneType' object has no attribute 'save_screenshot'
+2026-05-21 11:03:23,179 - ERROR - ✗ Login failed. Aborting.
+2026-05-21 11:03:23,179 - INFO - 
+Task finished at 2026-05-21 11:03:23
+2026-05-21 11:03:23,179 - INFO - Log: automation/logs/full_automation_20260521_110206.log
+

@@ -1,0 +1,62 @@
+2026-05-13 18:34:32,102 - INFO - User selected: Old Dashboard
+2026-05-13 18:34:33,935 - INFO -   Old Dashboard → Brand Setting
+2026-05-13 18:34:33,936 - INFO - ============================================================
+2026-05-13 18:34:33,936 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-13 18:34:33,936 - INFO - ============================================================
+2026-05-13 18:34:57,035 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 18:35:00,226 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-13 18:35:00,227 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-13 18:35:07,135 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-13 18:35:09,136 - INFO -     → Filling credentials …
+2026-05-13 18:35:09,476 - INFO -       Email → field #login_txt_id
+2026-05-13 18:35:09,772 - INFO -       Password → field #login_txt_pass
+2026-05-13 18:35:10,031 - INFO -       Login button clicked: #btnVendor
+2026-05-13 18:35:10,031 - INFO -     → Waiting for post-login redirect …
+2026-05-13 18:35:18,343 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-13 18:35:18,418 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-13 18:35:33,380 - INFO - 
+[3/4] Extracting brand data …
+2026-05-13 18:35:33,820 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-13 18:35:34,335 - INFO -   ✓ Downloaded: logo.png  (132.2 KB)
+2026-05-13 18:35:34,852 - INFO -   ✓ Downloaded: splash.png  (128.1 KB)
+2026-05-13 18:35:34,857 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-13 18:35:35,673 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-13 18:35:36,843 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 18:35:40,774 - INFO - ✓ Chrome driver initialized
+2026-05-13 18:35:40,775 - INFO - Opening login page...
+2026-05-13 18:35:44,932 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-13 18:35:46,418 - INFO - ✓ Login successful
+2026-05-13 18:35:46,896 - INFO - ✓ Logo  → logo_processed.jpg  |  19.5 KB  |  JPEG q95
+2026-05-13 18:35:47,068 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-13 18:35:50,070 - INFO - ✓ Splash → splash_processed.png  |  0.86 MB  |  PNG lossless
+2026-05-13 18:35:51,213 - INFO -   Colours extracted from logo:
+2026-05-13 18:35:51,214 - INFO -     Header Color     →  #F0D070  (dominant logo colour)
+2026-05-13 18:35:51,214 - INFO -     Background Color →  #9C8748  (35% darker)
+2026-05-13 18:35:51,215 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-13 18:35:51,215 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-13 18:35:51,275 - INFO - Going to App Settings...
+2026-05-13 18:35:58,066 - INFO -   → Identity & Branding section opened
+2026-05-13 18:36:00,488 - INFO -   → Edit Branding popup opened
+2026-05-13 18:36:00,524 - INFO - ✓ Brand setting form is ready
+2026-05-13 18:36:00,525 - INFO -   Setting company name: MOZZARE
+2026-05-13 18:36:02,802 - INFO -     → HeaderColor: #F0D070
+2026-05-13 18:36:04,787 - INFO -     → FooterColor: #F5F5F5
+2026-05-13 18:36:06,454 - INFO -     → BodyColor: #FFFFFF
+2026-05-13 18:36:08,812 - INFO -     → BackgroundColor: #9C8748
+2026-05-13 18:36:11,102 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-13 18:36:13,224 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-13 18:36:13,549 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-13 18:36:16,569 - INFO - ✓ Brand settings saved successfully!
+2026-05-13 18:36:16,853 - INFO - Browser closed
+2026-05-13 18:36:16,855 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55707): Failed to establish a new connection: [Errno 111] Connection refused")': /session/586fd0f7ea9663bb4e98c9581fe0efec
+2026-05-13 18:36:16,856 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55707): Failed to establish a new connection: [Errno 111] Connection refused")': /session/586fd0f7ea9663bb4e98c9581fe0efec
+2026-05-13 18:36:16,859 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55707): Failed to establish a new connection: [Errno 111] Connection refused")': /session/586fd0f7ea9663bb4e98c9581fe0efec
+2026-05-13 18:36:16,861 - INFO -   Browser closed
+2026-05-13 18:36:16,861 - INFO - 
+Task finished at 2026-05-13 18:36:16
+2026-05-13 18:36:16,861 - INFO - Log: automation/logs/full_automation_20260513_183402.log
+

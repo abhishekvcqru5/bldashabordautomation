@@ -1,0 +1,222 @@
+2026-05-26 01:58:00,224 - INFO - User selected: Brand Setting
+2026-05-26 01:58:42,994 - INFO -   Found logo asset: logo.png
+2026-05-26 01:58:42,994 - INFO -   Found splash asset: splash.png
+2026-05-26 01:58:42,995 - INFO - ============================================================
+2026-05-26 01:58:42,995 - INFO - BRAND SETTING — Image Processing
+2026-05-26 01:58:42,995 - INFO - ============================================================
+2026-05-26 01:58:43,069 - INFO - ✓ Logo  → logo_processed.jpg  |  41.2 KB  |  JPEG q95
+2026-05-26 01:58:43,142 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-26 01:58:44,341 - INFO - ✓ Splash → splash_processed.png  |  0.51 MB  |  PNG lossless
+2026-05-26 01:58:44,342 - INFO - 
+2026-05-26 01:58:44,342 - INFO - Extracting brand colours from logo...
+2026-05-26 01:58:44,462 - INFO -   Colours extracted from logo:
+2026-05-26 01:58:44,462 - INFO -     Header Color     →  #001040  (dominant logo colour)
+2026-05-26 01:58:44,462 - INFO -     Background Color →  #000A29  (35% darker)
+2026-05-26 01:58:44,462 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-26 01:58:44,462 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-26 01:58:44,467 - INFO - ✓ Both images ready
+
+2026-05-26 01:58:44,467 - INFO - ============================================================
+2026-05-26 01:58:44,468 - INFO - BRAND SETTING — Browser Automation
+2026-05-26 01:58:44,468 - INFO - ============================================================
+2026-05-26 01:58:44,468 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 01:58:44,468 - INFO - ====== WebDriver manager ======
+2026-05-26 01:58:44,884 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:58:44,965 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:58:45,041 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:58:45,239 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-26 01:58:45,246 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-26 01:58:45,247 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-26 01:58:45,322 - INFO - Driver downloading response is 200
+2026-05-26 01:58:46,303 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:58:46,613 - INFO - Driver has been saved in cache [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-26 01:58:47,953 - INFO - ✓ Chrome driver initialized
+2026-05-26 01:58:47,954 - INFO - Opening login page...
+2026-05-26 01:58:49,508 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 01:58:50,574 - INFO - ✓ Login successful
+2026-05-26 01:58:52,574 - INFO - Going to App Settings...
+2026-05-26 01:58:58,938 - INFO -   → Identity & Branding section opened
+2026-05-26 01:59:01,089 - INFO -   → Edit Branding popup opened
+2026-05-26 01:59:01,104 - INFO - ✓ Brand setting form is ready
+2026-05-26 01:59:01,104 - INFO -   Setting company name: THOKAR
+2026-05-26 01:59:02,165 - INFO -     → HeaderColor: #001040
+2026-05-26 01:59:02,965 - INFO -     → FooterColor: #F5F5F5
+2026-05-26 01:59:03,751 - INFO -     → BodyColor: #FFFFFF
+2026-05-26 01:59:04,495 - INFO -     → BackgroundColor: #000A29
+2026-05-26 01:59:06,563 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-26 01:59:08,611 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-26 01:59:08,775 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-26 01:59:11,800 - INFO - ✓ Brand settings saved successfully!
+2026-05-26 01:59:11,988 - INFO - Browser closed
+2026-05-26 01:59:11,988 - INFO - 
+Task finished at 2026-05-26 01:59:11
+2026-05-26 01:59:11,988 - INFO - Log: automation/logs/full_automation_20260526_015717.log
+
+2026-05-26 01:59:16,899 - INFO - User selected: Promotion Banners
+2026-05-26 01:59:16,899 - INFO - ============================================================
+2026-05-26 01:59:16,899 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-26 01:59:16,899 - INFO - ============================================================
+2026-05-26 01:59:16,900 - INFO - Found 2 banner image(s) in banner/
+2026-05-26 01:59:16,916 - INFO -   ⚙ Processing 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  (size 1280×720 → need 1920×1080)
+2026-05-26 01:59:17,101 - INFO -   ✓ 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  →  15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg  |  1920×1080  |  0.25 MB  |  quality 92
+2026-05-26 01:59:17,102 - INFO -   ⚙ Processing bannerc3.jpg  (size 1280×720 → need 1920×1080)
+2026-05-26 01:59:17,245 - INFO -   ✓ bannerc3.jpg  →  bannerc3_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-26 01:59:17,245 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-26 01:59:17,245 - INFO - ============================================================
+2026-05-26 01:59:17,245 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-26 01:59:17,245 - INFO - ============================================================
+2026-05-26 01:59:17,246 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 01:59:17,246 - INFO - ====== WebDriver manager ======
+2026-05-26 01:59:17,548 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:59:17,642 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:59:17,733 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 01:59:18,729 - INFO - ✓ Chrome driver initialized
+2026-05-26 01:59:18,729 - INFO - Opening login page...
+2026-05-26 01:59:20,185 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 01:59:20,769 - INFO - ✓ Login successful
+2026-05-26 01:59:22,769 - INFO - Going to App Settings...
+2026-05-26 01:59:29,279 - INFO -   → Promotion Banners section opened
+2026-05-26 01:59:29,329 - INFO - ✓ Promotion Banners page ready
+2026-05-26 01:59:29,330 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-26 01:59:29,330 - INFO - ============================================================
+2026-05-26 01:59:29,330 - INFO - [1/2]
+2026-05-26 01:59:29,330 - INFO -   Publishing: [15a84208-e7c7-4ae9-94c8-b80989877068]  (15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg)
+2026-05-26 01:59:31,900 - INFO -     → Title entered: 15a84208-e7c7-4ae9-94c8-b80989877068
+2026-05-26 01:59:33,980 - INFO -     → Image uploaded: 15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg
+2026-05-26 01:59:34,140 - INFO -     → Publish Banner clicked
+2026-05-26 01:59:38,154 - INFO -   ✓ Banner published: 15a84208-e7c7-4ae9-94c8-b80989877068
+
+2026-05-26 01:59:39,155 - INFO - [2/2]
+2026-05-26 01:59:39,155 - INFO -   Publishing: [bannerc3]  (bannerc3_processed.jpg)
+2026-05-26 01:59:41,469 - INFO -     → Title entered: bannerc3
+2026-05-26 01:59:43,519 - INFO -     → Image uploaded: bannerc3_processed.jpg
+2026-05-26 01:59:43,661 - INFO -     → Publish Banner clicked
+2026-05-26 01:59:47,683 - INFO -   ✓ Banner published: bannerc3
+
+2026-05-26 01:59:48,683 - INFO - ============================================================
+2026-05-26 01:59:48,683 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-26 01:59:48,836 - INFO - Browser closed
+2026-05-26 01:59:48,836 - INFO - 
+Task finished at 2026-05-26 01:59:48
+2026-05-26 01:59:48,837 - INFO - Log: automation/logs/full_automation_20260526_015717.log
+
+2026-05-26 01:59:53,998 - INFO - User selected: Intro Screens
+2026-05-26 01:59:53,999 - INFO - ============================================================
+2026-05-26 01:59:53,999 - INFO - INTRO SCREENS — Image Processing
+2026-05-26 01:59:53,999 - INFO - ============================================================
+2026-05-26 01:59:53,999 - INFO - Found 2 intro image(s) in introscreen/
+2026-05-26 01:59:54,001 - INFO -   ✓ Untitled Design (2).png  →  Already OK (1080×1920, 1.65 MB)
+2026-05-26 01:59:54,141 - INFO -   ✓ Untitled Design (4).png  →  Already OK (1080×1920, 1.77 MB)
+2026-05-26 01:59:54,306 - INFO -   Processed 2/2 intro images successfully
+
+2026-05-26 01:59:56,183 - INFO - ============================================================
+2026-05-26 01:59:56,184 - INFO - INTRO SCREENS — Browser Automation
+2026-05-26 01:59:56,184 - INFO - ============================================================
+2026-05-26 01:59:56,184 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 01:59:56,184 - INFO - ====== WebDriver manager ======
+2026-05-26 01:59:56,481 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:59:56,557 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 01:59:56,635 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 01:59:57,621 - INFO - ✓ Chrome driver initialized
+2026-05-26 01:59:57,621 - INFO - Opening login page...
+2026-05-26 02:00:00,146 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 02:00:00,951 - INFO - ✓ Login successful
+2026-05-26 02:00:02,952 - INFO - Going to App Settings...
+2026-05-26 02:00:09,405 - INFO -   → Intro Screens section opened
+2026-05-26 02:00:09,453 - INFO - ✓ Intro Screens page ready
+2026-05-26 02:00:09,454 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-26 02:00:09,454 - INFO - ============================================================
+2026-05-26 02:00:09,454 - INFO - [1/2]
+2026-05-26 02:00:09,455 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-26 02:00:11,904 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-26 02:00:12,789 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-26 02:00:14,875 - INFO -     → Image uploaded: Untitled Design (2)_processed.jpg
+2026-05-26 02:00:15,044 - INFO -     → Launch Screen clicked
+2026-05-26 02:00:19,066 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-26 02:00:20,067 - INFO - [2/2]
+2026-05-26 02:00:20,067 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-26 02:00:22,414 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-26 02:00:23,182 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-26 02:00:25,246 - INFO -     → Image uploaded: Untitled Design (4)_processed.jpg
+2026-05-26 02:00:25,358 - INFO -     → Launch Screen clicked
+2026-05-26 02:00:29,392 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-26 02:00:30,392 - INFO - ============================================================
+2026-05-26 02:00:30,393 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-26 02:00:30,548 - INFO - Browser closed
+2026-05-26 02:00:30,549 - INFO - 
+Task finished at 2026-05-26 02:00:30
+2026-05-26 02:00:30,549 - INFO - Log: automation/logs/full_automation_20260526_015717.log
+
+2026-05-26 02:01:10,546 - INFO - User selected: Registration Fields
+2026-05-26 02:01:10,546 - INFO - ============================================================
+2026-05-26 02:01:10,546 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-26 02:01:10,546 - INFO - ============================================================
+2026-05-26 02:01:10,547 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 02:01:10,547 - INFO - ====== WebDriver manager ======
+2026-05-26 02:01:10,859 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 02:01:10,957 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 02:01:11,025 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 02:01:12,034 - INFO - ✓ Chrome driver initialized
+2026-05-26 02:01:12,034 - INFO - Opening login page...
+2026-05-26 02:01:13,496 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 02:01:14,066 - INFO - ✓ Login successful
+2026-05-26 02:01:16,067 - INFO - Going to App Settings...
+2026-05-26 02:01:17,175 - INFO -   → Registration Field section opened
+2026-05-26 02:01:17,303 - INFO - ✓ Registration Fields page ready
+2026-05-26 02:01:18,257 - INFO - Found 1 user types: ['Plumber']
+2026-05-26 02:01:18,257 - INFO - Starting registration fields automation: 6 fields total
+2026-05-26 02:01:18,257 - INFO - ============================================================
+2026-05-26 02:01:18,257 - INFO - Processing User Type: Plumber
+2026-05-26 02:01:18,257 - INFO -   Adding field: [Plumber] -> First Name
+2026-05-26 02:01:18,867 - INFO -     → User Type selected: Plumber
+2026-05-26 02:01:39,074 - INFO -     → System Data Point selected: First Name
+2026-05-26 02:01:39,116 - INFO -     → Mandatory toggle enabled
+2026-05-26 02:01:39,284 - INFO -     → Integrate Now clicked
+2026-05-26 02:01:39,325 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-26 02:01:39,625 - INFO -   Adding field: [Plumber] -> Phone Number
+2026-05-26 02:01:40,228 - INFO -     → User Type selected: Plumber
+2026-05-26 02:02:00,409 - INFO -     → System Data Point selected: Phone Number
+2026-05-26 02:02:00,455 - INFO -     → Mandatory toggle enabled
+2026-05-26 02:02:00,608 - INFO -     → Integrate Now clicked
+2026-05-26 02:02:00,642 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-26 02:02:00,942 - INFO -   Adding field: [Plumber] -> Pincode
+2026-05-26 02:02:01,531 - INFO -     → User Type selected: Plumber
+2026-05-26 02:02:21,730 - INFO -     → System Data Point selected: Pincode
+2026-05-26 02:02:21,775 - INFO -     → Mandatory toggle enabled
+2026-05-26 02:02:21,935 - INFO -     → Integrate Now clicked
+2026-05-26 02:02:21,976 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-26 02:02:22,276 - INFO -   Adding field: [Plumber] -> City
+2026-05-26 02:02:23,000 - INFO -     → User Type selected: Plumber
+2026-05-26 02:02:43,416 - INFO -     → System Data Point selected: City
+2026-05-26 02:02:43,455 - INFO -     → Mandatory toggle enabled
+2026-05-26 02:02:43,613 - INFO -     → Integrate Now clicked
+2026-05-26 02:02:43,654 - INFO -   ✓ Field added successfully: City
+
+2026-05-26 02:02:43,955 - INFO -   Adding field: [Plumber] -> State
+2026-05-26 02:02:44,619 - INFO -     → User Type selected: Plumber
+2026-05-26 02:03:04,873 - INFO -     → System Data Point selected: State
+2026-05-26 02:03:04,924 - INFO -     → Mandatory toggle enabled
+2026-05-26 02:03:05,138 - INFO -     → Integrate Now clicked
+2026-05-26 02:03:05,213 - INFO -   ✓ Field added successfully: State
+
+2026-05-26 02:03:05,513 - INFO -   Adding field: [Plumber] -> Address
+2026-05-26 02:03:06,096 - INFO -     → User Type selected: Plumber
+2026-05-26 02:03:26,397 - INFO -     → System Data Point selected: Address
+2026-05-26 02:03:26,483 - INFO -     → Mandatory toggle enabled
+2026-05-26 02:03:26,645 - INFO -     → Integrate Now clicked
+2026-05-26 02:03:26,701 - INFO -   ✓ Field added successfully: Address
+
+2026-05-26 02:03:27,001 - INFO - ============================================================
+2026-05-26 02:03:27,002 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-05-26 02:03:27,157 - INFO - Browser closed
+2026-05-26 02:03:27,157 - INFO - 
+Task finished at 2026-05-26 02:03:27
+2026-05-26 02:03:27,158 - INFO - Log: automation/logs/full_automation_20260526_015717.log
+

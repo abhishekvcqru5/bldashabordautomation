@@ -1,0 +1,4329 @@
+2026-05-13 00:32:37,200 - INFO - User selected: Old Dashboard
+2026-05-13 00:32:39,361 - INFO -   Old Dashboard → Product Catalogue
+2026-05-13 00:32:40,085 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 00:33:26,870 - INFO - Extracted: Sugar Invert Syrup
+2026-05-13 00:33:27,022 - INFO - Extracted: Brown Sugar Sachet
+2026-05-13 00:33:27,163 - INFO - Extracted: White Sugar Sachet
+2026-05-13 00:33:27,308 - INFO - Extracted: Sugar Cubes
+2026-05-13 00:33:27,445 - INFO - Extracted: Honey
+2026-05-13 00:33:27,664 - INFO - Extracted: Chocolate Syrup
+2026-05-13 00:33:27,851 - INFO - Extracted: Dry Yeast
+2026-05-13 00:33:28,018 - INFO - Extracted: Drinking Chocolate
+2026-05-13 00:33:28,218 - INFO - Extracted: Cocoa Powder
+2026-05-13 00:33:28,371 - INFO - Extracted: Custard Powder
+2026-05-13 00:33:28,538 - INFO - Extracted: Baking Soda
+2026-05-13 00:33:28,721 - INFO - Extracted: Baking Powder
+2026-05-13 00:33:28,918 - INFO - Extracted: Corn Flour
+2026-05-13 00:33:29,060 - INFO - Extracted: Rice Stick (10 mm)
+2026-05-13 00:33:29,223 - INFO - Extracted: Rice Stick (5 mm)
+2026-05-13 00:33:29,390 - INFO - Extracted: Rice Stick (3 mm)
+2026-05-13 00:33:29,566 - INFO - Extracted: Rice Vermicelli
+2026-05-13 00:33:29,738 - INFO - Extracted: Hakka Noodles (1.5 mm)
+2026-05-13 00:33:29,905 - INFO - Extracted: Hakka Noodles (1.2 mm)
+2026-05-13 00:33:30,062 - INFO - Extracted: Noodles
+2026-05-13 00:33:30,237 - INFO - Extracted: Lasagne
+2026-05-13 00:33:30,552 - INFO - Extracted: Farfalle
+2026-05-13 00:33:30,718 - INFO - Extracted: Spaghetti
+2026-05-13 00:33:30,856 - INFO - Extracted: Fusilli Pasta
+2026-05-13 00:33:31,039 - INFO - Extracted: Penne Pasta
+2026-05-13 00:33:31,240 - INFO - Extracted: Cut Macaroni
+2026-05-13 00:33:31,431 - INFO - Extracted: Extra Virgin Olive Oil
+2026-05-13 00:33:31,603 - INFO - Extracted: Olive Pomace Oil
+2026-05-13 00:33:31,756 - INFO - Extracted: Synthetic White Vinegar
+2026-05-13 00:33:31,925 - INFO - Extracted: Apple Cider Vinegar
+2026-05-13 00:33:32,144 - INFO - Extracted: Rice Vinegar
+2026-05-13 00:33:32,308 - INFO - Extracted: Salad Oil
+2026-05-13 00:33:32,450 - INFO - Extracted: Blended Edible Vegetable Oil
+2026-05-13 00:33:32,625 - INFO - Extracted: Pure Sesame Oil
+2026-05-13 00:33:32,827 - INFO - Extracted: Non-Veg Tom Yum Paste
+2026-05-13 00:33:33,021 - INFO - Extracted: Non-Veg Red Curry Paste
+2026-05-13 00:33:33,176 - INFO - Extracted: Non-Veg Green Curry Paste
+2026-05-13 00:33:33,357 - INFO - Extracted: Veg Matsaman Curry Paste
+2026-05-13 00:33:33,488 - INFO - Extracted: Veg Panang Paste
+2026-05-13 00:33:33,688 - INFO - Extracted: Veg Tom Yum Paste
+2026-05-13 00:33:33,854 - INFO - Extracted: Veg Yellow Curry Paste
+2026-05-13 00:33:34,018 - INFO - Extracted: Veg Red Curry Paste
+2026-05-13 00:33:34,173 - INFO - Extracted: Veg Green Curry Paste
+2026-05-13 00:33:34,335 - INFO - Extracted: Chilli Bean Paste
+2026-05-13 00:33:34,486 - INFO - Extracted: Ginger Paste
+2026-05-13 00:33:34,664 - INFO - Extracted: Garlic Paste
+2026-05-13 00:33:34,850 - INFO - Extracted: Ginger Garlic Paste
+2026-05-13 00:33:35,056 - INFO - Extracted: Red Sauce
+2026-05-13 00:33:35,259 - INFO - Extracted: Green Sauce
+2026-05-13 00:33:35,440 - INFO - Extracted: Soya Sauce
+2026-05-13 00:33:35,622 - INFO - Extracted: Maepronom Thai Chilli Sauce
+2026-05-13 00:33:35,807 - INFO - Extracted: PRB Hoisin Sauce
+2026-05-13 00:33:36,021 - INFO - Extracted: PRB Crushed Yellow Bean Sauce
+2026-05-13 00:33:36,190 - INFO - Extracted: PRB Chilli Garlic Sauce
+2026-05-13 00:33:36,367 - INFO - Extracted: PRB Plum Sauce
+2026-05-13 00:33:36,570 - INFO - Extracted: PRB Teriyaki Sauce
+2026-05-13 00:33:36,734 - INFO - Extracted: PRB Mushroom Flavoured Oyster Sauce
+2026-05-13 00:33:36,869 - INFO - Extracted: PRB Premium Oyster Sauce (Non-veg)
+2026-05-13 00:33:37,033 - INFO - Extracted: PRB Superior Dark Soy Sauce
+2026-05-13 00:33:37,214 - INFO - Extracted: PRB Superior Light Soy Sauce
+2026-05-13 00:33:37,357 - INFO - Extracted: THS Tomato Ketchup Sachet
+2026-05-13 00:33:37,508 - INFO - Extracted: THS BBQ Sauce Original
+2026-05-13 00:33:37,726 - INFO - Extracted: THS Sweet Chilli Sauce
+2026-05-13 00:33:37,899 - INFO - Extracted: THS Sichuan Sauce
+2026-05-13 00:33:38,059 - INFO - Extracted: THS Satay Sauce
+2026-05-13 00:33:38,200 - INFO - Extracted: THS Peri Peri Sauce
+2026-05-13 00:33:38,339 - INFO - Extracted: THS Teriyaki Sauce
+2026-05-13 00:33:38,475 - INFO - Extracted: THS Hot Sriracha Chilli Sauce
+2026-05-13 00:33:38,608 - INFO - Extracted: THS Hoisin Sauce
+2026-05-13 00:33:38,757 - INFO - Extracted: THS Light Soy Sauce
+2026-05-13 00:33:38,919 - INFO - Extracted: THS Dark Soy Sauce
+2026-05-13 00:33:39,110 - INFO - Extracted: Lite Mayonnaise
+2026-05-13 00:33:39,284 - INFO - Extracted: Classic Mayonnaise
+2026-05-13 00:33:39,452 - INFO - Extracted: Pepperico Green Jalapeno Sauce
+2026-05-13 00:33:39,617 - INFO - Extracted: Pepperico Hot Pepper Sauce
+2026-05-13 00:33:39,809 - INFO - Extracted: Barbeque Sauce
+2026-05-13 00:33:39,985 - INFO - Extracted: Schezwan Hot Chutney
+2026-05-13 00:33:40,124 - INFO - Extracted: Mustard Kasundi
+2026-05-13 00:33:40,441 - INFO - Extracted: Mustard Sauce
+2026-05-13 00:33:40,674 - INFO - Extracted: 8 to 8 Sauce
+2026-05-13 00:33:40,860 - INFO - Extracted: Chilli Garlic Sauce
+2026-05-13 00:33:41,042 - INFO - Extracted: Worcestershire Sauce
+2026-05-13 00:33:41,205 - INFO - Extracted: Dark Soya Sauce
+2026-05-13 00:33:41,342 - INFO - Extracted: Red Chilli Sauce
+2026-05-13 00:33:41,475 - INFO - Extracted: Green Chilli Sauce
+2026-05-13 00:33:41,620 - INFO - Extracted: Tomato Ketchup (Glass Bottle)
+2026-05-13 00:33:41,757 - INFO - Extracted: Tomato Ketchup (Chef's Special)
+2026-05-13 00:33:41,908 - INFO - Extracted: Tomato Ketchup Tombo Pack
+2026-05-13 00:33:42,042 - INFO - Extracted: Tomato Ketchup Doy Pack
+2026-05-13 00:33:42,171 - INFO - Extracted: Tomato Ketchup Sachet
+2026-05-13 00:33:42,307 - INFO - Extracted: Rose Syrup
+2026-05-13 00:33:42,439 - INFO - Extracted: Peach Ice Tea Mocktail Syrup
+2026-05-13 00:33:42,590 - INFO - Extracted: Lemon Ice Tea Mocktail Syrup
+2026-05-13 00:33:42,751 - INFO - Extracted: Cranberry Mocktail Syrup
+2026-05-13 00:33:42,880 - INFO - Extracted: Blood Orange Mocktail Syrup
+2026-05-13 00:33:43,023 - INFO - Extracted: Grenadine (Pomegranate) Mocktail Syrup
+2026-05-13 00:33:43,186 - INFO - Extracted: Mojito Watermelon Mocktail Syrup
+2026-05-13 00:33:43,357 - INFO - Extracted: Mojito Mint Masala Mocktail Syrup
+2026-05-13 00:33:43,509 - INFO - Extracted: Mojito Mint Classic Mocktail Syrup
+2026-05-13 00:33:43,692 - INFO - Extracted: Green Apple Mocktail Syrup
+2026-05-13 00:33:43,872 - INFO - Extracted: Mojito (Lime & Mint) Mocktail Syrup
+2026-05-13 00:33:44,030 - INFO - Extracted: Blue Curacao Mocktail Syrup
+2026-05-13 00:33:44,172 - INFO - Extracted: Gulab Gulkand Fruit Crush
+2026-05-13 00:33:44,321 - INFO - Extracted: Rasmalai Fruit Crush
+2026-05-13 00:33:44,474 - INFO - Extracted: Mawa Malai Fruit Crush
+2026-05-13 00:33:44,654 - INFO - Extracted: Kesar Kulfi Fruit Crush
+2026-05-13 00:33:44,808 - INFO - Extracted: Blueberry Fruit Crush
+2026-05-13 00:33:45,022 - INFO - Extracted: Kiwi Fruit Crush
+2026-05-13 00:33:45,174 - INFO - Extracted: Guava Fruit Crush
+2026-05-13 00:33:45,352 - INFO - Extracted: Litchi Fruit Crush
+2026-05-13 00:33:45,550 - INFO - Extracted: Black Currant Fruit Crush
+2026-05-13 00:33:45,801 - INFO - Extracted: Butter Scotch Fruit Crush
+2026-05-13 00:33:45,969 - INFO - Extracted: Orange Fruit Crush
+2026-05-13 00:33:46,136 - INFO - Extracted: Mango Fruit Crush
+2026-05-13 00:33:46,292 - INFO - Extracted: Pineapple Fruit Crush
+2026-05-13 00:33:46,460 - INFO - Extracted: Strawberry Fruit Crush
+2026-05-13 00:33:46,608 - INFO - Extracted: Citric Acid (Small Crystals)
+2026-05-13 00:33:46,752 - INFO - Extracted: Monosodium Glutamate
+2026-05-13 00:33:46,891 - INFO - Extracted: Red Chilli Flakes Sachets
+2026-05-13 00:33:47,032 - INFO - Extracted: Oregano Spice Mix Sachets
+2026-05-13 00:33:47,184 - INFO - Extracted: Parsley
+2026-05-13 00:33:47,441 - INFO - Extracted: Basil
+2026-05-13 00:33:47,640 - INFO - Extracted: Rosemary
+2026-05-13 00:33:47,870 - INFO - Extracted: Thyme
+2026-05-13 00:33:48,052 - INFO - Extracted: Red Chilli Flakes
+2026-05-13 00:33:48,210 - INFO - Extracted: Oregano
+2026-05-13 00:33:48,396 - INFO - Extracted: Preserved Beans
+2026-05-13 00:33:48,527 - INFO - Extracted: Canz Water Chestnut in Water
+2026-05-13 00:33:48,673 - INFO - Extracted: Canz Bamboo Shoot Halves
+2026-05-13 00:33:48,821 - INFO - Extracted: Canz Baked Beans in Sauce
+2026-05-13 00:33:48,969 - INFO - Extracted: Pitted Green Olives in Brine
+2026-05-13 00:33:49,118 - INFO - Extracted: Pitted Black Olives in Brine
+2026-05-13 00:33:49,319 - INFO - Extracted: Sliced Green Olives in Brine
+2026-05-13 00:33:49,500 - INFO - Extracted: Sliced Black Olives in Brine
+2026-05-13 00:33:49,638 - INFO - Extracted: Silver Skin Onion
+2026-05-13 00:33:49,803 - INFO - Extracted: Sliced Red Paprika in Synthetic Vinegar
+2026-05-13 00:33:49,987 - INFO - Extracted: Gherkin Whole in Vinegar
+2026-05-13 00:33:50,135 - INFO - Extracted: Jalapeno Slice in Natural Vinegar
+2026-05-13 00:33:50,278 - INFO - Extracted: Tomato Puree
+2026-05-13 00:33:50,448 - INFO - Extracted: Whole Peeled Tomatoes
+2026-05-13 00:33:50,610 - INFO - Extracted: Veg Soya Chaap
+2026-05-13 00:33:50,775 - INFO - Extracted: Sarson ka Saag
+2026-05-13 00:33:50,959 - INFO - Extracted: Baked Beans in Sauce
+2026-05-13 00:33:51,114 - INFO - Extracted: Bamboo Shoots (Halves in Water)
+2026-05-13 00:33:51,256 - INFO - Extracted: Peas in Brine
+2026-05-13 00:33:51,425 - INFO - Extracted: Sweet Corn Cream Style - White Corn
+2026-05-13 00:33:51,617 - INFO - Extracted: Sweet Corn Cream Style - Yellow Corn
+2026-05-13 00:33:51,792 - INFO - Extracted: Sweet Corn Whole in Brine - White Corn
+2026-05-13 00:33:51,930 - INFO - Extracted: Sweet Corn Kernel in Brine
+2026-05-13 00:33:52,061 - INFO - Extracted: Baby Corn in Brine
+2026-05-13 00:33:52,208 - INFO - Extracted: Sliced Mushroom in Brine
+2026-05-13 00:33:52,360 - INFO - Extracted: Button Mushroom in Brine (Tandoori)
+2026-05-13 00:33:52,523 - INFO - Extracted: Button Mushroom in Brine
+2026-05-13 00:33:52,723 - INFO - Extracted: Canz Lychees in Syrup
+2026-05-13 00:33:52,874 - INFO - Extracted: Canz Pears Halves
+2026-05-13 00:33:53,020 - INFO - Extracted: Canz Peaches Halves
+2026-05-13 00:33:53,158 - INFO - Extracted: Totapuri Mango Pulp
+2026-05-13 00:33:53,293 - INFO - Extracted: Alphonso Mango Pulp
+2026-05-13 00:33:53,428 - INFO - Extracted: Pears Halves in Syrup
+2026-05-13 00:33:53,570 - INFO - Extracted: Lychee in Syrup
+2026-05-13 00:33:53,759 - INFO - Extracted: Red Cherry with Stem
+2026-05-13 00:33:53,942 - INFO - Extracted: Red Cherry in Syrup
+2026-05-13 00:33:54,140 - INFO - Extracted: Fruit Cocktail in Syrup
+2026-05-13 00:33:54,302 - INFO - Extracted: Pineapple Cube
+2026-05-13 00:33:54,441 - INFO - Extracted: Pineapple Tidbits in Syrup
+2026-05-13 00:33:54,608 - INFO - Extracted: Pineapple Slice in Syrup
+2026-05-13 00:33:55,514 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 00:33:57,219 - INFO - ✓ Chrome driver initialized
+2026-05-13 00:33:57,219 - INFO - Opening login page...
+2026-05-13 00:33:59,341 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-13 00:34:02,653 - INFO - ✓ Login successful
+2026-05-13 00:34:23,840 - ERROR - Failed to add product Sugar Invert Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:23,862 - ERROR - Failed to add product Brown Sugar Sachet: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,025 - ERROR - Failed to add product White Sugar Sachet: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,273 - ERROR - Failed to add product Sugar Cubes: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,296 - ERROR - Failed to add product Honey: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,313 - ERROR - Failed to add product Chocolate Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,339 - ERROR - Failed to add product Dry Yeast: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,363 - ERROR - Failed to add product Drinking Chocolate: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,389 - ERROR - Failed to add product Cocoa Powder: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,408 - ERROR - Failed to add product Custard Powder: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,428 - ERROR - Failed to add product Baking Soda: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,446 - ERROR - Failed to add product Baking Powder: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,462 - ERROR - Failed to add product Corn Flour: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,489 - ERROR - Failed to add product Rice Stick (10 mm): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,507 - ERROR - Failed to add product Rice Stick (5 mm): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,525 - ERROR - Failed to add product Rice Stick (3 mm): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,542 - ERROR - Failed to add product Rice Vermicelli: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,563 - ERROR - Failed to add product Hakka Noodles (1.5 mm): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,579 - ERROR - Failed to add product Hakka Noodles (1.2 mm): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,595 - ERROR - Failed to add product Noodles: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,611 - ERROR - Failed to add product Lasagne: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,627 - ERROR - Failed to add product Farfalle: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,645 - ERROR - Failed to add product Spaghetti: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,664 - ERROR - Failed to add product Fusilli Pasta: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,686 - ERROR - Failed to add product Penne Pasta: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,710 - ERROR - Failed to add product Cut Macaroni: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,737 - ERROR - Failed to add product Extra Virgin Olive Oil: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,757 - ERROR - Failed to add product Olive Pomace Oil: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,776 - ERROR - Failed to add product Synthetic White Vinegar: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,796 - ERROR - Failed to add product Apple Cider Vinegar: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,814 - ERROR - Failed to add product Rice Vinegar: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,833 - ERROR - Failed to add product Salad Oil: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,858 - ERROR - Failed to add product Blended Edible Vegetable Oil: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,877 - ERROR - Failed to add product Pure Sesame Oil: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,894 - ERROR - Failed to add product Non-Veg Tom Yum Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,915 - ERROR - Failed to add product Non-Veg Red Curry Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,935 - ERROR - Failed to add product Non-Veg Green Curry Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,952 - ERROR - Failed to add product Veg Matsaman Curry Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,971 - ERROR - Failed to add product Veg Panang Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:24,994 - ERROR - Failed to add product Veg Tom Yum Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,013 - ERROR - Failed to add product Veg Yellow Curry Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,041 - ERROR - Failed to add product Veg Red Curry Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,064 - ERROR - Failed to add product Veg Green Curry Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,090 - ERROR - Failed to add product Chilli Bean Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,107 - ERROR - Failed to add product Ginger Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,124 - ERROR - Failed to add product Garlic Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,140 - ERROR - Failed to add product Ginger Garlic Paste: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,156 - ERROR - Failed to add product Red Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,170 - ERROR - Failed to add product Green Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,187 - ERROR - Failed to add product Soya Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,209 - ERROR - Failed to add product Maepronom Thai Chilli Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,224 - ERROR - Failed to add product PRB Hoisin Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,240 - ERROR - Failed to add product PRB Crushed Yellow Bean Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,259 - ERROR - Failed to add product PRB Chilli Garlic Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,280 - ERROR - Failed to add product PRB Plum Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,305 - ERROR - Failed to add product PRB Teriyaki Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,326 - ERROR - Failed to add product PRB Mushroom Flavoured Oyster Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,343 - ERROR - Failed to add product PRB Premium Oyster Sauce (Non-veg): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,361 - ERROR - Failed to add product PRB Superior Dark Soy Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,378 - ERROR - Failed to add product PRB Superior Light Soy Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,394 - ERROR - Failed to add product THS Tomato Ketchup Sachet: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,411 - ERROR - Failed to add product THS BBQ Sauce Original: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,429 - ERROR - Failed to add product THS Sweet Chilli Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,447 - ERROR - Failed to add product THS Sichuan Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,464 - ERROR - Failed to add product THS Satay Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,481 - ERROR - Failed to add product THS Peri Peri Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,498 - ERROR - Failed to add product THS Teriyaki Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,518 - ERROR - Failed to add product THS Hot Sriracha Chilli Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,536 - ERROR - Failed to add product THS Hoisin Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,556 - ERROR - Failed to add product THS Light Soy Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,577 - ERROR - Failed to add product THS Dark Soy Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,598 - ERROR - Failed to add product Lite Mayonnaise: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,615 - ERROR - Failed to add product Classic Mayonnaise: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,630 - ERROR - Failed to add product Pepperico Green Jalapeno Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,697 - ERROR - Failed to add product Pepperico Hot Pepper Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,724 - ERROR - Failed to add product Barbeque Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,739 - ERROR - Failed to add product Schezwan Hot Chutney: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,759 - ERROR - Failed to add product Mustard Kasundi: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,784 - ERROR - Failed to add product Mustard Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,811 - ERROR - Failed to add product 8 to 8 Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,831 - ERROR - Failed to add product Chilli Garlic Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,847 - ERROR - Failed to add product Worcestershire Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,872 - ERROR - Failed to add product Dark Soya Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,894 - ERROR - Failed to add product Red Chilli Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,915 - ERROR - Failed to add product Green Chilli Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,943 - ERROR - Failed to add product Tomato Ketchup (Glass Bottle): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,965 - ERROR - Failed to add product Tomato Ketchup (Chef's Special): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:25,989 - ERROR - Failed to add product Tomato Ketchup Tombo Pack: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,022 - ERROR - Failed to add product Tomato Ketchup Doy Pack: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,046 - ERROR - Failed to add product Tomato Ketchup Sachet: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,064 - ERROR - Failed to add product Rose Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,092 - ERROR - Failed to add product Peach Ice Tea Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,107 - ERROR - Failed to add product Lemon Ice Tea Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,128 - ERROR - Failed to add product Cranberry Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,146 - ERROR - Failed to add product Blood Orange Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,165 - ERROR - Failed to add product Grenadine (Pomegranate) Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,189 - ERROR - Failed to add product Mojito Watermelon Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,210 - ERROR - Failed to add product Mojito Mint Masala Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,227 - ERROR - Failed to add product Mojito Mint Classic Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,244 - ERROR - Failed to add product Green Apple Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,263 - ERROR - Failed to add product Mojito (Lime & Mint) Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,280 - ERROR - Failed to add product Blue Curacao Mocktail Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,295 - ERROR - Failed to add product Gulab Gulkand Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,311 - ERROR - Failed to add product Rasmalai Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,328 - ERROR - Failed to add product Mawa Malai Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,345 - ERROR - Failed to add product Kesar Kulfi Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,363 - ERROR - Failed to add product Blueberry Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,379 - ERROR - Failed to add product Kiwi Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,395 - ERROR - Failed to add product Guava Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,411 - ERROR - Failed to add product Litchi Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,427 - ERROR - Failed to add product Black Currant Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,443 - ERROR - Failed to add product Butter Scotch Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,461 - ERROR - Failed to add product Orange Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,476 - ERROR - Failed to add product Mango Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,494 - ERROR - Failed to add product Pineapple Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,530 - ERROR - Failed to add product Strawberry Fruit Crush: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,547 - ERROR - Failed to add product Citric Acid (Small Crystals): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,564 - ERROR - Failed to add product Monosodium Glutamate: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,582 - ERROR - Failed to add product Red Chilli Flakes Sachets: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,603 - ERROR - Failed to add product Oregano Spice Mix Sachets: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,622 - ERROR - Failed to add product Parsley: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,641 - ERROR - Failed to add product Basil: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,662 - ERROR - Failed to add product Rosemary: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,678 - ERROR - Failed to add product Thyme: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,706 - ERROR - Failed to add product Red Chilli Flakes: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,728 - ERROR - Failed to add product Oregano: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,747 - ERROR - Failed to add product Preserved Beans: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,774 - ERROR - Failed to add product Canz Water Chestnut in Water: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,805 - ERROR - Failed to add product Canz Bamboo Shoot Halves: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,837 - ERROR - Failed to add product Canz Baked Beans in Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,870 - ERROR - Failed to add product Pitted Green Olives in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,894 - ERROR - Failed to add product Pitted Black Olives in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,913 - ERROR - Failed to add product Sliced Green Olives in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,941 - ERROR - Failed to add product Sliced Black Olives in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,963 - ERROR - Failed to add product Silver Skin Onion: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:26,987 - ERROR - Failed to add product Sliced Red Paprika in Synthetic Vinegar: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,006 - ERROR - Failed to add product Gherkin Whole in Vinegar: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,023 - ERROR - Failed to add product Jalapeno Slice in Natural Vinegar: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,043 - ERROR - Failed to add product Tomato Puree: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,059 - ERROR - Failed to add product Whole Peeled Tomatoes: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,083 - ERROR - Failed to add product Veg Soya Chaap: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,108 - ERROR - Failed to add product Sarson ka Saag: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,127 - ERROR - Failed to add product Baked Beans in Sauce: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,143 - ERROR - Failed to add product Bamboo Shoots (Halves in Water): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,159 - ERROR - Failed to add product Peas in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,177 - ERROR - Failed to add product Sweet Corn Cream Style - White Corn: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,198 - ERROR - Failed to add product Sweet Corn Cream Style - Yellow Corn: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,220 - ERROR - Failed to add product Sweet Corn Whole in Brine - White Corn: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,240 - ERROR - Failed to add product Sweet Corn Kernel in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,259 - ERROR - Failed to add product Baby Corn in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,275 - ERROR - Failed to add product Sliced Mushroom in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,297 - ERROR - Failed to add product Button Mushroom in Brine (Tandoori): Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,323 - ERROR - Failed to add product Button Mushroom in Brine: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,338 - ERROR - Failed to add product Canz Lychees in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,361 - ERROR - Failed to add product Canz Pears Halves: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,378 - ERROR - Failed to add product Canz Peaches Halves: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,404 - ERROR - Failed to add product Totapuri Mango Pulp: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,431 - ERROR - Failed to add product Alphonso Mango Pulp: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,455 - ERROR - Failed to add product Pears Halves in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,475 - ERROR - Failed to add product Lychee in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,495 - ERROR - Failed to add product Red Cherry with Stem: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,511 - ERROR - Failed to add product Red Cherry in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,529 - ERROR - Failed to add product Fruit Cocktail in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,546 - ERROR - Failed to add product Pineapple Cube: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,570 - ERROR - Failed to add product Pineapple Tidbits in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,590 - ERROR - Failed to add product Pineapple Slice in Syrup: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+#0 0x649f504393ea <unknown>
+#1 0x649f4fe49845 <unknown>
+#2 0x649f4fe50691 <unknown>
+#3 0x649f4fe52ec6 <unknown>
+#4 0x649f4fe52f93 <unknown>
+#5 0x649f4fe9b2e5 <unknown>
+#6 0x649f4fe9bcf1 <unknown>
+#7 0x649f4fee6fa4 <unknown>
+#8 0x649f4fee4175 <unknown>
+#9 0x649f4fe8f204 <unknown>
+#10 0x649f4fe8ffc1 <unknown>
+#11 0x649f503fc9cb <unknown>
+#12 0x649f503ffc93 <unknown>
+#13 0x649f503ea65c <unknown>
+#14 0x649f50400429 <unknown>
+#15 0x649f503d29d7 <unknown>
+#16 0x649f50426c08 <unknown>
+#17 0x649f50426e33 <unknown>
+#18 0x649f50437df7 <unknown>
+#19 0x7a76cb89caa4 <unknown>
+#20 0x7a76cb929c6c <unknown>
+
+2026-05-13 00:34:27,833 - INFO - Browser closed
+2026-05-13 00:34:27,834 - INFO - 
+Task finished at 2026-05-13 00:34:27
+2026-05-13 00:34:27,834 - INFO - Log: automation/logs/full_automation_20260513_003215.log
+

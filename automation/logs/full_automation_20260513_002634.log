@@ -1,0 +1,10 @@
+2026-05-13 00:27:07,504 - INFO - User selected: Old Dashboard
+2026-05-13 00:27:14,638 - INFO -   Old Dashboard → Product Catalogue
+2026-05-13 00:27:15,841 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 00:28:18,412 - ERROR - Navigation to product catalogue failed: Message: 
+
+2026-05-13 00:28:18,648 - INFO - 
+Task finished at 2026-05-13 00:28:18
+2026-05-13 00:28:18,648 - INFO - Log: automation/logs/full_automation_20260513_002634.log
+
+2026-05-13 00:32:13,383 - INFO - Automation cancelled by user (Ctrl+C)

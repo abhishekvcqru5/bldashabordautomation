@@ -1,0 +1,561 @@
+2026-05-19 15:19:56,607 - INFO - User selected: Dashboard Icons
+2026-05-19 15:19:56,607 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-19 15:19:56,610 - INFO - Automation started at 2026-05-19 15:19:56
+
+2026-05-19 15:19:56,617 - INFO - ============================================================
+2026-05-19 15:19:56,620 - INFO - STEP 1: Processing and Compressing Images
+2026-05-19 15:19:56,621 - INFO - ============================================================
+2026-05-19 15:19:56,630 - INFO - Processing images from: dashboardicons
+2026-05-19 15:19:56,630 - INFO - Output folder: automation/processed_images
+2026-05-19 15:19:56,630 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-19 15:19:56,895 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-19 15:19:57,096 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-19 15:19:57,431 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-19 15:19:57,637 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-19 15:19:57,650 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-19 15:19:57,669 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-19 15:19:57,679 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-19 15:19:57,688 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-19 15:19:57,710 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-19 15:19:57,722 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-19 15:19:57,761 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-19 15:19:57,808 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-19 15:19:57,850 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-19 15:19:57,878 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-19 15:19:57,878 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-19 15:19:57,878 - INFO - ✓ 14 images processed and ready
+
+2026-05-19 15:19:57,878 - INFO - ============================================================
+2026-05-19 15:19:57,878 - INFO - STEP 2: Preparing Authentication
+2026-05-19 15:19:57,878 - INFO - ============================================================
+2026-05-19 15:19:57,882 - INFO - Using email: mittal.rishi@gmail.com
+2026-05-19 15:19:57,882 - INFO - ✓ Credentials loaded
+
+2026-05-19 15:19:57,882 - INFO - ============================================================
+2026-05-19 15:19:57,883 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-19 15:19:57,885 - INFO - ============================================================
+2026-05-19 15:20:09,729 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:20:30,688 - INFO - ✓ Chrome driver initialized
+2026-05-19 15:20:30,693 - INFO - 
+→ Attempting login...
+
+2026-05-19 15:20:30,697 - INFO - Opening login page...
+2026-05-19 15:20:41,879 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 15:20:42,906 - INFO - ✓ Login successful
+2026-05-19 15:20:44,917 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-19 15:20:44,918 - INFO - Navigating to App Settings...
+2026-05-19 15:20:57,965 - INFO - ✓ Dashboard Icons section loaded
+2026-05-19 15:21:00,364 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-19 15:21:00,364 - INFO - Starting batch – 12 configured entries
+2026-05-19 15:21:06,911 - INFO -   Found 4 user types: ['Employee', 'Dealer', 'Distributor', 'Plumber']
+2026-05-19 15:21:06,911 - INFO - Available user types: ['Employee', 'Dealer', 'Distributor', 'Plumber']
+2026-05-19 15:21:06,911 - INFO - Total icons to upload after expansion: 48
+2026-05-19 15:21:06,911 - INFO - ============================================================
+2026-05-19 15:21:06,911 - INFO - [1/48]
+2026-05-19 15:21:06,911 - INFO -   Adding: [Employee] Gift  (gift)
+2026-05-19 15:21:12,066 - INFO -     → User type: Employee
+2026-05-19 15:21:13,151 - INFO -     → Icon identity: gift
+2026-05-19 15:21:14,601 - INFO -     → Display title: Gift
+2026-05-19 15:21:14,989 - INFO -     → Toggle: both
+2026-05-19 15:21:17,777 - INFO -     → Image uploaded: Gift.png
+2026-05-19 15:21:19,416 - INFO -     → Form submitted
+2026-05-19 15:21:20,723 - INFO -   ✓ Icon added: Gift
+
+2026-05-19 15:21:21,727 - INFO - [2/48]
+2026-05-19 15:21:21,727 - INFO -   Adding: [Dealer] Gift  (gift)
+2026-05-19 15:21:27,909 - INFO -     → User type: Dealer
+2026-05-19 15:21:28,718 - INFO -     → Icon identity: gift
+2026-05-19 15:21:30,058 - INFO -     → Display title: Gift
+2026-05-19 15:21:30,409 - INFO -     → Toggle: both
+2026-05-19 15:21:32,905 - INFO -     → Image uploaded: Gift.png
+2026-05-19 15:21:34,169 - INFO -     → Form submitted
+2026-05-19 15:21:35,293 - INFO -   ✓ Icon added: Gift
+
+2026-05-19 15:21:36,298 - INFO - [3/48]
+2026-05-19 15:21:36,298 - INFO -   Adding: [Distributor] Gift  (gift)
+2026-05-19 15:21:41,190 - INFO -     → User type: Distributor
+2026-05-19 15:21:41,638 - INFO -     → Icon identity: gift
+2026-05-19 15:21:42,110 - INFO -     → Display title: Gift
+2026-05-19 15:21:42,299 - INFO -     → Toggle: both
+2026-05-19 15:21:44,542 - INFO -     → Image uploaded: Gift.png
+2026-05-19 15:21:45,401 - INFO -     → Form submitted
+2026-05-19 15:21:46,584 - INFO -   ✓ Icon added: Gift
+
+2026-05-19 15:21:47,590 - INFO - [4/48]
+2026-05-19 15:21:47,590 - INFO -   Adding: [Plumber] Gift  (gift)
+2026-05-19 15:21:51,792 - INFO -     → User type: Plumber
+2026-05-19 15:21:52,176 - INFO -     → Icon identity: gift
+2026-05-19 15:21:52,748 - INFO -     → Display title: Gift
+2026-05-19 15:21:52,887 - INFO -     → Toggle: both
+2026-05-19 15:21:55,096 - INFO -     → Image uploaded: Gift.png
+2026-05-19 15:21:55,788 - INFO -     → Form submitted
+2026-05-19 15:21:56,825 - INFO -   ✓ Icon added: Gift
+
+2026-05-19 15:21:57,826 - INFO - [5/48]
+2026-05-19 15:21:57,826 - INFO -   Adding: [Employee] History  (history)
+2026-05-19 15:22:01,546 - INFO -     → User type: Employee
+2026-05-19 15:22:01,972 - INFO -     → Icon identity: history
+2026-05-19 15:22:02,573 - INFO -     → Display title: History
+2026-05-19 15:22:02,678 - INFO -     → Toggle: both
+2026-05-19 15:22:04,837 - INFO -     → Image uploaded: history.png
+2026-05-19 15:22:05,883 - INFO -     → Form submitted
+2026-05-19 15:22:07,255 - INFO -   ✓ Icon added: History
+
+2026-05-19 15:22:08,269 - INFO - [6/48]
+2026-05-19 15:22:08,269 - INFO -   Adding: [Dealer] History  (history)
+2026-05-19 15:22:12,122 - INFO -     → User type: Dealer
+2026-05-19 15:22:13,199 - INFO -     → Icon identity: history
+2026-05-19 15:22:14,241 - INFO -     → Display title: History
+2026-05-19 15:22:14,648 - INFO -     → Toggle: both
+2026-05-19 15:22:17,138 - INFO -     → Image uploaded: history.png
+2026-05-19 15:22:17,977 - INFO -     → Form submitted
+2026-05-19 15:22:19,107 - INFO -   ✓ Icon added: History
+
+2026-05-19 15:22:20,114 - INFO - [7/48]
+2026-05-19 15:22:20,114 - INFO -   Adding: [Distributor] History  (history)
+2026-05-19 15:22:24,557 - INFO -     → User type: Distributor
+2026-05-19 15:22:25,471 - INFO -     → Icon identity: history
+2026-05-19 15:22:26,510 - INFO -     → Display title: History
+2026-05-19 15:22:26,865 - INFO -     → Toggle: both
+2026-05-19 15:22:29,261 - INFO -     → Image uploaded: history.png
+2026-05-19 15:22:30,581 - INFO -     → Form submitted
+2026-05-19 15:22:31,797 - INFO -   ✓ Icon added: History
+
+2026-05-19 15:22:32,798 - INFO - [8/48]
+2026-05-19 15:22:32,798 - INFO -   Adding: [Plumber] History  (history)
+2026-05-19 15:22:36,984 - INFO -     → User type: Plumber
+2026-05-19 15:22:37,699 - INFO -     → Icon identity: history
+2026-05-19 15:22:38,764 - INFO -     → Display title: History
+2026-05-19 15:22:39,084 - INFO -     → Toggle: both
+2026-05-19 15:22:41,448 - INFO -     → Image uploaded: history.png
+2026-05-19 15:22:42,385 - INFO -     → Form submitted
+2026-05-19 15:22:43,488 - INFO -   ✓ Icon added: History
+
+2026-05-19 15:22:44,490 - INFO - [9/48]
+2026-05-19 15:22:44,493 - INFO -   Adding: [Employee] Wallet  (wallet)
+2026-05-19 15:22:48,884 - INFO -     → User type: Employee
+2026-05-19 15:22:49,647 - INFO -     → Icon identity: wallet
+2026-05-19 15:22:50,548 - INFO -     → Display title: Wallet
+2026-05-19 15:22:50,744 - INFO -     → Toggle: both
+2026-05-19 15:22:53,433 - INFO -     → Image uploaded: wallet.png
+2026-05-19 15:22:54,545 - INFO -     → Form submitted
+2026-05-19 15:22:55,658 - INFO -   ✓ Icon added: Wallet
+
+2026-05-19 15:22:56,665 - INFO - [10/48]
+2026-05-19 15:22:56,666 - INFO -   Adding: [Dealer] Wallet  (wallet)
+2026-05-19 15:23:00,657 - INFO -     → User type: Dealer
+2026-05-19 15:23:01,397 - INFO -     → Icon identity: wallet
+2026-05-19 15:23:02,169 - INFO -     → Display title: Wallet
+2026-05-19 15:23:02,400 - INFO -     → Toggle: both
+2026-05-19 15:23:04,529 - INFO -     → Image uploaded: wallet.png
+2026-05-19 15:23:06,756 - INFO -     → Form submitted
+2026-05-19 15:23:07,899 - INFO -   ✓ Icon added: Wallet
+
+2026-05-19 15:23:08,901 - INFO - [11/48]
+2026-05-19 15:23:08,902 - INFO -   Adding: [Distributor] Wallet  (wallet)
+2026-05-19 15:23:13,498 - INFO -     → User type: Distributor
+2026-05-19 15:23:14,069 - INFO -     → Icon identity: wallet
+2026-05-19 15:23:15,093 - INFO -     → Display title: Wallet
+2026-05-19 15:23:15,225 - INFO -     → Toggle: both
+2026-05-19 15:23:17,613 - INFO -     → Image uploaded: wallet.png
+2026-05-19 15:23:19,770 - INFO -     → Form submitted
+2026-05-19 15:23:20,825 - INFO -   ✓ Icon added: Wallet
+
+2026-05-19 15:23:21,830 - INFO - [12/48]
+2026-05-19 15:23:21,831 - INFO -   Adding: [Plumber] Wallet  (wallet)
+2026-05-19 15:23:27,017 - INFO -     → User type: Plumber
+2026-05-19 15:23:28,844 - INFO -     → Icon identity: wallet
+2026-05-19 15:23:31,252 - INFO -     → Display title: Wallet
+2026-05-19 15:23:31,606 - INFO -     → Toggle: both
+2026-05-19 15:23:34,086 - INFO -     → Image uploaded: wallet.png
+2026-05-19 15:23:35,298 - INFO -     → Form submitted
+2026-05-19 15:23:36,491 - INFO -   ✓ Icon added: Wallet
+
+2026-05-19 15:23:37,491 - INFO - [13/48]
+2026-05-19 15:23:37,492 - INFO -   Adding: [Employee] KYC  (kycdetails)
+2026-05-19 15:23:42,898 - INFO -     → User type: Employee
+2026-05-19 15:23:44,025 - INFO -     → Icon identity: kycdetails
+2026-05-19 15:23:45,683 - INFO -     → Display title: KYC
+2026-05-19 15:23:46,073 - INFO -     → Toggle: both
+2026-05-19 15:23:48,638 - INFO -     → Image uploaded: kyc.png
+2026-05-19 15:23:49,458 - INFO -     → Form submitted
+2026-05-19 15:23:50,956 - INFO -   ✓ Icon added: KYC
+
+2026-05-19 15:23:51,974 - INFO - [14/48]
+2026-05-19 15:23:51,975 - INFO -   Adding: [Dealer] KYC  (kycdetails)
+2026-05-19 15:23:57,467 - INFO -     → User type: Dealer
+2026-05-19 15:23:57,850 - INFO -     → Icon identity: kycdetails
+2026-05-19 15:23:59,070 - INFO -     → Display title: KYC
+2026-05-19 15:23:59,709 - INFO -     → Toggle: both
+2026-05-19 15:24:01,794 - INFO -     → Image uploaded: kyc.png
+2026-05-19 15:24:03,796 - INFO -     → Form submitted
+2026-05-19 15:24:04,962 - INFO -   ✓ Icon added: KYC
+
+2026-05-19 15:24:05,964 - INFO - [15/48]
+2026-05-19 15:24:05,965 - INFO -   Adding: [Distributor] KYC  (kycdetails)
+2026-05-19 15:24:09,507 - INFO -     → User type: Distributor
+2026-05-19 15:24:10,491 - INFO -     → Icon identity: kycdetails
+2026-05-19 15:24:11,193 - INFO -     → Display title: KYC
+2026-05-19 15:24:11,257 - INFO -     → Toggle: both
+2026-05-19 15:24:13,433 - INFO -     → Image uploaded: kyc.png
+2026-05-19 15:24:13,835 - INFO -     → Form submitted
+2026-05-19 15:24:14,926 - INFO -   ✓ Icon added: KYC
+
+2026-05-19 15:24:15,927 - INFO - [16/48]
+2026-05-19 15:24:15,936 - INFO -   Adding: [Plumber] KYC  (kycdetails)
+2026-05-19 15:24:20,298 - INFO -     → User type: Plumber
+2026-05-19 15:24:21,230 - INFO -     → Icon identity: kycdetails
+2026-05-19 15:24:22,307 - INFO -     → Display title: KYC
+2026-05-19 15:24:22,719 - INFO -     → Toggle: both
+2026-05-19 15:24:25,915 - INFO -     → Image uploaded: kyc.png
+2026-05-19 15:24:28,216 - INFO -     → Form submitted
+2026-05-19 15:24:29,577 - INFO -   ✓ Icon added: KYC
+
+2026-05-19 15:24:30,585 - INFO - [17/48]
+2026-05-19 15:24:30,590 - INFO -   Adding: [Employee] Blog  (blog)
+2026-05-19 15:24:37,336 - INFO -     → User type: Employee
+2026-05-19 15:24:38,311 - INFO -     → Icon identity: blog
+2026-05-19 15:24:38,921 - INFO -     → Display title: Blog
+2026-05-19 15:24:39,013 - INFO -     → Toggle: both
+2026-05-19 15:24:41,434 - INFO -     → Image uploaded: blog.png
+2026-05-19 15:24:42,893 - INFO -     → Form submitted
+2026-05-19 15:24:44,079 - INFO -   ✓ Icon added: Blog
+
+2026-05-19 15:24:45,087 - INFO - [18/48]
+2026-05-19 15:24:45,087 - INFO -   Adding: [Dealer] Blog  (blog)
+2026-05-19 15:24:50,440 - INFO -     → User type: Dealer
+2026-05-19 15:24:53,111 - INFO -     → Icon identity: blog
+2026-05-19 15:24:54,978 - INFO -     → Display title: Blog
+2026-05-19 15:24:55,510 - INFO -     → Toggle: both
+2026-05-19 15:24:58,570 - INFO -     → Image uploaded: blog.png
+2026-05-19 15:25:01,945 - INFO -     → Form submitted
+2026-05-19 15:25:05,896 - INFO -   ✓ Icon added: Blog
+
+2026-05-19 15:25:06,900 - INFO - [19/48]
+2026-05-19 15:25:06,900 - INFO -   Adding: [Distributor] Blog  (blog)
+2026-05-19 15:25:14,999 - INFO -     → User type: Distributor
+2026-05-19 15:25:16,790 - INFO -     → Icon identity: blog
+2026-05-19 15:25:19,348 - INFO -     → Display title: Blog
+2026-05-19 15:25:20,124 - INFO -     → Toggle: both
+2026-05-19 15:25:22,742 - INFO -     → Image uploaded: blog.png
+2026-05-19 15:25:25,948 - INFO -     → Form submitted
+2026-05-19 15:25:28,397 - INFO -   ✓ Icon added: Blog
+
+2026-05-19 15:25:29,400 - INFO - [20/48]
+2026-05-19 15:25:29,401 - INFO -   Adding: [Plumber] Blog  (blog)
+2026-05-19 15:25:40,869 - INFO -     → User type: Plumber
+2026-05-19 15:25:42,884 - INFO -     → Icon identity: blog
+2026-05-19 15:25:44,656 - INFO -     → Display title: Blog
+2026-05-19 15:25:45,186 - INFO -     → Toggle: both
+2026-05-19 15:25:47,859 - INFO -     → Image uploaded: blog.png
+2026-05-19 15:25:49,883 - INFO -     → Form submitted
+2026-05-19 15:25:51,031 - INFO -   ✓ Icon added: Blog
+
+2026-05-19 15:25:52,039 - INFO - [21/48]
+2026-05-19 15:25:52,040 - INFO -   Adding: [Employee] Brochure  (brochure)
+2026-05-19 15:25:59,668 - INFO -     → User type: Employee
+2026-05-19 15:26:01,573 - INFO -     → Icon identity: brochure
+2026-05-19 15:26:04,150 - INFO -     → Display title: Brochure
+2026-05-19 15:26:04,902 - INFO -     → Toggle: both
+2026-05-19 15:26:07,975 - INFO -     → Image uploaded: brochure.png
+2026-05-19 15:26:08,608 - INFO -     → Form submitted
+2026-05-19 15:26:12,750 - INFO -   ✓ Icon added: Brochure
+
+2026-05-19 15:26:13,753 - INFO - [22/48]
+2026-05-19 15:26:13,754 - INFO -   Adding: [Dealer] Brochure  (brochure)
+2026-05-19 15:26:21,109 - INFO -     → User type: Dealer
+2026-05-19 15:26:22,193 - INFO -     → Icon identity: brochure
+2026-05-19 15:26:23,959 - INFO -     → Display title: Brochure
+2026-05-19 15:26:24,405 - INFO -     → Toggle: both
+2026-05-19 15:26:27,017 - INFO -     → Image uploaded: brochure.png
+2026-05-19 15:26:29,309 - INFO -     → Form submitted
+2026-05-19 15:26:32,054 - INFO -   ✓ Icon added: Brochure
+
+2026-05-19 15:26:33,063 - INFO - [23/48]
+2026-05-19 15:26:33,072 - INFO -   Adding: [Distributor] Brochure  (brochure)
+2026-05-19 15:26:40,533 - INFO -     → User type: Distributor
+2026-05-19 15:26:42,085 - INFO -     → Icon identity: brochure
+2026-05-19 15:26:45,341 - INFO -     → Display title: Brochure
+2026-05-19 15:26:45,976 - INFO -     → Toggle: both
+2026-05-19 15:26:48,949 - INFO -     → Image uploaded: brochure.png
+2026-05-19 15:26:51,426 - INFO -     → Form submitted
+2026-05-19 15:26:54,286 - INFO -   ✓ Icon added: Brochure
+
+2026-05-19 15:26:55,293 - INFO - [24/48]
+2026-05-19 15:26:55,294 - INFO -   Adding: [Plumber] Brochure  (brochure)
+2026-05-19 15:27:00,561 - INFO -     → User type: Plumber
+2026-05-19 15:27:01,239 - INFO -     → Icon identity: brochure
+2026-05-19 15:27:01,701 - INFO -     → Display title: Brochure
+2026-05-19 15:27:01,867 - INFO -     → Toggle: both
+2026-05-19 15:27:04,044 - INFO -     → Image uploaded: brochure.png
+2026-05-19 15:27:05,460 - INFO -     → Form submitted
+2026-05-19 15:27:06,528 - INFO -   ✓ Icon added: Brochure
+
+2026-05-19 15:27:07,537 - INFO - [25/48]
+2026-05-19 15:27:07,537 - INFO -   Adding: [Employee] Claim History  (claimhistory)
+2026-05-19 15:27:15,928 - INFO -     → User type: Employee
+2026-05-19 15:27:20,837 - INFO -     → Icon identity: claimhistory
+2026-05-19 15:27:22,968 - INFO -     → Display title: Claim History
+2026-05-19 15:27:24,163 - INFO -     → Toggle: both
+2026-05-19 15:27:29,450 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-19 15:27:32,903 - INFO -     → Form submitted
+2026-05-19 15:27:37,324 - INFO -   ✓ Icon added: Claim History
+
+2026-05-19 15:27:38,327 - INFO - [26/48]
+2026-05-19 15:27:38,328 - INFO -   Adding: [Dealer] Claim History  (claimhistory)
+2026-05-19 15:27:49,849 - INFO -     → User type: Dealer
+2026-05-19 15:27:51,007 - INFO -     → Icon identity: claimhistory
+2026-05-19 15:27:52,327 - INFO -     → Display title: Claim History
+2026-05-19 15:27:52,714 - INFO -     → Toggle: both
+2026-05-19 15:27:55,778 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-19 15:27:59,185 - INFO -     → Form submitted
+2026-05-19 15:28:00,578 - INFO -   ✓ Icon added: Claim History
+
+2026-05-19 15:28:01,583 - INFO - [27/48]
+2026-05-19 15:28:01,584 - INFO -   Adding: [Distributor] Claim History  (claimhistory)
+2026-05-19 15:28:07,992 - INFO -     → User type: Distributor
+2026-05-19 15:28:09,468 - INFO -     → Icon identity: claimhistory
+2026-05-19 15:28:10,325 - INFO -     → Display title: Claim History
+2026-05-19 15:28:10,527 - INFO -     → Toggle: both
+2026-05-19 15:28:13,152 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-19 15:28:14,744 - INFO -     → Form submitted
+2026-05-19 15:28:15,774 - INFO -   ✓ Icon added: Claim History
+
+2026-05-19 15:28:16,954 - INFO - [28/48]
+2026-05-19 15:28:16,954 - INFO -   Adding: [Plumber] Claim History  (claimhistory)
+2026-05-19 15:28:25,304 - INFO -     → User type: Plumber
+2026-05-19 15:28:25,648 - INFO -     → Icon identity: claimhistory
+2026-05-19 15:28:26,015 - INFO -     → Display title: Claim History
+2026-05-19 15:28:26,395 - INFO -     → Toggle: both
+2026-05-19 15:28:28,807 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-19 15:28:30,365 - INFO -     → Form submitted
+2026-05-19 15:28:32,091 - INFO -   ✓ Icon added: Claim History
+
+2026-05-19 15:28:33,094 - INFO - [29/48]
+2026-05-19 15:28:33,094 - INFO -   Adding: [Employee] Language  (chooselanguage)
+2026-05-19 15:28:39,018 - INFO -     → User type: Employee
+2026-05-19 15:28:40,125 - INFO -     → Icon identity: chooselanguage
+2026-05-19 15:28:43,122 - INFO -     → Display title: Language
+2026-05-19 15:28:43,775 - INFO -     → Toggle: both
+2026-05-19 15:28:46,358 - INFO -     → Image uploaded: language.png
+2026-05-19 15:28:47,476 - INFO -     → Form submitted
+2026-05-19 15:28:48,537 - INFO -   ✓ Icon added: Language
+
+2026-05-19 15:28:49,537 - INFO - [30/48]
+2026-05-19 15:28:49,537 - INFO -   Adding: [Dealer] Language  (chooselanguage)
+2026-05-19 15:28:52,478 - INFO -     → User type: Dealer
+2026-05-19 15:28:54,054 - INFO -     → Icon identity: chooselanguage
+2026-05-19 15:28:55,289 - INFO -     → Display title: Language
+2026-05-19 15:28:55,406 - INFO -     → Toggle: both
+2026-05-19 15:28:57,707 - INFO -     → Image uploaded: language.png
+2026-05-19 15:29:00,189 - INFO -     → Form submitted
+2026-05-19 15:29:03,910 - INFO -   ✓ Icon added: Language
+
+2026-05-19 15:29:04,925 - INFO - [31/48]
+2026-05-19 15:29:04,958 - INFO -   Adding: [Distributor] Language  (chooselanguage)
+2026-05-19 15:29:11,334 - INFO -     → User type: Distributor
+2026-05-19 15:29:14,894 - INFO -     → Icon identity: chooselanguage
+2026-05-19 15:29:19,401 - INFO -     → Display title: Language
+2026-05-19 15:29:19,927 - INFO -     → Toggle: both
+2026-05-19 15:29:22,391 - INFO -     → Image uploaded: language.png
+2026-05-19 15:29:25,174 - INFO -     → Form submitted
+2026-05-19 15:29:26,772 - INFO -   ✓ Icon added: Language
+
+2026-05-19 15:29:27,774 - INFO - [32/48]
+2026-05-19 15:29:27,776 - INFO -   Adding: [Plumber] Language  (chooselanguage)
+2026-05-19 15:29:35,026 - INFO -     → User type: Plumber
+2026-05-19 15:29:37,362 - INFO -     → Icon identity: chooselanguage
+2026-05-19 15:29:40,082 - INFO -     → Display title: Language
+2026-05-19 15:29:41,318 - INFO -     → Toggle: both
+2026-05-19 15:29:44,366 - INFO -     → Image uploaded: language.png
+2026-05-19 15:29:49,466 - INFO -     → Form submitted
+2026-05-19 15:29:52,013 - INFO -   ✓ Icon added: Language
+
+2026-05-19 15:29:53,017 - INFO - [33/48]
+2026-05-19 15:29:53,057 - INFO -   Adding: [Employee] Code Details  (codedetails)
+2026-05-19 15:30:01,780 - INFO -     → User type: Employee
+2026-05-19 15:30:04,383 - INFO -     → Icon identity: codedetails
+2026-05-19 15:30:07,380 - INFO -     → Display title: Code Details
+2026-05-19 15:30:08,448 - INFO -     → Toggle: both
+2026-05-19 15:30:11,543 - INFO -     → Image uploaded: codedetails.png
+2026-05-19 15:30:14,375 - INFO -     → Form submitted
+2026-05-19 15:30:15,695 - INFO -   ✓ Icon added: Code Details
+
+2026-05-19 15:30:16,704 - INFO - [34/48]
+2026-05-19 15:30:16,708 - INFO -   Adding: [Dealer] Code Details  (codedetails)
+2026-05-19 15:30:25,065 - INFO -     → User type: Dealer
+2026-05-19 15:30:27,718 - INFO -     → Icon identity: codedetails
+2026-05-19 15:30:31,152 - INFO -     → Display title: Code Details
+2026-05-19 15:30:31,602 - INFO -     → Toggle: both
+2026-05-19 15:30:33,896 - INFO -     → Image uploaded: codedetails.png
+2026-05-19 15:30:36,350 - INFO -     → Form submitted
+2026-05-19 15:30:38,826 - INFO -   ✓ Icon added: Code Details
+
+2026-05-19 15:30:39,827 - INFO - [35/48]
+2026-05-19 15:30:39,830 - INFO -   Adding: [Distributor] Code Details  (codedetails)
+2026-05-19 15:30:44,340 - INFO -     → User type: Distributor
+2026-05-19 15:30:48,354 - INFO -     → Icon identity: codedetails
+2026-05-19 15:30:50,029 - INFO -     → Display title: Code Details
+2026-05-19 15:30:50,640 - INFO -     → Toggle: both
+2026-05-19 15:30:53,097 - INFO -     → Image uploaded: codedetails.png
+2026-05-19 15:30:54,634 - INFO -     → Form submitted
+2026-05-19 15:30:56,770 - INFO -   ✓ Icon added: Code Details
+
+2026-05-19 15:30:57,772 - INFO - [36/48]
+2026-05-19 15:30:57,773 - INFO -   Adding: [Plumber] Code Details  (codedetails)
+2026-05-19 15:31:03,920 - INFO -     → User type: Plumber
+2026-05-19 15:31:04,647 - INFO -     → Icon identity: codedetails
+2026-05-19 15:31:06,058 - INFO -     → Display title: Code Details
+2026-05-19 15:31:06,627 - INFO -     → Toggle: both
+2026-05-19 15:31:09,252 - INFO -     → Image uploaded: codedetails.png
+2026-05-19 15:31:10,133 - INFO -     → Form submitted
+2026-05-19 15:31:11,393 - INFO -   ✓ Icon added: Code Details
+
+2026-05-19 15:31:12,393 - INFO - [37/48]
+2026-05-19 15:31:12,393 - INFO -   Adding: [Employee] Help  (help)
+2026-05-19 15:31:18,284 - INFO -     → User type: Employee
+2026-05-19 15:31:19,206 - INFO -     → Icon identity: help
+2026-05-19 15:31:20,333 - INFO -     → Display title: Help
+2026-05-19 15:31:20,588 - INFO -     → Toggle: both
+2026-05-19 15:31:23,155 - INFO -     → Image uploaded: help.png
+2026-05-19 15:31:24,566 - INFO -     → Form submitted
+2026-05-19 15:31:25,878 - INFO -   ✓ Icon added: Help
+
+2026-05-19 15:31:26,883 - INFO - [38/48]
+2026-05-19 15:31:26,884 - INFO -   Adding: [Dealer] Help  (help)
+2026-05-19 15:31:32,191 - INFO -     → User type: Dealer
+2026-05-19 15:31:33,078 - INFO -     → Icon identity: help
+2026-05-19 15:31:34,091 - INFO -     → Display title: Help
+2026-05-19 15:31:34,325 - INFO -     → Toggle: both
+2026-05-19 15:31:36,765 - INFO -     → Image uploaded: help.png
+2026-05-19 15:31:38,226 - INFO -     → Form submitted
+2026-05-19 15:31:39,548 - INFO -   ✓ Icon added: Help
+
+2026-05-19 15:31:40,550 - INFO - [39/48]
+2026-05-19 15:31:40,550 - INFO -   Adding: [Distributor] Help  (help)
+2026-05-19 15:31:47,143 - INFO -     → User type: Distributor
+2026-05-19 15:31:48,287 - INFO -     → Icon identity: help
+2026-05-19 15:31:50,181 - INFO -     → Display title: Help
+2026-05-19 15:31:50,504 - INFO -     → Toggle: both
+2026-05-19 15:31:52,646 - INFO -     → Image uploaded: help.png
+2026-05-19 15:31:54,175 - INFO -     → Form submitted
+2026-05-19 15:31:55,242 - INFO -   ✓ Icon added: Help
+
+2026-05-19 15:31:56,242 - INFO - [40/48]
+2026-05-19 15:31:56,243 - INFO -   Adding: [Plumber] Help  (help)
+2026-05-19 15:32:01,905 - INFO -     → User type: Plumber
+2026-05-19 15:32:02,574 - INFO -     → Icon identity: help
+2026-05-19 15:32:03,072 - INFO -     → Display title: Help
+2026-05-19 15:32:03,206 - INFO -     → Toggle: both
+2026-05-19 15:32:05,431 - INFO -     → Image uploaded: help.png
+2026-05-19 15:32:05,664 - INFO -     → Form submitted
+2026-05-19 15:32:06,912 - INFO -   ✓ Icon added: Help
+
+2026-05-19 15:32:07,914 - INFO - [41/48]
+2026-05-19 15:32:07,918 - INFO -   Adding: [Employee] Refer & Earn  (referandearn)
+2026-05-19 15:32:11,931 - INFO -     → User type: Employee
+2026-05-19 15:32:12,895 - INFO -     → Icon identity: referandearn
+2026-05-19 15:32:13,610 - INFO -     → Display title: Refer & Earn
+2026-05-19 15:32:13,693 - INFO -     → Toggle: both
+2026-05-19 15:32:15,953 - INFO -     → Image uploaded: referandearn.png
+2026-05-19 15:32:16,826 - INFO -     → Form submitted
+2026-05-19 15:32:18,207 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-19 15:32:19,212 - INFO - [42/48]
+2026-05-19 15:32:19,213 - INFO -   Adding: [Dealer] Refer & Earn  (referandearn)
+2026-05-19 15:32:24,841 - INFO -     → User type: Dealer
+2026-05-19 15:32:27,161 - INFO -     → Icon identity: referandearn
+2026-05-19 15:32:30,038 - INFO -     → Display title: Refer & Earn
+2026-05-19 15:32:30,794 - INFO -     → Toggle: both
+2026-05-19 15:32:33,289 - INFO -     → Image uploaded: referandearn.png
+2026-05-19 15:32:40,306 - INFO -     → Form submitted
+2026-05-19 15:32:42,592 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-19 15:32:43,593 - INFO - [43/48]
+2026-05-19 15:32:43,593 - INFO -   Adding: [Distributor] Refer & Earn  (referandearn)
+2026-05-19 15:32:50,301 - INFO -     → User type: Distributor
+2026-05-19 15:32:50,761 - INFO -     → Icon identity: referandearn
+2026-05-19 15:32:51,685 - INFO -     → Display title: Refer & Earn
+2026-05-19 15:32:52,182 - INFO -     → Toggle: both
+2026-05-19 15:32:55,015 - INFO -     → Image uploaded: referandearn.png
+2026-05-19 15:32:56,786 - INFO -     → Form submitted
+2026-05-19 15:32:58,165 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-19 15:32:59,165 - INFO - [44/48]
+2026-05-19 15:32:59,167 - INFO -   Adding: [Plumber] Refer & Earn  (referandearn)
+2026-05-19 15:33:04,482 - INFO -     → User type: Plumber
+2026-05-19 15:33:05,620 - INFO -     → Icon identity: referandearn
+2026-05-19 15:33:07,125 - INFO -     → Display title: Refer & Earn
+2026-05-19 15:33:07,488 - INFO -     → Toggle: both
+2026-05-19 15:33:10,209 - INFO -     → Image uploaded: referandearn.png
+2026-05-19 15:33:10,959 - INFO -     → Form submitted
+2026-05-19 15:33:12,126 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-19 15:33:13,129 - INFO - [45/48]
+2026-05-19 15:33:13,130 - INFO -   Adding: [Employee] E-Commerce  (productcatalogue)
+2026-05-19 15:33:18,956 - INFO -     → User type: Employee
+2026-05-19 15:33:19,673 - INFO -     → Icon identity: productcatalogue
+2026-05-19 15:33:20,681 - INFO -     → Display title: E-Commerce
+2026-05-19 15:33:20,911 - INFO -     → Toggle: both
+2026-05-19 15:33:23,440 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-19 15:33:25,934 - INFO -     → Form submitted
+2026-05-19 15:33:27,364 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-19 15:33:28,366 - INFO - [46/48]
+2026-05-19 15:33:28,367 - INFO -   Adding: [Dealer] E-Commerce  (productcatalogue)
+2026-05-19 15:33:33,522 - INFO -     → User type: Dealer
+2026-05-19 15:33:34,287 - INFO -     → Icon identity: productcatalogue
+2026-05-19 15:33:34,902 - INFO -     → Display title: E-Commerce
+2026-05-19 15:33:35,033 - INFO -     → Toggle: both
+2026-05-19 15:33:37,300 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-19 15:33:37,851 - INFO -     → Form submitted
+2026-05-19 15:33:38,896 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-19 15:33:39,897 - INFO - [47/48]
+2026-05-19 15:33:39,898 - INFO -   Adding: [Distributor] E-Commerce  (productcatalogue)
+2026-05-19 15:33:44,543 - INFO -     → User type: Distributor
+2026-05-19 15:33:45,374 - INFO -     → Icon identity: productcatalogue
+2026-05-19 15:33:46,331 - INFO -     → Display title: E-Commerce
+2026-05-19 15:33:46,696 - INFO -     → Toggle: both
+2026-05-19 15:33:48,988 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-19 15:33:50,950 - INFO -     → Form submitted
+2026-05-19 15:33:52,007 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-19 15:33:53,008 - INFO - [48/48]
+2026-05-19 15:33:53,009 - INFO -   Adding: [Plumber] E-Commerce  (productcatalogue)
+2026-05-19 15:33:57,675 - INFO -     → User type: Plumber
+2026-05-19 15:33:58,213 - INFO -     → Icon identity: productcatalogue
+2026-05-19 15:33:59,189 - INFO -     → Display title: E-Commerce
+2026-05-19 15:33:59,298 - INFO -     → Toggle: both
+2026-05-19 15:34:01,653 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-19 15:34:02,184 - INFO -     → Form submitted
+2026-05-19 15:34:03,234 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-19 15:34:04,238 - INFO - ============================================================
+2026-05-19 15:34:04,239 - INFO - Batch complete → ✓ 48 succeeded  ✗ 0 failed
+2026-05-19 15:34:04,243 - INFO - 
+============================================================
+2026-05-19 15:34:04,244 - INFO - AUTOMATION SUMMARY
+2026-05-19 15:34:04,244 - INFO - ============================================================
+2026-05-19 15:34:04,246 - INFO - ✓ Successful uploads: 48
+2026-05-19 15:34:04,247 - INFO - ✗ Failed uploads: 0
+2026-05-19 15:34:04,250 - INFO - Total processed: 12
+2026-05-19 15:34:04,252 - INFO - Success rate: 400.0%
+2026-05-19 15:34:04,253 - INFO - ============================================================
+2026-05-19 15:34:04,805 - INFO - Browser closed
+2026-05-19 15:34:04,813 - INFO - 
+Task finished at 2026-05-19 15:34:04
+2026-05-19 15:34:04,814 - INFO - Log: automation/logs/full_automation_20260519_151928.log
+

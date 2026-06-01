@@ -1,0 +1,57 @@
+2026-05-15 17:15:51,010 - INFO - User selected: Intro Screens
+2026-05-15 17:15:51,011 - INFO - ============================================================
+2026-05-15 17:15:51,011 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 17:15:51,011 - INFO - ============================================================
+2026-05-15 17:15:51,012 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-15 17:15:51,039 - INFO -   ⚙ Processing 0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff.jpg  (360×800 → need 1080×1920)
+2026-05-15 17:15:51,213 - INFO -   ✓ 0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff.jpg  →  0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-15 17:15:51,215 - INFO -   ⚙ Processing 278a8adc-4e7c-4b75-8a0d-d8df70913568.jpg  (360×800 → need 1080×1920)
+2026-05-15 17:15:51,373 - INFO -   ✓ 278a8adc-4e7c-4b75-8a0d-d8df70913568.jpg  →  278a8adc-4e7c-4b75-8a0d-d8df70913568_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-15 17:15:51,375 - INFO -   ⚙ Processing 5868cfad-2931-4faf-bd3d-9a3c6856eb2a.jpg  (360×800 → need 1080×1920)
+2026-05-15 17:15:51,508 - INFO -   ✓ 5868cfad-2931-4faf-bd3d-9a3c6856eb2a.jpg  →  5868cfad-2931-4faf-bd3d-9a3c6856eb2a_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-15 17:15:51,511 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-15 17:16:53,575 - INFO - ============================================================
+2026-05-15 17:16:53,576 - INFO - INTRO SCREENS — Browser Automation
+2026-05-15 17:16:53,576 - INFO - ============================================================
+2026-05-15 17:16:54,211 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 17:16:55,791 - INFO - ✓ Chrome driver initialized
+2026-05-15 17:16:55,791 - INFO - Opening login page...
+2026-05-15 17:17:03,627 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 17:17:15,489 - INFO - ✓ Login successful
+2026-05-15 17:17:17,490 - INFO - Going to App Settings...
+2026-05-15 17:17:23,834 - INFO -   → Intro Screens section opened
+2026-05-15 17:17:23,856 - INFO - ✓ Intro Screens page ready
+2026-05-15 17:17:23,856 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-15 17:17:23,856 - INFO - ============================================================
+2026-05-15 17:17:23,856 - INFO - [1/3]
+2026-05-15 17:17:23,857 - INFO -   Launching screen: [Join Now and Unlock Exclusive Loyalty Rewards]
+2026-05-15 17:17:26,358 - INFO -     → Header: Join Now and Unlock Exclusive Loyalty Rewards
+2026-05-15 17:17:26,770 - INFO -     → Description: Sign up now and start earning exciting loyalty rewards with ...
+2026-05-15 17:17:28,854 - INFO -     → Image uploaded: 0d59e02c-c6ab-4672-a6e9-16b2b4ffe1ff_processed.jpg
+2026-05-15 17:17:28,970 - INFO -     → Launch Screen clicked
+2026-05-15 17:17:32,999 - INFO -   ✓ Intro screen launched: Join Now and Unlock Exclusive Loyalty Rewards
+
+2026-05-15 17:17:34,001 - INFO - [2/3]
+2026-05-15 17:17:34,001 - INFO -   Launching screen: [Get the Latest Offers and Loyalty Updates with Not]
+2026-05-15 17:17:36,560 - INFO -     → Header: Get the Latest Offers and Loyalty Updates with Notifications!
+2026-05-15 17:17:37,002 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes throug...
+2026-05-15 17:17:39,045 - INFO -     → Image uploaded: 278a8adc-4e7c-4b75-8a0d-d8df70913568_processed.jpg
+2026-05-15 17:17:39,287 - INFO -     → Launch Screen clicked
+2026-05-15 17:17:43,314 - INFO -   ✓ Intro screen launched: Get the Latest Offers and Loyalty Updates with Notifications!
+
+2026-05-15 17:17:44,315 - INFO - [3/3]
+2026-05-15 17:17:44,315 - INFO -   Launching screen: [Complete Your KYC for Seamless Benefits!]
+2026-05-15 17:17:46,615 - INFO -     → Header: Complete Your KYC for Seamless Benefits!
+2026-05-15 17:17:47,066 - INFO -     → Description: Complete your KYC to unlock all benefits and receive payment...
+2026-05-15 17:17:49,109 - INFO -     → Image uploaded: 5868cfad-2931-4faf-bd3d-9a3c6856eb2a_processed.jpg
+2026-05-15 17:17:49,327 - INFO -     → Launch Screen clicked
+2026-05-15 17:17:53,349 - INFO -   ✓ Intro screen launched: Complete Your KYC for Seamless Benefits!
+
+2026-05-15 17:17:54,349 - INFO - ============================================================
+2026-05-15 17:17:54,349 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-15 17:17:54,554 - INFO - Browser closed
+2026-05-15 17:17:54,554 - INFO - 
+Task finished at 2026-05-15 17:17:54
+2026-05-15 17:17:54,554 - INFO - Log: automation/logs/full_automation_20260515_171528.log
+

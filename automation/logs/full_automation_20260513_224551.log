@@ -1,0 +1,103 @@
+2026-05-13 22:46:43,494 - INFO - User selected: Intro Screens
+2026-05-13 22:46:43,494 - INFO - ============================================================
+2026-05-13 22:46:43,494 - INFO - INTRO SCREENS — Image Processing
+2026-05-13 22:46:43,495 - INFO - ============================================================
+2026-05-13 22:46:43,495 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-13 22:46:43,550 - INFO -   ⚙ Processing ab46417f-9eca-4db9-a98e-c88dfd1838e5.png  (360×800 → need 1080×1920)
+2026-05-13 22:46:43,766 - INFO -   ✓ ab46417f-9eca-4db9-a98e-c88dfd1838e5.png  →  ab46417f-9eca-4db9-a98e-c88dfd1838e5_processed.jpg  |  1080×1920  |  0.41 MB  |  quality 92
+2026-05-13 22:46:43,769 - INFO -   ⚙ Processing ceed6e32-9e77-4139-a55e-7eb50112725b.png  (360×800 → need 1080×1920)
+2026-05-13 22:46:43,982 - INFO -   ✓ ceed6e32-9e77-4139-a55e-7eb50112725b.png  →  ceed6e32-9e77-4139-a55e-7eb50112725b_processed.jpg  |  1080×1920  |  0.38 MB  |  quality 92
+2026-05-13 22:46:43,988 - INFO -   ⚙ Processing e824ee2b-d891-43c5-a9c1-c39001cf1e44.png  (360×800 → need 1080×1920)
+2026-05-13 22:46:44,192 - INFO -   ✓ e824ee2b-d891-43c5-a9c1-c39001cf1e44.png  →  e824ee2b-d891-43c5-a9c1-c39001cf1e44_processed.jpg  |  1080×1920  |  0.34 MB  |  quality 92
+2026-05-13 22:46:44,195 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-13 22:48:46,235 - INFO - ============================================================
+2026-05-13 22:48:46,236 - INFO - INTRO SCREENS — Browser Automation
+2026-05-13 22:48:46,236 - INFO - ============================================================
+2026-05-13 22:48:48,252 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 22:48:51,888 - INFO - ✓ Chrome driver initialized
+2026-05-13 22:48:51,889 - INFO - Opening login page...
+2026-05-13 22:48:53,985 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-13 22:48:54,571 - INFO - ✓ Login successful
+2026-05-13 22:48:56,573 - INFO - Going to App Settings...
+2026-05-13 22:49:03,559 - INFO -   → Intro Screens section opened
+2026-05-13 22:49:03,589 - INFO - ✓ Intro Screens page ready
+2026-05-13 22:49:03,590 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-13 22:49:03,590 - INFO - ============================================================
+2026-05-13 22:49:03,591 - INFO - [1/3]
+2026-05-13 22:49:03,591 - INFO -   Launching screen: [Loyalty Program Features]
+2026-05-13 22:49:06,239 - INFO -     → Header: Loyalty Program Features
+2026-05-13 22:49:07,680 - INFO -     → Description: The Wekraft loyalty app builds brand loyalty for Dealers, Di...
+2026-05-13 22:49:09,828 - INFO -     → Image uploaded: ab46417f-9eca-4db9-a98e-c88dfd1838e5_processed.jpg
+2026-05-13 22:49:10,028 - INFO -     → Launch Screen clicked
+2026-05-13 22:49:14,058 - INFO -   ✓ Intro screen launched: Loyalty Program Features
+
+2026-05-13 22:49:15,058 - INFO - [2/3]
+2026-05-13 22:49:15,058 - INFO -   Launching screen: [Application Functionality]
+2026-05-13 22:49:17,653 - INFO -     → Header: Application Functionality
+2026-05-13 22:49:18,968 - INFO -     → Description: Users log in via OTP, complete mandatory KYC, and scan dynam...
+2026-05-13 22:49:21,080 - INFO -     → Image uploaded: ceed6e32-9e77-4139-a55e-7eb50112725b_processed.jpg
+2026-05-13 22:49:21,320 - INFO -     → Launch Screen clicked
+2026-05-13 22:49:25,335 - INFO -   ✓ Intro screen launched: Application Functionality
+
+2026-05-13 22:49:26,335 - INFO - [3/3]
+2026-05-13 22:49:26,336 - INFO -   Launching screen: [Admin Dashboard and Deliverables]
+2026-05-13 22:49:28,778 - INFO -     → Header: Admin Dashboard and Deliverables
+2026-05-13 22:49:29,655 - INFO -     → Description: The admin dashboard includes reports for points, users, and ...
+2026-05-13 22:49:31,752 - INFO -     → Image uploaded: e824ee2b-d891-43c5-a9c1-c39001cf1e44_processed.jpg
+2026-05-13 22:49:31,892 - INFO -     → Launch Screen clicked
+2026-05-13 22:49:35,923 - INFO -   ✓ Intro screen launched: Admin Dashboard and Deliverables
+
+2026-05-13 22:49:36,923 - INFO - ============================================================
+2026-05-13 22:49:36,923 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-13 22:49:37,105 - INFO - Browser closed
+2026-05-13 22:49:37,105 - INFO - 
+Task finished at 2026-05-13 22:49:37
+2026-05-13 22:49:37,105 - INFO - Log: automation/logs/full_automation_20260513_224551.log
+
+2026-05-13 22:51:36,412 - INFO - User selected: Promotion Banners
+2026-05-13 22:51:36,413 - INFO - ============================================================
+2026-05-13 22:51:36,414 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-13 22:51:36,418 - INFO - ============================================================
+2026-05-13 22:51:36,420 - INFO - Found 2 banner image(s) in banner/
+2026-05-13 22:51:36,423 - INFO -   ⚙ Processing Vcqrubanner-1 (8).png  (size 328×157 → need 1920×1080)
+2026-05-13 22:51:36,768 - INFO -   ✓ Vcqrubanner-1 (8).png  →  Vcqrubanner-1 (8)_processed.jpg  |  1920×1080  |  0.16 MB  |  quality 92
+2026-05-13 22:51:36,771 - INFO -   ⚙ Processing Vcqrubanner-2 (5).png  (size 328×157 → need 1920×1080)
+2026-05-13 22:51:37,006 - INFO -   ✓ Vcqrubanner-2 (5).png  →  Vcqrubanner-2 (5)_processed.jpg  |  1920×1080  |  0.15 MB  |  quality 92
+2026-05-13 22:51:37,009 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-13 22:51:37,010 - INFO - ============================================================
+2026-05-13 22:51:37,010 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-13 22:51:37,011 - INFO - ============================================================
+2026-05-13 22:51:39,032 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-13 22:51:43,421 - INFO - ✓ Chrome driver initialized
+2026-05-13 22:51:43,421 - INFO - Opening login page...
+2026-05-13 22:51:47,891 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-13 22:51:48,611 - INFO - ✓ Login successful
+2026-05-13 22:51:50,616 - INFO - Going to App Settings...
+2026-05-13 22:51:58,652 - INFO -   → Promotion Banners section opened
+2026-05-13 22:51:58,699 - INFO - ✓ Promotion Banners page ready
+2026-05-13 22:51:58,700 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-13 22:51:58,700 - INFO - ============================================================
+2026-05-13 22:51:58,700 - INFO - [1/2]
+2026-05-13 22:51:58,700 - INFO -   Publishing: [Vcqrubanner-1 (8)]  (Vcqrubanner-1 (8)_processed.jpg)
+2026-05-13 22:52:01,526 - INFO -     → Title entered: Vcqrubanner-1 (8)
+2026-05-13 22:52:03,645 - INFO -     → Image uploaded: Vcqrubanner-1 (8)_processed.jpg
+2026-05-13 22:52:04,261 - INFO -     → Publish Banner clicked
+2026-05-13 22:52:08,294 - INFO -   ✓ Banner published: Vcqrubanner-1 (8)
+
+2026-05-13 22:52:09,297 - INFO - [2/2]
+2026-05-13 22:52:09,318 - INFO -   Publishing: [Vcqrubanner-2 (5)]  (Vcqrubanner-2 (5)_processed.jpg)
+2026-05-13 22:52:13,072 - INFO -     → Title entered: Vcqrubanner-2 (5)
+2026-05-13 22:52:15,425 - INFO -     → Image uploaded: Vcqrubanner-2 (5)_processed.jpg
+2026-05-13 22:52:15,893 - INFO -     → Publish Banner clicked
+2026-05-13 22:52:20,084 - INFO -   ✓ Banner published: Vcqrubanner-2 (5)
+
+2026-05-13 22:52:21,085 - INFO - ============================================================
+2026-05-13 22:52:21,090 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-13 22:52:21,628 - INFO - Browser closed
+2026-05-13 22:52:21,630 - INFO - 
+Task finished at 2026-05-13 22:52:21
+2026-05-13 22:52:21,641 - INFO - Log: automation/logs/full_automation_20260513_224551.log
+

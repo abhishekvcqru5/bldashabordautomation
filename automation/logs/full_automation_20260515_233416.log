@@ -1,0 +1,10 @@
+2026-05-15 23:36:13,118 - INFO - User selected: Intro Screens
+2026-05-15 23:36:13,119 - INFO - ============================================================
+2026-05-15 23:36:13,119 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 23:36:13,119 - INFO - ============================================================
+2026-05-15 23:36:13,120 - INFO - Found 1 intro image(s) in introscreen/
+2026-05-15 23:36:13,155 - INFO -   ⚙ Processing dc5e53ff-56e9-4a8e-9968-3e963a00f10d.png  (941×1672 → need 1080×1920)
+2026-05-15 23:36:13,374 - INFO -   ✓ dc5e53ff-56e9-4a8e-9968-3e963a00f10d.png  →  dc5e53ff-56e9-4a8e-9968-3e963a00f10d_processed.jpg  |  1080×1920  |  0.22 MB  |  quality 92
+2026-05-15 23:36:13,375 - INFO -   Processed 1/1 intro images successfully
+
+2026-05-15 23:37:58,964 - INFO - Automation cancelled by user (Ctrl+C)

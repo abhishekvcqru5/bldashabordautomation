@@ -528,3 +528,253 @@ class BrandSettingAutomation:
             except Exception:
                 pass
             return False
+
+
+# ══════════════════════════════════════════════════════════════
+# Support Network Automation  (receives an already-logged-in driver)
+# ══════════════════════════════════════════════════════════════
+class SupportNetworkAutomation:
+    """
+    Fills the Support Network form on the vendor portal.
+    Expects an already-authenticated Selenium WebDriver instance.
+
+    Fields handled:
+      - Phone number
+      - Email
+      - Website
+      - Terms & Conditions
+      - Support / Help content
+      - Privacy Policy
+    """
+
+    def __init__(self, driver, wait_time=20):
+        self.driver = driver
+        self.wait = WebDriverWait(driver, wait_time)
+
+    # ── internal helpers ──────────────────────────────────────
+    def _ss(self, name):
+        try:
+            d = Path("automation/screenshots")
+            d.mkdir(parents=True, exist_ok=True)
+            p = d / f"support_{name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+            self.driver.save_screenshot(str(p))
+            logger.info(f"  📸 Screenshot saved: {p}")
+        except Exception as e:
+            logger.warning(f"Screenshot failed: {e}")
+
+    def _fill_field(self, name_or_xpath, value, by=By.NAME):
+        """Clear and fill a text field identified by name or xpath."""
+        if not value:
+            return
+        try:
+            el = self.driver.find_element(by, name_or_xpath)
+            el.clear()
+            el.send_keys(value)
+            logger.info(f"    → Filled: {name_or_xpath}")
+        except Exception as e:
+            logger.warning(f"    Could not fill {name_or_xpath}: {e}")
+
+    # ── public methods ────────────────────────────────────────
+    def navigate(self):
+        """
+        App Settings → Support Network → Edit Support Network.
+        Returns True if the form popup is open, False otherwise.
+        """
+        try:
+            logger.info("Going to App Settings for Support Network...")
+            self.driver.get(APP_SETTINGS)
+            time.sleep(3)
+
+            # Click the "Support Network" section header
+            # Try multiple strategies for robustness
+            support_clicked = False
+
+            # Strategy 1: h3 heading text
+            for xp in (
+                "//h3[contains(normalize-space(.),'Support Network')]",
+                "//button[contains(normalize-space(.),'Support Network')]",
+                "//*[contains(normalize-space(.),'Support Network') and (self::h3 or self::button or self::div)]",
+            ):
+                try:
+                    els = self.driver.find_elements(By.XPATH, xp)
+                    for el in els:
+                        if el.is_displayed():
+                            self.driver.execute_script(
+                                "arguments[0].scrollIntoView({block:'center'}); arguments[0].click();",
+                                el
+                            )
+                            support_clicked = True
+                            logger.info("  → Support Network section opened")
+                            break
+                except Exception:
+                    continue
+                if support_clicked:
+                    break
+
+            if not support_clicked:
+                logger.error("  ✗ Could not find Support Network section")
+                self._ss("support_nav_fail")
+                return False
+
+            time.sleep(3)
+
+            # Click "Edit Support Network" or similar edit button
+            edit_clicked = False
+            for xp in (
+                "//button[contains(normalize-space(.),'Edit Support')]",
+                "//button[contains(normalize-space(.),'Edit')]",
+                "//a[contains(normalize-space(.),'Edit Support')]",
+            ):
+                try:
+                    els = self.driver.find_elements(By.XPATH, xp)
+                    for el in els:
+                        if el.is_displayed():
+                            self.driver.execute_script(
+                                "arguments[0].scrollIntoView({block:'center'}); arguments[0].click();",
+                                el
+                            )
+                            edit_clicked = True
+                            logger.info("  → Edit Support Network popup opened")
+                            break
+                except Exception:
+                    continue
+                if edit_clicked:
+                    break
+
+            if not edit_clicked:
+                logger.warning("  ⚠ Could not find Edit button — form may already be open")
+
+            time.sleep(2)
+            logger.info("✓ Support Network form is ready")
+            return True
+
+        except Exception as e:
+            logger.error(f"Navigation to Support Network failed: {e}")
+            self._ss("support_nav_error")
+            return False
+
+    def fill_and_save(self, data: dict):
+        """
+        Fill the Support Network form and click Save.
+
+        Parameters
+        ----------
+        data : dict with keys:
+            phone, email, website, terms_conditions,
+            support_content, privacy_policy
+        """
+        try:
+            # Map data keys to possible form field names/xpaths
+            field_map = {
+                "phone": [
+                    (By.ID, "ContactNumber"),
+                    (By.NAME, "Phone"),
+                    (By.NAME, "phone"),
+                    (By.NAME, "ContactPhone"),
+                    (By.XPATH, "//input[@placeholder='Phone' or @placeholder='Phone Number' or contains(@name,'phone') or contains(@name,'Phone')]"),
+                ],
+                "email": [
+                    (By.ID, "ContactEmail"),
+                    (By.NAME, "Email"),
+                    (By.NAME, "email"),
+                    (By.NAME, "ContactEmail"),
+                    (By.XPATH, "//input[@placeholder='Email' or contains(@name,'email') or contains(@name,'Email')]"),
+                ],
+                "website": [
+                    (By.ID, "AboutUsLink"),
+                    (By.NAME, "Website"),
+                    (By.NAME, "website"),
+                    (By.NAME, "WebsiteUrl"),
+                    (By.XPATH, "//input[@placeholder='Website' or contains(@name,'website') or contains(@name,'Website')]"),
+                ],
+                "terms_conditions": [
+                    (By.ID, "TermsConditionLink"),
+                    (By.NAME, "TermsConditions"),
+                    (By.NAME, "termsConditions"),
+                    (By.NAME, "Terms"),
+                    (By.XPATH, "//textarea[contains(@name,'erms') or contains(@placeholder,'erms')]"),
+                    (By.XPATH, "//input[contains(@name,'erms') or contains(@placeholder,'erms')]"),
+                ],
+                "support_content": [
+                    (By.ID, "ContactContents"),
+                    (By.NAME, "SupportContent"),
+                    (By.NAME, "supportContent"),
+                    (By.NAME, "HelpContent"),
+                    (By.XPATH, "//textarea[contains(@name,'upport') or contains(@name,'elp') or contains(@placeholder,'upport')]"),
+                    (By.XPATH, "//input[contains(@name,'upport') or contains(@name,'elp')]"),
+                ],
+                "privacy_policy": [
+                    (By.ID, "PrivacyPolicyLink"),
+                    (By.NAME, "PrivacyPolicy"),
+                    (By.NAME, "privacyPolicy"),
+                    (By.XPATH, "//textarea[contains(@name,'rivacy') or contains(@placeholder,'rivacy')]"),
+                    (By.XPATH, "//input[contains(@name,'rivacy') or contains(@placeholder,'rivacy')]"),
+                ],
+            }
+
+            for key, selectors in field_map.items():
+                value = data.get(key, "")
+                if not value:
+                    logger.info(f"    ⏭ Skipping empty field: {key}")
+                    continue
+
+                filled = False
+                for by, sel in selectors:
+                    try:
+                        el = self.driver.find_element(by, sel)
+                        if el.is_displayed():
+                            el.clear()
+                            el.send_keys(value)
+                            logger.info(f"    ✓ {key} filled")
+                            filled = True
+                            break
+                    except Exception:
+                        continue
+
+                if not filled:
+                    logger.warning(f"    ⚠ Could not find field for: {key}")
+
+            # ── Save Changes ──────────────────────────────────
+            time.sleep(1)
+            save_clicked = False
+            for xp in (
+                "//button[contains(normalize-space(.),'Save Changes')]",
+                "//button[contains(normalize-space(.),'Save')]",
+                "//button[@type='submit']",
+            ):
+                try:
+                    els = self.driver.find_elements(By.XPATH, xp)
+                    for el in els:
+                        if el.is_displayed():
+                            self.driver.execute_script(
+                                "arguments[0].scrollIntoView({block:'center'}); arguments[0].click();",
+                                el
+                            )
+                            save_clicked = True
+                            logger.info("  → Save clicked")
+                            break
+                except Exception:
+                    continue
+                if save_clicked:
+                    break
+
+            if not save_clicked:
+                logger.error("  ✗ Could not find Save button")
+                self._ss("support_save_fail")
+                return False
+
+            time.sleep(3)
+            logger.info("✓ Support Network saved successfully!")
+            return True
+
+        except Exception as e:
+            logger.error(f"Support Network fill/save failed: {e}")
+            self._ss("support_form_error")
+            try:
+                self.driver.find_element(
+                    By.XPATH, "//button[contains(text(),'Cancel')]"
+                ).click()
+                time.sleep(1)
+            except Exception:
+                pass
+            return False

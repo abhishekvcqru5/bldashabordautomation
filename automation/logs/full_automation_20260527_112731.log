@@ -1,0 +1,79 @@
+2026-05-27 11:28:08,020 - INFO - User selected: Old Dashboard
+2026-05-27 11:28:09,632 - INFO -   Old Dashboard → Brand Setting
+2026-05-27 11:28:09,633 - INFO - ============================================================
+2026-05-27 11:28:09,633 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-27 11:28:09,633 - INFO - ============================================================
+2026-05-27 11:28:09,636 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 11:28:09,637 - INFO - ====== WebDriver manager ======
+2026-05-27 11:28:10,165 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 11:28:10,369 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 11:28:10,584 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 11:28:11,170 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-27 11:28:11,182 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-27 11:28:11,183 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-27 11:28:11,312 - INFO - Driver downloading response is 200
+2026-05-27 11:28:12,666 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 11:28:13,083 - INFO - Driver has been saved in cache [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-27 11:28:15,160 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-27 11:28:15,161 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-27 11:28:21,809 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-27 11:28:23,810 - INFO -     → Filling credentials …
+2026-05-27 11:28:24,074 - INFO -       Email → field #login_txt_id
+2026-05-27 11:28:24,236 - INFO -       Password → field #login_txt_pass
+2026-05-27 11:28:24,478 - INFO -       Login button clicked: #btnVendor
+2026-05-27 11:28:24,479 - INFO -     → Waiting for post-login redirect …
+2026-05-27 11:28:33,394 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-27 11:28:33,394 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-27 11:28:53,437 - INFO - 
+[3/4] Extracting brand data …
+2026-05-27 11:28:53,733 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-27 11:28:53,733 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-27 11:28:53,734 - INFO -   ↩ Already exists, skipping download: splash.png
+2026-05-27 11:28:53,735 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-27 11:28:53,969 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-27 11:28:53,969 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 11:28:53,969 - INFO - ====== WebDriver manager ======
+2026-05-27 11:28:54,360 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 11:28:59,676 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 11:28:59,908 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 11:29:01,075 - INFO - ✓ Chrome driver initialized
+2026-05-27 11:29:01,075 - INFO - Opening login page...
+2026-05-27 11:29:03,561 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 11:29:07,825 - INFO - ✓ Login successful
+2026-05-27 11:29:07,885 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-27 11:29:08,156 - INFO - ✓ Logo  → logo_processed.png  |  55.3 KB  |  PNG lossless
+2026-05-27 11:29:08,230 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-27 11:29:09,504 - INFO - ✓ Splash → splash_processed.png  |  0.70 MB  |  PNG lossless
+2026-05-27 11:29:09,633 - INFO -   Colours extracted from logo:
+2026-05-27 11:29:09,633 - INFO -     Header Color     →  #403020  (dominant logo colour)
+2026-05-27 11:29:09,634 - INFO -     Background Color →  #291F14  (35% darker)
+2026-05-27 11:29:09,634 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-27 11:29:09,635 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-27 11:29:09,642 - INFO - Going to App Settings...
+2026-05-27 11:29:16,185 - INFO -   → Identity & Branding section opened
+2026-05-27 11:29:18,366 - INFO -   → Edit Branding popup opened
+2026-05-27 11:29:18,390 - INFO - ✓ Brand setting form is ready
+2026-05-27 11:29:18,391 - INFO -   Setting company name: 131RLA
+2026-05-27 11:29:19,581 - INFO -     → HeaderColor: #403020
+2026-05-27 11:29:20,501 - INFO -     → FooterColor: #F5F5F5
+2026-05-27 11:29:21,314 - INFO -     → BodyColor: #FFFFFF
+2026-05-27 11:29:22,130 - INFO -     → BackgroundColor: #291F14
+2026-05-27 11:29:24,211 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-27 11:29:26,320 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-27 11:29:26,537 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-27 11:29:29,577 - INFO - ✓ Brand settings saved successfully!
+2026-05-27 11:29:29,577 - INFO - Going to App Settings for Support Network...
+2026-05-27 11:29:32,858 - INFO -   → Support Network section opened
+2026-05-27 11:29:34,280 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/34bd80e08bc073d6d1bc3d62a9f74869
+2026-05-27 11:29:34,281 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/34bd80e08bc073d6d1bc3d62a9f74869
+2026-05-27 11:29:34,282 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=45941): Failed to establish a new connection: [Errno 111] Connection refused")': /session/34bd80e08bc073d6d1bc3d62a9f74869
+2026-05-27 11:29:34,283 - INFO - Browser closed
+2026-05-27 11:29:34,285 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47073): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a3d08bdbc94a7a8d45d7267324a8f542
+2026-05-27 11:29:34,286 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47073): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a3d08bdbc94a7a8d45d7267324a8f542
+2026-05-27 11:29:34,287 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47073): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a3d08bdbc94a7a8d45d7267324a8f542
+2026-05-27 11:29:34,288 - INFO -   Browser closed
+2026-05-27 11:29:34,288 - INFO - Automation cancelled by user (Ctrl+C)

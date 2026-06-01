@@ -1,0 +1,62 @@
+2026-05-15 23:38:18,686 - INFO - User selected: Intro Screens
+2026-05-15 23:38:18,687 - INFO - ============================================================
+2026-05-15 23:38:18,687 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 23:38:18,687 - INFO - ============================================================
+2026-05-15 23:38:18,687 - INFO - Found 1 intro image(s) in introscreen/
+2026-05-15 23:38:18,701 - INFO -   ⚙ Processing dc5e53ff-56e9-4a8e-9968-3e963a00f10d.png  (941×1672 → need 1080×1920)
+2026-05-15 23:38:18,921 - INFO -   ✓ dc5e53ff-56e9-4a8e-9968-3e963a00f10d.png  →  dc5e53ff-56e9-4a8e-9968-3e963a00f10d_processed.jpg  |  1080×1920  |  0.22 MB  |  quality 92
+2026-05-15 23:38:18,922 - INFO -   Processed 1/1 intro images successfully
+
+2026-05-15 23:38:21,568 - INFO - ============================================================
+2026-05-15 23:38:21,568 - INFO - INTRO SCREENS — Browser Automation
+2026-05-15 23:38:21,568 - INFO - ============================================================
+2026-05-15 23:38:24,246 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 23:38:25,817 - INFO - ✓ Chrome driver initialized
+2026-05-15 23:38:25,817 - INFO - Opening login page...
+2026-05-15 23:38:27,731 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 23:38:47,987 - ERROR - Login failed: Message: 
+
+2026-05-15 23:38:48,340 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260515_233847.png
+2026-05-15 23:38:48,341 - ERROR - ✗ Login failed. Aborting.
+2026-05-15 23:38:48,524 - INFO - Browser closed
+2026-05-15 23:38:48,524 - INFO - 
+Task finished at 2026-05-15 23:38:48
+2026-05-15 23:38:48,524 - INFO - Log: automation/logs/full_automation_20260515_233801.log
+
+2026-05-15 23:39:17,898 - INFO - User selected: Intro Screens
+2026-05-15 23:39:17,899 - INFO - ============================================================
+2026-05-15 23:39:17,899 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 23:39:17,900 - INFO - ============================================================
+2026-05-15 23:39:17,901 - INFO - Found 1 intro image(s) in introscreen/
+2026-05-15 23:39:17,902 - INFO -   ⚙ Processing dc5e53ff-56e9-4a8e-9968-3e963a00f10d.png  (941×1672 → need 1080×1920)
+2026-05-15 23:39:18,120 - INFO -   ✓ dc5e53ff-56e9-4a8e-9968-3e963a00f10d.png  →  dc5e53ff-56e9-4a8e-9968-3e963a00f10d_processed.jpg  |  1080×1920  |  0.22 MB  |  quality 92
+2026-05-15 23:39:18,122 - INFO -   Processed 1/1 intro images successfully
+
+2026-05-15 23:39:19,732 - INFO - ============================================================
+2026-05-15 23:39:19,732 - INFO - INTRO SCREENS — Browser Automation
+2026-05-15 23:39:19,732 - INFO - ============================================================
+2026-05-15 23:39:20,168 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 23:39:21,419 - INFO - ✓ Chrome driver initialized
+2026-05-15 23:39:21,419 - INFO - Opening login page...
+2026-05-15 23:39:23,751 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 23:39:26,393 - INFO - ✓ Login successful
+2026-05-15 23:39:28,393 - INFO - Going to App Settings...
+2026-05-15 23:39:34,887 - INFO -   → Intro Screens section opened
+2026-05-15 23:39:34,932 - INFO - ✓ Intro Screens page ready
+2026-05-15 23:39:34,933 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-05-15 23:39:34,934 - INFO - ============================================================
+2026-05-15 23:39:34,934 - INFO - [1/1]
+2026-05-15 23:39:34,934 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-15 23:39:37,288 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-15 23:39:38,148 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-15 23:39:40,233 - INFO -     → Image uploaded: dc5e53ff-56e9-4a8e-9968-3e963a00f10d_processed.jpg
+2026-05-15 23:39:40,387 - INFO -     → Launch Screen clicked
+2026-05-15 23:39:44,414 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-15 23:39:45,415 - INFO - ============================================================
+2026-05-15 23:39:45,415 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-05-15 23:39:45,561 - INFO - Browser closed
+2026-05-15 23:39:45,561 - INFO - 
+Task finished at 2026-05-15 23:39:45
+2026-05-15 23:39:45,562 - INFO - Log: automation/logs/full_automation_20260515_233801.log
+

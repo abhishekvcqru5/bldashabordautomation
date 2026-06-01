@@ -1,0 +1,423 @@
+2026-05-15 12:39:13,995 - INFO - User selected: Gift Management
+2026-05-15 12:39:14,971 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 12:39:17,816 - INFO - ✓ Chrome driver initialized
+2026-05-15 12:39:17,818 - INFO - Opening login page...
+2026-05-15 12:39:20,865 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 12:39:32,462 - INFO - ✓ Login successful
+2026-05-15 12:39:34,463 - INFO - Going to App Settings...
+2026-05-15 12:39:41,419 - INFO -   → Gift Management section opened
+2026-05-15 12:39:41,513 - INFO -   Found 26 gifts to process
+2026-05-15 12:39:41,514 - INFO -   --- Processing Gift 1 of 26 ---
+2026-05-15 12:39:43,378 - INFO -     → Action button 1 clicked
+2026-05-15 12:39:45,796 - INFO -     → Edit Offering clicked
+2026-05-15 12:39:47,044 - INFO -     → Old image removed
+2026-05-15 12:39:49,391 - INFO -     → Image uploaded
+2026-05-15 12:39:50,713 - INFO -     → Cash Out enabled
+2026-05-15 12:39:52,077 - INFO -     → IMPS button clicked
+2026-05-15 12:39:55,504 - INFO -   ✓ Gift 1 updated successfully
+2026-05-15 12:39:56,580 - INFO -   --- Processing Gift 2 of 26 ---
+2026-05-15 12:39:58,713 - INFO -     → Action button 2 clicked
+2026-05-15 12:40:01,007 - INFO -     → Edit Offering clicked
+2026-05-15 12:40:02,243 - INFO -     → Old image removed
+2026-05-15 12:40:04,318 - INFO -     → Image uploaded
+2026-05-15 12:40:05,573 - INFO -     → Cash Out enabled
+2026-05-15 12:40:06,854 - INFO -     → IMPS button clicked
+2026-05-15 12:40:10,312 - INFO -   ✓ Gift 2 updated successfully
+2026-05-15 12:40:11,402 - INFO -   --- Processing Gift 3 of 26 ---
+2026-05-15 12:40:13,392 - INFO -     → Action button 3 clicked
+2026-05-15 12:40:15,783 - INFO -     → Edit Offering clicked
+2026-05-15 12:40:17,128 - INFO -     → Old image removed
+2026-05-15 12:40:19,244 - INFO -     → Image uploaded
+2026-05-15 12:40:20,545 - INFO -     → Cash Out enabled
+2026-05-15 12:40:21,833 - INFO -     → IMPS button clicked
+2026-05-15 12:40:25,491 - INFO -   ✓ Gift 3 updated successfully
+2026-05-15 12:40:26,520 - INFO -   --- Processing Gift 4 of 26 ---
+2026-05-15 12:40:28,522 - INFO -     → Action button 4 clicked
+2026-05-15 12:40:30,898 - INFO -     → Edit Offering clicked
+2026-05-15 12:40:32,106 - INFO -     → Old image removed
+2026-05-15 12:40:34,413 - INFO -     → Image uploaded
+2026-05-15 12:40:35,666 - INFO -     → Cash Out enabled
+2026-05-15 12:40:55,880 - WARNING -     ⚠ Could not find IMPS button: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:40:59,154 - INFO -   ✓ Gift 4 updated successfully
+2026-05-15 12:41:00,200 - INFO -   --- Processing Gift 5 of 26 ---
+2026-05-15 12:41:02,106 - INFO -     → Action button 5 clicked
+2026-05-15 12:41:04,482 - INFO -     → Edit Offering clicked
+2026-05-15 12:41:05,715 - INFO -     → Old image removed
+2026-05-15 12:41:07,826 - INFO -     → Image uploaded
+2026-05-15 12:41:09,099 - INFO -     → Cash Out enabled
+2026-05-15 12:41:29,453 - WARNING -     ⚠ Could not find IMPS button: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:41:32,790 - INFO -   ✓ Gift 5 updated successfully
+2026-05-15 12:41:33,888 - INFO -   --- Processing Gift 6 of 26 ---
+2026-05-15 12:41:35,712 - INFO -     → Action button 6 clicked
+2026-05-15 12:41:38,371 - INFO -     → Edit Offering clicked
+2026-05-15 12:41:38,455 - WARNING -     ⚠ Upload failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:41:58,970 - WARNING -     ⚠ Could not find Cash Out toggle: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:42:19,081 - WARNING -     ⚠ Could not find IMPS button: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:42:39,315 - ERROR -   ✗ Error processing Gift 6: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:42:39,816 - INFO -   📸 Screenshot saved: automation/screenshots/gift_gift_error_6_20260515_124239.png
+2026-05-15 12:42:39,894 - INFO -   --- Processing Gift 7 of 26 ---
+2026-05-15 12:42:41,903 - INFO -     → Action button 7 clicked
+2026-05-15 12:42:44,222 - INFO -     → Edit Offering clicked
+2026-05-15 12:42:45,517 - INFO -     → Old image removed
+2026-05-15 12:42:47,649 - INFO -     → Image uploaded
+2026-05-15 12:42:48,975 - INFO -     → Cash Out enabled
+2026-05-15 12:42:50,343 - INFO -     → IMPS button clicked
+2026-05-15 12:42:53,684 - INFO -   ✓ Gift 7 updated successfully
+2026-05-15 12:42:54,805 - INFO -   --- Processing Gift 8 of 26 ---
+2026-05-15 12:42:56,904 - INFO -     → Action button 8 clicked
+2026-05-15 12:42:59,208 - INFO -     → Edit Offering clicked
+2026-05-15 12:43:00,372 - INFO -     → Old image removed
+2026-05-15 12:43:02,574 - INFO -     → Image uploaded
+2026-05-15 12:43:03,932 - INFO -     → Cash Out enabled
+2026-05-15 12:43:05,444 - INFO -     → IMPS button clicked
+2026-05-15 12:43:08,698 - INFO -   ✓ Gift 8 updated successfully
+2026-05-15 12:43:09,995 - INFO -   --- Processing Gift 9 of 26 ---
+2026-05-15 12:43:12,650 - INFO -     → Action button 9 clicked
+2026-05-15 12:43:15,065 - INFO -     → Edit Offering clicked
+2026-05-15 12:43:16,361 - INFO -     → Old image removed
+2026-05-15 12:43:18,520 - INFO -     → Image uploaded
+2026-05-15 12:43:20,561 - INFO -     → Cash Out enabled
+2026-05-15 12:43:22,015 - INFO -     → IMPS button clicked
+2026-05-15 12:43:25,200 - INFO -   ✓ Gift 9 updated successfully
+2026-05-15 12:43:26,244 - INFO -   --- Processing Gift 10 of 26 ---
+2026-05-15 12:43:28,555 - INFO -     → Action button 10 clicked
+2026-05-15 12:43:30,950 - INFO -     → Edit Offering clicked
+2026-05-15 12:43:32,174 - INFO -     → Old image removed
+2026-05-15 12:43:34,407 - INFO -     → Image uploaded
+2026-05-15 12:43:36,005 - INFO -     → Cash Out enabled
+2026-05-15 12:43:37,294 - INFO -     → IMPS button clicked
+2026-05-15 12:43:40,673 - INFO -   ✓ Gift 10 updated successfully
+2026-05-15 12:43:41,730 - INFO -   --- Processing Gift 11 of 26 ---
+2026-05-15 12:43:43,805 - INFO -     → Action button 11 clicked
+2026-05-15 12:43:46,110 - INFO -     → Edit Offering clicked
+2026-05-15 12:43:47,394 - INFO -     → Old image removed
+2026-05-15 12:43:49,511 - INFO -     → Image uploaded
+2026-05-15 12:43:50,802 - INFO -     → Cash Out enabled
+2026-05-15 12:43:52,201 - INFO -     → IMPS button clicked
+2026-05-15 12:43:55,531 - INFO -   ✓ Gift 11 updated successfully
+2026-05-15 12:43:56,673 - INFO -   --- Processing Gift 12 of 26 ---
+2026-05-15 12:43:58,854 - INFO -     → Action button 12 clicked
+2026-05-15 12:44:01,193 - INFO -     → Edit Offering clicked
+2026-05-15 12:44:02,416 - INFO -     → Old image removed
+2026-05-15 12:44:04,520 - INFO -     → Image uploaded
+2026-05-15 12:44:05,833 - INFO -     → Cash Out enabled
+2026-05-15 12:44:07,047 - INFO -     → IMPS button clicked
+2026-05-15 12:44:10,420 - INFO -   ✓ Gift 12 updated successfully
+2026-05-15 12:44:11,528 - INFO -   --- Processing Gift 13 of 26 ---
+2026-05-15 12:44:13,415 - INFO -     → Action button 13 clicked
+2026-05-15 12:44:15,784 - INFO -     → Edit Offering clicked
+2026-05-15 12:44:17,365 - INFO -     → Old image removed
+2026-05-15 12:44:19,484 - INFO -     → Image uploaded
+2026-05-15 12:44:20,737 - INFO -     → Cash Out enabled
+2026-05-15 12:44:21,986 - INFO -     → IMPS button clicked
+2026-05-15 12:44:25,326 - INFO -   ✓ Gift 13 updated successfully
+2026-05-15 12:44:26,382 - INFO -   --- Processing Gift 14 of 26 ---
+2026-05-15 12:44:28,778 - INFO -     → Action button 14 clicked
+2026-05-15 12:44:31,112 - INFO -     → Edit Offering clicked
+2026-05-15 12:44:32,438 - INFO -     → Old image removed
+2026-05-15 12:44:34,545 - INFO -     → Image uploaded
+2026-05-15 12:44:35,745 - INFO -     → Cash Out enabled
+2026-05-15 12:44:36,938 - INFO -     → IMPS button clicked
+2026-05-15 12:44:40,271 - INFO -   ✓ Gift 14 updated successfully
+2026-05-15 12:44:41,349 - INFO -   --- Processing Gift 15 of 26 ---
+2026-05-15 12:44:43,715 - INFO -     → Action button 15 clicked
+2026-05-15 12:44:46,180 - INFO -     → Edit Offering clicked
+2026-05-15 12:44:47,354 - INFO -     → Old image removed
+2026-05-15 12:44:49,494 - INFO -     → Image uploaded
+2026-05-15 12:44:50,831 - INFO -     → Cash Out enabled
+2026-05-15 12:44:52,063 - INFO -     → IMPS button clicked
+2026-05-15 12:44:55,762 - INFO -   ✓ Gift 15 updated successfully
+2026-05-15 12:44:56,857 - INFO -   --- Processing Gift 16 of 26 ---
+2026-05-15 12:44:59,010 - INFO -     → Action button 16 clicked
+2026-05-15 12:45:01,332 - INFO -     → Edit Offering clicked
+2026-05-15 12:45:02,589 - INFO -     → Old image removed
+2026-05-15 12:45:04,692 - INFO -     → Image uploaded
+2026-05-15 12:45:05,979 - INFO -     → Cash Out enabled
+2026-05-15 12:45:07,247 - INFO -     → IMPS button clicked
+2026-05-15 12:45:10,555 - INFO -   ✓ Gift 16 updated successfully
+2026-05-15 12:45:11,606 - INFO -   --- Processing Gift 17 of 26 ---
+2026-05-15 12:45:13,741 - INFO -     → Action button 17 clicked
+2026-05-15 12:45:16,059 - INFO -     → Edit Offering clicked
+2026-05-15 12:45:17,336 - INFO -     → Old image removed
+2026-05-15 12:45:19,449 - INFO -     → Image uploaded
+2026-05-15 12:45:20,852 - INFO -     → Cash Out enabled
+2026-05-15 12:45:22,318 - INFO -     → IMPS button clicked
+2026-05-15 12:45:25,869 - INFO -   ✓ Gift 17 updated successfully
+2026-05-15 12:45:26,911 - INFO -   --- Processing Gift 18 of 26 ---
+2026-05-15 12:45:29,094 - INFO -     → Action button 18 clicked
+2026-05-15 12:45:31,402 - INFO -     → Edit Offering clicked
+2026-05-15 12:45:32,628 - INFO -     → Old image removed
+2026-05-15 12:45:34,704 - INFO -     → Image uploaded
+2026-05-15 12:45:35,964 - INFO -     → Cash Out enabled
+2026-05-15 12:45:37,312 - INFO -     → IMPS button clicked
+2026-05-15 12:45:40,665 - INFO -   ✓ Gift 18 updated successfully
+2026-05-15 12:45:41,791 - INFO -   --- Processing Gift 19 of 26 ---
+2026-05-15 12:45:43,734 - INFO -     → Action button 19 clicked
+2026-05-15 12:45:46,047 - INFO -     → Edit Offering clicked
+2026-05-15 12:45:47,247 - INFO -     → Old image removed
+2026-05-15 12:45:49,390 - INFO -     → Image uploaded
+2026-05-15 12:45:50,731 - INFO -     → Cash Out enabled
+2026-05-15 12:45:52,022 - INFO -     → IMPS button clicked
+2026-05-15 12:45:55,894 - INFO -   ✓ Gift 19 updated successfully
+2026-05-15 12:45:56,959 - INFO -   --- Processing Gift 20 of 26 ---
+2026-05-15 12:45:58,915 - INFO -     → Action button 20 clicked
+2026-05-15 12:46:01,274 - INFO -     → Edit Offering clicked
+2026-05-15 12:46:02,619 - INFO -     → Old image removed
+2026-05-15 12:46:04,790 - INFO -     → Image uploaded
+2026-05-15 12:46:06,111 - INFO -     → Cash Out enabled
+2026-05-15 12:46:07,653 - INFO -     → IMPS button clicked
+2026-05-15 12:46:11,224 - INFO -   ✓ Gift 20 updated successfully
+2026-05-15 12:46:12,288 - INFO -   --- Processing Gift 21 of 26 ---
+2026-05-15 12:46:14,597 - INFO -     → Action button 21 clicked
+2026-05-15 12:46:17,174 - INFO -     → Edit Offering clicked
+2026-05-15 12:46:18,554 - INFO -     → Old image removed
+2026-05-15 12:46:21,329 - INFO -     → Image uploaded
+2026-05-15 12:46:22,708 - INFO -     → Cash Out enabled
+2026-05-15 12:46:23,923 - INFO -     → IMPS button clicked
+2026-05-15 12:46:27,270 - INFO -   ✓ Gift 21 updated successfully
+2026-05-15 12:46:28,291 - INFO -   --- Processing Gift 22 of 26 ---
+2026-05-15 12:46:30,156 - INFO -     → Action button 22 clicked
+2026-05-15 12:46:32,626 - INFO -     → Edit Offering clicked
+2026-05-15 12:46:34,058 - INFO -     → Old image removed
+2026-05-15 12:46:36,142 - INFO -     → Image uploaded
+2026-05-15 12:46:37,431 - INFO -     → Cash Out enabled
+2026-05-15 12:46:57,604 - WARNING -     ⚠ Could not find IMPS button: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:47:01,162 - INFO -   ✓ Gift 22 updated successfully
+2026-05-15 12:47:02,256 - INFO -   --- Processing Gift 23 of 26 ---
+2026-05-15 12:47:04,314 - INFO -     → Action button 23 clicked
+2026-05-15 12:47:05,740 - ERROR -   ✗ Error processing Gift 23: Message: element click intercepted: Element <button class="w-full flex items-center gap-3 p-2.5 rounded-lg transition-all group text-left whitespace-nowrap hover:bg-gray-50 dark:hover:bg-white/[0.04] cursor-pointer active:scale-[0.98]">...</button> is not clickable at point (1290, 455). Other element would receive the click: <td class="px-6 py-4 text-right sticky right-0 bg-white dark:bg-dark group-hover:bg-gray-50 dark:group-hover:bg-dark-900/30 z-20 focus-within:z-50 border-l border-gray-100 dark:border-gray-800">...</td>
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e215d7b <unknown>
+#3 0x5d331e2139b2 <unknown>
+#4 0x5d331e210ec9 <unknown>
+#5 0x5d331e20ffc7 <unknown>
+#6 0x5d331e2044a1 <unknown>
+#7 0x5d331e2039f8 <unknown>
+#8 0x5d331e257175 <unknown>
+#9 0x5d331e202204 <unknown>
+#10 0x5d331e202fc1 <unknown>
+#11 0x5d331e76f9cb <unknown>
+#12 0x5d331e772c93 <unknown>
+#13 0x5d331e75d65c <unknown>
+#14 0x5d331e773429 <unknown>
+#15 0x5d331e7459d7 <unknown>
+#16 0x5d331e799c08 <unknown>
+#17 0x5d331e799e33 <unknown>
+#18 0x5d331e7aadf7 <unknown>
+#19 0x770e89c9caa4 <unknown>
+#20 0x770e89d29c6c <unknown>
+
+2026-05-15 12:47:06,340 - INFO -   📸 Screenshot saved: automation/screenshots/gift_gift_error_23_20260515_124705.png
+2026-05-15 12:47:06,386 - INFO -   --- Processing Gift 24 of 26 ---
+2026-05-15 12:47:08,170 - ERROR -   ✗ Error processing Gift 24: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-transparent border-2 border-gray-300 text-gray-700 dark:border-white/20 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/5 focus:ring-gray-400 !border-gray-200 dark:!border-white/10 hover:!text-indigo-600 hover:!border-indigo-200 hover:bg-indigo-50/50 dark:hover:bg-indigo-900/10">...</button> is not clickable at point (1327, 418). Other element would receive the click: <button class="w-full flex items-center gap-3 p-2.5 rounded-lg transition-all group text-left whitespace-nowrap hover:bg-gray-50 dark:hover:bg-white/[0.04] cursor-pointer active:scale-[0.98]">...</button>
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e215d7b <unknown>
+#3 0x5d331e2139b2 <unknown>
+#4 0x5d331e210ec9 <unknown>
+#5 0x5d331e20ffc7 <unknown>
+#6 0x5d331e2040b2 <unknown>
+#7 0x5d331e2039f8 <unknown>
+#8 0x5d331e257175 <unknown>
+#9 0x5d331e202204 <unknown>
+#10 0x5d331e202fc1 <unknown>
+#11 0x5d331e76f9cb <unknown>
+#12 0x5d331e772c93 <unknown>
+#13 0x5d331e75d65c <unknown>
+#14 0x5d331e773429 <unknown>
+#15 0x5d331e7459d7 <unknown>
+#16 0x5d331e799c08 <unknown>
+#17 0x5d331e799e33 <unknown>
+#18 0x5d331e7aadf7 <unknown>
+#19 0x770e89c9caa4 <unknown>
+#20 0x770e89d29c6c <unknown>
+
+2026-05-15 12:47:08,533 - INFO -   📸 Screenshot saved: automation/screenshots/gift_gift_error_24_20260515_124708.png
+2026-05-15 12:47:08,553 - INFO -   --- Processing Gift 25 of 26 ---
+2026-05-15 12:47:10,392 - INFO -     → Action button 25 clicked
+2026-05-15 12:47:12,838 - INFO -     → Edit Offering clicked
+2026-05-15 12:47:14,084 - INFO -     → Old image removed
+2026-05-15 12:47:16,184 - INFO -     → Image uploaded
+2026-05-15 12:47:17,549 - INFO -     → Cash Out enabled
+2026-05-15 12:47:18,990 - INFO -     → IMPS button clicked
+2026-05-15 12:47:22,384 - INFO -   ✓ Gift 25 updated successfully
+2026-05-15 12:47:23,534 - INFO -   --- Processing Gift 26 of 26 ---
+2026-05-15 12:47:25,645 - INFO -     → Action button 26 clicked
+2026-05-15 12:47:28,146 - INFO -     → Edit Offering clicked
+2026-05-15 12:47:29,605 - INFO -     → Old image removed
+2026-05-15 12:47:31,712 - INFO -     → Image uploaded
+2026-05-15 12:47:32,949 - INFO -     → Cash Out enabled
+2026-05-15 12:47:53,242 - WARNING -     ⚠ Could not find IMPS button: Message: 
+Stacktrace:
+#0 0x5d331e7ac3ea <unknown>
+#1 0x5d331e1bc845 <unknown>
+#2 0x5d331e20e9c4 <unknown>
+#3 0x5d331e20ecf1 <unknown>
+#4 0x5d331e259fa4 <unknown>
+#5 0x5d331e257175 <unknown>
+#6 0x5d331e202204 <unknown>
+#7 0x5d331e202fc1 <unknown>
+#8 0x5d331e76f9cb <unknown>
+#9 0x5d331e772c93 <unknown>
+#10 0x5d331e75d65c <unknown>
+#11 0x5d331e773429 <unknown>
+#12 0x5d331e7459d7 <unknown>
+#13 0x5d331e799c08 <unknown>
+#14 0x5d331e799e33 <unknown>
+#15 0x5d331e7aadf7 <unknown>
+#16 0x770e89c9caa4 <unknown>
+#17 0x770e89d29c6c <unknown>
+
+2026-05-15 12:47:56,597 - INFO -   ✓ Gift 26 updated successfully
+2026-05-15 12:47:57,690 - INFO - ✓ Finished processing all gifts in the table
+2026-05-15 12:47:58,489 - INFO - Browser closed
+2026-05-15 12:47:58,492 - INFO - 
+Task finished at 2026-05-15 12:47:58
+2026-05-15 12:47:58,492 - INFO - Log: automation/logs/full_automation_20260515_123853.log
+

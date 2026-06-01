@@ -1,0 +1,74 @@
+2026-05-14 10:45:30,191 - INFO - User selected: Old Dashboard
+2026-05-14 10:45:32,199 - INFO -   Old Dashboard → Brand Setting
+2026-05-14 10:45:32,199 - INFO - ============================================================
+2026-05-14 10:45:32,199 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-14 10:45:32,200 - INFO - ============================================================
+2026-05-14 10:45:33,951 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 10:45:35,706 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-14 10:45:35,706 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-14 10:45:42,634 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-14 10:45:44,635 - INFO -     → Filling credentials …
+2026-05-14 10:45:44,892 - INFO -       Email → field #login_txt_id
+2026-05-14 10:45:45,027 - INFO -       Password → field #login_txt_pass
+2026-05-14 10:45:45,144 - INFO -       Login button clicked: #btnVendor
+2026-05-14 10:45:45,144 - INFO -     → Waiting for post-login redirect …
+2026-05-14 10:45:48,837 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Message.aspx
+2026-05-14 10:45:48,838 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-14 10:46:20,987 - INFO - 
+[3/4] Extracting brand data …
+2026-05-14 10:46:21,316 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-14 10:46:21,627 - INFO -   ✓ Downloaded: logo.png  (9.4 KB)
+2026-05-14 10:46:21,968 - INFO -   ✓ Downloaded: splash.png  (129.6 KB)
+2026-05-14 10:46:21,974 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-14 10:46:22,165 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-14 10:46:22,552 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 10:46:23,559 - INFO - ✓ Chrome driver initialized
+2026-05-14 10:46:23,559 - INFO - Opening login page...
+2026-05-14 10:46:25,234 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 10:46:29,847 - INFO - ✓ Login successful
+2026-05-14 10:46:29,909 - INFO - ✓ Logo  → logo_processed.jpg  |  33.9 KB  |  JPEG q95
+2026-05-14 10:46:29,999 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-14 10:46:30,986 - INFO - ✓ Splash → splash_processed.png  |  0.45 MB  |  PNG lossless
+2026-05-14 10:46:31,060 - INFO -   Colours extracted from logo:
+2026-05-14 10:46:31,061 - INFO -     Header Color     →  #202080  (dominant logo colour)
+2026-05-14 10:46:31,061 - INFO -     Background Color →  #141453  (35% darker)
+2026-05-14 10:46:31,061 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-14 10:46:31,061 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-14 10:46:31,065 - INFO - Going to App Settings...
+2026-05-14 10:46:37,532 - INFO -   → Identity & Branding section opened
+2026-05-14 10:46:39,669 - INFO -   → Edit Branding popup opened
+2026-05-14 10:46:39,684 - INFO - ✓ Brand setting form is ready
+2026-05-14 10:46:39,684 - INFO -   Setting company name: Welcome
+2026-05-14 10:46:40,499 - INFO -     → HeaderColor: #202080
+2026-05-14 10:46:41,155 - INFO -     → FooterColor: #F5F5F5
+2026-05-14 10:46:41,796 - INFO -     → BodyColor: #FFFFFF
+2026-05-14 10:46:42,437 - INFO -     → BackgroundColor: #141453
+2026-05-14 10:46:44,484 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-14 10:46:46,514 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-14 10:46:46,642 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-14 10:46:49,666 - INFO - ✓ Brand settings saved successfully!
+2026-05-14 10:46:49,666 - INFO - Going to App Settings for Support Network...
+2026-05-14 10:46:52,954 - INFO -   → Support Network section opened
+2026-05-14 10:46:56,103 - INFO -   → Edit Support Network popup opened
+2026-05-14 10:46:58,104 - INFO - ✓ Support Network form is ready
+2026-05-14 10:46:58,221 - WARNING -     ⚠ Could not find field for: phone
+2026-05-14 10:46:58,427 - INFO -     ✓ email filled
+2026-05-14 10:46:58,496 - WARNING -     ⚠ Could not find field for: website
+2026-05-14 10:46:58,810 - INFO -     ✓ terms_conditions filled
+2026-05-14 10:46:59,457 - INFO -     ✓ support_content filled
+2026-05-14 10:46:59,457 - INFO -     ⏭ Skipping empty field: privacy_policy
+2026-05-14 10:47:00,492 - INFO -   → Save clicked
+2026-05-14 10:47:03,493 - INFO - ✓ Support Network saved successfully!
+2026-05-14 10:47:03,650 - INFO - Browser closed
+2026-05-14 10:47:03,652 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56743): Failed to establish a new connection: [Errno 111] Connection refused")': /session/7865b71318a153e7006814821e28be20
+2026-05-14 10:47:03,652 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56743): Failed to establish a new connection: [Errno 111] Connection refused")': /session/7865b71318a153e7006814821e28be20
+2026-05-14 10:47:03,653 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56743): Failed to establish a new connection: [Errno 111] Connection refused")': /session/7865b71318a153e7006814821e28be20
+2026-05-14 10:47:03,654 - INFO -   Browser closed
+2026-05-14 10:47:03,655 - INFO - 
+Task finished at 2026-05-14 10:47:03
+2026-05-14 10:47:03,655 - INFO - Log: automation/logs/full_automation_20260514_104510.log
+

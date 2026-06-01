@@ -1,0 +1,541 @@
+2026-05-19 14:29:21,853 - INFO - User selected: Old Dashboard
+2026-05-19 14:29:24,304 - INFO -   Old Dashboard → Introduction Setting
+2026-05-19 14:29:24,305 - INFO - ============================================================
+2026-05-19 14:29:24,305 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-19 14:29:24,305 - INFO - ============================================================
+2026-05-19 14:29:24,818 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:29:26,123 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-19 14:29:33,376 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-19 14:29:33,755 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-19 14:29:36,755 - INFO -   → Filling Vendor credentials...
+2026-05-19 14:29:37,177 - INFO -     - Email entered: sales@fineswitches.com
+2026-05-19 14:29:37,177 - INFO -     - Clicking 'login' button...
+2026-05-19 14:29:37,294 - INFO -   → Waiting for successful login redirect...
+2026-05-19 14:29:45,078 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:29:45,090 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:29:50,188 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-19 14:29:50,225 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-19 14:29:53,340 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-19 14:29:59,068 - INFO -   → Searching for introduction screens data...
+2026-05-19 14:29:59,143 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-05-19 14:29:59,206 - INFO -     → Found 1 potential rows to extract
+2026-05-19 14:29:59,290 - INFO -     → Downloading image for: Welcome to the Fine Parivar Ap...
+2026-05-19 14:29:59,640 - INFO -     ✓ Extracted 1/1
+2026-05-19 14:29:59,845 - INFO - ✓ Extracted 1 screens.
+2026-05-19 14:29:59,845 - INFO - 
+============================================================
+2026-05-19 14:29:59,845 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-05-19 14:29:59,845 - INFO - ============================================================
+2026-05-19 14:29:59,867 - INFO -   ⚙ Processing old_intro_1_20260519_142959.jpg  (336×430 → need 1080×1920)
+2026-05-19 14:30:00,003 - INFO -   ✓ old_intro_1_20260519_142959.jpg  →  old_intro_1_20260519_142959_processed.jpg  |  1080×1920  |  0.21 MB  |  quality 92
+2026-05-19 14:30:00,004 - INFO - 
+============================================================
+2026-05-19 14:30:00,004 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-05-19 14:30:00,004 - INFO - ============================================================
+2026-05-19 14:30:00,639 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:30:02,168 - INFO - ✓ Chrome driver initialized
+2026-05-19 14:30:02,168 - INFO - Opening login page...
+2026-05-19 14:30:03,976 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 14:30:05,043 - INFO - ✓ Login successful
+2026-05-19 14:30:05,043 - INFO - Going to App Settings...
+2026-05-19 14:30:11,890 - INFO -   → Intro Screens section opened
+2026-05-19 14:30:11,913 - INFO - ✓ Intro Screens page ready
+2026-05-19 14:30:11,913 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-05-19 14:30:11,913 - INFO - ============================================================
+2026-05-19 14:30:11,913 - INFO - [1/1]
+2026-05-19 14:30:11,913 - INFO -   Launching screen: [Welcome to the Fine Parivar App]
+2026-05-19 14:30:14,341 - INFO -     → Header: Welcome to the Fine Parivar App
+2026-05-19 14:30:14,665 - INFO -     → Description: Signup and earn Rewards on every scan...
+2026-05-19 14:30:16,731 - INFO -     → Image uploaded: old_intro_1_20260519_142959_processed.jpg
+2026-05-19 14:30:16,911 - INFO -     → Launch Screen clicked
+2026-05-19 14:30:20,926 - INFO -   ✓ Intro screen launched: Welcome to the Fine Parivar App
+
+2026-05-19 14:30:21,926 - INFO - ============================================================
+2026-05-19 14:30:21,927 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-05-19 14:30:22,125 - INFO - Browser closed
+2026-05-19 14:30:22,125 - INFO - 
+Task finished at 2026-05-19 14:30:22
+2026-05-19 14:30:22,126 - INFO - Log: automation/logs/full_automation_20260519_142905.log
+
+2026-05-19 14:30:25,311 - INFO - User selected: Old Dashboard
+2026-05-19 14:30:28,224 - INFO -   Old Dashboard → Banner BL
+2026-05-19 14:30:28,224 - INFO - ============================================================
+2026-05-19 14:30:28,224 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-05-19 14:30:28,224 - INFO - ============================================================
+2026-05-19 14:30:28,904 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:30:30,555 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-19 14:30:36,162 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-19 14:30:36,397 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-19 14:30:39,397 - INFO -   → Filling Vendor credentials...
+2026-05-19 14:30:39,822 - INFO -     - Email entered: sales@fineswitches.com
+2026-05-19 14:30:39,822 - INFO -     - Clicking 'login' button...
+2026-05-19 14:30:39,929 - INFO -   → Waiting for successful login redirect...
+2026-05-19 14:30:49,110 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:30:49,115 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:30:54,215 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-19 14:30:54,253 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-19 14:30:57,354 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-05-19 14:31:03,716 - INFO -   → Searching for banner images data...
+2026-05-19 14:31:03,851 - INFO -     ✓ Found 4 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-05-19 14:31:03,857 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruBANNER%204.jpg
+2026-05-19 14:31:04,345 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruBANNER%203.jpg
+2026-05-19 14:31:04,834 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/VcqruBANNER%202.jpg
+2026-05-19 14:31:05,408 - INFO -     → Downloading banner 4: https://www.vcqru.com/assets/images/VcqruBANNER%201.jpg
+2026-05-19 14:31:06,096 - INFO - ✓ Extracted 4 banners.
+2026-05-19 14:31:06,096 - INFO - 
+============================================================
+2026-05-19 14:31:06,096 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-05-19 14:31:06,097 - INFO - ============================================================
+2026-05-19 14:31:06,097 - INFO -   ⚙ Processing old_banner_1_20260519_143103.jpg  (size 2483×1104 → need 1920×1080)
+2026-05-19 14:31:06,416 - INFO -   ✓ old_banner_1_20260519_143103.jpg  →  old_banner_1_20260519_143103_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-05-19 14:31:06,416 - INFO -   ⚙ Processing old_banner_2_20260519_143104.jpg  (size 2483×1104 → need 1920×1080)
+2026-05-19 14:31:06,646 - INFO -   ✓ old_banner_2_20260519_143104.jpg  →  old_banner_2_20260519_143104_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-05-19 14:31:06,650 - INFO -   ⚙ Processing old_banner_3_20260519_143104.jpg  (size 2483×1104 → need 1920×1080)
+2026-05-19 14:31:06,881 - INFO -   ✓ old_banner_3_20260519_143104.jpg  →  old_banner_3_20260519_143104_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-19 14:31:06,883 - INFO -   ⚙ Processing old_banner_4_20260519_143105.jpg  (size 2483×1104 → need 1920×1080)
+2026-05-19 14:31:07,096 - INFO -   ✓ old_banner_4_20260519_143105.jpg  →  old_banner_4_20260519_143105_processed.jpg  |  1920×1080  |  0.36 MB  |  quality 92
+2026-05-19 14:31:07,098 - INFO - 
+============================================================
+2026-05-19 14:31:07,098 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-05-19 14:31:07,098 - INFO - ============================================================
+2026-05-19 14:31:07,632 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:31:09,265 - INFO - ✓ Chrome driver initialized
+2026-05-19 14:31:09,265 - INFO - Opening login page...
+2026-05-19 14:31:10,948 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 14:31:11,515 - INFO - ✓ Login successful
+2026-05-19 14:31:11,516 - INFO - Going to App Settings...
+2026-05-19 14:31:18,497 - INFO -   → Promotion Banners section opened
+2026-05-19 14:31:18,529 - INFO - ✓ Promotion Banners page ready
+2026-05-19 14:31:18,530 - INFO - Starting batch  —  4 banner(s) to publish
+2026-05-19 14:31:18,531 - INFO - ============================================================
+2026-05-19 14:31:18,531 - INFO - [1/4]
+2026-05-19 14:31:18,532 - INFO -   Publishing: [old_banner_1]  (old_banner_1_20260519_143103_processed.jpg)
+2026-05-19 14:31:21,032 - INFO -     → Title entered: old_banner_1
+2026-05-19 14:31:23,117 - INFO -     → Image uploaded: old_banner_1_20260519_143103_processed.jpg
+2026-05-19 14:31:23,306 - INFO -     → Publish Banner clicked
+2026-05-19 14:31:27,325 - INFO -   ✓ Banner published: old_banner_1
+
+2026-05-19 14:31:28,327 - INFO - [2/4]
+2026-05-19 14:31:28,329 - INFO -   Publishing: [old_banner_2]  (old_banner_2_20260519_143104_processed.jpg)
+2026-05-19 14:31:30,622 - INFO -     → Title entered: old_banner_2
+2026-05-19 14:31:32,694 - INFO -     → Image uploaded: old_banner_2_20260519_143104_processed.jpg
+2026-05-19 14:31:32,846 - INFO -     → Publish Banner clicked
+2026-05-19 14:31:36,864 - INFO -   ✓ Banner published: old_banner_2
+
+2026-05-19 14:31:37,865 - INFO - [3/4]
+2026-05-19 14:31:37,865 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260519_143104_processed.jpg)
+2026-05-19 14:31:40,262 - INFO -     → Title entered: old_banner_3
+2026-05-19 14:31:42,356 - INFO -     → Image uploaded: old_banner_3_20260519_143104_processed.jpg
+2026-05-19 14:31:42,517 - INFO -     → Publish Banner clicked
+2026-05-19 14:31:46,533 - INFO -   ✓ Banner published: old_banner_3
+
+2026-05-19 14:31:47,533 - INFO - [4/4]
+2026-05-19 14:31:47,533 - INFO -   Publishing: [old_banner_4]  (old_banner_4_20260519_143105_processed.jpg)
+2026-05-19 14:31:49,826 - INFO -     → Title entered: old_banner_4
+2026-05-19 14:31:51,894 - INFO -     → Image uploaded: old_banner_4_20260519_143105_processed.jpg
+2026-05-19 14:31:52,043 - INFO -     → Publish Banner clicked
+2026-05-19 14:31:56,062 - INFO -   ✓ Banner published: old_banner_4
+
+2026-05-19 14:31:57,063 - INFO - ============================================================
+2026-05-19 14:31:57,065 - INFO - Banners done  →  ✓ 4 published   ✗ 0 failed
+2026-05-19 14:31:57,218 - INFO - Browser closed
+2026-05-19 14:31:57,219 - INFO - 
+Task finished at 2026-05-19 14:31:57
+2026-05-19 14:31:57,219 - INFO - Log: automation/logs/full_automation_20260519_142905.log
+
+2026-05-19 14:35:34,746 - INFO - User selected: Old Dashboard
+2026-05-19 14:35:47,398 - INFO -   Old Dashboard → Brand Setting
+2026-05-19 14:35:47,399 - INFO - ============================================================
+2026-05-19 14:35:47,399 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-19 14:35:47,399 - INFO - ============================================================
+2026-05-19 14:35:48,034 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:35:50,050 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-19 14:35:50,050 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-19 14:35:57,198 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-19 14:35:59,198 - INFO -     → Filling credentials …
+2026-05-19 14:35:59,467 - INFO -       Email → field #login_txt_id
+2026-05-19 14:35:59,860 - INFO -       Password → field #login_txt_pass
+2026-05-19 14:36:00,062 - INFO -       Login button clicked: #btnVendor
+2026-05-19 14:36:00,064 - INFO -     → Waiting for post-login redirect …
+2026-05-19 14:36:06,228 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:36:06,230 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-19 14:36:20,378 - INFO - 
+[3/4] Extracting brand data …
+2026-05-19 14:36:20,655 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-19 14:36:20,886 - INFO -   ✓ Downloaded: logo.png  (12.5 KB)
+2026-05-19 14:36:21,241 - INFO -   ✓ Downloaded: splash.png  (139.5 KB)
+2026-05-19 14:36:21,247 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-19 14:36:21,469 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-19 14:36:22,195 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:36:24,052 - INFO - ✓ Chrome driver initialized
+2026-05-19 14:36:24,056 - INFO - Opening login page...
+2026-05-19 14:36:26,105 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 14:36:27,450 - INFO - ✓ Login successful
+2026-05-19 14:36:27,508 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-19 14:36:28,237 - INFO - ✓ Logo  → logo_processed.png  |  144.6 KB  |  PNG lossless
+2026-05-19 14:36:28,321 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-19 14:36:30,651 - INFO - ✓ Splash → splash_processed.png  |  0.82 MB  |  PNG lossless
+2026-05-19 14:36:30,699 - INFO -   Colours extracted from logo:
+2026-05-19 14:36:30,699 - INFO -     Header Color     →  #B01020  (dominant logo colour)
+2026-05-19 14:36:30,699 - INFO -     Background Color →  #720A14  (35% darker)
+2026-05-19 14:36:30,700 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-19 14:36:30,700 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-19 14:36:30,701 - INFO - Going to App Settings...
+2026-05-19 14:36:37,303 - INFO -   → Identity & Branding section opened
+2026-05-19 14:36:39,440 - INFO -   → Edit Branding popup opened
+2026-05-19 14:36:39,462 - INFO - ✓ Brand setting form is ready
+2026-05-19 14:36:39,463 - INFO -   Setting company name: Fine Parivar
+2026-05-19 14:36:40,759 - INFO -     → HeaderColor: #B01020
+2026-05-19 14:36:41,776 - INFO -     → FooterColor: #F5F5F5
+2026-05-19 14:36:43,067 - INFO -     → BodyColor: #FFFFFF
+2026-05-19 14:36:44,168 - INFO -     → BackgroundColor: #720A14
+2026-05-19 14:36:46,241 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-19 14:36:48,320 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-19 14:36:48,538 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-19 14:36:51,554 - INFO - ✓ Brand settings saved successfully!
+2026-05-19 14:36:51,554 - INFO - Going to App Settings for Support Network...
+2026-05-19 14:36:54,833 - INFO -   → Support Network section opened
+2026-05-19 14:36:57,909 - INFO -   → Edit Support Network popup opened
+2026-05-19 14:36:59,909 - INFO - ✓ Support Network form is ready
+2026-05-19 14:37:00,387 - INFO -     ✓ phone filled
+2026-05-19 14:37:00,888 - INFO -     ✓ email filled
+2026-05-19 14:37:01,426 - INFO -     ✓ website filled
+2026-05-19 14:37:02,653 - INFO -     ✓ terms_conditions filled
+2026-05-19 14:37:03,990 - INFO -     ✓ support_content filled
+2026-05-19 14:37:04,908 - INFO -     ✓ privacy_policy filled
+2026-05-19 14:37:06,068 - INFO -   → Save clicked
+2026-05-19 14:37:09,070 - INFO - ✓ Support Network saved successfully!
+2026-05-19 14:37:09,278 - INFO - Browser closed
+2026-05-19 14:37:09,279 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37521): Failed to establish a new connection: [Errno 111] Connection refused")': /session/b5a012fbf550b099aa1dc81695fcfd16
+2026-05-19 14:37:09,279 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37521): Failed to establish a new connection: [Errno 111] Connection refused")': /session/b5a012fbf550b099aa1dc81695fcfd16
+2026-05-19 14:37:09,281 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37521): Failed to establish a new connection: [Errno 111] Connection refused")': /session/b5a012fbf550b099aa1dc81695fcfd16
+2026-05-19 14:37:09,284 - INFO -   Browser closed
+2026-05-19 14:37:09,285 - INFO - 
+Task finished at 2026-05-19 14:37:09
+2026-05-19 14:37:09,285 - INFO - Log: automation/logs/full_automation_20260519_142905.log
+
+2026-05-19 14:50:10,534 - INFO - User selected: Dashboard Icons
+2026-05-19 14:50:10,537 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-19 14:50:10,540 - INFO - Automation started at 2026-05-19 14:50:10
+
+2026-05-19 14:50:10,540 - INFO - ============================================================
+2026-05-19 14:50:10,540 - INFO - STEP 1: Processing and Compressing Images
+2026-05-19 14:50:10,540 - INFO - ============================================================
+2026-05-19 14:50:10,551 - INFO - Processing images from: dashboardicons
+2026-05-19 14:50:10,553 - INFO - Output folder: automation/processed_images
+2026-05-19 14:50:10,556 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-19 14:50:10,637 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-19 14:50:10,651 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-19 14:50:10,680 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-19 14:50:10,700 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-19 14:50:10,711 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-19 14:50:10,732 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-19 14:50:10,743 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-19 14:50:10,749 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-19 14:50:10,767 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-19 14:50:10,777 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-19 14:50:10,790 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-19 14:50:10,804 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-19 14:50:10,818 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-19 14:50:10,830 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-19 14:50:10,830 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-19 14:50:10,831 - INFO - ✓ 14 images processed and ready
+
+2026-05-19 14:50:10,831 - INFO - ============================================================
+2026-05-19 14:50:10,831 - INFO - STEP 2: Preparing Authentication
+2026-05-19 14:50:10,831 - INFO - ============================================================
+2026-05-19 14:50:10,831 - INFO - Using email: sales@fineswitches.com
+2026-05-19 14:50:10,831 - INFO - ✓ Credentials loaded
+
+2026-05-19 14:50:10,831 - INFO - ============================================================
+2026-05-19 14:50:10,831 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-19 14:50:10,831 - INFO - ============================================================
+2026-05-19 14:50:11,555 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:50:14,118 - INFO - ✓ Chrome driver initialized
+2026-05-19 14:50:14,118 - INFO - 
+→ Attempting login...
+
+2026-05-19 14:50:14,123 - INFO - Opening login page...
+2026-05-19 14:50:16,507 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 14:50:17,112 - INFO - ✓ Login successful
+2026-05-19 14:50:19,115 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-19 14:50:19,116 - INFO - Navigating to App Settings...
+2026-05-19 14:50:25,880 - INFO - ✓ Dashboard Icons section loaded
+2026-05-19 14:50:27,884 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-19 14:50:27,885 - INFO - Starting batch – 12 configured entries
+2026-05-19 14:50:31,816 - INFO -   Found 2 user types: ['Retailer', 'Electrician']
+2026-05-19 14:50:31,816 - INFO - Available user types: ['Retailer', 'Electrician']
+2026-05-19 14:50:31,816 - INFO - Total icons to upload after expansion: 24
+2026-05-19 14:50:31,816 - INFO - ============================================================
+2026-05-19 14:50:31,816 - INFO - [1/24]
+2026-05-19 14:50:31,817 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-05-19 14:50:34,332 - INFO -     → User type: Retailer
+2026-05-19 14:50:34,570 - INFO -     → Icon identity: gift
+2026-05-19 14:50:34,807 - INFO -     → Display title: Gift
+2026-05-19 14:50:34,868 - INFO -     → Toggle: both
+2026-05-19 14:50:36,995 - INFO -     → Image uploaded: Gift.png
+2026-05-19 14:50:37,278 - INFO -     → Form submitted
+2026-05-19 14:50:38,370 - INFO -   ✓ Icon added: Gift
+
+2026-05-19 14:50:39,370 - INFO - [2/24]
+2026-05-19 14:50:39,370 - INFO -   Adding: [Electrician] Gift  (gift)
+2026-05-19 14:50:41,897 - INFO -     → User type: Electrician
+2026-05-19 14:50:42,113 - INFO -     → Icon identity: gift
+2026-05-19 14:50:42,464 - INFO -     → Display title: Gift
+2026-05-19 14:50:42,532 - INFO -     → Toggle: both
+2026-05-19 14:50:44,639 - INFO -     → Image uploaded: Gift.png
+2026-05-19 14:50:44,821 - INFO -     → Form submitted
+2026-05-19 14:50:45,857 - INFO -   ✓ Icon added: Gift
+
+2026-05-19 14:50:46,860 - INFO - [3/24]
+2026-05-19 14:50:46,862 - INFO -   Adding: [Retailer] History  (history)
+2026-05-19 14:50:49,654 - INFO -     → User type: Retailer
+2026-05-19 14:50:50,006 - INFO -     → Icon identity: history
+2026-05-19 14:50:50,572 - INFO -     → Display title: History
+2026-05-19 14:50:50,669 - INFO -     → Toggle: both
+2026-05-19 14:50:52,776 - INFO -     → Image uploaded: history.png
+2026-05-19 14:50:52,960 - INFO -     → Form submitted
+2026-05-19 14:50:54,196 - INFO -   ✓ Icon added: History
+
+2026-05-19 14:50:55,197 - INFO - [4/24]
+2026-05-19 14:50:55,198 - INFO -   Adding: [Electrician] History  (history)
+2026-05-19 14:50:57,770 - INFO -     → User type: Electrician
+2026-05-19 14:50:57,916 - INFO -     → Icon identity: history
+2026-05-19 14:50:58,249 - INFO -     → Display title: History
+2026-05-19 14:50:58,360 - INFO -     → Toggle: both
+2026-05-19 14:51:00,504 - INFO -     → Image uploaded: history.png
+2026-05-19 14:51:00,742 - INFO -     → Form submitted
+2026-05-19 14:51:01,761 - INFO -   ✓ Icon added: History
+
+2026-05-19 14:51:02,762 - INFO - [5/24]
+2026-05-19 14:51:02,763 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-05-19 14:51:05,569 - INFO -     → User type: Retailer
+2026-05-19 14:51:05,918 - INFO -     → Icon identity: wallet
+2026-05-19 14:51:06,254 - INFO -     → Display title: Wallet
+2026-05-19 14:51:06,323 - INFO -     → Toggle: both
+2026-05-19 14:51:08,484 - INFO -     → Image uploaded: wallet.png
+2026-05-19 14:51:08,763 - INFO -     → Form submitted
+2026-05-19 14:51:09,839 - INFO -   ✓ Icon added: Wallet
+
+2026-05-19 14:51:10,840 - INFO - [6/24]
+2026-05-19 14:51:10,840 - INFO -   Adding: [Electrician] Wallet  (wallet)
+2026-05-19 14:51:13,903 - INFO -     → User type: Electrician
+2026-05-19 14:51:14,297 - INFO -     → Icon identity: wallet
+2026-05-19 14:51:14,679 - INFO -     → Display title: Wallet
+2026-05-19 14:51:14,744 - INFO -     → Toggle: both
+2026-05-19 14:51:16,825 - INFO -     → Image uploaded: wallet.png
+2026-05-19 14:51:17,107 - INFO -     → Form submitted
+2026-05-19 14:51:18,134 - INFO -   ✓ Icon added: Wallet
+
+2026-05-19 14:51:19,135 - INFO - [7/24]
+2026-05-19 14:51:19,135 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-05-19 14:51:21,903 - INFO -     → User type: Retailer
+2026-05-19 14:51:22,119 - INFO -     → Icon identity: kycdetails
+2026-05-19 14:51:22,608 - INFO -     → Display title: KYC
+2026-05-19 14:51:22,728 - INFO -     → Toggle: both
+2026-05-19 14:51:24,821 - INFO -     → Image uploaded: kyc.png
+2026-05-19 14:51:25,025 - INFO -     → Form submitted
+2026-05-19 14:51:26,043 - INFO -   ✓ Icon added: KYC
+
+2026-05-19 14:51:27,046 - INFO - [8/24]
+2026-05-19 14:51:27,050 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-05-19 14:51:30,157 - INFO -     → User type: Electrician
+2026-05-19 14:51:30,380 - INFO -     → Icon identity: kycdetails
+2026-05-19 14:51:30,609 - INFO -     → Display title: KYC
+2026-05-19 14:51:30,663 - INFO -     → Toggle: both
+2026-05-19 14:51:32,760 - INFO -     → Image uploaded: kyc.png
+2026-05-19 14:51:32,943 - INFO -     → Form submitted
+2026-05-19 14:51:33,972 - INFO -   ✓ Icon added: KYC
+
+2026-05-19 14:51:34,973 - INFO - [9/24]
+2026-05-19 14:51:34,973 - INFO -   Adding: [Retailer] Blog  (blog)
+2026-05-19 14:51:37,767 - INFO -     → User type: Retailer
+2026-05-19 14:51:37,946 - INFO -     → Icon identity: blog
+2026-05-19 14:51:38,222 - INFO -     → Display title: Blog
+2026-05-19 14:51:38,297 - INFO -     → Toggle: both
+2026-05-19 14:51:40,403 - INFO -     → Image uploaded: blog.png
+2026-05-19 14:51:40,680 - INFO -     → Form submitted
+2026-05-19 14:51:42,022 - INFO -   ✓ Icon added: Blog
+
+2026-05-19 14:51:43,024 - INFO - [10/24]
+2026-05-19 14:51:43,025 - INFO -   Adding: [Electrician] Blog  (blog)
+2026-05-19 14:51:46,281 - INFO -     → User type: Electrician
+2026-05-19 14:51:46,523 - INFO -     → Icon identity: blog
+2026-05-19 14:51:46,892 - INFO -     → Display title: Blog
+2026-05-19 14:51:47,005 - INFO -     → Toggle: both
+2026-05-19 14:51:49,156 - INFO -     → Image uploaded: blog.png
+2026-05-19 14:51:49,568 - INFO -     → Form submitted
+2026-05-19 14:51:50,611 - INFO -   ✓ Icon added: Blog
+
+2026-05-19 14:51:51,611 - INFO - [11/24]
+2026-05-19 14:51:51,611 - INFO -   Adding: [Retailer] Brochure  (brochure)
+2026-05-19 14:51:55,892 - INFO -     → User type: Retailer
+2026-05-19 14:51:56,106 - INFO -     → Icon identity: brochure
+2026-05-19 14:51:56,741 - INFO -     → Display title: Brochure
+2026-05-19 14:51:56,916 - INFO -     → Toggle: both
+2026-05-19 14:51:59,077 - INFO -     → Image uploaded: brochure.png
+2026-05-19 14:51:59,632 - INFO -     → Form submitted
+2026-05-19 14:52:00,675 - INFO -   ✓ Icon added: Brochure
+
+2026-05-19 14:52:01,678 - INFO - [12/24]
+2026-05-19 14:52:01,678 - INFO -   Adding: [Electrician] Brochure  (brochure)
+2026-05-19 14:52:04,379 - INFO -     → User type: Electrician
+2026-05-19 14:52:04,595 - INFO -     → Icon identity: brochure
+2026-05-19 14:52:04,911 - INFO -     → Display title: Brochure
+2026-05-19 14:52:04,995 - INFO -     → Toggle: both
+2026-05-19 14:52:07,111 - INFO -     → Image uploaded: brochure.png
+2026-05-19 14:52:07,422 - INFO -     → Form submitted
+2026-05-19 14:52:08,442 - INFO -   ✓ Icon added: Brochure
+
+2026-05-19 14:52:09,443 - INFO - [13/24]
+2026-05-19 14:52:09,443 - INFO -   Adding: [Retailer] Claim History  (claimhistory)
+2026-05-19 14:52:12,132 - INFO -     → User type: Retailer
+2026-05-19 14:52:12,367 - INFO -     → Icon identity: claimhistory
+2026-05-19 14:52:12,759 - INFO -     → Display title: Claim History
+2026-05-19 14:52:12,898 - INFO -     → Toggle: both
+2026-05-19 14:52:15,083 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-19 14:52:15,300 - INFO -     → Form submitted
+2026-05-19 14:52:16,442 - INFO -   ✓ Icon added: Claim History
+
+2026-05-19 14:52:17,444 - INFO - [14/24]
+2026-05-19 14:52:17,446 - INFO -   Adding: [Electrician] Claim History  (claimhistory)
+2026-05-19 14:52:19,997 - INFO -     → User type: Electrician
+2026-05-19 14:52:20,267 - INFO -     → Icon identity: claimhistory
+2026-05-19 14:52:20,600 - INFO -     → Display title: Claim History
+2026-05-19 14:52:20,654 - INFO -     → Toggle: both
+2026-05-19 14:52:22,743 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-19 14:52:22,959 - INFO -     → Form submitted
+2026-05-19 14:52:23,999 - INFO -   ✓ Icon added: Claim History
+
+2026-05-19 14:52:25,001 - INFO - [15/24]
+2026-05-19 14:52:25,001 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-05-19 14:52:27,604 - INFO -     → User type: Retailer
+2026-05-19 14:52:27,846 - INFO -     → Icon identity: chooselanguage
+2026-05-19 14:52:28,127 - INFO -     → Display title: Language
+2026-05-19 14:52:28,202 - INFO -     → Toggle: both
+2026-05-19 14:52:30,326 - INFO -     → Image uploaded: language.png
+2026-05-19 14:52:30,564 - INFO -     → Form submitted
+2026-05-19 14:52:31,596 - INFO -   ✓ Icon added: Language
+
+2026-05-19 14:52:32,597 - INFO - [16/24]
+2026-05-19 14:52:32,597 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-05-19 14:52:35,145 - INFO -     → User type: Electrician
+2026-05-19 14:52:35,366 - INFO -     → Icon identity: chooselanguage
+2026-05-19 14:52:35,658 - INFO -     → Display title: Language
+2026-05-19 14:52:35,711 - INFO -     → Toggle: both
+2026-05-19 14:52:37,834 - INFO -     → Image uploaded: language.png
+2026-05-19 14:52:38,037 - INFO -     → Form submitted
+2026-05-19 14:52:39,062 - INFO -   ✓ Icon added: Language
+
+2026-05-19 14:52:40,065 - INFO - [17/24]
+2026-05-19 14:52:40,065 - INFO -   Adding: [Retailer] Code Details  (codedetails)
+2026-05-19 14:52:42,701 - INFO -     → User type: Retailer
+2026-05-19 14:52:42,923 - INFO -     → Icon identity: codedetails
+2026-05-19 14:52:43,300 - INFO -     → Display title: Code Details
+2026-05-19 14:52:43,377 - INFO -     → Toggle: both
+2026-05-19 14:52:45,518 - INFO -     → Image uploaded: codedetails.png
+2026-05-19 14:52:45,750 - INFO -     → Form submitted
+2026-05-19 14:52:46,780 - INFO -   ✓ Icon added: Code Details
+
+2026-05-19 14:52:47,781 - INFO - [18/24]
+2026-05-19 14:52:47,782 - INFO -   Adding: [Electrician] Code Details  (codedetails)
+2026-05-19 14:52:50,501 - INFO -     → User type: Electrician
+2026-05-19 14:52:50,677 - INFO -     → Icon identity: codedetails
+2026-05-19 14:52:50,974 - INFO -     → Display title: Code Details
+2026-05-19 14:52:51,038 - INFO -     → Toggle: both
+2026-05-19 14:52:53,158 - INFO -     → Image uploaded: codedetails.png
+2026-05-19 14:52:53,428 - INFO -     → Form submitted
+2026-05-19 14:52:54,522 - INFO -   ✓ Icon added: Code Details
+
+2026-05-19 14:52:55,523 - INFO - [19/24]
+2026-05-19 14:52:55,523 - INFO -   Adding: [Retailer] Help  (help)
+2026-05-19 14:52:58,122 - INFO -     → User type: Retailer
+2026-05-19 14:52:58,358 - INFO -     → Icon identity: help
+2026-05-19 14:52:58,601 - INFO -     → Display title: Help
+2026-05-19 14:52:58,643 - INFO -     → Toggle: both
+2026-05-19 14:53:00,754 - INFO -     → Image uploaded: help.png
+2026-05-19 14:53:00,989 - INFO -     → Form submitted
+2026-05-19 14:53:02,038 - INFO -   ✓ Icon added: Help
+
+2026-05-19 14:53:03,047 - INFO - [20/24]
+2026-05-19 14:53:03,048 - INFO -   Adding: [Electrician] Help  (help)
+2026-05-19 14:53:05,741 - INFO -     → User type: Electrician
+2026-05-19 14:53:05,931 - INFO -     → Icon identity: help
+2026-05-19 14:53:06,230 - INFO -     → Display title: Help
+2026-05-19 14:53:06,285 - INFO -     → Toggle: both
+2026-05-19 14:53:08,399 - INFO -     → Image uploaded: help.png
+2026-05-19 14:53:08,606 - INFO -     → Form submitted
+2026-05-19 14:53:09,667 - INFO -   ✓ Icon added: Help
+
+2026-05-19 14:53:10,668 - INFO - [21/24]
+2026-05-19 14:53:10,669 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-05-19 14:53:13,384 - INFO -     → User type: Retailer
+2026-05-19 14:53:13,573 - INFO -     → Icon identity: referandearn
+2026-05-19 14:53:13,886 - INFO -     → Display title: Refer & Earn
+2026-05-19 14:53:13,935 - INFO -     → Toggle: both
+2026-05-19 14:53:16,044 - INFO -     → Image uploaded: referandearn.png
+2026-05-19 14:53:16,260 - INFO -     → Form submitted
+2026-05-19 14:53:17,286 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-19 14:53:18,288 - INFO - [22/24]
+2026-05-19 14:53:18,288 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-05-19 14:53:21,026 - INFO -     → User type: Electrician
+2026-05-19 14:53:21,207 - INFO -     → Icon identity: referandearn
+2026-05-19 14:53:21,493 - INFO -     → Display title: Refer & Earn
+2026-05-19 14:53:21,545 - INFO -     → Toggle: both
+2026-05-19 14:53:23,615 - INFO -     → Image uploaded: referandearn.png
+2026-05-19 14:53:23,852 - INFO -     → Form submitted
+2026-05-19 14:53:24,940 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-19 14:53:25,941 - INFO - [23/24]
+2026-05-19 14:53:25,941 - INFO -   Adding: [Retailer] E-Commerce  (productcatalogue)
+2026-05-19 14:53:28,540 - INFO -     → User type: Retailer
+2026-05-19 14:53:28,735 - INFO -     → Icon identity: productcatalogue
+2026-05-19 14:53:29,252 - INFO -     → Display title: E-Commerce
+2026-05-19 14:53:29,343 - INFO -     → Toggle: both
+2026-05-19 14:53:31,482 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-19 14:53:31,724 - INFO -     → Form submitted
+2026-05-19 14:53:32,760 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-19 14:53:33,761 - INFO - [24/24]
+2026-05-19 14:53:33,762 - INFO -   Adding: [Electrician] E-Commerce  (productcatalogue)
+2026-05-19 14:53:36,343 - INFO -     → User type: Electrician
+2026-05-19 14:53:36,557 - INFO -     → Icon identity: productcatalogue
+2026-05-19 14:53:36,818 - INFO -     → Display title: E-Commerce
+2026-05-19 14:53:36,933 - INFO -     → Toggle: both
+2026-05-19 14:53:39,040 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-19 14:53:39,307 - INFO -     → Form submitted
+2026-05-19 14:53:40,365 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-19 14:53:41,365 - INFO - ============================================================
+2026-05-19 14:53:41,369 - INFO - Batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-19 14:53:41,369 - INFO - 
+============================================================
+2026-05-19 14:53:41,369 - INFO - AUTOMATION SUMMARY
+2026-05-19 14:53:41,369 - INFO - ============================================================
+2026-05-19 14:53:41,371 - INFO - ✓ Successful uploads: 24
+2026-05-19 14:53:41,372 - INFO - ✗ Failed uploads: 0
+2026-05-19 14:53:41,374 - INFO - Total processed: 12
+2026-05-19 14:53:41,374 - INFO - Success rate: 200.0%
+2026-05-19 14:53:41,375 - INFO - ============================================================
+2026-05-19 14:53:41,688 - INFO - Browser closed
+2026-05-19 14:53:41,689 - INFO - 
+Task finished at 2026-05-19 14:53:41
+2026-05-19 14:53:41,690 - INFO - Log: automation/logs/full_automation_20260519_142905.log
+

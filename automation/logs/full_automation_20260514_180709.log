@@ -1,0 +1,16 @@
+2026-05-14 18:07:40,052 - INFO - User selected: Surie Product Upload
+2026-05-14 18:07:48,336 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 18:07:59,929 - INFO - ✓ Chrome driver initialized
+2026-05-14 18:07:59,934 - INFO - Opening login page...
+2026-05-14 18:08:04,914 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 18:08:07,183 - INFO - ✓ Login successful
+2026-05-14 18:08:14,360 - INFO - ✓ Navigated to Product Management
+2026-05-14 18:08:19,659 - WARNING - Could not set CategoryId: Message: Could not locate element with visible text: GLUES; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-14 18:08:24,108 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:08:27,335 - INFO - ✓ Product added: Solido Transparente
+2026-05-14 18:08:30,047 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51987): Failed to establish a new connection: [Errno 111] Connection refused")': /session/1536096458f445e436105a7c182eadcc
+2026-05-14 18:08:30,174 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51987): Failed to establish a new connection: [Errno 111] Connection refused")': /session/1536096458f445e436105a7c182eadcc
+2026-05-14 18:08:30,175 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51987): Failed to establish a new connection: [Errno 111] Connection refused")': /session/1536096458f445e436105a7c182eadcc
+2026-05-14 18:08:30,199 - INFO - Browser closed
+2026-05-14 18:08:30,202 - INFO - Automation cancelled by user (Ctrl+C)

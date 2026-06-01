@@ -1,0 +1,76 @@
+2026-05-15 01:02:11,283 - INFO - User selected: Old Dashboard
+2026-05-15 01:02:13,516 - INFO -   Old Dashboard → Brand Setting
+2026-05-15 01:02:13,518 - INFO - ============================================================
+2026-05-15 01:02:13,518 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-15 01:02:13,519 - INFO - ============================================================
+2026-05-15 01:02:14,138 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 01:02:15,666 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-15 01:02:15,666 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 01:02:22,906 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-15 01:02:24,906 - INFO -     → Filling credentials …
+2026-05-15 01:02:25,166 - INFO -       Email → field #login_txt_id
+2026-05-15 01:02:25,299 - INFO -       Password → field #login_txt_pass
+2026-05-15 01:02:25,422 - INFO -       Login button clicked: #btnVendor
+2026-05-15 01:02:25,422 - INFO -     → Waiting for post-login redirect …
+2026-05-15 01:02:32,908 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-15 01:02:32,908 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-15 01:02:47,449 - INFO - 
+[3/4] Extracting brand data …
+2026-05-15 01:02:47,700 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-15 01:02:47,954 - INFO -   ✓ Downloaded: logo.png  (11.0 KB)
+2026-05-15 01:02:48,285 - INFO -   ✓ Downloaded: splash.png  (79.7 KB)
+2026-05-15 01:02:48,290 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-15 01:02:48,494 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-15 01:02:49,015 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 01:02:50,178 - INFO - ✓ Chrome driver initialized
+2026-05-15 01:02:50,179 - INFO - Opening login page...
+2026-05-15 01:02:51,739 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 01:02:52,323 - INFO - ✓ Login successful
+2026-05-15 01:02:52,451 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-15 01:02:52,788 - INFO - ✓ Logo  → logo_processed.png  |  100.2 KB  |  PNG lossless
+2026-05-15 01:02:52,865 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-15 01:02:54,751 - INFO - ✓ Splash → splash_processed.png  |  0.66 MB  |  PNG lossless
+2026-05-15 01:02:54,768 - INFO -   No saturated colour found — using darkest neutral tone
+2026-05-15 01:02:54,785 - INFO -   Colours extracted from logo:
+2026-05-15 01:02:54,786 - INFO -     Header Color     →  #0E0D0D  (dominant logo colour)
+2026-05-15 01:02:54,786 - INFO -     Background Color →  #090808  (35% darker)
+2026-05-15 01:02:54,786 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-15 01:02:54,786 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-15 01:02:54,787 - INFO - Going to App Settings...
+2026-05-15 01:03:01,200 - INFO -   → Identity & Branding section opened
+2026-05-15 01:03:03,359 - INFO -   → Edit Branding popup opened
+2026-05-15 01:03:03,380 - INFO - ✓ Brand setting form is ready
+2026-05-15 01:03:03,380 - INFO -   Setting company name: Wembley Quickfix
+2026-05-15 01:03:04,546 - INFO -     → HeaderColor: #0E0D0D
+2026-05-15 01:03:05,287 - INFO -     → FooterColor: #F5F5F5
+2026-05-15 01:03:05,995 - INFO -     → BodyColor: #FFFFFF
+2026-05-15 01:03:06,699 - INFO -     → BackgroundColor: #090808
+2026-05-15 01:03:08,753 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-15 01:03:10,844 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-15 01:03:11,085 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-15 01:03:14,099 - INFO - ✓ Brand settings saved successfully!
+2026-05-15 01:03:14,100 - INFO - Going to App Settings for Support Network...
+2026-05-15 01:03:17,408 - INFO -   → Support Network section opened
+2026-05-15 01:03:20,504 - INFO -   → Edit Support Network popup opened
+2026-05-15 01:03:22,505 - INFO - ✓ Support Network form is ready
+2026-05-15 01:03:22,591 - WARNING -     ⚠ Could not find field for: phone
+2026-05-15 01:03:22,833 - INFO -     ✓ email filled
+2026-05-15 01:03:22,918 - WARNING -     ⚠ Could not find field for: website
+2026-05-15 01:03:23,482 - INFO -     ✓ terms_conditions filled
+2026-05-15 01:03:24,570 - INFO -     ✓ support_content filled
+2026-05-15 01:03:24,572 - INFO -     ⏭ Skipping empty field: privacy_policy
+2026-05-15 01:03:25,612 - INFO -   → Save clicked
+2026-05-15 01:03:28,612 - INFO - ✓ Support Network saved successfully!
+2026-05-15 01:03:28,806 - INFO - Browser closed
+2026-05-15 01:03:28,807 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55525): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e8c28cb47ff0f082d3d7675a08b8d311
+2026-05-15 01:03:28,808 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55525): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e8c28cb47ff0f082d3d7675a08b8d311
+2026-05-15 01:03:28,808 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55525): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e8c28cb47ff0f082d3d7675a08b8d311
+2026-05-15 01:03:28,810 - INFO -   Browser closed
+2026-05-15 01:03:28,811 - INFO - 
+Task finished at 2026-05-15 01:03:28
+2026-05-15 01:03:28,811 - INFO - Log: automation/logs/full_automation_20260515_010152.log
+

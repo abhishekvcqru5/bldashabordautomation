@@ -1,0 +1,208 @@
+2026-05-14 18:12:19,593 - INFO - User selected: Surie Product Upload
+2026-05-14 18:12:28,039 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 18:12:37,720 - INFO - ✓ Chrome driver initialized
+2026-05-14 18:12:37,723 - INFO - Opening login page...
+2026-05-14 18:12:45,436 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 18:12:46,324 - INFO - ✓ Login successful
+2026-05-14 18:12:54,915 - INFO - ✓ Navigated to Product Management
+2026-05-14 18:13:05,943 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:13:09,310 - INFO - ✓ Product added: Solido Transparente
+2026-05-14 18:13:19,852 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:13:22,971 - INFO - ✓ Product added: Liquido Creama
+2026-05-14 18:13:34,107 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:13:37,209 - INFO - ✓ Product added: Solido Creama
+2026-05-14 18:13:49,981 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:13:53,052 - INFO - ✓ Product added: Solido Black
+2026-05-14 18:14:02,772 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:14:05,836 - INFO - ✓ Product added: Solido Bianco
+2026-05-14 18:14:22,050 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:14:27,289 - INFO - ✓ Product added: Liquido Bianco
+2026-05-14 18:14:42,719 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:14:45,914 - INFO - ✓ Product added: Clear
+2026-05-14 18:14:57,860 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:15:00,965 - INFO - ✓ Product added: Solido Kristal
+2026-05-14 18:15:12,286 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:15:15,371 - INFO - ✓ Product added: SURIEPOEX 1090 PART A+B 3KG
+2026-05-14 18:15:33,384 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:15:36,485 - INFO - ✓ Product added: SURIEPOEX 1090 PART A+B 1.5KG
+2026-05-14 18:15:48,027 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:15:51,502 - INFO - ✓ Product added: SURIEPOEX 5040 PART A+B 2.25KG
+2026-05-14 18:16:04,538 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:16:07,760 - INFO - ✓ Product added: SURIEPOEX 5030 PART A+B 2.25KG
+2026-05-14 18:16:20,018 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:16:23,256 - INFO - ✓ Product added: SURIEPOEX 1080 PART A+B 1.5KG
+2026-05-14 18:16:34,702 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:16:37,881 - INFO - ✓ Product added: SURIEPOEX 1080 PART A+B 3KG
+2026-05-14 18:16:47,911 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:16:51,069 - INFO - ✓ Product added: SURIEPOEX 1020 PART A+B 1.2KG
+2026-05-14 18:17:04,096 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:17:07,264 - INFO - ✓ Product added: Cera Liquida 1ltr
+2026-05-14 18:17:20,020 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:17:23,386 - INFO - ✓ Product added: Shiner 1kg
+2026-05-14 18:17:37,848 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:17:41,655 - INFO - ✓ Product added: Ultra Lux 1ltr
+2026-05-14 18:17:51,227 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:17:54,330 - INFO - ✓ Product added: Liquid Wax-B 1ltr
+2026-05-14 18:18:06,963 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:18:11,029 - INFO - ✓ Product added: Cream Wax 1kg
+2026-05-14 18:18:25,612 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:18:28,956 - INFO - ✓ Product added: Gloss Liquida
+2026-05-14 18:18:38,819 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:18:42,472 - INFO - ✓ Product added: Stone Polish 1ltr
+2026-05-14 18:18:57,886 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:19:01,586 - INFO - ✓ Product added: Wax Polis 1kg
+2026-05-14 18:19:19,228 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:19:22,447 - INFO - ✓ Product added: Liquid Wax 1ltr
+2026-05-14 18:19:31,550 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:19:34,762 - INFO - ✓ Product added: Liquid Shiner 1000 - 1ltr
+2026-05-14 18:19:45,341 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:19:48,469 - INFO - ✓ Product added: Marble star Plus 20ltr
+2026-05-14 18:19:59,205 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:20:02,345 - INFO - ✓ Product added: Densi=Hard 5ltr
+2026-05-14 18:20:14,506 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:20:17,947 - INFO - ✓ Product added: Densi=Hard 1ltr
+2026-05-14 18:20:29,757 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:20:33,084 - INFO - ✓ Product added: Gloex-200 20Ltr
+2026-05-14 18:20:48,526 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:20:51,997 - INFO - ✓ Product added: Gloex-800 5Ltr
+2026-05-14 18:21:03,554 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:21:06,718 - INFO - ✓ Product added: Gloex-200 5Ltr
+2026-05-14 18:21:17,534 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:21:20,634 - INFO - ✓ Product added: Densi=Hard 20ltr
+2026-05-14 18:21:30,540 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:21:33,692 - INFO - ✓ Product added: Marble Star Pluid 5ltr
+2026-05-14 18:21:45,350 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:21:48,571 - INFO - ✓ Product added: Marble star 5ltr
+2026-05-14 18:21:59,592 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:22:02,800 - INFO - ✓ Product added: Marble star 1ltr
+2026-05-14 18:22:14,532 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:22:17,945 - INFO - ✓ Product added: Marble star Plus 1ltr
+2026-05-14 18:22:31,302 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:22:34,850 - INFO - ✓ Product added: Marble star 20ltr
+2026-05-14 18:22:46,299 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:22:49,767 - INFO - ✓ Product added: Gloex-800 1Ltr
+2026-05-14 18:23:00,921 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:23:04,099 - INFO - ✓ Product added: Gloex-200 1Ltr
+2026-05-14 18:23:16,002 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:23:19,580 - INFO - ✓ Product added: Gloex-5Ltr
+2026-05-14 18:23:35,334 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:23:38,457 - INFO - ✓ Product added: Quartz Sealer 1ltr
+2026-05-14 18:24:02,975 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:24:06,003 - INFO - ✓ Product added: Stone Sealer 1ltr
+2026-05-14 18:24:20,669 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:24:23,987 - INFO - ✓ Product added: Grout Sealer 1ltr
+2026-05-14 18:24:37,061 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:24:40,171 - INFO - ✓ Product added: Bottom Surface Sealer-WB 1ltr
+2026-05-14 18:24:58,305 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:25:01,829 - INFO - ✓ Product added: Sandstone Sealer-H2O 1ltr
+2026-05-14 18:25:15,136 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:25:18,477 - INFO - ✓ Product added: Multi Purpose Sealer 1ltr
+2026-05-14 18:25:32,509 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:25:35,790 - INFO - ✓ Product added: SP-1 5ltr
+2026-05-14 18:25:48,870 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:25:52,191 - INFO - ✓ Product added: Stainex 1ltr
+2026-05-14 18:26:04,848 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:26:07,989 - INFO - ✓ Product added: Stainex WB 5ltr
+2026-05-14 18:26:25,351 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:26:28,489 - INFO - ✓ Product added: Sandstone Sealer-H2O 5ltr
+2026-05-14 18:26:46,505 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:26:49,753 - INFO - ✓ Product added: Trukolor 5ltr
+2026-05-14 18:27:06,124 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:27:09,909 - INFO - ✓ Product added: Tuff Stone 1ltr
+2026-05-14 18:27:21,437 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:27:24,534 - INFO - ✓ Product added: Trukolor-All Colour 1ltr
+2026-05-14 18:27:38,202 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:27:41,427 - INFO - ✓ Product added: Sandstone Sealer-WZ 1ltr
+2026-05-14 18:27:53,222 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:27:56,833 - INFO - ✓ Product added: Trukolor 1ltr
+2026-05-14 18:28:06,902 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:28:10,123 - INFO - ✓ Product added: Stone Darkener 1ltr
+2026-05-14 18:28:21,970 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:28:25,183 - INFO - ✓ Product added: Stainex WB 1ltr
+2026-05-14 18:28:37,788 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:28:41,034 - INFO - ✓ Product added: Bottom Surface Sealer-WB 5ltr
+2026-05-14 18:28:50,924 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:28:54,189 - INFO - ✓ Product added: Sandstone Sealer-XP 1ltr
+2026-05-14 18:29:09,701 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:29:13,003 - INFO - ✓ Product added: Antiq 1ltr
+2026-05-14 18:29:44,041 - ERROR - Failed to add product Sandstone Sealer-WZ 5ltr: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=148.0.7778.167)
+Stacktrace:
+#0 0x650d7f6cd3ea <unknown>
+#1 0x650d7f0dd845 <unknown>
+#2 0x650d7f0c51c2 <unknown>
+#3 0x650d7f0c4ed8 <unknown>
+#4 0x650d7f0c2d29 <unknown>
+#5 0x650d7f0c367f <unknown>
+#6 0x650d7f0d2470 <unknown>
+#7 0x650d7f0ec1c3 <unknown>
+#8 0x650d7f0f2cab <unknown>
+#9 0x650d7f0c3d70 <unknown>
+#10 0x650d7f0ebf5d <unknown>
+#11 0x650d7f178059 <unknown>
+#12 0x650d7f123204 <unknown>
+#13 0x650d7f123fc1 <unknown>
+#14 0x650d7f6909cb <unknown>
+#15 0x650d7f693c93 <unknown>
+#16 0x650d7f67e65c <unknown>
+#17 0x650d7f694429 <unknown>
+#18 0x650d7f6669d7 <unknown>
+#19 0x650d7f6bac08 <unknown>
+#20 0x650d7f6bae33 <unknown>
+#21 0x650d7f6cbdf7 <unknown>
+#22 0x7e95ffc9caa4 <unknown>
+#23 0x7e95ffd29c6c <unknown>
+
+2026-05-14 18:30:15,091 - ERROR - Failed to add product Bottom Surface Sealer 1ltr: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=148.0.7778.167)
+Stacktrace:
+#0 0x650d7f6cd3ea <unknown>
+#1 0x650d7f0dd845 <unknown>
+#2 0x650d7f0c51c2 <unknown>
+#3 0x650d7f0c4ed8 <unknown>
+#4 0x650d7f0c2d29 <unknown>
+#5 0x650d7f0c367f <unknown>
+#6 0x650d7f0d2470 <unknown>
+#7 0x650d7f0ec1c3 <unknown>
+#8 0x650d7f0f2cab <unknown>
+#9 0x650d7f0c3d70 <unknown>
+#10 0x650d7f0ebf5d <unknown>
+#11 0x650d7f178059 <unknown>
+#12 0x650d7f123204 <unknown>
+#13 0x650d7f123fc1 <unknown>
+#14 0x650d7f6909cb <unknown>
+#15 0x650d7f693c93 <unknown>
+#16 0x650d7f67e65c <unknown>
+#17 0x650d7f694429 <unknown>
+#18 0x650d7f6669d7 <unknown>
+#19 0x650d7f6bac08 <unknown>
+#20 0x650d7f6bae33 <unknown>
+#21 0x650d7f6cbdf7 <unknown>
+#22 0x7e95ffc9caa4 <unknown>
+#23 0x7e95ffd29c6c <unknown>
+
+2026-05-14 18:31:20,991 - ERROR - Failed to add product GLOEX CREAM 1KG: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x650d7f6cd3ea <unknown>
+#1 0x650d7f0dd845 <unknown>
+#2 0x650d7f0c3c2c <unknown>
+#3 0x650d7f0ebf5d <unknown>
+#4 0x650d7f178059 <unknown>
+#5 0x650d7f123204 <unknown>
+#6 0x650d7f123fc1 <unknown>
+#7 0x650d7f6909cb <unknown>
+#8 0x650d7f693c93 <unknown>
+#9 0x650d7f67e65c <unknown>
+#10 0x650d7f694429 <unknown>
+#11 0x650d7f6669d7 <unknown>
+#12 0x650d7f6bac08 <unknown>
+#13 0x650d7f6bae33 <unknown>
+#14 0x650d7f6cbdf7 <unknown>
+#15 0x7e95ffc9caa4 <unknown>
+#16 0x7e95ffd29c6c <unknown>
+
+2026-05-14 18:31:22,021 - ERROR - Failed to add product GLOEX POWDER 1KG: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x

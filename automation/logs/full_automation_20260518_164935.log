@@ -1,0 +1,376 @@
+2026-05-18 16:49:47,396 - INFO - User selected: Old Dashboard
+2026-05-18 16:49:49,193 - INFO -   Old Dashboard → Brand Setting
+2026-05-18 16:49:49,193 - INFO - ============================================================
+2026-05-18 16:49:49,193 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-18 16:49:49,194 - INFO - ============================================================
+2026-05-18 16:49:52,595 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 16:49:54,390 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-18 16:49:54,390 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-18 16:50:01,595 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-18 16:50:03,595 - INFO -     → Filling credentials …
+2026-05-18 16:50:03,841 - INFO -       Email → field #login_txt_id
+2026-05-18 16:50:03,979 - INFO -       Password → field #login_txt_pass
+2026-05-18 16:50:04,128 - INFO -       Login button clicked: #btnVendor
+2026-05-18 16:50:04,128 - INFO -     → Waiting for post-login redirect …
+2026-05-18 16:50:45,433 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-18 16:50:45,433 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-18 16:50:59,696 - INFO - 
+[3/4] Extracting brand data …
+2026-05-18 16:50:59,968 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-18 16:51:00,266 - INFO -   ✓ Downloaded: logo.png  (4.7 KB)
+2026-05-18 16:51:00,923 - INFO -   ✓ Downloaded: splash.jpg  (244.5 KB)
+2026-05-18 16:51:00,927 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-18 16:51:01,114 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-18 16:51:01,518 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 16:51:02,660 - INFO - ✓ Chrome driver initialized
+2026-05-18 16:51:02,660 - INFO - Opening login page...
+2026-05-18 16:51:04,620 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 16:51:05,306 - INFO - ✓ Login successful
+2026-05-18 16:51:05,382 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-18 16:51:05,756 - INFO - ✓ Logo  → logo_processed.png  |  70.2 KB  |  PNG lossless
+2026-05-18 16:51:05,870 - INFO - ✓ Splash → splash_processed.jpg  |  0.15 MB  |  JPEG q90
+2026-05-18 16:51:05,888 - INFO -   Colours extracted from logo:
+2026-05-18 16:51:05,888 - INFO -     Header Color     →  #C01020  (dominant logo colour)
+2026-05-18 16:51:05,888 - INFO -     Background Color →  #7C0A14  (35% darker)
+2026-05-18 16:51:05,889 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-18 16:51:05,889 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-18 16:51:05,889 - INFO - Going to App Settings...
+2026-05-18 16:51:12,446 - INFO -   → Identity & Branding section opened
+2026-05-18 16:51:14,633 - INFO -   → Edit Branding popup opened
+2026-05-18 16:51:14,645 - INFO - ✓ Brand setting form is ready
+2026-05-18 16:51:14,645 - INFO -   Setting company name: Dalima Privar
+2026-05-18 16:51:15,593 - INFO -     → HeaderColor: #C01020
+2026-05-18 16:51:16,282 - INFO -     → FooterColor: #F5F5F5
+2026-05-18 16:51:17,002 - INFO -     → BodyColor: #FFFFFF
+2026-05-18 16:51:17,710 - INFO -     → BackgroundColor: #7C0A14
+2026-05-18 16:51:19,774 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-18 16:51:21,809 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-05-18 16:51:21,965 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-18 16:51:24,990 - INFO - ✓ Brand settings saved successfully!
+2026-05-18 16:51:24,990 - INFO - Going to App Settings for Support Network...
+2026-05-18 16:51:28,287 - INFO -   → Support Network section opened
+2026-05-18 16:51:31,410 - INFO -   → Edit Support Network popup opened
+2026-05-18 16:51:33,410 - INFO - ✓ Support Network form is ready
+2026-05-18 16:51:33,499 - WARNING -     ⚠ Could not find field for: phone
+2026-05-18 16:51:33,748 - INFO -     ✓ email filled
+2026-05-18 16:51:33,830 - WARNING -     ⚠ Could not find field for: website
+2026-05-18 16:51:34,422 - INFO -     ✓ terms_conditions filled
+2026-05-18 16:51:35,599 - INFO -     ✓ support_content filled
+2026-05-18 16:51:36,009 - INFO -     ✓ privacy_policy filled
+2026-05-18 16:51:37,063 - INFO -   → Save clicked
+2026-05-18 16:51:40,063 - INFO - ✓ Support Network saved successfully!
+2026-05-18 16:51:40,264 - INFO - Browser closed
+2026-05-18 16:51:40,265 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39581): Failed to establish a new connection: [Errno 111] Connection refused")': /session/94968745fbd6a75056d59d44269bed3d
+2026-05-18 16:51:40,265 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39581): Failed to establish a new connection: [Errno 111] Connection refused")': /session/94968745fbd6a75056d59d44269bed3d
+2026-05-18 16:51:40,266 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39581): Failed to establish a new connection: [Errno 111] Connection refused")': /session/94968745fbd6a75056d59d44269bed3d
+2026-05-18 16:51:40,266 - INFO -   Browser closed
+2026-05-18 16:51:40,267 - INFO - 
+Task finished at 2026-05-18 16:51:40
+2026-05-18 16:51:40,267 - INFO - Log: automation/logs/full_automation_20260518_164935.log
+
+2026-05-18 16:52:50,356 - INFO - User selected: Dashboard Icons
+2026-05-18 16:52:50,357 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-18 16:52:50,357 - INFO - Automation started at 2026-05-18 16:52:50
+
+2026-05-18 16:52:50,357 - INFO - ============================================================
+2026-05-18 16:52:50,357 - INFO - STEP 1: Processing and Compressing Images
+2026-05-18 16:52:50,357 - INFO - ============================================================
+2026-05-18 16:52:50,358 - INFO - Processing images from: dashboardicons
+2026-05-18 16:52:50,358 - INFO - Output folder: automation/processed_images
+2026-05-18 16:52:50,358 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-18 16:52:50,379 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-18 16:52:50,391 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-18 16:52:50,411 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-18 16:52:50,437 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-18 16:52:50,445 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-18 16:52:50,463 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-18 16:52:50,475 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-18 16:52:50,481 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-18 16:52:50,496 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-18 16:52:50,505 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-18 16:52:50,516 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-18 16:52:50,529 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-18 16:52:50,543 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-18 16:52:50,553 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-18 16:52:50,553 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-18 16:52:50,553 - INFO - ✓ 14 images processed and ready
+
+2026-05-18 16:52:50,553 - INFO - ============================================================
+2026-05-18 16:52:50,553 - INFO - STEP 2: Preparing Authentication
+2026-05-18 16:52:50,553 - INFO - ============================================================
+2026-05-18 16:52:50,553 - INFO - Using email: info@dalimaworld.com
+2026-05-18 16:52:50,553 - INFO - ✓ Credentials loaded
+
+2026-05-18 16:52:50,553 - INFO - ============================================================
+2026-05-18 16:52:50,554 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-18 16:52:50,554 - INFO - ============================================================
+2026-05-18 16:52:51,021 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 16:52:52,217 - INFO - ✓ Chrome driver initialized
+2026-05-18 16:52:52,217 - INFO - 
+→ Attempting login...
+
+2026-05-18 16:52:52,218 - INFO - Opening login page...
+2026-05-18 16:52:54,459 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 16:52:55,544 - INFO - ✓ Login successful
+2026-05-18 16:52:57,544 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-18 16:52:57,544 - INFO - Navigating to App Settings...
+2026-05-18 16:53:03,997 - INFO - ✓ Dashboard Icons section loaded
+2026-05-18 16:53:05,999 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-18 16:53:05,999 - INFO - Starting batch – 12 configured entries
+2026-05-18 16:53:09,462 - INFO -   Found 0 user types: []
+2026-05-18 16:53:09,462 - INFO - Available user types: []
+2026-05-18 16:53:09,463 - INFO - Total icons to upload after expansion: 0
+2026-05-18 16:53:09,463 - INFO - ============================================================
+2026-05-18 16:53:09,463 - INFO - ============================================================
+2026-05-18 16:53:09,463 - INFO - Batch complete → ✓ 0 succeeded  ✗ 0 failed
+2026-05-18 16:53:09,463 - INFO - 
+============================================================
+2026-05-18 16:53:09,463 - INFO - AUTOMATION SUMMARY
+2026-05-18 16:53:09,463 - INFO - ============================================================
+2026-05-18 16:53:09,463 - INFO - ✓ Successful uploads: 0
+2026-05-18 16:53:09,463 - INFO - ✗ Failed uploads: 0
+2026-05-18 16:53:09,463 - INFO - Total processed: 12
+2026-05-18 16:53:09,464 - INFO - Success rate: 0.0%
+2026-05-18 16:53:09,464 - INFO - ============================================================
+2026-05-18 16:53:09,647 - INFO - Browser closed
+2026-05-18 16:53:09,648 - INFO - 
+Task finished at 2026-05-18 16:53:09
+2026-05-18 16:53:09,648 - INFO - Log: automation/logs/full_automation_20260518_164935.log
+
+2026-05-18 16:53:57,082 - INFO - User selected: Registration Fields
+2026-05-18 16:53:57,082 - INFO - ============================================================
+2026-05-18 16:53:57,082 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-18 16:53:57,082 - INFO - ============================================================
+2026-05-18 16:53:57,690 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 16:53:58,971 - INFO - ✓ Chrome driver initialized
+2026-05-18 16:53:58,971 - INFO - Opening login page...
+2026-05-18 16:54:00,607 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 16:54:01,279 - INFO - ✓ Login successful
+2026-05-18 16:54:03,281 - INFO - Going to App Settings...
+2026-05-18 16:54:09,727 - INFO -   → Registration Field section opened
+2026-05-18 16:54:09,771 - INFO - ✓ Registration Fields page ready
+2026-05-18 16:54:13,060 - INFO - Found 0 user types: []
+2026-05-18 16:54:13,061 - ERROR - No user types found. Aborting.
+2026-05-18 16:54:13,212 - INFO - Browser closed
+2026-05-18 16:54:13,212 - INFO - 
+Task finished at 2026-05-18 16:54:13
+2026-05-18 16:54:13,212 - INFO - Log: automation/logs/full_automation_20260518_164935.log
+
+2026-05-18 16:57:34,868 - INFO - User selected: Promotion Banners
+2026-05-18 16:57:34,868 - INFO - ============================================================
+2026-05-18 16:57:34,868 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-18 16:57:34,869 - INFO - ============================================================
+2026-05-18 16:57:34,869 - INFO - Found 13 banner image(s) in banner/
+2026-05-18 16:57:34,870 - INFO -   ⚙ Processing VcqruAmbrose.jpg  (size 1125×500 → need 1920×1080)
+2026-05-18 16:57:35,030 - INFO -   ✓ VcqruAmbrose.jpg  →  VcqruAmbrose_processed.jpg  |  1920×1080  |  0.17 MB  |  quality 92
+2026-05-18 16:57:35,032 - INFO -   ⚙ Processing VcqruAria.jpg  (size 1125×500 → need 1920×1080)
+2026-05-18 16:57:35,165 - INFO -   ✓ VcqruAria.jpg  →  VcqruAria_processed.jpg  |  1920×1080  |  0.17 MB  |  quality 92
+2026-05-18 16:57:35,167 - INFO -   ⚙ Processing VcqruCapacitors.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:35,315 - INFO -   ✓ VcqruCapacitors.jpg  →  VcqruCapacitors_processed.jpg  |  1920×1080  |  0.20 MB  |  quality 92
+2026-05-18 16:57:35,317 - INFO -   ⚙ Processing VcqruDistribution board.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:35,444 - INFO -   ✓ VcqruDistribution board.jpg  →  VcqruDistribution board_processed.jpg  |  1920×1080  |  0.14 MB  |  quality 92
+2026-05-18 16:57:35,446 - INFO -   ⚙ Processing VcqruFans.jpg  (size 1123×499 → need 1920×1080)
+2026-05-18 16:57:35,584 - INFO -   ✓ VcqruFans.jpg  →  VcqruFans_processed.jpg  |  1920×1080  |  0.20 MB  |  quality 92
+2026-05-18 16:57:35,587 - INFO -   ⚙ Processing VcqruGroup.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:35,742 - INFO -   ✓ VcqruGroup.jpg  →  VcqruGroup_processed.jpg  |  1920×1080  |  0.22 MB  |  quality 92
+2026-05-18 16:57:35,744 - INFO -   ⚙ Processing VcqruLeo Plate.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:35,890 - INFO -   ✓ VcqruLeo Plate.jpg  →  VcqruLeo Plate_processed.jpg  |  1920×1080  |  0.16 MB  |  quality 92
+2026-05-18 16:57:35,893 - INFO -   ⚙ Processing VcqruStella.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:36,062 - INFO -   ✓ VcqruStella.jpg  →  VcqruStella_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-05-18 16:57:36,065 - INFO -   ⚙ Processing VcqruSupreme Immersion.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:36,194 - INFO -   ✓ VcqruSupreme Immersion.jpg  →  VcqruSupreme Immersion_processed.jpg  |  1920×1080  |  0.18 MB  |  quality 92
+2026-05-18 16:57:36,196 - INFO -   ⚙ Processing VcqruSwitchgears.jpg  (size 1125×500 → need 1920×1080)
+2026-05-18 16:57:36,345 - INFO -   ✓ VcqruSwitchgears.jpg  →  VcqruSwitchgears_processed.jpg  |  1920×1080  |  0.18 MB  |  quality 92
+2026-05-18 16:57:36,347 - INFO -   ⚙ Processing VcqruWires.jpg  (size 1126×500 → need 1920×1080)
+2026-05-18 16:57:36,491 - INFO -   ✓ VcqruWires.jpg  →  VcqruWires_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-18 16:57:36,494 - INFO -   ⚙ Processing Vcqrubanner-2 2.png  (size 328×157 → need 1920×1080)
+2026-05-18 16:57:36,655 - INFO -   ✓ Vcqrubanner-2 2.png  →  Vcqrubanner-2 2_processed.jpg  |  1920×1080  |  0.15 MB  |  quality 92
+2026-05-18 16:57:36,658 - INFO -   ⚙ Processing Vcqrushared image.jpeg  (size 800×356 → need 1920×1080)
+2026-05-18 16:57:36,821 - INFO -   ✓ Vcqrushared image.jpeg  →  Vcqrushared image_processed.jpg  |  1920×1080  |  0.18 MB  |  quality 92
+2026-05-18 16:57:36,823 - INFO - 
+  Processed 13/13 banners successfully
+
+2026-05-18 16:57:36,824 - INFO - ============================================================
+2026-05-18 16:57:36,824 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-18 16:57:36,824 - INFO - ============================================================
+2026-05-18 16:57:37,285 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 16:57:38,605 - INFO - ✓ Chrome driver initialized
+2026-05-18 16:57:38,605 - INFO - Opening login page...
+2026-05-18 16:57:40,197 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 16:57:40,765 - INFO - ✓ Login successful
+2026-05-18 16:57:42,766 - INFO - Going to App Settings...
+2026-05-18 16:57:49,245 - INFO -   → Promotion Banners section opened
+2026-05-18 16:57:49,283 - INFO - ✓ Promotion Banners page ready
+2026-05-18 16:57:49,284 - INFO - Starting batch  —  13 banner(s) to publish
+2026-05-18 16:57:49,284 - INFO - ============================================================
+2026-05-18 16:57:49,285 - INFO - [1/13]
+2026-05-18 16:57:49,285 - INFO -   Publishing: [VcqruAmbrose]  (VcqruAmbrose_processed.jpg)
+2026-05-18 16:57:51,595 - INFO -     → Title entered: VcqruAmbrose
+2026-05-18 16:57:53,656 - INFO -     → Image uploaded: VcqruAmbrose_processed.jpg
+2026-05-18 16:57:53,847 - INFO -     → Publish Banner clicked
+2026-05-18 16:57:57,865 - INFO -   ✓ Banner published: VcqruAmbrose
+
+2026-05-18 16:57:58,865 - INFO - [2/13]
+2026-05-18 16:57:58,866 - INFO -   Publishing: [VcqruAria]  (VcqruAria_processed.jpg)
+2026-05-18 16:58:01,129 - INFO -     → Title entered: VcqruAria
+2026-05-18 16:58:03,172 - INFO -     → Image uploaded: VcqruAria_processed.jpg
+2026-05-18 16:58:03,333 - INFO -     → Publish Banner clicked
+2026-05-18 16:58:07,355 - INFO -   ✓ Banner published: VcqruAria
+
+2026-05-18 16:58:08,356 - INFO - [3/13]
+2026-05-18 16:58:08,357 - INFO -   Publishing: [VcqruCapacitors]  (VcqruCapacitors_processed.jpg)
+2026-05-18 16:58:10,684 - INFO -     → Title entered: VcqruCapacitors
+2026-05-18 16:58:12,726 - INFO -     → Image uploaded: VcqruCapacitors_processed.jpg
+2026-05-18 16:58:12,871 - INFO -     → Publish Banner clicked
+2026-05-18 16:58:16,887 - INFO -   ✓ Banner published: VcqruCapacitors
+
+2026-05-18 16:58:17,888 - INFO - [4/13]
+2026-05-18 16:58:17,888 - INFO -   Publishing: [VcqruDistribution board]  (VcqruDistribution board_processed.jpg)
+2026-05-18 16:58:20,166 - INFO -     → Title entered: VcqruDistribution board
+2026-05-18 16:58:22,210 - INFO -     → Image uploaded: VcqruDistribution board_processed.jpg
+2026-05-18 16:58:22,348 - INFO -     → Publish Banner clicked
+2026-05-18 16:58:26,367 - INFO -   ✓ Banner published: VcqruDistribution board
+
+2026-05-18 16:58:27,368 - INFO - [5/13]
+2026-05-18 16:58:27,368 - INFO -   Publishing: [VcqruFans]  (VcqruFans_processed.jpg)
+2026-05-18 16:58:29,655 - INFO -     → Title entered: VcqruFans
+2026-05-18 16:58:31,705 - INFO -     → Image uploaded: VcqruFans_processed.jpg
+2026-05-18 16:58:31,857 - INFO -     → Publish Banner clicked
+2026-05-18 16:58:35,872 - INFO -   ✓ Banner published: VcqruFans
+
+2026-05-18 16:58:36,873 - INFO - [6/13]
+2026-05-18 16:58:36,873 - INFO -   Publishing: [VcqruGroup]  (VcqruGroup_processed.jpg)
+2026-05-18 16:58:39,152 - INFO -     → Title entered: VcqruGroup
+2026-05-18 16:58:41,204 - INFO -     → Image uploaded: VcqruGroup_processed.jpg
+2026-05-18 16:58:41,343 - INFO -     → Publish Banner clicked
+2026-05-18 16:58:45,363 - INFO -   ✓ Banner published: VcqruGroup
+
+2026-05-18 16:58:46,363 - INFO - [7/13]
+2026-05-18 16:58:46,364 - INFO -   Publishing: [VcqruLeo Plate]  (VcqruLeo Plate_processed.jpg)
+2026-05-18 16:58:48,665 - INFO -     → Title entered: VcqruLeo Plate
+2026-05-18 16:58:50,709 - INFO -     → Image uploaded: VcqruLeo Plate_processed.jpg
+2026-05-18 16:58:50,872 - INFO -     → Publish Banner clicked
+2026-05-18 16:58:54,887 - INFO -   ✓ Banner published: VcqruLeo Plate
+
+2026-05-18 16:58:55,892 - INFO - [8/13]
+2026-05-18 16:58:55,892 - INFO -   Publishing: [VcqruStella]  (VcqruStella_processed.jpg)
+2026-05-18 16:58:58,405 - INFO -     → Title entered: VcqruStella
+2026-05-18 16:59:00,492 - INFO -     → Image uploaded: VcqruStella_processed.jpg
+2026-05-18 16:59:00,686 - INFO -     → Publish Banner clicked
+2026-05-18 16:59:04,703 - INFO -   ✓ Banner published: VcqruStella
+
+2026-05-18 16:59:05,704 - INFO - [9/13]
+2026-05-18 16:59:05,704 - INFO -   Publishing: [VcqruSupreme Immersion]  (VcqruSupreme Immersion_processed.jpg)
+2026-05-18 16:59:08,061 - INFO -     → Title entered: VcqruSupreme Immersion
+2026-05-18 16:59:10,158 - INFO -     → Image uploaded: VcqruSupreme Immersion_processed.jpg
+2026-05-18 16:59:10,303 - INFO -     → Publish Banner clicked
+2026-05-18 16:59:14,317 - INFO -   ✓ Banner published: VcqruSupreme Immersion
+
+2026-05-18 16:59:15,321 - INFO - [10/13]
+2026-05-18 16:59:15,321 - INFO -   Publishing: [VcqruSwitchgears]  (VcqruSwitchgears_processed.jpg)
+2026-05-18 16:59:17,673 - INFO -     → Title entered: VcqruSwitchgears
+2026-05-18 16:59:19,735 - INFO -     → Image uploaded: VcqruSwitchgears_processed.jpg
+2026-05-18 16:59:19,874 - INFO -     → Publish Banner clicked
+2026-05-18 16:59:23,891 - INFO -   ✓ Banner published: VcqruSwitchgears
+
+2026-05-18 16:59:24,892 - INFO - [11/13]
+2026-05-18 16:59:24,893 - INFO -   Publishing: [VcqruWires]  (VcqruWires_processed.jpg)
+2026-05-18 16:59:27,210 - INFO -     → Title entered: VcqruWires
+2026-05-18 16:59:29,265 - INFO -     → Image uploaded: VcqruWires_processed.jpg
+2026-05-18 16:59:29,393 - INFO -     → Publish Banner clicked
+2026-05-18 16:59:33,417 - INFO -   ✓ Banner published: VcqruWires
+
+2026-05-18 16:59:34,417 - INFO - [12/13]
+2026-05-18 16:59:34,418 - INFO -   Publishing: [Vcqrubanner-2 2]  (Vcqrubanner-2 2_processed.jpg)
+2026-05-18 16:59:36,802 - INFO -     → Title entered: Vcqrubanner-2 2
+2026-05-18 16:59:38,854 - INFO -     → Image uploaded: Vcqrubanner-2 2_processed.jpg
+2026-05-18 16:59:38,982 - INFO -     → Publish Banner clicked
+2026-05-18 16:59:42,997 - INFO -   ✓ Banner published: Vcqrubanner-2 2
+
+2026-05-18 16:59:43,997 - INFO - [13/13]
+2026-05-18 16:59:43,998 - INFO -   Publishing: [Vcqrushared image]  (Vcqrushared image_processed.jpg)
+2026-05-18 16:59:46,342 - INFO -     → Title entered: Vcqrushared image
+2026-05-18 16:59:48,385 - INFO -     → Image uploaded: Vcqrushared image_processed.jpg
+2026-05-18 16:59:48,491 - INFO -     → Publish Banner clicked
+2026-05-18 16:59:52,506 - INFO -   ✓ Banner published: Vcqrushared image
+
+2026-05-18 16:59:53,507 - INFO - ============================================================
+2026-05-18 16:59:53,508 - INFO - Banners done  →  ✓ 13 published   ✗ 0 failed
+2026-05-18 16:59:53,713 - INFO - Browser closed
+2026-05-18 16:59:53,714 - INFO - 
+Task finished at 2026-05-18 16:59:53
+2026-05-18 16:59:53,714 - INFO - Log: automation/logs/full_automation_20260518_164935.log
+
+2026-05-18 17:00:01,096 - INFO - User selected: Intro Screens
+2026-05-18 17:00:01,096 - INFO - ============================================================
+2026-05-18 17:00:01,096 - INFO - INTRO SCREENS — Image Processing
+2026-05-18 17:00:01,096 - INFO - ============================================================
+2026-05-18 17:00:01,097 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-18 17:00:01,099 - INFO -   ⚙ Processing 413dd991-9d39-4689-b2c4-f1fdc03c6f4a.jpeg  (1600×1600 → need 1080×1920)
+2026-05-18 17:00:01,315 - INFO -   ✓ 413dd991-9d39-4689-b2c4-f1fdc03c6f4a.jpeg  →  413dd991-9d39-4689-b2c4-f1fdc03c6f4a_processed.jpg  |  1080×1920  |  0.26 MB  |  quality 92
+2026-05-18 17:00:01,316 - INFO -   ⚙ Processing 5d9f7128-c9e1-4678-b36b-416914bbae0a.jpeg  (1600×1600 → need 1080×1920)
+2026-05-18 17:00:01,547 - INFO -   ✓ 5d9f7128-c9e1-4678-b36b-416914bbae0a.jpeg  →  5d9f7128-c9e1-4678-b36b-416914bbae0a_processed.jpg  |  1080×1920  |  0.47 MB  |  quality 92
+2026-05-18 17:00:01,551 - INFO -   ⚙ Processing b4836b76-1ff0-4429-8ccc-68b3e9c03891.png  (1024×1024 → need 1080×1920)
+2026-05-18 17:00:01,740 - INFO -   ✓ b4836b76-1ff0-4429-8ccc-68b3e9c03891.png  →  b4836b76-1ff0-4429-8ccc-68b3e9c03891_processed.jpg  |  1080×1920  |  0.49 MB  |  quality 92
+2026-05-18 17:00:01,740 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-18 17:02:00,168 - INFO - ============================================================
+2026-05-18 17:02:00,168 - INFO - INTRO SCREENS — Browser Automation
+2026-05-18 17:02:00,168 - INFO - ============================================================
+2026-05-18 17:02:00,607 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 17:02:01,896 - INFO - ✓ Chrome driver initialized
+2026-05-18 17:02:01,896 - INFO - Opening login page...
+2026-05-18 17:02:03,526 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 17:02:04,285 - INFO - ✓ Login successful
+2026-05-18 17:02:06,286 - INFO - Going to App Settings...
+2026-05-18 17:02:12,641 - INFO -   → Intro Screens section opened
+2026-05-18 17:02:12,673 - INFO - ✓ Intro Screens page ready
+2026-05-18 17:02:12,674 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-18 17:02:12,674 - INFO - ============================================================
+2026-05-18 17:02:12,674 - INFO - [1/3]
+2026-05-18 17:02:12,674 - INFO -   Launching screen: [Our Commitment]
+2026-05-18 17:02:15,036 - INFO -     → Header: Our Commitment
+2026-05-18 17:02:15,672 - INFO -     → Description: Dedicated to delivering high-quality, innovative, reliable m...
+2026-05-18 17:02:17,738 - INFO -     → Image uploaded: 413dd991-9d39-4689-b2c4-f1fdc03c6f4a_processed.jpg
+2026-05-18 17:02:17,871 - INFO -     → Launch Screen clicked
+2026-05-18 17:02:21,886 - INFO -   ✓ Intro screen launched: Our Commitment
+
+2026-05-18 17:02:22,886 - INFO - [2/3]
+2026-05-18 17:02:22,887 - INFO -   Launching screen: [Our Mission & Vision]
+2026-05-18 17:02:25,316 - INFO -     → Header: Our Mission & Vision
+2026-05-18 17:02:26,145 - INFO -     → Description: Strives to offer safe, stylish, and sustainable electrical s...
+2026-05-18 17:02:28,337 - INFO -     → Image uploaded: 5d9f7128-c9e1-4678-b36b-416914bbae0a_processed.jpg
+2026-05-18 17:02:28,546 - INFO -     → Launch Screen clicked
+2026-05-18 17:02:32,557 - INFO -   ✓ Intro screen launched: Our Mission & Vision
+
+2026-05-18 17:02:33,557 - INFO - [3/3]
+2026-05-18 17:02:33,558 - INFO -   Launching screen: [20 Years of Experience]
+2026-05-18 17:02:35,903 - INFO -     → Header: 20 Years of Experience
+2026-05-18 17:02:36,769 - INFO -     → Description: Since 2004, Dalima has grown into multiple product categorie...
+2026-05-18 17:02:38,952 - INFO -     → Image uploaded: b4836b76-1ff0-4429-8ccc-68b3e9c03891_processed.jpg
+2026-05-18 17:02:39,164 - INFO -     → Launch Screen clicked
+2026-05-18 17:02:43,183 - INFO -   ✓ Intro screen launched: 20 Years of Experience
+
+2026-05-18 17:02:44,185 - INFO - ============================================================
+2026-05-18 17:02:44,185 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-18 17:02:44,355 - INFO - Browser closed
+2026-05-18 17:02:44,355 - INFO - 
+Task finished at 2026-05-18 17:02:44
+2026-05-18 17:02:44,355 - INFO - Log: automation/logs/full_automation_20260518_164935.log
+

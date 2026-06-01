@@ -1,0 +1,136 @@
+2026-05-15 11:05:03,975 - INFO - User selected: Intro Screens
+2026-05-15 11:05:03,975 - INFO - ============================================================
+2026-05-15 11:05:03,976 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 11:05:03,976 - INFO - ============================================================
+2026-05-15 11:05:03,976 - INFO - Found 2 intro image(s) in introscreen/
+2026-05-15 11:05:03,996 - INFO -   ✓ an31.png  →  Already OK (1080×1920, 2.01 MB)
+2026-05-15 11:05:04,220 - INFO -   ✓ an7.jpeg  →  Already OK (1080×1920, 0.40 MB)
+2026-05-15 11:05:04,357 - INFO -   Processed 2/2 intro images successfully
+
+2026-05-15 11:05:40,324 - INFO - ============================================================
+2026-05-15 11:05:40,324 - INFO - INTRO SCREENS — Browser Automation
+2026-05-15 11:05:40,324 - INFO - ============================================================
+2026-05-15 11:05:42,461 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 11:05:42,461 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-05-15 11:05:45,191 - INFO - ✓ Chrome driver initialized
+2026-05-15 11:05:45,191 - INFO - Opening login page...
+2026-05-15 11:05:48,352 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 11:06:00,187 - INFO - ✓ Login successful
+2026-05-15 11:06:02,190 - INFO - Going to App Settings...
+2026-05-15 11:06:08,958 - INFO -   → Intro Screens section opened
+2026-05-15 11:06:08,977 - INFO - ✓ Intro Screens page ready
+2026-05-15 11:06:08,977 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-15 11:06:08,977 - INFO - ============================================================
+2026-05-15 11:06:08,977 - INFO - [1/2]
+2026-05-15 11:06:08,978 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-05-15 11:06:11,541 - INFO -     → Header: Scan, Earn, Celebrate
+2026-05-15 11:06:12,909 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-05-15 11:06:15,001 - INFO -     → Image uploaded: an31_processed.jpg
+2026-05-15 11:06:15,175 - INFO -     → Launch Screen clicked
+2026-05-15 11:06:19,207 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-05-15 11:06:20,208 - INFO - [2/2]
+2026-05-15 11:06:20,208 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-05-15 11:06:22,851 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-05-15 11:06:24,011 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-05-15 11:06:26,047 - INFO -     → Image uploaded: an7_processed.jpg
+2026-05-15 11:06:26,228 - INFO -     → Launch Screen clicked
+2026-05-15 11:06:30,281 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-05-15 11:06:31,283 - INFO - ============================================================
+2026-05-15 11:06:31,284 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-15 11:06:31,521 - INFO - Browser closed
+2026-05-15 11:06:31,521 - INFO - 
+Task finished at 2026-05-15 11:06:31
+2026-05-15 11:06:31,521 - INFO - Log: automation/logs/full_automation_20260515_110232.log
+
+2026-05-15 11:09:25,245 - INFO - User selected: Promotion Banners
+2026-05-15 11:09:25,246 - INFO - ============================================================
+2026-05-15 11:09:25,246 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 11:09:25,246 - INFO - ============================================================
+2026-05-15 11:09:25,246 - INFO - Found 2 banner image(s) in banner/
+2026-05-15 11:09:25,247 - INFO -   ✓ Banner_0a6e497a-9d8c-49ed-8bab-cf0e34ca23f3.jpeg  →  Already OK  (1920×1080, 0.25 MB)
+2026-05-15 11:09:25,391 - INFO -   ✓ bannerc4.jpg  →  Already OK  (1920×1080, 0.81 MB)
+2026-05-15 11:09:25,530 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-15 11:09:25,531 - INFO - ============================================================
+2026-05-15 11:09:25,531 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-15 11:09:25,531 - INFO - ============================================================
+2026-05-15 11:09:25,932 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 11:09:27,052 - INFO - ✓ Chrome driver initialized
+2026-05-15 11:09:27,052 - INFO - Opening login page...
+2026-05-15 11:09:29,046 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 11:09:31,673 - INFO - ✓ Login successful
+2026-05-15 11:09:33,675 - INFO - Going to App Settings...
+2026-05-15 11:09:40,089 - INFO -   → Promotion Banners section opened
+2026-05-15 11:09:40,136 - INFO - ✓ Promotion Banners page ready
+2026-05-15 11:09:40,136 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-15 11:09:40,137 - INFO - ============================================================
+2026-05-15 11:09:40,137 - INFO - [1/2]
+2026-05-15 11:09:40,137 - INFO -   Publishing: [Banner_0a6e497a-9d8c-49ed-8bab-cf0e34ca23f3]  (Banner_0a6e497a-9d8c-49ed-8bab-cf0e34ca23f3_processed.jpg)
+2026-05-15 11:09:42,463 - INFO -     → Title entered: Banner_0a6e497a-9d8c-49ed-8bab-cf0e34ca23f3
+2026-05-15 11:09:44,517 - INFO -     → Image uploaded: Banner_0a6e497a-9d8c-49ed-8bab-cf0e34ca23f3_processed.jpg
+2026-05-15 11:09:44,660 - INFO -     → Publish Banner clicked
+2026-05-15 11:09:48,677 - INFO -   ✓ Banner published: Banner_0a6e497a-9d8c-49ed-8bab-cf0e34ca23f3
+
+2026-05-15 11:09:49,678 - INFO - [2/2]
+2026-05-15 11:09:49,678 - INFO -   Publishing: [bannerc4]  (bannerc4_processed.jpg)
+2026-05-15 11:09:51,960 - INFO -     → Title entered: bannerc4
+2026-05-15 11:09:54,003 - INFO -     → Image uploaded: bannerc4_processed.jpg
+2026-05-15 11:09:54,160 - INFO -     → Publish Banner clicked
+2026-05-15 11:09:58,175 - INFO -   ✓ Banner published: bannerc4
+
+2026-05-15 11:09:59,175 - INFO - ============================================================
+2026-05-15 11:09:59,176 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-15 11:09:59,298 - INFO - Browser closed
+2026-05-15 11:09:59,299 - INFO - 
+Task finished at 2026-05-15 11:09:59
+2026-05-15 11:09:59,299 - INFO - Log: automation/logs/full_automation_20260515_110232.log
+
+2026-05-15 11:15:44,503 - INFO - User selected: Promotion Banners
+2026-05-15 11:15:44,504 - INFO - ============================================================
+2026-05-15 11:15:44,504 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 11:15:44,504 - INFO - ============================================================
+2026-05-15 11:15:44,505 - INFO - Found 2 banner image(s) in banner/
+2026-05-15 11:15:44,505 - INFO -   ⚙ Processing 499b073b-52f7-4e4f-bbe3-91d325111058.png  (size 1672×941 → need 1920×1080)
+2026-05-15 11:15:44,788 - INFO -   ✓ 499b073b-52f7-4e4f-bbe3-91d325111058.png  →  499b073b-52f7-4e4f-bbe3-91d325111058_processed.jpg  |  1920×1080  |  0.45 MB  |  quality 92
+2026-05-15 11:15:44,791 - INFO -   ⚙ Processing ad156ee6-4766-421e-a30b-b56d322aa7f5.png  (size 1672×941 → need 1920×1080)
+2026-05-15 11:15:45,120 - INFO -   ✓ ad156ee6-4766-421e-a30b-b56d322aa7f5.png  →  ad156ee6-4766-421e-a30b-b56d322aa7f5_processed.jpg  |  1920×1080  |  0.33 MB  |  quality 92
+2026-05-15 11:15:45,124 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-15 11:15:45,125 - INFO - ============================================================
+2026-05-15 11:15:45,126 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-15 11:15:45,126 - INFO - ============================================================
+2026-05-15 11:15:45,856 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 11:15:47,851 - INFO - ✓ Chrome driver initialized
+2026-05-15 11:15:47,851 - INFO - Opening login page...
+2026-05-15 11:15:49,996 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 11:16:04,033 - INFO - ✓ Login successful
+2026-05-15 11:16:06,034 - INFO - Going to App Settings...
+2026-05-15 11:16:12,912 - INFO -   → Promotion Banners section opened
+2026-05-15 11:16:12,938 - INFO - ✓ Promotion Banners page ready
+2026-05-15 11:16:12,938 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-15 11:16:12,938 - INFO - ============================================================
+2026-05-15 11:16:12,938 - INFO - [1/2]
+2026-05-15 11:16:12,938 - INFO -   Publishing: [499b073b-52f7-4e4f-bbe3-91d325111058]  (499b073b-52f7-4e4f-bbe3-91d325111058_processed.jpg)
+2026-05-15 11:16:15,677 - INFO -     → Title entered: 499b073b-52f7-4e4f-bbe3-91d325111058
+2026-05-15 11:16:17,723 - INFO -     → Image uploaded: 499b073b-52f7-4e4f-bbe3-91d325111058_processed.jpg
+2026-05-15 11:16:17,837 - INFO -     → Publish Banner clicked
+2026-05-15 11:16:21,867 - INFO -   ✓ Banner published: 499b073b-52f7-4e4f-bbe3-91d325111058
+
+2026-05-15 11:16:22,867 - INFO - [2/2]
+2026-05-15 11:16:22,868 - INFO -   Publishing: [ad156ee6-4766-421e-a30b-b56d322aa7f5]  (ad156ee6-4766-421e-a30b-b56d322aa7f5_processed.jpg)
+2026-05-15 11:16:25,664 - INFO -     → Title entered: ad156ee6-4766-421e-a30b-b56d322aa7f5
+2026-05-15 11:16:27,708 - INFO -     → Image uploaded: ad156ee6-4766-421e-a30b-b56d322aa7f5_processed.jpg
+2026-05-15 11:16:27,833 - INFO -     → Publish Banner clicked
+2026-05-15 11:16:31,856 - INFO -   ✓ Banner published: ad156ee6-4766-421e-a30b-b56d322aa7f5
+
+2026-05-15 11:16:32,857 - INFO - ============================================================
+2026-05-15 11:16:32,857 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-15 11:16:33,122 - INFO - Browser closed
+2026-05-15 11:16:33,123 - INFO - 
+Task finished at 2026-05-15 11:16:33
+2026-05-15 11:16:33,124 - INFO - Log: automation/logs/full_automation_20260515_110232.log
+

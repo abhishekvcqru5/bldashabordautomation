@@ -1,0 +1,799 @@
+2026-05-14 12:26:37,805 - INFO - User selected: Intro Screens
+2026-05-14 12:26:37,806 - INFO - ============================================================
+2026-05-14 12:26:37,806 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 12:26:37,806 - INFO - ============================================================
+2026-05-14 12:26:37,807 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-14 12:26:37,842 - INFO -   ⚙ Processing 2a5aa7e5-9d62-4d1c-8c88-6147555a0602.png  (360×800 → need 1080×1920)
+2026-05-14 12:26:38,013 - INFO -   ✓ 2a5aa7e5-9d62-4d1c-8c88-6147555a0602.png  →  2a5aa7e5-9d62-4d1c-8c88-6147555a0602_processed.jpg  |  1080×1920  |  0.26 MB  |  quality 92
+2026-05-14 12:26:38,014 - INFO -   ⚙ Processing 7691d3c6-b3f0-4fc9-b513-c6d7bab62041.png  (360×800 → need 1080×1920)
+2026-05-14 12:26:38,166 - INFO -   ✓ 7691d3c6-b3f0-4fc9-b513-c6d7bab62041.png  →  7691d3c6-b3f0-4fc9-b513-c6d7bab62041_processed.jpg  |  1080×1920  |  0.31 MB  |  quality 92
+2026-05-14 12:26:38,168 - INFO -   ⚙ Processing f0b9f110-9083-4790-bb5f-694ff46fe711.png  (1500×1017 → need 1080×1920)
+2026-05-14 12:26:38,343 - INFO -   ✓ f0b9f110-9083-4790-bb5f-694ff46fe711.png  →  f0b9f110-9083-4790-bb5f-694ff46fe711_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-14 12:26:38,345 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-14 12:27:26,100 - INFO - ============================================================
+2026-05-14 12:27:26,101 - INFO - INTRO SCREENS — Browser Automation
+2026-05-14 12:27:26,101 - INFO - ============================================================
+2026-05-14 12:27:26,532 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:27:27,835 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:27:27,836 - INFO - Opening login page...
+2026-05-14 12:27:29,871 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:27:50,340 - ERROR - Login failed: Message: 
+
+2026-05-14 12:27:50,791 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260514_122750.png
+2026-05-14 12:27:50,792 - ERROR - ✗ Login failed. Aborting.
+2026-05-14 12:27:50,989 - INFO - Browser closed
+2026-05-14 12:27:50,989 - INFO - 
+Task finished at 2026-05-14 12:27:50
+2026-05-14 12:27:50,989 - INFO - Log: automation/logs/full_automation_20260514_122618.log
+
+2026-05-14 12:27:56,353 - INFO - User selected: Intro Screens
+2026-05-14 12:27:56,355 - INFO - ============================================================
+2026-05-14 12:27:56,356 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 12:27:56,356 - INFO - ============================================================
+2026-05-14 12:27:56,357 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-14 12:27:56,358 - INFO -   ⚙ Processing 2a5aa7e5-9d62-4d1c-8c88-6147555a0602.png  (360×800 → need 1080×1920)
+2026-05-14 12:27:56,505 - INFO -   ✓ 2a5aa7e5-9d62-4d1c-8c88-6147555a0602.png  →  2a5aa7e5-9d62-4d1c-8c88-6147555a0602_processed.jpg  |  1080×1920  |  0.26 MB  |  quality 92
+2026-05-14 12:27:56,508 - INFO -   ⚙ Processing 7691d3c6-b3f0-4fc9-b513-c6d7bab62041.png  (360×800 → need 1080×1920)
+2026-05-14 12:27:56,660 - INFO -   ✓ 7691d3c6-b3f0-4fc9-b513-c6d7bab62041.png  →  7691d3c6-b3f0-4fc9-b513-c6d7bab62041_processed.jpg  |  1080×1920  |  0.31 MB  |  quality 92
+2026-05-14 12:27:56,664 - INFO -   ⚙ Processing f0b9f110-9083-4790-bb5f-694ff46fe711.png  (1500×1017 → need 1080×1920)
+2026-05-14 12:27:56,862 - INFO -   ✓ f0b9f110-9083-4790-bb5f-694ff46fe711.png  →  f0b9f110-9083-4790-bb5f-694ff46fe711_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-14 12:27:56,864 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-14 12:28:46,292 - INFO - ============================================================
+2026-05-14 12:28:46,293 - INFO - INTRO SCREENS — Browser Automation
+2026-05-14 12:28:46,293 - INFO - ============================================================
+2026-05-14 12:28:46,766 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:28:47,882 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:28:47,882 - INFO - Opening login page...
+2026-05-14 12:28:49,763 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:28:52,369 - INFO - ✓ Login successful
+2026-05-14 12:28:54,369 - INFO - Going to App Settings...
+2026-05-14 12:29:00,919 - INFO -   → Intro Screens section opened
+2026-05-14 12:29:00,959 - INFO - ✓ Intro Screens page ready
+2026-05-14 12:29:00,959 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-14 12:29:00,960 - INFO - ============================================================
+2026-05-14 12:29:00,960 - INFO - [1/3]
+2026-05-14 12:29:00,960 - INFO -   Launching screen: [Welcome to the Saffro Club App]
+2026-05-14 12:29:03,410 - INFO -     → Header: Welcome to the Saffro Club App
+2026-05-14 12:29:03,942 - INFO -     → Description: Signup and earn Rewards on every scan...
+2026-05-14 12:29:06,037 - INFO -     → Image uploaded: 2a5aa7e5-9d62-4d1c-8c88-6147555a0602_processed.jpg
+2026-05-14 12:29:06,189 - INFO -     → Launch Screen clicked
+2026-05-14 12:29:10,203 - INFO -   ✓ Intro screen launched: Welcome to the Saffro Club App
+
+2026-05-14 12:29:11,203 - INFO - [2/3]
+2026-05-14 12:29:11,204 - INFO -   Launching screen: [KYC]
+2026-05-14 12:29:13,523 - INFO -     → Header: KYC
+2026-05-14 12:29:13,931 - INFO -     → Description: Complete your KYC,For Seamless Benefits...
+2026-05-14 12:29:16,055 - INFO -     → Image uploaded: 7691d3c6-b3f0-4fc9-b513-c6d7bab62041_processed.jpg
+2026-05-14 12:29:16,441 - INFO -     → Launch Screen clicked
+2026-05-14 12:29:20,453 - INFO -   ✓ Intro screen launched: KYC
+
+2026-05-14 12:29:21,454 - INFO - [3/3]
+2026-05-14 12:29:21,454 - INFO -   Launching screen: [Join Now & Unlock Rewards]
+2026-05-14 12:29:23,811 - INFO -     → Header: Join Now & Unlock Rewards
+2026-05-14 12:29:24,196 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes...
+2026-05-14 12:29:26,260 - INFO -     → Image uploaded: f0b9f110-9083-4790-bb5f-694ff46fe711_processed.jpg
+2026-05-14 12:29:26,500 - INFO -     → Launch Screen clicked
+2026-05-14 12:29:30,521 - INFO -   ✓ Intro screen launched: Join Now & Unlock Rewards
+
+2026-05-14 12:29:31,522 - INFO - ============================================================
+2026-05-14 12:29:31,522 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-14 12:29:31,789 - INFO - Browser closed
+2026-05-14 12:29:31,790 - INFO - 
+Task finished at 2026-05-14 12:29:31
+2026-05-14 12:29:31,790 - INFO - Log: automation/logs/full_automation_20260514_122618.log
+
+2026-05-14 12:39:53,174 - INFO - User selected: Dashboard Icons
+2026-05-14 12:39:53,176 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-14 12:39:53,177 - INFO - Automation started at 2026-05-14 12:39:53
+
+2026-05-14 12:39:53,178 - INFO - ============================================================
+2026-05-14 12:39:53,178 - INFO - STEP 1: Processing and Compressing Images
+2026-05-14 12:39:53,178 - INFO - ============================================================
+2026-05-14 12:39:53,179 - INFO - Processing images from: dashboardicons
+2026-05-14 12:39:53,179 - INFO - Output folder: automation/processed_images
+2026-05-14 12:39:53,179 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-14 12:39:53,209 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-14 12:39:53,229 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-14 12:39:53,268 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-14 12:39:53,312 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-14 12:39:53,341 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-14 12:39:53,368 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-14 12:39:53,388 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-14 12:39:53,403 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-14 12:39:53,452 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-14 12:39:53,472 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-14 12:39:53,514 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-14 12:39:53,547 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-14 12:39:53,586 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-14 12:39:53,625 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-14 12:39:53,626 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-14 12:39:53,634 - INFO - ✓ 14 images processed and ready
+
+2026-05-14 12:39:53,635 - INFO - ============================================================
+2026-05-14 12:39:53,635 - INFO - STEP 2: Preparing Authentication
+2026-05-14 12:39:53,637 - INFO - ============================================================
+2026-05-14 12:39:53,639 - INFO - Using email: Info@saffrokol.com
+2026-05-14 12:39:53,641 - INFO - ✓ Credentials loaded
+
+2026-05-14 12:39:53,643 - INFO - ============================================================
+2026-05-14 12:39:53,645 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-14 12:39:53,646 - INFO - ============================================================
+2026-05-14 12:39:55,309 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:39:59,533 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:39:59,533 - INFO - 
+→ Attempting login...
+
+2026-05-14 12:39:59,535 - INFO - Opening login page...
+2026-05-14 12:40:03,826 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:40:23,858 - ERROR - Login failed: Message: 
+
+2026-05-14 12:40:24,558 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260514_124023.png
+2026-05-14 12:40:24,558 - ERROR - ✗ Login failed. Aborting.
+2026-05-14 12:40:24,807 - INFO - Browser closed
+2026-05-14 12:40:24,808 - INFO - 
+Task finished at 2026-05-14 12:40:24
+2026-05-14 12:40:24,808 - INFO - Log: automation/logs/full_automation_20260514_122618.log
+
+2026-05-14 12:42:46,079 - INFO - User selected: Dashboard Icons
+2026-05-14 12:42:46,079 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-14 12:42:46,080 - INFO - Automation started at 2026-05-14 12:42:46
+
+2026-05-14 12:42:46,080 - INFO - ============================================================
+2026-05-14 12:42:46,080 - INFO - STEP 1: Processing and Compressing Images
+2026-05-14 12:42:46,080 - INFO - ============================================================
+2026-05-14 12:42:46,081 - INFO - Processing images from: dashboardicons
+2026-05-14 12:42:46,081 - INFO - Output folder: automation/processed_images
+2026-05-14 12:42:46,081 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-14 12:42:46,101 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-14 12:42:46,110 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-14 12:42:46,134 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-14 12:42:46,160 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-14 12:42:46,170 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-14 12:42:46,186 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-14 12:42:46,202 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-14 12:42:46,221 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-14 12:42:46,262 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-14 12:42:46,297 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-14 12:42:46,330 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-14 12:42:46,372 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-14 12:42:46,398 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-14 12:42:46,418 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-14 12:42:46,418 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-14 12:42:46,418 - INFO - ✓ 14 images processed and ready
+
+2026-05-14 12:42:46,418 - INFO - ============================================================
+2026-05-14 12:42:46,419 - INFO - STEP 2: Preparing Authentication
+2026-05-14 12:42:46,419 - INFO - ============================================================
+2026-05-14 12:42:46,419 - INFO - Using email: Info@saffrokol.com
+2026-05-14 12:42:46,419 - INFO - ✓ Credentials loaded
+
+2026-05-14 12:42:46,419 - INFO - ============================================================
+2026-05-14 12:42:46,419 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-14 12:42:46,419 - INFO - ============================================================
+2026-05-14 12:42:47,641 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:42:50,594 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:42:50,595 - INFO - 
+→ Attempting login...
+
+2026-05-14 12:42:50,595 - INFO - Opening login page...
+2026-05-14 12:42:53,375 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:42:56,518 - INFO - ✓ Login successful
+2026-05-14 12:42:58,522 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-14 12:42:58,523 - INFO - Navigating to App Settings...
+2026-05-14 12:43:05,444 - INFO - ✓ Dashboard Icons section loaded
+2026-05-14 12:43:07,454 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-14 12:43:07,455 - INFO - Starting batch – 12 configured entries
+2026-05-14 12:43:11,359 - INFO -   Found 4 user types: ['ARCHITECT', 'DEALER', 'CONTRACTOR', 'Mason']
+2026-05-14 12:43:11,360 - INFO - Available user types: ['ARCHITECT', 'DEALER', 'CONTRACTOR', 'Mason']
+2026-05-14 12:43:11,360 - INFO - Total icons to upload after expansion: 48
+2026-05-14 12:43:11,360 - INFO - ============================================================
+2026-05-14 12:43:11,361 - INFO - [1/48]
+2026-05-14 12:43:11,361 - INFO -   Adding: [ARCHITECT] Gift  (gift)
+2026-05-14 12:43:13,930 - INFO -     → User type: ARCHITECT
+2026-05-14 12:43:14,215 - INFO -     → Icon identity: gift
+2026-05-14 12:43:14,627 - INFO -     → Display title: Gift
+2026-05-14 12:43:14,704 - INFO -     → Toggle: both
+2026-05-14 12:43:16,961 - INFO -     → Image uploaded: Gift.png
+2026-05-14 12:43:17,389 - INFO -     → Form submitted
+2026-05-14 12:43:18,418 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 12:43:19,419 - INFO - [2/48]
+2026-05-14 12:43:19,419 - INFO -   Adding: [DEALER] Gift  (gift)
+2026-05-14 12:43:22,141 - INFO -     → User type: DEALER
+2026-05-14 12:43:22,363 - INFO -     → Icon identity: gift
+2026-05-14 12:43:22,718 - INFO -     → Display title: Gift
+2026-05-14 12:43:22,809 - INFO -     → Toggle: both
+2026-05-14 12:43:24,928 - INFO -     → Image uploaded: Gift.png
+2026-05-14 12:43:25,236 - INFO -     → Form submitted
+2026-05-14 12:43:26,251 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 12:43:27,252 - INFO - [3/48]
+2026-05-14 12:43:27,252 - INFO -   Adding: [CONTRACTOR] Gift  (gift)
+2026-05-14 12:43:29,898 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:43:30,072 - INFO -     → Icon identity: gift
+2026-05-14 12:43:30,425 - INFO -     → Display title: Gift
+2026-05-14 12:43:30,522 - INFO -     → Toggle: both
+2026-05-14 12:43:32,614 - INFO -     → Image uploaded: Gift.png
+2026-05-14 12:43:33,115 - INFO -     → Form submitted
+2026-05-14 12:43:34,331 - INFO -   ✓ Icon added: Gift
+
+2026-05-14 12:43:35,387 - INFO - [4/48]
+2026-05-14 12:43:35,411 - INFO -   Adding: [Mason] Gift  (gift)
+2026-05-14 12:43:36,859 - ERROR -   ✗ Failed to add [Gift]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x613fece723ea <unknown>
+#1 0x613fec882845 <unknown>
+#2 0x613fec8dbd7b <unknown>
+#3 0x613fec8d99b2 <unknown>
+#4 0x613fec8d6ec9 <unknown>
+#5 0x613fec8d5fc7 <unknown>
+#6 0x613fec8ca0b2 <unknown>
+#7 0x613fec8c99f8 <unknown>
+#8 0x613fec91d175 <unknown>
+#9 0x613fec8c8204 <unknown>
+#10 0x613fec8c8fc1 <unknown>
+#11 0x613fece359cb <unknown>
+#12 0x613fece38c93 <unknown>
+#13 0x613fece2365c <unknown>
+#14 0x613fece39429 <unknown>
+#15 0x613fece0b9d7 <unknown>
+#16 0x613fece5fc08 <unknown>
+#17 0x613fece5fe33 <unknown>
+#18 0x613fece70df7 <unknown>
+#19 0x74a28ce9caa4 <unknown>
+#20 0x74a28cf29c6c <unknown>
+
+2026-05-14 12:43:38,055 - INFO -   📸 Screenshot saved: automation/screenshots/error_Gift_20260514_124336.png
+2026-05-14 12:43:40,491 - INFO - [5/48]
+2026-05-14 12:43:40,492 - INFO -   Adding: [ARCHITECT] History  (history)
+2026-05-14 12:43:43,082 - INFO -     → User type: ARCHITECT
+2026-05-14 12:43:43,664 - INFO -     → Icon identity: history
+2026-05-14 12:43:43,999 - INFO -     → Display title: History
+2026-05-14 12:43:44,081 - INFO -     → Toggle: both
+2026-05-14 12:43:46,237 - INFO -     → Image uploaded: history.png
+2026-05-14 12:43:46,660 - INFO -     → Form submitted
+2026-05-14 12:43:47,677 - INFO -   ✓ Icon added: History
+
+2026-05-14 12:43:48,701 - INFO - [6/48]
+2026-05-14 12:43:48,704 - INFO -   Adding: [DEALER] History  (history)
+2026-05-14 12:43:49,943 - ERROR -   ✗ Failed to add [History]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1321, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=148.0.7778.167); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x613fece723ea <unknown>
+#1 0x613fec882845 <unknown>
+#2 0x613fec8dbd7b <unknown>
+#3 0x613fec8d99b2 <unknown>
+#4 0x613fec8d6ec9 <unknown>
+#5 0x613fec8d5fc7 <unknown>
+#6 0x613fec8ca0b2 <unknown>
+#7 0x613fec8c99f8 <unknown>
+#8 0x613fec91d175 <unknown>
+#9 0x613fec8c8204 <unknown>
+#10 0x613fec8c8fc1 <unknown>
+#11 0x613fece359cb <unknown>
+#12 0x613fece38c93 <unknown>
+#13 0x613fece2365c <unknown>
+#14 0x613fece39429 <unknown>
+#15 0x613fece0b9d7 <unknown>
+#16 0x613fece5fc08 <unknown>
+#17 0x613fece5fe33 <unknown>
+#18 0x613fece70df7 <unknown>
+#19 0x74a28ce9caa4 <unknown>
+#20 0x74a28cf29c6c <unknown>
+
+2026-05-14 12:43:51,577 - INFO -   📸 Screenshot saved: automation/screenshots/error_History_20260514_124349.png
+2026-05-14 12:43:54,712 - INFO - [7/48]
+2026-05-14 12:43:54,712 - INFO -   Adding: [CONTRACTOR] History  (history)
+2026-05-14 12:43:57,913 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:43:58,181 - INFO -     → Icon identity: history
+2026-05-14 12:43:58,546 - INFO -     → Display title: History
+2026-05-14 12:43:58,626 - INFO -     → Toggle: both
+2026-05-14 12:44:00,714 - INFO -     → Image uploaded: history.png
+2026-05-14 12:44:01,050 - INFO -     → Form submitted
+2026-05-14 12:44:02,141 - INFO -   ✓ Icon added: History
+
+2026-05-14 12:44:03,142 - INFO - [8/48]
+2026-05-14 12:44:03,142 - INFO -   Adding: [Mason] History  (history)
+2026-05-14 12:44:05,941 - INFO -     → User type: Mason
+2026-05-14 12:44:06,185 - INFO -     → Icon identity: history
+2026-05-14 12:44:06,512 - INFO -     → Display title: History
+2026-05-14 12:44:06,580 - INFO -     → Toggle: both
+2026-05-14 12:44:08,685 - INFO -     → Image uploaded: history.png
+2026-05-14 12:44:09,077 - INFO -     → Form submitted
+2026-05-14 12:44:10,137 - INFO -   ✓ Icon added: History
+
+2026-05-14 12:44:11,143 - INFO - [9/48]
+2026-05-14 12:44:11,144 - INFO -   Adding: [ARCHITECT] Wallet  (wallet)
+2026-05-14 12:44:15,685 - INFO -     → User type: ARCHITECT
+2026-05-14 12:44:16,386 - INFO -     → Icon identity: wallet
+2026-05-14 12:44:17,810 - INFO -     → Display title: Wallet
+2026-05-14 12:44:17,872 - INFO -     → Toggle: both
+2026-05-14 12:44:19,973 - INFO -     → Image uploaded: wallet.png
+2026-05-14 12:44:21,308 - INFO -     → Form submitted
+2026-05-14 12:44:22,350 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 12:44:23,352 - INFO - [10/48]
+2026-05-14 12:44:23,352 - INFO -   Adding: [DEALER] Wallet  (wallet)
+2026-05-14 12:44:27,323 - INFO -     → User type: DEALER
+2026-05-14 12:44:27,967 - INFO -     → Icon identity: wallet
+2026-05-14 12:44:28,752 - INFO -     → Display title: Wallet
+2026-05-14 12:44:28,965 - INFO -     → Toggle: both
+2026-05-14 12:44:31,205 - INFO -     → Image uploaded: wallet.png
+2026-05-14 12:44:31,848 - INFO -     → Form submitted
+2026-05-14 12:44:32,903 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 12:44:33,905 - INFO - [11/48]
+2026-05-14 12:44:33,905 - INFO -   Adding: [CONTRACTOR] Wallet  (wallet)
+2026-05-14 12:44:36,672 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:44:36,793 - INFO -     → Icon identity: wallet
+2026-05-14 12:44:36,985 - INFO -     → Display title: Wallet
+2026-05-14 12:44:37,028 - INFO -     → Toggle: both
+2026-05-14 12:44:39,081 - INFO -     → Image uploaded: wallet.png
+2026-05-14 12:44:39,206 - INFO -     → Form submitted
+2026-05-14 12:44:40,235 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 12:44:41,235 - INFO - [12/48]
+2026-05-14 12:44:41,236 - INFO -   Adding: [Mason] Wallet  (wallet)
+2026-05-14 12:44:43,550 - INFO -     → User type: Mason
+2026-05-14 12:44:43,637 - INFO -     → Icon identity: wallet
+2026-05-14 12:44:43,788 - INFO -     → Display title: Wallet
+2026-05-14 12:44:43,811 - INFO -     → Toggle: both
+2026-05-14 12:44:45,869 - INFO -     → Image uploaded: wallet.png
+2026-05-14 12:44:45,966 - INFO -     → Form submitted
+2026-05-14 12:44:46,977 - INFO -   ✓ Icon added: Wallet
+
+2026-05-14 12:44:47,977 - INFO - [13/48]
+2026-05-14 12:44:47,978 - INFO -   Adding: [ARCHITECT] KYC  (kycdetails)
+2026-05-14 12:44:50,259 - INFO -     → User type: ARCHITECT
+2026-05-14 12:44:50,352 - INFO -     → Icon identity: kycdetails
+2026-05-14 12:44:50,479 - INFO -     → Display title: KYC
+2026-05-14 12:44:50,511 - INFO -     → Toggle: both
+2026-05-14 12:44:52,575 - INFO -     → Image uploaded: kyc.png
+2026-05-14 12:44:52,676 - INFO -     → Form submitted
+2026-05-14 12:44:53,709 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 12:44:54,709 - INFO - [14/48]
+2026-05-14 12:44:54,710 - INFO -   Adding: [DEALER] KYC  (kycdetails)
+2026-05-14 12:44:56,971 - INFO -     → User type: DEALER
+2026-05-14 12:44:57,053 - INFO -     → Icon identity: kycdetails
+2026-05-14 12:44:57,199 - INFO -     → Display title: KYC
+2026-05-14 12:44:57,224 - INFO -     → Toggle: both
+2026-05-14 12:44:59,297 - INFO -     → Image uploaded: kyc.png
+2026-05-14 12:44:59,412 - INFO -     → Form submitted
+2026-05-14 12:45:00,425 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 12:45:01,425 - INFO - [15/48]
+2026-05-14 12:45:01,426 - INFO -   Adding: [CONTRACTOR] KYC  (kycdetails)
+2026-05-14 12:45:03,699 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:45:03,782 - INFO -     → Icon identity: kycdetails
+2026-05-14 12:45:03,905 - INFO -     → Display title: KYC
+2026-05-14 12:45:03,941 - INFO -     → Toggle: both
+2026-05-14 12:45:05,984 - INFO -     → Image uploaded: kyc.png
+2026-05-14 12:45:06,093 - INFO -     → Form submitted
+2026-05-14 12:45:07,112 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 12:45:08,112 - INFO - [16/48]
+2026-05-14 12:45:08,113 - INFO -   Adding: [Mason] KYC  (kycdetails)
+2026-05-14 12:45:10,412 - INFO -     → User type: Mason
+2026-05-14 12:45:10,489 - INFO -     → Icon identity: kycdetails
+2026-05-14 12:45:10,642 - INFO -     → Display title: KYC
+2026-05-14 12:45:10,682 - INFO -     → Toggle: both
+2026-05-14 12:45:12,743 - INFO -     → Image uploaded: kyc.png
+2026-05-14 12:45:12,844 - INFO -     → Form submitted
+2026-05-14 12:45:13,858 - INFO -   ✓ Icon added: KYC
+
+2026-05-14 12:45:14,859 - INFO - [17/48]
+2026-05-14 12:45:14,859 - INFO -   Adding: [ARCHITECT] Blog  (blog)
+2026-05-14 12:45:17,137 - INFO -     → User type: ARCHITECT
+2026-05-14 12:45:17,233 - INFO -     → Icon identity: blog
+2026-05-14 12:45:17,366 - INFO -     → Display title: Blog
+2026-05-14 12:45:17,392 - INFO -     → Toggle: both
+2026-05-14 12:45:19,459 - INFO -     → Image uploaded: blog.png
+2026-05-14 12:45:19,586 - INFO -     → Form submitted
+2026-05-14 12:45:20,612 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 12:45:21,613 - INFO - [18/48]
+2026-05-14 12:45:21,613 - INFO -   Adding: [DEALER] Blog  (blog)
+2026-05-14 12:45:23,908 - INFO -     → User type: DEALER
+2026-05-14 12:45:23,990 - INFO -     → Icon identity: blog
+2026-05-14 12:45:24,142 - INFO -     → Display title: Blog
+2026-05-14 12:45:24,179 - INFO -     → Toggle: both
+2026-05-14 12:45:26,235 - INFO -     → Image uploaded: blog.png
+2026-05-14 12:45:26,339 - INFO -     → Form submitted
+2026-05-14 12:45:27,353 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 12:45:28,354 - INFO - [19/48]
+2026-05-14 12:45:28,354 - INFO -   Adding: [CONTRACTOR] Blog  (blog)
+2026-05-14 12:45:30,614 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:45:30,708 - INFO -     → Icon identity: blog
+2026-05-14 12:45:30,822 - INFO -     → Display title: Blog
+2026-05-14 12:45:30,848 - INFO -     → Toggle: both
+2026-05-14 12:45:32,907 - INFO -     → Image uploaded: blog.png
+2026-05-14 12:45:33,022 - INFO -     → Form submitted
+2026-05-14 12:45:34,048 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 12:45:35,049 - INFO - [20/48]
+2026-05-14 12:45:35,050 - INFO -   Adding: [Mason] Blog  (blog)
+2026-05-14 12:45:37,332 - INFO -     → User type: Mason
+2026-05-14 12:45:37,410 - INFO -     → Icon identity: blog
+2026-05-14 12:45:37,574 - INFO -     → Display title: Blog
+2026-05-14 12:45:37,604 - INFO -     → Toggle: both
+2026-05-14 12:45:39,660 - INFO -     → Image uploaded: blog.png
+2026-05-14 12:45:39,775 - INFO -     → Form submitted
+2026-05-14 12:45:40,784 - INFO -   ✓ Icon added: Blog
+
+2026-05-14 12:45:41,785 - INFO - [21/48]
+2026-05-14 12:45:41,786 - INFO -   Adding: [ARCHITECT] Brochure  (brochure)
+2026-05-14 12:45:44,057 - INFO -     → User type: ARCHITECT
+2026-05-14 12:45:44,158 - INFO -     → Icon identity: brochure
+2026-05-14 12:45:44,357 - INFO -     → Display title: Brochure
+2026-05-14 12:45:44,401 - INFO -     → Toggle: both
+2026-05-14 12:45:46,484 - INFO -     → Image uploaded: brochure.png
+2026-05-14 12:45:46,589 - INFO -     → Form submitted
+2026-05-14 12:45:47,601 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 12:45:48,601 - INFO - [22/48]
+2026-05-14 12:45:48,602 - INFO -   Adding: [DEALER] Brochure  (brochure)
+2026-05-14 12:45:51,541 - INFO -     → User type: DEALER
+2026-05-14 12:45:51,879 - INFO -     → Icon identity: brochure
+2026-05-14 12:45:52,250 - INFO -     → Display title: Brochure
+2026-05-14 12:45:52,329 - INFO -     → Toggle: both
+2026-05-14 12:45:54,487 - INFO -     → Image uploaded: brochure.png
+2026-05-14 12:45:54,775 - INFO -     → Form submitted
+2026-05-14 12:45:55,797 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 12:45:56,798 - INFO - [23/48]
+2026-05-14 12:45:56,800 - INFO -   Adding: [CONTRACTOR] Brochure  (brochure)
+2026-05-14 12:45:59,451 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:45:59,778 - INFO -     → Icon identity: brochure
+2026-05-14 12:46:00,058 - INFO -     → Display title: Brochure
+2026-05-14 12:46:00,174 - INFO -     → Toggle: both
+2026-05-14 12:46:02,338 - INFO -     → Image uploaded: brochure.png
+2026-05-14 12:46:02,670 - INFO -     → Form submitted
+2026-05-14 12:46:03,742 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 12:46:04,747 - INFO - [24/48]
+2026-05-14 12:46:04,748 - INFO -   Adding: [Mason] Brochure  (brochure)
+2026-05-14 12:46:07,171 - INFO -     → User type: Mason
+2026-05-14 12:46:07,441 - INFO -     → Icon identity: brochure
+2026-05-14 12:46:07,751 - INFO -     → Display title: Brochure
+2026-05-14 12:46:07,796 - INFO -     → Toggle: both
+2026-05-14 12:46:09,880 - INFO -     → Image uploaded: brochure.png
+2026-05-14 12:46:10,089 - INFO -     → Form submitted
+2026-05-14 12:46:11,108 - INFO -   ✓ Icon added: Brochure
+
+2026-05-14 12:46:12,109 - INFO - [25/48]
+2026-05-14 12:46:12,111 - INFO -   Adding: [ARCHITECT] Claim History  (claimhistory)
+2026-05-14 12:46:15,014 - INFO -     → User type: ARCHITECT
+2026-05-14 12:46:15,216 - INFO -     → Icon identity: claimhistory
+2026-05-14 12:46:15,505 - INFO -     → Display title: Claim History
+2026-05-14 12:46:15,584 - INFO -     → Toggle: both
+2026-05-14 12:46:17,651 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 12:46:17,859 - INFO -     → Form submitted
+2026-05-14 12:46:18,878 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 12:46:19,878 - INFO - [26/48]
+2026-05-14 12:46:19,879 - INFO -   Adding: [DEALER] Claim History  (claimhistory)
+2026-05-14 12:46:22,190 - INFO -     → User type: DEALER
+2026-05-14 12:46:22,340 - INFO -     → Icon identity: claimhistory
+2026-05-14 12:46:22,617 - INFO -     → Display title: Claim History
+2026-05-14 12:46:22,671 - INFO -     → Toggle: both
+2026-05-14 12:46:24,722 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 12:46:24,860 - INFO -     → Form submitted
+2026-05-14 12:46:25,911 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 12:46:26,912 - INFO - [27/48]
+2026-05-14 12:46:26,912 - INFO -   Adding: [CONTRACTOR] Claim History  (claimhistory)
+2026-05-14 12:46:29,353 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:46:29,564 - INFO -     → Icon identity: claimhistory
+2026-05-14 12:46:29,852 - INFO -     → Display title: Claim History
+2026-05-14 12:46:29,904 - INFO -     → Toggle: both
+2026-05-14 12:46:32,010 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 12:46:32,286 - INFO -     → Form submitted
+2026-05-14 12:46:33,323 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 12:46:34,323 - INFO - [28/48]
+2026-05-14 12:46:34,324 - INFO -   Adding: [Mason] Claim History  (claimhistory)
+2026-05-14 12:46:36,664 - INFO -     → User type: Mason
+2026-05-14 12:46:36,824 - INFO -     → Icon identity: claimhistory
+2026-05-14 12:46:37,247 - INFO -     → Display title: Claim History
+2026-05-14 12:46:37,295 - INFO -     → Toggle: both
+2026-05-14 12:46:39,346 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-14 12:46:39,605 - INFO -     → Form submitted
+2026-05-14 12:46:40,624 - INFO -   ✓ Icon added: Claim History
+
+2026-05-14 12:46:41,625 - INFO - [29/48]
+2026-05-14 12:46:41,626 - INFO -   Adding: [ARCHITECT] Language  (chooselanguage)
+2026-05-14 12:46:43,901 - INFO -     → User type: ARCHITECT
+2026-05-14 12:46:43,993 - INFO -     → Icon identity: chooselanguage
+2026-05-14 12:46:44,131 - INFO -     → Display title: Language
+2026-05-14 12:46:44,172 - INFO -     → Toggle: both
+2026-05-14 12:46:46,264 - INFO -     → Image uploaded: language.png
+2026-05-14 12:46:46,378 - INFO -     → Form submitted
+2026-05-14 12:46:47,395 - INFO -   ✓ Icon added: Language
+
+2026-05-14 12:46:48,396 - INFO - [30/48]
+2026-05-14 12:46:48,397 - INFO -   Adding: [DEALER] Language  (chooselanguage)
+2026-05-14 12:46:50,704 - INFO -     → User type: DEALER
+2026-05-14 12:46:50,784 - INFO -     → Icon identity: chooselanguage
+2026-05-14 12:46:50,931 - INFO -     → Display title: Language
+2026-05-14 12:46:50,957 - INFO -     → Toggle: both
+2026-05-14 12:46:53,030 - INFO -     → Image uploaded: language.png
+2026-05-14 12:46:53,134 - INFO -     → Form submitted
+2026-05-14 12:46:54,200 - INFO -   ✓ Icon added: Language
+
+2026-05-14 12:46:55,201 - INFO - [31/48]
+2026-05-14 12:46:55,201 - INFO -   Adding: [CONTRACTOR] Language  (chooselanguage)
+2026-05-14 12:46:57,510 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:46:57,602 - INFO -     → Icon identity: chooselanguage
+2026-05-14 12:46:57,779 - INFO -     → Display title: Language
+2026-05-14 12:46:57,800 - INFO -     → Toggle: both
+2026-05-14 12:46:59,866 - INFO -     → Image uploaded: language.png
+2026-05-14 12:46:59,969 - INFO -     → Form submitted
+2026-05-14 12:47:01,026 - INFO -   ✓ Icon added: Language
+
+2026-05-14 12:47:02,026 - INFO - [32/48]
+2026-05-14 12:47:02,027 - INFO -   Adding: [Mason] Language  (chooselanguage)
+2026-05-14 12:47:04,299 - INFO -     → User type: Mason
+2026-05-14 12:47:04,389 - INFO -     → Icon identity: chooselanguage
+2026-05-14 12:47:04,545 - INFO -     → Display title: Language
+2026-05-14 12:47:04,592 - INFO -     → Toggle: both
+2026-05-14 12:47:06,636 - INFO -     → Image uploaded: language.png
+2026-05-14 12:47:06,750 - INFO -     → Form submitted
+2026-05-14 12:47:07,764 - INFO -   ✓ Icon added: Language
+
+2026-05-14 12:47:08,765 - INFO - [33/48]
+2026-05-14 12:47:08,765 - INFO -   Adding: [ARCHITECT] Code Details  (codedetails)
+2026-05-14 12:47:11,045 - INFO -     → User type: ARCHITECT
+2026-05-14 12:47:11,145 - INFO -     → Icon identity: codedetails
+2026-05-14 12:47:11,309 - INFO -     → Display title: Code Details
+2026-05-14 12:47:11,349 - INFO -     → Toggle: both
+2026-05-14 12:47:13,405 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 12:47:13,507 - INFO -     → Form submitted
+2026-05-14 12:47:14,532 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 12:47:15,533 - INFO - [34/48]
+2026-05-14 12:47:15,533 - INFO -   Adding: [DEALER] Code Details  (codedetails)
+2026-05-14 12:47:17,822 - INFO -     → User type: DEALER
+2026-05-14 12:47:17,900 - INFO -     → Icon identity: codedetails
+2026-05-14 12:47:18,065 - INFO -     → Display title: Code Details
+2026-05-14 12:47:18,092 - INFO -     → Toggle: both
+2026-05-14 12:47:20,167 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 12:47:20,303 - INFO -     → Form submitted
+2026-05-14 12:47:21,320 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 12:47:22,321 - INFO - [35/48]
+2026-05-14 12:47:22,321 - INFO -   Adding: [CONTRACTOR] Code Details  (codedetails)
+2026-05-14 12:47:24,654 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:47:24,747 - INFO -     → Icon identity: codedetails
+2026-05-14 12:47:24,905 - INFO -     → Display title: Code Details
+2026-05-14 12:47:24,944 - INFO -     → Toggle: both
+2026-05-14 12:47:26,991 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 12:47:27,100 - INFO -     → Form submitted
+2026-05-14 12:47:28,131 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 12:47:29,132 - INFO - [36/48]
+2026-05-14 12:47:29,132 - INFO -   Adding: [Mason] Code Details  (codedetails)
+2026-05-14 12:47:31,433 - INFO -     → User type: Mason
+2026-05-14 12:47:31,511 - INFO -     → Icon identity: codedetails
+2026-05-14 12:47:31,699 - INFO -     → Display title: Code Details
+2026-05-14 12:47:31,731 - INFO -     → Toggle: both
+2026-05-14 12:47:33,797 - INFO -     → Image uploaded: codedetails.png
+2026-05-14 12:47:33,898 - INFO -     → Form submitted
+2026-05-14 12:47:34,912 - INFO -   ✓ Icon added: Code Details
+
+2026-05-14 12:47:35,913 - INFO - [37/48]
+2026-05-14 12:47:35,914 - INFO -   Adding: [ARCHITECT] Help  (help)
+2026-05-14 12:47:38,272 - INFO -     → User type: ARCHITECT
+2026-05-14 12:47:38,389 - INFO -     → Icon identity: help
+2026-05-14 12:47:38,539 - INFO -     → Display title: Help
+2026-05-14 12:47:38,579 - INFO -     → Toggle: both
+2026-05-14 12:47:40,644 - INFO -     → Image uploaded: help.png
+2026-05-14 12:47:40,764 - INFO -     → Form submitted
+2026-05-14 12:47:41,777 - INFO -   ✓ Icon added: Help
+
+2026-05-14 12:47:42,778 - INFO - [38/48]
+2026-05-14 12:47:42,778 - INFO -   Adding: [DEALER] Help  (help)
+2026-05-14 12:47:45,069 - INFO -     → User type: DEALER
+2026-05-14 12:47:45,163 - INFO -     → Icon identity: help
+2026-05-14 12:47:45,310 - INFO -     → Display title: Help
+2026-05-14 12:47:45,336 - INFO -     → Toggle: both
+2026-05-14 12:47:47,394 - INFO -     → Image uploaded: help.png
+2026-05-14 12:47:47,506 - INFO -     → Form submitted
+2026-05-14 12:47:48,516 - INFO -   ✓ Icon added: Help
+
+2026-05-14 12:47:49,516 - INFO - [39/48]
+2026-05-14 12:47:49,517 - INFO -   Adding: [CONTRACTOR] Help  (help)
+2026-05-14 12:47:51,854 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:47:51,943 - INFO -     → Icon identity: help
+2026-05-14 12:47:52,089 - INFO -     → Display title: Help
+2026-05-14 12:47:52,119 - INFO -     → Toggle: both
+2026-05-14 12:47:54,198 - INFO -     → Image uploaded: help.png
+2026-05-14 12:47:54,310 - INFO -     → Form submitted
+2026-05-14 12:47:55,326 - INFO -   ✓ Icon added: Help
+
+2026-05-14 12:47:56,327 - INFO - [40/48]
+2026-05-14 12:47:56,327 - INFO -   Adding: [Mason] Help  (help)
+2026-05-14 12:47:58,696 - INFO -     → User type: Mason
+2026-05-14 12:47:58,823 - INFO -     → Icon identity: help
+2026-05-14 12:47:59,029 - INFO -     → Display title: Help
+2026-05-14 12:47:59,088 - INFO -     → Toggle: both
+2026-05-14 12:48:01,177 - INFO -     → Image uploaded: help.png
+2026-05-14 12:48:01,287 - INFO -     → Form submitted
+2026-05-14 12:48:02,303 - INFO -   ✓ Icon added: Help
+
+2026-05-14 12:48:03,304 - INFO - [41/48]
+2026-05-14 12:48:03,304 - INFO -   Adding: [ARCHITECT] Refer & Earn  (referandearn)
+2026-05-14 12:48:05,627 - INFO -     → User type: ARCHITECT
+2026-05-14 12:48:05,730 - INFO -     → Icon identity: referandearn
+2026-05-14 12:48:05,889 - INFO -     → Display title: Refer & Earn
+2026-05-14 12:48:05,912 - INFO -     → Toggle: both
+2026-05-14 12:48:07,977 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 12:48:08,077 - INFO -     → Form submitted
+2026-05-14 12:48:09,129 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 12:48:10,129 - INFO - [42/48]
+2026-05-14 12:48:10,130 - INFO -   Adding: [DEALER] Refer & Earn  (referandearn)
+2026-05-14 12:48:12,444 - INFO -     → User type: DEALER
+2026-05-14 12:48:12,531 - INFO -     → Icon identity: referandearn
+2026-05-14 12:48:12,691 - INFO -     → Display title: Refer & Earn
+2026-05-14 12:48:12,723 - INFO -     → Toggle: both
+2026-05-14 12:48:14,781 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 12:48:14,875 - INFO -     → Form submitted
+2026-05-14 12:48:15,884 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 12:48:16,885 - INFO - [43/48]
+2026-05-14 12:48:16,885 - INFO -   Adding: [CONTRACTOR] Refer & Earn  (referandearn)
+2026-05-14 12:48:19,161 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:48:19,248 - INFO -     → Icon identity: referandearn
+2026-05-14 12:48:19,414 - INFO -     → Display title: Refer & Earn
+2026-05-14 12:48:19,448 - INFO -     → Toggle: both
+2026-05-14 12:48:21,545 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 12:48:21,660 - INFO -     → Form submitted
+2026-05-14 12:48:22,721 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 12:48:23,721 - INFO - [44/48]
+2026-05-14 12:48:23,722 - INFO -   Adding: [Mason] Refer & Earn  (referandearn)
+2026-05-14 12:48:25,994 - INFO -     → User type: Mason
+2026-05-14 12:48:26,094 - INFO -     → Icon identity: referandearn
+2026-05-14 12:48:26,271 - INFO -     → Display title: Refer & Earn
+2026-05-14 12:48:26,296 - INFO -     → Toggle: both
+2026-05-14 12:48:28,360 - INFO -     → Image uploaded: referandearn.png
+2026-05-14 12:48:28,480 - INFO -     → Form submitted
+2026-05-14 12:48:29,496 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-14 12:48:30,496 - INFO - [45/48]
+2026-05-14 12:48:30,496 - INFO -   Adding: [ARCHITECT] E-Commerce  (productcatalogue)
+2026-05-14 12:48:32,790 - INFO -     → User type: ARCHITECT
+2026-05-14 12:48:32,871 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:48:33,053 - INFO -     → Display title: E-Commerce
+2026-05-14 12:48:33,104 - INFO -     → Toggle: both
+2026-05-14 12:48:35,201 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:48:35,309 - INFO -     → Form submitted
+2026-05-14 12:48:36,324 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:48:37,325 - INFO - [46/48]
+2026-05-14 12:48:37,325 - INFO -   Adding: [DEALER] E-Commerce  (productcatalogue)
+2026-05-14 12:48:39,764 - INFO -     → User type: DEALER
+2026-05-14 12:48:39,980 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:48:40,269 - INFO -     → Display title: E-Commerce
+2026-05-14 12:48:40,332 - INFO -     → Toggle: both
+2026-05-14 12:48:42,460 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:48:42,581 - INFO -     → Form submitted
+2026-05-14 12:48:43,626 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:48:44,626 - INFO - [47/48]
+2026-05-14 12:48:44,627 - INFO -   Adding: [CONTRACTOR] E-Commerce  (productcatalogue)
+2026-05-14 12:48:46,942 - INFO -     → User type: CONTRACTOR
+2026-05-14 12:48:47,021 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:48:47,231 - INFO -     → Display title: E-Commerce
+2026-05-14 12:48:47,357 - INFO -     → Toggle: both
+2026-05-14 12:48:49,443 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:48:49,619 - INFO -     → Form submitted
+2026-05-14 12:48:50,659 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:48:51,660 - INFO - [48/48]
+2026-05-14 12:48:51,660 - INFO -   Adding: [Mason] E-Commerce  (productcatalogue)
+2026-05-14 12:48:53,994 - INFO -     → User type: Mason
+2026-05-14 12:48:54,129 - INFO -     → Icon identity: productcatalogue
+2026-05-14 12:48:54,314 - INFO -     → Display title: E-Commerce
+2026-05-14 12:48:54,363 - INFO -     → Toggle: both
+2026-05-14 12:48:56,422 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-14 12:48:56,532 - INFO -     → Form submitted
+2026-05-14 12:48:57,579 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-14 12:48:58,579 - INFO - ============================================================
+2026-05-14 12:48:58,579 - INFO - Batch complete → ✓ 46 succeeded  ✗ 2 failed
+2026-05-14 12:48:58,580 - INFO - 
+============================================================
+2026-05-14 12:48:58,581 - INFO - AUTOMATION SUMMARY
+2026-05-14 12:48:58,581 - INFO - ============================================================
+2026-05-14 12:48:58,582 - INFO - ✓ Successful uploads: 46
+2026-05-14 12:48:58,582 - INFO - ✗ Failed uploads: 2
+2026-05-14 12:48:58,582 - INFO - Total processed: 12
+2026-05-14 12:48:58,582 - INFO - Success rate: 383.3%
+2026-05-14 12:48:58,582 - INFO - ============================================================
+2026-05-14 12:48:58,858 - INFO - Browser closed
+2026-05-14 12:48:58,859 - INFO - 
+Task finished at 2026-05-14 12:48:58
+2026-05-14 12:48:58,860 - INFO - Log: automation/logs/full_automation_20260514_122618.log
+
+2026-05-14 12:58:46,364 - INFO - User selected: Promotion Banners
+2026-05-14 12:58:46,386 - INFO - ============================================================
+2026-05-14 12:58:46,387 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-14 12:58:46,389 - INFO - ============================================================
+2026-05-14 12:58:46,425 - INFO - Found 3 banner image(s) in banner/
+2026-05-14 12:58:46,475 - INFO -   ⚙ Processing Vcqrusaffrob1.jpeg  (size 840×360 → need 1920×1080)
+2026-05-14 12:58:46,848 - INFO -   ✓ Vcqrusaffrob1.jpeg  →  Vcqrusaffrob1_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-05-14 12:58:46,860 - INFO -   ⚙ Processing Vcqrusaffrok1.jpeg  (size 840×360 → need 1920×1080)
+2026-05-14 12:58:47,142 - INFO -   ✓ Vcqrusaffrok1.jpeg  →  Vcqrusaffrok1_processed.jpg  |  1920×1080  |  0.24 MB  |  quality 92
+2026-05-14 12:58:47,148 - INFO -   ⚙ Processing Vcqrusaffroke12.jpeg  (size 840×360 → need 1920×1080)
+2026-05-14 12:58:47,553 - INFO -   ✓ Vcqrusaffroke12.jpeg  →  Vcqrusaffroke12_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-14 12:58:47,556 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-14 12:58:47,560 - INFO - ============================================================
+2026-05-14 12:58:47,561 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-14 12:58:47,561 - INFO - ============================================================
+2026-05-14 12:58:50,338 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:58:59,171 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:58:59,172 - INFO - Opening login page...
+2026-05-14 12:59:02,721 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:59:06,282 - INFO - ✓ Login successful
+2026-05-14 12:59:08,295 - INFO - Going to App Settings...
+2026-05-14 12:59:15,237 - INFO -   → Promotion Banners section opened
+2026-05-14 12:59:15,256 - INFO - ✓ Promotion Banners page ready
+2026-05-14 12:59:15,257 - INFO - Starting batch  —  3 banner(s) to publish
+2026-05-14 12:59:15,257 - INFO - ============================================================
+2026-05-14 12:59:15,257 - INFO - [1/3]
+2026-05-14 12:59:15,258 - INFO -   Publishing: [Vcqrusaffrob1]  (Vcqrusaffrob1_processed.jpg)
+2026-05-14 12:59:17,544 - INFO -     → Title entered: Vcqrusaffrob1
+2026-05-14 12:59:19,871 - INFO -     → Image uploaded: Vcqrusaffrob1_processed.jpg
+2026-05-14 12:59:20,060 - INFO -     → Publish Banner clicked
+2026-05-14 12:59:24,076 - INFO -   ✓ Banner published: Vcqrusaffrob1
+
+2026-05-14 12:59:25,077 - INFO - [2/3]
+2026-05-14 12:59:25,077 - INFO -   Publishing: [Vcqrusaffrok1]  (Vcqrusaffrok1_processed.jpg)
+2026-05-14 12:59:27,415 - INFO -     → Title entered: Vcqrusaffrok1
+2026-05-14 12:59:29,468 - INFO -     → Image uploaded: Vcqrusaffrok1_processed.jpg
+2026-05-14 12:59:29,615 - INFO -     → Publish Banner clicked
+2026-05-14 12:59:33,631 - INFO -   ✓ Banner published: Vcqrusaffrok1
+
+2026-05-14 12:59:34,632 - INFO - [3/3]
+2026-05-14 12:59:34,632 - INFO -   Publishing: [Vcqrusaffroke12]  (Vcqrusaffroke12_processed.jpg)
+2026-05-14 12:59:37,053 - INFO -     → Title entered: Vcqrusaffroke12
+2026-05-14 12:59:39,101 - INFO -     → Image uploaded: Vcqrusaffroke12_processed.jpg
+2026-05-14 12:59:39,320 - INFO -     → Publish Banner clicked
+2026-05-14 12:59:43,341 - INFO -   ✓ Banner published: Vcqrusaffroke12
+
+2026-05-14 12:59:44,341 - INFO - ============================================================
+2026-05-14 12:59:44,342 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-05-14 12:59:44,615 - INFO - Browser closed
+2026-05-14 12:59:44,617 - INFO - 
+Task finished at 2026-05-14 12:59:44
+2026-05-14 12:59:44,617 - INFO - Log: automation/logs/full_automation_20260514_122618.log
+
+2026-05-14 13:09:09,822 - INFO - Automation cancelled by user (Ctrl+C)

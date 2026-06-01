@@ -1,0 +1,269 @@
+2026-05-27 12:02:40,183 - INFO - User selected: Old Dashboard
+2026-05-27 12:02:42,031 - INFO -   Old Dashboard → Brand Setting
+2026-05-27 12:02:42,032 - INFO - ============================================================
+2026-05-27 12:02:42,032 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-27 12:02:42,032 - INFO - ============================================================
+2026-05-27 12:02:42,033 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 12:02:42,033 - INFO - ====== WebDriver manager ======
+2026-05-27 12:02:42,422 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:02:42,699 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:02:43,468 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 12:02:44,820 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-27 12:02:44,820 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-27 12:02:52,358 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-27 12:02:54,359 - INFO -     → Filling credentials …
+2026-05-27 12:02:54,633 - INFO -       Email → field #login_txt_id
+2026-05-27 12:02:54,824 - INFO -       Password → field #login_txt_pass
+2026-05-27 12:02:55,109 - INFO -       Login button clicked: #btnVendor
+2026-05-27 12:02:55,110 - INFO -     → Waiting for post-login redirect …
+2026-05-27 12:03:04,136 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-27 12:03:04,136 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-27 12:03:17,710 - INFO - 
+[3/4] Extracting brand data …
+2026-05-27 12:03:18,612 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-27 12:03:19,060 - INFO -   ✓ Downloaded: logo.png  (7.7 KB)
+2026-05-27 12:03:19,835 - INFO -   ✓ Downloaded: splash.png  (188.7 KB)
+2026-05-27 12:03:19,853 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-27 12:03:20,235 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-27 12:03:20,236 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 12:03:20,236 - INFO - ====== WebDriver manager ======
+2026-05-27 12:03:21,206 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:03:21,570 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:03:21,827 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 12:03:24,341 - INFO - ✓ Chrome driver initialized
+2026-05-27 12:03:24,341 - INFO - Opening login page...
+2026-05-27 12:03:27,370 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 12:03:36,775 - INFO - ✓ Login successful
+2026-05-27 12:03:36,852 - INFO - ✓ Logo  → logo_processed.jpg  |  33.5 KB  |  JPEG q95
+2026-05-27 12:03:37,110 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-27 12:03:41,075 - INFO - ✓ Splash → splash_processed.png  |  0.67 MB  |  PNG lossless
+2026-05-27 12:03:41,109 - INFO -   Colours extracted from logo:
+2026-05-27 12:03:41,109 - INFO -     Header Color     →  #E07010  (dominant logo colour)
+2026-05-27 12:03:41,110 - INFO -     Background Color →  #91480A  (35% darker)
+2026-05-27 12:03:41,110 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-27 12:03:41,110 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-27 12:03:41,111 - INFO - Going to App Settings...
+2026-05-27 12:03:48,436 - INFO -   → Identity & Branding section opened
+2026-05-27 12:03:50,766 - INFO -   → Edit Branding popup opened
+2026-05-27 12:03:50,796 - INFO - ✓ Brand setting form is ready
+2026-05-27 12:03:50,797 - INFO -   Setting company name: Samko Reward Points
+2026-05-27 12:03:52,360 - INFO -     → HeaderColor: #E07010
+2026-05-27 12:03:53,714 - INFO -     → FooterColor: #F5F5F5
+2026-05-27 12:03:54,813 - INFO -     → BodyColor: #FFFFFF
+2026-05-27 12:03:56,032 - INFO -     → BackgroundColor: #91480A
+2026-05-27 12:03:58,205 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-27 12:04:00,364 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-27 12:04:00,744 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-27 12:04:03,756 - INFO - ✓ Brand settings saved successfully!
+2026-05-27 12:04:03,756 - INFO - Going to App Settings for Support Network...
+2026-05-27 12:04:07,081 - INFO -   → Support Network section opened
+2026-05-27 12:04:10,169 - INFO -   → Edit Support Network popup opened
+2026-05-27 12:04:12,170 - INFO - ✓ Support Network form is ready
+2026-05-27 12:04:12,459 - INFO -     ✓ phone filled
+2026-05-27 12:04:12,755 - INFO -     ✓ email filled
+2026-05-27 12:04:13,263 - INFO -     ✓ website filled
+2026-05-27 12:04:13,783 - INFO -     ✓ terms_conditions filled
+2026-05-27 12:04:14,899 - INFO -     ✓ support_content filled
+2026-05-27 12:04:15,400 - INFO -     ✓ privacy_policy filled
+2026-05-27 12:04:16,453 - INFO -   → Save clicked
+2026-05-27 12:04:19,454 - INFO - ✓ Support Network saved successfully!
+2026-05-27 12:04:19,661 - INFO - Browser closed
+2026-05-27 12:04:19,662 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48171): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d7cfed241ef03640fcb7439ddd3bbf68
+2026-05-27 12:04:19,662 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48171): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d7cfed241ef03640fcb7439ddd3bbf68
+2026-05-27 12:04:19,663 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48171): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d7cfed241ef03640fcb7439ddd3bbf68
+2026-05-27 12:04:19,663 - INFO -   Browser closed
+2026-05-27 12:04:19,664 - INFO - 
+Task finished at 2026-05-27 12:04:19
+2026-05-27 12:04:19,664 - INFO - Log: automation/logs/full_automation_20260527_120225.log
+
+2026-05-27 12:04:23,875 - INFO - User selected: Old Dashboard
+2026-05-27 12:04:26,700 - INFO -   Old Dashboard → Introduction Setting
+2026-05-27 12:04:26,700 - INFO - ============================================================
+2026-05-27 12:04:26,700 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-27 12:04:26,700 - INFO - ============================================================
+2026-05-27 12:04:26,701 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 12:04:26,701 - INFO - ====== WebDriver manager ======
+2026-05-27 12:04:27,047 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:04:27,452 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:04:27,795 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 12:04:29,280 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-27 12:04:36,563 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-27 12:04:36,819 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-27 12:04:39,820 - INFO -   → Filling Vendor credentials...
+2026-05-27 12:04:40,416 - INFO -     - Email entered: samkoswitchgears@gmail.com
+2026-05-27 12:04:40,416 - INFO -     - Clicking 'login' button...
+2026-05-27 12:04:40,534 - INFO -   → Waiting for successful login redirect...
+2026-05-27 12:04:53,473 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-27 12:04:53,485 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-27 12:04:58,563 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-27 12:04:58,599 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-27 12:05:01,698 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-27 12:05:10,218 - INFO -   → Searching for introduction screens data...
+2026-05-27 12:05:10,286 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-05-27 12:05:10,549 - INFO -     → Found 4 potential rows to extract
+2026-05-27 12:05:10,753 - INFO -     → Downloading image for: Join Now and Unlock Exclusive ...
+2026-05-27 12:05:11,851 - INFO -     ✓ Extracted 1/4
+2026-05-27 12:05:11,950 - INFO -     → Downloading image for: Get the Latest Offers and Loya...
+2026-05-27 12:05:12,615 - INFO -     ✓ Extracted 2/4
+2026-05-27 12:05:12,722 - INFO -     → Downloading image for: Complete Your KYC for Seamless...
+2026-05-27 12:05:13,217 - INFO -     ✓ Extracted 3/4
+2026-05-27 12:05:13,287 - INFO -     → Downloading image for: Join Now and Unlock Exclusive ...
+2026-05-27 12:05:13,750 - INFO -     ✓ Extracted 4/4
+2026-05-27 12:05:13,964 - INFO - ✓ Extracted 4 screens.
+2026-05-27 12:05:13,964 - INFO - 
+============================================================
+2026-05-27 12:05:13,964 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-05-27 12:05:13,964 - INFO - ============================================================
+2026-05-27 12:05:13,965 - INFO -   ⚙ Processing old_intro_1_20260527_120510.jpg  (360×800 → need 1080×1920)
+2026-05-27 12:05:14,115 - INFO -   ✓ old_intro_1_20260527_120510.jpg  →  old_intro_1_20260527_120510_processed.jpg  |  1080×1920  |  0.21 MB  |  quality 92
+2026-05-27 12:05:14,117 - INFO -   ⚙ Processing old_intro_2_20260527_120511.jpg  (341×326 → need 1080×1920)
+2026-05-27 12:05:14,249 - INFO -   ✓ old_intro_2_20260527_120511.jpg  →  old_intro_2_20260527_120511_processed.jpg  |  1080×1920  |  0.13 MB  |  quality 92
+2026-05-27 12:05:14,252 - INFO -   ⚙ Processing old_intro_3_20260527_120512.jpg  (100×63 → need 1080×1920)
+2026-05-27 12:05:14,388 - INFO -   ✓ old_intro_3_20260527_120512.jpg  →  old_intro_3_20260527_120512_processed.jpg  |  1080×1920  |  0.10 MB  |  quality 92
+2026-05-27 12:05:14,390 - INFO -   ✓ old_intro_4_20260527_120513.jpg  →  Already OK (1080×1920, 0.08 MB)
+2026-05-27 12:05:14,496 - INFO - 
+============================================================
+2026-05-27 12:05:14,497 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-05-27 12:05:14,497 - INFO - ============================================================
+2026-05-27 12:05:14,497 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 12:05:14,497 - INFO - ====== WebDriver manager ======
+2026-05-27 12:05:14,855 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:05:15,131 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:05:15,365 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 12:05:16,735 - INFO - ✓ Chrome driver initialized
+2026-05-27 12:05:16,735 - INFO - Opening login page...
+2026-05-27 12:05:18,991 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 12:05:22,079 - INFO - ✓ Login successful
+2026-05-27 12:05:22,080 - INFO - Going to App Settings...
+2026-05-27 12:05:28,714 - INFO -   → Intro Screens section opened
+2026-05-27 12:05:28,736 - INFO - ✓ Intro Screens page ready
+2026-05-27 12:05:28,736 - INFO - Starting batch  —  4 intro screen(s) to launch
+2026-05-27 12:05:28,736 - INFO - ============================================================
+2026-05-27 12:05:28,736 - INFO - [1/4]
+2026-05-27 12:05:28,737 - INFO -   Launching screen: [Join Now and Unlock Exclusive Loyalty Rewards]
+2026-05-27 12:05:31,268 - INFO -     → Header: Join Now and Unlock Exclusive Loyalty Rewards
+2026-05-27 12:05:31,849 - INFO -     → Description: Sign up now and start earning exciting loyalty rewards with ...
+2026-05-27 12:05:34,010 - INFO -     → Image uploaded: old_intro_1_20260527_120510_processed.jpg
+2026-05-27 12:05:34,238 - INFO -     → Launch Screen clicked
+2026-05-27 12:05:38,249 - INFO -   ✓ Intro screen launched: Join Now and Unlock Exclusive Loyalty Rewards
+
+2026-05-27 12:05:39,251 - INFO - [2/4]
+2026-05-27 12:05:39,252 - INFO -   Launching screen: [Get the Latest Offers and Loyalty Updates with Not]
+2026-05-27 12:05:41,831 - INFO -     → Header: Get the Latest Offers and Loyalty Updates with Notifications!
+2026-05-27 12:05:42,504 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes throug...
+2026-05-27 12:05:44,607 - INFO -     → Image uploaded: old_intro_2_20260527_120511_processed.jpg
+2026-05-27 12:05:44,812 - INFO -     → Launch Screen clicked
+2026-05-27 12:05:48,837 - INFO -   ✓ Intro screen launched: Get the Latest Offers and Loyalty Updates with Notifications!
+
+2026-05-27 12:05:49,838 - INFO - [3/4]
+2026-05-27 12:05:49,838 - INFO -   Launching screen: [Complete Your KYC for Seamless Benefits!]
+2026-05-27 12:05:52,367 - INFO -     → Header: Complete Your KYC for Seamless Benefits!
+2026-05-27 12:05:52,986 - INFO -     → Description: Complete your KYC to unlock all benefits and receive payment...
+2026-05-27 12:05:55,045 - INFO -     → Image uploaded: old_intro_3_20260527_120512_processed.jpg
+2026-05-27 12:05:55,310 - INFO -     → Launch Screen clicked
+2026-05-27 12:05:59,335 - INFO -   ✓ Intro screen launched: Complete Your KYC for Seamless Benefits!
+
+2026-05-27 12:06:00,336 - INFO - [4/4]
+2026-05-27 12:06:00,336 - INFO -   Launching screen: [Join Now and Unlock Exclusive Loyalty Rewards]
+2026-05-27 12:06:02,822 - INFO -     → Header: Join Now and Unlock Exclusive Loyalty Rewards
+2026-05-27 12:06:03,560 - INFO -     → Description: Sign up now and start earning exciting loyalty rewards with ...
+2026-05-27 12:06:05,719 - INFO -     → Image uploaded: old_intro_4_20260527_120513_processed.jpg
+2026-05-27 12:06:05,863 - INFO -     → Launch Screen clicked
+2026-05-27 12:06:09,881 - INFO -   ✓ Intro screen launched: Join Now and Unlock Exclusive Loyalty Rewards
+
+2026-05-27 12:06:10,882 - INFO - ============================================================
+2026-05-27 12:06:10,882 - INFO - Intro screens done  →  ✓ 4 launched   ✗ 0 failed
+2026-05-27 12:06:11,057 - INFO - Browser closed
+2026-05-27 12:06:11,057 - INFO - 
+Task finished at 2026-05-27 12:06:11
+2026-05-27 12:06:11,058 - INFO - Log: automation/logs/full_automation_20260527_120225.log
+
+2026-05-27 12:06:13,578 - INFO - User selected: Old Dashboard
+2026-05-27 12:06:16,787 - INFO -   Old Dashboard → Banner BL
+2026-05-27 12:06:16,787 - INFO - ============================================================
+2026-05-27 12:06:16,788 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-05-27 12:06:16,788 - INFO - ============================================================
+2026-05-27 12:06:16,788 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 12:06:16,788 - INFO - ====== WebDriver manager ======
+2026-05-27 12:06:17,144 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:06:17,363 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:06:17,612 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 12:06:19,617 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-27 12:06:25,557 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-27 12:06:25,927 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-27 12:06:28,927 - INFO -   → Filling Vendor credentials...
+2026-05-27 12:06:29,730 - INFO -     - Email entered: samkoswitchgears@gmail.com
+2026-05-27 12:06:29,730 - INFO -     - Clicking 'login' button...
+2026-05-27 12:06:30,075 - INFO -   → Waiting for successful login redirect...
+2026-05-27 12:06:38,796 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-27 12:06:38,805 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-27 12:06:43,899 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-27 12:06:43,943 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-27 12:06:47,052 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-05-27 12:06:53,263 - INFO -   → Searching for banner images data...
+2026-05-27 12:06:53,349 - INFO -     ✓ Found 3 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-05-27 12:06:53,351 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruVcqruScan%20more%20QR%20to%20win%20gift_banner2.jpg
+2026-05-27 12:06:54,457 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruVcqrurefer%20and%20earn%20banner_banner3.jpg
+2026-05-27 12:06:55,183 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/VcqruVcqruNew%20product_banner1.jpg
+2026-05-27 12:06:55,852 - INFO - ✓ Extracted 3 banners.
+2026-05-27 12:06:55,852 - INFO - 
+============================================================
+2026-05-27 12:06:55,852 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-05-27 12:06:55,852 - INFO - ============================================================
+2026-05-27 12:06:55,853 - INFO -   ⚙ Processing old_banner_1_20260527_120653.jpg  (size 360×160 → need 1920×1080)
+2026-05-27 12:06:55,964 - INFO -   ✓ old_banner_1_20260527_120653.jpg  →  old_banner_1_20260527_120653_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-27 12:06:55,967 - INFO -   ⚙ Processing old_banner_2_20260527_120654.jpg  (size 360×160 → need 1920×1080)
+2026-05-27 12:06:56,102 - INFO -   ✓ old_banner_2_20260527_120654.jpg  →  old_banner_2_20260527_120654_processed.jpg  |  1920×1080  |  0.15 MB  |  quality 92
+2026-05-27 12:06:56,104 - INFO -   ⚙ Processing old_banner_3_20260527_120655.jpg  (size 360×160 → need 1920×1080)
+2026-05-27 12:06:56,220 - INFO -   ✓ old_banner_3_20260527_120655.jpg  →  old_banner_3_20260527_120655_processed.jpg  |  1920×1080  |  0.17 MB  |  quality 92
+2026-05-27 12:06:56,222 - INFO - 
+============================================================
+2026-05-27 12:06:56,222 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-05-27 12:06:56,223 - INFO - ============================================================
+2026-05-27 12:06:56,223 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-27 12:06:56,223 - INFO - ====== WebDriver manager ======
+2026-05-27 12:06:56,533 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:06:56,839 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-27 12:06:57,257 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-27 12:06:58,331 - INFO - ✓ Chrome driver initialized
+2026-05-27 12:06:58,331 - INFO - Opening login page...
+2026-05-27 12:07:00,477 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-27 12:07:03,565 - INFO - ✓ Login successful
+2026-05-27 12:07:03,565 - INFO - Going to App Settings...
+2026-05-27 12:07:10,133 - INFO -   → Promotion Banners section opened
+2026-05-27 12:07:10,187 - INFO - ✓ Promotion Banners page ready
+2026-05-27 12:07:10,187 - INFO - Starting batch  —  3 banner(s) to publish
+2026-05-27 12:07:10,187 - INFO - ============================================================
+2026-05-27 12:07:10,187 - INFO - [1/3]
+2026-05-27 12:07:10,187 - INFO -   Publishing: [old_banner_1]  (old_banner_1_20260527_120653_processed.jpg)
+2026-05-27 12:07:12,510 - INFO -     → Title entered: old_banner_1
+2026-05-27 12:07:14,569 - INFO -     → Image uploaded: old_banner_1_20260527_120653_processed.jpg
+2026-05-27 12:07:14,732 - INFO -     → Publish Banner clicked
+2026-05-27 12:07:18,753 - INFO -   ✓ Banner published: old_banner_1
+
+2026-05-27 12:07:19,753 - INFO - [2/3]
+2026-05-27 12:07:19,754 - INFO -   Publishing: [old_banner_2]  (old_banner_2_20260527_120654_processed.jpg)
+2026-05-27 12:07:22,052 - INFO -     → Title entered: old_banner_2
+2026-05-27 12:07:24,100 - INFO -     → Image uploaded: old_banner_2_20260527_120654_processed.jpg
+2026-05-27 12:07:24,239 - INFO -     → Publish Banner clicked
+2026-05-27 12:07:28,266 - INFO -   ✓ Banner published: old_banner_2
+
+2026-05-27 12:07:29,267 - INFO - [3/3]
+2026-05-27 12:07:29,268 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260527_120655_processed.jpg)
+2026-05-27 12:07:31,543 - INFO -     → Title entered: old_banner_3
+2026-05-27 12:07:33,589 - INFO -     → Image uploaded: old_banner_3_20260527_120655_processed.jpg
+2026-05-27 12:07:33,755 - INFO -     → Publish Banner clicked
+2026-05-27 12:07:37,778 - INFO -   ✓ Banner published: old_banner_3
+
+2026-05-27 12:07:38,779 - INFO - ============================================================
+2026-05-27 12:07:38,779 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-05-27 12:07:38,992 - INFO - Browser closed
+2026-05-27 12:07:38,992 - INFO - 
+Task finished at 2026-05-27 12:07:38
+2026-05-27 12:07:38,992 - INFO - Log: automation/logs/full_automation_20260527_120225.log
+
+2026-05-27 12:13:53,451 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,205 @@
+2026-05-21 17:58:36,849 - INFO - User selected: Dashboard Icons
+2026-05-21 17:58:36,849 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-21 17:58:36,849 - INFO - Automation started at 2026-05-21 17:58:36
+
+2026-05-21 17:58:36,850 - INFO - ============================================================
+2026-05-21 17:58:36,850 - INFO - STEP 1: Processing and Compressing Images
+2026-05-21 17:58:36,850 - INFO - ============================================================
+2026-05-21 17:58:36,850 - INFO - Processing images from: dashboardicons
+2026-05-21 17:58:36,851 - INFO - Output folder: automation/processed_images
+2026-05-21 17:58:36,851 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-21 17:58:36,890 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-21 17:58:36,899 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-21 17:58:36,914 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-21 17:58:36,930 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-21 17:58:36,940 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-21 17:58:36,956 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-21 17:58:36,965 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-21 17:58:36,975 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-21 17:58:36,993 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-21 17:58:37,002 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-21 17:58:37,018 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-21 17:58:37,037 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-21 17:58:37,051 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-21 17:58:37,068 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-21 17:58:37,068 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-21 17:58:37,068 - INFO - ✓ 14 images processed and ready
+
+2026-05-21 17:58:37,068 - INFO - ============================================================
+2026-05-21 17:58:37,068 - INFO - STEP 2: Preparing Authentication
+2026-05-21 17:58:37,068 - INFO - ============================================================
+2026-05-21 17:58:37,069 - INFO - Using email: charminardesign@gmail.com
+2026-05-21 17:58:37,069 - INFO - ✓ Credentials loaded
+
+2026-05-21 17:58:37,069 - INFO - ============================================================
+2026-05-21 17:58:37,069 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-21 17:58:37,069 - INFO - ============================================================
+2026-05-21 17:58:37,070 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-21 17:58:37,070 - INFO - ====== WebDriver manager ======
+2026-05-21 17:58:37,709 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 17:58:37,997 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 17:58:38,201 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-21 17:58:40,374 - INFO - ✓ Chrome driver initialized
+2026-05-21 17:58:40,374 - INFO - 
+→ Attempting login...
+
+2026-05-21 17:58:40,375 - INFO - Opening login page...
+2026-05-21 17:58:44,126 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-21 17:58:47,701 - INFO - ✓ Login successful
+2026-05-21 17:58:49,702 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-21 17:58:49,702 - INFO - Navigating to App Settings...
+2026-05-21 17:58:56,392 - INFO - ✓ Dashboard Icons section loaded
+2026-05-21 17:58:58,393 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-21 17:58:58,393 - INFO - Starting batch – 12 configured entries
+2026-05-21 17:59:01,885 - INFO -   Found 1 user types: ['Painter']
+2026-05-21 17:59:01,886 - INFO - Available user types: ['Painter']
+2026-05-21 17:59:01,886 - INFO - Total icons to upload after expansion: 12
+2026-05-21 17:59:01,887 - INFO - ============================================================
+2026-05-21 17:59:01,887 - INFO - [1/12]
+2026-05-21 17:59:01,888 - INFO -   Adding: [Painter] Gift  (gift)
+2026-05-21 17:59:04,181 - INFO -     → User type: Painter
+2026-05-21 17:59:04,277 - INFO -     → Icon identity: gift
+2026-05-21 17:59:04,430 - INFO -     → Display title: Gift
+2026-05-21 17:59:04,501 - INFO -     → Toggle: both
+2026-05-21 17:59:06,600 - INFO -     → Image uploaded: Gift.png
+2026-05-21 17:59:06,763 - INFO -     → Form submitted
+2026-05-21 17:59:07,776 - INFO -   ✓ Icon added: Gift
+
+2026-05-21 17:59:08,776 - INFO - [2/12]
+2026-05-21 17:59:08,776 - INFO -   Adding: [Painter] History  (history)
+2026-05-21 17:59:11,045 - INFO -     → User type: Painter
+2026-05-21 17:59:11,204 - INFO -     → Icon identity: history
+2026-05-21 17:59:11,409 - INFO -     → Display title: History
+2026-05-21 17:59:11,477 - INFO -     → Toggle: both
+2026-05-21 17:59:13,587 - INFO -     → Image uploaded: history.png
+2026-05-21 17:59:13,727 - INFO -     → Form submitted
+2026-05-21 17:59:14,739 - INFO -   ✓ Icon added: History
+
+2026-05-21 17:59:15,740 - INFO - [3/12]
+2026-05-21 17:59:15,740 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-05-21 17:59:18,691 - INFO -     → User type: Painter
+2026-05-21 17:59:18,851 - INFO -     → Icon identity: wallet
+2026-05-21 17:59:18,987 - INFO -     → Display title: Wallet
+2026-05-21 17:59:19,026 - INFO -     → Toggle: both
+2026-05-21 17:59:21,071 - INFO -     → Image uploaded: wallet.png
+2026-05-21 17:59:21,176 - INFO -     → Form submitted
+2026-05-21 17:59:22,211 - INFO -   ✓ Icon added: Wallet
+
+2026-05-21 17:59:23,211 - INFO - [4/12]
+2026-05-21 17:59:23,211 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-05-21 17:59:25,641 - INFO -     → User type: Painter
+2026-05-21 17:59:26,025 - INFO -     → Icon identity: kycdetails
+2026-05-21 17:59:26,389 - INFO -     → Display title: KYC
+2026-05-21 17:59:26,478 - INFO -     → Toggle: both
+2026-05-21 17:59:28,820 - INFO -     → Image uploaded: kyc.png
+2026-05-21 17:59:29,067 - INFO -     → Form submitted
+2026-05-21 17:59:30,090 - INFO -   ✓ Icon added: KYC
+
+2026-05-21 17:59:31,090 - INFO - [5/12]
+2026-05-21 17:59:31,091 - INFO -   Adding: [Painter] Blog  (blog)
+2026-05-21 17:59:33,425 - INFO -     → User type: Painter
+2026-05-21 17:59:33,562 - INFO -     → Icon identity: blog
+2026-05-21 17:59:33,759 - INFO -     → Display title: Blog
+2026-05-21 17:59:33,790 - INFO -     → Toggle: both
+2026-05-21 17:59:35,849 - INFO -     → Image uploaded: blog.png
+2026-05-21 17:59:36,010 - INFO -     → Form submitted
+2026-05-21 17:59:37,025 - INFO -   ✓ Icon added: Blog
+
+2026-05-21 17:59:38,025 - INFO - [6/12]
+2026-05-21 17:59:38,025 - INFO -   Adding: [Painter] Brochure  (brochure)
+2026-05-21 17:59:40,359 - INFO -     → User type: Painter
+2026-05-21 17:59:40,503 - INFO -     → Icon identity: brochure
+2026-05-21 17:59:40,723 - INFO -     → Display title: Brochure
+2026-05-21 17:59:40,774 - INFO -     → Toggle: both
+2026-05-21 17:59:42,841 - INFO -     → Image uploaded: brochure.png
+2026-05-21 17:59:43,009 - INFO -     → Form submitted
+2026-05-21 17:59:44,027 - INFO -   ✓ Icon added: Brochure
+
+2026-05-21 17:59:45,027 - INFO - [7/12]
+2026-05-21 17:59:45,027 - INFO -   Adding: [Painter] Claim History  (claimhistory)
+2026-05-21 17:59:47,461 - INFO -     → User type: Painter
+2026-05-21 17:59:47,633 - INFO -     → Icon identity: claimhistory
+2026-05-21 17:59:47,887 - INFO -     → Display title: Claim History
+2026-05-21 17:59:47,930 - INFO -     → Toggle: both
+2026-05-21 17:59:49,990 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-21 17:59:50,243 - INFO -     → Form submitted
+2026-05-21 17:59:51,260 - INFO -   ✓ Icon added: Claim History
+
+2026-05-21 17:59:52,261 - INFO - [8/12]
+2026-05-21 17:59:52,261 - INFO -   Adding: [Painter] Language  (chooselanguage)
+2026-05-21 17:59:54,639 - INFO -     → User type: Painter
+2026-05-21 17:59:54,739 - INFO -     → Icon identity: chooselanguage
+2026-05-21 17:59:54,921 - INFO -     → Display title: Language
+2026-05-21 17:59:54,954 - INFO -     → Toggle: both
+2026-05-21 17:59:57,007 - INFO -     → Image uploaded: language.png
+2026-05-21 17:59:57,145 - INFO -     → Form submitted
+2026-05-21 17:59:58,168 - INFO -   ✓ Icon added: Language
+
+2026-05-21 17:59:59,169 - INFO - [9/12]
+2026-05-21 17:59:59,169 - INFO -   Adding: [Painter] Code Details  (codedetails)
+2026-05-21 18:00:01,530 - INFO -     → User type: Painter
+2026-05-21 18:00:01,634 - INFO -     → Icon identity: codedetails
+2026-05-21 18:00:01,813 - INFO -     → Display title: Code Details
+2026-05-21 18:00:01,861 - INFO -     → Toggle: both
+2026-05-21 18:00:03,903 - INFO -     → Image uploaded: codedetails.png
+2026-05-21 18:00:04,006 - INFO -     → Form submitted
+2026-05-21 18:00:05,021 - INFO -   ✓ Icon added: Code Details
+
+2026-05-21 18:00:06,022 - INFO - [10/12]
+2026-05-21 18:00:06,022 - INFO -   Adding: [Painter] Help  (help)
+2026-05-21 18:00:08,278 - INFO -     → User type: Painter
+2026-05-21 18:00:08,596 - INFO -     → Icon identity: help
+2026-05-21 18:00:09,058 - INFO -     → Display title: Help
+2026-05-21 18:00:09,107 - INFO -     → Toggle: both
+2026-05-21 18:00:11,272 - INFO -     → Image uploaded: help.png
+2026-05-21 18:00:11,420 - INFO -     → Form submitted
+2026-05-21 18:00:12,461 - INFO -   ✓ Icon added: Help
+
+2026-05-21 18:00:13,462 - INFO - [11/12]
+2026-05-21 18:00:13,462 - INFO -   Adding: [Painter] Refer & Earn  (referandearn)
+2026-05-21 18:00:15,739 - INFO -     → User type: Painter
+2026-05-21 18:00:15,857 - INFO -     → Icon identity: referandearn
+2026-05-21 18:00:16,043 - INFO -     → Display title: Refer & Earn
+2026-05-21 18:00:16,097 - INFO -     → Toggle: both
+2026-05-21 18:00:18,150 - INFO -     → Image uploaded: referandearn.png
+2026-05-21 18:00:18,257 - INFO -     → Form submitted
+2026-05-21 18:00:19,276 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-21 18:00:20,277 - INFO - [12/12]
+2026-05-21 18:00:20,277 - INFO -   Adding: [Painter] E-Commerce  (productcatalogue)
+2026-05-21 18:00:22,568 - INFO -     → User type: Painter
+2026-05-21 18:00:22,724 - INFO -     → Icon identity: productcatalogue
+2026-05-21 18:00:22,918 - INFO -     → Display title: E-Commerce
+2026-05-21 18:00:22,952 - INFO -     → Toggle: both
+2026-05-21 18:00:25,008 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-21 18:00:25,125 - INFO -     → Form submitted
+2026-05-21 18:00:26,169 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-21 18:00:27,169 - INFO - ============================================================
+2026-05-21 18:00:27,169 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-21 18:00:27,170 - INFO - 
+============================================================
+2026-05-21 18:00:27,170 - INFO - AUTOMATION SUMMARY
+2026-05-21 18:00:27,170 - INFO - ============================================================
+2026-05-21 18:00:27,172 - INFO - ✓ Successful uploads: 12
+2026-05-21 18:00:27,172 - INFO - ✗ Failed uploads: 0
+2026-05-21 18:00:27,172 - INFO - Total processed: 12
+2026-05-21 18:00:27,173 - INFO - Success rate: 100.0%
+2026-05-21 18:00:27,174 - INFO - ============================================================
+2026-05-21 18:00:27,507 - INFO - Browser closed
+2026-05-21 18:00:27,510 - INFO - 
+Task finished at 2026-05-21 18:00:27
+2026-05-21 18:00:27,511 - INFO - Log: automation/logs/full_automation_20260521_175828.log
+

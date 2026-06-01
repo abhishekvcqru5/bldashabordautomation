@@ -1,0 +1,57 @@
+2026-05-30 18:45:01,131 - INFO - User selected: Create User Type
+2026-05-30 18:45:37,128 - INFO - User types to be created: ['AutoPartner']
+2026-05-30 18:45:37,132 - INFO - ============================================================
+2026-05-30 18:45:37,132 - INFO - STEP 1: Processing and Compressing Images
+2026-05-30 18:45:37,132 - INFO - ============================================================
+2026-05-30 18:45:37,135 - INFO - Processing images from: dashboardicons
+2026-05-30 18:45:37,137 - INFO - Output folder: automation/processed_images
+2026-05-30 18:45:37,137 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-30 18:45:37,215 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-30 18:45:37,228 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-30 18:45:37,253 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-30 18:45:37,287 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-30 18:45:37,301 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-30 18:45:37,330 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-30 18:45:37,350 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-30 18:45:37,361 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-30 18:45:37,387 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-30 18:45:37,410 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-30 18:45:37,432 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-30 18:45:37,459 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-30 18:45:37,486 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-30 18:45:37,505 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-30 18:45:37,507 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-30 18:45:37,509 - INFO - ✓ 14 images processed and ready
+
+2026-05-30 18:45:37,509 - INFO - ============================================================
+2026-05-30 18:45:37,509 - INFO - STEP 2: Creating User Types & Uploading Icons
+2026-05-30 18:45:37,509 - INFO - ============================================================
+2026-05-30 18:45:37,514 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-30 18:45:37,514 - INFO - ====== WebDriver manager ======
+2026-05-30 18:45:38,257 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-30 18:45:38,413 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-30 18:45:38,552 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-30 18:45:38,908 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-30 18:45:38,930 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-30 18:45:38,933 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-30 18:45:39,349 - INFO - Driver downloading response is 200
+2026-05-30 18:45:40,358 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-30 18:45:40,763 - INFO - Driver has been saved in cache [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-30 18:45:43,299 - INFO - ✓ Chrome driver initialized
+2026-05-30 18:45:43,301 - INFO - 
+→ Attempting login...
+
+2026-05-30 18:45:43,302 - INFO - Opening login page...
+2026-05-30 18:45:45,854 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-30 18:46:05,909 - ERROR - Login failed: Message: 
+
+2026-05-30 18:46:06,561 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260530_184605.png
+2026-05-30 18:46:06,562 - ERROR - ✗ Login failed. Aborting.
+2026-05-30 18:46:06,843 - INFO - Browser closed
+2026-05-30 18:46:06,843 - INFO - 
+Task finished at 2026-05-30 18:46:06
+2026-05-30 18:46:06,844 - INFO - Log: automation/logs/full_automation_20260530_184309.log
+

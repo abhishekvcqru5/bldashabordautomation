@@ -1,0 +1,55 @@
+2026-05-15 20:03:41,455 - INFO - User selected: Promotion Banners
+2026-05-15 20:03:41,473 - INFO - ============================================================
+2026-05-15 20:03:41,474 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 20:03:41,474 - INFO - ============================================================
+2026-05-15 20:03:41,488 - INFO - Found 3 banner image(s) in banner/
+2026-05-15 20:03:41,777 - INFO -   ⚙ Processing 31a897d2-985d-4b54-bd77-4041f3180b17.png  (size 1672×941 → need 1920×1080)
+2026-05-15 20:03:42,690 - INFO -   ✓ 31a897d2-985d-4b54-bd77-4041f3180b17.png  →  31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-15 20:03:42,701 - INFO -   ⚙ Processing a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  (size 1672×941 → need 1920×1080)
+2026-05-15 20:03:43,228 - INFO -   ✓ a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  →  a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-15 20:03:43,245 - INFO -   ⚙ Processing ac45067f-7651-45f7-a833-a3046c3193dd.png  (size 1672×941 → need 1920×1080)
+2026-05-15 20:03:43,828 - INFO -   ✓ ac45067f-7651-45f7-a833-a3046c3193dd.png  →  ac45067f-7651-45f7-a833-a3046c3193dd_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-05-15 20:03:43,832 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-15 20:03:43,836 - INFO - ============================================================
+2026-05-15 20:03:43,836 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-15 20:03:43,836 - INFO - ============================================================
+2026-05-15 20:03:47,737 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 20:03:55,274 - INFO - ✓ Chrome driver initialized
+2026-05-15 20:03:55,274 - INFO - Opening login page...
+2026-05-15 20:04:02,637 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 20:04:05,423 - INFO - ✓ Login successful
+2026-05-15 20:04:08,192 - INFO - Going to App Settings...
+2026-05-15 20:04:16,789 - INFO -   → Promotion Banners section opened
+2026-05-15 20:04:23,810 - INFO - ✓ Promotion Banners page ready
+2026-05-15 20:04:23,811 - INFO - Starting batch  —  3 banner(s) to publish
+2026-05-15 20:04:23,811 - INFO - ============================================================
+2026-05-15 20:04:23,811 - INFO - [1/3]
+2026-05-15 20:04:23,811 - INFO -   Publishing: [31a897d2-985d-4b54-bd77-4041f3180b17]  (31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg)
+2026-05-15 20:04:29,162 - INFO -     → Title entered: 31a897d2-985d-4b54-bd77-4041f3180b17
+2026-05-15 20:04:32,486 - INFO -     → Image uploaded: 31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg
+2026-05-15 20:04:34,125 - INFO -     → Publish Banner clicked
+2026-05-15 20:04:38,608 - INFO -   ✓ Banner published: 31a897d2-985d-4b54-bd77-4041f3180b17
+
+2026-05-15 20:04:39,609 - INFO - [2/3]
+2026-05-15 20:04:39,610 - INFO -   Publishing: [a7cdebac-70ec-4c91-ae9f-7f202d2a43ff]  (a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg)
+2026-05-15 20:04:46,610 - INFO -     → Title entered: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff
+2026-05-15 20:04:48,801 - INFO -     → Image uploaded: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg
+2026-05-15 20:04:49,382 - INFO -     → Publish Banner clicked
+2026-05-15 20:04:53,469 - INFO -   ✓ Banner published: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff
+
+2026-05-15 20:04:54,473 - INFO - [3/3]
+2026-05-15 20:04:54,475 - INFO -   Publishing: [ac45067f-7651-45f7-a833-a3046c3193dd]  (ac45067f-7651-45f7-a833-a3046c3193dd_processed.jpg)
+2026-05-15 20:04:58,417 - INFO -     → Title entered: ac45067f-7651-45f7-a833-a3046c3193dd
+2026-05-15 20:05:00,508 - INFO -     → Image uploaded: ac45067f-7651-45f7-a833-a3046c3193dd_processed.jpg
+2026-05-15 20:05:01,201 - INFO -     → Publish Banner clicked
+2026-05-15 20:05:05,349 - INFO -   ✓ Banner published: ac45067f-7651-45f7-a833-a3046c3193dd
+
+2026-05-15 20:05:06,349 - INFO - ============================================================
+2026-05-15 20:05:06,349 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-05-15 20:05:06,693 - INFO - Browser closed
+2026-05-15 20:05:06,695 - INFO - 
+Task finished at 2026-05-15 20:05:06
+2026-05-15 20:05:06,695 - INFO - Log: automation/logs/full_automation_20260515_200120.log
+

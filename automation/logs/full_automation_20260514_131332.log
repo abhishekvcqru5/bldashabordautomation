@@ -1,0 +1,96 @@
+2026-05-14 13:13:51,111 - INFO - User selected: Old Dashboard
+2026-05-14 13:13:55,730 - INFO -   Old Dashboard → Brand Setting
+2026-05-14 13:13:55,731 - INFO - ============================================================
+2026-05-14 13:13:55,732 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-14 13:13:55,733 - INFO - ============================================================
+2026-05-14 13:13:58,342 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 13:14:03,815 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-14 13:14:03,816 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-14 13:14:11,020 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-14 13:14:13,020 - INFO -     → Filling credentials …
+2026-05-14 13:14:13,740 - INFO -       Email → field #login_txt_id
+2026-05-14 13:14:14,784 - INFO -       Password → field #login_txt_pass
+2026-05-14 13:14:15,300 - INFO -       Login button clicked: #btnVendor
+2026-05-14 13:14:15,302 - INFO -     → Waiting for post-login redirect …
+2026-05-14 13:14:44,339 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-14 13:14:44,340 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-14 13:14:59,488 - INFO - 
+[3/4] Extracting brand data …
+2026-05-14 13:15:00,234 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-14 13:15:00,880 - INFO -   ✓ Downloaded: logo.png  (4.9 KB)
+2026-05-14 13:15:01,836 - INFO -   ✓ Downloaded: splash.png  (133.9 KB)
+2026-05-14 13:15:01,864 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-14 13:15:02,217 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-14 13:15:04,299 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 13:15:07,885 - INFO - ✓ Chrome driver initialized
+2026-05-14 13:15:07,886 - INFO - Opening login page...
+2026-05-14 13:15:13,115 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 13:15:18,071 - INFO - ✓ Login successful
+2026-05-14 13:15:18,483 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-14 13:15:19,254 - INFO - ✓ Logo  → logo_processed.png  |  55.1 KB  |  PNG lossless
+2026-05-14 13:15:19,493 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-14 13:15:23,301 - INFO - ✓ Splash → splash_processed.png  |  0.86 MB  |  PNG lossless
+2026-05-14 13:15:23,323 - INFO -   Colours extracted from logo:
+2026-05-14 13:15:23,323 - INFO -     Header Color     →  #E00010  (dominant logo colour)
+2026-05-14 13:15:23,323 - INFO -     Background Color →  #91000A  (35% darker)
+2026-05-14 13:15:23,324 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-14 13:15:23,324 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-14 13:15:23,324 - INFO - Going to App Settings...
+2026-05-14 13:15:31,730 - INFO -   → Identity & Branding section opened
+2026-05-14 13:15:34,271 - INFO -   → Edit Branding popup opened
+2026-05-14 13:15:34,338 - INFO - ✓ Brand setting form is ready
+2026-05-14 13:15:34,340 - INFO -   Setting company name: Adstud
+2026-05-14 13:15:36,025 - INFO -     → HeaderColor: #E00010
+2026-05-14 13:15:38,552 - INFO -     → FooterColor: #F5F5F5
+2026-05-14 13:15:40,249 - INFO -     → BodyColor: #FFFFFF
+2026-05-14 13:15:44,099 - INFO -     → BackgroundColor: #91000A
+2026-05-14 13:15:46,428 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-14 13:15:48,685 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-14 13:15:49,191 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-14 13:15:52,239 - INFO - ✓ Brand settings saved successfully!
+2026-05-14 13:15:52,240 - INFO - Going to App Settings for Support Network...
+2026-05-14 13:15:55,964 - INFO -   → Support Network section opened
+2026-05-14 13:15:59,508 - INFO -   → Edit Support Network popup opened
+2026-05-14 13:16:01,508 - INFO - ✓ Support Network form is ready
+2026-05-14 13:16:01,779 - WARNING -     ⚠ Could not find field for: phone
+2026-05-14 13:16:02,523 - INFO -     ✓ email filled
+2026-05-14 13:16:02,665 - WARNING -     ⚠ Could not find field for: website
+2026-05-14 13:16:04,703 - INFO -     ✓ terms_conditions filled
+2026-05-14 13:16:07,223 - INFO -     ✓ support_content filled
+2026-05-14 13:16:08,698 - INFO -     ✓ privacy_policy filled
+2026-05-14 13:16:10,032 - INFO -   → Save clicked
+2026-05-14 13:16:13,033 - INFO - ✓ Support Network saved successfully!
+2026-05-14 13:16:13,592 - INFO - Browser closed
+2026-05-14 13:16:13,593 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56203): Failed to establish a new connection: [Errno 111] Connection refused")': /session/ecf22514fd818de01e520382f3fc0220
+2026-05-14 13:16:13,595 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56203): Failed to establish a new connection: [Errno 111] Connection refused")': /session/ecf22514fd818de01e520382f3fc0220
+2026-05-14 13:16:13,596 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56203): Failed to establish a new connection: [Errno 111] Connection refused")': /session/ecf22514fd818de01e520382f3fc0220
+2026-05-14 13:16:13,597 - INFO -   Browser closed
+2026-05-14 13:16:13,598 - INFO - 
+Task finished at 2026-05-14 13:16:13
+2026-05-14 13:16:13,598 - INFO - Log: automation/logs/full_automation_20260514_131332.log
+
+2026-05-14 13:17:27,497 - INFO - User selected: Intro Screens
+2026-05-14 13:17:27,498 - INFO - ============================================================
+2026-05-14 13:17:27,498 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 13:17:27,498 - INFO - ============================================================
+2026-05-14 13:17:27,499 - WARNING - No images found in introscreen
+2026-05-14 13:17:27,499 - ERROR - No intro screen images could be processed. Aborting.
+2026-05-14 13:17:27,499 - INFO - 
+Task finished at 2026-05-14 13:17:27
+2026-05-14 13:17:27,499 - INFO - Log: automation/logs/full_automation_20260514_131332.log
+
+2026-05-14 13:17:31,805 - INFO - User selected: Intro Screens
+2026-05-14 13:17:31,806 - INFO - ============================================================
+2026-05-14 13:17:31,806 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 13:17:31,806 - INFO - ============================================================
+2026-05-14 13:17:31,807 - WARNING - No images found in introscreen
+2026-05-14 13:17:31,807 - ERROR - No intro screen images could be processed. Aborting.
+2026-05-14 13:17:31,807 - INFO - 
+Task finished at 2026-05-14 13:17:31
+2026-05-14 13:17:31,807 - INFO - Log: automation/logs/full_automation_20260514_131332.log
+
+2026-05-14 13:17:33,264 - INFO - Automation cancelled by user (Ctrl+C)

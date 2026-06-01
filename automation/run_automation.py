@@ -35,8 +35,12 @@ from intro_screen import (
     build_slides_default,
 )
 from registration_fields import RegistrationFieldsAutomation
-from old_dashboard_migration import run_old_dashboard_migration
+from old_dashboard_migration import run_old_dashboard_migration, run_old_dashboard_banner_migration
 from old_dashboard_brand_setting import run_old_dashboard_brand_setting
+from product_catalogue_migration import run_product_catalogue_migration
+from surie_product_upload import run_surie_product_upload
+from gift_management import run_gift_management
+from user_type_creation import UserTypeAutomation
 
 # Setup logging
 log_dir = Path("automation/logs")
@@ -112,6 +116,17 @@ def main(email=None, password=None):
     logger.info(f"Using email: {email}")
     logger.info("✓ Credentials loaded\n")
 
+    # Target User Type selection
+    print()
+    print("  ─── Target User Type ───")
+    print("  Specify which User Type should receive these dashboard icons.")
+    print("  (Enter 'all' to upload for all user types, or leave blank for 'all')")
+    target_user_type = input("  User Type: ").strip()
+    if not target_user_type:
+        target_user_type = "all"
+    logger.info(f"Target User Type: {target_user_type}")
+    print()
+
     # Step 3: Run Automation
     logger.info("=" * 60)
     logger.info("STEP 3: Launching Browser and Starting Upload Process")
@@ -143,7 +158,12 @@ def main(email=None, password=None):
             with open(config_path, "r") as f:
                 config = json.load(f)
 
-            icons_to_add = config.get("icons", [])
+            configured_icons = config.get("icons", [])
+            icons_to_add = []
+            for entry in configured_icons:
+                new_entry = dict(entry)
+                new_entry["user_type"] = target_user_type
+                icons_to_add.append(new_entry)
 
             logger.info(f"\n→ Starting batch upload of {len(icons_to_add)} icons...\n")
             successful, failed = automation.process_icons_batch(icons_to_add)
@@ -155,7 +175,8 @@ def main(email=None, password=None):
             logger.info(f"✓ Successful uploads: {successful}")
             logger.info(f"✗ Failed uploads: {failed}")
             logger.info(f"Total processed: {len(icons_to_add)}")
-            logger.info(f"Success rate: {(successful / len(icons_to_add) * 100):.1f}%")
+            if icons_to_add:
+                logger.info(f"Success rate: {(successful / len(icons_to_add) * 100):.1f}%")
             logger.info("=" * 60)
 
             return True
@@ -498,6 +519,343 @@ def run_registration_fields(email, password):
         return False
 
 
+def run_create_user_types(email, password):
+    """Prompt user for user type details, create them on the portal, and upload dashboard icons only for them."""
+    print()
+    print("  ─── Create User Types & Upload Icons ───")
+    
+    # 1. Ask how many user types to create
+    while True:
+        try:
+            num_input = input("  How many user types need to be created? ").strip()
+            if not num_input:
+                print("  ❌ Number cannot be empty.")
+                continue
+            num_users = int(num_input)
+            if num_users <= 0:
+                print("  ❌ Please enter a positive integer.")
+                continue
+            break
+        except ValueError:
+            print("  ❌ Invalid number. Please enter an integer.")
+
+    # 2. Input user names one by one
+    user_names = []
+    for i in range(num_users):
+        while True:
+            name = input(f"  Enter User Type #{i+1} Name: ").strip()
+            if not name:
+                print("  ❌ Name cannot be empty.")
+                continue
+            if name in user_names:
+                print("  ❌ Name already entered. Please use a unique name.")
+                continue
+            user_names.append(name)
+            break
+
+    logger.info(f"User types to be created: {user_names}")
+
+    # 3. Process dashboard icons first (resizing/compression) to make sure they are ready
+    logger.info("=" * 60)
+    logger.info("STEP 1: Processing and Compressing Images")
+    logger.info("=" * 60)
+
+    input_dir = "dashboardicons"
+    output_dir = "automation/processed_images"
+
+    processor = ImageProcessor(input_dir, output_dir)
+    processed_images = processor.process_all_images()
+
+    if not processed_images:
+        logger.error("No images were processed. Aborting.")
+        return False
+
+    logger.info(f"✓ {len(processed_images)} images processed and ready\n")
+
+    # 4. Launch browser automation
+    logger.info("=" * 60)
+    logger.info("STEP 2: Creating User Types & Uploading Icons")
+    logger.info("=" * 60)
+
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as automation:
+            # Login
+            logger.info("\n→ Attempting login...\n")
+            if not automation.login():
+                logger.error("✗ Login failed. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            # Navigate to User Type settings and create each user type
+            user_type_auto = UserTypeAutomation(automation.driver)
+            if not user_type_auto.navigate():
+                logger.error("✗ Failed to navigate to User Type settings. Aborting.")
+                return False
+
+            created_successfully = []
+            for name in user_names:
+                if user_type_auto.create_user_type(name):
+                    created_successfully.append(name)
+                else:
+                    logger.warning(f"⚠ Failed to create user type '{name}'")
+
+            if not created_successfully:
+                logger.error("✗ No user types were created. Aborting icon upload.")
+                return False
+
+            logger.info(f"Successfully created user types: {created_successfully}")
+            time.sleep(2)
+
+            # Navigate to dashboard icons section
+            logger.info("\n→ Navigating to dashboard icons section...\n")
+            if not automation.navigate_to_dashboard_icons():
+                logger.error("✗ Failed to navigate. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            # Load icons configuration
+            import json
+            config_path = Path("automation/icon_config.json")
+            with open(config_path, "r") as f:
+                config = json.load(f)
+
+            configured_icons = config.get("icons", [])
+
+            # Map the configured icons list to target ONLY the newly created user types
+            icons_to_add = []
+            for entry in configured_icons:
+                for new_utype in created_successfully:
+                    new_entry = dict(entry)
+                    new_entry["user_type"] = new_utype
+                    icons_to_add.append(new_entry)
+
+            logger.info(f"\n→ Starting batch upload of {len(icons_to_add)} icons for {len(created_successfully)} user types...\n")
+            successful, failed = automation.process_icons_batch(icons_to_add)
+
+            # Summary
+            logger.info("\n" + "=" * 60)
+            logger.info("USER TYPE CREATION & ICON UPLOAD SUMMARY")
+            logger.info("=" * 60)
+            logger.info(f"User types created: {created_successfully}")
+            logger.info(f"✓ Successful uploads: {successful}")
+            logger.info(f"✗ Failed uploads: {failed}")
+            logger.info(f"Total processed: {len(icons_to_add)}")
+            if icons_to_add:
+                logger.info(f"Success rate: {(successful / len(icons_to_add) * 100):.1f}%")
+            logger.info("=" * 60)
+
+            return failed == 0
+
+    except Exception as e:
+        logger.error(f"Unexpected error in create user types automation: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return False
+
+
+# ══════════════════════════════════════════════════════════════
+# Dynamic Dashboard Icons Custom Flow (Option 11)
+# ══════════════════════════════════════════════════════════════
+
+FILENAME_TO_ICON_IDENTITY = {
+    "rewards": "gift",
+    "blog": "blog",
+    "update": "blog",
+    "updates": "blog",
+    "installation guide": "instalment",
+    "instalment": "instalment",
+    "kyc": "kycdetails",
+    "kyc details": "kycdetails",
+    "language": "chooselanguage",
+    "choose language": "chooselanguage",
+    "wallet": "wallet",
+    "my wallet": "wallet",
+    "nearby retailer": "retailer",
+    "nearby retailers": "retailer",
+    "retailer": "retailer",
+    "product catalog": "productcatalogue",
+    "product catalogue": "productcatalogue",
+    "prospectus": "brochure",
+    "brochure": "brochure",
+    "refer and earn": "referandearn",
+    "refer & earn": "referandearn",
+    "referandearn": "referandearn",
+    "scan activity": "codedetails",
+    "code details": "codedetails",
+    "scan history": "history",
+    "history": "history",
+    "send points": "transferpoints",
+    "transfer points": "transferpoints",
+    "support": "help",
+    "help": "help",
+    "tds": "tds",
+    "claim history": "claimhistory",
+}
+
+
+def get_icon_identity(filename_stem: str) -> str:
+    """Fuzzy/substring match filename stem to available dropdown values."""
+    stem_lower = filename_stem.lower().strip()
+    if stem_lower in FILENAME_TO_ICON_IDENTITY:
+        return FILENAME_TO_ICON_IDENTITY[stem_lower]
+    for key, val in FILENAME_TO_ICON_IDENTITY.items():
+        if key in stem_lower or stem_lower in key:
+            return val
+    return "gift"
+
+
+def get_toggle_option(filename_stem: str) -> str:
+    """Determine portal toggle selection based on filename stem."""
+    stem_lower = filename_stem.lower().strip()
+    # Both
+    if any(x in stem_lower for x in ["rewards", "refer", "wallet"]):
+        return "both"
+    # Side menu
+    elif any(x in stem_lower for x in ["kyc", "language", "claim", "tds"]):
+        return "side menu"
+    # Dashboard only
+    else:
+        return "dashboard only"
+
+
+def extract_dominant_color(image_path) -> str:
+    """Extract the dominant saturated color from an image. Returns hex string."""
+    try:
+        from PIL import Image
+        from collections import Counter
+        img = Image.open(image_path).convert("RGB")
+        img.thumbnail((100, 100))
+        pixels = list(img.getdata())
+        
+        saturated = []
+        for r, g, b in pixels:
+            brightness = (r + g + b) / 3
+            mx = max(r, g, b)
+            mn = min(r, g, b)
+            saturation = (mx - mn) / (mx + 1)
+            
+            # Filter for vibrant/saturated colors
+            if saturation > 0.15 and 30 < brightness < 225:
+                saturated.append((r // 8 * 8, g // 8 * 8, b // 8 * 8))
+                
+        if saturated:
+            dominant = Counter(saturated).most_common(1)[0][0]
+            return f"#{dominant[0]:02X}{dominant[1]:02X}{dominant[2]:02X}"
+            
+        # Fallback to general dominant pixel excluding extreme white/black
+        filtered_pixels = [p for p in pixels if not (p[0] > 240 and p[1] > 240 and p[2] > 240) and not (p[0] < 15 and p[1] < 15 and p[2] < 15)]
+        if filtered_pixels:
+            dominant = Counter(filtered_pixels).most_common(1)[0][0]
+        else:
+            dominant = Counter(pixels).most_common(1)[0][0]
+            
+        return f"#{dominant[0]:02X}{dominant[1]:02X}{dominant[2]:02X}"
+    except Exception as e:
+        logger.error(f"Error extracting color from {image_path}: {e}")
+        return "#4F46E5"
+
+
+def run_dashboard_icons_auto(email, password) -> bool:
+    """Compress icons from dashboardicons/, extract info and upload to portal."""
+    logger.info("=" * 60)
+    logger.info("Custom Dashboard Icons Upload (Option 11)")
+    logger.info("=" * 60)
+
+    input_dir = "dashboardicons"
+    output_dir = "automation/processed_images"
+
+    processor = ImageProcessor(input_dir, output_dir)
+    processed_images = processor.process_all_images()
+
+    if not processed_images:
+        logger.error("No images were processed from 'dashboardicons/'. Aborting.")
+        return False
+
+    logger.info(f"✓ {len(processed_images)} images processed successfully.\n")
+
+    # Prompt for Target User Type
+    print()
+    print("  ─── Target User Type ───")
+    print("  Specify which User Type should receive these dashboard icons.")
+    print("  (Enter 'all' to upload for all user types, or leave blank for 'all')")
+    target_user_type = input("  User Type: ").strip()
+    if not target_user_type:
+        target_user_type = "all"
+    logger.info(f"Target User Type: {target_user_type}")
+    print()
+
+    # Build dynamically mapped configurations
+    icons_to_add = []
+    for filename, processed_path in processed_images.items():
+        stem = Path(filename).stem
+        display_title = stem
+        icon_identity = get_icon_identity(stem)
+        icon_color = extract_dominant_color(processed_path)
+        toggle_option = get_toggle_option(stem)
+
+        logger.info(f"Dynamically mapped image '{filename}':")
+        logger.info(f"  → Extracted Title: {display_title}")
+        logger.info(f"  → Matched Identity: {icon_identity}")
+        logger.info(f"  → Extracted Color: {icon_color}")
+        logger.info(f"  → Toggle Option: {toggle_option}")
+
+        icons_to_add.append({
+            "user_type": target_user_type,
+            "icon_identity": icon_identity,
+            "display_title": display_title,
+            "image_path": processed_path,
+            "toggle_option": toggle_option,
+            "icon_color": icon_color
+        })
+
+    # Launch automation
+    logger.info("\n" + "=" * 60)
+    logger.info("Launching Browser and Starting Upload Process")
+    logger.info("=" * 60)
+
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as automation:
+            # Login
+            logger.info("\n→ Attempting login...\n")
+            if not automation.login():
+                logger.error("✗ Login failed. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            # Navigate to dashboard icons
+            logger.info("\n→ Navigating to dashboard icons section...\n")
+            if not automation.navigate_to_dashboard_icons():
+                logger.error("✗ Failed to navigate. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            logger.info(f"\n→ Starting batch upload of {len(icons_to_add)} custom icons...\n")
+            successful, failed = automation.process_icons_batch(icons_to_add)
+
+            # Summary
+            logger.info("\n" + "=" * 60)
+            logger.info("CUSTOM AUTOMATION SUMMARY")
+            logger.info("=" * 60)
+            logger.info(f"✓ Successful uploads: {successful}")
+            logger.info(f"✗ Failed uploads: {failed}")
+            logger.info(f"Total processed: {len(icons_to_add)}")
+            if icons_to_add:
+                logger.info(f"Success rate: {(successful / len(icons_to_add) * 100):.1f}%")
+            logger.info("=" * 60)
+
+            return failed == 0
+
+    except Exception as e:
+        logger.error(f"Unexpected error during dynamic dashboard automation: {str(e)}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return False
+
+
 def show_old_dashboard_menu() -> str:
     """
     Sub-menu for Old Dashboard operations.
@@ -535,6 +893,10 @@ def show_menu():
     print("║   Press 4 : Intro Screens                                    ║")
     print("║   Press 5 : Registration Fields                              ║")
     print("║   Press 6 : Old Dashboard                                    ║")
+    print("║   Press 7 : Surie Product Upload                             ║")
+    print("║   Press 8 : Gift Management                                  ║")
+    print("║   Press 9 : Create User Type                                 ║")
+    print("║   Press 11: Dynamic Dashboard Icons (Auto Name & Color)      ║")
     print("║   Press 0 : Exit                                             ║")
     print("║                                                              ║")
     print("╚══════════════════════════════════════════════════════════════╝")
@@ -560,7 +922,7 @@ if __name__ == "__main__":
                 sys.exit(0)
 
             # ── Invalid ───────────────────────────────────────────────
-            elif choice not in {"1", "2", "3", "4", "5", "6"}:
+            elif choice not in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "11"}:
                 print(
                     f"\n  ❌ Invalid choice '{choice}'. Please enter a valid option.\n"
                 )
@@ -569,7 +931,7 @@ if __name__ == "__main__":
             # ── Run selected task ─────────────────────────────────────
             if choice == "1":
                 logger.info("User selected: Dashboard Icons")
-                success = main(email=email, password=password)
+                success = run_dashboard_icons_auto(email, password)
 
             elif choice == "2":
                 logger.info("User selected: Brand Setting")
@@ -607,21 +969,41 @@ if __name__ == "__main__":
 
                 elif sub_choice == "3":
                     # ── Banner BL ───────────────────────────────────────────
-                    logger.info("  Old Dashboard → Banner BL (not yet implemented)")
-                    print("\n  ⚠ Banner BL extraction is not yet implemented.")
-                    print("    It will be added in a future update.\n")
-                    success = False
+                    logger.info("  Old Dashboard → Banner BL")
+                    success = run_old_dashboard_banner_migration(email, password)
 
                 elif sub_choice == "4":
                     # ── Product Catalogue ───────────────────────────────────
-                    logger.info("  Old Dashboard → Product Catalogue (not yet implemented)")
-                    print("\n  ⚠ Product Catalogue extraction is not yet implemented.")
-                    print("    It will be added in a future update.\n")
-                    success = False
+                    logger.info("  Old Dashboard → Product Catalogue")
+                    success = run_product_catalogue_migration(email, password)
 
                 else:
                     print(f"\n  ❌ Invalid sub-choice '{sub_choice}'.\n")
                     success = False
+
+            elif choice == "7":
+                logger.info("User selected: Surie Product Upload")
+                success = run_surie_product_upload(email, password)
+
+            elif choice == "8":
+                logger.info("User selected: Gift Management")
+                # Find image in gift/ folder
+                gift_folder = Path("gift")
+                gift_images = list(gift_folder.glob("*.png")) + list(gift_folder.glob("*.jpg")) + list(gift_folder.glob("*.jpeg"))
+                if not gift_images:
+                    print("\n  ❌ No images found in gift/ folder.\n")
+                    success = False
+                else:
+                    image_path = gift_images[0]
+                    success = run_gift_management(email, password, image_path)
+
+            elif choice == "9":
+                logger.info("User selected: Create User Type")
+                success = run_create_user_types(email, password)
+
+            elif choice == "11":
+                logger.info("User selected: Dynamic Dashboard Icons (Auto Name & Color)")
+                success = run_dashboard_icons_auto(email, password)
 
             # ── Result summary ────────────────────────────────────────
             logger.info(

@@ -1,0 +1,30 @@
+2026-05-26 17:30:27,439 - INFO - User selected: Old Dashboard
+2026-05-26 17:30:28,440 - INFO -   Old Dashboard → Brand Setting
+2026-05-26 17:30:28,440 - INFO - ============================================================
+2026-05-26 17:30:28,440 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-26 17:30:28,440 - INFO - ============================================================
+2026-05-26 17:30:29,006 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (149.0.7827.22); currently, chromedriver 149.0.7827.22 is recommended for chrome 149.*, so it is advised to delete the driver in PATH and retry
+2026-05-26 17:30:30,071 - ERROR - Fatal error: Message: session not created: This version of ChromeDriver only supports Chrome version 147
+Current browser version is 149.0.7827.22 with binary path /home/adminmac/.cache/selenium/chrome/linux64/149.0.7827.22/chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x62163fe5e3ea <unknown>
+#1 0x62163f86e845 <unknown>
+#2 0x62163f8b118f <unknown>
+#3 0x62163f8b0008 <unknown>
+#4 0x62163f8aae95 <unknown>
+#5 0x62163f8a6bc8 <unknown>
+#6 0x62163f8f599a <unknown>
+#7 0x62163f8f50ec <unknown>
+#8 0x62163f8b4204 <unknown>
+#9 0x62163f8b4fc1 <unknown>
+#10 0x62163fe219cb <unknown>
+#11 0x62163fe24c93 <unknown>
+#12 0x62163fe0f65c <unknown>
+#13 0x62163fe25429 <unknown>
+#14 0x62163fdf79d7 <unknown>
+#15 0x62163fe4bc08 <unknown>
+#16 0x62163fe4be33 <unknown>
+#17 0x62163fe5cdf7 <unknown>
+#18 0x7febba29caa4 <unknown>
+#19 0x7febba329c6c <unknown>
+

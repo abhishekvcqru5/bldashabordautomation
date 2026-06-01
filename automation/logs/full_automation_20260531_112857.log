@@ -1,0 +1,234 @@
+2026-05-31 11:29:11,031 - INFO - User selected: Old Dashboard
+2026-05-31 11:29:12,520 - INFO -   Old Dashboard → Brand Setting
+2026-05-31 11:29:12,520 - INFO - ============================================================
+2026-05-31 11:29:12,520 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-31 11:29:12,521 - INFO - ============================================================
+2026-05-31 11:29:12,521 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:29:12,521 - INFO - ====== WebDriver manager ======
+2026-05-31 11:29:12,875 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:29:12,960 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:29:13,076 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:29:14,289 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-31 11:29:14,289 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-31 11:29:20,250 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-31 11:29:22,250 - INFO -     → Filling credentials …
+2026-05-31 11:29:22,538 - INFO -       Email → field #login_txt_id
+2026-05-31 11:29:22,707 - INFO -       Password → field #login_txt_pass
+2026-05-31 11:29:22,883 - INFO -       Login button clicked: #btnVendor
+2026-05-31 11:29:22,884 - INFO -     → Waiting for post-login redirect …
+2026-05-31 11:29:33,165 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-31 11:29:33,166 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-31 11:29:52,691 - INFO - 
+[3/4] Extracting brand data …
+2026-05-31 11:29:52,954 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-31 11:29:52,955 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-31 11:29:52,955 - WARNING -   ⚠ No splash URL found — skipping splash download
+2026-05-31 11:29:52,956 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-31 11:29:53,181 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-31 11:29:53,181 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:29:53,181 - INFO - ====== WebDriver manager ======
+2026-05-31 11:29:53,526 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:29:53,615 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:29:53,735 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:29:54,982 - INFO - ✓ Chrome driver initialized
+2026-05-31 11:29:54,982 - INFO - Opening login page...
+2026-05-31 11:29:56,426 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-05-31 11:30:01,841 - INFO - ✓ Login successful
+2026-05-31 11:30:01,888 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-31 11:30:01,996 - INFO - ✓ Logo  → logo_processed.png  |  50.8 KB  |  PNG lossless
+2026-05-31 11:30:02,205 - INFO -   Colours extracted from logo:
+2026-05-31 11:30:02,206 - INFO -     Header Color     →  #004080  (dominant logo colour)
+2026-05-31 11:30:02,206 - INFO -     Background Color →  #002953  (35% darker)
+2026-05-31 11:30:02,206 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-31 11:30:02,206 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-31 11:30:02,214 - INFO - Going to App Settings...
+2026-05-31 11:30:08,821 - INFO -   → Identity & Branding section opened
+2026-05-31 11:30:11,006 - INFO -   → Edit Branding popup opened
+2026-05-31 11:30:11,030 - INFO - ✓ Brand setting form is ready
+2026-05-31 11:30:11,030 - INFO -   Setting company name: 
+2026-05-31 11:30:12,178 - INFO -     → HeaderColor: #004080
+2026-05-31 11:30:13,065 - INFO -     → FooterColor: #F5F5F5
+2026-05-31 11:30:13,980 - INFO -     → BodyColor: #FFFFFF
+2026-05-31 11:30:14,871 - INFO -     → BackgroundColor: #002953
+2026-05-31 11:30:16,989 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-31 11:30:16,990 - WARNING -   ⚠ Splash not found: None
+2026-05-31 11:30:17,191 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-31 11:30:20,202 - INFO - ✓ Brand settings saved successfully!
+2026-05-31 11:30:20,202 - INFO - Going to App Settings for Support Network...
+2026-05-31 11:30:23,448 - INFO -   → Support Network section opened
+2026-05-31 11:30:26,572 - INFO -   → Edit Support Network popup opened
+2026-05-31 11:30:28,573 - INFO - ✓ Support Network form is ready
+2026-05-31 11:30:28,815 - INFO -     ✓ phone filled
+2026-05-31 11:30:29,119 - INFO -     ✓ email filled
+2026-05-31 11:30:29,419 - INFO -     ✓ website filled
+2026-05-31 11:30:29,978 - INFO -     ✓ terms_conditions filled
+2026-05-31 11:30:31,288 - INFO -     ✓ support_content filled
+2026-05-31 11:30:31,696 - INFO -     ✓ privacy_policy filled
+2026-05-31 11:30:32,751 - INFO -   → Save clicked
+2026-05-31 11:30:35,752 - INFO - ✓ Support Network saved successfully!
+2026-05-31 11:30:35,959 - INFO - Browser closed
+2026-05-31 11:30:35,961 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43651): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9c84c40075f688716f5051fb55d4331e
+2026-05-31 11:30:35,962 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43651): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9c84c40075f688716f5051fb55d4331e
+2026-05-31 11:30:35,963 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=43651): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9c84c40075f688716f5051fb55d4331e
+2026-05-31 11:30:35,964 - INFO -   Browser closed
+2026-05-31 11:30:35,964 - INFO - 
+Task finished at 2026-05-31 11:30:35
+2026-05-31 11:30:35,965 - INFO - Log: automation/logs/full_automation_20260531_112857.log
+
+2026-05-31 11:31:36,734 - INFO - User selected: Old Dashboard
+2026-05-31 11:31:38,060 - INFO -   Old Dashboard → Brand Setting
+2026-05-31 11:31:38,061 - INFO - ============================================================
+2026-05-31 11:31:38,061 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-31 11:31:38,061 - INFO - ============================================================
+2026-05-31 11:31:38,061 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:31:38,061 - INFO - ====== WebDriver manager ======
+2026-05-31 11:31:38,421 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:31:38,630 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:31:38,708 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:31:40,054 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-31 11:31:40,054 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-31 11:31:51,448 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-31 11:31:53,448 - INFO -     → Filling credentials …
+2026-05-31 11:31:53,773 - INFO -       Email → field #login_txt_id
+2026-05-31 11:31:54,046 - INFO -       Password → field #login_txt_pass
+2026-05-31 11:31:54,273 - INFO -       Login button clicked: #btnVendor
+2026-05-31 11:31:54,273 - INFO -     → Waiting for post-login redirect …
+2026-05-31 11:32:04,032 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-31 11:32:04,033 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-31 11:32:18,768 - INFO - 
+[3/4] Extracting brand data …
+2026-05-31 11:32:19,052 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-31 11:32:19,451 - INFO -   ✓ Downloaded: logo.png  (225.1 KB)
+2026-05-31 11:32:19,453 - WARNING -   ⚠ No splash URL found — skipping splash download
+2026-05-31 11:32:19,454 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-31 11:32:19,731 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-31 11:32:19,732 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:32:19,732 - INFO - ====== WebDriver manager ======
+2026-05-31 11:32:20,250 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:32:20,343 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:32:20,459 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:32:21,600 - INFO - ✓ Chrome driver initialized
+2026-05-31 11:32:21,600 - INFO - Opening login page...
+2026-05-31 11:32:23,048 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-05-31 11:32:28,058 - INFO - ✓ Login successful
+2026-05-31 11:32:28,086 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-31 11:32:28,502 - INFO - ✓ Logo  → logo_processed.png  |  195.4 KB  |  PNG lossless
+2026-05-31 11:32:28,803 - INFO -   Colours extracted from logo:
+2026-05-31 11:32:28,804 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-05-31 11:32:28,804 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-05-31 11:32:28,804 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-31 11:32:28,804 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-31 11:32:28,814 - INFO - Going to App Settings...
+2026-05-31 11:32:35,199 - INFO -   → Identity & Branding section opened
+2026-05-31 11:32:37,369 - INFO -   → Edit Branding popup opened
+2026-05-31 11:32:37,388 - INFO - ✓ Brand setting form is ready
+2026-05-31 11:32:37,388 - INFO -   Setting company name: 
+2026-05-31 11:32:38,490 - INFO -     → HeaderColor: #F00000
+2026-05-31 11:32:39,377 - INFO -     → FooterColor: #F5F5F5
+2026-05-31 11:32:40,509 - INFO -     → BodyColor: #FFFFFF
+2026-05-31 11:32:41,473 - INFO -     → BackgroundColor: #9C0000
+2026-05-31 11:32:43,581 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-31 11:32:43,581 - WARNING -   ⚠ Splash not found: None
+2026-05-31 11:32:43,762 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-31 11:32:46,774 - INFO - ✓ Brand settings saved successfully!
+2026-05-31 11:32:46,774 - INFO - Going to App Settings for Support Network...
+2026-05-31 11:32:50,068 - INFO -   → Support Network section opened
+2026-05-31 11:32:53,164 - INFO -   → Edit Support Network popup opened
+2026-05-31 11:32:55,165 - INFO - ✓ Support Network form is ready
+2026-05-31 11:32:55,431 - INFO -     ✓ phone filled
+2026-05-31 11:32:55,790 - INFO -     ✓ email filled
+2026-05-31 11:32:56,134 - INFO -     ✓ website filled
+2026-05-31 11:32:56,581 - INFO -     ✓ terms_conditions filled
+2026-05-31 11:32:57,594 - INFO -     ✓ support_content filled
+2026-05-31 11:32:58,197 - INFO -     ✓ privacy_policy filled
+2026-05-31 11:32:59,246 - INFO -   → Save clicked
+2026-05-31 11:33:02,247 - INFO - ✓ Support Network saved successfully!
+2026-05-31 11:33:02,498 - INFO - Browser closed
+2026-05-31 11:33:02,499 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=33417): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be845dcd0c2e689a22878a6ead914270
+2026-05-31 11:33:02,500 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=33417): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be845dcd0c2e689a22878a6ead914270
+2026-05-31 11:33:02,501 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=33417): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be845dcd0c2e689a22878a6ead914270
+2026-05-31 11:33:02,502 - INFO -   Browser closed
+2026-05-31 11:33:02,502 - INFO - 
+Task finished at 2026-05-31 11:33:02
+2026-05-31 11:33:02,502 - INFO - Log: automation/logs/full_automation_20260531_112857.log
+
+2026-05-31 11:36:21,277 - INFO - User selected: Brand Setting
+2026-05-31 11:36:25,559 - INFO -   Found logo asset: logo.png
+2026-05-31 11:36:25,561 - INFO -   Found splash asset: splash.png
+2026-05-31 11:36:25,563 - INFO - ============================================================
+2026-05-31 11:36:25,564 - INFO - BRAND SETTING — Image Processing
+2026-05-31 11:36:25,565 - INFO - ============================================================
+2026-05-31 11:36:25,638 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-31 11:36:26,141 - INFO - ✓ Logo  → logo_processed.png  |  195.4 KB  |  PNG lossless
+2026-05-31 11:36:26,233 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-31 11:36:27,800 - INFO - ✓ Splash → splash_processed.png  |  0.51 MB  |  PNG lossless
+2026-05-31 11:36:27,801 - INFO - 
+2026-05-31 11:36:27,802 - INFO - Extracting brand colours from logo...
+2026-05-31 11:36:28,123 - INFO -   Colours extracted from logo:
+2026-05-31 11:36:28,123 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-05-31 11:36:28,123 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-05-31 11:36:28,123 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-31 11:36:28,123 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-31 11:36:28,132 - INFO - ✓ Both images ready
+
+2026-05-31 11:36:28,132 - INFO - ============================================================
+2026-05-31 11:36:28,132 - INFO - BRAND SETTING — Browser Automation
+2026-05-31 11:36:28,132 - INFO - ============================================================
+2026-05-31 11:36:28,137 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:36:28,143 - INFO - ====== WebDriver manager ======
+2026-05-31 11:36:28,899 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:36:29,020 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:36:29,098 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:36:31,769 - INFO - ✓ Chrome driver initialized
+2026-05-31 11:36:31,771 - INFO - Opening login page...
+2026-05-31 11:36:34,101 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-05-31 11:36:39,509 - INFO - ✓ Login successful
+2026-05-31 11:36:41,515 - INFO - Going to App Settings...
+2026-05-31 11:36:49,398 - INFO -   → Identity & Branding section opened
+2026-05-31 11:36:52,819 - INFO -   → Edit Branding popup opened
+2026-05-31 11:36:52,895 - INFO - ✓ Brand setting form is ready
+2026-05-31 11:36:52,897 - INFO -   Setting company name: Danilo
+2026-05-31 11:36:54,990 - INFO -     → HeaderColor: #F00000
+2026-05-31 11:36:56,013 - INFO -     → FooterColor: #F5F5F5
+2026-05-31 11:36:57,565 - INFO -     → BodyColor: #FFFFFF
+2026-05-31 11:36:59,218 - INFO -     → BackgroundColor: #9C0000
+2026-05-31 11:37:01,510 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-31 11:37:03,965 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-31 11:37:04,097 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-31 11:37:07,119 - INFO - ✓ Brand settings saved successfully!
+2026-05-31 11:37:07,319 - INFO - Browser closed
+2026-05-31 11:37:07,321 - INFO - 
+Task finished at 2026-05-31 11:37:07
+2026-05-31 11:37:07,322 - INFO - Log: automation/logs/full_automation_20260531_112857.log
+
+2026-05-31 11:37:37,450 - INFO - User selected: Old Dashboard
+2026-05-31 11:37:39,914 - INFO -   Old Dashboard → Introduction Setting
+2026-05-31 11:37:39,916 - INFO - ============================================================
+2026-05-31 11:37:39,917 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-31 11:37:39,917 - INFO - ============================================================
+2026-05-31 11:37:39,918 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:37:39,918 - INFO - ====== WebDriver manager ======
+2026-05-31 11:37:40,215 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:37:40,292 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:37:40,387 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:37:41,493 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-31 11:37:47,890 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-31 11:37:48,139 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-31 11:37:51,140 - INFO -   → Filling Vendor credentials...
+2026-05-31 11:37:51,540 - INFO -     - Email entered: test_danilo@gmail.com
+2026-05-31 11:37:51,541 - INFO -     - Clicking 'login' button...
+2026-05-31 11:37:51,632 - INFO -   → Waiting for successful login redirect...
+2026-05-31 11:38:03,067 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-31 11:38:03,071 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-31 11:38:08,172 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-31 11:38:08,245 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-31 11:38:11,387 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-31 11:38:17,309 - INFO - Automation cancelled by user (Ctrl+C)

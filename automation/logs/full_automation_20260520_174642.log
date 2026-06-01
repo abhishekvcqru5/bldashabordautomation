@@ -1,0 +1,143 @@
+2026-05-20 17:46:58,629 - INFO - User selected: Registration Fields
+2026-05-20 17:46:58,630 - INFO - ============================================================
+2026-05-20 17:46:58,630 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-20 17:46:58,630 - INFO - ============================================================
+2026-05-20 17:47:04,492 - WARNING - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
+2026-05-20 17:47:04,492 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (); currently, chromedriver 148.0.7778.178 is recommended for chrome .*, so it is advised to delete the driver in PATH and retry
+2026-05-20 17:47:04,874 - ERROR - Failed to initialize Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5ae26f2103ea <unknown>
+#1 0x5ae26ec20845 <unknown>
+#2 0x5ae26ec5c293 <unknown>
+#3 0x5ae26ec58bc8 <unknown>
+#4 0x5ae26eca799a <unknown>
+#5 0x5ae26eca70ec <unknown>
+#6 0x5ae26ec66204 <unknown>
+#7 0x5ae26ec66fc1 <unknown>
+#8 0x5ae26f1d39cb <unknown>
+#9 0x5ae26f1d6c93 <unknown>
+#10 0x5ae26f1c165c <unknown>
+#11 0x5ae26f1d7429 <unknown>
+#12 0x5ae26f1a99d7 <unknown>
+#13 0x5ae26f1fdc08 <unknown>
+#14 0x5ae26f1fde33 <unknown>
+#15 0x5ae26f20edf7 <unknown>
+#16 0x796aad09caa4 <unknown>
+#17 0x796aad129c6c <unknown>
+
+2026-05-20 17:47:04,874 - INFO - Opening login page...
+2026-05-20 17:47:04,874 - ERROR - Login failed: 'NoneType' object has no attribute 'get'
+2026-05-20 17:47:04,874 - WARNING - Screenshot failed: 'NoneType' object has no attribute 'save_screenshot'
+2026-05-20 17:47:04,874 - ERROR - ✗ Login failed. Aborting.
+2026-05-20 17:47:04,874 - INFO - 
+Task finished at 2026-05-20 17:47:04
+2026-05-20 17:47:04,874 - INFO - Log: automation/logs/full_automation_20260520_174642.log
+
+2026-05-20 17:47:23,464 - INFO - User selected: Registration Fields
+2026-05-20 17:47:23,464 - INFO - ============================================================
+2026-05-20 17:47:23,464 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-20 17:47:23,464 - INFO - ============================================================
+2026-05-20 17:47:24,935 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 17:47:27,369 - INFO - ✓ Chrome driver initialized
+2026-05-20 17:47:27,371 - INFO - Opening login page...
+2026-05-20 17:47:30,225 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 17:47:32,851 - INFO - ✓ Login successful
+2026-05-20 17:47:34,851 - INFO - Going to App Settings...
+2026-05-20 17:47:36,518 - INFO -   → Registration Field section opened
+2026-05-20 17:47:36,959 - INFO - ✓ Registration Fields page ready
+2026-05-20 17:47:38,154 - INFO - Found 2 user types: ['Retailer', 'Painter']
+2026-05-20 17:47:38,154 - INFO - Starting registration fields automation: 12 fields total
+2026-05-20 17:47:38,154 - INFO - ============================================================
+2026-05-20 17:47:38,154 - INFO - Processing User Type: Retailer
+2026-05-20 17:47:38,154 - INFO -   Adding field: [Retailer] -> First Name
+2026-05-20 17:47:38,949 - INFO -     → User Type selected: Retailer
+2026-05-20 17:47:59,268 - INFO -     → System Data Point selected: First Name
+2026-05-20 17:47:59,367 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:47:59,639 - INFO -     → Integrate Now clicked
+2026-05-20 17:47:59,726 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-20 17:48:00,029 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-05-20 17:48:00,753 - INFO -     → User Type selected: Retailer
+2026-05-20 17:48:21,190 - INFO -     → System Data Point selected: Phone Number
+2026-05-20 17:48:21,318 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:48:21,723 - INFO -     → Integrate Now clicked
+2026-05-20 17:48:21,975 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-20 17:48:22,277 - INFO -   Adding field: [Retailer] -> Pincode
+2026-05-20 17:48:23,024 - INFO -     → User Type selected: Retailer
+2026-05-20 17:48:43,331 - INFO -     → System Data Point selected: Pincode
+2026-05-20 17:48:43,382 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:48:43,654 - INFO -     → Integrate Now clicked
+2026-05-20 17:48:43,747 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-20 17:48:44,049 - INFO -   Adding field: [Retailer] -> City
+2026-05-20 17:48:44,907 - INFO -     → User Type selected: Retailer
+2026-05-20 17:49:05,617 - INFO -     → System Data Point selected: City
+2026-05-20 17:49:05,747 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:49:06,571 - INFO -     → Integrate Now clicked
+2026-05-20 17:49:06,926 - INFO -   ✓ Field added successfully: City
+
+2026-05-20 17:49:07,230 - INFO -   Adding field: [Retailer] -> State
+2026-05-20 17:49:08,382 - INFO -     → User Type selected: Retailer
+2026-05-20 17:49:28,848 - INFO -     → System Data Point selected: State
+2026-05-20 17:49:28,935 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:49:29,279 - INFO -     → Integrate Now clicked
+2026-05-20 17:49:29,443 - INFO -   ✓ Field added successfully: State
+
+2026-05-20 17:49:29,747 - INFO -   Adding field: [Retailer] -> Address
+2026-05-20 17:49:30,711 - INFO -     → User Type selected: Retailer
+2026-05-20 17:49:51,168 - INFO -     → System Data Point selected: Address
+2026-05-20 17:49:51,298 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:49:51,679 - INFO -     → Integrate Now clicked
+2026-05-20 17:49:51,787 - INFO -   ✓ Field added successfully: Address
+
+2026-05-20 17:49:52,089 - INFO - Processing User Type: Painter
+2026-05-20 17:49:52,090 - INFO -   Adding field: [Painter] -> First Name
+2026-05-20 17:49:52,836 - INFO -     → User Type selected: Painter
+2026-05-20 17:50:13,290 - INFO -     → System Data Point selected: First Name
+2026-05-20 17:50:13,417 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:50:13,791 - INFO -     → Integrate Now clicked
+2026-05-20 17:50:13,935 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-20 17:50:14,239 - INFO -   Adding field: [Painter] -> Phone Number
+2026-05-20 17:50:15,318 - INFO -     → User Type selected: Painter
+2026-05-20 17:50:35,734 - INFO -     → System Data Point selected: Phone Number
+2026-05-20 17:50:35,806 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:50:36,109 - INFO -     → Integrate Now clicked
+2026-05-20 17:50:36,344 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-20 17:50:36,644 - INFO -   Adding field: [Painter] -> Pincode
+2026-05-20 17:50:37,551 - INFO -     → User Type selected: Painter
+2026-05-20 17:50:57,881 - INFO -     → System Data Point selected: Pincode
+2026-05-20 17:50:58,026 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:50:58,342 - INFO -     → Integrate Now clicked
+2026-05-20 17:50:58,441 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-20 17:50:58,743 - INFO -   Adding field: [Painter] -> City
+2026-05-20 17:50:59,913 - INFO -     → User Type selected: Painter
+2026-05-20 17:51:20,466 - INFO -     → System Data Point selected: City
+2026-05-20 17:51:20,565 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:51:20,880 - INFO -     → Integrate Now clicked
+2026-05-20 17:51:21,016 - INFO -   ✓ Field added successfully: City
+
+2026-05-20 17:51:21,317 - INFO -   Adding field: [Painter] -> State
+2026-05-20 17:51:22,501 - INFO -     → User Type selected: Painter
+2026-05-20 17:51:43,049 - INFO -     → System Data Point selected: State
+2026-05-20 17:51:43,119 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:51:43,510 - INFO -     → Integrate Now clicked
+2026-05-20 17:51:43,857 - INFO -   ✓ Field added successfully: State
+
+2026-05-20 17:51:44,164 - INFO -   Adding field: [Painter] -> Address
+2026-05-20 17:51:45,764 - INFO -     → User Type selected: Painter
+2026-05-20 17:52:06,548 - INFO -     → System Data Point selected: Address
+2026-05-20 17:52:06,655 - INFO -     → Mandatory toggle enabled
+2026-05-20 17:52:06,986 - INFO -     → Integrate Now clicked
+2026-05-20 17:52:07,222 - INFO -   ✓ Field added successfully: Address
+
+2026-05-20 17:52:07,526 - INFO - ============================================================
+2026-05-20 17:52:07,527 - INFO - Registration fields batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-20 17:52:07,960 - INFO - Browser closed
+2026-05-20 17:52:07,964 - INFO - 
+Task finished at 2026-05-20 17:52:07
+2026-05-20 17:52:07,969 - INFO - Log: automation/logs/full_automation_20260520_174642.log
+

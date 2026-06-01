@@ -1,0 +1,24 @@
+2026-05-31 11:28:31,703 - INFO - User selected: Old Dashboard
+2026-05-31 11:28:34,455 - INFO -   Old Dashboard → Brand Setting
+2026-05-31 11:28:34,456 - INFO - ============================================================
+2026-05-31 11:28:34,456 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-31 11:28:34,456 - INFO - ============================================================
+2026-05-31 11:28:34,457 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:28:34,457 - INFO - ====== WebDriver manager ======
+2026-05-31 11:28:34,991 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:28:35,074 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:28:35,174 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:28:36,424 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-31 11:28:36,425 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-31 11:28:42,909 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-31 11:28:44,909 - INFO -     → Filling credentials …
+2026-05-31 11:28:45,173 - INFO -       Email → field #login_txt_id
+2026-05-31 11:28:45,340 - INFO -       Password → field #login_txt_pass
+2026-05-31 11:28:45,522 - INFO -       Login button clicked: #btnVendor
+2026-05-31 11:28:45,523 - INFO -     → Waiting for post-login redirect …
+2026-05-31 11:28:56,157 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/3237adecf40b8941361e78370eae18a9
+2026-05-31 11:28:56,158 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53585): Failed to establish a new connection: [Errno 111] Connection refused")': /session/3237adecf40b8941361e78370eae18a9
+2026-05-31 11:28:56,159 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53585): Failed to establish a new connection: [Errno 111] Connection refused")': /session/3237adecf40b8941361e78370eae18a9
+2026-05-31 11:28:56,161 - INFO -   Browser closed
+2026-05-31 11:28:56,163 - INFO - Automation cancelled by user (Ctrl+C)

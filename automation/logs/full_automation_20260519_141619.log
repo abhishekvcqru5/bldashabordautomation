@@ -1,0 +1,30 @@
+2026-05-19 14:16:32,877 - INFO - User selected: Old Dashboard
+2026-05-19 14:16:36,121 - INFO -   Old Dashboard → Brand Setting
+2026-05-19 14:16:36,123 - INFO - ============================================================
+2026-05-19 14:16:36,130 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-19 14:16:36,137 - INFO - ============================================================
+2026-05-19 14:16:45,536 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:17:14,461 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-19 14:17:14,464 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-19 14:17:36,778 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-19 14:17:38,806 - INFO -     → Filling credentials …
+2026-05-19 14:17:41,317 - INFO -       Email → field #login_txt_id
+2026-05-19 14:17:42,573 - INFO -       Password → field #login_txt_pass
+2026-05-19 14:17:43,121 - INFO -       Login button clicked: #btnVendor
+2026-05-19 14:17:43,121 - INFO -     → Waiting for post-login redirect …
+2026-05-19 14:17:56,501 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:17:56,503 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-19 14:18:12,724 - INFO - 
+[3/4] Extracting brand data …
+2026-05-19 14:18:18,670 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-19 14:18:18,671 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-19 14:18:20,153 - INFO -   ✓ Downloaded: splash.png  (139.5 KB)
+2026-05-19 14:18:20,164 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-19 14:18:20,297 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=60539): Failed to establish a new connection: [Errno 111] Connection refused")': /session/67e375b73650b10e34099bcbef780474
+2026-05-19 14:18:20,298 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=60539): Failed to establish a new connection: [Errno 111] Connection refused")': /session/67e375b73650b10e34099bcbef780474
+2026-05-19 14:18:20,299 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=60539): Failed to establish a new connection: [Errno 111] Connection refused")': /session/67e375b73650b10e34099bcbef780474
+2026-05-19 14:18:20,302 - INFO -   Browser closed
+2026-05-19 14:18:20,305 - INFO - Automation cancelled by user (Ctrl+C)

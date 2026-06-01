@@ -1,0 +1,445 @@
+2026-05-26 17:44:17,194 - INFO - User selected: Old Dashboard
+2026-05-26 17:44:20,276 - INFO -   Old Dashboard → Banner BL
+2026-05-26 17:44:20,277 - INFO - ============================================================
+2026-05-26 17:44:20,277 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-05-26 17:44:20,278 - INFO - ============================================================
+2026-05-26 17:44:20,278 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:44:20,278 - INFO - ====== WebDriver manager ======
+2026-05-26 17:44:20,645 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:44:20,875 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:44:21,145 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:44:22,594 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-26 17:44:29,148 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-26 17:44:29,408 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-26 17:44:32,409 - INFO -   → Filling Vendor credentials...
+2026-05-26 17:44:32,750 - INFO -     - Email entered: info@vrinflex.com
+2026-05-26 17:44:32,750 - INFO -     - Clicking 'login' button...
+2026-05-26 17:44:32,842 - INFO -   → Waiting for successful login redirect...
+2026-05-26 17:44:41,168 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-26 17:44:41,174 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-26 17:44:46,330 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-26 17:44:46,372 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-26 17:44:49,508 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-05-26 17:44:58,042 - INFO -   → Searching for banner images data...
+2026-05-26 17:44:58,166 - INFO -     ✓ Found 7 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-05-26 17:44:58,176 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner%20copy.png
+2026-05-26 17:44:58,628 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner-Hindi.png
+2026-05-26 17:44:59,016 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/VcqruIMG-20251106-WA0016.jpg
+2026-05-26 17:44:59,549 - INFO -     → Downloading banner 4: https://www.vcqru.com/assets/images/VcqruIMG-20251106-WA0015.jpg
+2026-05-26 17:45:00,006 - INFO -     → Downloading banner 5: https://www.vcqru.com/assets/images/VcqruIMG-20251106-WA0014.jpg
+2026-05-26 17:45:00,445 - INFO -     → Downloading banner 6: https://www.vcqru.com/assets/images/VcqruIMG-20251106-WA0013.jpg
+2026-05-26 17:45:00,912 - INFO -     → Downloading banner 7: https://www.vcqru.com/assets/images/VcqruIMG-20251115-WA0009.jpg
+2026-05-26 17:45:01,978 - INFO - ✓ Extracted 7 banners.
+2026-05-26 17:45:01,979 - INFO - 
+============================================================
+2026-05-26 17:45:01,980 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-05-26 17:45:01,981 - INFO - ============================================================
+2026-05-26 17:45:02,150 - INFO -   ⚙ Processing old_banner_1_20260526_174458.jpg  (Cannot read: cannot identify image file 'old_dashboard_banners/old_banner_1_20260526_174458.jpg')
+2026-05-26 17:45:02,152 - ERROR -   Processing error for old_banner_1_20260526_174458.jpg: cannot identify image file 'old_dashboard_banners/old_banner_1_20260526_174458.jpg'
+2026-05-26 17:45:02,153 - INFO -   ⚙ Processing old_banner_2_20260526_174458.jpg  (Cannot read: cannot identify image file 'old_dashboard_banners/old_banner_2_20260526_174458.jpg')
+2026-05-26 17:45:02,155 - ERROR -   Processing error for old_banner_2_20260526_174458.jpg: cannot identify image file 'old_dashboard_banners/old_banner_2_20260526_174458.jpg'
+2026-05-26 17:45:02,159 - INFO -   ⚙ Processing old_banner_3_20260526_174459.jpg  (size 1066×537 → need 1920×1080)
+2026-05-26 17:45:02,444 - INFO -   ✓ old_banner_3_20260526_174459.jpg  →  old_banner_3_20260526_174459_processed.jpg  |  1920×1080  |  0.36 MB  |  quality 92
+2026-05-26 17:45:02,447 - INFO -   ⚙ Processing old_banner_4_20260526_174459.jpg  (size 1066×537 → need 1920×1080)
+2026-05-26 17:45:02,693 - INFO -   ✓ old_banner_4_20260526_174459.jpg  →  old_banner_4_20260526_174459_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-05-26 17:45:02,698 - INFO -   ⚙ Processing old_banner_5_20260526_174500.jpg  (size 1066×537 → need 1920×1080)
+2026-05-26 17:45:02,931 - INFO -   ✓ old_banner_5_20260526_174500.jpg  →  old_banner_5_20260526_174500_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-05-26 17:45:02,934 - INFO -   ⚙ Processing old_banner_6_20260526_174500.jpg  (size 1066×537 → need 1920×1080)
+2026-05-26 17:45:03,245 - INFO -   ✓ old_banner_6_20260526_174500.jpg  →  old_banner_6_20260526_174500_processed.jpg  |  1920×1080  |  0.41 MB  |  quality 92
+2026-05-26 17:45:03,249 - INFO -   ⚙ Processing old_banner_7_20260526_174500.jpg  (size 2574×1077 → need 1920×1080)
+2026-05-26 17:45:03,592 - INFO -   ✓ old_banner_7_20260526_174500.jpg  →  old_banner_7_20260526_174500_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-05-26 17:45:03,592 - INFO - 
+============================================================
+2026-05-26 17:45:03,592 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-05-26 17:45:03,592 - INFO - ============================================================
+2026-05-26 17:45:03,592 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:45:03,593 - INFO - ====== WebDriver manager ======
+2026-05-26 17:45:04,050 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:45:04,595 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:45:05,209 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:45:07,066 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:45:07,066 - INFO - Opening login page...
+2026-05-26 17:45:10,615 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:45:13,696 - INFO - ✓ Login successful
+2026-05-26 17:45:13,697 - INFO - Going to App Settings...
+2026-05-26 17:45:20,462 - INFO -   → Promotion Banners section opened
+2026-05-26 17:45:20,515 - INFO - ✓ Promotion Banners page ready
+2026-05-26 17:45:20,516 - INFO - Starting batch  —  5 banner(s) to publish
+2026-05-26 17:45:20,517 - INFO - ============================================================
+2026-05-26 17:45:20,518 - INFO - [1/5]
+2026-05-26 17:45:20,518 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260526_174459_processed.jpg)
+2026-05-26 17:45:23,136 - INFO -     → Title entered: old_banner_3
+2026-05-26 17:45:25,475 - INFO -     → Image uploaded: old_banner_3_20260526_174459_processed.jpg
+2026-05-26 17:45:25,827 - INFO -     → Publish Banner clicked
+2026-05-26 17:45:29,848 - INFO -   ✓ Banner published: old_banner_3
+
+2026-05-26 17:45:30,848 - INFO - [2/5]
+2026-05-26 17:45:30,849 - INFO -   Publishing: [old_banner_4]  (old_banner_4_20260526_174459_processed.jpg)
+2026-05-26 17:45:33,244 - INFO -     → Title entered: old_banner_4
+2026-05-26 17:45:35,337 - INFO -     → Image uploaded: old_banner_4_20260526_174459_processed.jpg
+2026-05-26 17:45:35,625 - INFO -     → Publish Banner clicked
+2026-05-26 17:45:39,684 - INFO -   ✓ Banner published: old_banner_4
+
+2026-05-26 17:45:40,687 - INFO - [3/5]
+2026-05-26 17:45:40,688 - INFO -   Publishing: [old_banner_5]  (old_banner_5_20260526_174500_processed.jpg)
+2026-05-26 17:45:43,103 - INFO -     → Title entered: old_banner_5
+2026-05-26 17:45:45,190 - INFO -     → Image uploaded: old_banner_5_20260526_174500_processed.jpg
+2026-05-26 17:45:45,398 - INFO -     → Publish Banner clicked
+2026-05-26 17:45:49,462 - INFO -   ✓ Banner published: old_banner_5
+
+2026-05-26 17:45:50,463 - INFO - [4/5]
+2026-05-26 17:45:50,469 - INFO -   Publishing: [old_banner_6]  (old_banner_6_20260526_174500_processed.jpg)
+2026-05-26 17:45:52,863 - INFO -     → Title entered: old_banner_6
+2026-05-26 17:45:54,935 - INFO -     → Image uploaded: old_banner_6_20260526_174500_processed.jpg
+2026-05-26 17:45:55,170 - INFO -     → Publish Banner clicked
+2026-05-26 17:45:59,185 - INFO -   ✓ Banner published: old_banner_6
+
+2026-05-26 17:46:00,187 - INFO - [5/5]
+2026-05-26 17:46:00,187 - INFO -   Publishing: [old_banner_7]  (old_banner_7_20260526_174500_processed.jpg)
+2026-05-26 17:46:03,251 - INFO -     → Title entered: old_banner_7
+2026-05-26 17:46:05,331 - INFO -     → Image uploaded: old_banner_7_20260526_174500_processed.jpg
+2026-05-26 17:46:06,210 - INFO -     → Publish Banner clicked
+2026-05-26 17:46:10,287 - INFO -   ✓ Banner published: old_banner_7
+
+2026-05-26 17:46:11,287 - INFO - ============================================================
+2026-05-26 17:46:11,288 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-05-26 17:46:11,777 - INFO - Browser closed
+2026-05-26 17:46:11,778 - INFO - 
+Task finished at 2026-05-26 17:46:11
+2026-05-26 17:46:11,778 - INFO - Log: automation/logs/full_automation_20260526_174359.log
+
+2026-05-26 17:47:09,411 - INFO - User selected: Registration Fields
+2026-05-26 17:47:09,412 - INFO - ============================================================
+2026-05-26 17:47:09,413 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-26 17:47:09,413 - INFO - ============================================================
+2026-05-26 17:47:09,413 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:47:09,414 - INFO - ====== WebDriver manager ======
+2026-05-26 17:47:09,899 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:47:10,097 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:47:10,291 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:47:14,202 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:47:14,205 - INFO - Opening login page...
+2026-05-26 17:47:17,416 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:47:37,495 - ERROR - Login failed: Message: 
+
+2026-05-26 17:47:37,928 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260526_174737.png
+2026-05-26 17:47:37,928 - ERROR - ✗ Login failed. Aborting.
+2026-05-26 17:47:38,124 - INFO - Browser closed
+2026-05-26 17:47:38,125 - INFO - 
+Task finished at 2026-05-26 17:47:38
+2026-05-26 17:47:38,125 - INFO - Log: automation/logs/full_automation_20260526_174359.log
+
+2026-05-26 17:47:44,806 - INFO - User selected: Registration Fields
+2026-05-26 17:47:44,806 - INFO - ============================================================
+2026-05-26 17:47:44,807 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-26 17:47:44,808 - INFO - ============================================================
+2026-05-26 17:47:44,811 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:47:44,812 - INFO - ====== WebDriver manager ======
+2026-05-26 17:47:45,297 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:47:45,656 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:47:45,914 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:47:47,537 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:47:47,539 - INFO - Opening login page...
+2026-05-26 17:47:49,588 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:47:51,318 - INFO - ✓ Login successful
+2026-05-26 17:47:53,319 - INFO - Going to App Settings...
+2026-05-26 17:47:54,962 - INFO -   → Registration Field section opened
+2026-05-26 17:47:55,376 - INFO - ✓ Registration Fields page ready
+2026-05-26 17:47:56,730 - INFO - Found 1 user types: ['Electrician']
+2026-05-26 17:47:56,730 - INFO - Starting registration fields automation: 6 fields total
+2026-05-26 17:47:56,731 - INFO - ============================================================
+2026-05-26 17:47:56,731 - INFO - Processing User Type: Electrician
+2026-05-26 17:47:56,731 - INFO -   Adding field: [Electrician] -> First Name
+2026-05-26 17:47:57,318 - INFO -     → User Type selected: Electrician
+2026-05-26 17:48:17,780 - INFO -     → System Data Point selected: First Name
+2026-05-26 17:48:17,836 - INFO -     → Mandatory toggle enabled
+2026-05-26 17:48:18,419 - INFO -     → Integrate Now clicked
+2026-05-26 17:48:18,478 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-26 17:48:18,779 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-05-26 17:48:19,657 - INFO -     → User Type selected: Electrician
+2026-05-26 17:48:40,041 - INFO -     → System Data Point selected: Phone Number
+2026-05-26 17:48:40,107 - INFO -     → Mandatory toggle enabled
+2026-05-26 17:48:40,293 - INFO -     → Integrate Now clicked
+2026-05-26 17:48:40,331 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-26 17:48:40,632 - INFO -   Adding field: [Electrician] -> Pincode
+2026-05-26 17:48:41,296 - INFO -     → User Type selected: Electrician
+2026-05-26 17:49:01,573 - INFO -     → System Data Point selected: Pincode
+2026-05-26 17:49:01,610 - INFO -     → Mandatory toggle enabled
+2026-05-26 17:49:01,802 - INFO -     → Integrate Now clicked
+2026-05-26 17:49:01,869 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-26 17:49:02,169 - INFO -   Adding field: [Electrician] -> City
+2026-05-26 17:49:03,315 - ERROR -   ✗ Failed to add field City for Electrician: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1297, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=147.0.7727.55); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5c95e26d779a <unknown>
+#1 0x5c95e20d3215 <unknown>
+#2 0x5c95e212d1bb <unknown>
+#3 0x5c95e212adf2 <unknown>
+#4 0x5c95e2128339 <unknown>
+#5 0x5c95e2127437 <unknown>
+#6 0x5c95e211b452 <unknown>
+#7 0x5c95e211ad97 <unknown>
+#8 0x5c95e216e7d0 <unknown>
+#9 0x5c95e211955f <unknown>
+#10 0x5c95e211a321 <unknown>
+#11 0x5c95e269b06b <unknown>
+#12 0x5c95e269e01d <unknown>
+#13 0x5c95e2687718 <unknown>
+#14 0x5c95e269ebb0 <unknown>
+#15 0x5c95e266e150 <unknown>
+#16 0x5c95e26c45e8 <unknown>
+#17 0x5c95e26c47b8 <unknown>
+#18 0x5c95e26d61de <unknown>
+#19 0x72394989caa4 <unknown>
+#20 0x723949929c6c <unknown>
+
+2026-05-26 17:49:04,161 - INFO -   📸 Screenshot saved: automation/screenshots/reg_error_Electrician_City_20260526_174903.png
+2026-05-26 17:49:04,734 - INFO -   Adding field: [Electrician] -> State
+2026-05-26 17:49:05,791 - INFO -     → User Type selected: Electrician
+2026-05-26 17:49:26,006 - INFO -     → System Data Point selected: State
+2026-05-26 17:49:26,052 - INFO -     → Mandatory toggle enabled
+2026-05-26 17:49:26,283 - INFO -     → Integrate Now clicked
+2026-05-26 17:49:26,326 - INFO -   ✓ Field added successfully: State
+
+2026-05-26 17:49:26,627 - INFO -   Adding field: [Electrician] -> Address
+2026-05-26 17:49:27,912 - ERROR -   ✗ Failed to add field Address for Electrician: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1297, 261). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=147.0.7727.55); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5c95e26d779a <unknown>
+#1 0x5c95e20d3215 <unknown>
+#2 0x5c95e212d1bb <unknown>
+#3 0x5c95e212adf2 <unknown>
+#4 0x5c95e2128339 <unknown>
+#5 0x5c95e2127437 <unknown>
+#6 0x5c95e211b452 <unknown>
+#7 0x5c95e211ad97 <unknown>
+#8 0x5c95e216e7d0 <unknown>
+#9 0x5c95e211955f <unknown>
+#10 0x5c95e211a321 <unknown>
+#11 0x5c95e269b06b <unknown>
+#12 0x5c95e269e01d <unknown>
+#13 0x5c95e2687718 <unknown>
+#14 0x5c95e269ebb0 <unknown>
+#15 0x5c95e266e150 <unknown>
+#16 0x5c95e26c45e8 <unknown>
+#17 0x5c95e26c47b8 <unknown>
+#18 0x5c95e26d61de <unknown>
+#19 0x72394989caa4 <unknown>
+#20 0x723949929c6c <unknown>
+
+2026-05-26 17:49:28,847 - INFO -   📸 Screenshot saved: automation/screenshots/reg_error_Electrician_Address_20260526_174927.png
+2026-05-26 17:49:29,377 - INFO - ============================================================
+2026-05-26 17:49:29,377 - INFO - Registration fields batch complete → ✓ 4 succeeded  ✗ 2 failed
+2026-05-26 17:49:29,851 - INFO - Browser closed
+2026-05-26 17:49:29,851 - INFO - 
+Task finished at 2026-05-26 17:49:29
+2026-05-26 17:49:29,851 - INFO - Log: automation/logs/full_automation_20260526_174359.log
+
+2026-05-26 17:49:57,074 - INFO - User selected: Dashboard Icons
+2026-05-26 17:49:57,074 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-26 17:49:57,075 - INFO - Automation started at 2026-05-26 17:49:57
+
+2026-05-26 17:49:57,075 - INFO - ============================================================
+2026-05-26 17:49:57,075 - INFO - STEP 1: Processing and Compressing Images
+2026-05-26 17:49:57,075 - INFO - ============================================================
+2026-05-26 17:49:57,076 - INFO - Processing images from: dashboardicons
+2026-05-26 17:49:57,076 - INFO - Output folder: automation/processed_images
+2026-05-26 17:49:57,076 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-26 17:49:57,093 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-26 17:49:57,103 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-26 17:49:57,121 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-26 17:49:57,144 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-26 17:49:57,154 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-26 17:49:57,172 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-26 17:49:57,183 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-26 17:49:57,198 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-26 17:49:57,222 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-26 17:49:57,231 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-26 17:49:57,252 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-26 17:49:57,269 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-26 17:49:57,287 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-26 17:49:57,304 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-26 17:49:57,305 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-26 17:49:57,307 - INFO - ✓ 14 images processed and ready
+
+2026-05-26 17:49:57,308 - INFO - ============================================================
+2026-05-26 17:49:57,310 - INFO - STEP 2: Preparing Authentication
+2026-05-26 17:49:57,310 - INFO - ============================================================
+2026-05-26 17:49:57,311 - INFO - Using email: info@vrinflex.com
+2026-05-26 17:49:57,312 - INFO - ✓ Credentials loaded
+
+2026-05-26 17:49:57,312 - INFO - ============================================================
+2026-05-26 17:49:57,312 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-26 17:49:57,312 - INFO - ============================================================
+2026-05-26 17:49:57,312 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:49:57,313 - INFO - ====== WebDriver manager ======
+2026-05-26 17:49:57,817 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:49:59,202 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:49:59,747 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:50:02,856 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:50:02,860 - INFO - 
+→ Attempting login...
+
+2026-05-26 17:50:02,860 - INFO - Opening login page...
+2026-05-26 17:50:11,288 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:50:14,418 - INFO - ✓ Login successful
+2026-05-26 17:50:16,421 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-26 17:50:16,422 - INFO - Navigating to App Settings...
+2026-05-26 17:50:23,451 - INFO - ✓ Dashboard Icons section loaded
+2026-05-26 17:50:25,453 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-26 17:50:25,453 - INFO - Starting batch – 12 configured entries
+2026-05-26 17:50:29,043 - INFO -   Found 1 user types: ['Electrician']
+2026-05-26 17:50:29,043 - INFO - Available user types: ['Electrician']
+2026-05-26 17:50:29,043 - INFO - Total icons to upload after expansion: 12
+2026-05-26 17:50:29,044 - INFO - ============================================================
+2026-05-26 17:50:29,044 - INFO - [1/12]
+2026-05-26 17:50:29,044 - INFO -   Adding: [Electrician] Gift  (gift)
+2026-05-26 17:50:31,647 - INFO -     → User type: Electrician
+2026-05-26 17:50:31,804 - INFO -     → Icon identity: gift
+2026-05-26 17:50:32,136 - INFO -     → Display title: Gift
+2026-05-26 17:50:32,202 - INFO -     → Toggle: both
+2026-05-26 17:50:34,329 - INFO -     → Image uploaded: Gift.png
+2026-05-26 17:50:34,678 - INFO -     → Form submitted
+2026-05-26 17:50:35,699 - INFO -   ✓ Icon added: Gift
+
+2026-05-26 17:50:36,699 - INFO - [2/12]
+2026-05-26 17:50:36,700 - INFO -   Adding: [Electrician] History  (history)
+2026-05-26 17:50:41,445 - INFO -     → User type: Electrician
+2026-05-26 17:50:42,219 - INFO -     → Icon identity: history
+2026-05-26 17:50:43,475 - INFO -     → Display title: History
+2026-05-26 17:50:43,713 - INFO -     → Toggle: both
+2026-05-26 17:50:46,204 - INFO -     → Image uploaded: history.png
+2026-05-26 17:50:46,505 - INFO -     → Form submitted
+2026-05-26 17:50:47,531 - INFO -   ✓ Icon added: History
+
+2026-05-26 17:50:48,532 - INFO - [3/12]
+2026-05-26 17:50:48,533 - INFO -   Adding: [Electrician] Wallet  (wallet)
+2026-05-26 17:50:51,813 - INFO -     → User type: Electrician
+2026-05-26 17:50:52,618 - INFO -     → Icon identity: wallet
+2026-05-26 17:50:53,609 - INFO -     → Display title: Wallet
+2026-05-26 17:50:53,813 - INFO -     → Toggle: both
+2026-05-26 17:50:55,936 - INFO -     → Image uploaded: wallet.png
+2026-05-26 17:50:56,224 - INFO -     → Form submitted
+2026-05-26 17:50:57,384 - INFO -   ✓ Icon added: Wallet
+
+2026-05-26 17:50:58,410 - INFO - [4/12]
+2026-05-26 17:50:58,410 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-05-26 17:51:02,072 - INFO -     → User type: Electrician
+2026-05-26 17:51:02,301 - INFO -     → Icon identity: kycdetails
+2026-05-26 17:51:02,655 - INFO -     → Display title: KYC
+2026-05-26 17:51:02,720 - INFO -     → Toggle: both
+2026-05-26 17:51:04,873 - INFO -     → Image uploaded: kyc.png
+2026-05-26 17:51:05,498 - INFO -     → Form submitted
+2026-05-26 17:51:06,673 - INFO -   ✓ Icon added: KYC
+
+2026-05-26 17:51:07,674 - INFO - [5/12]
+2026-05-26 17:51:07,674 - INFO -   Adding: [Electrician] Blog  (blog)
+2026-05-26 17:51:10,770 - INFO -     → User type: Electrician
+2026-05-26 17:51:10,984 - INFO -     → Icon identity: blog
+2026-05-26 17:51:11,350 - INFO -     → Display title: Blog
+2026-05-26 17:51:11,413 - INFO -     → Toggle: both
+2026-05-26 17:51:13,566 - INFO -     → Image uploaded: blog.png
+2026-05-26 17:51:13,884 - INFO -     → Form submitted
+2026-05-26 17:51:15,173 - INFO -   ✓ Icon added: Blog
+
+2026-05-26 17:51:16,176 - INFO - [6/12]
+2026-05-26 17:51:16,178 - INFO -   Adding: [Electrician] Brochure  (brochure)
+2026-05-26 17:51:19,399 - INFO -     → User type: Electrician
+2026-05-26 17:51:20,376 - INFO -     → Icon identity: brochure
+2026-05-26 17:51:20,942 - INFO -     → Display title: Brochure
+2026-05-26 17:51:21,021 - INFO -     → Toggle: both
+2026-05-26 17:51:23,166 - INFO -     → Image uploaded: brochure.png
+2026-05-26 17:51:23,479 - INFO -     → Form submitted
+2026-05-26 17:51:24,497 - INFO -   ✓ Icon added: Brochure
+
+2026-05-26 17:51:25,497 - INFO - [7/12]
+2026-05-26 17:51:25,498 - INFO -   Adding: [Electrician] Claim History  (claimhistory)
+2026-05-26 17:51:27,977 - INFO -     → User type: Electrician
+2026-05-26 17:51:28,180 - INFO -     → Icon identity: claimhistory
+2026-05-26 17:51:28,427 - INFO -     → Display title: Claim History
+2026-05-26 17:51:28,464 - INFO -     → Toggle: both
+2026-05-26 17:51:30,517 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-26 17:51:30,788 - INFO -     → Form submitted
+2026-05-26 17:51:31,821 - INFO -   ✓ Icon added: Claim History
+
+2026-05-26 17:51:32,822 - INFO - [8/12]
+2026-05-26 17:51:32,822 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-05-26 17:51:35,523 - INFO -     → User type: Electrician
+2026-05-26 17:51:35,781 - INFO -     → Icon identity: chooselanguage
+2026-05-26 17:51:36,030 - INFO -     → Display title: Language
+2026-05-26 17:51:36,102 - INFO -     → Toggle: both
+2026-05-26 17:51:38,207 - INFO -     → Image uploaded: language.png
+2026-05-26 17:51:38,712 - INFO -     → Form submitted
+2026-05-26 17:51:39,732 - INFO -   ✓ Icon added: Language
+
+2026-05-26 17:51:40,737 - INFO - [9/12]
+2026-05-26 17:51:40,740 - INFO -   Adding: [Electrician] Code Details  (codedetails)
+2026-05-26 17:51:43,542 - INFO -     → User type: Electrician
+2026-05-26 17:51:43,727 - INFO -     → Icon identity: codedetails
+2026-05-26 17:51:44,320 - INFO -     → Display title: Code Details
+2026-05-26 17:51:44,855 - INFO -     → Toggle: both
+2026-05-26 17:51:47,207 - INFO -     → Image uploaded: codedetails.png
+2026-05-26 17:51:47,710 - INFO -     → Form submitted
+2026-05-26 17:51:48,777 - INFO -   ✓ Icon added: Code Details
+
+2026-05-26 17:51:49,778 - INFO - [10/12]
+2026-05-26 17:51:49,778 - INFO -   Adding: [Electrician] Help  (help)
+2026-05-26 17:51:52,409 - INFO -     → User type: Electrician
+2026-05-26 17:51:53,074 - INFO -     → Icon identity: help
+2026-05-26 17:51:53,787 - INFO -     → Display title: Help
+2026-05-26 17:51:53,919 - INFO -     → Toggle: both
+2026-05-26 17:51:55,991 - INFO -     → Image uploaded: help.png
+2026-05-26 17:51:56,208 - INFO -     → Form submitted
+2026-05-26 17:51:57,224 - INFO -   ✓ Icon added: Help
+
+2026-05-26 17:51:58,224 - INFO - [11/12]
+2026-05-26 17:51:58,224 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-05-26 17:52:00,624 - INFO -     → User type: Electrician
+2026-05-26 17:52:00,772 - INFO -     → Icon identity: referandearn
+2026-05-26 17:52:01,054 - INFO -     → Display title: Refer & Earn
+2026-05-26 17:52:01,095 - INFO -     → Toggle: both
+2026-05-26 17:52:03,235 - INFO -     → Image uploaded: referandearn.png
+2026-05-26 17:52:03,505 - INFO -     → Form submitted
+2026-05-26 17:52:04,563 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-26 17:52:05,563 - INFO - [12/12]
+2026-05-26 17:52:05,564 - INFO -   Adding: [Electrician] E-Commerce  (productcatalogue)
+2026-05-26 17:52:08,050 - INFO -     → User type: Electrician
+2026-05-26 17:52:08,406 - INFO -     → Icon identity: productcatalogue
+2026-05-26 17:52:08,695 - INFO -     → Display title: E-Commerce
+2026-05-26 17:52:08,753 - INFO -     → Toggle: both
+2026-05-26 17:52:10,824 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-26 17:52:11,074 - INFO -     → Form submitted
+2026-05-26 17:52:12,086 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-26 17:52:13,087 - INFO - ============================================================
+2026-05-26 17:52:13,089 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-26 17:52:13,089 - INFO - 
+============================================================
+2026-05-26 17:52:13,089 - INFO - AUTOMATION SUMMARY
+2026-05-26 17:52:13,089 - INFO - ============================================================
+2026-05-26 17:52:13,089 - INFO - ✓ Successful uploads: 12
+2026-05-26 17:52:13,089 - INFO - ✗ Failed uploads: 0
+2026-05-26 17:52:13,090 - INFO - Total processed: 12
+2026-05-26 17:52:13,090 - INFO - Success rate: 100.0%
+2026-05-26 17:52:13,092 - INFO - ============================================================
+2026-05-26 17:52:13,379 - INFO - Browser closed
+2026-05-26 17:52:13,379 - INFO - 
+Task finished at 2026-05-26 17:52:13
+2026-05-26 17:52:13,380 - INFO - Log: automation/logs/full_automation_20260526_174359.log
+

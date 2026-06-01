@@ -1,0 +1,46 @@
+2026-05-20 23:32:12,008 - INFO - User selected: Promotion Banners
+2026-05-20 23:32:12,009 - INFO - ============================================================
+2026-05-20 23:32:12,009 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-20 23:32:12,009 - INFO - ============================================================
+2026-05-20 23:32:12,010 - INFO - Found 2 banner image(s) in banner/
+2026-05-20 23:32:12,065 - INFO -   ⚙ Processing 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  (size 1280×720 → need 1920×1080)
+2026-05-20 23:32:12,246 - INFO -   ✓ 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  →  15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg  |  1920×1080  |  0.25 MB  |  quality 92
+2026-05-20 23:32:12,248 - INFO -   ⚙ Processing bannerc3.jpg  (size 1280×720 → need 1920×1080)
+2026-05-20 23:32:12,400 - INFO -   ✓ bannerc3.jpg  →  bannerc3_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-20 23:32:12,401 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-05-20 23:32:12,402 - INFO - ============================================================
+2026-05-20 23:32:12,402 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-20 23:32:12,402 - INFO - ============================================================
+2026-05-20 23:32:13,124 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 23:32:14,661 - INFO - ✓ Chrome driver initialized
+2026-05-20 23:32:14,661 - INFO - Opening login page...
+2026-05-20 23:32:16,231 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 23:32:22,884 - INFO - ✓ Login successful
+2026-05-20 23:32:24,886 - INFO - Going to App Settings...
+2026-05-20 23:32:31,313 - INFO -   → Promotion Banners section opened
+2026-05-20 23:32:31,356 - INFO - ✓ Promotion Banners page ready
+2026-05-20 23:32:31,357 - INFO - Starting batch  —  2 banner(s) to publish
+2026-05-20 23:32:31,357 - INFO - ============================================================
+2026-05-20 23:32:31,357 - INFO - [1/2]
+2026-05-20 23:32:31,358 - INFO -   Publishing: [15a84208-e7c7-4ae9-94c8-b80989877068]  (15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg)
+2026-05-20 23:32:33,685 - INFO -     → Title entered: 15a84208-e7c7-4ae9-94c8-b80989877068
+2026-05-20 23:32:35,741 - INFO -     → Image uploaded: 15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg
+2026-05-20 23:32:35,899 - INFO -     → Publish Banner clicked
+2026-05-20 23:32:39,932 - INFO -   ✓ Banner published: 15a84208-e7c7-4ae9-94c8-b80989877068
+
+2026-05-20 23:32:40,933 - INFO - [2/2]
+2026-05-20 23:32:40,934 - INFO -   Publishing: [bannerc3]  (bannerc3_processed.jpg)
+2026-05-20 23:32:43,216 - INFO -     → Title entered: bannerc3
+2026-05-20 23:32:45,256 - INFO -     → Image uploaded: bannerc3_processed.jpg
+2026-05-20 23:32:45,379 - INFO -     → Publish Banner clicked
+2026-05-20 23:32:49,405 - INFO -   ✓ Banner published: bannerc3
+
+2026-05-20 23:32:50,405 - INFO - ============================================================
+2026-05-20 23:32:50,406 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-05-20 23:32:50,582 - INFO - Browser closed
+2026-05-20 23:32:50,583 - INFO - 
+Task finished at 2026-05-20 23:32:50
+2026-05-20 23:32:50,583 - INFO - Log: automation/logs/full_automation_20260520_233146.log
+

@@ -1,0 +1,15 @@
+2026-05-27 15:26:37,958 - INFO - User selected: Brand Setting
+2026-05-27 15:26:41,974 - INFO -   Found logo asset: logo.png
+2026-05-27 15:26:41,975 - ERROR - No file named 'splash' found in brandsetting/  (checked extensions: .bmp, .gif, .jpeg, .jpg, .png, .tiff, .webp)
+2026-05-27 15:26:41,976 - INFO - 
+Task finished at 2026-05-27 15:26:41
+2026-05-27 15:26:41,976 - INFO - Log: automation/logs/full_automation_20260527_152625.log
+
+2026-05-27 15:26:44,824 - INFO - User selected: Brand Setting
+2026-05-27 15:26:49,666 - INFO -   Found logo asset: logo.png
+2026-05-27 15:26:49,667 - ERROR - No file named 'splash' found in brandsetting/  (checked extensions: .bmp, .gif, .jpeg, .jpg, .png, .tiff, .webp)
+2026-05-27 15:26:49,667 - INFO - 
+Task finished at 2026-05-27 15:26:49
+2026-05-27 15:26:49,667 - INFO - Log: automation/logs/full_automation_20260527_152625.log
+
+2026-05-27 15:26:53,187 - INFO - Automation cancelled by user (Ctrl+C)

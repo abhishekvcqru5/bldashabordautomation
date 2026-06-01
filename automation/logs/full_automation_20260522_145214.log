@@ -1,0 +1,112 @@
+2026-05-22 14:52:32,651 - INFO - User selected: Registration Fields
+2026-05-22 14:52:32,652 - INFO - ============================================================
+2026-05-22 14:52:32,652 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-22 14:52:32,653 - INFO - ============================================================
+2026-05-22 14:52:32,668 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-22 14:52:32,670 - INFO - ====== WebDriver manager ======
+2026-05-22 14:52:33,320 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 14:52:33,556 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 14:52:33,821 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-22 14:52:36,330 - INFO - ✓ Chrome driver initialized
+2026-05-22 14:52:36,331 - INFO - Opening login page...
+2026-05-22 14:52:38,409 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-22 14:52:40,454 - INFO - ✓ Login successful
+2026-05-22 14:52:42,455 - INFO - Going to App Settings...
+2026-05-22 14:52:43,558 - INFO -   → Registration Field section opened
+2026-05-22 14:52:43,693 - INFO - ✓ Registration Fields page ready
+2026-05-22 14:52:44,475 - INFO - Found 2 user types: ['Retailer', 'Electrician']
+2026-05-22 14:52:44,475 - INFO - Starting registration fields automation: 12 fields total
+2026-05-22 14:52:44,475 - INFO - ============================================================
+2026-05-22 14:52:44,475 - INFO - Processing User Type: Retailer
+2026-05-22 14:52:44,475 - INFO -   Adding field: [Retailer] -> First Name
+2026-05-22 14:52:44,804 - INFO -     → User Type selected: Retailer
+2026-05-22 14:53:05,294 - INFO -     → System Data Point selected: First Name
+2026-05-22 14:53:05,437 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:53:05,762 - INFO -     → Integrate Now clicked
+2026-05-22 14:53:05,823 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-22 14:53:06,123 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-05-22 14:53:06,803 - INFO -     → User Type selected: Retailer
+2026-05-22 14:53:27,440 - INFO -     → System Data Point selected: Phone Number
+2026-05-22 14:53:27,501 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:53:27,850 - INFO -     → Integrate Now clicked
+2026-05-22 14:53:28,107 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-22 14:53:28,410 - INFO -   Adding field: [Retailer] -> Pincode
+2026-05-22 14:53:29,384 - INFO -     → User Type selected: Retailer
+2026-05-22 14:53:49,679 - INFO -     → System Data Point selected: Pincode
+2026-05-22 14:53:49,749 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:53:49,996 - INFO -     → Integrate Now clicked
+2026-05-22 14:53:50,053 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-22 14:53:50,353 - INFO -   Adding field: [Retailer] -> City
+2026-05-22 14:53:51,176 - INFO -     → User Type selected: Retailer
+2026-05-22 14:54:11,408 - INFO -     → System Data Point selected: City
+2026-05-22 14:54:11,466 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:54:11,685 - INFO -     → Integrate Now clicked
+2026-05-22 14:54:11,780 - INFO -   ✓ Field added successfully: City
+
+2026-05-22 14:54:12,081 - INFO -   Adding field: [Retailer] -> State
+2026-05-22 14:54:12,833 - INFO -     → User Type selected: Retailer
+2026-05-22 14:54:33,254 - INFO -     → System Data Point selected: State
+2026-05-22 14:54:33,286 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:54:33,421 - INFO -     → Integrate Now clicked
+2026-05-22 14:54:33,493 - INFO -   ✓ Field added successfully: State
+
+2026-05-22 14:54:33,794 - INFO -   Adding field: [Retailer] -> Address
+2026-05-22 14:54:34,146 - INFO -     → User Type selected: Retailer
+2026-05-22 14:54:54,857 - INFO -     → System Data Point selected: Address
+2026-05-22 14:54:54,924 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:54:55,270 - INFO -     → Integrate Now clicked
+2026-05-22 14:54:55,404 - INFO -   ✓ Field added successfully: Address
+
+2026-05-22 14:54:55,708 - INFO - Processing User Type: Electrician
+2026-05-22 14:54:55,716 - INFO -   Adding field: [Electrician] -> First Name
+2026-05-22 14:54:57,486 - INFO -     → User Type selected: Electrician
+2026-05-22 14:55:18,230 - INFO -     → System Data Point selected: First Name
+2026-05-22 14:55:18,277 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:55:18,818 - INFO -     → Integrate Now clicked
+2026-05-22 14:55:18,901 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-22 14:55:19,202 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-05-22 14:55:21,555 - INFO -     → User Type selected: Electrician
+2026-05-22 14:55:44,404 - INFO -     → System Data Point selected: Phone Number
+2026-05-22 14:55:45,869 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:55:46,966 - INFO -     → Integrate Now clicked
+2026-05-22 14:55:47,795 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-22 14:55:48,097 - INFO -   Adding field: [Electrician] -> Pincode
+2026-05-22 14:55:51,158 - INFO -     → User Type selected: Electrician
+2026-05-22 14:56:12,257 - INFO -     → System Data Point selected: Pincode
+2026-05-22 14:56:12,687 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:56:13,299 - INFO -     → Integrate Now clicked
+2026-05-22 14:56:13,408 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-22 14:56:13,726 - INFO -   Adding field: [Electrician] -> City
+2026-05-22 14:56:15,714 - INFO -     → User Type selected: Electrician
+2026-05-22 14:56:36,328 - INFO -     → System Data Point selected: City
+2026-05-22 14:56:36,681 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:56:36,922 - INFO -     → Integrate Now clicked
+2026-05-22 14:56:38,574 - INFO -   ✓ Field added successfully: City
+
+2026-05-22 14:56:38,875 - INFO -   Adding field: [Electrician] -> State
+2026-05-22 14:56:43,464 - INFO -     → User Type selected: Electrician
+2026-05-22 14:57:04,478 - INFO -     → System Data Point selected: State
+2026-05-22 14:57:04,739 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:57:06,040 - INFO -     → Integrate Now clicked
+2026-05-22 14:57:06,686 - INFO -   ✓ Field added successfully: State
+
+2026-05-22 14:57:06,993 - INFO -   Adding field: [Electrician] -> Address
+2026-05-22 14:57:08,781 - INFO -     → User Type selected: Electrician
+2026-05-22 14:57:29,828 - INFO -     → System Data Point selected: Address
+2026-05-22 14:57:30,013 - INFO -     → Mandatory toggle enabled
+2026-05-22 14:57:31,796 - INFO -     → Integrate Now clicked
+2026-05-22 14:57:33,302 - INFO -   ✓ Field added successfully: Address
+
+2026-05-22 14:57:33,604 - INFO - ============================================================
+2026-05-22 14:57:33,604 - INFO - Registration fields batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-22 14:57:34,790 - INFO - Browser closed
+2026-05-22 14:57:34,795 - INFO - 
+Task finished at 2026-05-22 14:57:34
+2026-05-22 14:57:34,799 - INFO - Log: automation/logs/full_automation_20260522_145214.log
+

@@ -1,0 +1,458 @@
+2026-05-19 15:24:27,980 - INFO - User selected: Old Dashboard
+2026-05-19 15:24:30,841 - INFO -   Old Dashboard → Brand Setting
+2026-05-19 15:24:30,841 - INFO - ============================================================
+2026-05-19 15:24:30,841 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-19 15:24:30,841 - INFO - ============================================================
+2026-05-19 15:24:35,178 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:24:44,536 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-19 15:24:44,536 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-19 15:24:59,562 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-19 15:25:01,563 - INFO -     → Filling credentials …
+2026-05-19 15:25:04,650 - INFO -       Email → field #login_txt_id
+2026-05-19 15:25:06,029 - INFO -       Password → field #login_txt_pass
+2026-05-19 15:25:07,265 - INFO -       Login button clicked: #btnVendor
+2026-05-19 15:25:07,269 - INFO -     → Waiting for post-login redirect …
+2026-05-19 15:25:17,682 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 15:25:17,683 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-19 15:25:34,448 - INFO - 
+[3/4] Extracting brand data …
+2026-05-19 15:25:35,670 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-19 15:25:37,692 - INFO -   ✓ Downloaded: logo.png  (28.8 KB)
+2026-05-19 15:25:38,438 - INFO -   ✓ Downloaded: splash.png  (139.5 KB)
+2026-05-19 15:25:38,613 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-19 15:25:39,315 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-19 15:25:47,320 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:25:57,474 - INFO - ✓ Chrome driver initialized
+2026-05-19 15:25:57,475 - INFO - Opening login page...
+2026-05-19 15:26:06,466 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 15:26:09,791 - INFO - ✓ Login successful
+2026-05-19 15:26:09,931 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-19 15:26:10,111 - INFO - ✓ Logo  → logo_processed.png  |  39.1 KB  |  PNG lossless
+2026-05-19 15:26:10,230 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-19 15:26:15,283 - INFO - ✓ Splash → splash_processed.png  |  0.82 MB  |  PNG lossless
+2026-05-19 15:26:15,735 - INFO -   Colours extracted from logo:
+2026-05-19 15:26:15,735 - INFO -     Header Color     →  #204050  (dominant logo colour)
+2026-05-19 15:26:15,735 - INFO -     Background Color →  #142934  (35% darker)
+2026-05-19 15:26:15,735 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-19 15:26:15,736 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-19 15:26:15,750 - INFO - Going to App Settings...
+2026-05-19 15:26:44,701 - ERROR - Navigation to brand setting failed: Message: 
+Stacktrace:
+#0 0x59950aaf63ea <unknown>
+#1 0x59950a506845 <unknown>
+#2 0x59950a5589c4 <unknown>
+#3 0x59950a558cf1 <unknown>
+#4 0x59950a5a3fa4 <unknown>
+#5 0x59950a5a1175 <unknown>
+#6 0x59950a54c204 <unknown>
+#7 0x59950a54cfc1 <unknown>
+#8 0x59950aab99cb <unknown>
+#9 0x59950aabcc93 <unknown>
+#10 0x59950aaa765c <unknown>
+#11 0x59950aabd429 <unknown>
+#12 0x59950aa8f9d7 <unknown>
+#13 0x59950aae3c08 <unknown>
+#14 0x59950aae3e33 <unknown>
+#15 0x59950aaf4df7 <unknown>
+#16 0x77a14369caa4 <unknown>
+#17 0x77a143729c6c <unknown>
+
+2026-05-19 15:26:45,969 - INFO -   📸 Screenshot saved: automation/screenshots/brand_nav_error_20260519_152644.png
+2026-05-19 15:26:45,969 - INFO - Going to App Settings for Support Network...
+2026-05-19 15:26:52,062 - INFO -   → Support Network section opened
+2026-05-19 15:26:56,170 - INFO -   → Edit Support Network popup opened
+2026-05-19 15:26:58,171 - INFO - ✓ Support Network form is ready
+2026-05-19 15:27:04,239 - INFO -     ✓ phone filled
+2026-05-19 15:27:06,919 - INFO -     ✓ email filled
+2026-05-19 15:27:11,178 - INFO -     ✓ website filled
+2026-05-19 15:27:15,267 - INFO -     ✓ terms_conditions filled
+2026-05-19 15:27:23,460 - INFO -     ✓ support_content filled
+2026-05-19 15:27:30,781 - INFO -     ✓ privacy_policy filled
+2026-05-19 15:27:36,358 - INFO -   → Save clicked
+2026-05-19 15:27:39,359 - INFO - ✓ Support Network saved successfully!
+2026-05-19 15:27:40,861 - INFO - Browser closed
+2026-05-19 15:27:40,866 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56567): Failed to establish a new connection: [Errno 111] Connection refused")': /session/f0083143734ba5659658508f6eebcd7b
+2026-05-19 15:27:40,874 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56567): Failed to establish a new connection: [Errno 111] Connection refused")': /session/f0083143734ba5659658508f6eebcd7b
+2026-05-19 15:27:40,876 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56567): Failed to establish a new connection: [Errno 111] Connection refused")': /session/f0083143734ba5659658508f6eebcd7b
+2026-05-19 15:27:40,879 - INFO -   Browser closed
+2026-05-19 15:27:40,881 - INFO - 
+Task finished at 2026-05-19 15:27:40
+2026-05-19 15:27:40,881 - INFO - Log: automation/logs/full_automation_20260519_152353.log
+
+2026-05-19 15:27:43,653 - INFO - User selected: Old Dashboard
+2026-05-19 15:27:47,436 - INFO -   Old Dashboard → Introduction Setting
+2026-05-19 15:27:47,438 - INFO - ============================================================
+2026-05-19 15:27:47,439 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-19 15:27:47,439 - INFO - ============================================================
+2026-05-19 15:27:57,690 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:28:17,124 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-19 15:28:25,047 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-19 15:28:29,020 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-19 15:28:32,231 - INFO -   → Filling Vendor credentials...
+2026-05-19 15:28:37,563 - INFO -     - Email entered: mittal.rishi@gmail.com
+2026-05-19 15:28:37,565 - INFO -     - Clicking 'login' button...
+2026-05-19 15:28:49,574 - INFO -   → Waiting for successful login redirect...
+2026-05-19 15:28:50,126 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 15:28:50,198 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 15:28:56,259 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-19 15:28:56,325 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-19 15:28:59,655 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-19 15:29:09,111 - INFO -   → Searching for introduction screens data...
+2026-05-19 15:29:09,389 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-05-19 15:29:10,378 - INFO -     → Found 3 potential rows to extract
+2026-05-19 15:29:11,351 - INFO -     → Downloading image for: Unbreakable at -35C...
+2026-05-19 15:29:12,133 - INFO -     ✓ Extracted 1/3
+2026-05-19 15:29:13,344 - INFO -     → Downloading image for: Antifreeze Pipe...
+2026-05-19 15:29:14,126 - INFO -     ✓ Extracted 2/3
+2026-05-19 15:29:14,617 - INFO -     → Downloading image for: PPr Vs Antifreeze...
+2026-05-19 15:29:15,344 - INFO -     ✓ Extracted 3/3
+2026-05-19 15:29:16,207 - INFO - ✓ Extracted 3 screens.
+2026-05-19 15:29:16,207 - INFO - 
+============================================================
+2026-05-19 15:29:16,207 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-05-19 15:29:16,207 - INFO - ============================================================
+2026-05-19 15:29:16,217 - INFO -   ⚙ Processing old_intro_1_20260519_152911.jpg  (1080×2160 → need 1080×1920)
+2026-05-19 15:29:16,631 - INFO -   ✓ old_intro_1_20260519_152911.jpg  →  old_intro_1_20260519_152911_processed.jpg  |  1080×1920  |  0.24 MB  |  quality 92
+2026-05-19 15:29:16,635 - INFO -   ⚙ Processing old_intro_2_20260519_152913.jpg  (1080×2160 → need 1080×1920)
+2026-05-19 15:29:17,015 - INFO -   ✓ old_intro_2_20260519_152913.jpg  →  old_intro_2_20260519_152913_processed.jpg  |  1080×1920  |  0.29 MB  |  quality 92
+2026-05-19 15:29:17,016 - INFO -   ⚙ Processing old_intro_3_20260519_152914.jpg  (1080×2160 → need 1080×1920)
+2026-05-19 15:29:17,354 - INFO -   ✓ old_intro_3_20260519_152914.jpg  →  old_intro_3_20260519_152914_processed.jpg  |  1080×1920  |  0.25 MB  |  quality 92
+2026-05-19 15:29:17,354 - INFO - 
+============================================================
+2026-05-19 15:29:17,354 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-05-19 15:29:17,354 - INFO - ============================================================
+2026-05-19 15:29:20,031 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:29:32,363 - INFO - ✓ Chrome driver initialized
+2026-05-19 15:29:32,363 - INFO - Opening login page...
+2026-05-19 15:29:40,794 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 15:29:43,396 - INFO - ✓ Login successful
+2026-05-19 15:29:43,397 - INFO - Going to App Settings...
+2026-05-19 15:29:56,030 - INFO -   → Intro Screens section opened
+2026-05-19 15:29:56,199 - INFO - ✓ Intro Screens page ready
+2026-05-19 15:29:56,200 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-19 15:29:56,201 - INFO - ============================================================
+2026-05-19 15:29:56,202 - INFO - [1/3]
+2026-05-19 15:29:56,204 - INFO -   Launching screen: [Unbreakable at -35C]
+2026-05-19 15:30:05,974 - INFO -     → Header: Unbreakable at -35C
+2026-05-19 15:30:09,211 - INFO -     → Description: Designed for region where temprature fall below Zero Degree...
+2026-05-19 15:30:11,426 - INFO -     → Image uploaded: old_intro_1_20260519_152911_processed.jpg
+2026-05-19 15:30:12,062 - INFO -     → Launch Screen clicked
+2026-05-19 15:30:16,116 - INFO -   ✓ Intro screen launched: Unbreakable at -35C
+
+2026-05-19 15:30:17,118 - INFO - [2/3]
+2026-05-19 15:30:17,119 - INFO -   Launching screen: [Antifreeze Pipe]
+2026-05-19 15:30:21,286 - INFO -     → Header: Antifreeze Pipe
+2026-05-19 15:30:22,800 - INFO -     → Description: First time in India, Only Socket Fusion Pipe which is unbrea...
+2026-05-19 15:30:26,499 - INFO -     → Image uploaded: old_intro_2_20260519_152913_processed.jpg
+2026-05-19 15:30:28,175 - INFO -     → Launch Screen clicked
+2026-05-19 15:30:32,532 - INFO -   ✓ Intro screen launched: Antifreeze Pipe
+
+2026-05-19 15:30:33,534 - INFO - [3/3]
+2026-05-19 15:30:33,534 - INFO -   Launching screen: [PPr Vs Antifreeze]
+2026-05-19 15:30:38,611 - INFO -     → Header: PPr Vs Antifreeze
+2026-05-19 15:30:41,920 - INFO -     → Description: PPr pipe which can be easily broken with slight impact at su...
+2026-05-19 15:30:44,167 - INFO -     → Image uploaded: old_intro_3_20260519_152914_processed.jpg
+2026-05-19 15:30:46,139 - INFO -     → Launch Screen clicked
+2026-05-19 15:30:50,226 - INFO -   ✓ Intro screen launched: PPr Vs Antifreeze
+
+2026-05-19 15:30:51,228 - INFO - ============================================================
+2026-05-19 15:30:51,230 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-19 15:30:52,161 - INFO - Browser closed
+2026-05-19 15:30:52,161 - INFO - 
+Task finished at 2026-05-19 15:30:52
+2026-05-19 15:30:52,163 - INFO - Log: automation/logs/full_automation_20260519_152353.log
+
+2026-05-19 15:33:44,885 - INFO - User selected: Old Dashboard
+2026-05-19 15:33:48,153 - INFO -   Old Dashboard → Banner BL
+2026-05-19 15:33:48,157 - INFO - ============================================================
+2026-05-19 15:33:48,157 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-05-19 15:33:48,168 - INFO - ============================================================
+2026-05-19 15:33:50,192 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:33:56,198 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-19 15:34:04,919 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-19 15:34:05,681 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-19 15:34:08,681 - INFO -   → Filling Vendor credentials...
+2026-05-19 15:34:10,628 - INFO -     - Email entered: mittal.rishi@gmail.com
+2026-05-19 15:34:10,628 - INFO -     - Clicking 'login' button...
+2026-05-19 15:34:11,709 - INFO -   → Waiting for successful login redirect...
+2026-05-19 15:34:21,689 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 15:34:21,725 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 15:34:27,958 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-19 15:34:28,114 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-19 15:34:31,629 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-05-19 15:34:39,096 - INFO -   → Searching for banner images data...
+2026-05-19 15:34:39,474 - INFO -     ✓ Found 5 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-05-19 15:34:39,478 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruBanner%20360x160.png
+2026-05-19 15:34:40,802 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/Vcqrubanner%20(1).png
+2026-05-19 15:34:41,496 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/Vcqrubanner%20(2).png
+2026-05-19 15:34:42,598 - INFO -     → Downloading banner 4: https://www.vcqru.com/assets/images/Vcqrubanner%20(3).png
+2026-05-19 15:34:44,487 - INFO -     → Downloading banner 5: https://www.vcqru.com/assets/images/Vcqrubanner%20(4).png
+2026-05-19 15:34:46,960 - INFO - ✓ Extracted 5 banners.
+2026-05-19 15:34:46,961 - INFO - 
+============================================================
+2026-05-19 15:34:46,961 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-05-19 15:34:46,962 - INFO - ============================================================
+2026-05-19 15:34:46,974 - INFO -   ⚙ Processing old_banner_1_20260519_153439.jpg  (size 360×160 → need 1920×1080)
+2026-05-19 15:34:47,515 - INFO -   ✓ old_banner_1_20260519_153439.jpg  →  old_banner_1_20260519_153439_processed.jpg  |  1920×1080  |  0.17 MB  |  quality 92
+2026-05-19 15:34:47,518 - INFO -   ⚙ Processing old_banner_2_20260519_153440.jpg  (size 328×157 → need 1920×1080)
+2026-05-19 15:34:47,792 - INFO -   ✓ old_banner_2_20260519_153440.jpg  →  old_banner_2_20260519_153440_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-19 15:34:47,793 - INFO -   ⚙ Processing old_banner_3_20260519_153441.jpg  (size 328×157 → need 1920×1080)
+2026-05-19 15:34:48,159 - INFO -   ✓ old_banner_3_20260519_153441.jpg  →  old_banner_3_20260519_153441_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-19 15:34:48,161 - INFO -   ⚙ Processing old_banner_4_20260519_153442.jpg  (size 328×157 → need 1920×1080)
+2026-05-19 15:34:48,488 - INFO -   ✓ old_banner_4_20260519_153442.jpg  →  old_banner_4_20260519_153442_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-19 15:34:48,489 - INFO -   ⚙ Processing old_banner_5_20260519_153444.jpg  (size 328×157 → need 1920×1080)
+2026-05-19 15:34:49,347 - INFO -   ✓ old_banner_5_20260519_153444.jpg  →  old_banner_5_20260519_153444_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-05-19 15:34:49,348 - INFO - 
+============================================================
+2026-05-19 15:34:49,350 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-05-19 15:34:49,351 - INFO - ============================================================
+2026-05-19 15:35:04,152 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:35:21,224 - INFO - ✓ Chrome driver initialized
+2026-05-19 15:35:21,224 - INFO - Opening login page...
+2026-05-19 15:35:31,494 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 15:35:36,676 - INFO - ✓ Login successful
+2026-05-19 15:35:36,681 - INFO - Going to App Settings...
+2026-05-19 15:35:46,131 - INFO -   → Promotion Banners section opened
+2026-05-19 15:35:46,304 - INFO - ✓ Promotion Banners page ready
+2026-05-19 15:35:46,305 - INFO - Starting batch  —  5 banner(s) to publish
+2026-05-19 15:35:46,305 - INFO - ============================================================
+2026-05-19 15:35:46,307 - INFO - [1/5]
+2026-05-19 15:35:46,355 - INFO -   Publishing: [old_banner_1]  (old_banner_1_20260519_153439_processed.jpg)
+2026-05-19 15:35:52,571 - INFO -     → Title entered: old_banner_1
+2026-05-19 15:35:55,045 - INFO -     → Image uploaded: old_banner_1_20260519_153439_processed.jpg
+2026-05-19 15:35:58,350 - INFO -     → Publish Banner clicked
+2026-05-19 15:36:02,990 - INFO -   ✓ Banner published: old_banner_1
+
+2026-05-19 15:36:03,994 - INFO - [2/5]
+2026-05-19 15:36:04,000 - INFO -   Publishing: [old_banner_2]  (old_banner_2_20260519_153440_processed.jpg)
+2026-05-19 15:36:13,771 - INFO -     → Title entered: old_banner_2
+2026-05-19 15:36:20,370 - INFO -     → Image uploaded: old_banner_2_20260519_153440_processed.jpg
+2026-05-19 15:36:25,599 - INFO -     → Publish Banner clicked
+2026-05-19 15:36:30,040 - INFO -   ✓ Banner published: old_banner_2
+
+2026-05-19 15:36:31,042 - INFO - [3/5]
+2026-05-19 15:36:31,043 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260519_153441_processed.jpg)
+2026-05-19 15:36:37,727 - INFO -     → Title entered: old_banner_3
+2026-05-19 15:36:39,827 - INFO -     → Image uploaded: old_banner_3_20260519_153441_processed.jpg
+2026-05-19 15:36:40,576 - INFO -     → Publish Banner clicked
+2026-05-19 15:36:45,290 - INFO -   ✓ Banner published: old_banner_3
+
+2026-05-19 15:36:46,293 - INFO - [4/5]
+2026-05-19 15:36:46,297 - INFO -   Publishing: [old_banner_4]  (old_banner_4_20260519_153442_processed.jpg)
+2026-05-19 15:36:55,142 - INFO -     → Title entered: old_banner_4
+2026-05-19 15:36:59,520 - INFO -     → Image uploaded: old_banner_4_20260519_153442_processed.jpg
+2026-05-19 15:37:03,642 - INFO -     → Publish Banner clicked
+2026-05-19 15:37:08,076 - INFO -   ✓ Banner published: old_banner_4
+
+2026-05-19 15:37:09,078 - INFO - [5/5]
+2026-05-19 15:37:09,079 - INFO -   Publishing: [old_banner_5]  (old_banner_5_20260519_153444_processed.jpg)
+2026-05-19 15:37:20,426 - INFO -     → Title entered: old_banner_5
+2026-05-19 15:37:22,881 - INFO -     → Image uploaded: old_banner_5_20260519_153444_processed.jpg
+2026-05-19 15:37:26,072 - INFO -     → Publish Banner clicked
+2026-05-19 15:37:30,912 - INFO -   ✓ Banner published: old_banner_5
+
+2026-05-19 15:37:31,921 - INFO - ============================================================
+2026-05-19 15:37:31,921 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-05-19 15:37:32,733 - INFO - Browser closed
+2026-05-19 15:37:32,734 - INFO - 
+Task finished at 2026-05-19 15:37:32
+2026-05-19 15:37:32,736 - INFO - Log: automation/logs/full_automation_20260519_152353.log
+
+2026-05-19 15:40:42,738 - INFO - User selected: Registration Fields
+2026-05-19 15:40:42,740 - INFO - ============================================================
+2026-05-19 15:40:42,740 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-19 15:40:42,741 - INFO - ============================================================
+2026-05-19 15:40:44,995 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 15:40:50,636 - INFO - ✓ Chrome driver initialized
+2026-05-19 15:40:50,636 - INFO - Opening login page...
+2026-05-19 15:40:55,422 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-19 15:40:56,193 - INFO - ✓ Login successful
+2026-05-19 15:40:58,194 - INFO - Going to App Settings...
+2026-05-19 15:41:07,551 - INFO -   → Registration Field section opened
+2026-05-19 15:41:07,978 - INFO - ✓ Registration Fields page ready
+2026-05-19 15:41:14,642 - INFO - Found 4 user types: ['Employee', 'Dealer', 'Distributor', 'Plumber']
+2026-05-19 15:41:14,642 - INFO - Starting registration fields automation: 24 fields total
+2026-05-19 15:41:14,642 - INFO - ============================================================
+2026-05-19 15:41:14,643 - INFO - Processing User Type: Employee
+2026-05-19 15:41:14,643 - INFO -   Adding field: [Employee] -> First Name
+2026-05-19 15:41:18,421 - INFO -     → User Type selected: Employee
+2026-05-19 15:41:39,419 - INFO -     → System Data Point selected: First Name
+2026-05-19 15:41:39,592 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:41:40,254 - INFO -     → Integrate Now clicked
+2026-05-19 15:41:43,632 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-19 15:41:44,639 - INFO -   Adding field: [Employee] -> Phone Number
+2026-05-19 15:41:48,858 - INFO -     → User Type selected: Employee
+2026-05-19 15:42:11,402 - INFO -     → System Data Point selected: Phone Number
+2026-05-19 15:42:12,145 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:42:13,361 - INFO -     → Integrate Now clicked
+2026-05-19 15:42:16,858 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-19 15:42:17,860 - INFO -   Adding field: [Employee] -> Pincode
+2026-05-19 15:42:22,242 - INFO -     → User Type selected: Employee
+2026-05-19 15:42:45,674 - INFO -     → System Data Point selected: Pincode
+2026-05-19 15:42:46,495 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:42:48,196 - INFO -     → Integrate Now clicked
+2026-05-19 15:42:51,246 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-19 15:42:52,247 - INFO -   Adding field: [Employee] -> City
+2026-05-19 15:42:57,788 - INFO -     → User Type selected: Employee
+2026-05-19 15:43:20,664 - INFO -     → System Data Point selected: City
+2026-05-19 15:43:22,357 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:43:26,697 - INFO -     → Integrate Now clicked
+2026-05-19 15:43:30,206 - INFO -   ✓ Field added successfully: City
+
+2026-05-19 15:43:31,209 - INFO -   Adding field: [Employee] -> State
+2026-05-19 15:43:36,252 - INFO -     → User Type selected: Employee
+2026-05-19 15:43:57,475 - INFO -     → System Data Point selected: State
+2026-05-19 15:43:57,571 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:43:58,052 - INFO -     → Integrate Now clicked
+2026-05-19 15:44:01,476 - INFO -   ✓ Field added successfully: State
+
+2026-05-19 15:44:02,542 - INFO -   Adding field: [Employee] -> Address
+2026-05-19 15:44:06,181 - INFO -     → User Type selected: Employee
+2026-05-19 15:44:29,261 - INFO -     → System Data Point selected: Address
+2026-05-19 15:44:30,557 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:44:32,068 - INFO -     → Integrate Now clicked
+2026-05-19 15:44:35,472 - INFO -   ✓ Field added successfully: Address
+
+2026-05-19 15:44:36,473 - INFO - Processing User Type: Dealer
+2026-05-19 15:44:36,476 - INFO -   Adding field: [Dealer] -> First Name
+2026-05-19 15:44:40,517 - INFO -     → User Type selected: Dealer
+2026-05-19 15:45:01,529 - INFO -     → System Data Point selected: First Name
+2026-05-19 15:45:01,598 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:45:02,570 - INFO -     → Integrate Now clicked
+2026-05-19 15:45:05,664 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-19 15:45:06,664 - INFO -   Adding field: [Dealer] -> Phone Number
+2026-05-19 15:45:10,707 - INFO -     → User Type selected: Dealer
+2026-05-19 15:45:32,109 - INFO -     → System Data Point selected: Phone Number
+2026-05-19 15:45:32,456 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:45:33,403 - INFO -     → Integrate Now clicked
+2026-05-19 15:45:36,744 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-19 15:45:37,749 - INFO -   Adding field: [Dealer] -> Pincode
+2026-05-19 15:45:42,312 - INFO -     → User Type selected: Dealer
+2026-05-19 15:46:04,044 - INFO -     → System Data Point selected: Pincode
+2026-05-19 15:46:04,612 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:46:05,337 - INFO -     → Integrate Now clicked
+2026-05-19 15:46:08,640 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-19 15:46:09,776 - INFO -   Adding field: [Dealer] -> City
+2026-05-19 15:46:13,479 - INFO -     → User Type selected: Dealer
+2026-05-19 15:46:35,003 - INFO -     → System Data Point selected: City
+2026-05-19 15:46:35,191 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:46:35,974 - INFO -     → Integrate Now clicked
+2026-05-19 15:46:39,038 - INFO -   ✓ Field added successfully: City
+
+2026-05-19 15:46:40,040 - INFO -   Adding field: [Dealer] -> State
+2026-05-19 15:46:44,430 - INFO -     → User Type selected: Dealer
+2026-05-19 15:47:06,018 - INFO -     → System Data Point selected: State
+2026-05-19 15:47:06,277 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:47:06,977 - INFO -     → Integrate Now clicked
+2026-05-19 15:47:10,218 - INFO -   ✓ Field added successfully: State
+
+2026-05-19 15:47:11,219 - INFO -   Adding field: [Dealer] -> Address
+2026-05-19 15:47:15,395 - INFO -     → User Type selected: Dealer
+2026-05-19 15:47:36,936 - INFO -     → System Data Point selected: Address
+2026-05-19 15:47:37,382 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:47:38,044 - INFO -     → Integrate Now clicked
+2026-05-19 15:47:41,238 - INFO -   ✓ Field added successfully: Address
+
+2026-05-19 15:47:42,244 - INFO - Processing User Type: Distributor
+2026-05-19 15:47:42,244 - INFO -   Adding field: [Distributor] -> First Name
+2026-05-19 15:47:46,510 - INFO -     → User Type selected: Distributor
+2026-05-19 15:48:08,384 - INFO -     → System Data Point selected: First Name
+2026-05-19 15:48:08,803 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:48:09,581 - INFO -     → Integrate Now clicked
+2026-05-19 15:48:12,845 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-19 15:48:13,846 - INFO -   Adding field: [Distributor] -> Phone Number
+2026-05-19 15:48:18,275 - INFO -     → User Type selected: Distributor
+2026-05-19 15:48:38,853 - INFO -     → System Data Point selected: Phone Number
+2026-05-19 15:48:39,049 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:48:39,565 - INFO -     → Integrate Now clicked
+2026-05-19 15:48:42,633 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-19 15:48:43,635 - INFO -   Adding field: [Distributor] -> Pincode
+2026-05-19 15:48:46,989 - INFO -     → User Type selected: Distributor
+2026-05-19 15:49:07,888 - INFO -     → System Data Point selected: Pincode
+2026-05-19 15:49:08,009 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:49:09,068 - INFO -     → Integrate Now clicked
+2026-05-19 15:49:12,121 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-19 15:49:13,122 - INFO -   Adding field: [Distributor] -> City
+2026-05-19 15:49:16,988 - INFO -     → User Type selected: Distributor
+2026-05-19 15:49:37,977 - INFO -     → System Data Point selected: City
+2026-05-19 15:49:38,162 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:49:38,459 - INFO -     → Integrate Now clicked
+2026-05-19 15:49:41,485 - INFO -   ✓ Field added successfully: City
+
+2026-05-19 15:49:42,487 - INFO -   Adding field: [Distributor] -> State
+2026-05-19 15:49:46,083 - INFO -     → User Type selected: Distributor
+2026-05-19 15:50:06,499 - INFO -     → System Data Point selected: State
+2026-05-19 15:50:06,711 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:50:07,175 - INFO -     → Integrate Now clicked
+2026-05-19 15:50:10,201 - INFO -   ✓ Field added successfully: State
+
+2026-05-19 15:50:11,204 - INFO -   Adding field: [Distributor] -> Address
+2026-05-19 15:50:13,742 - INFO -     → User Type selected: Distributor
+2026-05-19 15:50:34,385 - INFO -     → System Data Point selected: Address
+2026-05-19 15:50:34,459 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:50:34,746 - INFO -     → Integrate Now clicked
+2026-05-19 15:50:37,761 - INFO -   ✓ Field added successfully: Address
+
+2026-05-19 15:50:38,764 - INFO - Processing User Type: Plumber
+2026-05-19 15:50:38,765 - INFO -   Adding field: [Plumber] -> First Name
+2026-05-19 15:50:42,189 - INFO -     → User Type selected: Plumber
+2026-05-19 15:51:02,703 - INFO -     → System Data Point selected: First Name
+2026-05-19 15:51:02,764 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:51:03,000 - INFO -     → Integrate Now clicked
+2026-05-19 15:51:06,020 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-19 15:51:07,020 - INFO -   Adding field: [Plumber] -> Phone Number
+2026-05-19 15:51:09,603 - INFO -     → User Type selected: Plumber
+2026-05-19 15:51:30,040 - INFO -     → System Data Point selected: Phone Number
+2026-05-19 15:51:30,102 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:51:30,547 - INFO -     → Integrate Now clicked
+2026-05-19 15:51:33,572 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-19 15:51:34,572 - INFO -   Adding field: [Plumber] -> Pincode
+2026-05-19 15:51:37,074 - INFO -     → User Type selected: Plumber
+2026-05-19 15:51:57,644 - INFO -     → System Data Point selected: Pincode
+2026-05-19 15:51:57,704 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:51:57,932 - INFO -     → Integrate Now clicked
+2026-05-19 15:52:00,947 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-19 15:52:01,949 - INFO -   Adding field: [Plumber] -> City
+2026-05-19 15:52:04,569 - INFO -     → User Type selected: Plumber
+2026-05-19 15:52:25,059 - INFO -     → System Data Point selected: City
+2026-05-19 15:52:25,138 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:52:25,365 - INFO -     → Integrate Now clicked
+2026-05-19 15:52:28,390 - INFO -   ✓ Field added successfully: City
+
+2026-05-19 15:52:29,391 - INFO -   Adding field: [Plumber] -> State
+2026-05-19 15:52:31,914 - INFO -     → User Type selected: Plumber
+2026-05-19 15:52:52,440 - INFO -     → System Data Point selected: State
+2026-05-19 15:52:52,506 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:52:52,754 - INFO -     → Integrate Now clicked
+2026-05-19 15:52:55,778 - INFO -   ✓ Field added successfully: State
+
+2026-05-19 15:52:56,778 - INFO -   Adding field: [Plumber] -> Address
+2026-05-19 15:52:59,555 - INFO -     → User Type selected: Plumber
+2026-05-19 15:53:20,064 - INFO -     → System Data Point selected: Address
+2026-05-19 15:53:20,110 - INFO -     → Mandatory toggle enabled
+2026-05-19 15:53:20,650 - INFO -     → Integrate Now clicked
+2026-05-19 15:53:23,669 - INFO -   ✓ Field added successfully: Address
+
+2026-05-19 15:53:24,671 - INFO - ============================================================
+2026-05-19 15:53:24,671 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-05-19 15:53:24,989 - INFO - Browser closed
+2026-05-19 15:53:24,995 - INFO - 
+Task finished at 2026-05-19 15:53:24
+2026-05-19 15:53:24,999 - INFO - Log: automation/logs/full_automation_20260519_152353.log
+

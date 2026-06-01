@@ -1,0 +1,112 @@
+2026-05-31 12:01:41,697 - INFO - User selected: Dashboard Icons
+2026-05-31 12:01:41,697 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-31 12:01:41,698 - INFO - Automation started at 2026-05-31 12:01:41
+
+2026-05-31 12:01:41,699 - INFO - ============================================================
+2026-05-31 12:01:41,699 - INFO - STEP 1: Processing and Compressing Images
+2026-05-31 12:01:41,699 - INFO - ============================================================
+2026-05-31 12:01:41,699 - INFO - Processing images from: dashboardicons
+2026-05-31 12:01:41,699 - INFO - Output folder: automation/processed_images
+2026-05-31 12:01:41,699 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-31 12:01:41,759 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-31 12:01:41,772 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-31 12:01:41,791 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-31 12:01:41,828 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-31 12:01:41,842 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-31 12:01:41,865 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-31 12:01:41,880 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-31 12:01:41,896 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-31 12:01:41,928 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-31 12:01:41,942 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-31 12:01:41,968 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-31 12:01:41,987 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-31 12:01:42,021 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-31 12:01:42,036 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-31 12:01:42,036 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-31 12:01:42,037 - INFO - ✓ 14 images processed and ready
+
+2026-05-31 12:01:42,037 - INFO - ============================================================
+2026-05-31 12:01:42,037 - INFO - STEP 2: Preparing Authentication
+2026-05-31 12:01:42,037 - INFO - ============================================================
+2026-05-31 12:01:42,037 - INFO - Using email: invo@gmail.com
+2026-05-31 12:01:42,038 - INFO - ✓ Credentials loaded
+
+2026-05-31 12:01:57,954 - INFO - Target User Type: RETAILER
+2026-05-31 12:01:57,954 - INFO - ============================================================
+2026-05-31 12:01:57,955 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-31 12:01:57,955 - INFO - ============================================================
+2026-05-31 12:01:57,956 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 12:01:57,956 - INFO - ====== WebDriver manager ======
+2026-05-31 12:01:58,533 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 12:01:58,640 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 12:01:58,737 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 12:02:00,857 - INFO - ✓ Chrome driver initialized
+2026-05-31 12:02:00,857 - INFO - 
+→ Attempting login...
+
+2026-05-31 12:02:00,857 - INFO - Opening login page...
+2026-05-31 12:02:02,803 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-05-31 12:02:06,128 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-05-31 12:02:06,211 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-05-31 12:02:06,305 - INFO - ✓ Login successful
+2026-05-31 12:02:08,306 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-31 12:02:08,306 - INFO - Navigating to App Settings...
+2026-05-31 12:02:15,074 - INFO - ✓ Dashboard Icons section loaded
+2026-05-31 12:02:17,075 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-31 12:02:17,075 - INFO - Starting batch – 12 configured entries
+2026-05-31 12:02:17,075 - INFO - Total icons to upload after expansion: 12
+2026-05-31 12:02:17,075 - INFO - ============================================================
+2026-05-31 12:02:17,076 - INFO - [1/12]
+2026-05-31 12:02:17,076 - INFO -   Adding: [RETAILER] Gift  (gift)
+2026-05-31 12:02:19,405 - ERROR -   ✗ Failed to add [Gift]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:19,895 - INFO -   📸 Screenshot saved: automation/screenshots/error_Gift_20260531_120219.png
+2026-05-31 12:02:22,079 - INFO - [2/12]
+2026-05-31 12:02:22,080 - INFO -   Adding: [RETAILER] History  (history)
+2026-05-31 12:02:24,320 - ERROR -   ✗ Failed to add [History]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:24,876 - INFO -   📸 Screenshot saved: automation/screenshots/error_History_20260531_120224.png
+2026-05-31 12:02:27,010 - INFO - [3/12]
+2026-05-31 12:02:27,011 - INFO -   Adding: [RETAILER] Wallet  (wallet)
+2026-05-31 12:02:29,269 - ERROR -   ✗ Failed to add [Wallet]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:29,848 - INFO -   📸 Screenshot saved: automation/screenshots/error_Wallet_20260531_120229.png
+2026-05-31 12:02:31,979 - INFO - [4/12]
+2026-05-31 12:02:31,980 - INFO -   Adding: [RETAILER] KYC  (kycdetails)
+2026-05-31 12:02:34,227 - ERROR -   ✗ Failed to add [KYC]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:34,747 - INFO -   📸 Screenshot saved: automation/screenshots/error_KYC_20260531_120234.png
+2026-05-31 12:02:36,874 - INFO - [5/12]
+2026-05-31 12:02:36,875 - INFO -   Adding: [RETAILER] Blog  (blog)
+2026-05-31 12:02:39,141 - ERROR -   ✗ Failed to add [Blog]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:39,955 - INFO -   📸 Screenshot saved: automation/screenshots/error_Blog_20260531_120239.png
+2026-05-31 12:02:42,122 - INFO - [6/12]
+2026-05-31 12:02:42,123 - INFO -   Adding: [RETAILER] Brochure  (brochure)
+2026-05-31 12:02:44,390 - ERROR -   ✗ Failed to add [Brochure]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:45,432 - INFO -   📸 Screenshot saved: automation/screenshots/error_Brochure_20260531_120244.png
+2026-05-31 12:02:47,580 - INFO - [7/12]
+2026-05-31 12:02:47,581 - INFO -   Adding: [RETAILER] Claim History  (claimhistory)
+2026-05-31 12:02:49,861 - ERROR -   ✗ Failed to add [Claim History]: Message: Cannot locate option with value: RETAILER; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-05-31 12:02:50,510 - INFO -   📸 Screenshot saved: automation/screenshots/error_Claim_History_20260531_120249.png
+2026-05-31 12:02:52,642 - INFO - [8/12]
+2026-05-31 12:02:52,643 - INFO -   Adding: [RETAILER] Language  (chooselanguage)
+2026-05-31 12:02:53,570 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/87a0f857c07ff5ae6ba6f4b42828b92c
+2026-05-31 12:02:53,572 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=46055): Failed to establish a new connection: [Errno 111] Connection refused")': /session/87a0f857c07ff5ae6ba6f4b42828b92c
+2026-05-31 12:02:53,574 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=46055): Failed to establish a new connection: [Errno 111] Connection refused")': /session/87a0f857c07ff5ae6ba6f4b42828b92c
+2026-05-31 12:02:53,575 - INFO - Browser closed
+2026-05-31 12:02:53,575 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,108 @@
+2026-05-15 13:32:09,581 - INFO - User selected: Registration Fields
+2026-05-15 13:32:09,582 - INFO - ============================================================
+2026-05-15 13:32:09,582 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-15 13:32:09,582 - INFO - ============================================================
+2026-05-15 13:32:10,068 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 13:32:11,829 - INFO - ✓ Chrome driver initialized
+2026-05-15 13:32:11,830 - INFO - Opening login page...
+2026-05-15 13:32:14,014 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 13:32:18,634 - INFO - ✓ Login successful
+2026-05-15 13:32:20,634 - INFO - Going to App Settings...
+2026-05-15 13:32:27,115 - INFO -   → Registration Field section opened
+2026-05-15 13:32:27,147 - INFO - ✓ Registration Fields page ready
+2026-05-15 13:32:30,543 - INFO - Found 2 user types: ['Contractor', 'Applicator']
+2026-05-15 13:32:30,543 - INFO - Starting registration fields automation: 12 fields total
+2026-05-15 13:32:30,544 - INFO - ============================================================
+2026-05-15 13:32:30,544 - INFO - Processing User Type: Contractor
+2026-05-15 13:32:30,544 - INFO -   Adding field: [Contractor] -> First Name
+2026-05-15 13:32:32,862 - INFO -     → User Type selected: Contractor
+2026-05-15 13:32:53,000 - INFO -     → System Data Point selected: First Name
+2026-05-15 13:32:53,035 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:32:53,212 - INFO -     → Integrate Now clicked
+2026-05-15 13:32:56,232 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 13:32:57,232 - INFO -   Adding field: [Contractor] -> Phone Number
+2026-05-15 13:32:59,662 - INFO -     → User Type selected: Contractor
+2026-05-15 13:33:23,968 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 13:33:24,220 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:33:24,658 - INFO -     → Integrate Now clicked
+2026-05-15 13:33:28,177 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 13:33:29,178 - INFO -   Adding field: [Contractor] -> Pincode
+2026-05-15 13:33:32,333 - INFO -     → User Type selected: Contractor
+2026-05-15 13:33:55,722 - INFO -     → System Data Point selected: Pincode
+2026-05-15 13:33:56,504 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:33:57,998 - INFO -     → Integrate Now clicked
+2026-05-15 13:34:01,037 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 13:34:02,038 - INFO -   Adding field: [Contractor] -> City
+2026-05-15 13:34:05,636 - INFO -     → User Type selected: Contractor
+2026-05-15 13:34:26,738 - INFO -     → System Data Point selected: City
+2026-05-15 13:34:27,282 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:34:28,014 - INFO -     → Integrate Now clicked
+2026-05-15 13:34:31,085 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 13:34:32,085 - INFO -   Adding field: [Contractor] -> State
+2026-05-15 13:34:37,183 - INFO -     → User Type selected: Contractor
+2026-05-15 13:34:59,258 - INFO -     → System Data Point selected: State
+2026-05-15 13:34:59,490 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:34:59,883 - INFO -     → Integrate Now clicked
+2026-05-15 13:35:02,983 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 13:35:03,985 - INFO -   Adding field: [Contractor] -> Address
+2026-05-15 13:35:10,321 - INFO -     → User Type selected: Contractor
+2026-05-15 13:35:32,324 - INFO -     → System Data Point selected: Address
+2026-05-15 13:35:32,395 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:35:35,458 - INFO -     → Integrate Now clicked
+2026-05-15 13:35:38,571 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 13:35:39,575 - INFO - Processing User Type: Applicator
+2026-05-15 13:35:39,578 - INFO -   Adding field: [Applicator] -> First Name
+2026-05-15 13:35:43,438 - INFO -     → User Type selected: Applicator
+2026-05-15 13:36:04,009 - INFO -     → System Data Point selected: First Name
+2026-05-15 13:36:04,093 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:36:04,614 - INFO -     → Integrate Now clicked
+2026-05-15 13:36:07,654 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-15 13:36:08,654 - INFO -   Adding field: [Applicator] -> Phone Number
+2026-05-15 13:36:11,853 - INFO -     → User Type selected: Applicator
+2026-05-15 13:36:33,163 - INFO -     → System Data Point selected: Phone Number
+2026-05-15 13:36:33,608 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:36:35,132 - INFO -     → Integrate Now clicked
+2026-05-15 13:36:38,175 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-15 13:36:39,175 - INFO -   Adding field: [Applicator] -> Pincode
+2026-05-15 13:36:42,942 - INFO -     → User Type selected: Applicator
+2026-05-15 13:37:03,715 - INFO -     → System Data Point selected: Pincode
+2026-05-15 13:37:03,964 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:37:04,629 - INFO -     → Integrate Now clicked
+2026-05-15 13:37:07,669 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-15 13:37:08,673 - INFO -   Adding field: [Applicator] -> City
+2026-05-15 13:37:11,445 - INFO -     → User Type selected: Applicator
+2026-05-15 13:37:32,477 - INFO -     → System Data Point selected: City
+2026-05-15 13:37:32,622 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:37:32,981 - INFO -     → Integrate Now clicked
+2026-05-15 13:37:36,013 - INFO -   ✓ Field added successfully: City
+
+2026-05-15 13:37:37,014 - INFO -   Adding field: [Applicator] -> State
+2026-05-15 13:37:39,949 - INFO -     → User Type selected: Applicator
+2026-05-15 13:38:00,877 - INFO -     → System Data Point selected: State
+2026-05-15 13:38:01,018 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:38:01,612 - INFO -     → Integrate Now clicked
+2026-05-15 13:38:04,769 - INFO -   ✓ Field added successfully: State
+
+2026-05-15 13:38:05,770 - INFO -   Adding field: [Applicator] -> Address
+2026-05-15 13:38:08,682 - INFO -     → User Type selected: Applicator
+2026-05-15 13:38:30,092 - INFO -     → System Data Point selected: Address
+2026-05-15 13:38:30,284 - INFO -     → Mandatory toggle enabled
+2026-05-15 13:38:31,499 - INFO -     → Integrate Now clicked
+2026-05-15 13:38:34,550 - INFO -   ✓ Field added successfully: Address
+
+2026-05-15 13:38:35,625 - INFO - ============================================================
+2026-05-15 13:38:35,627 - INFO - Registration fields batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-15 13:38:36,618 - INFO - Browser closed
+2026-05-15 13:38:36,623 - INFO - 
+Task finished at 2026-05-15 13:38:36
+2026-05-15 13:38:36,625 - INFO - Log: automation/logs/full_automation_20260515_133151.log
+

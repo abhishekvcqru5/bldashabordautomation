@@ -1,0 +1,413 @@
+2026-05-18 10:37:35,177 - INFO - User selected: Intro Screens
+2026-05-18 10:37:35,179 - INFO - ============================================================
+2026-05-18 10:37:35,179 - INFO - INTRO SCREENS — Image Processing
+2026-05-18 10:37:35,179 - INFO - ============================================================
+2026-05-18 10:37:35,180 - INFO - Found 3 intro image(s) in introscreen/
+2026-05-18 10:37:35,229 - INFO -   ⚙ Processing 00067601-62ee-4124-8e2e-b9a7f85b2cff.png  (360×800 → need 1080×1920)
+2026-05-18 10:37:35,516 - INFO -   ✓ 00067601-62ee-4124-8e2e-b9a7f85b2cff.png  →  00067601-62ee-4124-8e2e-b9a7f85b2cff_processed.jpg  |  1080×1920  |  0.23 MB  |  quality 92
+2026-05-18 10:37:35,518 - INFO -   ⚙ Processing 0b157d1c-b511-4239-84a8-a57db209447b.png  (360×800 → need 1080×1920)
+2026-05-18 10:37:35,723 - INFO -   ✓ 0b157d1c-b511-4239-84a8-a57db209447b.png  →  0b157d1c-b511-4239-84a8-a57db209447b_processed.jpg  |  1080×1920  |  0.24 MB  |  quality 92
+2026-05-18 10:37:35,725 - INFO -   ⚙ Processing 43052d84-c6af-4429-bd55-3728ea3c804c.jpeg  (360×800 → need 1080×1920)
+2026-05-18 10:37:35,951 - INFO -   ✓ 43052d84-c6af-4429-bd55-3728ea3c804c.jpeg  →  43052d84-c6af-4429-bd55-3728ea3c804c_processed.jpg  |  1080×1920  |  0.30 MB  |  quality 92
+2026-05-18 10:37:35,954 - INFO -   Processed 3/3 intro images successfully
+
+2026-05-18 10:38:36,978 - INFO - ============================================================
+2026-05-18 10:38:36,978 - INFO - INTRO SCREENS — Browser Automation
+2026-05-18 10:38:36,979 - INFO - ============================================================
+2026-05-18 10:38:38,880 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 10:38:44,633 - INFO - ✓ Chrome driver initialized
+2026-05-18 10:38:44,634 - INFO - Opening login page...
+2026-05-18 10:38:47,375 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 10:38:52,672 - INFO - ✓ Login successful
+2026-05-18 10:38:54,674 - INFO - Going to App Settings...
+2026-05-18 10:39:02,265 - INFO -   → Intro Screens section opened
+2026-05-18 10:39:02,309 - INFO - ✓ Intro Screens page ready
+2026-05-18 10:39:02,309 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-05-18 10:39:02,309 - INFO - ============================================================
+2026-05-18 10:39:02,309 - INFO - [1/3]
+2026-05-18 10:39:02,310 - INFO -   Launching screen: [SPENZA TILING SOLUTIONS]
+2026-05-18 10:39:04,887 - INFO -     → Header: SPENZA TILING SOLUTIONS
+2026-05-18 10:39:05,416 - INFO -     → Description: The Builders Choice Spenza Bond Beyond Best...
+2026-05-18 10:39:07,625 - INFO -     → Image uploaded: 00067601-62ee-4124-8e2e-b9a7f85b2cff_processed.jpg
+2026-05-18 10:39:07,902 - INFO -     → Launch Screen clicked
+2026-05-18 10:39:11,922 - INFO -   ✓ Intro screen launched: SPENZA TILING SOLUTIONS
+
+2026-05-18 10:39:12,922 - INFO - [2/3]
+2026-05-18 10:39:12,922 - INFO -   Launching screen: [Waterproof Protection]
+2026-05-18 10:39:15,715 - INFO -     → Header: Waterproof Protection
+2026-05-18 10:39:16,605 - INFO -     → Description: Stops water Leaks to keep your floors and walls safe and dry...
+2026-05-18 10:39:18,697 - INFO -     → Image uploaded: 0b157d1c-b511-4239-84a8-a57db209447b_processed.jpg
+2026-05-18 10:39:19,132 - INFO -     → Launch Screen clicked
+2026-05-18 10:39:23,143 - INFO -   ✓ Intro screen launched: Waterproof Protection
+
+2026-05-18 10:39:24,144 - INFO - [3/3]
+2026-05-18 10:39:24,144 - INFO -   Launching screen: [Tile Adhesive]
+2026-05-18 10:39:26,960 - INFO -     → Header: Tile Adhesive
+2026-05-18 10:39:27,907 - INFO -     → Description: Best in class tiles adhesive water based easy to apply and q...
+2026-05-18 10:39:29,974 - INFO -     → Image uploaded: 43052d84-c6af-4429-bd55-3728ea3c804c_processed.jpg
+2026-05-18 10:39:30,372 - INFO -     → Launch Screen clicked
+2026-05-18 10:39:34,408 - INFO -   ✓ Intro screen launched: Tile Adhesive
+
+2026-05-18 10:39:35,409 - INFO - ============================================================
+2026-05-18 10:39:35,409 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-05-18 10:39:38,289 - INFO - Browser closed
+2026-05-18 10:39:38,290 - INFO - 
+Task finished at 2026-05-18 10:39:38
+2026-05-18 10:39:38,291 - INFO - Log: automation/logs/full_automation_20260518_103716.log
+
+2026-05-18 10:39:46,524 - INFO - User selected: Promotion Banners
+2026-05-18 10:39:46,525 - INFO - ============================================================
+2026-05-18 10:39:46,525 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-18 10:39:46,525 - INFO - ============================================================
+2026-05-18 10:39:46,526 - INFO - Found 5 banner image(s) in banner/
+2026-05-18 10:39:46,527 - INFO -   ⚙ Processing VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1).jpeg  (size 1600×712 → need 1920×1080)
+2026-05-18 10:39:46,859 - INFO -   ✓ VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1).jpeg  →  VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1)_processed.jpg  |  1920×1080  |  0.42 MB  |  quality 92
+2026-05-18 10:39:46,862 - INFO -   ⚙ Processing VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2).jpeg  (size 1600×712 → need 1920×1080)
+2026-05-18 10:39:47,194 - INFO -   ✓ VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2).jpeg  →  VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2)_processed.jpg  |  1920×1080  |  0.26 MB  |  quality 92
+2026-05-18 10:39:47,197 - INFO -   ⚙ Processing VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM.jpeg  (size 1600×712 → need 1920×1080)
+2026-05-18 10:39:47,543 - INFO -   ✓ VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM.jpeg  →  VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM_processed.jpg  |  1920×1080  |  0.38 MB  |  quality 92
+2026-05-18 10:39:47,544 - INFO -   ⚙ Processing VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM.jpeg  (size 1600×712 → need 1920×1080)
+2026-05-18 10:39:47,822 - INFO -   ✓ VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM.jpeg  →  VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-05-18 10:39:47,827 - INFO -   ⚙ Processing VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM.jpeg  (size 1600×712 → need 1920×1080)
+2026-05-18 10:39:48,058 - INFO -   ✓ VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM.jpeg  →  VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM_processed.jpg  |  1920×1080  |  0.25 MB  |  quality 92
+2026-05-18 10:39:48,058 - INFO - 
+  Processed 5/5 banners successfully
+
+2026-05-18 10:39:48,061 - INFO - ============================================================
+2026-05-18 10:39:48,061 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-18 10:39:48,062 - INFO - ============================================================
+2026-05-18 10:39:48,841 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 10:39:51,153 - INFO - ✓ Chrome driver initialized
+2026-05-18 10:39:51,154 - INFO - Opening login page...
+2026-05-18 10:39:53,796 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 10:39:56,714 - INFO - ✓ Login successful
+2026-05-18 10:39:58,721 - INFO - Going to App Settings...
+2026-05-18 10:40:05,313 - INFO -   → Promotion Banners section opened
+2026-05-18 10:40:05,337 - INFO - ✓ Promotion Banners page ready
+2026-05-18 10:40:05,337 - INFO - Starting batch  —  5 banner(s) to publish
+2026-05-18 10:40:05,337 - INFO - ============================================================
+2026-05-18 10:40:05,337 - INFO - [1/5]
+2026-05-18 10:40:05,338 - INFO -   Publishing: [VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1)]  (VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1)_processed.jpg)
+2026-05-18 10:40:07,940 - INFO -     → Title entered: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1)
+2026-05-18 10:40:10,132 - INFO -     → Image uploaded: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1)_processed.jpg
+2026-05-18 10:40:10,412 - INFO -     → Publish Banner clicked
+2026-05-18 10:40:14,443 - INFO -   ✓ Banner published: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (1)
+
+2026-05-18 10:40:15,447 - INFO - [2/5]
+2026-05-18 10:40:15,447 - INFO -   Publishing: [VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2)]  (VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2)_processed.jpg)
+2026-05-18 10:40:18,346 - INFO -     → Title entered: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2)
+2026-05-18 10:40:20,646 - INFO -     → Image uploaded: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2)_processed.jpg
+2026-05-18 10:40:21,139 - INFO -     → Publish Banner clicked
+2026-05-18 10:40:25,157 - INFO -   ✓ Banner published: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM (2)
+
+2026-05-18 10:40:26,157 - INFO - [3/5]
+2026-05-18 10:40:26,157 - INFO -   Publishing: [VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM]  (VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM_processed.jpg)
+2026-05-18 10:40:28,756 - INFO -     → Title entered: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM
+2026-05-18 10:40:30,884 - INFO -     → Image uploaded: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM_processed.jpg
+2026-05-18 10:40:31,299 - INFO -     → Publish Banner clicked
+2026-05-18 10:40:35,323 - INFO -   ✓ Banner published: VcqruWhatsApp Image 2025-09-13 at 5.48.58 PM
+
+2026-05-18 10:40:36,323 - INFO - [4/5]
+2026-05-18 10:40:36,324 - INFO -   Publishing: [VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM]  (VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM_processed.jpg)
+2026-05-18 10:40:39,285 - INFO -     → Title entered: VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM
+2026-05-18 10:40:41,368 - INFO -     → Image uploaded: VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM_processed.jpg
+2026-05-18 10:40:41,634 - INFO -     → Publish Banner clicked
+2026-05-18 10:40:45,663 - INFO -   ✓ Banner published: VcqruWhatsApp Image 2025-09-13 at 5.48.59 PM
+
+2026-05-18 10:40:46,663 - INFO - [5/5]
+2026-05-18 10:40:46,664 - INFO -   Publishing: [VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM]  (VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM_processed.jpg)
+2026-05-18 10:40:49,654 - INFO -     → Title entered: VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM
+2026-05-18 10:40:51,747 - INFO -     → Image uploaded: VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM_processed.jpg
+2026-05-18 10:40:52,088 - INFO -     → Publish Banner clicked
+2026-05-18 10:40:56,106 - INFO -   ✓ Banner published: VcqruWhatsApp Image 2025-09-13 at 5.49.00 PM
+
+2026-05-18 10:40:57,106 - INFO - ============================================================
+2026-05-18 10:40:57,106 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-05-18 10:40:57,525 - INFO - Browser closed
+2026-05-18 10:40:57,527 - INFO - 
+Task finished at 2026-05-18 10:40:57
+2026-05-18 10:40:57,527 - INFO - Log: automation/logs/full_automation_20260518_103716.log
+
+2026-05-18 10:41:02,541 - INFO - User selected: Registration Fields
+2026-05-18 10:41:02,542 - INFO - ============================================================
+2026-05-18 10:41:02,543 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-18 10:41:02,544 - INFO - ============================================================
+2026-05-18 10:41:03,399 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 10:41:06,393 - INFO - ✓ Chrome driver initialized
+2026-05-18 10:41:06,393 - INFO - Opening login page...
+2026-05-18 10:41:09,585 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 10:41:29,775 - ERROR - Login failed: Message: 
+
+2026-05-18 10:41:31,330 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260518_104129.png
+2026-05-18 10:41:31,334 - ERROR - ✗ Login failed. Aborting.
+2026-05-18 10:41:32,271 - INFO - Browser closed
+2026-05-18 10:41:32,272 - INFO - 
+Task finished at 2026-05-18 10:41:32
+2026-05-18 10:41:32,273 - INFO - Log: automation/logs/full_automation_20260518_103716.log
+
+2026-05-18 10:41:40,710 - INFO - User selected: Registration Fields
+2026-05-18 10:41:40,712 - INFO - ============================================================
+2026-05-18 10:41:40,712 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-18 10:41:40,712 - INFO - ============================================================
+2026-05-18 10:41:41,928 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 10:41:45,998 - INFO - ✓ Chrome driver initialized
+2026-05-18 10:41:45,999 - INFO - Opening login page...
+2026-05-18 10:41:50,936 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 10:41:53,950 - INFO - ✓ Login successful
+2026-05-18 10:41:55,950 - INFO - Going to App Settings...
+2026-05-18 10:42:03,473 - INFO -   → Registration Field section opened
+2026-05-18 10:42:03,505 - INFO - ✓ Registration Fields page ready
+2026-05-18 10:42:07,310 - INFO - Found 1 user types: ['Mason']
+2026-05-18 10:42:07,311 - INFO - Starting registration fields automation: 6 fields total
+2026-05-18 10:42:07,311 - INFO - ============================================================
+2026-05-18 10:42:07,311 - INFO - Processing User Type: Mason
+2026-05-18 10:42:07,312 - INFO -   Adding field: [Mason] -> First Name
+2026-05-18 10:42:10,440 - INFO -     → User Type selected: Mason
+2026-05-18 10:42:31,196 - INFO -     → System Data Point selected: First Name
+2026-05-18 10:42:31,245 - INFO -     → Mandatory toggle enabled
+2026-05-18 10:42:31,671 - INFO -     → Integrate Now clicked
+2026-05-18 10:42:34,752 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-18 10:42:35,755 - INFO -   Adding field: [Mason] -> Phone Number
+2026-05-18 10:42:38,560 - INFO -     → User Type selected: Mason
+2026-05-18 10:42:59,344 - INFO -     → System Data Point selected: Phone Number
+2026-05-18 10:42:59,477 - INFO -     → Mandatory toggle enabled
+2026-05-18 10:42:59,895 - INFO -     → Integrate Now clicked
+2026-05-18 10:43:02,916 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-18 10:43:03,917 - INFO -   Adding field: [Mason] -> Pincode
+2026-05-18 10:43:06,687 - INFO -     → User Type selected: Mason
+2026-05-18 10:43:27,213 - INFO -     → System Data Point selected: Pincode
+2026-05-18 10:43:27,515 - INFO -     → Mandatory toggle enabled
+2026-05-18 10:43:27,881 - INFO -     → Integrate Now clicked
+2026-05-18 10:43:30,897 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-18 10:43:31,898 - INFO -   Adding field: [Mason] -> City
+2026-05-18 10:43:34,667 - INFO -     → User Type selected: Mason
+2026-05-18 10:43:55,379 - INFO -     → System Data Point selected: City
+2026-05-18 10:43:55,622 - INFO -     → Mandatory toggle enabled
+2026-05-18 10:43:55,930 - INFO -     → Integrate Now clicked
+2026-05-18 10:43:59,106 - INFO -   ✓ Field added successfully: City
+
+2026-05-18 10:44:00,106 - INFO -   Adding field: [Mason] -> State
+2026-05-18 10:44:03,797 - INFO -     → User Type selected: Mason
+2026-05-18 10:44:24,363 - INFO -     → System Data Point selected: State
+2026-05-18 10:44:24,718 - INFO -     → Mandatory toggle enabled
+2026-05-18 10:44:25,805 - INFO -     → Integrate Now clicked
+2026-05-18 10:44:28,890 - INFO -   ✓ Field added successfully: State
+
+2026-05-18 10:44:29,891 - INFO -   Adding field: [Mason] -> Address
+2026-05-18 10:44:32,832 - INFO -     → User Type selected: Mason
+2026-05-18 10:44:53,700 - INFO -     → System Data Point selected: Address
+2026-05-18 10:44:53,796 - INFO -     → Mandatory toggle enabled
+2026-05-18 10:44:54,559 - INFO -     → Integrate Now clicked
+2026-05-18 10:44:57,589 - INFO -   ✓ Field added successfully: Address
+
+2026-05-18 10:44:58,593 - INFO - ============================================================
+2026-05-18 10:44:58,594 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-05-18 10:44:58,999 - INFO - Browser closed
+2026-05-18 10:44:59,001 - INFO - 
+Task finished at 2026-05-18 10:44:59
+2026-05-18 10:44:59,001 - INFO - Log: automation/logs/full_automation_20260518_103716.log
+
+2026-05-18 10:45:29,439 - INFO - User selected: Dashboard Icons
+2026-05-18 10:45:29,454 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-18 10:45:29,461 - INFO - Automation started at 2026-05-18 10:45:29
+
+2026-05-18 10:45:29,464 - INFO - ============================================================
+2026-05-18 10:45:29,470 - INFO - STEP 1: Processing and Compressing Images
+2026-05-18 10:45:29,475 - INFO - ============================================================
+2026-05-18 10:45:29,488 - INFO - Processing images from: dashboardicons
+2026-05-18 10:45:29,490 - INFO - Output folder: automation/processed_images
+2026-05-18 10:45:29,490 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-18 10:45:29,816 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-18 10:45:29,868 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-18 10:45:29,956 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-18 10:45:30,078 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-18 10:45:30,117 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-18 10:45:30,164 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-18 10:45:30,176 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-18 10:45:30,196 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-18 10:45:30,236 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-18 10:45:30,337 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-18 10:45:30,376 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-18 10:45:30,489 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-18 10:45:30,584 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-18 10:45:30,701 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-18 10:45:30,706 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-18 10:45:30,706 - INFO - ✓ 14 images processed and ready
+
+2026-05-18 10:45:30,707 - INFO - ============================================================
+2026-05-18 10:45:30,710 - INFO - STEP 2: Preparing Authentication
+2026-05-18 10:45:30,710 - INFO - ============================================================
+2026-05-18 10:45:30,710 - INFO - Using email: ambajienterprises180@gmail.com
+2026-05-18 10:45:30,710 - INFO - ✓ Credentials loaded
+
+2026-05-18 10:45:30,711 - INFO - ============================================================
+2026-05-18 10:45:30,711 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-18 10:45:30,712 - INFO - ============================================================
+2026-05-18 10:45:33,483 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 10:45:36,987 - INFO - ✓ Chrome driver initialized
+2026-05-18 10:45:36,988 - INFO - 
+→ Attempting login...
+
+2026-05-18 10:45:36,990 - INFO - Opening login page...
+2026-05-18 10:45:39,766 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 10:45:47,896 - INFO - ✓ Login successful
+2026-05-18 10:45:49,902 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-18 10:45:49,999 - INFO - Navigating to App Settings...
+2026-05-18 10:45:58,697 - INFO - ✓ Dashboard Icons section loaded
+2026-05-18 10:46:00,704 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-05-18 10:46:00,705 - INFO - Starting batch – 12 configured entries
+2026-05-18 10:46:05,065 - INFO -   Found 1 user types: ['Mason']
+2026-05-18 10:46:05,067 - INFO - Available user types: ['Mason']
+2026-05-18 10:46:05,068 - INFO - Total icons to upload after expansion: 12
+2026-05-18 10:46:05,068 - INFO - ============================================================
+2026-05-18 10:46:05,068 - INFO - [1/12]
+2026-05-18 10:46:05,071 - INFO -   Adding: [Mason] Gift  (gift)
+2026-05-18 10:46:08,090 - INFO -     → User type: Mason
+2026-05-18 10:46:08,524 - INFO -     → Icon identity: gift
+2026-05-18 10:46:09,172 - INFO -     → Display title: Gift
+2026-05-18 10:46:09,267 - INFO -     → Toggle: both
+2026-05-18 10:46:11,545 - INFO -     → Image uploaded: Gift.png
+2026-05-18 10:46:12,752 - INFO -     → Form submitted
+2026-05-18 10:46:13,863 - INFO -   ✓ Icon added: Gift
+
+2026-05-18 10:46:14,869 - INFO - [2/12]
+2026-05-18 10:46:14,870 - INFO -   Adding: [Mason] History  (history)
+2026-05-18 10:46:23,349 - INFO -     → User type: Mason
+2026-05-18 10:46:23,645 - INFO -     → Icon identity: history
+2026-05-18 10:46:25,344 - INFO -     → Display title: History
+2026-05-18 10:46:25,425 - INFO -     → Toggle: both
+2026-05-18 10:46:27,619 - INFO -     → Image uploaded: history.png
+2026-05-18 10:46:27,948 - INFO -     → Form submitted
+2026-05-18 10:46:28,998 - INFO -   ✓ Icon added: History
+
+2026-05-18 10:46:30,000 - INFO - [3/12]
+2026-05-18 10:46:30,005 - INFO -   Adding: [Mason] Wallet  (wallet)
+2026-05-18 10:46:32,804 - INFO -     → User type: Mason
+2026-05-18 10:46:33,005 - INFO -     → Icon identity: wallet
+2026-05-18 10:46:33,216 - INFO -     → Display title: Wallet
+2026-05-18 10:46:33,285 - INFO -     → Toggle: both
+2026-05-18 10:46:35,470 - INFO -     → Image uploaded: wallet.png
+2026-05-18 10:46:35,933 - INFO -     → Form submitted
+2026-05-18 10:46:37,143 - INFO -   ✓ Icon added: Wallet
+
+2026-05-18 10:46:38,143 - INFO - [4/12]
+2026-05-18 10:46:38,144 - INFO -   Adding: [Mason] KYC  (kycdetails)
+2026-05-18 10:46:41,376 - INFO -     → User type: Mason
+2026-05-18 10:46:42,096 - INFO -     → Icon identity: kycdetails
+2026-05-18 10:46:42,778 - INFO -     → Display title: KYC
+2026-05-18 10:46:42,941 - INFO -     → Toggle: both
+2026-05-18 10:46:45,168 - INFO -     → Image uploaded: kyc.png
+2026-05-18 10:46:45,642 - INFO -     → Form submitted
+2026-05-18 10:46:46,710 - INFO -   ✓ Icon added: KYC
+
+2026-05-18 10:46:47,711 - INFO - [5/12]
+2026-05-18 10:46:47,712 - INFO -   Adding: [Mason] Blog  (blog)
+2026-05-18 10:46:50,389 - INFO -     → User type: Mason
+2026-05-18 10:46:50,792 - INFO -     → Icon identity: blog
+2026-05-18 10:46:51,407 - INFO -     → Display title: Blog
+2026-05-18 10:46:51,839 - INFO -     → Toggle: both
+2026-05-18 10:46:54,022 - INFO -     → Image uploaded: blog.png
+2026-05-18 10:46:54,535 - INFO -     → Form submitted
+2026-05-18 10:46:55,587 - INFO -   ✓ Icon added: Blog
+
+2026-05-18 10:46:56,605 - INFO - [6/12]
+2026-05-18 10:46:56,605 - INFO -   Adding: [Mason] Brochure  (brochure)
+2026-05-18 10:46:59,882 - INFO -     → User type: Mason
+2026-05-18 10:47:00,191 - INFO -     → Icon identity: brochure
+2026-05-18 10:47:01,212 - INFO -     → Display title: Brochure
+2026-05-18 10:47:01,593 - INFO -     → Toggle: both
+2026-05-18 10:47:03,943 - INFO -     → Image uploaded: brochure.png
+2026-05-18 10:47:04,366 - INFO -     → Form submitted
+2026-05-18 10:47:05,727 - INFO -   ✓ Icon added: Brochure
+
+2026-05-18 10:47:06,728 - INFO - [7/12]
+2026-05-18 10:47:06,728 - INFO -   Adding: [Mason] Claim History  (claimhistory)
+2026-05-18 10:47:12,162 - INFO -     → User type: Mason
+2026-05-18 10:47:12,411 - INFO -     → Icon identity: claimhistory
+2026-05-18 10:47:12,781 - INFO -     → Display title: Claim History
+2026-05-18 10:47:12,839 - INFO -     → Toggle: both
+2026-05-18 10:47:14,990 - INFO -     → Image uploaded: claimhistory1.png
+2026-05-18 10:47:15,176 - INFO -     → Form submitted
+2026-05-18 10:47:16,201 - INFO -   ✓ Icon added: Claim History
+
+2026-05-18 10:47:17,202 - INFO - [8/12]
+2026-05-18 10:47:17,203 - INFO -   Adding: [Mason] Language  (chooselanguage)
+2026-05-18 10:47:19,552 - INFO -     → User type: Mason
+2026-05-18 10:47:19,716 - INFO -     → Icon identity: chooselanguage
+2026-05-18 10:47:19,943 - INFO -     → Display title: Language
+2026-05-18 10:47:19,996 - INFO -     → Toggle: both
+2026-05-18 10:47:22,062 - INFO -     → Image uploaded: language.png
+2026-05-18 10:47:22,234 - INFO -     → Form submitted
+2026-05-18 10:47:23,262 - INFO -   ✓ Icon added: Language
+
+2026-05-18 10:47:24,262 - INFO - [9/12]
+2026-05-18 10:47:24,262 - INFO -   Adding: [Mason] Code Details  (codedetails)
+2026-05-18 10:47:26,679 - INFO -     → User type: Mason
+2026-05-18 10:47:26,839 - INFO -     → Icon identity: codedetails
+2026-05-18 10:47:27,092 - INFO -     → Display title: Code Details
+2026-05-18 10:47:27,160 - INFO -     → Toggle: both
+2026-05-18 10:47:29,297 - INFO -     → Image uploaded: codedetails.png
+2026-05-18 10:47:29,522 - INFO -     → Form submitted
+2026-05-18 10:47:30,533 - INFO -   ✓ Icon added: Code Details
+
+2026-05-18 10:47:31,542 - INFO - [10/12]
+2026-05-18 10:47:31,542 - INFO -   Adding: [Mason] Help  (help)
+2026-05-18 10:47:34,001 - INFO -     → User type: Mason
+2026-05-18 10:47:34,178 - INFO -     → Icon identity: help
+2026-05-18 10:47:34,466 - INFO -     → Display title: Help
+2026-05-18 10:47:34,528 - INFO -     → Toggle: both
+2026-05-18 10:47:36,628 - INFO -     → Image uploaded: help.png
+2026-05-18 10:47:36,837 - INFO -     → Form submitted
+2026-05-18 10:47:37,871 - INFO -   ✓ Icon added: Help
+
+2026-05-18 10:47:38,872 - INFO - [11/12]
+2026-05-18 10:47:38,872 - INFO -   Adding: [Mason] Refer & Earn  (referandearn)
+2026-05-18 10:47:41,516 - INFO -     → User type: Mason
+2026-05-18 10:47:41,694 - INFO -     → Icon identity: referandearn
+2026-05-18 10:47:41,966 - INFO -     → Display title: Refer & Earn
+2026-05-18 10:47:42,019 - INFO -     → Toggle: both
+2026-05-18 10:47:44,096 - INFO -     → Image uploaded: referandearn.png
+2026-05-18 10:47:44,273 - INFO -     → Form submitted
+2026-05-18 10:47:45,293 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-05-18 10:47:46,293 - INFO - [12/12]
+2026-05-18 10:47:46,294 - INFO -   Adding: [Mason] E-Commerce  (productcatalogue)
+2026-05-18 10:47:48,827 - INFO -     → User type: Mason
+2026-05-18 10:47:49,047 - INFO -     → Icon identity: productcatalogue
+2026-05-18 10:47:49,341 - INFO -     → Display title: E-Commerce
+2026-05-18 10:47:49,405 - INFO -     → Toggle: both
+2026-05-18 10:47:51,590 - INFO -     → Image uploaded: productcatalogue.png
+2026-05-18 10:47:51,801 - INFO -     → Form submitted
+2026-05-18 10:47:52,825 - INFO -   ✓ Icon added: E-Commerce
+
+2026-05-18 10:47:53,826 - INFO - ============================================================
+2026-05-18 10:47:53,826 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-05-18 10:47:53,827 - INFO - 
+============================================================
+2026-05-18 10:47:53,827 - INFO - AUTOMATION SUMMARY
+2026-05-18 10:47:53,827 - INFO - ============================================================
+2026-05-18 10:47:53,827 - INFO - ✓ Successful uploads: 12
+2026-05-18 10:47:53,827 - INFO - ✗ Failed uploads: 0
+2026-05-18 10:47:53,828 - INFO - Total processed: 12
+2026-05-18 10:47:53,828 - INFO - Success rate: 100.0%
+2026-05-18 10:47:53,829 - INFO - ============================================================
+2026-05-18 10:47:54,044 - INFO - Browser closed
+2026-05-18 10:47:54,045 - INFO - 
+Task finished at 2026-05-18 10:47:54
+2026-05-18 10:47:54,045 - INFO - Log: automation/logs/full_automation_20260518_103716.log
+

@@ -1,0 +1,171 @@
+2026-05-15 01:13:07,995 - INFO - User selected: Promotion Banners
+2026-05-15 01:13:07,996 - INFO - ============================================================
+2026-05-15 01:13:07,996 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 01:13:07,996 - INFO - ============================================================
+2026-05-15 01:13:07,997 - INFO - Found 5 banner image(s) in banner/
+2026-05-15 01:13:08,042 - INFO -   ⚙ Processing Vcqruall Tin.jpg  (size 400×200 → need 1920×1080)
+2026-05-15 01:13:08,203 - INFO -   ✓ Vcqruall Tin.jpg  →  Vcqruall Tin_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-05-15 01:13:08,206 - INFO -   ⚙ Processing Vcqruall product.jpg  (size 400×200 → need 1920×1080)
+2026-05-15 01:13:08,362 - INFO -   ✓ Vcqruall product.jpg  →  Vcqruall product_processed.jpg  |  1920×1080  |  0.25 MB  |  quality 92
+2026-05-15 01:13:08,368 - INFO -   ⚙ Processing Vcqrupvc.cpvc.jpg  (size 400×200 → need 1920×1080)
+2026-05-15 01:13:08,520 - INFO -   ✓ Vcqrupvc.cpvc.jpg  →  Vcqrupvc.cpvc_processed.jpg  |  1920×1080  |  0.23 MB  |  quality 92
+2026-05-15 01:13:08,525 - INFO -   ⚙ Processing Vcqruseal, bond, super glue.jpg  (size 400×200 → need 1920×1080)
+2026-05-15 01:13:08,682 - INFO -   ✓ Vcqruseal, bond, super glue.jpg  →  Vcqruseal, bond, super glue_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-15 01:13:08,687 - INFO -   ⚙ Processing Vcqruwemlac.jpg  (size 4366×2183 → need 1920×1080  |  6.23 MB > 5 MB limit)
+2026-05-15 01:13:09,343 - INFO -   ✓ Vcqruwemlac.jpg  →  Vcqruwemlac_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-15 01:13:09,346 - INFO - 
+  Processed 5/5 banners successfully
+
+2026-05-15 01:13:09,346 - INFO - ============================================================
+2026-05-15 01:13:09,346 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-15 01:13:09,346 - INFO - ============================================================
+2026-05-15 01:13:09,888 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 01:13:11,978 - INFO - ✓ Chrome driver initialized
+2026-05-15 01:13:11,978 - INFO - Opening login page...
+2026-05-15 01:13:14,799 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 01:13:16,210 - INFO - ✓ Login successful
+2026-05-15 01:13:18,211 - INFO - Going to App Settings...
+2026-05-15 01:13:24,948 - INFO -   → Promotion Banners section opened
+2026-05-15 01:13:25,002 - INFO - ✓ Promotion Banners page ready
+2026-05-15 01:13:25,002 - INFO - Starting batch  —  5 banner(s) to publish
+2026-05-15 01:13:25,002 - INFO - ============================================================
+2026-05-15 01:13:25,003 - INFO - [1/5]
+2026-05-15 01:13:25,003 - INFO -   Publishing: [Vcqruall Tin]  (Vcqruall Tin_processed.jpg)
+2026-05-15 01:13:27,300 - INFO -     → Title entered: Vcqruall Tin
+2026-05-15 01:13:29,382 - INFO -     → Image uploaded: Vcqruall Tin_processed.jpg
+2026-05-15 01:13:29,575 - INFO -     → Publish Banner clicked
+2026-05-15 01:13:33,585 - INFO -   ✓ Banner published: Vcqruall Tin
+
+2026-05-15 01:13:34,585 - INFO - [2/5]
+2026-05-15 01:13:34,585 - INFO -   Publishing: [Vcqruall product]  (Vcqruall product_processed.jpg)
+2026-05-15 01:13:36,842 - INFO -     → Title entered: Vcqruall product
+2026-05-15 01:13:38,929 - INFO -     → Image uploaded: Vcqruall product_processed.jpg
+2026-05-15 01:13:39,183 - INFO -     → Publish Banner clicked
+2026-05-15 01:13:43,198 - INFO -   ✓ Banner published: Vcqruall product
+
+2026-05-15 01:13:44,199 - INFO - [3/5]
+2026-05-15 01:13:44,199 - INFO -   Publishing: [Vcqrupvc.cpvc]  (Vcqrupvc.cpvc_processed.jpg)
+2026-05-15 01:13:46,511 - INFO -     → Title entered: Vcqrupvc.cpvc
+2026-05-15 01:13:48,559 - INFO -     → Image uploaded: Vcqrupvc.cpvc_processed.jpg
+2026-05-15 01:13:48,754 - INFO -     → Publish Banner clicked
+2026-05-15 01:13:52,767 - INFO -   ✓ Banner published: Vcqrupvc.cpvc
+
+2026-05-15 01:13:53,768 - INFO - [4/5]
+2026-05-15 01:13:53,769 - INFO -   Publishing: [Vcqruseal, bond, super glue]  (Vcqruseal, bond, super glue_processed.jpg)
+2026-05-15 01:13:56,171 - INFO -     → Title entered: Vcqruseal, bond, super glue
+2026-05-15 01:13:58,218 - INFO -     → Image uploaded: Vcqruseal, bond, super glue_processed.jpg
+2026-05-15 01:13:58,380 - INFO -     → Publish Banner clicked
+2026-05-15 01:14:02,392 - INFO -   ✓ Banner published: Vcqruseal, bond, super glue
+
+2026-05-15 01:14:03,392 - INFO - [5/5]
+2026-05-15 01:14:03,393 - INFO -   Publishing: [Vcqruwemlac]  (Vcqruwemlac_processed.jpg)
+2026-05-15 01:14:05,648 - INFO -     → Title entered: Vcqruwemlac
+2026-05-15 01:14:07,717 - INFO -     → Image uploaded: Vcqruwemlac_processed.jpg
+2026-05-15 01:14:07,837 - INFO -     → Publish Banner clicked
+2026-05-15 01:14:11,863 - INFO -   ✓ Banner published: Vcqruwemlac
+
+2026-05-15 01:14:12,863 - INFO - ============================================================
+2026-05-15 01:14:12,864 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-05-15 01:14:13,091 - INFO - Browser closed
+2026-05-15 01:14:13,091 - INFO - 
+Task finished at 2026-05-15 01:14:13
+2026-05-15 01:14:13,091 - INFO - Log: automation/logs/full_automation_20260515_011248.log
+
+2026-05-15 01:14:22,680 - INFO - User selected: Intro Screens
+2026-05-15 01:14:22,680 - INFO - ============================================================
+2026-05-15 01:14:22,680 - INFO - INTRO SCREENS — Image Processing
+2026-05-15 01:14:22,680 - INFO - ============================================================
+2026-05-15 01:14:22,681 - INFO - Found 1 intro image(s) in introscreen/
+2026-05-15 01:14:22,681 - INFO -   ⚙ Processing 7fe18650-6129-4c30-bcee-300130b55e26.jpeg  (867×1300 → need 1080×1920)
+2026-05-15 01:14:22,860 - INFO -   ✓ 7fe18650-6129-4c30-bcee-300130b55e26.jpeg  →  7fe18650-6129-4c30-bcee-300130b55e26_processed.jpg  |  1080×1920  |  0.25 MB  |  quality 92
+2026-05-15 01:14:22,861 - INFO -   Processed 1/1 intro images successfully
+
+2026-05-15 01:15:17,108 - INFO - ============================================================
+2026-05-15 01:15:17,108 - INFO - INTRO SCREENS — Browser Automation
+2026-05-15 01:15:17,108 - INFO - ============================================================
+2026-05-15 01:15:17,607 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 01:15:19,157 - INFO - ✓ Chrome driver initialized
+2026-05-15 01:15:19,157 - INFO - Opening login page...
+2026-05-15 01:15:21,048 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 01:15:21,608 - INFO - ✓ Login successful
+2026-05-15 01:15:23,609 - INFO - Going to App Settings...
+2026-05-15 01:15:30,082 - INFO -   → Intro Screens section opened
+2026-05-15 01:15:30,135 - INFO - ✓ Intro Screens page ready
+2026-05-15 01:15:30,135 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-05-15 01:15:30,136 - INFO - ============================================================
+2026-05-15 01:15:30,136 - INFO - [1/1]
+2026-05-15 01:15:30,136 - INFO -   Launching screen: [Scan & Get Instant Cashback]
+2026-05-15 01:15:32,510 - INFO -     → Header: Scan & Get Instant Cashback
+2026-05-15 01:15:33,506 - INFO -     → Description: This app lets users scan QR codes available on Wembley’s Qui...
+2026-05-15 01:15:35,571 - INFO -     → Image uploaded: 7fe18650-6129-4c30-bcee-300130b55e26_processed.jpg
+2026-05-15 01:15:35,759 - INFO -     → Launch Screen clicked
+2026-05-15 01:15:39,779 - INFO -   ✓ Intro screen launched: Scan & Get Instant Cashback
+
+2026-05-15 01:15:40,779 - INFO - ============================================================
+2026-05-15 01:15:40,780 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-05-15 01:15:40,970 - INFO - Browser closed
+2026-05-15 01:15:40,971 - INFO - 
+Task finished at 2026-05-15 01:15:40
+2026-05-15 01:15:40,971 - INFO - Log: automation/logs/full_automation_20260515_011248.log
+
+2026-05-15 01:16:06,362 - INFO - User selected: Dashboard Icons
+2026-05-15 01:16:06,362 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-15 01:16:06,363 - INFO - Automation started at 2026-05-15 01:16:06
+
+2026-05-15 01:16:06,363 - INFO - ============================================================
+2026-05-15 01:16:06,363 - INFO - STEP 1: Processing and Compressing Images
+2026-05-15 01:16:06,363 - INFO - ============================================================
+2026-05-15 01:16:06,366 - INFO - Processing images from: dashboardicons
+2026-05-15 01:16:06,366 - INFO - Output folder: automation/processed_images
+2026-05-15 01:16:06,366 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-15 01:16:06,388 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-15 01:16:06,397 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-15 01:16:06,418 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-15 01:16:06,437 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-15 01:16:06,446 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-15 01:16:06,461 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-15 01:16:06,475 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-15 01:16:06,486 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-15 01:16:06,510 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-15 01:16:06,525 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-15 01:16:06,541 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-15 01:16:06,566 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-15 01:16:06,585 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-15 01:16:06,599 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-15 01:16:06,600 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-15 01:16:06,600 - INFO - ✓ 14 images processed and ready
+
+2026-05-15 01:16:06,600 - INFO - ============================================================
+2026-05-15 01:16:06,600 - INFO - STEP 2: Preparing Authentication
+2026-05-15 01:16:06,601 - INFO - ============================================================
+2026-05-15 01:16:06,601 - INFO - Using email: tejas@wembleysquickfix.com
+2026-05-15 01:16:06,601 - INFO - ✓ Credentials loaded
+
+2026-05-15 01:16:06,601 - INFO - ============================================================
+2026-05-15 01:16:06,601 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-15 01:16:06,602 - INFO - ============================================================
+2026-05-15 01:16:07,364 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 01:16:10,395 - INFO - ✓ Chrome driver initialized
+2026-05-15 01:16:10,395 - INFO - 
+→ Attempting login...
+
+2026-05-15 01:16:10,396 - INFO - Opening login page...
+2026-05-15 01:16:12,707 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 01:16:13,260 - INFO - ✓ Login successful
+2026-05-15 01:16:15,261 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-05-15 01:16:15,261 - INFO - Navigating to App Settings...
+2026-05-15 01:16:17,625 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/a33dabbc6f72d4f565e9c03c3ed951a7
+2026-05-15 01:16:17,626 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=42791): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a33dabbc6f72d4f565e9c03c3ed951a7
+2026-05-15 01:16:17,627 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=42791): Failed to establish a new connection: [Errno 111] Connection refused")': /session/a33dabbc6f72d4f565e9c03c3ed951a7
+2026-05-15 01:16:17,640 - INFO - Browser closed
+2026-05-15 01:16:17,640 - INFO - Automation cancelled by user (Ctrl+C)

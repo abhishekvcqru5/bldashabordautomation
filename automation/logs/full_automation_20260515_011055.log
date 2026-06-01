@@ -1,0 +1,12 @@
+2026-05-15 01:11:26,227 - INFO - User selected: Promotion Banners
+2026-05-15 01:11:26,228 - INFO - ============================================================
+2026-05-15 01:11:26,229 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-15 01:11:26,229 - INFO - ============================================================
+2026-05-15 01:11:26,229 - WARNING - No images found in banner
+2026-05-15 01:11:26,230 - ERROR - No banner images could be processed. Aborting.
+2026-05-15 01:11:26,230 - INFO - 
+Task finished at 2026-05-15 01:11:26
+2026-05-15 01:11:26,230 - INFO - Log: automation/logs/full_automation_20260515_011055.log
+
+2026-05-15 01:12:41,412 - INFO - User selected: Brand Setting
+2026-05-15 01:12:46,764 - INFO - Automation cancelled by user (Ctrl+C)

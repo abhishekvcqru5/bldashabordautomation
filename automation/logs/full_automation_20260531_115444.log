@@ -1,0 +1,40 @@
+2026-05-31 11:55:03,511 - INFO - User selected: Brand Setting
+2026-05-31 11:55:07,284 - INFO -   Found logo asset: logo.png
+2026-05-31 11:55:07,284 - INFO -   Found splash asset: splash.png
+2026-05-31 11:55:07,284 - INFO - ============================================================
+2026-05-31 11:55:07,284 - INFO - BRAND SETTING — Image Processing
+2026-05-31 11:55:07,284 - INFO - ============================================================
+2026-05-31 11:55:07,376 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-31 11:55:07,758 - INFO - ✓ Logo  → logo_processed.png  |  195.4 KB  |  PNG lossless
+2026-05-31 11:55:07,828 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-31 11:55:09,085 - INFO - ✓ Splash → splash_processed.png  |  0.51 MB  |  PNG lossless
+2026-05-31 11:55:09,087 - INFO - 
+2026-05-31 11:55:09,088 - INFO - Extracting brand colours from logo...
+2026-05-31 11:55:09,282 - INFO -   Colours extracted from logo:
+2026-05-31 11:55:09,282 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-05-31 11:55:09,282 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-05-31 11:55:09,282 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-31 11:55:09,283 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-31 11:55:09,290 - INFO - ✓ Both images ready
+
+2026-05-31 11:55:09,291 - INFO - ============================================================
+2026-05-31 11:55:09,291 - INFO - BRAND SETTING — Browser Automation
+2026-05-31 11:55:09,291 - INFO - ============================================================
+2026-05-31 11:55:09,291 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-31 11:55:09,291 - INFO - ====== WebDriver manager ======
+2026-05-31 11:55:09,625 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:55:09,700 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-31 11:55:09,793 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-31 11:55:10,940 - INFO - ✓ Chrome driver initialized
+2026-05-31 11:55:10,941 - INFO - Opening login page...
+2026-05-31 11:55:12,388 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-05-31 11:55:15,159 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-05-31 11:55:15,225 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-05-31 11:55:15,330 - INFO - ✓ Login successful
+2026-05-31 11:55:17,330 - INFO - Going to App Settings...
+2026-05-31 11:55:23,798 - INFO -   → Identity & Branding section opened
+2026-05-31 11:55:25,616 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/0ed94a65ae2416527fec0e5f11d3c59d
+2026-05-31 11:55:25,618 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59341): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0ed94a65ae2416527fec0e5f11d3c59d
+2026-05-31 11:55:25,619 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59341): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0ed94a65ae2416527fec0e5f11d3c59d
+2026-05-31 11:55:25,621 - INFO - Browser closed
+2026-05-31 11:55:25,621 - INFO - Automation cancelled by user (Ctrl+C)

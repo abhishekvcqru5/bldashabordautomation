@@ -1,0 +1,20 @@
+2026-05-15 12:35:50,222 - INFO - User selected: Gift Management
+2026-05-15 12:35:57,104 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 12:36:03,950 - INFO - ✓ Chrome driver initialized
+2026-05-15 12:36:03,960 - INFO - Opening login page...
+2026-05-15 12:36:09,391 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 12:36:13,192 - INFO - ✓ Login successful
+2026-05-15 12:36:15,197 - INFO - Going to App Settings...
+2026-05-15 12:36:23,420 - INFO -   → Gift Management section opened
+2026-05-15 12:36:24,809 - INFO -   → Action button clicked
+2026-05-15 12:36:27,446 - INFO -   → Edit Offering clicked
+2026-05-15 12:36:29,430 - INFO -   → Old image removed
+2026-05-15 12:36:31,854 - INFO -   → Image uploaded: e0bb9ee6-507b-4b0d-9124-cc37e450df51.png
+2026-05-15 12:36:33,900 - INFO -   → Cash Out enabled
+2026-05-15 12:36:35,195 - INFO -   → IMPS button clicked
+2026-05-15 12:36:38,560 - INFO - ✓ Gift updated successfully
+2026-05-15 12:36:39,273 - INFO - Browser closed
+2026-05-15 12:36:39,273 - INFO - 
+Task finished at 2026-05-15 12:36:39
+2026-05-15 12:36:39,274 - INFO - Log: automation/logs/full_automation_20260515_123524.log
+

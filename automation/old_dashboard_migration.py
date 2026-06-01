@@ -16,6 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 from intro_screen import IntroImageProcessor, IntroScreenAutomation
+from banner_promotion import BannerImageProcessor, BannerAutomation
 
 logger = logging.getLogger(__name__)
 
@@ -160,7 +161,6 @@ class OldDashboardExtractor:
                 return False
 
             return True
-            
         except Exception as e:
             logger.error(f"Old dashboard login failed: {e}")
             self._ss("login_exception")
@@ -174,9 +174,7 @@ class OldDashboardExtractor:
             self.driver.switch_to.default_content()
 
             # 1. Handle any potential popups/modals
-            logger.info("  → Checking for any blocking popups...")
             try:
-                # Common "Close" buttons for popups
                 close_buttons = self.driver.find_elements(By.XPATH, "//button[contains(text(), 'Close') or contains(text(), '×')] | //a[contains(@class, 'close')]")
                 for btn in close_buttons:
                     if btn.is_displayed():
@@ -186,119 +184,90 @@ class OldDashboardExtractor:
             except:
                 pass
 
-            # 2. Wait for page to be fully interactive
             time.sleep(5)
 
-            # Build list of contexts to search: default + each iframe
-            contexts = [None]
-            try:
-                contexts.extend(self.driver.find_elements(By.TAG_NAME, "iframe"))
-            except Exception:
-                pass
-            logger.info(f"  → Searching sidebar across {len(contexts)} context(s)")
+            # Build list of contexts to search
+            all_frames = []
+            for tag in ("frame", "iframe"):
+                try:
+                    all_frames.extend(self.driver.find_elements(By.TAG_NAME, tag))
+                except:
+                    pass
+            contexts = [None] + all_frames
 
-            def switch_context(frame):
-                self.driver.switch_to.default_content()
-                if frame is not None:
-                    self.driver.switch_to.frame(frame)
-
-            def find_visible(xpath_list, js_terms):
-                found = None
-                for xpath in xpath_list:
-                    elems = self.driver.find_elements(By.XPATH, xpath)
-                    for el in elems:
-                        if el.is_displayed():
-                            return el
-                for term in js_terms:
-                    el = self._find_by_text_js(term)
-                    if el:
-                        found = el
-                        break
-                return found
-
-            loyalty_xpaths = [
-                "//a[contains(normalize-space(.), 'Build Loyalty App')]",
-                "//a[contains(normalize-space(.), 'Build Loyalty')]",
-                "//*[contains(normalize-space(.), 'Build Loyalty App') and (self::a or self::span or self::li)]",
-                "//*[contains(normalize-space(.), 'Build Loyalty') and (self::a or self::span or self::li)]",
-            ]
-            intro_xpaths = [
-                "//a[contains(normalize-space(.), 'Introduction Setting')]",
-                "//*[contains(normalize-space(.), 'Introduction Setting') and (self::a or self::span or self::li)]",
-                "//a[contains(@href, 'Introduction') or contains(@href, 'intro')]",
-            ]
+            logger.info(f"  → Searching sidebar for Loyalty App across {len(contexts)} context(s)")
 
             found_intro = False
-            for idx, frame in enumerate(contexts):
+            for ctx in contexts:
                 try:
-                    switch_context(frame)
-                    ctx = "default content" if frame is None else f"iframe {idx-1}"
-                    logger.info(f"    → Checking {ctx}")
+                    self.driver.switch_to.default_content()
+                    if ctx is not None:
+                        self.driver.switch_to.frame(ctx)
 
-                    menu_item = find_visible(
-                        loyalty_xpaths, ["Build Loyalty App", "Build Loyalty"]
-                    )
-                    if not menu_item:
-                        continue
+                    # Step 1: Find and click Build Loyalty App menu
+                    loyalty = None
+                    try:
+                        el = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_blapp > a")
+                        if el.is_displayed():
+                            loyalty = el
+                    except:
+                        pass
 
-                    logger.info("    ✓ Found Build Loyalty App, clicking...")
+                    if not loyalty:
+                        # Fallback text search
+                        loyalty = self._find_by_text_js("build loyalty", ["a", "span", "li"])
+
+                    if not loyalty:
+                        continue  # Not in this context
+
+                    logger.info("    ✓ Found Build Loyalty App menu, clicking...")
                     self.driver.execute_script(
-                        "arguments[0].scrollIntoView({block: 'center'});", menu_item
+                        "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", loyalty
                     )
-                    time.sleep(1)
-                    self.driver.execute_script("arguments[0].click();", menu_item)
-                    time.sleep(2)
+                    time.sleep(3)
 
-                    intro_link = find_visible(
-                        intro_xpaths, ["Introduction Setting", "Introduction"]
-                    )
+                    # Step 2: Find and click Introduction Setting submenu
+                    intro_link = None
+                    try:
+                        el = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_Liintro > a")
+                        if el.is_displayed():
+                            intro_link = el
+                    except:
+                        pass
+
                     if not intro_link:
-                        # One more click on the menu can expand nested submenu in some templates.
-                        self.driver.execute_script("arguments[0].click();", menu_item)
+                        # Fallback text search
+                        intro_link = self._find_by_text_js("introduction setting", ["a", "li"])
+
+                    if not intro_link:
+                        # One retry — click loyalty again to re-expand and search again
+                        self.driver.execute_script("arguments[0].click();", loyalty)
                         time.sleep(2)
-                        intro_link = find_visible(
-                            intro_xpaths, ["Introduction Setting", "Introduction"]
-                        )
+                        intro_link = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_Liintro > a")
 
                     if not intro_link:
                         continue
 
-                    logger.info("    ✓ Found Introduction Setting, clicking...")
+                    logger.info("    ✓ Found Introduction Setting link, clicking...")
                     self.driver.execute_script(
-                        "arguments[0].scrollIntoView({block: 'center'});", intro_link
+                        "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", intro_link
                     )
-                    time.sleep(1)
-                    self.driver.execute_script("arguments[0].click();", intro_link)
                     time.sleep(5)
                     found_intro = True
                     break
                 except Exception as frame_e:
-                    logger.debug(f"    Context {idx} failed: {frame_e}")
+                    logger.debug(f"    Context navigation failed: {frame_e}")
                     continue
 
             self.driver.switch_to.default_content()
 
             if not found_intro:
                 logger.error("  ✗ Could not navigate to 'Introduction Setting'.")
-                self._ss("full_page_debug")
                 self._ss("loyalty_menu_not_found")
                 return False
 
-            # Verify we are on the right page
-            curr_url = self.driver.current_url.lower()
-            intro_markers = self.driver.find_elements(
-                By.XPATH,
-                "//*[contains(normalize-space(.), 'Introduction Setting') or "
-                "contains(normalize-space(.), 'Marketing Header') or "
-                "contains(normalize-space(.), 'Feature Description')]",
-            )
-            if "introduction" in curr_url or "intro" in curr_url or intro_markers:
-                logger.info("✓ Arrived at Introduction Setting page.")
-                return True
-            
-            logger.warning(f"  ⚠ Current URL: {self.driver.current_url} - check if it's correct.")
-            return True 
-            
+            return True
+
         except Exception as e:
             logger.error(f"Navigation failed: {e}")
             self._ss("nav_exception")
@@ -331,70 +300,117 @@ class OldDashboardExtractor:
         try:
             logger.info("  → Searching for introduction screens data...")
             
-            # 1. Try to find the specific grid/table
-            table = None
-            # Common ASP.NET grid IDs
-            for selector in ["gvIntro", "IntroGrid", "dgIntro", "ContentPlaceHolder1_gvIntro"]:
+            # Find all switchable contexts
+            all_frames = []
+            for tag in ("frame", "iframe"):
                 try:
-                    table = self.driver.find_element(By.ID, selector)
-                    if table.is_displayed():
-                        logger.info(f"    ✓ Found table with ID: {selector}")
+                    all_frames.extend(self.driver.find_elements(By.TAG_NAME, tag))
+                except:
+                    pass
+            contexts = [None] + all_frames
+
+            table = None
+            for ctx in contexts:
+                try:
+                    self.driver.switch_to.default_content()
+                    if ctx is not None:
+                        self.driver.switch_to.frame(ctx)
+                        
+                    # 1. Try to find the specific grid/table
+                    # Common ASP.NET grid IDs
+                    for selector in ["dataTable", "gvIntro", "IntroGrid", "dgIntro", "ContentPlaceHolder1_gvIntro"]:
+                        try:
+                            t = self.driver.find_element(By.ID, selector)
+                            if t.is_displayed():
+                                table = t
+                                logger.info(f"    ✓ Found table with ID: {selector} in context frame")
+                                break
+                        except:
+                            continue
+                    if table:
                         break
                 except:
                     continue
-            
-            # 2. If not found by ID, try finding any table that looks relevant
+
+            # 2. If not found by ID, try finding any table that looks relevant in each context
             if not table:
-                tables = self.driver.find_elements(
-                    By.XPATH,
-                    "//table[contains(@id, 'Intro') or contains(@id, 'intro') or .//img]",
-                )
-                if tables:
-                    table = tables[0]
-                    logger.info("    ✓ Found table by partial ID match")
+                for ctx in contexts:
+                    try:
+                        self.driver.switch_to.default_content()
+                        if ctx is not None:
+                            self.driver.switch_to.frame(ctx)
+                        tables = self.driver.find_elements(
+                            By.XPATH,
+                            "//table[contains(@id, 'Intro') or contains(@id, 'intro') or .//img]",
+                        )
+                        if tables:
+                            table = tables[0]
+                            logger.info("    ✓ Found table by partial ID match")
+                            break
+                    except:
+                        continue
 
             # 3. Get rows
             if not table:
-                logger.warning("    ⚠ No intro screens table found. Trying general row search...")
-                rows = self.driver.find_elements(By.XPATH, "//table//tr[position()>1]")
+                logger.warning("    ⚠ No intro screens table found. Trying general row search in default context...")
+                self.driver.switch_to.default_content()
+                all_rows = self.driver.find_elements(By.XPATH, "//table//tr")
             else:
-                rows = table.find_elements(By.XPATH, ".//tr[position()>1]")
+                all_rows = table.find_elements(By.TAG_NAME, "tr")
+            
+            rows = []
+            for r in all_rows:
+                # Skip header rows
+                if r.find_elements(By.TAG_NAME, "th"):
+                    continue
+                # Skip rows with no tds (like empty/styling rows)
+                if not r.find_elements(By.TAG_NAME, "td"):
+                    continue
+                rows.append(r)
             
             if not rows:
                 logger.warning("    ✗ No rows found in the table.")
                 self._ss("no_rows_found")
+                self.driver.switch_to.default_content()
                 return []
 
             logger.info(f"    → Found {len(rows)} potential rows to extract")
 
             for i, row in enumerate(rows, 1):
                 try:
-                    # Look for image, header, and content in the row
-                    # Images are usually in the first or last column
-                    img_els = row.find_elements(By.TAG_NAME, "img")
-                    if not img_els:
-                        continue
-                    
-                    img_url = (img_els[0].get_attribute("src") or "").strip()
-                    if not img_url:
-                        continue
-                    
-                    # Columns: Header is usually 2nd or 3rd, Content is usually 3rd or 4th
                     cells = row.find_elements(By.TAG_NAME, "td")
-                    if len(cells) < 3:
-                        continue
-
-                    # Try to identify header and description from cells
-                    # We skip the image cell and any action/checkbox cells
-                    text_cells = [c.text.strip() for c in cells if c.text.strip() and not c.find_elements(By.TAG_NAME, "img")]
-                    
-                    if len(text_cells) >= 2:
-                        header = text_cells[0]
-                        description = text_cells[1]
-                    else:
-                        # Fallback to positional
+                    if len(cells) >= 4 and cells[3].find_elements(By.TAG_NAME, "img"):
+                        # User's explicit table pattern:
+                        # td:nth-child(2) -> cells[1] (header)
+                        # td:nth-child(3) -> cells[2] (content)
+                        # td:nth-child(4) > img -> cells[3].find_element(By.TAG_NAME, "img")
                         header = cells[1].text.strip()
                         description = cells[2].text.strip()
+                        img_url = (cells[3].find_element(By.TAG_NAME, "img").get_attribute("src") or "").strip()
+                    else:
+                        # Fallback to standard heuristics
+                        img_els = row.find_elements(By.TAG_NAME, "img")
+                        if not img_els:
+                            continue
+                        
+                        img_url = (img_els[0].get_attribute("src") or "").strip()
+                        if not img_url:
+                            continue
+                        
+                        if len(cells) < 3:
+                            continue
+
+                        # Try to identify header and description from cells
+                        # We skip the image cell and any action/checkbox cells
+                        text_cells = [c.text.strip() for c in cells if c.text.strip() and not c.find_elements(By.TAG_NAME, "img")]
+                        
+                        if len(text_cells) >= 2:
+                            header = text_cells[0]
+                            description = text_cells[1]
+                        else:
+                            # Fallback to positional
+                            header = cells[1].text.strip()
+                            description = cells[2].text.strip()
 
                     if not header or not description:
                         continue
@@ -421,10 +437,217 @@ class OldDashboardExtractor:
                     logger.debug(f"    ⚠ Error extracting row {i}: {row_e}")
                     continue
 
+            self.driver.switch_to.default_content()
             return screens
         except Exception as e:
             logger.error(f"Extraction failed: {e}")
             self._ss("extraction_error")
+            self.driver.switch_to.default_content()
+            return []
+
+    def navigate_to_banner_settings(self):
+        """Navigate to Build Loyalty -> Banner Setting."""
+        try:
+            logger.info(f"Navigating to banner settings from: {self.driver.current_url}")
+
+            self.driver.switch_to.default_content()
+
+            # 1. Handle any potential popups/modals
+            try:
+                close_buttons = self.driver.find_elements(By.XPATH, "//button[contains(text(), 'Close') or contains(text(), '×')] | //a[contains(@class, 'close')]")
+                for btn in close_buttons:
+                    if btn.is_displayed():
+                        logger.info("    ✓ Found a popup, closing it...")
+                        self.driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(1)
+            except:
+                pass
+
+            time.sleep(5)
+
+            # Build list of contexts to search
+            all_frames = []
+            for tag in ("frame", "iframe"):
+                try:
+                    all_frames.extend(self.driver.find_elements(By.TAG_NAME, tag))
+                except:
+                    pass
+            contexts = [None] + all_frames
+
+            logger.info(f"  → Searching sidebar for Loyalty App across {len(contexts)} context(s)")
+
+            found_banner = False
+            for ctx in contexts:
+                try:
+                    self.driver.switch_to.default_content()
+                    if ctx is not None:
+                        self.driver.switch_to.frame(ctx)
+
+                    # Step 1: Find and click Build Loyalty App menu
+                    loyalty = None
+                    try:
+                        el = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_blapp > a")
+                        if el.is_displayed():
+                            loyalty = el
+                    except:
+                        pass
+
+                    if not loyalty:
+                        # Fallback text search
+                        loyalty = self._find_by_text_js("build loyalty", ["a", "span", "li"])
+
+                    if not loyalty:
+                        continue  # Not in this context
+
+                    logger.info("    ✓ Found Build Loyalty App menu, clicking...")
+                    self.driver.execute_script(
+                        "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", loyalty
+                    )
+                    time.sleep(3)
+
+                    # Step 2: Find and click Banner Setting submenu
+                    banner_link = None
+                    try:
+                        el = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_bannerbl > a")
+                        if el.is_displayed():
+                            banner_link = el
+                    except:
+                        pass
+
+                    if not banner_link:
+                        # Fallback text search
+                        banner_link = self._find_by_text_js("banner setting", ["a", "li"])
+
+                    if not banner_link:
+                        # One retry — click loyalty again to re-expand and search again
+                        self.driver.execute_script("arguments[0].click();", loyalty)
+                        time.sleep(2)
+                        banner_link = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_bannerbl > a")
+
+                    if not banner_link:
+                        continue
+
+                    logger.info("    ✓ Found Banner Setting link, clicking...")
+                    self.driver.execute_script(
+                        "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", banner_link
+                    )
+                    time.sleep(5)
+                    found_banner = True
+                    break
+                except Exception as frame_e:
+                    logger.debug(f"    Context navigation failed: {frame_e}")
+                    continue
+
+            self.driver.switch_to.default_content()
+
+            if not found_banner:
+                logger.error("  ✗ Could not navigate to 'Banner Setting'.")
+                self._ss("banner_nav_fail")
+                return False
+
+            return True
+
+        except Exception as e:
+            logger.error(f"Navigation to banner settings failed: {e}")
+            self._ss("banner_nav_exception")
+            return False
+
+    def extract_banners(self):
+        """
+        Extract banner images from the old dashboard.
+        Returns a list of dicts: {image_path, title}
+        """
+        banners = []
+        # Save dir for downloaded banners from old dashboard
+        banner_save_dir = Path("old_dashboard_banners")
+        banner_save_dir.mkdir(parents=True, exist_ok=True)
+        
+        try:
+            logger.info("  → Searching for banner images data...")
+            
+            # Find all switchable contexts
+            all_frames = []
+            for tag in ("frame", "iframe"):
+                try:
+                    all_frames.extend(self.driver.find_elements(By.TAG_NAME, tag))
+                except:
+                    pass
+            contexts = [None] + all_frames
+                
+            img_elements = []
+            active_ctx = None
+            for idx, frame in enumerate(contexts):
+                try:
+                    self.driver.switch_to.default_content()
+                    if frame:
+                        self.driver.switch_to.frame(frame)
+                        
+                    # Find banner images inside container
+                    # We look for the user's specific selector first
+                    container_css = "#page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12"
+                    img_selectors = [
+                        f"{container_css} img",
+                        "//div[contains(@class, 'card-body-nopadding')]//img",
+                        "//img[contains(@src, 'Banner') or contains(@src, 'banner')]",
+                    ]
+                    
+                    for sel in img_selectors:
+                        if sel.startswith("//"):
+                            els = self.driver.find_elements(By.XPATH, sel)
+                        else:
+                            els = self.driver.find_elements(By.CSS_SELECTOR, sel)
+                        
+                        # filter visible and valid src elements
+                        valid_els = []
+                        for el in els:
+                            src = (el.get_attribute("src") or "").strip()
+                            if src and "logo" not in src.lower() and "splash" not in src.lower():
+                                valid_els.append((el, src))
+                        
+                        if valid_els:
+                            img_elements = valid_els
+                            active_ctx = frame
+                            logger.info(f"    ✓ Found {len(img_elements)} banners via selector: {sel} in frame {idx}")
+                            break
+                    
+                    if img_elements:
+                        break
+                except Exception as frame_e:
+                    continue
+            
+            if not img_elements:
+                logger.warning("    ✗ No banner images found.")
+                self._ss("no_banners_found")
+                self.driver.switch_to.default_content()
+                return []
+                
+            # Make sure we are in the correct frame to access elements
+            self.driver.switch_to.default_content()
+            if active_ctx:
+                self.driver.switch_to.frame(active_ctx)
+
+            for i, (el, img_url) in enumerate(img_elements, 1):
+                try:
+                    # Deriving name and title
+                    img_name = f"old_banner_{i}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.jpg"
+                    local_path = banner_save_dir / img_name
+                    
+                    logger.info(f"    → Downloading banner {i}: {img_url}")
+                    self._download_image_with_session(img_url, local_path)
+                    
+                    banners.append({
+                        "title": f"old_banner_{i}",
+                        "image_path": str(local_path)
+                    })
+                except Exception as e:
+                    logger.warning(f"    ⚠ Failed to download banner {i}: {e}")
+                    
+            self.driver.switch_to.default_content()
+            return banners
+        except Exception as e:
+            logger.error(f"Banner extraction failed: {e}")
+            self._ss("banner_extraction_error")
+            self.driver.switch_to.default_content()
             return []
 
 def run_old_dashboard_migration(email, password, new_auto=None):
@@ -436,6 +659,8 @@ def run_old_dashboard_migration(email, password, new_auto=None):
     """
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
     
     logger.info("=" * 60)
     logger.info("OLD DASHBOARD MIGRATION — Extraction")
@@ -448,7 +673,21 @@ def run_old_dashboard_migration(email, password, new_auto=None):
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-notifications")
     # Removed headless so user can see it
-    old_driver = webdriver.Chrome(options=opts)
+    
+    # Force system Chrome binary and use webdriver-manager
+    import shutil
+    system_chrome = (
+        shutil.which("google-chrome-stable")
+        or shutil.which("google-chrome")
+        or shutil.which("chromium-browser")
+        or shutil.which("chromium")
+    )
+    if system_chrome:
+        opts.binary_location = system_chrome
+        logger.info(f"  Using system Chrome binary: {system_chrome}")
+    
+    service = Service(ChromeDriverManager().install())
+    old_driver = webdriver.Chrome(service=service, options=opts)
     old_driver.maximize_window()
     
     try:
@@ -509,5 +748,102 @@ def run_old_dashboard_migration(email, password, new_auto=None):
 
     except Exception as e:
         logger.error(f"Migration failed: {e}")
+        if 'old_driver' in locals(): old_driver.quit()
+        return False
+
+
+def run_old_dashboard_banner_migration(email, password):
+    """
+    Full workflow for banner migration:
+    1. Extract banners from old dashboard
+    2. Process images (force resize to 1920x1080, compress)
+    3. Upload/Publish to new dashboard
+    """
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    from banner_promotion import BannerImageProcessor, BannerAutomation
+    
+    logger.info("=" * 60)
+    logger.info("OLD DASHBOARD BANNER MIGRATION — Extraction")
+    logger.info("=" * 60)
+
+    # 1. Setup temporary driver for old dashboard
+    opts = Options()
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-dev-shm-usage")
+    opts.add_argument("--disable-notifications")
+    
+    # Force system Chrome binary and use webdriver-manager
+    import shutil
+    system_chrome = (
+        shutil.which("google-chrome-stable")
+        or shutil.which("google-chrome")
+        or shutil.which("chromium-browser")
+        or shutil.which("chromium")
+    )
+    if system_chrome:
+        opts.binary_location = system_chrome
+        logger.info(f"  Using system Chrome binary: {system_chrome}")
+    
+    service = Service(ChromeDriverManager().install())
+    old_driver = webdriver.Chrome(service=service, options=opts)
+    old_driver.maximize_window()
+    
+    try:
+        extractor = OldDashboardExtractor(old_driver)
+        if not extractor.login(email, password):
+            return False
+        
+        if not extractor.navigate_to_banner_settings():
+            return False
+        
+        extracted_data = extractor.extract_banners()
+        old_driver.quit()
+
+        if not extracted_data:
+            logger.error("No banners extracted from old dashboard.")
+            return False
+
+        logger.info(f"✓ Extracted {len(extracted_data)} banners.")
+
+        # 2. Process extracted images using BannerImageProcessor
+        logger.info("\n" + "=" * 60)
+        logger.info("OLD DASHBOARD BANNER MIGRATION — Processing Images")
+        logger.info("=" * 60)
+        
+        processor = BannerImageProcessor()
+        processed_banners = []
+        
+        for data in extracted_data:
+            processed_path = processor.process(data["image_path"])
+            if processed_path:
+                processed_banners.append((data["title"], processed_path))
+
+        if not processed_banners:
+            logger.error("No banners could be processed. Aborting migration.")
+            return False
+
+        # 3. Upload to new dashboard using BannerAutomation
+        logger.info("\n" + "=" * 60)
+        logger.info("OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard")
+        logger.info("=" * 60)
+
+        from dashboard_automation import VendorPortalAutomation
+        with VendorPortalAutomation(email, password, headless=False) as auto:
+            if not auto.login():
+                return False
+            
+            banner_auto = BannerAutomation(auto.driver)
+            if not banner_auto.navigate():
+                return False
+
+            successful, failed = banner_auto.publish_all(processed_banners)
+            return failed == 0
+
+    except Exception as e:
+        logger.error(f"Banner migration failed: {e}")
         if 'old_driver' in locals(): old_driver.quit()
         return False

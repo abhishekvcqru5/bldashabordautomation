@@ -1,0 +1,48 @@
+2026-05-14 18:46:27,039 - INFO - User selected: Surie Product Upload
+2026-05-14 18:46:29,043 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 18:46:34,781 - INFO - ✓ Chrome driver initialized
+2026-05-14 18:46:34,781 - INFO - Opening login page...
+2026-05-14 18:46:39,100 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 18:46:42,952 - INFO - ✓ Login successful
+2026-05-14 18:46:49,982 - INFO - ✓ Navigated to Product Management
+2026-05-14 18:46:49,989 - INFO - Scanning dashboard for already uploaded products...
+2026-05-14 18:46:54,181 - INFO - ✓ Found 60 products already on dashboard.
+2026-05-14 18:47:03,237 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:47:06,629 - INFO - ✓ Product added: Sandstone Sealer-WZ 5ltr
+2026-05-14 18:47:16,247 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:47:19,394 - INFO - ✓ Product added: Bottom Surface Sealer 1ltr
+2026-05-14 18:47:28,156 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:47:31,218 - INFO - ✓ Product added: GLOEX CREAM 1KG
+2026-05-14 18:47:40,067 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:47:43,210 - INFO - ✓ Product added: GLOEX POWDER 1KG
+2026-05-14 18:47:53,439 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:47:56,689 - INFO - ✓ Product added: N-2 ZX CRYSTALLIZER 1 KG
+2026-05-14 18:48:07,248 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:48:10,458 - INFO - ✓ Product added: GLOEX POWDER 5KG
+2026-05-14 18:48:18,957 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:48:22,059 - INFO - ✓ Product added: MPZ CRYSTALLIZER 1KG
+2026-05-14 18:48:31,219 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:48:34,330 - INFO - ✓ Product added: Z-XTRA PLUS CYSTALLIZER 1KG
+2026-05-14 18:48:44,245 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:48:47,318 - INFO - ✓ Product added: N-2 ZX CRYSTALLIZER 5 KG
+2026-05-14 18:48:57,025 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:49:00,284 - INFO - ✓ Product added: SP-9 CRYSTALLIZER 1KG
+2026-05-14 18:49:09,474 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:49:12,644 - INFO - ✓ Product added: MPZ CRYSTALLIZER 5KG
+2026-05-14 18:49:23,063 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:49:26,246 - INFO - ✓ Product added: Z-XTRA CYSTALLIZER 5KG
+2026-05-14 18:49:37,679 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:49:41,046 - INFO - ✓ Product added: Z-XTRA CYSTALLIZER 1KG
+2026-05-14 18:49:51,845 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:49:55,146 - INFO - ✓ Product added: Resin 5kg
+2026-05-14 18:50:09,798 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:50:12,987 - INFO - ✓ Product added: Resin 1kg
+2026-05-14 18:50:26,922 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:50:30,089 - INFO - ✓ Product added: Resin T-9 1kg
+2026-05-14 18:50:39,256 - INFO -   → Toggle 'Order Acceptance' clicked
+2026-05-14 18:50:42,557 - INFO - ✓ Product added: Resin 25kg
+2026-05-14 18:50:43,942 - INFO - Browser closed
+2026-05-14 18:50:43,945 - INFO - 
+Task finished at 2026-05-14 18:50:43
+2026-05-14 18:50:43,948 - INFO - Log: automation/logs/full_automation_20260514_184607.log
+

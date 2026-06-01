@@ -1,0 +1,28 @@
+2026-05-19 14:27:06,826 - INFO - User selected: Old Dashboard
+2026-05-19 14:27:10,368 - INFO -   Old Dashboard → Introduction Setting
+2026-05-19 14:27:10,369 - INFO - ============================================================
+2026-05-19 14:27:10,369 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-19 14:27:10,369 - INFO - ============================================================
+2026-05-19 14:27:11,019 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-19 14:27:12,908 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-19 14:27:18,994 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-19 14:27:19,220 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-19 14:27:22,220 - INFO -   → Filling Vendor credentials...
+2026-05-19 14:27:22,607 - INFO -     - Email entered: sales@fineswitches.com
+2026-05-19 14:27:22,608 - INFO -     - Clicking 'login' button...
+2026-05-19 14:27:22,720 - INFO -   → Waiting for successful login redirect...
+2026-05-19 14:27:32,789 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:27:32,793 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-19 14:27:37,911 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-19 14:27:37,955 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-19 14:27:41,065 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-19 14:27:47,424 - INFO -   → Searching for introduction screens data...
+2026-05-19 14:27:47,499 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-05-19 14:27:47,523 - WARNING -     ✗ No rows found in the table.
+2026-05-19 14:27:47,609 - INFO -   📸 Screenshot: automation/screenshots/old_dash_no_rows_found_20260519_142747.png
+2026-05-19 14:27:47,792 - ERROR - No data extracted from old dashboard.
+2026-05-19 14:27:47,792 - INFO - 
+Task finished at 2026-05-19 14:27:47
+2026-05-19 14:27:47,793 - INFO - Log: automation/logs/full_automation_20260519_142657.log
+
+2026-05-19 14:29:03,709 - INFO - Automation cancelled by user (Ctrl+C)

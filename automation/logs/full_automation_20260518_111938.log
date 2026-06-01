@@ -1,0 +1,75 @@
+2026-05-18 11:19:51,788 - INFO - User selected: Old Dashboard
+2026-05-18 11:19:54,314 - INFO -   Old Dashboard → Brand Setting
+2026-05-18 11:19:54,314 - INFO - ============================================================
+2026-05-18 11:19:54,314 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-18 11:19:54,315 - INFO - ============================================================
+2026-05-18 11:19:58,927 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 11:20:09,810 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-18 11:20:09,811 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-18 11:20:19,247 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-18 11:20:21,248 - INFO -     → Filling credentials …
+2026-05-18 11:20:21,950 - INFO -       Email → field #login_txt_id
+2026-05-18 11:20:22,566 - INFO -       Password → field #login_txt_pass
+2026-05-18 11:20:23,251 - INFO -       Login button clicked: #btnVendor
+2026-05-18 11:20:23,252 - INFO -     → Waiting for post-login redirect …
+2026-05-18 11:20:48,024 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-18 11:20:48,032 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-18 11:21:05,162 - INFO - 
+[3/4] Extracting brand data …
+2026-05-18 11:21:09,136 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-18 11:21:09,140 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-18 11:21:09,141 - INFO -   ↩ Already exists, skipping download: splash.png
+2026-05-18 11:21:09,147 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-18 11:21:10,139 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-18 11:21:13,793 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-18 11:21:18,887 - INFO - ✓ Chrome driver initialized
+2026-05-18 11:21:18,889 - INFO - Opening login page...
+2026-05-18 11:21:22,657 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-18 11:21:24,367 - INFO - ✓ Login successful
+2026-05-18 11:21:24,789 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-18 11:21:25,172 - INFO - ✓ Logo  → logo_processed.png  |  62.7 KB  |  PNG lossless
+2026-05-18 11:21:25,508 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-18 11:21:28,052 - INFO - ✓ Splash → splash_processed.png  |  0.70 MB  |  PNG lossless
+2026-05-18 11:21:29,506 - INFO -   Colours extracted from logo:
+2026-05-18 11:21:29,506 - INFO -     Header Color     →  #403080  (dominant logo colour)
+2026-05-18 11:21:29,506 - INFO -     Background Color →  #291F53  (35% darker)
+2026-05-18 11:21:29,507 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-18 11:21:29,507 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-18 11:21:29,596 - INFO - Going to App Settings...
+2026-05-18 11:21:38,763 - INFO -   → Identity & Branding section opened
+2026-05-18 11:21:42,091 - INFO -   → Edit Branding popup opened
+2026-05-18 11:21:43,309 - INFO - ✓ Brand setting form is ready
+2026-05-18 11:21:43,309 - INFO -   Setting company name: ANTIFREEZE REWARD PROGRAM
+2026-05-18 11:21:47,113 - INFO -     → HeaderColor: #403080
+2026-05-18 11:21:49,329 - INFO -     → FooterColor: #F5F5F5
+2026-05-18 11:21:57,114 - INFO -     → BodyColor: #FFFFFF
+2026-05-18 11:21:58,733 - INFO -     → BackgroundColor: #291F53
+2026-05-18 11:22:03,733 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-18 11:22:06,247 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-18 11:22:07,364 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-18 11:22:10,718 - INFO - ✓ Brand settings saved successfully!
+2026-05-18 11:22:10,726 - INFO - Going to App Settings for Support Network...
+2026-05-18 11:22:15,387 - INFO -   → Support Network section opened
+2026-05-18 11:22:18,545 - INFO -   → Edit Support Network popup opened
+2026-05-18 11:22:20,546 - INFO - ✓ Support Network form is ready
+2026-05-18 11:22:20,974 - WARNING -     ⚠ Could not find field for: phone
+2026-05-18 11:22:22,185 - INFO -     ✓ email filled
+2026-05-18 11:22:22,466 - WARNING -     ⚠ Could not find field for: website
+2026-05-18 11:22:24,385 - INFO -     ✓ terms_conditions filled
+2026-05-18 11:22:28,187 - INFO -     ✓ support_content filled
+2026-05-18 11:22:31,404 - INFO -     ✓ privacy_policy filled
+2026-05-18 11:22:32,636 - INFO -   → Save clicked
+2026-05-18 11:22:35,637 - INFO - ✓ Support Network saved successfully!
+2026-05-18 11:22:36,189 - INFO - Browser closed
+2026-05-18 11:22:36,195 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39211): Failed to establish a new connection: [Errno 111] Connection refused")': /session/cc8fa581eccd8c760493daa87fa00aa2
+2026-05-18 11:22:36,197 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39211): Failed to establish a new connection: [Errno 111] Connection refused")': /session/cc8fa581eccd8c760493daa87fa00aa2
+2026-05-18 11:22:36,198 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39211): Failed to establish a new connection: [Errno 111] Connection refused")': /session/cc8fa581eccd8c760493daa87fa00aa2
+2026-05-18 11:22:36,199 - INFO -   Browser closed
+2026-05-18 11:22:36,201 - INFO - 
+Task finished at 2026-05-18 11:22:36
+2026-05-18 11:22:36,202 - INFO - Log: automation/logs/full_automation_20260518_111938.log
+

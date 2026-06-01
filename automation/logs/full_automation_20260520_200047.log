@@ -1,0 +1,360 @@
+2026-05-20 20:01:07,372 - INFO - User selected: Old Dashboard
+2026-05-20 20:01:09,241 - INFO -   Old Dashboard → Brand Setting
+2026-05-20 20:01:09,242 - INFO - ============================================================
+2026-05-20 20:01:09,242 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-20 20:01:09,242 - INFO - ============================================================
+2026-05-20 20:01:10,577 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:01:16,850 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-20 20:01:16,851 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-20 20:01:25,453 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-20 20:01:27,454 - INFO -     → Filling credentials …
+2026-05-20 20:01:28,434 - INFO -       Email → field #login_txt_id
+2026-05-20 20:01:29,404 - INFO -       Password → field #login_txt_pass
+2026-05-20 20:01:30,329 - INFO -       Login button clicked: #btnVendor
+2026-05-20 20:01:30,330 - INFO -     → Waiting for post-login redirect …
+2026-05-20 20:01:53,405 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-20 20:01:53,406 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-20 20:02:13,496 - INFO - 
+[3/4] Extracting brand data …
+2026-05-20 20:02:14,055 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-20 20:02:14,500 - INFO -   ✓ Downloaded: logo.png  (57.9 KB)
+2026-05-20 20:02:14,991 - INFO -   ✓ Downloaded: splash.jpg  (128.7 KB)
+2026-05-20 20:02:14,995 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-20 20:02:15,438 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-20 20:02:16,165 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:02:20,858 - INFO - ✓ Chrome driver initialized
+2026-05-20 20:02:20,859 - INFO - Opening login page...
+2026-05-20 20:02:24,027 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 20:02:27,838 - INFO - ✓ Login successful
+2026-05-20 20:02:27,974 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-20 20:02:28,367 - INFO - ✓ Logo  → logo_processed.png  |  78.9 KB  |  PNG lossless
+2026-05-20 20:02:28,601 - INFO - ✓ Splash → splash_processed.jpg  |  0.16 MB  |  JPEG q90
+2026-05-20 20:02:29,103 - INFO -   No saturated colour found — using darkest neutral tone
+2026-05-20 20:02:29,490 - INFO -   Colours extracted from logo:
+2026-05-20 20:02:29,491 - INFO -     Header Color     →  #080808  (dominant logo colour)
+2026-05-20 20:02:29,491 - INFO -     Background Color →  #050505  (35% darker)
+2026-05-20 20:02:29,492 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-20 20:02:29,492 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-20 20:02:29,519 - INFO - Going to App Settings...
+2026-05-20 20:02:36,875 - INFO -   → Identity & Branding section opened
+2026-05-20 20:02:39,270 - INFO -   → Edit Branding popup opened
+2026-05-20 20:02:39,352 - INFO - ✓ Brand setting form is ready
+2026-05-20 20:02:39,352 - INFO -   Setting company name: SHERKOTTI
+2026-05-20 20:02:42,006 - INFO -     → HeaderColor: #080808
+2026-05-20 20:02:43,746 - INFO -     → FooterColor: #F5F5F5
+2026-05-20 20:02:45,299 - INFO -     → BodyColor: #FFFFFF
+2026-05-20 20:02:47,199 - INFO -     → BackgroundColor: #050505
+2026-05-20 20:02:49,531 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-20 20:02:51,611 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-05-20 20:02:52,003 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-20 20:02:55,030 - INFO - ✓ Brand settings saved successfully!
+2026-05-20 20:02:55,030 - INFO - Going to App Settings for Support Network...
+2026-05-20 20:02:58,915 - INFO -   → Support Network section opened
+2026-05-20 20:03:02,012 - INFO -   → Edit Support Network popup opened
+2026-05-20 20:03:04,013 - INFO - ✓ Support Network form is ready
+2026-05-20 20:03:04,997 - INFO -     ✓ phone filled
+2026-05-20 20:03:05,657 - INFO -     ✓ email filled
+2026-05-20 20:03:06,461 - INFO -     ✓ website filled
+2026-05-20 20:03:07,197 - INFO -     ✓ terms_conditions filled
+2026-05-20 20:03:09,278 - INFO -     ✓ support_content filled
+2026-05-20 20:03:09,278 - INFO -     ⏭ Skipping empty field: privacy_policy
+2026-05-20 20:03:10,394 - INFO -   → Save clicked
+2026-05-20 20:03:13,397 - INFO - ✓ Support Network saved successfully!
+2026-05-20 20:03:13,917 - INFO - Browser closed
+2026-05-20 20:03:13,919 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=42159): Failed to establish a new connection: [Errno 111] Connection refused")': /session/88d5058dba379e30aff7fb1927429054
+2026-05-20 20:03:13,920 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=42159): Failed to establish a new connection: [Errno 111] Connection refused")': /session/88d5058dba379e30aff7fb1927429054
+2026-05-20 20:03:13,921 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=42159): Failed to establish a new connection: [Errno 111] Connection refused")': /session/88d5058dba379e30aff7fb1927429054
+2026-05-20 20:03:13,923 - INFO -   Browser closed
+2026-05-20 20:03:13,923 - INFO - 
+Task finished at 2026-05-20 20:03:13
+2026-05-20 20:03:13,923 - INFO - Log: automation/logs/full_automation_20260520_200047.log
+
+2026-05-20 20:06:03,077 - INFO - User selected: Old Dashboard
+2026-05-20 20:06:04,852 - INFO -   Old Dashboard → Brand Setting
+2026-05-20 20:06:04,852 - INFO - ============================================================
+2026-05-20 20:06:04,853 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-20 20:06:04,853 - INFO - ============================================================
+2026-05-20 20:06:05,319 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:06:06,680 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-20 20:06:06,680 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-20 20:06:13,315 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-20 20:06:15,316 - INFO -     → Filling credentials …
+2026-05-20 20:06:15,601 - INFO -       Email → field #login_txt_id
+2026-05-20 20:06:15,733 - INFO -       Password → field #login_txt_pass
+2026-05-20 20:06:15,844 - INFO -       Login button clicked: #btnVendor
+2026-05-20 20:06:15,844 - INFO -     → Waiting for post-login redirect …
+2026-05-20 20:07:16,026 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-20 20:07:16,027 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-20 20:07:30,554 - INFO - 
+[3/4] Extracting brand data …
+2026-05-20 20:07:30,835 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-20 20:07:30,835 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-20 20:07:30,836 - INFO -   ↩ Already exists, skipping download: splash.jpg
+2026-05-20 20:07:30,837 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-20 20:07:30,964 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-20 20:07:31,381 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:07:32,498 - INFO - ✓ Chrome driver initialized
+2026-05-20 20:07:32,499 - INFO - Opening login page...
+2026-05-20 20:07:34,048 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 20:07:37,131 - INFO - ✓ Login successful
+2026-05-20 20:07:37,163 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-20 20:07:37,387 - INFO - ✓ Logo  → logo_processed.png  |  78.9 KB  |  PNG lossless
+2026-05-20 20:07:37,545 - INFO - ✓ Splash → splash_processed.jpg  |  0.16 MB  |  JPEG q90
+2026-05-20 20:07:37,824 - INFO -   No saturated colour found — using darkest neutral tone
+2026-05-20 20:07:38,006 - INFO -   Colours extracted from logo:
+2026-05-20 20:07:38,006 - INFO -     Header Color     →  #080808  (dominant logo colour)
+2026-05-20 20:07:38,006 - INFO -     Background Color →  #050505  (35% darker)
+2026-05-20 20:07:38,006 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-20 20:07:38,007 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-20 20:07:38,020 - INFO - Going to App Settings...
+2026-05-20 20:07:44,516 - INFO -   → Identity & Branding section opened
+2026-05-20 20:07:46,710 - INFO -   → Edit Branding popup opened
+2026-05-20 20:07:46,724 - INFO - ✓ Brand setting form is ready
+2026-05-20 20:07:46,724 - INFO -   Setting company name: SHERKOTTI
+2026-05-20 20:07:47,578 - INFO -     → HeaderColor: #080808
+2026-05-20 20:07:48,255 - INFO -     → FooterColor: #F5F5F5
+2026-05-20 20:07:48,899 - INFO -     → BodyColor: #FFFFFF
+2026-05-20 20:07:49,567 - INFO -     → BackgroundColor: #050505
+2026-05-20 20:07:51,611 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-20 20:07:53,638 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-05-20 20:07:53,763 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-20 20:07:56,787 - INFO - ✓ Brand settings saved successfully!
+2026-05-20 20:07:56,788 - INFO - Going to App Settings for Support Network...
+2026-05-20 20:08:00,047 - INFO -   → Support Network section opened
+2026-05-20 20:08:03,123 - INFO -   → Edit Support Network popup opened
+2026-05-20 20:08:05,124 - INFO - ✓ Support Network form is ready
+2026-05-20 20:08:05,310 - INFO -     ✓ phone filled
+2026-05-20 20:08:05,481 - INFO -     ✓ email filled
+2026-05-20 20:08:05,781 - INFO -     ✓ website filled
+2026-05-20 20:08:06,099 - INFO -     ✓ terms_conditions filled
+2026-05-20 20:08:07,036 - INFO -     ✓ support_content filled
+2026-05-20 20:08:07,395 - INFO -     ✓ privacy_policy filled
+2026-05-20 20:08:08,429 - INFO -   → Save clicked
+2026-05-20 20:08:11,430 - INFO - ✓ Support Network saved successfully!
+2026-05-20 20:08:11,545 - INFO - Browser closed
+2026-05-20 20:08:11,546 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49173): Failed to establish a new connection: [Errno 111] Connection refused")': /session/98b4fcdb74b00beaf38c304b791f977b
+2026-05-20 20:08:11,547 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49173): Failed to establish a new connection: [Errno 111] Connection refused")': /session/98b4fcdb74b00beaf38c304b791f977b
+2026-05-20 20:08:11,547 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49173): Failed to establish a new connection: [Errno 111] Connection refused")': /session/98b4fcdb74b00beaf38c304b791f977b
+2026-05-20 20:08:11,548 - INFO -   Browser closed
+2026-05-20 20:08:11,548 - INFO - 
+Task finished at 2026-05-20 20:08:11
+2026-05-20 20:08:11,548 - INFO - Log: automation/logs/full_automation_20260520_200047.log
+
+2026-05-20 20:08:13,631 - INFO - User selected: Old Dashboard
+2026-05-20 20:08:17,152 - INFO -   Old Dashboard → Introduction Setting
+2026-05-20 20:08:17,153 - INFO - ============================================================
+2026-05-20 20:08:17,154 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-20 20:08:17,154 - INFO - ============================================================
+2026-05-20 20:08:17,560 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:08:18,657 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-20 20:08:25,793 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-20 20:08:26,045 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-20 20:08:29,046 - INFO -   → Filling Vendor credentials...
+2026-05-20 20:08:29,447 - INFO -     - Email entered: charminardesign@gmail.com
+2026-05-20 20:08:29,447 - INFO -     - Clicking 'login' button...
+2026-05-20 20:08:29,525 - INFO -   → Waiting for successful login redirect...
+2026-05-20 20:08:43,000 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-20 20:08:43,006 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-20 20:08:48,093 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-20 20:08:48,133 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-20 20:08:51,250 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-20 20:09:03,224 - INFO -   → Searching for introduction screens data...
+2026-05-20 20:09:03,312 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-05-20 20:09:03,397 - INFO -     → Found 2 potential rows to extract
+2026-05-20 20:09:03,483 - INFO -     → Downloading image for: Loyalty App – Strengthening Pa...
+2026-05-20 20:09:04,049 - INFO -     ✓ Extracted 1/2
+2026-05-20 20:09:04,133 - INFO -     → Downloading image for: SHERKOTTI Painter Loyalty App...
+2026-05-20 20:09:04,644 - INFO -     ✓ Extracted 2/2
+2026-05-20 20:09:04,797 - INFO - ✓ Extracted 2 screens.
+2026-05-20 20:09:04,797 - INFO - 
+============================================================
+2026-05-20 20:09:04,797 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-05-20 20:09:04,797 - INFO - ============================================================
+2026-05-20 20:09:04,798 - INFO -   ⚙ Processing old_intro_1_20260520_200903.jpg  (867×1300 → need 1080×1920)
+2026-05-20 20:09:04,950 - INFO -   ✓ old_intro_1_20260520_200903.jpg  →  old_intro_1_20260520_200903_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-05-20 20:09:04,951 - INFO -   ⚙ Processing old_intro_2_20260520_200904.jpg  (894×1300 → need 1080×1920)
+2026-05-20 20:09:05,102 - INFO -   ✓ old_intro_2_20260520_200904.jpg  →  old_intro_2_20260520_200904_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-05-20 20:09:05,102 - INFO - 
+============================================================
+2026-05-20 20:09:05,102 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-05-20 20:09:05,102 - INFO - ============================================================
+2026-05-20 20:09:05,508 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:09:06,588 - INFO - ✓ Chrome driver initialized
+2026-05-20 20:09:06,588 - INFO - Opening login page...
+2026-05-20 20:09:08,370 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 20:09:11,424 - INFO - ✓ Login successful
+2026-05-20 20:09:11,425 - INFO - Going to App Settings...
+2026-05-20 20:09:18,118 - INFO -   → Intro Screens section opened
+2026-05-20 20:09:18,158 - INFO - ✓ Intro Screens page ready
+2026-05-20 20:09:18,158 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-20 20:09:18,158 - INFO - ============================================================
+2026-05-20 20:09:18,159 - INFO - [1/2]
+2026-05-20 20:09:18,160 - INFO -   Launching screen: [Loyalty App – Strengthening Painter Engagement Thr]
+2026-05-20 20:09:20,582 - INFO -     → Header: Loyalty App – Strengthening Painter Engagement Through Rewards
+2026-05-20 20:09:21,669 - INFO -     → Description: SHERKOTTI is taking a strategic step toward strengthening it...
+2026-05-20 20:09:23,750 - INFO -     → Image uploaded: old_intro_1_20260520_200903_processed.jpg
+2026-05-20 20:09:23,888 - INFO -     → Launch Screen clicked
+2026-05-20 20:09:27,921 - INFO -   ✓ Intro screen launched: Loyalty App – Strengthening Painter Engagement Through Rewards
+
+2026-05-20 20:09:28,921 - INFO - [2/2]
+2026-05-20 20:09:28,922 - INFO -   Launching screen: [SHERKOTTI Painter Loyalty App]
+2026-05-20 20:09:31,274 - INFO -     → Header: SHERKOTTI Painter Loyalty App
+2026-05-20 20:09:32,616 - INFO -     → Description: SHERKOTTI is a smart painter loyalty app designed to reward ...
+2026-05-20 20:09:34,661 - INFO -     → Image uploaded: old_intro_2_20260520_200904_processed.jpg
+2026-05-20 20:09:34,770 - INFO -     → Launch Screen clicked
+2026-05-20 20:09:38,780 - INFO -   ✓ Intro screen launched: SHERKOTTI Painter Loyalty App
+
+2026-05-20 20:09:39,780 - INFO - ============================================================
+2026-05-20 20:09:39,780 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-20 20:09:39,947 - INFO - Browser closed
+2026-05-20 20:09:39,947 - INFO - 
+Task finished at 2026-05-20 20:09:39
+2026-05-20 20:09:39,947 - INFO - Log: automation/logs/full_automation_20260520_200047.log
+
+2026-05-20 20:09:45,944 - INFO - User selected: Old Dashboard
+2026-05-20 20:09:48,087 - INFO -   Old Dashboard → Banner BL
+2026-05-20 20:09:48,088 - INFO - ============================================================
+2026-05-20 20:09:48,088 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-05-20 20:09:48,088 - INFO - ============================================================
+2026-05-20 20:09:48,498 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:09:49,626 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-20 20:09:55,968 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-20 20:09:56,221 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-20 20:09:59,222 - INFO -   → Filling Vendor credentials...
+2026-05-20 20:09:59,624 - INFO -     - Email entered: charminardesign@gmail.com
+2026-05-20 20:09:59,624 - INFO -     - Clicking 'login' button...
+2026-05-20 20:09:59,714 - INFO -   → Waiting for successful login redirect...
+2026-05-20 20:10:08,801 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-20 20:10:08,808 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-20 20:10:13,895 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-20 20:10:13,944 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-20 20:10:17,066 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-05-20 20:10:23,222 - INFO -   → Searching for banner images data...
+2026-05-20 20:10:23,339 - INFO -     ✓ Found 3 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-05-20 20:10:23,342 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/Vcqrubanner-3.jpg
+2026-05-20 20:10:23,770 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/Vcqrubanner-2.jpg
+2026-05-20 20:10:24,277 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/Vcqrubanner-1.jpg
+2026-05-20 20:10:24,880 - INFO - ✓ Extracted 3 banners.
+2026-05-20 20:10:24,880 - INFO - 
+============================================================
+2026-05-20 20:10:24,880 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-05-20 20:10:24,880 - INFO - ============================================================
+2026-05-20 20:10:24,881 - INFO -   ✓ old_banner_1_20260520_201023.jpg  →  Already OK  (1920×1080, 0.19 MB)
+2026-05-20 20:10:24,961 - INFO -   ✓ old_banner_2_20260520_201023.jpg  →  Already OK  (1920×1080, 0.32 MB)
+2026-05-20 20:10:25,068 - INFO -   ✓ old_banner_3_20260520_201024.jpg  →  Already OK  (1920×1080, 0.31 MB)
+2026-05-20 20:10:25,166 - INFO - 
+============================================================
+2026-05-20 20:10:25,166 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-05-20 20:10:25,166 - INFO - ============================================================
+2026-05-20 20:10:25,575 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:10:26,675 - INFO - ✓ Chrome driver initialized
+2026-05-20 20:10:26,675 - INFO - Opening login page...
+2026-05-20 20:10:28,233 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 20:10:30,412 - INFO - ✓ Login successful
+2026-05-20 20:10:30,413 - INFO - Going to App Settings...
+2026-05-20 20:10:37,072 - INFO -   → Promotion Banners section opened
+2026-05-20 20:10:37,110 - INFO - ✓ Promotion Banners page ready
+2026-05-20 20:10:37,110 - INFO - Starting batch  —  3 banner(s) to publish
+2026-05-20 20:10:37,110 - INFO - ============================================================
+2026-05-20 20:10:37,110 - INFO - [1/3]
+2026-05-20 20:10:37,110 - INFO -   Publishing: [old_banner_1]  (old_banner_1_20260520_201023_processed.jpg)
+2026-05-20 20:10:39,369 - INFO -     → Title entered: old_banner_1
+2026-05-20 20:10:41,421 - INFO -     → Image uploaded: old_banner_1_20260520_201023_processed.jpg
+2026-05-20 20:10:41,540 - INFO -     → Publish Banner clicked
+2026-05-20 20:10:45,570 - INFO -   ✓ Banner published: old_banner_1
+
+2026-05-20 20:10:46,571 - INFO - [2/3]
+2026-05-20 20:10:46,571 - INFO -   Publishing: [old_banner_2]  (old_banner_2_20260520_201023_processed.jpg)
+2026-05-20 20:10:48,860 - INFO -     → Title entered: old_banner_2
+2026-05-20 20:10:50,910 - INFO -     → Image uploaded: old_banner_2_20260520_201023_processed.jpg
+2026-05-20 20:10:51,063 - INFO -     → Publish Banner clicked
+2026-05-20 20:10:55,091 - INFO -   ✓ Banner published: old_banner_2
+
+2026-05-20 20:10:56,092 - INFO - [3/3]
+2026-05-20 20:10:56,092 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260520_201024_processed.jpg)
+2026-05-20 20:10:58,389 - INFO -     → Title entered: old_banner_3
+2026-05-20 20:11:00,432 - INFO -     → Image uploaded: old_banner_3_20260520_201024_processed.jpg
+2026-05-20 20:11:00,526 - INFO -     → Publish Banner clicked
+2026-05-20 20:11:04,560 - INFO -   ✓ Banner published: old_banner_3
+
+2026-05-20 20:11:05,560 - INFO - ============================================================
+2026-05-20 20:11:05,561 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-05-20 20:11:05,699 - INFO - Browser closed
+2026-05-20 20:11:05,700 - INFO - 
+Task finished at 2026-05-20 20:11:05
+2026-05-20 20:11:05,700 - INFO - Log: automation/logs/full_automation_20260520_200047.log
+
+2026-05-20 20:11:08,014 - INFO - User selected: Old Dashboard
+2026-05-20 20:12:08,501 - INFO - User selected: Registration Fields
+2026-05-20 20:12:08,501 - INFO - ============================================================
+2026-05-20 20:12:08,501 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-20 20:12:08,501 - INFO - ============================================================
+2026-05-20 20:12:09,264 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.178); currently, chromedriver 148.0.7778.178 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-20 20:12:11,355 - INFO - ✓ Chrome driver initialized
+2026-05-20 20:12:11,355 - INFO - Opening login page...
+2026-05-20 20:12:13,595 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-20 20:12:15,154 - INFO - ✓ Login successful
+2026-05-20 20:12:17,156 - INFO - Going to App Settings...
+2026-05-20 20:12:19,256 - INFO -   → Registration Field section opened
+2026-05-20 20:12:19,513 - INFO - ✓ Registration Fields page ready
+2026-05-20 20:12:20,654 - INFO - Found 1 user types: ['Painter']
+2026-05-20 20:12:20,654 - INFO - Starting registration fields automation: 6 fields total
+2026-05-20 20:12:20,655 - INFO - ============================================================
+2026-05-20 20:12:20,655 - INFO - Processing User Type: Painter
+2026-05-20 20:12:20,655 - INFO -   Adding field: [Painter] -> First Name
+2026-05-20 20:12:21,576 - INFO -     → User Type selected: Painter
+2026-05-20 20:12:42,254 - INFO -     → System Data Point selected: First Name
+2026-05-20 20:12:42,330 - INFO -     → Mandatory toggle enabled
+2026-05-20 20:12:42,842 - INFO -     → Integrate Now clicked
+2026-05-20 20:12:43,039 - INFO -   ✓ Field added successfully: First Name
+
+2026-05-20 20:12:43,341 - INFO -   Adding field: [Painter] -> Phone Number
+2026-05-20 20:12:44,625 - INFO -     → User Type selected: Painter
+2026-05-20 20:13:04,991 - INFO -     → System Data Point selected: Phone Number
+2026-05-20 20:13:05,112 - INFO -     → Mandatory toggle enabled
+2026-05-20 20:13:05,520 - INFO -     → Integrate Now clicked
+2026-05-20 20:13:05,666 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-05-20 20:13:05,968 - INFO -   Adding field: [Painter] -> Pincode
+2026-05-20 20:13:06,946 - INFO -     → User Type selected: Painter
+2026-05-20 20:13:27,185 - INFO -     → System Data Point selected: Pincode
+2026-05-20 20:13:27,227 - INFO -     → Mandatory toggle enabled
+2026-05-20 20:13:27,399 - INFO -     → Integrate Now clicked
+2026-05-20 20:13:27,431 - INFO -   ✓ Field added successfully: Pincode
+
+2026-05-20 20:13:27,732 - INFO -   Adding field: [Painter] -> City
+2026-05-20 20:13:28,424 - INFO -     → User Type selected: Painter
+2026-05-20 20:13:48,998 - INFO -     → System Data Point selected: City
+2026-05-20 20:13:49,172 - INFO -     → Mandatory toggle enabled
+2026-05-20 20:13:49,515 - INFO -     → Integrate Now clicked
+2026-05-20 20:13:49,579 - INFO -   ✓ Field added successfully: City
+
+2026-05-20 20:13:49,879 - INFO -   Adding field: [Painter] -> State
+2026-05-20 20:13:50,982 - INFO -     → User Type selected: Painter
+2026-05-20 20:14:11,572 - INFO -     → System Data Point selected: State
+2026-05-20 20:14:11,606 - INFO -     → Mandatory toggle enabled
+2026-05-20 20:14:11,843 - INFO -     → Integrate Now clicked
+2026-05-20 20:14:12,010 - INFO -   ✓ Field added successfully: State
+
+2026-05-20 20:14:12,310 - INFO -   Adding field: [Painter] -> Address
+2026-05-20 20:14:12,684 - INFO -     → User Type selected: Painter
+2026-05-20 20:14:33,034 - INFO -     → System Data Point selected: Address
+2026-05-20 20:14:33,117 - INFO -     → Mandatory toggle enabled
+2026-05-20 20:14:33,259 - INFO -     → Integrate Now clicked
+2026-05-20 20:14:33,291 - INFO -   ✓ Field added successfully: Address
+
+2026-05-20 20:14:33,591 - INFO - ============================================================
+2026-05-20 20:14:33,592 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-05-20 20:14:33,693 - INFO - Browser closed
+2026-05-20 20:14:33,694 - INFO - 
+Task finished at 2026-05-20 20:14:33
+2026-05-20 20:14:33,694 - INFO - Log: automation/logs/full_automation_20260520_200047.log
+

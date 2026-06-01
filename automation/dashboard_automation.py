@@ -13,9 +13,11 @@ from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
 
 logger = logging.getLogger(__name__)
 
@@ -46,7 +48,24 @@ class VendorPortalAutomation:
             if self.headless:
                 opts.add_argument("--headless=new")
 
-            self.driver = webdriver.Chrome(options=opts)
+            # ── Force the system Chrome binary so its version is known ──
+            # Selenium's own manager may have cached a newer Chrome in
+            # ~/.cache/selenium that doesn't match the system chromedriver.
+            # By pinning the binary to the system installation we ensure
+            # ChromeDriverManager downloads a driver of the exact same version.
+            import shutil
+            system_chrome = (
+                shutil.which("google-chrome-stable")
+                or shutil.which("google-chrome")
+                or shutil.which("chromium-browser")
+                or shutil.which("chromium")
+            )
+            if system_chrome:
+                opts.binary_location = system_chrome
+                logger.info(f"  Using system Chrome binary: {system_chrome}")
+
+            service = Service(ChromeDriverManager().install())
+            self.driver = webdriver.Chrome(service=service, options=opts)
             self.driver.set_page_load_timeout(30)
             self.driver.maximize_window()
             logger.info("✓ Chrome driver initialized")
@@ -73,7 +92,29 @@ class VendorPortalAutomation:
 
             # 3) Click Sign In  (the submit button)
             self.driver.find_element(By.XPATH, "//button[@type='submit']").click()
-            logger.info("  → Credentials submitted, waiting for dashboard...")
+            logger.info("  → Credentials submitted, waiting for dashboard or select service...")
+
+            # Check for "Select service" modal/popup
+            try:
+                # Wait up to 5 seconds for the Continue button to appear
+                continue_btn = WebDriverWait(self.driver, 5).until(
+                    EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Continue To Dashboard') or contains(text(), 'Continue')]"))
+                )
+                logger.info("  → 'Select Service' popup detected, proceeding...")
+                
+                # Double check the agreement checkbox
+                try:
+                    agree_cb = self.driver.find_element(By.XPATH, "//input[@type='checkbox']")
+                    if not agree_cb.is_selected():
+                        self.driver.execute_script("arguments[0].click();", agree_cb)
+                        logger.info("    ✓ Agreed to policies checkbox checked")
+                except Exception:
+                    pass
+                
+                self.driver.execute_script("arguments[0].click();", continue_btn)
+                logger.info("    ✓ Clicked 'Continue To Dashboard'")
+            except Exception as popup_e:
+                logger.debug(f"  No 'Select Service' popup detected or skipped: {popup_e}")
 
             # 4) Wait until URL contains /vendor/dashboard
             WebDriverWait(self.driver, self.wait_time).until(
@@ -220,6 +261,46 @@ class VendorPortalAutomation:
             name_field.clear()
             name_field.send_keys(icon_data["display_title"])
             logger.info(f"    → Display title: {icon_data['display_title']}")
+
+            # ── 4.5 Enter Icon Color if present ─────────────────
+            hex_color = icon_data.get("icon_color")
+            if hex_color:
+                try:
+                    # Sync color picker visually
+                    color_inputs = self.driver.find_elements(By.NAME, "IconColor")
+                    color_picker = None
+                    color_text = None
+                    for ci in color_inputs:
+                        if ci.get_attribute("type") == "color":
+                            color_picker = ci
+                        elif ci.get_attribute("type") == "text":
+                            color_text = ci
+                    
+                    if color_picker:
+                        self.driver.execute_script(
+                            """
+                            var setter = Object.getOwnPropertyDescriptor(
+                                window.HTMLInputElement.prototype, 'value').set;
+                            setter.call(arguments[0], arguments[1]);
+                            arguments[0].dispatchEvent(new Event('input',  {bubbles:true}));
+                            arguments[0].dispatchEvent(new Event('change', {bubbles:true}));
+                            """,
+                            color_picker,
+                            hex_color,
+                        )
+                    
+                    if color_text:
+                        from selenium.webdriver.common.keys import Keys
+                        color_text.click()
+                        time.sleep(0.1)
+                        color_text.send_keys(Keys.CONTROL + "a")
+                        color_text.send_keys(Keys.DELETE)
+                        color_text.send_keys(hex_color)
+                        time.sleep(0.1)
+                        self.driver.execute_script("arguments[0].blur()", color_text)
+                    logger.info(f"    → Icon color: {hex_color}")
+                except Exception as ce:
+                    logger.warning(f"    ⚠ Could not set icon color: {ce}")
 
             # ── 5. Toggle option ────────────────────────────────
             toggle = icon_data.get("toggle_option", "both").lower()

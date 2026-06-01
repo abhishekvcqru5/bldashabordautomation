@@ -1,0 +1,95 @@
+2026-06-01 01:58:04,804 - INFO - User selected: Dashboard Icons
+2026-06-01 01:58:04,805 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-06-01 01:58:04,805 - INFO - Automation started at 2026-06-01 01:58:04
+
+2026-06-01 01:58:04,805 - INFO - ============================================================
+2026-06-01 01:58:04,805 - INFO - STEP 1: Processing and Compressing Images
+2026-06-01 01:58:04,805 - INFO - ============================================================
+2026-06-01 01:58:04,805 - INFO - Processing images from: dashboardicons
+2026-06-01 01:58:04,805 - INFO - Output folder: automation/processed_images
+2026-06-01 01:58:04,806 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-01 01:58:04,865 - INFO - ✓ Processed: Scan History.png | Size: 30.7 KB | Quality: 95
+2026-06-01 01:58:04,891 - INFO - ✓ Processed: Support.png | Size: 19.2 KB | Quality: 95
+2026-06-01 01:58:04,915 - INFO - ✓ Processed: Rewards.png | Size: 18.8 KB | Quality: 95
+2026-06-01 01:58:04,943 - INFO - ✓ Processed: Ecommerce.png | Size: 35.2 KB | Quality: 95
+2026-06-01 01:58:04,968 - INFO - ✓ Processed: Scan Activity.png | Size: 24.6 KB | Quality: 95
+2026-06-01 01:58:04,991 - INFO - ✓ Processed: Product Catalog.png | Size: 21.4 KB | Quality: 95
+2026-06-01 01:58:05,017 - INFO - ✓ Processed: Blog.png | Size: 28.6 KB | Quality: 95
+2026-06-01 01:58:05,043 - INFO - ✓ Processed: Prospectus.png | Size: 20.2 KB | Quality: 95
+2026-06-01 01:58:05,064 - INFO - ✓ Processed: Language.png | Size: 17.5 KB | Quality: 95
+2026-06-01 01:58:05,090 - INFO - ✓ Processed: Refer & Earn.png | Size: 24.8 KB | Quality: 95
+2026-06-01 01:58:05,133 - INFO - ✓ Processed: KYC.png | Size: 45.1 KB | Quality: 90
+2026-06-01 01:58:05,157 - INFO - ✓ Processed: TDS.png | Size: 21.8 KB | Quality: 95
+2026-06-01 01:58:05,179 - INFO - ✓ Processed: Nearby Retailers.png | Size: 27.6 KB | Quality: 95
+2026-06-01 01:58:05,204 - INFO - ✓ Processed: My Wallet.png | Size: 22.4 KB | Quality: 95
+2026-06-01 01:58:05,226 - INFO - ✓ Processed: Updates.png | Size: 24.0 KB | Quality: 95
+2026-06-01 01:58:05,254 - INFO - ✓ Processed: Installation Guide.png | Size: 30.1 KB | Quality: 95
+2026-06-01 01:58:05,278 - INFO - ✓ Processed: Activity.png | Size: 30.7 KB | Quality: 95
+2026-06-01 01:58:05,301 - INFO - ✓ Processed: Send Points.png | Size: 23.0 KB | Quality: 95
+2026-06-01 01:58:05,301 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-01 01:58:05,301 - INFO - ✓ 18 images processed and ready
+
+2026-06-01 01:58:05,302 - INFO - ============================================================
+2026-06-01 01:58:05,302 - INFO - STEP 2: Preparing Authentication
+2026-06-01 01:58:05,302 - INFO - ============================================================
+2026-06-01 01:58:05,302 - INFO - Using email: mahesh@vcqru.com
+2026-06-01 01:58:05,302 - INFO - ✓ Credentials loaded
+
+2026-06-01 01:58:08,659 - INFO - Target User Type: User
+2026-06-01 01:58:08,659 - INFO - ============================================================
+2026-06-01 01:58:08,659 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-06-01 01:58:08,660 - INFO - ============================================================
+2026-06-01 01:58:08,660 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-06-01 01:58:08,661 - INFO - ====== WebDriver manager ======
+2026-06-01 01:58:09,228 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 01:58:09,341 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 01:58:09,461 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-06-01 01:58:11,514 - INFO - ✓ Chrome driver initialized
+2026-06-01 01:58:11,514 - INFO - 
+→ Attempting login...
+
+2026-06-01 01:58:11,515 - INFO - Opening login page...
+2026-06-01 01:58:14,157 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-01 01:58:14,800 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-01 01:58:14,932 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-01 01:58:14,988 - INFO - ✓ Login successful
+2026-06-01 01:58:16,997 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-01 01:58:16,998 - INFO - Navigating to App Settings...
+2026-06-01 01:58:24,563 - INFO - ✓ Dashboard Icons section loaded
+2026-06-01 01:58:26,564 - INFO - 
+→ Starting batch upload of 12 icons...
+
+2026-06-01 01:58:26,564 - INFO - Starting batch – 12 configured entries
+2026-06-01 01:58:26,564 - INFO - Total icons to upload after expansion: 12
+2026-06-01 01:58:26,564 - INFO - ============================================================
+2026-06-01 01:58:26,564 - INFO - [1/12]
+2026-06-01 01:58:26,564 - INFO -   Adding: [User] Gift  (gift)
+2026-06-01 01:58:29,856 - INFO -     → User type: User
+2026-06-01 01:58:30,165 - INFO -     → Icon identity: gift
+2026-06-01 01:58:30,571 - INFO -     → Display title: Gift
+2026-06-01 01:58:30,777 - INFO -     → Toggle: both
+2026-06-01 01:58:33,083 - INFO -     → Image uploaded: Gift.png
+2026-06-01 01:58:33,285 - INFO -     → Form submitted
+2026-06-01 01:58:34,303 - INFO -   ✓ Icon added: Gift
+
+2026-06-01 01:58:35,304 - INFO - [2/12]
+2026-06-01 01:58:35,304 - INFO -   Adding: [User] History  (history)
+2026-06-01 01:58:38,429 - INFO -     → User type: User
+2026-06-01 01:58:38,737 - INFO -     → Icon identity: history
+2026-06-01 01:58:38,969 - INFO -     → Display title: History
+2026-06-01 01:58:39,054 - INFO -     → Toggle: both
+2026-06-01 01:58:39,755 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/8d162642edc8891048c82c0a12960b8a
+2026-06-01 01:58:39,756 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51365): Failed to establish a new connection: [Errno 111] Connection refused")': /session/8d162642edc8891048c82c0a12960b8a
+2026-06-01 01:58:39,758 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51365): Failed to establish a new connection: [Errno 111] Connection refused")': /session/8d162642edc8891048c82c0a12960b8a
+2026-06-01 01:58:39,761 - INFO - Browser closed
+2026-06-01 01:58:39,761 - INFO - Automation cancelled by user (Ctrl+C)

@@ -11,10 +11,20 @@ from pathlib import Path
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
+from selenium.common.exceptions import (
+    TimeoutException, NoSuchElementException, StaleElementReferenceException
+)
 
 logger = logging.getLogger(__name__)
 
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
+
+# XPaths kept as constants to avoid rebuilding strings repeatedly
+_XPATH_ADD_BTN   = "//button[contains(text(),'Add Registration Field')]"
+_XPATH_INTEGRATE = "//button[contains(text(),'Integrate Now')]"
+_XPATH_CANCEL    = "//button[contains(text(),'Cancel') or contains(text(),'Discard')]"
+_XPATH_REG_FIELD = "//button[contains(.,'Registration Field')]"
+
 
 class RegistrationFieldsAutomation:
     """
@@ -24,15 +34,21 @@ class RegistrationFieldsAutomation:
 
     def __init__(self, driver, wait_time=20):
         self.driver = driver
-        self.wait = WebDriverWait(driver, wait_time)
+        self.wait = WebDriverWait(driver, wait_time, poll_frequency=0.3)
+        # Shorter wait used for quick checks where failure is acceptable
+        self._short_wait = WebDriverWait(driver, 5, poll_frequency=0.2)
         self.fields_to_add = [
             "First Name",
             "Phone Number",
             "Pincode",
             "City",
             "State",
-            "Address"
+            "Address",
         ]
+
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
 
     def _ss(self, name):
         """Take a screenshot for debugging."""
@@ -45,30 +61,62 @@ class RegistrationFieldsAutomation:
         except Exception as e:
             logger.warning(f"Screenshot failed: {e}")
 
+    def _wait_clickable(self, by, value, wait=None):
+        """Return a clickable element, retrying on stale refs."""
+        w = wait or self.wait
+        return w.until(EC.element_to_be_clickable((by, value)))
+
+    def _wait_present(self, by, value, wait=None):
+        """Return an element once present in the DOM."""
+        w = wait or self.wait
+        return w.until(EC.presence_of_element_located((by, value)))
+
+    def _close_popup(self):
+        """Close an open modal as fast as possible."""
+        for xpath in (_XPATH_CANCEL, "//button[@aria-label='Close']",
+                      "//button[contains(@class,'close')]"):
+            try:
+                self._short_wait.until(
+                    EC.element_to_be_clickable((By.XPATH, xpath))
+                ).click()
+                return
+            except (TimeoutException, NoSuchElementException):
+                continue
+        # Last resort: Escape key
+        try:
+            from selenium.webdriver.common.keys import Keys
+            self.driver.find_element(By.TAG_NAME, "body").send_keys(Keys.ESCAPE)
+        except Exception:
+            pass
+
+    def _wait_for_add_btn(self):
+        """Wait until the 'Add Registration Field' button is visible and clickable."""
+        return self._wait_clickable(By.XPATH, _XPATH_ADD_BTN)
+
+    def _open_add_popup(self):
+        """Click 'Add Registration Field' and wait for the UserType dropdown."""
+        self._wait_for_add_btn().click()
+        return self._wait_present(By.NAME, "UserType")
+
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
+
     def navigate(self):
         """Navigate to App Settings -> Registration Field section."""
         try:
             logger.info("Going to App Settings...")
             self.driver.get(APP_SETTINGS)
-            time.sleep(3)
 
-            # Click "Registration Field" button (usually a card or list item)
-            self.wait.until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(.,'Registration Field')]")
-                )
-            ).click()
-            time.sleep(3)
+            # Wait for the Registration Field card/button — no blind sleep
+            self._wait_clickable(By.XPATH, _XPATH_REG_FIELD).click()
             logger.info("  → Registration Field section opened")
 
-            # Confirm "Add Registration Field" button is present
-            self.wait.until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//button[contains(text(),'Add Registration Field')]")
-                )
-            )
+            # Confirm page is ready
+            self._wait_for_add_btn()
             logger.info("✓ Registration Fields page ready")
             return True
+
         except Exception as e:
             logger.error(f"Navigation to Registration Fields failed: {e}")
             self._ss("nav_error")
@@ -77,37 +125,20 @@ class RegistrationFieldsAutomation:
     def get_user_types(self):
         """Fetch all available user types from the dropdown."""
         try:
-            # Open the "Add Registration Field" popup to read user types
-            self.wait.until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Add Registration Field')]")
-                )
-            ).click()
-            time.sleep(2)
-
-            select_el = self.wait.until(
-                EC.presence_of_element_located((By.NAME, "UserType"))
-            )
+            select_el = self._open_add_popup()
             options = [
                 o.text.strip()
                 for o in Select(select_el).options
-                if o.get_attribute("value")  # skip empty/placeholder
+                if o.get_attribute("value")   # skip empty/placeholder
             ]
-
-            # Close popup
-            try:
-                self.driver.find_element(By.XPATH, "//button[contains(text(),'Cancel')]").click()
-            except:
-                try:
-                    self.driver.find_element(By.XPATH, "//button[contains(text(),'Discard')]").click()
-                except:
-                    # If both fail, just escape key
-                    from selenium.webdriver.common.keys import Keys
-                    self.driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
-            
-            time.sleep(1)
+            self._close_popup()
+            # Wait until modal is fully gone before returning
+            self.wait.until(
+                EC.invisibility_of_element_located((By.XPATH, _XPATH_INTEGRATE))
+            )
             logger.info(f"Found {len(options)} user types: {options}")
             return options
+
         except Exception as e:
             logger.error(f"Failed to get user types: {e}")
             self._ss("get_user_types_error")
@@ -121,85 +152,80 @@ class RegistrationFieldsAutomation:
         try:
             logger.info(f"  Adding field: [{user_type}] -> {system_data_point}")
 
-            # 1. Click "Add Registration Field"
-            self.wait.until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Add Registration Field')]")
-                )
-            ).click()
-            time.sleep(2)
+            # 1. Open popup and wait for UserType dropdown
+            select_el = self._open_add_popup()
 
             # 2. Select User Type
-            ut_select = self.wait.until(
-                EC.presence_of_element_located((By.NAME, "UserType"))
-            )
-            Select(ut_select).select_by_visible_text(user_type)
+            Select(select_el).select_by_visible_text(user_type)
             logger.info(f"    → User Type selected: {user_type}")
 
-            # 3. Select System Data Point
-            # User specifically mentioned "system data point" dropdown
-            try:
-                sdp_select = self.wait.until(
-                    EC.presence_of_element_located((By.NAME, "SystemDataPoint"))
+            # 3. Select System Data Point (wait for it to appear/refresh after user type change)
+            sdp_select = None
+            for name_attr in ("SystemDataPoint",):
+                try:
+                    sdp_select = self._wait_present(By.NAME, name_attr)
+                    break
+                except TimeoutException:
+                    pass
+            if sdp_select is None:
+                sdp_select = self._wait_present(
+                    By.XPATH,
+                    "//select[contains(@name,'DataPoint') or contains(@name,'Field')]"
                 )
-                Select(sdp_select).select_by_visible_text(system_data_point)
-            except:
-                # Fallback if name is slightly different
-                sdp_select = self.wait.until(
-                    EC.presence_of_element_located((By.XPATH, "//select[contains(@name, 'DataPoint') or contains(@name, 'Field')]"))
-                )
-                Select(sdp_select).select_by_visible_text(system_data_point)
-            
+            Select(sdp_select).select_by_visible_text(system_data_point)
             logger.info(f"    → System Data Point selected: {system_data_point}")
 
-            # 4. Enable Mandatory toggle
-            # User mentioned "toggle button for mandatory enable it"
-            try:
-                # Try finding by name first
-                mandatory_toggle = self.driver.find_element(By.NAME, "IsMandatory")
-                if not mandatory_toggle.is_selected():
-                    self.driver.execute_script("arguments[0].click();", mandatory_toggle)
-            except:
-                # Fallback to finding by label text
-                try:
-                    mandatory_label = self.driver.find_element(By.XPATH, "//label[contains(.,'Mandatory')]")
-                    mandatory_toggle = mandatory_label.find_element(By.TAG_NAME, "input")
-                    if not mandatory_toggle.is_selected():
-                        self.driver.execute_script("arguments[0].click();", mandatory_toggle)
-                except:
-                    logger.warning("    ⚠ Could not find Mandatory toggle - skipping toggle")
-            
-            logger.info("    → Mandatory toggle enabled")
+            # 4. Enable Mandatory toggle (no sleep — just find and act)
+            self._enable_mandatory_toggle()
 
             # 5. Click "Integrate Now"
-            self.wait.until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Integrate Now')]")
-                )
-            ).click()
+            self._wait_clickable(By.XPATH, _XPATH_INTEGRATE).click()
             logger.info("    → Integrate Now clicked")
-            time.sleep(3)
 
-            # 6. Wait for popup to close (button reappears)
-            self.wait.until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//button[contains(text(),'Add Registration Field')]")
-                )
-            )
+            # 6. Wait for popup to fully close (button reappears = success)
+            self._wait_for_add_btn()
             logger.info(f"  ✓ Field added successfully: {system_data_point}\n")
             return True
 
         except Exception as e:
-            logger.error(f"  ✗ Failed to add field {system_data_point} for {user_type}: {e}")
+            logger.error(
+                f"  ✗ Failed to add field {system_data_point} for {user_type}: {e}"
+            )
             self._ss(f"error_{user_type}_{system_data_point.replace(' ', '_')}")
             try:
-                # Try to close the popup if it's still open
-                cancel_btn = self.driver.find_element(By.XPATH, "//button[contains(text(),'Cancel') or contains(text(),'Discard')]")
-                cancel_btn.click()
-                time.sleep(1)
-            except:
+                self._close_popup()
+            except Exception:
                 pass
             return False
+
+    def _enable_mandatory_toggle(self):
+        """Enable the Mandatory toggle if it is not already on."""
+        # Strategy 1: direct input by name
+        try:
+            toggle = self._short_wait.until(
+                EC.presence_of_element_located((By.NAME, "IsMandatory"))
+            )
+            if not toggle.is_selected():
+                self.driver.execute_script("arguments[0].click();", toggle)
+            logger.info("    → Mandatory toggle enabled")
+            return
+        except (TimeoutException, NoSuchElementException):
+            pass
+
+        # Strategy 2: label text
+        try:
+            label = self.driver.find_element(
+                By.XPATH, "//label[contains(.,'Mandatory')]"
+            )
+            toggle = label.find_element(By.TAG_NAME, "input")
+            if not toggle.is_selected():
+                self.driver.execute_script("arguments[0].click();", toggle)
+            logger.info("    → Mandatory toggle enabled")
+            return
+        except NoSuchElementException:
+            pass
+
+        logger.warning("    ⚠ Could not find Mandatory toggle — skipping")
 
     def process_all(self):
         """Main runner to add all specified fields for all user types."""
@@ -212,9 +238,11 @@ class RegistrationFieldsAutomation:
         failed = 0
         total_tasks = len(user_types) * len(self.fields_to_add)
 
-        logger.info(f"Starting registration fields automation: {total_tasks} fields total")
+        logger.info(
+            f"Starting registration fields automation: {total_tasks} fields total"
+        )
         logger.info("=" * 60)
-        
+
         for utype in user_types:
             logger.info(f"Processing User Type: {utype}")
             for field in self.fields_to_add:
@@ -222,8 +250,12 @@ class RegistrationFieldsAutomation:
                     successful += 1
                 else:
                     failed += 1
-                time.sleep(1)
+                # Minimal gap to let any post-save animation settle (0.3 s is enough)
+                time.sleep(0.3)
 
         logger.info("=" * 60)
-        logger.info(f"Registration fields batch complete → ✓ {successful} succeeded  ✗ {failed} failed")
+        logger.info(
+            f"Registration fields batch complete → ✓ {successful} succeeded  "
+            f"✗ {failed} failed"
+        )
         return failed == 0

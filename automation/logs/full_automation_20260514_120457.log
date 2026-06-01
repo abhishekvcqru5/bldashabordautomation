@@ -1,0 +1,171 @@
+2026-05-14 12:06:24,625 - INFO - User selected: Old Dashboard
+2026-05-14 12:06:39,604 - INFO -   Old Dashboard → Brand Setting
+2026-05-14 12:06:39,606 - INFO - ============================================================
+2026-05-14 12:06:39,606 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-14 12:06:39,607 - INFO - ============================================================
+2026-05-14 12:06:40,852 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:06:44,126 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-14 12:06:44,127 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-14 12:06:54,575 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-14 12:06:56,575 - INFO -     → Filling credentials …
+2026-05-14 12:06:56,956 - INFO -       Email → field #login_txt_id
+2026-05-14 12:06:57,297 - INFO -       Password → field #login_txt_pass
+2026-05-14 12:06:57,585 - INFO -       Login button clicked: #btnVendor
+2026-05-14 12:06:57,587 - INFO -     → Waiting for post-login redirect …
+2026-05-14 12:07:43,284 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-14 12:07:43,292 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-14 12:08:21,245 - INFO - 
+[3/4] Extracting brand data …
+2026-05-14 12:08:21,507 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-14 12:08:22,354 - INFO -   ✓ Downloaded: logo.jpeg  (20.2 KB)
+2026-05-14 12:08:22,788 - INFO -   ✓ Downloaded: splash.jpg  (69.3 KB)
+2026-05-14 12:08:22,795 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-14 12:08:23,215 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-14 12:08:24,252 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:08:30,377 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:08:30,378 - INFO - Opening login page...
+2026-05-14 12:08:35,357 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:08:47,125 - INFO - ✓ Login successful
+2026-05-14 12:08:48,024 - INFO - ✓ Logo  → logo_processed.jpg  |  13.8 KB  |  JPEG q95
+2026-05-14 12:08:48,436 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-14 12:08:50,482 - INFO - ✓ Splash → splash_processed.png  |  0.35 MB  |  PNG lossless
+2026-05-14 12:08:51,099 - INFO -   Colours extracted from logo:
+2026-05-14 12:08:51,099 - INFO -     Header Color     →  #00C0F0  (dominant logo colour)
+2026-05-14 12:08:51,099 - INFO -     Background Color →  #007C9C  (35% darker)
+2026-05-14 12:08:51,099 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-14 12:08:51,099 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-14 12:08:51,134 - INFO - Going to App Settings...
+2026-05-14 12:08:57,695 - INFO -   → Identity & Branding section opened
+2026-05-14 12:09:00,320 - INFO -   → Edit Branding popup opened
+2026-05-14 12:09:00,996 - INFO - ✓ Brand setting form is ready
+2026-05-14 12:09:01,312 - INFO -   Setting company name: SAFFROKOL                                                                HERO BEHIND EVERY BUILD
+2026-05-14 12:09:03,095 - INFO -     → HeaderColor: #00C0F0
+2026-05-14 12:09:04,437 - INFO -     → FooterColor: #F5F5F5
+2026-05-14 12:09:05,416 - INFO -     → BodyColor: #FFFFFF
+2026-05-14 12:09:06,388 - INFO -     → BackgroundColor: #007C9C
+2026-05-14 12:09:08,501 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-05-14 12:09:10,586 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-14 12:09:10,972 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-14 12:09:14,004 - INFO - ✓ Brand settings saved successfully!
+2026-05-14 12:09:14,004 - INFO - Going to App Settings for Support Network...
+2026-05-14 12:09:17,862 - INFO -   → Support Network section opened
+2026-05-14 12:09:21,022 - INFO -   → Edit Support Network popup opened
+2026-05-14 12:09:23,023 - INFO - ✓ Support Network form is ready
+2026-05-14 12:09:24,312 - WARNING -     ⚠ Could not find field for: phone
+2026-05-14 12:09:24,669 - INFO -     ✓ email filled
+2026-05-14 12:09:24,899 - WARNING -     ⚠ Could not find field for: website
+2026-05-14 12:09:27,176 - INFO -     ✓ terms_conditions filled
+2026-05-14 12:09:28,455 - INFO -     ✓ support_content filled
+2026-05-14 12:09:29,007 - INFO -     ✓ privacy_policy filled
+2026-05-14 12:09:30,097 - INFO -   → Save clicked
+2026-05-14 12:09:33,098 - INFO - ✓ Support Network saved successfully!
+2026-05-14 12:09:33,505 - INFO - Browser closed
+2026-05-14 12:09:33,516 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41417): Failed to establish a new connection: [Errno 111] Connection refused")': /session/c1a8f0662963b560be696e47d5dc824a
+2026-05-14 12:09:33,521 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41417): Failed to establish a new connection: [Errno 111] Connection refused")': /session/c1a8f0662963b560be696e47d5dc824a
+2026-05-14 12:09:33,528 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41417): Failed to establish a new connection: [Errno 111] Connection refused")': /session/c1a8f0662963b560be696e47d5dc824a
+2026-05-14 12:09:33,531 - INFO -   Browser closed
+2026-05-14 12:09:33,535 - INFO - 
+Task finished at 2026-05-14 12:09:33
+2026-05-14 12:09:33,536 - INFO - Log: automation/logs/full_automation_20260514_120457.log
+
+2026-05-14 12:11:11,935 - INFO - User selected: Registration Fields
+2026-05-14 12:11:11,938 - INFO - ============================================================
+2026-05-14 12:11:11,939 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-05-14 12:11:11,939 - INFO - ============================================================
+2026-05-14 12:11:13,616 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:11:18,609 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:11:18,609 - INFO - Opening login page...
+2026-05-14 12:11:21,981 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:11:42,315 - ERROR - Login failed: Message: 
+
+2026-05-14 12:11:42,819 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260514_121142.png
+2026-05-14 12:11:42,820 - ERROR - ✗ Login failed. Aborting.
+2026-05-14 12:11:43,165 - INFO - Browser closed
+2026-05-14 12:11:43,168 - INFO - 
+Task finished at 2026-05-14 12:11:43
+2026-05-14 12:11:43,169 - INFO - Log: automation/logs/full_automation_20260514_120457.log
+
+2026-05-14 12:11:52,337 - INFO - User selected: Dashboard Icons
+2026-05-14 12:11:52,338 - INFO - 
+    ╔══════════════════════════════════════════════════════════════╗
+    ║   DASHBOARD ICONS AUTOMATION                                ║
+    ║   Vendor Portal Auto-Upload System                          ║
+    ╚══════════════════════════════════════════════════════════════╝
+    
+2026-05-14 12:11:52,340 - INFO - Automation started at 2026-05-14 12:11:52
+
+2026-05-14 12:11:52,341 - INFO - ============================================================
+2026-05-14 12:11:52,341 - INFO - STEP 1: Processing and Compressing Images
+2026-05-14 12:11:52,341 - INFO - ============================================================
+2026-05-14 12:11:52,342 - INFO - Processing images from: dashboardicons
+2026-05-14 12:11:52,342 - INFO - Output folder: automation/processed_images
+2026-05-14 12:11:52,343 - INFO - Target: 512x512 px, max 50 KB
+
+2026-05-14 12:11:52,411 - INFO - ✓ Processed: history.png | Size: 16.0 KB | Quality: 95
+2026-05-14 12:11:52,418 - INFO - ✓ Processed: wallet.png | Size: 13.3 KB | Quality: 95
+2026-05-14 12:11:52,443 - INFO - ✓ Processed: help.png | Size: 22.9 KB | Quality: 95
+2026-05-14 12:11:52,468 - INFO - ✓ Processed: ecommerce.png | Size: 19.6 KB | Quality: 95
+2026-05-14 12:11:52,479 - INFO - ✓ Processed: brochure.png | Size: 18.9 KB | Quality: 95
+2026-05-14 12:11:52,496 - INFO - ✓ Processed: claimhistory1.png | Size: 29.9 KB | Quality: 95
+2026-05-14 12:11:52,503 - INFO - ✓ Processed: Gift.png | Size: 20.6 KB | Quality: 95
+2026-05-14 12:11:52,513 - INFO - ✓ Processed: codedetails.png | Size: 16.0 KB | Quality: 95
+2026-05-14 12:11:52,535 - INFO - ✓ Processed: kyc.png | Size: 19.8 KB | Quality: 95
+2026-05-14 12:11:52,546 - INFO - ✓ Processed: language.png | Size: 21.7 KB | Quality: 95
+2026-05-14 12:11:52,561 - INFO - ✓ Processed: Screenshot_2026-04-10_12-51-21_resized.png | Size: 23.8 KB | Quality: 95
+2026-05-14 12:11:52,592 - INFO - ✓ Processed: referandearn.png | Size: 29.7 KB | Quality: 95
+2026-05-14 12:11:52,608 - INFO - ✓ Processed: productcatalogue.png | Size: 29.4 KB | Quality: 95
+2026-05-14 12:11:52,627 - INFO - ✓ Processed: blog.png | Size: 26.0 KB | Quality: 95
+2026-05-14 12:11:52,627 - INFO - 
+✓ Processed 14 images successfully
+
+2026-05-14 12:11:52,627 - INFO - ✓ 14 images processed and ready
+
+2026-05-14 12:11:52,627 - INFO - ============================================================
+2026-05-14 12:11:52,627 - INFO - STEP 2: Preparing Authentication
+2026-05-14 12:11:52,628 - INFO - ============================================================
+2026-05-14 12:11:52,628 - INFO - Using email: Info@saffrokol.com
+2026-05-14 12:11:52,628 - INFO - ✓ Credentials loaded
+
+2026-05-14 12:11:52,628 - INFO - ============================================================
+2026-05-14 12:11:52,628 - INFO - STEP 3: Launching Browser and Starting Upload Process
+2026-05-14 12:11:52,628 - INFO - ============================================================
+2026-05-14 12:11:53,144 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:11:54,881 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:11:54,881 - INFO - 
+→ Attempting login...
+
+2026-05-14 12:11:54,882 - INFO - Opening login page...
+2026-05-14 12:11:57,297 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:12:17,797 - ERROR - Login failed: Message: 
+
+2026-05-14 12:12:18,484 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260514_121217.png
+2026-05-14 12:12:18,484 - ERROR - ✗ Login failed. Aborting.
+2026-05-14 12:12:18,742 - INFO - Browser closed
+2026-05-14 12:12:18,744 - INFO - 
+Task finished at 2026-05-14 12:12:18
+2026-05-14 12:12:18,745 - INFO - Log: automation/logs/full_automation_20260514_120457.log
+
+2026-05-14 12:24:30,182 - INFO - User selected: Intro Screens
+2026-05-14 12:24:30,183 - INFO - ============================================================
+2026-05-14 12:24:30,183 - INFO - INTRO SCREENS — Image Processing
+2026-05-14 12:24:30,183 - INFO - ============================================================
+2026-05-14 12:24:30,186 - INFO - Found 6 intro image(s) in introscreen/
+2026-05-14 12:24:30,190 - INFO -   ⚙ Processing 23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af.jpeg  (395×604 → need 1080×1920)
+2026-05-14 12:24:30,370 - INFO -   ✓ 23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af.jpeg  →  23bdf264-fb6f-4ddd-8df3-f0e0ac26f6af_processed.jpg  |  1080×1920  |  0.32 MB  |  quality 92
+2026-05-14 12:24:30,371 - INFO -   ⚙ Processing 2a5aa7e5-9d62-4d1c-8c88-6147555a0602.png  (360×800 → need 1080×1920)
+2026-05-14 12:24:30,525 - INFO -   ✓ 2a5aa7e5-9d62-4d1c-8c88-6147555a0602.png  →  2a5aa7e5-9d62-4d1c-8c88-6147555a0602_processed.jpg  |  1080×1920  |  0.26 MB  |  quality 92
+2026-05-14 12:24:30,529 - INFO -   ⚙ Processing 55c7fbd0-aefd-43a1-8b07-19296c27b87d.jpg  (720×960 → need 1080×1920)
+2026-05-14 12:24:30,697 - INFO -   ✓ 55c7fbd0-aefd-43a1-8b07-19296c27b87d.jpg  →  55c7fbd0-aefd-43a1-8b07-19296c27b87d_processed.jpg  |  1080×1920  |  0.32 MB  |  quality 92
+2026-05-14 12:24:30,698 - INFO -   ⚙ Processing 7691d3c6-b3f0-4fc9-b513-c6d7bab62041.png  (360×800 → need 1080×1920)
+2026-05-14 12:24:30,856 - INFO -   ✓ 7691d3c6-b3f0-4fc9-b513-c6d7bab62041.png  →  7691d3c6-b3f0-4fc9-b513-c6d7bab62041_processed.jpg  |  1080×1920  |  0.31 MB  |  quality 92
+2026-05-14 12:24:30,859 - INFO -   ⚙ Processing c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930.jpeg  (403×606 → need 1080×1920)
+2026-05-14 12:24:31,035 - INFO -   ✓ c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930.jpeg  →  c7e5bf7f-7cc1-47b2-b9a7-de291d8ff930_processed.jpg  |  1080×1920  |  0.38 MB  |  quality 92
+2026-05-14 12:24:31,036 - INFO -   ⚙ Processing f0b9f110-9083-4790-bb5f-694ff46fe711.png  (1500×1017 → need 1080×1920)
+2026-05-14 12:24:31,213 - INFO -   ✓ f0b9f110-9083-4790-bb5f-694ff46fe711.png  →  f0b9f110-9083-4790-bb5f-694ff46fe711_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-05-14 12:24:31,215 - INFO -   Processed 6/6 intro images successfully
+
+2026-05-14 12:26:04,381 - INFO - Automation cancelled by user (Ctrl+C)

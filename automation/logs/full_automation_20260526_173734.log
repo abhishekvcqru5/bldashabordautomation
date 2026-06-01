@@ -1,0 +1,228 @@
+2026-05-26 17:37:51,549 - INFO - User selected: Old Dashboard
+2026-05-26 17:37:53,054 - INFO -   Old Dashboard → Brand Setting
+2026-05-26 17:37:53,055 - INFO - ============================================================
+2026-05-26 17:37:53,055 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-26 17:37:53,055 - INFO - ============================================================
+2026-05-26 17:37:53,072 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:37:53,073 - INFO - ====== WebDriver manager ======
+2026-05-26 17:37:53,531 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:37:53,876 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:37:54,059 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:37:55,912 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-26 17:37:55,912 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-26 17:38:02,465 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-26 17:38:04,465 - INFO -     → Filling credentials …
+2026-05-26 17:38:04,736 - INFO -       Email → field #login_txt_id
+2026-05-26 17:38:04,997 - INFO -       Password → field #login_txt_pass
+2026-05-26 17:38:05,321 - INFO -       Login button clicked: #btnVendor
+2026-05-26 17:38:05,322 - INFO -     → Waiting for post-login redirect …
+2026-05-26 17:38:14,810 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-26 17:38:14,810 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-26 17:38:30,046 - INFO - 
+[3/4] Extracting brand data …
+2026-05-26 17:38:30,316 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-26 17:38:30,594 - INFO -   ✓ Downloaded: logo.png  (21.4 KB)
+2026-05-26 17:38:31,011 - INFO -   ✓ Downloaded: splash.png  (115.2 KB)
+2026-05-26 17:38:31,016 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-26 17:38:31,316 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-26 17:38:31,317 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:38:31,317 - INFO - ====== WebDriver manager ======
+2026-05-26 17:38:31,786 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:38:32,138 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:38:32,379 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:38:34,395 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:38:34,395 - INFO - Opening login page...
+2026-05-26 17:38:40,508 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:38:51,037 - INFO - ✓ Login successful
+2026-05-26 17:38:51,095 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-26 17:38:51,299 - INFO - ✓ Logo  → logo_processed.png  |  55.3 KB  |  PNG lossless
+2026-05-26 17:38:51,372 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-26 17:38:52,815 - INFO - ✓ Splash → splash_processed.png  |  0.70 MB  |  PNG lossless
+2026-05-26 17:38:52,936 - INFO -   Colours extracted from logo:
+2026-05-26 17:38:52,936 - INFO -     Header Color     →  #403020  (dominant logo colour)
+2026-05-26 17:38:52,936 - INFO -     Background Color →  #291F14  (35% darker)
+2026-05-26 17:38:52,936 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-26 17:38:52,936 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-26 17:38:52,941 - INFO - Going to App Settings...
+2026-05-26 17:38:59,462 - INFO -   → Identity & Branding section opened
+2026-05-26 17:39:01,670 - INFO -   → Edit Branding popup opened
+2026-05-26 17:39:01,687 - INFO - ✓ Brand setting form is ready
+2026-05-26 17:39:01,687 - INFO -   Setting company name: Vrinflex Cables
+2026-05-26 17:39:03,503 - INFO -     → HeaderColor: #403020
+2026-05-26 17:39:04,691 - INFO -     → FooterColor: #F5F5F5
+2026-05-26 17:39:05,503 - INFO -     → BodyColor: #FFFFFF
+2026-05-26 17:39:06,697 - INFO -     → BackgroundColor: #291F14
+2026-05-26 17:39:08,796 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-26 17:39:10,851 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-26 17:39:11,143 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-26 17:39:14,174 - INFO - ✓ Brand settings saved successfully!
+2026-05-26 17:39:14,175 - INFO - Going to App Settings for Support Network...
+2026-05-26 17:39:17,483 - INFO -   → Support Network section opened
+2026-05-26 17:39:20,613 - INFO -   → Edit Support Network popup opened
+2026-05-26 17:39:22,614 - INFO - ✓ Support Network form is ready
+2026-05-26 17:39:23,167 - INFO -     ✓ phone filled
+2026-05-26 17:39:23,662 - INFO -     ✓ email filled
+2026-05-26 17:39:24,475 - INFO -     ✓ website filled
+2026-05-26 17:39:25,316 - INFO -     ✓ terms_conditions filled
+2026-05-26 17:39:25,894 - INFO -     ✓ support_content filled
+2026-05-26 17:39:26,491 - INFO -     ✓ privacy_policy filled
+2026-05-26 17:39:27,571 - INFO -   → Save clicked
+2026-05-26 17:39:30,571 - INFO - ✓ Support Network saved successfully!
+2026-05-26 17:39:30,792 - INFO - Browser closed
+2026-05-26 17:39:30,793 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41587): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d8faafdb7c1d0b8912a652e42e6ae26f
+2026-05-26 17:39:30,794 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41587): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d8faafdb7c1d0b8912a652e42e6ae26f
+2026-05-26 17:39:30,794 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41587): Failed to establish a new connection: [Errno 111] Connection refused")': /session/d8faafdb7c1d0b8912a652e42e6ae26f
+2026-05-26 17:39:30,795 - INFO -   Browser closed
+2026-05-26 17:39:30,795 - INFO - 
+Task finished at 2026-05-26 17:39:30
+2026-05-26 17:39:30,795 - INFO - Log: automation/logs/full_automation_20260526_173734.log
+
+2026-05-26 17:39:46,750 - INFO - User selected: Old Dashboard
+2026-05-26 17:39:48,997 - INFO -   Old Dashboard → Introduction Setting
+2026-05-26 17:39:48,999 - INFO - ============================================================
+2026-05-26 17:39:49,000 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-05-26 17:39:49,001 - INFO - ============================================================
+2026-05-26 17:39:49,002 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:39:49,003 - INFO - ====== WebDriver manager ======
+2026-05-26 17:39:49,604 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:39:49,824 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:39:50,121 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:39:51,827 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-26 17:39:57,645 - INFO -   → Identifying 'Vendor' login tab...
+2026-05-26 17:39:57,942 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-05-26 17:40:00,942 - INFO -   → Filling Vendor credentials...
+2026-05-26 17:40:01,319 - INFO -     - Email entered: info@vrinflex.com
+2026-05-26 17:40:01,319 - INFO -     - Clicking 'login' button...
+2026-05-26 17:40:01,443 - INFO -   → Waiting for successful login redirect...
+2026-05-26 17:40:16,988 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-26 17:40:16,994 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-26 17:40:22,094 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-05-26 17:40:22,163 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-05-26 17:40:25,308 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-05-26 17:40:30,475 - INFO -   → Searching for introduction screens data...
+2026-05-26 17:40:30,574 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-05-26 17:40:30,711 - INFO -     → Found 2 potential rows to extract
+2026-05-26 17:40:30,786 - INFO -     → Downloading image for: Elevate Loyalty. Engage Better...
+2026-05-26 17:40:31,257 - INFO -     ✓ Extracted 1/2
+2026-05-26 17:40:31,344 - INFO -     → Downloading image for: Suraksha ka Waada, Munafe ka I...
+2026-05-26 17:40:31,825 - INFO -     ✓ Extracted 2/2
+2026-05-26 17:40:32,046 - INFO - ✓ Extracted 2 screens.
+2026-05-26 17:40:32,046 - INFO - 
+============================================================
+2026-05-26 17:40:32,046 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-05-26 17:40:32,046 - INFO - ============================================================
+2026-05-26 17:40:32,047 - INFO -   ⚙ Processing old_intro_1_20260526_174030.jpg  (360×800 → need 1080×1920)
+2026-05-26 17:40:32,210 - INFO -   ✓ old_intro_1_20260526_174030.jpg  →  old_intro_1_20260526_174030_processed.jpg  |  1080×1920  |  0.33 MB  |  quality 92
+2026-05-26 17:40:32,212 - INFO -   ⚙ Processing old_intro_2_20260526_174031.jpg  (360×800 → need 1080×1920)
+2026-05-26 17:40:32,382 - INFO -   ✓ old_intro_2_20260526_174031.jpg  →  old_intro_2_20260526_174031_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-05-26 17:40:32,384 - INFO - 
+============================================================
+2026-05-26 17:40:32,384 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-05-26 17:40:32,384 - INFO - ============================================================
+2026-05-26 17:40:32,384 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:40:32,385 - INFO - ====== WebDriver manager ======
+2026-05-26 17:40:32,816 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:40:33,096 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:40:33,279 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:40:35,464 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:40:35,465 - INFO - Opening login page...
+2026-05-26 17:40:38,436 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:40:41,183 - INFO - ✓ Login successful
+2026-05-26 17:40:41,184 - INFO - Going to App Settings...
+2026-05-26 17:40:49,399 - INFO -   → Intro Screens section opened
+2026-05-26 17:40:49,727 - INFO - ✓ Intro Screens page ready
+2026-05-26 17:40:49,727 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-05-26 17:40:49,728 - INFO - ============================================================
+2026-05-26 17:40:49,728 - INFO - [1/2]
+2026-05-26 17:40:49,728 - INFO -   Launching screen: [Elevate Loyalty. Engage Better.]
+2026-05-26 17:40:53,423 - INFO -     → Header: Elevate Loyalty. Engage Better.
+2026-05-26 17:40:54,937 - INFO -     → Description: Create meaningful connections with your customers—reward eve...
+2026-05-26 17:40:57,022 - INFO -     → Image uploaded: old_intro_1_20260526_174030_processed.jpg
+2026-05-26 17:40:57,323 - INFO -     → Launch Screen clicked
+2026-05-26 17:41:01,337 - INFO -   ✓ Intro screen launched: Elevate Loyalty. Engage Better.
+
+2026-05-26 17:41:02,339 - INFO - [2/2]
+2026-05-26 17:41:02,339 - INFO -   Launching screen: [Suraksha ka Waada, Munafe ka Iradaa]
+2026-05-26 17:41:04,863 - INFO -     → Header: Suraksha ka Waada, Munafe ka Iradaa
+2026-05-26 17:41:05,352 - INFO -     → Description: Scan. Earn. Grow....
+2026-05-26 17:41:07,435 - INFO -     → Image uploaded: old_intro_2_20260526_174031_processed.jpg
+2026-05-26 17:41:07,706 - INFO -     → Launch Screen clicked
+2026-05-26 17:41:11,732 - INFO -   ✓ Intro screen launched: Suraksha ka Waada, Munafe ka Iradaa
+
+2026-05-26 17:41:12,734 - INFO - ============================================================
+2026-05-26 17:41:12,735 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-05-26 17:41:13,037 - INFO - Browser closed
+2026-05-26 17:41:13,039 - INFO - 
+Task finished at 2026-05-26 17:41:13
+2026-05-26 17:41:13,042 - INFO - Log: automation/logs/full_automation_20260526_173734.log
+
+2026-05-26 17:42:23,317 - INFO - User selected: Promotion Banners
+2026-05-26 17:42:23,317 - INFO - ============================================================
+2026-05-26 17:42:23,318 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-26 17:42:23,318 - INFO - ============================================================
+2026-05-26 17:42:23,320 - INFO - Found 3 banner image(s) in banner/
+2026-05-26 17:42:23,381 - INFO -   ⚙ Processing 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  (size 1280×720 → need 1920×1080)
+2026-05-26 17:42:23,549 - INFO -   ✓ 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  →  15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg  |  1920×1080  |  0.25 MB  |  quality 92
+2026-05-26 17:42:23,552 - INFO -   ⚙ Processing Screenshot_2026-05-26_02-17-30.png  (size 1440×665 → need 1920×1080)
+2026-05-26 17:42:23,776 - INFO -   ✓ Screenshot_2026-05-26_02-17-30.png  →  Screenshot_2026-05-26_02-17-30_processed.jpg  |  1920×1080  |  0.30 MB  |  quality 92
+2026-05-26 17:42:23,780 - INFO -   ⚙ Processing bannerc3.jpg  (size 1280×720 → need 1920×1080)
+2026-05-26 17:42:23,977 - INFO -   ✓ bannerc3.jpg  →  bannerc3_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-26 17:42:23,979 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-26 17:42:23,980 - INFO - ============================================================
+2026-05-26 17:42:23,980 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-26 17:42:23,981 - INFO - ============================================================
+2026-05-26 17:42:23,981 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:42:23,981 - INFO - ====== WebDriver manager ======
+2026-05-26 17:42:24,488 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:42:24,796 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:42:25,395 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:42:26,827 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:42:26,827 - INFO - Opening login page...
+2026-05-26 17:42:29,690 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:42:49,920 - ERROR - Login failed: Message: 
+
+2026-05-26 17:42:50,337 - INFO -   📸 Screenshot saved: automation/screenshots/login_error_20260526_174249.png
+2026-05-26 17:42:50,338 - ERROR - ✗ Login failed. Aborting.
+2026-05-26 17:42:50,603 - INFO - Browser closed
+2026-05-26 17:42:50,603 - INFO - 
+Task finished at 2026-05-26 17:42:50
+2026-05-26 17:42:50,604 - INFO - Log: automation/logs/full_automation_20260526_173734.log
+
+2026-05-26 17:43:44,063 - INFO - User selected: Promotion Banners
+2026-05-26 17:43:44,063 - INFO - ============================================================
+2026-05-26 17:43:44,063 - INFO - PROMOTION BANNERS — Image Processing
+2026-05-26 17:43:44,063 - INFO - ============================================================
+2026-05-26 17:43:44,070 - INFO - Found 3 banner image(s) in banner/
+2026-05-26 17:43:44,077 - INFO -   ⚙ Processing 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  (size 1280×720 → need 1920×1080)
+2026-05-26 17:43:44,728 - INFO -   ✓ 15a84208-e7c7-4ae9-94c8-b80989877068.jpg  →  15a84208-e7c7-4ae9-94c8-b80989877068_processed.jpg  |  1920×1080  |  0.25 MB  |  quality 92
+2026-05-26 17:43:44,731 - INFO -   ⚙ Processing Screenshot_2026-05-26_02-17-30.png  (size 1440×665 → need 1920×1080)
+2026-05-26 17:43:45,017 - INFO -   ✓ Screenshot_2026-05-26_02-17-30.png  →  Screenshot_2026-05-26_02-17-30_processed.jpg  |  1920×1080  |  0.30 MB  |  quality 92
+2026-05-26 17:43:45,022 - INFO -   ⚙ Processing bannerc3.jpg  (size 1280×720 → need 1920×1080)
+2026-05-26 17:43:45,311 - INFO -   ✓ bannerc3.jpg  →  bannerc3_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-05-26 17:43:45,313 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-05-26 17:43:45,314 - INFO - ============================================================
+2026-05-26 17:43:45,314 - INFO - PROMOTION BANNERS — Browser Automation
+2026-05-26 17:43:45,314 - INFO - ============================================================
+2026-05-26 17:43:45,314 - INFO -   Using system Chrome binary: /usr/bin/google-chrome-stable
+2026-05-26 17:43:45,314 - INFO - ====== WebDriver manager ======
+2026-05-26 17:43:45,738 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:43:45,949 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-26 17:43:46,183 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
+2026-05-26 17:43:47,678 - INFO - ✓ Chrome driver initialized
+2026-05-26 17:43:47,678 - INFO - Opening login page...
+2026-05-26 17:43:50,096 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-26 17:43:52,289 - INFO - ✓ Login successful
+2026-05-26 17:43:54,290 - INFO - Going to App Settings...
+2026-05-26 17:43:56,259 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/b449711a4143e7b6a332c770a7248234
+2026-05-26 17:43:56,262 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=34363): Failed to establish a new connection: [Errno 111] Connection refused")': /session/b449711a4143e7b6a332c770a7248234
+2026-05-26 17:43:56,265 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=34363): Failed to establish a new connection: [Errno 111] Connection refused")': /session/b449711a4143e7b6a332c770a7248234
+2026-05-26 17:43:56,272 - INFO - Browser closed
+2026-05-26 17:43:56,273 - INFO - Automation cancelled by user (Ctrl+C)

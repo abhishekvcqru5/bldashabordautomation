@@ -1,0 +1,30 @@
+2026-05-14 12:04:06,525 - INFO - User selected: Brand Setting
+2026-05-14 12:04:38,770 - INFO -   Found logo asset: logo.png
+2026-05-14 12:04:38,771 - INFO -   Found splash asset: splash.png
+2026-05-14 12:04:38,772 - INFO - ============================================================
+2026-05-14 12:04:38,772 - INFO - BRAND SETTING — Image Processing
+2026-05-14 12:04:38,772 - INFO - ============================================================
+2026-05-14 12:04:38,924 - INFO - ✓ Logo  → logo_processed.jpg  |  33.9 KB  |  JPEG q95
+2026-05-14 12:04:39,086 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-14 12:04:40,522 - INFO - ✓ Splash → splash_processed.png  |  0.45 MB  |  PNG lossless
+2026-05-14 12:04:40,523 - INFO - 
+2026-05-14 12:04:40,524 - INFO - Extracting brand colours from logo...
+2026-05-14 12:04:40,659 - INFO -   Colours extracted from logo:
+2026-05-14 12:04:40,660 - INFO -     Header Color     →  #202080  (dominant logo colour)
+2026-05-14 12:04:40,660 - INFO -     Background Color →  #141453  (35% darker)
+2026-05-14 12:04:40,660 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-14 12:04:40,661 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-14 12:04:40,665 - INFO - ✓ Both images ready
+
+2026-05-14 12:04:40,665 - INFO - ============================================================
+2026-05-14 12:04:40,665 - INFO - BRAND SETTING — Browser Automation
+2026-05-14 12:04:40,665 - INFO - ============================================================
+2026-05-14 12:04:42,265 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-14 12:04:46,606 - INFO - ✓ Chrome driver initialized
+2026-05-14 12:04:46,607 - INFO - Opening login page...
+2026-05-14 12:04:49,185 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-14 12:04:54,462 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56755): Failed to establish a new connection: [Errno 111] Connection refused")': /session/cc31694adf45ef91154eca92d3247a46
+2026-05-14 12:04:54,467 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56755): Failed to establish a new connection: [Errno 111] Connection refused")': /session/cc31694adf45ef91154eca92d3247a46
+2026-05-14 12:04:54,470 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56755): Failed to establish a new connection: [Errno 111] Connection refused")': /session/cc31694adf45ef91154eca92d3247a46
+2026-05-14 12:04:54,476 - INFO - Browser closed
+2026-05-14 12:04:54,478 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,64 @@
+2026-05-15 16:56:43,332 - INFO - User selected: Old Dashboard
+2026-05-15 16:56:47,178 - INFO -   Old Dashboard → Brand Setting
+2026-05-15 16:56:47,178 - INFO - ============================================================
+2026-05-15 16:56:47,178 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-05-15 16:56:47,178 - INFO - ============================================================
+2026-05-15 16:56:51,606 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 16:57:02,297 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-05-15 16:57:02,299 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 16:57:12,676 - INFO -     → Vendor selected via ID: chkadmin
+2026-05-15 16:57:14,677 - INFO -     → Filling credentials …
+2026-05-15 16:57:16,008 - INFO -       Email → field #login_txt_id
+2026-05-15 16:57:18,441 - INFO -       Password → field #login_txt_pass
+2026-05-15 16:57:19,342 - INFO -       Login button clicked: #btnVendor
+2026-05-15 16:57:19,343 - INFO -     → Waiting for post-login redirect …
+2026-05-15 16:57:50,660 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-05-15 16:57:50,660 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-05-15 16:58:05,889 - INFO - 
+[3/4] Extracting brand data …
+2026-05-15 16:58:06,743 - INFO - 
+[4/4] Saving assets to disk …
+2026-05-15 16:58:06,748 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-05-15 16:58:06,749 - INFO -   ↩ Already exists, skipping download: splash.png
+2026-05-15 16:58:06,761 - INFO -   ✓ brand_info.json saved: brandsetting/brand_info.json
+2026-05-15 16:58:07,688 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-05-15 16:58:12,937 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-05-15 16:58:19,818 - INFO - ✓ Chrome driver initialized
+2026-05-15 16:58:19,819 - INFO - Opening login page...
+2026-05-15 16:58:24,580 - INFO -   → Credentials submitted, waiting for dashboard...
+2026-05-15 16:58:30,128 - INFO - ✓ Login successful
+2026-05-15 16:58:30,995 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-05-15 16:58:31,987 - INFO - ✓ Logo  → logo_processed.png  |  84.9 KB  |  PNG lossless
+2026-05-15 16:58:32,132 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-05-15 16:58:36,559 - INFO - ✓ Splash → splash_processed.png  |  0.69 MB  |  PNG lossless
+2026-05-15 16:58:46,495 - INFO -   Colours extracted from logo:
+2026-05-15 16:58:46,495 - INFO -     Header Color     →  #0030A0  (dominant logo colour)
+2026-05-15 16:58:46,496 - INFO -     Background Color →  #001F68  (35% darker)
+2026-05-15 16:58:46,496 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-05-15 16:58:46,496 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-05-15 16:58:47,495 - INFO - Going to App Settings...
+2026-05-15 16:58:57,553 - INFO -   → Identity & Branding section opened
+2026-05-15 16:59:01,760 - INFO -   → Edit Branding popup opened
+2026-05-15 16:59:02,464 - INFO - ✓ Brand setting form is ready
+2026-05-15 16:59:02,465 - INFO -   Setting company name: ETAC ENTERPRISE
+2026-05-15 16:59:10,354 - INFO -     → HeaderColor: #0030A0
+2026-05-15 16:59:14,961 - INFO -     → FooterColor: #F5F5F5
+2026-05-15 16:59:20,090 - INFO -     → BodyColor: #FFFFFF
+2026-05-15 16:59:22,175 - INFO -     → BackgroundColor: #001F68
+2026-05-15 16:59:24,464 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-05-15 16:59:26,751 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-05-15 16:59:27,335 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-05-15 16:59:30,861 - INFO - ✓ Brand settings saved successfully!
+2026-05-15 16:59:30,862 - INFO - Going to App Settings for Support Network...
+2026-05-15 16:59:33,831 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/95cff5e6e2c41558b1fedd892fc8361b
+2026-05-15 16:59:33,837 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41745): Failed to establish a new connection: [Errno 111] Connection refused")': /session/95cff5e6e2c41558b1fedd892fc8361b
+2026-05-15 16:59:33,854 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=41745): Failed to establish a new connection: [Errno 111] Connection refused")': /session/95cff5e6e2c41558b1fedd892fc8361b
+2026-05-15 16:59:33,862 - INFO - Browser closed
+2026-05-15 16:59:33,869 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57767): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bac1af501155a629fc9be64e1405fbec
+2026-05-15 16:59:33,873 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57767): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bac1af501155a629fc9be64e1405fbec
+2026-05-15 16:59:33,876 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57767): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bac1af501155a629fc9be64e1405fbec
+2026-05-15 16:59:33,880 - INFO -   Browser closed
+2026-05-15 16:59:33,882 - INFO - Automation cancelled by user (Ctrl+C)
