@@ -39,8 +39,9 @@ from old_dashboard_migration import run_old_dashboard_migration, run_old_dashboa
 from old_dashboard_brand_setting import run_old_dashboard_brand_setting
 from product_catalogue_migration import run_product_catalogue_migration
 from surie_product_upload import run_surie_product_upload
-from gift_management import run_gift_management
+from gift_management import run_gift_management, run_narmada_gifts
 from user_type_creation import UserTypeAutomation
+from app_settings_analysis import run_app_settings_analysis
 
 # Setup logging
 log_dir = Path("automation/logs")
@@ -50,7 +51,7 @@ log_file = log_dir / f"full_automation_{datetime.now().strftime('%Y%m%d_%H%M%S')
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
+    handlers=[logging.FileHandler(log_file, encoding="utf-8"), logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 
@@ -519,6 +520,76 @@ def run_registration_fields(email, password):
         return False
 
 
+# ══════════════════════════════════════════════════════════════
+# Registration Fields (Specific User Types) runner  (Option 13)
+# ══════════════════════════════════════════════════════════════
+def run_registration_fields_specific(email, password):
+    """
+    Add mandatory registration fields but ONLY for specific user types
+    chosen interactively by the operator (same fields as Option 5).
+    """
+    print()
+    print("  ─── Registration Fields — Specific User Types ───")
+
+    # 1. Ask how many user types
+    while True:
+        try:
+            num_input = input("  How many user types do you want to process? ").strip()
+            if not num_input:
+                print("  ❌ Number cannot be empty.")
+                continue
+            num_users = int(num_input)
+            if num_users <= 0:
+                print("  ❌ Please enter a positive integer.")
+                continue
+            break
+        except ValueError:
+            print("  ❌ Invalid number. Please enter an integer.")
+
+    # 2. Collect user type names one-by-one
+    target_user_types = []
+    for i in range(num_users):
+        while True:
+            name = input(f"  Enter User Type #{i + 1} Name: ").strip()
+            if not name:
+                print("  ❌ Name cannot be empty.")
+                continue
+            if name.lower() in [u.lower() for u in target_user_types]:
+                print("  ❌ Name already entered. Please use a unique name.")
+                continue
+            target_user_types.append(name)
+            break
+
+    logger.info(f"Requested user types for registration fields: {target_user_types}")
+
+    logger.info("=" * 60)
+    logger.info("REGISTRATION FIELDS (SPECIFIC) — Browser Automation")
+    logger.info("=" * 60)
+
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as auto:
+            if not auto.login():
+                logger.error("✗ Login failed. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            reg_auto = RegistrationFieldsAutomation(auto.driver)
+
+            if not reg_auto.navigate():
+                logger.error("✗ Navigation failed. Aborting.")
+                return False
+
+            success = reg_auto.process_specific(target_user_types)
+            return success
+
+    except Exception as e:
+        logger.error(f"Unexpected error in registration fields (specific) automation: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return False
+
+
 def run_create_user_types(email, password):
     """Prompt user for user type details, create them on the portal, and upload dashboard icons only for them."""
     print()
@@ -692,6 +763,8 @@ FILENAME_TO_ICON_IDENTITY = {
     "help": "help",
     "tds": "tds",
     "claim history": "claimhistory",
+    "e-warranty": "e-warrant",
+    "ewarranty": "e-warrant",
 }
 
 
@@ -755,6 +828,202 @@ def extract_dominant_color(image_path) -> str:
     except Exception as e:
         logger.error(f"Error extracting color from {image_path}: {e}")
         return "#4F46E5"
+
+
+def find_matching_processed_image(entered_name: str, processed_images: dict):
+    """
+    Finds a processed image whose filename stem (case-insensitive) matches the entered_name.
+    Also supports partial/fuzzy match.
+    """
+    name_lower = entered_name.lower().strip()
+    # 1. Exact stem match
+    for orig_filename, processed_path in processed_images.items():
+        stem = Path(orig_filename).stem.lower().strip()
+        if stem == name_lower:
+            return orig_filename, processed_path
+            
+    # 2. Substring match
+    for orig_filename, processed_path in processed_images.items():
+        stem = Path(orig_filename).stem.lower().strip()
+        if name_lower in stem or stem in name_lower:
+            return orig_filename, processed_path
+            
+    # 3. Replace 'and' with '&' or vice-versa and try matching
+    normalized_name = name_lower.replace("and", "&").replace("  ", " ").strip()
+    for orig_filename, processed_path in processed_images.items():
+        stem = Path(orig_filename).stem.lower().replace("and", "&").replace("  ", " ").strip()
+        if stem == normalized_name or normalized_name in stem or stem in normalized_name:
+            return orig_filename, processed_path
+
+    return None, None
+
+
+def run_dashboard_icons_specific_user_types(email, password) -> bool:
+    """
+    Upload specific dashboard icons for specific user types.
+    """
+    print()
+    print("  ─── Add Specific Dashboard Icons to Specific User Types ───")
+
+    # 1. Ask how many user types
+    while True:
+        try:
+            num_input = input("  How many user types do you want to process? ").strip()
+            if not num_input:
+                print("  ❌ Number cannot be empty.")
+                continue
+            num_users = int(num_input)
+            if num_users <= 0:
+                print("  ❌ Please enter a positive integer.")
+                continue
+            break
+        except ValueError:
+            print("  ❌ Invalid number. Please enter an integer.")
+
+    # 2. Collect user type names one-by-one
+    target_user_types = []
+    for i in range(num_users):
+        while True:
+            name = input(f"  Enter User Type #{i + 1} Name: ").strip()
+            if not name:
+                print("  ❌ Name cannot be empty.")
+                continue
+            if name.lower() in [u.lower() for u in target_user_types]:
+                print("  ❌ Name already entered. Please use a unique name.")
+                continue
+            target_user_types.append(name)
+            break
+
+    # 3. Ask how many dashboard icons
+    while True:
+        try:
+            num_input = input("  How many dashboard icons do you want to upload? ").strip()
+            if not num_input:
+                print("  ❌ Number cannot be empty.")
+                continue
+            num_icons = int(num_input)
+            if num_icons <= 0:
+                print("  ❌ Please enter a positive integer.")
+                continue
+            break
+        except ValueError:
+            print("  ❌ Invalid number. Please enter an integer.")
+
+    # 4. Collect dashboard icon names one-by-one
+    target_icon_names = []
+    for i in range(num_icons):
+        while True:
+            name = input(f"  Enter Dashboard Icon #{i + 1} Name: ").strip()
+            if not name:
+                print("  ❌ Name cannot be empty.")
+                continue
+            if name.lower() in [ic.lower() for ic in target_icon_names]:
+                print("  ❌ Icon name already entered. Please use a unique name.")
+                continue
+            target_icon_names.append(name)
+            break
+
+    logger.info(f"Target User Types: {target_user_types}")
+    logger.info(f"Target Dashboard Icons: {target_icon_names}")
+
+    # 5. Process all images from dashboardicons
+    input_dir = "dashboardicons"
+    output_dir = "automation/processed_images"
+
+    processor = ImageProcessor(input_dir, output_dir)
+    processed_images = processor.process_all_images()
+
+    if not processed_images:
+        logger.error("No images were processed from 'dashboardicons/'. Aborting.")
+        return False
+
+    # 6. Map each requested icon name to processed images
+    matched_icons = []
+    for entered_name in target_icon_names:
+        orig_filename, processed_path = find_matching_processed_image(entered_name, processed_images)
+        if not processed_path:
+            logger.warning(f"⚠ Could not find any matching image for icon name: '{entered_name}' in dashboardicons/")
+            print(f"  ⚠ Skipping unknown icon: '{entered_name}'")
+            continue
+        
+        stem = Path(orig_filename).stem
+        display_title = stem
+        icon_identity = get_icon_identity(stem)
+        icon_color = extract_dominant_color(processed_path)
+        toggle_option = get_toggle_option(stem)
+        
+        matched_icons.append({
+            "orig_filename": orig_filename,
+            "processed_path": processed_path,
+            "display_title": display_title,
+            "icon_identity": icon_identity,
+            "icon_color": icon_color,
+            "toggle_option": toggle_option
+        })
+
+    if not matched_icons:
+        logger.error("No matching dashboard icons were found. Aborting.")
+        return False
+
+    # 7. Construct icons to add for each user type
+    icons_to_add = []
+    for utype in target_user_types:
+        for icon in matched_icons:
+            icons_to_add.append({
+                "user_type": utype,
+                "icon_identity": icon["icon_identity"],
+                "display_title": icon["display_title"],
+                "image_path": icon["processed_path"],
+                "toggle_option": icon["toggle_option"],
+                "icon_color": icon["icon_color"]
+            })
+
+    logger.info(f"Generated {len(icons_to_add)} upload tasks for {len(target_user_types)} user types.")
+
+    # 8. Launch browser automation
+    logger.info("\n" + "=" * 60)
+    logger.info("Launching Browser and Starting Upload Process")
+    logger.info("=" * 60)
+
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as automation:
+            # Login
+            logger.info("\n→ Attempting login...\n")
+            if not automation.login():
+                logger.error("✗ Login failed. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            # Navigate to dashboard icons
+            logger.info("\n→ Navigating to dashboard icons section...\n")
+            if not automation.navigate_to_dashboard_icons():
+                logger.error("✗ Failed to navigate. Aborting.")
+                return False
+
+            time.sleep(2)
+
+            logger.info(f"\n→ Starting batch upload of {len(icons_to_add)} custom icons...\n")
+            successful, failed = automation.process_icons_batch(icons_to_add)
+
+            # Summary
+            logger.info("\n" + "=" * 60)
+            logger.info("SPECIFIC ICONS AUTOMATION SUMMARY")
+            logger.info("=" * 60)
+            logger.info(f"✓ Successful uploads: {successful}")
+            logger.info(f"✗ Failed uploads: {failed}")
+            logger.info(f"Total processed: {len(icons_to_add)}")
+            if icons_to_add:
+                logger.info(f"Success rate: {(successful / len(icons_to_add) * 100):.1f}%")
+            logger.info("=" * 60)
+
+            return failed == 0
+
+    except Exception as e:
+        logger.error(f"Unexpected error during specific dashboard automation: {str(e)}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return False
 
 
 def run_dashboard_icons_auto(email, password) -> bool:
@@ -897,6 +1166,10 @@ def show_menu():
     print("║   Press 8 : Gift Management                                  ║")
     print("║   Press 9 : Create User Type                                 ║")
     print("║   Press 11: Dynamic Dashboard Icons (Auto Name & Color)      ║")
+    print("║   Press 12: Add Narmada Gifts                                ║")
+    print("║   Press 13: Registration Fields (Specific User Types)        ║")
+    print("║   Press 14: Add Specific Icons to Specific User Types        ║")
+    print("║   Press 17: Analyze App Settings (Identity, Support & Icons) ║")
     print("║   Press 0 : Exit                                             ║")
     print("║                                                              ║")
     print("╚══════════════════════════════════════════════════════════════╝")
@@ -906,14 +1179,22 @@ def show_menu():
 
 if __name__ == "__main__":
     try:
-        # Ask credentials ONCE at the very beginning of the session
-        email, password = ask_credentials()
+        # Check environment variables first, fall back to interactive prompting
+        email = os.getenv("VENDOR_EMAIL", "").strip()
+        password = os.getenv("VENDOR_PASSWORD", "").strip()
+        if not email or not password:
+            email, password = ask_credentials()
+            
         if not email or not password:
             print("  ❌ Email or password cannot be empty.\n")
             sys.exit(1)
 
+        is_unattended = os.getenv("AUTOMATION_CHOICE") is not None
         while True:  # ← keep looping until user quits
-            choice = show_menu()
+            if is_unattended:
+                choice = os.getenv("AUTOMATION_CHOICE", "").strip()
+            else:
+                choice = show_menu()
 
             # ── Exit ──────────────────────────────────────────────────
             if choice == "0":
@@ -922,7 +1203,7 @@ if __name__ == "__main__":
                 sys.exit(0)
 
             # ── Invalid ───────────────────────────────────────────────
-            elif choice not in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "11"}:
+            elif choice not in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "11", "12", "13", "14", "17"}:
                 print(
                     f"\n  ❌ Invalid choice '{choice}'. Please enter a valid option.\n"
                 )
@@ -1005,6 +1286,22 @@ if __name__ == "__main__":
                 logger.info("User selected: Dynamic Dashboard Icons (Auto Name & Color)")
                 success = run_dashboard_icons_auto(email, password)
 
+            elif choice == "12":
+                logger.info("User selected: Add Narmada Gifts")
+                success = run_narmada_gifts(email, password)
+
+            elif choice == "13":
+                logger.info("User selected: Registration Fields (Specific User Types)")
+                success = run_registration_fields_specific(email, password)
+
+            elif choice == "14":
+                logger.info("User selected: Add Specific Icons to Specific User Types")
+                success = run_dashboard_icons_specific_user_types(email, password)
+
+            elif choice == "17":
+                logger.info("User selected: Analyze App Settings (Identity, Support & Icons)")
+                success = run_app_settings_analysis(email, password)
+
             # ── Result summary ────────────────────────────────────────
             logger.info(
                 f"\nTask finished at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
@@ -1017,6 +1314,9 @@ if __name__ == "__main__":
             else:
                 print("\n  ✗ Task completed with errors.")
                 print(f"  Logs: automation/logs/\n")
+
+            if is_unattended:
+                sys.exit(0 if success else 1)
 
             # loop continues → menu shown again automatically
 

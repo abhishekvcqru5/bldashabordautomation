@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.ui import WebDriverWait, Select
 
 logger = logging.getLogger(__name__)
 
@@ -163,6 +163,155 @@ class GiftManagementAutomation:
             self._ss("fatal_error")
             return False
 
+    def add_new_gift(self, gift_data, target_user_types):
+        """
+        Add a single new gift offering.
+        gift_data keys:
+            name         - Name of the gift
+            description  - Description of the gift
+            points       - Redemption points (string of digits)
+            image_path   - Absolute path to the gift image
+        target_user_types - List of user type names to select
+        """
+        name = gift_data.get("name", "Unnamed Gift")
+        logger.info(f"  Adding new gift: '{name}' for {target_user_types}")
+
+        try:
+            # 1. Click "Add New Gift" button
+            add_btn = None
+            selectors = [
+                "//button[contains(., 'Add New Gift') or contains(., 'Add Gift') or contains(., 'New Gift')]",
+                "div.px-6.py-4.flex.items-center.justify-between > button",
+                "main div.space-y-8 button"
+            ]
+            for sel in selectors:
+                try:
+                    if sel.startswith("//"):
+                        add_btn = self.wait.until(EC.element_to_be_clickable((By.XPATH, sel)))
+                    else:
+                        add_btn = self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, sel)))
+                    if add_btn:
+                        break
+                except Exception:
+                    continue
+
+            if not add_btn:
+                logger.error("    ✗ Could not find 'Add New Gift' button.")
+                return False
+
+            self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", add_btn)
+            time.sleep(0.5)
+            add_btn.click()
+            time.sleep(2)
+            logger.info("    → 'Add New Gift' clicked")
+
+            # 2. Enter Gift Name
+            gift_name_field = self.wait.until(EC.presence_of_element_located((By.ID, "Gift_name")))
+            gift_name_field.clear()
+            gift_name_field.send_keys(name)
+            logger.info(f"    → Entered label: {name}")
+
+            # 3. Enter Detail Description
+            gift_desc_field = self.driver.find_element(By.ID, "Gift_desc")
+            gift_desc_field.clear()
+            gift_desc_field.send_keys(gift_data.get("description", name))
+            logger.info("    → Entered description")
+
+            # 4. Upload Image
+            image_path = gift_data.get("image_path")
+            if image_path and Path(image_path).exists():
+                file_input = self.driver.find_element(By.XPATH, "//input[@type='file']")
+                file_input.send_keys(str(Path(image_path).absolute()))
+                time.sleep(2)
+                logger.info(f"    → Image uploaded: {Path(image_path).name}")
+            else:
+                logger.warning(f"    ⚠ Image path not found: {image_path}")
+
+            # 5. Enter Redemption Point
+            gift_point_field = self.driver.find_element(By.ID, "Gift_point")
+            gift_point_field.clear()
+            gift_point_field.send_keys(str(gift_data.get("points")))
+            logger.info(f"    → Entered points: {gift_data.get('points')}")
+
+            # 6. Interact with User Type dropdown
+            select_el = self.driver.find_element(By.ID, "UserType")
+            select_obj = Select(select_el)
+            
+            # Match options case-insensitively
+            targets_lower = [t.lower().strip() for t in target_user_types]
+            matched_option_texts = []
+            
+            for option in select_obj.options:
+                opt_text = option.text.strip().lower()
+                opt_val = option.get_attribute("value").strip().lower()
+                for target in targets_lower:
+                    if target == opt_text or target == opt_val:
+                        matched_option_texts.append(option.text)
+                        break
+
+            if not matched_option_texts:
+                logger.warning(f"    ⚠ No matching user types found in dropdown for: {target_user_types}")
+            else:
+                # If it supports multi-select:
+                if select_obj.is_multiple:
+                    select_obj.deselect_all()
+                    for opt_text in matched_option_texts:
+                        select_obj.select_by_visible_text(opt_text)
+                    logger.info(f"    → Selected user types: {matched_option_texts}")
+                else:
+                    # Single select dropdown.
+                    # We select the first matched option (or standard text match)
+                    first_match = matched_option_texts[0]
+                    select_obj.select_by_visible_text(first_match)
+                    logger.info(f"    → Selected user type (single-select): {first_match}")
+
+            # 7. Submit / Click "Create Offering"
+            submit_btn = None
+            submit_selectors = [
+                "div.fixed.inset-0 div.p-5.border-t button.bg-indigo-600",
+                "//button[contains(., 'Create Offering') or contains(., 'Create') or contains(., 'Add') or contains(@class, 'bg-indigo-600')]"
+            ]
+            for sel in submit_selectors:
+                try:
+                    if sel.startswith("//"):
+                        submit_btn = self.driver.find_element(By.XPATH, sel)
+                    else:
+                        submit_btn = self.driver.find_element(By.CSS_SELECTOR, sel)
+                    if submit_btn and submit_btn.is_displayed():
+                        break
+                except Exception:
+                    continue
+
+            if not submit_btn:
+                logger.error("    ✗ Could not find submit/create button.")
+                return False
+
+            self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", submit_btn)
+            time.sleep(0.5)
+            submit_btn.click()
+            time.sleep(3)
+            logger.info(f"  ✓ Offering created for '{name}'")
+
+            # Wait for modal to disappear/table to reload
+            self.wait.until(
+                EC.invisibility_of_element_located((By.CSS_SELECTOR, "div.fixed.inset-0"))
+            )
+            time.sleep(1)
+            return True
+
+        except Exception as e:
+            logger.error(f"  ✗ Failed to add gift offering: {e}")
+            self._ss(f"add_gift_fail_{name.replace(' ', '_')}")
+            # Attempt to click cancel/close modal if still open
+            try:
+                cancel_btn = self.driver.find_elements(By.XPATH, "//button[contains(., 'Cancel') or contains(., 'Discard')]")
+                if cancel_btn:
+                    cancel_btn[0].click()
+                    time.sleep(1)
+            except Exception:
+                pass
+            return False
+
 def run_gift_management(email, password, image_path):
     from dashboard_automation import VendorPortalAutomation
     
@@ -181,4 +330,125 @@ def run_gift_management(email, password, image_path):
             
     except Exception as e:
         logger.error(f"Unexpected error in gift management: {e}")
+        return False
+
+def run_narmada_gifts(email, password):
+    from dashboard_automation import VendorPortalAutomation
+    
+    narmada_folder = Path("narmada")
+    if not narmada_folder.exists():
+        logger.error(f"Narmada images folder not found at: {narmada_folder.absolute()}")
+        return False
+        
+    gifts_data = [
+        {"name": "Aristocrat Trolley Bag", "description": "Aristocrat Trolley Bag", "points": "150000", "image_name": "Aristocrat Trolley Bag.jpg"},
+        {"name": "48” Havells Fan", "description": "48” Havells Fan", "points": "200000", "image_name": "48” Havells Fan.jpg"},
+        {"name": "Pure Silk Saree (Made in Surat)", "description": "Pure Silk Saree (Made in Surat)", "points": "250000", "image_name": "Pure Silk Saree.jpg"},
+        {"name": "Ladies Purse / Bangle Box / Makeup Kit", "description": "Ladies Purse / Bangle Box / Makeup Kit", "points": "300000", "image_name": "Ladies Purse.jpeg"},
+        {"name": "Raymond Brand Shirt / Pant Clothes", "description": "Raymond Brand Shirt / Pant Clothes", "points": "400000", "image_name": "Raymond Brand Shirt.jpg"},
+        {"name": "Faber Juicer Mixer", "description": "Faber Juicer Mixer", "points": "500000", "image_name": "Faber Juicer Mixer.jpg"},
+        {"name": "Jaquar Geyser (5 Star Rating)", "description": "Jaquar Geyser (5 Star Rating)", "points": "750000", "image_name": "Jaquar Geyser.jpg"},
+        {"name": "Sony LED TV", "description": "Sony LED TV", "points": "1000000", "image_name": "Sony LED TV.jpg"},
+        {"name": "Kelvinator Freezer", "description": "Kelvinator Freezer", "points": "1500000", "image_name": "Kelvinator Freezer.jpg"},
+        {"name": "Samsung Touch Screen Mobile", "description": "Samsung Touch Screen Mobile", "points": "2000000", "image_name": "Samsung Touch Screen Mobile.jpg"},
+        {"name": "Goa Trip ✈️", "description": "Goa Trip ✈️", "points": "2500000", "image_name": "Goa Trip.jpg"},
+        {"name": "Couple Goa Trip ✈️", "description": "Couple Goa Trip ✈️", "points": "5000000", "image_name": "Couple Goa Trip.jpg"},
+    ]
+    
+    # Resolve absolute image paths
+    for g in gifts_data:
+        g["image_path"] = str((narmada_folder / g["image_name"]).absolute())
+        
+    target_user_types = ["Karpenter", "building contractor", "Electrician", "site supervisor", "plumber", "tile applicator"]
+    
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as auto:
+            if not auto.login():
+                logger.error("✗ Login failed")
+                return False
+                
+            time.sleep(2)
+            gift_auto = GiftManagementAutomation(auto.driver)
+            
+            if not gift_auto.navigate():
+                logger.error("✗ Failed to navigate to Gift Management")
+                return False
+                
+            # Detect dropdown type (multi vs single)
+            # Open Add New Gift modal once to check
+            logger.info("Opening Add New Gift modal to detect dropdown select type...")
+            add_btn = None
+            selectors = [
+                "//button[contains(., 'Add New Gift') or contains(., 'Add Gift') or contains(., 'New Gift')]",
+                "div.px-6.py-4.flex.items-center.justify-between > button",
+                "main div.space-y-8 button"
+            ]
+            for sel in selectors:
+                try:
+                    if sel.startswith("//"):
+                        add_btn = gift_auto.wait.until(EC.element_to_be_clickable((By.XPATH, sel)))
+                    else:
+                        add_btn = gift_auto.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, sel)))
+                    if add_btn:
+                        break
+                except Exception:
+                    continue
+                    
+            if not add_btn:
+                logger.error("✗ Could not locate 'Add New Gift' button during detection phase")
+                return False
+                
+            add_btn.click()
+            time.sleep(2)
+            
+            select_el = gift_auto.driver.find_element(By.ID, "UserType")
+            select_obj = Select(select_el)
+            is_multiple = select_obj.is_multiple
+            logger.info(f"Dropdown 'is_multiple' detected as: {is_multiple}")
+            
+            # Close/discard modal
+            cancel_btn = gift_auto.driver.find_element(By.XPATH, "//button[contains(., 'Cancel') or contains(., 'Discard')]")
+            cancel_btn.click()
+            time.sleep(2)
+            
+            successful_uploads = 0
+            failed_uploads = 0
+            
+            if is_multiple:
+                logger.info("Proceeding with multi-select upload flow (one upload per gift)...")
+                for idx, gift in enumerate(gifts_data, 1):
+                    logger.info(f"Uploading Narmada Gift {idx} of {len(gifts_data)}: {gift['name']}")
+                    if gift_auto.add_new_gift(gift, target_user_types):
+                        successful_uploads += 1
+                    else:
+                        failed_uploads += 1
+                    time.sleep(1)
+            else:
+                logger.info("Proceeding with single-select sequential upload flow (each gift added once per user type)...")
+                # Expand the list of offerings: 12 gifts * 6 user types = 72 total operations
+                total_ops = len(gifts_data) * len(target_user_types)
+                current_op = 0
+                for gift in gifts_data:
+                    for utype in target_user_types:
+                        current_op += 1
+                        logger.info(f"[{current_op}/{total_ops}] Uploading: '{gift['name']}' for '{utype}'")
+                        if gift_auto.add_new_gift(gift, [utype]):
+                            successful_uploads += 1
+                        else:
+                            failed_uploads += 1
+                        time.sleep(1)
+                        
+            logger.info("\n" + "=" * 60)
+            logger.info("NARMADA GIFTS AUTOMATION SUMMARY")
+            logger.info("=" * 60)
+            logger.info(f"✓ Successful: {successful_uploads}")
+            logger.info(f"✗ Failed: {failed_uploads}")
+            logger.info("=" * 60)
+            
+            return failed_uploads == 0
+            
+    except Exception as e:
+        logger.error(f"Unexpected error in Narmada gifts automation: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
         return False

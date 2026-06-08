@@ -1,0 +1,505 @@
+2026-06-02 14:56:36,955 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-02 14:56:36,955 - INFO - ============================================================
+2026-06-02 14:56:36,955 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-02 14:56:36,955 - INFO - ============================================================
+2026-06-02 14:56:36,973 - INFO - Processing images from: dashboardicons
+2026-06-02 14:56:36,973 - INFO - Output folder: automation\processed_images
+2026-06-02 14:56:36,974 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-02 14:56:37,052 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-02 14:56:37,098 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-02 14:56:37,142 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-02 14:56:37,180 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-02 14:56:37,241 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-02 14:56:37,272 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-02 14:56:37,297 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-02 14:56:37,314 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-02 14:56:37,348 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-02 14:56:37,375 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-02 14:56:37,404 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-02 14:56:37,445 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-02 14:56:37,477 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-02 14:56:37,505 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-02 14:56:37,533 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-02 14:56:37,559 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-02 14:56:37,560 - INFO - 
+✓ Processed 16 images successfully
+
+2026-06-02 14:56:37,560 - INFO - ✓ 16 images processed successfully.
+
+2026-06-02 14:56:43,811 - INFO - Target User Type: Electrician
+2026-06-02 14:56:43,846 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-02 14:56:43,846 - INFO -   → Extracted Title: Activity
+2026-06-02 14:56:43,847 - INFO -   → Matched Identity: codedetails
+2026-06-02 14:56:43,847 - INFO -   → Extracted Color: #F86008
+2026-06-02 14:56:43,847 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:43,862 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-02 14:56:43,862 - INFO -   → Extracted Title: Installation Guide
+2026-06-02 14:56:43,862 - INFO -   → Matched Identity: instalment
+2026-06-02 14:56:43,863 - INFO -   → Extracted Color: #089098
+2026-06-02 14:56:43,863 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:43,880 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-02 14:56:43,880 - INFO -   → Extracted Title: KYC
+2026-06-02 14:56:43,880 - INFO -   → Matched Identity: kycdetails
+2026-06-02 14:56:43,881 - INFO -   → Extracted Color: #F85808
+2026-06-02 14:56:43,881 - INFO -   → Toggle Option: side menu
+2026-06-02 14:56:43,897 - INFO - Dynamically mapped image 'Language.png':
+2026-06-02 14:56:43,898 - INFO -   → Extracted Title: Language
+2026-06-02 14:56:43,898 - INFO -   → Matched Identity: chooselanguage
+2026-06-02 14:56:43,898 - INFO -   → Extracted Color: #5010E8
+2026-06-02 14:56:43,898 - INFO -   → Toggle Option: side menu
+2026-06-02 14:56:43,912 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-02 14:56:43,913 - INFO -   → Extracted Title: My Wallet
+2026-06-02 14:56:43,913 - INFO -   → Matched Identity: wallet
+2026-06-02 14:56:43,913 - INFO -   → Extracted Color: #20A020
+2026-06-02 14:56:43,913 - INFO -   → Toggle Option: both
+2026-06-02 14:56:43,927 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-02 14:56:43,927 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-02 14:56:43,927 - INFO -   → Matched Identity: retailer
+2026-06-02 14:56:43,928 - INFO -   → Extracted Color: #F87010
+2026-06-02 14:56:43,928 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:43,944 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-02 14:56:43,945 - INFO -   → Extracted Title: Product Catalog
+2026-06-02 14:56:43,945 - INFO -   → Matched Identity: productcatalogue
+2026-06-02 14:56:43,945 - INFO -   → Extracted Color: #6028E8
+2026-06-02 14:56:43,946 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:43,961 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-02 14:56:43,961 - INFO -   → Extracted Title: Prospectus
+2026-06-02 14:56:43,961 - INFO -   → Matched Identity: brochure
+2026-06-02 14:56:43,961 - INFO -   → Extracted Color: #0848F8
+2026-06-02 14:56:43,962 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:43,977 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-02 14:56:43,977 - INFO -   → Extracted Title: Refer & Earn
+2026-06-02 14:56:43,978 - INFO -   → Matched Identity: referandearn
+2026-06-02 14:56:43,978 - INFO -   → Extracted Color: #089098
+2026-06-02 14:56:43,978 - INFO -   → Toggle Option: both
+2026-06-02 14:56:43,992 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-02 14:56:43,993 - INFO -   → Extracted Title: Rewards
+2026-06-02 14:56:43,993 - INFO -   → Matched Identity: gift
+2026-06-02 14:56:43,993 - INFO -   → Extracted Color: #F00048
+2026-06-02 14:56:43,993 - INFO -   → Toggle Option: both
+2026-06-02 14:56:44,010 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-02 14:56:44,011 - INFO -   → Extracted Title: Scan Activity
+2026-06-02 14:56:44,011 - INFO -   → Matched Identity: codedetails
+2026-06-02 14:56:44,011 - INFO -   → Extracted Color: #10A010
+2026-06-02 14:56:44,011 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:44,029 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-02 14:56:44,029 - INFO -   → Extracted Title: Scan History
+2026-06-02 14:56:44,029 - INFO -   → Matched Identity: history
+2026-06-02 14:56:44,029 - INFO -   → Extracted Color: #4808F0
+2026-06-02 14:56:44,030 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:44,045 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-02 14:56:44,045 - INFO -   → Extracted Title: Send Points
+2026-06-02 14:56:44,046 - INFO -   → Matched Identity: transferpoints
+2026-06-02 14:56:44,046 - INFO -   → Extracted Color: #F86008
+2026-06-02 14:56:44,046 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:44,060 - INFO - Dynamically mapped image 'Support.png':
+2026-06-02 14:56:44,060 - INFO -   → Extracted Title: Support
+2026-06-02 14:56:44,061 - INFO -   → Matched Identity: help
+2026-06-02 14:56:44,061 - INFO -   → Extracted Color: #0030F0
+2026-06-02 14:56:44,061 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:44,076 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-02 14:56:44,076 - INFO -   → Extracted Title: TDS
+2026-06-02 14:56:44,076 - INFO -   → Matched Identity: tds
+2026-06-02 14:56:44,077 - INFO -   → Extracted Color: #20C880
+2026-06-02 14:56:44,077 - INFO -   → Toggle Option: side menu
+2026-06-02 14:56:44,091 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-02 14:56:44,092 - INFO -   → Extracted Title: Updates
+2026-06-02 14:56:44,092 - INFO -   → Matched Identity: blog
+2026-06-02 14:56:44,092 - INFO -   → Extracted Color: #F87820
+2026-06-02 14:56:44,092 - INFO -   → Toggle Option: dashboard only
+2026-06-02 14:56:44,092 - INFO - 
+============================================================
+2026-06-02 14:56:44,093 - INFO - Launching Browser and Starting Upload Process
+2026-06-02 14:56:44,093 - INFO - ============================================================
+2026-06-02 14:56:44,103 - INFO - ====== WebDriver manager ======
+2026-06-02 14:56:45,209 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-02 14:56:45,683 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-02 14:56:46,059 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-02 14:56:46,060 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-02 14:56:47,972 - INFO - ✓ Chrome driver initialized
+2026-06-02 14:56:47,973 - INFO - 
+→ Attempting login...
+
+2026-06-02 14:56:47,973 - INFO - Opening login page...
+2026-06-02 14:56:49,350 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-02 14:56:54,480 - INFO - ✓ Login successful
+2026-06-02 14:56:56,481 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-02 14:56:56,482 - INFO - Navigating to App Settings...
+2026-06-02 14:57:02,926 - INFO - ✓ Dashboard Icons section loaded
+2026-06-02 14:57:04,926 - INFO - 
+→ Starting batch upload of 16 custom icons...
+
+2026-06-02 14:57:04,927 - INFO - Starting batch – 16 configured entries
+2026-06-02 14:57:04,927 - INFO - Total icons to upload after expansion: 16
+2026-06-02 14:57:04,927 - INFO - ============================================================
+2026-06-02 14:57:04,927 - INFO - [1/16]
+2026-06-02 14:57:04,928 - INFO -   Adding: [Electrician] Activity  (codedetails)
+2026-06-02 14:57:07,151 - INFO -     → User type: Electrician
+2026-06-02 14:57:07,234 - INFO -     → Icon identity: codedetails
+2026-06-02 14:57:07,328 - INFO -     → Display title: Activity
+2026-06-02 14:57:07,760 - INFO -     → Icon color: #F86008
+2026-06-02 14:57:07,794 - INFO -     → Toggle: dashboard only
+2026-06-02 14:57:09,851 - INFO -     → Image uploaded: Activity.png
+2026-06-02 14:57:09,947 - INFO -     → Form submitted
+2026-06-02 14:57:10,953 - INFO -   ✓ Icon added: Activity
+
+2026-06-02 14:57:11,954 - INFO - [2/16]
+2026-06-02 14:57:11,955 - INFO -   Adding: [Electrician] Installation Guide  (instalment)
+2026-06-02 14:57:13,078 - ERROR -   ✗ Failed to add [Installation Guide]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:57:13,246 - INFO -   📸 Screenshot saved: automation\screenshots\error_Installation_Guide_20260602_145713.png
+2026-06-02 14:57:14,267 - INFO - [3/16]
+2026-06-02 14:57:14,267 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-06-02 14:57:16,543 - INFO -     → User type: Electrician
+2026-06-02 14:57:16,597 - INFO -     → Icon identity: kycdetails
+2026-06-02 14:57:16,693 - INFO -     → Display title: KYC
+2026-06-02 14:57:17,079 - INFO -     → Icon color: #F85808
+2026-06-02 14:57:17,115 - INFO -     → Toggle: side menu
+2026-06-02 14:57:19,152 - INFO -     → Image uploaded: KYC.png
+2026-06-02 14:57:19,240 - INFO -     → Form submitted
+2026-06-02 14:57:20,247 - INFO -   ✓ Icon added: KYC
+
+2026-06-02 14:57:21,248 - INFO - [4/16]
+2026-06-02 14:57:21,248 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-06-02 14:57:22,395 - ERROR -   ✗ Failed to add [Language]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:57:22,553 - INFO -   📸 Screenshot saved: automation\screenshots\error_Language_20260602_145722.png
+2026-06-02 14:57:23,567 - INFO - [5/16]
+2026-06-02 14:57:23,567 - INFO -   Adding: [Electrician] My Wallet  (wallet)
+2026-06-02 14:57:25,830 - INFO -     → User type: Electrician
+2026-06-02 14:57:25,896 - INFO -     → Icon identity: wallet
+2026-06-02 14:57:25,996 - INFO -     → Display title: My Wallet
+2026-06-02 14:57:26,387 - INFO -     → Icon color: #20A020
+2026-06-02 14:57:26,418 - INFO -     → Toggle: both
+2026-06-02 14:57:28,477 - INFO -     → Image uploaded: My Wallet.png
+2026-06-02 14:57:28,559 - INFO -     → Form submitted
+2026-06-02 14:57:29,566 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-02 14:57:30,567 - INFO - [6/16]
+2026-06-02 14:57:30,568 - INFO -   Adding: [Electrician] Nearby Retailers  (retailer)
+2026-06-02 14:57:31,812 - ERROR -   ✗ Failed to add [Nearby Retailers]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:57:31,982 - INFO -   📸 Screenshot saved: automation\screenshots\error_Nearby_Retailers_20260602_145731.png
+2026-06-02 14:57:32,995 - INFO - [7/16]
+2026-06-02 14:57:32,996 - INFO -   Adding: [Electrician] Product Catalog  (productcatalogue)
+2026-06-02 14:57:35,198 - INFO -     → User type: Electrician
+2026-06-02 14:57:35,248 - INFO -     → Icon identity: productcatalogue
+2026-06-02 14:57:35,332 - INFO -     → Display title: Product Catalog
+2026-06-02 14:57:35,791 - INFO -     → Icon color: #6028E8
+2026-06-02 14:57:35,825 - INFO -     → Toggle: dashboard only
+2026-06-02 14:57:37,860 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-02 14:57:37,993 - INFO -     → Form submitted
+2026-06-02 14:57:39,002 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-02 14:57:40,003 - INFO - [8/16]
+2026-06-02 14:57:40,004 - INFO -   Adding: [Electrician] Prospectus  (brochure)
+2026-06-02 14:57:41,147 - ERROR -   ✗ Failed to add [Prospectus]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:57:41,350 - INFO -   📸 Screenshot saved: automation\screenshots\error_Prospectus_20260602_145741.png
+2026-06-02 14:57:42,365 - INFO - [9/16]
+2026-06-02 14:57:42,365 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-06-02 14:57:44,560 - INFO -     → User type: Electrician
+2026-06-02 14:57:44,640 - INFO -     → Icon identity: referandearn
+2026-06-02 14:57:44,767 - INFO -     → Display title: Refer & Earn
+2026-06-02 14:57:45,190 - INFO -     → Icon color: #089098
+2026-06-02 14:57:45,224 - INFO -     → Toggle: both
+2026-06-02 14:57:47,260 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-02 14:57:47,348 - INFO -     → Form submitted
+2026-06-02 14:57:48,355 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-02 14:57:49,357 - INFO - [10/16]
+2026-06-02 14:57:49,358 - INFO -   Adding: [Electrician] Rewards  (gift)
+2026-06-02 14:57:50,451 - ERROR -   ✗ Failed to add [Rewards]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:57:50,598 - INFO -   📸 Screenshot saved: automation\screenshots\error_Rewards_20260602_145750.png
+2026-06-02 14:57:51,613 - INFO - [11/16]
+2026-06-02 14:57:51,613 - INFO -   Adding: [Electrician] Scan Activity  (codedetails)
+2026-06-02 14:57:53,977 - INFO -     → User type: Electrician
+2026-06-02 14:57:54,040 - INFO -     → Icon identity: codedetails
+2026-06-02 14:57:54,150 - INFO -     → Display title: Scan Activity
+2026-06-02 14:57:54,582 - INFO -     → Icon color: #10A010
+2026-06-02 14:57:54,628 - INFO -     → Toggle: dashboard only
+2026-06-02 14:57:56,666 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-02 14:57:56,770 - INFO -     → Form submitted
+2026-06-02 14:57:57,777 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-02 14:57:58,779 - INFO - [12/16]
+2026-06-02 14:57:58,779 - INFO -   Adding: [Electrician] Scan History  (history)
+2026-06-02 14:57:59,950 - ERROR -   ✗ Failed to add [Scan History]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:58:00,137 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_History_20260602_145759.png
+2026-06-02 14:58:01,151 - INFO - [13/16]
+2026-06-02 14:58:01,152 - INFO -   Adding: [Electrician] Send Points  (transferpoints)
+2026-06-02 14:58:03,319 - INFO -     → User type: Electrician
+2026-06-02 14:58:03,364 - INFO -     → Icon identity: transferpoints
+2026-06-02 14:58:03,446 - INFO -     → Display title: Send Points
+2026-06-02 14:58:03,857 - INFO -     → Icon color: #F86008
+2026-06-02 14:58:03,889 - INFO -     → Toggle: dashboard only
+2026-06-02 14:58:05,928 - INFO -     → Image uploaded: Send Points.png
+2026-06-02 14:58:06,015 - INFO -     → Form submitted
+2026-06-02 14:58:07,031 - INFO -   ✓ Icon added: Send Points
+
+2026-06-02 14:58:08,032 - INFO - [14/16]
+2026-06-02 14:58:08,033 - INFO -   Adding: [Electrician] Support  (help)
+2026-06-02 14:58:09,230 - ERROR -   ✗ Failed to add [Support]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:58:09,376 - INFO -   📸 Screenshot saved: automation\screenshots\error_Support_20260602_145809.png
+2026-06-02 14:58:10,395 - INFO - [15/16]
+2026-06-02 14:58:10,395 - INFO -   Adding: [Electrician] TDS  (tds)
+2026-06-02 14:58:12,598 - INFO -     → User type: Electrician
+2026-06-02 14:58:12,651 - INFO -     → Icon identity: tds
+2026-06-02 14:58:12,722 - INFO -     → Display title: TDS
+2026-06-02 14:58:13,108 - INFO -     → Icon color: #20C880
+2026-06-02 14:58:13,135 - INFO -     → Toggle: side menu
+2026-06-02 14:58:15,164 - INFO -     → Image uploaded: TDS.png
+2026-06-02 14:58:15,250 - INFO -     → Form submitted
+2026-06-02 14:58:16,258 - INFO -   ✓ Icon added: TDS
+
+2026-06-02 14:58:17,259 - INFO - [16/16]
+2026-06-02 14:58:17,259 - INFO -   Adding: [Electrician] Updates  (blog)
+2026-06-02 14:58:18,413 - ERROR -   ✗ Failed to add [Updates]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1161, 82). Other element would receive the click: <div class="flex items-start p-4">...</div>
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xefb593+105d3]
+	chromedriver!GetHandleVerifier [0xefb6c4+10704]
+	chromedriver!(No symbol) [0xd01ea0]
+	chromedriver!(No symbol) [0xd510d8]
+	chromedriver!(No symbol) [0xd4f769]
+	chromedriver!(No symbol) [0xd4d545]
+	chromedriver!(No symbol) [0xd4c754]
+	chromedriver!(No symbol) [0xd42368]
+	chromedriver!(No symbol) [0xd6d77c]
+	chromedriver!(No symbol) [0xd41da4]
+	chromedriver!(No symbol) [0xd6d944]
+	chromedriver!(No symbol) [0xd8a936]
+	chromedriver!(No symbol) [0xd6d516]
+	chromedriver!(No symbol) [0xd408e9]
+	chromedriver!(No symbol) [0xd416a4]
+	chromedriver!GetHandleVerifier [0x1183014+298054]
+	chromedriver!GetHandleVerifier [0x117e603+293643]
+	chromedriver!GetHandleVerifier [0x119ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xf154e8+2a528]
+	chromedriver!GetHandleVerifier [0xf1cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xf03e68+18ea8]
+	chromedriver!GetHandleVerifier [0xf04015+19055]
+	chromedriver!GetHandleVerifier [0xeed65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 14:58:18,588 - INFO -   📸 Screenshot saved: automation\screenshots\error_Updates_20260602_145818.png
+2026-06-02 14:58:19,601 - INFO - ============================================================
+2026-06-02 14:58:19,602 - INFO - Batch complete → ✓ 8 succeeded  ✗ 8 failed
+2026-06-02 14:58:19,602 - INFO - 
+============================================================
+2026-06-02 14:58:19,603 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-02 14:58:19,603 - INFO - ============================================================
+2026-06-02 14:58:19,603 - INFO - ✓ Successful uploads: 8
+2026-06-02 14:58:19,604 - INFO - ✗ Failed uploads: 8
+2026-06-02 14:58:19,604 - INFO - Total processed: 16
+2026-06-02 14:58:19,604 - INFO - Success rate: 50.0%
+2026-06-02 14:58:19,604 - INFO - ============================================================
+2026-06-02 14:58:21,857 - INFO - Browser closed
+2026-06-02 14:58:25,939 - INFO - 
+Task finished at 2026-06-02 14:58:25
+2026-06-02 14:58:25,939 - INFO - Log: automation\logs\full_automation_20260602_145139.log
+

@@ -1,0 +1,112 @@
+2026-06-03 13:29:53,323 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-03 13:33:34,212 - INFO - Target User Types: ['Dealer', 'Retailer', 'Plumber', 'User', 'Autoagent', 'Uthgg K Nm']
+2026-06-03 13:33:34,212 - INFO - Target Dashboard Icons: ['E-Warranty']
+2026-06-03 13:33:34,221 - INFO - Processing images from: dashboardicons
+2026-06-03 13:33:34,221 - INFO - Output folder: automation\processed_images
+2026-06-03 13:33:34,221 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-03 13:33:34,399 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-03 13:33:34,452 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-03 13:33:34,496 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-03 13:33:34,539 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-03 13:33:34,582 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-03 13:33:34,656 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-03 13:33:34,689 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-03 13:33:34,717 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-03 13:33:34,735 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-03 13:33:34,772 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-03 13:33:34,799 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-03 13:33:34,829 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-03 13:33:34,871 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-03 13:33:34,905 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-03 13:33:34,932 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-03 13:33:34,963 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-03 13:33:34,989 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-03 13:33:34,989 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-03 13:33:35,011 - INFO - Generated 6 upload tasks for 6 user types.
+2026-06-03 13:33:35,011 - INFO - 
+============================================================
+2026-06-03 13:33:35,011 - INFO - Launching Browser and Starting Upload Process
+2026-06-03 13:33:35,012 - INFO - ============================================================
+2026-06-03 13:33:35,019 - INFO - ====== WebDriver manager ======
+2026-06-03 13:33:36,423 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-03 13:33:37,176 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-03 13:33:37,535 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-03 13:33:38,343 - INFO - WebDriver version 148.0.7778.178 selected
+2026-06-03 13:33:38,351 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-03 13:33:38,351 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-03 13:33:38,598 - INFO - Driver downloading response is 200
+2026-06-03 13:33:40,315 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-03 13:33:40,744 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-06-03 13:33:40,747 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-03 13:33:43,429 - INFO - ✓ Chrome driver initialized
+2026-06-03 13:33:43,429 - INFO - 
+→ Attempting login...
+
+2026-06-03 13:33:43,429 - INFO - Opening login page...
+2026-06-03 13:33:44,799 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-03 13:33:45,524 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-03 13:33:45,561 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-03 13:33:45,640 - INFO - ✓ Login successful
+2026-06-03 13:33:47,641 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-03 13:33:47,642 - INFO - Navigating to App Settings...
+2026-06-03 13:33:53,883 - INFO - ✓ Dashboard Icons section loaded
+2026-06-03 13:33:55,884 - INFO - 
+→ Starting batch upload of 6 custom icons...
+
+2026-06-03 13:33:55,885 - INFO - Starting batch – 6 configured entries
+2026-06-03 13:33:55,885 - INFO - Total icons to upload after expansion: 6
+2026-06-03 13:33:55,885 - INFO - ============================================================
+2026-06-03 13:33:55,885 - INFO - [1/6]
+2026-06-03 13:33:55,885 - INFO -   Adding: [Dealer] E-Warranty  (ewarrant)
+2026-06-03 13:34:08,176 - INFO -     → User type: Dealer
+2026-06-03 13:34:08,268 - ERROR -   ✗ Failed to add [E-Warranty]: Message: Could not locate element with visible text: ewarrant; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-03 13:34:08,650 - INFO -   📸 Screenshot saved: automation\screenshots\error_E-Warranty_20260603_133408.png
+2026-06-03 13:34:10,795 - INFO - [2/6]
+2026-06-03 13:34:10,795 - INFO -   Adding: [Retailer] E-Warranty  (ewarrant)
+2026-06-03 13:34:23,008 - INFO -     → User type: Retailer
+2026-06-03 13:34:23,095 - ERROR -   ✗ Failed to add [E-Warranty]: Message: Could not locate element with visible text: ewarrant; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-03 13:34:23,538 - INFO -   📸 Screenshot saved: automation\screenshots\error_E-Warranty_20260603_133423.png
+2026-06-03 13:34:25,615 - INFO - [3/6]
+2026-06-03 13:34:25,616 - INFO -   Adding: [Plumber] E-Warranty  (ewarrant)
+2026-06-03 13:34:37,858 - ERROR -   ✗ Failed to add [E-Warranty]: Message: Cannot locate option with value: Plumber; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-03 13:34:38,222 - INFO -   📸 Screenshot saved: automation\screenshots\error_E-Warranty_20260603_133437.png
+2026-06-03 13:34:40,294 - INFO - [4/6]
+2026-06-03 13:34:40,295 - INFO -   Adding: [User] E-Warranty  (ewarrant)
+2026-06-03 13:34:52,545 - INFO -     → User type: User
+2026-06-03 13:34:52,597 - ERROR -   ✗ Failed to add [E-Warranty]: Message: Could not locate element with visible text: ewarrant; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-03 13:34:52,848 - INFO -   📸 Screenshot saved: automation\screenshots\error_E-Warranty_20260603_133452.png
+2026-06-03 13:34:54,927 - INFO - [5/6]
+2026-06-03 13:34:54,928 - INFO -   Adding: [Autoagent] E-Warranty  (ewarrant)
+2026-06-03 13:35:07,607 - ERROR -   ✗ Failed to add [E-Warranty]: Message: Cannot locate option with value: Autoagent; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-03 13:35:07,922 - INFO -   📸 Screenshot saved: automation\screenshots\error_E-Warranty_20260603_133507.png
+2026-06-03 13:35:10,019 - INFO - [6/6]
+2026-06-03 13:35:10,020 - INFO -   Adding: [Uthgg K Nm] E-Warranty  (ewarrant)
+2026-06-03 13:35:22,246 - ERROR -   ✗ Failed to add [E-Warranty]: Message: Cannot locate option with value: Uthgg K Nm; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-03 13:35:22,566 - INFO -   📸 Screenshot saved: automation\screenshots\error_E-Warranty_20260603_133522.png
+2026-06-03 13:35:24,640 - INFO - ============================================================
+2026-06-03 13:35:24,640 - INFO - Batch complete → ✓ 0 succeeded  ✗ 6 failed
+2026-06-03 13:35:24,641 - INFO - 
+============================================================
+2026-06-03 13:35:24,641 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-03 13:35:24,641 - INFO - ============================================================
+2026-06-03 13:35:24,641 - INFO - ✓ Successful uploads: 0
+2026-06-03 13:35:24,642 - INFO - ✗ Failed uploads: 6
+2026-06-03 13:35:24,642 - INFO - Total processed: 6
+2026-06-03 13:35:24,642 - INFO - Success rate: 0.0%
+2026-06-03 13:35:24,643 - INFO - ============================================================
+2026-06-03 13:35:26,883 - INFO - Browser closed
+2026-06-03 13:35:30,961 - INFO - 
+Task finished at 2026-06-03 13:35:30
+2026-06-03 13:35:30,961 - INFO - Log: automation\logs\full_automation_20260603_132925.log
+

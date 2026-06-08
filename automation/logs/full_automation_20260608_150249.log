@@ -1,0 +1,33 @@
+2026-06-08 15:02:49,722 - INFO - User selected: Analyze App Settings (Identity, Support & Icons)
+2026-06-08 15:02:49,723 - INFO - ============================================================
+2026-06-08 15:02:49,723 - INFO - APP SETTINGS ANALYSIS FOR USER: mahesh@vcqru.com
+2026-06-08 15:02:49,724 - INFO - ============================================================
+2026-06-08 15:02:49,739 - INFO - ====== WebDriver manager ======
+2026-06-08 15:02:52,470 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 15:02:53,411 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 15:02:54,425 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-08 15:02:54,426 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-08 15:02:55,964 - INFO - ✓ Chrome driver initialized
+2026-06-08 15:02:55,965 - INFO - → Attempting login...
+2026-06-08 15:02:55,965 - INFO - Opening login page...
+2026-06-08 15:02:58,197 - INFO -   → Policy checkbox checked on login page
+2026-06-08 15:02:58,486 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-08 15:03:03,778 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-08 15:03:03,848 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-08 15:03:04,133 - INFO - ✓ Login successful
+2026-06-08 15:03:06,133 - INFO - 
+→ Extracting Identity & Branding settings...
+2026-06-08 15:03:13,673 - INFO -   ✓ Identity & Branding extracted successfully
+2026-06-08 15:03:13,673 - INFO - 
+→ Extracting Support Network settings...
+2026-06-08 15:03:20,741 - INFO -   ✓ Support Network extracted successfully
+2026-06-08 15:03:20,742 - INFO - 
+→ Extracting Dashboard Icons...
+2026-06-08 15:03:33,083 - INFO -   ✓ Extracted 58 dashboard icons successfully
+2026-06-08 15:03:33,086 - INFO - 
+✓ Settings analysis saved successfully to: automation\logs\current_settings_mahesh_vcqru_com.json
+2026-06-08 15:03:35,625 - INFO - Browser closed
+2026-06-08 15:03:39,687 - INFO - 
+Task finished at 2026-06-08 15:03:39
+2026-06-08 15:03:39,688 - INFO - Log: automation\logs\full_automation_20260608_150249.log
+

@@ -1,0 +1,314 @@
+2026-06-04 17:10:14,825 - INFO - User selected: Brand Setting
+2026-06-04 17:10:18,791 - INFO -   Found logo asset: logo.png
+2026-06-04 17:10:18,792 - INFO -   Found splash asset: splash.png
+2026-06-04 17:10:18,793 - INFO - ============================================================
+2026-06-04 17:10:18,794 - INFO - BRAND SETTING — Image Processing
+2026-06-04 17:10:18,794 - INFO - ============================================================
+2026-06-04 17:10:18,882 - INFO - ✓ Logo  → logo_processed.jpg  |  22.4 KB  |  JPEG q95
+2026-06-04 17:10:18,918 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-04 17:10:19,086 - INFO - ✓ Splash → splash_processed.png  |  0.26 MB  |  PNG lossless
+2026-06-04 17:10:19,087 - INFO - 
+2026-06-04 17:10:19,088 - INFO - Extracting brand colours from logo...
+2026-06-04 17:10:19,184 - INFO -   Colours extracted from logo:
+2026-06-04 17:10:19,184 - INFO -     Header Color     →  #003080  (dominant logo colour)
+2026-06-04 17:10:19,184 - INFO -     Background Color →  #001F53  (35% darker)
+2026-06-04 17:10:19,185 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-04 17:10:19,185 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-04 17:10:19,192 - INFO - ✓ Both images ready
+
+2026-06-04 17:10:19,192 - INFO - ============================================================
+2026-06-04 17:10:19,193 - INFO - BRAND SETTING — Browser Automation
+2026-06-04 17:10:19,193 - INFO - ============================================================
+2026-06-04 17:10:19,202 - INFO - ====== WebDriver manager ======
+2026-06-04 17:10:20,415 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:10:20,862 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:10:21,243 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-04 17:10:21,243 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-04 17:10:23,327 - INFO - ✓ Chrome driver initialized
+2026-06-04 17:10:23,327 - INFO - Opening login page...
+2026-06-04 17:10:25,559 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-04 17:10:37,808 - INFO - ✓ Login successful
+2026-06-04 17:10:39,810 - INFO - Going to App Settings...
+2026-06-04 17:10:46,476 - INFO -   → Identity & Branding section opened
+2026-06-04 17:10:48,606 - INFO -   → Edit Branding popup opened
+2026-06-04 17:10:48,621 - INFO - ✓ Brand setting form is ready
+2026-06-04 17:10:48,621 - INFO -   Setting company name: Dlite
+2026-06-04 17:10:49,488 - INFO -     → HeaderColor: #003080
+2026-06-04 17:10:50,201 - INFO -     → FooterColor: #F5F5F5
+2026-06-04 17:10:50,901 - INFO -     → BodyColor: #FFFFFF
+2026-06-04 17:10:51,627 - INFO -     → BackgroundColor: #001F53
+2026-06-04 17:10:53,701 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-04 17:10:55,732 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-04 17:10:55,867 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-04 17:10:58,881 - INFO - ✓ Brand settings saved successfully!
+2026-06-04 17:11:01,093 - INFO - Browser closed
+2026-06-04 17:11:05,144 - INFO - 
+Task finished at 2026-06-04 17:11:05
+2026-06-04 17:11:05,145 - INFO - Log: automation\logs\full_automation_20260604_170948.log
+
+2026-06-04 17:12:18,393 - INFO - User selected: Promotion Banners
+2026-06-04 17:12:18,393 - INFO - ============================================================
+2026-06-04 17:12:18,394 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-04 17:12:18,394 - INFO - ============================================================
+2026-06-04 17:12:18,395 - INFO - Found 1 banner image(s) in banner/
+2026-06-04 17:12:18,398 - INFO -   ⚙ Processing a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  (size 1672×941 → need 1920×1080)
+2026-06-04 17:12:18,501 - INFO -   ✓ a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  →  a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-06-04 17:12:18,503 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-06-04 17:12:18,504 - INFO - ============================================================
+2026-06-04 17:12:18,504 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-04 17:12:18,504 - INFO - ============================================================
+2026-06-04 17:12:18,517 - INFO - ====== WebDriver manager ======
+2026-06-04 17:12:20,271 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:12:21,113 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:12:21,775 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-04 17:12:21,776 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-04 17:12:23,216 - INFO - ✓ Chrome driver initialized
+2026-06-04 17:12:23,217 - INFO - Opening login page...
+2026-06-04 17:12:24,887 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-04 17:12:37,603 - INFO - ✓ Login successful
+2026-06-04 17:12:39,605 - INFO - Going to App Settings...
+2026-06-04 17:12:45,934 - INFO -   → Promotion Banners section opened
+2026-06-04 17:12:45,964 - INFO - ✓ Promotion Banners page ready
+2026-06-04 17:12:45,965 - INFO - Starting batch  —  1 banner(s) to publish
+2026-06-04 17:12:45,965 - INFO - ============================================================
+2026-06-04 17:12:45,965 - INFO - [1/1]
+2026-06-04 17:12:45,965 - INFO -   Publishing: [a7cdebac-70ec-4c91-ae9f-7f202d2a43ff]  (a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg)
+2026-06-04 17:12:48,288 - INFO -     → Title entered: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff
+2026-06-04 17:12:50,351 - INFO -     → Image uploaded: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg
+2026-06-04 17:12:50,481 - INFO -     → Publish Banner clicked
+2026-06-04 17:12:54,498 - INFO -   ✓ Banner published: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff
+
+2026-06-04 17:12:55,499 - INFO - ============================================================
+2026-06-04 17:12:55,500 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-06-04 17:12:57,825 - INFO - Browser closed
+2026-06-04 17:13:01,904 - INFO - 
+Task finished at 2026-06-04 17:13:01
+2026-06-04 17:13:01,904 - INFO - Log: automation\logs\full_automation_20260604_170948.log
+
+2026-06-04 17:13:14,667 - INFO - User selected: Intro Screens
+2026-06-04 17:13:14,667 - INFO - ============================================================
+2026-06-04 17:13:14,667 - INFO - INTRO SCREENS — Image Processing
+2026-06-04 17:13:14,667 - INFO - ============================================================
+2026-06-04 17:13:14,668 - INFO - Found 2 intro image(s) in introscreen/
+2026-06-04 17:13:14,679 - INFO -   ✓ vcqruslide11.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-06-04 17:13:14,713 - INFO -   ✓ vcqruslide22.jpeg  →  Already OK (1080×1920, 0.50 MB)
+2026-06-04 17:13:14,745 - INFO -   Processed 2/2 intro images successfully
+
+2026-06-04 17:13:16,728 - INFO - ============================================================
+2026-06-04 17:13:16,728 - INFO - INTRO SCREENS — Browser Automation
+2026-06-04 17:13:16,728 - INFO - ============================================================
+2026-06-04 17:13:16,737 - INFO - ====== WebDriver manager ======
+2026-06-04 17:13:18,045 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:13:18,496 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:13:18,918 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-04 17:13:18,919 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-04 17:13:20,153 - INFO - ✓ Chrome driver initialized
+2026-06-04 17:13:20,154 - INFO - Opening login page...
+2026-06-04 17:13:21,574 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-04 17:13:33,602 - INFO - ✓ Login successful
+2026-06-04 17:13:35,602 - INFO - Going to App Settings...
+2026-06-04 17:13:42,000 - INFO -   → Intro Screens section opened
+2026-06-04 17:13:42,016 - INFO - ✓ Intro Screens page ready
+2026-06-04 17:13:42,016 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-06-04 17:13:42,016 - INFO - ============================================================
+2026-06-04 17:13:42,016 - INFO - [1/2]
+2026-06-04 17:13:42,017 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-04 17:13:44,314 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-04 17:13:44,956 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-04 17:13:47,015 - INFO -     → Image uploaded: vcqruslide11_processed.jpg
+2026-06-04 17:13:47,145 - INFO -     → Launch Screen clicked
+2026-06-04 17:13:51,165 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-04 17:13:52,166 - INFO - [2/2]
+2026-06-04 17:13:52,166 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-04 17:13:55,332 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-04 17:13:56,385 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-04 17:13:58,479 - INFO -     → Image uploaded: vcqruslide22_processed.jpg
+2026-06-04 17:13:58,635 - INFO -     → Launch Screen clicked
+2026-06-04 17:14:02,651 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-04 17:14:03,652 - INFO - ============================================================
+2026-06-04 17:14:03,652 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-06-04 17:14:06,147 - INFO - Browser closed
+2026-06-04 17:14:10,207 - INFO - 
+Task finished at 2026-06-04 17:14:10
+2026-06-04 17:14:10,208 - INFO - Log: automation\logs\full_automation_20260604_170948.log
+
+2026-06-04 17:14:31,885 - INFO - User selected: Create User Type
+2026-06-04 17:14:36,395 - INFO - User types to be created: ['Painter']
+2026-06-04 17:14:36,396 - INFO - ============================================================
+2026-06-04 17:14:36,396 - INFO - STEP 1: Processing and Compressing Images
+2026-06-04 17:14:36,396 - INFO - ============================================================
+2026-06-04 17:14:36,416 - INFO - Processing images from: dashboardicons
+2026-06-04 17:14:36,416 - INFO - Output folder: automation\processed_images
+2026-06-04 17:14:36,416 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-04 17:14:36,464 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-04 17:14:36,525 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-04 17:14:36,587 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-04 17:14:36,647 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-04 17:14:36,695 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-04 17:14:36,736 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-04 17:14:36,778 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-04 17:14:36,812 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-04 17:14:36,835 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-04 17:14:36,882 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-04 17:14:36,918 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-04 17:14:36,958 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-04 17:14:37,018 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-04 17:14:37,064 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-04 17:14:37,101 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-04 17:14:37,144 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-04 17:14:37,177 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-04 17:14:37,178 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-04 17:14:37,178 - INFO - ✓ 17 images processed and ready
+
+2026-06-04 17:14:37,178 - INFO - ============================================================
+2026-06-04 17:14:37,179 - INFO - STEP 2: Creating User Types & Uploading Icons
+2026-06-04 17:14:37,179 - INFO - ============================================================
+2026-06-04 17:14:37,188 - INFO - ====== WebDriver manager ======
+2026-06-04 17:14:38,917 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:14:39,386 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 17:14:39,830 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-04 17:14:39,831 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-04 17:14:41,055 - INFO - ✓ Chrome driver initialized
+2026-06-04 17:14:41,055 - INFO - 
+→ Attempting login...
+
+2026-06-04 17:14:41,056 - INFO - Opening login page...
+2026-06-04 17:14:42,484 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-04 17:14:50,871 - INFO - ✓ Login successful
+2026-06-04 17:14:52,872 - INFO - Going to App Settings...
+2026-06-04 17:14:56,203 - INFO -   → User Type section opened
+2026-06-04 17:14:59,240 - INFO - ✓ User Type page ready
+2026-06-04 17:14:59,240 - INFO - Starting creation of User Type: Painter
+2026-06-04 17:15:01,541 - INFO -     → Entered name: Painter
+2026-06-04 17:15:01,660 - INFO -     → Enabled toggle by text fallback: Scan
+2026-06-04 17:15:01,751 - INFO -     → Enabled toggle by text fallback: Claim Reward
+2026-06-04 17:15:01,839 - INFO -     → Enabled toggle by text fallback: View Point
+2026-06-04 17:15:02,516 - INFO -     → Form submitted
+2026-06-04 17:15:02,565 - INFO - ✓ User Type 'Painter' created successfully!
+
+2026-06-04 17:15:03,566 - INFO - Successfully created user types: ['Painter']
+2026-06-04 17:15:05,567 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-04 17:15:05,568 - INFO - Navigating to App Settings...
+2026-06-04 17:15:11,772 - INFO - ✓ Dashboard Icons section loaded
+2026-06-04 17:15:13,809 - INFO - 
+→ Starting batch upload of 12 icons for 1 user types...
+
+2026-06-04 17:15:13,810 - INFO - Starting batch – 12 configured entries
+2026-06-04 17:15:13,810 - INFO - Total icons to upload after expansion: 12
+2026-06-04 17:15:13,810 - INFO - ============================================================
+2026-06-04 17:15:13,811 - INFO - [1/12]
+2026-06-04 17:15:13,811 - INFO -   Adding: [Painter] Gift  (gift)
+2026-06-04 17:15:26,146 - INFO -     → User type: Painter
+2026-06-04 17:15:26,258 - INFO -     → Icon identity: gift
+2026-06-04 17:15:26,477 - INFO -     → Display title: Gift
+2026-06-04 17:15:26,520 - INFO -     → Toggle: both
+2026-06-04 17:15:26,520 - WARNING -     ⚠ Image not found: automation/processed_images/Gift.png
+2026-06-04 17:15:28,698 - INFO - [2/12]
+2026-06-04 17:15:28,699 - INFO -   Adding: [Painter] History  (history)
+2026-06-04 17:15:41,831 - INFO -     → User type: Painter
+2026-06-04 17:15:41,952 - INFO -     → Icon identity: history
+2026-06-04 17:15:42,123 - INFO -     → Display title: History
+2026-06-04 17:15:42,158 - INFO -     → Toggle: both
+2026-06-04 17:15:42,158 - WARNING -     ⚠ Image not found: automation/processed_images/history.png
+2026-06-04 17:15:44,282 - INFO - [3/12]
+2026-06-04 17:15:44,283 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-06-04 17:15:56,536 - INFO -     → User type: Painter
+2026-06-04 17:15:56,604 - INFO -     → Icon identity: wallet
+2026-06-04 17:15:56,696 - INFO -     → Display title: Wallet
+2026-06-04 17:15:56,721 - INFO -     → Toggle: both
+2026-06-04 17:15:56,722 - WARNING -     ⚠ Image not found: automation/processed_images/wallet.png
+2026-06-04 17:15:58,812 - INFO - [4/12]
+2026-06-04 17:15:58,812 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-06-04 17:16:11,411 - INFO -     → User type: Painter
+2026-06-04 17:16:11,474 - INFO -     → Icon identity: kycdetails
+2026-06-04 17:16:11,624 - INFO -     → Display title: KYC
+2026-06-04 17:16:11,645 - INFO -     → Toggle: both
+2026-06-04 17:16:13,685 - INFO -     → Image uploaded: kyc.png
+2026-06-04 17:16:13,796 - INFO -     → Form submitted
+2026-06-04 17:16:24,793 - INFO -   ✓ Icon added: KYC
+
+2026-06-04 17:16:25,794 - INFO - [5/12]
+2026-06-04 17:16:25,794 - INFO -   Adding: [Painter] Blog  (blog)
+2026-06-04 17:16:38,636 - INFO -     → User type: Painter
+2026-06-04 17:16:38,758 - INFO -     → Icon identity: blog
+2026-06-04 17:16:38,904 - INFO -     → Display title: Blog
+2026-06-04 17:16:38,952 - INFO -     → Toggle: both
+2026-06-04 17:16:38,953 - WARNING -     ⚠ Image not found: automation/processed_images/blog.png
+2026-06-04 17:16:41,081 - INFO - [6/12]
+2026-06-04 17:16:41,082 - INFO -   Adding: [Painter] Brochure  (brochure)
+2026-06-04 17:16:53,606 - INFO -     → User type: Painter
+2026-06-04 17:16:53,697 - INFO -     → Icon identity: brochure
+2026-06-04 17:16:53,798 - INFO -     → Display title: Brochure
+2026-06-04 17:16:53,823 - INFO -     → Toggle: both
+2026-06-04 17:16:53,824 - WARNING -     ⚠ Image not found: automation/processed_images/brochure.png
+2026-06-04 17:16:55,979 - INFO - [7/12]
+2026-06-04 17:16:55,980 - INFO -   Adding: [Painter] Claim History  (claimhistory)
+2026-06-04 17:17:08,284 - INFO -     → User type: Painter
+2026-06-04 17:17:08,357 - INFO -     → Icon identity: claimhistory
+2026-06-04 17:17:08,468 - INFO -     → Display title: Claim History
+2026-06-04 17:17:08,498 - INFO -     → Toggle: both
+2026-06-04 17:17:08,499 - WARNING -     ⚠ Image not found: automation/processed_images/claimhistory1.png
+2026-06-04 17:17:10,590 - INFO - [8/12]
+2026-06-04 17:17:10,591 - INFO -   Adding: [Painter] Language  (chooselanguage)
+2026-06-04 17:17:23,256 - INFO -     → User type: Painter
+2026-06-04 17:17:23,341 - INFO -     → Icon identity: chooselanguage
+2026-06-04 17:17:23,471 - INFO -     → Display title: Language
+2026-06-04 17:17:23,503 - INFO -     → Toggle: both
+2026-06-04 17:17:25,565 - INFO -     → Image uploaded: language.png
+2026-06-04 17:17:25,668 - INFO -     → Form submitted
+2026-06-04 17:17:36,679 - INFO -   ✓ Icon added: Language
+
+2026-06-04 17:17:37,680 - INFO - [9/12]
+2026-06-04 17:17:37,680 - INFO -   Adding: [Painter] Code Details  (codedetails)
+2026-06-04 17:17:50,251 - INFO -     → User type: Painter
+2026-06-04 17:17:50,330 - INFO -     → Icon identity: codedetails
+2026-06-04 17:17:50,425 - INFO -     → Display title: Code Details
+2026-06-04 17:17:50,451 - INFO -     → Toggle: both
+2026-06-04 17:17:50,452 - WARNING -     ⚠ Image not found: automation/processed_images/codedetails.png
+2026-06-04 17:17:52,521 - INFO - [10/12]
+2026-06-04 17:17:52,522 - INFO -   Adding: [Painter] Help  (help)
+2026-06-04 17:18:05,190 - INFO -     → User type: Painter
+2026-06-04 17:18:05,317 - INFO -     → Icon identity: help
+2026-06-04 17:18:05,444 - INFO -     → Display title: Help
+2026-06-04 17:18:05,486 - INFO -     → Toggle: both
+2026-06-04 17:18:05,487 - WARNING -     ⚠ Image not found: automation/processed_images/help.png
+2026-06-04 17:18:07,624 - INFO - [11/12]
+2026-06-04 17:18:07,625 - INFO -   Adding: [Painter] Refer & Earn  (referandearn)
+2026-06-04 17:18:20,167 - INFO -     → User type: Painter
+2026-06-04 17:18:20,236 - INFO -     → Icon identity: referandearn
+2026-06-04 17:18:20,349 - INFO -     → Display title: Refer & Earn
+2026-06-04 17:18:20,368 - INFO -     → Toggle: both
+2026-06-04 17:18:20,368 - WARNING -     ⚠ Image not found: automation/processed_images/referandearn.png
+2026-06-04 17:18:22,434 - INFO - [12/12]
+2026-06-04 17:18:22,435 - INFO -   Adding: [Painter] E-Commerce  (productcatalogue)
+2026-06-04 17:18:35,092 - INFO -     → User type: Painter
+2026-06-04 17:18:35,158 - INFO -     → Icon identity: productcatalogue
+2026-06-04 17:18:35,246 - INFO -     → Display title: E-Commerce
+2026-06-04 17:18:35,264 - INFO -     → Toggle: both
+2026-06-04 17:18:35,264 - WARNING -     ⚠ Image not found: automation/processed_images/productcatalogue.png
+2026-06-04 17:18:37,354 - INFO - ============================================================
+2026-06-04 17:18:37,355 - INFO - Batch complete → ✓ 2 succeeded  ✗ 10 failed
+2026-06-04 17:18:37,355 - INFO - 
+============================================================
+2026-06-04 17:18:37,355 - INFO - USER TYPE CREATION & ICON UPLOAD SUMMARY
+2026-06-04 17:18:37,356 - INFO - ============================================================
+2026-06-04 17:18:37,356 - INFO - User types created: ['Painter']
+2026-06-04 17:18:37,356 - INFO - ✓ Successful uploads: 2
+2026-06-04 17:18:37,356 - INFO - ✗ Failed uploads: 10
+2026-06-04 17:18:37,357 - INFO - Total processed: 12
+2026-06-04 17:18:37,357 - INFO - Success rate: 16.7%
+2026-06-04 17:18:37,357 - INFO - ============================================================
+2026-06-04 17:18:39,547 - INFO - Browser closed
+2026-06-04 17:18:43,612 - INFO - 
+Task finished at 2026-06-04 17:18:43
+2026-06-04 17:18:43,613 - INFO - Log: automation\logs\full_automation_20260604_170948.log
+

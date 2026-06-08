@@ -1,0 +1,482 @@
+2026-06-02 11:16:04,135 - INFO - User selected: Registration Fields (Specific User Types)
+2026-06-02 11:17:53,235 - INFO - Requested user types for registration fields: ['Karpenter', 'Building Contractor', 'Electrician', 'Site Supervisor', 'Plumber', 'Tile Applicator']
+2026-06-02 11:17:53,235 - INFO - ============================================================
+2026-06-02 11:17:53,235 - INFO - REGISTRATION FIELDS (SPECIFIC) — Browser Automation
+2026-06-02 11:17:53,236 - INFO - ============================================================
+2026-06-02 11:17:53,245 - INFO - ====== WebDriver manager ======
+2026-06-02 11:17:54,339 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-02 11:17:54,687 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-02 11:17:55,020 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-02 11:17:55,021 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-02 11:17:56,242 - INFO - ✓ Chrome driver initialized
+2026-06-02 11:17:56,242 - INFO - Opening login page...
+2026-06-02 11:17:57,446 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-02 11:18:01,185 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-02 11:18:01,227 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-02 11:18:01,310 - INFO - ✓ Login successful
+2026-06-02 11:18:03,311 - INFO - Going to App Settings...
+2026-06-02 11:18:04,238 - INFO -   → Registration Field section opened
+2026-06-02 11:18:04,303 - INFO - ✓ Registration Fields page ready
+2026-06-02 11:18:05,316 - INFO - Found 11 user types: ['Karpenter', 'Building Contractor', 'Electrician', 'Site Supervisor', 'Plumber', 'Tile Applicator', 'Retailer', 'Vendor', 'Painter', 'Mason', 'Applicator']
+2026-06-02 11:18:05,316 - INFO -   ✓ Matched user type: 'Karpenter'
+2026-06-02 11:18:05,317 - INFO -   ✓ Matched user type: 'Building Contractor'
+2026-06-02 11:18:05,317 - INFO -   ✓ Matched user type: 'Electrician'
+2026-06-02 11:18:05,317 - INFO -   ✓ Matched user type: 'Site Supervisor'
+2026-06-02 11:18:05,317 - INFO -   ✓ Matched user type: 'Plumber'
+2026-06-02 11:18:05,317 - INFO -   ✓ Matched user type: 'Tile Applicator'
+2026-06-02 11:18:05,318 - INFO - ============================================================
+2026-06-02 11:18:05,318 - INFO - Starting registration fields automation for 6 user type(s): ['Karpenter', 'Building Contractor', 'Electrician', 'Site Supervisor', 'Plumber', 'Tile Applicator']  —  36 fields total
+2026-06-02 11:18:05,318 - INFO - ============================================================
+2026-06-02 11:18:05,319 - INFO - Processing User Type: Karpenter
+2026-06-02 11:18:05,319 - INFO -   Adding field: [Karpenter] -> First Name
+2026-06-02 11:18:05,579 - INFO -     → User Type selected: Karpenter
+2026-06-02 11:18:25,756 - INFO -     → System Data Point selected: First Name
+2026-06-02 11:18:25,791 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:18:25,894 - INFO -     → Integrate Now clicked
+2026-06-02 11:18:25,907 - INFO -     → Toast dismissed
+2026-06-02 11:18:25,963 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-02 11:18:26,263 - INFO -   Adding field: [Karpenter] -> Phone Number
+2026-06-02 11:18:27,471 - INFO -     → User Type selected: Karpenter
+2026-06-02 11:18:47,705 - INFO -     → System Data Point selected: Phone Number
+2026-06-02 11:18:47,733 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:18:47,834 - INFO -     → Integrate Now clicked
+2026-06-02 11:18:47,847 - INFO -     → Toast dismissed
+2026-06-02 11:18:47,909 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-02 11:18:48,210 - INFO -   Adding field: [Karpenter] -> Pincode
+2026-06-02 11:18:48,712 - INFO -     → User Type selected: Karpenter
+2026-06-02 11:19:08,973 - INFO -     → System Data Point selected: Pincode
+2026-06-02 11:19:09,011 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:19:09,123 - INFO -     → Integrate Now clicked
+2026-06-02 11:19:09,133 - INFO -     → Toast dismissed
+2026-06-02 11:19:09,175 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-02 11:19:09,476 - INFO -   Adding field: [Karpenter] -> City
+2026-06-02 11:19:10,680 - INFO -     → User Type selected: Karpenter
+2026-06-02 11:19:30,870 - INFO -     → System Data Point selected: City
+2026-06-02 11:19:30,919 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:19:31,029 - INFO -     → Integrate Now clicked
+2026-06-02 11:19:31,044 - INFO -     → Toast dismissed
+2026-06-02 11:19:31,099 - INFO -   ✓ Field added successfully: City
+
+2026-06-02 11:19:31,400 - INFO -   Adding field: [Karpenter] -> State
+2026-06-02 11:19:31,900 - INFO -     → User Type selected: Karpenter
+2026-06-02 11:19:52,296 - INFO -     → System Data Point selected: State
+2026-06-02 11:19:52,332 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:19:52,482 - INFO -     → Integrate Now clicked
+2026-06-02 11:19:52,499 - INFO -     → Toast dismissed
+2026-06-02 11:19:52,572 - INFO -   ✓ Field added successfully: State
+
+2026-06-02 11:19:52,873 - INFO -   Adding field: [Karpenter] -> Address
+2026-06-02 11:19:54,094 - INFO -     → User Type selected: Karpenter
+2026-06-02 11:20:14,382 - INFO -     → System Data Point selected: Address
+2026-06-02 11:20:14,413 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:20:14,558 - INFO -     → Integrate Now clicked
+2026-06-02 11:20:14,575 - INFO -     → Toast dismissed
+2026-06-02 11:20:14,640 - INFO -   ✓ Field added successfully: Address
+
+2026-06-02 11:20:14,941 - INFO - Processing User Type: Building Contractor
+2026-06-02 11:20:14,942 - INFO -   Adding field: [Building Contractor] -> First Name
+2026-06-02 11:20:15,226 - INFO -     → User Type selected: Building Contractor
+2026-06-02 11:20:35,372 - INFO -     → System Data Point selected: First Name
+2026-06-02 11:20:35,403 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:20:35,558 - INFO -     → Integrate Now clicked
+2026-06-02 11:20:35,578 - INFO -     → Toast dismissed
+2026-06-02 11:20:35,635 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-02 11:20:35,936 - INFO -   Adding field: [Building Contractor] -> Phone Number
+2026-06-02 11:20:37,177 - INFO -     → User Type selected: Building Contractor
+2026-06-02 11:20:57,531 - INFO -     → System Data Point selected: Phone Number
+2026-06-02 11:20:57,580 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:20:57,773 - INFO -     → Integrate Now clicked
+2026-06-02 11:20:57,792 - INFO -     → Toast dismissed
+2026-06-02 11:20:57,920 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-02 11:20:58,221 - INFO -   Adding field: [Building Contractor] -> Pincode
+2026-06-02 11:20:58,597 - INFO -     → User Type selected: Building Contractor
+2026-06-02 11:21:18,917 - INFO -     → System Data Point selected: Pincode
+2026-06-02 11:21:18,958 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:21:19,140 - INFO -     → Integrate Now clicked
+2026-06-02 11:21:19,160 - INFO -     → Toast dismissed
+2026-06-02 11:21:19,295 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-02 11:21:19,595 - INFO -   Adding field: [Building Contractor] -> City
+2026-06-02 11:21:20,872 - INFO -     → User Type selected: Building Contractor
+2026-06-02 11:21:41,250 - INFO -     → System Data Point selected: City
+2026-06-02 11:21:41,283 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:21:41,478 - INFO -     → Integrate Now clicked
+2026-06-02 11:21:41,501 - INFO -     → Toast dismissed
+2026-06-02 11:21:41,606 - INFO -   ✓ Field added successfully: City
+
+2026-06-02 11:21:41,907 - INFO -   Adding field: [Building Contractor] -> State
+2026-06-02 11:21:42,192 - INFO -     → User Type selected: Building Contractor
+2026-06-02 11:22:02,528 - INFO -     → System Data Point selected: State
+2026-06-02 11:22:02,565 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:22:02,705 - INFO -     → Integrate Now clicked
+2026-06-02 11:22:02,718 - INFO -     → Toast dismissed
+2026-06-02 11:22:02,782 - INFO -   ✓ Field added successfully: State
+
+2026-06-02 11:22:03,083 - INFO -   Adding field: [Building Contractor] -> Address
+2026-06-02 11:22:04,366 - INFO -     → User Type selected: Building Contractor
+2026-06-02 11:22:24,662 - INFO -     → System Data Point selected: Address
+2026-06-02 11:22:24,700 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:22:24,842 - INFO -     → Integrate Now clicked
+2026-06-02 11:22:24,858 - INFO -     → Toast dismissed
+2026-06-02 11:22:24,914 - INFO -   ✓ Field added successfully: Address
+
+2026-06-02 11:22:25,215 - INFO - Processing User Type: Electrician
+2026-06-02 11:22:25,216 - INFO -   Adding field: [Electrician] -> First Name
+2026-06-02 11:22:25,800 - INFO -     → User Type selected: Electrician
+2026-06-02 11:22:46,084 - INFO -     → System Data Point selected: First Name
+2026-06-02 11:22:46,121 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:22:46,263 - INFO -     → Integrate Now clicked
+2026-06-02 11:22:46,279 - INFO -     → Toast dismissed
+2026-06-02 11:22:46,371 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-02 11:22:46,671 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-06-02 11:22:47,951 - INFO -     → User Type selected: Electrician
+2026-06-02 11:23:08,272 - INFO -     → System Data Point selected: Phone Number
+2026-06-02 11:23:08,306 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:23:08,452 - INFO -     → Integrate Now clicked
+2026-06-02 11:23:08,468 - INFO -     → Toast dismissed
+2026-06-02 11:23:08,529 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-02 11:23:08,830 - INFO -   Adding field: [Electrician] -> Pincode
+2026-06-02 11:23:09,135 - INFO -     → User Type selected: Electrician
+2026-06-02 11:23:29,420 - INFO -     → System Data Point selected: Pincode
+2026-06-02 11:23:29,457 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:23:29,570 - INFO -     → Integrate Now clicked
+2026-06-02 11:23:29,589 - INFO -     → Toast dismissed
+2026-06-02 11:23:29,646 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-02 11:23:29,947 - INFO -   Adding field: [Electrician] -> City
+2026-06-02 11:23:31,213 - INFO -     → User Type selected: Electrician
+2026-06-02 11:23:51,530 - INFO -     → System Data Point selected: City
+2026-06-02 11:23:51,570 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:23:51,706 - INFO -     → Integrate Now clicked
+2026-06-02 11:23:51,721 - INFO -     → Toast dismissed
+2026-06-02 11:23:51,770 - INFO -   ✓ Field added successfully: City
+
+2026-06-02 11:23:52,071 - INFO -   Adding field: [Electrician] -> State
+2026-06-02 11:23:52,615 - INFO -     → User Type selected: Electrician
+2026-06-02 11:24:12,928 - INFO -     → System Data Point selected: State
+2026-06-02 11:24:12,978 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:24:13,109 - INFO -     → Integrate Now clicked
+2026-06-02 11:24:13,131 - INFO -     → Toast dismissed
+2026-06-02 11:24:13,190 - INFO -   ✓ Field added successfully: State
+
+2026-06-02 11:24:13,490 - INFO -   Adding field: [Electrician] -> Address
+2026-06-02 11:24:14,746 - INFO -     → User Type selected: Electrician
+2026-06-02 11:24:35,062 - INFO -     → System Data Point selected: Address
+2026-06-02 11:24:35,096 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:24:35,222 - INFO -     → Integrate Now clicked
+2026-06-02 11:24:35,235 - INFO -     → Toast dismissed
+2026-06-02 11:24:35,302 - INFO -   ✓ Field added successfully: Address
+
+2026-06-02 11:24:35,603 - INFO - Processing User Type: Site Supervisor
+2026-06-02 11:24:35,603 - INFO -   Adding field: [Site Supervisor] -> First Name
+2026-06-02 11:24:36,160 - INFO -     → User Type selected: Site Supervisor
+2026-06-02 11:24:56,433 - INFO -     → System Data Point selected: First Name
+2026-06-02 11:24:56,486 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:24:56,626 - INFO -     → Integrate Now clicked
+2026-06-02 11:24:56,645 - INFO -     → Toast dismissed
+2026-06-02 11:24:56,715 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-02 11:24:57,015 - INFO -   Adding field: [Site Supervisor] -> Phone Number
+2026-06-02 11:24:58,278 - INFO -     → User Type selected: Site Supervisor
+2026-06-02 11:25:18,639 - INFO -     → System Data Point selected: Phone Number
+2026-06-02 11:25:18,664 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:25:18,759 - INFO -     → Integrate Now clicked
+2026-06-02 11:25:18,768 - INFO -     → Toast dismissed
+2026-06-02 11:25:18,806 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-02 11:25:19,107 - INFO -   Adding field: [Site Supervisor] -> Pincode
+2026-06-02 11:25:19,516 - INFO -     → User Type selected: Site Supervisor
+2026-06-02 11:25:39,776 - INFO -     → System Data Point selected: Pincode
+2026-06-02 11:25:39,817 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:25:39,960 - INFO -     → Integrate Now clicked
+2026-06-02 11:25:39,976 - INFO -     → Toast dismissed
+2026-06-02 11:25:40,038 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-02 11:25:40,339 - INFO -   Adding field: [Site Supervisor] -> City
+2026-06-02 11:25:41,627 - INFO -     → User Type selected: Site Supervisor
+2026-06-02 11:26:02,007 - INFO -     → System Data Point selected: City
+2026-06-02 11:26:02,066 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:26:02,230 - INFO -     → Integrate Now clicked
+2026-06-02 11:26:02,254 - INFO -     → Toast dismissed
+2026-06-02 11:26:02,305 - INFO -   ✓ Field added successfully: City
+
+2026-06-02 11:26:02,606 - INFO -   Adding field: [Site Supervisor] -> State
+2026-06-02 11:26:03,254 - INFO -     → User Type selected: Site Supervisor
+2026-06-02 11:26:23,601 - INFO -     → System Data Point selected: State
+2026-06-02 11:26:23,633 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:26:23,820 - INFO -     → Integrate Now clicked
+2026-06-02 11:26:23,840 - INFO -     → Toast dismissed
+2026-06-02 11:26:23,932 - INFO -   ✓ Field added successfully: State
+
+2026-06-02 11:26:24,233 - INFO -   Adding field: [Site Supervisor] -> Address
+2026-06-02 11:26:25,602 - INFO -     → User Type selected: Site Supervisor
+2026-06-02 11:26:45,966 - INFO -     → System Data Point selected: Address
+2026-06-02 11:26:45,991 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:26:46,121 - INFO -     → Integrate Now clicked
+2026-06-02 11:26:46,138 - INFO -     → Toast dismissed
+2026-06-02 11:26:46,193 - INFO -   ✓ Field added successfully: Address
+
+2026-06-02 11:26:46,494 - INFO - Processing User Type: Plumber
+2026-06-02 11:26:46,494 - INFO -   Adding field: [Plumber] -> First Name
+2026-06-02 11:26:47,066 - INFO -     → User Type selected: Plumber
+2026-06-02 11:27:07,352 - INFO -     → System Data Point selected: First Name
+2026-06-02 11:27:07,382 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:27:07,521 - INFO -     → Integrate Now clicked
+2026-06-02 11:27:07,550 - INFO -     → Toast dismissed
+2026-06-02 11:27:07,601 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-02 11:27:07,905 - INFO -   Adding field: [Plumber] -> Phone Number
+2026-06-02 11:27:09,191 - INFO -     → User Type selected: Plumber
+2026-06-02 11:27:29,577 - INFO -     → System Data Point selected: Phone Number
+2026-06-02 11:27:29,622 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:27:29,829 - INFO -     → Integrate Now clicked
+2026-06-02 11:27:29,841 - INFO -     → Toast dismissed
+2026-06-02 11:27:29,899 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-02 11:27:30,200 - INFO -   Adding field: [Plumber] -> Pincode
+2026-06-02 11:27:30,582 - INFO -     → User Type selected: Plumber
+2026-06-02 11:27:50,801 - INFO -     → System Data Point selected: Pincode
+2026-06-02 11:27:50,832 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:27:50,935 - INFO -     → Integrate Now clicked
+2026-06-02 11:27:50,951 - INFO -     → Toast dismissed
+2026-06-02 11:27:51,005 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-02 11:27:51,306 - INFO -   Adding field: [Plumber] -> City
+2026-06-02 11:27:52,538 - INFO -     → User Type selected: Plumber
+2026-06-02 11:28:12,831 - INFO -     → System Data Point selected: City
+2026-06-02 11:28:12,871 - INFO -     → Mandatory toggle enabled
+2026-06-02 11:28:13,007 - INFO -     → Integrate Now clicked
+2026-06-02 11:28:13,022 - INFO -     → Toast dismissed
+2026-06-02 11:28:13,074 - INFO -   ✓ Field added successfully: City
+
+2026-06-02 11:28:13,375 - INFO -   Adding field: [Plumber] -> State
+2026-06-02 11:28:33,688 - ERROR -   ✗ Failed to add field State for Plumber: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:28:33,822 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Plumber_State_20260602_112833.png
+2026-06-02 11:28:49,655 - INFO -   Adding field: [Plumber] -> Address
+2026-06-02 11:29:09,945 - ERROR -   ✗ Failed to add field Address for Plumber: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:29:10,114 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Plumber_Address_20260602_112909.png
+2026-06-02 11:29:25,740 - INFO - Processing User Type: Tile Applicator
+2026-06-02 11:29:25,741 - INFO -   Adding field: [Tile Applicator] -> First Name
+2026-06-02 11:29:46,024 - ERROR -   ✗ Failed to add field First Name for Tile Applicator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:29:46,192 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Tile Applicator_First_Name_20260602_112946.png
+2026-06-02 11:30:02,022 - INFO -   Adding field: [Tile Applicator] -> Phone Number
+2026-06-02 11:30:22,088 - ERROR -   ✗ Failed to add field Phone Number for Tile Applicator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:30:22,255 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Tile Applicator_Phone_Number_20260602_113022.png
+2026-06-02 11:30:38,219 - INFO -   Adding field: [Tile Applicator] -> Pincode
+2026-06-02 11:30:58,456 - ERROR -   ✗ Failed to add field Pincode for Tile Applicator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:30:58,678 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Tile Applicator_Pincode_20260602_113058.png
+2026-06-02 11:31:14,566 - INFO -   Adding field: [Tile Applicator] -> City
+2026-06-02 11:31:34,660 - ERROR -   ✗ Failed to add field City for Tile Applicator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:31:34,781 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Tile Applicator_City_20260602_113134.png
+2026-06-02 11:31:50,680 - INFO -   Adding field: [Tile Applicator] -> State
+2026-06-02 11:32:10,810 - ERROR -   ✗ Failed to add field State for Tile Applicator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:32:10,966 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Tile Applicator_State_20260602_113210.png
+2026-06-02 11:32:26,784 - INFO -   Adding field: [Tile Applicator] -> Address
+2026-06-02 11:32:46,901 - ERROR -   ✗ Failed to add field Address for Tile Applicator: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa1b593+105d3]
+	chromedriver!GetHandleVerifier [0xa1b6c4+10704]
+	chromedriver!(No symbol) [0x821ea0]
+	chromedriver!(No symbol) [0x86b28a]
+	chromedriver!(No symbol) [0x86b52b]
+	chromedriver!(No symbol) [0x8ad052]
+	chromedriver!(No symbol) [0x88d7c4]
+	chromedriver!(No symbol) [0x8aa936]
+	chromedriver!(No symbol) [0x88d516]
+	chromedriver!(No symbol) [0x8608e9]
+	chromedriver!(No symbol) [0x8616a4]
+	chromedriver!GetHandleVerifier [0xca3014+298054]
+	chromedriver!GetHandleVerifier [0xc9e603+293643]
+	chromedriver!GetHandleVerifier [0xcbea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xa354e8+2a528]
+	chromedriver!GetHandleVerifier [0xa3cd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xa23e68+18ea8]
+	chromedriver!GetHandleVerifier [0xa24015+19055]
+	chromedriver!GetHandleVerifier [0xa0d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x74ed5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7719bd6b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7719bcf1+231]
+
+2026-06-02 11:32:47,031 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Tile Applicator_Address_20260602_113246.png
+2026-06-02 11:33:02,899 - INFO - ============================================================
+2026-06-02 11:33:02,900 - INFO - Registration fields (specific) batch complete → ✓ 28 succeeded  ✗ 8 failed
+2026-06-02 11:33:05,111 - INFO - Browser closed
+2026-06-02 11:33:09,201 - INFO - 
+Task finished at 2026-06-02 11:33:09
+2026-06-02 11:33:09,201 - INFO - Log: automation\logs\full_automation_20260602_111537.log
+

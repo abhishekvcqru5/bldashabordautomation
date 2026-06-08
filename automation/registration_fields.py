@@ -89,13 +89,40 @@ class RegistrationFieldsAutomation:
         except Exception:
             pass
 
+    # XPath for the success toast overlay that appears after each save
+    _XPATH_TOAST = "//div[contains(@class,'flex items-start') and contains(@class,'p-4')]"
+
+    def _wait_toast_gone(self):
+        """
+        Wait until the success-toast overlay is no longer visible.
+        This overlay blocks clicks on the 'Add Registration Field' button.
+        Tries up to 15 s; silently continues if toast was never found.
+        """
+        try:
+            self.wait.until(
+                EC.invisibility_of_element_located((By.XPATH, self._XPATH_TOAST))
+            )
+            logger.info("    → Toast dismissed")
+        except Exception:
+            # Toast may not have appeared or already gone — safe to continue
+            pass
+
     def _wait_for_add_btn(self):
-        """Wait until the 'Add Registration Field' button is visible and clickable."""
-        return self._wait_clickable(By.XPATH, _XPATH_ADD_BTN)
+        """Wait until 'Add Registration Field' is clickable, scroll it into view,
+        and return the element.  Uses JS scroll to guarantee it is not hidden
+        behind any sticky header or toast overlay."""
+        btn = self._wait_clickable(By.XPATH, _XPATH_ADD_BTN)
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+        return btn
 
     def _open_add_popup(self):
-        """Click 'Add Registration Field' and wait for the UserType dropdown."""
-        self._wait_for_add_btn().click()
+        """Click 'Add Registration Field' (with JS fallback) and wait for UserType dropdown."""
+        btn = self._wait_for_add_btn()
+        try:
+            btn.click()
+        except Exception:
+            # Fallback: JS click in case an overlay still intercepts
+            self.driver.execute_script("arguments[0].click();", btn)
         return self._wait_present(By.NAME, "UserType")
 
     # ------------------------------------------------------------------
@@ -182,7 +209,8 @@ class RegistrationFieldsAutomation:
             self._wait_clickable(By.XPATH, _XPATH_INTEGRATE).click()
             logger.info("    → Integrate Now clicked")
 
-            # 6. Wait for popup to fully close (button reappears = success)
+            # 6. Wait for toast/overlay to disappear FIRST, then confirm button is back
+            self._wait_toast_gone()
             self._wait_for_add_btn()
             logger.info(f"  ✓ Field added successfully: {system_data_point}\n")
             return True
@@ -257,5 +285,68 @@ class RegistrationFieldsAutomation:
         logger.info(
             f"Registration fields batch complete → ✓ {successful} succeeded  "
             f"✗ {failed} failed"
+        )
+        return failed == 0
+
+    def process_specific(self, target_user_types: list):
+        """
+        Add all registration fields but ONLY for the specified user types.
+
+        Parameters
+        ----------
+        target_user_types : list[str]
+            User type names as entered by the operator.  Matching is
+            case-insensitive; any name not found in the portal is skipped
+            with a warning.
+        """
+        portal_user_types = self.get_user_types()
+        if not portal_user_types:
+            logger.error("No user types found on portal. Aborting.")
+            return False
+
+        # Build a case-insensitive lookup: lower-name → actual portal name
+        portal_map = {u.lower(): u for u in portal_user_types}
+
+        # Resolve requested names against portal names
+        matched = []
+        for requested in target_user_types:
+            key = requested.strip().lower()
+            if key in portal_map:
+                matched.append(portal_map[key])
+                logger.info(f"  ✓ Matched user type: '{portal_map[key]}'")
+            else:
+                logger.warning(
+                    f"  ⚠ User type '{requested}' not found on portal — skipping.\n"
+                    f"    Available types: {portal_user_types}"
+                )
+
+        if not matched:
+            logger.error("None of the requested user types were found on the portal. Aborting.")
+            return False
+
+        successful = 0
+        failed = 0
+        total_tasks = len(matched) * len(self.fields_to_add)
+
+        logger.info("=" * 60)
+        logger.info(
+            f"Starting registration fields automation for {len(matched)} user type(s): "
+            f"{matched}  —  {total_tasks} fields total"
+        )
+        logger.info("=" * 60)
+
+        for utype in matched:
+            logger.info(f"Processing User Type: {utype}")
+            for field in self.fields_to_add:
+                if self.add_registration_field(utype, field):
+                    successful += 1
+                else:
+                    failed += 1
+                time.sleep(0.3)
+
+        logger.info("=" * 60)
+        logger.info(
+            f"Registration fields (specific) batch complete → "
+            f"✓ {successful} succeeded  ✗ {failed} failed"
         )
         return failed == 0

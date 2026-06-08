@@ -1,0 +1,43 @@
+2026-06-08 15:24:38,242 - INFO - User selected: Analyze App Settings (Identity, Support & Icons)
+2026-06-08 15:24:38,242 - INFO - ============================================================
+2026-06-08 15:24:38,243 - INFO - APP SETTINGS ANALYSIS FOR USER: mahesh@vcqru.com
+2026-06-08 15:24:38,244 - INFO - ============================================================
+2026-06-08 15:24:38,264 - INFO - ====== WebDriver manager ======
+2026-06-08 15:24:40,987 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 15:24:41,829 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 15:24:42,749 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-08 15:24:42,750 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-08 15:24:44,286 - INFO - ✓ Chrome driver initialized
+2026-06-08 15:24:44,286 - INFO - → Attempting login...
+2026-06-08 15:24:44,286 - INFO - Opening login page...
+2026-06-08 15:24:46,257 - INFO -   → Policy checkbox checked on login page
+2026-06-08 15:24:46,456 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-08 15:24:50,221 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-08 15:24:50,277 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-08 15:24:50,312 - INFO - ✓ Login successful
+2026-06-08 15:24:52,313 - INFO - 
+→ Extracting Identity & Branding settings...
+2026-06-08 15:24:59,600 - INFO -   ✓ Identity & Branding extracted successfully
+2026-06-08 15:24:59,600 - INFO - 
+→ Extracting Support Network settings...
+2026-06-08 15:25:06,689 - INFO -   ✓ Support Network extracted successfully
+2026-06-08 15:25:06,690 - INFO - 
+→ Extracting Dashboard Icons...
+2026-06-08 15:25:17,833 - INFO -   ✓ Extracted 58 dashboard icons successfully
+2026-06-08 15:25:17,833 - INFO - 
+→ Extracting Gift Management settings...
+2026-06-08 15:25:24,391 - INFO -   ✓ Extracted 20 gift offerings successfully
+2026-06-08 15:25:24,391 - INFO - 
+→ Extracting KYC rules...
+2026-06-08 15:25:29,394 - INFO -   ✓ Extracted 8 KYC compliance rules successfully
+2026-06-08 15:25:29,395 - INFO - 
+→ Extracting Claim Settings policies...
+2026-06-08 15:25:33,870 - INFO -   ✓ Extracted 4 payout claim policies successfully
+2026-06-08 15:25:33,876 - INFO - 
+✓ JSON report saved to: automation\logs\current_settings_mahesh_vcqru_com_VCQRU_.json
+2026-06-08 15:25:34,767 - INFO - ✓ Formatted Excel report saved to: automation\logs\current_settings_mahesh_vcqru_com_VCQRU_.xlsx
+2026-06-08 15:25:37,127 - INFO - Browser closed
+2026-06-08 15:25:41,174 - INFO - 
+Task finished at 2026-06-08 15:25:41
+2026-06-08 15:25:41,174 - INFO - Log: automation\logs\full_automation_20260608_152438.log
+

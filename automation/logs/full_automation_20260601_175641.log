@@ -1,0 +1,216 @@
+2026-06-01 17:56:41,589 - INFO - User selected: Add Narmada Gifts
+2026-06-01 17:56:41,595 - INFO - ====== WebDriver manager ======
+2026-06-01 17:56:42,873 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 17:56:43,592 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 17:56:44,095 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-01 17:56:44,095 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-01 17:56:45,272 - INFO - ✓ Chrome driver initialized
+2026-06-01 17:56:45,273 - INFO - Opening login page...
+2026-06-01 17:56:46,577 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-01 17:56:55,427 - INFO - ✓ Login successful
+2026-06-01 17:56:57,428 - INFO - Going to App Settings...
+2026-06-01 17:57:03,696 - INFO -   → Gift Management section opened
+2026-06-01 17:57:03,697 - INFO - Opening Add New Gift modal to detect dropdown select type...
+2026-06-01 17:57:05,931 - INFO - Dropdown 'is_multiple' detected as: None
+2026-06-01 17:57:08,034 - INFO - Proceeding with single-select sequential upload flow (each gift added once per user type)...
+2026-06-01 17:57:08,035 - INFO - [1/24] Uploading: 'Kelvinator Freezer' for 'site supervisor'
+2026-06-01 17:57:08,035 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['site supervisor']
+2026-06-01 17:57:10,712 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:57:10,841 - INFO -     → Entered label: Kelvinator Freezer
+2026-06-01 17:57:10,977 - INFO -     → Entered description
+2026-06-01 17:57:13,012 - INFO -     → Image uploaded: Kelvinator Freezer.jpg
+2026-06-01 17:57:13,108 - INFO -     → Entered points: 1500000
+2026-06-01 17:57:13,528 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:57:17,161 - INFO -   ✓ Offering created for 'Kelvinator Freezer'
+2026-06-01 17:57:19,200 - INFO - [2/24] Uploading: 'Kelvinator Freezer' for 'plumber'
+2026-06-01 17:57:19,200 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['plumber']
+2026-06-01 17:57:21,914 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:57:22,029 - INFO -     → Entered label: Kelvinator Freezer
+2026-06-01 17:57:22,177 - INFO -     → Entered description
+2026-06-01 17:57:24,228 - INFO -     → Image uploaded: Kelvinator Freezer.jpg
+2026-06-01 17:57:24,355 - INFO -     → Entered points: 1500000
+2026-06-01 17:57:24,787 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:57:28,409 - INFO -   ✓ Offering created for 'Kelvinator Freezer'
+2026-06-01 17:57:30,445 - INFO - [3/24] Uploading: 'Kelvinator Freezer' for 'tile applicator'
+2026-06-01 17:57:30,445 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['tile applicator']
+2026-06-01 17:57:33,156 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:57:33,267 - INFO -     → Entered label: Kelvinator Freezer
+2026-06-01 17:57:33,370 - INFO -     → Entered description
+2026-06-01 17:57:35,395 - INFO -     → Image uploaded: Kelvinator Freezer.jpg
+2026-06-01 17:57:35,514 - INFO -     → Entered points: 1500000
+2026-06-01 17:57:35,937 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:57:39,578 - INFO -   ✓ Offering created for 'Kelvinator Freezer'
+2026-06-01 17:57:41,615 - INFO - [4/24] Uploading: 'Samsung Touch Screen Mobile' for 'Karpenter'
+2026-06-01 17:57:41,616 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['Karpenter']
+2026-06-01 17:57:44,399 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:57:44,550 - INFO -     → Entered label: Samsung Touch Screen Mobile
+2026-06-01 17:57:44,656 - INFO -     → Entered description
+2026-06-01 17:57:46,709 - INFO -     → Image uploaded: Samsung Touch Screen Mobile.jpg
+2026-06-01 17:57:46,806 - INFO -     → Entered points: 2000000
+2026-06-01 17:57:47,225 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:57:50,825 - INFO -   ✓ Offering created for 'Samsung Touch Screen Mobile'
+2026-06-01 17:57:52,878 - INFO - [5/24] Uploading: 'Samsung Touch Screen Mobile' for 'building contractor'
+2026-06-01 17:57:52,879 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['building contractor']
+2026-06-01 17:57:55,550 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:57:55,692 - INFO -     → Entered label: Samsung Touch Screen Mobile
+2026-06-01 17:57:55,827 - INFO -     → Entered description
+2026-06-01 17:57:57,876 - INFO -     → Image uploaded: Samsung Touch Screen Mobile.jpg
+2026-06-01 17:57:57,978 - INFO -     → Entered points: 2000000
+2026-06-01 17:57:58,371 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:58:01,984 - INFO -   ✓ Offering created for 'Samsung Touch Screen Mobile'
+2026-06-01 17:58:04,028 - INFO - [6/24] Uploading: 'Samsung Touch Screen Mobile' for 'Electrician'
+2026-06-01 17:58:04,029 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['Electrician']
+2026-06-01 17:58:06,715 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:58:06,835 - INFO -     → Entered label: Samsung Touch Screen Mobile
+2026-06-01 17:58:06,933 - INFO -     → Entered description
+2026-06-01 17:58:08,955 - INFO -     → Image uploaded: Samsung Touch Screen Mobile.jpg
+2026-06-01 17:58:09,043 - INFO -     → Entered points: 2000000
+2026-06-01 17:58:09,502 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:58:13,139 - INFO -   ✓ Offering created for 'Samsung Touch Screen Mobile'
+2026-06-01 17:58:15,197 - INFO - [7/24] Uploading: 'Samsung Touch Screen Mobile' for 'site supervisor'
+2026-06-01 17:58:15,197 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['site supervisor']
+2026-06-01 17:58:17,930 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:58:18,037 - INFO -     → Entered label: Samsung Touch Screen Mobile
+2026-06-01 17:58:18,173 - INFO -     → Entered description
+2026-06-01 17:58:20,206 - INFO -     → Image uploaded: Samsung Touch Screen Mobile.jpg
+2026-06-01 17:58:20,460 - INFO -     → Entered points: 2000000
+2026-06-01 17:58:20,950 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:58:24,600 - INFO -   ✓ Offering created for 'Samsung Touch Screen Mobile'
+2026-06-01 17:58:26,645 - INFO - [8/24] Uploading: 'Samsung Touch Screen Mobile' for 'plumber'
+2026-06-01 17:58:26,645 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['plumber']
+2026-06-01 17:58:29,330 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:58:29,456 - INFO -     → Entered label: Samsung Touch Screen Mobile
+2026-06-01 17:58:29,675 - INFO -     → Entered description
+2026-06-01 17:58:31,708 - INFO -     → Image uploaded: Samsung Touch Screen Mobile.jpg
+2026-06-01 17:58:31,842 - INFO -     → Entered points: 2000000
+2026-06-01 17:58:32,323 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:58:35,966 - INFO -   ✓ Offering created for 'Samsung Touch Screen Mobile'
+2026-06-01 17:58:38,028 - INFO - [9/24] Uploading: 'Samsung Touch Screen Mobile' for 'tile applicator'
+2026-06-01 17:58:38,028 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['tile applicator']
+2026-06-01 17:58:40,747 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:58:40,890 - INFO -     → Entered label: Samsung Touch Screen Mobile
+2026-06-01 17:58:41,041 - INFO -     → Entered description
+2026-06-01 17:58:43,079 - INFO -     → Image uploaded: Samsung Touch Screen Mobile.jpg
+2026-06-01 17:58:43,208 - INFO -     → Entered points: 2000000
+2026-06-01 17:58:43,708 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:58:47,364 - INFO -   ✓ Offering created for 'Samsung Touch Screen Mobile'
+2026-06-01 17:58:49,398 - INFO - [10/24] Uploading: 'Goa Trip ✈️' for 'Karpenter'
+2026-06-01 17:58:49,399 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['Karpenter']
+2026-06-01 17:58:52,116 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:58:52,285 - INFO -     → Entered label: Goa Trip ✈️
+2026-06-01 17:58:52,404 - INFO -     → Entered description
+2026-06-01 17:58:54,467 - INFO -     → Image uploaded: Goa Trip.jpg
+2026-06-01 17:58:54,608 - INFO -     → Entered points: 2500000
+2026-06-01 17:58:55,116 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:58:58,795 - INFO -   ✓ Offering created for 'Goa Trip ✈️'
+2026-06-01 17:59:00,845 - INFO - [11/24] Uploading: 'Goa Trip ✈️' for 'building contractor'
+2026-06-01 17:59:00,845 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['building contractor']
+2026-06-01 17:59:03,561 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:59:03,698 - INFO -     → Entered label: Goa Trip ✈️
+2026-06-01 17:59:03,849 - INFO -     → Entered description
+2026-06-01 17:59:05,886 - INFO -     → Image uploaded: Goa Trip.jpg
+2026-06-01 17:59:06,023 - INFO -     → Entered points: 2500000
+2026-06-01 17:59:06,562 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:59:10,210 - INFO -   ✓ Offering created for 'Goa Trip ✈️'
+2026-06-01 17:59:12,250 - INFO - [12/24] Uploading: 'Goa Trip ✈️' for 'Electrician'
+2026-06-01 17:59:12,251 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['Electrician']
+2026-06-01 17:59:14,946 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:59:15,054 - INFO -     → Entered label: Goa Trip ✈️
+2026-06-01 17:59:15,188 - INFO -     → Entered description
+2026-06-01 17:59:17,219 - INFO -     → Image uploaded: Goa Trip.jpg
+2026-06-01 17:59:17,309 - INFO -     → Entered points: 2500000
+2026-06-01 17:59:17,766 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:59:21,386 - INFO -   ✓ Offering created for 'Goa Trip ✈️'
+2026-06-01 17:59:23,426 - INFO - [13/24] Uploading: 'Goa Trip ✈️' for 'site supervisor'
+2026-06-01 17:59:23,426 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['site supervisor']
+2026-06-01 17:59:26,115 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:59:26,227 - INFO -     → Entered label: Goa Trip ✈️
+2026-06-01 17:59:26,362 - INFO -     → Entered description
+2026-06-01 17:59:28,402 - INFO -     → Image uploaded: Goa Trip.jpg
+2026-06-01 17:59:28,551 - INFO -     → Entered points: 2500000
+2026-06-01 17:59:29,061 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:59:32,708 - INFO -   ✓ Offering created for 'Goa Trip ✈️'
+2026-06-01 17:59:34,751 - INFO - [14/24] Uploading: 'Goa Trip ✈️' for 'plumber'
+2026-06-01 17:59:34,752 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['plumber']
+2026-06-01 17:59:37,461 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:59:37,588 - INFO -     → Entered label: Goa Trip ✈️
+2026-06-01 17:59:37,710 - INFO -     → Entered description
+2026-06-01 17:59:39,763 - INFO -     → Image uploaded: Goa Trip.jpg
+2026-06-01 17:59:39,894 - INFO -     → Entered points: 2500000
+2026-06-01 17:59:40,409 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:59:44,034 - INFO -   ✓ Offering created for 'Goa Trip ✈️'
+2026-06-01 17:59:46,094 - INFO - [15/24] Uploading: 'Goa Trip ✈️' for 'tile applicator'
+2026-06-01 17:59:46,094 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['tile applicator']
+2026-06-01 17:59:48,781 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:59:48,878 - INFO -     → Entered label: Goa Trip ✈️
+2026-06-01 17:59:49,061 - INFO -     → Entered description
+2026-06-01 17:59:51,092 - INFO -     → Image uploaded: Goa Trip.jpg
+2026-06-01 17:59:51,215 - INFO -     → Entered points: 2500000
+2026-06-01 17:59:51,775 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:59:55,440 - INFO -   ✓ Offering created for 'Goa Trip ✈️'
+2026-06-01 17:59:57,478 - INFO - [16/24] Uploading: 'Couple Goa Trip ✈️' for 'Karpenter'
+2026-06-01 17:59:57,478 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['Karpenter']
+2026-06-01 18:00:00,194 - INFO -     → 'Add New Gift' clicked
+2026-06-01 18:00:00,312 - INFO -     → Entered label: Couple Goa Trip ✈️
+2026-06-01 18:00:00,421 - INFO -     → Entered description
+2026-06-01 18:00:02,465 - INFO -     → Image uploaded: Couple Goa Trip.jpg
+2026-06-01 18:00:02,591 - INFO -     → Entered points: 5000000
+2026-06-01 18:00:03,115 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 18:00:06,750 - INFO -   ✓ Offering created for 'Couple Goa Trip ✈️'
+2026-06-01 18:00:08,794 - INFO - [17/24] Uploading: 'Couple Goa Trip ✈️' for 'building contractor'
+2026-06-01 18:00:08,795 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['building contractor']
+2026-06-01 18:00:11,475 - INFO -     → 'Add New Gift' clicked
+2026-06-01 18:00:11,611 - INFO -     → Entered label: Couple Goa Trip ✈️
+2026-06-01 18:00:11,821 - INFO -     → Entered description
+2026-06-01 18:00:13,857 - INFO -     → Image uploaded: Couple Goa Trip.jpg
+2026-06-01 18:00:13,976 - INFO -     → Entered points: 5000000
+2026-06-01 18:00:14,473 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 18:00:18,110 - INFO -   ✓ Offering created for 'Couple Goa Trip ✈️'
+2026-06-01 18:00:20,159 - INFO - [18/24] Uploading: 'Couple Goa Trip ✈️' for 'Electrician'
+2026-06-01 18:00:20,159 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['Electrician']
+2026-06-01 18:00:22,834 - INFO -     → 'Add New Gift' clicked
+2026-06-01 18:00:22,993 - INFO -     → Entered label: Couple Goa Trip ✈️
+2026-06-01 18:00:23,144 - INFO -     → Entered description
+2026-06-01 18:00:25,203 - INFO -     → Image uploaded: Couple Goa Trip.jpg
+2026-06-01 18:00:25,339 - INFO -     → Entered points: 5000000
+2026-06-01 18:00:25,861 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 18:00:29,508 - INFO -   ✓ Offering created for 'Couple Goa Trip ✈️'
+2026-06-01 18:00:31,545 - INFO - [19/24] Uploading: 'Couple Goa Trip ✈️' for 'site supervisor'
+2026-06-01 18:00:31,545 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['site supervisor']
+2026-06-01 18:00:34,240 - INFO -     → 'Add New Gift' clicked
+2026-06-01 18:00:34,362 - INFO -     → Entered label: Couple Goa Trip ✈️
+2026-06-01 18:00:34,458 - INFO -     → Entered description
+2026-06-01 18:00:36,503 - INFO -     → Image uploaded: Couple Goa Trip.jpg
+2026-06-01 18:00:36,675 - INFO -     → Entered points: 5000000
+2026-06-01 18:00:37,210 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 18:00:40,847 - INFO -   ✓ Offering created for 'Couple Goa Trip ✈️'
+2026-06-01 18:00:42,893 - INFO - [20/24] Uploading: 'Couple Goa Trip ✈️' for 'plumber'
+2026-06-01 18:00:42,894 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['plumber']
+2026-06-01 18:00:45,565 - INFO -     → 'Add New Gift' clicked
+2026-06-01 18:00:45,694 - INFO -     → Entered label: Couple Goa Trip ✈️
+2026-06-01 18:00:45,805 - INFO -     → Entered description
+2026-06-01 18:00:47,859 - INFO -     → Image uploaded: Couple Goa Trip.jpg
+2026-06-01 18:00:47,988 - INFO -     → Entered points: 5000000
+2026-06-01 18:00:48,500 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 18:00:52,142 - INFO -   ✓ Offering created for 'Couple Goa Trip ✈️'
+2026-06-01 18:00:54,178 - INFO - [21/24] Uploading: 'Couple Goa Trip ✈️' for 'tile applicator'
+2026-06-01 18:00:54,178 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['tile applicator']
+2026-06-01 18:00:56,866 - INFO -     → 'Add New Gift' clicked
+2026-06-01 18:00:56,995 - INFO -     → Entered label: Couple Goa Trip ✈️
+2026-06-01 18:00:57,111 - INFO -     → Entered description
+2026-06-01 18:00:59,167 - INFO -     → Image uploaded: Couple Goa Trip.jpg
+2026-06-01 18:00:59,291 - INFO -     → Entered points: 5000000
+2026-06-01 18:00:59,790 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 18:01:03,457 - INFO -   ✓ Offering created for 'Couple Goa Trip ✈️'
+2026-06-01 18:01:05,495 - INFO - 
+============================================================
+2026-06-01 18:01:05,495 - INFO - NARMADA GIFTS AUTOMATION SUMMARY
+2026-06-01 18:01:05,496 - INFO - ============================================================
+2026-06-01 18:01:05,496 - INFO - ✓ Successful: 21
+2026-06-01 18:01:05,496 - INFO - ✗ Failed: 0
+2026-06-01 18:01:05,496 - INFO - ============================================================
+2026-06-01 18:01:07,723 - INFO - Browser closed
+2026-06-01 18:01:11,831 - INFO - 
+Task finished at 2026-06-01 18:01:11
+2026-06-01 18:01:11,831 - INFO - Log: automation\logs\full_automation_20260601_175641.log
+

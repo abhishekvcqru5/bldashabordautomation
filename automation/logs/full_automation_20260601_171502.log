@@ -1,0 +1,18 @@
+2026-06-01 17:15:02,202 - INFO - User selected: Add Narmada Gifts
+2026-06-01 17:15:02,207 - INFO - ====== WebDriver manager ======
+2026-06-01 17:15:03,225 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 17:15:03,683 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 17:15:04,197 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-01 17:15:04,197 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-01 17:15:05,488 - INFO - ✓ Chrome driver initialized
+2026-06-01 17:15:05,488 - INFO - Opening login page...
+2026-06-01 17:15:06,772 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-01 17:15:32,399 - ERROR - Login failed: Message: 
+
+2026-06-01 17:15:32,576 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260601_171532.png
+2026-06-01 17:15:32,577 - ERROR - ✗ Login failed
+2026-06-01 17:15:34,786 - INFO - Browser closed
+2026-06-01 17:15:38,902 - INFO - 
+Task finished at 2026-06-01 17:15:38
+2026-06-01 17:15:38,902 - INFO - Log: automation\logs\full_automation_20260601_171502.log
+

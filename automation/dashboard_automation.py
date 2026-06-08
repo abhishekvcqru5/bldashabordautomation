@@ -36,6 +36,35 @@ class VendorPortalAutomation:
         self.headless = headless
 
     # ─────────────────────────────────────────────
+    # Toast & Click Helpers
+    # ─────────────────────────────────────────────
+    _XPATH_TOAST = "//div[contains(@class,'flex items-start') and contains(@class,'p-4')]"
+
+    def _wait_toast_gone(self):
+        """Wait until any toast message is gone before trying to click main actions."""
+        try:
+            WebDriverWait(self.driver, 10).until(
+                EC.invisibility_of_element_located((By.XPATH, self._XPATH_TOAST))
+            )
+        except Exception:
+            pass
+
+    def _click_add_new_icon(self):
+        """Click 'Add New Icon' button safely, waiting for toasts and handling click interception."""
+        self._wait_toast_gone()
+        btn = WebDriverWait(self.driver, self.wait_time).until(
+            EC.presence_of_element_located(
+                (By.XPATH, "//button[contains(text(),'Add New Icon')]")
+            )
+        )
+        try:
+            self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+            time.sleep(0.5)
+            btn.click()
+        except Exception:
+            self.driver.execute_script("arguments[0].click();", btn)
+
+    # ─────────────────────────────────────────────
     # Setup
     # ─────────────────────────────────────────────
     def setup_driver(self):
@@ -64,7 +93,14 @@ class VendorPortalAutomation:
                 opts.binary_location = system_chrome
                 logger.info(f"  Using system Chrome binary: {system_chrome}")
 
-            service = Service(ChromeDriverManager().install())
+            driver_path = ChromeDriverManager().install()
+            p = Path(driver_path)
+            if p.suffix.lower() != ".exe":
+                potential_exe = p.parent / "chromedriver.exe"
+                if potential_exe.exists():
+                    driver_path = str(potential_exe)
+                    logger.info(f"  Resolved webdriver path to: {driver_path}")
+            service = Service(driver_path)
             self.driver = webdriver.Chrome(service=service, options=opts)
             self.driver.set_page_load_timeout(30)
             self.driver.maximize_window()
@@ -90,14 +126,23 @@ class VendorPortalAutomation:
             # 2) Enter password
             self.driver.find_element(By.NAME, "password").send_keys(self.password)
 
+            # Check policy checkbox on the login page if present
+            try:
+                login_agree_cb = self.driver.find_element(By.XPATH, "//input[@type='checkbox']")
+                if not login_agree_cb.is_selected():
+                    self.driver.execute_script("arguments[0].click();", login_agree_cb)
+                    logger.info("  → Policy checkbox checked on login page")
+            except Exception as cb_err:
+                logger.debug(f"Could not find or click policy checkbox on login page: {cb_err}")
+
             # 3) Click Sign In  (the submit button)
             self.driver.find_element(By.XPATH, "//button[@type='submit']").click()
             logger.info("  → Credentials submitted, waiting for dashboard or select service...")
 
             # Check for "Select service" modal/popup
             try:
-                # Wait up to 5 seconds for the Continue button to appear
-                continue_btn = WebDriverWait(self.driver, 5).until(
+                # Wait up to 15 seconds for the Continue button to appear
+                continue_btn = WebDriverWait(self.driver, 15).until(
                     EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Continue To Dashboard') or contains(text(), 'Continue')]"))
                 )
                 logger.info("  → 'Select Service' popup detected, proceeding...")
@@ -176,13 +221,8 @@ class VendorPortalAutomation:
         a list of (value, text) tuples.
         """
         try:
-            add_btn = WebDriverWait(self.driver, self.wait_time).until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Add New Icon')]")
-                )
-            )
-            add_btn.click()
-            time.sleep(2)
+            self._click_add_new_icon()
+            time.sleep(1.5)
 
             select_el = WebDriverWait(self.driver, self.wait_time).until(
                 EC.presence_of_element_located((By.NAME, "UserType"))
@@ -227,13 +267,9 @@ class VendorPortalAutomation:
                 f"{display}  ({icon_data.get('icon_identity')})"
             )
 
-            # ── 1. Click "Add New Icon" ─────────────────────────
-            WebDriverWait(self.driver, self.wait_time).until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Add New Icon')]")
-                )
-            ).click()
-            time.sleep(2)
+            # ── 1. Click "Add New Icon" (waits for any toast to clear first) ────
+            self._click_add_new_icon()
+            time.sleep(1.5)
 
             # ── 2. Select User Type ─────────────────────────────
             ut_select = WebDriverWait(self.driver, self.wait_time).until(
@@ -250,10 +286,19 @@ class VendorPortalAutomation:
                 Select(self.driver.find_element(By.NAME, "IconName")).select_by_value(
                     icon_data["icon_identity"]
                 )
-            except Exception:
-                Select(
-                    self.driver.find_element(By.NAME, "IconName")
-                ).select_by_visible_text(icon_data["icon_identity"])
+            except Exception as first_err:
+                try:
+                    icon_select = self.driver.find_element(By.NAME, "IconName")
+                    opts = [f"value='{o.get_attribute('value')}', text='{o.text}'" for o in Select(icon_select).options]
+                    logger.info(f"    Available IconName options: {opts}")
+                except Exception as log_err:
+                    logger.warning(f"Could not log available IconName options: {log_err}")
+                try:
+                    Select(
+                        self.driver.find_element(By.NAME, "IconName")
+                    ).select_by_visible_text(icon_data["icon_identity"])
+                except Exception:
+                    raise first_err
             logger.info(f"    → Icon identity: {icon_data['icon_identity']}")
 
             # ── 4. Enter Display Title ──────────────────────────
@@ -345,7 +390,9 @@ class VendorPortalAutomation:
                     (By.XPATH, "//button[contains(text(),'Add New Icon')]")
                 )
             )
-            time.sleep(1)
+            # Wait for the success toast to vanish before next click
+            self._wait_toast_gone()
+            time.sleep(0.5)
             logger.info(f"  ✓ Icon added: {display}\n")
             return True
 

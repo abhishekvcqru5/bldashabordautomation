@@ -1,0 +1,549 @@
+2026-06-01 17:36:52,453 - INFO - User selected: Add Narmada Gifts
+2026-06-01 17:36:52,459 - INFO - ====== WebDriver manager ======
+2026-06-01 17:36:53,571 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 17:36:53,997 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-01 17:36:54,393 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-01 17:36:54,393 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-01 17:36:55,620 - INFO - ✓ Chrome driver initialized
+2026-06-01 17:36:55,620 - INFO - Opening login page...
+2026-06-01 17:36:57,259 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-01 17:37:21,870 - INFO - ✓ Login successful
+2026-06-01 17:37:23,871 - INFO - Going to App Settings...
+2026-06-01 17:37:30,117 - INFO -   → Gift Management section opened
+2026-06-01 17:37:30,117 - INFO - Opening Add New Gift modal to detect dropdown select type...
+2026-06-01 17:37:32,405 - INFO - Dropdown 'is_multiple' detected as: None
+2026-06-01 17:37:34,506 - INFO - Proceeding with single-select sequential upload flow (each gift added once per user type)...
+2026-06-01 17:37:34,506 - INFO - [1/72] Uploading: 'Aristocrat Trolley Bag' for 'Karpenter'
+2026-06-01 17:37:34,506 - INFO -   Adding new gift: 'Aristocrat Trolley Bag' for ['Karpenter']
+2026-06-01 17:37:37,197 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:37:37,372 - INFO -     → Entered label: Aristocrat Trolley Bag
+2026-06-01 17:37:37,492 - INFO -     → Entered description
+2026-06-01 17:37:39,547 - INFO -     → Image uploaded: Aristocrat Trolley Bag.jpg
+2026-06-01 17:37:39,644 - INFO -     → Entered points: 150000
+2026-06-01 17:37:40,128 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:37:43,819 - INFO -   ✓ Offering created for 'Aristocrat Trolley Bag'
+2026-06-01 17:37:45,882 - INFO - [2/72] Uploading: 'Aristocrat Trolley Bag' for 'building contractor'
+2026-06-01 17:37:45,883 - INFO -   Adding new gift: 'Aristocrat Trolley Bag' for ['building contractor']
+2026-06-01 17:37:48,611 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:37:48,737 - INFO -     → Entered label: Aristocrat Trolley Bag
+2026-06-01 17:37:48,892 - INFO -     → Entered description
+2026-06-01 17:37:50,919 - INFO -     → Image uploaded: Aristocrat Trolley Bag.jpg
+2026-06-01 17:37:51,058 - INFO -     → Entered points: 150000
+2026-06-01 17:37:51,330 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:37:54,957 - INFO -   ✓ Offering created for 'Aristocrat Trolley Bag'
+2026-06-01 17:37:57,016 - INFO - [3/72] Uploading: 'Aristocrat Trolley Bag' for 'Electrician'
+2026-06-01 17:37:57,017 - INFO -   Adding new gift: 'Aristocrat Trolley Bag' for ['Electrician']
+2026-06-01 17:37:59,832 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:37:59,943 - INFO -     → Entered label: Aristocrat Trolley Bag
+2026-06-01 17:38:00,180 - INFO -     → Entered description
+2026-06-01 17:38:02,215 - INFO -     → Image uploaded: Aristocrat Trolley Bag.jpg
+2026-06-01 17:38:02,311 - INFO -     → Entered points: 150000
+2026-06-01 17:38:02,788 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:38:06,445 - INFO -   ✓ Offering created for 'Aristocrat Trolley Bag'
+2026-06-01 17:38:08,491 - INFO - [4/72] Uploading: 'Aristocrat Trolley Bag' for 'site supervisor'
+2026-06-01 17:38:08,491 - INFO -   Adding new gift: 'Aristocrat Trolley Bag' for ['site supervisor']
+2026-06-01 17:38:11,289 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:38:11,525 - INFO -     → Entered label: Aristocrat Trolley Bag
+2026-06-01 17:38:11,696 - INFO -     → Entered description
+2026-06-01 17:38:13,745 - INFO -     → Image uploaded: Aristocrat Trolley Bag.jpg
+2026-06-01 17:38:13,880 - INFO -     → Entered points: 150000
+2026-06-01 17:38:14,285 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:38:17,944 - INFO -   ✓ Offering created for 'Aristocrat Trolley Bag'
+2026-06-01 17:38:20,002 - INFO - [5/72] Uploading: 'Aristocrat Trolley Bag' for 'plumber'
+2026-06-01 17:38:20,002 - INFO -   Adding new gift: 'Aristocrat Trolley Bag' for ['plumber']
+2026-06-01 17:38:22,757 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:38:22,876 - INFO -     → Entered label: Aristocrat Trolley Bag
+2026-06-01 17:38:23,041 - INFO -     → Entered description
+2026-06-01 17:38:25,107 - INFO -     → Image uploaded: Aristocrat Trolley Bag.jpg
+2026-06-01 17:38:25,223 - INFO -     → Entered points: 150000
+2026-06-01 17:38:25,813 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:38:29,459 - INFO -   ✓ Offering created for 'Aristocrat Trolley Bag'
+2026-06-01 17:38:31,499 - INFO - [6/72] Uploading: 'Aristocrat Trolley Bag' for 'tile applicator'
+2026-06-01 17:38:31,500 - INFO -   Adding new gift: 'Aristocrat Trolley Bag' for ['tile applicator']
+2026-06-01 17:38:34,264 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:38:34,396 - INFO -     → Entered label: Aristocrat Trolley Bag
+2026-06-01 17:38:34,554 - INFO -     → Entered description
+2026-06-01 17:38:36,608 - INFO -     → Image uploaded: Aristocrat Trolley Bag.jpg
+2026-06-01 17:38:36,725 - INFO -     → Entered points: 150000
+2026-06-01 17:38:37,262 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:38:40,962 - INFO -   ✓ Offering created for 'Aristocrat Trolley Bag'
+2026-06-01 17:38:43,014 - INFO - [7/72] Uploading: '48” Havells Fan' for 'Karpenter'
+2026-06-01 17:38:43,015 - INFO -   Adding new gift: '48” Havells Fan' for ['Karpenter']
+2026-06-01 17:38:45,826 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:38:46,038 - INFO -     → Entered label: 48” Havells Fan
+2026-06-01 17:38:46,249 - INFO -     → Entered description
+2026-06-01 17:38:48,287 - INFO -     → Image uploaded: 48” Havells Fan.jpg
+2026-06-01 17:38:48,388 - INFO -     → Entered points: 200000
+2026-06-01 17:38:48,839 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:38:52,472 - INFO -   ✓ Offering created for '48” Havells Fan'
+2026-06-01 17:38:54,528 - INFO - [8/72] Uploading: '48” Havells Fan' for 'building contractor'
+2026-06-01 17:38:54,529 - INFO -   Adding new gift: '48” Havells Fan' for ['building contractor']
+2026-06-01 17:38:57,245 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:38:57,369 - INFO -     → Entered label: 48” Havells Fan
+2026-06-01 17:38:57,533 - INFO -     → Entered description
+2026-06-01 17:38:59,573 - INFO -     → Image uploaded: 48” Havells Fan.jpg
+2026-06-01 17:38:59,688 - INFO -     → Entered points: 200000
+2026-06-01 17:39:00,233 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:39:03,890 - INFO -   ✓ Offering created for '48” Havells Fan'
+2026-06-01 17:39:05,932 - INFO - [9/72] Uploading: '48” Havells Fan' for 'Electrician'
+2026-06-01 17:39:05,933 - INFO -   Adding new gift: '48” Havells Fan' for ['Electrician']
+2026-06-01 17:39:08,712 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:39:08,848 - INFO -     → Entered label: 48” Havells Fan
+2026-06-01 17:39:09,074 - INFO -     → Entered description
+2026-06-01 17:39:11,116 - INFO -     → Image uploaded: 48” Havells Fan.jpg
+2026-06-01 17:39:11,240 - INFO -     → Entered points: 200000
+2026-06-01 17:39:11,655 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:39:15,295 - INFO -   ✓ Offering created for '48” Havells Fan'
+2026-06-01 17:39:17,352 - INFO - [10/72] Uploading: '48” Havells Fan' for 'site supervisor'
+2026-06-01 17:39:17,352 - INFO -   Adding new gift: '48” Havells Fan' for ['site supervisor']
+2026-06-01 17:39:20,089 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:39:20,247 - INFO -     → Entered label: 48” Havells Fan
+2026-06-01 17:39:20,431 - INFO -     → Entered description
+2026-06-01 17:39:22,481 - INFO -     → Image uploaded: 48” Havells Fan.jpg
+2026-06-01 17:39:22,598 - INFO -     → Entered points: 200000
+2026-06-01 17:39:23,256 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:39:26,913 - INFO -   ✓ Offering created for '48” Havells Fan'
+2026-06-01 17:39:28,961 - INFO - [11/72] Uploading: '48” Havells Fan' for 'plumber'
+2026-06-01 17:39:28,961 - INFO -   Adding new gift: '48” Havells Fan' for ['plumber']
+2026-06-01 17:39:31,729 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:39:31,890 - INFO -     → Entered label: 48” Havells Fan
+2026-06-01 17:39:32,056 - INFO -     → Entered description
+2026-06-01 17:39:34,097 - INFO -     → Image uploaded: 48” Havells Fan.jpg
+2026-06-01 17:39:34,241 - INFO -     → Entered points: 200000
+2026-06-01 17:39:34,804 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:39:38,554 - INFO -   ✓ Offering created for '48” Havells Fan'
+2026-06-01 17:39:40,601 - INFO - [12/72] Uploading: '48” Havells Fan' for 'tile applicator'
+2026-06-01 17:39:40,602 - INFO -   Adding new gift: '48” Havells Fan' for ['tile applicator']
+2026-06-01 17:39:43,293 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:39:43,405 - INFO -     → Entered label: 48” Havells Fan
+2026-06-01 17:39:43,534 - INFO -     → Entered description
+2026-06-01 17:39:45,581 - INFO -     → Image uploaded: 48” Havells Fan.jpg
+2026-06-01 17:39:45,700 - INFO -     → Entered points: 200000
+2026-06-01 17:39:46,098 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:39:49,739 - INFO -   ✓ Offering created for '48” Havells Fan'
+2026-06-01 17:39:51,808 - INFO - [13/72] Uploading: 'Pure Silk Saree (Made in Surat)' for 'Karpenter'
+2026-06-01 17:39:51,808 - INFO -   Adding new gift: 'Pure Silk Saree (Made in Surat)' for ['Karpenter']
+2026-06-01 17:39:54,544 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:39:54,690 - INFO -     → Entered label: Pure Silk Saree (Made in Surat)
+2026-06-01 17:39:54,828 - INFO -     → Entered description
+2026-06-01 17:39:56,856 - INFO -     → Image uploaded: Pure Silk Saree.jpg
+2026-06-01 17:39:57,005 - INFO -     → Entered points: 250000
+2026-06-01 17:39:57,407 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:40:01,027 - INFO -   ✓ Offering created for 'Pure Silk Saree (Made in Surat)'
+2026-06-01 17:40:03,060 - INFO - [14/72] Uploading: 'Pure Silk Saree (Made in Surat)' for 'building contractor'
+2026-06-01 17:40:03,060 - INFO -   Adding new gift: 'Pure Silk Saree (Made in Surat)' for ['building contractor']
+2026-06-01 17:40:05,763 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:40:05,933 - INFO -     → Entered label: Pure Silk Saree (Made in Surat)
+2026-06-01 17:40:06,062 - INFO -     → Entered description
+2026-06-01 17:40:08,106 - INFO -     → Image uploaded: Pure Silk Saree.jpg
+2026-06-01 17:40:08,198 - INFO -     → Entered points: 250000
+2026-06-01 17:40:08,628 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:40:12,251 - INFO -   ✓ Offering created for 'Pure Silk Saree (Made in Surat)'
+2026-06-01 17:40:14,290 - INFO - [15/72] Uploading: 'Pure Silk Saree (Made in Surat)' for 'Electrician'
+2026-06-01 17:40:14,291 - INFO -   Adding new gift: 'Pure Silk Saree (Made in Surat)' for ['Electrician']
+2026-06-01 17:40:17,187 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:40:17,307 - INFO -     → Entered label: Pure Silk Saree (Made in Surat)
+2026-06-01 17:40:17,408 - INFO -     → Entered description
+2026-06-01 17:40:19,444 - INFO -     → Image uploaded: Pure Silk Saree.jpg
+2026-06-01 17:40:19,571 - INFO -     → Entered points: 250000
+2026-06-01 17:40:19,969 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:40:23,621 - INFO -   ✓ Offering created for 'Pure Silk Saree (Made in Surat)'
+2026-06-01 17:40:25,664 - INFO - [16/72] Uploading: 'Pure Silk Saree (Made in Surat)' for 'site supervisor'
+2026-06-01 17:40:25,665 - INFO -   Adding new gift: 'Pure Silk Saree (Made in Surat)' for ['site supervisor']
+2026-06-01 17:40:28,467 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:40:28,649 - INFO -     → Entered label: Pure Silk Saree (Made in Surat)
+2026-06-01 17:40:28,894 - INFO -     → Entered description
+2026-06-01 17:40:30,944 - INFO -     → Image uploaded: Pure Silk Saree.jpg
+2026-06-01 17:40:31,059 - INFO -     → Entered points: 250000
+2026-06-01 17:40:31,634 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:40:35,285 - INFO -   ✓ Offering created for 'Pure Silk Saree (Made in Surat)'
+2026-06-01 17:40:37,332 - INFO - [17/72] Uploading: 'Pure Silk Saree (Made in Surat)' for 'plumber'
+2026-06-01 17:40:37,333 - INFO -   Adding new gift: 'Pure Silk Saree (Made in Surat)' for ['plumber']
+2026-06-01 17:40:40,064 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:40:40,199 - INFO -     → Entered label: Pure Silk Saree (Made in Surat)
+2026-06-01 17:40:40,381 - INFO -     → Entered description
+2026-06-01 17:40:42,441 - INFO -     → Image uploaded: Pure Silk Saree.jpg
+2026-06-01 17:40:42,573 - INFO -     → Entered points: 250000
+2026-06-01 17:40:43,030 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:40:46,686 - INFO -   ✓ Offering created for 'Pure Silk Saree (Made in Surat)'
+2026-06-01 17:40:48,873 - INFO - [18/72] Uploading: 'Pure Silk Saree (Made in Surat)' for 'tile applicator'
+2026-06-01 17:40:48,874 - INFO -   Adding new gift: 'Pure Silk Saree (Made in Surat)' for ['tile applicator']
+2026-06-01 17:40:51,639 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:40:51,821 - INFO -     → Entered label: Pure Silk Saree (Made in Surat)
+2026-06-01 17:40:52,002 - INFO -     → Entered description
+2026-06-01 17:40:54,032 - INFO -     → Image uploaded: Pure Silk Saree.jpg
+2026-06-01 17:40:54,143 - INFO -     → Entered points: 250000
+2026-06-01 17:40:54,585 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:40:58,197 - INFO -   ✓ Offering created for 'Pure Silk Saree (Made in Surat)'
+2026-06-01 17:41:00,242 - INFO - [19/72] Uploading: 'Ladies Purse / Bangle Box / Makeup Kit' for 'Karpenter'
+2026-06-01 17:41:00,242 - INFO -   Adding new gift: 'Ladies Purse / Bangle Box / Makeup Kit' for ['Karpenter']
+2026-06-01 17:41:02,897 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:41:03,043 - INFO -     → Entered label: Ladies Purse / Bangle Box / Makeup Kit
+2026-06-01 17:41:03,197 - INFO -     → Entered description
+2026-06-01 17:41:05,242 - INFO -     → Image uploaded: Ladies Purse.jpeg
+2026-06-01 17:41:05,335 - INFO -     → Entered points: 300000
+2026-06-01 17:41:05,769 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:41:09,444 - INFO -   ✓ Offering created for 'Ladies Purse / Bangle Box / Makeup Kit'
+2026-06-01 17:41:11,481 - INFO - [20/72] Uploading: 'Ladies Purse / Bangle Box / Makeup Kit' for 'building contractor'
+2026-06-01 17:41:11,481 - INFO -   Adding new gift: 'Ladies Purse / Bangle Box / Makeup Kit' for ['building contractor']
+2026-06-01 17:41:14,205 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:41:14,360 - INFO -     → Entered label: Ladies Purse / Bangle Box / Makeup Kit
+2026-06-01 17:41:14,507 - INFO -     → Entered description
+2026-06-01 17:41:16,561 - INFO -     → Image uploaded: Ladies Purse.jpeg
+2026-06-01 17:41:16,644 - INFO -     → Entered points: 300000
+2026-06-01 17:41:17,101 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:41:20,711 - INFO -   ✓ Offering created for 'Ladies Purse / Bangle Box / Makeup Kit'
+2026-06-01 17:41:22,761 - INFO - [21/72] Uploading: 'Ladies Purse / Bangle Box / Makeup Kit' for 'Electrician'
+2026-06-01 17:41:22,762 - INFO -   Adding new gift: 'Ladies Purse / Bangle Box / Makeup Kit' for ['Electrician']
+2026-06-01 17:41:25,465 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:41:25,653 - INFO -     → Entered label: Ladies Purse / Bangle Box / Makeup Kit
+2026-06-01 17:41:25,770 - INFO -     → Entered description
+2026-06-01 17:41:27,811 - INFO -     → Image uploaded: Ladies Purse.jpeg
+2026-06-01 17:41:27,905 - INFO -     → Entered points: 300000
+2026-06-01 17:41:28,313 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:41:31,929 - INFO -   ✓ Offering created for 'Ladies Purse / Bangle Box / Makeup Kit'
+2026-06-01 17:41:33,965 - INFO - [22/72] Uploading: 'Ladies Purse / Bangle Box / Makeup Kit' for 'site supervisor'
+2026-06-01 17:41:33,966 - INFO -   Adding new gift: 'Ladies Purse / Bangle Box / Makeup Kit' for ['site supervisor']
+2026-06-01 17:41:36,690 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:41:36,848 - INFO -     → Entered label: Ladies Purse / Bangle Box / Makeup Kit
+2026-06-01 17:41:37,025 - INFO -     → Entered description
+2026-06-01 17:41:39,055 - INFO -     → Image uploaded: Ladies Purse.jpeg
+2026-06-01 17:41:39,171 - INFO -     → Entered points: 300000
+2026-06-01 17:41:39,580 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:41:43,206 - INFO -   ✓ Offering created for 'Ladies Purse / Bangle Box / Makeup Kit'
+2026-06-01 17:41:45,243 - INFO - [23/72] Uploading: 'Ladies Purse / Bangle Box / Makeup Kit' for 'plumber'
+2026-06-01 17:41:45,243 - INFO -   Adding new gift: 'Ladies Purse / Bangle Box / Makeup Kit' for ['plumber']
+2026-06-01 17:41:47,929 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:41:48,134 - INFO -     → Entered label: Ladies Purse / Bangle Box / Makeup Kit
+2026-06-01 17:41:48,343 - INFO -     → Entered description
+2026-06-01 17:41:50,386 - INFO -     → Image uploaded: Ladies Purse.jpeg
+2026-06-01 17:41:50,487 - INFO -     → Entered points: 300000
+2026-06-01 17:41:50,892 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:41:54,528 - INFO -   ✓ Offering created for 'Ladies Purse / Bangle Box / Makeup Kit'
+2026-06-01 17:41:56,567 - INFO - [24/72] Uploading: 'Ladies Purse / Bangle Box / Makeup Kit' for 'tile applicator'
+2026-06-01 17:41:56,568 - INFO -   Adding new gift: 'Ladies Purse / Bangle Box / Makeup Kit' for ['tile applicator']
+2026-06-01 17:41:59,260 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:41:59,419 - INFO -     → Entered label: Ladies Purse / Bangle Box / Makeup Kit
+2026-06-01 17:41:59,562 - INFO -     → Entered description
+2026-06-01 17:42:01,593 - INFO -     → Image uploaded: Ladies Purse.jpeg
+2026-06-01 17:42:01,709 - INFO -     → Entered points: 300000
+2026-06-01 17:42:02,179 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:42:05,817 - INFO -   ✓ Offering created for 'Ladies Purse / Bangle Box / Makeup Kit'
+2026-06-01 17:42:07,875 - INFO - [25/72] Uploading: 'Raymond Brand Shirt / Pant Clothes' for 'Karpenter'
+2026-06-01 17:42:07,876 - INFO -   Adding new gift: 'Raymond Brand Shirt / Pant Clothes' for ['Karpenter']
+2026-06-01 17:42:10,606 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:42:10,755 - INFO -     → Entered label: Raymond Brand Shirt / Pant Clothes
+2026-06-01 17:42:10,911 - INFO -     → Entered description
+2026-06-01 17:42:12,961 - INFO -     → Image uploaded: Raymond Brand Shirt.jpg
+2026-06-01 17:42:13,062 - INFO -     → Entered points: 400000
+2026-06-01 17:42:13,475 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:42:17,102 - INFO -   ✓ Offering created for 'Raymond Brand Shirt / Pant Clothes'
+2026-06-01 17:42:19,160 - INFO - [26/72] Uploading: 'Raymond Brand Shirt / Pant Clothes' for 'building contractor'
+2026-06-01 17:42:19,160 - INFO -   Adding new gift: 'Raymond Brand Shirt / Pant Clothes' for ['building contractor']
+2026-06-01 17:42:21,835 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:42:21,984 - INFO -     → Entered label: Raymond Brand Shirt / Pant Clothes
+2026-06-01 17:42:22,110 - INFO -     → Entered description
+2026-06-01 17:42:24,154 - INFO -     → Image uploaded: Raymond Brand Shirt.jpg
+2026-06-01 17:42:24,248 - INFO -     → Entered points: 400000
+2026-06-01 17:42:24,688 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:42:28,320 - INFO -   ✓ Offering created for 'Raymond Brand Shirt / Pant Clothes'
+2026-06-01 17:42:30,359 - INFO - [27/72] Uploading: 'Raymond Brand Shirt / Pant Clothes' for 'Electrician'
+2026-06-01 17:42:30,359 - INFO -   Adding new gift: 'Raymond Brand Shirt / Pant Clothes' for ['Electrician']
+2026-06-01 17:42:33,082 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:42:33,233 - INFO -     → Entered label: Raymond Brand Shirt / Pant Clothes
+2026-06-01 17:42:33,386 - INFO -     → Entered description
+2026-06-01 17:42:35,432 - INFO -     → Image uploaded: Raymond Brand Shirt.jpg
+2026-06-01 17:42:35,547 - INFO -     → Entered points: 400000
+2026-06-01 17:42:35,976 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:42:39,603 - INFO -   ✓ Offering created for 'Raymond Brand Shirt / Pant Clothes'
+2026-06-01 17:42:41,644 - INFO - [28/72] Uploading: 'Raymond Brand Shirt / Pant Clothes' for 'site supervisor'
+2026-06-01 17:42:41,644 - INFO -   Adding new gift: 'Raymond Brand Shirt / Pant Clothes' for ['site supervisor']
+2026-06-01 17:42:44,370 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:42:44,510 - INFO -     → Entered label: Raymond Brand Shirt / Pant Clothes
+2026-06-01 17:42:44,647 - INFO -     → Entered description
+2026-06-01 17:42:46,672 - INFO -     → Image uploaded: Raymond Brand Shirt.jpg
+2026-06-01 17:42:46,760 - INFO -     → Entered points: 400000
+2026-06-01 17:42:47,201 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:42:50,821 - INFO -   ✓ Offering created for 'Raymond Brand Shirt / Pant Clothes'
+2026-06-01 17:42:52,859 - INFO - [29/72] Uploading: 'Raymond Brand Shirt / Pant Clothes' for 'plumber'
+2026-06-01 17:42:52,860 - INFO -   Adding new gift: 'Raymond Brand Shirt / Pant Clothes' for ['plumber']
+2026-06-01 17:42:55,582 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:42:55,712 - INFO -     → Entered label: Raymond Brand Shirt / Pant Clothes
+2026-06-01 17:42:55,874 - INFO -     → Entered description
+2026-06-01 17:42:57,931 - INFO -     → Image uploaded: Raymond Brand Shirt.jpg
+2026-06-01 17:42:58,045 - INFO -     → Entered points: 400000
+2026-06-01 17:42:58,492 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:43:02,116 - INFO -   ✓ Offering created for 'Raymond Brand Shirt / Pant Clothes'
+2026-06-01 17:43:04,161 - INFO - [30/72] Uploading: 'Raymond Brand Shirt / Pant Clothes' for 'tile applicator'
+2026-06-01 17:43:04,161 - INFO -   Adding new gift: 'Raymond Brand Shirt / Pant Clothes' for ['tile applicator']
+2026-06-01 17:43:06,877 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:43:07,044 - INFO -     → Entered label: Raymond Brand Shirt / Pant Clothes
+2026-06-01 17:43:07,293 - INFO -     → Entered description
+2026-06-01 17:43:09,321 - INFO -     → Image uploaded: Raymond Brand Shirt.jpg
+2026-06-01 17:43:09,435 - INFO -     → Entered points: 400000
+2026-06-01 17:43:09,905 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:43:13,537 - INFO -   ✓ Offering created for 'Raymond Brand Shirt / Pant Clothes'
+2026-06-01 17:43:15,578 - INFO - [31/72] Uploading: 'Faber Juicer Mixer' for 'Karpenter'
+2026-06-01 17:43:15,578 - INFO -   Adding new gift: 'Faber Juicer Mixer' for ['Karpenter']
+2026-06-01 17:43:18,261 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:43:18,389 - INFO -     → Entered label: Faber Juicer Mixer
+2026-06-01 17:43:18,495 - INFO -     → Entered description
+2026-06-01 17:43:20,524 - INFO -     → Image uploaded: Faber Juicer Mixer.jpg
+2026-06-01 17:43:20,610 - INFO -     → Entered points: 500000
+2026-06-01 17:43:21,060 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:43:24,690 - INFO -   ✓ Offering created for 'Faber Juicer Mixer'
+2026-06-01 17:43:26,727 - INFO - [32/72] Uploading: 'Faber Juicer Mixer' for 'building contractor'
+2026-06-01 17:43:26,728 - INFO -   Adding new gift: 'Faber Juicer Mixer' for ['building contractor']
+2026-06-01 17:43:29,464 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:43:29,583 - INFO -     → Entered label: Faber Juicer Mixer
+2026-06-01 17:43:29,689 - INFO -     → Entered description
+2026-06-01 17:43:31,738 - INFO -     → Image uploaded: Faber Juicer Mixer.jpg
+2026-06-01 17:43:31,873 - INFO -     → Entered points: 500000
+2026-06-01 17:43:32,349 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:43:35,994 - INFO -   ✓ Offering created for 'Faber Juicer Mixer'
+2026-06-01 17:43:38,044 - INFO - [33/72] Uploading: 'Faber Juicer Mixer' for 'Electrician'
+2026-06-01 17:43:38,044 - INFO -   Adding new gift: 'Faber Juicer Mixer' for ['Electrician']
+2026-06-01 17:43:40,771 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:43:40,893 - INFO -     → Entered label: Faber Juicer Mixer
+2026-06-01 17:43:41,015 - INFO -     → Entered description
+2026-06-01 17:43:43,060 - INFO -     → Image uploaded: Faber Juicer Mixer.jpg
+2026-06-01 17:43:43,277 - INFO -     → Entered points: 500000
+2026-06-01 17:43:43,754 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:43:47,409 - INFO -   ✓ Offering created for 'Faber Juicer Mixer'
+2026-06-01 17:43:49,450 - INFO - [34/72] Uploading: 'Faber Juicer Mixer' for 'site supervisor'
+2026-06-01 17:43:49,452 - INFO -   Adding new gift: 'Faber Juicer Mixer' for ['site supervisor']
+2026-06-01 17:43:52,147 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:43:52,431 - INFO -     → Entered label: Faber Juicer Mixer
+2026-06-01 17:43:52,674 - INFO -     → Entered description
+2026-06-01 17:43:54,723 - INFO -     → Image uploaded: Faber Juicer Mixer.jpg
+2026-06-01 17:43:54,849 - INFO -     → Entered points: 500000
+2026-06-01 17:43:55,342 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:43:58,993 - INFO -   ✓ Offering created for 'Faber Juicer Mixer'
+2026-06-01 17:44:01,031 - INFO - [35/72] Uploading: 'Faber Juicer Mixer' for 'plumber'
+2026-06-01 17:44:01,031 - INFO -   Adding new gift: 'Faber Juicer Mixer' for ['plumber']
+2026-06-01 17:44:03,753 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:44:03,893 - INFO -     → Entered label: Faber Juicer Mixer
+2026-06-01 17:44:04,075 - INFO -     → Entered description
+2026-06-01 17:44:06,128 - INFO -     → Image uploaded: Faber Juicer Mixer.jpg
+2026-06-01 17:44:06,261 - INFO -     → Entered points: 500000
+2026-06-01 17:44:06,735 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:44:10,381 - INFO -   ✓ Offering created for 'Faber Juicer Mixer'
+2026-06-01 17:44:12,430 - INFO - [36/72] Uploading: 'Faber Juicer Mixer' for 'tile applicator'
+2026-06-01 17:44:12,431 - INFO -   Adding new gift: 'Faber Juicer Mixer' for ['tile applicator']
+2026-06-01 17:44:15,107 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:44:15,215 - INFO -     → Entered label: Faber Juicer Mixer
+2026-06-01 17:44:15,309 - INFO -     → Entered description
+2026-06-01 17:44:17,330 - INFO -     → Image uploaded: Faber Juicer Mixer.jpg
+2026-06-01 17:44:17,454 - INFO -     → Entered points: 500000
+2026-06-01 17:44:17,959 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:44:21,612 - INFO -   ✓ Offering created for 'Faber Juicer Mixer'
+2026-06-01 17:44:23,650 - INFO - [37/72] Uploading: 'Jaquar Geyser (5 Star Rating)' for 'Karpenter'
+2026-06-01 17:44:23,650 - INFO -   Adding new gift: 'Jaquar Geyser (5 Star Rating)' for ['Karpenter']
+2026-06-01 17:44:26,363 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:44:26,537 - INFO -     → Entered label: Jaquar Geyser (5 Star Rating)
+2026-06-01 17:44:26,809 - INFO -     → Entered description
+2026-06-01 17:44:28,887 - INFO -     → Image uploaded: Jaquar Geyser.jpg
+2026-06-01 17:44:29,024 - INFO -     → Entered points: 750000
+2026-06-01 17:44:29,501 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:44:33,139 - INFO -   ✓ Offering created for 'Jaquar Geyser (5 Star Rating)'
+2026-06-01 17:44:35,178 - INFO - [38/72] Uploading: 'Jaquar Geyser (5 Star Rating)' for 'building contractor'
+2026-06-01 17:44:35,178 - INFO -   Adding new gift: 'Jaquar Geyser (5 Star Rating)' for ['building contractor']
+2026-06-01 17:44:37,887 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:44:38,037 - INFO -     → Entered label: Jaquar Geyser (5 Star Rating)
+2026-06-01 17:44:38,158 - INFO -     → Entered description
+2026-06-01 17:44:40,203 - INFO -     → Image uploaded: Jaquar Geyser.jpg
+2026-06-01 17:44:40,293 - INFO -     → Entered points: 750000
+2026-06-01 17:44:40,723 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:44:44,344 - INFO -   ✓ Offering created for 'Jaquar Geyser (5 Star Rating)'
+2026-06-01 17:44:46,385 - INFO - [39/72] Uploading: 'Jaquar Geyser (5 Star Rating)' for 'Electrician'
+2026-06-01 17:44:46,385 - INFO -   Adding new gift: 'Jaquar Geyser (5 Star Rating)' for ['Electrician']
+2026-06-01 17:44:49,136 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:44:49,293 - INFO -     → Entered label: Jaquar Geyser (5 Star Rating)
+2026-06-01 17:44:49,464 - INFO -     → Entered description
+2026-06-01 17:44:51,509 - INFO -     → Image uploaded: Jaquar Geyser.jpg
+2026-06-01 17:44:51,617 - INFO -     → Entered points: 750000
+2026-06-01 17:44:52,040 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:44:55,663 - INFO -   ✓ Offering created for 'Jaquar Geyser (5 Star Rating)'
+2026-06-01 17:44:57,701 - INFO - [40/72] Uploading: 'Jaquar Geyser (5 Star Rating)' for 'site supervisor'
+2026-06-01 17:44:57,701 - INFO -   Adding new gift: 'Jaquar Geyser (5 Star Rating)' for ['site supervisor']
+2026-06-01 17:45:00,384 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:45:00,574 - INFO -     → Entered label: Jaquar Geyser (5 Star Rating)
+2026-06-01 17:45:00,728 - INFO -     → Entered description
+2026-06-01 17:45:02,784 - INFO -     → Image uploaded: Jaquar Geyser.jpg
+2026-06-01 17:45:02,913 - INFO -     → Entered points: 750000
+2026-06-01 17:45:03,462 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:45:07,102 - INFO -   ✓ Offering created for 'Jaquar Geyser (5 Star Rating)'
+2026-06-01 17:45:09,143 - INFO - [41/72] Uploading: 'Jaquar Geyser (5 Star Rating)' for 'plumber'
+2026-06-01 17:45:09,143 - INFO -   Adding new gift: 'Jaquar Geyser (5 Star Rating)' for ['plumber']
+2026-06-01 17:45:11,849 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:45:12,003 - INFO -     → Entered label: Jaquar Geyser (5 Star Rating)
+2026-06-01 17:45:12,177 - INFO -     → Entered description
+2026-06-01 17:45:14,223 - INFO -     → Image uploaded: Jaquar Geyser.jpg
+2026-06-01 17:45:14,326 - INFO -     → Entered points: 750000
+2026-06-01 17:45:14,720 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:45:18,347 - INFO -   ✓ Offering created for 'Jaquar Geyser (5 Star Rating)'
+2026-06-01 17:45:20,392 - INFO - [42/72] Uploading: 'Jaquar Geyser (5 Star Rating)' for 'tile applicator'
+2026-06-01 17:45:20,393 - INFO -   Adding new gift: 'Jaquar Geyser (5 Star Rating)' for ['tile applicator']
+2026-06-01 17:45:23,122 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:45:23,242 - INFO -     → Entered label: Jaquar Geyser (5 Star Rating)
+2026-06-01 17:45:23,392 - INFO -     → Entered description
+2026-06-01 17:45:25,442 - INFO -     → Image uploaded: Jaquar Geyser.jpg
+2026-06-01 17:45:25,545 - INFO -     → Entered points: 750000
+2026-06-01 17:45:25,946 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:45:29,561 - INFO -   ✓ Offering created for 'Jaquar Geyser (5 Star Rating)'
+2026-06-01 17:45:31,599 - INFO - [43/72] Uploading: 'Sony LED TV' for 'Karpenter'
+2026-06-01 17:45:31,600 - INFO -   Adding new gift: 'Sony LED TV' for ['Karpenter']
+2026-06-01 17:45:34,370 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:45:34,479 - INFO -     → Entered label: Sony LED TV
+2026-06-01 17:45:34,608 - INFO -     → Entered description
+2026-06-01 17:45:36,636 - INFO -     → Image uploaded: Sony LED TV.jpg
+2026-06-01 17:45:36,734 - INFO -     → Entered points: 1000000
+2026-06-01 17:45:37,150 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:45:40,780 - INFO -   ✓ Offering created for 'Sony LED TV'
+2026-06-01 17:45:42,827 - INFO - [44/72] Uploading: 'Sony LED TV' for 'building contractor'
+2026-06-01 17:45:42,827 - INFO -   Adding new gift: 'Sony LED TV' for ['building contractor']
+2026-06-01 17:45:45,545 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:45:45,646 - INFO -     → Entered label: Sony LED TV
+2026-06-01 17:45:45,844 - INFO -     → Entered description
+2026-06-01 17:45:47,869 - INFO -     → Image uploaded: Sony LED TV.jpg
+2026-06-01 17:45:48,009 - INFO -     → Entered points: 1000000
+2026-06-01 17:45:48,515 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:45:52,154 - INFO -   ✓ Offering created for 'Sony LED TV'
+2026-06-01 17:45:54,200 - INFO - [45/72] Uploading: 'Sony LED TV' for 'Electrician'
+2026-06-01 17:45:54,201 - INFO -   Adding new gift: 'Sony LED TV' for ['Electrician']
+2026-06-01 17:45:56,951 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:45:57,086 - INFO -     → Entered label: Sony LED TV
+2026-06-01 17:45:57,177 - INFO -     → Entered description
+2026-06-01 17:45:59,226 - INFO -     → Image uploaded: Sony LED TV.jpg
+2026-06-01 17:45:59,349 - INFO -     → Entered points: 1000000
+2026-06-01 17:45:59,672 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:46:03,292 - INFO -   ✓ Offering created for 'Sony LED TV'
+2026-06-01 17:46:05,331 - INFO - [46/72] Uploading: 'Sony LED TV' for 'site supervisor'
+2026-06-01 17:46:05,332 - INFO -   Adding new gift: 'Sony LED TV' for ['site supervisor']
+2026-06-01 17:46:08,069 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:46:08,188 - INFO -     → Entered label: Sony LED TV
+2026-06-01 17:46:08,321 - INFO -     → Entered description
+2026-06-01 17:46:10,347 - INFO -     → Image uploaded: Sony LED TV.jpg
+2026-06-01 17:46:10,450 - INFO -     → Entered points: 1000000
+2026-06-01 17:46:10,841 - INFO -     → Selected user type (single-select): Site Supervisor
+2026-06-01 17:46:14,504 - INFO -   ✓ Offering created for 'Sony LED TV'
+2026-06-01 17:46:16,546 - INFO - [47/72] Uploading: 'Sony LED TV' for 'plumber'
+2026-06-01 17:46:16,546 - INFO -   Adding new gift: 'Sony LED TV' for ['plumber']
+2026-06-01 17:46:19,280 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:46:19,404 - INFO -     → Entered label: Sony LED TV
+2026-06-01 17:46:19,536 - INFO -     → Entered description
+2026-06-01 17:46:21,562 - INFO -     → Image uploaded: Sony LED TV.jpg
+2026-06-01 17:46:21,664 - INFO -     → Entered points: 1000000
+2026-06-01 17:46:22,125 - INFO -     → Selected user type (single-select): Plumber
+2026-06-01 17:46:25,769 - INFO -   ✓ Offering created for 'Sony LED TV'
+2026-06-01 17:46:27,811 - INFO - [48/72] Uploading: 'Sony LED TV' for 'tile applicator'
+2026-06-01 17:46:27,811 - INFO -   Adding new gift: 'Sony LED TV' for ['tile applicator']
+2026-06-01 17:46:30,593 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:46:30,691 - INFO -     → Entered label: Sony LED TV
+2026-06-01 17:46:30,826 - INFO -     → Entered description
+2026-06-01 17:46:32,866 - INFO -     → Image uploaded: Sony LED TV.jpg
+2026-06-01 17:46:32,977 - INFO -     → Entered points: 1000000
+2026-06-01 17:46:33,390 - INFO -     → Selected user type (single-select): Tile Applicator
+2026-06-01 17:46:37,046 - INFO -   ✓ Offering created for 'Sony LED TV'
+2026-06-01 17:46:39,100 - INFO - [49/72] Uploading: 'Kelvinator Freezer' for 'Karpenter'
+2026-06-01 17:46:39,101 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['Karpenter']
+2026-06-01 17:46:41,825 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:46:42,011 - INFO -     → Entered label: Kelvinator Freezer
+2026-06-01 17:46:42,174 - INFO -     → Entered description
+2026-06-01 17:46:44,222 - INFO -     → Image uploaded: Kelvinator Freezer.jpg
+2026-06-01 17:46:44,341 - INFO -     → Entered points: 1500000
+2026-06-01 17:46:44,815 - INFO -     → Selected user type (single-select): Karpenter
+2026-06-01 17:46:48,467 - INFO -   ✓ Offering created for 'Kelvinator Freezer'
+2026-06-01 17:46:50,527 - INFO - [50/72] Uploading: 'Kelvinator Freezer' for 'building contractor'
+2026-06-01 17:46:50,527 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['building contractor']
+2026-06-01 17:46:53,276 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:46:53,411 - INFO -     → Entered label: Kelvinator Freezer
+2026-06-01 17:46:53,538 - INFO -     → Entered description
+2026-06-01 17:46:55,577 - INFO -     → Image uploaded: Kelvinator Freezer.jpg
+2026-06-01 17:46:55,669 - INFO -     → Entered points: 1500000
+2026-06-01 17:46:56,103 - INFO -     → Selected user type (single-select): Building Contractor
+2026-06-01 17:46:59,740 - INFO -   ✓ Offering created for 'Kelvinator Freezer'
+2026-06-01 17:47:01,782 - INFO - [51/72] Uploading: 'Kelvinator Freezer' for 'Electrician'
+2026-06-01 17:47:01,783 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['Electrician']
+2026-06-01 17:47:04,538 - INFO -     → 'Add New Gift' clicked
+2026-06-01 17:47:04,653 - INFO -     → Entered label: Kelvinator Freezer
+2026-06-01 17:47:04,878 - INFO -     → Entered description
+2026-06-01 17:47:06,907 - INFO -     → Image uploaded: Kelvinator Freezer.jpg
+2026-06-01 17:47:07,029 - INFO -     → Entered points: 1500000
+2026-06-01 17:47:07,498 - INFO -     → Selected user type (single-select): Electrician
+2026-06-01 17:47:11,160 - INFO -   ✓ Offering created for 'Kelvinator Freezer'
+2026-06-01 17:47:13,178 - INFO - [52/72] Uploading: 'Kelvinator Freezer' for 'site supervisor'
+2026-06-01 17:47:13,178 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['site supervisor']
+2026-06-01 17:48:13,842 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:48:14,843 - INFO - [53/72] Uploading: 'Kelvinator Freezer' for 'plumber'
+2026-06-01 17:48:14,843 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['plumber']
+2026-06-01 17:49:15,393 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:49:16,394 - INFO - [54/72] Uploading: 'Kelvinator Freezer' for 'tile applicator'
+2026-06-01 17:49:16,395 - INFO -   Adding new gift: 'Kelvinator Freezer' for ['tile applicator']
+2026-06-01 17:50:17,008 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:50:18,009 - INFO - [55/72] Uploading: 'Samsung Touch Screen Mobile' for 'Karpenter'
+2026-06-01 17:50:18,010 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['Karpenter']
+2026-06-01 17:51:18,456 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:51:19,457 - INFO - [56/72] Uploading: 'Samsung Touch Screen Mobile' for 'building contractor'
+2026-06-01 17:51:19,457 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['building contractor']
+2026-06-01 17:52:20,108 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:52:21,109 - INFO - [57/72] Uploading: 'Samsung Touch Screen Mobile' for 'Electrician'
+2026-06-01 17:52:21,110 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['Electrician']
+2026-06-01 17:53:21,724 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:53:22,725 - INFO - [58/72] Uploading: 'Samsung Touch Screen Mobile' for 'site supervisor'
+2026-06-01 17:53:22,726 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['site supervisor']
+2026-06-01 17:54:23,450 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:54:24,452 - INFO - [59/72] Uploading: 'Samsung Touch Screen Mobile' for 'plumber'
+2026-06-01 17:54:24,452 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['plumber']
+2026-06-01 17:55:25,073 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:55:26,074 - INFO - [60/72] Uploading: 'Samsung Touch Screen Mobile' for 'tile applicator'
+2026-06-01 17:55:26,075 - INFO -   Adding new gift: 'Samsung Touch Screen Mobile' for ['tile applicator']
+2026-06-01 17:56:26,543 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:56:27,543 - INFO - [61/72] Uploading: 'Goa Trip ✈️' for 'Karpenter'
+2026-06-01 17:56:27,554 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['Karpenter']
+2026-06-01 17:57:27,854 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:57:28,854 - INFO - [62/72] Uploading: 'Goa Trip ✈️' for 'building contractor'
+2026-06-01 17:57:28,855 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['building contractor']
+2026-06-01 17:58:29,122 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:58:30,122 - INFO - [63/72] Uploading: 'Goa Trip ✈️' for 'Electrician'
+2026-06-01 17:58:30,123 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['Electrician']
+2026-06-01 17:59:30,368 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 17:59:31,369 - INFO - [64/72] Uploading: 'Goa Trip ✈️' for 'site supervisor'
+2026-06-01 17:59:31,370 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['site supervisor']
+2026-06-01 18:00:31,672 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:00:32,673 - INFO - [65/72] Uploading: 'Goa Trip ✈️' for 'plumber'
+2026-06-01 18:00:32,673 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['plumber']
+2026-06-01 18:01:33,086 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:01:34,087 - INFO - [66/72] Uploading: 'Goa Trip ✈️' for 'tile applicator'
+2026-06-01 18:01:34,088 - INFO -   Adding new gift: 'Goa Trip ✈️' for ['tile applicator']
+2026-06-01 18:02:34,544 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:02:35,545 - INFO - [67/72] Uploading: 'Couple Goa Trip ✈️' for 'Karpenter'
+2026-06-01 18:02:35,545 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['Karpenter']
+2026-06-01 18:03:36,189 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:03:37,190 - INFO - [68/72] Uploading: 'Couple Goa Trip ✈️' for 'building contractor'
+2026-06-01 18:03:37,190 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['building contractor']
+2026-06-01 18:04:37,784 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:04:38,785 - INFO - [69/72] Uploading: 'Couple Goa Trip ✈️' for 'Electrician'
+2026-06-01 18:04:38,785 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['Electrician']
+2026-06-01 18:05:39,565 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:05:40,566 - INFO - [70/72] Uploading: 'Couple Goa Trip ✈️' for 'site supervisor'
+2026-06-01 18:05:40,567 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['site supervisor']
+2026-06-01 18:06:41,223 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:06:42,224 - INFO - [71/72] Uploading: 'Couple Goa Trip ✈️' for 'plumber'
+2026-06-01 18:06:42,224 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['plumber']
+2026-06-01 18:07:42,897 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:07:43,898 - INFO - [72/72] Uploading: 'Couple Goa Trip ✈️' for 'tile applicator'
+2026-06-01 18:07:43,898 - INFO -   Adding new gift: 'Couple Goa Trip ✈️' for ['tile applicator']
+2026-06-01 18:08:44,451 - ERROR -     ✗ Could not find 'Add New Gift' button.
+2026-06-01 18:08:45,452 - INFO - 
+============================================================
+2026-06-01 18:08:45,453 - INFO - NARMADA GIFTS AUTOMATION SUMMARY
+2026-06-01 18:08:45,453 - INFO - ============================================================
+2026-06-01 18:08:45,453 - INFO - ✓ Successful: 51
+2026-06-01 18:08:45,453 - INFO - ✗ Failed: 21
+2026-06-01 18:08:45,453 - INFO - ============================================================
+2026-06-01 18:08:47,666 - INFO - Browser closed
+2026-06-01 18:08:51,696 - INFO - 
+Task finished at 2026-06-01 18:08:51
+2026-06-01 18:08:51,696 - INFO - Log: automation\logs\full_automation_20260601_173652.log
+

@@ -1,0 +1,931 @@
+{
+  "user_email": "mahesh@vcqru.com",
+  "extracted_at": "2026-06-08 15:26:38",
+  "branding": {
+    "company_name": "VCQRU ",
+    "header_color": "#4f39f6",
+    "footer_color": "#ffffff",
+    "body_color": "#ffffff",
+    "background_color": "#4f39f6",
+    "logo_url": "https://app.vcqru.com/api//assets/Logo/Comp-1555_e57bfa57-12ee-4c8d-a9c7-f2a4de951f08.png",
+    "splash_url": "https://app.vcqru.com/api//assets/Splash/Comp-1555_8666b8d4-6431-4187-8369-c60d16a079db.png"
+  },
+  "support": {
+    "phone": "7353000903",
+    "email": "support@vcqru.com",
+    "support_content": "Unit: 1502-03, 15th Floor, Tower-4, DLF Corporate Greens, Sector-74A, Gurgaon, Haryana - 122004",
+    "privacy_policy": "https://www.vcqru.com/privacy-policy",
+    "terms_conditions": "https://abhishekvcqru5.github.io/termsandcondition/",
+    "website": "https://www.vcqru.com/about-us"
+  },
+  "dashboard_icons": [
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Scan History",
+      "icon_identity": "history",
+      "color": "#4808F0",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "1",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_44400cb8-6344-4a86-bad2-ca238c304db4.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Rewards",
+      "icon_identity": "gift",
+      "color": "#F00048",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "1",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_f414078b-c65e-49f6-a0b5-ac1b3da56630.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Support",
+      "icon_identity": "help",
+      "color": "#0030F0",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "35",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_67750fbd-61be-4a86-8526-d4dbfb2122d3.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Scan Activity",
+      "icon_identity": "codedetails",
+      "color": "#10A010",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "37",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_abc4daf2-f85c-443c-aa0b-94d54a93f361.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Product Catalog",
+      "icon_identity": "productcatalogue",
+      "color": "#6028E8",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "38",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_34e94111-7617-46ca-8fc5-1c81abcbc221.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Prospectus",
+      "icon_identity": "brochure",
+      "color": "#0848F8",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "39",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_e67d0b3a-7514-4729-b606-2202e476d222.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Language",
+      "icon_identity": "chooselanguage",
+      "color": "#5010E8",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "40",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_264ec233-6385-4841-b485-95df52fc8571.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Refer & Earn",
+      "icon_identity": "referandearn",
+      "color": "#089098",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "41",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_bcdd02bf-8026-46f5-a7ed-ab65b5b6dbf2.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Kyc",
+      "icon_identity": "kycdetails",
+      "color": "#F85808",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "42",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_ebb65761-206c-4266-981e-08a2cf3e21cf.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Tds",
+      "icon_identity": "tds",
+      "color": "#20C880",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "43",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_0fdcac3d-0487-4d57-bfd8-83609f65fa11.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Nearby Retailers",
+      "icon_identity": "retailer",
+      "color": "#F87010",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "44",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_c0599018-5df7-46af-b69f-359672786ae8.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "My Wallet",
+      "icon_identity": "wallet",
+      "color": "#20A020",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "45",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_caec6fba-b087-4b47-83d5-4edd68b793c5.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Updates",
+      "icon_identity": "blog",
+      "color": "#F87820",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "46",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_2e03c249-13ec-4f26-a57d-323faa12dde9.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Installation Guide",
+      "icon_identity": "instalment",
+      "color": "#089098",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "47",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_74d160cc-661f-40cf-adf7-1a89ecf3de5c.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Activity",
+      "icon_identity": "codedetails",
+      "color": "#F86008",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "48",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_dc20b27b-f3c6-4909-a39a-a99e34099096.png"
+    },
+    {
+      "user_type_section": "Dealer",
+      "display_title": "Send Points",
+      "icon_identity": "transferpoints",
+      "color": "#F86008",
+      "assigned_user": "Dealer\nUID: 224",
+      "sequence": "49",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_19a51ca2-4a87-45cc-862c-e9139e5c5fd2.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Rewards",
+      "icon_identity": "gift",
+      "color": "#40EBF7",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "1",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_eb4239ce-98d3-4d52-8dd1-45b1553cbd86.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "My Wallet",
+      "icon_identity": "wallet",
+      "color": "#16C7CA",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "2",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_8e5fbe89-bf98-4733-b8ce-ecaff3089e10.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Installation Guide",
+      "icon_identity": "instalment",
+      "color": "#089098",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "49",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_d2d87a5d-a506-4407-850c-c95487b5da5e.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Kyc",
+      "icon_identity": "kycdetails",
+      "color": "#F85808",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "50",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_91a2e4da-8877-4e14-be84-d230c8361bd1.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Nearby Retailers",
+      "icon_identity": "retailer",
+      "color": "#F87010",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "52",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_abe52784-55e9-4aeb-9148-1ca9733f256c.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Product Catalog",
+      "icon_identity": "productcatalogue",
+      "color": "#6028E8",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "53",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_e2cb204d-6287-4009-b033-da87c1b158e7.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Prospectus",
+      "icon_identity": "brochure",
+      "color": "#0848F8",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "54",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_9e395b8a-619c-4871-ae42-c7319ba21780.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Refer & Earn",
+      "icon_identity": "referandearn",
+      "color": "#089098",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "55",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_2b8cce6d-b0aa-41a3-b966-5cdcf543bc6a.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Scan Activity",
+      "icon_identity": "codedetails",
+      "color": "#10A010",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "57",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_b61de128-0c70-4a8b-ad56-ba118dab6241.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Scan History",
+      "icon_identity": "history",
+      "color": "#4808F0",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "58",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_9406f633-bc3e-4ccf-abce-6f3a1f2c7963.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Send Points",
+      "icon_identity": "transferpoints",
+      "color": "#F86008",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "59",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_dfc04928-87b3-4c20-a753-3c85f3b65c39.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Support",
+      "icon_identity": "help",
+      "color": "#0030F0",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "60",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_a1729f30-75b9-4084-b1af-a07a0a6e85e9.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Tds",
+      "icon_identity": "tds",
+      "color": "#20C880",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "61",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_1c6db92a-64fa-48b7-83dc-64e243e1deb8.png"
+    },
+    {
+      "user_type_section": "Retailer",
+      "display_title": "Updates",
+      "icon_identity": "blog",
+      "color": "#F87820",
+      "assigned_user": "Retailer\nUID: 225",
+      "sequence": "62",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_38537a97-3ccf-45d5-b370-1f59f953e40e.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Gift",
+      "icon_identity": "gift",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "23",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_c68d4ae7-55c4-40b8-8843-8f177ddbb3b8.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "History",
+      "icon_identity": "history",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "24",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_f9fac19a-a8a1-4911-8f73-1f53ae760366.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Wallet",
+      "icon_identity": "wallet",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "25",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_c25f8030-7654-4100-bb4e-29c4f85bdbf8.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Kyc",
+      "icon_identity": "kycdetails",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "26",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_89b9c3fc-c04b-4f2b-a9a0-e0921c4df298.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Blog",
+      "icon_identity": "blog",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "27",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_c707b0ee-ef4b-41ab-9a49-5bf976713b4e.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Brochure",
+      "icon_identity": "brochure",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "28",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_ffa365af-e13c-4e0d-8137-8318865835ae.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Claim History",
+      "icon_identity": "claimhistory",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "29",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_ccdde764-4b47-42a1-a91f-f7c40c8c2570.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Language",
+      "icon_identity": "chooselanguage",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "30",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_8d3dae7a-bf13-4f82-9ff5-de7d4becde0e.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Code Details",
+      "icon_identity": "codedetails",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "31",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_84d4711b-a544-4624-a06a-86c75dd8b50c.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Help",
+      "icon_identity": "help",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "32",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_79238d12-6274-4fc9-9345-1c997a971105.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "Refer & Earn",
+      "icon_identity": "referandearn",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "33",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_9b2de698-6ecb-4e7b-917b-bfa0591b0f6d.png"
+    },
+    {
+      "user_type_section": "Autoagent",
+      "display_title": "E-Commerce",
+      "icon_identity": "productcatalogue",
+      "color": "#4F46E5",
+      "assigned_user": "AutoAgent\nUID: 259",
+      "sequence": "34",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_212256c5-f5e4-420d-b50f-ccaadaaf917c.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Scan History",
+      "icon_identity": "history",
+      "color": "#4808F0",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "35",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_06074c46-a22c-4f24-8928-7ad94719fb0a.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Support",
+      "icon_identity": "help",
+      "color": "#0030F0",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "36",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_5b2adee6-54dd-4ddf-928e-16e41523f6c5.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Rewards",
+      "icon_identity": "gift",
+      "color": "#F00048",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "37",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_5fa3bcee-454e-4fe1-b0c8-9f9151251f9a.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Scan Activity",
+      "icon_identity": "codedetails",
+      "color": "#10A010",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "38",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_ac5afcff-8e7b-4894-8e99-8cd1cf342c89.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Product Catalog",
+      "icon_identity": "productcatalogue",
+      "color": "#6028E8",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "39",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_6ca44e58-3d99-463f-a0e5-54418c0d5549.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Prospectus",
+      "icon_identity": "brochure",
+      "color": "#0848F8",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "40",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_d6fb546b-b702-4d79-92eb-cf8cb3be2348.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Language",
+      "icon_identity": "chooselanguage",
+      "color": "#5010E8",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "41",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_3d50fa36-25cd-462e-8ea2-db919d81942b.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Refer & Earn",
+      "icon_identity": "referandearn",
+      "color": "#089098",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "42",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_bdf22e18-ab30-4b0c-b67d-c7fed18f3223.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Kyc",
+      "icon_identity": "kycdetails",
+      "color": "#F85800",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "43",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_18ecac1b-e092-4b56-8426-b3247ef119cd.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Tds",
+      "icon_identity": "tds",
+      "color": "#18C078",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "44",
+      "visibility_mode": "Sidebar",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_eea80541-cde7-42a7-bdc1-2adefc02dc34.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Nearby Retailers",
+      "icon_identity": "retailer",
+      "color": "#F87010",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "45",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_5b8906f0-b17a-4ac0-bfba-bb34d3877b12.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "My Wallet",
+      "icon_identity": "wallet",
+      "color": "#20A020",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "46",
+      "visibility_mode": "Both",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_857a653f-a058-4fa3-bc2d-7cc96a427290.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Updates",
+      "icon_identity": "blog",
+      "color": "#F87820",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "47",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_a563d9ec-a81a-4095-8d94-ae2c66b8e6ae.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Installation Guide",
+      "icon_identity": "instalment",
+      "color": "#089098",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "48",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_d6973b24-54f3-41c4-b749-ac6310b8cf20.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Activity",
+      "icon_identity": "codedetails",
+      "color": "#F85800",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "49",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_a645dc07-7347-4c73-851b-58dda54fba41.png"
+    },
+    {
+      "user_type_section": "User",
+      "display_title": "Send Points",
+      "icon_identity": "transferpoints",
+      "color": "#F86008",
+      "assigned_user": "User\nUID: 228",
+      "sequence": "50",
+      "visibility_mode": "Dashboard Only",
+      "status": "Visible",
+      "image_url": "https://app.vcqru.com/api//assets/Icons/Comp-1555_1aad968b-4351-4b6e-8548-d51712a8526b.png"
+    }
+  ],
+  "gifts": [
+    {
+      "s_no": "01",
+      "gift_name": "+1 Smart Demo",
+      "gift_id": "1101",
+      "value": "\u20b90 0 POINTS",
+      "points": "",
+      "audience": "Global Availability uthgg k nm",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_22db224c-4312-4c99-9128-d237c02f8198.jpg"
+    },
+    {
+      "s_no": "02",
+      "gift_name": "Gift For Today Testing data required for conversation",
+      "gift_id": "1102",
+      "value": "\u20b96 4 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_43e22ad3-944c-4fe8-95ce-dc574573b9c2.png"
+    },
+    {
+      "s_no": "03",
+      "gift_name": "Travel Kit A premium travel kit for loyal customers",
+      "gift_id": "1072",
+      "value": "\u20b9500 100 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_450984b4-5086-4659-817f-675180a21903.png"
+    },
+    {
+      "s_no": "04",
+      "gift_name": "Testing Gift 1 gift test",
+      "gift_id": "1077",
+      "value": "\u20b958 5 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_0ba60fad-87ee-43bd-83b0-ad02168962be.png"
+    },
+    {
+      "s_no": "05",
+      "gift_name": "Gift 1 Point 1 points",
+      "gift_id": "1078",
+      "value": "\u20b93 1 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live imps",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_b8e05c4c-4b31-47cb-b35c-e5f1b3dce31e.png"
+    },
+    {
+      "s_no": "06",
+      "gift_name": "Cash cash 2",
+      "gift_id": "1079",
+      "value": "\u20b93 2 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_2901a268-a921-4d2d-ab56-82434d4de963.png"
+    },
+    {
+      "s_no": "07",
+      "gift_name": "Testing Gift Detailed Description of test product",
+      "gift_id": "1098",
+      "value": "\u20b99 10 POINTS",
+      "points": "",
+      "audience": "Global Availability User",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_6dbdb2d8-ff1a-4165-ac78-f049e7ca8e03.jpeg"
+    },
+    {
+      "s_no": "08",
+      "gift_name": "Fridge Fridge",
+      "gift_id": "1099",
+      "value": "\u20b943000 43000 POINTS",
+      "points": "",
+      "audience": "Global Availability Retailer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_b17b0965-224d-4bcc-94bf-1f569f083d8c.png"
+    },
+    {
+      "s_no": "09",
+      "gift_name": "Smart Watch 1 point",
+      "gift_id": "1076",
+      "value": "\u20b90 0 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_644051c5-d6d4-48d6-bdd0-f06346ffe3a8.png"
+    },
+    {
+      "s_no": "10",
+      "gift_name": "Gift For Test gift for description",
+      "gift_id": "1080",
+      "value": "\u20b958 58 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_2a6fa279-0b11-4ebe-8284-134519e6d39b.png"
+    },
+    {
+      "s_no": "11",
+      "gift_name": "Gift Table gift for description only",
+      "gift_id": "1081",
+      "value": "\u20b970 58 POINTS",
+      "points": "",
+      "audience": "Global Availability PLUMBER",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_1a0f47a9-21e3-4634-acad-597123ad2347.png"
+    },
+    {
+      "s_no": "12",
+      "gift_name": "Samsung Galaxy Z Fold 7 Samsung Galaxy Z Fold 7",
+      "gift_id": "1100",
+      "value": "\u20b9200000 200000 POINTS",
+      "points": "",
+      "audience": "Global Availability Retailer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_5d8d0789-4f23-486c-925f-f02702cc26d6.jpg"
+    },
+    {
+      "s_no": "13",
+      "gift_name": "Gold Point 1000",
+      "gift_id": "1108",
+      "value": "\u20b91000 1000 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_ac3a3c44-7e3f-4fdf-8e91-8e2d0ab183b4.png"
+    },
+    {
+      "s_no": "14",
+      "gift_name": "Bronze 500 Points",
+      "gift_id": "1109",
+      "value": "\u20b9500 500 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_f65e9270-918b-4d9b-8706-fa9c40bd589a.png"
+    },
+    {
+      "s_no": "15",
+      "gift_name": "Silver Point 100",
+      "gift_id": "1110",
+      "value": "\u20b9700 700 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_75de41d9-09a2-4057-8b59-b37bd3c4e17f.png"
+    },
+    {
+      "s_no": "16",
+      "gift_name": "Silver Silver GIft",
+      "gift_id": "1111",
+      "value": "\u20b91 1 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api/~/images/Gifts/504a67fc-ea13-4893-96fd-26a8ce0a5bee.jpeg"
+    },
+    {
+      "s_no": "17",
+      "gift_name": "Gold GOld gift",
+      "gift_id": "1112",
+      "value": "\u20b92 1 POINTS",
+      "points": "",
+      "audience": "Global Availability Dealer",
+      "status_mode": "Live IMPS",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_4374ff25-7258-4eb8-ad3e-7e6d6f2ef204.png"
+    },
+    {
+      "s_no": "18",
+      "gift_name": "Iphone iPhone",
+      "gift_id": "1322",
+      "value": "\u20b990000 90000 POINTS",
+      "points": "",
+      "audience": "Global Availability Retailer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_5118429b-a3c4-43fc-84d4-3e3b1c533328.png"
+    },
+    {
+      "s_no": "19",
+      "gift_name": "Tv TV",
+      "gift_id": "1323",
+      "value": "\u20b950000 50000 POINTS",
+      "points": "",
+      "audience": "Global Availability Retailer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_276d7983-d677-45b9-8ce6-00d1cbf03d0d.jpg"
+    },
+    {
+      "s_no": "20",
+      "gift_name": "Washing Machine Washing Machine",
+      "gift_id": "1324",
+      "value": "\u20b919000 19000 POINTS",
+      "points": "",
+      "audience": "Global Availability Retailer",
+      "status_mode": "Live",
+      "image_url": "https://app.vcqru.com/api//assets/Gifts/Comp-1555_08af4755-895e-4236-ae80-e226b87cf616.jpg"
+    }
+  ],
+  "kyc": [
+    {
+      "rule_name": "Aadhaar Card",
+      "policy_type": "INACTIVE",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "PAN Card",
+      "policy_type": "ACTIVE POLICY",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "Bank Account Details",
+      "policy_type": "ACTIVE POLICY",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "VPA/UPI Details",
+      "policy_type": "ACTIVE POLICY",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "QR Code Check",
+      "policy_type": "INACTIVE",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "Admin Approval",
+      "policy_type": "INACTIVE",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "Dashboard Access",
+      "policy_type": "ACTIVE POLICY",
+      "status": "DISABLED"
+    },
+    {
+      "rule_name": "Claim Required",
+      "policy_type": "ACTIVE POLICY",
+      "status": "DISABLED"
+    }
+  ],
+  "claims": [
+    {
+      "channel": "",
+      "type": "Claims System Active",
+      "policy_name": "Your payout workflows and reward redemptions are currently live and processing. Points can be redeemed through active channels.",
+      "status": "Active"
+    },
+    {
+      "channel": "",
+      "type": "MANUAL",
+      "policy_name": "Test",
+      "status": "Active"
+    },
+    {
+      "channel": "",
+      "type": "MANUAL",
+      "policy_name": "IMPS Only",
+      "status": "Active"
+    },
+    {
+      "channel": "",
+      "type": "AUTO",
+      "policy_name": "Manual Cash",
+      "status": "Active"
+    }
+  ]
+}

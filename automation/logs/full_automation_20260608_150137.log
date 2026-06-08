@@ -1,0 +1,24 @@
+2026-06-08 15:01:37,834 - INFO - User selected: Analyze App Settings (Identity, Support & Icons)
+2026-06-08 15:01:37,835 - INFO - ============================================================
+2026-06-08 15:01:37,835 - INFO - APP SETTINGS ANALYSIS FOR USER: mahesh@vcqru.com
+2026-06-08 15:01:37,835 - INFO - ============================================================
+2026-06-08 15:01:37,852 - INFO - ====== WebDriver manager ======
+2026-06-08 15:01:40,820 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 15:01:41,673 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 15:01:42,598 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-08 15:01:42,599 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-08 15:01:44,128 - INFO - ✓ Chrome driver initialized
+2026-06-08 15:01:44,130 - INFO - → Attempting login...
+2026-06-08 15:01:44,131 - INFO - Opening login page...
+2026-06-08 15:01:46,056 - INFO -   → Policy checkbox checked on login page
+2026-06-08 15:01:46,226 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-08 15:02:12,025 - ERROR - Login failed: Message: 
+
+2026-06-08 15:02:12,133 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260608_150212.png
+2026-06-08 15:02:12,134 - ERROR - ✗ Login failed. Aborting settings analysis.
+2026-06-08 15:02:14,465 - INFO - Browser closed
+2026-06-08 15:02:18,515 - INFO - 
+Task finished at 2026-06-08 15:02:18
+2026-06-08 15:02:18,515 - INFO - Log: automation\logs\full_automation_20260608_150137.log
+
+2026-06-08 15:02:18,516 - ERROR - Fatal error: 'charmap' codec can't encode character '\u2717' in position 4: character maps to <undefined>

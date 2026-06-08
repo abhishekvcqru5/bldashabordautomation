@@ -1,0 +1,254 @@
+2026-06-04 12:35:41,714 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-04 12:40:21,583 - INFO - Target User Types: ['Retailer']
+2026-06-04 12:40:21,584 - INFO - Target Dashboard Icons: ['Activity', 'E-Warranty', 'Installation Guide', 'KYC', 'Langauge', 'My Wallet', 'Nearby Retailers', 'Product Catalog', 'Prospectus', 'Refer & Earn', 'Rewards', 'Scan Activity', 'Scan History', 'Send Points', 'Support', 'TDS', 'Updates']
+2026-06-04 12:40:21,602 - INFO - Processing images from: dashboardicons
+2026-06-04 12:40:21,603 - INFO - Output folder: automation\processed_images
+2026-06-04 12:40:21,603 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-04 12:40:21,730 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-04 12:40:21,777 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-04 12:40:21,824 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-04 12:40:21,872 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-04 12:40:21,908 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-04 12:40:21,944 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-04 12:40:21,988 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-04 12:40:22,028 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-04 12:40:22,047 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-04 12:40:22,086 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-04 12:40:22,116 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-04 12:40:22,148 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-04 12:40:22,197 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-04 12:40:22,231 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-04 12:40:22,296 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-04 12:40:22,338 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-04 12:40:22,365 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-04 12:40:22,366 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-04 12:40:22,451 - WARNING - ⚠ Could not find any matching image for icon name: 'Langauge' in dashboardicons/
+2026-06-04 12:40:22,681 - INFO - Generated 16 upload tasks for 1 user types.
+2026-06-04 12:40:22,681 - INFO - 
+============================================================
+2026-06-04 12:40:22,682 - INFO - Launching Browser and Starting Upload Process
+2026-06-04 12:40:22,682 - INFO - ============================================================
+2026-06-04 12:40:22,691 - INFO - ====== WebDriver manager ======
+2026-06-04 12:40:23,973 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 12:40:24,407 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 12:40:24,800 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 12:40:25,762 - INFO - WebDriver version 148.0.7778.178 selected
+2026-06-04 12:40:25,769 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-04 12:40:25,770 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-04 12:40:26,026 - INFO - Driver downloading response is 200
+2026-06-04 12:40:26,429 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-04 12:40:26,926 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-06-04 12:40:26,939 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-04 12:40:29,595 - INFO - ✓ Chrome driver initialized
+2026-06-04 12:40:29,596 - INFO - 
+→ Attempting login...
+
+2026-06-04 12:40:29,596 - INFO - Opening login page...
+2026-06-04 12:40:31,575 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-04 12:40:47,993 - INFO - ✓ Login successful
+2026-06-04 12:40:49,994 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-04 12:40:49,995 - INFO - Navigating to App Settings...
+2026-06-04 12:40:56,464 - INFO - ✓ Dashboard Icons section loaded
+2026-06-04 12:40:58,465 - INFO - 
+→ Starting batch upload of 16 custom icons...
+
+2026-06-04 12:40:58,466 - INFO - Starting batch – 16 configured entries
+2026-06-04 12:40:58,466 - INFO - Total icons to upload after expansion: 16
+2026-06-04 12:40:58,466 - INFO - ============================================================
+2026-06-04 12:40:58,467 - INFO - [1/16]
+2026-06-04 12:40:58,469 - INFO -   Adding: [Retailer] Activity  (codedetails)
+2026-06-04 12:41:10,841 - INFO -     → User type: Retailer
+2026-06-04 12:41:10,922 - INFO -     → Icon identity: codedetails
+2026-06-04 12:41:11,028 - INFO -     → Display title: Activity
+2026-06-04 12:41:11,495 - INFO -     → Icon color: #F86008
+2026-06-04 12:41:11,558 - INFO -     → Toggle: dashboard only
+2026-06-04 12:41:13,613 - INFO -     → Image uploaded: Activity.png
+2026-06-04 12:41:13,772 - INFO -     → Form submitted
+2026-06-04 12:41:24,599 - INFO -   ✓ Icon added: Activity
+
+2026-06-04 12:41:25,600 - INFO - [2/16]
+2026-06-04 12:41:25,600 - INFO -   Adding: [Retailer] E-Warranty  (e-warrant)
+2026-06-04 12:41:37,916 - INFO -     → User type: Retailer
+2026-06-04 12:41:37,988 - INFO -     → Icon identity: e-warrant
+2026-06-04 12:41:38,085 - INFO -     → Display title: E-Warranty
+2026-06-04 12:41:38,530 - INFO -     → Icon color: #20C078
+2026-06-04 12:41:38,566 - INFO -     → Toggle: dashboard only
+2026-06-04 12:41:40,599 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-04 12:41:40,716 - INFO -     → Form submitted
+2026-06-04 12:41:51,345 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-04 12:41:52,346 - INFO - [3/16]
+2026-06-04 12:41:52,346 - INFO -   Adding: [Retailer] Installation Guide  (instalment)
+2026-06-04 12:42:06,072 - INFO -     → User type: Retailer
+2026-06-04 12:42:06,214 - INFO -     → Icon identity: instalment
+2026-06-04 12:42:06,427 - INFO -     → Display title: Installation Guide
+2026-06-04 12:42:07,020 - INFO -     → Icon color: #089098
+2026-06-04 12:42:07,082 - INFO -     → Toggle: dashboard only
+2026-06-04 12:42:09,142 - INFO -     → Image uploaded: Installation Guide.png
+2026-06-04 12:42:09,345 - INFO -     → Form submitted
+2026-06-04 12:42:20,125 - INFO -   ✓ Icon added: Installation Guide
+
+2026-06-04 12:42:21,126 - INFO - [4/16]
+2026-06-04 12:42:21,126 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-06-04 12:42:33,825 - INFO -     → User type: Retailer
+2026-06-04 12:42:33,910 - INFO -     → Icon identity: kycdetails
+2026-06-04 12:42:34,004 - INFO -     → Display title: KYC
+2026-06-04 12:42:34,444 - INFO -     → Icon color: #F85808
+2026-06-04 12:42:34,467 - INFO -     → Toggle: side menu
+2026-06-04 12:42:36,508 - INFO -     → Image uploaded: KYC.png
+2026-06-04 12:42:36,606 - INFO -     → Form submitted
+2026-06-04 12:42:47,167 - INFO -   ✓ Icon added: KYC
+
+2026-06-04 12:42:48,168 - INFO - [5/16]
+2026-06-04 12:42:48,169 - INFO -   Adding: [Retailer] My Wallet  (wallet)
+2026-06-04 12:43:00,390 - INFO -     → User type: Retailer
+2026-06-04 12:43:00,474 - INFO -     → Icon identity: wallet
+2026-06-04 12:43:00,573 - INFO -     → Display title: My Wallet
+2026-06-04 12:43:01,000 - INFO -     → Icon color: #20A020
+2026-06-04 12:43:01,028 - INFO -     → Toggle: both
+2026-06-04 12:43:03,059 - INFO -     → Image uploaded: My Wallet.png
+2026-06-04 12:43:03,161 - INFO -     → Form submitted
+2026-06-04 12:43:13,819 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-04 12:43:14,820 - INFO - [6/16]
+2026-06-04 12:43:14,821 - INFO -   Adding: [Retailer] Nearby Retailers  (retailer)
+2026-06-04 12:43:27,505 - INFO -     → User type: Retailer
+2026-06-04 12:43:27,581 - INFO -     → Icon identity: retailer
+2026-06-04 12:43:27,697 - INFO -     → Display title: Nearby Retailers
+2026-06-04 12:43:28,143 - INFO -     → Icon color: #F87010
+2026-06-04 12:43:28,181 - INFO -     → Toggle: dashboard only
+2026-06-04 12:43:30,215 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-06-04 12:43:30,345 - INFO -     → Form submitted
+2026-06-04 12:43:40,962 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-06-04 12:43:41,963 - INFO - [7/16]
+2026-06-04 12:43:41,963 - INFO -   Adding: [Retailer] Product Catalog  (productcatalogue)
+2026-06-04 12:43:54,452 - INFO -     → User type: Retailer
+2026-06-04 12:43:54,569 - INFO -     → Icon identity: productcatalogue
+2026-06-04 12:43:54,780 - INFO -     → Display title: Product Catalog
+2026-06-04 12:43:55,344 - INFO -     → Icon color: #6028E8
+2026-06-04 12:43:55,374 - INFO -     → Toggle: dashboard only
+2026-06-04 12:43:57,516 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-04 12:43:57,626 - INFO -     → Form submitted
+2026-06-04 12:44:08,168 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-04 12:44:09,169 - INFO - [8/16]
+2026-06-04 12:44:09,169 - INFO -   Adding: [Retailer] Prospectus  (brochure)
+2026-06-04 12:44:21,492 - INFO -     → User type: Retailer
+2026-06-04 12:44:21,563 - INFO -     → Icon identity: brochure
+2026-06-04 12:44:21,671 - INFO -     → Display title: Prospectus
+2026-06-04 12:44:22,125 - INFO -     → Icon color: #0848F8
+2026-06-04 12:44:22,158 - INFO -     → Toggle: dashboard only
+2026-06-04 12:44:24,204 - INFO -     → Image uploaded: Prospectus.png
+2026-06-04 12:44:24,310 - INFO -     → Form submitted
+2026-06-04 12:44:34,913 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-04 12:44:35,914 - INFO - [9/16]
+2026-06-04 12:44:35,914 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-06-04 12:44:48,133 - INFO -     → User type: Retailer
+2026-06-04 12:44:48,198 - INFO -     → Icon identity: referandearn
+2026-06-04 12:44:48,317 - INFO -     → Display title: Refer & Earn
+2026-06-04 12:44:48,750 - INFO -     → Icon color: #089098
+2026-06-04 12:44:48,780 - INFO -     → Toggle: both
+2026-06-04 12:44:50,824 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-04 12:44:50,945 - INFO -     → Form submitted
+2026-06-04 12:45:01,595 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-04 12:45:02,596 - INFO - [10/16]
+2026-06-04 12:45:02,596 - INFO -   Adding: [Retailer] Rewards  (gift)
+2026-06-04 12:45:14,842 - INFO -     → User type: Retailer
+2026-06-04 12:45:14,925 - INFO -     → Icon identity: gift
+2026-06-04 12:45:15,065 - INFO -     → Display title: Rewards
+2026-06-04 12:45:15,525 - INFO -     → Icon color: #F00048
+2026-06-04 12:45:15,553 - INFO -     → Toggle: both
+2026-06-04 12:45:17,600 - INFO -     → Image uploaded: Rewards.png
+2026-06-04 12:45:17,704 - INFO -     → Form submitted
+2026-06-04 12:45:28,391 - INFO -   ✓ Icon added: Rewards
+
+2026-06-04 12:45:29,392 - INFO - [11/16]
+2026-06-04 12:45:29,392 - INFO -   Adding: [Retailer] Scan Activity  (codedetails)
+2026-06-04 12:45:41,666 - INFO -     → User type: Retailer
+2026-06-04 12:45:41,755 - INFO -     → Icon identity: codedetails
+2026-06-04 12:45:41,868 - INFO -     → Display title: Scan Activity
+2026-06-04 12:45:42,307 - INFO -     → Icon color: #10A010
+2026-06-04 12:45:42,337 - INFO -     → Toggle: dashboard only
+2026-06-04 12:45:44,383 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-04 12:45:44,556 - INFO -     → Form submitted
+2026-06-04 12:45:55,134 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-04 12:45:56,136 - INFO - [12/16]
+2026-06-04 12:45:56,136 - INFO -   Adding: [Retailer] Scan History  (history)
+2026-06-04 12:46:08,816 - INFO -     → User type: Retailer
+2026-06-04 12:46:08,916 - INFO -     → Icon identity: history
+2026-06-04 12:46:09,004 - INFO -     → Display title: Scan History
+2026-06-04 12:46:09,432 - INFO -     → Icon color: #4808F0
+2026-06-04 12:46:09,456 - INFO -     → Toggle: dashboard only
+2026-06-04 12:46:11,495 - INFO -     → Image uploaded: Scan History.png
+2026-06-04 12:46:11,590 - INFO -     → Form submitted
+2026-06-04 12:46:22,182 - INFO -   ✓ Icon added: Scan History
+
+2026-06-04 12:46:23,183 - INFO - [13/16]
+2026-06-04 12:46:23,183 - INFO -   Adding: [Retailer] Send Points  (transferpoints)
+2026-06-04 12:46:35,900 - INFO -     → User type: Retailer
+2026-06-04 12:46:35,975 - INFO -     → Icon identity: transferpoints
+2026-06-04 12:46:36,094 - INFO -     → Display title: Send Points
+2026-06-04 12:46:36,518 - INFO -     → Icon color: #F86008
+2026-06-04 12:46:36,555 - INFO -     → Toggle: dashboard only
+2026-06-04 12:46:38,595 - INFO -     → Image uploaded: Send Points.png
+2026-06-04 12:46:38,682 - INFO -     → Form submitted
+2026-06-04 12:46:49,374 - INFO -   ✓ Icon added: Send Points
+
+2026-06-04 12:46:50,374 - INFO - [14/16]
+2026-06-04 12:46:50,375 - INFO -   Adding: [Retailer] Support  (help)
+2026-06-04 12:47:02,600 - INFO -     → User type: Retailer
+2026-06-04 12:47:02,676 - INFO -     → Icon identity: help
+2026-06-04 12:47:02,761 - INFO -     → Display title: Support
+2026-06-04 12:47:03,206 - INFO -     → Icon color: #0030F0
+2026-06-04 12:47:03,226 - INFO -     → Toggle: dashboard only
+2026-06-04 12:47:05,256 - INFO -     → Image uploaded: Support.png
+2026-06-04 12:47:05,376 - INFO -     → Form submitted
+2026-06-04 12:47:16,041 - INFO -   ✓ Icon added: Support
+
+2026-06-04 12:47:17,042 - INFO - [15/16]
+2026-06-04 12:47:17,042 - INFO -   Adding: [Retailer] TDS  (tds)
+2026-06-04 12:47:29,323 - INFO -     → User type: Retailer
+2026-06-04 12:47:29,421 - INFO -     → Icon identity: tds
+2026-06-04 12:47:29,504 - INFO -     → Display title: TDS
+2026-06-04 12:47:29,922 - INFO -     → Icon color: #20C880
+2026-06-04 12:47:29,958 - INFO -     → Toggle: side menu
+2026-06-04 12:47:32,025 - INFO -     → Image uploaded: TDS.png
+2026-06-04 12:47:32,129 - INFO -     → Form submitted
+2026-06-04 12:47:42,731 - INFO -   ✓ Icon added: TDS
+
+2026-06-04 12:47:43,732 - INFO - [16/16]
+2026-06-04 12:47:43,733 - INFO -   Adding: [Retailer] Updates  (blog)
+2026-06-04 12:47:55,987 - INFO -     → User type: Retailer
+2026-06-04 12:47:56,058 - INFO -     → Icon identity: blog
+2026-06-04 12:47:56,145 - INFO -     → Display title: Updates
+2026-06-04 12:47:56,586 - INFO -     → Icon color: #F87820
+2026-06-04 12:47:56,626 - INFO -     → Toggle: dashboard only
+2026-06-04 12:47:58,665 - INFO -     → Image uploaded: Updates.png
+2026-06-04 12:47:58,771 - INFO -     → Form submitted
+2026-06-04 12:48:09,331 - INFO -   ✓ Icon added: Updates
+
+2026-06-04 12:48:10,332 - INFO - ============================================================
+2026-06-04 12:48:10,332 - INFO - Batch complete → ✓ 16 succeeded  ✗ 0 failed
+2026-06-04 12:48:10,333 - INFO - 
+============================================================
+2026-06-04 12:48:10,333 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-04 12:48:10,333 - INFO - ============================================================
+2026-06-04 12:48:10,334 - INFO - ✓ Successful uploads: 16
+2026-06-04 12:48:10,334 - INFO - ✗ Failed uploads: 0
+2026-06-04 12:48:10,334 - INFO - Total processed: 16
+2026-06-04 12:48:10,336 - INFO - Success rate: 100.0%
+2026-06-04 12:48:10,336 - INFO - ============================================================
+2026-06-04 12:48:12,552 - INFO - Browser closed
+2026-06-04 12:48:16,637 - INFO - 
+Task finished at 2026-06-04 12:48:16
+2026-06-04 12:48:16,638 - INFO - Log: automation\logs\full_automation_20260604_123514.log
+
