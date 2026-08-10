@@ -1,0 +1,106 @@
+2026-06-11 18:52:19,735 - INFO - User selected: Brand Setting
+2026-06-11 18:52:34,810 - INFO -   Found logo asset: logo.png
+2026-06-11 18:52:34,811 - INFO -   Found splash asset: splash.png
+2026-06-11 18:52:34,812 - INFO - ============================================================
+2026-06-11 18:52:34,812 - INFO - BRAND SETTING — Image Processing
+2026-06-11 18:52:34,820 - INFO - ============================================================
+2026-06-11 18:52:35,410 - INFO - ✓ Logo  → logo_processed.jpg  |  60.9 KB  |  JPEG q95
+2026-06-11 18:52:35,678 - INFO - ✓ Splash → splash_processed.jpg  |  0.10 MB  |  JPEG q90
+2026-06-11 18:52:35,683 - INFO - 
+2026-06-11 18:52:35,688 - INFO - Extracting brand colours from logo...
+2026-06-11 18:52:38,593 - INFO -   Colours extracted from logo:
+2026-06-11 18:52:38,593 - INFO -     Header Color     →  #100040  (dominant logo colour)
+2026-06-11 18:52:38,594 - INFO -     Background Color →  #0A0029  (35% darker)
+2026-06-11 18:52:38,594 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-11 18:52:38,595 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-11 18:52:38,801 - INFO - ✓ Both images ready
+
+2026-06-11 18:52:38,802 - INFO - ============================================================
+2026-06-11 18:52:38,802 - INFO - BRAND SETTING — Browser Automation
+2026-06-11 18:52:38,803 - INFO - ============================================================
+2026-06-11 18:52:38,836 - INFO - ====== WebDriver manager ======
+2026-06-11 18:52:42,272 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 18:52:43,279 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 18:52:44,129 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-11 18:52:44,132 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-11 18:52:47,656 - INFO - ✓ Chrome driver initialized
+2026-06-11 18:52:47,665 - INFO - Opening login page...
+2026-06-11 18:52:49,908 - INFO -   → Policy checkbox checked on login page
+2026-06-11 18:52:50,329 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-11 18:53:26,275 - ERROR - Login failed: Message: 
+
+2026-06-11 18:53:27,241 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260611_185326.png
+2026-06-11 18:53:27,255 - ERROR - ✗ Login failed. Aborting.
+2026-06-11 18:53:32,797 - INFO - Browser closed
+2026-06-11 18:53:36,867 - INFO - 
+Task finished at 2026-06-11 18:53:36
+2026-06-11 18:53:36,869 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_185155.log
+
+2026-06-11 18:55:29,955 - INFO - User selected: Brand Setting
+2026-06-11 18:55:39,134 - INFO -   Found logo asset: logo.png
+2026-06-11 18:55:39,135 - INFO -   Found splash asset: splash.png
+2026-06-11 18:55:39,135 - INFO - ============================================================
+2026-06-11 18:55:39,136 - INFO - BRAND SETTING — Image Processing
+2026-06-11 18:55:39,136 - INFO - ============================================================
+2026-06-11 18:55:39,248 - INFO - ✓ Logo  → logo_processed.jpg  |  60.9 KB  |  JPEG q95
+2026-06-11 18:55:39,368 - INFO - ✓ Splash → splash_processed.jpg  |  0.10 MB  |  JPEG q90
+2026-06-11 18:55:39,370 - INFO - 
+2026-06-11 18:55:39,370 - INFO - Extracting brand colours from logo...
+2026-06-11 18:55:41,227 - INFO -   Colours extracted from logo:
+2026-06-11 18:55:41,227 - INFO -     Header Color     →  #100040  (dominant logo colour)
+2026-06-11 18:55:41,228 - INFO -     Background Color →  #0A0029  (35% darker)
+2026-06-11 18:55:41,228 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-11 18:55:41,228 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-11 18:55:41,375 - INFO - ✓ Both images ready
+
+2026-06-11 18:55:41,377 - INFO - ============================================================
+2026-06-11 18:55:41,378 - INFO - BRAND SETTING — Browser Automation
+2026-06-11 18:55:41,378 - INFO - ============================================================
+2026-06-11 18:55:41,408 - INFO - ====== WebDriver manager ======
+2026-06-11 18:55:45,241 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 18:55:47,912 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 18:55:51,161 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-11 18:55:51,172 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-11 18:55:59,280 - INFO - ✓ Chrome driver initialized
+2026-06-11 18:55:59,292 - INFO - Opening login page...
+2026-06-11 18:56:02,222 - INFO -   → Policy checkbox checked on login page
+2026-06-11 18:56:02,907 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-11 18:56:18,101 - INFO - ✓ Login successful
+2026-06-11 18:56:20,103 - INFO - Going to App Settings...
+2026-06-11 18:56:26,827 - INFO -   → Identity & Branding section opened
+2026-06-11 18:56:29,102 - INFO -   → Edit Branding popup opened
+2026-06-11 18:56:29,154 - INFO - ✓ Brand setting form is ready
+2026-06-11 18:56:29,156 - INFO -   Setting company name: Uphaar
+2026-06-11 18:56:29,436 - ERROR - Brand form fill/save failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.102)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x9ffa13+106c3]
+	chromedriver!GetHandleVerifier [0x9ffa54+10704]
+	chromedriver!(No symbol) [0x7fa66e]
+	chromedriver!(No symbol) [0x83fd8f]
+	chromedriver!(No symbol) [0x83ea76]
+	chromedriver!(No symbol) [0x86628c]
+	chromedriver!(No symbol) [0x83a754]
+	chromedriver!(No symbol) [0x866454]
+	chromedriver!(No symbol) [0x8832fa]
+	chromedriver!(No symbol) [0x866026]
+	chromedriver!(No symbol) [0x839289]
+	chromedriver!(No symbol) [0x83a054]
+	chromedriver!GetHandleVerifier [0xc844fa+2951aa]
+	chromedriver!GetHandleVerifier [0xc7fb56+290806]
+	chromedriver!GetHandleVerifier [0xc9ff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0xa19ed6+2ab86]
+	chromedriver!GetHandleVerifier [0xa2124d+31efd]
+	chromedriver!GetHandleVerifier [0xa083d8+19088]
+	chromedriver!GetHandleVerifier [0xa08585+19235]
+	chromedriver!GetHandleVerifier [0x9f125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-11 18:56:29,906 - INFO -   📸 Screenshot saved: automation\screenshots\brand_form_error_20260611_185629.png
+2026-06-11 18:56:32,832 - INFO - Browser closed
+2026-06-11 18:56:37,204 - INFO - 
+Task finished at 2026-06-11 18:56:37
+2026-06-11 18:56:37,205 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_185155.log
+

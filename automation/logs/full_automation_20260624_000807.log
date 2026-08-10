@@ -1,0 +1,150 @@
+2026-06-24 00:13:30,217 - INFO - User selected: Intro Screens
+2026-06-24 00:13:30,218 - INFO - ============================================================
+2026-06-24 00:13:30,218 - INFO - INTRO SCREENS — Image Processing
+2026-06-24 00:13:30,218 - INFO - ============================================================
+2026-06-24 00:13:30,219 - INFO - Found 6 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-06-24 00:13:30,251 - INFO -   ⚙ Processing 80d2d7b6-9484-4b89-bc07-772b3a9180cc.png  (1024×1536 → need 1080×1920)
+2026-06-24 00:13:30,351 - INFO -   ✓ 80d2d7b6-9484-4b89-bc07-772b3a9180cc.png  →  80d2d7b6-9484-4b89-bc07-772b3a9180cc_processed.jpg  |  1080×1920  |  0.51 MB  |  quality 92
+2026-06-24 00:13:30,354 - INFO -   ⚙ Processing b462c18b-929a-4e30-8737-ffd7e3c68cca.png  (1024×1536 → need 1080×1920)
+2026-06-24 00:13:30,434 - INFO -   ✓ b462c18b-929a-4e30-8737-ffd7e3c68cca.png  →  b462c18b-929a-4e30-8737-ffd7e3c68cca_processed.jpg  |  1080×1920  |  0.49 MB  |  quality 92
+2026-06-24 00:13:30,436 - INFO -   ⚙ Processing image2.jpeg  (1080×1080 → need 1080×1920)
+2026-06-24 00:13:30,483 - INFO -   ✓ image2.jpeg  →  image2_processed.jpg  |  1080×1920  |  0.37 MB  |  quality 92
+2026-06-24 00:13:30,485 - INFO -   ⚙ Processing image3.jpeg  (1080×1350 → need 1080×1920)
+2026-06-24 00:13:30,530 - INFO -   ✓ image3.jpeg  →  image3_processed.jpg  |  1080×1920  |  0.34 MB  |  quality 92
+2026-06-24 00:13:30,531 - INFO -   ⚙ Processing image4.jpeg  (1080×1350 → need 1080×1920)
+2026-06-24 00:13:30,576 - INFO -   ✓ image4.jpeg  →  image4_processed.jpg  |  1080×1920  |  0.30 MB  |  quality 92
+2026-06-24 00:13:30,577 - INFO -   ⚙ Processing WhatsApp Image 2026-06-23 at 4.47.11 PM.jpeg  (1080×1080 → need 1080×1920)
+2026-06-24 00:13:30,618 - INFO -   ✓ WhatsApp Image 2026-06-23 at 4.47.11 PM.jpeg  →  WhatsApp Image 2026-06-23 at 4.47.11 PM_processed.jpg  |  1080×1920  |  0.26 MB  |  quality 92
+2026-06-24 00:13:30,619 - INFO -   Processed 6/6 intro images successfully
+
+2026-06-24 00:13:32,052 - INFO - ============================================================
+2026-06-24 00:13:32,052 - INFO - INTRO SCREENS — Browser Automation
+2026-06-24 00:13:32,052 - INFO - ============================================================
+2026-06-24 00:13:32,060 - INFO - ====== WebDriver manager ======
+2026-06-24 00:13:33,275 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 00:13:33,554 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 00:13:33,805 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 00:13:34,330 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-24 00:13:34,338 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-24 00:13:34,338 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-24 00:13:34,626 - INFO - Driver downloading response is 200
+2026-06-24 00:13:35,727 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 00:13:36,075 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-24 00:13:36,077 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-24 00:13:38,420 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-24 00:13:38,423 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-24 00:13:38,458 - INFO - ✓ Chrome driver initialized
+2026-06-24 00:13:38,459 - INFO - Opening login page...
+2026-06-24 00:13:40,322 - INFO -   → Policy checkbox checked on login page
+2026-06-24 00:13:40,402 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-24 00:13:40,415 - INFO -   → Policy agreement popup detected
+2026-06-24 00:13:40,476 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-24 00:13:41,003 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-24 00:13:52,345 - INFO - ✓ Login successful
+2026-06-24 00:13:54,346 - INFO - Going to App Settings...
+2026-06-24 00:14:00,648 - INFO -   → Intro Screens section opened
+2026-06-24 00:14:00,659 - INFO - ✓ Intro Screens page ready
+2026-06-24 00:14:00,659 - INFO - Starting batch  —  6 intro screen(s) to launch
+2026-06-24 00:14:00,660 - INFO - ============================================================
+2026-06-24 00:14:00,660 - INFO - [1/6]
+2026-06-24 00:14:00,660 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-24 00:14:02,876 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-24 00:14:03,325 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-24 00:14:05,376 - INFO -     → Image uploaded: 80d2d7b6-9484-4b89-bc07-772b3a9180cc_processed.jpg
+2026-06-24 00:14:05,478 - INFO -     → Launch Screen clicked
+2026-06-24 00:14:09,502 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-24 00:14:10,503 - INFO - [2/6]
+2026-06-24 00:14:10,504 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-24 00:14:12,710 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-24 00:14:13,119 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-24 00:14:15,154 - INFO -     → Image uploaded: b462c18b-929a-4e30-8737-ffd7e3c68cca_processed.jpg
+2026-06-24 00:14:15,293 - INFO -     → Launch Screen clicked
+2026-06-24 00:14:19,302 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-24 00:14:20,303 - INFO - [3/6]
+2026-06-24 00:14:20,304 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-24 00:14:22,599 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-24 00:14:23,227 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-24 00:14:25,287 - INFO -     → Image uploaded: image2_processed.jpg
+2026-06-24 00:14:25,403 - INFO -     → Launch Screen clicked
+2026-06-24 00:14:29,426 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-24 00:14:30,427 - INFO - [4/6]
+2026-06-24 00:14:30,428 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-24 00:14:32,695 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-24 00:14:33,353 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-24 00:14:35,419 - INFO -     → Image uploaded: image3_processed.jpg
+2026-06-24 00:14:35,575 - INFO -     → Launch Screen clicked
+2026-06-24 00:14:39,595 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-24 00:14:40,596 - INFO - [5/6]
+2026-06-24 00:14:40,597 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-24 00:14:42,845 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-24 00:14:43,475 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-24 00:14:45,520 - INFO -     → Image uploaded: image4_processed.jpg
+2026-06-24 00:14:45,625 - INFO -     → Launch Screen clicked
+2026-06-24 00:14:49,646 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-24 00:14:50,648 - INFO - [6/6]
+2026-06-24 00:14:50,649 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-24 00:14:52,846 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-24 00:14:53,255 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-24 00:14:55,292 - INFO -     → Image uploaded: WhatsApp Image 2026-06-23 at 4.47.11 PM_processed.jpg
+2026-06-24 00:14:55,360 - INFO -     → Launch Screen clicked
+2026-06-24 00:14:59,383 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-24 00:15:00,385 - INFO - ============================================================
+2026-06-24 00:15:00,385 - INFO - Intro screens done  →  ✓ 6 launched   ✗ 0 failed
+2026-06-24 00:15:02,670 - INFO - Browser closed
+2026-06-24 00:15:06,730 - INFO - 
+Task finished at 2026-06-24 00:15:06
+2026-06-24 00:15:06,730 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260624_000807.log
+
+2026-06-24 00:15:34,136 - INFO - User selected: Promotion Banners
+2026-06-24 00:15:34,137 - INFO - ============================================================
+2026-06-24 00:15:34,137 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-24 00:15:34,137 - INFO - ============================================================
+2026-06-24 00:15:34,138 - INFO - Found 1 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-24 00:15:34,151 - INFO -   ⚙ Processing WhatsApp Image 2026-06-23 at 4.47.09 PM.jpeg  (size 1280×491 → need 1920×1080)
+2026-06-24 00:15:34,197 - INFO -   ✓ WhatsApp Image 2026-06-23 at 4.47.09 PM.jpeg  →  WhatsApp Image 2026-06-23 at 4.47.09 PM_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-06-24 00:15:34,199 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-06-24 00:15:34,200 - INFO - ============================================================
+2026-06-24 00:15:34,200 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-24 00:15:34,200 - INFO - ============================================================
+2026-06-24 00:15:34,207 - INFO - ====== WebDriver manager ======
+2026-06-24 00:15:35,193 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 00:15:35,488 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 00:15:35,752 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-24 00:15:35,753 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-24 00:15:36,894 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-24 00:15:36,896 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-24 00:15:36,918 - INFO - ✓ Chrome driver initialized
+2026-06-24 00:15:36,918 - INFO - Opening login page...
+2026-06-24 00:15:38,071 - INFO -   → Policy checkbox checked on login page
+2026-06-24 00:15:38,141 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-24 00:15:38,154 - INFO -   → Policy agreement popup detected
+2026-06-24 00:15:38,202 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-24 00:15:38,749 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-24 00:15:50,090 - INFO - ✓ Login successful
+2026-06-24 00:15:52,090 - INFO - Going to App Settings...
+2026-06-24 00:15:58,280 - INFO -   → Promotion Banners section opened
+2026-06-24 00:15:58,304 - INFO - ✓ Promotion Banners page ready
+2026-06-24 00:15:58,304 - INFO - Starting batch  —  1 banner(s) to publish
+2026-06-24 00:15:58,304 - INFO - ============================================================
+2026-06-24 00:15:58,304 - INFO - [1/1]
+2026-06-24 00:15:58,305 - INFO -   Publishing: [WhatsApp Image 2026-06-23 at 4.47.09 PM]  (WhatsApp Image 2026-06-23 at 4.47.09 PM_processed.jpg)
+2026-06-24 00:16:00,539 - INFO -     → Title entered: WhatsApp Image 2026-06-23 at 4.47.09 PM
+2026-06-24 00:16:02,565 - INFO -     → Image uploaded: WhatsApp Image 2026-06-23 at 4.47.09 PM_processed.jpg
+2026-06-24 00:16:02,651 - INFO -     → Publish Banner clicked
+2026-06-24 00:16:06,669 - INFO -   ✓ Banner published: WhatsApp Image 2026-06-23 at 4.47.09 PM
+
+2026-06-24 00:16:07,671 - INFO - ============================================================
+2026-06-24 00:16:07,672 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-06-24 00:16:09,868 - INFO - Browser closed
+2026-06-24 00:16:13,934 - INFO - 
+Task finished at 2026-06-24 00:16:13
+2026-06-24 00:16:13,935 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260624_000807.log
+

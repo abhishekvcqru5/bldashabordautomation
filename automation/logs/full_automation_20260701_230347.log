@@ -1,0 +1,21 @@
+2026-07-01 23:04:08,018 - INFO - User selected: Product Management Image Upload
+2026-07-01 23:04:08,018 - INFO - ============================================================
+2026-07-01 23:04:08,018 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-01 23:04:08,018 - INFO - ============================================================
+2026-07-01 23:04:08,022 - INFO - Total folders found: 83
+2026-07-01 23:04:08,023 - INFO - Resuming: 4 products already completed
+2026-07-01 23:04:08,023 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 23:04:08,024 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 23:04:08,024 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 23:04:08,024 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 23:04:08,049 - INFO - Pending: 79 products to upload
+2026-07-01 23:04:08,049 - INFO - 
+============================================================
+2026-07-01 23:04:08,049 - INFO - BATCH 1/8 — 10 products
+2026-07-01 23:04:08,049 - INFO - ============================================================
+2026-07-01 23:04:08,059 - INFO - ====== WebDriver manager ======
+2026-07-01 23:04:09,518 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 23:04:09,869 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 23:04:10,189 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 23:04:10,190 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 23:04:11,208 - INFO - Automation cancelled by user (Ctrl+C)

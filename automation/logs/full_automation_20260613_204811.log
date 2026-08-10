@@ -1,0 +1,43 @@
+2026-06-13 20:48:44,370 - INFO - User selected: Intro Screens
+2026-06-13 20:48:44,371 - INFO - ============================================================
+2026-06-13 20:48:44,371 - INFO - INTRO SCREENS — Image Processing
+2026-06-13 20:48:44,371 - INFO - ============================================================
+2026-06-13 20:48:44,373 - INFO - Found 1 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-06-13 20:48:44,421 - INFO -   ⚙ Processing WhatsApp Image 2026-06-12 at 11.07.38 AM.jpeg  (1024×1536 → need 1080×1920)
+2026-06-13 20:48:44,805 - INFO -   ✓ WhatsApp Image 2026-06-12 at 11.07.38 AM.jpeg  →  WhatsApp Image 2026-06-12 at 11.07.38 AM_processed.jpg  |  1080×1920  |  0.43 MB  |  quality 92
+2026-06-13 20:48:44,808 - INFO -   Processed 1/1 intro images successfully
+
+2026-06-13 20:48:47,551 - INFO - ============================================================
+2026-06-13 20:48:47,551 - INFO - INTRO SCREENS — Browser Automation
+2026-06-13 20:48:47,553 - INFO - ============================================================
+2026-06-13 20:48:47,592 - INFO - ====== WebDriver manager ======
+2026-06-13 20:48:50,506 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-13 20:48:51,291 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-13 20:48:51,886 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-13 20:48:51,893 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-13 20:48:56,479 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-13 20:48:56,745 - INFO - ✓ Chrome driver initialized
+2026-06-13 20:48:56,754 - INFO - Opening login page...
+2026-06-13 20:48:59,188 - INFO -   → Policy checkbox checked on login page
+2026-06-13 20:48:59,589 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-13 20:49:32,833 - INFO - ✓ Login successful
+2026-06-13 20:49:34,839 - INFO - Going to App Settings...
+2026-06-13 20:49:41,294 - INFO -   → Intro Screens section opened
+2026-06-13 20:49:41,323 - INFO - ✓ Intro Screens page ready
+2026-06-13 20:49:41,323 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-06-13 20:49:41,324 - INFO - ============================================================
+2026-06-13 20:49:41,324 - INFO - [1/1]
+2026-06-13 20:49:41,325 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-13 20:49:44,045 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-13 20:49:45,192 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-13 20:49:47,326 - INFO -     → Image uploaded: WhatsApp Image 2026-06-12 at 11.07.38 AM_processed.jpg
+2026-06-13 20:49:47,555 - INFO -     → Launch Screen clicked
+2026-06-13 20:49:51,607 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-13 20:49:52,608 - INFO - ============================================================
+2026-06-13 20:49:52,609 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-06-13 20:49:55,425 - INFO - Browser closed
+2026-06-13 20:49:59,473 - INFO - 
+Task finished at 2026-06-13 20:49:59
+2026-06-13 20:49:59,473 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260613_204811.log
+

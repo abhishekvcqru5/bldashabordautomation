@@ -33,7 +33,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 logger = logging.getLogger(__name__)
 
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
-INTRO_FOLDER = Path("introscreen")
+INTRO_FOLDER = Path(__file__).resolve().parent.parent / "introscreen"
 PROCESSED_DIR = Path("automation/processed_introscreen")
 SUPPORTED_EXT = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp"}
 

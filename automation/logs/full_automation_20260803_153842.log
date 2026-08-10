@@ -1,0 +1,463 @@
+2026-08-03 15:39:05,292 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-08-03 15:39:05,292 - INFO - ============================================================
+2026-08-03 15:39:05,292 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-08-03 15:39:05,292 - INFO - ============================================================
+2026-08-03 15:39:05,293 - INFO - Processing images from dashboardicons/...
+2026-08-03 15:39:05,299 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-08-03 15:39:05,300 - INFO - Output folder: automation\processed_images
+2026-08-03 15:39:05,300 - INFO - Target: 512x512 px, max 50 KB
+
+2026-08-03 15:39:05,365 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-08-03 15:39:05,399 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-08-03 15:39:05,444 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-08-03 15:39:05,481 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-08-03 15:39:05,516 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-08-03 15:39:05,543 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-08-03 15:39:05,564 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-08-03 15:39:05,602 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-08-03 15:39:05,633 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-08-03 15:39:05,664 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-08-03 15:39:05,709 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-08-03 15:39:05,739 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-08-03 15:39:05,774 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-08-03 15:39:05,801 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-08-03 15:39:05,802 - INFO - 
+✓ Processed 14 images successfully
+
+2026-08-03 15:39:05,802 - INFO - v 14 images processed.
+2026-08-03 15:39:06,043 - INFO - ====== WebDriver manager ======
+2026-08-03 15:39:07,306 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 15:39:07,535 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 15:39:07,693 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 15:39:08,084 - INFO - WebDriver version 150.0.7871.124 selected
+2026-08-03 15:39:08,090 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-03 15:39:08,090 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-03 15:39:08,137 - INFO - Driver downloading response is 200
+2026-08-03 15:39:08,444 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 15:39:08,671 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-08-03 15:39:08,673 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-03 15:39:10,690 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-03 15:39:10,693 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-03 15:39:10,732 - INFO - ✓ Chrome driver initialized
+2026-08-03 15:39:10,733 - INFO - Opening login page...
+2026-08-03 15:39:11,906 - INFO -   → Policy checkbox checked on login page
+2026-08-03 15:39:11,986 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-03 15:39:12,003 - INFO -   → Policy agreement popup detected
+2026-08-03 15:39:12,043 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-03 15:39:12,670 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-03 15:39:24,026 - INFO -   → Navigating directly to App Settings URL...
+2026-08-03 15:39:24,267 - INFO - ✓ Login successful and on App Settings page
+2026-08-03 15:39:26,268 - INFO - Navigating to dashboard icons section...
+2026-08-03 15:39:26,268 - INFO - Navigating to App Settings...
+2026-08-03 15:39:32,592 - INFO - ✓ Dashboard Icons section loaded
+2026-08-03 15:39:32,592 - INFO - Reading all available user types from dropdown...
+2026-08-03 15:39:46,341 - INFO -   Found 3 user types: ['Retailer', 'Dealer', 'Electrician']
+2026-08-03 15:39:46,378 - INFO - Total rows found in configured icons table: 14
+2026-08-03 15:39:46,632 - INFO - Currently configured icons per user type:
+2026-08-03 15:39:46,632 - INFO -   retailer: []
+2026-08-03 15:39:46,632 - INFO -   dealer: []
+2026-08-03 15:39:46,632 - INFO -   electrician: ['blog', 'aboutus', 'wallet', 'kycdetails', 'gift', 'codedetails', 'history', 'chooselanguage', 'help', 'claimhistory', 'brochure', 'referandearn']
+2026-08-03 15:39:46,633 - INFO - Found 30 missing icon uploads:
+2026-08-03 15:39:46,633 - INFO -   - [Retailer] aboutus (ID: aboutus) from aboutus.png
+2026-08-03 15:39:46,633 - INFO -   - [Retailer] Activity (ID: claimhistory) from Activity.png
+2026-08-03 15:39:46,633 - INFO -   - [Retailer] KYC (ID: kycdetails) from KYC.png
+2026-08-03 15:39:46,633 - INFO -   - [Retailer] Language (ID: chooselanguage) from Language.png
+2026-08-03 15:39:46,633 - INFO -   - [Retailer] My Wallet (ID: wallet) from My Wallet.png
+2026-08-03 15:39:46,634 - INFO -   - [Retailer] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-08-03 15:39:46,634 - INFO -   - [Retailer] Prospectus (ID: brochure) from Prospectus.png
+2026-08-03 15:39:46,634 - INFO -   - [Retailer] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-08-03 15:39:46,634 - INFO -   - [Retailer] Rewards (ID: gift) from Rewards.png
+2026-08-03 15:39:46,635 - INFO -   - [Retailer] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-08-03 15:39:46,635 - INFO -   - [Retailer] Scan History (ID: history) from Scan History.png
+2026-08-03 15:39:46,635 - INFO -   - [Retailer] Support (ID: help) from Support.png
+2026-08-03 15:39:46,635 - INFO -   - [Retailer] TDS (ID: tds) from TDS.png
+2026-08-03 15:39:46,635 - INFO -   - [Retailer] Updates (ID: blog) from Updates.png
+2026-08-03 15:39:46,635 - INFO -   - [Dealer] aboutus (ID: aboutus) from aboutus.png
+2026-08-03 15:39:46,635 - INFO -   - [Dealer] Activity (ID: claimhistory) from Activity.png
+2026-08-03 15:39:46,635 - INFO -   - [Dealer] KYC (ID: kycdetails) from KYC.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] Language (ID: chooselanguage) from Language.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] My Wallet (ID: wallet) from My Wallet.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] Prospectus (ID: brochure) from Prospectus.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] Rewards (ID: gift) from Rewards.png
+2026-08-03 15:39:46,636 - INFO -   - [Dealer] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-08-03 15:39:46,637 - INFO -   - [Dealer] Scan History (ID: history) from Scan History.png
+2026-08-03 15:39:46,637 - INFO -   - [Dealer] Support (ID: help) from Support.png
+2026-08-03 15:39:46,637 - INFO -   - [Dealer] TDS (ID: tds) from TDS.png
+2026-08-03 15:39:46,637 - INFO -   - [Dealer] Updates (ID: blog) from Updates.png
+2026-08-03 15:39:46,637 - INFO -   - [Electrician] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-08-03 15:39:46,637 - INFO -   - [Electrician] TDS (ID: tds) from TDS.png
+2026-08-03 15:39:48,092 - INFO - 
+[1/30] Uploading missing icon for Retailer: aboutus
+2026-08-03 15:39:48,092 - INFO -   Adding: [Retailer] aboutus  (aboutus)
+2026-08-03 15:40:00,393 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:40:00,459 - INFO -     → Icon identity: aboutus
+2026-08-03 15:40:00,564 - INFO -     → Display title: aboutus
+2026-08-03 15:40:00,988 - INFO -     → Icon color: #70E8A8
+2026-08-03 15:40:01,018 - INFO -     → Toggle: side menu
+2026-08-03 15:40:03,054 - INFO -     → Image uploaded: aboutus.png
+2026-08-03 15:40:03,166 - INFO -     → Form submitted
+2026-08-03 15:40:14,098 - INFO -   ✓ Icon added: aboutus
+
+2026-08-03 15:40:15,099 - INFO - 
+[2/30] Uploading missing icon for Retailer: Activity
+2026-08-03 15:40:15,099 - INFO -   Adding: [Retailer] Activity  (claimhistory)
+2026-08-03 15:40:27,793 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:40:27,864 - INFO -     → Icon identity: claimhistory
+2026-08-03 15:40:27,959 - INFO -     → Display title: Activity
+2026-08-03 15:40:28,387 - INFO -     → Icon color: #F86008
+2026-08-03 15:40:28,417 - INFO -     → Toggle: dashboard only
+2026-08-03 15:40:30,443 - INFO -     → Image uploaded: Activity.png
+2026-08-03 15:40:30,532 - INFO -     → Form submitted
+2026-08-03 15:40:41,077 - INFO -   ✓ Icon added: Activity
+
+2026-08-03 15:40:42,077 - INFO - 
+[3/30] Uploading missing icon for Retailer: KYC
+2026-08-03 15:40:42,078 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-08-03 15:40:54,782 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:40:54,851 - INFO -     → Icon identity: kycdetails
+2026-08-03 15:40:54,941 - INFO -     → Display title: KYC
+2026-08-03 15:40:55,494 - INFO -     → Icon color: #F85808
+2026-08-03 15:40:55,603 - INFO -     → Toggle: side menu
+2026-08-03 15:40:57,674 - INFO -     → Image uploaded: KYC.png
+2026-08-03 15:40:57,807 - INFO -     → Form submitted
+2026-08-03 15:41:08,522 - INFO -   ✓ Icon added: KYC
+
+2026-08-03 15:41:09,523 - INFO - 
+[4/30] Uploading missing icon for Retailer: Language
+2026-08-03 15:41:09,524 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-08-03 15:41:21,951 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:41:22,077 - INFO -     → Icon identity: chooselanguage
+2026-08-03 15:41:22,247 - INFO -     → Display title: Language
+2026-08-03 15:41:22,827 - INFO -     → Icon color: #5010E8
+2026-08-03 15:41:22,875 - INFO -     → Toggle: side menu
+2026-08-03 15:41:24,933 - INFO -     → Image uploaded: Language.png
+2026-08-03 15:41:25,106 - INFO -     → Form submitted
+2026-08-03 15:41:35,801 - INFO -   ✓ Icon added: Language
+
+2026-08-03 15:41:36,802 - INFO - 
+[5/30] Uploading missing icon for Retailer: My Wallet
+2026-08-03 15:41:36,802 - INFO -   Adding: [Retailer] My Wallet  (wallet)
+2026-08-03 15:41:49,158 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:41:49,248 - INFO -     → Icon identity: wallet
+2026-08-03 15:41:49,369 - INFO -     → Display title: My Wallet
+2026-08-03 15:41:49,928 - INFO -     → Icon color: #20A020
+2026-08-03 15:41:49,985 - INFO -     → Toggle: both
+2026-08-03 15:41:52,031 - INFO -     → Image uploaded: My Wallet.png
+2026-08-03 15:41:52,177 - INFO -     → Form submitted
+2026-08-03 15:42:02,889 - INFO -   ✓ Icon added: My Wallet
+
+2026-08-03 15:42:03,891 - INFO - 
+[6/30] Uploading missing icon for Retailer: Product Catalog
+2026-08-03 15:42:03,891 - INFO -   Adding: [Retailer] Product Catalog  (productcatalogue)
+2026-08-03 15:42:16,320 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:42:16,459 - INFO -     → Icon identity: productcatalogue
+2026-08-03 15:42:16,772 - INFO -     → Display title: Product Catalog
+2026-08-03 15:42:17,399 - INFO -     → Icon color: #6028E8
+2026-08-03 15:42:17,453 - INFO -     → Toggle: dashboard only
+2026-08-03 15:42:19,517 - INFO -     → Image uploaded: Product Catalog.png
+2026-08-03 15:42:19,678 - INFO -     → Form submitted
+2026-08-03 15:42:30,437 - INFO -   ✓ Icon added: Product Catalog
+
+2026-08-03 15:42:31,438 - INFO - 
+[7/30] Uploading missing icon for Retailer: Prospectus
+2026-08-03 15:42:31,439 - INFO -   Adding: [Retailer] Prospectus  (brochure)
+2026-08-03 15:42:44,019 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:42:44,150 - INFO -     → Icon identity: brochure
+2026-08-03 15:42:44,385 - INFO -     → Display title: Prospectus
+2026-08-03 15:42:44,986 - INFO -     → Icon color: #0848F8
+2026-08-03 15:42:45,034 - INFO -     → Toggle: dashboard only
+2026-08-03 15:42:47,077 - INFO -     → Image uploaded: Prospectus.png
+2026-08-03 15:42:47,400 - INFO -     → Form submitted
+2026-08-03 15:42:58,069 - INFO -   ✓ Icon added: Prospectus
+
+2026-08-03 15:42:59,070 - INFO - 
+[8/30] Uploading missing icon for Retailer: Refer & Earn
+2026-08-03 15:42:59,070 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-08-03 15:43:11,442 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:43:11,527 - INFO -     → Icon identity: referandearn
+2026-08-03 15:43:11,669 - INFO -     → Display title: Refer & Earn
+2026-08-03 15:43:12,137 - INFO -     → Icon color: #089098
+2026-08-03 15:43:12,186 - INFO -     → Toggle: both
+2026-08-03 15:43:14,218 - INFO -     → Image uploaded: Refer & Earn.png
+2026-08-03 15:43:14,340 - INFO -     → Form submitted
+2026-08-03 15:43:25,105 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-08-03 15:43:26,106 - INFO - 
+[9/30] Uploading missing icon for Retailer: Rewards
+2026-08-03 15:43:26,106 - INFO -   Adding: [Retailer] Rewards  (gift)
+2026-08-03 15:43:38,543 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:43:38,634 - INFO -     → Icon identity: gift
+2026-08-03 15:43:38,762 - INFO -     → Display title: Rewards
+2026-08-03 15:43:39,274 - INFO -     → Icon color: #F00048
+2026-08-03 15:43:39,304 - INFO -     → Toggle: both
+2026-08-03 15:43:41,351 - INFO -     → Image uploaded: Rewards.png
+2026-08-03 15:43:41,457 - INFO -     → Form submitted
+2026-08-03 15:43:52,270 - INFO -   ✓ Icon added: Rewards
+
+2026-08-03 15:43:53,271 - INFO - 
+[10/30] Uploading missing icon for Retailer: Scan Activity
+2026-08-03 15:43:53,271 - INFO -   Adding: [Retailer] Scan Activity  (codedetails)
+2026-08-03 15:44:05,671 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:44:05,755 - INFO -     → Icon identity: codedetails
+2026-08-03 15:44:05,890 - INFO -     → Display title: Scan Activity
+2026-08-03 15:44:06,393 - INFO -     → Icon color: #10A010
+2026-08-03 15:44:06,433 - INFO -     → Toggle: dashboard only
+2026-08-03 15:44:08,495 - INFO -     → Image uploaded: Scan Activity.png
+2026-08-03 15:44:08,587 - INFO -     → Form submitted
+2026-08-03 15:44:19,189 - INFO -   ✓ Icon added: Scan Activity
+
+2026-08-03 15:44:20,190 - INFO - 
+[11/30] Uploading missing icon for Retailer: Scan History
+2026-08-03 15:44:20,190 - INFO -   Adding: [Retailer] Scan History  (history)
+2026-08-03 15:44:32,634 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:44:32,753 - INFO -     → Icon identity: history
+2026-08-03 15:44:32,874 - INFO -     → Display title: Scan History
+2026-08-03 15:44:33,348 - INFO -     → Icon color: #4808F0
+2026-08-03 15:44:33,379 - INFO -     → Toggle: dashboard only
+2026-08-03 15:44:35,435 - INFO -     → Image uploaded: Scan History.png
+2026-08-03 15:44:35,587 - INFO -     → Form submitted
+2026-08-03 15:44:46,266 - INFO -   ✓ Icon added: Scan History
+
+2026-08-03 15:44:47,267 - INFO - 
+[12/30] Uploading missing icon for Retailer: Support
+2026-08-03 15:44:47,267 - INFO -   Adding: [Retailer] Support  (help)
+2026-08-03 15:44:59,681 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:44:59,837 - INFO -     → Icon identity: help
+2026-08-03 15:45:00,143 - INFO -     → Display title: Support
+2026-08-03 15:45:00,646 - INFO -     → Icon color: #0030F0
+2026-08-03 15:45:00,677 - INFO -     → Toggle: dashboard only
+2026-08-03 15:45:02,720 - INFO -     → Image uploaded: Support.png
+2026-08-03 15:45:02,844 - INFO -     → Form submitted
+2026-08-03 15:45:13,471 - INFO -   ✓ Icon added: Support
+
+2026-08-03 15:45:14,472 - INFO - 
+[13/30] Uploading missing icon for Retailer: TDS
+2026-08-03 15:45:14,473 - INFO -   Adding: [Retailer] TDS  (tds)
+2026-08-03 15:45:26,802 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:45:26,925 - INFO -     → Icon identity: tds
+2026-08-03 15:45:27,078 - INFO -     → Display title: TDS
+2026-08-03 15:45:27,561 - INFO -     → Icon color: #20C880
+2026-08-03 15:45:27,601 - INFO -     → Toggle: side menu
+2026-08-03 15:45:29,654 - INFO -     → Image uploaded: TDS.png
+2026-08-03 15:45:29,757 - INFO -     → Form submitted
+2026-08-03 15:45:40,443 - INFO -   ✓ Icon added: TDS
+
+2026-08-03 15:45:41,444 - INFO - 
+[14/30] Uploading missing icon for Retailer: Updates
+2026-08-03 15:45:41,444 - INFO -   Adding: [Retailer] Updates  (blog)
+2026-08-03 15:45:53,861 - INFO -     → User type selected by exact text: Retailer
+2026-08-03 15:45:53,985 - INFO -     → Icon identity: blog
+2026-08-03 15:45:54,091 - INFO -     → Display title: Updates
+2026-08-03 15:45:54,608 - INFO -     → Icon color: #F87820
+2026-08-03 15:45:54,654 - INFO -     → Toggle: dashboard only
+2026-08-03 15:45:56,712 - INFO -     → Image uploaded: Updates.png
+2026-08-03 15:45:56,810 - INFO -     → Form submitted
+2026-08-03 15:46:07,434 - INFO -   ✓ Icon added: Updates
+
+2026-08-03 15:46:08,435 - INFO - 
+[15/30] Uploading missing icon for Dealer: aboutus
+2026-08-03 15:46:08,435 - INFO -   Adding: [Dealer] aboutus  (aboutus)
+2026-08-03 15:46:21,036 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:46:21,128 - INFO -     → Icon identity: aboutus
+2026-08-03 15:46:21,248 - INFO -     → Display title: aboutus
+2026-08-03 15:46:21,784 - INFO -     → Icon color: #70E8A8
+2026-08-03 15:46:21,821 - INFO -     → Toggle: side menu
+2026-08-03 15:46:23,888 - INFO -     → Image uploaded: aboutus.png
+2026-08-03 15:46:23,989 - INFO -     → Form submitted
+2026-08-03 15:46:34,985 - INFO -   ✓ Icon added: aboutus
+
+2026-08-03 15:46:35,986 - INFO - 
+[16/30] Uploading missing icon for Dealer: Activity
+2026-08-03 15:46:35,987 - INFO -   Adding: [Dealer] Activity  (claimhistory)
+2026-08-03 15:46:48,370 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:46:48,463 - INFO -     → Icon identity: claimhistory
+2026-08-03 15:46:48,606 - INFO -     → Display title: Activity
+2026-08-03 15:46:49,169 - INFO -     → Icon color: #F86008
+2026-08-03 15:46:49,200 - INFO -     → Toggle: dashboard only
+2026-08-03 15:46:51,255 - INFO -     → Image uploaded: Activity.png
+2026-08-03 15:46:51,404 - INFO -     → Form submitted
+2026-08-03 15:47:02,061 - INFO -   ✓ Icon added: Activity
+
+2026-08-03 15:47:03,061 - INFO - 
+[17/30] Uploading missing icon for Dealer: KYC
+2026-08-03 15:47:03,075 - INFO -   Adding: [Dealer] KYC  (kycdetails)
+2026-08-03 15:47:16,011 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:47:16,094 - INFO -     → Icon identity: kycdetails
+2026-08-03 15:47:16,208 - INFO -     → Display title: KYC
+2026-08-03 15:47:16,694 - INFO -     → Icon color: #F85808
+2026-08-03 15:47:16,725 - INFO -     → Toggle: side menu
+2026-08-03 15:47:18,761 - INFO -     → Image uploaded: KYC.png
+2026-08-03 15:47:18,858 - INFO -     → Form submitted
+2026-08-03 15:47:29,648 - INFO -   ✓ Icon added: KYC
+
+2026-08-03 15:47:30,649 - INFO - 
+[18/30] Uploading missing icon for Dealer: Language
+2026-08-03 15:47:30,650 - INFO -   Adding: [Dealer] Language  (chooselanguage)
+2026-08-03 15:47:43,175 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:47:43,269 - INFO -     → Icon identity: chooselanguage
+2026-08-03 15:47:43,373 - INFO -     → Display title: Language
+2026-08-03 15:47:43,856 - INFO -     → Icon color: #5010E8
+2026-08-03 15:47:43,887 - INFO -     → Toggle: side menu
+2026-08-03 15:47:45,928 - INFO -     → Image uploaded: Language.png
+2026-08-03 15:47:46,140 - INFO -     → Form submitted
+2026-08-03 15:47:56,708 - INFO -   ✓ Icon added: Language
+
+2026-08-03 15:47:57,709 - INFO - 
+[19/30] Uploading missing icon for Dealer: My Wallet
+2026-08-03 15:47:57,709 - INFO -   Adding: [Dealer] My Wallet  (wallet)
+2026-08-03 15:48:10,161 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:48:10,256 - INFO -     → Icon identity: wallet
+2026-08-03 15:48:10,398 - INFO -     → Display title: My Wallet
+2026-08-03 15:48:10,887 - INFO -     → Icon color: #20A020
+2026-08-03 15:48:10,931 - INFO -     → Toggle: both
+2026-08-03 15:48:12,972 - INFO -     → Image uploaded: My Wallet.png
+2026-08-03 15:48:13,085 - INFO -     → Form submitted
+2026-08-03 15:48:23,736 - INFO -   ✓ Icon added: My Wallet
+
+2026-08-03 15:48:24,737 - INFO - 
+[20/30] Uploading missing icon for Dealer: Product Catalog
+2026-08-03 15:48:24,737 - INFO -   Adding: [Dealer] Product Catalog  (productcatalogue)
+2026-08-03 15:48:37,229 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:48:37,314 - INFO -     → Icon identity: productcatalogue
+2026-08-03 15:48:37,440 - INFO -     → Display title: Product Catalog
+2026-08-03 15:48:37,946 - INFO -     → Icon color: #6028E8
+2026-08-03 15:48:37,986 - INFO -     → Toggle: dashboard only
+2026-08-03 15:48:40,035 - INFO -     → Image uploaded: Product Catalog.png
+2026-08-03 15:48:40,166 - INFO -     → Form submitted
+2026-08-03 15:48:50,886 - INFO -   ✓ Icon added: Product Catalog
+
+2026-08-03 15:48:51,887 - INFO - 
+[21/30] Uploading missing icon for Dealer: Prospectus
+2026-08-03 15:48:51,888 - INFO -   Adding: [Dealer] Prospectus  (brochure)
+2026-08-03 15:49:04,424 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:49:04,511 - INFO -     → Icon identity: brochure
+2026-08-03 15:49:04,654 - INFO -     → Display title: Prospectus
+2026-08-03 15:49:05,107 - INFO -     → Icon color: #0848F8
+2026-08-03 15:49:05,135 - INFO -     → Toggle: dashboard only
+2026-08-03 15:49:07,177 - INFO -     → Image uploaded: Prospectus.png
+2026-08-03 15:49:07,269 - INFO -     → Form submitted
+2026-08-03 15:49:17,878 - INFO -   ✓ Icon added: Prospectus
+
+2026-08-03 15:49:18,879 - INFO - 
+[22/30] Uploading missing icon for Dealer: Refer & Earn
+2026-08-03 15:49:18,881 - INFO -   Adding: [Dealer] Refer & Earn  (referandearn)
+2026-08-03 15:49:31,348 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:49:31,445 - INFO -     → Icon identity: referandearn
+2026-08-03 15:49:31,592 - INFO -     → Display title: Refer & Earn
+2026-08-03 15:49:32,093 - INFO -     → Icon color: #089098
+2026-08-03 15:49:32,123 - INFO -     → Toggle: both
+2026-08-03 15:49:34,164 - INFO -     → Image uploaded: Refer & Earn.png
+2026-08-03 15:49:34,257 - INFO -     → Form submitted
+2026-08-03 15:49:44,972 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-08-03 15:49:45,973 - INFO - 
+[23/30] Uploading missing icon for Dealer: Rewards
+2026-08-03 15:49:45,974 - INFO -   Adding: [Dealer] Rewards  (gift)
+2026-08-03 15:49:58,279 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:49:58,365 - INFO -     → Icon identity: gift
+2026-08-03 15:49:58,465 - INFO -     → Display title: Rewards
+2026-08-03 15:49:58,934 - INFO -     → Icon color: #F00048
+2026-08-03 15:49:58,958 - INFO -     → Toggle: both
+2026-08-03 15:50:00,997 - INFO -     → Image uploaded: Rewards.png
+2026-08-03 15:50:01,104 - INFO -     → Form submitted
+2026-08-03 15:50:11,741 - INFO -   ✓ Icon added: Rewards
+
+2026-08-03 15:50:12,742 - INFO - 
+[24/30] Uploading missing icon for Dealer: Scan Activity
+2026-08-03 15:50:12,742 - INFO -   Adding: [Dealer] Scan Activity  (codedetails)
+2026-08-03 15:50:25,753 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:50:25,857 - INFO -     → Icon identity: codedetails
+2026-08-03 15:50:25,996 - INFO -     → Display title: Scan Activity
+2026-08-03 15:50:26,544 - INFO -     → Icon color: #10A010
+2026-08-03 15:50:26,582 - INFO -     → Toggle: dashboard only
+2026-08-03 15:50:28,694 - INFO -     → Image uploaded: Scan Activity.png
+2026-08-03 15:50:28,809 - INFO -     → Form submitted
+2026-08-03 15:50:39,519 - INFO -   ✓ Icon added: Scan Activity
+
+2026-08-03 15:50:40,520 - INFO - 
+[25/30] Uploading missing icon for Dealer: Scan History
+2026-08-03 15:50:40,521 - INFO -   Adding: [Dealer] Scan History  (history)
+2026-08-03 15:50:53,165 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:50:53,273 - INFO -     → Icon identity: history
+2026-08-03 15:50:53,423 - INFO -     → Display title: Scan History
+2026-08-03 15:50:53,966 - INFO -     → Icon color: #4808F0
+2026-08-03 15:50:53,992 - INFO -     → Toggle: dashboard only
+2026-08-03 15:50:56,040 - INFO -     → Image uploaded: Scan History.png
+2026-08-03 15:50:56,142 - INFO -     → Form submitted
+2026-08-03 15:51:06,918 - INFO -   ✓ Icon added: Scan History
+
+2026-08-03 15:51:07,919 - INFO - 
+[26/30] Uploading missing icon for Dealer: Support
+2026-08-03 15:51:07,920 - INFO -   Adding: [Dealer] Support  (help)
+2026-08-03 15:51:20,483 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:51:20,597 - INFO -     → Icon identity: help
+2026-08-03 15:51:20,725 - INFO -     → Display title: Support
+2026-08-03 15:51:21,238 - INFO -     → Icon color: #0030F0
+2026-08-03 15:51:21,264 - INFO -     → Toggle: dashboard only
+2026-08-03 15:51:23,307 - INFO -     → Image uploaded: Support.png
+2026-08-03 15:51:23,422 - INFO -     → Form submitted
+2026-08-03 15:51:34,118 - INFO -   ✓ Icon added: Support
+
+2026-08-03 15:51:35,119 - INFO - 
+[27/30] Uploading missing icon for Dealer: TDS
+2026-08-03 15:51:35,119 - INFO -   Adding: [Dealer] TDS  (tds)
+2026-08-03 15:51:47,501 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:51:47,599 - INFO -     → Icon identity: tds
+2026-08-03 15:51:47,732 - INFO -     → Display title: TDS
+2026-08-03 15:51:48,243 - INFO -     → Icon color: #20C880
+2026-08-03 15:51:48,272 - INFO -     → Toggle: side menu
+2026-08-03 15:51:50,319 - INFO -     → Image uploaded: TDS.png
+2026-08-03 15:51:50,433 - INFO -     → Form submitted
+2026-08-03 15:52:01,109 - INFO -   ✓ Icon added: TDS
+
+2026-08-03 15:52:02,110 - INFO - 
+[28/30] Uploading missing icon for Dealer: Updates
+2026-08-03 15:52:02,110 - INFO -   Adding: [Dealer] Updates  (blog)
+2026-08-03 15:52:14,573 - INFO -     → User type selected by exact text: Dealer
+2026-08-03 15:52:14,666 - INFO -     → Icon identity: blog
+2026-08-03 15:52:14,788 - INFO -     → Display title: Updates
+2026-08-03 15:52:15,325 - INFO -     → Icon color: #F87820
+2026-08-03 15:52:15,356 - INFO -     → Toggle: dashboard only
+2026-08-03 15:52:17,399 - INFO -     → Image uploaded: Updates.png
+2026-08-03 15:52:17,495 - INFO -     → Form submitted
+2026-08-03 15:52:28,128 - INFO -   ✓ Icon added: Updates
+
+2026-08-03 15:52:29,129 - INFO - 
+[29/30] Uploading missing icon for Electrician: Product Catalog
+2026-08-03 15:52:29,130 - INFO -   Adding: [Electrician] Product Catalog  (productcatalogue)
+2026-08-03 15:52:41,592 - INFO -     → User type selected by exact text: Electrician
+2026-08-03 15:52:41,709 - INFO -     → Icon identity: productcatalogue
+2026-08-03 15:52:41,877 - INFO -     → Display title: Product Catalog
+2026-08-03 15:52:42,420 - INFO -     → Icon color: #6028E8
+2026-08-03 15:52:42,450 - INFO -     → Toggle: dashboard only
+2026-08-03 15:52:44,509 - INFO -     → Image uploaded: Product Catalog.png
+2026-08-03 15:52:44,606 - INFO -     → Form submitted
+2026-08-03 15:52:55,247 - INFO -   ✓ Icon added: Product Catalog
+
+2026-08-03 15:52:56,248 - INFO - 
+[30/30] Uploading missing icon for Electrician: TDS
+2026-08-03 15:52:56,249 - INFO -   Adding: [Electrician] TDS  (tds)
+2026-08-03 15:53:08,674 - INFO -     → User type selected by exact text: Electrician
+2026-08-03 15:53:08,776 - INFO -     → Icon identity: tds
+2026-08-03 15:53:08,899 - INFO -     → Display title: TDS
+2026-08-03 15:53:09,360 - INFO -     → Icon color: #20C880
+2026-08-03 15:53:09,389 - INFO -     → Toggle: side menu
+2026-08-03 15:53:11,438 - INFO -     → Image uploaded: TDS.png
+2026-08-03 15:53:11,540 - INFO -     → Form submitted
+2026-08-03 15:53:22,272 - INFO -   ✓ Icon added: TDS
+
+2026-08-03 15:53:23,273 - INFO - 
+============================================================
+2026-08-03 15:53:23,274 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-08-03 15:53:23,274 - INFO - ============================================================
+2026-08-03 15:53:23,275 - INFO - Successful uploads: 30
+2026-08-03 15:53:23,275 - INFO - Failed uploads: 0
+2026-08-03 15:53:23,276 - INFO - Total processed: 30
+2026-08-03 15:53:23,277 - INFO - ============================================================
+2026-08-03 15:53:25,567 - INFO - Browser closed
+2026-08-03 15:53:29,653 - INFO - 
+Task finished at 2026-08-03 15:53:29
+2026-08-03 15:53:29,653 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260803_153842.log
+

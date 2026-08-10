@@ -1,0 +1,177 @@
+2026-06-23 18:50:13,904 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-23 18:50:28,549 - INFO - Target User Types: ['Dealer']
+2026-06-23 18:50:28,549 - INFO - Target Dashboard Icons: ['ecommerce']
+2026-06-23 18:50:28,555 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-23 18:50:28,555 - INFO - Output folder: automation\processed_images
+2026-06-23 18:50:28,555 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-23 18:50:28,620 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-23 18:50:28,670 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-23 18:50:28,680 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-23 18:50:28,724 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-23 18:50:28,758 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-23 18:50:28,790 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-23 18:50:28,817 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-23 18:50:28,835 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-23 18:50:28,870 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-23 18:50:28,899 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-23 18:50:28,931 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-23 18:50:28,976 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-23 18:50:29,004 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-23 18:50:29,029 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-23 18:50:29,030 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-23 18:50:29,073 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-23 18:50:29,073 - INFO - 
+============================================================
+2026-06-23 18:50:29,073 - INFO - Launching Browser and Starting Upload Process
+2026-06-23 18:50:29,074 - INFO - ============================================================
+2026-06-23 18:50:29,083 - INFO - ====== WebDriver manager ======
+2026-06-23 18:50:30,452 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 18:50:30,928 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 18:50:31,271 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-23 18:50:31,273 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-23 18:50:33,104 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-23 18:50:33,106 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-23 18:50:33,129 - INFO - ✓ Chrome driver initialized
+2026-06-23 18:50:33,129 - INFO - 
+→ Attempting login...
+
+2026-06-23 18:50:33,130 - INFO - Opening login page...
+2026-06-23 18:50:34,440 - INFO -   → Policy checkbox checked on login page
+2026-06-23 18:50:34,515 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-23 18:50:34,528 - INFO -   → Policy agreement popup detected
+2026-06-23 18:50:34,571 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-23 18:50:35,097 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-23 18:50:41,279 - INFO -   → Policy agreement popup detected
+2026-06-23 18:50:41,305 - INFO -     ✓ Policy checkbox was already checked
+2026-06-23 18:50:42,169 - INFO -     ✓ Clicked Continue button
+2026-06-23 18:50:42,340 - INFO -     ✓ Policy popup dismissed
+2026-06-23 18:50:43,348 - INFO - ✓ Login successful
+2026-06-23 18:50:45,349 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-23 18:50:45,349 - INFO - Navigating to App Settings...
+2026-06-23 18:50:51,626 - INFO - ✓ Dashboard Icons section loaded
+2026-06-23 18:50:53,627 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-23 18:50:53,628 - INFO - Starting batch – 1 configured entries
+2026-06-23 18:50:53,629 - INFO - Total icons to upload after expansion: 1
+2026-06-23 18:50:53,629 - INFO - ============================================================
+2026-06-23 18:50:53,630 - INFO - [1/1]
+2026-06-23 18:50:53,630 - INFO -   Adding: [Dealer] ecommerce  (gift)
+2026-06-23 18:51:06,085 - INFO -     → User type selected by text: Dealer
+2026-06-23 18:51:06,151 - INFO -     → Icon identity: gift
+2026-06-23 18:51:06,254 - INFO -     → Display title: ecommerce
+2026-06-23 18:51:06,643 - INFO -     → Icon color: #A0E0F8
+2026-06-23 18:51:06,671 - INFO -     → Toggle: dashboard only
+2026-06-23 18:51:08,739 - INFO -     → Image uploaded: ecommerce.png
+2026-06-23 18:51:08,839 - INFO -     → Form submitted
+2026-06-23 18:51:19,738 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-23 18:51:20,739 - INFO - ============================================================
+2026-06-23 18:51:20,739 - INFO - Batch complete → ✓ 1 succeeded  ✗ 0 failed
+2026-06-23 18:51:20,740 - INFO - 
+============================================================
+2026-06-23 18:51:20,740 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-23 18:51:20,740 - INFO - ============================================================
+2026-06-23 18:51:20,740 - INFO - ✓ Successful uploads: 1
+2026-06-23 18:51:20,740 - INFO - ✗ Failed uploads: 0
+2026-06-23 18:51:20,740 - INFO - Total processed: 1
+2026-06-23 18:51:20,741 - INFO - Success rate: 100.0%
+2026-06-23 18:51:20,741 - INFO - ============================================================
+2026-06-23 18:51:22,944 - INFO - Browser closed
+2026-06-23 18:51:26,994 - INFO - 
+Task finished at 2026-06-23 18:51:26
+2026-06-23 18:51:26,995 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260623_185002.log
+
+2026-06-23 19:09:07,952 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-23 19:09:18,673 - INFO - Target User Types: ['Dealer']
+2026-06-23 19:09:18,673 - INFO - Target Dashboard Icons: ['ecommerce']
+2026-06-23 19:09:18,680 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-23 19:09:18,680 - INFO - Output folder: automation\processed_images
+2026-06-23 19:09:18,680 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-23 19:09:18,721 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-23 19:09:18,769 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-23 19:09:18,779 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-23 19:09:18,823 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-23 19:09:18,856 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-23 19:09:18,888 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-23 19:09:18,914 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-23 19:09:18,933 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-23 19:09:18,968 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-23 19:09:18,996 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-23 19:09:19,025 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-23 19:09:19,067 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-23 19:09:19,094 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-23 19:09:19,121 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-23 19:09:19,121 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-23 19:09:19,143 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-23 19:09:19,143 - INFO - 
+============================================================
+2026-06-23 19:09:19,143 - INFO - Launching Browser and Starting Upload Process
+2026-06-23 19:09:19,143 - INFO - ============================================================
+2026-06-23 19:09:19,153 - INFO - ====== WebDriver manager ======
+2026-06-23 19:09:20,224 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 19:09:20,825 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 19:09:21,184 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-23 19:09:21,185 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-23 19:09:22,421 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-23 19:09:22,424 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-23 19:09:22,451 - INFO - ✓ Chrome driver initialized
+2026-06-23 19:09:22,452 - INFO - 
+→ Attempting login...
+
+2026-06-23 19:09:22,452 - INFO - Opening login page...
+2026-06-23 19:09:23,587 - INFO -   → Policy checkbox checked on login page
+2026-06-23 19:09:23,687 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-23 19:09:23,703 - INFO -   → Policy agreement popup detected
+2026-06-23 19:09:23,738 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-23 19:09:24,258 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-23 19:09:30,395 - INFO -   → Policy agreement popup detected
+2026-06-23 19:09:30,425 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-23 19:09:30,949 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-23 19:09:30,956 - INFO - ✓ Login successful
+2026-06-23 19:09:32,957 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-23 19:09:32,957 - INFO - Navigating to App Settings...
+2026-06-23 19:09:39,195 - INFO - ✓ Dashboard Icons section loaded
+2026-06-23 19:09:41,196 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-23 19:09:41,197 - INFO - Starting batch – 1 configured entries
+2026-06-23 19:09:41,197 - INFO - Total icons to upload after expansion: 1
+2026-06-23 19:09:41,197 - INFO - ============================================================
+2026-06-23 19:09:41,198 - INFO - [1/1]
+2026-06-23 19:09:41,198 - INFO -   Adding: [Dealer] ecommerce  (gift)
+2026-06-23 19:09:53,627 - INFO -     → User type selected by text: Dealer
+2026-06-23 19:09:53,695 - INFO -     → Icon identity: gift
+2026-06-23 19:09:53,792 - INFO -     → Display title: ecommerce
+2026-06-23 19:09:54,209 - INFO -     → Icon color: #A0E0F8
+2026-06-23 19:09:54,237 - INFO -     → Toggle: dashboard only
+2026-06-23 19:09:56,282 - INFO -     → Image uploaded: ecommerce.png
+2026-06-23 19:09:56,385 - INFO -     → Form submitted
+2026-06-23 19:10:06,900 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-23 19:10:07,900 - INFO - ============================================================
+2026-06-23 19:10:07,901 - INFO - Batch complete → ✓ 1 succeeded  ✗ 0 failed
+2026-06-23 19:10:07,901 - INFO - 
+============================================================
+2026-06-23 19:10:07,901 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-23 19:10:07,901 - INFO - ============================================================
+2026-06-23 19:10:07,901 - INFO - ✓ Successful uploads: 1
+2026-06-23 19:10:07,901 - INFO - ✗ Failed uploads: 0
+2026-06-23 19:10:07,901 - INFO - Total processed: 1
+2026-06-23 19:10:07,902 - INFO - Success rate: 100.0%
+2026-06-23 19:10:07,902 - INFO - ============================================================
+2026-06-23 19:10:10,225 - INFO - Browser closed
+2026-06-23 19:10:14,267 - INFO - 
+Task finished at 2026-06-23 19:10:14
+2026-06-23 19:10:14,268 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260623_185002.log
+

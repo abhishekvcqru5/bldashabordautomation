@@ -1,0 +1,133 @@
+2026-06-17 16:28:15,483 - INFO - User selected: Old Dashboard
+2026-06-17 16:28:42,639 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 16:28:42,659 - INFO - ====== WebDriver manager ======
+2026-06-17 16:28:44,524 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:28:46,946 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:28:47,907 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:28:47,907 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:28:49,124 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
+2026-06-17 16:28:49,124 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:28:55,123 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 16:28:57,123 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
+2026-06-17 16:28:57,261 - INFO -       Email → field #login_txt_id
+2026-06-17 16:28:57,415 - INFO -       Password → field #login_txt_pass
+2026-06-17 16:28:57,561 - INFO -       Login button clicked: #btnVendor
+2026-06-17 16:28:57,561 - INFO -     → Waiting for post-login redirect …
+2026-06-17 16:29:00,614 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-17 16:29:02,644 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-17 16:29:02,698 - INFO -     ✓ Found and clicked Build Loyalty App menu
+2026-06-17 16:29:06,429 - INFO -     ✓ Found and clicked Product Catalogue submenu
+2026-06-17 16:29:14,575 - INFO - ✓ Clicked Add Product Details button
+2026-06-17 16:29:14,675 - INFO - Found 24 rows in table.
+2026-06-17 16:29:14,691 - INFO - DEBUG: First row has 11 cells.
+2026-06-17 16:29:14,712 - INFO - DEBUG: Cell 0 outerHTML: <td>1</td>
+2026-06-17 16:29:14,748 - INFO - DEBUG: Cell 1 outerHTML: <td>Polyester-based</td>
+2026-06-17 16:29:14,764 - INFO - DEBUG: Cell 2 outerHTML: <td>Polyester-based</td>
+2026-06-17 16:29:14,779 - INFO - DEBUG: Cell 3 outerHTML: <td>Crackbond</td>
+2026-06-17 16:29:14,793 - INFO - DEBUG: Cell 4 outerHTML: <td style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Crackbond">
+    Crackbond
+</td>
+2026-06-17 16:29:14,821 - INFO - DEBUG: Cell 5 outerHTML: <td>
+                                                                    -
+                                                                </td>
+2026-06-17 16:29:14,833 - INFO - DEBUG: Cell 6 outerHTML: <td>5.00</td>
+2026-06-17 16:29:14,846 - INFO - DEBUG: Cell 7 outerHTML: <td>5.00</td>
+2026-06-17 16:29:14,859 - INFO - DEBUG: Cell 8 outerHTML: <td>0</td>
+2026-06-17 16:29:14,909 - INFO - DEBUG: Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td>
+2026-06-17 16:29:14,929 - INFO - DEBUG: Cell 10 outerHTML: <td>
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnEditProduct" value="Edit" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnEditProduct">
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnDelete" value="Delete" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnDelete">
+                                                                </td>
+2026-06-17 16:29:15,098 - INFO - Extracted: Crackbond
+2026-06-17 16:29:15,244 - INFO - Extracted: L Special
+2026-06-17 16:29:15,431 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 16:29:15,539 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 16:29:15,664 - INFO - Extracted: Akepox 5010
+2026-06-17 16:29:15,821 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 16:29:15,911 - INFO - Extracted: Akepox Claro
+2026-06-17 16:29:16,025 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 16:29:16,133 - INFO - Extracted: Everclear 510
+2026-06-17 16:29:16,236 - INFO - Extracted: Everclear 505
+2026-06-17 16:29:16,321 - INFO - Extracted: Nano (1 litres)
+2026-06-17 16:29:16,443 - INFO - Extracted: Nano (5 litres)
+2026-06-17 16:29:16,557 - INFO - Extracted: Nano (5 litres)
+2026-06-17 16:29:16,640 - INFO - Extracted: Nano (1 litres)
+2026-06-17 16:29:16,732 - INFO - Extracted: Everclear 505
+2026-06-17 16:29:16,819 - INFO - Extracted: Everclear 510
+2026-06-17 16:29:16,943 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 16:29:17,027 - INFO - Extracted: Akepox Claro
+2026-06-17 16:29:17,131 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 16:29:17,213 - INFO - Extracted: Akepox 5010
+2026-06-17 16:29:17,311 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 16:29:17,393 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 16:29:17,471 - INFO - Extracted: L Special
+2026-06-17 16:29:17,572 - INFO - Extracted: Crackbond
+2026-06-17 16:29:19,908 - INFO - ====== WebDriver manager ======
+2026-06-17 16:29:22,042 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:29:22,571 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:29:23,122 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:29:23,122 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:29:24,296 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 16:29:24,346 - INFO - ✓ Chrome driver initialized
+2026-06-17 16:29:24,346 - INFO - Opening login page...
+2026-06-17 16:29:26,393 - INFO -   → Policy checkbox checked on login page
+2026-06-17 16:29:26,531 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 16:29:51,990 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-17 16:29:52,020 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-17 16:29:55,028 - INFO - ✓ Login successful
+2026-06-17 16:30:01,249 - INFO - ✓ Navigated to Product Management
+2026-06-17 16:30:04,391 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:07,428 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 16:30:10,607 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:13,640 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 16:30:16,826 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:19,870 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 16:30:23,017 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:26,042 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 16:30:29,079 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:32,104 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 16:30:35,363 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:38,394 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 16:30:42,061 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:45,114 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 16:30:48,864 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:51,905 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 16:30:55,387 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:30:58,414 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 16:31:01,772 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:04,799 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 16:31:08,034 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:11,063 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 16:31:14,130 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:17,156 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 16:31:20,181 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:23,211 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 16:31:26,319 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:29,349 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 16:31:32,406 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:35,466 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 16:31:38,397 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:41,423 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 16:31:44,350 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:47,380 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 16:31:50,490 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:53,525 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 16:31:56,583 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:31:59,674 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 16:32:02,794 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:32:05,842 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 16:32:09,563 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:32:12,616 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 16:32:16,291 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:32:19,323 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 16:32:22,497 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:32:25,543 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 16:32:28,651 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:32:31,690 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 16:32:34,171 - INFO - Browser closed
+2026-06-17 16:32:42,284 - INFO - 
+Task finished at 2026-06-17 16:32:42
+2026-06-17 16:32:42,284 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_162815.log
+

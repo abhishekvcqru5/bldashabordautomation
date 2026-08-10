@@ -1,0 +1,226 @@
+2026-06-18 12:45:27,200 - INFO - User selected: Old Dashboard
+2026-06-18 12:45:29,997 - INFO -   Old Dashboard → Brand Setting
+2026-06-18 12:45:30,030 - INFO - ============================================================
+2026-06-18 12:45:30,044 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-18 12:45:30,044 - INFO - ============================================================
+2026-06-18 12:45:30,146 - INFO - ====== WebDriver manager ======
+2026-06-18 12:45:37,582 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:45:39,267 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:45:40,458 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 12:45:40,461 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 12:45:45,140 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-06-18 12:45:45,150 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-18 12:45:50,116 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-18 12:45:52,117 - INFO -     → Filling credentials …
+2026-06-18 12:45:52,960 - INFO -       Email → field #login_txt_id
+2026-06-18 12:45:53,342 - INFO -       Password → field #login_txt_pass
+2026-06-18 12:45:53,629 - INFO -       Login button clicked: #btnVendor
+2026-06-18 12:45:53,629 - INFO -     → Waiting for post-login redirect …
+2026-06-18 12:45:57,874 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 12:45:57,876 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-06-18 12:46:15,845 - INFO - 
+[3/4] Extracting brand data …
+2026-06-18 12:46:16,551 - INFO - 
+[4/4] Saving assets to disk …
+2026-06-18 12:46:18,024 - INFO -   ✓ Downloaded: logo.png  (47.7 KB)
+2026-06-18 12:46:18,030 - INFO -   ↩ Already exists, skipping download: splash.png
+2026-06-18 12:46:18,038 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-06-18 12:46:23,170 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-06-18 12:46:23,204 - INFO - ====== WebDriver manager ======
+2026-06-18 12:46:26,475 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:46:27,146 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:46:27,705 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 12:46:27,707 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 12:46:29,148 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 12:46:29,245 - INFO - ✓ Chrome driver initialized
+2026-06-18 12:46:29,248 - INFO - Opening login page...
+2026-06-18 12:46:31,664 - INFO -   → Policy checkbox checked on login page
+2026-06-18 12:46:31,864 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 12:46:31,957 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-18 12:46:31,978 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-18 12:46:37,984 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-18 12:46:38,053 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-18 12:46:46,109 - INFO - ✓ Login successful
+2026-06-18 12:46:46,269 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-06-18 12:46:46,422 - INFO - ✓ Logo  → logo_processed.png  |  43.7 KB  |  PNG lossless
+2026-06-18 12:46:46,497 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-18 12:46:47,410 - INFO - ✓ Splash → splash_processed.png  |  1.07 MB  |  PNG lossless
+2026-06-18 12:46:47,704 - INFO -   Colours extracted from logo:
+2026-06-18 12:46:47,704 - INFO -     Header Color     →  #202080  (dominant logo colour)
+2026-06-18 12:46:47,706 - INFO -     Background Color →  #141453  (35% darker)
+2026-06-18 12:46:47,706 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-18 12:46:47,707 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-18 12:46:47,724 - INFO - Going to App Settings...
+2026-06-18 12:46:54,075 - INFO -   → Identity & Branding section opened
+2026-06-18 12:46:56,166 - INFO -   → Edit Branding popup opened
+2026-06-18 12:46:56,182 - INFO - ✓ Brand setting form is ready
+2026-06-18 12:46:56,183 - INFO -   Setting company name: Lubigen Connect
+2026-06-18 12:46:57,238 - INFO -     → HeaderColor: #202080
+2026-06-18 12:46:57,931 - INFO -     → FooterColor: #F5F5F5
+2026-06-18 12:46:58,617 - INFO -     → BodyColor: #FFFFFF
+2026-06-18 12:46:59,377 - INFO -     → BackgroundColor: #141453
+2026-06-18 12:47:01,441 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-06-18 12:47:03,465 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-18 12:47:03,599 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-18 12:47:06,613 - INFO - ✓ Brand settings saved successfully!
+2026-06-18 12:47:06,614 - INFO - Going to App Settings for Support Network...
+2026-06-18 12:47:09,773 - INFO -   → Support Network section opened
+2026-06-18 12:47:12,831 - INFO -   → Edit Support Network popup opened
+2026-06-18 12:47:14,832 - INFO - ✓ Support Network form is ready
+2026-06-18 12:47:15,222 - INFO -     ✓ phone filled
+2026-06-18 12:47:15,460 - INFO -     ✓ email filled
+2026-06-18 12:47:15,709 - INFO -     ✓ website filled
+2026-06-18 12:47:16,330 - INFO -     ✓ terms_conditions filled
+2026-06-18 12:47:17,915 - INFO -     ✓ support_content filled
+2026-06-18 12:47:17,926 - INFO -     ⏭ Skipping empty field: privacy_policy
+2026-06-18 12:47:18,974 - INFO -   → Save clicked
+2026-06-18 12:47:21,975 - INFO - ✓ Support Network saved successfully!
+2026-06-18 12:47:24,251 - INFO - Browser closed
+2026-06-18 12:47:28,337 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53795): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/7f319c2a72d89ffa8330b501f2d3fd53
+2026-06-18 12:47:32,429 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53795): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/7f319c2a72d89ffa8330b501f2d3fd53
+2026-06-18 12:47:36,513 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53795): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/7f319c2a72d89ffa8330b501f2d3fd53
+2026-06-18 12:47:44,684 - INFO -   Browser closed
+2026-06-18 12:47:44,686 - INFO - 
+Task finished at 2026-06-18 12:47:44
+2026-06-18 12:47:44,687 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_124453.log
+
+2026-06-18 12:47:53,886 - INFO - User selected: Intro Screens
+2026-06-18 12:47:53,887 - INFO - ============================================================
+2026-06-18 12:47:53,887 - INFO - INTRO SCREENS — Image Processing
+2026-06-18 12:47:53,887 - INFO - ============================================================
+2026-06-18 12:47:53,891 - WARNING - No images found in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen
+2026-06-18 12:47:53,891 - ERROR - No intro screen images could be processed. Aborting.
+2026-06-18 12:47:53,892 - INFO - 
+Task finished at 2026-06-18 12:47:53
+2026-06-18 12:47:53,892 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_124453.log
+
+2026-06-18 12:48:01,489 - INFO - User selected: Old Dashboard
+2026-06-18 12:48:04,825 - INFO -   Old Dashboard → Introduction Setting
+2026-06-18 12:48:04,825 - INFO - ============================================================
+2026-06-18 12:48:04,825 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-06-18 12:48:04,826 - INFO - ============================================================
+2026-06-18 12:48:04,841 - INFO - ====== WebDriver manager ======
+2026-06-18 12:48:06,762 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:48:15,595 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:48:16,291 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 12:48:16,292 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 12:48:17,834 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-18 12:48:22,127 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-18 12:48:22,304 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-18 12:48:25,306 - INFO -   → Filling Vendor credentials...
+2026-06-18 12:48:25,614 - INFO -     - Email entered: chandranvenus@gmail.com
+2026-06-18 12:48:25,614 - INFO -     - Clicking 'login' button...
+2026-06-18 12:48:25,629 - INFO -   → Waiting for successful login redirect...
+2026-06-18 12:48:27,831 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 12:48:27,842 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 12:48:33,312 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-18 12:48:33,595 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-18 12:48:36,842 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-06-18 12:48:43,197 - INFO -   → Searching for introduction screens data...
+2026-06-18 12:48:43,440 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-06-18 12:48:44,657 - INFO -     → Found 2 potential rows to extract
+2026-06-18 12:48:45,728 - INFO -     → Downloading image for: Build Loyalty That Rewards Eve...
+2026-06-18 12:48:49,466 - INFO -     ✓ Extracted 1/2
+2026-06-18 12:48:50,125 - INFO -     → Downloading image for: Instant Cashback Through Secur...
+2026-06-18 12:48:52,947 - INFO -     ✓ Extracted 2/2
+2026-06-18 12:49:04,010 - INFO - ✓ Extracted 2 screens.
+2026-06-18 12:49:04,013 - INFO - 
+============================================================
+2026-06-18 12:49:04,013 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-06-18 12:49:04,014 - INFO - ============================================================
+2026-06-18 12:49:04,072 - INFO -   ⚙ Processing old_intro_1_20260618_124845.jpg  (298×318 → need 1080×1920)
+2026-06-18 12:49:04,213 - INFO -   ✓ old_intro_1_20260618_124845.jpg  →  old_intro_1_20260618_124845_processed.jpg  |  1080×1920  |  0.20 MB  |  quality 92
+2026-06-18 12:49:04,248 - INFO -   ⚙ Processing old_intro_2_20260618_124850.jpg  (297×317 → need 1080×1920)
+2026-06-18 12:49:04,373 - INFO -   ✓ old_intro_2_20260618_124850.jpg  →  old_intro_2_20260618_124850_processed.jpg  |  1080×1920  |  0.24 MB  |  quality 92
+2026-06-18 12:49:04,395 - INFO - 
+============================================================
+2026-06-18 12:49:04,398 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-06-18 12:49:04,400 - INFO - ============================================================
+2026-06-18 12:49:04,513 - INFO - ====== WebDriver manager ======
+2026-06-18 12:49:12,364 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:49:13,680 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:49:14,376 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 12:49:14,377 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 12:49:16,570 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 12:49:16,636 - INFO - ✓ Chrome driver initialized
+2026-06-18 12:49:16,660 - INFO - Opening login page...
+2026-06-18 12:49:20,395 - INFO -   → Policy checkbox checked on login page
+2026-06-18 12:49:20,879 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 12:49:55,519 - INFO - ✓ Login successful
+2026-06-18 12:49:55,523 - INFO - Going to App Settings...
+2026-06-18 12:50:02,111 - INFO -   → Intro Screens section opened
+2026-06-18 12:50:02,166 - INFO - ✓ Intro Screens page ready
+2026-06-18 12:50:02,170 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-06-18 12:50:02,172 - INFO - ============================================================
+2026-06-18 12:50:02,174 - INFO - [1/2]
+2026-06-18 12:50:02,174 - INFO -   Launching screen: [Build Loyalty That Rewards Every Transaction]
+2026-06-18 12:50:04,792 - INFO -     → Header: Build Loyalty That Rewards Every Transaction
+2026-06-18 12:50:06,946 - INFO -     → Description: Empower your customers and channel partners with a smart loy...
+2026-06-18 12:50:09,147 - INFO -     → Image uploaded: old_intro_1_20260618_124845_processed.jpg
+2026-06-18 12:50:09,909 - INFO -     → Launch Screen clicked
+2026-06-18 12:50:13,961 - INFO -   ✓ Intro screen launched: Build Loyalty That Rewards Every Transaction
+
+2026-06-18 12:50:14,962 - INFO - [2/2]
+2026-06-18 12:50:14,964 - INFO -   Launching screen: [Instant Cashback Through Secure UPI Transfers]
+2026-06-18 12:50:20,439 - INFO -     → Header: Instant Cashback Through Secure UPI Transfers
+2026-06-18 12:50:25,507 - INFO -     → Description: Enable fast and hassle-free cashback directly to users’ UPI ...
+2026-06-18 12:50:27,612 - INFO -     → Image uploaded: old_intro_2_20260618_124850_processed.jpg
+2026-06-18 12:50:28,065 - INFO -     → Launch Screen clicked
+2026-06-18 12:50:32,114 - INFO -   ✓ Intro screen launched: Instant Cashback Through Secure UPI Transfers
+
+2026-06-18 12:50:33,127 - INFO - ============================================================
+2026-06-18 12:50:33,132 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-06-18 12:50:38,328 - INFO - Browser closed
+2026-06-18 12:50:46,542 - INFO - 
+Task finished at 2026-06-18 12:50:46
+2026-06-18 12:50:46,550 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_124453.log
+
+2026-06-18 12:50:49,858 - INFO - User selected: Old Dashboard
+2026-06-18 12:50:54,929 - INFO -   Old Dashboard → Product Catalogue
+2026-06-18 12:50:55,074 - INFO - ====== WebDriver manager ======
+2026-06-18 12:51:48,833 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:51:55,230 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 12:52:02,507 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 12:52:02,513 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 12:52:24,668 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
+2026-06-18 12:52:24,678 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-18 12:53:06,533 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-18 12:53:08,533 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
+2026-06-18 12:53:13,447 - INFO -       Email → field #login_txt_id
+2026-06-18 12:53:24,546 - INFO -       Password → field #login_txt_pass
+2026-06-18 12:53:41,915 - INFO -       Login button clicked: #btnVendor
+2026-06-18 12:53:41,916 - INFO -     → Waiting for post-login redirect …
+2026-06-18 12:53:42,032 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 12:53:45,267 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-18 12:53:46,629 - INFO -     ✓ Found and clicked Build Loyalty App menu
+2026-06-18 12:53:50,394 - INFO -     ✓ Found and clicked Product Catalogue submenu
+2026-06-18 12:53:58,594 - INFO - ✓ Clicked Add Product Details button
+2026-06-18 12:53:58,704 - INFO - Found 108 rows in table.
+2026-06-18 12:53:58,726 - INFO - DEBUG: First row has 11 cells.
+2026-06-18 12:53:58,763 - INFO - DEBUG: Cell 0 outerHTML: <td>1</td>
+2026-06-18 12:53:58,780 - INFO - DEBUG: Cell 1 outerHTML: <td>Polyester-based</td>
+2026-06-18 12:53:58,796 - INFO - DEBUG: Cell 2 outerHTML: <td>Polyester-based</td>
+2026-06-18 12:53:58,812 - INFO - DEBUG: Cell 3 outerHTML: <td>Crackbond</td>
+2026-06-18 12:53:58,847 - INFO - DEBUG: Cell 4 outerHTML: <td style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Crackbond">
+    Crackbond
+</td>
+2026-06-18 12:53:58,862 - INFO - DEBUG: Cell 5 outerHTML: <td>
+                                                                    -
+                                                                </td>
+2026-06-18 12:53:58,875 - INFO - DEBUG: Cell 6 outerHTML: <td>5.00</td>
+2026-06-18 12:53:58,891 - INFO - DEBUG: Cell 7 outerHTML: <td>5.00</td>
+2026-06-18 12:53:58,911 - INFO - DEBUG: Cell 8 outerHTML: <td>0</td>
+2026-06-18 12:53:58,942 - INFO - DEBUG: Cell 9 outerHTML: <td>
+                                                                    /assets/Product/Comp-1567_4d60a5dc-8ef8-447b-ba92-90c9003f16b6.jpg
+                                                                </td>
+2026-06-18 12:53:58,975 - INFO - DEBUG: Cell 10 outerHTML: <td>
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnEditProduct" value="Edit" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnEditProduct">
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnDelete" value="Delete" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnDelete">
+                                                                </td>
+2026-06-18 12:53:59,120 - INFO - DEBUG: Row 1 (Crackbond) Cell 9 text: /assets/Product/Comp-1567_4d60a5dc-8ef8-447b-ba92-90c9003f16b6.jpg
+2026-06-18 12:54:00,921 - INFO - Extracted: Crackbond
+2026-06-18 12:54:01,077 - INFO - DEBUG: Row 2 (L Special) Cell 9 text: /assets/Product/Comp-1567_6d2a5bb2-5656-4f3f-8334-36a97c4965e3.jpg
+2026-06-18 12:54:01,686 - INFO - Automation cancelled by user (Ctrl+C)

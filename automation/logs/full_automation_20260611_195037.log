@@ -1,0 +1,37 @@
+2026-06-11 19:51:06,612 - INFO - User selected: Promotion Banners
+2026-06-11 19:51:06,616 - INFO - ============================================================
+2026-06-11 19:51:06,619 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-11 19:51:06,623 - INFO - ============================================================
+2026-06-11 19:51:06,627 - INFO - Found 4 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-11 19:51:06,755 - INFO -   ⚙ Processing Screenshot 2026-06-11 171507.png  (size 544×303 → need 1920×1080)
+2026-06-11 19:51:06,992 - INFO -   ✓ Screenshot 2026-06-11 171507.png  →  Screenshot 2026-06-11 171507_processed.jpg  |  1920×1080  |  0.31 MB  |  quality 92
+2026-06-11 19:51:07,045 - INFO -   ⚙ Processing Screenshot 2026-06-11 171602.png  (size 540×300 → need 1920×1080)
+2026-06-11 19:51:07,218 - INFO -   ✓ Screenshot 2026-06-11 171602.png  →  Screenshot 2026-06-11 171602_processed.jpg  |  1920×1080  |  0.31 MB  |  quality 92
+2026-06-11 19:51:07,251 - INFO -   ⚙ Processing Screenshot 2026-06-11 171629.png  (size 541×301 → need 1920×1080)
+2026-06-11 19:51:07,426 - INFO -   ✓ Screenshot 2026-06-11 171629.png  →  Screenshot 2026-06-11 171629_processed.jpg  |  1920×1080  |  0.31 MB  |  quality 92
+2026-06-11 19:51:07,465 - INFO -   ⚙ Processing Screenshot 2026-06-11 171653.png  (size 541×306 → need 1920×1080)
+2026-06-11 19:51:07,657 - INFO -   ✓ Screenshot 2026-06-11 171653.png  →  Screenshot 2026-06-11 171653_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-06-11 19:51:07,660 - INFO - 
+  Processed 4/4 banners successfully
+
+2026-06-11 19:51:07,709 - INFO - ============================================================
+2026-06-11 19:51:07,710 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-11 19:51:07,711 - INFO - ============================================================
+2026-06-11 19:51:07,768 - INFO - ====== WebDriver manager ======
+2026-06-11 19:51:13,441 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 19:51:14,949 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 19:51:16,334 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-11 19:51:16,337 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-11 19:51:21,455 - INFO - ✓ Chrome driver initialized
+2026-06-11 19:51:21,457 - INFO - Opening login page...
+2026-06-11 19:51:25,005 - INFO -   → Policy checkbox checked on login page
+2026-06-11 19:51:25,712 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-11 19:51:41,956 - INFO - ✓ Login successful
+2026-06-11 19:51:43,958 - INFO - Going to App Settings...
+2026-06-11 19:51:58,186 - INFO -   → Promotion Banners section opened
+2026-06-11 19:51:58,826 - INFO - ✓ Promotion Banners page ready
+2026-06-11 19:51:58,829 - INFO - Starting batch  —  4 banner(s) to publish
+2026-06-11 19:51:58,840 - INFO - ============================================================
+2026-06-11 19:51:58,842 - INFO - [1/4]
+2026-06-11 19:51:58,861 - INFO -   Publishing: [Screenshot 2026-06-11 171507]  (Screenshot 2026-06-11 171507_processed.jpg)
+2026-06-11 19:52:06,788 - INFO - Automation cancelled by user (Ctrl+C)

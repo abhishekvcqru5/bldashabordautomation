@@ -1,0 +1,159 @@
+2026-06-24 19:51:36,790 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-24 19:51:39,335 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-24 19:51:40,330 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-06-24 19:51:41,980 - INFO - 
+>>> Starting update [1/1] for phenobond...
+2026-06-24 19:51:41,980 - INFO - ============================================================
+2026-06-24 19:51:41,980 - INFO - UPDATING DASHBOARD ICONS FOR: crm@phenobond.com
+2026-06-24 19:51:41,980 - INFO - ============================================================
+2026-06-24 19:51:41,981 - INFO - Processing images from dashboardicons/...
+2026-06-24 19:51:41,985 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-24 19:51:41,986 - INFO - Output folder: automation\processed_images
+2026-06-24 19:51:41,986 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-24 19:51:42,041 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-24 19:51:42,101 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-24 19:51:42,110 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-24 19:51:42,154 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-24 19:51:42,188 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-24 19:51:42,220 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-24 19:51:42,246 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-24 19:51:42,264 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-24 19:51:42,299 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-24 19:51:42,327 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-24 19:51:42,357 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-24 19:51:42,398 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-24 19:51:42,425 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-24 19:51:42,454 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-24 19:51:42,454 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-24 19:51:42,455 - INFO - ✓ 13 images processed.
+2026-06-24 19:51:42,651 - INFO - ====== WebDriver manager ======
+2026-06-24 19:51:44,101 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 19:51:44,527 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 19:51:44,869 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-24 19:51:44,869 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-24 19:51:46,000 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-24 19:51:46,004 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-24 19:51:46,034 - INFO - ✓ Chrome driver initialized
+2026-06-24 19:51:46,035 - INFO - Opening login page...
+2026-06-24 19:51:48,736 - INFO -   → Policy checkbox checked on login page
+2026-06-24 19:51:48,820 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-24 19:51:48,835 - INFO -   → Policy agreement popup detected
+2026-06-24 19:51:48,873 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-24 19:51:49,401 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-24 19:52:00,830 - INFO - ✓ Login successful
+2026-06-24 19:52:02,831 - INFO - Navigating to dashboard icons section...
+2026-06-24 19:52:02,832 - INFO - Navigating to App Settings...
+2026-06-24 19:52:09,075 - INFO - ✓ Dashboard Icons section loaded
+2026-06-24 19:52:09,102 - INFO - Total rows found: 13
+2026-06-24 19:52:09,157 - INFO - Parsed Row 2: UserType='Painter', Title='Gift', ID='gift'
+2026-06-24 19:52:09,178 - INFO - Parsed Row 3: UserType='Painter', Title='History', ID='history'
+2026-06-24 19:52:09,201 - INFO - Parsed Row 4: UserType='Painter', Title='Wallet', ID='wallet'
+2026-06-24 19:52:09,222 - INFO - Parsed Row 5: UserType='Painter', Title='Kyc', ID='kycdetails'
+2026-06-24 19:52:09,241 - INFO - Parsed Row 6: UserType='Painter', Title='Blog', ID='blog'
+2026-06-24 19:52:09,264 - INFO - Parsed Row 7: UserType='Painter', Title='Brochure', ID='brochure'
+2026-06-24 19:52:09,286 - INFO - Parsed Row 8: UserType='Painter', Title='Claim History', ID='claimhistory'
+2026-06-24 19:52:09,308 - INFO - Parsed Row 9: UserType='Painter', Title='Language', ID='chooselanguage'
+2026-06-24 19:52:09,330 - INFO - Parsed Row 10: UserType='Painter', Title='Code Details', ID='codedetails'
+2026-06-24 19:52:09,351 - INFO - Parsed Row 11: UserType='Painter', Title='Help', ID='help'
+2026-06-24 19:52:09,374 - INFO - Parsed Row 12: UserType='Painter', Title='Refer & Earn', ID='referandearn'
+2026-06-24 19:52:09,374 - INFO - Found 11 icons to update.
+2026-06-24 19:52:09,374 - INFO - 
+[1/11] Updating: [Painter] 'Gift' (ID: 'gift') with 'Rewards'
+2026-06-24 19:52:10,657 - INFO -   → Set display title to: Rewards
+2026-06-24 19:52:11,057 - INFO -   → Set icon color to: #F00048
+2026-06-24 19:52:11,099 - INFO -   → Uploaded image: Rewards.png
+2026-06-24 19:52:13,134 - INFO -   → Edit form submitted.
+2026-06-24 19:52:25,200 - INFO -   ✓ Successfully updated: Gift -> Rewards
+2026-06-24 19:52:25,200 - INFO - 
+[2/11] Updating: [Painter] 'History' (ID: 'history') with 'Scan History'
+2026-06-24 19:52:26,484 - INFO -   → Set display title to: Scan History
+2026-06-24 19:52:26,863 - INFO -   → Set icon color to: #4808F0
+2026-06-24 19:52:26,889 - INFO -   → Uploaded image: Scan History.png
+2026-06-24 19:52:28,931 - INFO -   → Edit form submitted.
+2026-06-24 19:52:40,488 - INFO -   ✓ Successfully updated: History -> Scan History
+2026-06-24 19:52:40,489 - INFO - 
+[3/11] Updating: [Painter] 'Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-24 19:52:41,284 - INFO -   → Set display title to: My Wallet
+2026-06-24 19:52:41,682 - INFO -   → Set icon color to: #20A020
+2026-06-24 19:52:41,716 - INFO -   → Uploaded image: My Wallet.png
+2026-06-24 19:52:43,748 - INFO -   → Edit form submitted.
+2026-06-24 19:52:55,352 - INFO -   ✓ Successfully updated: Wallet -> My Wallet
+2026-06-24 19:52:55,353 - INFO - 
+[4/11] Updating: [Painter] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-24 19:52:56,674 - INFO -   → Set display title to: KYC
+2026-06-24 19:52:57,051 - INFO -   → Set icon color to: #F85808
+2026-06-24 19:52:57,086 - INFO -   → Uploaded image: KYC.png
+2026-06-24 19:52:59,119 - INFO -   → Edit form submitted.
+2026-06-24 19:53:11,179 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-24 19:53:11,179 - INFO - 
+[5/11] Updating: [Painter] 'Blog' (ID: 'blog') with 'Updates'
+2026-06-24 19:53:12,606 - INFO -   → Set display title to: Updates
+2026-06-24 19:53:12,973 - INFO -   → Set icon color to: #F87820
+2026-06-24 19:53:12,999 - INFO -   → Uploaded image: Updates.png
+2026-06-24 19:53:15,039 - INFO -   → Edit form submitted.
+2026-06-24 19:53:26,656 - INFO -   ✓ Successfully updated: Blog -> Updates
+2026-06-24 19:53:26,656 - INFO - 
+[6/11] Updating: [Painter] 'Brochure' (ID: 'brochure') with 'Prospectus'
+2026-06-24 19:53:27,999 - INFO -   → Set display title to: Prospectus
+2026-06-24 19:53:28,425 - INFO -   → Set icon color to: #0848F8
+2026-06-24 19:53:28,451 - INFO -   → Uploaded image: Prospectus.png
+2026-06-24 19:53:30,486 - INFO -   → Edit form submitted.
+2026-06-24 19:53:42,528 - INFO -   ✓ Successfully updated: Brochure -> Prospectus
+2026-06-24 19:53:42,529 - INFO - 
+[7/11] Updating: [Painter] 'Claim History' (ID: 'claimhistory') with 'Activity'
+2026-06-24 19:53:43,936 - INFO -   → Set display title to: Activity
+2026-06-24 19:53:44,309 - INFO -   → Set icon color to: #F86008
+2026-06-24 19:53:44,348 - INFO -   → Uploaded image: Activity.png
+2026-06-24 19:53:46,381 - INFO -   → Edit form submitted.
+2026-06-24 19:53:58,024 - INFO -   ✓ Successfully updated: Claim History -> Activity
+2026-06-24 19:53:58,025 - INFO - 
+[8/11] Updating: [Painter] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-24 19:53:59,482 - INFO -   → Set display title to: Language
+2026-06-24 19:53:59,858 - INFO -   → Set icon color to: #5010E8
+2026-06-24 19:53:59,891 - INFO -   → Uploaded image: Language.png
+2026-06-24 19:54:01,921 - INFO -   → Edit form submitted.
+2026-06-24 19:54:13,541 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-24 19:54:13,541 - INFO - 
+[9/11] Updating: [Painter] 'Code Details' (ID: 'codedetails') with 'Scan Activity'
+2026-06-24 19:54:14,984 - INFO -   → Set display title to: Scan Activity
+2026-06-24 19:54:15,371 - INFO -   → Set icon color to: #10A010
+2026-06-24 19:54:15,422 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-24 19:54:17,450 - INFO -   → Edit form submitted.
+2026-06-24 19:54:29,016 - INFO -   ✓ Successfully updated: Code Details -> Scan Activity
+2026-06-24 19:54:29,016 - INFO - 
+[10/11] Updating: [Painter] 'Help' (ID: 'help') with 'Support'
+2026-06-24 19:54:30,376 - INFO -   → Set display title to: Support
+2026-06-24 19:54:30,770 - INFO -   → Set icon color to: #0030F0
+2026-06-24 19:54:30,794 - INFO -   → Uploaded image: Support.png
+2026-06-24 19:54:32,823 - INFO -   → Edit form submitted.
+2026-06-24 19:54:44,412 - INFO -   ✓ Successfully updated: Help -> Support
+2026-06-24 19:54:44,415 - INFO - 
+[11/11] Updating: [Painter] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-24 19:54:45,903 - INFO -   → Set display title to: Refer & Earn
+2026-06-24 19:54:46,297 - INFO -   → Set icon color to: #089098
+2026-06-24 19:54:46,325 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-24 19:54:48,357 - INFO -   → Edit form submitted.
+2026-06-24 19:55:00,432 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-24 19:55:00,433 - INFO - ============================================================
+2026-06-24 19:55:00,433 - INFO - UPDATE ACCOUNT SUMMARY: crm@phenobond.com
+2026-06-24 19:55:00,434 - INFO - ✓ Succeeded: 11
+2026-06-24 19:55:00,434 - INFO - ✗ Failed: 0
+2026-06-24 19:55:00,434 - INFO - ============================================================
+2026-06-24 19:55:02,659 - INFO - Browser closed
+2026-06-24 19:55:06,736 - INFO -   ✓ Completed update for phenobond
+2026-06-24 19:55:06,736 - INFO - 
+============================================================
+2026-06-24 19:55:06,737 - INFO - BATCH UPDATE — FINAL SUMMARY
+2026-06-24 19:55:06,737 - INFO - ============================================================
+2026-06-24 19:55:06,737 - INFO -   Total accounts  : 1
+2026-06-24 19:55:06,738 - INFO -   ✓ Succeeded     : 1
+2026-06-24 19:55:06,738 - INFO -   ✗ Login failed  : 0
+2026-06-24 19:55:06,738 - INFO -   ✗ Update errors : 0
+2026-06-24 19:55:06,739 - INFO - ============================================================
+2026-06-24 19:55:06,739 - INFO - 
+Task finished at 2026-06-24 19:55:06
+2026-06-24 19:55:06,740 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260624_195112.log
+

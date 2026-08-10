@@ -1,0 +1,97 @@
+2026-07-13 14:32:56,563 - INFO - User selected: Old Dashboard
+2026-07-13 14:33:01,642 - INFO -   Old Dashboard → Introduction Setting
+2026-07-13 14:33:01,642 - INFO - ============================================================
+2026-07-13 14:33:01,643 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-07-13 14:33:01,643 - INFO - ============================================================
+2026-07-13 14:33:01,656 - INFO - ====== WebDriver manager ======
+2026-07-13 14:33:02,905 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 14:33:03,259 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 14:33:03,638 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 14:33:03,639 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 14:33:05,513 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 14:33:11,959 - INFO -   → Identifying 'Vendor' login tab...
+2026-07-13 14:33:12,104 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-07-13 14:33:15,105 - INFO -   → Filling Vendor credentials...
+2026-07-13 14:33:15,328 - INFO -     - Email entered: yashpaintsindustries@gmail.com
+2026-07-13 14:33:15,328 - INFO -     - Clicking 'login' button...
+2026-07-13 14:33:15,338 - INFO -   → Waiting for successful login redirect...
+2026-07-13 14:33:18,240 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 14:33:18,243 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 14:33:23,289 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-07-13 14:33:23,311 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-07-13 14:33:26,368 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-07-13 14:33:32,255 - INFO -   → Searching for introduction screens data...
+2026-07-13 14:33:32,296 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-07-13 14:33:32,375 - INFO -     → Found 3 potential rows to extract
+2026-07-13 14:33:32,425 - INFO -     → Downloading image for: Welcome to the Yash Paint App...
+2026-07-13 14:33:33,181 - INFO -     ✓ Extracted 1/3
+2026-07-13 14:33:33,234 - INFO -     → Downloading image for: KYC...
+2026-07-13 14:33:33,920 - INFO -     ✓ Extracted 2/3
+2026-07-13 14:33:33,991 - INFO -     → Downloading image for: Join Now & Unlock Rewards...
+2026-07-13 14:33:34,740 - INFO -     ✓ Extracted 3/3
+2026-07-13 14:33:36,968 - INFO - ✓ Extracted 3 screens.
+2026-07-13 14:33:36,969 - INFO - 
+============================================================
+2026-07-13 14:33:36,969 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-07-13 14:33:36,970 - INFO - ============================================================
+2026-07-13 14:33:37,040 - INFO -   ⚙ Processing old_intro_1_20260713_143332.jpg  (360×800 → need 1080×1920)
+2026-07-13 14:33:37,095 - INFO -   ✓ old_intro_1_20260713_143332.jpg  →  old_intro_1_20260713_143332_processed.jpg  |  1080×1920  |  0.25 MB  |  quality 92
+2026-07-13 14:33:37,104 - INFO -   ⚙ Processing old_intro_2_20260713_143333.jpg  (360×800 → need 1080×1920)
+2026-07-13 14:33:37,147 - INFO -   ✓ old_intro_2_20260713_143333.jpg  →  old_intro_2_20260713_143333_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-07-13 14:33:37,158 - INFO -   ⚙ Processing old_intro_3_20260713_143333.jpg  (360×800 → need 1080×1920)
+2026-07-13 14:33:37,198 - INFO -   ✓ old_intro_3_20260713_143333.jpg  →  old_intro_3_20260713_143333_processed.jpg  |  1080×1920  |  0.12 MB  |  quality 92
+2026-07-13 14:33:37,199 - INFO - 
+============================================================
+2026-07-13 14:33:37,200 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-07-13 14:33:37,200 - INFO - ============================================================
+2026-07-13 14:33:37,208 - INFO - ====== WebDriver manager ======
+2026-07-13 14:33:38,202 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 14:33:38,533 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 14:33:38,861 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 14:33:38,862 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 14:33:40,005 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 14:33:40,009 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 14:33:40,033 - INFO - ✓ Chrome driver initialized
+2026-07-13 14:33:40,035 - INFO - Opening login page...
+2026-07-13 14:33:41,176 - INFO -   → Policy checkbox checked on login page
+2026-07-13 14:33:41,274 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 14:33:41,285 - INFO -   → Policy agreement popup detected
+2026-07-13 14:33:41,315 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 14:33:41,842 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 14:33:53,165 - INFO - ✓ Login successful
+2026-07-13 14:33:53,165 - INFO - Going to App Settings...
+2026-07-13 14:33:59,404 - INFO -   → Intro Screens section opened
+2026-07-13 14:33:59,415 - INFO - ✓ Intro Screens page ready
+2026-07-13 14:33:59,416 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-07-13 14:33:59,416 - INFO - ============================================================
+2026-07-13 14:33:59,416 - INFO - [1/3]
+2026-07-13 14:33:59,416 - INFO -   Launching screen: [Welcome to the Yash Paint App]
+2026-07-13 14:34:01,665 - INFO -     → Header: Welcome to the Yash Paint App
+2026-07-13 14:34:01,823 - INFO -     → Description: Signup and earn Rewards on every scan...
+2026-07-13 14:34:03,857 - INFO -     → Image uploaded: old_intro_1_20260713_143332_processed.jpg
+2026-07-13 14:34:03,938 - INFO -     → Launch Screen clicked
+2026-07-13 14:34:07,960 - INFO -   ✓ Intro screen launched: Welcome to the Yash Paint App
+
+2026-07-13 14:34:08,961 - INFO - [2/3]
+2026-07-13 14:34:08,961 - INFO -   Launching screen: [KYC]
+2026-07-13 14:34:11,149 - INFO -     → Header: KYC
+2026-07-13 14:34:11,292 - INFO -     → Description: Complete your KYC,For Seamless Benefits...
+2026-07-13 14:34:13,330 - INFO -     → Image uploaded: old_intro_2_20260713_143333_processed.jpg
+2026-07-13 14:34:13,411 - INFO -     → Launch Screen clicked
+2026-07-13 14:34:17,448 - INFO -   ✓ Intro screen launched: KYC
+
+2026-07-13 14:34:18,449 - INFO - [3/3]
+2026-07-13 14:34:18,450 - INFO -   Launching screen: [Join Now & Unlock Rewards]
+2026-07-13 14:34:20,656 - INFO -     → Header: Join Now & Unlock Rewards
+2026-07-13 14:34:20,848 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes...
+2026-07-13 14:34:22,891 - INFO -     → Image uploaded: old_intro_3_20260713_143333_processed.jpg
+2026-07-13 14:34:22,979 - INFO -     → Launch Screen clicked
+2026-07-13 14:34:26,999 - INFO -   ✓ Intro screen launched: Join Now & Unlock Rewards
+
+2026-07-13 14:34:28,000 - INFO - ============================================================
+2026-07-13 14:34:28,000 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-07-13 14:34:30,321 - INFO - Browser closed
+2026-07-13 14:34:38,449 - INFO - 
+Task finished at 2026-07-13 14:34:38
+2026-07-13 14:34:38,450 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_143210.log
+

@@ -1,0 +1,111 @@
+2026-06-09 11:17:10,313 - INFO - User selected: Promotion Banners
+2026-06-09 11:17:10,313 - INFO - ============================================================
+2026-06-09 11:17:10,313 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-09 11:17:10,314 - INFO - ============================================================
+2026-06-09 11:17:10,315 - INFO - Found 2 banner image(s) in banner/
+2026-06-09 11:17:10,353 - INFO -   ⚙ Processing ChatGPT Image Jun 9, 2026, 11_11_14 AM.png  (size 1672×941 → need 1920×1080)
+2026-06-09 11:17:10,486 - INFO -   ✓ ChatGPT Image Jun 9, 2026, 11_11_14 AM.png  →  ChatGPT Image Jun 9, 2026, 11_11_14 AM_processed.jpg  |  1920×1080  |  0.46 MB  |  quality 92
+2026-06-09 11:17:10,498 - INFO -   ⚙ Processing ChatGPT Image Jun 9, 2026, 11_11_45 AM.png  (size 1672×941 → need 1920×1080)
+2026-06-09 11:17:10,586 - INFO -   ✓ ChatGPT Image Jun 9, 2026, 11_11_45 AM.png  →  ChatGPT Image Jun 9, 2026, 11_11_45 AM_processed.jpg  |  1920×1080  |  0.48 MB  |  quality 92
+2026-06-09 11:17:10,587 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-06-09 11:17:10,589 - INFO - ============================================================
+2026-06-09 11:17:10,589 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-09 11:17:10,589 - INFO - ============================================================
+2026-06-09 11:17:10,595 - INFO - ====== WebDriver manager ======
+2026-06-09 11:17:11,837 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-09 11:17:12,337 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-09 11:17:12,707 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-09 11:17:13,637 - INFO - WebDriver version 148.0.7778.178 selected
+2026-06-09 11:17:13,643 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-09 11:17:13,644 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-09 11:17:13,979 - INFO - Driver downloading response is 200
+2026-06-09 11:17:14,747 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-09 11:17:15,340 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-06-09 11:17:15,343 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-09 11:17:17,719 - INFO - ✓ Chrome driver initialized
+2026-06-09 11:17:17,719 - INFO - Opening login page...
+2026-06-09 11:17:19,297 - INFO -   → Policy checkbox checked on login page
+2026-06-09 11:17:19,376 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-09 11:17:23,611 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-09 11:17:23,643 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-09 11:17:23,690 - INFO - ✓ Login successful
+2026-06-09 11:17:25,690 - INFO - Going to App Settings...
+2026-06-09 11:17:31,959 - INFO -   → Promotion Banners section opened
+2026-06-09 11:17:31,989 - INFO - ✓ Promotion Banners page ready
+2026-06-09 11:17:31,990 - INFO - Starting batch  —  2 banner(s) to publish
+2026-06-09 11:17:31,990 - INFO - ============================================================
+2026-06-09 11:17:31,991 - INFO - [1/2]
+2026-06-09 11:17:31,991 - INFO -   Publishing: [ChatGPT Image Jun 9, 2026, 11_11_14 AM]  (ChatGPT Image Jun 9, 2026, 11_11_14 AM_processed.jpg)
+2026-06-09 11:17:34,288 - INFO -     → Title entered: ChatGPT Image Jun 9, 2026, 11_11_14 AM
+2026-06-09 11:17:36,318 - INFO -     → Image uploaded: ChatGPT Image Jun 9, 2026, 11_11_14 AM_processed.jpg
+2026-06-09 11:17:36,415 - INFO -     → Publish Banner clicked
+2026-06-09 11:17:40,489 - INFO -   ✓ Banner published: ChatGPT Image Jun 9, 2026, 11_11_14 AM
+
+2026-06-09 11:17:41,491 - INFO - [2/2]
+2026-06-09 11:17:41,491 - INFO -   Publishing: [ChatGPT Image Jun 9, 2026, 11_11_45 AM]  (ChatGPT Image Jun 9, 2026, 11_11_45 AM_processed.jpg)
+2026-06-09 11:17:43,941 - INFO -     → Title entered: ChatGPT Image Jun 9, 2026, 11_11_45 AM
+2026-06-09 11:17:45,995 - INFO -     → Image uploaded: ChatGPT Image Jun 9, 2026, 11_11_45 AM_processed.jpg
+2026-06-09 11:17:46,140 - INFO -     → Publish Banner clicked
+2026-06-09 11:17:50,156 - INFO -   ✓ Banner published: ChatGPT Image Jun 9, 2026, 11_11_45 AM
+
+2026-06-09 11:17:51,157 - INFO - ============================================================
+2026-06-09 11:17:51,158 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-06-09 11:17:53,429 - INFO - Browser closed
+2026-06-09 11:17:57,507 - INFO - 
+Task finished at 2026-06-09 11:17:57
+2026-06-09 11:17:57,507 - INFO - Log: automation\logs\full_automation_20260609_111656.log
+
+2026-06-09 11:21:11,051 - INFO - User selected: Brand Setting
+2026-06-09 11:21:13,689 - INFO -   Found logo asset: logo.png
+2026-06-09 11:21:13,690 - INFO -   Found splash asset: splash.png
+2026-06-09 11:21:13,690 - INFO - ============================================================
+2026-06-09 11:21:13,690 - INFO - BRAND SETTING — Image Processing
+2026-06-09 11:21:13,690 - INFO - ============================================================
+2026-06-09 11:21:13,717 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-06-09 11:21:13,751 - INFO - ✓ Logo  → logo_processed.png  |  62.8 KB  |  PNG lossless
+2026-06-09 11:21:13,776 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-09 11:21:13,936 - INFO - ✓ Splash → splash_processed.png  |  0.26 MB  |  PNG lossless
+2026-06-09 11:21:13,937 - INFO - 
+2026-06-09 11:21:13,937 - INFO - Extracting brand colours from logo...
+2026-06-09 11:21:14,075 - INFO -   Colours extracted from logo:
+2026-06-09 11:21:14,076 - INFO -     Header Color     →  #E01020  (dominant logo colour)
+2026-06-09 11:21:14,076 - INFO -     Background Color →  #910A14  (35% darker)
+2026-06-09 11:21:14,076 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-09 11:21:14,076 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-09 11:21:14,091 - INFO - ✓ Both images ready
+
+2026-06-09 11:21:14,092 - INFO - ============================================================
+2026-06-09 11:21:14,092 - INFO - BRAND SETTING — Browser Automation
+2026-06-09 11:21:14,092 - INFO - ============================================================
+2026-06-09 11:21:14,102 - INFO - ====== WebDriver manager ======
+2026-06-09 11:21:15,301 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-09 11:21:30,714 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-09 11:21:31,171 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-09 11:21:31,172 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-09 11:21:32,341 - INFO - ✓ Chrome driver initialized
+2026-06-09 11:21:32,341 - INFO - Opening login page...
+2026-06-09 11:21:34,211 - INFO -   → Policy checkbox checked on login page
+2026-06-09 11:21:34,319 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-09 11:21:37,421 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-09 11:21:37,446 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-09 11:21:37,532 - INFO - ✓ Login successful
+2026-06-09 11:21:39,532 - INFO - Going to App Settings...
+2026-06-09 11:21:45,828 - INFO -   → Identity & Branding section opened
+2026-06-09 11:21:47,941 - INFO -   → Edit Branding popup opened
+2026-06-09 11:21:47,954 - INFO - ✓ Brand setting form is ready
+2026-06-09 11:21:47,955 - INFO -   Setting company name: HPL
+2026-06-09 11:21:48,693 - INFO -     → HeaderColor: #E01020
+2026-06-09 11:21:49,302 - INFO -     → FooterColor: #F5F5F5
+2026-06-09 11:21:49,890 - INFO -     → BodyColor: #FFFFFF
+2026-06-09 11:21:50,529 - INFO -     → BackgroundColor: #910A14
+2026-06-09 11:21:52,560 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-06-09 11:21:54,584 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-09 11:21:54,657 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-09 11:21:57,679 - INFO - ✓ Brand settings saved successfully!
+2026-06-09 11:21:59,910 - INFO - Browser closed
+2026-06-09 11:22:04,009 - INFO - 
+Task finished at 2026-06-09 11:22:04
+2026-06-09 11:22:04,010 - INFO - Log: automation\logs\full_automation_20260609_111656.log
+

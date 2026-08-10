@@ -1,0 +1,38 @@
+2026-06-11 18:58:12,621 - INFO - User selected: Brand Setting
+2026-06-11 18:58:16,212 - INFO -   Found logo asset: logo.png
+2026-06-11 18:58:16,224 - INFO -   Found splash asset: splash.png
+2026-06-11 18:58:16,244 - INFO - ============================================================
+2026-06-11 18:58:16,256 - INFO - BRAND SETTING — Image Processing
+2026-06-11 18:58:16,257 - INFO - ============================================================
+2026-06-11 18:58:16,640 - INFO - ✓ Logo  → logo_processed.jpg  |  60.9 KB  |  JPEG q95
+2026-06-11 18:58:17,015 - INFO - ✓ Splash → splash_processed.jpg  |  0.10 MB  |  JPEG q90
+2026-06-11 18:58:17,042 - INFO - 
+2026-06-11 18:58:17,044 - INFO - Extracting brand colours from logo...
+2026-06-11 18:58:22,853 - INFO -   Colours extracted from logo:
+2026-06-11 18:58:22,889 - INFO -     Header Color     →  #100040  (dominant logo colour)
+2026-06-11 18:58:22,926 - INFO -     Background Color →  #0A0029  (35% darker)
+2026-06-11 18:58:22,955 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-11 18:58:22,977 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-11 18:58:23,427 - INFO - ✓ Both images ready
+
+2026-06-11 18:58:23,434 - INFO - ============================================================
+2026-06-11 18:58:23,437 - INFO - BRAND SETTING — Browser Automation
+2026-06-11 18:58:23,439 - INFO - ============================================================
+2026-06-11 18:58:23,518 - INFO - ====== WebDriver manager ======
+2026-06-11 18:58:27,494 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 18:58:29,269 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 18:58:30,518 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-11 18:58:30,526 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-11 18:58:35,130 - INFO - ✓ Chrome driver initialized
+2026-06-11 18:58:35,135 - INFO - Opening login page...
+2026-06-11 18:58:38,008 - INFO -   → Policy checkbox checked on login page
+2026-06-11 18:58:38,363 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-11 18:59:14,618 - ERROR - Login failed: Message: 
+
+2026-06-11 18:59:14,916 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260611_185914.png
+2026-06-11 18:59:14,918 - ERROR - ✗ Login failed. Aborting.
+2026-06-11 18:59:17,431 - INFO - Browser closed
+2026-06-11 18:59:21,494 - INFO - 
+Task finished at 2026-06-11 18:59:21
+2026-06-11 18:59:21,495 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_185750.log
+

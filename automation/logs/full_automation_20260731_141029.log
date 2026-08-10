@@ -1,0 +1,92 @@
+2026-07-31 14:11:34,611 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-31 14:11:34,612 - INFO - ============================================================
+2026-07-31 14:11:34,613 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-31 14:11:34,613 - INFO - ============================================================
+2026-07-31 14:11:34,615 - INFO - Processing images from dashboardicons/...
+2026-07-31 14:11:34,629 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-31 14:11:34,665 - INFO - Output folder: automation\processed_images
+2026-07-31 14:11:34,666 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-31 14:11:34,878 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-31 14:11:34,954 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-31 14:11:35,072 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-31 14:11:35,158 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-31 14:11:35,229 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-31 14:11:35,293 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-31 14:11:35,331 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-31 14:11:35,415 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-31 14:11:35,514 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-31 14:11:35,572 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-31 14:11:35,685 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-31 14:11:35,765 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-31 14:11:35,863 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-31 14:11:35,933 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-31 14:11:35,933 - INFO - 
+✓ Processed 14 images successfully
+
+2026-07-31 14:11:35,934 - INFO - v 14 images processed.
+2026-07-31 14:11:36,667 - INFO - ====== WebDriver manager ======
+2026-07-31 14:11:41,590 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 14:11:41,904 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 14:11:42,222 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-31 14:11:42,225 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-31 14:11:44,021 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-31 14:11:44,039 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-31 14:11:44,135 - INFO - ✓ Chrome driver initialized
+2026-07-31 14:11:44,136 - INFO - Opening login page...
+2026-07-31 14:11:45,845 - INFO -   → Policy checkbox checked on login page
+2026-07-31 14:11:46,069 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-31 14:11:46,101 - INFO -   → Policy agreement popup detected
+2026-07-31 14:11:46,201 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-31 14:11:46,771 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-31 14:11:50,258 - INFO -   → Navigating directly to App Settings URL...
+2026-07-31 14:11:50,262 - ERROR - Login failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x418f1e]
+	chromedriver!(No symbol) [0x4578e7]
+	chromedriver!(No symbol) [0x485526]
+	chromedriver!(No symbol) [0x480762]
+	chromedriver!(No symbol) [0x480141]
+	chromedriver!(No symbol) [0x3ec731]
+	chromedriver!(No symbol) [0x3eccd3]
+	chromedriver!(No symbol) [0x3ed18d]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!(No symbol) [0x3ec3e0]
+	chromedriver!(No symbol) [0x3eba92]
+	chromedriver!GetHandleVerifier [0xa0ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:11:50,268 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x418f1e]
+	chromedriver!(No symbol) [0x4578e7]
+	chromedriver!(No symbol) [0x485526]
+	chromedriver!(No symbol) [0x480762]
+	chromedriver!(No symbol) [0x480141]
+	chromedriver!(No symbol) [0x3ec731]
+	chromedriver!(No symbol) [0x3eccd3]
+	chromedriver!(No symbol) [0x3ed18d]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!(No symbol) [0x3ec3e0]
+	chromedriver!(No symbol) [0x3eba92]
+	chromedriver!GetHandleVerifier [0xa0ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:11:50,268 - ERROR - x Login failed.
+2026-07-31 14:11:52,316 - INFO - Automation cancelled by user (Ctrl+C)

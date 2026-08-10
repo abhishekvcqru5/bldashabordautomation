@@ -1,0 +1,304 @@
+2026-06-12 18:11:57,459 - INFO - User selected: Migrate Gifts from Old Dashboard
+2026-06-12 18:12:37,141 - INFO - ============================================================
+2026-06-12 18:12:37,144 - INFO - OLD DASHBOARD GIFT MIGRATION — Extraction
+2026-06-12 18:12:37,146 - INFO - ============================================================
+2026-06-12 18:12:37,348 - INFO - ====== WebDriver manager ======
+2026-06-12 18:12:52,777 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 18:12:56,633 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 18:12:59,063 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 18:12:59,071 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 18:13:04,232 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-12 18:13:12,101 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-12 18:13:13,497 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-12 18:13:16,498 - INFO -   → Filling Vendor credentials...
+2026-06-12 18:13:18,643 - INFO -     - Email entered: rociofaucets@gmail.com
+2026-06-12 18:13:18,644 - INFO -     - Clicking 'login' button...
+2026-06-12 18:13:18,713 - INFO -   → Waiting for successful login redirect...
+2026-06-12 18:13:34,492 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 18:13:34,982 - INFO - Navigating to gift settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 18:13:41,667 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-12 18:13:42,493 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-12 18:13:45,898 - INFO -     ✓ Found Gift Setting link, clicking...
+2026-06-12 18:13:53,955 - INFO -   → Searching for gifts data...
+2026-06-12 18:13:54,392 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-06-12 18:13:56,019 - INFO -     → Found 9 potential gift rows to extract
+2026-06-12 18:13:56,202 - INFO -     → Downloading image for gift: 'REDEEM 2600'...
+2026-06-12 18:14:05,721 - INFO -     ✓ Extracted gift 1: 'REDEEM 2600' (Points: 2500, Value: 2600)
+2026-06-12 18:14:07,156 - INFO -     → Downloading image for gift: 'Win Microwave'...
+2026-06-12 18:14:12,226 - INFO -     ✓ Extracted gift 2: 'Win Microwave' (Points: 8500, Value: 1)
+2026-06-12 18:14:12,905 - INFO -     → Downloading image for gift: 'Redeem Rs. 3100'...
+2026-06-12 18:14:16,198 - INFO -     ✓ Extracted gift 3: 'Redeem Rs. 3100' (Points: 3000, Value: 3100)
+2026-06-12 18:14:18,209 - INFO -     → Downloading image for gift: 'Redeem 1500'...
+2026-06-12 18:14:22,544 - INFO -     ✓ Extracted gift 4: 'Redeem 1500' (Points: 1600, Value: 1500)
+2026-06-12 18:14:23,063 - INFO -     → Downloading image for gift: 'Redeem 2000'...
+2026-06-12 18:14:25,850 - INFO -     ✓ Extracted gift 5: 'Redeem 2000' (Points: 2100, Value: 2000)
+2026-06-12 18:14:25,943 - INFO -     → Downloading image for gift: 'Redeem Rs. 5100'...
+2026-06-12 18:14:27,875 - INFO -     ✓ Extracted gift 6: 'Redeem Rs. 5100' (Points: 4900, Value: 5100)
+2026-06-12 18:14:27,979 - INFO -     → Downloading image for gift: 'Redeem 500'...
+2026-06-12 18:14:29,922 - INFO -     ✓ Extracted gift 7: 'Redeem 500' (Points: 600, Value: 500)
+2026-06-12 18:14:30,013 - INFO -     → Downloading image for gift: 'Redeem 1000'...
+2026-06-12 18:14:31,856 - INFO -     ✓ Extracted gift 8: 'Redeem 1000' (Points: 1100, Value: 1000)
+2026-06-12 18:14:31,955 - INFO -     → Downloading image for gift: 'Win Referigerator'...
+2026-06-12 18:14:34,770 - INFO -     ✓ Extracted gift 9: 'Win Referigerator' (Points: 21000, Value: 1)
+2026-06-12 18:14:37,444 - INFO - ✓ Extracted 9 gifts.
+2026-06-12 18:14:37,444 - INFO - 
+============================================================
+2026-06-12 18:14:37,444 - INFO - OLD DASHBOARD GIFT MIGRATION — Uploading to New Dashboard
+2026-06-12 18:14:37,445 - INFO - ============================================================
+2026-06-12 18:14:37,464 - INFO - ====== WebDriver manager ======
+2026-06-12 18:14:39,553 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 18:14:44,856 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 18:14:45,945 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 18:14:45,948 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 18:14:48,464 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-12 18:14:48,498 - INFO - ✓ Chrome driver initialized
+2026-06-12 18:14:48,498 - INFO - Opening login page...
+2026-06-12 18:14:51,910 - INFO -   → Policy checkbox checked on login page
+2026-06-12 18:14:52,144 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-12 18:15:04,908 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-12 18:15:05,074 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-12 18:15:13,199 - INFO - ✓ Login successful
+2026-06-12 18:15:15,200 - INFO - Going to App Settings...
+2026-06-12 18:15:21,672 - INFO -   → Gift Management section opened
+2026-06-12 18:15:21,673 - INFO - Opening Add New Gift modal to detect UserType dropdown...
+2026-06-12 18:15:24,047 - INFO - Dropdown 'is_multiple' detected as: None
+2026-06-12 18:15:24,260 - INFO - Detected target user types: ['Plumber', 'Dealer']
+2026-06-12 18:15:26,432 - INFO - Proceeding with single-select sequential upload flow (each gift added once per user type)...
+2026-06-12 18:15:26,432 - INFO - [1/18] Uploading: 'REDEEM 2600' for 'Plumber'
+2026-06-12 18:15:26,433 - INFO -   Adding new gift: 'REDEEM 2600' for ['Plumber']
+2026-06-12 18:15:29,381 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:15:29,580 - INFO -     → Entered label: REDEEM 2600
+2026-06-12 18:15:29,886 - INFO -     → Entered description
+2026-06-12 18:15:32,049 - INFO -     → Image uploaded: gift_REDEEM_2600_1.png
+2026-06-12 18:15:32,327 - INFO -     → Entered points: 2500
+2026-06-12 18:15:32,840 - INFO -     → Entered value: 2600
+2026-06-12 18:15:33,261 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:15:37,394 - INFO -   ✓ Offering created for 'REDEEM 2600'
+2026-06-12 18:15:39,457 - INFO - [2/18] Uploading: 'REDEEM 2600' for 'Dealer'
+2026-06-12 18:15:39,458 - INFO -   Adding new gift: 'REDEEM 2600' for ['Dealer']
+2026-06-12 18:15:41,173 - ERROR -   ✗ Failed to add gift offering: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1163, 260). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb0a823+10083]
+	chromedriver!GetHandleVerifier [0xb0a864+100c4]
+	chromedriver!(No symbol) [0x8ea6f0]
+	chromedriver!(No symbol) [0x939a48]
+	chromedriver!(No symbol) [0x9380d9]
+	chromedriver!(No symbol) [0x935ec5]
+	chromedriver!(No symbol) [0x9350d4]
+	chromedriver!(No symbol) [0x92abc7]
+	chromedriver!(No symbol) [0x95608c]
+	chromedriver!(No symbol) [0x92a604]
+	chromedriver!(No symbol) [0x956254]
+	chromedriver!(No symbol) [0x973219]
+	chromedriver!(No symbol) [0x955e26]
+	chromedriver!(No symbol) [0x929139]
+	chromedriver!(No symbol) [0x929f04]
+	chromedriver!GetHandleVerifier [0xd88fca+28e82a]
+	chromedriver!GetHandleVerifier [0xd844fd+289d5d]
+	chromedriver!GetHandleVerifier [0xda505b+2aa8bb]
+	chromedriver!GetHandleVerifier [0xb24416+29c76]
+	chromedriver!GetHandleVerifier [0xb2b3ad+30c0d]
+	chromedriver!GetHandleVerifier [0xb13108+18968]
+	chromedriver!GetHandleVerifier [0xb132b5+18b15]
+	chromedriver!GetHandleVerifier [0xafc3ef+1c4f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-12 18:15:41,830 - INFO -   📸 Screenshot saved: automation\screenshots\gift_add_gift_fail_REDEEM_2600_20260612_181541.png
+2026-06-12 18:15:43,982 - INFO - [3/18] Uploading: 'Win Microwave' for 'Plumber'
+2026-06-12 18:15:43,982 - INFO -   Adding new gift: 'Win Microwave' for ['Plumber']
+2026-06-12 18:15:46,727 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:15:46,946 - INFO -     → Entered label: Win Microwave
+2026-06-12 18:15:47,110 - INFO -     → Entered description
+2026-06-12 18:15:49,157 - INFO -     → Image uploaded: gift_Win_Microwave_2.png
+2026-06-12 18:15:49,342 - INFO -     → Entered points: 8500
+2026-06-12 18:15:49,527 - INFO -     → Entered value: 1
+2026-06-12 18:15:49,834 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:15:53,685 - INFO -   ✓ Offering created for 'Win Microwave'
+2026-06-12 18:15:55,729 - INFO - [4/18] Uploading: 'Win Microwave' for 'Dealer'
+2026-06-12 18:15:55,733 - INFO -   Adding new gift: 'Win Microwave' for ['Dealer']
+2026-06-12 18:15:58,698 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:15:58,939 - INFO -     → Entered label: Win Microwave
+2026-06-12 18:15:59,149 - INFO -     → Entered description
+2026-06-12 18:16:01,220 - INFO -     → Image uploaded: gift_Win_Microwave_2.png
+2026-06-12 18:16:01,571 - INFO -     → Entered points: 8500
+2026-06-12 18:16:01,919 - INFO -     → Entered value: 1
+2026-06-12 18:16:02,824 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:16:06,773 - INFO -   ✓ Offering created for 'Win Microwave'
+2026-06-12 18:16:08,814 - INFO - [5/18] Uploading: 'Redeem Rs. 3100' for 'Plumber'
+2026-06-12 18:16:08,814 - INFO -   Adding new gift: 'Redeem Rs. 3100' for ['Plumber']
+2026-06-12 18:16:11,554 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:16:12,063 - INFO -     → Entered label: Redeem Rs. 3100
+2026-06-12 18:16:12,632 - INFO -     → Entered description
+2026-06-12 18:16:15,096 - INFO -     → Image uploaded: gift_Redeem_Rs__3100_3.png
+2026-06-12 18:16:15,617 - INFO -     → Entered points: 3000
+2026-06-12 18:16:16,000 - INFO -     → Entered value: 3100
+2026-06-12 18:16:16,382 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:16:20,225 - INFO -   ✓ Offering created for 'Redeem Rs. 3100'
+2026-06-12 18:16:23,059 - INFO - [6/18] Uploading: 'Redeem Rs. 3100' for 'Dealer'
+2026-06-12 18:16:23,059 - INFO -   Adding new gift: 'Redeem Rs. 3100' for ['Dealer']
+2026-06-12 18:16:28,092 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:16:29,325 - INFO -     → Entered label: Redeem Rs. 3100
+2026-06-12 18:16:31,649 - INFO -     → Entered description
+2026-06-12 18:16:33,875 - INFO -     → Image uploaded: gift_Redeem_Rs__3100_3.png
+2026-06-12 18:16:35,451 - INFO -     → Entered points: 3000
+2026-06-12 18:16:36,433 - INFO -     → Entered value: 3100
+2026-06-12 18:16:38,049 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:16:43,160 - INFO -   ✓ Offering created for 'Redeem Rs. 3100'
+2026-06-12 18:16:45,360 - INFO - [7/18] Uploading: 'Redeem 1500' for 'Plumber'
+2026-06-12 18:16:45,361 - INFO -   Adding new gift: 'Redeem 1500' for ['Plumber']
+2026-06-12 18:16:48,700 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:16:49,399 - INFO -     → Entered label: Redeem 1500
+2026-06-12 18:16:50,736 - INFO -     → Entered description
+2026-06-12 18:16:53,051 - INFO -     → Image uploaded: gift_Redeem_1500_4.png
+2026-06-12 18:16:53,334 - INFO -     → Entered points: 1600
+2026-06-12 18:16:53,633 - INFO -     → Entered value: 1500
+2026-06-12 18:16:54,292 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:16:58,543 - INFO -   ✓ Offering created for 'Redeem 1500'
+2026-06-12 18:17:01,116 - INFO - [8/18] Uploading: 'Redeem 1500' for 'Dealer'
+2026-06-12 18:17:01,116 - INFO -   Adding new gift: 'Redeem 1500' for ['Dealer']
+2026-06-12 18:17:03,932 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:17:04,894 - INFO -     → Entered label: Redeem 1500
+2026-06-12 18:17:06,664 - INFO -     → Entered description
+2026-06-12 18:17:08,788 - INFO -     → Image uploaded: gift_Redeem_1500_4.png
+2026-06-12 18:17:09,092 - INFO -     → Entered points: 1600
+2026-06-12 18:17:09,558 - INFO -     → Entered value: 1500
+2026-06-12 18:17:10,195 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:17:14,013 - INFO -   ✓ Offering created for 'Redeem 1500'
+2026-06-12 18:17:16,406 - INFO - [9/18] Uploading: 'Redeem 2000' for 'Plumber'
+2026-06-12 18:17:16,406 - INFO -   Adding new gift: 'Redeem 2000' for ['Plumber']
+2026-06-12 18:17:19,242 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:17:19,866 - INFO -     → Entered label: Redeem 2000
+2026-06-12 18:17:20,591 - INFO -     → Entered description
+2026-06-12 18:17:22,763 - INFO -     → Image uploaded: gift_Redeem_2000_5.png
+2026-06-12 18:17:23,549 - INFO -     → Entered points: 2100
+2026-06-12 18:17:23,896 - INFO -     → Entered value: 2000
+2026-06-12 18:17:24,371 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:17:28,202 - INFO -   ✓ Offering created for 'Redeem 2000'
+2026-06-12 18:17:30,241 - INFO - [10/18] Uploading: 'Redeem 2000' for 'Dealer'
+2026-06-12 18:17:30,241 - INFO -   Adding new gift: 'Redeem 2000' for ['Dealer']
+2026-06-12 18:17:33,084 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:17:33,264 - INFO -     → Entered label: Redeem 2000
+2026-06-12 18:17:33,561 - INFO -     → Entered description
+2026-06-12 18:17:35,608 - INFO -     → Image uploaded: gift_Redeem_2000_5.png
+2026-06-12 18:17:35,745 - INFO -     → Entered points: 2100
+2026-06-12 18:17:35,960 - INFO -     → Entered value: 2000
+2026-06-12 18:17:36,377 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:17:40,116 - INFO -   ✓ Offering created for 'Redeem 2000'
+2026-06-12 18:17:42,176 - INFO - [11/18] Uploading: 'Redeem Rs. 5100' for 'Plumber'
+2026-06-12 18:17:42,177 - INFO -   Adding new gift: 'Redeem Rs. 5100' for ['Plumber']
+2026-06-12 18:17:44,876 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:17:45,094 - INFO -     → Entered label: Redeem Rs. 5100
+2026-06-12 18:17:45,447 - INFO -     → Entered description
+2026-06-12 18:17:47,748 - INFO -     → Image uploaded: gift_Redeem_Rs__5100_6.png
+2026-06-12 18:17:51,155 - INFO -     → Entered points: 4900
+2026-06-12 18:17:52,817 - INFO -     → Entered value: 5100
+2026-06-12 18:17:54,058 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:18:02,030 - INFO -   ✓ Offering created for 'Redeem Rs. 5100'
+2026-06-12 18:18:04,963 - INFO - [12/18] Uploading: 'Redeem Rs. 5100' for 'Dealer'
+2026-06-12 18:18:04,963 - INFO -   Adding new gift: 'Redeem Rs. 5100' for ['Dealer']
+2026-06-12 18:18:09,546 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:18:12,848 - INFO -     → Entered label: Redeem Rs. 5100
+2026-06-12 18:18:14,798 - INFO -     → Entered description
+2026-06-12 18:18:18,163 - INFO -     → Image uploaded: gift_Redeem_Rs__5100_6.png
+2026-06-12 18:18:21,595 - INFO -     → Entered points: 4900
+2026-06-12 18:18:22,584 - INFO -     → Entered value: 5100
+2026-06-12 18:18:25,098 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:18:30,425 - INFO -   ✓ Offering created for 'Redeem Rs. 5100'
+2026-06-12 18:18:32,545 - INFO - [13/18] Uploading: 'Redeem 500' for 'Plumber'
+2026-06-12 18:18:32,546 - INFO -   Adding new gift: 'Redeem 500' for ['Plumber']
+2026-06-12 18:18:35,639 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:18:36,350 - INFO -     → Entered label: Redeem 500
+2026-06-12 18:18:37,348 - INFO -     → Entered description
+2026-06-12 18:18:39,538 - INFO -     → Image uploaded: gift_Redeem_500_7.png
+2026-06-12 18:18:40,548 - INFO -     → Entered points: 600
+2026-06-12 18:18:41,128 - INFO -     → Entered value: 500
+2026-06-12 18:18:41,969 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:18:46,305 - INFO -   ✓ Offering created for 'Redeem 500'
+2026-06-12 18:18:48,451 - INFO - [14/18] Uploading: 'Redeem 500' for 'Dealer'
+2026-06-12 18:18:48,451 - INFO -   Adding new gift: 'Redeem 500' for ['Dealer']
+2026-06-12 18:18:51,338 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:18:52,447 - INFO -     → Entered label: Redeem 500
+2026-06-12 18:18:54,289 - INFO -     → Entered description
+2026-06-12 18:18:56,559 - INFO -     → Image uploaded: gift_Redeem_500_7.png
+2026-06-12 18:18:57,243 - INFO -     → Entered points: 600
+2026-06-12 18:18:58,367 - INFO -     → Entered value: 500
+2026-06-12 18:19:00,162 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:19:04,712 - INFO -   ✓ Offering created for 'Redeem 500'
+2026-06-12 18:19:07,234 - INFO - [15/18] Uploading: 'Redeem 1000' for 'Plumber'
+2026-06-12 18:19:07,234 - INFO -   Adding new gift: 'Redeem 1000' for ['Plumber']
+2026-06-12 18:19:10,730 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:19:12,251 - INFO -     → Entered label: Redeem 1000
+2026-06-12 18:19:13,567 - INFO -     → Entered description
+2026-06-12 18:19:15,896 - INFO -     → Image uploaded: gift_Redeem_1000_8.png
+2026-06-12 18:19:17,099 - INFO -     → Entered points: 1100
+2026-06-12 18:19:17,568 - INFO -     → Entered value: 1000
+2026-06-12 18:19:19,677 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:19:24,284 - INFO -   ✓ Offering created for 'Redeem 1000'
+2026-06-12 18:19:26,665 - INFO - [16/18] Uploading: 'Redeem 1000' for 'Dealer'
+2026-06-12 18:19:26,666 - INFO -   Adding new gift: 'Redeem 1000' for ['Dealer']
+2026-06-12 18:19:30,831 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:19:34,281 - INFO -     → Entered label: Redeem 1000
+2026-06-12 18:19:37,913 - INFO -     → Entered description
+2026-06-12 18:19:40,883 - INFO -     → Image uploaded: gift_Redeem_1000_8.png
+2026-06-12 18:19:42,475 - INFO -     → Entered points: 1100
+2026-06-12 18:19:43,479 - INFO -     → Entered value: 1000
+2026-06-12 18:19:45,211 - INFO -     → Selected user type (single-select): Dealer
+2026-06-12 18:19:49,591 - INFO -   ✓ Offering created for 'Redeem 1000'
+2026-06-12 18:19:51,820 - INFO - [17/18] Uploading: 'Win Referigerator' for 'Plumber'
+2026-06-12 18:19:51,822 - INFO -   Adding new gift: 'Win Referigerator' for ['Plumber']
+2026-06-12 18:19:55,194 - INFO -     → 'Add New Gift' clicked
+2026-06-12 18:19:59,284 - INFO -     → Entered label: Win Referigerator
+2026-06-12 18:20:01,032 - INFO -     → Entered description
+2026-06-12 18:20:03,367 - INFO -     → Image uploaded: gift_Win_Referigerator_9.png
+2026-06-12 18:20:03,664 - INFO -     → Entered points: 21000
+2026-06-12 18:20:04,134 - INFO -     → Entered value: 1
+2026-06-12 18:20:04,984 - INFO -     → Selected user type (single-select): Plumber
+2026-06-12 18:20:08,727 - INFO -   ✓ Offering created for 'Win Referigerator'
+2026-06-12 18:20:10,805 - INFO - [18/18] Uploading: 'Win Referigerator' for 'Dealer'
+2026-06-12 18:20:10,806 - INFO -   Adding new gift: 'Win Referigerator' for ['Dealer']
+2026-06-12 18:20:12,561 - ERROR -   ✗ Failed to add gift offering: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1163, 260). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb0a823+10083]
+	chromedriver!GetHandleVerifier [0xb0a864+100c4]
+	chromedriver!(No symbol) [0x8ea6f0]
+	chromedriver!(No symbol) [0x939a48]
+	chromedriver!(No symbol) [0x9380d9]
+	chromedriver!(No symbol) [0x935ec5]
+	chromedriver!(No symbol) [0x9350d4]
+	chromedriver!(No symbol) [0x92abc7]
+	chromedriver!(No symbol) [0x95608c]
+	chromedriver!(No symbol) [0x92a604]
+	chromedriver!(No symbol) [0x956254]
+	chromedriver!(No symbol) [0x973219]
+	chromedriver!(No symbol) [0x955e26]
+	chromedriver!(No symbol) [0x929139]
+	chromedriver!(No symbol) [0x929f04]
+	chromedriver!GetHandleVerifier [0xd88fca+28e82a]
+	chromedriver!GetHandleVerifier [0xd844fd+289d5d]
+	chromedriver!GetHandleVerifier [0xda505b+2aa8bb]
+	chromedriver!GetHandleVerifier [0xb24416+29c76]
+	chromedriver!GetHandleVerifier [0xb2b3ad+30c0d]
+	chromedriver!GetHandleVerifier [0xb13108+18968]
+	chromedriver!GetHandleVerifier [0xb132b5+18b15]
+	chromedriver!GetHandleVerifier [0xafc3ef+1c4f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-12 18:20:13,776 - INFO -   📸 Screenshot saved: automation\screenshots\gift_add_gift_fail_Win_Referigerator_20260612_182012.png
+2026-06-12 18:20:15,990 - INFO - 
+============================================================
+2026-06-12 18:20:15,991 - INFO - GIFTS MIGRATION SUMMARY
+2026-06-12 18:20:15,991 - INFO - ============================================================
+2026-06-12 18:20:15,992 - INFO - ✓ Successful uploads/assignments: 16
+2026-06-12 18:20:15,993 - INFO - ✗ Failed uploads/assignments: 2
+2026-06-12 18:20:15,993 - INFO - ============================================================
+2026-06-12 18:20:27,128 - INFO - Browser closed
+2026-06-12 18:20:35,327 - INFO - 
+Task finished at 2026-06-12 18:20:35
+2026-06-12 18:20:35,328 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260612_173435.log
+

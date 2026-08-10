@@ -1,0 +1,154 @@
+2026-07-01 12:04:17,360 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-07-01 12:04:17,361 - INFO - ============================================================
+2026-07-01 12:04:17,361 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-07-01 12:04:17,361 - INFO - ============================================================
+2026-07-01 12:04:17,366 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-01 12:04:17,366 - INFO - Output folder: automation\processed_images
+2026-07-01 12:04:17,366 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-01 12:04:17,431 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-01 12:04:17,476 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-01 12:04:17,526 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-07-01 12:04:17,535 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-07-01 12:04:17,581 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-01 12:04:17,620 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-01 12:04:17,654 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-01 12:04:17,682 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-01 12:04:17,702 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-01 12:04:17,738 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-01 12:04:17,767 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-01 12:04:17,797 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-01 12:04:17,839 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-01 12:04:17,871 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-07-01 12:04:17,899 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-01 12:04:17,924 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-01 12:04:17,925 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-01 12:04:17,925 - INFO - ✓ 15 images processed successfully.
+
+2026-07-01 12:04:20,017 - INFO - Target User Type: Painter
+2026-07-01 12:04:20,041 - INFO - Dynamically mapped image 'Activity.png':
+2026-07-01 12:04:20,041 - INFO -   → Extracted Title: Activity
+2026-07-01 12:04:20,041 - INFO -   → Matched Identity: claimhistory
+2026-07-01 12:04:20,041 - INFO -   → Extracted Color: #F86008
+2026-07-01 12:04:20,041 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,055 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-07-01 12:04:20,055 - INFO -   → Extracted Title: E-Warranty
+2026-07-01 12:04:20,056 - INFO -   → Matched Identity: e-warrant
+2026-07-01 12:04:20,056 - INFO -   → Extracted Color: #20C078
+2026-07-01 12:04:20,056 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,075 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-07-01 12:04:20,075 - INFO -   → Extracted Title: ecommerce
+2026-07-01 12:04:20,076 - INFO -   → Matched Identity: gift
+2026-07-01 12:04:20,076 - INFO -   → Extracted Color: #A0E0F8
+2026-07-01 12:04:20,076 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,091 - INFO - Dynamically mapped image 'KYC.png':
+2026-07-01 12:04:20,091 - INFO -   → Extracted Title: KYC
+2026-07-01 12:04:20,091 - INFO -   → Matched Identity: kycdetails
+2026-07-01 12:04:20,091 - INFO -   → Extracted Color: #F85808
+2026-07-01 12:04:20,092 - INFO -   → Toggle Option: side menu
+2026-07-01 12:04:20,106 - INFO - Dynamically mapped image 'Language.png':
+2026-07-01 12:04:20,106 - INFO -   → Extracted Title: Language
+2026-07-01 12:04:20,106 - INFO -   → Matched Identity: chooselanguage
+2026-07-01 12:04:20,106 - INFO -   → Extracted Color: #5010E8
+2026-07-01 12:04:20,107 - INFO -   → Toggle Option: side menu
+2026-07-01 12:04:20,119 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-07-01 12:04:20,120 - INFO -   → Extracted Title: My Wallet
+2026-07-01 12:04:20,120 - INFO -   → Matched Identity: wallet
+2026-07-01 12:04:20,120 - INFO -   → Extracted Color: #20A020
+2026-07-01 12:04:20,120 - INFO -   → Toggle Option: both
+2026-07-01 12:04:20,135 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-07-01 12:04:20,135 - INFO -   → Extracted Title: Product Catalog
+2026-07-01 12:04:20,135 - INFO -   → Matched Identity: productcatalogue
+2026-07-01 12:04:20,136 - INFO -   → Extracted Color: #6028E8
+2026-07-01 12:04:20,136 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,150 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-07-01 12:04:20,151 - INFO -   → Extracted Title: Prospectus
+2026-07-01 12:04:20,151 - INFO -   → Matched Identity: brochure
+2026-07-01 12:04:20,151 - INFO -   → Extracted Color: #0848F8
+2026-07-01 12:04:20,151 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,166 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-07-01 12:04:20,166 - INFO -   → Extracted Title: Refer & Earn
+2026-07-01 12:04:20,167 - INFO -   → Matched Identity: referandearn
+2026-07-01 12:04:20,167 - INFO -   → Extracted Color: #089098
+2026-07-01 12:04:20,167 - INFO -   → Toggle Option: both
+2026-07-01 12:04:20,182 - INFO - Dynamically mapped image 'Rewards.png':
+2026-07-01 12:04:20,182 - INFO -   → Extracted Title: Rewards
+2026-07-01 12:04:20,183 - INFO -   → Matched Identity: gift
+2026-07-01 12:04:20,183 - INFO -   → Extracted Color: #F00048
+2026-07-01 12:04:20,183 - INFO -   → Toggle Option: both
+2026-07-01 12:04:20,201 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-07-01 12:04:20,201 - INFO -   → Extracted Title: Scan Activity
+2026-07-01 12:04:20,201 - INFO -   → Matched Identity: codedetails
+2026-07-01 12:04:20,201 - INFO -   → Extracted Color: #10A010
+2026-07-01 12:04:20,202 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,218 - INFO - Dynamically mapped image 'Scan History.png':
+2026-07-01 12:04:20,218 - INFO -   → Extracted Title: Scan History
+2026-07-01 12:04:20,218 - INFO -   → Matched Identity: history
+2026-07-01 12:04:20,218 - INFO -   → Extracted Color: #4808F0
+2026-07-01 12:04:20,218 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,232 - INFO - Dynamically mapped image 'Send Points.png':
+2026-07-01 12:04:20,232 - INFO -   → Extracted Title: Send Points
+2026-07-01 12:04:20,233 - INFO -   → Matched Identity: transferpoints
+2026-07-01 12:04:20,233 - INFO -   → Extracted Color: #F86008
+2026-07-01 12:04:20,233 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,248 - INFO - Dynamically mapped image 'Support.png':
+2026-07-01 12:04:20,249 - INFO -   → Extracted Title: Support
+2026-07-01 12:04:20,249 - INFO -   → Matched Identity: help
+2026-07-01 12:04:20,249 - INFO -   → Extracted Color: #0030F0
+2026-07-01 12:04:20,249 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,265 - INFO - Dynamically mapped image 'Updates.png':
+2026-07-01 12:04:20,266 - INFO -   → Extracted Title: Updates
+2026-07-01 12:04:20,266 - INFO -   → Matched Identity: blog
+2026-07-01 12:04:20,266 - INFO -   → Extracted Color: #F87820
+2026-07-01 12:04:20,266 - INFO -   → Toggle Option: dashboard only
+2026-07-01 12:04:20,266 - INFO - 
+============================================================
+2026-07-01 12:04:20,267 - INFO - Launching Browser and Starting Upload Process
+2026-07-01 12:04:20,267 - INFO - ============================================================
+2026-07-01 12:04:20,273 - INFO - ====== WebDriver manager ======
+2026-07-01 12:04:21,380 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 12:04:21,745 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 12:04:22,080 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 12:04:22,081 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 12:04:23,242 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 12:04:23,245 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 12:04:23,273 - INFO - ✓ Chrome driver initialized
+2026-07-01 12:04:23,274 - INFO - 
+→ Attempting login...
+
+2026-07-01 12:04:23,274 - INFO - Opening login page...
+2026-07-01 12:04:24,435 - INFO -   → Policy checkbox checked on login page
+2026-07-01 12:04:24,541 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 12:04:24,555 - INFO -   → Policy agreement popup detected
+2026-07-01 12:04:24,592 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 12:04:25,134 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 12:04:31,285 - INFO -   → Policy agreement popup detected
+2026-07-01 12:04:31,324 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 12:04:31,850 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 12:04:31,855 - INFO - ✓ Login successful
+2026-07-01 12:04:33,856 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-07-01 12:04:33,856 - INFO - Navigating to App Settings...
+2026-07-01 12:04:40,272 - INFO - ✓ Dashboard Icons section loaded
+2026-07-01 12:04:42,273 - INFO - 
+→ Starting batch upload of 15 custom icons...
+
+2026-07-01 12:04:42,273 - INFO - Starting batch – 15 configured entries
+2026-07-01 12:04:42,274 - INFO - Total icons to upload after expansion: 15
+2026-07-01 12:04:42,274 - INFO - ============================================================
+2026-07-01 12:04:42,275 - INFO - [1/15]
+2026-07-01 12:04:42,275 - INFO -   Adding: [Painter] Activity  (claimhistory)
+2026-07-01 12:04:54,748 - INFO -     → User type selected by text: Painter
+2026-07-01 12:04:54,832 - INFO -     → Icon identity: claimhistory
+2026-07-01 12:04:54,991 - INFO -     → Display title: Activity
+2026-07-01 12:04:55,522 - INFO -     → Icon color: #F86008
+2026-07-01 12:04:55,564 - INFO -     → Toggle: dashboard only
+2026-07-01 12:04:57,623 - INFO -     → Image uploaded: Activity.png
+2026-07-01 12:04:57,741 - INFO -     → Form submitted
+2026-07-01 12:05:08,759 - INFO -   ✓ Icon added: Activity
+
+2026-07-01 12:05:09,760 - INFO - [2/15]
+2026-07-01 12:05:09,760 - INFO -   Adding: [Painter] E-Warranty  (e-warrant)

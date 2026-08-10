@@ -1,0 +1,55 @@
+2026-08-05 18:02:49,611 - INFO - User selected: Brand Setting
+2026-08-05 18:03:14,004 - INFO -   Found logo asset: Logo.jpg
+2026-08-05 18:03:14,005 - INFO -   Found splash asset: splash.jpeg
+2026-08-05 18:03:14,005 - INFO - ============================================================
+2026-08-05 18:03:14,005 - INFO - BRAND SETTING — Image Processing
+2026-08-05 18:03:14,005 - INFO - ============================================================
+2026-08-05 18:03:14,041 - INFO - ✓ Logo  → logo_processed.jpg  |  62.5 KB  |  JPEG q95
+2026-08-05 18:03:14,086 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-08-05 18:03:14,099 - INFO - 
+2026-08-05 18:03:14,099 - INFO - Extracting brand colours from logo...
+2026-08-05 18:03:14,221 - INFO -   Colours extracted from logo:
+2026-08-05 18:03:14,221 - INFO -     Header Color     →  #C00000  (dominant logo colour)
+2026-08-05 18:03:14,221 - INFO -     Background Color →  #7C0000  (35% darker)
+2026-08-05 18:03:14,222 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-08-05 18:03:14,222 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-08-05 18:03:14,233 - INFO - ✓ Both images ready
+
+2026-08-05 18:03:14,233 - INFO - ============================================================
+2026-08-05 18:03:14,233 - INFO - BRAND SETTING — Browser Automation
+2026-08-05 18:03:14,234 - INFO - ============================================================
+2026-08-05 18:03:14,245 - INFO - ====== WebDriver manager ======
+2026-08-05 18:03:15,413 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 18:03:15,599 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 18:03:15,771 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-05 18:03:15,772 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-05 18:03:16,861 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-05 18:03:16,864 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-05 18:03:16,908 - INFO - ✓ Chrome driver initialized
+2026-08-05 18:03:16,909 - INFO - Opening login page...
+2026-08-05 18:03:18,137 - INFO -   → Policy checkbox checked on login page
+2026-08-05 18:03:18,214 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-05 18:03:18,230 - INFO -   → Policy agreement popup detected
+2026-08-05 18:03:18,268 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-05 18:03:18,788 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-05 18:03:30,287 - INFO -   → Navigating directly to App Settings URL...
+2026-08-05 18:03:30,554 - INFO - ✓ Login successful and on App Settings page
+2026-08-05 18:03:32,555 - INFO - Going to App Settings...
+2026-08-05 18:03:38,749 - INFO -   → Identity & Branding section opened
+2026-08-05 18:03:40,839 - INFO -   → Edit Branding popup opened
+2026-08-05 18:03:40,852 - INFO - ✓ Brand setting form is ready
+2026-08-05 18:03:40,853 - INFO -   Setting company name: Axardeep
+2026-08-05 18:03:41,539 - INFO -     → HeaderColor: #C00000
+2026-08-05 18:03:42,109 - INFO -     → FooterColor: #F5F5F5
+2026-08-05 18:03:42,700 - INFO -     → BodyColor: #FFFFFF
+2026-08-05 18:03:43,275 - INFO -     → BackgroundColor: #7C0000
+2026-08-05 18:03:45,328 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-08-05 18:03:47,351 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-08-05 18:03:47,439 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-08-05 18:03:50,454 - INFO - ✓ Brand settings saved successfully!
+2026-08-05 18:03:52,730 - INFO - Browser closed
+2026-08-05 18:03:56,780 - INFO - 
+Task finished at 2026-08-05 18:03:56
+2026-08-05 18:03:56,781 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260805_180224.log
+
+2026-08-05 18:04:24,144 - INFO - Automation cancelled by user (Ctrl+C)

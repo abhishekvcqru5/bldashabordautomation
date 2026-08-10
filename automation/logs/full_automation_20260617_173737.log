@@ -1,0 +1,193 @@
+2026-06-17 17:37:37,769 - INFO - User selected: Old Dashboard
+2026-06-17 17:50:13,305 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 17:50:13,319 - INFO - ====== WebDriver manager ======
+2026-06-17 17:50:14,561 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:50:14,932 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:50:15,276 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 17:50:15,277 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 17:50:16,405 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
+2026-06-17 17:50:16,405 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 17:50:20,804 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 17:50:22,804 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
+2026-06-17 17:50:22,979 - INFO -       Email → field #login_txt_id
+2026-06-17 17:50:23,074 - INFO -       Password → field #login_txt_pass
+2026-06-17 17:50:23,151 - INFO -       Login button clicked: #btnVendor
+2026-06-17 17:50:23,151 - INFO -     → Waiting for post-login redirect …
+2026-06-17 17:50:25,322 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-17 17:50:27,344 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-17 17:50:27,387 - INFO -     ✓ Found and clicked Build Loyalty App menu
+2026-06-17 17:50:31,216 - INFO -     ✓ Found and clicked Product Catalogue submenu
+2026-06-17 17:50:39,346 - INFO - ✓ Clicked Add Product Details button
+2026-06-17 17:50:39,374 - INFO - Found 96 rows in table.
+2026-06-17 17:50:39,383 - INFO - DEBUG: First row has 11 cells.
+2026-06-17 17:50:39,397 - INFO - DEBUG: Cell 0 outerHTML: <td>1</td>
+2026-06-17 17:50:39,405 - INFO - DEBUG: Cell 1 outerHTML: <td>Polyester-based</td>
+2026-06-17 17:50:39,413 - INFO - DEBUG: Cell 2 outerHTML: <td>Polyester-based</td>
+2026-06-17 17:50:39,421 - INFO - DEBUG: Cell 3 outerHTML: <td>Crackbond</td>
+2026-06-17 17:50:39,429 - INFO - DEBUG: Cell 4 outerHTML: <td style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Crackbond">
+    Crackbond
+</td>
+2026-06-17 17:50:39,438 - INFO - DEBUG: Cell 5 outerHTML: <td>
+                                                                    -
+                                                                </td>
+2026-06-17 17:50:39,446 - INFO - DEBUG: Cell 6 outerHTML: <td>5.00</td>
+2026-06-17 17:50:39,455 - INFO - DEBUG: Cell 7 outerHTML: <td>5.00</td>
+2026-06-17 17:50:39,464 - INFO - DEBUG: Cell 8 outerHTML: <td>0</td>
+2026-06-17 17:50:39,472 - INFO - DEBUG: Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td>
+2026-06-17 17:50:39,480 - INFO - DEBUG: Cell 10 outerHTML: <td>
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnEditProduct" value="Edit" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnEditProduct">
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnDelete" value="Delete" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnDelete">
+                                                                </td>
+2026-06-17 17:50:39,554 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:39,611 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:39,674 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:39,740 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:39,805 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:39,887 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:39,953 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:40,016 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:40,076 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:40,134 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:40,195 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:40,258 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:40,320 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:40,389 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:40,450 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:40,529 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:40,588 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:40,648 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:40,710 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:40,769 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:40,841 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:40,906 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:40,980 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:41,046 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:41,107 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:41,165 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:41,228 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:41,282 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:41,360 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:41,433 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:41,494 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:41,551 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:41,609 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:41,667 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:41,730 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:41,789 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:41,851 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:41,989 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:42,060 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:42,119 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:42,191 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:42,248 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:42,310 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:42,367 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:42,427 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:42,483 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:42,545 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:42,606 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:42,664 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:42,725 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:42,786 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:42,846 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:42,907 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:42,965 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:43,038 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:43,109 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:43,170 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:43,230 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:43,290 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:43,348 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:43,409 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:43,470 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:43,532 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:43,597 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:43,658 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:43,716 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:43,776 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:43,836 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:43,902 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:43,961 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:44,029 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:44,086 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:44,154 - INFO - Skipping Crackbond because it has no image.
+2026-06-17 17:50:44,224 - INFO - Skipping L Special because it has no image.
+2026-06-17 17:50:44,282 - INFO - Skipping Diamond Clear Gel because it has no image.
+2026-06-17 17:50:44,343 - INFO - Skipping Diamond Clear Liquid because it has no image.
+2026-06-17 17:50:44,402 - INFO - Skipping Akepox 5010 because it has no image.
+2026-06-17 17:50:44,461 - INFO - Skipping Akepox 1005 (5 liters) because it has no image.
+2026-06-17 17:50:44,524 - INFO - Skipping Akepox Claro because it has no image.
+2026-06-17 17:50:44,585 - INFO - Skipping Gel 500 Ultra because it has no image.
+2026-06-17 17:50:44,646 - INFO - Skipping Everclear 510 because it has no image.
+2026-06-17 17:50:44,709 - INFO - Skipping Everclear 505 because it has no image.
+2026-06-17 17:50:44,768 - INFO - Skipping Nano (1 litres) because it has no image.
+2026-06-17 17:50:44,827 - INFO - Skipping Nano (5 litres) because it has no image.
+2026-06-17 17:50:44,905 - INFO - DEBUG: Row 85 (Nano (5 litres)) Cell 9 text: /Uploads/5861d6c7-8b9a-4c94-8857-feeed9a09e4a.jpg
+2026-06-17 17:50:45,388 - INFO - Extracted: Nano (5 litres)
+2026-06-17 17:50:45,458 - INFO - DEBUG: Row 86 (Nano (1 litres)) Cell 9 text: /Uploads/73df0cd5-9870-496f-b042-14dcb88bd5db.jpg
+2026-06-17 17:50:45,888 - INFO - Extracted: Nano (1 litres)
+2026-06-17 17:50:45,949 - INFO - DEBUG: Row 87 (Everclear 505) Cell 9 text: /Uploads/2cb04464-b0d6-4052-8ceb-8f6eae9770aa.jpg
+2026-06-17 17:50:46,443 - INFO - Extracted: Everclear 505
+2026-06-17 17:50:46,518 - INFO - DEBUG: Row 88 (Everclear 510) Cell 9 text: /Uploads/a9b0d52c-60ef-486d-a00b-9e6d715e5347.jpg
+2026-06-17 17:50:47,021 - INFO - Extracted: Everclear 510
+2026-06-17 17:50:47,096 - INFO - DEBUG: Row 89 (Gel 500 Ultra) Cell 9 text: /Uploads/f7cdc325-a848-4d3c-9dd8-092958f06c51.jpg
+2026-06-17 17:50:47,625 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 17:50:47,691 - INFO - DEBUG: Row 90 (Akepox Claro) Cell 9 text: /Uploads/15a08ab6-5a1e-4f7e-a7f3-75f5eabf29c2.jpg
+2026-06-17 17:50:48,214 - INFO - Extracted: Akepox Claro
+2026-06-17 17:50:48,281 - INFO - DEBUG: Row 91 (Akepox 1005 (5 liters)) Cell 9 text: /Uploads/d0cd3209-cb7e-400c-b5f8-960225019856.jpg
+2026-06-17 17:50:48,860 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 17:50:48,929 - INFO - DEBUG: Row 92 (Akepox 5010) Cell 9 text: /Uploads/bec703eb-ab33-45a7-bb2f-0527d15319ab.jpg
+2026-06-17 17:50:49,415 - INFO - Extracted: Akepox 5010
+2026-06-17 17:50:49,539 - INFO - DEBUG: Row 93 (Diamond Clear Liquid) Cell 9 text: /Uploads/d5abc0b3-845c-48ec-8747-8a5003489e6f.jpg
+2026-06-17 17:50:50,052 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 17:50:50,116 - INFO - DEBUG: Row 94 (Diamond Clear Gel) Cell 9 text: /Uploads/6bc53e8a-e0aa-47f4-9496-d06367dc025e.jpg
+2026-06-17 17:50:50,609 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 17:50:50,674 - INFO - DEBUG: Row 95 (L Special) Cell 9 text: /Uploads/50faa262-5c74-414e-b64c-fb523a49636f.jpg
+2026-06-17 17:50:51,172 - INFO - Extracted: L Special
+2026-06-17 17:50:51,239 - INFO - DEBUG: Row 96 (Crackbond) Cell 9 text: /Uploads/a7efa15c-2df3-437c-9a0d-784c3becbe89.jpg
+2026-06-17 17:50:51,751 - INFO - Extracted: Crackbond
+2026-06-17 17:50:53,972 - INFO - ====== WebDriver manager ======
+2026-06-17 17:50:55,110 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:50:55,487 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:50:55,827 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 17:50:55,828 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 17:50:56,935 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 17:50:56,963 - INFO - ✓ Chrome driver initialized
+2026-06-17 17:50:56,963 - INFO - Opening login page...
+2026-06-17 17:50:58,373 - INFO -   → Policy checkbox checked on login page
+2026-06-17 17:50:58,455 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 17:51:24,054 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-17 17:51:24,064 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-17 17:51:27,071 - INFO - ✓ Login successful
+2026-06-17 17:51:33,251 - INFO - ✓ Navigated to Product Management
+2026-06-17 17:51:38,041 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:51:41,074 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 17:51:45,763 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:51:48,779 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 17:51:53,447 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:51:56,462 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 17:52:01,179 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:04,206 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 17:52:08,916 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:11,929 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 17:52:16,803 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:19,846 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 17:52:24,655 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:27,693 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 17:52:32,532 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:35,577 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 17:52:40,600 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:43,639 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 17:52:48,577 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:51,623 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 17:52:56,534 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:52:59,564 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 17:53:04,440 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:53:07,481 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 17:53:09,688 - INFO - Browser closed
+2026-06-17 17:53:17,802 - INFO - 
+Task finished at 2026-06-17 17:53:17
+2026-06-17 17:53:17,803 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_173737.log
+

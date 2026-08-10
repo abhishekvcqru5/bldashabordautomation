@@ -1,0 +1,131 @@
+2026-07-01 12:01:14,986 - INFO - User selected: Create User Type
+2026-07-01 12:01:33,148 - INFO - User types to be created: ['Painter', 'Retailer']
+2026-07-01 12:01:33,149 - INFO - ============================================================
+2026-07-01 12:01:33,149 - INFO - STEP 1: Processing and Compressing Images
+2026-07-01 12:01:33,149 - INFO - ============================================================
+2026-07-01 12:01:33,157 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-01 12:01:33,158 - INFO - Output folder: automation\processed_images
+2026-07-01 12:01:33,158 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-01 12:01:33,232 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-01 12:01:33,288 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-01 12:01:33,362 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-07-01 12:01:33,371 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-07-01 12:01:33,419 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-01 12:01:33,454 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-01 12:01:33,485 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-01 12:01:33,511 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-01 12:01:33,529 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-01 12:01:33,565 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-01 12:01:33,593 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-01 12:01:33,624 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-01 12:01:33,665 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-01 12:01:33,698 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-07-01 12:01:33,725 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-01 12:01:33,755 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-01 12:01:33,755 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-01 12:01:33,755 - INFO - ✓ 15 images processed and ready
+
+2026-07-01 12:01:33,755 - INFO - ============================================================
+2026-07-01 12:01:33,756 - INFO - STEP 2: Creating User Types & Uploading Icons
+2026-07-01 12:01:33,756 - INFO - ============================================================
+2026-07-01 12:01:33,765 - INFO - ====== WebDriver manager ======
+2026-07-01 12:01:35,291 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 12:01:35,760 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 12:01:36,114 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 12:01:36,115 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 12:01:38,187 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 12:01:38,189 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 12:01:38,211 - INFO - ✓ Chrome driver initialized
+2026-07-01 12:01:38,212 - INFO - 
+→ Attempting login...
+
+2026-07-01 12:01:38,213 - INFO - Opening login page...
+2026-07-01 12:01:39,473 - INFO -   → Policy checkbox checked on login page
+2026-07-01 12:01:39,542 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 12:01:39,560 - INFO -   → Policy agreement popup detected
+2026-07-01 12:01:39,599 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 12:01:40,123 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 12:01:46,363 - INFO -   → Policy agreement popup detected
+2026-07-01 12:01:46,403 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 12:01:46,928 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 12:01:46,934 - INFO - ✓ Login successful
+2026-07-01 12:01:48,935 - INFO - Going to App Settings...
+2026-07-01 12:01:52,445 - INFO -   → User Type section opened
+2026-07-01 12:01:55,493 - INFO - ✓ User Type page ready
+2026-07-01 12:01:55,493 - INFO - Starting creation of User Type: Painter
+2026-07-01 12:01:57,689 - INFO -     → Entered name: Painter
+2026-07-01 12:01:57,747 - INFO -     → Enabled toggle by text fallback: Scan
+2026-07-01 12:01:57,822 - INFO -     → Enabled toggle by text fallback: Claim Reward
+2026-07-01 12:01:57,883 - INFO -     → Enabled toggle by text fallback: View Point
+2026-07-01 12:01:58,516 - INFO -     → Form submitted
+2026-07-01 12:01:58,539 - INFO - ✓ User Type 'Painter' created successfully!
+
+2026-07-01 12:01:59,540 - INFO - Starting creation of User Type: Retailer
+2026-07-01 12:02:01,820 - INFO -     → Entered name: Retailer
+2026-07-01 12:02:01,890 - INFO -     → Enabled toggle by text fallback: Scan
+2026-07-01 12:02:01,962 - INFO -     → Enabled toggle by text fallback: Claim Reward
+2026-07-01 12:02:02,037 - INFO -     → Enabled toggle by text fallback: View Point
+2026-07-01 12:02:02,674 - INFO -     → Form submitted
+2026-07-01 12:02:02,723 - INFO - ✓ User Type 'Retailer' created successfully!
+
+2026-07-01 12:02:03,724 - INFO - Successfully created user types: ['Painter', 'Retailer']
+2026-07-01 12:02:05,725 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-07-01 12:02:05,725 - INFO - Navigating to App Settings...
+2026-07-01 12:02:11,970 - INFO - ✓ Dashboard Icons section loaded
+2026-07-01 12:02:13,986 - INFO - 
+→ Starting batch upload of 24 icons for 2 user types...
+
+2026-07-01 12:02:13,986 - INFO - Starting batch – 24 configured entries
+2026-07-01 12:02:13,986 - INFO - Total icons to upload after expansion: 24
+2026-07-01 12:02:13,986 - INFO - ============================================================
+2026-07-01 12:02:13,987 - INFO - [1/24]
+2026-07-01 12:02:13,987 - INFO -   Adding: [Painter] Gift  (gift)
+2026-07-01 12:02:26,801 - INFO -     → User type selected by text: Painter
+2026-07-01 12:02:26,878 - INFO -     → Icon identity: gift
+2026-07-01 12:02:27,013 - INFO -     → Display title: Gift
+2026-07-01 12:02:27,036 - INFO -     → Toggle: both
+2026-07-01 12:02:27,038 - WARNING -     ⚠ Image not found: automation/processed_images/Gift.png
+2026-07-01 12:02:29,141 - INFO - [2/24]
+2026-07-01 12:02:29,141 - INFO -   Adding: [Retailer] Gift  (gift)
+2026-07-01 12:02:41,858 - INFO -     → User type selected by text: Retailer
+2026-07-01 12:02:41,922 - INFO -     → Icon identity: gift
+2026-07-01 12:02:42,018 - INFO -     → Display title: Gift
+2026-07-01 12:02:42,043 - INFO -     → Toggle: both
+2026-07-01 12:02:42,043 - WARNING -     ⚠ Image not found: automation/processed_images/Gift.png
+2026-07-01 12:02:44,102 - INFO - [3/24]
+2026-07-01 12:02:44,103 - INFO -   Adding: [Painter] History  (history)
+2026-07-01 12:02:56,844 - INFO -     → User type selected by text: Painter
+2026-07-01 12:02:56,931 - INFO -     → Icon identity: history
+2026-07-01 12:02:57,017 - INFO -     → Display title: History
+2026-07-01 12:02:57,037 - INFO -     → Toggle: both
+2026-07-01 12:02:57,037 - WARNING -     ⚠ Image not found: automation/processed_images/history.png
+2026-07-01 12:02:59,124 - INFO - [4/24]
+2026-07-01 12:02:59,124 - INFO -   Adding: [Retailer] History  (history)
+2026-07-01 12:03:11,444 - INFO -     → User type selected by text: Retailer
+2026-07-01 12:03:11,518 - INFO -     → Icon identity: history
+2026-07-01 12:03:11,660 - INFO -     → Display title: History
+2026-07-01 12:03:11,725 - INFO -     → Toggle: both
+2026-07-01 12:03:11,726 - WARNING -     ⚠ Image not found: automation/processed_images/history.png
+2026-07-01 12:03:13,824 - INFO - [5/24]
+2026-07-01 12:03:13,824 - INFO -   Adding: [Painter] Wallet  (wallet)
+2026-07-01 12:03:26,261 - INFO -     → User type selected by text: Painter
+2026-07-01 12:03:26,344 - INFO -     → Icon identity: wallet
+2026-07-01 12:03:26,456 - INFO -     → Display title: Wallet
+2026-07-01 12:03:26,480 - INFO -     → Toggle: both
+2026-07-01 12:03:26,481 - WARNING -     ⚠ Image not found: automation/processed_images/wallet.png
+2026-07-01 12:03:28,565 - INFO - [6/24]
+2026-07-01 12:03:28,565 - INFO -   Adding: [Retailer] Wallet  (wallet)
+2026-07-01 12:03:41,317 - INFO -     → User type selected by text: Retailer
+2026-07-01 12:03:41,367 - INFO -     → Icon identity: wallet
+2026-07-01 12:03:41,452 - INFO -     → Display title: Wallet
+2026-07-01 12:03:41,471 - INFO -     → Toggle: both
+2026-07-01 12:03:41,471 - WARNING -     ⚠ Image not found: automation/processed_images/wallet.png
+2026-07-01 12:03:43,531 - INFO - [7/24]
+2026-07-01 12:03:43,531 - INFO -   Adding: [Painter] KYC  (kycdetails)
+2026-07-01 12:03:50,035 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/021ffc4c942b4bbaf892a450196dd969
+2026-07-01 12:03:52,065 - INFO - Automation cancelled by user (Ctrl+C)

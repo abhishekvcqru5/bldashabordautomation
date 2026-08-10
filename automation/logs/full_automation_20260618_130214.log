@@ -1,0 +1,305 @@
+2026-06-18 13:03:05,558 - INFO - User selected: Old Dashboard
+2026-06-18 13:03:13,999 - INFO -   Old Dashboard → Brand Setting
+2026-06-18 13:03:14,018 - INFO - ============================================================
+2026-06-18 13:03:14,036 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-18 13:03:14,070 - INFO - ============================================================
+2026-06-18 13:03:14,177 - INFO - ====== WebDriver manager ======
+2026-06-18 13:03:21,315 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:03:22,886 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:03:24,612 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:03:24,613 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:03:28,370 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-06-18 13:03:28,375 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-18 13:03:33,226 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-18 13:03:35,228 - INFO -     → Filling credentials …
+2026-06-18 13:03:35,744 - INFO -       Email → field #login_txt_id
+2026-06-18 13:03:36,019 - INFO -       Password → field #login_txt_pass
+2026-06-18 13:03:36,253 - INFO -       Login button clicked: #btnVendor
+2026-06-18 13:03:36,254 - INFO -     → Waiting for post-login redirect …
+2026-06-18 13:03:38,400 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 13:03:38,401 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-06-18 13:03:52,910 - INFO - 
+[3/4] Extracting brand data …
+2026-06-18 13:03:53,603 - INFO - 
+[4/4] Saving assets to disk …
+2026-06-18 13:03:53,605 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-06-18 13:03:53,607 - INFO -   ↩ Already exists, skipping download: splash.png
+2026-06-18 13:03:53,637 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-06-18 13:03:56,106 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-06-18 13:03:56,131 - INFO - ====== WebDriver manager ======
+2026-06-18 13:03:58,832 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:03:59,845 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:04:00,709 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:04:00,710 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:04:02,411 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 13:04:02,461 - INFO - ✓ Chrome driver initialized
+2026-06-18 13:04:02,462 - INFO - Opening login page...
+2026-06-18 13:04:04,401 - INFO -   → Policy checkbox checked on login page
+2026-06-18 13:04:04,595 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 13:04:04,683 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-18 13:04:04,698 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-18 13:04:07,767 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-18 13:04:07,846 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-18 13:04:16,062 - INFO - ✓ Login successful
+2026-06-18 13:04:16,209 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-06-18 13:04:16,481 - INFO - ✓ Logo  → logo_processed.png  |  43.7 KB  |  PNG lossless
+2026-06-18 13:04:16,616 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-18 13:04:18,563 - INFO - ✓ Splash → splash_processed.png  |  1.07 MB  |  PNG lossless
+2026-06-18 13:04:18,987 - INFO -   Colours extracted from logo:
+2026-06-18 13:04:18,987 - INFO -     Header Color     →  #202080  (dominant logo colour)
+2026-06-18 13:04:18,988 - INFO -     Background Color →  #141453  (35% darker)
+2026-06-18 13:04:18,989 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-18 13:04:18,991 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-18 13:04:19,014 - INFO - Going to App Settings...
+2026-06-18 13:04:25,583 - INFO -   → Identity & Branding section opened
+2026-06-18 13:04:27,784 - INFO -   → Edit Branding popup opened
+2026-06-18 13:04:27,816 - INFO - ✓ Brand setting form is ready
+2026-06-18 13:04:27,817 - INFO -   Setting company name: Lubigen Connect
+2026-06-18 13:04:29,078 - INFO -     → HeaderColor: #202080
+2026-06-18 13:04:29,965 - INFO -     → FooterColor: #F5F5F5
+2026-06-18 13:04:30,899 - INFO -     → BodyColor: #FFFFFF
+2026-06-18 13:04:31,703 - INFO -     → BackgroundColor: #141453
+2026-06-18 13:04:33,838 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-06-18 13:04:36,120 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-18 13:04:36,314 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-18 13:04:39,339 - INFO - ✓ Brand settings saved successfully!
+2026-06-18 13:04:39,346 - INFO - Going to App Settings for Support Network...
+2026-06-18 13:04:42,463 - INFO -   → Support Network section opened
+2026-06-18 13:04:45,544 - INFO -   → Edit Support Network popup opened
+2026-06-18 13:04:47,545 - INFO - ✓ Support Network form is ready
+2026-06-18 13:04:47,787 - INFO -     ✓ phone filled
+2026-06-18 13:04:48,199 - INFO -     ✓ email filled
+2026-06-18 13:04:48,638 - INFO -     ✓ website filled
+2026-06-18 13:04:49,450 - INFO -     ✓ terms_conditions filled
+2026-06-18 13:04:51,053 - INFO -     ✓ support_content filled
+2026-06-18 13:04:52,082 - INFO -     ✓ privacy_policy filled
+2026-06-18 13:04:53,181 - INFO -   → Save clicked
+2026-06-18 13:04:56,182 - INFO - ✓ Support Network saved successfully!
+2026-06-18 13:04:59,470 - INFO - Browser closed
+2026-06-18 13:05:03,540 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56418): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/1c6178c48f810958de47b87082eb6328
+2026-06-18 13:05:07,606 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56418): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/1c6178c48f810958de47b87082eb6328
+2026-06-18 13:05:11,668 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=56418): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/1c6178c48f810958de47b87082eb6328
+2026-06-18 13:05:19,805 - INFO -   Browser closed
+2026-06-18 13:05:19,807 - INFO - 
+Task finished at 2026-06-18 13:05:19
+2026-06-18 13:05:19,808 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_130214.log
+
+2026-06-18 13:06:10,431 - INFO - User selected: Old Dashboard
+2026-06-18 13:06:13,143 - INFO -   Old Dashboard → Banner BL
+2026-06-18 13:06:13,143 - INFO - ============================================================
+2026-06-18 13:06:13,143 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-06-18 13:06:13,144 - INFO - ============================================================
+2026-06-18 13:06:13,174 - INFO - ====== WebDriver manager ======
+2026-06-18 13:06:16,213 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:06:25,343 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:06:26,495 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:06:26,500 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:06:29,953 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-18 13:06:34,451 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-18 13:06:34,811 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-18 13:06:37,812 - INFO -   → Filling Vendor credentials...
+2026-06-18 13:06:38,303 - INFO -     - Email entered: chandranvenus@gmail.com
+2026-06-18 13:06:38,303 - INFO -     - Clicking 'login' button...
+2026-06-18 13:06:38,331 - INFO -   → Waiting for successful login redirect...
+2026-06-18 13:06:41,571 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 13:06:41,579 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-18 13:06:46,693 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-18 13:06:46,723 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-18 13:06:49,801 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-06-18 13:06:56,968 - INFO -   → Searching for banner images data...
+2026-06-18 13:06:57,110 - INFO -     ✓ Found 3 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-06-18 13:06:57,113 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner%20copy.png
+2026-06-18 13:06:58,490 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner-Hindi.png
+2026-06-18 13:06:59,891 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/kdkdcash-transfer.jpg
+2026-06-18 13:07:04,289 - INFO - ✓ Extracted 3 banners.
+2026-06-18 13:07:04,290 - INFO - 
+============================================================
+2026-06-18 13:07:04,290 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-06-18 13:07:04,291 - INFO - ============================================================
+2026-06-18 13:07:04,826 - INFO -   ⚙ Processing old_banner_1_20260618_130657.jpg  (Cannot read: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_1_20260618_130657.jpg')
+2026-06-18 13:07:04,827 - ERROR -   Processing error for old_banner_1_20260618_130657.jpg: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_1_20260618_130657.jpg'
+2026-06-18 13:07:05,087 - INFO -   ⚙ Processing old_banner_2_20260618_130658.jpg  (Cannot read: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_2_20260618_130658.jpg')
+2026-06-18 13:07:05,088 - ERROR -   Processing error for old_banner_2_20260618_130658.jpg: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_2_20260618_130658.jpg'
+2026-06-18 13:07:05,130 - INFO -   ⚙ Processing old_banner_3_20260618_130659.jpg  (size 1280×1280 → need 1920×1080)
+2026-06-18 13:07:05,307 - INFO -   ✓ old_banner_3_20260618_130659.jpg  →  old_banner_3_20260618_130659_processed.jpg  |  1920×1080  |  0.26 MB  |  quality 92
+2026-06-18 13:07:05,309 - INFO - 
+============================================================
+2026-06-18 13:07:05,309 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-06-18 13:07:05,310 - INFO - ============================================================
+2026-06-18 13:07:05,413 - INFO - ====== WebDriver manager ======
+2026-06-18 13:07:07,486 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:07:08,269 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:07:08,908 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:07:08,909 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:07:10,166 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 13:07:10,201 - INFO - ✓ Chrome driver initialized
+2026-06-18 13:07:10,202 - INFO - Opening login page...
+2026-06-18 13:07:12,025 - INFO -   → Policy checkbox checked on login page
+2026-06-18 13:07:12,178 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 13:07:45,549 - INFO - ✓ Login successful
+2026-06-18 13:07:45,550 - INFO - Going to App Settings...
+2026-06-18 13:07:51,962 - INFO -   → Promotion Banners section opened
+2026-06-18 13:07:51,978 - INFO - ✓ Promotion Banners page ready
+2026-06-18 13:07:51,978 - INFO - Starting batch  —  1 banner(s) to publish
+2026-06-18 13:07:51,979 - INFO - ============================================================
+2026-06-18 13:07:51,979 - INFO - [1/1]
+2026-06-18 13:07:51,979 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260618_130659_processed.jpg)
+2026-06-18 13:07:54,287 - INFO -     → Title entered: old_banner_3
+2026-06-18 13:07:56,369 - INFO -     → Image uploaded: old_banner_3_20260618_130659_processed.jpg
+2026-06-18 13:07:56,515 - INFO -     → Publish Banner clicked
+2026-06-18 13:08:00,534 - INFO -   ✓ Banner published: old_banner_3
+
+2026-06-18 13:08:01,536 - INFO - ============================================================
+2026-06-18 13:08:01,536 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-06-18 13:08:03,838 - INFO - Browser closed
+2026-06-18 13:08:11,940 - INFO - 
+Task finished at 2026-06-18 13:08:11
+2026-06-18 13:08:11,940 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_130214.log
+
+2026-06-18 13:11:50,306 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-18 13:11:50,307 - INFO - ============================================================
+2026-06-18 13:11:50,307 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-18 13:11:50,307 - INFO - ============================================================
+2026-06-18 13:11:50,318 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 13:11:50,318 - INFO - Output folder: automation\processed_images
+2026-06-18 13:11:50,318 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 13:11:50,363 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 13:11:50,426 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 13:11:50,494 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 13:11:50,507 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 13:11:50,576 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 13:11:50,646 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 13:11:50,701 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 13:11:50,746 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 13:11:50,792 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 13:11:50,835 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 13:11:50,865 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 13:11:50,930 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 13:11:50,975 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 13:11:51,024 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 13:11:51,092 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 13:11:51,141 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 13:11:51,184 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 13:11:51,231 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 13:11:51,272 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 13:11:51,273 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 13:11:51,274 - INFO - ✓ 18 images processed successfully.
+
+2026-06-18 13:12:00,545 - INFO - Target User Type: Electrician
+2026-06-18 13:12:00,623 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-18 13:12:00,625 - INFO -   → Extracted Title: Activity
+2026-06-18 13:12:00,630 - INFO -   → Matched Identity: codedetails
+2026-06-18 13:12:00,644 - INFO -   → Extracted Color: #F86008
+2026-06-18 13:12:00,644 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,678 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-18 13:12:00,678 - INFO -   → Extracted Title: E-Warranty
+2026-06-18 13:12:00,679 - INFO -   → Matched Identity: e-warrant
+2026-06-18 13:12:00,679 - INFO -   → Extracted Color: #20C078
+2026-06-18 13:12:00,679 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,703 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-18 13:12:00,704 - INFO -   → Extracted Title: ecommerce
+2026-06-18 13:12:00,704 - INFO -   → Matched Identity: gift
+2026-06-18 13:12:00,705 - INFO -   → Extracted Color: #A0E0F8
+2026-06-18 13:12:00,706 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,733 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-18 13:12:00,733 - INFO -   → Extracted Title: Installation Guide
+2026-06-18 13:12:00,734 - INFO -   → Matched Identity: instalment
+2026-06-18 13:12:00,734 - INFO -   → Extracted Color: #089098
+2026-06-18 13:12:00,734 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,760 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-18 13:12:00,764 - INFO -   → Extracted Title: KYC
+2026-06-18 13:12:00,764 - INFO -   → Matched Identity: kycdetails
+2026-06-18 13:12:00,765 - INFO -   → Extracted Color: #F85808
+2026-06-18 13:12:00,765 - INFO -   → Toggle Option: side menu
+2026-06-18 13:12:00,799 - INFO - Dynamically mapped image 'Language.png':
+2026-06-18 13:12:00,799 - INFO -   → Extracted Title: Language
+2026-06-18 13:12:00,800 - INFO -   → Matched Identity: chooselanguage
+2026-06-18 13:12:00,800 - INFO -   → Extracted Color: #5010E8
+2026-06-18 13:12:00,800 - INFO -   → Toggle Option: side menu
+2026-06-18 13:12:00,829 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-18 13:12:00,829 - INFO -   → Extracted Title: My Wallet
+2026-06-18 13:12:00,830 - INFO -   → Matched Identity: wallet
+2026-06-18 13:12:00,830 - INFO -   → Extracted Color: #20A020
+2026-06-18 13:12:00,830 - INFO -   → Toggle Option: both
+2026-06-18 13:12:00,852 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-18 13:12:00,853 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-18 13:12:00,853 - INFO -   → Matched Identity: retailer
+2026-06-18 13:12:00,853 - INFO -   → Extracted Color: #F87010
+2026-06-18 13:12:00,853 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,880 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-18 13:12:00,881 - INFO -   → Extracted Title: Product Catalog
+2026-06-18 13:12:00,881 - INFO -   → Matched Identity: productcatalogue
+2026-06-18 13:12:00,881 - INFO -   → Extracted Color: #6028E8
+2026-06-18 13:12:00,882 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,904 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-18 13:12:00,906 - INFO -   → Extracted Title: Prospectus
+2026-06-18 13:12:00,907 - INFO -   → Matched Identity: brochure
+2026-06-18 13:12:00,907 - INFO -   → Extracted Color: #0848F8
+2026-06-18 13:12:00,908 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:00,937 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-18 13:12:00,937 - INFO -   → Extracted Title: Refer & Earn
+2026-06-18 13:12:00,937 - INFO -   → Matched Identity: referandearn
+2026-06-18 13:12:00,938 - INFO -   → Extracted Color: #089098
+2026-06-18 13:12:00,938 - INFO -   → Toggle Option: both
+2026-06-18 13:12:00,967 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-18 13:12:00,967 - INFO -   → Extracted Title: Rewards
+2026-06-18 13:12:00,967 - INFO -   → Matched Identity: gift
+2026-06-18 13:12:00,967 - INFO -   → Extracted Color: #F00048
+2026-06-18 13:12:00,968 - INFO -   → Toggle Option: both
+2026-06-18 13:12:00,993 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-18 13:12:00,993 - INFO -   → Extracted Title: Scan Activity
+2026-06-18 13:12:00,994 - INFO -   → Matched Identity: codedetails
+2026-06-18 13:12:00,994 - INFO -   → Extracted Color: #10A010
+2026-06-18 13:12:00,994 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:01,019 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-18 13:12:01,019 - INFO -   → Extracted Title: Scan History
+2026-06-18 13:12:01,019 - INFO -   → Matched Identity: history
+2026-06-18 13:12:01,020 - INFO -   → Extracted Color: #4808F0
+2026-06-18 13:12:01,020 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:01,050 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-18 13:12:01,050 - INFO -   → Extracted Title: Send Points
+2026-06-18 13:12:01,051 - INFO -   → Matched Identity: transferpoints
+2026-06-18 13:12:01,051 - INFO -   → Extracted Color: #F86008
+2026-06-18 13:12:01,051 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:01,079 - INFO - Dynamically mapped image 'Support.png':
+2026-06-18 13:12:01,080 - INFO -   → Extracted Title: Support
+2026-06-18 13:12:01,080 - INFO -   → Matched Identity: help
+2026-06-18 13:12:01,080 - INFO -   → Extracted Color: #0030F0
+2026-06-18 13:12:01,080 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:01,111 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-18 13:12:01,111 - INFO -   → Extracted Title: TDS
+2026-06-18 13:12:01,111 - INFO -   → Matched Identity: tds
+2026-06-18 13:12:01,111 - INFO -   → Extracted Color: #20C880
+2026-06-18 13:12:01,112 - INFO -   → Toggle Option: side menu
+2026-06-18 13:12:01,133 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-18 13:12:01,133 - INFO -   → Extracted Title: Updates
+2026-06-18 13:12:01,134 - INFO -   → Matched Identity: blog
+2026-06-18 13:12:01,135 - INFO -   → Extracted Color: #F87820
+2026-06-18 13:12:01,135 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:12:01,135 - INFO - 
+============================================================
+2026-06-18 13:12:01,135 - INFO - Launching Browser and Starting Upload Process
+2026-06-18 13:12:01,135 - INFO - ============================================================
+2026-06-18 13:12:01,153 - INFO - ====== WebDriver manager ======
+2026-06-18 13:12:02,689 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:12:03,185 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:12:03,635 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:12:03,636 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:12:04,968 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 13:12:05,034 - INFO - ✓ Chrome driver initialized
+2026-06-18 13:12:05,035 - INFO - 
+→ Attempting login...
+
+2026-06-18 13:12:05,035 - INFO - Opening login page...
+2026-06-18 13:12:06,615 - INFO -   → Policy checkbox checked on login page
+2026-06-18 13:12:06,758 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 13:12:06,848 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-18 13:12:06,863 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-18 13:12:40,061 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/f43bda9a10f727a8bd04befc2c4cafa1
+2026-06-18 13:12:44,107 - INFO - Automation cancelled by user (Ctrl+C)

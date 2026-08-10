@@ -1,0 +1,126 @@
+2026-06-12 12:17:10,354 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-12 12:17:10,355 - INFO - ============================================================
+2026-06-12 12:17:10,355 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-12 12:17:10,355 - INFO - ============================================================
+2026-06-12 12:17:10,370 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-12 12:17:10,371 - INFO - Output folder: automation\processed_images
+2026-06-12 12:17:10,371 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-12 12:17:10,551 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-12 12:17:10,650 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-12 12:17:10,757 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-12 12:17:10,855 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-12 12:17:10,932 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-12 12:17:11,003 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-12 12:17:11,078 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-12 12:17:11,145 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-12 12:17:11,210 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-12 12:17:11,292 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-12 12:17:11,354 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-12 12:17:11,430 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-12 12:17:11,531 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-12 12:17:11,605 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-12 12:17:11,677 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-12 12:17:11,756 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-12 12:17:11,825 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-12 12:17:11,828 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-12 12:17:11,828 - INFO - ✓ 17 images processed successfully.
+
+2026-06-12 12:20:19,382 - INFO - Target User Type: all
+2026-06-12 12:20:20,303 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-12 12:20:20,304 - INFO -   → Extracted Title: Activity
+2026-06-12 12:20:20,304 - INFO -   → Matched Identity: codedetails
+2026-06-12 12:20:20,304 - INFO -   → Extracted Color: #F86008
+2026-06-12 12:20:20,305 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:20,549 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-12 12:20:20,550 - INFO -   → Extracted Title: E-Warranty
+2026-06-12 12:20:20,550 - INFO -   → Matched Identity: e-warrant
+2026-06-12 12:20:20,550 - INFO -   → Extracted Color: #20C078
+2026-06-12 12:20:20,550 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:20,916 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-12 12:20:21,042 - INFO -   → Extracted Title: Installation Guide
+2026-06-12 12:20:21,044 - INFO -   → Matched Identity: instalment
+2026-06-12 12:20:21,044 - INFO -   → Extracted Color: #089098
+2026-06-12 12:20:21,045 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:21,085 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-12 12:20:21,085 - INFO -   → Extracted Title: KYC
+2026-06-12 12:20:21,086 - INFO -   → Matched Identity: kycdetails
+2026-06-12 12:20:21,086 - INFO -   → Extracted Color: #F85808
+2026-06-12 12:20:21,086 - INFO -   → Toggle Option: side menu
+2026-06-12 12:20:21,430 - INFO - Dynamically mapped image 'Language.png':
+2026-06-12 12:20:21,431 - INFO -   → Extracted Title: Language
+2026-06-12 12:20:21,431 - INFO -   → Matched Identity: chooselanguage
+2026-06-12 12:20:21,431 - INFO -   → Extracted Color: #5010E8
+2026-06-12 12:20:21,431 - INFO -   → Toggle Option: side menu
+2026-06-12 12:20:21,466 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-12 12:20:21,671 - INFO -   → Extracted Title: My Wallet
+2026-06-12 12:20:21,672 - INFO -   → Matched Identity: wallet
+2026-06-12 12:20:21,672 - INFO -   → Extracted Color: #20A020
+2026-06-12 12:20:21,672 - INFO -   → Toggle Option: both
+2026-06-12 12:20:21,711 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-12 12:20:21,712 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-12 12:20:21,712 - INFO -   → Matched Identity: retailer
+2026-06-12 12:20:21,712 - INFO -   → Extracted Color: #F87010
+2026-06-12 12:20:21,712 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:21,898 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-12 12:20:22,111 - INFO -   → Extracted Title: Product Catalog
+2026-06-12 12:20:22,286 - INFO -   → Matched Identity: productcatalogue
+2026-06-12 12:20:22,604 - INFO -   → Extracted Color: #6028E8
+2026-06-12 12:20:22,781 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:23,250 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-12 12:20:23,324 - INFO -   → Extracted Title: Prospectus
+2026-06-12 12:20:23,386 - INFO -   → Matched Identity: brochure
+2026-06-12 12:20:23,450 - INFO -   → Extracted Color: #0848F8
+2026-06-12 12:20:23,514 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:25,020 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-12 12:20:25,145 - INFO -   → Extracted Title: Refer & Earn
+2026-06-12 12:20:25,281 - INFO -   → Matched Identity: referandearn
+2026-06-12 12:20:25,285 - INFO -   → Extracted Color: #089098
+2026-06-12 12:20:25,469 - INFO -   → Toggle Option: both
+2026-06-12 12:20:26,059 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-12 12:20:26,059 - INFO -   → Extracted Title: Rewards
+2026-06-12 12:20:26,060 - INFO -   → Matched Identity: gift
+2026-06-12 12:20:26,060 - INFO -   → Extracted Color: #F00048
+2026-06-12 12:20:26,060 - INFO -   → Toggle Option: both
+2026-06-12 12:20:26,235 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-12 12:20:26,283 - INFO -   → Extracted Title: Scan Activity
+2026-06-12 12:20:26,284 - INFO -   → Matched Identity: codedetails
+2026-06-12 12:20:26,285 - INFO -   → Extracted Color: #10A010
+2026-06-12 12:20:26,285 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:26,668 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-12 12:20:26,737 - INFO -   → Extracted Title: Scan History
+2026-06-12 12:20:26,738 - INFO -   → Matched Identity: history
+2026-06-12 12:20:26,738 - INFO -   → Extracted Color: #4808F0
+2026-06-12 12:20:26,738 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:26,932 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-12 12:20:26,933 - INFO -   → Extracted Title: Send Points
+2026-06-12 12:20:26,933 - INFO -   → Matched Identity: transferpoints
+2026-06-12 12:20:26,934 - INFO -   → Extracted Color: #F86008
+2026-06-12 12:20:26,934 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:27,118 - INFO - Dynamically mapped image 'Support.png':
+2026-06-12 12:20:27,267 - INFO -   → Extracted Title: Support
+2026-06-12 12:20:27,316 - INFO -   → Matched Identity: help
+2026-06-12 12:20:27,415 - INFO -   → Extracted Color: #0030F0
+2026-06-12 12:20:27,416 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:27,453 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-12 12:20:27,454 - INFO -   → Extracted Title: TDS
+2026-06-12 12:20:27,454 - INFO -   → Matched Identity: tds
+2026-06-12 12:20:27,454 - INFO -   → Extracted Color: #20C880
+2026-06-12 12:20:27,454 - INFO -   → Toggle Option: side menu
+2026-06-12 12:20:27,622 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-12 12:20:27,703 - INFO -   → Extracted Title: Updates
+2026-06-12 12:20:27,925 - INFO -   → Matched Identity: blog
+2026-06-12 12:20:27,927 - INFO -   → Extracted Color: #F87820
+2026-06-12 12:20:27,927 - INFO -   → Toggle Option: dashboard only
+2026-06-12 12:20:27,928 - INFO - 
+============================================================
+2026-06-12 12:20:27,928 - INFO - Launching Browser and Starting Upload Process
+2026-06-12 12:20:27,929 - INFO - ============================================================
+2026-06-12 12:20:27,987 - INFO - ====== WebDriver manager ======
+2026-06-12 12:20:59,699 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 12:21:03,067 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 12:21:04,484 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 12:21:04,487 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 12:21:08,058 - INFO - Automation cancelled by user (Ctrl+C)

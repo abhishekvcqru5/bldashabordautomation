@@ -1,0 +1,118 @@
+2026-06-10 10:59:19,634 - INFO - User selected: Brand Setting
+2026-06-10 10:59:27,703 - INFO -   Found logo asset: logo.png
+2026-06-10 10:59:27,704 - INFO -   Found splash asset: splash.png
+2026-06-10 10:59:27,704 - INFO - ============================================================
+2026-06-10 10:59:27,704 - INFO - BRAND SETTING — Image Processing
+2026-06-10 10:59:27,704 - INFO - ============================================================
+2026-06-10 10:59:27,840 - INFO - ✓ Logo  → logo_processed.jpg  |  69.2 KB  |  JPEG q95
+2026-06-10 10:59:27,875 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-10 10:59:28,373 - INFO - ✓ Splash → splash_processed.png  |  0.26 MB  |  PNG lossless
+2026-06-10 10:59:28,378 - INFO - 
+2026-06-10 10:59:28,378 - INFO - Extracting brand colours from logo...
+2026-06-10 10:59:28,996 - INFO -   Colours extracted from logo:
+2026-06-10 10:59:28,997 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-06-10 10:59:28,997 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-06-10 10:59:28,997 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-10 10:59:28,998 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-10 10:59:29,033 - INFO - ✓ Both images ready
+
+2026-06-10 10:59:29,034 - INFO - ============================================================
+2026-06-10 10:59:29,034 - INFO - BRAND SETTING — Browser Automation
+2026-06-10 10:59:29,035 - INFO - ============================================================
+2026-06-10 10:59:29,056 - INFO - ====== WebDriver manager ======
+2026-06-10 10:59:31,880 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 10:59:33,069 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 10:59:34,217 - INFO - There is no [win64] chromedriver "149.0.7827.55" for browser google-chrome "149.0.7827" in cache
+2026-06-10 10:59:34,224 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 10:59:36,780 - INFO - WebDriver version 149.0.7827.55 selected
+2026-06-10 10:59:36,813 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win32/chromedriver-win32.zip
+2026-06-10 10:59:36,814 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win32/chromedriver-win32.zip
+2026-06-10 10:59:37,969 - INFO - Driver downloading response is 200
+2026-06-10 10:59:52,267 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 10:59:53,232 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55]
+2026-06-10 10:59:53,320 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-10 10:59:56,837 - INFO - ✓ Chrome driver initialized
+2026-06-10 10:59:56,837 - INFO - Opening login page...
+2026-06-10 10:59:59,495 - INFO -   → Policy checkbox checked on login page
+2026-06-10 10:59:59,685 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-10 11:00:08,049 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-10 11:00:08,164 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-10 11:00:08,301 - INFO - ✓ Login successful
+2026-06-10 11:00:10,306 - INFO - Going to App Settings...
+2026-06-10 11:00:18,536 - INFO -   → Identity & Branding section opened
+2026-06-10 11:00:20,692 - INFO -   → Edit Branding popup opened
+2026-06-10 11:00:20,775 - INFO - ✓ Brand setting form is ready
+2026-06-10 11:00:20,776 - INFO -   Setting company name: VCQRU
+2026-06-10 11:00:22,066 - INFO -     → HeaderColor: #F00000
+2026-06-10 11:00:23,584 - INFO -     → FooterColor: #F5F5F5
+2026-06-10 11:00:24,955 - INFO -     → BodyColor: #FFFFFF
+2026-06-10 11:00:26,199 - INFO -     → BackgroundColor: #9C0000
+2026-06-10 11:00:28,532 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-10 11:00:30,627 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-10 11:00:31,217 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-10 11:00:34,359 - INFO - ✓ Brand settings saved successfully!
+2026-06-10 11:00:37,124 - INFO - Browser closed
+2026-06-10 11:00:41,194 - INFO - 
+Task finished at 2026-06-10 11:00:41
+2026-06-10 11:00:41,195 - INFO - Log: automation\logs\full_automation_20260610_105856.log
+
+2026-06-10 11:02:11,615 - INFO - User selected: Promotion Banners
+2026-06-10 11:02:11,615 - INFO - ============================================================
+2026-06-10 11:02:11,616 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-10 11:02:11,616 - INFO - ============================================================
+2026-06-10 11:02:11,617 - INFO - Found 3 banner image(s) in banner/
+2026-06-10 11:02:11,633 - INFO -   ⚙ Processing 1980a5d7-60f8-4684-a8c6-d028bf4e8cce.png  (size 1774×887 → need 1920×1080)
+2026-06-10 11:02:11,765 - INFO -   ✓ 1980a5d7-60f8-4684-a8c6-d028bf4e8cce.png  →  1980a5d7-60f8-4684-a8c6-d028bf4e8cce_processed.jpg  |  1920×1080  |  0.32 MB  |  quality 92
+2026-06-10 11:02:11,792 - INFO -   ⚙ Processing 31a897d2-985d-4b54-bd77-4041f3180b17.png  (size 1672×941 → need 1920×1080)
+2026-06-10 11:02:11,911 - INFO -   ✓ 31a897d2-985d-4b54-bd77-4041f3180b17.png  →  31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg  |  1920×1080  |  0.38 MB  |  quality 92
+2026-06-10 11:02:11,937 - INFO -   ⚙ Processing a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  (size 1672×941 → need 1920×1080)
+2026-06-10 11:02:12,117 - INFO -   ✓ a7cdebac-70ec-4c91-ae9f-7f202d2a43ff.png  →  a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg  |  1920×1080  |  0.39 MB  |  quality 92
+2026-06-10 11:02:12,118 - INFO - 
+  Processed 3/3 banners successfully
+
+2026-06-10 11:02:12,119 - INFO - ============================================================
+2026-06-10 11:02:12,120 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-10 11:02:12,120 - INFO - ============================================================
+2026-06-10 11:02:12,145 - INFO - ====== WebDriver manager ======
+2026-06-10 11:02:14,819 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 11:02:23,485 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 11:02:25,438 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-10 11:02:25,438 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-10 11:02:27,006 - INFO - ✓ Chrome driver initialized
+2026-06-10 11:02:27,013 - INFO - Opening login page...
+2026-06-10 11:02:30,891 - INFO -   → Policy checkbox checked on login page
+2026-06-10 11:02:31,236 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-10 11:02:49,385 - INFO - ✓ Login successful
+2026-06-10 11:02:51,385 - INFO - Going to App Settings...
+2026-06-10 11:02:58,151 - INFO -   → Promotion Banners section opened
+2026-06-10 11:02:58,180 - INFO - ✓ Promotion Banners page ready
+2026-06-10 11:02:58,181 - INFO - Starting batch  —  3 banner(s) to publish
+2026-06-10 11:02:58,181 - INFO - ============================================================
+2026-06-10 11:02:58,181 - INFO - [1/3]
+2026-06-10 11:02:58,182 - INFO -   Publishing: [1980a5d7-60f8-4684-a8c6-d028bf4e8cce]  (1980a5d7-60f8-4684-a8c6-d028bf4e8cce_processed.jpg)
+2026-06-10 11:03:01,373 - INFO -     → Title entered: 1980a5d7-60f8-4684-a8c6-d028bf4e8cce
+2026-06-10 11:03:03,538 - INFO -     → Image uploaded: 1980a5d7-60f8-4684-a8c6-d028bf4e8cce_processed.jpg
+2026-06-10 11:03:03,801 - INFO -     → Publish Banner clicked
+2026-06-10 11:03:07,852 - INFO -   ✓ Banner published: 1980a5d7-60f8-4684-a8c6-d028bf4e8cce
+
+2026-06-10 11:03:08,853 - INFO - [2/3]
+2026-06-10 11:03:08,855 - INFO -   Publishing: [31a897d2-985d-4b54-bd77-4041f3180b17]  (31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg)
+2026-06-10 11:03:11,258 - INFO -     → Title entered: 31a897d2-985d-4b54-bd77-4041f3180b17
+2026-06-10 11:03:13,401 - INFO -     → Image uploaded: 31a897d2-985d-4b54-bd77-4041f3180b17_processed.jpg
+2026-06-10 11:03:13,616 - INFO -     → Publish Banner clicked
+2026-06-10 11:03:17,772 - INFO -   ✓ Banner published: 31a897d2-985d-4b54-bd77-4041f3180b17
+
+2026-06-10 11:03:18,773 - INFO - [3/3]
+2026-06-10 11:03:18,773 - INFO -   Publishing: [a7cdebac-70ec-4c91-ae9f-7f202d2a43ff]  (a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg)
+2026-06-10 11:03:21,212 - INFO -     → Title entered: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff
+2026-06-10 11:03:23,257 - INFO -     → Image uploaded: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff_processed.jpg
+2026-06-10 11:03:23,749 - INFO -     → Publish Banner clicked
+2026-06-10 11:03:27,765 - INFO -   ✓ Banner published: a7cdebac-70ec-4c91-ae9f-7f202d2a43ff
+
+2026-06-10 11:03:28,767 - INFO - ============================================================
+2026-06-10 11:03:28,767 - INFO - Banners done  →  ✓ 3 published   ✗ 0 failed
+2026-06-10 11:03:31,150 - INFO - Browser closed
+2026-06-10 11:03:35,194 - INFO - 
+Task finished at 2026-06-10 11:03:35
+2026-06-10 11:03:35,194 - INFO - Log: automation\logs\full_automation_20260610_105856.log
+

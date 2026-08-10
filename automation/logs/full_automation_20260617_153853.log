@@ -1,0 +1,27 @@
+2026-06-17 15:39:50,968 - INFO - User selected: Promotion Banners
+2026-06-17 15:39:50,969 - INFO - ============================================================
+2026-06-17 15:39:50,970 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-17 15:39:50,970 - INFO - ============================================================
+2026-06-17 15:39:50,973 - INFO - Found 2 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-17 15:39:51,029 - INFO -   ⚙ Processing 6b957a72-bc31-4979-9180-b20c263be38b.png  (size 1717×916 → need 1920×1080)
+2026-06-17 15:39:51,396 - INFO -   ✓ 6b957a72-bc31-4979-9180-b20c263be38b.png  →  6b957a72-bc31-4979-9180-b20c263be38b_processed.jpg  |  1920×1080  |  0.43 MB  |  quality 92
+2026-06-17 15:39:51,400 - INFO -   ⚙ Processing be65ac88-ebbb-478f-8b9f-1a473b087814.png  (size 1693×929 → need 1920×1080)
+2026-06-17 15:39:51,580 - INFO -   ✓ be65ac88-ebbb-478f-8b9f-1a473b087814.png  →  be65ac88-ebbb-478f-8b9f-1a473b087814_processed.jpg  |  1920×1080  |  0.46 MB  |  quality 92
+2026-06-17 15:39:51,582 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-06-17 15:39:51,583 - INFO - ============================================================
+2026-06-17 15:39:51,584 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-17 15:39:51,584 - INFO - ============================================================
+2026-06-17 15:39:51,607 - INFO - ====== WebDriver manager ======
+2026-06-17 15:39:54,835 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 15:39:55,861 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 15:39:56,591 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 15:39:56,592 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 15:40:00,000 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 15:40:00,066 - INFO - ✓ Chrome driver initialized
+2026-06-17 15:40:00,078 - INFO - Opening login page...
+2026-06-17 15:40:02,490 - INFO -   → Policy checkbox checked on login page
+2026-06-17 15:40:02,692 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 15:40:16,283 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/64a5d765e396bcb34799356e4da0e575
+2026-06-17 15:40:22,415 - INFO - Automation cancelled by user (Ctrl+C)

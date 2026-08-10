@@ -1,0 +1,195 @@
+2026-07-09 18:43:00,322 - INFO - User selected: Ambica Cable Product Catalogue
+2026-07-09 18:43:00,322 - INFO - ============================================================
+2026-07-09 18:43:00,322 - INFO - STARTING AMBICA CABLE PRODUCT CATALOGUE UPLOAD (Option 21)
+2026-07-09 18:43:00,323 - INFO - ============================================================
+2026-07-09 18:43:00,323 - INFO - Fetching data from https://docs.google.com/spreadsheets/d/11t59mHI3fHS-aqdQZ9IXtKJvEQOtIi5BdYgsQNj3mUE/export?format=csv
+2026-07-09 18:43:01,152 - INFO - Successfully fetched 26 rows.
+2026-07-09 18:43:01,162 - INFO - ====== WebDriver manager ======
+2026-07-09 18:43:02,518 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-09 18:43:02,901 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-09 18:43:03,319 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-09 18:43:03,320 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-09 18:43:04,438 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-09 18:43:04,440 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-09 18:43:04,476 - INFO - ✓ Chrome driver initialized
+2026-07-09 18:43:04,476 - INFO - Opening login page...
+2026-07-09 18:43:05,690 - INFO -   → Policy checkbox checked on login page
+2026-07-09 18:43:05,809 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-09 18:43:05,828 - INFO -   → Policy agreement popup detected
+2026-07-09 18:43:05,866 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-09 18:43:06,387 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-09 18:43:17,736 - INFO - ✓ Login successful
+2026-07-09 18:43:19,737 - INFO - Navigating to Product Catalogue...
+2026-07-09 18:43:25,175 - INFO - 
+Processing Product [1/26]: 14/40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-09 18:43:28,367 - WARNING - No image found for product '14/40  x 2 core white parallel wire 90 mtr, 25 coil bag packing' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:43:28,367 - WARNING - Skipping image upload for 14/40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-09 18:43:29,709 - INFO - Clicking Publish button...
+2026-07-09 18:43:33,809 - INFO - Successfully processed: 14/40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-09 18:43:35,810 - INFO - 
+Processing Product [2/26]: 23/76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-09 18:43:38,948 - WARNING - No image found for product '23/76 twisted flexible wire 90 mtr, 20 coils bag packing' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:43:38,948 - WARNING - Skipping image upload for 23/76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-09 18:43:40,315 - INFO - Clicking Publish button...
+2026-07-09 18:43:44,404 - INFO - Successfully processed: 23/76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-09 18:43:46,405 - INFO - 
+Processing Product [3/26]: 14/76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-09 18:43:49,545 - WARNING - No image found for product '14/76 twisted flexible wire 90 mtr, 25 coils bag packing' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:43:49,545 - WARNING - Skipping image upload for 14/76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-09 18:43:50,844 - INFO - Clicking Publish button...
+2026-07-09 18:43:54,935 - INFO - Successfully processed: 14/76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-09 18:43:56,936 - INFO - 
+Processing Product [4/26]: 23/40 x 2 core speaker wire 90 mtr, 25 coils bag packing
+2026-07-09 18:44:00,080 - WARNING - No image found for product '23/40 x 2 core speaker wire 90 mtr, 25 coils bag packing' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:44:00,080 - WARNING - Skipping image upload for 23/40 x 2 core speaker wire 90 mtr, 25 coils bag packing
+2026-07-09 18:44:01,391 - INFO - Clicking Publish button...
+2026-07-09 18:44:05,513 - INFO - Successfully processed: 23/40 x 2 core speaker wire 90 mtr, 25 coils bag packing
+2026-07-09 18:44:07,515 - INFO - 
+Processing Product [5/26]: RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR
+2026-07-09 18:44:10,649 - WARNING - No image found for product 'RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:44:10,650 - WARNING - Skipping image upload for RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR
+2026-07-09 18:44:11,773 - INFO - Clicking Publish button...
+2026-07-09 18:44:15,892 - INFO - Successfully processed: RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR
+2026-07-09 18:44:17,893 - INFO - 
+Processing Product [6/26]: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-09 18:44:21,020 - WARNING - No image found for product '10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:44:21,021 - WARNING - Skipping image upload for 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-09 18:44:22,175 - INFO - Clicking Publish button...
+2026-07-09 18:44:26,290 - INFO - Successfully processed: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-09 18:44:28,291 - INFO - 
+Processing Product [7/26]: 6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:31,415 - WARNING - No image found for product '6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:44:31,415 - WARNING - Skipping image upload for 6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:32,474 - INFO - Clicking Publish button...
+2026-07-09 18:44:36,564 - INFO - Successfully processed: 6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:38,566 - INFO - 
+Processing Product [8/26]: 4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:41,706 - WARNING - No image found for product '4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:44:41,706 - WARNING - Skipping image upload for 4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:42,769 - INFO - Clicking Publish button...
+2026-07-09 18:44:46,857 - INFO - Successfully processed: 4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:48,859 - INFO - 
+Processing Product [9/26]: 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:51,983 - WARNING - No image found for product '2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:44:51,983 - WARNING - Skipping image upload for 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:53,050 - INFO - Clicking Publish button...
+2026-07-09 18:44:57,146 - INFO - Successfully processed: 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-09 18:44:59,147 - INFO - 
+Processing Product [10/26]: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-09 18:45:02,274 - WARNING - No image found for product '16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:45:02,274 - WARNING - Skipping image upload for 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-09 18:45:03,394 - INFO - Clicking Publish button...
+2026-07-09 18:45:07,493 - INFO - Successfully processed: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-09 18:45:09,494 - INFO - 
+Processing Product [11/26]: 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )
+2026-07-09 18:45:12,616 - WARNING - No image found for product '6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:45:12,616 - WARNING - Skipping image upload for 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )
+2026-07-09 18:45:13,667 - INFO - Clicking Publish button...
+2026-07-09 18:45:17,756 - INFO - Successfully processed: 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )
+2026-07-09 18:45:19,757 - INFO - 
+Processing Product [12/26]: 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 18:45:22,864 - WARNING - No image found for product '4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:45:22,864 - WARNING - Skipping image upload for 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 18:45:23,920 - INFO - Clicking Publish button...
+2026-07-09 18:45:28,014 - INFO - Successfully processed: 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 18:45:30,015 - INFO - 
+Processing Product [13/26]: 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 18:45:33,158 - WARNING - No image found for product '2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:45:33,159 - WARNING - Skipping image upload for 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 18:45:34,270 - INFO - Clicking Publish button...
+2026-07-09 18:45:38,367 - INFO - Successfully processed: 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 18:45:40,369 - INFO - 
+Processing Product [14/26]: 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 18:45:43,503 - WARNING - No image found for product '10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:45:43,504 - WARNING - Skipping image upload for 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 18:45:44,532 - INFO - Clicking Publish button...
+2026-07-09 18:45:48,634 - INFO - Successfully processed: 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 18:45:50,635 - INFO - 
+Processing Product [15/26]: 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 18:45:53,767 - WARNING - No image found for product '6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:45:53,768 - WARNING - Skipping image upload for 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 18:45:55,055 - INFO - Clicking Publish button...
+2026-07-09 18:45:59,151 - INFO - Successfully processed: 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 18:46:01,152 - INFO - 
+Processing Product [16/26]: 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-09 18:46:04,284 - WARNING - No image found for product '2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:46:04,285 - WARNING - Skipping image upload for 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-09 18:46:05,557 - INFO - Clicking Publish button...
+2026-07-09 18:46:09,662 - INFO - Successfully processed: 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-09 18:46:11,664 - INFO - 
+Processing Product [17/26]: 6.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:14,787 - WARNING - No image found for product '6.0 Sq.Mm Submersible Flat Cable 100 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:46:14,788 - WARNING - Skipping image upload for 6.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:16,004 - INFO - Clicking Publish button...
+2026-07-09 18:46:20,091 - INFO - Successfully processed: 6.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:22,092 - INFO - 
+Processing Product [18/26]: 4.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:25,241 - WARNING - No image found for product '4.0 Sq.Mm Submersible Flat Cable 100 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:46:25,242 - WARNING - Skipping image upload for 4.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:26,649 - INFO - Clicking Publish button...
+2026-07-09 18:46:30,750 - INFO - Successfully processed: 4.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:32,751 - INFO - 
+Processing Product [19/26]: 2.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:35,891 - WARNING - No image found for product '2.5 Sq.Mm Submersible Flat Cable 100 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:46:35,903 - WARNING - Skipping image upload for 2.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:37,217 - INFO - Clicking Publish button...
+2026-07-09 18:46:41,307 - INFO - Successfully processed: 2.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:43,308 - INFO - 
+Processing Product [20/26]: 1.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:46,454 - WARNING - No image found for product '1.5 Sq.Mm Submersible Flat Cable 100 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:46:46,454 - WARNING - Skipping image upload for 1.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:47,730 - INFO - Clicking Publish button...
+2026-07-09 18:46:51,818 - INFO - Successfully processed: 1.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 18:46:53,820 - INFO - 
+Processing Product [21/26]: 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:46:56,948 - WARNING - No image found for product '6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:46:56,948 - WARNING - Skipping image upload for 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:46:57,306 - WARNING - Category 'Multicore Round Copper' not found in dropdown for '6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'. Selecting first option if available.
+2026-07-09 18:46:58,189 - INFO - Clicking Publish button...
+2026-07-09 18:47:02,295 - INFO - Successfully processed: 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:04,297 - INFO - 
+Processing Product [22/26]: 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:07,424 - WARNING - No image found for product '1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:47:07,425 - WARNING - Skipping image upload for 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:07,752 - WARNING - Category 'Multicore Round Copper' not found in dropdown for '1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'. Selecting first option if available.
+2026-07-09 18:47:08,744 - INFO - Clicking Publish button...
+2026-07-09 18:47:12,825 - INFO - Successfully processed: 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:14,826 - INFO - 
+Processing Product [23/26]: 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:17,950 - WARNING - No image found for product '1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:47:17,951 - WARNING - Skipping image upload for 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:18,309 - WARNING - Category 'Multicore Round Copper' not found in dropdown for '1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'. Selecting first option if available.
+2026-07-09 18:47:19,440 - INFO - Clicking Publish button...
+2026-07-09 18:47:23,540 - INFO - Successfully processed: 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 18:47:25,541 - INFO - 
+Processing Product [24/26]: 40/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 18:47:28,680 - WARNING - No image found for product '40/76 Twisted Flexible Wire 90 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:47:28,680 - WARNING - Skipping image upload for 40/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 18:47:29,886 - INFO - Clicking Publish button...
+2026-07-09 18:47:33,986 - INFO - Successfully processed: 40/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 18:47:35,988 - INFO - 
+Processing Product [25/26]: 23/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 18:47:39,180 - WARNING - No image found for product '23/76 Twisted Flexible Wire 90 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:47:39,181 - WARNING - Skipping image upload for 23/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 18:47:40,503 - INFO - Clicking Publish button...
+2026-07-09 18:47:44,618 - INFO - Successfully processed: 23/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 18:47:46,619 - INFO - 
+Processing Product [26/26]: 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-09 18:47:49,743 - WARNING - No image found for product '1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr' in c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables
+2026-07-09 18:47:49,743 - WARNING - Skipping image upload for 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-09 18:47:51,043 - INFO - Clicking Publish button...
+2026-07-09 18:47:55,157 - INFO - Successfully processed: 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-09 18:47:57,158 - INFO - 
+============================================================
+2026-07-09 18:47:57,158 - INFO - AMBICA PRODUCT UPLOAD SUMMARY
+2026-07-09 18:47:57,159 - INFO - ============================================================
+2026-07-09 18:47:57,159 - INFO - ✓ Successful: 26
+2026-07-09 18:47:57,160 - INFO - ✗ Failed: 0
+2026-07-09 18:47:57,160 - INFO - Total processed: 26
+2026-07-09 18:47:57,161 - INFO - ============================================================
+2026-07-09 18:47:59,417 - INFO - Browser closed
+2026-07-09 18:48:03,461 - INFO - 
+Task finished at 2026-07-09 18:48:03
+2026-07-09 18:48:03,462 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260709_184242.log
+
+2026-07-09 18:52:51,965 - INFO - Automation cancelled by user (Ctrl+C)

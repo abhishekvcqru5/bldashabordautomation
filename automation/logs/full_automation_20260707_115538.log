@@ -1,0 +1,87 @@
+2026-07-07 11:55:52,007 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-07 11:55:52,008 - INFO - ============================================================
+2026-07-07 11:55:52,008 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-07 11:55:52,009 - INFO - ============================================================
+2026-07-07 11:55:52,010 - INFO - Processing images from dashboardicons/...
+2026-07-07 11:55:52,028 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-07 11:55:52,028 - INFO - Output folder: automation\processed_images
+2026-07-07 11:55:52,028 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-07 11:55:52,095 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-07 11:55:52,135 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-07 11:55:52,184 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-07-07 11:55:52,191 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-07-07 11:55:52,235 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-07-07 11:55:52,281 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-07 11:55:52,318 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-07 11:55:52,351 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-07 11:55:52,386 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-07 11:55:52,414 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-07 11:55:52,433 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-07 11:55:52,470 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-07 11:55:52,500 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-07 11:55:52,530 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-07 11:55:52,578 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-07 11:55:52,612 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-07-07 11:55:52,639 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-07 11:55:52,669 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-07 11:55:52,695 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-07 11:55:52,695 - INFO - 
+✓ Processed 18 images successfully
+
+2026-07-07 11:55:52,696 - INFO - v 18 images processed.
+2026-07-07 11:55:52,992 - INFO - ====== WebDriver manager ======
+2026-07-07 11:55:54,650 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 11:55:55,026 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 11:55:55,381 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-07 11:55:55,382 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-07 11:55:56,564 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-07 11:55:56,567 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-07 11:55:56,601 - INFO - ✓ Chrome driver initialized
+2026-07-07 11:55:56,602 - INFO - Opening login page...
+2026-07-07 11:55:57,766 - INFO -   → Policy checkbox checked on login page
+2026-07-07 11:55:57,837 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-07 11:55:57,853 - INFO -   → Policy agreement popup detected
+2026-07-07 11:55:57,889 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-07 11:55:58,415 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-07 11:56:04,615 - INFO -   → Policy agreement popup detected
+2026-07-07 11:56:04,637 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-07 11:56:05,161 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-07 11:56:05,167 - INFO - ✓ Login successful
+2026-07-07 11:56:07,168 - INFO - Navigating to dashboard icons section...
+2026-07-07 11:56:07,168 - INFO - Navigating to App Settings...
+2026-07-07 11:56:13,444 - INFO - ✓ Dashboard Icons section loaded
+2026-07-07 11:56:13,444 - INFO - Reading all available user types from dropdown...
+2026-07-07 11:56:27,358 - INFO -   Found 6 user types: ['AutoAgent', 'uthgg k nm', 'User', 'Mechanic', 'Retailer', 'Dealer']
+2026-07-07 11:56:27,392 - INFO - Total rows found in configured icons table: 90
+2026-07-07 11:56:29,123 - INFO - Currently configured icons per user type:
+2026-07-07 11:56:29,123 - INFO -   autoagent: ['tds', 'brochure', 'productcatalogue', 'kycdetails', 'gift', 'help', 'referandearn', 'transferpoints', 'claimhistory', 'e-warrant', 'codedetails', 'blog', 'history', 'retailer', 'wallet', 'instalment', 'chooselanguage']
+2026-07-07 11:56:29,123 - INFO -   uthgg k nm: ['tds', 'brochure', 'productcatalogue', 'kycdetails', 'gift', 'referandearn', 'transferpoints', 'help', 'claimhistory', 'e-warrant', 'codedetails', 'history', 'blog', 'retailer', 'wallet', 'instalment', 'chooselanguage']
+2026-07-07 11:56:29,123 - INFO -   user: ['tds', 'brochure', 'productcatalogue', 'gift', 'kycdetails', 'help', 'referandearn', 'codedetails', 'history', 'blog', 'wallet', 'chooselanguage']
+2026-07-07 11:56:29,123 - INFO -   mechanic: ['brochure', 'productcatalogue', 'kycdetails', 'gift', 'referandearn', 'help', 'claimhistory', 'codedetails', 'history', 'blog', 'wallet', 'chooselanguage']
+2026-07-07 11:56:29,124 - INFO -   retailer: ['tds', 'brochure', 'productcatalogue', 'kycdetails', 'gift', 'referandearn', 'help', 'codedetails', 'history', 'blog', 'wallet']
+2026-07-07 11:56:29,124 - INFO -   dealer: ['tds', 'brochure', 'productcatalogue', 'gift', 'kycdetails', 'help', 'referandearn', 'codedetails', 'history', 'blog', 'wallet', 'chooselanguage', 'ecommerce']
+2026-07-07 11:56:29,124 - INFO - Found 21 missing icon uploads:
+2026-07-07 11:56:29,124 - INFO -   - [User] Activity (ID: claimhistory) from Activity.png
+2026-07-07 11:56:29,124 - INFO -   - [User] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:56:29,124 - INFO -   - [User] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:56:29,124 - INFO -   - [User] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:56:29,124 - INFO -   - [User] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:56:29,124 - INFO -   - [Mechanic] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:56:29,124 - INFO -   - [Mechanic] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:56:29,125 - INFO -   - [Mechanic] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:56:29,125 - INFO -   - [Mechanic] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:56:29,125 - INFO -   - [Mechanic] TDS (ID: tds) from TDS.png
+2026-07-07 11:56:29,125 - INFO -   - [Retailer] Activity (ID: claimhistory) from Activity.png
+2026-07-07 11:56:29,125 - INFO -   - [Retailer] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:56:29,125 - INFO -   - [Retailer] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:56:29,125 - INFO -   - [Retailer] Language (ID: chooselanguage) from Language.png
+2026-07-07 11:56:29,126 - INFO -   - [Retailer] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:56:29,126 - INFO -   - [Retailer] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:56:29,126 - INFO -   - [Dealer] Activity (ID: claimhistory) from Activity.png
+2026-07-07 11:56:29,126 - INFO -   - [Dealer] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:56:29,126 - INFO -   - [Dealer] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:56:29,126 - INFO -   - [Dealer] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:56:29,127 - INFO -   - [Dealer] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:57:26,791 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/d8474751a46bf014094c7ae0cdaf8c85
+2026-07-07 11:57:32,910 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,418 @@
+2026-07-20 20:17:57,161 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-07-20 20:17:57,162 - INFO - ============================================================
+2026-07-20 20:17:57,163 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-07-20 20:17:57,163 - INFO - ============================================================
+2026-07-20 20:17:57,178 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-20 20:17:57,178 - INFO - Output folder: automation\processed_images
+2026-07-20 20:17:57,179 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-20 20:17:57,311 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-20 20:17:57,394 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-20 20:17:57,520 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-20 20:17:57,619 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-20 20:17:57,697 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-20 20:17:57,788 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-20 20:17:57,851 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-20 20:17:57,904 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-20 20:17:58,011 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-20 20:17:58,077 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-20 20:17:58,168 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-20 20:17:58,280 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-20 20:17:58,357 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-20 20:17:58,445 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-20 20:17:58,512 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-20 20:17:58,513 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-20 20:17:58,513 - INFO - ✓ 15 images processed successfully.
+
+2026-07-20 20:18:00,542 - INFO - Target User Type: Painters
+2026-07-20 20:18:00,627 - INFO - Dynamically mapped image 'aboutus.png':
+2026-07-20 20:18:00,642 - INFO -   → Extracted Title: aboutus
+2026-07-20 20:18:00,643 - INFO -   → Matched Identity: aboutus
+2026-07-20 20:18:00,646 - INFO -   → Extracted Color: #70E8A8
+2026-07-20 20:18:00,647 - INFO -   → Toggle Option: side menu
+2026-07-20 20:18:00,703 - INFO - Dynamically mapped image 'Activity.png':
+2026-07-20 20:18:00,703 - INFO -   → Extracted Title: Activity
+2026-07-20 20:18:00,704 - INFO -   → Matched Identity: claimhistory
+2026-07-20 20:18:00,704 - INFO -   → Extracted Color: #F86008
+2026-07-20 20:18:00,705 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:00,776 - INFO - Dynamically mapped image 'KYC.png':
+2026-07-20 20:18:00,776 - INFO -   → Extracted Title: KYC
+2026-07-20 20:18:00,777 - INFO -   → Matched Identity: kycdetails
+2026-07-20 20:18:00,778 - INFO -   → Extracted Color: #F85808
+2026-07-20 20:18:00,779 - INFO -   → Toggle Option: side menu
+2026-07-20 20:18:00,865 - INFO - Dynamically mapped image 'Language.png':
+2026-07-20 20:18:00,869 - INFO -   → Extracted Title: Language
+2026-07-20 20:18:00,870 - INFO -   → Matched Identity: chooselanguage
+2026-07-20 20:18:00,871 - INFO -   → Extracted Color: #5010E8
+2026-07-20 20:18:00,873 - INFO -   → Toggle Option: side menu
+2026-07-20 20:18:00,926 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-07-20 20:18:00,927 - INFO -   → Extracted Title: My Wallet
+2026-07-20 20:18:00,928 - INFO -   → Matched Identity: wallet
+2026-07-20 20:18:00,929 - INFO -   → Extracted Color: #20A020
+2026-07-20 20:18:00,930 - INFO -   → Toggle Option: both
+2026-07-20 20:18:00,990 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-07-20 20:18:00,991 - INFO -   → Extracted Title: Nearby Retailers
+2026-07-20 20:18:00,992 - INFO -   → Matched Identity: retailer
+2026-07-20 20:18:00,992 - INFO -   → Extracted Color: #F87010
+2026-07-20 20:18:00,992 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,032 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-07-20 20:18:01,034 - INFO -   → Extracted Title: Product Catalog
+2026-07-20 20:18:01,035 - INFO -   → Matched Identity: productcatalogue
+2026-07-20 20:18:01,036 - INFO -   → Extracted Color: #6028E8
+2026-07-20 20:18:01,037 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,090 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-07-20 20:18:01,091 - INFO -   → Extracted Title: Prospectus
+2026-07-20 20:18:01,091 - INFO -   → Matched Identity: brochure
+2026-07-20 20:18:01,092 - INFO -   → Extracted Color: #0848F8
+2026-07-20 20:18:01,092 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,147 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-07-20 20:18:01,147 - INFO -   → Extracted Title: Refer & Earn
+2026-07-20 20:18:01,148 - INFO -   → Matched Identity: referandearn
+2026-07-20 20:18:01,148 - INFO -   → Extracted Color: #089098
+2026-07-20 20:18:01,148 - INFO -   → Toggle Option: both
+2026-07-20 20:18:01,188 - INFO - Dynamically mapped image 'Rewards.png':
+2026-07-20 20:18:01,189 - INFO -   → Extracted Title: Rewards
+2026-07-20 20:18:01,190 - INFO -   → Matched Identity: gift
+2026-07-20 20:18:01,190 - INFO -   → Extracted Color: #F00048
+2026-07-20 20:18:01,190 - INFO -   → Toggle Option: both
+2026-07-20 20:18:01,230 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-07-20 20:18:01,230 - INFO -   → Extracted Title: Scan Activity
+2026-07-20 20:18:01,231 - INFO -   → Matched Identity: codedetails
+2026-07-20 20:18:01,231 - INFO -   → Extracted Color: #10A010
+2026-07-20 20:18:01,231 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,276 - INFO - Dynamically mapped image 'Scan History.png':
+2026-07-20 20:18:01,276 - INFO -   → Extracted Title: Scan History
+2026-07-20 20:18:01,277 - INFO -   → Matched Identity: history
+2026-07-20 20:18:01,277 - INFO -   → Extracted Color: #4808F0
+2026-07-20 20:18:01,278 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,326 - INFO - Dynamically mapped image 'Support.png':
+2026-07-20 20:18:01,326 - INFO -   → Extracted Title: Support
+2026-07-20 20:18:01,326 - INFO -   → Matched Identity: help
+2026-07-20 20:18:01,327 - INFO -   → Extracted Color: #0030F0
+2026-07-20 20:18:01,327 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,377 - INFO - Dynamically mapped image 'TDS.png':
+2026-07-20 20:18:01,378 - INFO -   → Extracted Title: TDS
+2026-07-20 20:18:01,378 - INFO -   → Matched Identity: tds
+2026-07-20 20:18:01,378 - INFO -   → Extracted Color: #20C880
+2026-07-20 20:18:01,379 - INFO -   → Toggle Option: side menu
+2026-07-20 20:18:01,429 - INFO - Dynamically mapped image 'Updates.png':
+2026-07-20 20:18:01,429 - INFO -   → Extracted Title: Updates
+2026-07-20 20:18:01,430 - INFO -   → Matched Identity: blog
+2026-07-20 20:18:01,430 - INFO -   → Extracted Color: #F87820
+2026-07-20 20:18:01,431 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:18:01,431 - INFO - 
+============================================================
+2026-07-20 20:18:01,432 - INFO - Launching Browser and Starting Upload Process
+2026-07-20 20:18:01,432 - INFO - ============================================================
+2026-07-20 20:18:01,464 - INFO - ====== WebDriver manager ======
+2026-07-20 20:18:04,160 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:18:04,353 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:18:04,535 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 20:18:04,536 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 20:18:06,150 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 20:18:06,160 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 20:18:06,248 - INFO - ✓ Chrome driver initialized
+2026-07-20 20:18:06,249 - INFO - 
+→ Attempting login...
+
+2026-07-20 20:18:06,251 - INFO - Opening login page...
+2026-07-20 20:18:08,025 - INFO -   → Policy checkbox checked on login page
+2026-07-20 20:18:08,239 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 20:18:08,281 - INFO -   → Policy agreement popup detected
+2026-07-20 20:18:08,404 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:18:09,298 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:18:15,639 - INFO -   → Policy agreement popup detected
+2026-07-20 20:18:15,740 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:18:16,302 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:18:16,303 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 20:18:16,817 - INFO - ✓ Login successful and on App Settings page
+2026-07-20 20:18:18,820 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-07-20 20:18:18,822 - INFO - Navigating to App Settings...
+2026-07-20 20:18:25,504 - INFO - ✓ Dashboard Icons section loaded
+2026-07-20 20:18:27,505 - INFO - 
+→ Starting batch upload of 15 custom icons...
+
+2026-07-20 20:18:27,506 - INFO - Starting batch – 15 configured entries
+2026-07-20 20:18:27,506 - INFO - Total icons to upload after expansion: 15
+2026-07-20 20:18:27,506 - INFO - ============================================================
+2026-07-20 20:18:27,507 - INFO - [1/15]
+2026-07-20 20:18:27,507 - INFO -   Adding: [Painters] aboutus  (aboutus)
+2026-07-20 20:18:40,762 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:18:41,011 - INFO -     → Icon identity: aboutus
+2026-07-20 20:18:41,343 - INFO -     → Display title: aboutus
+2026-07-20 20:18:42,443 - INFO -     → Icon color: #70E8A8
+2026-07-20 20:18:42,578 - INFO -     → Toggle: side menu
+2026-07-20 20:18:44,696 - INFO -     → Image uploaded: aboutus.png
+2026-07-20 20:18:44,947 - INFO -     → Form submitted
+2026-07-20 20:18:55,932 - INFO -   ✓ Icon added: aboutus
+
+2026-07-20 20:18:56,937 - INFO - [2/15]
+2026-07-20 20:18:56,939 - INFO -   Adding: [Painters] Activity  (claimhistory)
+2026-07-20 20:19:09,912 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:19:10,211 - INFO -     → Icon identity: claimhistory
+2026-07-20 20:19:10,541 - INFO -     → Display title: Activity
+2026-07-20 20:19:11,404 - INFO -     → Icon color: #F86008
+2026-07-20 20:19:11,490 - INFO -     → Toggle: dashboard only
+2026-07-20 20:19:13,591 - INFO -     → Image uploaded: Activity.png
+2026-07-20 20:19:14,051 - INFO -     → Form submitted
+2026-07-20 20:19:24,774 - INFO -   ✓ Icon added: Activity
+
+2026-07-20 20:19:25,776 - INFO - [3/15]
+2026-07-20 20:19:25,777 - INFO -   Adding: [Painters] KYC  (kycdetails)
+2026-07-20 20:19:38,864 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:19:39,082 - INFO -     → Icon identity: kycdetails
+2026-07-20 20:19:39,304 - INFO -     → Display title: KYC
+2026-07-20 20:19:40,213 - INFO -     → Icon color: #F85808
+2026-07-20 20:19:40,265 - INFO -     → Toggle: side menu
+2026-07-20 20:19:42,349 - INFO -     → Image uploaded: KYC.png
+2026-07-20 20:19:42,675 - INFO -     → Form submitted
+2026-07-20 20:19:53,736 - INFO -   ✓ Icon added: KYC
+
+2026-07-20 20:19:54,737 - INFO - [4/15]
+2026-07-20 20:19:54,738 - INFO -   Adding: [Painters] Language  (chooselanguage)
+2026-07-20 20:20:07,523 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:20:07,731 - INFO -     → Icon identity: chooselanguage
+2026-07-20 20:20:08,044 - INFO -     → Display title: Language
+2026-07-20 20:20:08,873 - INFO -     → Icon color: #5010E8
+2026-07-20 20:20:08,957 - INFO -     → Toggle: side menu
+2026-07-20 20:20:11,198 - INFO -     → Image uploaded: Language.png
+2026-07-20 20:20:11,415 - INFO -     → Form submitted
+2026-07-20 20:20:22,098 - INFO -   ✓ Icon added: Language
+
+2026-07-20 20:20:23,099 - INFO - [5/15]
+2026-07-20 20:20:23,099 - INFO -   Adding: [Painters] My Wallet  (wallet)
+2026-07-20 20:20:36,028 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:20:36,323 - INFO -     → Icon identity: wallet
+2026-07-20 20:20:36,684 - INFO -     → Display title: My Wallet
+2026-07-20 20:20:37,568 - INFO -     → Icon color: #20A020
+2026-07-20 20:20:37,646 - INFO -     → Toggle: both
+2026-07-20 20:20:39,743 - INFO -     → Image uploaded: My Wallet.png
+2026-07-20 20:20:40,189 - INFO -     → Form submitted
+2026-07-20 20:20:50,845 - INFO -   ✓ Icon added: My Wallet
+
+2026-07-20 20:20:51,847 - INFO - [6/15]
+2026-07-20 20:20:51,847 - INFO -   Adding: [Painters] Nearby Retailers  (retailer)
+2026-07-20 20:21:05,134 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:21:05,294 - INFO -     → Icon identity: retailer
+2026-07-20 20:21:05,548 - INFO -     → Display title: Nearby Retailers
+2026-07-20 20:21:07,357 - INFO -     → Icon color: #F87010
+2026-07-20 20:21:07,505 - INFO -     → Toggle: dashboard only
+2026-07-20 20:21:09,710 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-20 20:21:10,054 - INFO -     → Form submitted
+2026-07-20 20:21:20,743 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-20 20:21:21,745 - INFO - [7/15]
+2026-07-20 20:21:21,745 - INFO -   Adding: [Painters] Product Catalog  (productcatalogue)
+2026-07-20 20:21:34,756 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:21:34,948 - INFO -     → Icon identity: productcatalogue
+2026-07-20 20:21:35,241 - INFO -     → Display title: Product Catalog
+2026-07-20 20:21:36,014 - INFO -     → Icon color: #6028E8
+2026-07-20 20:21:36,073 - INFO -     → Toggle: dashboard only
+2026-07-20 20:21:38,155 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-20 20:21:38,373 - INFO -     → Form submitted
+2026-07-20 20:21:48,922 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-20 20:21:49,924 - INFO - [8/15]
+2026-07-20 20:21:49,924 - INFO -   Adding: [Painters] Prospectus  (brochure)
+2026-07-20 20:22:02,771 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:22:02,991 - INFO -     → Icon identity: brochure
+2026-07-20 20:22:03,281 - INFO -     → Display title: Prospectus
+2026-07-20 20:22:04,125 - INFO -     → Icon color: #0848F8
+2026-07-20 20:22:04,184 - INFO -     → Toggle: dashboard only
+2026-07-20 20:22:06,284 - INFO -     → Image uploaded: Prospectus.png
+2026-07-20 20:22:06,997 - INFO -     → Form submitted
+2026-07-20 20:22:17,779 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-20 20:22:18,780 - INFO - [9/15]
+2026-07-20 20:22:18,781 - INFO -   Adding: [Painters] Refer & Earn  (referandearn)
+2026-07-20 20:22:31,863 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:22:32,043 - INFO -     → Icon identity: referandearn
+2026-07-20 20:22:32,299 - INFO -     → Display title: Refer & Earn
+2026-07-20 20:22:33,097 - INFO -     → Icon color: #089098
+2026-07-20 20:22:33,161 - INFO -     → Toggle: both
+2026-07-20 20:22:35,266 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-20 20:22:35,495 - INFO -     → Form submitted
+2026-07-20 20:22:46,188 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-20 20:22:47,192 - INFO - [10/15]
+2026-07-20 20:22:47,193 - INFO -   Adding: [Painters] Rewards  (gift)
+2026-07-20 20:23:00,312 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:23:00,485 - INFO -     → Icon identity: gift
+2026-07-20 20:23:00,710 - INFO -     → Display title: Rewards
+2026-07-20 20:23:01,453 - INFO -     → Icon color: #F00048
+2026-07-20 20:23:01,508 - INFO -     → Toggle: both
+2026-07-20 20:23:03,593 - INFO -     → Image uploaded: Rewards.png
+2026-07-20 20:23:03,820 - INFO -     → Form submitted
+2026-07-20 20:23:14,889 - INFO -   ✓ Icon added: Rewards
+
+2026-07-20 20:23:15,891 - INFO - [11/15]
+2026-07-20 20:23:15,892 - INFO -   Adding: [Painters] Scan Activity  (codedetails)
+2026-07-20 20:23:29,123 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:23:29,341 - INFO -     → Icon identity: codedetails
+2026-07-20 20:23:29,626 - INFO -     → Display title: Scan Activity
+2026-07-20 20:23:30,863 - INFO -     → Icon color: #10A010
+2026-07-20 20:23:30,927 - INFO -     → Toggle: dashboard only
+2026-07-20 20:23:33,028 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-20 20:23:33,209 - INFO -     → Form submitted
+2026-07-20 20:23:44,200 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-20 20:23:45,202 - INFO - [12/15]
+2026-07-20 20:23:45,204 - INFO -   Adding: [Painters] Scan History  (history)
+2026-07-20 20:23:58,399 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:23:58,570 - INFO -     → Icon identity: history
+2026-07-20 20:23:58,833 - INFO -     → Display title: Scan History
+2026-07-20 20:23:59,562 - INFO -     → Icon color: #4808F0
+2026-07-20 20:23:59,615 - INFO -     → Toggle: dashboard only
+2026-07-20 20:24:01,691 - INFO -     → Image uploaded: Scan History.png
+2026-07-20 20:24:01,928 - INFO -     → Form submitted
+2026-07-20 20:24:12,564 - INFO -   ✓ Icon added: Scan History
+
+2026-07-20 20:24:13,565 - INFO - [13/15]
+2026-07-20 20:24:13,566 - INFO -   Adding: [Painters] Support  (help)
+2026-07-20 20:24:26,564 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:24:26,738 - INFO -     → Icon identity: help
+2026-07-20 20:24:27,015 - INFO -     → Display title: Support
+2026-07-20 20:24:27,979 - INFO -     → Icon color: #0030F0
+2026-07-20 20:24:28,039 - INFO -     → Toggle: dashboard only
+2026-07-20 20:24:30,113 - INFO -     → Image uploaded: Support.png
+2026-07-20 20:24:30,408 - INFO -     → Form submitted
+2026-07-20 20:24:40,984 - INFO -   ✓ Icon added: Support
+
+2026-07-20 20:24:41,985 - INFO - [14/15]
+2026-07-20 20:24:41,987 - INFO -   Adding: [Painters] TDS  (tds)
+2026-07-20 20:24:55,318 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:24:55,525 - INFO -     → Icon identity: tds
+2026-07-20 20:24:55,842 - INFO -     → Display title: TDS
+2026-07-20 20:24:56,965 - INFO -     → Icon color: #20C880
+2026-07-20 20:24:57,074 - INFO -     → Toggle: side menu
+2026-07-20 20:24:59,193 - INFO -     → Image uploaded: TDS.png
+2026-07-20 20:24:59,507 - INFO -     → Form submitted
+2026-07-20 20:25:10,203 - INFO -   ✓ Icon added: TDS
+
+2026-07-20 20:25:11,204 - INFO - [15/15]
+2026-07-20 20:25:11,205 - INFO -   Adding: [Painters] Updates  (blog)
+2026-07-20 20:25:24,173 - INFO -     → User type selected by exact text: Painters
+2026-07-20 20:25:24,359 - INFO -     → Icon identity: blog
+2026-07-20 20:25:24,615 - INFO -     → Display title: Updates
+2026-07-20 20:25:25,413 - INFO -     → Icon color: #F87820
+2026-07-20 20:25:25,472 - INFO -     → Toggle: dashboard only
+2026-07-20 20:25:27,553 - INFO -     → Image uploaded: Updates.png
+2026-07-20 20:25:27,773 - INFO -     → Form submitted
+2026-07-20 20:25:38,811 - INFO -   ✓ Icon added: Updates
+
+2026-07-20 20:25:39,813 - INFO - ============================================================
+2026-07-20 20:25:39,813 - INFO - Batch complete → ✓ 15 succeeded  ✗ 0 failed
+2026-07-20 20:25:39,814 - INFO - 
+============================================================
+2026-07-20 20:25:39,815 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-07-20 20:25:39,815 - INFO - ============================================================
+2026-07-20 20:25:39,823 - INFO - ✓ Successful uploads: 15
+2026-07-20 20:25:39,825 - INFO - ✗ Failed uploads: 0
+2026-07-20 20:25:39,826 - INFO - Total processed: 15
+2026-07-20 20:25:39,828 - INFO - Success rate: 100.0%
+2026-07-20 20:25:39,830 - INFO - ============================================================
+2026-07-20 20:25:42,991 - INFO - Browser closed
+2026-07-20 20:25:47,031 - INFO - 
+Task finished at 2026-07-20 20:25:47
+2026-07-20 20:25:47,032 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_201746.log
+
+2026-07-20 20:29:00,180 - INFO - User selected: Brand Setting
+2026-07-20 20:29:02,469 - INFO -   Found logo asset: Logo.png
+2026-07-20 20:29:02,470 - INFO -   Found splash asset: splash.jpeg
+2026-07-20 20:29:02,470 - INFO - ============================================================
+2026-07-20 20:29:02,470 - INFO - BRAND SETTING — Image Processing
+2026-07-20 20:29:02,471 - INFO - ============================================================
+2026-07-20 20:29:02,571 - INFO - ✓ Logo  → logo_processed.jpg  |  77.8 KB  |  JPEG q95
+2026-07-20 20:29:02,642 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-20 20:29:02,644 - INFO - 
+2026-07-20 20:29:02,644 - INFO - Extracting brand colours from logo...
+2026-07-20 20:29:03,816 - INFO -   Colours extracted from logo:
+2026-07-20 20:29:03,818 - INFO -     Header Color     →  #001030  (dominant logo colour)
+2026-07-20 20:29:03,818 - INFO -     Background Color →  #000A1F  (35% darker)
+2026-07-20 20:29:03,819 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-20 20:29:03,820 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-20 20:29:03,924 - INFO - ✓ Both images ready
+
+2026-07-20 20:29:03,925 - INFO - ============================================================
+2026-07-20 20:29:03,925 - INFO - BRAND SETTING — Browser Automation
+2026-07-20 20:29:03,926 - INFO - ============================================================
+2026-07-20 20:29:03,966 - INFO - ====== WebDriver manager ======
+2026-07-20 20:29:06,224 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:29:06,378 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:29:06,527 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 20:29:06,528 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 20:29:08,089 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 20:29:08,095 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 20:29:08,156 - INFO - ✓ Chrome driver initialized
+2026-07-20 20:29:08,156 - INFO - Opening login page...
+2026-07-20 20:29:09,805 - INFO -   → Policy checkbox checked on login page
+2026-07-20 20:29:10,026 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 20:29:10,064 - INFO -   → Policy agreement popup detected
+2026-07-20 20:29:10,160 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:29:11,024 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:29:17,392 - INFO -   → Policy agreement popup detected
+2026-07-20 20:29:17,502 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:29:18,048 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:29:18,048 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 20:29:18,523 - INFO - ✓ Login successful and on App Settings page
+2026-07-20 20:29:20,530 - INFO - Going to App Settings...
+2026-07-20 20:29:23,765 - ERROR - Navigation to brand setting failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=150.0.7871.125)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc25843+10883]
+	chromedriver!GetHandleVerifier [0xc25884+108c4]
+	chromedriver!(No symbol) [0xa290e0]
+	chromedriver!(No symbol) [0xa1836e]
+	chromedriver!(No symbol) [0xa36a59]
+	chromedriver!(No symbol) [0xa9bf5d]
+	chromedriver!(No symbol) [0xab2c09]
+	chromedriver!(No symbol) [0xa95406]
+	chromedriver!(No symbol) [0xa68659]
+	chromedriver!(No symbol) [0xa69424]
+	chromedriver!GetHandleVerifier [0xebced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xeb847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xed94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xc3f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xc4620d+3124d]
+	chromedriver!GetHandleVerifier [0xc2e318+19358]
+	chromedriver!GetHandleVerifier [0xc2e4c5+19505]
+	chromedriver!GetHandleVerifier [0xc170af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x75975d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7731e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7731e0b1+231]
+
+2026-07-20 20:29:23,978 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc25843+10883]
+	chromedriver!GetHandleVerifier [0xc25884+108c4]
+	chromedriver!(No symbol) [0xa28f1e]
+	chromedriver!(No symbol) [0xa678e7]
+	chromedriver!(No symbol) [0xa95526]
+	chromedriver!(No symbol) [0xa90762]
+	chromedriver!(No symbol) [0xa90141]
+	chromedriver!(No symbol) [0x9fc731]
+	chromedriver!(No symbol) [0x9fccd3]
+	chromedriver!(No symbol) [0x9fd18d]
+	chromedriver!GetHandleVerifier [0xebced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xeb847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xed94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xc3f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xc4620d+3124d]
+	chromedriver!(No symbol) [0x9fc3e0]
+	chromedriver!(No symbol) [0x9fba92]
+	chromedriver!GetHandleVerifier [0x101ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x75975d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7731e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7731e0b1+231]
+
+2026-07-20 20:29:23,979 - ERROR - ✗ Navigation failed. Aborting.
+2026-07-20 20:29:26,000 - INFO - Browser closed
+2026-07-20 20:29:30,051 - INFO - 
+Task finished at 2026-07-20 20:29:30
+2026-07-20 20:29:30,052 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_201746.log
+

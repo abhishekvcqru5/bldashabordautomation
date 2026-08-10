@@ -1,0 +1,151 @@
+2026-07-20 20:26:20,636 - INFO - User selected: Brand Setting
+2026-07-20 20:26:36,710 - INFO -   Found logo asset: Logo.png
+2026-07-20 20:26:36,712 - INFO -   Found splash asset: splash.jpeg
+2026-07-20 20:26:36,712 - INFO - ============================================================
+2026-07-20 20:26:36,712 - INFO - BRAND SETTING — Image Processing
+2026-07-20 20:26:36,713 - INFO - ============================================================
+2026-07-20 20:26:36,894 - INFO - ✓ Logo  → logo_processed.jpg  |  77.8 KB  |  JPEG q95
+2026-07-20 20:26:36,975 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-20 20:26:36,978 - INFO - 
+2026-07-20 20:26:36,978 - INFO - Extracting brand colours from logo...
+2026-07-20 20:26:38,265 - INFO -   Colours extracted from logo:
+2026-07-20 20:26:38,266 - INFO -     Header Color     →  #001030  (dominant logo colour)
+2026-07-20 20:26:38,266 - INFO -     Background Color →  #000A1F  (35% darker)
+2026-07-20 20:26:38,269 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-20 20:26:38,269 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-20 20:26:38,408 - INFO - ✓ Both images ready
+
+2026-07-20 20:26:38,409 - INFO - ============================================================
+2026-07-20 20:26:38,409 - INFO - BRAND SETTING — Browser Automation
+2026-07-20 20:26:38,410 - INFO - ============================================================
+2026-07-20 20:26:38,449 - INFO - ====== WebDriver manager ======
+2026-07-20 20:26:41,179 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:26:41,407 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:26:41,590 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 20:26:41,591 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 20:26:43,213 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 20:26:43,228 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 20:26:43,295 - INFO - ✓ Chrome driver initialized
+2026-07-20 20:26:43,296 - INFO - Opening login page...
+2026-07-20 20:26:44,920 - INFO -   → Policy checkbox checked on login page
+2026-07-20 20:26:45,124 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 20:26:45,174 - INFO -   → Policy agreement popup detected
+2026-07-20 20:26:45,284 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:26:45,929 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:26:57,795 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 20:26:58,949 - INFO - ✓ Login successful and on App Settings page
+2026-07-20 20:27:00,962 - INFO - Going to App Settings...
+2026-07-20 20:27:07,533 - INFO -   → Identity & Branding section opened
+2026-07-20 20:27:09,801 - INFO -   → Edit Branding popup opened
+2026-07-20 20:27:09,837 - INFO - ✓ Brand setting form is ready
+2026-07-20 20:27:09,837 - INFO -   Setting company name: Cemecx International
+2026-07-20 20:27:11,226 - INFO -     → HeaderColor: #001030
+2026-07-20 20:27:12,156 - INFO -     → FooterColor: #F5F5F5
+2026-07-20 20:27:13,215 - INFO -     → BodyColor: #FFFFFF
+2026-07-20 20:27:14,165 - INFO -     → BackgroundColor: #000A1F
+2026-07-20 20:27:16,280 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-20 20:27:18,358 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-20 20:27:18,623 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-20 20:27:21,647 - INFO - ✓ Brand settings saved successfully!
+2026-07-20 20:27:24,357 - INFO - Browser closed
+2026-07-20 20:27:28,420 - INFO - 
+Task finished at 2026-07-20 20:27:28
+2026-07-20 20:27:28,422 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_202338.log
+
+2026-07-20 20:28:19,797 - INFO - User selected: Brand Setting
+2026-07-20 20:28:27,440 - INFO -   Found logo asset: Logo.png
+2026-07-20 20:28:27,441 - INFO -   Found splash asset: splash.jpeg
+2026-07-20 20:28:27,442 - INFO - ============================================================
+2026-07-20 20:28:27,442 - INFO - BRAND SETTING — Image Processing
+2026-07-20 20:28:27,442 - INFO - ============================================================
+2026-07-20 20:28:27,537 - INFO - ✓ Logo  → logo_processed.jpg  |  77.8 KB  |  JPEG q95
+2026-07-20 20:28:27,607 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-20 20:28:27,609 - INFO - 
+2026-07-20 20:28:27,609 - INFO - Extracting brand colours from logo...
+2026-07-20 20:28:28,657 - INFO -   Colours extracted from logo:
+2026-07-20 20:28:28,658 - INFO -     Header Color     →  #001030  (dominant logo colour)
+2026-07-20 20:28:28,658 - INFO -     Background Color →  #000A1F  (35% darker)
+2026-07-20 20:28:28,658 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-20 20:28:28,659 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-20 20:28:28,742 - INFO - ✓ Both images ready
+
+2026-07-20 20:28:28,743 - INFO - ============================================================
+2026-07-20 20:28:28,743 - INFO - BRAND SETTING — Browser Automation
+2026-07-20 20:28:28,743 - INFO - ============================================================
+2026-07-20 20:28:28,777 - INFO - ====== WebDriver manager ======
+2026-07-20 20:28:31,440 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:28:31,612 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:28:31,769 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 20:28:31,770 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 20:28:33,464 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 20:28:33,480 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 20:28:33,562 - INFO - ✓ Chrome driver initialized
+2026-07-20 20:28:33,563 - INFO - Opening login page...
+2026-07-20 20:28:35,275 - INFO -   → Policy checkbox checked on login page
+2026-07-20 20:28:35,470 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 20:28:35,513 - INFO -   → Policy agreement popup detected
+2026-07-20 20:28:35,621 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:28:36,432 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:28:42,677 - INFO -   → Policy agreement popup detected
+2026-07-20 20:28:42,762 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:28:43,318 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:28:43,320 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 20:28:43,716 - INFO - ✓ Login successful and on App Settings page
+2026-07-20 20:28:45,718 - INFO - Going to App Settings...
+2026-07-20 20:28:52,168 - INFO -   → Identity & Branding section opened
+2026-07-20 20:28:52,180 - ERROR - Navigation to brand setting failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=150.0.7871.125)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc25843+10883]
+	chromedriver!GetHandleVerifier [0xc25884+108c4]
+	chromedriver!(No symbol) [0xa290e0]
+	chromedriver!(No symbol) [0xa1836e]
+	chromedriver!(No symbol) [0xa36a59]
+	chromedriver!(No symbol) [0xa9bf5d]
+	chromedriver!(No symbol) [0xab2c09]
+	chromedriver!(No symbol) [0xa95406]
+	chromedriver!(No symbol) [0xa68659]
+	chromedriver!(No symbol) [0xa69424]
+	chromedriver!GetHandleVerifier [0xebced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xeb847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xed94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xc3f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xc4620d+3124d]
+	chromedriver!GetHandleVerifier [0xc2e318+19358]
+	chromedriver!GetHandleVerifier [0xc2e4c5+19505]
+	chromedriver!GetHandleVerifier [0xc170af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x75975d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7731e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7731e0b1+231]
+
+2026-07-20 20:28:52,372 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc25843+10883]
+	chromedriver!GetHandleVerifier [0xc25884+108c4]
+	chromedriver!(No symbol) [0xa28f1e]
+	chromedriver!(No symbol) [0xa678e7]
+	chromedriver!(No symbol) [0xa95526]
+	chromedriver!(No symbol) [0xa90762]
+	chromedriver!(No symbol) [0xa90141]
+	chromedriver!(No symbol) [0x9fc731]
+	chromedriver!(No symbol) [0x9fccd3]
+	chromedriver!(No symbol) [0x9fd18d]
+	chromedriver!GetHandleVerifier [0xebced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xeb847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xed94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xc3f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xc4620d+3124d]
+	chromedriver!(No symbol) [0x9fc3e0]
+	chromedriver!(No symbol) [0x9fba92]
+	chromedriver!GetHandleVerifier [0x101ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x75975d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7731e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7731e0b1+231]
+
+2026-07-20 20:28:52,372 - ERROR - ✗ Navigation failed. Aborting.
+2026-07-20 20:28:54,380 - INFO - Browser closed
+2026-07-20 20:28:58,444 - INFO - 
+Task finished at 2026-07-20 20:28:58
+2026-07-20 20:28:58,445 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_202338.log
+

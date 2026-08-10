@@ -1,0 +1,114 @@
+2026-06-22 11:03:42,940 - INFO - User selected: Brand Setting
+2026-06-22 11:04:04,681 - INFO -   Found logo asset: logo.png
+2026-06-22 11:04:04,682 - INFO -   Found splash asset: splash.png
+2026-06-22 11:04:04,682 - INFO - ============================================================
+2026-06-22 11:04:04,682 - INFO - BRAND SETTING — Image Processing
+2026-06-22 11:04:04,683 - INFO - ============================================================
+2026-06-22 11:04:04,719 - INFO - ✓ Logo  → logo_processed.jpg  |  16.5 KB  |  JPEG q95
+2026-06-22 11:04:04,741 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-22 11:04:05,099 - INFO - ✓ Splash → splash_processed.png  |  1.07 MB  |  PNG lossless
+2026-06-22 11:04:05,100 - INFO - 
+2026-06-22 11:04:05,100 - INFO - Extracting brand colours from logo...
+2026-06-22 11:04:05,235 - INFO -   Colours extracted from logo:
+2026-06-22 11:04:05,235 - INFO -     Header Color     →  #303050  (dominant logo colour)
+2026-06-22 11:04:05,236 - INFO -     Background Color →  #1F1F34  (35% darker)
+2026-06-22 11:04:05,236 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-22 11:04:05,236 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-22 11:04:05,253 - INFO - ✓ Both images ready
+
+2026-06-22 11:04:05,254 - INFO - ============================================================
+2026-06-22 11:04:05,254 - INFO - BRAND SETTING — Browser Automation
+2026-06-22 11:04:05,254 - INFO - ============================================================
+2026-06-22 11:04:05,261 - INFO - ====== WebDriver manager ======
+2026-06-22 11:04:06,228 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 11:04:06,888 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 11:04:07,476 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 11:04:07,477 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 11:04:08,554 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 11:04:08,558 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 11:04:08,587 - INFO - ✓ Chrome driver initialized
+2026-06-22 11:04:08,587 - INFO - Opening login page...
+2026-06-22 11:04:09,753 - INFO -   → Policy checkbox checked on login page
+2026-06-22 11:04:09,821 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 11:04:09,836 - INFO -   → Policy agreement popup detected
+2026-06-22 11:04:09,872 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 11:04:10,466 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 11:04:21,756 - INFO - ✓ Login successful
+2026-06-22 11:04:23,757 - INFO - Going to App Settings...
+2026-06-22 11:04:30,027 - INFO -   → Identity & Branding section opened
+2026-06-22 11:04:32,117 - INFO -   → Edit Branding popup opened
+2026-06-22 11:04:32,130 - INFO - ✓ Brand setting form is ready
+2026-06-22 11:04:32,130 - INFO -   Setting company name: Orio Plumber
+2026-06-22 11:04:32,884 - INFO -     → HeaderColor: #303050
+2026-06-22 11:04:33,509 - INFO -     → FooterColor: #F5F5F5
+2026-06-22 11:04:34,117 - INFO -     → BodyColor: #FFFFFF
+2026-06-22 11:04:34,717 - INFO -     → BackgroundColor: #1F1F34
+2026-06-22 11:04:36,813 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-22 11:04:38,844 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-22 11:04:38,973 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-22 11:04:41,990 - INFO - ✓ Brand settings saved successfully!
+2026-06-22 11:04:44,209 - INFO - Browser closed
+2026-06-22 11:04:48,286 - INFO - 
+Task finished at 2026-06-22 11:04:48
+2026-06-22 11:04:48,286 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_110323.log
+
+2026-06-22 11:04:56,166 - INFO - User selected: Intro Screens
+2026-06-22 11:04:56,167 - INFO - ============================================================
+2026-06-22 11:04:56,167 - INFO - INTRO SCREENS — Image Processing
+2026-06-22 11:04:56,167 - INFO - ============================================================
+2026-06-22 11:04:56,168 - INFO - Found 2 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-06-22 11:04:56,169 - INFO -   ⚙ Processing 80d2d7b6-9484-4b89-bc07-772b3a9180cc.png  (1024×1536 → need 1080×1920)
+2026-06-22 11:04:56,251 - INFO -   ✓ 80d2d7b6-9484-4b89-bc07-772b3a9180cc.png  →  80d2d7b6-9484-4b89-bc07-772b3a9180cc_processed.jpg  |  1080×1920  |  0.51 MB  |  quality 92
+2026-06-22 11:04:56,252 - INFO -   ⚙ Processing b462c18b-929a-4e30-8737-ffd7e3c68cca.png  (1024×1536 → need 1080×1920)
+2026-06-22 11:04:56,333 - INFO -   ✓ b462c18b-929a-4e30-8737-ffd7e3c68cca.png  →  b462c18b-929a-4e30-8737-ffd7e3c68cca_processed.jpg  |  1080×1920  |  0.49 MB  |  quality 92
+2026-06-22 11:04:56,334 - INFO -   Processed 2/2 intro images successfully
+
+2026-06-22 11:04:59,042 - INFO - ============================================================
+2026-06-22 11:04:59,043 - INFO - INTRO SCREENS — Browser Automation
+2026-06-22 11:04:59,043 - INFO - ============================================================
+2026-06-22 11:04:59,054 - INFO - ====== WebDriver manager ======
+2026-06-22 11:05:00,086 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 11:05:00,438 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 11:05:00,799 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 11:05:00,800 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 11:05:01,932 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 11:05:01,934 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 11:05:01,956 - INFO - ✓ Chrome driver initialized
+2026-06-22 11:05:01,956 - INFO - Opening login page...
+2026-06-22 11:05:03,182 - INFO -   → Policy checkbox checked on login page
+2026-06-22 11:05:03,285 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 11:05:03,301 - INFO -   → Policy agreement popup detected
+2026-06-22 11:05:03,343 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 11:05:03,902 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 11:05:10,095 - INFO -   → Policy agreement popup detected
+2026-06-22 11:05:10,136 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 11:05:10,675 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 11:05:10,684 - INFO - ✓ Login successful
+2026-06-22 11:05:12,685 - INFO - Going to App Settings...
+2026-06-22 11:05:18,980 - INFO -   → Intro Screens section opened
+2026-06-22 11:05:18,993 - INFO - ✓ Intro Screens page ready
+2026-06-22 11:05:18,994 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-06-22 11:05:18,994 - INFO - ============================================================
+2026-06-22 11:05:18,994 - INFO - [1/2]
+2026-06-22 11:05:18,995 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-22 11:05:21,207 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-22 11:05:21,809 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-22 11:05:23,863 - INFO -     → Image uploaded: 80d2d7b6-9484-4b89-bc07-772b3a9180cc_processed.jpg
+2026-06-22 11:05:24,055 - INFO -     → Launch Screen clicked
+2026-06-22 11:05:28,065 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-22 11:05:29,066 - INFO - [2/2]
+2026-06-22 11:05:29,067 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-22 11:05:31,258 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-22 11:05:31,796 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-22 11:05:33,854 - INFO -     → Image uploaded: b462c18b-929a-4e30-8737-ffd7e3c68cca_processed.jpg
+2026-06-22 11:05:33,930 - INFO -     → Launch Screen clicked
+2026-06-22 11:05:37,942 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-22 11:05:38,943 - INFO - ============================================================
+2026-06-22 11:05:38,943 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-06-22 11:05:41,175 - INFO - Browser closed
+2026-06-22 11:05:45,210 - INFO - 
+Task finished at 2026-06-22 11:05:45
+2026-06-22 11:05:45,210 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_110323.log
+

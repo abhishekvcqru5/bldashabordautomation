@@ -27,7 +27,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 logger = logging.getLogger(__name__)
 
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
-BANNER_FOLDER = Path("banner")
+BANNER_FOLDER = Path(__file__).resolve().parent.parent / "banner"
 PROCESSED_DIR = Path("automation/processed_banners")
 
 SUPPORTED_EXT = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp"}

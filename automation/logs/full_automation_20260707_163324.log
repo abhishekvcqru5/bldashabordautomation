@@ -1,0 +1,175 @@
+2026-07-07 16:33:50,809 - INFO - User selected: Update Wallet, Scan Activity, Support, AboutUs (Option 16.1)
+2026-07-07 16:34:20,808 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-07-07 16:34:21,836 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-07-07 16:34:24,165 - INFO - 
+>>> Starting specific 4 icons update [1/1] for vcqru...
+2026-07-07 16:34:24,165 - INFO - ============================================================
+2026-07-07 16:34:24,176 - INFO - UPDATING/ADDING 4 SPECIFIC ICONS FOR: bhabhra.sangeeta@mahindra.com
+2026-07-07 16:34:24,176 - INFO - ============================================================
+2026-07-07 16:34:24,177 - INFO - Processing images from dashboardicons/...
+2026-07-07 16:34:24,182 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-07 16:34:24,182 - INFO - Output folder: automation\processed_images
+2026-07-07 16:34:24,183 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-07 16:34:24,244 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-07 16:34:24,274 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-07 16:34:24,317 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-07 16:34:24,351 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-07 16:34:24,381 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-07 16:34:24,410 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-07 16:34:24,438 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-07 16:34:24,489 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-07 16:34:24,532 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-07 16:34:24,559 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-07 16:34:24,589 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-07 16:34:24,632 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-07 16:34:24,659 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-07 16:34:24,690 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-07 16:34:24,715 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-07 16:34:24,716 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-07 16:34:24,716 - INFO - ✓ 15 images processed.
+2026-07-07 16:34:24,790 - INFO - ====== WebDriver manager ======
+2026-07-07 16:34:26,052 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 16:34:26,501 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 16:34:26,830 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-07 16:34:26,830 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-07 16:34:27,942 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-07 16:34:27,944 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-07 16:34:27,981 - INFO - ✓ Chrome driver initialized
+2026-07-07 16:34:27,981 - INFO - Opening login page...
+2026-07-07 16:34:29,093 - INFO -   → Policy checkbox checked on login page
+2026-07-07 16:34:29,192 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-07 16:34:29,205 - INFO -   → Policy agreement popup detected
+2026-07-07 16:34:29,242 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-07 16:34:29,760 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-07 16:34:35,945 - INFO -   → Policy agreement popup detected
+2026-07-07 16:34:35,967 - INFO -     ✓ Policy checkbox was already checked
+2026-07-07 16:34:36,811 - INFO -     ✓ Clicked Continue button
+2026-07-07 16:34:36,910 - INFO -     ✓ Policy popup dismissed
+2026-07-07 16:34:37,920 - INFO - ✓ Login successful
+2026-07-07 16:34:39,921 - INFO - Navigating to dashboard icons section...
+2026-07-07 16:34:39,921 - INFO - Navigating to App Settings...
+2026-07-07 16:34:46,173 - INFO - ✓ Dashboard Icons section loaded
+2026-07-07 16:34:46,174 - INFO - Reading all available user types from dropdown...
+2026-07-07 16:34:59,916 - INFO -   Found 3 user types: ['M Star', 'SBU', 'Tech Master']
+2026-07-07 16:34:59,917 - INFO - User types to process: ['M Star', 'SBU', 'Tech Master']
+2026-07-07 16:35:00,585 - INFO - Planned tasks: 12
+2026-07-07 16:35:00,585 - INFO -   - [M Star] EDIT -> My Wallet (ID: wallet)
+2026-07-07 16:35:00,585 - INFO -   - [M Star] EDIT -> Scan Activity (ID: codedetails)
+2026-07-07 16:35:00,585 - INFO -   - [M Star] EDIT -> Contact Us (ID: contactus)
+2026-07-07 16:35:00,586 - INFO -   - [M Star] EDIT -> About Us (ID: aboutus)
+2026-07-07 16:35:00,586 - INFO -   - [SBU] EDIT -> My Wallet (ID: wallet)
+2026-07-07 16:35:00,586 - INFO -   - [SBU] EDIT -> Scan Activity (ID: codedetails)
+2026-07-07 16:35:00,586 - INFO -   - [SBU] EDIT -> Contact Us (ID: contactus)
+2026-07-07 16:35:00,586 - INFO -   - [SBU] EDIT -> About Us (ID: aboutus)
+2026-07-07 16:35:00,586 - INFO -   - [Tech Master] EDIT -> My Wallet (ID: wallet)
+2026-07-07 16:35:00,586 - INFO -   - [Tech Master] EDIT -> Scan Activity (ID: codedetails)
+2026-07-07 16:35:00,587 - INFO -   - [Tech Master] EDIT -> Contact Us (ID: contactus)
+2026-07-07 16:35:00,587 - INFO -   - [Tech Master] EDIT -> About Us (ID: aboutus)
+2026-07-07 16:35:00,587 - INFO - 
+[1/12] EDIT: [M Star] My Wallet (ID: wallet)
+2026-07-07 16:35:01,858 - INFO -   → Set display title to: My Wallet
+2026-07-07 16:35:02,244 - INFO -   → Set icon color to: #20A020
+2026-07-07 16:35:02,273 - INFO -   → Uploaded image: My Wallet.png
+2026-07-07 16:35:04,309 - INFO -   → Edit form submitted.
+2026-07-07 16:35:16,318 - INFO -   ✓ Successfully updated: Rewards -> My Wallet
+2026-07-07 16:35:17,319 - INFO - 
+[2/12] EDIT: [M Star] Scan Activity (ID: codedetails)
+2026-07-07 16:35:18,575 - INFO -   → Set display title to: Scan Activity
+2026-07-07 16:35:18,935 - INFO -   → Set icon color to: #10A010
+2026-07-07 16:35:18,980 - INFO -   → Uploaded image: Scan Activity.png
+2026-07-07 16:35:21,015 - INFO -   → Edit form submitted.
+2026-07-07 16:35:33,021 - INFO -   ✓ Successfully updated: Scan History -> Scan Activity
+2026-07-07 16:35:34,022 - INFO - 
+[3/12] EDIT: [M Star] Contact Us (ID: contactus)
+2026-07-07 16:35:35,377 - INFO -   → Set display title to: Contact Us
+2026-07-07 16:35:35,759 - INFO -   → Set icon color to: #0030F0
+2026-07-07 16:35:35,786 - INFO -   → Uploaded image: Support.png
+2026-07-07 16:35:37,816 - INFO -   → Edit form submitted.
+2026-07-07 16:35:49,912 - INFO -   ✓ Successfully updated: Contact Us -> Contact Us
+2026-07-07 16:35:50,913 - INFO - 
+[4/12] EDIT: [M Star] About Us (ID: aboutus)
+2026-07-07 16:35:52,244 - INFO -   → Set display title to: About Us
+2026-07-07 16:35:52,659 - INFO -   → Set icon color to: #70E8A8
+2026-07-07 16:35:52,688 - INFO -   → Uploaded image: aboutus.png
+2026-07-07 16:35:54,717 - INFO -   → Edit form submitted.
+2026-07-07 16:36:06,269 - INFO -   ✓ Successfully updated: About Us -> About Us
+2026-07-07 16:36:07,269 - INFO - 
+[5/12] EDIT: [SBU] My Wallet (ID: wallet)
+2026-07-07 16:36:08,613 - INFO -   → Set display title to: My Wallet
+2026-07-07 16:36:09,007 - INFO -   → Set icon color to: #20A020
+2026-07-07 16:36:09,038 - INFO -   → Uploaded image: My Wallet.png
+2026-07-07 16:36:11,077 - INFO -   → Edit form submitted.
+2026-07-07 16:36:23,083 - INFO -   ✓ Successfully updated: Rewards -> My Wallet
+2026-07-07 16:36:24,084 - INFO - 
+[6/12] EDIT: [SBU] Scan Activity (ID: codedetails)
+2026-07-07 16:36:25,408 - INFO -   → Set display title to: Scan Activity
+2026-07-07 16:36:25,799 - INFO -   → Set icon color to: #10A010
+2026-07-07 16:36:25,835 - INFO -   → Uploaded image: Scan Activity.png
+2026-07-07 16:36:27,866 - INFO -   → Edit form submitted.
+2026-07-07 16:36:39,869 - INFO -   ✓ Successfully updated: Scan History -> Scan Activity
+2026-07-07 16:36:40,870 - INFO - 
+[7/12] EDIT: [SBU] Contact Us (ID: contactus)
+2026-07-07 16:36:42,386 - INFO -   → Set display title to: Contact Us
+2026-07-07 16:36:42,753 - INFO -   → Set icon color to: #0030F0
+2026-07-07 16:36:42,784 - INFO -   → Uploaded image: Support.png
+2026-07-07 16:36:44,824 - INFO -   → Edit form submitted.
+2026-07-07 16:36:56,860 - INFO -   ✓ Successfully updated: Contact Us -> Contact Us
+2026-07-07 16:36:57,861 - INFO - 
+[8/12] EDIT: [SBU] About Us (ID: aboutus)
+2026-07-07 16:36:59,253 - INFO -   → Set display title to: About Us
+2026-07-07 16:36:59,616 - INFO -   → Set icon color to: #70E8A8
+2026-07-07 16:36:59,649 - INFO -   → Uploaded image: aboutus.png
+2026-07-07 16:37:01,677 - INFO -   → Edit form submitted.
+2026-07-07 16:37:13,222 - INFO -   ✓ Successfully updated: About Us -> About Us
+2026-07-07 16:37:14,223 - INFO - 
+[9/12] EDIT: [Tech Master] My Wallet (ID: wallet)
+2026-07-07 16:37:15,732 - INFO -   → Set display title to: My Wallet
+2026-07-07 16:37:16,101 - INFO -   → Set icon color to: #20A020
+2026-07-07 16:37:16,134 - INFO -   → Uploaded image: My Wallet.png
+2026-07-07 16:37:18,163 - INFO -   → Edit form submitted.
+2026-07-07 16:37:29,708 - INFO -   ✓ Successfully updated: Rewards -> My Wallet
+2026-07-07 16:37:30,709 - INFO - 
+[10/12] EDIT: [Tech Master] Scan Activity (ID: codedetails)
+2026-07-07 16:37:32,089 - INFO -   → Set display title to: Scan Activity
+2026-07-07 16:37:32,446 - INFO -   → Set icon color to: #10A010
+2026-07-07 16:37:32,475 - INFO -   → Uploaded image: Scan Activity.png
+2026-07-07 16:37:34,505 - INFO -   → Edit form submitted.
+2026-07-07 16:37:46,535 - INFO -   ✓ Successfully updated: Scan History -> Scan Activity
+2026-07-07 16:37:47,536 - INFO - 
+[11/12] EDIT: [Tech Master] Contact Us (ID: contactus)
+2026-07-07 16:37:49,050 - INFO -   → Set display title to: Contact Us
+2026-07-07 16:37:49,411 - INFO -   → Set icon color to: #0030F0
+2026-07-07 16:37:49,446 - INFO -   → Uploaded image: Support.png
+2026-07-07 16:37:51,474 - INFO -   → Edit form submitted.
+2026-07-07 16:38:03,489 - INFO -   ✓ Successfully updated: Contact Us -> Contact Us
+2026-07-07 16:38:04,490 - INFO - 
+[12/12] EDIT: [Tech Master] About Us (ID: aboutus)
+2026-07-07 16:38:05,954 - INFO -   → Set display title to: About Us
+2026-07-07 16:38:06,315 - INFO -   → Set icon color to: #70E8A8
+2026-07-07 16:38:06,342 - INFO -   → Uploaded image: aboutus.png
+2026-07-07 16:38:08,373 - INFO -   → Edit form submitted.
+2026-07-07 16:38:20,386 - INFO -   ✓ Successfully updated: About Us -> About Us
+2026-07-07 16:38:21,387 - INFO - ============================================================
+2026-07-07 16:38:21,387 - INFO - UPDATE ACCOUNT SUMMARY: bhabhra.sangeeta@mahindra.com
+2026-07-07 16:38:21,388 - INFO - ✓ Succeeded: 12
+2026-07-07 16:38:21,388 - INFO - ✗ Failed: 0
+2026-07-07 16:38:21,389 - INFO - ============================================================
+2026-07-07 16:38:23,642 - INFO - Browser closed
+2026-07-07 16:38:27,694 - INFO -   ✓ Completed update for vcqru
+2026-07-07 16:38:27,694 - INFO - 
+============================================================
+2026-07-07 16:38:27,695 - INFO - BATCH UPDATE — FINAL SUMMARY (SPECIAL 4 ICONS)
+2026-07-07 16:38:27,695 - INFO - ============================================================
+2026-07-07 16:38:27,695 - INFO -   Total accounts  : 1
+2026-07-07 16:38:27,695 - INFO -   ✓ Succeeded     : 1
+2026-07-07 16:38:27,696 - INFO -   ✗ Login failed  : 0
+2026-07-07 16:38:27,696 - INFO -   ✗ Update errors : 0
+2026-07-07 16:38:27,696 - INFO - ============================================================
+2026-07-07 16:38:27,697 - INFO - 
+Task finished at 2026-07-07 16:38:27
+2026-07-07 16:38:27,697 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260707_163324.log
+
+2026-07-07 16:42:46,732 - INFO - Automation cancelled by user (Ctrl+C)

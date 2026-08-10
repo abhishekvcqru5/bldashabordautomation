@@ -1,0 +1,57 @@
+2026-07-31 12:46:10,490 - INFO - User selected: Brand Setting
+2026-07-31 12:46:16,605 - INFO -   Found logo asset: Logo.jpg
+2026-07-31 12:46:16,606 - INFO -   Found splash asset: splash.jpeg
+2026-07-31 12:46:16,606 - INFO - ============================================================
+2026-07-31 12:46:16,606 - INFO - BRAND SETTING — Image Processing
+2026-07-31 12:46:16,607 - INFO - ============================================================
+2026-07-31 12:46:16,761 - INFO - ✓ Logo  → logo_processed.jpg  |  20.5 KB  |  JPEG q95
+2026-07-31 12:46:16,876 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-31 12:46:16,878 - INFO - 
+2026-07-31 12:46:16,878 - INFO - Extracting brand colours from logo...
+2026-07-31 12:46:17,026 - INFO -   Colours extracted from logo:
+2026-07-31 12:46:17,026 - INFO -     Header Color     →  #007090  (dominant logo colour)
+2026-07-31 12:46:17,027 - INFO -     Background Color →  #00485D  (35% darker)
+2026-07-31 12:46:17,027 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-31 12:46:17,027 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-31 12:46:17,037 - INFO - ✓ Both images ready
+
+2026-07-31 12:46:17,038 - INFO - ============================================================
+2026-07-31 12:46:17,038 - INFO - BRAND SETTING — Browser Automation
+2026-07-31 12:46:17,038 - INFO - ============================================================
+2026-07-31 12:46:17,060 - INFO - ====== WebDriver manager ======
+2026-07-31 12:46:19,332 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 12:46:19,521 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 12:46:19,707 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-31 12:46:19,708 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-31 12:46:20,976 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-31 12:46:20,983 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-31 12:46:21,034 - INFO - ✓ Chrome driver initialized
+2026-07-31 12:46:21,034 - INFO - Opening login page...
+2026-07-31 12:46:22,500 - INFO -   → Policy checkbox checked on login page
+2026-07-31 12:46:22,616 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-31 12:46:22,642 - INFO -   → Policy agreement popup detected
+2026-07-31 12:46:22,691 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-31 12:46:23,793 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-31 12:46:30,034 - INFO -   → Policy agreement popup detected
+2026-07-31 12:46:30,070 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-31 12:46:30,601 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-31 12:46:30,602 - INFO -   → Navigating directly to App Settings URL...
+2026-07-31 12:46:30,993 - INFO - ✓ Login successful and on App Settings page
+2026-07-31 12:46:32,994 - INFO - Going to App Settings...
+2026-07-31 12:46:39,302 - INFO -   → Identity & Branding section opened
+2026-07-31 12:46:41,382 - INFO -   → Edit Branding popup opened
+2026-07-31 12:46:41,398 - INFO - ✓ Brand setting form is ready
+2026-07-31 12:46:41,399 - INFO -   Setting company name: Bondfast
+2026-07-31 12:46:42,182 - INFO -     → HeaderColor: #007090
+2026-07-31 12:46:42,823 - INFO -     → FooterColor: #F5F5F5
+2026-07-31 12:46:43,595 - INFO -     → BodyColor: #FFFFFF
+2026-07-31 12:46:44,221 - INFO -     → BackgroundColor: #00485D
+2026-07-31 12:46:46,293 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-31 12:46:48,321 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-31 12:46:48,440 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-31 12:46:51,456 - INFO - ✓ Brand settings saved successfully!
+2026-07-31 12:46:53,720 - INFO - Browser closed
+2026-07-31 12:46:57,786 - INFO - 
+Task finished at 2026-07-31 12:46:57
+2026-07-31 12:46:57,787 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260731_124548.log
+

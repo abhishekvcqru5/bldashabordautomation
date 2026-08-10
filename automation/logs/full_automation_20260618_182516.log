@@ -1,0 +1,439 @@
+2026-06-18 18:25:21,731 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 18:25:36,903 - INFO - ============================================================
+2026-06-18 18:25:36,903 - INFO - UPDATING DASHBOARD ICONS FOR: mahesh@vcqru.com
+2026-06-18 18:25:36,903 - INFO - ============================================================
+2026-06-18 18:25:36,904 - INFO - Processing images from dashboardicons/...
+2026-06-18 18:25:36,909 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 18:25:36,909 - INFO - Output folder: automation\processed_images
+2026-06-18 18:25:36,909 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 18:25:36,969 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 18:25:37,045 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 18:25:37,125 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 18:25:37,141 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 18:25:37,189 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 18:25:37,239 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 18:25:37,279 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 18:25:37,314 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 18:25:37,345 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 18:25:37,371 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 18:25:37,389 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 18:25:37,423 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 18:25:37,452 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 18:25:37,481 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 18:25:37,529 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 18:25:37,561 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 18:25:37,588 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 18:25:37,619 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 18:25:37,649 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 18:25:37,649 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 18:25:37,650 - INFO - ✓ 18 images processed.
+2026-06-18 18:25:37,660 - INFO - ====== WebDriver manager ======
+2026-06-18 18:25:38,934 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:25:39,307 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:25:39,715 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 18:25:39,716 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 18:25:40,831 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 18:25:40,864 - INFO - ✓ Chrome driver initialized
+2026-06-18 18:25:40,864 - INFO - Opening login page...
+2026-06-18 18:25:43,593 - INFO -   → Policy checkbox checked on login page
+2026-06-18 18:25:43,694 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 18:26:17,602 - INFO - ✓ Login successful
+2026-06-18 18:26:19,603 - INFO - Navigating to dashboard icons section...
+2026-06-18 18:26:19,603 - INFO - Navigating to App Settings...
+2026-06-18 18:26:25,854 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 18:26:25,882 - INFO - Total rows found: 66
+2026-06-18 18:26:25,969 - INFO - Parsed Row 2: UserType='Dealer', Title='Scan History', ID='history'
+2026-06-18 18:26:26,002 - INFO - Parsed Row 3: UserType='Dealer', Title='Rewards', ID='gift'
+2026-06-18 18:26:26,029 - INFO - Parsed Row 4: UserType='Dealer', Title='Support', ID='help'
+2026-06-18 18:26:26,048 - INFO - Parsed Row 5: UserType='Dealer', Title='Scan Activity', ID='codedetails'
+2026-06-18 18:26:26,069 - INFO - Parsed Row 6: UserType='Dealer', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:26:26,090 - INFO - Parsed Row 7: UserType='Dealer', Title='Prospectus', ID='brochure'
+2026-06-18 18:26:26,109 - INFO - Parsed Row 8: UserType='Dealer', Title='Language', ID='chooselanguage'
+2026-06-18 18:26:26,129 - INFO - Parsed Row 9: UserType='Dealer', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:26:26,152 - INFO - Parsed Row 10: UserType='Dealer', Title='Kyc', ID='kycdetails'
+2026-06-18 18:26:26,172 - INFO - Parsed Row 11: UserType='Dealer', Title='Tds', ID='tds'
+2026-06-18 18:26:26,198 - INFO - Parsed Row 12: UserType='Dealer', Title='Nearby Retailers', ID='retailer'
+2026-06-18 18:26:26,227 - INFO - Parsed Row 13: UserType='Dealer', Title='My Wallet', ID='wallet'
+2026-06-18 18:26:26,249 - INFO - Parsed Row 14: UserType='Dealer', Title='Updates', ID='blog'
+2026-06-18 18:26:26,272 - INFO - Parsed Row 15: UserType='Dealer', Title='Installation Guide', ID='instalment'
+2026-06-18 18:26:26,294 - INFO - Parsed Row 16: UserType='Dealer', Title='Activity', ID='codedetails'
+2026-06-18 18:26:26,315 - INFO - Parsed Row 17: UserType='Dealer', Title='Send Points', ID='transferpoints'
+2026-06-18 18:26:26,337 - INFO - Parsed Row 18: UserType='Dealer', Title='E-Warranty', ID='e-warrant'
+2026-06-18 18:26:26,377 - INFO - Parsed Row 20: UserType='Retailer', Title='Rewards', ID='gift'
+2026-06-18 18:26:26,394 - INFO - Parsed Row 21: UserType='Retailer', Title='My Wallet', ID='wallet'
+2026-06-18 18:26:26,415 - INFO - Parsed Row 22: UserType='Retailer', Title='Installation Guide', ID='instalment'
+2026-06-18 18:26:26,432 - INFO - Parsed Row 23: UserType='Retailer', Title='Kyc', ID='kycdetails'
+2026-06-18 18:26:26,452 - INFO - Parsed Row 24: UserType='Retailer', Title='Nearby Retailers', ID='retailer'
+2026-06-18 18:26:26,472 - INFO - Parsed Row 25: UserType='Retailer', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:26:26,495 - INFO - Parsed Row 26: UserType='Retailer', Title='Prospectus', ID='brochure'
+2026-06-18 18:26:26,517 - INFO - Parsed Row 27: UserType='Retailer', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:26:26,540 - INFO - Parsed Row 28: UserType='Retailer', Title='Scan Activity', ID='codedetails'
+2026-06-18 18:26:26,566 - INFO - Parsed Row 29: UserType='Retailer', Title='Scan History', ID='history'
+2026-06-18 18:26:26,586 - INFO - Parsed Row 30: UserType='Retailer', Title='Send Points', ID='transferpoints'
+2026-06-18 18:26:26,611 - INFO - Parsed Row 31: UserType='Retailer', Title='Support', ID='help'
+2026-06-18 18:26:26,630 - INFO - Parsed Row 32: UserType='Retailer', Title='E-Warranty', ID='e-warrant'
+2026-06-18 18:26:26,649 - INFO - Parsed Row 33: UserType='Retailer', Title='Tds', ID='tds'
+2026-06-18 18:26:26,670 - INFO - Parsed Row 34: UserType='Retailer', Title='Ecommerce', ID='ecommerce'
+2026-06-18 18:26:26,688 - INFO - Parsed Row 35: UserType='Retailer', Title='Updates', ID='blog'
+2026-06-18 18:26:26,729 - INFO - Parsed Row 37: UserType='Autoagent', Title='Rewards', ID='gift'
+2026-06-18 18:26:26,755 - INFO - Parsed Row 38: UserType='Autoagent', Title='Scan History', ID='history'
+2026-06-18 18:26:26,781 - INFO - Parsed Row 39: UserType='Autoagent', Title='My Wallet', ID='wallet'
+2026-06-18 18:26:26,812 - INFO - Parsed Row 40: UserType='Autoagent', Title='Kyc', ID='kycdetails'
+2026-06-18 18:26:26,836 - INFO - Parsed Row 41: UserType='Autoagent', Title='Updates', ID='blog'
+2026-06-18 18:26:26,856 - INFO - Parsed Row 42: UserType='Autoagent', Title='Prospectus', ID='brochure'
+2026-06-18 18:26:26,875 - INFO - Parsed Row 43: UserType='Autoagent', Title='Claim History', ID='claimhistory'
+2026-06-18 18:26:26,894 - INFO - Parsed Row 44: UserType='Autoagent', Title='Language', ID='chooselanguage'
+2026-06-18 18:26:26,913 - INFO - Parsed Row 45: UserType='Autoagent', Title='Activity', ID='codedetails'
+2026-06-18 18:26:26,937 - INFO - Parsed Row 46: UserType='Autoagent', Title='Support', ID='help'
+2026-06-18 18:26:26,960 - INFO - Parsed Row 47: UserType='Autoagent', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:26:26,979 - INFO - Parsed Row 48: UserType='Autoagent', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:26:27,021 - INFO - Parsed Row 50: UserType='User', Title='Scan History', ID='history'
+2026-06-18 18:26:27,045 - INFO - Parsed Row 51: UserType='User', Title='Support', ID='help'
+2026-06-18 18:26:27,066 - INFO - Parsed Row 52: UserType='User', Title='Rewards', ID='gift'
+2026-06-18 18:26:27,087 - INFO - Parsed Row 53: UserType='User', Title='Scan Activity', ID='codedetails'
+2026-06-18 18:26:27,109 - INFO - Parsed Row 54: UserType='User', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:26:27,130 - INFO - Parsed Row 55: UserType='User', Title='Prospectus', ID='brochure'
+2026-06-18 18:26:27,200 - INFO - Parsed Row 56: UserType='User', Title='Language', ID='chooselanguage'
+2026-06-18 18:26:27,270 - INFO - Parsed Row 57: UserType='User', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:26:27,298 - INFO - Parsed Row 58: UserType='User', Title='Kyc', ID='kycdetails'
+2026-06-18 18:26:27,324 - INFO - Parsed Row 59: UserType='User', Title='Tds', ID='tds'
+2026-06-18 18:26:27,342 - INFO - Parsed Row 60: UserType='User', Title='Nearby Retailers', ID='retailer'
+2026-06-18 18:26:27,361 - INFO - Parsed Row 61: UserType='User', Title='My Wallet', ID='wallet'
+2026-06-18 18:26:27,379 - INFO - Parsed Row 62: UserType='User', Title='Updates', ID='blog'
+2026-06-18 18:26:27,400 - INFO - Parsed Row 63: UserType='User', Title='Installation Guide', ID='instalment'
+2026-06-18 18:26:27,420 - INFO - Parsed Row 64: UserType='User', Title='Activity', ID='codedetails'
+2026-06-18 18:26:27,444 - INFO - Parsed Row 65: UserType='User', Title='Send Points', ID='transferpoints'
+2026-06-18 18:26:27,445 - INFO - Found 61 icons to update.
+2026-06-18 18:26:27,445 - INFO - 
+[1/61] Updating: [Dealer] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 18:26:28,786 - INFO -   → Set display title to: Scan History
+2026-06-18 18:26:28,830 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 18:26:30,869 - INFO -   → Edit form submitted.
+2026-06-18 18:26:42,583 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 18:26:42,584 - INFO - 
+[2/61] Updating: [Dealer] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 18:26:43,963 - INFO -   → Set display title to: Rewards
+2026-06-18 18:26:43,989 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 18:26:46,021 - INFO -   → Edit form submitted.
+2026-06-18 18:26:57,880 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 18:26:57,880 - INFO - 
+[3/61] Updating: [Dealer] 'Support' (ID: 'help') with 'Support'
+2026-06-18 18:26:59,198 - INFO -   → Set display title to: Support
+2026-06-18 18:26:59,227 - INFO -   → Uploaded image: Support.png
+2026-06-18 18:27:01,264 - INFO -   → Edit form submitted.
+2026-06-18 18:27:13,298 - INFO -   ✓ Successfully updated: Support -> Support
+2026-06-18 18:27:13,299 - INFO - 
+[4/61] Updating: [Dealer] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-18 18:27:14,629 - INFO -   → Set display title to: Scan Activity
+2026-06-18 18:27:14,647 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-18 18:27:16,680 - INFO -   → Edit form submitted.
+2026-06-18 18:27:28,734 - INFO -   ✓ Successfully updated: Scan Activity -> Scan Activity
+2026-06-18 18:27:28,734 - INFO - 
+[5/61] Updating: [Dealer] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 18:27:30,061 - INFO -   → Set display title to: Product Catalog
+2026-06-18 18:27:30,090 - INFO -   → Uploaded image: Product Catalog.png
+2026-06-18 18:27:32,128 - INFO -   → Edit form submitted.
+2026-06-18 18:27:43,699 - INFO -   ✓ Successfully updated: Product Catalog -> Product Catalog
+2026-06-18 18:27:43,699 - INFO - 
+[6/61] Updating: [Dealer] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 18:27:45,047 - INFO -   → Set display title to: Prospectus
+2026-06-18 18:27:45,065 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 18:27:47,095 - INFO -   → Edit form submitted.
+2026-06-18 18:27:59,145 - INFO -   ✓ Successfully updated: Prospectus -> Prospectus
+2026-06-18 18:27:59,146 - INFO - 
+[7/61] Updating: [Dealer] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 18:27:59,984 - INFO -   → Set display title to: Language
+2026-06-18 18:28:00,017 - INFO -   → Uploaded image: Language.png
+2026-06-18 18:28:02,044 - INFO -   → Edit form submitted.
+2026-06-18 18:28:14,081 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-18 18:28:14,081 - INFO - 
+[8/61] Updating: [Dealer] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 18:28:14,933 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 18:28:14,966 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 18:28:16,997 - INFO -   → Edit form submitted.
+2026-06-18 18:28:29,029 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 18:28:29,030 - INFO - 
+[9/61] Updating: [Dealer] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 18:28:30,537 - INFO -   → Set display title to: KYC
+2026-06-18 18:28:30,593 - INFO -   → Uploaded image: KYC.png
+2026-06-18 18:28:32,636 - INFO -   → Edit form submitted.
+2026-06-18 18:28:44,366 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 18:28:44,366 - INFO - 
+[10/61] Updating: [Dealer] 'Tds' (ID: 'tds') with 'TDS'
+2026-06-18 18:28:46,013 - INFO -   → Set display title to: TDS
+2026-06-18 18:28:46,077 - INFO -   → Uploaded image: TDS.png
+2026-06-18 18:28:48,117 - INFO -   → Edit form submitted.
+2026-06-18 18:28:59,903 - INFO -   ✓ Successfully updated: Tds -> TDS
+2026-06-18 18:28:59,903 - INFO - 
+[11/61] Updating: [Dealer] 'Nearby Retailers' (ID: 'retailer') with 'Nearby Retailers'
+2026-06-18 18:29:01,651 - INFO -   → Set display title to: Nearby Retailers
+2026-06-18 18:29:01,685 - INFO -   → Uploaded image: Nearby Retailers.png
+2026-06-18 18:29:03,738 - INFO -   → Edit form submitted.
+2026-06-18 18:29:15,586 - INFO -   ✓ Successfully updated: Nearby Retailers -> Nearby Retailers
+2026-06-18 18:29:15,586 - INFO - 
+[12/61] Updating: [Dealer] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 18:29:17,343 - INFO -   → Set display title to: My Wallet
+2026-06-18 18:29:17,385 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 18:29:19,425 - INFO -   → Edit form submitted.
+2026-06-18 18:29:31,194 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 18:29:31,195 - INFO - 
+[13/61] Updating: [Dealer] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 18:29:32,973 - INFO -   → Set display title to: Updates
+2026-06-18 18:29:33,010 - INFO -   → Uploaded image: Updates.png
+2026-06-18 18:29:35,059 - INFO -   → Edit form submitted.
+2026-06-18 18:29:46,819 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 18:29:46,820 - INFO - 
+[14/61] Updating: [Dealer] 'Installation Guide' (ID: 'instalment') with 'Installation Guide'
+2026-06-18 18:29:48,050 - INFO -   → Set display title to: Installation Guide
+2026-06-18 18:29:48,085 - INFO -   → Uploaded image: Installation Guide.png
+2026-06-18 18:29:50,129 - INFO -   → Edit form submitted.
+2026-06-18 18:30:01,704 - INFO -   ✓ Successfully updated: Installation Guide -> Installation Guide
+2026-06-18 18:30:01,704 - INFO - 
+[15/61] Updating: [Dealer] 'Activity' (ID: 'codedetails') with 'Activity'
+2026-06-18 18:30:03,150 - INFO -   → Set display title to: Activity
+2026-06-18 18:30:03,192 - INFO -   → Uploaded image: Activity.png
+2026-06-18 18:30:05,229 - INFO -   → Edit form submitted.
+2026-06-18 18:30:16,855 - INFO -   ✓ Successfully updated: Activity -> Activity
+2026-06-18 18:30:16,855 - INFO - 
+[16/61] Updating: [Dealer] 'Send Points' (ID: 'transferpoints') with 'Send Points'
+2026-06-18 18:30:18,740 - INFO -   → Set display title to: Send Points
+2026-06-18 18:30:18,775 - INFO -   → Uploaded image: Send Points.png
+2026-06-18 18:30:20,866 - INFO -   → Edit form submitted.
+2026-06-18 18:30:32,555 - INFO -   ✓ Successfully updated: Send Points -> Send Points
+2026-06-18 18:30:32,555 - INFO - 
+[17/61] Updating: [Dealer] 'E-Warranty' (ID: 'e-warrant') with 'E-Warranty'
+2026-06-18 18:30:34,612 - INFO -   → Set display title to: E-Warranty
+2026-06-18 18:30:34,670 - INFO -   → Uploaded image: E-Warranty.png
+2026-06-18 18:30:36,738 - INFO -   → Edit form submitted.
+2026-06-18 18:30:48,574 - INFO -   ✓ Successfully updated: E-Warranty -> E-Warranty
+2026-06-18 18:30:48,574 - INFO - 
+[18/61] Updating: [Retailer] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 18:30:50,284 - INFO -   → Set display title to: Rewards
+2026-06-18 18:30:50,319 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 18:30:52,349 - INFO -   → Edit form submitted.
+2026-06-18 18:31:04,280 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 18:31:04,280 - INFO - 
+[19/61] Updating: [Retailer] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 18:31:05,368 - INFO -   → Set display title to: My Wallet
+2026-06-18 18:31:05,402 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 18:31:07,445 - INFO -   → Edit form submitted.
+2026-06-18 18:31:19,319 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 18:31:19,320 - INFO - 
+[20/61] Updating: [Retailer] 'Installation Guide' (ID: 'instalment') with 'Installation Guide'
+2026-06-18 18:31:20,842 - INFO -   → Set display title to: Installation Guide
+2026-06-18 18:31:20,868 - INFO -   → Uploaded image: Installation Guide.png
+2026-06-18 18:31:22,907 - INFO -   → Edit form submitted.
+2026-06-18 18:31:34,473 - INFO -   ✓ Successfully updated: Installation Guide -> Installation Guide
+2026-06-18 18:31:34,473 - INFO - 
+[21/61] Updating: [Retailer] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 18:31:35,903 - INFO -   → Set display title to: KYC
+2026-06-18 18:31:35,927 - INFO -   → Uploaded image: KYC.png
+2026-06-18 18:31:37,960 - INFO -   → Edit form submitted.
+2026-06-18 18:31:50,021 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 18:31:50,022 - INFO - 
+[22/61] Updating: [Retailer] 'Nearby Retailers' (ID: 'retailer') with 'Nearby Retailers'
+2026-06-18 18:31:51,534 - INFO -   → Set display title to: Nearby Retailers
+2026-06-18 18:31:51,556 - INFO -   → Uploaded image: Nearby Retailers.png
+2026-06-18 18:31:53,592 - INFO -   → Edit form submitted.
+2026-06-18 18:32:05,640 - INFO -   ✓ Successfully updated: Nearby Retailers -> Nearby Retailers
+2026-06-18 18:32:05,640 - INFO - 
+[23/61] Updating: [Retailer] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 18:32:06,651 - INFO -   → Set display title to: Product Catalog
+2026-06-18 18:32:06,680 - INFO -   → Uploaded image: Product Catalog.png
+2026-06-18 18:32:08,712 - INFO -   → Edit form submitted.
+2026-06-18 18:32:20,757 - INFO -   ✓ Successfully updated: Product Catalog -> Product Catalog
+2026-06-18 18:32:20,757 - INFO - 
+[24/61] Updating: [Retailer] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 18:32:22,274 - INFO -   → Set display title to: Prospectus
+2026-06-18 18:32:22,305 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 18:32:24,345 - INFO -   → Edit form submitted.
+2026-06-18 18:32:36,364 - INFO -   ✓ Successfully updated: Prospectus -> Prospectus
+2026-06-18 18:32:36,364 - INFO - 
+[25/61] Updating: [Retailer] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 18:32:37,951 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 18:32:37,982 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 18:32:40,021 - INFO -   → Edit form submitted.
+2026-06-18 18:32:52,046 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 18:32:52,046 - INFO - 
+[26/61] Updating: [Retailer] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-18 18:32:53,631 - INFO -   → Set display title to: Scan Activity
+2026-06-18 18:32:53,673 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-18 18:32:55,706 - INFO -   → Edit form submitted.
+2026-06-18 18:33:07,248 - INFO -   ✓ Successfully updated: Scan Activity -> Scan Activity
+2026-06-18 18:33:07,248 - INFO - 
+[27/61] Updating: [Retailer] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 18:33:08,835 - INFO -   → Set display title to: Scan History
+2026-06-18 18:33:08,862 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 18:33:10,897 - INFO -   → Edit form submitted.
+2026-06-18 18:33:22,453 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 18:33:22,453 - INFO - 
+[28/61] Updating: [Retailer] 'Send Points' (ID: 'transferpoints') with 'Send Points'
+2026-06-18 18:33:23,594 - INFO -   → Set display title to: Send Points
+2026-06-18 18:33:23,622 - INFO -   → Uploaded image: Send Points.png
+2026-06-18 18:33:25,666 - INFO -   → Edit form submitted.
+2026-06-18 18:33:37,712 - INFO -   ✓ Successfully updated: Send Points -> Send Points
+2026-06-18 18:33:37,713 - INFO - 
+[29/61] Updating: [Retailer] 'Support' (ID: 'help') with 'Support'
+2026-06-18 18:33:39,325 - INFO -   → Set display title to: Support
+2026-06-18 18:33:39,345 - ERROR -   ✗ Failed to update row (Support): Message: invalid argument: File not found : C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\processed_images\Support.png
+  (Session info: chrome=149.0.7827.115)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x128a543+103f3]
+	chromedriver!GetHandleVerifier [0x128a584+10434]
+	chromedriver!(No symbol) [0x108a700]
+	chromedriver!(No symbol) [0x10ce53a]
+	chromedriver!(No symbol) [0x10f60cc]
+	chromedriver!(No symbol) [0x10ca624]
+	chromedriver!(No symbol) [0x10f6294]
+	chromedriver!(No symbol) [0x111339a]
+	chromedriver!(No symbol) [0x10f5e66]
+	chromedriver!(No symbol) [0x10c9159]
+	chromedriver!(No symbol) [0x10c9f24]
+	chromedriver!GetHandleVerifier [0x1514bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1510119+295fc9]
+	chromedriver!GetHandleVerifier [0x153103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x12a37f6+296a6]
+	chromedriver!GetHandleVerifier [0x12aa91d+307cd]
+	chromedriver!GetHandleVerifier [0x1292d18+18bc8]
+	chromedriver!GetHandleVerifier [0x1292ec5+18d75]
+	chromedriver!GetHandleVerifier [0x127c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 18:33:40,371 - INFO - 
+[30/61] Updating: [Retailer] 'E-Warranty' (ID: 'e-warrant') with 'E-Warranty'
+2026-06-18 18:33:42,201 - INFO -   → Set display title to: E-Warranty
+2026-06-18 18:33:42,227 - INFO -   → Uploaded image: E-Warranty.png
+2026-06-18 18:33:44,319 - INFO -   → Edit form submitted.
+2026-06-18 18:33:56,002 - INFO -   ✓ Successfully updated: E-Warranty -> E-Warranty
+2026-06-18 18:33:56,003 - INFO - 
+[31/61] Updating: [Retailer] 'Tds' (ID: 'tds') with 'TDS'
+2026-06-18 18:33:58,459 - INFO -   → Set display title to: TDS
+2026-06-18 18:33:58,518 - INFO -   → Uploaded image: TDS.png
+2026-06-18 18:34:00,608 - INFO -   → Edit form submitted.
+2026-06-18 18:34:12,420 - INFO -   ✓ Successfully updated: Tds -> TDS
+2026-06-18 18:34:12,421 - INFO - 
+[32/61] Updating: [Retailer] 'Ecommerce' (ID: 'ecommerce') with 'ecommerce'
+2026-06-18 18:34:14,473 - INFO -   → Set display title to: ecommerce
+2026-06-18 18:34:14,512 - INFO -   → Uploaded image: ecommerce.png
+2026-06-18 18:34:16,554 - INFO -   → Edit form submitted.
+2026-06-18 18:34:28,452 - INFO -   ✓ Successfully updated: Ecommerce -> ecommerce
+2026-06-18 18:34:28,452 - INFO - 
+[33/61] Updating: [Retailer] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 18:34:30,351 - INFO -   → Set display title to: Updates
+2026-06-18 18:34:30,393 - INFO -   → Uploaded image: Updates.png
+2026-06-18 18:34:32,448 - INFO -   → Edit form submitted.
+2026-06-18 18:34:44,124 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 18:34:44,124 - INFO - 
+[34/61] Updating: [Autoagent] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 18:34:46,349 - INFO -   → Set display title to: Rewards
+2026-06-18 18:34:46,389 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 18:34:48,424 - INFO -   → Edit form submitted.
+2026-06-18 18:34:59,979 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 18:34:59,979 - INFO - 
+[35/61] Updating: [Autoagent] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 18:35:01,542 - INFO -   → Set display title to: Scan History
+2026-06-18 18:35:01,568 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 18:35:03,604 - INFO -   → Edit form submitted.
+2026-06-18 18:35:15,615 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 18:35:15,615 - INFO - 
+[36/61] Updating: [Autoagent] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 18:35:17,307 - INFO -   → Set display title to: My Wallet
+2026-06-18 18:35:17,340 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 18:35:19,375 - INFO -   → Edit form submitted.
+2026-06-18 18:35:30,920 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 18:35:30,920 - INFO - 
+[37/61] Updating: [Autoagent] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 18:35:32,544 - INFO -   → Set display title to: KYC
+2026-06-18 18:35:32,572 - INFO -   → Uploaded image: KYC.png
+2026-06-18 18:35:34,606 - INFO -   → Edit form submitted.
+2026-06-18 18:35:46,644 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 18:35:46,645 - INFO - 
+[38/61] Updating: [Autoagent] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 18:35:48,221 - INFO -   → Set display title to: Updates
+2026-06-18 18:35:48,245 - INFO -   → Uploaded image: Updates.png
+2026-06-18 18:35:50,278 - INFO -   → Edit form submitted.
+2026-06-18 18:35:51,838 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 18:35:51,839 - INFO - 
+[39/61] Updating: [Autoagent] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 18:35:51,852 - ERROR -   ✗ Could not find row for [Autoagent] 'Prospectus' (ID: 'brochure') on page.
+2026-06-18 18:35:51,853 - INFO - 
+[40/61] Updating: [Autoagent] 'Claim History' (ID: 'claimhistory') with 'Activity'
+2026-06-18 18:35:51,861 - ERROR -   ✗ Could not find row for [Autoagent] 'Claim History' (ID: 'claimhistory') on page.
+2026-06-18 18:35:51,861 - INFO - 
+[41/61] Updating: [Autoagent] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 18:35:51,868 - ERROR -   ✗ Could not find row for [Autoagent] 'Language' (ID: 'chooselanguage') on page.
+2026-06-18 18:35:51,868 - INFO - 
+[42/61] Updating: [Autoagent] 'Activity' (ID: 'codedetails') with 'Activity'
+2026-06-18 18:35:51,875 - ERROR -   ✗ Could not find row for [Autoagent] 'Activity' (ID: 'codedetails') on page.
+2026-06-18 18:35:51,875 - INFO - 
+[43/61] Updating: [Autoagent] 'Support' (ID: 'help') with 'Support'
+2026-06-18 18:35:51,881 - ERROR -   ✗ Could not find row for [Autoagent] 'Support' (ID: 'help') on page.
+2026-06-18 18:35:51,881 - INFO - 
+[44/61] Updating: [Autoagent] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 18:35:51,887 - ERROR -   ✗ Could not find row for [Autoagent] 'Refer & Earn' (ID: 'referandearn') on page.
+2026-06-18 18:35:51,887 - INFO - 
+[45/61] Updating: [Autoagent] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 18:35:51,894 - ERROR -   ✗ Could not find row for [Autoagent] 'Product Catalog' (ID: 'productcatalogue') on page.
+2026-06-18 18:35:51,894 - INFO - 
+[46/61] Updating: [User] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 18:35:51,900 - ERROR -   ✗ Could not find row for [User] 'Scan History' (ID: 'history') on page.
+2026-06-18 18:35:51,900 - INFO - 
+[47/61] Updating: [User] 'Support' (ID: 'help') with 'Support'
+2026-06-18 18:35:51,909 - ERROR -   ✗ Could not find row for [User] 'Support' (ID: 'help') on page.
+2026-06-18 18:35:51,909 - INFO - 
+[48/61] Updating: [User] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 18:35:51,916 - ERROR -   ✗ Could not find row for [User] 'Rewards' (ID: 'gift') on page.
+2026-06-18 18:35:51,916 - INFO - 
+[49/61] Updating: [User] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-18 18:35:51,922 - ERROR -   ✗ Could not find row for [User] 'Scan Activity' (ID: 'codedetails') on page.
+2026-06-18 18:35:51,922 - INFO - 
+[50/61] Updating: [User] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 18:35:51,928 - ERROR -   ✗ Could not find row for [User] 'Product Catalog' (ID: 'productcatalogue') on page.
+2026-06-18 18:35:51,928 - INFO - 
+[51/61] Updating: [User] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 18:35:51,935 - ERROR -   ✗ Could not find row for [User] 'Prospectus' (ID: 'brochure') on page.
+2026-06-18 18:35:51,935 - INFO - 
+[52/61] Updating: [User] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 18:35:51,944 - ERROR -   ✗ Could not find row for [User] 'Language' (ID: 'chooselanguage') on page.
+2026-06-18 18:35:51,944 - INFO - 
+[53/61] Updating: [User] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 18:35:51,955 - ERROR -   ✗ Could not find row for [User] 'Refer & Earn' (ID: 'referandearn') on page.
+2026-06-18 18:35:51,955 - INFO - 
+[54/61] Updating: [User] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 18:35:51,966 - ERROR -   ✗ Could not find row for [User] 'Kyc' (ID: 'kycdetails') on page.
+2026-06-18 18:35:51,966 - INFO - 
+[55/61] Updating: [User] 'Tds' (ID: 'tds') with 'TDS'
+2026-06-18 18:35:51,975 - ERROR -   ✗ Could not find row for [User] 'Tds' (ID: 'tds') on page.
+2026-06-18 18:35:51,975 - INFO - 
+[56/61] Updating: [User] 'Nearby Retailers' (ID: 'retailer') with 'Nearby Retailers'
+2026-06-18 18:35:51,993 - ERROR -   ✗ Could not find row for [User] 'Nearby Retailers' (ID: 'retailer') on page.
+2026-06-18 18:35:51,993 - INFO - 
+[57/61] Updating: [User] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 18:35:52,012 - ERROR -   ✗ Could not find row for [User] 'My Wallet' (ID: 'wallet') on page.
+2026-06-18 18:35:52,012 - INFO - 
+[58/61] Updating: [User] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 18:35:52,017 - ERROR -   ✗ Could not find row for [User] 'Updates' (ID: 'blog') on page.
+2026-06-18 18:35:52,017 - INFO - 
+[59/61] Updating: [User] 'Installation Guide' (ID: 'instalment') with 'Installation Guide'
+2026-06-18 18:35:52,025 - ERROR -   ✗ Could not find row for [User] 'Installation Guide' (ID: 'instalment') on page.
+2026-06-18 18:35:52,025 - INFO - 
+[60/61] Updating: [User] 'Activity' (ID: 'codedetails') with 'Activity'
+2026-06-18 18:35:52,030 - ERROR -   ✗ Could not find row for [User] 'Activity' (ID: 'codedetails') on page.
+2026-06-18 18:35:52,030 - INFO - 
+[61/61] Updating: [User] 'Send Points' (ID: 'transferpoints') with 'Send Points'
+2026-06-18 18:35:52,036 - ERROR -   ✗ Could not find row for [User] 'Send Points' (ID: 'transferpoints') on page.
+2026-06-18 18:35:52,036 - INFO - ============================================================
+2026-06-18 18:35:52,036 - INFO - UPDATE ACCOUNT SUMMARY: mahesh@vcqru.com
+2026-06-18 18:35:52,036 - INFO - ✓ Succeeded: 37
+2026-06-18 18:35:52,036 - INFO - ✗ Failed: 24
+2026-06-18 18:35:52,036 - INFO - ============================================================
+2026-06-18 18:35:54,191 - INFO - Browser closed
+2026-06-18 18:35:58,287 - INFO - 
+Task finished at 2026-06-18 18:35:58
+2026-06-18 18:35:58,287 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_182516.log
+

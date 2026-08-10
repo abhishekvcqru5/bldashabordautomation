@@ -1,0 +1,22 @@
+2026-07-27 16:29:19,027 - INFO - User selected: Brand Setting
+2026-07-27 16:29:47,942 - INFO -   Found logo asset: Logo.png
+2026-07-27 16:29:47,943 - INFO -   Found splash asset: splash.jpeg
+2026-07-27 16:29:47,943 - INFO - ============================================================
+2026-07-27 16:29:47,943 - INFO - BRAND SETTING — Image Processing
+2026-07-27 16:29:47,943 - INFO - ============================================================
+2026-07-27 16:29:48,073 - INFO - ✓ Logo  → logo_processed.jpg  |  17.6 KB  |  JPEG q95
+2026-07-27 16:29:48,144 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-27 16:29:48,149 - INFO - 
+2026-07-27 16:29:48,149 - INFO - Extracting brand colours from logo...
+2026-07-27 16:29:48,344 - INFO -   Colours extracted from logo:
+2026-07-27 16:29:48,345 - INFO -     Header Color     →  #304070  (dominant logo colour)
+2026-07-27 16:29:48,346 - INFO -     Background Color →  #1F2948  (35% darker)
+2026-07-27 16:29:48,346 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-27 16:29:48,346 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-27 16:29:48,361 - INFO - ✓ Both images ready
+
+2026-07-27 16:29:48,361 - INFO - ============================================================
+2026-07-27 16:29:48,361 - INFO - BRAND SETTING — Browser Automation
+2026-07-27 16:29:48,361 - INFO - ============================================================
+2026-07-27 16:29:48,386 - INFO - ====== WebDriver manager ======
+2026-07-27 16:29:50,810 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,111 @@
+2026-07-22 12:02:58,449 - INFO - User selected: Brand Setting
+2026-07-22 12:03:14,100 - ERROR - No file named 'logo' found in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting/  (checked extensions: .bmp, .gif, .jpeg, .jpg, .png, .tiff, .webp)
+2026-07-22 12:03:14,101 - INFO -   Found splash asset: splash.jpeg
+2026-07-22 12:03:14,101 - INFO - 
+Task finished at 2026-07-22 12:03:14
+2026-07-22 12:03:14,101 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260722_120240.log
+
+2026-07-22 12:03:36,390 - INFO - User selected: Brand Setting
+2026-07-22 12:03:37,948 - INFO -   Found logo asset: Logo.png
+2026-07-22 12:03:37,949 - INFO -   Found splash asset: splash.jpeg
+2026-07-22 12:03:37,949 - INFO - ============================================================
+2026-07-22 12:03:37,949 - INFO - BRAND SETTING — Image Processing
+2026-07-22 12:03:37,949 - INFO - ============================================================
+2026-07-22 12:03:38,065 - INFO - ✓ Logo  → logo_processed.jpg  |  35.1 KB  |  JPEG q95
+2026-07-22 12:03:38,111 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-22 12:03:38,113 - INFO - 
+2026-07-22 12:03:38,113 - INFO - Extracting brand colours from logo...
+2026-07-22 12:03:38,300 - INFO -   Colours extracted from logo:
+2026-07-22 12:03:38,300 - INFO -     Header Color     →  #E01020  (dominant logo colour)
+2026-07-22 12:03:38,301 - INFO -     Background Color →  #910A14  (35% darker)
+2026-07-22 12:03:38,301 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-22 12:03:38,301 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-22 12:03:38,314 - INFO - ✓ Both images ready
+
+2026-07-22 12:03:38,314 - INFO - ============================================================
+2026-07-22 12:03:38,314 - INFO - BRAND SETTING — Browser Automation
+2026-07-22 12:03:38,314 - INFO - ============================================================
+2026-07-22 12:03:38,325 - INFO - ====== WebDriver manager ======
+2026-07-22 12:03:40,392 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-22 12:03:40,643 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-22 12:03:40,806 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-22 12:03:41,223 - INFO - WebDriver version 150.0.7871.124 selected
+2026-07-22 12:03:41,232 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-22 12:03:41,232 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-22 12:03:41,294 - INFO - Driver downloading response is 200
+2026-07-22 12:03:41,637 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-22 12:03:41,908 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-07-22 12:03:41,910 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-22 12:03:44,786 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-22 12:03:44,792 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-22 12:03:44,838 - INFO - ✓ Chrome driver initialized
+2026-07-22 12:03:44,839 - INFO - Opening login page...
+2026-07-22 12:03:46,095 - INFO -   → Policy checkbox checked on login page
+2026-07-22 12:03:46,204 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-22 12:03:46,224 - INFO -   → Policy agreement popup detected
+2026-07-22 12:03:46,281 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-22 12:03:46,907 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-22 12:03:58,199 - INFO -   → Navigating directly to App Settings URL...
+2026-07-22 12:03:58,447 - INFO - ✓ Login successful and on App Settings page
+2026-07-22 12:04:00,448 - INFO - Going to App Settings...
+2026-07-22 12:04:06,840 - INFO -   → Identity & Branding section opened
+2026-07-22 12:04:08,954 - INFO -   → Edit Branding popup opened
+2026-07-22 12:04:08,970 - INFO - ✓ Brand setting form is ready
+2026-07-22 12:04:08,971 - INFO -   Setting company name: Sundercab Rewards
+2026-07-22 12:04:09,853 - INFO -     → HeaderColor: #E01020
+2026-07-22 12:04:10,601 - INFO -     → FooterColor: #F5F5F5
+2026-07-22 12:04:11,487 - INFO -     → BodyColor: #FFFFFF
+2026-07-22 12:04:12,186 - INFO -     → BackgroundColor: #910A14
+2026-07-22 12:04:14,243 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-22 12:04:16,310 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-22 12:04:16,428 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-22 12:04:19,438 - INFO - ✓ Brand settings saved successfully!
+2026-07-22 12:04:21,777 - INFO - Browser closed
+2026-07-22 12:04:25,846 - INFO - 
+Task finished at 2026-07-22 12:04:25
+2026-07-22 12:04:25,847 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260722_120240.log
+
+2026-07-22 12:05:24,857 - INFO - User selected: Intro Screens
+2026-07-22 12:05:24,858 - INFO - ============================================================
+2026-07-22 12:05:24,858 - INFO - INTRO SCREENS — Image Processing
+2026-07-22 12:05:24,858 - INFO - ============================================================
+2026-07-22 12:05:24,860 - INFO - Found 1 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-07-22 12:05:24,873 - INFO -   ⚙ Processing WhatsApp Image 2026-07-22 at 11.16.52 AM.jpeg  (900×1600 → need 1080×1920)
+2026-07-22 12:05:25,036 - INFO -   ✓ WhatsApp Image 2026-07-22 at 11.16.52 AM.jpeg  →  WhatsApp Image 2026-07-22 at 11.16.52 AM_processed.jpg  |  1080×1920  |  0.29 MB  |  quality 92
+2026-07-22 12:05:25,037 - INFO -   Processed 1/1 intro images successfully
+
+2026-07-22 12:05:26,343 - INFO - ============================================================
+2026-07-22 12:05:26,344 - INFO - INTRO SCREENS — Browser Automation
+2026-07-22 12:05:26,344 - INFO - ============================================================
+2026-07-22 12:05:26,359 - INFO - ====== WebDriver manager ======
+2026-07-22 12:05:28,172 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-22 12:05:28,341 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-22 12:05:28,508 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-22 12:05:28,509 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-22 12:05:29,747 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-22 12:05:29,754 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-22 12:05:29,801 - INFO - ✓ Chrome driver initialized
+2026-07-22 12:05:29,801 - INFO - Opening login page...
+2026-07-22 12:05:31,140 - INFO -   → Policy checkbox checked on login page
+2026-07-22 12:05:31,254 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-22 12:05:31,274 - INFO -   → Policy agreement popup detected
+2026-07-22 12:05:31,327 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-22 12:05:31,944 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-22 12:05:43,144 - INFO -   → Navigating directly to App Settings URL...
+2026-07-22 12:05:43,509 - INFO - ✓ Login successful and on App Settings page
+2026-07-22 12:05:45,510 - INFO - Going to App Settings...
+2026-07-22 12:05:51,781 - INFO -   → Intro Screens section opened
+2026-07-22 12:05:51,808 - INFO - ✓ Intro Screens page ready
+2026-07-22 12:05:51,808 - INFO - Starting batch  —  1 intro screen(s) to launch
+2026-07-22 12:05:51,809 - INFO - ============================================================
+2026-07-22 12:05:51,809 - INFO - [1/1]
+2026-07-22 12:05:51,809 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-22 12:05:54,175 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-22 12:05:54,936 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-22 12:05:57,043 - INFO -     → Image uploaded: WhatsApp Image 2026-07-22 at 11.16.52 AM_processed.jpg
+2026-07-22 12:05:57,178 - INFO -     → Launch Screen clicked
+2026-07-22 12:06:01,201 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-22 12:06:02,202 - INFO - ============================================================
+2026-07-22 12:06:02,202 - INFO - Intro screens done  →  ✓ 1 launched   ✗ 0 failed
+2026-07-22 12:06:04,407 - INFO - Browser closed

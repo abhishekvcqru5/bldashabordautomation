@@ -1,0 +1,231 @@
+2026-07-14 17:15:17,764 - INFO - User selected: Registration Fields
+2026-07-14 17:15:17,765 - INFO - ============================================================
+2026-07-14 17:15:17,766 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-14 17:15:17,766 - INFO - ============================================================
+2026-07-14 17:15:17,813 - INFO - ====== WebDriver manager ======
+2026-07-14 17:15:23,141 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:15:25,052 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:15:26,854 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-14 17:15:26,856 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-14 17:15:32,782 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-14 17:15:32,801 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-14 17:15:32,908 - INFO - ✓ Chrome driver initialized
+2026-07-14 17:15:32,915 - INFO - Opening login page...
+2026-07-14 17:15:35,177 - INFO -   → Policy checkbox checked on login page
+2026-07-14 17:15:35,504 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-14 17:15:35,579 - INFO -   → Policy agreement popup detected
+2026-07-14 17:15:35,730 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-14 17:15:36,345 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-14 17:15:42,604 - INFO -   → Policy agreement popup detected
+2026-07-14 17:15:42,734 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-14 17:15:43,340 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-14 17:15:43,364 - INFO - ✓ Login successful
+2026-07-14 17:15:45,416 - INFO - Going to App Settings...
+2026-07-14 17:15:48,463 - INFO -   → Registration Field section opened
+2026-07-14 17:15:48,941 - INFO - ✓ Registration Fields page ready
+2026-07-14 17:15:52,854 - INFO - Found 4 user types: ['Sales Executive', 'Head Mechanics', 'Backend Admin', 'Assistant Mechanics']
+2026-07-14 17:15:52,854 - INFO - Starting registration fields automation: 24 fields total
+2026-07-14 17:15:52,855 - INFO - ============================================================
+2026-07-14 17:15:52,856 - INFO - Processing User Type: Sales Executive
+2026-07-14 17:15:52,856 - INFO -   Adding field: [Sales Executive] -> First Name
+2026-07-14 17:15:53,959 - INFO -     → User Type selected: Sales Executive
+2026-07-14 17:16:14,414 - INFO -     → System Data Point selected: First Name
+2026-07-14 17:16:14,550 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:16:15,163 - INFO -     → Integrate Now clicked
+2026-07-14 17:16:15,224 - INFO -     → Toast dismissed
+2026-07-14 17:16:15,417 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-14 17:16:15,723 - INFO -   Adding field: [Sales Executive] -> Phone Number
+2026-07-14 17:16:16,601 - INFO -     → User Type selected: Sales Executive
+2026-07-14 17:16:38,188 - INFO -     → System Data Point selected: Phone Number
+2026-07-14 17:16:38,356 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:16:38,819 - INFO -     → Integrate Now clicked
+2026-07-14 17:16:38,854 - INFO -     → Toast dismissed
+2026-07-14 17:16:39,117 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-14 17:16:39,420 - INFO -   Adding field: [Sales Executive] -> Pincode
+2026-07-14 17:16:41,106 - INFO -     → User Type selected: Sales Executive
+2026-07-14 17:17:01,632 - INFO -     → System Data Point selected: Pincode
+2026-07-14 17:17:01,738 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:17:02,267 - INFO -     → Integrate Now clicked
+2026-07-14 17:17:02,374 - INFO -     → Toast dismissed
+2026-07-14 17:17:02,737 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-14 17:17:03,043 - INFO -   Adding field: [Sales Executive] -> City
+2026-07-14 17:17:03,928 - INFO -     → User Type selected: Sales Executive
+2026-07-14 17:17:25,016 - INFO -     → System Data Point selected: City
+2026-07-14 17:17:25,175 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:17:25,856 - INFO -     → Integrate Now clicked
+2026-07-14 17:17:25,986 - INFO -     → Toast dismissed
+2026-07-14 17:17:26,373 - INFO -   ✓ Field added successfully: City
+
+2026-07-14 17:17:26,679 - INFO -   Adding field: [Sales Executive] -> State
+2026-07-14 17:17:27,919 - INFO -     → User Type selected: Sales Executive
+2026-07-14 17:17:48,833 - INFO -     → System Data Point selected: State
+2026-07-14 17:17:48,998 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:17:49,564 - INFO -     → Integrate Now clicked
+2026-07-14 17:17:49,642 - INFO -     → Toast dismissed
+2026-07-14 17:17:49,954 - INFO -   ✓ Field added successfully: State
+
+2026-07-14 17:17:50,255 - INFO -   Adding field: [Sales Executive] -> Address
+2026-07-14 17:17:51,457 - INFO -     → User Type selected: Sales Executive
+2026-07-14 17:18:12,240 - INFO -     → System Data Point selected: Address
+2026-07-14 17:18:12,530 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:18:13,055 - INFO -     → Integrate Now clicked
+2026-07-14 17:18:13,638 - INFO -     → Toast dismissed
+2026-07-14 17:18:14,066 - INFO -   ✓ Field added successfully: Address
+
+2026-07-14 17:18:14,369 - INFO - Processing User Type: Head Mechanics
+2026-07-14 17:18:14,371 - INFO -   Adding field: [Head Mechanics] -> First Name
+2026-07-14 17:18:15,773 - INFO -     → User Type selected: Head Mechanics
+2026-07-14 17:18:36,386 - INFO -     → System Data Point selected: First Name
+2026-07-14 17:18:36,539 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:18:36,900 - INFO -     → Integrate Now clicked
+2026-07-14 17:18:37,001 - INFO -     → Toast dismissed
+2026-07-14 17:18:37,451 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-14 17:18:37,754 - INFO -   Adding field: [Head Mechanics] -> Phone Number
+2026-07-14 17:18:39,148 - INFO -     → User Type selected: Head Mechanics
+2026-07-14 17:18:59,769 - INFO -     → System Data Point selected: Phone Number
+2026-07-14 17:19:00,050 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:19:01,117 - INFO -     → Integrate Now clicked
+2026-07-14 17:19:01,599 - INFO -     → Toast dismissed
+2026-07-14 17:19:02,581 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-14 17:19:02,886 - INFO -   Adding field: [Head Mechanics] -> Pincode
+2026-07-14 17:19:05,530 - INFO -     → User Type selected: Head Mechanics
+2026-07-14 17:19:26,023 - INFO -     → System Data Point selected: Pincode
+2026-07-14 17:19:26,125 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:19:27,122 - INFO -     → Integrate Now clicked
+2026-07-14 17:19:27,290 - INFO -     → Toast dismissed
+2026-07-14 17:19:27,820 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-14 17:19:28,122 - INFO -   Adding field: [Head Mechanics] -> City
+2026-07-14 17:19:28,747 - INFO -     → User Type selected: Head Mechanics
+2026-07-14 17:19:51,349 - INFO -     → System Data Point selected: City
+2026-07-14 17:19:52,244 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:19:53,569 - INFO -     → Integrate Now clicked
+2026-07-14 17:19:53,816 - INFO -     → Toast dismissed
+2026-07-14 17:19:54,184 - INFO -   ✓ Field added successfully: City
+
+2026-07-14 17:19:54,488 - INFO -   Adding field: [Head Mechanics] -> State
+2026-07-14 17:19:56,290 - INFO -     → User Type selected: Head Mechanics
+2026-07-14 17:20:20,810 - INFO -     → System Data Point selected: State
+2026-07-14 17:20:21,286 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:20:24,984 - INFO -     → Integrate Now clicked
+2026-07-14 17:20:25,827 - INFO -     → Toast dismissed
+2026-07-14 17:20:27,107 - INFO -   ✓ Field added successfully: State
+
+2026-07-14 17:20:27,415 - INFO -   Adding field: [Head Mechanics] -> Address
+2026-07-14 17:20:28,904 - INFO -     → User Type selected: Head Mechanics
+2026-07-14 17:20:51,866 - INFO -     → System Data Point selected: Address
+2026-07-14 17:20:52,687 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:20:54,672 - INFO -     → Integrate Now clicked
+2026-07-14 17:20:55,850 - INFO -     → Toast dismissed
+2026-07-14 17:20:56,556 - INFO -   ✓ Field added successfully: Address
+
+2026-07-14 17:20:56,864 - INFO - Processing User Type: Backend Admin
+2026-07-14 17:20:56,866 - INFO -   Adding field: [Backend Admin] -> First Name
+2026-07-14 17:21:02,497 - INFO -     → User Type selected: Backend Admin
+2026-07-14 17:21:23,255 - INFO -     → System Data Point selected: First Name
+2026-07-14 17:21:23,670 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:21:24,540 - INFO -     → Integrate Now clicked
+2026-07-14 17:21:25,174 - INFO -     → Toast dismissed
+2026-07-14 17:21:25,869 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-14 17:21:26,171 - INFO -   Adding field: [Backend Admin] -> Phone Number
+2026-07-14 17:21:28,186 - INFO -     → User Type selected: Backend Admin
+2026-07-14 17:21:48,518 - INFO -     → System Data Point selected: Phone Number
+2026-07-14 17:21:48,680 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:21:49,023 - INFO -     → Integrate Now clicked
+2026-07-14 17:21:49,051 - INFO -     → Toast dismissed
+2026-07-14 17:21:49,192 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-14 17:21:49,496 - INFO -   Adding field: [Backend Admin] -> Pincode
+2026-07-14 17:21:50,355 - INFO -     → User Type selected: Backend Admin
+2026-07-14 17:22:12,003 - INFO -     → System Data Point selected: Pincode
+2026-07-14 17:22:13,264 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:22:14,541 - INFO -     → Integrate Now clicked
+2026-07-14 17:22:14,625 - INFO -     → Toast dismissed
+2026-07-14 17:22:15,041 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-14 17:22:15,356 - INFO -   Adding field: [Backend Admin] -> City
+2026-07-14 17:22:21,738 - INFO -     → User Type selected: Backend Admin
+2026-07-14 17:22:42,402 - INFO -     → System Data Point selected: City
+2026-07-14 17:22:42,571 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:22:43,150 - INFO -     → Integrate Now clicked
+2026-07-14 17:22:43,216 - INFO -     → Toast dismissed
+2026-07-14 17:22:43,557 - INFO -   ✓ Field added successfully: City
+
+2026-07-14 17:22:43,866 - INFO -   Adding field: [Backend Admin] -> State
+2026-07-14 17:22:45,771 - INFO -     → User Type selected: Backend Admin
+2026-07-14 17:23:06,209 - INFO -     → System Data Point selected: State
+2026-07-14 17:23:06,318 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:23:06,725 - INFO -     → Integrate Now clicked
+2026-07-14 17:23:06,998 - INFO -     → Toast dismissed
+2026-07-14 17:23:07,374 - INFO -   ✓ Field added successfully: State
+
+2026-07-14 17:23:07,680 - INFO -   Adding field: [Backend Admin] -> Address
+2026-07-14 17:23:08,268 - INFO -     → User Type selected: Backend Admin
+2026-07-14 17:23:30,381 - INFO -     → System Data Point selected: Address
+2026-07-14 17:23:30,685 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:23:33,055 - INFO -     → Integrate Now clicked
+2026-07-14 17:23:33,316 - INFO -     → Toast dismissed
+2026-07-14 17:23:34,238 - INFO -   ✓ Field added successfully: Address
+
+2026-07-14 17:23:34,665 - INFO - Processing User Type: Assistant Mechanics
+2026-07-14 17:23:34,690 - INFO -   Adding field: [Assistant Mechanics] -> First Name
+2026-07-14 17:23:37,706 - INFO -     → User Type selected: Assistant Mechanics
+2026-07-14 17:24:00,372 - INFO -     → System Data Point selected: First Name
+2026-07-14 17:24:01,374 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:24:04,005 - INFO -     → Integrate Now clicked
+2026-07-14 17:24:04,487 - INFO -     → Toast dismissed
+2026-07-14 17:24:05,505 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-14 17:24:05,854 - INFO -   Adding field: [Assistant Mechanics] -> Phone Number
+2026-07-14 17:24:10,030 - INFO -     → User Type selected: Assistant Mechanics
+2026-07-14 17:24:30,786 - INFO -     → System Data Point selected: Phone Number
+2026-07-14 17:24:31,132 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:24:32,438 - INFO -     → Integrate Now clicked
+2026-07-14 17:24:32,517 - INFO -     → Toast dismissed
+2026-07-14 17:24:32,781 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-14 17:24:33,083 - INFO -   Adding field: [Assistant Mechanics] -> Pincode
+2026-07-14 17:24:34,452 - INFO -     → User Type selected: Assistant Mechanics
+2026-07-14 17:24:58,505 - INFO -     → System Data Point selected: Pincode
+2026-07-14 17:24:58,757 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:24:59,923 - INFO -     → Integrate Now clicked
+2026-07-14 17:25:00,252 - INFO -     → Toast dismissed
+2026-07-14 17:25:00,869 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-14 17:25:01,187 - INFO -   Adding field: [Assistant Mechanics] -> City
+2026-07-14 17:25:02,864 - INFO -     → User Type selected: Assistant Mechanics
+2026-07-14 17:25:27,203 - INFO -     → System Data Point selected: City
+2026-07-14 17:25:28,022 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:25:31,911 - INFO -     → Integrate Now clicked
+2026-07-14 17:25:32,379 - INFO -     → Toast dismissed
+2026-07-14 17:25:33,042 - INFO -   ✓ Field added successfully: City
+
+2026-07-14 17:25:33,556 - INFO -   Adding field: [Assistant Mechanics] -> State
+2026-07-14 17:25:38,924 - INFO -     → User Type selected: Assistant Mechanics
+2026-07-14 17:26:00,524 - INFO -     → System Data Point selected: State
+2026-07-14 17:26:00,798 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:26:02,088 - INFO -     → Integrate Now clicked
+2026-07-14 17:26:02,349 - INFO -     → Toast dismissed
+2026-07-14 17:26:03,004 - INFO -   ✓ Field added successfully: State
+
+2026-07-14 17:26:03,305 - INFO -   Adding field: [Assistant Mechanics] -> Address
+2026-07-14 17:26:07,234 - INFO -     → User Type selected: Assistant Mechanics
+2026-07-14 17:26:31,290 - INFO -     → System Data Point selected: Address
+2026-07-14 17:26:32,924 - INFO -     → Mandatory toggle enabled
+2026-07-14 17:26:35,169 - INFO -     → Integrate Now clicked
+2026-07-14 17:26:35,654 - INFO -     → Toast dismissed
+2026-07-14 17:26:37,059 - INFO -   ✓ Field added successfully: Address
+
+2026-07-14 17:26:37,467 - INFO - ============================================================
+2026-07-14 17:26:37,475 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-07-14 17:26:58,691 - INFO - Browser closed
+2026-07-14 17:27:02,924 - INFO - 
+Task finished at 2026-07-14 17:27:02
+2026-07-14 17:27:02,972 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260714_171308.log
+

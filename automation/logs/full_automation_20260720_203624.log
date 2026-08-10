@@ -1,0 +1,170 @@
+2026-07-20 20:36:57,541 - INFO - User selected: Registration Fields
+2026-07-20 20:36:57,542 - INFO - ============================================================
+2026-07-20 20:36:57,543 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-20 20:36:57,543 - INFO - ============================================================
+2026-07-20 20:36:57,572 - INFO - ====== WebDriver manager ======
+2026-07-20 20:37:00,348 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:37:00,555 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:37:00,762 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 20:37:00,763 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 20:37:02,961 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 20:37:02,971 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 20:37:03,044 - INFO - ✓ Chrome driver initialized
+2026-07-20 20:37:03,046 - INFO - Opening login page...
+2026-07-20 20:37:04,684 - INFO -   → Policy checkbox checked on login page
+2026-07-20 20:37:04,930 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 20:37:04,965 - INFO -   → Policy agreement popup detected
+2026-07-20 20:37:05,085 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:37:05,711 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:37:11,809 - INFO -   → Policy agreement popup detected
+2026-07-20 20:37:11,962 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:37:12,829 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:37:12,830 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 20:37:13,883 - INFO - ✓ Login successful and on App Settings page
+2026-07-20 20:37:15,889 - INFO - Going to App Settings...
+2026-07-20 20:37:17,372 - INFO -   → Registration Field section opened
+2026-07-20 20:37:17,706 - INFO - ✓ Registration Fields page ready
+2026-07-20 20:37:19,494 - INFO - Found 1 user types: ['Mason']
+2026-07-20 20:37:19,495 - INFO - Starting registration fields automation: 6 fields total
+2026-07-20 20:37:19,496 - INFO - ============================================================
+2026-07-20 20:37:19,496 - INFO - Processing User Type: Mason
+2026-07-20 20:37:19,497 - INFO -   Adding field: [Mason] -> First Name
+2026-07-20 20:37:20,477 - INFO -     → User Type selected: Mason
+2026-07-20 20:37:41,025 - INFO -     → System Data Point selected: First Name
+2026-07-20 20:37:41,114 - INFO -     → Mandatory toggle enabled
+2026-07-20 20:37:41,362 - INFO -     → Integrate Now clicked
+2026-07-20 20:37:41,424 - INFO -     → Toast dismissed
+2026-07-20 20:37:41,616 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-20 20:37:41,918 - INFO -   Adding field: [Mason] -> Phone Number
+2026-07-20 20:37:42,415 - INFO -     → User Type selected: Mason
+2026-07-20 20:38:02,716 - INFO -     → System Data Point selected: Phone Number
+2026-07-20 20:38:02,808 - INFO -     → Mandatory toggle enabled
+2026-07-20 20:38:03,212 - INFO -     → Integrate Now clicked
+2026-07-20 20:38:03,238 - INFO -     → Toast dismissed
+2026-07-20 20:38:03,446 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-20 20:38:03,749 - INFO -   Adding field: [Mason] -> Pincode
+2026-07-20 20:38:04,769 - INFO -     → User Type selected: Mason
+2026-07-20 20:38:24,995 - INFO -     → System Data Point selected: Pincode
+2026-07-20 20:38:25,064 - INFO -     → Mandatory toggle enabled
+2026-07-20 20:38:25,301 - INFO -     → Integrate Now clicked
+2026-07-20 20:38:25,328 - INFO -     → Toast dismissed
+2026-07-20 20:38:25,430 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-20 20:38:25,732 - INFO -   Adding field: [Mason] -> City
+2026-07-20 20:38:26,257 - INFO -     → User Type selected: Mason
+2026-07-20 20:38:46,571 - INFO -     → System Data Point selected: City
+2026-07-20 20:38:46,640 - INFO -     → Mandatory toggle enabled
+2026-07-20 20:38:46,893 - INFO -     → Integrate Now clicked
+2026-07-20 20:38:46,922 - INFO -     → Toast dismissed
+2026-07-20 20:38:47,061 - INFO -   ✓ Field added successfully: City
+
+2026-07-20 20:38:47,363 - INFO -   Adding field: [Mason] -> State
+2026-07-20 20:38:48,068 - INFO -     → User Type selected: Mason
+2026-07-20 20:39:08,450 - INFO -     → System Data Point selected: State
+2026-07-20 20:39:08,558 - INFO -     → Mandatory toggle enabled
+2026-07-20 20:39:08,800 - INFO -     → Integrate Now clicked
+2026-07-20 20:39:08,828 - INFO -     → Toast dismissed
+2026-07-20 20:39:08,951 - INFO -   ✓ Field added successfully: State
+
+2026-07-20 20:39:09,254 - INFO -   Adding field: [Mason] -> Address
+2026-07-20 20:39:09,728 - INFO -     → User Type selected: Mason
+2026-07-20 20:39:30,263 - INFO -     → System Data Point selected: Address
+2026-07-20 20:39:30,330 - INFO -     → Mandatory toggle enabled
+2026-07-20 20:39:30,563 - INFO -     → Integrate Now clicked
+2026-07-20 20:39:30,589 - INFO -     → Toast dismissed
+2026-07-20 20:39:30,722 - INFO -   ✓ Field added successfully: Address
+
+2026-07-20 20:39:31,023 - INFO - ============================================================
+2026-07-20 20:39:31,024 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-07-20 20:39:33,889 - INFO - Browser closed
+2026-07-20 20:39:37,937 - INFO - 
+Task finished at 2026-07-20 20:39:37
+2026-07-20 20:39:37,938 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_203624.log
+
+2026-07-20 22:49:41,503 - INFO - User selected: Registration Fields
+2026-07-20 22:49:41,505 - INFO - ============================================================
+2026-07-20 22:49:41,505 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-20 22:49:41,506 - INFO - ============================================================
+2026-07-20 22:49:41,574 - INFO - ====== WebDriver manager ======
+2026-07-20 22:49:44,889 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 22:49:45,004 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 22:49:45,090 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 22:49:45,091 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 22:49:46,833 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 22:49:46,847 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 22:49:46,947 - INFO - ✓ Chrome driver initialized
+2026-07-20 22:49:46,955 - INFO - Opening login page...
+2026-07-20 22:49:49,589 - INFO -   → Policy checkbox checked on login page
+2026-07-20 22:49:49,866 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 22:49:49,927 - INFO -   → Policy agreement popup detected
+2026-07-20 22:49:50,052 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 22:49:51,646 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 22:49:58,123 - INFO -   → Policy agreement popup detected
+2026-07-20 22:49:58,227 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 22:49:58,793 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 22:49:58,794 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 22:49:59,350 - INFO - ✓ Login successful and on App Settings page
+2026-07-20 22:50:01,387 - INFO - Going to App Settings...
+2026-07-20 22:50:03,042 - INFO -   → Registration Field section opened
+2026-07-20 22:50:03,228 - INFO - ✓ Registration Fields page ready
+2026-07-20 22:50:04,613 - INFO - Found 1 user types: ['Mason']
+2026-07-20 22:50:04,614 - INFO - Starting registration fields automation: 6 fields total
+2026-07-20 22:50:04,615 - INFO - ============================================================
+2026-07-20 22:50:04,617 - INFO - Processing User Type: Mason
+2026-07-20 22:50:04,618 - INFO -   Adding field: [Mason] -> First Name
+2026-07-20 22:50:05,324 - INFO -     → User Type selected: Mason
+2026-07-20 22:50:25,610 - INFO -     → System Data Point selected: First Name
+2026-07-20 22:50:25,672 - INFO -     → Mandatory toggle enabled
+2026-07-20 22:50:25,910 - INFO -     → Integrate Now clicked
+2026-07-20 22:50:25,944 - INFO -     → Toast dismissed
+2026-07-20 22:50:26,060 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-20 22:50:26,361 - INFO -   Adding field: [Mason] -> Phone Number
+2026-07-20 22:50:27,741 - INFO -     → User Type selected: Mason
+2026-07-20 22:50:48,083 - INFO -     → System Data Point selected: Phone Number
+2026-07-20 22:50:48,155 - INFO -     → Mandatory toggle enabled
+2026-07-20 22:50:48,378 - INFO -     → Integrate Now clicked
+2026-07-20 22:50:48,406 - INFO -     → Toast dismissed
+2026-07-20 22:50:48,514 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-20 22:50:48,815 - INFO -   Adding field: [Mason] -> Pincode
+2026-07-20 22:50:50,270 - INFO -     → User Type selected: Mason
+2026-07-20 22:51:10,469 - INFO -     → System Data Point selected: Pincode
+2026-07-20 22:51:10,522 - INFO -     → Mandatory toggle enabled
+2026-07-20 22:51:10,749 - INFO -     → Integrate Now clicked
+2026-07-20 22:51:10,774 - INFO -     → Toast dismissed
+2026-07-20 22:51:10,872 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-20 22:51:11,174 - INFO -   Adding field: [Mason] -> City
+2026-07-20 22:51:12,560 - INFO -     → User Type selected: Mason
+2026-07-20 22:51:33,021 - INFO -     → System Data Point selected: City
+2026-07-20 22:51:33,108 - INFO -     → Mandatory toggle enabled
+2026-07-20 22:51:33,295 - INFO -     → Integrate Now clicked
+2026-07-20 22:51:33,322 - INFO -     → Toast dismissed
+2026-07-20 22:51:33,412 - INFO -   ✓ Field added successfully: City
+
+2026-07-20 22:51:33,713 - INFO -   Adding field: [Mason] -> State
+2026-07-20 22:51:35,364 - INFO -     → User Type selected: Mason
+2026-07-20 22:51:55,876 - INFO -     → System Data Point selected: State
+2026-07-20 22:51:55,923 - INFO -     → Mandatory toggle enabled
+2026-07-20 22:51:56,106 - INFO -     → Integrate Now clicked
+2026-07-20 22:51:56,129 - INFO -     → Toast dismissed
+2026-07-20 22:51:56,222 - INFO -   ✓ Field added successfully: State
+
+2026-07-20 22:51:56,523 - INFO -   Adding field: [Mason] -> Address
+2026-07-20 22:51:57,904 - INFO -     → User Type selected: Mason
+2026-07-20 22:52:18,384 - INFO -     → System Data Point selected: Address
+2026-07-20 22:52:18,438 - INFO -     → Mandatory toggle enabled
+2026-07-20 22:52:18,627 - INFO -     → Integrate Now clicked
+2026-07-20 22:52:18,650 - INFO -     → Toast dismissed
+2026-07-20 22:52:18,741 - INFO -   ✓ Field added successfully: Address
+
+2026-07-20 22:52:19,042 - INFO - ============================================================
+2026-07-20 22:52:19,043 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-07-20 22:52:21,948 - INFO - Browser closed
+2026-07-20 22:52:26,001 - INFO - 
+Task finished at 2026-07-20 22:52:26
+2026-07-20 22:52:26,002 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_203624.log
+

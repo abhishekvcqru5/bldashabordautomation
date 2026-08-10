@@ -1,0 +1,21 @@
+2026-06-22 12:46:13,403 - INFO - User selected: Old Dashboard
+2026-06-22 12:46:14,544 - INFO -   Old Dashboard → Brand Setting
+2026-06-22 12:46:14,544 - INFO - ============================================================
+2026-06-22 12:46:14,545 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-22 12:46:14,545 - INFO - ============================================================
+2026-06-22 12:46:14,555 - INFO - ====== WebDriver manager ======
+2026-06-22 12:46:15,772 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 12:46:16,211 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 12:46:16,716 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 12:46:16,718 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 12:46:18,753 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-06-22 12:46:18,754 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-22 12:46:25,047 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-22 12:46:27,048 - INFO -     → Filling credentials …
+2026-06-22 12:46:27,189 - INFO -       Email → field #login_txt_id
+2026-06-22 12:46:27,297 - INFO -       Password → field #login_txt_pass
+2026-06-22 12:46:27,375 - INFO -       Login button clicked: #btnVendor
+2026-06-22 12:46:27,376 - INFO -     → Waiting for post-login redirect …
+2026-06-22 12:46:50,305 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/69d595e0b7f42fb9ae6086584f7a7655
+2026-06-22 12:46:56,420 - INFO - Automation cancelled by user (Ctrl+C)

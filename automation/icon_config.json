@@ -17,7 +17,8 @@
     "tremsandcondition",
     "contactus",
     "history",
-    "scaneinvoice"
+    "scaneinvoice",
+    "ecommerce"
   ],
   "icons": [
     {
@@ -100,8 +101,15 @@
     {
       "user_type": "all",
       "icon_identity": "productcatalogue",
-      "display_title": "E-Commerce",
+      "display_title": "Product Catalogue",
       "image_path": "automation/processed_images/productcatalogue.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "ecommerce",
+      "display_title": "E-Commerce",
+      "image_path": "automation/processed_images/ecommerce.png",
       "toggle_option": "both"
     }
   ]

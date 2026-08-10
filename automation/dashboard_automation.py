@@ -77,6 +77,13 @@ class VendorPortalAutomation:
             if self.headless:
                 opts.add_argument("--headless=new")
 
+            # Allow geolocation automatically
+            prefs = {
+                "profile.default_content_setting_values.geolocation": 1,
+                "profile.default_content_setting_values.notifications": 2
+            }
+            opts.add_experimental_option("prefs", prefs)
+
             # ── Force the system Chrome binary so its version is known ──
             # Selenium's own manager may have cached a newer Chrome in
             # ~/.cache/selenium that doesn't match the system chromedriver.
@@ -93,21 +100,186 @@ class VendorPortalAutomation:
                 opts.binary_location = system_chrome
                 logger.info(f"  Using system Chrome binary: {system_chrome}")
 
-            driver_path = ChromeDriverManager().install()
-            p = Path(driver_path)
-            if p.suffix.lower() != ".exe":
-                potential_exe = p.parent / "chromedriver.exe"
-                if potential_exe.exists():
-                    driver_path = str(potential_exe)
+            try:
+                driver_path = ChromeDriverManager().install()
+                p = Path(driver_path)
+                found_exe = None
+                if p.is_dir():
+                    for name in ("chromedriver.exe", "chromedriver"):
+                        if (p / name).exists():
+                            found_exe = p / name
+                            break
+                        for sub in p.glob(f"**/{name}"):
+                            found_exe = sub
+                            break
+                        if found_exe:
+                            break
+                elif p.suffix.lower() != ".exe":
+                    for name in ("chromedriver.exe", "chromedriver"):
+                        if (p.parent / name).exists():
+                            found_exe = p.parent / name
+                            break
+                        for sub in p.parent.glob(f"**/{name}"):
+                            found_exe = sub
+                            break
+                        if found_exe:
+                            break
+                
+                if found_exe:
+                    driver_path = str(found_exe)
                     logger.info(f"  Resolved webdriver path to: {driver_path}")
-            service = Service(driver_path)
-            self.driver = webdriver.Chrome(service=service, options=opts)
+                service = Service(driver_path)
+                self.driver = webdriver.Chrome(service=service, options=opts)
+            except Exception as err:
+                logger.warning(f"  ⚠ ChromeDriverManager setup failed: {err}. Falling back to default webdriver.Chrome().")
+                self.driver = webdriver.Chrome(options=opts)
+
+            # ── Grant geolocation permission via CDP (prevents Chrome's OS-level popup) ──
+            try:
+                self.driver.execute_cdp_cmd(
+                    "Browser.grantPermissions",
+                    {
+                        "permissions": ["geolocation"],
+                        "origin": "https://app.vcqru.com"
+                    }
+                )
+                logger.info("  ✓ Geolocation permission granted via CDP (Browser.grantPermissions)")
+            except Exception as perm_err:
+                logger.warning(f"  ⚠ Browser.grantPermissions failed: {perm_err}")
+
+            # ── Also override geolocation coordinates ──
+            try:
+                self.driver.execute_cdp_cmd(
+                    "Emulation.setGeolocationOverride",
+                    {
+                        "latitude": 28.6139,
+                        "longitude": 77.2090,
+                        "accuracy": 100
+                    }
+                )
+                logger.info("  ✓ Geolocation coordinates overridden via CDP")
+            except Exception as cdp_err:
+                logger.warning(f"  ⚠ Failed to override geolocation via CDP: {cdp_err}")
+
             self.driver.set_page_load_timeout(30)
             self.driver.maximize_window()
             logger.info("✓ Chrome driver initialized")
             return True
         except Exception as e:
             logger.error(f"Failed to initialize Chrome driver: {e}")
+            return False
+
+    # ─────────────────────────────────────────────
+    # Policy / Terms Agreement Popup Handler
+    # ─────────────────────────────────────────────
+    def _handle_policy_popup(self, wait_seconds=12):
+        """
+        Detects the policy/terms-agreement modal (fixed, z-50 overlay),
+        checks the agreement checkbox, then clicks the Continue button.
+        Returns True if the popup was found and handled, False if not present.
+        """
+        try:
+            # Wait for the modal overlay — identified by its fixed+z-50 classes
+            modal = WebDriverWait(self.driver, wait_seconds).until(
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR,
+                    "div.fixed.inset-0.z-50.flex.items-center.justify-center"
+                ))
+            )
+            logger.info("  → Policy agreement popup detected")
+
+            # ── Step 1: find & tick the checkbox ──────────────────────────────
+            checkbox_clicked = False
+
+            # Try 1: <input type="checkbox"> anywhere inside the modal
+            try:
+                cb = modal.find_element(By.XPATH, ".//input[@type='checkbox']")
+                if not cb.is_selected():
+                    self.driver.execute_script("arguments[0].click();", cb)
+                    logger.info("    ✓ Policy checkbox checked (input[type=checkbox])")
+                else:
+                    logger.info("    ✓ Policy checkbox was already checked")
+                checkbox_clicked = True
+            except Exception:
+                pass
+
+            # Try 2: custom toggle div (the user's specific CSS path inside the footer area)
+            if not checkbox_clicked:
+                try:
+                    toggle_div = modal.find_element(
+                        By.CSS_SELECTOR,
+                        "div.p-5.border-t > div > div > div"
+                    )
+                    self.driver.execute_script("arguments[0].click();", toggle_div)
+                    logger.info("    ✓ Policy toggle div clicked (CSS fallback)")
+                    checkbox_clicked = True
+                except Exception:
+                    pass
+
+            # Try 3: any clickable role=checkbox element
+            if not checkbox_clicked:
+                try:
+                    role_cb = modal.find_element(By.XPATH, ".//*[@role='checkbox']")
+                    self.driver.execute_script("arguments[0].click();", role_cb)
+                    logger.info("    ✓ Policy checkbox clicked (role=checkbox fallback)")
+                    checkbox_clicked = True
+                except Exception:
+                    pass
+
+            if not checkbox_clicked:
+                logger.warning("    ⚠ Could not find policy checkbox — attempting Continue anyway")
+
+            time.sleep(0.5)
+
+            # ── Step 2: click Continue button ─────────────────────────────────
+            continue_clicked = False
+
+            # Try 1: button text contains "Continue"
+            try:
+                btn = modal.find_element(
+                    By.XPATH,
+                    ".//button[contains(normalize-space(.), 'Continue')]"
+                )
+                self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+                time.sleep(0.3)
+                self.driver.execute_script("arguments[0].click();", btn)
+                logger.info("    ✓ Clicked Continue button")
+                continue_clicked = True
+            except Exception:
+                pass
+
+            # Try 2: footer-area button (user's exact CSS path)
+            if not continue_clicked:
+                try:
+                    btn = modal.find_element(
+                        By.CSS_SELECTOR,
+                        "div.p-5.border-t > div > button"
+                    )
+                    self.driver.execute_script("arguments[0].click();", btn)
+                    logger.info("    ✓ Clicked Continue button (CSS fallback)")
+                    continue_clicked = True
+                except Exception:
+                    pass
+
+            if not continue_clicked:
+                logger.warning("    ⚠ Could not find Continue button in policy popup")
+                return False
+
+            # Wait for the modal to disappear
+            try:
+                WebDriverWait(self.driver, 8).until(
+                    EC.invisibility_of_element(modal)
+                )
+                logger.info("    ✓ Policy popup dismissed")
+            except Exception:
+                pass  # Modal may have already gone
+
+            time.sleep(1)
+            return True
+
+        except Exception:
+            # Popup simply wasn't present — not an error
+            logger.debug("  No policy agreement popup detected (not present or already dismissed)")
             return False
 
     # ─────────────────────────────────────────────
@@ -126,7 +298,7 @@ class VendorPortalAutomation:
             # 2) Enter password
             self.driver.find_element(By.NAME, "password").send_keys(self.password)
 
-            # Check policy checkbox on the login page if present
+            # Check policy checkbox on the login page if present (pre-login page checkbox)
             try:
                 login_agree_cb = self.driver.find_element(By.XPATH, "//input[@type='checkbox']")
                 if not login_agree_cb.is_selected():
@@ -137,36 +309,38 @@ class VendorPortalAutomation:
 
             # 3) Click Sign In  (the submit button)
             self.driver.find_element(By.XPATH, "//button[@type='submit']").click()
-            logger.info("  → Credentials submitted, waiting for dashboard or select service...")
+            logger.info("  → Credentials submitted, waiting for post-login popups...")
 
-            # Check for "Select service" modal/popup
+            # ── Stage 1: handle policy/terms popup (appears right after login) ──
+            self._handle_policy_popup(wait_seconds=12)
+
+            # ── Stage 2: handle in-app "Allow Location Access" button (if site shows one) ──
             try:
-                # Wait up to 15 seconds for the Continue button to appear
-                continue_btn = WebDriverWait(self.driver, 15).until(
-                    EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Continue To Dashboard') or contains(text(), 'Continue')]"))
+                allow_loc_btn = WebDriverWait(self.driver, 6).until(
+                    EC.element_to_be_clickable((
+                        By.XPATH,
+                        "//button[contains(normalize-space(.), 'Allow Location')]"
+                    ))
                 )
-                logger.info("  → 'Select Service' popup detected, proceeding...")
-                
-                # Double check the agreement checkbox
-                try:
-                    agree_cb = self.driver.find_element(By.XPATH, "//input[@type='checkbox']")
-                    if not agree_cb.is_selected():
-                        self.driver.execute_script("arguments[0].click();", agree_cb)
-                        logger.info("    ✓ Agreed to policies checkbox checked")
-                except Exception:
-                    pass
-                
-                self.driver.execute_script("arguments[0].click();", continue_btn)
-                logger.info("    ✓ Clicked 'Continue To Dashboard'")
-            except Exception as popup_e:
-                logger.debug(f"  No 'Select Service' popup detected or skipped: {popup_e}")
+                logger.info("  → In-app 'Allow Location' button detected, clicking...")
+                self.driver.execute_script("arguments[0].click();", allow_loc_btn)
+                logger.info("    ✓ Clicked 'Allow Location Access'")
+                time.sleep(2)
+            except Exception:
+                logger.debug("  No in-app 'Allow Location' button detected")
 
-            # 4) Wait until URL contains /vendor/dashboard
+            # ── Stage 3: handle policy popup again if it re-appears after location step ──
+            self._handle_policy_popup(wait_seconds=5)
+
+            # 4) Navigate directly to App Settings URL
+            logger.info("  → Navigating directly to App Settings URL...")
+            self.driver.get(self.APP_SETTINGS)
+            
             WebDriverWait(self.driver, self.wait_time).until(
-                EC.url_contains("/vendor/dashboard")
+                EC.url_contains("/vendor/app-settings")
             )
 
-            logger.info("✓ Login successful")
+            logger.info("✓ Login successful and on App Settings page")
             return True
 
         except Exception as e:
@@ -275,11 +449,48 @@ class VendorPortalAutomation:
             ut_select = WebDriverWait(self.driver, self.wait_time).until(
                 EC.presence_of_element_located((By.NAME, "UserType"))
             )
-            try:
-                Select(ut_select).select_by_visible_text(icon_data["user_type"])
-            except Exception:
-                Select(ut_select).select_by_value(icon_data["user_type"])
-            logger.info(f"    → User type: {icon_data['user_type']}")
+            select_obj = Select(ut_select)
+            target = icon_data["user_type"]
+            matched = False
+            
+            # Try to match by value first
+            for opt in select_obj.options:
+                val = opt.get_attribute("value")
+                if val == target:
+                    select_obj.select_by_value(val)
+                    logger.info(f"    → User type selected by value: {val}")
+                    matched = True
+                    break
+            
+            # Try to match by visible text (case-insensitive and stripped)
+            if not matched:
+                target_clean = target.strip().lower()
+                # Pass 1: exact match
+                for opt in select_obj.options:
+                    opt_text = opt.text.strip().lower()
+                    if opt_text == target_clean:
+                        select_obj.select_by_visible_text(opt.text)
+                        logger.info(f"    → User type selected by exact text: {opt.text}")
+                        matched = True
+                        break
+                
+                # Pass 2: substring match (excluding placeholders)
+                if not matched:
+                    for opt in select_obj.options:
+                        opt_text = opt.text.strip().lower()
+                        if target_clean in opt_text and "select" not in opt_text:
+                            select_obj.select_by_visible_text(opt.text)
+                            logger.info(f"    → User type selected by substring text: {opt.text}")
+                            matched = True
+                            break
+            
+            if not matched:
+                try:
+                    select_obj.select_by_visible_text(target)
+                    logger.info(f"    → User type selected by text (fallback): {target}")
+                except Exception:
+                    select_obj.select_by_value(target)
+                    logger.info(f"    → User type selected by value (fallback): {target}")
 
             # ── 3. Select Icon Identity ─────────────────────────
             try:
@@ -430,9 +641,9 @@ class VendorPortalAutomation:
                     logger.info(
                         f"Available user types: {[t for _, t in available_user_types]}"
                     )
-                for _, utype_text in available_user_types:
+                for utype_val, utype_text in available_user_types:
                     new_entry = dict(entry)
-                    new_entry["user_type"] = utype_text
+                    new_entry["user_type"] = utype_val
                     expanded.append(new_entry)
             else:
                 expanded.append(entry)

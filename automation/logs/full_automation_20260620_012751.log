@@ -1,0 +1,84 @@
+2026-06-20 01:28:41,452 - INFO - User selected: Registration Fields
+2026-06-20 01:28:41,479 - INFO - ============================================================
+2026-06-20 01:28:41,481 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-20 01:28:41,485 - INFO - ============================================================
+2026-06-20 01:28:41,552 - INFO - ====== WebDriver manager ======
+2026-06-20 01:28:45,321 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 01:28:46,268 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 01:28:46,851 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-20 01:28:46,853 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-20 01:28:48,876 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-20 01:28:48,905 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-20 01:28:49,037 - INFO - ✓ Chrome driver initialized
+2026-06-20 01:28:49,040 - INFO - Opening login page...
+2026-06-20 01:28:50,921 - INFO -   → Policy checkbox checked on login page
+2026-06-20 01:28:51,140 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-20 01:28:51,193 - INFO -   → Policy agreement popup detected
+2026-06-20 01:28:51,287 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-20 01:28:52,683 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-20 01:28:59,072 - INFO -   → Policy agreement popup detected
+2026-06-20 01:28:59,133 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-20 01:28:59,671 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-20 01:28:59,683 - INFO - ✓ Login successful
+2026-06-20 01:29:01,686 - INFO - Going to App Settings...
+2026-06-20 01:29:03,225 - INFO -   → Registration Field section opened
+2026-06-20 01:29:03,477 - INFO - ✓ Registration Fields page ready
+2026-06-20 01:29:04,702 - INFO - Found 1 user types: ['Painter']
+2026-06-20 01:29:04,703 - INFO - Starting registration fields automation: 6 fields total
+2026-06-20 01:29:04,703 - INFO - ============================================================
+2026-06-20 01:29:04,704 - INFO - Processing User Type: Painter
+2026-06-20 01:29:04,704 - INFO -   Adding field: [Painter] -> First Name
+2026-06-20 01:29:05,195 - INFO -     → User Type selected: Painter
+2026-06-20 01:29:25,856 - INFO -     → System Data Point selected: First Name
+2026-06-20 01:29:26,004 - INFO -     → Mandatory toggle enabled
+2026-06-20 01:29:26,278 - INFO -     → Integrate Now clicked
+2026-06-20 01:29:26,324 - INFO -     → Toast dismissed
+2026-06-20 01:29:26,434 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-20 01:29:26,736 - INFO -   Adding field: [Painter] -> Phone Number
+2026-06-20 01:29:27,435 - INFO -     → User Type selected: Painter
+2026-06-20 01:29:48,198 - INFO -     → System Data Point selected: Phone Number
+2026-06-20 01:29:48,309 - INFO -     → Mandatory toggle enabled
+2026-06-20 01:29:48,625 - INFO -     → Integrate Now clicked
+2026-06-20 01:29:48,688 - INFO -     → Toast dismissed
+2026-06-20 01:29:48,775 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-20 01:29:49,085 - INFO -   Adding field: [Painter] -> Pincode
+2026-06-20 01:29:49,972 - INFO -     → User Type selected: Painter
+2026-06-20 01:30:10,467 - INFO -     → System Data Point selected: Pincode
+2026-06-20 01:30:10,517 - INFO -     → Mandatory toggle enabled
+2026-06-20 01:30:10,700 - INFO -     → Integrate Now clicked
+2026-06-20 01:30:10,732 - INFO -     → Toast dismissed
+2026-06-20 01:30:10,998 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-20 01:30:11,301 - INFO -   Adding field: [Painter] -> City
+2026-06-20 01:30:11,930 - INFO -     → User Type selected: Painter
+2026-06-20 01:30:32,249 - INFO -     → System Data Point selected: City
+2026-06-20 01:30:32,287 - INFO -     → Mandatory toggle enabled
+2026-06-20 01:30:32,452 - INFO -     → Integrate Now clicked
+2026-06-20 01:30:32,471 - INFO -     → Toast dismissed
+2026-06-20 01:30:32,589 - INFO -   ✓ Field added successfully: City
+
+2026-06-20 01:30:32,889 - INFO -   Adding field: [Painter] -> State
+2026-06-20 01:30:33,274 - INFO -     → User Type selected: Painter
+2026-06-20 01:30:53,676 - INFO -     → System Data Point selected: State
+2026-06-20 01:30:53,714 - INFO -     → Mandatory toggle enabled
+2026-06-20 01:30:53,904 - INFO -     → Integrate Now clicked
+2026-06-20 01:30:53,922 - INFO -     → Toast dismissed
+2026-06-20 01:30:53,992 - INFO -   ✓ Field added successfully: State
+
+2026-06-20 01:30:54,295 - INFO -   Adding field: [Painter] -> Address
+2026-06-20 01:30:54,899 - INFO -     → User Type selected: Painter
+2026-06-20 01:31:15,084 - INFO -     → System Data Point selected: Address
+2026-06-20 01:31:15,158 - INFO -     → Mandatory toggle enabled
+2026-06-20 01:31:15,319 - INFO -     → Integrate Now clicked
+2026-06-20 01:31:15,332 - INFO -     → Toast dismissed
+2026-06-20 01:31:15,448 - INFO -   ✓ Field added successfully: Address
+
+2026-06-20 01:31:15,748 - INFO - ============================================================
+2026-06-20 01:31:15,749 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-06-20 01:31:18,450 - INFO - Browser closed
+2026-06-20 01:31:22,516 - INFO - 
+Task finished at 2026-06-20 01:31:22
+2026-06-20 01:31:22,517 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260620_012751.log
+

@@ -1,0 +1,258 @@
+2026-07-29 00:32:00,799 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-29 00:32:00,801 - INFO - ============================================================
+2026-07-29 00:32:00,801 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-29 00:32:00,802 - INFO - ============================================================
+2026-07-29 00:32:00,803 - INFO - Processing images from dashboardicons/...
+2026-07-29 00:32:00,859 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-29 00:32:00,860 - INFO - Output folder: automation\processed_images
+2026-07-29 00:32:00,861 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-29 00:32:01,260 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-29 00:32:01,402 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-29 00:32:01,624 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-29 00:32:01,808 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-29 00:32:02,071 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-29 00:32:02,217 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-29 00:32:02,314 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-29 00:32:02,390 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-29 00:32:02,549 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-29 00:32:02,661 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-29 00:32:02,805 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-29 00:32:02,948 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-29 00:32:03,043 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-29 00:32:03,142 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-29 00:32:03,243 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-29 00:32:03,243 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-29 00:32:03,244 - INFO - v 15 images processed.
+2026-07-29 00:32:05,519 - INFO - ====== WebDriver manager ======
+2026-07-29 00:32:13,007 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 00:32:13,266 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 00:32:13,360 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 00:32:13,607 - INFO - WebDriver version 150.0.7871.124 selected
+2026-07-29 00:32:13,622 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-29 00:32:13,623 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-29 00:32:13,782 - INFO - Driver downloading response is 200
+2026-07-29 00:32:15,066 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 00:32:15,386 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-07-29 00:32:15,394 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-29 00:32:21,094 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-29 00:32:21,126 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-29 00:32:21,297 - INFO - ✓ Chrome driver initialized
+2026-07-29 00:32:21,305 - INFO - Opening login page...
+2026-07-29 00:32:23,658 - INFO -   → Policy checkbox checked on login page
+2026-07-29 00:32:24,002 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-29 00:32:24,090 - INFO -   → Policy agreement popup detected
+2026-07-29 00:32:24,197 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-29 00:32:24,864 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-29 00:32:36,978 - INFO -   → Navigating directly to App Settings URL...
+2026-07-29 00:32:38,380 - INFO - ✓ Login successful and on App Settings page
+2026-07-29 00:32:40,394 - INFO - Navigating to dashboard icons section...
+2026-07-29 00:32:40,401 - INFO - Navigating to App Settings...
+2026-07-29 00:32:47,768 - INFO - ✓ Dashboard Icons section loaded
+2026-07-29 00:32:47,769 - INFO - Reading all available user types from dropdown...
+2026-07-29 00:33:01,953 - INFO -   Found 1 user types: ['Electrician']
+2026-07-29 00:33:02,014 - INFO - Total rows found in configured icons table: 6
+2026-07-29 00:33:02,308 - INFO - Currently configured icons per user type:
+2026-07-29 00:33:02,310 - INFO -   electrician: ['codedetails', 'chooselanguage', 'wallet', 'history']
+2026-07-29 00:33:02,311 - INFO - Found 11 missing icon uploads:
+2026-07-29 00:33:02,311 - INFO -   - [Electrician] aboutus (ID: aboutus) from aboutus.png
+2026-07-29 00:33:02,312 - INFO -   - [Electrician] Activity (ID: claimhistory) from Activity.png
+2026-07-29 00:33:02,313 - INFO -   - [Electrician] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-29 00:33:02,313 - INFO -   - [Electrician] KYC (ID: kycdetails) from KYC.png
+2026-07-29 00:33:02,314 - INFO -   - [Electrician] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-29 00:33:02,315 - INFO -   - [Electrician] Prospectus (ID: brochure) from Prospectus.png
+2026-07-29 00:33:02,316 - INFO -   - [Electrician] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-29 00:33:02,316 - INFO -   - [Electrician] Rewards (ID: gift) from Rewards.png
+2026-07-29 00:33:02,317 - INFO -   - [Electrician] Support (ID: help) from Support.png
+2026-07-29 00:33:02,317 - INFO -   - [Electrician] TDS (ID: tds) from TDS.png
+2026-07-29 00:33:02,317 - INFO -   - [Electrician] Updates (ID: blog) from Updates.png
+2026-07-29 00:33:37,632 - INFO - 
+[1/11] Uploading missing icon for Electrician: aboutus
+2026-07-29 00:33:37,633 - INFO -   Adding: [Electrician] aboutus  (aboutus)
+2026-07-29 00:33:50,609 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:33:50,775 - INFO -     → Icon identity: aboutus
+2026-07-29 00:33:51,024 - INFO -     → Display title: aboutus
+2026-07-29 00:33:51,984 - INFO -     → Icon color: #70E8A8
+2026-07-29 00:33:52,052 - INFO -     → Toggle: side menu
+2026-07-29 00:33:54,206 - INFO -     → Image uploaded: aboutus.png
+2026-07-29 00:33:54,452 - INFO -     → Form submitted
+2026-07-29 00:34:05,487 - INFO -   ✓ Icon added: aboutus
+
+2026-07-29 00:34:06,488 - INFO - 
+[2/11] Uploading missing icon for Electrician: Activity
+2026-07-29 00:34:06,490 - INFO -   Adding: [Electrician] Activity  (claimhistory)
+2026-07-29 00:34:19,506 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:34:19,703 - INFO -     → Icon identity: claimhistory
+2026-07-29 00:34:19,984 - INFO -     → Display title: Activity
+2026-07-29 00:34:20,719 - INFO -     → Icon color: #F86008
+2026-07-29 00:34:20,799 - INFO -     → Toggle: dashboard only
+2026-07-29 00:34:22,880 - INFO -     → Image uploaded: Activity.png
+2026-07-29 00:34:23,091 - INFO -     → Form submitted
+2026-07-29 00:34:34,077 - INFO -   ✓ Icon added: Activity
+
+2026-07-29 00:34:35,079 - INFO - 
+[3/11] Uploading missing icon for Electrician: E-Warranty
+2026-07-29 00:34:35,081 - INFO -   Adding: [Electrician] E-Warranty  (e-warrant)
+2026-07-29 00:34:47,644 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:34:47,823 - INFO -     → Icon identity: e-warrant
+2026-07-29 00:34:48,068 - INFO -     → Display title: E-Warranty
+2026-07-29 00:34:48,879 - INFO -     → Icon color: #20C078
+2026-07-29 00:34:48,941 - INFO -     → Toggle: dashboard only
+2026-07-29 00:34:51,126 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-29 00:34:51,328 - INFO -     → Form submitted
+2026-07-29 00:35:02,355 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-29 00:35:03,356 - INFO - 
+[4/11] Uploading missing icon for Electrician: KYC
+2026-07-29 00:35:03,366 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-07-29 00:35:16,571 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:35:16,786 - INFO -     → Icon identity: kycdetails
+2026-07-29 00:35:17,063 - INFO -     → Display title: KYC
+2026-07-29 00:35:17,808 - INFO -     → Icon color: #F85808
+2026-07-29 00:35:17,866 - INFO -     → Toggle: side menu
+2026-07-29 00:35:19,957 - INFO -     → Image uploaded: KYC.png
+2026-07-29 00:35:20,230 - INFO -     → Form submitted
+2026-07-29 00:35:30,825 - INFO -   ✓ Icon added: KYC
+
+2026-07-29 00:35:31,827 - INFO - 
+[5/11] Uploading missing icon for Electrician: Product Catalog
+2026-07-29 00:35:31,829 - INFO -   Adding: [Electrician] Product Catalog  (productcatalogue)
+2026-07-29 00:35:44,594 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:35:44,800 - INFO -     → Icon identity: productcatalogue
+2026-07-29 00:35:44,998 - ERROR -   ✗ Failed to add [Product Catalog]: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=150.0.7871.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xba5843+10883]
+	chromedriver!GetHandleVerifier [0xba5884+108c4]
+	chromedriver!(No symbol) [0x9a90e0]
+	chromedriver!(No symbol) [0x9afe45]
+	chromedriver!(No symbol) [0x9b1eaa]
+	chromedriver!(No symbol) [0x9b1f38]
+	chromedriver!(No symbol) [0x9f3e39]
+	chromedriver!(No symbol) [0x9f3ede]
+	chromedriver!(No symbol) [0x9ece20]
+	chromedriver!(No symbol) [0xa1566c]
+	chromedriver!(No symbol) [0x9e9b24]
+	chromedriver!(No symbol) [0xa15834]
+	chromedriver!(No symbol) [0xa331aa]
+	chromedriver!(No symbol) [0xa15406]
+	chromedriver!(No symbol) [0x9e8659]
+	chromedriver!(No symbol) [0x9e9424]
+	chromedriver!GetHandleVerifier [0xe3ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xe3847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xe594eb+2c452b]
+	chromedriver!GetHandleVerifier [0xbbf566+2a5a6]
+	chromedriver!GetHandleVerifier [0xbc620d+3124d]
+	chromedriver!GetHandleVerifier [0xbae318+19358]
+	chromedriver!GetHandleVerifier [0xbae4c5+19505]
+	chromedriver!GetHandleVerifier [0xb970af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76f05d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77c7e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c7df91+231]
+
+2026-07-29 00:35:45,344 - INFO -   📸 Screenshot saved: automation\screenshots\error_Product_Catalog_20260729_003545.png
+2026-07-29 00:35:46,374 - INFO - 
+[6/11] Uploading missing icon for Electrician: Prospectus
+2026-07-29 00:35:46,374 - INFO -   Adding: [Electrician] Prospectus  (brochure)
+2026-07-29 00:36:20,589 - ERROR -   ✗ Failed to add [Prospectus]: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xba5843+10883]
+	chromedriver!GetHandleVerifier [0xba5884+108c4]
+	chromedriver!(No symbol) [0x9a90e0]
+	chromedriver!(No symbol) [0x9f316b]
+	chromedriver!(No symbol) [0x9f338b]
+	chromedriver!(No symbol) [0xa35942]
+	chromedriver!(No symbol) [0xa156b4]
+	chromedriver!(No symbol) [0xa331aa]
+	chromedriver!(No symbol) [0xa15406]
+	chromedriver!(No symbol) [0x9e8659]
+	chromedriver!(No symbol) [0x9e9424]
+	chromedriver!GetHandleVerifier [0xe3ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xe3847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xe594eb+2c452b]
+	chromedriver!GetHandleVerifier [0xbbf566+2a5a6]
+	chromedriver!GetHandleVerifier [0xbc620d+3124d]
+	chromedriver!GetHandleVerifier [0xbae318+19358]
+	chromedriver!GetHandleVerifier [0xbae4c5+19505]
+	chromedriver!GetHandleVerifier [0xb970af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76f05d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77c7e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c7df91+231]
+
+2026-07-29 00:36:20,876 - INFO -   📸 Screenshot saved: automation\screenshots\error_Prospectus_20260729_003620.png
+2026-07-29 00:36:21,902 - INFO - 
+[7/11] Uploading missing icon for Electrician: Refer & Earn
+2026-07-29 00:36:21,903 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-07-29 00:36:34,742 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:36:34,950 - INFO -     → Icon identity: referandearn
+2026-07-29 00:36:35,268 - INFO -     → Display title: Refer & Earn
+2026-07-29 00:36:36,237 - INFO -     → Icon color: #089098
+2026-07-29 00:36:36,322 - INFO -     → Toggle: both
+2026-07-29 00:36:38,429 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-29 00:36:38,700 - INFO -     → Form submitted
+2026-07-29 00:36:49,379 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-29 00:36:50,381 - INFO - 
+[8/11] Uploading missing icon for Electrician: Rewards
+2026-07-29 00:36:50,382 - INFO -   Adding: [Electrician] Rewards  (gift)
+2026-07-29 00:37:03,150 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:37:03,375 - INFO -     → Icon identity: gift
+2026-07-29 00:37:03,674 - INFO -     → Display title: Rewards
+2026-07-29 00:37:04,645 - INFO -     → Icon color: #F00048
+2026-07-29 00:37:04,719 - INFO -     → Toggle: both
+2026-07-29 00:37:06,813 - INFO -     → Image uploaded: Rewards.png
+2026-07-29 00:37:07,073 - INFO -     → Form submitted
+2026-07-29 00:37:17,637 - INFO -   ✓ Icon added: Rewards
+
+2026-07-29 00:37:18,650 - INFO - 
+[9/11] Uploading missing icon for Electrician: Support
+2026-07-29 00:37:18,671 - INFO -   Adding: [Electrician] Support  (help)
+2026-07-29 00:37:31,465 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:37:31,704 - INFO -     → Icon identity: help
+2026-07-29 00:37:32,008 - INFO -     → Display title: Support
+2026-07-29 00:37:32,922 - INFO -     → Icon color: #0030F0
+2026-07-29 00:37:33,000 - INFO -     → Toggle: dashboard only
+2026-07-29 00:37:35,093 - INFO -     → Image uploaded: Support.png
+2026-07-29 00:37:35,350 - INFO -     → Form submitted
+2026-07-29 00:37:45,927 - INFO -   ✓ Icon added: Support
+
+2026-07-29 00:37:46,930 - INFO - 
+[10/11] Uploading missing icon for Electrician: TDS
+2026-07-29 00:37:46,932 - INFO -   Adding: [Electrician] TDS  (tds)
+2026-07-29 00:37:59,638 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:37:59,851 - INFO -     → Icon identity: tds
+2026-07-29 00:38:00,196 - INFO -     → Display title: TDS
+2026-07-29 00:38:01,063 - INFO -     → Icon color: #20C880
+2026-07-29 00:38:01,132 - INFO -     → Toggle: side menu
+2026-07-29 00:38:03,232 - INFO -     → Image uploaded: TDS.png
+2026-07-29 00:38:03,477 - INFO -     → Form submitted
+2026-07-29 00:38:14,165 - INFO -   ✓ Icon added: TDS
+
+2026-07-29 00:38:15,168 - INFO - 
+[11/11] Uploading missing icon for Electrician: Updates
+2026-07-29 00:38:15,169 - INFO -   Adding: [Electrician] Updates  (blog)
+2026-07-29 00:38:27,961 - INFO -     → User type selected by exact text: Electrician
+2026-07-29 00:38:28,209 - INFO -     → Icon identity: blog
+2026-07-29 00:38:28,486 - INFO -     → Display title: Updates
+2026-07-29 00:38:29,405 - INFO -     → Icon color: #F87820
+2026-07-29 00:38:29,471 - INFO -     → Toggle: dashboard only
+2026-07-29 00:38:31,583 - INFO -     → Image uploaded: Updates.png
+2026-07-29 00:38:31,843 - INFO -     → Form submitted
+2026-07-29 00:38:42,702 - INFO -   ✓ Icon added: Updates
+
+2026-07-29 00:38:43,704 - INFO - 
+============================================================
+2026-07-29 00:38:43,705 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-29 00:38:43,705 - INFO - ============================================================
+2026-07-29 00:38:43,706 - INFO - Successful uploads: 9
+2026-07-29 00:38:43,707 - INFO - Failed uploads: 2
+2026-07-29 00:38:43,708 - INFO - Total processed: 11
+2026-07-29 00:38:43,708 - INFO - ============================================================
+2026-07-29 00:38:46,962 - INFO - Browser closed
+2026-07-29 00:38:51,061 - INFO - 
+Task finished at 2026-07-29 00:38:51
+2026-07-29 00:38:51,062 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260729_003133.log
+
+2026-07-29 10:48:11,353 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,13 @@
+2026-07-09 18:38:57,102 - INFO - User selected: Ambica Cable Product Catalogue
+2026-07-09 18:38:57,103 - INFO - ============================================================
+2026-07-09 18:38:57,103 - INFO - STARTING AMBICA CABLE PRODUCT CATALOGUE UPLOAD (Option 21)
+2026-07-09 18:38:57,103 - INFO - ============================================================
+2026-07-09 18:38:57,103 - INFO - Fetching data from https://docs.google.com/spreadsheets/d/11t59mHI3fHS-aqdQZ9IXtKJvEQOtIi5BdYgsQNj3mUE/export?format=csv
+2026-07-09 18:38:58,060 - INFO - Successfully fetched 26 rows.
+2026-07-09 18:38:58,061 - ERROR - Missing required columns in Google Sheet: ['sub classification', 'product narrative', 'list price', 'offer price']
+2026-07-09 18:38:58,061 - INFO - Available columns: ['product name', 'category name', 'sub-classification', 'product narrative / description', 'listing price (₹)', 'offer price (₹)', 'unit inventory', 'loyalty yield']
+2026-07-09 18:38:58,061 - INFO - 
+Task finished at 2026-07-09 18:38:58
+2026-07-09 18:38:58,061 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260709_183835.log
+
+2026-07-09 18:40:24,502 - INFO - Automation cancelled by user (Ctrl+C)

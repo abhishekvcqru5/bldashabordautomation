@@ -1,0 +1,130 @@
+2026-06-22 15:43:34,710 - INFO - User selected: Registration Fields
+2026-06-22 15:43:34,711 - INFO - ============================================================
+2026-06-22 15:43:34,711 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-22 15:43:34,711 - INFO - ============================================================
+2026-06-22 15:43:34,721 - INFO - ====== WebDriver manager ======
+2026-06-22 15:43:35,821 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 15:43:36,472 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 15:43:36,989 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 15:43:36,990 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 15:43:38,333 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 15:43:38,338 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 15:43:38,366 - INFO - ✓ Chrome driver initialized
+2026-06-22 15:43:38,367 - INFO - Opening login page...
+2026-06-22 15:43:39,645 - INFO -   → Policy checkbox checked on login page
+2026-06-22 15:43:39,731 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 15:43:39,747 - INFO -   → Policy agreement popup detected
+2026-06-22 15:43:39,781 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 15:43:40,400 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 15:43:51,787 - INFO - ✓ Login successful
+2026-06-22 15:43:53,788 - INFO - Going to App Settings...
+2026-06-22 15:43:54,729 - INFO -   → Registration Field section opened
+2026-06-22 15:43:54,842 - INFO - ✓ Registration Fields page ready
+2026-06-22 15:43:55,981 - INFO - Found 2 user types: ['Dealor', 'Painters']
+2026-06-22 15:43:55,982 - INFO - Starting registration fields automation: 12 fields total
+2026-06-22 15:43:55,982 - INFO - ============================================================
+2026-06-22 15:43:55,983 - INFO - Processing User Type: Dealor
+2026-06-22 15:43:55,983 - INFO -   Adding field: [Dealor] -> First Name
+2026-06-22 15:43:56,489 - INFO -     → User Type selected: Dealor
+2026-06-22 15:44:16,867 - INFO -     → System Data Point selected: First Name
+2026-06-22 15:44:16,904 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:44:17,008 - INFO -     → Integrate Now clicked
+2026-06-22 15:44:17,024 - INFO -     → Toast dismissed
+2026-06-22 15:44:17,061 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 15:44:17,362 - INFO -   Adding field: [Dealor] -> Phone Number
+2026-06-22 15:44:18,597 - INFO -     → User Type selected: Dealor
+2026-06-22 15:44:38,866 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 15:44:38,887 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:44:38,998 - INFO -     → Integrate Now clicked
+2026-06-22 15:44:39,009 - INFO -     → Toast dismissed
+2026-06-22 15:44:39,115 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 15:44:39,416 - INFO -   Adding field: [Dealor] -> Pincode
+2026-06-22 15:44:40,613 - INFO -     → User Type selected: Dealor
+2026-06-22 15:45:00,825 - INFO -     → System Data Point selected: Pincode
+2026-06-22 15:45:00,848 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:45:00,947 - INFO -     → Integrate Now clicked
+2026-06-22 15:45:00,965 - INFO -     → Toast dismissed
+2026-06-22 15:45:01,000 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 15:45:01,301 - INFO -   Adding field: [Dealor] -> City
+2026-06-22 15:45:02,516 - INFO -     → User Type selected: Dealor
+2026-06-22 15:45:22,763 - INFO -     → System Data Point selected: City
+2026-06-22 15:45:22,780 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:45:22,886 - INFO -     → Integrate Now clicked
+2026-06-22 15:45:22,896 - INFO -     → Toast dismissed
+2026-06-22 15:45:22,932 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 15:45:23,233 - INFO -   Adding field: [Dealor] -> State
+2026-06-22 15:45:24,418 - INFO -     → User Type selected: Dealor
+2026-06-22 15:45:44,804 - INFO -     → System Data Point selected: State
+2026-06-22 15:45:44,826 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:45:44,919 - INFO -     → Integrate Now clicked
+2026-06-22 15:45:44,929 - INFO -     → Toast dismissed
+2026-06-22 15:45:44,961 - INFO -   ✓ Field added successfully: State
+
+2026-06-22 15:45:45,262 - INFO -   Adding field: [Dealor] -> Address
+2026-06-22 15:45:46,511 - INFO -     → User Type selected: Dealor
+2026-06-22 15:46:06,711 - INFO -     → System Data Point selected: Address
+2026-06-22 15:46:06,744 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:46:06,855 - INFO -     → Integrate Now clicked
+2026-06-22 15:46:06,863 - INFO -     → Toast dismissed
+2026-06-22 15:46:06,892 - INFO -   ✓ Field added successfully: Address
+
+2026-06-22 15:46:07,194 - INFO - Processing User Type: Painters
+2026-06-22 15:46:07,194 - INFO -   Adding field: [Painters] -> First Name
+2026-06-22 15:46:08,379 - INFO -     → User Type selected: Painters
+2026-06-22 15:46:28,577 - INFO -     → System Data Point selected: First Name
+2026-06-22 15:46:28,604 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:46:28,691 - INFO -     → Integrate Now clicked
+2026-06-22 15:46:28,702 - INFO -     → Toast dismissed
+2026-06-22 15:46:28,732 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 15:46:29,033 - INFO -   Adding field: [Painters] -> Phone Number
+2026-06-22 15:46:30,182 - INFO -     → User Type selected: Painters
+2026-06-22 15:46:50,423 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 15:46:50,442 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:46:50,550 - INFO -     → Integrate Now clicked
+2026-06-22 15:46:50,569 - INFO -     → Toast dismissed
+2026-06-22 15:46:50,612 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 15:46:50,913 - INFO -   Adding field: [Painters] -> Pincode
+2026-06-22 15:46:52,054 - INFO -     → User Type selected: Painters
+2026-06-22 15:47:12,133 - INFO -     → System Data Point selected: Pincode
+2026-06-22 15:47:12,157 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:47:12,239 - INFO -     → Integrate Now clicked
+2026-06-22 15:47:12,251 - INFO -     → Toast dismissed
+2026-06-22 15:47:12,290 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 15:47:12,591 - INFO -   Adding field: [Painters] -> City
+2026-06-22 15:47:13,765 - INFO -     → User Type selected: Painters
+2026-06-22 15:47:34,095 - INFO -     → System Data Point selected: City
+2026-06-22 15:47:34,139 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:47:34,234 - INFO -     → Integrate Now clicked
+2026-06-22 15:47:34,245 - INFO -     → Toast dismissed
+2026-06-22 15:47:34,285 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 15:47:34,586 - INFO -   Adding field: [Painters] -> State
+2026-06-22 15:47:35,749 - INFO -     → User Type selected: Painters
+2026-06-22 15:47:55,961 - INFO -     → System Data Point selected: State
+2026-06-22 15:47:56,053 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:47:56,153 - INFO -     → Integrate Now clicked
+2026-06-22 15:47:56,163 - INFO -     → Toast dismissed
+2026-06-22 15:47:56,196 - INFO -   ✓ Field added successfully: State
+
+2026-06-22 15:47:56,497 - INFO -   Adding field: [Painters] -> Address
+2026-06-22 15:47:57,636 - INFO -     → User Type selected: Painters
+2026-06-22 15:48:17,881 - INFO -     → System Data Point selected: Address
+2026-06-22 15:48:17,901 - INFO -     → Mandatory toggle enabled
+2026-06-22 15:48:18,006 - INFO -     → Integrate Now clicked
+2026-06-22 15:48:18,014 - INFO -     → Toast dismissed
+2026-06-22 15:48:18,046 - INFO -   ✓ Field added successfully: Address
+
+2026-06-22 15:48:18,346 - INFO - ============================================================
+2026-06-22 15:48:18,347 - INFO - Registration fields batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-06-22 15:48:20,549 - INFO - Browser closed
+2026-06-22 15:48:24,622 - INFO - 
+Task finished at 2026-06-22 15:48:24
+2026-06-22 15:48:24,622 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_154320.log
+

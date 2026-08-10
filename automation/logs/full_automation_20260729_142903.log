@@ -1,0 +1,236 @@
+2026-07-29 14:29:18,054 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-29 14:29:18,054 - INFO - ============================================================
+2026-07-29 14:29:18,054 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-29 14:29:18,055 - INFO - ============================================================
+2026-07-29 14:29:18,055 - INFO - Processing images from dashboardicons/...
+2026-07-29 14:29:18,075 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-29 14:29:18,075 - INFO - Output folder: automation\processed_images
+2026-07-29 14:29:18,075 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-29 14:29:18,202 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-29 14:29:18,239 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-29 14:29:18,283 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-29 14:29:18,329 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-29 14:29:18,367 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-29 14:29:18,402 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-29 14:29:18,429 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-29 14:29:18,450 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-29 14:29:18,488 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-29 14:29:18,516 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-29 14:29:18,549 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-29 14:29:18,594 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-29 14:29:18,625 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-29 14:29:18,700 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-29 14:29:18,729 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-29 14:29:18,729 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-29 14:29:18,729 - INFO - v 15 images processed.
+2026-07-29 14:29:19,006 - INFO - ====== WebDriver manager ======
+2026-07-29 14:29:21,790 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 14:29:22,069 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 14:29:22,245 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-29 14:29:22,246 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-29 14:29:24,190 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-29 14:29:24,192 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-29 14:29:24,233 - INFO - ✓ Chrome driver initialized
+2026-07-29 14:29:24,234 - INFO - Opening login page...
+2026-07-29 14:29:25,493 - INFO -   → Policy checkbox checked on login page
+2026-07-29 14:29:25,586 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-29 14:29:25,602 - INFO -   → Policy agreement popup detected
+2026-07-29 14:29:25,647 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-29 14:29:26,237 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-29 14:29:37,627 - INFO -   → Navigating directly to App Settings URL...
+2026-07-29 14:29:37,919 - INFO - ✓ Login successful and on App Settings page
+2026-07-29 14:29:39,935 - INFO - Navigating to dashboard icons section...
+2026-07-29 14:29:39,935 - INFO - Navigating to App Settings...
+2026-07-29 14:29:46,295 - INFO - ✓ Dashboard Icons section loaded
+2026-07-29 14:29:46,296 - INFO - Reading all available user types from dropdown...
+2026-07-29 14:30:00,047 - INFO -   Found 1 user types: ['Painters']
+2026-07-29 14:30:00,078 - INFO - Total rows found in configured icons table: 4
+2026-07-29 14:30:00,161 - INFO - Currently configured icons per user type:
+2026-07-29 14:30:00,161 - INFO -   painters: ['codedetails', 'wallet']
+2026-07-29 14:30:00,161 - INFO - Found 13 missing icon uploads:
+2026-07-29 14:30:00,162 - INFO -   - [Painters] aboutus (ID: aboutus) from aboutus.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] Activity (ID: claimhistory) from Activity.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] KYC (ID: kycdetails) from KYC.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] Language (ID: chooselanguage) from Language.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] Prospectus (ID: brochure) from Prospectus.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-29 14:30:00,162 - INFO -   - [Painters] Rewards (ID: gift) from Rewards.png
+2026-07-29 14:30:00,163 - INFO -   - [Painters] Scan History (ID: history) from Scan History.png
+2026-07-29 14:30:00,163 - INFO -   - [Painters] Support (ID: help) from Support.png
+2026-07-29 14:30:00,164 - INFO -   - [Painters] TDS (ID: tds) from TDS.png
+2026-07-29 14:30:00,164 - INFO -   - [Painters] Updates (ID: blog) from Updates.png
+2026-07-29 14:30:02,486 - INFO - 
+[1/13] Uploading missing icon for Painters: aboutus
+2026-07-29 14:30:02,486 - INFO -   Adding: [Painters] aboutus  (aboutus)
+2026-07-29 14:30:15,081 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:30:15,159 - INFO -     → Icon identity: aboutus
+2026-07-29 14:30:15,282 - INFO -     → Display title: aboutus
+2026-07-29 14:30:15,759 - INFO -     → Icon color: #70E8A8
+2026-07-29 14:30:15,796 - INFO -     → Toggle: side menu
+2026-07-29 14:30:17,851 - INFO -     → Image uploaded: aboutus.png
+2026-07-29 14:30:17,944 - INFO -     → Form submitted
+2026-07-29 14:30:28,961 - INFO -   ✓ Icon added: aboutus
+
+2026-07-29 14:30:29,962 - INFO - 
+[2/13] Uploading missing icon for Painters: Activity
+2026-07-29 14:30:29,963 - INFO -   Adding: [Painters] Activity  (claimhistory)
+2026-07-29 14:30:42,639 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:30:42,703 - INFO -     → Icon identity: claimhistory
+2026-07-29 14:30:42,855 - INFO -     → Display title: Activity
+2026-07-29 14:30:43,258 - INFO -     → Icon color: #F86008
+2026-07-29 14:30:43,285 - INFO -     → Toggle: dashboard only
+2026-07-29 14:30:45,325 - INFO -     → Image uploaded: Activity.png
+2026-07-29 14:30:45,417 - INFO -     → Form submitted
+2026-07-29 14:30:56,067 - INFO -   ✓ Icon added: Activity
+
+2026-07-29 14:30:57,068 - INFO - 
+[3/13] Uploading missing icon for Painters: E-Warranty
+2026-07-29 14:30:57,069 - INFO -   Adding: [Painters] E-Warranty  (e-warrant)
+2026-07-29 14:31:09,810 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:31:09,899 - INFO -     → Icon identity: e-warrant
+2026-07-29 14:31:10,002 - INFO -     → Display title: E-Warranty
+2026-07-29 14:31:10,454 - INFO -     → Icon color: #20C078
+2026-07-29 14:31:10,615 - INFO -     → Toggle: dashboard only
+2026-07-29 14:31:12,877 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-29 14:31:13,045 - INFO -     → Form submitted
+2026-07-29 14:31:24,034 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-29 14:31:25,036 - INFO - 
+[4/13] Uploading missing icon for Painters: KYC
+2026-07-29 14:31:25,036 - INFO -   Adding: [Painters] KYC  (kycdetails)
+2026-07-29 14:31:37,695 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:31:37,785 - INFO -     → Icon identity: kycdetails
+2026-07-29 14:31:37,885 - INFO -     → Display title: KYC
+2026-07-29 14:31:38,325 - INFO -     → Icon color: #F85808
+2026-07-29 14:31:38,359 - INFO -     → Toggle: side menu
+2026-07-29 14:31:40,395 - INFO -     → Image uploaded: KYC.png
+2026-07-29 14:31:40,486 - INFO -     → Form submitted
+2026-07-29 14:31:51,408 - INFO -   ✓ Icon added: KYC
+
+2026-07-29 14:31:52,409 - INFO - 
+[5/13] Uploading missing icon for Painters: Language
+2026-07-29 14:31:52,410 - INFO -   Adding: [Painters] Language  (chooselanguage)
+2026-07-29 14:32:05,117 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:32:05,191 - INFO -     → Icon identity: chooselanguage
+2026-07-29 14:32:05,303 - INFO -     → Display title: Language
+2026-07-29 14:32:05,752 - INFO -     → Icon color: #5010E8
+2026-07-29 14:32:05,778 - INFO -     → Toggle: side menu
+2026-07-29 14:32:07,851 - INFO -     → Image uploaded: Language.png
+2026-07-29 14:32:07,927 - INFO -     → Form submitted
+2026-07-29 14:32:18,858 - INFO -   ✓ Icon added: Language
+
+2026-07-29 14:32:19,859 - INFO - 
+[6/13] Uploading missing icon for Painters: Product Catalog
+2026-07-29 14:32:19,859 - INFO -   Adding: [Painters] Product Catalog  (productcatalogue)
+2026-07-29 14:32:32,541 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:32:32,613 - INFO -     → Icon identity: productcatalogue
+2026-07-29 14:32:32,725 - INFO -     → Display title: Product Catalog
+2026-07-29 14:32:33,176 - INFO -     → Icon color: #6028E8
+2026-07-29 14:32:33,205 - INFO -     → Toggle: dashboard only
+2026-07-29 14:32:35,239 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-29 14:32:35,321 - INFO -     → Form submitted
+2026-07-29 14:32:46,241 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-29 14:32:47,242 - INFO - 
+[7/13] Uploading missing icon for Painters: Prospectus
+2026-07-29 14:32:47,243 - INFO -   Adding: [Painters] Prospectus  (brochure)
+2026-07-29 14:32:59,847 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:32:59,912 - INFO -     → Icon identity: brochure
+2026-07-29 14:33:00,017 - INFO -     → Display title: Prospectus
+2026-07-29 14:33:00,473 - INFO -     → Icon color: #0848F8
+2026-07-29 14:33:00,491 - INFO -     → Toggle: dashboard only
+2026-07-29 14:33:02,526 - INFO -     → Image uploaded: Prospectus.png
+2026-07-29 14:33:02,610 - INFO -     → Form submitted
+2026-07-29 14:33:13,535 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-29 14:33:14,536 - INFO - 
+[8/13] Uploading missing icon for Painters: Refer & Earn
+2026-07-29 14:33:14,537 - INFO -   Adding: [Painters] Refer & Earn  (referandearn)
+2026-07-29 14:33:27,192 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:33:27,275 - INFO -     → Icon identity: referandearn
+2026-07-29 14:33:27,429 - INFO -     → Display title: Refer & Earn
+2026-07-29 14:33:27,928 - INFO -     → Icon color: #089098
+2026-07-29 14:33:27,967 - INFO -     → Toggle: both
+2026-07-29 14:33:30,002 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-29 14:33:30,112 - INFO -     → Form submitted
+2026-07-29 14:33:40,842 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-29 14:33:41,843 - INFO - 
+[9/13] Uploading missing icon for Painters: Rewards
+2026-07-29 14:33:41,844 - INFO -   Adding: [Painters] Rewards  (gift)
+2026-07-29 14:33:54,391 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:33:54,488 - INFO -     → Icon identity: gift
+2026-07-29 14:33:54,662 - INFO -     → Display title: Rewards
+2026-07-29 14:33:55,154 - INFO -     → Icon color: #F00048
+2026-07-29 14:33:55,199 - INFO -     → Toggle: both
+2026-07-29 14:33:57,257 - INFO -     → Image uploaded: Rewards.png
+2026-07-29 14:33:57,364 - INFO -     → Form submitted
+2026-07-29 14:34:07,971 - INFO -   ✓ Icon added: Rewards
+
+2026-07-29 14:34:08,972 - INFO - 
+[10/13] Uploading missing icon for Painters: Scan History
+2026-07-29 14:34:08,973 - INFO -   Adding: [Painters] Scan History  (history)
+2026-07-29 14:34:21,379 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:34:21,468 - INFO -     → Icon identity: history
+2026-07-29 14:34:21,606 - INFO -     → Display title: Scan History
+2026-07-29 14:34:22,101 - INFO -     → Icon color: #4808F0
+2026-07-29 14:34:22,128 - INFO -     → Toggle: dashboard only
+2026-07-29 14:34:24,169 - INFO -     → Image uploaded: Scan History.png
+2026-07-29 14:34:24,270 - INFO -     → Form submitted
+2026-07-29 14:34:35,017 - INFO -   ✓ Icon added: Scan History
+
+2026-07-29 14:34:36,020 - INFO - 
+[11/13] Uploading missing icon for Painters: Support
+2026-07-29 14:34:36,021 - INFO -   Adding: [Painters] Support  (help)
+2026-07-29 14:34:48,525 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:34:48,619 - INFO -     → Icon identity: help
+2026-07-29 14:34:48,728 - INFO -     → Display title: Support
+2026-07-29 14:34:49,166 - INFO -     → Icon color: #0030F0
+2026-07-29 14:34:49,193 - INFO -     → Toggle: dashboard only
+2026-07-29 14:34:51,243 - INFO -     → Image uploaded: Support.png
+2026-07-29 14:34:51,343 - INFO -     → Form submitted
+2026-07-29 14:35:01,956 - INFO -   ✓ Icon added: Support
+
+2026-07-29 14:35:02,957 - INFO - 
+[12/13] Uploading missing icon for Painters: TDS
+2026-07-29 14:35:02,958 - INFO -   Adding: [Painters] TDS  (tds)
+2026-07-29 14:35:15,358 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:35:15,448 - INFO -     → Icon identity: tds
+2026-07-29 14:35:15,555 - INFO -     → Display title: TDS
+2026-07-29 14:35:16,043 - INFO -     → Icon color: #20C880
+2026-07-29 14:35:16,075 - INFO -     → Toggle: side menu
+2026-07-29 14:35:18,118 - INFO -     → Image uploaded: TDS.png
+2026-07-29 14:35:18,221 - INFO -     → Form submitted
+2026-07-29 14:35:28,872 - INFO -   ✓ Icon added: TDS
+
+2026-07-29 14:35:29,873 - INFO - 
+[13/13] Uploading missing icon for Painters: Updates
+2026-07-29 14:35:29,873 - INFO -   Adding: [Painters] Updates  (blog)
+2026-07-29 14:35:42,242 - INFO -     → User type selected by exact text: Painters
+2026-07-29 14:35:42,319 - INFO -     → Icon identity: blog
+2026-07-29 14:35:42,440 - INFO -     → Display title: Updates
+2026-07-29 14:35:42,912 - INFO -     → Icon color: #F87820
+2026-07-29 14:35:42,935 - INFO -     → Toggle: dashboard only
+2026-07-29 14:35:44,968 - INFO -     → Image uploaded: Updates.png
+2026-07-29 14:35:45,088 - INFO -     → Form submitted
+2026-07-29 14:35:55,677 - INFO -   ✓ Icon added: Updates
+
+2026-07-29 14:35:56,678 - INFO - 
+============================================================
+2026-07-29 14:35:56,679 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-29 14:35:56,679 - INFO - ============================================================
+2026-07-29 14:35:56,680 - INFO - Successful uploads: 13
+2026-07-29 14:35:56,681 - INFO - Failed uploads: 0
+2026-07-29 14:35:56,684 - INFO - Total processed: 13
+2026-07-29 14:35:56,685 - INFO - ============================================================
+2026-07-29 14:35:59,031 - INFO - Browser closed
+2026-07-29 14:36:03,089 - INFO - 
+Task finished at 2026-07-29 14:36:03
+2026-07-29 14:36:03,089 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260729_142903.log
+
+2026-07-29 14:46:36,309 - INFO - Automation cancelled by user (Ctrl+C)

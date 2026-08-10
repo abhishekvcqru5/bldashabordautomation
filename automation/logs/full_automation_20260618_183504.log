@@ -1,0 +1,233 @@
+2026-06-18 18:35:36,115 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 18:37:49,747 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-18 18:37:50,747 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-06-18 18:38:05,675 - INFO - 
+>>> Starting update [1/1] for binito...
+2026-06-18 18:38:05,675 - INFO - ============================================================
+2026-06-18 18:38:05,675 - INFO - UPDATING DASHBOARD ICONS FOR: kamlaconchem@gmail.com
+2026-06-18 18:38:05,685 - INFO - Filters applied -> User Type: Applicators, Icon ID: claimhistory
+2026-06-18 18:38:05,685 - INFO - ============================================================
+2026-06-18 18:38:05,686 - INFO - Processing images from dashboardicons/...
+2026-06-18 18:38:05,692 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 18:38:05,693 - INFO - Output folder: automation\processed_images
+2026-06-18 18:38:05,693 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 18:38:05,751 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 18:38:05,794 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 18:38:05,839 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 18:38:05,848 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 18:38:05,889 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 18:38:05,932 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 18:38:05,966 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 18:38:05,997 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 18:38:06,027 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 18:38:06,051 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 18:38:06,068 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 18:38:06,102 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 18:38:06,133 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 18:38:06,169 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 18:38:06,211 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 18:38:06,243 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 18:38:06,269 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 18:38:06,298 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 18:38:06,323 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 18:38:06,324 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 18:38:06,324 - INFO - ✓ 18 images processed.
+2026-06-18 18:38:06,621 - INFO - ====== WebDriver manager ======
+2026-06-18 18:38:07,761 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:38:08,090 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:38:08,530 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 18:38:08,532 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 18:38:09,642 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 18:38:09,679 - INFO - ✓ Chrome driver initialized
+2026-06-18 18:38:09,679 - INFO - Opening login page...
+2026-06-18 18:38:11,108 - INFO -   → Policy checkbox checked on login page
+2026-06-18 18:38:11,176 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 18:38:45,030 - INFO - ✓ Login successful
+2026-06-18 18:38:47,031 - INFO - Navigating to dashboard icons section...
+2026-06-18 18:38:47,032 - INFO - Navigating to App Settings...
+2026-06-18 18:38:53,259 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 18:38:53,282 - INFO - Total rows found: 13
+2026-06-18 18:38:53,336 - INFO - Parsed Row 2: UserType='Applicators', Title='Rewards', ID='gift'
+2026-06-18 18:38:53,352 - INFO - Parsed Row 3: UserType='Applicators', Title='Scan History', ID='history'
+2026-06-18 18:38:53,368 - INFO - Parsed Row 4: UserType='Applicators', Title='My Wallet', ID='wallet'
+2026-06-18 18:38:53,400 - INFO - Parsed Row 5: UserType='Applicators', Title='Kyc', ID='kycdetails'
+2026-06-18 18:38:53,420 - INFO - Parsed Row 6: UserType='Applicators', Title='Updates', ID='blog'
+2026-06-18 18:38:53,440 - INFO - Parsed Row 7: UserType='Applicators', Title='Prospectus', ID='brochure'
+2026-06-18 18:38:53,457 - INFO - Parsed Row 8: UserType='Applicators', Title='Claim History', ID='claimhistory'
+2026-06-18 18:38:53,476 - INFO - Parsed Row 9: UserType='Applicators', Title='Language', ID='chooselanguage'
+2026-06-18 18:38:53,496 - INFO - Parsed Row 10: UserType='Applicators', Title='Activity', ID='codedetails'
+2026-06-18 18:38:53,515 - INFO - Parsed Row 11: UserType='Applicators', Title='Support', ID='help'
+2026-06-18 18:38:53,535 - INFO - Parsed Row 12: UserType='Applicators', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:38:53,535 - INFO - Found 1 icons to update.
+2026-06-18 18:38:53,536 - INFO - 
+[1/1] Updating: [Applicators] 'Claim History' (ID: 'claimhistory') with 'Activity'
+2026-06-18 18:38:54,881 - INFO -   → Set display title to: Activity
+2026-06-18 18:38:55,297 - INFO -   → Set icon color to: #F86008
+2026-06-18 18:38:55,334 - INFO -   → Uploaded image: Activity.png
+2026-06-18 18:38:57,364 - INFO -   → Edit form submitted.
+2026-06-18 18:39:09,314 - INFO -   ✓ Successfully updated: Claim History -> Activity
+2026-06-18 18:39:09,315 - INFO - ============================================================
+2026-06-18 18:39:09,315 - INFO - UPDATE ACCOUNT SUMMARY: kamlaconchem@gmail.com
+2026-06-18 18:39:09,315 - INFO - ✓ Succeeded: 1
+2026-06-18 18:39:09,315 - INFO - ✗ Failed: 0
+2026-06-18 18:39:09,315 - INFO - ============================================================
+2026-06-18 18:39:11,499 - INFO - Browser closed
+2026-06-18 18:39:15,588 - INFO - ✓ Completed update for binito
+2026-06-18 18:39:15,589 - INFO - 
+Task finished at 2026-06-18 18:39:15
+2026-06-18 18:39:15,589 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_183504.log
+
+2026-06-18 18:39:19,484 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 18:39:22,058 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-18 18:39:23,018 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-06-18 18:39:27,525 - INFO - 
+>>> Starting update [1/1] for binito...
+2026-06-18 18:39:27,525 - INFO - ============================================================
+2026-06-18 18:39:27,525 - INFO - UPDATING DASHBOARD ICONS FOR: kamlaconchem@gmail.com
+2026-06-18 18:39:27,525 - INFO - ============================================================
+2026-06-18 18:39:27,526 - INFO - Processing images from dashboardicons/...
+2026-06-18 18:39:27,531 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 18:39:27,531 - INFO - Output folder: automation\processed_images
+2026-06-18 18:39:27,531 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 18:39:27,564 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 18:39:27,603 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 18:39:27,650 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 18:39:27,658 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 18:39:27,700 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 18:39:27,743 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 18:39:27,776 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 18:39:27,808 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 18:39:27,838 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 18:39:27,863 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 18:39:27,880 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 18:39:27,914 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 18:39:27,940 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 18:39:27,969 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 18:39:28,010 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 18:39:28,041 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 18:39:28,067 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 18:39:28,097 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 18:39:28,121 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 18:39:28,121 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 18:39:28,121 - INFO - ✓ 18 images processed.
+2026-06-18 18:39:28,410 - INFO - ====== WebDriver manager ======
+2026-06-18 18:39:29,525 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:39:29,858 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:39:30,189 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 18:39:30,189 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 18:39:31,276 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 18:39:31,310 - INFO - ✓ Chrome driver initialized
+2026-06-18 18:39:31,310 - INFO - Opening login page...
+2026-06-18 18:39:32,794 - INFO -   → Policy checkbox checked on login page
+2026-06-18 18:39:32,865 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 18:40:06,695 - INFO - ✓ Login successful
+2026-06-18 18:40:08,696 - INFO - Navigating to dashboard icons section...
+2026-06-18 18:40:08,697 - INFO - Navigating to App Settings...
+2026-06-18 18:40:15,096 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 18:40:15,119 - INFO - Total rows found: 13
+2026-06-18 18:40:15,165 - INFO - Parsed Row 2: UserType='Applicators', Title='Rewards', ID='gift'
+2026-06-18 18:40:15,183 - INFO - Parsed Row 3: UserType='Applicators', Title='Scan History', ID='history'
+2026-06-18 18:40:15,201 - INFO - Parsed Row 4: UserType='Applicators', Title='My Wallet', ID='wallet'
+2026-06-18 18:40:15,218 - INFO - Parsed Row 5: UserType='Applicators', Title='Kyc', ID='kycdetails'
+2026-06-18 18:40:15,254 - INFO - Parsed Row 6: UserType='Applicators', Title='Updates', ID='blog'
+2026-06-18 18:40:15,278 - INFO - Parsed Row 7: UserType='Applicators', Title='Prospectus', ID='brochure'
+2026-06-18 18:40:15,298 - INFO - Parsed Row 8: UserType='Applicators', Title='Activity', ID='claimhistory'
+2026-06-18 18:40:15,315 - INFO - Parsed Row 9: UserType='Applicators', Title='Language', ID='chooselanguage'
+2026-06-18 18:40:15,335 - INFO - Parsed Row 10: UserType='Applicators', Title='Activity', ID='codedetails'
+2026-06-18 18:40:15,351 - INFO - Parsed Row 11: UserType='Applicators', Title='Support', ID='help'
+2026-06-18 18:40:15,372 - INFO - Parsed Row 12: UserType='Applicators', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:40:15,372 - INFO - Found 11 icons to update.
+2026-06-18 18:40:15,373 - INFO - 
+[1/11] Updating: [Applicators] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 18:40:16,630 - INFO -   → Set display title to: Rewards
+2026-06-18 18:40:17,017 - INFO -   → Set icon color to: #F00048
+2026-06-18 18:40:17,052 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 18:40:19,083 - INFO -   → Edit form submitted.
+2026-06-18 18:40:31,091 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 18:40:31,092 - INFO - 
+[2/11] Updating: [Applicators] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 18:40:32,383 - INFO -   → Set display title to: Scan History
+2026-06-18 18:40:32,747 - INFO -   → Set icon color to: #4808F0
+2026-06-18 18:40:32,779 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 18:40:34,815 - INFO -   → Edit form submitted.
+2026-06-18 18:40:46,808 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 18:40:46,809 - INFO - 
+[3/11] Updating: [Applicators] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 18:40:48,063 - INFO -   → Set display title to: My Wallet
+2026-06-18 18:40:48,418 - INFO -   → Set icon color to: #20A020
+2026-06-18 18:40:48,449 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 18:40:50,480 - INFO -   → Edit form submitted.
+2026-06-18 18:41:02,486 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 18:41:02,487 - INFO - 
+[4/11] Updating: [Applicators] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 18:41:03,754 - INFO -   → Set display title to: KYC
+2026-06-18 18:41:04,116 - INFO -   → Set icon color to: #F85808
+2026-06-18 18:41:04,150 - INFO -   → Uploaded image: KYC.png
+2026-06-18 18:41:06,185 - INFO -   → Edit form submitted.
+2026-06-18 18:41:18,185 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 18:41:18,185 - INFO - 
+[5/11] Updating: [Applicators] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 18:41:19,481 - INFO -   → Set display title to: Updates
+2026-06-18 18:41:19,849 - INFO -   → Set icon color to: #F87820
+2026-06-18 18:41:19,881 - INFO -   → Uploaded image: Updates.png
+2026-06-18 18:41:21,911 - INFO -   → Edit form submitted.
+2026-06-18 18:41:33,861 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 18:41:33,862 - INFO - 
+[6/11] Updating: [Applicators] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 18:41:35,175 - INFO -   → Set display title to: Prospectus
+2026-06-18 18:41:35,530 - INFO -   → Set icon color to: #0848F8
+2026-06-18 18:41:35,563 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 18:41:37,597 - INFO -   → Edit form submitted.
+2026-06-18 18:41:49,562 - INFO -   ✓ Successfully updated: Prospectus -> Prospectus
+2026-06-18 18:41:49,562 - INFO - 
+[7/11] Updating: [Applicators] 'Activity' (ID: 'claimhistory') with 'Activity'
+2026-06-18 18:41:50,860 - INFO -   → Set display title to: Activity
+2026-06-18 18:41:51,243 - INFO -   → Set icon color to: #F86008
+2026-06-18 18:41:51,272 - INFO -   → Uploaded image: Activity.png
+2026-06-18 18:41:53,303 - INFO -   → Edit form submitted.
+2026-06-18 18:42:05,289 - INFO -   ✓ Successfully updated: Activity -> Activity
+2026-06-18 18:42:05,289 - INFO - 
+[8/11] Updating: [Applicators] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 18:42:06,678 - INFO -   → Set display title to: Language
+2026-06-18 18:42:07,099 - INFO -   → Set icon color to: #5010E8
+2026-06-18 18:42:07,132 - INFO -   → Uploaded image: Language.png
+2026-06-18 18:42:09,162 - INFO -   → Edit form submitted.
+2026-06-18 18:42:21,120 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-18 18:42:21,120 - INFO - 
+[9/11] Updating: [Applicators] 'Activity' (ID: 'codedetails') with 'Activity'
+2026-06-18 18:42:22,867 - INFO -   → Set display title to: Activity
+2026-06-18 18:42:23,371 - INFO -   → Set icon color to: #F86008
+2026-06-18 18:42:23,436 - INFO -   → Uploaded image: Activity.png
+2026-06-18 18:42:25,497 - INFO -   → Edit form submitted.
+2026-06-18 18:42:37,140 - INFO -   ✓ Successfully updated: Activity -> Activity
+2026-06-18 18:42:37,140 - INFO - 
+[10/11] Updating: [Applicators] 'Support' (ID: 'help') with 'Support'
+2026-06-18 18:42:38,354 - INFO -   → Set display title to: Support
+2026-06-18 18:42:38,904 - INFO -   → Set icon color to: #0030F0
+2026-06-18 18:42:38,952 - INFO -   → Uploaded image: Support.png
+2026-06-18 18:42:40,991 - INFO -   → Edit form submitted.
+2026-06-18 18:42:52,627 - INFO -   ✓ Successfully updated: Support -> Support
+2026-06-18 18:42:52,628 - INFO - 
+[11/11] Updating: [Applicators] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 18:42:53,962 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 18:42:54,475 - INFO -   → Set icon color to: #089098
+2026-06-18 18:42:54,541 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 18:42:56,900 - INFO -   → Edit form submitted.
+2026-06-18 18:43:09,321 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 18:43:09,323 - INFO - ============================================================
+2026-06-18 18:43:09,326 - INFO - UPDATE ACCOUNT SUMMARY: kamlaconchem@gmail.com
+2026-06-18 18:43:09,327 - INFO - ✓ Succeeded: 11
+2026-06-18 18:43:09,327 - INFO - ✗ Failed: 0
+2026-06-18 18:43:09,327 - INFO - ============================================================
+2026-06-18 18:43:11,658 - INFO - Browser closed
+2026-06-18 18:43:15,755 - INFO - ✓ Completed update for binito
+2026-06-18 18:43:15,757 - INFO - 
+Task finished at 2026-06-18 18:43:15
+2026-06-18 18:43:15,757 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_183504.log
+

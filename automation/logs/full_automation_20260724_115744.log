@@ -1,0 +1,281 @@
+2026-07-24 11:58:21,527 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-24 11:58:21,528 - INFO - ============================================================
+2026-07-24 11:58:21,529 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-24 11:58:21,529 - INFO - ============================================================
+2026-07-24 11:58:21,530 - INFO - Processing images from dashboardicons/...
+2026-07-24 11:58:21,544 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-24 11:58:21,570 - INFO - Output folder: automation\processed_images
+2026-07-24 11:58:21,570 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-24 11:58:21,757 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-24 11:58:21,863 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-24 11:58:21,953 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-24 11:58:22,075 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-07-24 11:58:22,100 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-07-24 11:58:22,254 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-07-24 11:58:22,387 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-24 11:58:22,489 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-24 11:58:22,590 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-24 11:58:22,688 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-24 11:58:22,783 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-24 11:58:22,841 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-24 11:58:22,958 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-24 11:58:23,057 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-24 11:58:23,153 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-24 11:58:23,290 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-24 11:58:23,388 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-07-24 11:58:23,463 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-24 11:58:23,545 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-24 11:58:23,621 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-24 11:58:23,622 - INFO - 
+✓ Processed 19 images successfully
+
+2026-07-24 11:58:23,622 - INFO - v 19 images processed.
+2026-07-24 11:58:24,821 - INFO - ====== WebDriver manager ======
+2026-07-24 11:58:29,058 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 11:58:29,287 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 11:58:29,511 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-24 11:58:29,513 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-24 11:58:31,447 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-24 11:58:31,495 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-24 11:58:31,662 - INFO - ✓ Chrome driver initialized
+2026-07-24 11:58:31,662 - INFO - Opening login page...
+2026-07-24 11:58:33,504 - INFO -   → Policy checkbox checked on login page
+2026-07-24 11:58:33,725 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-24 11:58:33,768 - INFO -   → Policy agreement popup detected
+2026-07-24 11:58:33,865 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-24 11:58:34,456 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 11:58:41,145 - INFO -   → Policy agreement popup detected
+2026-07-24 11:58:41,275 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-24 11:58:41,847 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 11:58:41,849 - INFO -   → Navigating directly to App Settings URL...
+2026-07-24 11:58:42,478 - INFO - ✓ Login successful and on App Settings page
+2026-07-24 11:58:44,480 - INFO - Navigating to dashboard icons section...
+2026-07-24 11:58:44,486 - INFO - Navigating to App Settings...
+2026-07-24 11:58:51,200 - INFO - ✓ Dashboard Icons section loaded
+2026-07-24 11:58:51,201 - INFO - Reading all available user types from dropdown...
+2026-07-24 11:59:05,869 - INFO -   Found 6 user types: ['AutoAgent', 'uthgg k nm', 'User', 'Mechanic', 'Retailer', 'Dealer']
+2026-07-24 11:59:05,947 - INFO - Total rows found in configured icons table: 107
+2026-07-24 11:59:12,247 - INFO - Currently configured icons per user type:
+2026-07-24 11:59:12,247 - INFO -   autoagent: ['e-warrant', 'blog', 'productcatalogue', 'instalment', 'brochure', 'retailer', 'claimhistory', 'referandearn', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 11:59:12,248 - INFO -   uthgg k nm: ['e-warrant', 'instalment', 'productcatalogue', 'codedetails', 'retailer', 'brochure', 'blog', 'claimhistory', 'referandearn', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 11:59:12,249 - INFO -   user: ['e-warrant', 'blog', 'productcatalogue', 'codedetails', 'brochure', 'instalment', 'retailer', 'referandearn', 'chooselanguage', 'kycdetails', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 11:59:12,250 - INFO -   mechanic: ['e-warrant', 'blog', 'productcatalogue', 'codedetails', 'brochure', 'instalment', 'retailer', 'claimhistory', 'referandearn', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 11:59:12,251 - INFO -   retailer: ['e-warrant', 'blog', 'productcatalogue', 'codedetails', 'brochure', 'instalment', 'retailer', 'referandearn', 'claimhistory', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 11:59:12,251 - INFO -   dealer: ['e-warrant', 'blog', 'productcatalogue', 'instalment', 'brochure', 'retailer', 'claimhistory', 'chooselanguage', 'kycdetails', 'history', 'help', 'wallet', 'ecommerce', 'tds', 'transferpoints', 'gift']
+2026-07-24 11:59:12,252 - INFO - Found 10 missing icon uploads:
+2026-07-24 11:59:12,253 - INFO -   - [AutoAgent] aboutus (ID: aboutus) from aboutus.png
+2026-07-24 11:59:12,253 - INFO -   - [AutoAgent] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-24 11:59:12,254 - INFO -   - [uthgg k nm] aboutus (ID: aboutus) from aboutus.png
+2026-07-24 11:59:12,254 - INFO -   - [User] aboutus (ID: aboutus) from aboutus.png
+2026-07-24 11:59:12,255 - INFO -   - [User] Activity (ID: claimhistory) from Activity.png
+2026-07-24 11:59:12,255 - INFO -   - [Mechanic] aboutus (ID: aboutus) from aboutus.png
+2026-07-24 11:59:12,256 - INFO -   - [Retailer] aboutus (ID: aboutus) from aboutus.png
+2026-07-24 11:59:12,256 - INFO -   - [Dealer] aboutus (ID: aboutus) from aboutus.png
+2026-07-24 11:59:12,256 - INFO -   - [Dealer] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-24 11:59:12,257 - INFO -   - [Dealer] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-24 12:01:10,285 - INFO - 
+[1/10] Uploading missing icon for AutoAgent: aboutus
+2026-07-24 12:01:10,285 - INFO -   Adding: [AutoAgent] aboutus  (aboutus)
+2026-07-24 12:01:23,320 - INFO -     → User type selected by exact text: AutoAgent
+2026-07-24 12:01:23,513 - INFO -     → Icon identity: aboutus
+2026-07-24 12:01:23,797 - INFO -     → Display title: aboutus
+2026-07-24 12:01:24,596 - INFO -     → Icon color: #70E8A8
+2026-07-24 12:01:24,663 - INFO -     → Toggle: side menu
+2026-07-24 12:01:26,809 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 12:01:27,104 - INFO -     → Form submitted
+2026-07-24 12:01:37,722 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 12:01:38,725 - INFO - 
+[2/10] Uploading missing icon for AutoAgent: Scan Activity
+2026-07-24 12:01:38,726 - INFO -   Adding: [AutoAgent] Scan Activity  (codedetails)
+2026-07-24 12:01:52,326 - INFO -     → User type selected by exact text: AutoAgent
+2026-07-24 12:01:52,592 - INFO -     → Icon identity: codedetails
+2026-07-24 12:01:52,964 - INFO -     → Display title: Scan Activity
+2026-07-24 12:01:53,975 - INFO -     → Icon color: #10A010
+2026-07-24 12:01:54,057 - INFO -     → Toggle: dashboard only
+2026-07-24 12:01:56,144 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-24 12:01:56,423 - INFO -     → Form submitted
+2026-07-24 12:02:07,351 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-24 12:02:08,353 - INFO - 
+[3/10] Uploading missing icon for uthgg k nm: aboutus
+2026-07-24 12:02:08,354 - INFO -   Adding: [uthgg k nm] aboutus  (aboutus)
+2026-07-24 12:02:21,325 - INFO -     → User type selected by exact text: uthgg k nm
+2026-07-24 12:02:21,514 - INFO -     → Icon identity: aboutus
+2026-07-24 12:02:21,842 - INFO -     → Display title: aboutus
+2026-07-24 12:02:22,679 - INFO -     → Icon color: #70E8A8
+2026-07-24 12:02:22,747 - INFO -     → Toggle: side menu
+2026-07-24 12:02:24,850 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 12:02:25,054 - INFO -     → Form submitted
+2026-07-24 12:02:36,117 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 12:02:37,121 - INFO - 
+[4/10] Uploading missing icon for User: aboutus
+2026-07-24 12:02:37,122 - INFO -   Adding: [User] aboutus  (aboutus)
+2026-07-24 12:02:50,154 - INFO -     → User type selected by exact text: User
+2026-07-24 12:02:50,325 - INFO -     → Icon identity: aboutus
+2026-07-24 12:02:50,606 - INFO -     → Display title: aboutus
+2026-07-24 12:02:51,478 - INFO -     → Icon color: #70E8A8
+2026-07-24 12:02:51,545 - INFO -     → Toggle: side menu
+2026-07-24 12:02:53,646 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 12:02:53,938 - INFO -     → Form submitted
+2026-07-24 12:03:04,930 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 12:03:05,936 - INFO - 
+[5/10] Uploading missing icon for User: Activity
+2026-07-24 12:03:05,938 - INFO -   Adding: [User] Activity  (claimhistory)
+2026-07-24 12:03:19,777 - INFO -     → User type selected by exact text: User
+2026-07-24 12:03:20,078 - INFO -     → Icon identity: claimhistory
+2026-07-24 12:03:20,463 - INFO -     → Display title: Activity
+2026-07-24 12:03:21,497 - INFO -     → Icon color: #F86008
+2026-07-24 12:03:21,572 - INFO -     → Toggle: dashboard only
+2026-07-24 12:03:23,717 - INFO -     → Image uploaded: Activity.png
+2026-07-24 12:03:24,086 - INFO -     → Form submitted
+2026-07-24 12:03:35,146 - INFO -   ✓ Icon added: Activity
+
+2026-07-24 12:03:36,148 - INFO - 
+[6/10] Uploading missing icon for Mechanic: aboutus
+2026-07-24 12:03:36,152 - INFO -   Adding: [Mechanic] aboutus  (aboutus)
+2026-07-24 12:03:49,541 - INFO -     → User type selected by exact text: Mechanic
+2026-07-24 12:03:49,771 - INFO -     → Icon identity: aboutus
+2026-07-24 12:03:50,113 - INFO -     → Display title: aboutus
+2026-07-24 12:03:51,122 - INFO -     → Icon color: #70E8A8
+2026-07-24 12:03:51,209 - INFO -     → Toggle: side menu
+2026-07-24 12:03:53,346 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 12:03:53,694 - INFO -     → Form submitted
+2026-07-24 12:04:04,393 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 12:04:05,395 - INFO - 
+[7/10] Uploading missing icon for Retailer: aboutus
+2026-07-24 12:04:05,395 - INFO -   Adding: [Retailer] aboutus  (aboutus)
+2026-07-24 12:04:18,873 - INFO -     → User type selected by exact text: Retailer
+2026-07-24 12:04:19,179 - INFO -     → Icon identity: aboutus
+2026-07-24 12:04:19,661 - INFO -     → Display title: aboutus
+2026-07-24 12:04:20,813 - INFO -     → Icon color: #70E8A8
+2026-07-24 12:04:20,891 - INFO -     → Toggle: side menu
+2026-07-24 12:04:23,038 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 12:04:23,394 - INFO -     → Form submitted
+2026-07-24 12:04:34,258 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 12:04:35,260 - INFO - 
+[8/10] Uploading missing icon for Dealer: aboutus
+2026-07-24 12:04:35,260 - INFO -   Adding: [Dealer] aboutus  (aboutus)
+2026-07-24 12:04:48,806 - INFO -     → User type selected by exact text: Dealer
+2026-07-24 12:04:49,033 - INFO -     → Icon identity: aboutus
+2026-07-24 12:04:49,336 - INFO -     → Display title: aboutus
+2026-07-24 12:04:50,383 - INFO -     → Icon color: #70E8A8
+2026-07-24 12:04:50,483 - INFO -     → Toggle: side menu
+2026-07-24 12:04:52,645 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 12:04:53,196 - INFO -     → Form submitted
+2026-07-24 12:05:04,247 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 12:05:05,252 - INFO - 
+[9/10] Uploading missing icon for Dealer: Refer & Earn
+2026-07-24 12:05:05,254 - INFO -   Adding: [Dealer] Refer & Earn  (referandearn)
+2026-07-24 12:05:18,623 - INFO -     → User type selected by exact text: Dealer
+2026-07-24 12:05:18,855 - INFO -     → Icon identity: referandearn
+2026-07-24 12:05:19,224 - INFO -     → Display title: Refer & Earn
+2026-07-24 12:05:24,727 - INFO -     → Icon color: #089098
+2026-07-24 12:05:24,860 - INFO -     → Toggle: both
+2026-07-24 12:05:27,758 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-24 12:05:29,330 - INFO -     → Form submitted
+2026-07-24 12:05:40,786 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-24 12:05:41,823 - INFO - 
+[10/10] Uploading missing icon for Dealer: Scan Activity
+2026-07-24 12:05:41,863 - INFO -   Adding: [Dealer] Scan Activity  (codedetails)
+2026-07-24 12:05:57,697 - INFO -     → User type selected by exact text: Dealer
+2026-07-24 12:05:58,396 - INFO -     → Icon identity: codedetails
+2026-07-24 12:05:59,163 - INFO -     → Display title: Scan Activity
+2026-07-24 12:06:00,712 - INFO -     → Icon color: #10A010
+2026-07-24 12:06:01,057 - INFO -     → Toggle: dashboard only
+2026-07-24 12:06:03,243 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-24 12:06:03,524 - INFO -     → Form submitted
+2026-07-24 12:06:14,411 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-24 12:06:15,548 - INFO - 
+============================================================
+2026-07-24 12:06:15,553 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-24 12:06:15,558 - INFO - ============================================================
+2026-07-24 12:06:15,566 - INFO - Successful uploads: 10
+2026-07-24 12:06:15,575 - INFO - Failed uploads: 0
+2026-07-24 12:06:15,764 - INFO - Total processed: 10
+2026-07-24 12:06:15,809 - INFO - ============================================================
+2026-07-24 12:06:21,572 - INFO - Browser closed
+2026-07-24 12:06:25,629 - INFO - 
+Task finished at 2026-07-24 12:06:25
+2026-07-24 12:06:25,630 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260724_115744.log
+
+2026-07-24 12:20:36,405 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-24 12:20:36,407 - INFO - ============================================================
+2026-07-24 12:20:36,407 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-24 12:20:36,407 - INFO - ============================================================
+2026-07-24 12:20:36,413 - INFO - Processing images from dashboardicons/...
+2026-07-24 12:20:36,429 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-24 12:20:36,429 - INFO - Output folder: automation\processed_images
+2026-07-24 12:20:36,430 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-24 12:20:36,474 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-24 12:20:36,511 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-24 12:20:36,554 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-24 12:20:36,605 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-07-24 12:20:36,613 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-07-24 12:20:36,660 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-07-24 12:20:36,706 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-24 12:20:36,742 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-24 12:20:36,776 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-24 12:20:36,809 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-24 12:20:36,837 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-24 12:20:36,856 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-24 12:20:36,893 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-24 12:20:36,923 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-24 12:20:36,954 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-24 12:20:36,999 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-24 12:20:37,038 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-07-24 12:20:37,072 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-24 12:20:37,108 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-24 12:20:37,137 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-24 12:20:37,138 - INFO - 
+✓ Processed 19 images successfully
+
+2026-07-24 12:20:37,138 - INFO - v 19 images processed.
+2026-07-24 12:20:37,519 - INFO - ====== WebDriver manager ======
+2026-07-24 12:20:39,010 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 12:20:39,182 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 12:20:39,354 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-24 12:20:39,355 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-24 12:20:40,625 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-24 12:20:40,627 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-24 12:20:40,662 - INFO - ✓ Chrome driver initialized
+2026-07-24 12:20:40,663 - INFO - Opening login page...
+2026-07-24 12:20:41,928 - INFO -   → Policy checkbox checked on login page
+2026-07-24 12:20:42,032 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-24 12:20:42,049 - INFO -   → Policy agreement popup detected
+2026-07-24 12:20:42,120 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-24 12:20:42,661 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 12:20:48,822 - INFO -   → Policy agreement popup detected
+2026-07-24 12:20:48,840 - INFO -     ✓ Policy checkbox was already checked
+2026-07-24 12:20:49,915 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 12:20:49,916 - INFO -   → Navigating directly to App Settings URL...
+2026-07-24 12:20:50,133 - INFO - ✓ Login successful and on App Settings page
+2026-07-24 12:20:52,134 - INFO - Navigating to dashboard icons section...
+2026-07-24 12:20:52,134 - INFO - Navigating to App Settings...
+2026-07-24 12:20:58,471 - INFO - ✓ Dashboard Icons section loaded
+2026-07-24 12:20:58,472 - INFO - Reading all available user types from dropdown...
+2026-07-24 12:21:12,085 - INFO -   Found 6 user types: ['AutoAgent', 'uthgg k nm', 'User', 'Mechanic', 'Retailer', 'Dealer']
+2026-07-24 12:21:12,137 - INFO - Total rows found in configured icons table: 117
+2026-07-24 12:21:14,773 - INFO - Currently configured icons per user type:
+2026-07-24 12:21:14,773 - INFO -   autoagent: ['e-warrant', 'blog', 'productcatalogue', 'instalment', 'brochure', 'retailer', 'codedetails', 'claimhistory', 'referandearn', 'aboutus', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 12:21:14,773 - INFO -   uthgg k nm: ['e-warrant', 'instalment', 'productcatalogue', 'codedetails', 'retailer', 'brochure', 'blog', 'claimhistory', 'referandearn', 'aboutus', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 12:21:14,774 - INFO -   user: ['e-warrant', 'blog', 'productcatalogue', 'codedetails', 'brochure', 'instalment', 'retailer', 'referandearn', 'claimhistory', 'aboutus', 'chooselanguage', 'kycdetails', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 12:21:14,774 - INFO -   mechanic: ['e-warrant', 'blog', 'productcatalogue', 'codedetails', 'brochure', 'instalment', 'retailer', 'claimhistory', 'referandearn', 'aboutus', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 12:21:14,774 - INFO -   retailer: ['e-warrant', 'blog', 'productcatalogue', 'codedetails', 'brochure', 'instalment', 'retailer', 'referandearn', 'claimhistory', 'aboutus', 'kycdetails', 'chooselanguage', 'history', 'help', 'wallet', 'tds', 'transferpoints', 'gift']
+2026-07-24 12:21:14,774 - INFO -   dealer: ['claimhistory', 'chooselanguage', 'gift', 'instalment', 'productcatalogue', 'aboutus', 'history', 'help', 'tds', 'blog', 'codedetails', 'brochure', 'ecommerce', 'transferpoints', 'e-warrant', 'retailer', 'referandearn', 'kycdetails', 'wallet']
+2026-07-24 12:21:14,775 - INFO - No missing icons found! All local icons are already configured for all user types.
+2026-07-24 12:21:16,984 - INFO - Browser closed
+2026-07-24 12:21:21,034 - INFO - 
+Task finished at 2026-07-24 12:21:21
+2026-07-24 12:21:21,035 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260724_115744.log
+
+2026-07-24 12:44:00,703 - INFO - Automation cancelled by user (Ctrl+C)

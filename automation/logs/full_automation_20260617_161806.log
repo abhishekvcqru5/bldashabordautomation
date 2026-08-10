@@ -1,0 +1,53 @@
+2026-06-17 16:18:06,290 - INFO - User selected: Old Dashboard
+2026-06-17 16:18:25,875 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 16:18:25,893 - INFO - ====== WebDriver manager ======
+2026-06-17 16:18:27,833 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:18:28,390 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:18:28,878 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:18:28,878 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:18:30,530 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
+2026-06-17 16:18:30,531 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:18:37,441 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 16:18:39,442 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
+2026-06-17 16:18:39,615 - INFO -       Email → field #login_txt_id
+2026-06-17 16:18:39,789 - INFO -       Password → field #login_txt_pass
+2026-06-17 16:18:39,907 - INFO -       Login button clicked: #btnVendor
+2026-06-17 16:18:39,907 - INFO -     → Waiting for post-login redirect …
+2026-06-17 16:18:42,524 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-17 16:18:44,552 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-17 16:18:44,610 - INFO -     ✓ Found and clicked Build Loyalty App menu
+2026-06-17 16:18:48,526 - INFO -     ✓ Found and clicked Product Catalogue submenu
+2026-06-17 16:18:56,669 - INFO - ✓ Clicked Add Product Details button
+2026-06-17 16:18:56,698 - INFO - Found 12 rows in table.
+2026-06-17 16:18:56,793 - INFO - Extracted: Nano (5 litres)
+2026-06-17 16:18:56,892 - INFO - Extracted: Nano (1 litres)
+2026-06-17 16:18:56,990 - INFO - Extracted: Everclear 505
+2026-06-17 16:18:57,102 - INFO - Extracted: Everclear 510
+2026-06-17 16:18:57,196 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 16:18:57,353 - INFO - Extracted: Akepox Claro
+2026-06-17 16:18:57,551 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 16:18:57,738 - INFO - Extracted: Akepox 5010
+2026-06-17 16:18:57,840 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 16:18:57,928 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 16:18:58,027 - INFO - Extracted: L Special
+2026-06-17 16:18:58,116 - INFO - Extracted: Crackbond
+2026-06-17 16:19:00,433 - INFO - ====== WebDriver manager ======
+2026-06-17 16:19:02,652 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:19:03,155 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:19:03,794 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:19:03,795 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:19:05,041 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 16:19:05,111 - INFO - ✓ Chrome driver initialized
+2026-06-17 16:19:05,112 - INFO - Opening login page...
+2026-06-17 16:19:06,606 - INFO -   → Policy checkbox checked on login page
+2026-06-17 16:19:06,735 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 16:19:06,824 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-17 16:19:06,835 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-17 16:19:54,011 - ERROR - Login failed: Message: 
+
+2026-06-17 16:19:54,194 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260617_161954.png
+2026-06-17 16:19:56,449 - INFO - Browser closed
+2026-06-17 16:20:04,552 - INFO - 
+Task finished at 2026-06-17 16:20:04
+2026-06-17 16:20:04,552 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_161806.log
+

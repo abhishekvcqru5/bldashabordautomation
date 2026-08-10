@@ -1,0 +1,16 @@
+2026-06-11 13:16:11,027 - INFO - User selected: Old Dashboard
+2026-06-11 13:16:44,545 - INFO -   Old Dashboard → Brand Setting
+2026-06-11 13:16:44,546 - INFO - ============================================================
+2026-06-11 13:16:44,552 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-11 13:16:44,553 - INFO - ============================================================
+2026-06-11 13:16:44,604 - INFO - ====== WebDriver manager ======
+2026-06-11 13:16:47,462 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 13:16:48,186 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 13:16:49,160 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 13:16:50,784 - INFO - WebDriver version 149.0.7827.55 selected
+2026-06-11 13:16:50,793 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win32/chromedriver-win32.zip
+2026-06-11 13:16:50,794 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/win32/chromedriver-win32.zip
+2026-06-11 13:16:51,418 - INFO - Driver downloading response is 200
+2026-06-11 13:16:52,669 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 13:16:53,466 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55]
+2026-06-11 13:16:53,492 - ERROR - Fatal error: [WinError 193] %1 is not a valid Win32 application

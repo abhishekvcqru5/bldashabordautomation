@@ -1,0 +1,77 @@
+2026-07-15 19:09:00,896 - INFO - User selected: Promotion Banners
+2026-07-15 19:09:00,897 - INFO - ============================================================
+2026-07-15 19:09:00,897 - INFO - PROMOTION BANNERS — Image Processing
+2026-07-15 19:09:00,897 - INFO - ============================================================
+2026-07-15 19:09:00,899 - INFO - Found 4 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-07-15 19:09:00,964 - INFO -   ⚙ Processing ChatGPT Image Jul 15, 2026, 06_47_54 PM.png  (size 1672×941 → need 1920×1080)
+2026-07-15 19:09:01,258 - INFO -   ✓ ChatGPT Image Jul 15, 2026, 06_47_54 PM.png  →  ChatGPT Image Jul 15, 2026, 06_47_54 PM_processed.jpg  |  1920×1080  |  0.33 MB  |  quality 92
+2026-07-15 19:09:01,286 - INFO -   ⚙ Processing ChatGPT Image Jul 15, 2026, 06_52_53 PM.png  (size 1672×941 → need 1920×1080)
+2026-07-15 19:09:01,492 - INFO -   ✓ ChatGPT Image Jul 15, 2026, 06_52_53 PM.png  →  ChatGPT Image Jul 15, 2026, 06_52_53 PM_processed.jpg  |  1920×1080  |  0.34 MB  |  quality 92
+2026-07-15 19:09:01,535 - INFO -   ⚙ Processing ChatGPT Image Jul 15, 2026, 07_01_48 PM.png  (size 1672×941 → need 1920×1080)
+2026-07-15 19:09:01,707 - INFO -   ✓ ChatGPT Image Jul 15, 2026, 07_01_48 PM.png  →  ChatGPT Image Jul 15, 2026, 07_01_48 PM_processed.jpg  |  1920×1080  |  0.32 MB  |  quality 92
+2026-07-15 19:09:01,739 - INFO -   ⚙ Processing ChatGPT Image Jul 15, 2026, 07_04_03 PM.png  (size 1672×941 → need 1920×1080)
+2026-07-15 19:09:01,962 - INFO -   ✓ ChatGPT Image Jul 15, 2026, 07_04_03 PM.png  →  ChatGPT Image Jul 15, 2026, 07_04_03 PM_processed.jpg  |  1920×1080  |  0.33 MB  |  quality 92
+2026-07-15 19:09:01,964 - INFO - 
+  Processed 4/4 banners successfully
+
+2026-07-15 19:09:01,980 - INFO - ============================================================
+2026-07-15 19:09:01,981 - INFO - PROMOTION BANNERS — Browser Automation
+2026-07-15 19:09:01,981 - INFO - ============================================================
+2026-07-15 19:09:02,013 - INFO - ====== WebDriver manager ======
+2026-07-15 19:09:05,151 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-15 19:09:06,025 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-15 19:09:06,779 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-15 19:09:06,781 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-15 19:09:09,808 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-15 19:09:09,816 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-15 19:09:09,864 - INFO - ✓ Chrome driver initialized
+2026-07-15 19:09:09,865 - INFO - Opening login page...
+2026-07-15 19:09:11,741 - INFO -   → Policy checkbox checked on login page
+2026-07-15 19:09:12,002 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-15 19:09:12,064 - INFO -   → Policy agreement popup detected
+2026-07-15 19:09:12,139 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-15 19:09:12,682 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-15 19:09:18,832 - INFO -   → Policy agreement popup detected
+2026-07-15 19:09:18,893 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-15 19:09:19,442 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-15 19:09:19,453 - INFO - ✓ Login successful
+2026-07-15 19:09:21,454 - INFO - Going to App Settings...
+2026-07-15 19:09:28,073 - INFO -   → Promotion Banners section opened
+2026-07-15 19:09:28,091 - INFO - ✓ Promotion Banners page ready
+2026-07-15 19:09:28,092 - INFO - Starting batch  —  4 banner(s) to publish
+2026-07-15 19:09:28,092 - INFO - ============================================================
+2026-07-15 19:09:28,093 - INFO - [1/4]
+2026-07-15 19:09:28,093 - INFO -   Publishing: [ChatGPT Image Jul 15, 2026, 06_47_54 PM]  (ChatGPT Image Jul 15, 2026, 06_47_54 PM_processed.jpg)
+2026-07-15 19:09:30,531 - INFO -     → Title entered: ChatGPT Image Jul 15, 2026, 06_47_54 PM
+2026-07-15 19:09:32,591 - INFO -     → Image uploaded: ChatGPT Image Jul 15, 2026, 06_47_54 PM_processed.jpg
+2026-07-15 19:09:32,717 - INFO -     → Publish Banner clicked
+2026-07-15 19:09:36,736 - INFO -   ✓ Banner published: ChatGPT Image Jul 15, 2026, 06_47_54 PM
+
+2026-07-15 19:09:37,739 - INFO - [2/4]
+2026-07-15 19:09:37,740 - INFO -   Publishing: [ChatGPT Image Jul 15, 2026, 06_52_53 PM]  (ChatGPT Image Jul 15, 2026, 06_52_53 PM_processed.jpg)
+2026-07-15 19:09:40,219 - INFO -     → Title entered: ChatGPT Image Jul 15, 2026, 06_52_53 PM
+2026-07-15 19:09:42,274 - INFO -     → Image uploaded: ChatGPT Image Jul 15, 2026, 06_52_53 PM_processed.jpg
+2026-07-15 19:09:42,475 - INFO -     → Publish Banner clicked
+2026-07-15 19:09:46,507 - INFO -   ✓ Banner published: ChatGPT Image Jul 15, 2026, 06_52_53 PM
+
+2026-07-15 19:09:47,508 - INFO - [3/4]
+2026-07-15 19:09:47,509 - INFO -   Publishing: [ChatGPT Image Jul 15, 2026, 07_01_48 PM]  (ChatGPT Image Jul 15, 2026, 07_01_48 PM_processed.jpg)
+2026-07-15 19:09:49,996 - INFO -     → Title entered: ChatGPT Image Jul 15, 2026, 07_01_48 PM
+2026-07-15 19:09:52,042 - INFO -     → Image uploaded: ChatGPT Image Jul 15, 2026, 07_01_48 PM_processed.jpg
+2026-07-15 19:09:52,513 - INFO -     → Publish Banner clicked
+2026-07-15 19:09:56,542 - INFO -   ✓ Banner published: ChatGPT Image Jul 15, 2026, 07_01_48 PM
+
+2026-07-15 19:09:57,546 - INFO - [4/4]
+2026-07-15 19:09:57,547 - INFO -   Publishing: [ChatGPT Image Jul 15, 2026, 07_04_03 PM]  (ChatGPT Image Jul 15, 2026, 07_04_03 PM_processed.jpg)
+2026-07-15 19:10:00,260 - INFO -     → Title entered: ChatGPT Image Jul 15, 2026, 07_04_03 PM
+2026-07-15 19:10:02,397 - INFO -     → Image uploaded: ChatGPT Image Jul 15, 2026, 07_04_03 PM_processed.jpg
+2026-07-15 19:10:02,600 - INFO -     → Publish Banner clicked
+2026-07-15 19:10:06,640 - INFO -   ✓ Banner published: ChatGPT Image Jul 15, 2026, 07_04_03 PM
+
+2026-07-15 19:10:07,642 - INFO - ============================================================
+2026-07-15 19:10:07,642 - INFO - Banners done  →  ✓ 4 published   ✗ 0 failed
+2026-07-15 19:10:10,085 - INFO - Browser closed
+2026-07-15 19:10:14,137 - INFO - 
+Task finished at 2026-07-15 19:10:14
+2026-07-15 19:10:14,137 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260715_190843.log
+

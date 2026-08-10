@@ -1,0 +1,20 @@
+2026-06-17 16:13:56,390 - INFO - User selected: Old Dashboard
+2026-06-17 16:14:11,724 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 16:14:11,742 - INFO - ====== WebDriver manager ======
+2026-06-17 16:14:14,201 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:14:14,716 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:14:15,688 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:14:15,689 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:14:16,844 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:14:23,405 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 16:14:25,405 - INFO -     → Filling credentials …
+2026-06-17 16:14:25,542 - INFO -       Email → field #login_txt_id
+2026-06-17 16:14:25,659 - INFO -       Password → field #login_txt_pass
+2026-06-17 16:14:25,825 - INFO -       Login button clicked: #btnVendor
+2026-06-17 16:14:25,826 - INFO -     → Waiting for post-login redirect …
+2026-06-17 16:15:28,440 - ERROR -   ✗ Login timed out — still on login page or unknown state
+2026-06-17 16:15:28,629 - INFO -   📸 Screenshot saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\screenshots\old_prod_login_timeout_20260617_161528.png
+2026-06-17 16:15:35,034 - INFO - 
+Task finished at 2026-06-17 16:15:35
+2026-06-17 16:15:35,035 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_161356.log
+

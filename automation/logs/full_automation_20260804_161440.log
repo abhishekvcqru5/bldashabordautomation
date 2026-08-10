@@ -1,0 +1,86 @@
+2026-08-04 16:15:00,437 - INFO - User selected: Brand Setting
+2026-08-04 16:15:29,123 - INFO -   Found logo asset: Logo.png
+2026-08-04 16:15:29,125 - INFO -   Found splash asset: splash.jpeg
+2026-08-04 16:15:29,125 - INFO - ============================================================
+2026-08-04 16:15:29,126 - INFO - BRAND SETTING — Image Processing
+2026-08-04 16:15:29,126 - INFO - ============================================================
+2026-08-04 16:15:29,214 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-08-04 16:15:29,465 - INFO - ✓ Logo  → logo_processed.png  |  167.1 KB  |  PNG lossless
+2026-08-04 16:15:29,569 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-08-04 16:15:29,572 - INFO - 
+2026-08-04 16:15:29,572 - INFO - Extracting brand colours from logo...
+2026-08-04 16:15:29,577 - INFO -   Colours extracted from logo:
+2026-08-04 16:15:29,578 - INFO -     Header Color     →  #50B040  (dominant logo colour)
+2026-08-04 16:15:29,578 - INFO -     Background Color →  #347229  (35% darker)
+2026-08-04 16:15:29,579 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-08-04 16:15:29,579 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-08-04 16:15:29,581 - INFO - ✓ Both images ready
+
+2026-08-04 16:15:29,583 - INFO - ============================================================
+2026-08-04 16:15:29,583 - INFO - BRAND SETTING — Browser Automation
+2026-08-04 16:15:29,584 - INFO - ============================================================
+2026-08-04 16:15:29,615 - INFO - ====== WebDriver manager ======
+2026-08-04 16:15:32,636 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:15:32,858 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:15:33,056 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-04 16:15:33,057 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-04 16:15:34,716 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-04 16:15:34,730 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-04 16:15:34,846 - INFO - ✓ Chrome driver initialized
+2026-08-04 16:15:34,856 - INFO - Opening login page...
+2026-08-04 16:15:36,774 - INFO -   → Policy checkbox checked on login page
+2026-08-04 16:15:36,993 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-04 16:15:37,046 - INFO -   → Policy agreement popup detected
+2026-08-04 16:15:37,146 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-04 16:15:37,701 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-04 16:15:43,029 - INFO -   → Navigating directly to App Settings URL...
+2026-08-04 16:15:43,034 - ERROR - Login failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x908f1e]
+	chromedriver!(No symbol) [0x9478e7]
+	chromedriver!(No symbol) [0x975526]
+	chromedriver!(No symbol) [0x970762]
+	chromedriver!(No symbol) [0x970141]
+	chromedriver!(No symbol) [0x8dc731]
+	chromedriver!(No symbol) [0x8dccd3]
+	chromedriver!(No symbol) [0x8dd18d]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!(No symbol) [0x8dc3e0]
+	chromedriver!(No symbol) [0x8dba92]
+	chromedriver!GetHandleVerifier [0xefec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:15:43,039 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x908f1e]
+	chromedriver!(No symbol) [0x9478e7]
+	chromedriver!(No symbol) [0x975526]
+	chromedriver!(No symbol) [0x970762]
+	chromedriver!(No symbol) [0x970141]
+	chromedriver!(No symbol) [0x8dc731]
+	chromedriver!(No symbol) [0x8dccd3]
+	chromedriver!(No symbol) [0x8dd18d]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!(No symbol) [0x8dc3e0]
+	chromedriver!(No symbol) [0x8dba92]
+	chromedriver!GetHandleVerifier [0xefec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:15:43,040 - ERROR - ✗ Login failed. Aborting.
+2026-08-04 16:15:45,076 - INFO - Automation cancelled by user (Ctrl+C)

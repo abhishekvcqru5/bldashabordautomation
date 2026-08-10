@@ -1,0 +1,122 @@
+2026-06-27 13:16:02,346 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-27 13:17:02,875 - INFO - Target User Types: ['User', 'Shop', 'Electrician', 'Contractor']
+2026-06-27 13:17:02,875 - INFO - Target Dashboard Icons: ['KYC']
+2026-06-27 13:17:02,893 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-27 13:17:02,894 - INFO - Output folder: automation\processed_images
+2026-06-27 13:17:02,894 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-27 13:17:02,959 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-27 13:17:03,011 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-27 13:17:03,018 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-27 13:17:03,063 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-27 13:17:03,097 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-27 13:17:03,129 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-27 13:17:03,154 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-27 13:17:03,173 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-27 13:17:03,208 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-27 13:17:03,235 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-27 13:17:03,265 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-27 13:17:03,307 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-27 13:17:03,334 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-27 13:17:03,360 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-27 13:17:03,361 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-27 13:17:03,381 - INFO - Generated 4 upload tasks for 4 user types.
+2026-06-27 13:17:03,381 - INFO - 
+============================================================
+2026-06-27 13:17:03,382 - INFO - Launching Browser and Starting Upload Process
+2026-06-27 13:17:03,382 - INFO - ============================================================
+2026-06-27 13:17:03,391 - INFO - ====== WebDriver manager ======
+2026-06-27 13:17:04,486 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-27 13:17:04,946 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-27 13:17:05,311 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-27 13:17:05,312 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-27 13:17:06,464 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-27 13:17:06,469 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-27 13:17:06,512 - INFO - ✓ Chrome driver initialized
+2026-06-27 13:17:06,513 - INFO - 
+→ Attempting login...
+
+2026-06-27 13:17:06,513 - INFO - Opening login page...
+2026-06-27 13:17:07,725 - INFO -   → Policy checkbox checked on login page
+2026-06-27 13:17:07,799 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-27 13:17:07,815 - INFO -   → Policy agreement popup detected
+2026-06-27 13:17:07,851 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-27 13:17:08,376 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-27 13:17:14,567 - INFO -   → Policy agreement popup detected
+2026-06-27 13:17:14,602 - INFO -     ✓ Policy checkbox was already checked
+2026-06-27 13:17:15,444 - INFO -     ✓ Clicked Continue button
+2026-06-27 13:17:15,552 - INFO -     ✓ Policy popup dismissed
+2026-06-27 13:17:16,560 - INFO - ✓ Login successful
+2026-06-27 13:17:18,561 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-27 13:17:18,562 - INFO - Navigating to App Settings...
+2026-06-27 13:17:24,883 - INFO - ✓ Dashboard Icons section loaded
+2026-06-27 13:17:26,884 - INFO - 
+→ Starting batch upload of 4 custom icons...
+
+2026-06-27 13:17:26,885 - INFO - Starting batch – 4 configured entries
+2026-06-27 13:17:26,886 - INFO - Total icons to upload after expansion: 4
+2026-06-27 13:17:26,888 - INFO - ============================================================
+2026-06-27 13:17:26,889 - INFO - [1/4]
+2026-06-27 13:17:26,890 - INFO -   Adding: [User] KYC  (kycdetails)
+2026-06-27 13:17:39,369 - INFO -     → User type selected by text: Select User
+2026-06-27 13:17:39,440 - INFO -     → Icon identity: kycdetails
+2026-06-27 13:17:39,529 - INFO -     → Display title: KYC
+2026-06-27 13:17:39,940 - INFO -     → Icon color: #F85808
+2026-06-27 13:17:39,964 - INFO -     → Toggle: side menu
+2026-06-27 13:17:42,004 - INFO -     → Image uploaded: KYC.png
+2026-06-27 13:17:42,084 - INFO -     → Form submitted
+2026-06-27 13:17:52,976 - INFO -   ✓ Icon added: KYC
+
+2026-06-27 13:17:53,977 - INFO - [2/4]
+2026-06-27 13:17:53,977 - INFO -   Adding: [Shop] KYC  (kycdetails)
+2026-06-27 13:18:06,698 - INFO -     → User type selected by text: Shop
+2026-06-27 13:18:06,744 - INFO -     → Icon identity: kycdetails
+2026-06-27 13:18:06,822 - INFO -     → Display title: KYC
+2026-06-27 13:18:07,273 - INFO -     → Icon color: #F85808
+2026-06-27 13:18:07,291 - INFO -     → Toggle: side menu
+2026-06-27 13:18:09,330 - INFO -     → Image uploaded: KYC.png
+2026-06-27 13:18:09,425 - INFO -     → Form submitted
+2026-06-27 13:18:20,235 - INFO -   ✓ Icon added: KYC
+
+2026-06-27 13:18:21,236 - INFO - [3/4]
+2026-06-27 13:18:21,237 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-06-27 13:18:33,799 - INFO -     → User type selected by text: Electrician
+2026-06-27 13:18:33,853 - INFO -     → Icon identity: kycdetails
+2026-06-27 13:18:33,943 - INFO -     → Display title: KYC
+2026-06-27 13:18:34,363 - INFO -     → Icon color: #F85808
+2026-06-27 13:18:34,392 - INFO -     → Toggle: side menu
+2026-06-27 13:18:36,426 - INFO -     → Image uploaded: KYC.png
+2026-06-27 13:18:36,499 - INFO -     → Form submitted
+2026-06-27 13:18:47,211 - INFO -   ✓ Icon added: KYC
+
+2026-06-27 13:18:48,212 - INFO - [4/4]
+2026-06-27 13:18:48,213 - INFO -   Adding: [Contractor] KYC  (kycdetails)
+2026-06-27 13:19:00,840 - INFO -     → User type selected by text: Contractor
+2026-06-27 13:19:00,910 - INFO -     → Icon identity: kycdetails
+2026-06-27 13:19:01,025 - INFO -     → Display title: KYC
+2026-06-27 13:19:01,564 - INFO -     → Icon color: #F85808
+2026-06-27 13:19:01,637 - INFO -     → Toggle: side menu
+2026-06-27 13:19:03,700 - INFO -     → Image uploaded: KYC.png
+2026-06-27 13:19:03,777 - INFO -     → Form submitted
+2026-06-27 13:19:14,314 - INFO -   ✓ Icon added: KYC
+
+2026-06-27 13:19:15,316 - INFO - ============================================================
+2026-06-27 13:19:15,317 - INFO - Batch complete → ✓ 4 succeeded  ✗ 0 failed
+2026-06-27 13:19:15,317 - INFO - 
+============================================================
+2026-06-27 13:19:15,318 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-27 13:19:15,318 - INFO - ============================================================
+2026-06-27 13:19:15,318 - INFO - ✓ Successful uploads: 4
+2026-06-27 13:19:15,319 - INFO - ✗ Failed uploads: 0
+2026-06-27 13:19:15,319 - INFO - Total processed: 4
+2026-06-27 13:19:15,319 - INFO - Success rate: 100.0%
+2026-06-27 13:19:15,323 - INFO - ============================================================
+2026-06-27 13:19:17,769 - INFO - Browser closed
+2026-06-27 13:19:21,824 - INFO - 
+Task finished at 2026-06-27 13:19:21
+2026-06-27 13:19:21,826 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260627_131542.log
+

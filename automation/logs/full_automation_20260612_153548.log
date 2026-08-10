@@ -1,0 +1,283 @@
+2026-06-12 15:36:26,001 - INFO - User selected: Old Dashboard
+2026-06-12 15:36:27,536 - INFO -   Old Dashboard → Brand Setting
+2026-06-12 15:36:27,537 - INFO - ============================================================
+2026-06-12 15:36:27,537 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-12 15:36:27,537 - INFO - ============================================================
+2026-06-12 15:36:27,560 - INFO - ====== WebDriver manager ======
+2026-06-12 15:36:29,473 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:36:30,160 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:36:31,445 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 15:36:31,447 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 15:36:34,260 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-06-12 15:36:34,261 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-12 15:36:41,500 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-12 15:36:43,501 - INFO -     → Filling credentials …
+2026-06-12 15:36:44,096 - INFO -       Email → field #login_txt_id
+2026-06-12 15:36:44,368 - INFO -       Password → field #login_txt_pass
+2026-06-12 15:36:44,591 - INFO -       Login button clicked: #btnVendor
+2026-06-12 15:36:44,591 - INFO -     → Waiting for post-login redirect …
+2026-06-12 15:36:52,021 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 15:36:52,023 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-06-12 15:37:06,414 - INFO - 
+[3/4] Extracting brand data …
+2026-06-12 15:37:06,716 - INFO - 
+[4/4] Saving assets to disk …
+2026-06-12 15:37:07,873 - INFO -   ✓ Downloaded: logo.png  (21.4 KB)
+2026-06-12 15:37:09,396 - INFO -   ✓ Downloaded: splash.png  (121.6 KB)
+2026-06-12 15:37:09,403 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-06-12 15:37:12,967 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-06-12 15:37:13,007 - INFO - ====== WebDriver manager ======
+2026-06-12 15:37:20,918 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:37:21,956 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:37:23,155 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 15:37:23,156 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 15:37:25,128 - INFO - ✓ Chrome driver initialized
+2026-06-12 15:37:25,134 - INFO - Opening login page...
+2026-06-12 15:37:27,166 - INFO -   → Policy checkbox checked on login page
+2026-06-12 15:37:27,397 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-12 15:37:33,908 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-12 15:37:33,998 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-12 15:37:34,169 - INFO - ✓ Login successful
+2026-06-12 15:37:34,332 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-06-12 15:37:34,538 - INFO - ✓ Logo  → logo_processed.png  |  59.8 KB  |  PNG lossless
+2026-06-12 15:37:34,744 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-12 15:37:36,383 - INFO - ✓ Splash → splash_processed.png  |  0.68 MB  |  PNG lossless
+2026-06-12 15:37:36,562 - INFO -   No saturated colour found — using darkest neutral tone
+2026-06-12 15:37:36,810 - INFO -   Colours extracted from logo:
+2026-06-12 15:37:36,811 - INFO -     Header Color     →  #0C0C0D  (dominant logo colour)
+2026-06-12 15:37:36,812 - INFO -     Background Color →  #070708  (35% darker)
+2026-06-12 15:37:36,812 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-12 15:37:36,813 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-12 15:37:36,843 - INFO - Going to App Settings...
+2026-06-12 15:37:43,580 - INFO -   → Identity & Branding section opened
+2026-06-12 15:37:45,814 - INFO -   → Edit Branding popup opened
+2026-06-12 15:37:45,864 - INFO - ✓ Brand setting form is ready
+2026-06-12 15:37:45,865 - INFO -   Setting company name: ROCIO
+2026-06-12 15:37:47,259 - INFO -     → HeaderColor: #0C0C0D
+2026-06-12 15:37:48,343 - INFO -     → FooterColor: #F5F5F5
+2026-06-12 15:37:49,354 - INFO -     → BodyColor: #FFFFFF
+2026-06-12 15:37:50,306 - INFO -     → BackgroundColor: #070708
+2026-06-12 15:37:52,394 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-06-12 15:37:54,440 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-12 15:37:54,728 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-12 15:37:57,765 - INFO - ✓ Brand settings saved successfully!
+2026-06-12 15:37:57,766 - INFO - Going to App Settings for Support Network...
+2026-06-12 15:38:00,887 - INFO -   → Support Network section opened
+2026-06-12 15:38:03,980 - INFO -   → Edit Support Network popup opened
+2026-06-12 15:38:05,982 - INFO - ✓ Support Network form is ready
+2026-06-12 15:38:06,400 - INFO -     ✓ phone filled
+2026-06-12 15:38:06,829 - INFO -     ✓ email filled
+2026-06-12 15:38:07,332 - INFO -     ✓ website filled
+2026-06-12 15:38:08,242 - INFO -     ✓ terms_conditions filled
+2026-06-12 15:38:10,363 - INFO -     ✓ support_content filled
+2026-06-12 15:38:10,364 - INFO -     ⏭ Skipping empty field: privacy_policy
+2026-06-12 15:38:11,846 - INFO -   → Save clicked
+2026-06-12 15:38:14,847 - INFO - ✓ Support Network saved successfully!
+2026-06-12 15:38:19,490 - INFO - Browser closed
+2026-06-12 15:38:23,582 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63450): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/e602b054b91dc461a5da01be3a005bbc
+2026-06-12 15:38:27,676 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63450): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/e602b054b91dc461a5da01be3a005bbc
+2026-06-12 15:38:31,749 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63450): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/e602b054b91dc461a5da01be3a005bbc
+2026-06-12 15:38:39,932 - INFO -   Browser closed
+2026-06-12 15:38:39,932 - INFO - 
+Task finished at 2026-06-12 15:38:39
+2026-06-12 15:38:39,932 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260612_153548.log
+
+2026-06-12 15:38:52,829 - INFO - User selected: Old Dashboard
+2026-06-12 15:38:55,174 - INFO -   Old Dashboard → Introduction Setting
+2026-06-12 15:38:55,181 - INFO - ============================================================
+2026-06-12 15:38:55,196 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-06-12 15:38:55,223 - INFO - ============================================================
+2026-06-12 15:38:55,281 - INFO - ====== WebDriver manager ======
+2026-06-12 15:38:59,211 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:39:08,522 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:39:10,091 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 15:39:10,110 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 15:39:13,275 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-12 15:39:17,716 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-12 15:39:19,320 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-12 15:39:22,321 - INFO -   → Filling Vendor credentials...
+2026-06-12 15:39:22,990 - INFO -     - Email entered: rociofaucets@gmail.com
+2026-06-12 15:39:22,991 - INFO -     - Clicking 'login' button...
+2026-06-12 15:39:23,199 - INFO -   → Waiting for successful login redirect...
+2026-06-12 15:40:09,987 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 15:40:10,516 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 15:40:18,491 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-12 15:40:19,228 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-12 15:40:23,614 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-06-12 15:40:35,625 - INFO -   → Searching for introduction screens data...
+2026-06-12 15:40:38,044 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-06-12 15:40:40,026 - INFO -     → Found 2 potential rows to extract
+2026-06-12 15:40:43,158 - INFO -     → Downloading image for: Join Now and Unlock Exclusive ...
+2026-06-12 15:40:46,826 - INFO -     ✓ Extracted 1/2
+2026-06-12 15:40:49,218 - INFO -     → Downloading image for: Get the Latest Offers and Loya...
+2026-06-12 15:40:51,892 - INFO -     ✓ Extracted 2/2
+2026-06-12 15:41:45,714 - INFO - ✓ Extracted 2 screens.
+2026-06-12 15:41:45,715 - INFO - 
+============================================================
+2026-06-12 15:41:45,716 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-06-12 15:41:45,716 - INFO - ============================================================
+2026-06-12 15:41:45,816 - INFO -   ⚙ Processing old_intro_1_20260612_154043.jpg  (360×799 → need 1080×1920)
+2026-06-12 15:41:46,163 - INFO -   ✓ old_intro_1_20260612_154043.jpg  →  old_intro_1_20260612_154043_processed.jpg  |  1080×1920  |  0.17 MB  |  quality 92
+2026-06-12 15:41:46,242 - INFO -   ⚙ Processing old_intro_2_20260612_154049.jpg  (360×799 → need 1080×1920)
+2026-06-12 15:41:46,410 - INFO -   ✓ old_intro_2_20260612_154049.jpg  →  old_intro_2_20260612_154049_processed.jpg  |  1080×1920  |  0.19 MB  |  quality 92
+2026-06-12 15:41:46,458 - INFO - 
+============================================================
+2026-06-12 15:41:46,499 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-06-12 15:41:46,539 - INFO - ============================================================
+2026-06-12 15:41:46,839 - INFO - ====== WebDriver manager ======
+2026-06-12 15:41:52,235 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:41:53,269 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:41:54,119 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 15:41:54,123 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 15:42:01,790 - INFO - ✓ Chrome driver initialized
+2026-06-12 15:42:01,795 - INFO - Opening login page...
+2026-06-12 15:42:07,461 - INFO -   → Policy checkbox checked on login page
+2026-06-12 15:42:07,682 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-12 15:42:16,345 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-12 15:42:16,750 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-12 15:42:16,896 - INFO - ✓ Login successful
+2026-06-12 15:42:16,923 - INFO - Going to App Settings...
+2026-06-12 15:42:25,258 - INFO -   → Intro Screens section opened
+2026-06-12 15:42:25,289 - INFO - ✓ Intro Screens page ready
+2026-06-12 15:42:25,291 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-06-12 15:42:25,292 - INFO - ============================================================
+2026-06-12 15:42:25,293 - INFO - [1/2]
+2026-06-12 15:42:25,294 - INFO -   Launching screen: [Join Now and Unlock Exclusive Loyalty Rewards]
+2026-06-12 15:42:28,299 - INFO -     → Header: Join Now and Unlock Exclusive Loyalty Rewards
+2026-06-12 15:42:29,576 - INFO -     → Description: Sign up now and start earning exciting loyalty rewards with ...
+2026-06-12 15:42:31,707 - INFO -     → Image uploaded: old_intro_1_20260612_154043_processed.jpg
+2026-06-12 15:42:32,410 - INFO -     → Launch Screen clicked
+2026-06-12 15:42:36,448 - INFO -   ✓ Intro screen launched: Join Now and Unlock Exclusive Loyalty Rewards
+
+2026-06-12 15:42:37,456 - INFO - [2/2]
+2026-06-12 15:42:37,465 - INFO -   Launching screen: [Get the Latest Offers and Loyalty Updates with Not]
+2026-06-12 15:42:44,177 - INFO -     → Header: Get the Latest Offers and Loyalty Updates with Notifications!
+2026-06-12 15:42:46,579 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes throug...
+2026-06-12 15:42:48,748 - INFO -     → Image uploaded: old_intro_2_20260612_154049_processed.jpg
+2026-06-12 15:42:50,686 - INFO -     → Launch Screen clicked
+2026-06-12 15:42:55,107 - INFO -   ✓ Intro screen launched: Get the Latest Offers and Loyalty Updates with Notifications!
+
+2026-06-12 15:42:57,067 - INFO - ============================================================
+2026-06-12 15:42:57,672 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-06-12 15:43:40,059 - INFO - Browser closed
+2026-06-12 15:43:48,488 - INFO - 
+Task finished at 2026-06-12 15:43:48
+2026-06-12 15:43:48,492 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260612_153548.log
+
+2026-06-12 15:46:10,238 - INFO - User selected: Old Dashboard
+2026-06-12 15:46:12,709 - INFO -   Old Dashboard → Banner BL
+2026-06-12 15:46:12,734 - INFO - ============================================================
+2026-06-12 15:46:12,744 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-06-12 15:46:12,745 - INFO - ============================================================
+2026-06-12 15:46:12,909 - INFO - ====== WebDriver manager ======
+2026-06-12 15:46:18,638 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:46:19,798 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:46:20,673 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 15:46:20,678 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 15:46:26,222 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-12 15:46:30,570 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-12 15:46:31,525 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-12 15:46:34,530 - INFO -   → Filling Vendor credentials...
+2026-06-12 15:46:36,269 - INFO -     - Email entered: rociofaucets@gmail.com
+2026-06-12 15:46:36,270 - INFO -     - Clicking 'login' button...
+2026-06-12 15:46:36,837 - INFO -   → Waiting for successful login redirect...
+2026-06-12 15:46:44,904 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 15:46:44,953 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-12 15:46:50,482 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-12 15:46:50,751 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-12 15:46:54,012 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-06-12 15:47:01,958 - INFO -   → Searching for banner images data...
+2026-06-12 15:47:02,422 - INFO -     ✓ Found 7 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-06-12 15:47:02,434 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruVcqruSingle%20Lever%20Basin%20Mixer%20-%20ROCIO.png
+2026-06-12 15:47:05,314 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruVcqrurocio%20faucets%20pvt%20ltd.png
+2026-06-12 15:47:07,734 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/VcqruVcqruROCIO%20DEALER%20MEET%202024.png
+2026-06-12 15:47:09,215 - INFO -     → Downloading banner 4: https://www.vcqru.com/assets/images/VcqruVcqrurocio%20banner%202.jpg
+2026-06-12 15:47:10,677 - INFO -     → Downloading banner 5: https://www.vcqru.com/assets/images/VcqruVcqruCongratulations.png
+2026-06-12 15:47:12,380 - INFO -     → Downloading banner 6: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner-Hindi.png
+2026-06-12 15:47:13,954 - INFO -     → Downloading banner 7: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner%20copy.png
+2026-06-12 15:47:26,762 - INFO - ✓ Extracted 7 banners.
+2026-06-12 15:47:26,770 - INFO - 
+============================================================
+2026-06-12 15:47:26,772 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-06-12 15:47:26,773 - INFO - ============================================================
+2026-06-12 15:47:26,835 - INFO -   ⚙ Processing old_banner_1_20260612_154702.jpg  (size 1587×1073 → need 1920×1080)
+2026-06-12 15:47:27,150 - INFO -   ✓ old_banner_1_20260612_154702.jpg  →  old_banner_1_20260612_154702_processed.jpg  |  1920×1080  |  0.33 MB  |  quality 92
+2026-06-12 15:47:27,178 - INFO -   ⚙ Processing old_banner_2_20260612_154705.jpg  (size 1366×768 → need 1920×1080)
+2026-06-12 15:47:27,389 - INFO -   ✓ old_banner_2_20260612_154705.jpg  →  old_banner_2_20260612_154705_processed.jpg  |  1920×1080  |  0.30 MB  |  quality 92
+2026-06-12 15:47:27,416 - INFO -   ⚙ Processing old_banner_3_20260612_154707.jpg  (size 600×300 → need 1920×1080)
+2026-06-12 15:47:27,521 - INFO -   ✓ old_banner_3_20260612_154707.jpg  →  old_banner_3_20260612_154707_processed.jpg  |  1920×1080  |  0.12 MB  |  quality 92
+2026-06-12 15:47:27,655 - INFO -   ⚙ Processing old_banner_4_20260612_154709.jpg  (size 640×360 → need 1920×1080)
+2026-06-12 15:47:27,790 - INFO -   ✓ old_banner_4_20260612_154709.jpg  →  old_banner_4_20260612_154709_processed.jpg  |  1920×1080  |  0.30 MB  |  quality 92
+2026-06-12 15:47:27,844 - INFO -   ⚙ Processing old_banner_5_20260612_154710.jpg  (size 940×788 → need 1920×1080)
+2026-06-12 15:47:28,063 - INFO -   ✓ old_banner_5_20260612_154710.jpg  →  old_banner_5_20260612_154710_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-06-12 15:47:30,284 - INFO -   ⚙ Processing old_banner_6_20260612_154712.jpg  (Cannot read: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_6_20260612_154712.jpg')
+2026-06-12 15:47:30,288 - ERROR -   Processing error for old_banner_6_20260612_154712.jpg: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_6_20260612_154712.jpg'
+2026-06-12 15:47:30,640 - INFO -   ⚙ Processing old_banner_7_20260612_154713.jpg  (Cannot read: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_7_20260612_154713.jpg')
+2026-06-12 15:47:30,641 - ERROR -   Processing error for old_banner_7_20260612_154713.jpg: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_7_20260612_154713.jpg'
+2026-06-12 15:47:30,642 - INFO - 
+============================================================
+2026-06-12 15:47:30,643 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-06-12 15:47:30,643 - INFO - ============================================================
+2026-06-12 15:47:30,696 - INFO - ====== WebDriver manager ======
+2026-06-12 15:47:33,892 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:47:34,885 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-12 15:47:35,827 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-12 15:47:35,831 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-12 15:47:39,001 - INFO - ✓ Chrome driver initialized
+2026-06-12 15:47:39,005 - INFO - Opening login page...
+2026-06-12 15:47:41,764 - INFO -   → Policy checkbox checked on login page
+2026-06-12 15:47:42,116 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-12 15:47:48,944 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-12 15:47:49,056 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-12 15:47:49,307 - INFO - ✓ Login successful
+2026-06-12 15:47:49,310 - INFO - Going to App Settings...
+2026-06-12 15:47:56,014 - INFO -   → Promotion Banners section opened
+2026-06-12 15:47:56,082 - INFO - ✓ Promotion Banners page ready
+2026-06-12 15:47:56,083 - INFO - Starting batch  —  5 banner(s) to publish
+2026-06-12 15:47:56,084 - INFO - ============================================================
+2026-06-12 15:47:56,084 - INFO - [1/5]
+2026-06-12 15:47:56,089 - INFO -   Publishing: [old_banner_1]  (old_banner_1_20260612_154702_processed.jpg)
+2026-06-12 15:47:58,856 - INFO -     → Title entered: old_banner_1
+2026-06-12 15:48:00,995 - INFO -     → Image uploaded: old_banner_1_20260612_154702_processed.jpg
+2026-06-12 15:48:01,815 - INFO -     → Publish Banner clicked
+2026-06-12 15:48:05,847 - INFO -   ✓ Banner published: old_banner_1
+
+2026-06-12 15:48:06,851 - INFO - [2/5]
+2026-06-12 15:48:06,854 - INFO -   Publishing: [old_banner_2]  (old_banner_2_20260612_154705_processed.jpg)
+2026-06-12 15:48:10,629 - INFO -     → Title entered: old_banner_2
+2026-06-12 15:48:13,161 - INFO -     → Image uploaded: old_banner_2_20260612_154705_processed.jpg
+2026-06-12 15:48:13,572 - INFO -     → Publish Banner clicked
+2026-06-12 15:48:17,647 - INFO -   ✓ Banner published: old_banner_2
+
+2026-06-12 15:48:18,710 - INFO - [3/5]
+2026-06-12 15:48:18,716 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260612_154707_processed.jpg)
+2026-06-12 15:48:21,975 - INFO -     → Title entered: old_banner_3
+2026-06-12 15:48:24,084 - INFO -     → Image uploaded: old_banner_3_20260612_154707_processed.jpg
+2026-06-12 15:48:24,478 - INFO -     → Publish Banner clicked
+2026-06-12 15:48:28,863 - INFO -   ✓ Banner published: old_banner_3
+
+2026-06-12 15:48:30,311 - INFO - [4/5]
+2026-06-12 15:48:30,365 - INFO -   Publishing: [old_banner_4]  (old_banner_4_20260612_154709_processed.jpg)
+2026-06-12 15:48:36,798 - INFO -     → Title entered: old_banner_4
+2026-06-12 15:48:43,893 - INFO -     → Image uploaded: old_banner_4_20260612_154709_processed.jpg
+2026-06-12 15:48:47,315 - INFO -     → Publish Banner clicked
+2026-06-12 15:48:51,580 - INFO -   ✓ Banner published: old_banner_4
+
+2026-06-12 15:48:52,581 - INFO - [5/5]
+2026-06-12 15:48:52,582 - INFO -   Publishing: [old_banner_5]  (old_banner_5_20260612_154710_processed.jpg)
+2026-06-12 15:48:55,211 - INFO -     → Title entered: old_banner_5
+2026-06-12 15:48:57,312 - INFO -     → Image uploaded: old_banner_5_20260612_154710_processed.jpg
+2026-06-12 15:48:58,447 - INFO -     → Publish Banner clicked
+2026-06-12 15:49:02,482 - INFO -   ✓ Banner published: old_banner_5
+
+2026-06-12 15:49:03,483 - INFO - ============================================================
+2026-06-12 15:49:03,484 - INFO - Banners done  →  ✓ 5 published   ✗ 0 failed
+2026-06-12 15:49:06,201 - INFO - Browser closed
+2026-06-12 15:49:14,356 - INFO - 
+Task finished at 2026-06-12 15:49:14
+2026-06-12 15:49:14,357 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260612_153548.log
+
+2026-06-12 15:49:22,847 - INFO - User selected: Old Dashboard

@@ -1,0 +1,78 @@
+2026-06-24 19:47:18,737 - INFO - User selected: Promotion Banners
+2026-06-24 19:47:18,738 - INFO - ============================================================
+2026-06-24 19:47:18,738 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-24 19:47:18,738 - INFO - ============================================================
+2026-06-24 19:47:18,739 - INFO - Found 4 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-24 19:47:18,785 - INFO -   ⚙ Processing 48a0b502-eb34-4ebd-a1ca-fe1bd86fe006.png  (size 2022×778 → need 1920×1080)
+2026-06-24 19:47:18,885 - INFO -   ✓ 48a0b502-eb34-4ebd-a1ca-fe1bd86fe006.png  →  48a0b502-eb34-4ebd-a1ca-fe1bd86fe006_processed.jpg  |  1920×1080  |  0.40 MB  |  quality 92
+2026-06-24 19:47:18,896 - INFO -   ⚙ Processing 636d2b2d-47bd-4c50-b9d5-88394099e163.png  (size 2029×775 → need 1920×1080)
+2026-06-24 19:47:18,972 - INFO -   ✓ 636d2b2d-47bd-4c50-b9d5-88394099e163.png  →  636d2b2d-47bd-4c50-b9d5-88394099e163_processed.jpg  |  1920×1080  |  0.33 MB  |  quality 92
+2026-06-24 19:47:18,983 - INFO -   ⚙ Processing ChatGPT Image Jun 24, 2026, 07_34_38 PM.png  (size 2023×777 → need 1920×1080)
+2026-06-24 19:47:19,067 - INFO -   ✓ ChatGPT Image Jun 24, 2026, 07_34_38 PM.png  →  ChatGPT Image Jun 24, 2026, 07_34_38 PM_processed.jpg  |  1920×1080  |  0.44 MB  |  quality 92
+2026-06-24 19:47:19,079 - INFO -   ⚙ Processing ChatGPT Image Jun 24, 2026, 07_36_53 PM.png  (size 2023×777 → need 1920×1080)
+2026-06-24 19:47:19,160 - INFO -   ✓ ChatGPT Image Jun 24, 2026, 07_36_53 PM.png  →  ChatGPT Image Jun 24, 2026, 07_36_53 PM_processed.jpg  |  1920×1080  |  0.42 MB  |  quality 92
+2026-06-24 19:47:19,161 - INFO - 
+  Processed 4/4 banners successfully
+
+2026-06-24 19:47:19,163 - INFO - ============================================================
+2026-06-24 19:47:19,163 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-24 19:47:19,163 - INFO - ============================================================
+2026-06-24 19:47:19,170 - INFO - ====== WebDriver manager ======
+2026-06-24 19:47:20,324 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 19:47:20,855 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-24 19:47:21,203 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-24 19:47:21,204 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-24 19:47:23,067 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-24 19:47:23,071 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-24 19:47:23,111 - INFO - ✓ Chrome driver initialized
+2026-06-24 19:47:23,111 - INFO - Opening login page...
+2026-06-24 19:47:24,294 - INFO -   → Policy checkbox checked on login page
+2026-06-24 19:47:24,369 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-24 19:47:24,384 - INFO -   → Policy agreement popup detected
+2026-06-24 19:47:24,423 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-24 19:47:24,947 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-24 19:47:36,258 - INFO - ✓ Login successful
+2026-06-24 19:47:38,259 - INFO - Going to App Settings...
+2026-06-24 19:47:44,621 - INFO -   → Promotion Banners section opened
+2026-06-24 19:47:44,645 - INFO - ✓ Promotion Banners page ready
+2026-06-24 19:47:44,645 - INFO - Starting batch  —  4 banner(s) to publish
+2026-06-24 19:47:44,646 - INFO - ============================================================
+2026-06-24 19:47:44,646 - INFO - [1/4]
+2026-06-24 19:47:44,646 - INFO -   Publishing: [48a0b502-eb34-4ebd-a1ca-fe1bd86fe006]  (48a0b502-eb34-4ebd-a1ca-fe1bd86fe006_processed.jpg)
+2026-06-24 19:47:46,902 - INFO -     → Title entered: 48a0b502-eb34-4ebd-a1ca-fe1bd86fe006
+2026-06-24 19:47:48,935 - INFO -     → Image uploaded: 48a0b502-eb34-4ebd-a1ca-fe1bd86fe006_processed.jpg
+2026-06-24 19:47:49,041 - INFO -     → Publish Banner clicked
+2026-06-24 19:47:53,053 - INFO -   ✓ Banner published: 48a0b502-eb34-4ebd-a1ca-fe1bd86fe006
+
+2026-06-24 19:47:54,055 - INFO - [2/4]
+2026-06-24 19:47:54,055 - INFO -   Publishing: [636d2b2d-47bd-4c50-b9d5-88394099e163]  (636d2b2d-47bd-4c50-b9d5-88394099e163_processed.jpg)
+2026-06-24 19:47:56,291 - INFO -     → Title entered: 636d2b2d-47bd-4c50-b9d5-88394099e163
+2026-06-24 19:47:58,313 - INFO -     → Image uploaded: 636d2b2d-47bd-4c50-b9d5-88394099e163_processed.jpg
+2026-06-24 19:47:58,401 - INFO -     → Publish Banner clicked
+2026-06-24 19:48:02,422 - INFO -   ✓ Banner published: 636d2b2d-47bd-4c50-b9d5-88394099e163
+
+2026-06-24 19:48:03,423 - INFO - [3/4]
+2026-06-24 19:48:03,424 - INFO -   Publishing: [ChatGPT Image Jun 24, 2026, 07_34_38 PM]  (ChatGPT Image Jun 24, 2026, 07_34_38 PM_processed.jpg)
+2026-06-24 19:48:05,644 - INFO -     → Title entered: ChatGPT Image Jun 24, 2026, 07_34_38 PM
+2026-06-24 19:48:07,664 - INFO -     → Image uploaded: ChatGPT Image Jun 24, 2026, 07_34_38 PM_processed.jpg
+2026-06-24 19:48:07,735 - INFO -     → Publish Banner clicked
+2026-06-24 19:48:11,754 - INFO -   ✓ Banner published: ChatGPT Image Jun 24, 2026, 07_34_38 PM
+
+2026-06-24 19:48:12,755 - INFO - [4/4]
+2026-06-24 19:48:12,756 - INFO -   Publishing: [ChatGPT Image Jun 24, 2026, 07_36_53 PM]  (ChatGPT Image Jun 24, 2026, 07_36_53 PM_processed.jpg)
+2026-06-24 19:48:14,982 - INFO -     → Title entered: ChatGPT Image Jun 24, 2026, 07_36_53 PM
+2026-06-24 19:48:17,009 - INFO -     → Image uploaded: ChatGPT Image Jun 24, 2026, 07_36_53 PM_processed.jpg
+2026-06-24 19:48:17,084 - INFO -     → Publish Banner clicked
+2026-06-24 19:48:21,103 - INFO -   ✓ Banner published: ChatGPT Image Jun 24, 2026, 07_36_53 PM
+
+2026-06-24 19:48:22,104 - INFO - ============================================================
+2026-06-24 19:48:22,105 - INFO - Banners done  →  ✓ 4 published   ✗ 0 failed
+2026-06-24 19:48:24,371 - INFO - Browser closed
+2026-06-24 19:48:28,463 - INFO - 
+Task finished at 2026-06-24 19:48:28
+2026-06-24 19:48:28,464 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260624_194429.log
+
+2026-06-24 19:49:01,037 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-24 19:49:46,850 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-24 19:49:48,500 - INFO - Found 42 credential sets (fully populated) in Google Sheet.
+2026-06-24 19:49:55,591 - INFO - Automation cancelled by user (Ctrl+C)

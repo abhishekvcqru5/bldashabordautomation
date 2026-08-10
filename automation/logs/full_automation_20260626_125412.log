@@ -1,0 +1,155 @@
+2026-06-26 12:54:52,500 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-26 12:54:52,502 - INFO - ============================================================
+2026-06-26 12:54:52,502 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-26 12:54:52,504 - INFO - ============================================================
+2026-06-26 12:54:52,537 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-26 12:54:52,542 - INFO - Output folder: automation\processed_images
+2026-06-26 12:54:52,543 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-26 12:54:52,948 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-26 12:54:53,095 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-26 12:54:53,144 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-26 12:54:53,291 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-26 12:54:53,538 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-26 12:54:53,636 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-26 12:54:53,739 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-26 12:54:53,787 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-26 12:54:53,912 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-26 12:54:54,016 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-26 12:54:54,155 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-26 12:54:54,368 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-26 12:54:54,435 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-26 12:54:54,498 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-26 12:54:54,499 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-26 12:54:54,500 - INFO - ✓ 13 images processed successfully.
+
+2026-06-26 12:55:42,844 - INFO - Target User Type: Plumber
+2026-06-26 12:55:42,875 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-26 12:55:42,875 - INFO -   → Extracted Title: Activity
+2026-06-26 12:55:42,876 - INFO -   → Matched Identity: claimhistory
+2026-06-26 12:55:42,876 - INFO -   → Extracted Color: #F86008
+2026-06-26 12:55:42,876 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:42,934 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-26 12:55:42,934 - INFO -   → Extracted Title: ecommerce
+2026-06-26 12:55:42,934 - INFO -   → Matched Identity: gift
+2026-06-26 12:55:42,934 - INFO -   → Extracted Color: #A0E0F8
+2026-06-26 12:55:42,935 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:42,963 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-26 12:55:42,963 - INFO -   → Extracted Title: KYC
+2026-06-26 12:55:42,963 - INFO -   → Matched Identity: kycdetails
+2026-06-26 12:55:42,963 - INFO -   → Extracted Color: #F85808
+2026-06-26 12:55:42,963 - INFO -   → Toggle Option: side menu
+2026-06-26 12:55:42,989 - INFO - Dynamically mapped image 'Language.png':
+2026-06-26 12:55:42,991 - INFO -   → Extracted Title: Language
+2026-06-26 12:55:42,992 - INFO -   → Matched Identity: chooselanguage
+2026-06-26 12:55:42,992 - INFO -   → Extracted Color: #5010E8
+2026-06-26 12:55:42,992 - INFO -   → Toggle Option: side menu
+2026-06-26 12:55:43,017 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-26 12:55:43,017 - INFO -   → Extracted Title: My Wallet
+2026-06-26 12:55:43,018 - INFO -   → Matched Identity: wallet
+2026-06-26 12:55:43,018 - INFO -   → Extracted Color: #20A020
+2026-06-26 12:55:43,018 - INFO -   → Toggle Option: both
+2026-06-26 12:55:43,044 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-26 12:55:43,044 - INFO -   → Extracted Title: Product Catalog
+2026-06-26 12:55:43,044 - INFO -   → Matched Identity: productcatalogue
+2026-06-26 12:55:43,045 - INFO -   → Extracted Color: #6028E8
+2026-06-26 12:55:43,045 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:43,081 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-26 12:55:43,082 - INFO -   → Extracted Title: Prospectus
+2026-06-26 12:55:43,082 - INFO -   → Matched Identity: brochure
+2026-06-26 12:55:43,082 - INFO -   → Extracted Color: #0848F8
+2026-06-26 12:55:43,083 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:43,110 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-26 12:55:43,111 - INFO -   → Extracted Title: Refer & Earn
+2026-06-26 12:55:43,111 - INFO -   → Matched Identity: referandearn
+2026-06-26 12:55:43,111 - INFO -   → Extracted Color: #089098
+2026-06-26 12:55:43,111 - INFO -   → Toggle Option: both
+2026-06-26 12:55:43,134 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-26 12:55:43,135 - INFO -   → Extracted Title: Rewards
+2026-06-26 12:55:43,135 - INFO -   → Matched Identity: gift
+2026-06-26 12:55:43,135 - INFO -   → Extracted Color: #F00048
+2026-06-26 12:55:43,135 - INFO -   → Toggle Option: both
+2026-06-26 12:55:43,163 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-26 12:55:43,163 - INFO -   → Extracted Title: Scan Activity
+2026-06-26 12:55:43,163 - INFO -   → Matched Identity: codedetails
+2026-06-26 12:55:43,164 - INFO -   → Extracted Color: #10A010
+2026-06-26 12:55:43,164 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:43,196 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-26 12:55:43,196 - INFO -   → Extracted Title: Scan History
+2026-06-26 12:55:43,197 - INFO -   → Matched Identity: history
+2026-06-26 12:55:43,197 - INFO -   → Extracted Color: #4808F0
+2026-06-26 12:55:43,197 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:43,231 - INFO - Dynamically mapped image 'Support.png':
+2026-06-26 12:55:43,232 - INFO -   → Extracted Title: Support
+2026-06-26 12:55:43,232 - INFO -   → Matched Identity: help
+2026-06-26 12:55:43,232 - INFO -   → Extracted Color: #0030F0
+2026-06-26 12:55:43,233 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:43,261 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-26 12:55:43,261 - INFO -   → Extracted Title: Updates
+2026-06-26 12:55:43,261 - INFO -   → Matched Identity: blog
+2026-06-26 12:55:43,262 - INFO -   → Extracted Color: #F87820
+2026-06-26 12:55:43,262 - INFO -   → Toggle Option: dashboard only
+2026-06-26 12:55:43,262 - INFO - 
+============================================================
+2026-06-26 12:55:43,262 - INFO - Launching Browser and Starting Upload Process
+2026-06-26 12:55:43,263 - INFO - ============================================================
+2026-06-26 12:55:43,279 - INFO - ====== WebDriver manager ======
+2026-06-26 12:55:45,228 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-26 12:55:45,886 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-26 12:55:46,427 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-26 12:55:46,429 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-26 12:55:49,253 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-26 12:55:49,264 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-26 12:55:49,301 - INFO - ✓ Chrome driver initialized
+2026-06-26 12:55:49,302 - INFO - 
+→ Attempting login...
+
+2026-06-26 12:55:49,302 - INFO - Opening login page...
+2026-06-26 12:55:50,703 - INFO -   → Policy checkbox checked on login page
+2026-06-26 12:55:50,822 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-26 12:55:50,856 - INFO -   → Policy agreement popup detected
+2026-06-26 12:55:50,934 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-26 12:55:51,472 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-26 12:56:03,115 - INFO - ✓ Login successful
+2026-06-26 12:56:05,116 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-26 12:56:05,116 - INFO - Navigating to App Settings...
+2026-06-26 12:56:11,648 - INFO - ✓ Dashboard Icons section loaded
+2026-06-26 12:56:13,649 - INFO - 
+→ Starting batch upload of 13 custom icons...
+
+2026-06-26 12:56:13,650 - INFO - Starting batch – 13 configured entries
+2026-06-26 12:56:13,650 - INFO - Total icons to upload after expansion: 13
+2026-06-26 12:56:13,651 - INFO - ============================================================
+2026-06-26 12:56:13,651 - INFO - [1/13]
+2026-06-26 12:56:13,651 - INFO -   Adding: [Plumber] Activity  (claimhistory)
+2026-06-26 12:56:27,564 - INFO -     → User type selected by text: Plumber
+2026-06-26 12:56:28,284 - INFO -     → Icon identity: claimhistory
+2026-06-26 12:56:28,854 - INFO -     → Display title: Activity
+2026-06-26 12:56:30,187 - INFO -     → Icon color: #F86008
+2026-06-26 12:56:30,260 - INFO -     → Toggle: dashboard only
+2026-06-26 12:56:32,356 - INFO -     → Image uploaded: Activity.png
+2026-06-26 12:56:33,164 - INFO -     → Form submitted
+2026-06-26 12:56:44,047 - INFO -   ✓ Icon added: Activity
+
+2026-06-26 12:56:45,048 - INFO - [2/13]
+2026-06-26 12:56:45,049 - INFO -   Adding: [Plumber] ecommerce  (gift)
+2026-06-26 12:56:58,834 - INFO -     → User type selected by text: Plumber
+2026-06-26 12:56:59,454 - INFO -     → Icon identity: gift
+2026-06-26 12:57:00,202 - INFO -     → Display title: ecommerce
+2026-06-26 12:57:01,676 - INFO -     → Icon color: #A0E0F8
+2026-06-26 12:57:01,766 - INFO -     → Toggle: dashboard only
+2026-06-26 12:57:03,944 - INFO -     → Image uploaded: ecommerce.png
+2026-06-26 12:57:04,235 - INFO -     → Form submitted
+2026-06-26 12:57:14,883 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-26 12:57:15,884 - INFO - [3/13]
+2026-06-26 12:57:15,884 - INFO -   Adding: [Plumber] KYC  (kycdetails)
+2026-06-26 12:57:20,938 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/626a240917a842d2f591fdc2b3403eae
+2026-06-26 12:57:24,993 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=64171): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/626a240917a842d2f591fdc2b3403eae
+2026-06-26 12:57:29,045 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=64171): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/626a240917a842d2f591fdc2b3403eae
+2026-06-26 12:57:37,231 - INFO - Browser closed
+2026-06-26 12:57:37,232 - INFO - Automation cancelled by user (Ctrl+C)

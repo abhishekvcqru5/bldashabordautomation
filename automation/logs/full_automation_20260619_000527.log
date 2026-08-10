@@ -1,0 +1,146 @@
+2026-06-19 00:05:49,171 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-19 00:05:53,218 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-19 00:05:54,539 - INFO - Found 43 credential sets (fully populated) in Google Sheet.
+2026-06-19 00:07:12,892 - INFO - 
+>>> Starting update [1/43] for Wit Rewards...
+2026-06-19 00:07:12,892 - INFO - ============================================================
+2026-06-19 00:07:12,892 - INFO - UPDATING DASHBOARD ICONS FOR: ve.jayesh@gmail.com
+2026-06-19 00:07:12,892 - INFO - ============================================================
+2026-06-19 00:07:12,893 - INFO - Processing images from dashboardicons/...
+2026-06-19 00:07:12,916 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-19 00:07:12,917 - INFO - Output folder: automation\processed_images
+2026-06-19 00:07:12,918 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-19 00:07:13,074 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-19 00:07:13,172 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-19 00:07:13,255 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-19 00:07:13,270 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-19 00:07:13,337 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-19 00:07:13,412 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-19 00:07:13,465 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-19 00:07:13,513 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-19 00:07:13,611 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-19 00:07:13,652 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-19 00:07:13,677 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-19 00:07:13,729 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-19 00:07:13,775 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-19 00:07:13,820 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-19 00:07:13,879 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-19 00:07:13,951 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-19 00:07:13,994 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-19 00:07:14,054 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-19 00:07:14,096 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-19 00:07:14,097 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-19 00:07:14,097 - INFO - ✓ 18 images processed.
+2026-06-19 00:07:14,558 - INFO - ====== WebDriver manager ======
+2026-06-19 00:07:19,264 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 00:07:19,670 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 00:07:19,971 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 00:07:20,704 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-19 00:07:20,712 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-19 00:07:20,712 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-19 00:07:21,060 - INFO - Driver downloading response is 200
+2026-06-19 00:07:22,091 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 00:07:22,514 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-19 00:07:22,518 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-19 00:07:25,129 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-19 00:07:25,162 - INFO - ✓ Chrome driver initialized
+2026-06-19 00:07:25,163 - INFO - Opening login page...
+2026-06-19 00:07:27,059 - INFO -   → Policy checkbox checked on login page
+2026-06-19 00:07:27,173 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-19 00:08:00,790 - INFO - ✓ Login successful
+2026-06-19 00:08:02,791 - INFO - Navigating to dashboard icons section...
+2026-06-19 00:08:02,792 - INFO - Navigating to App Settings...
+2026-06-19 00:08:09,047 - INFO - ✓ Dashboard Icons section loaded
+2026-06-19 00:08:09,075 - INFO - Total rows found: 13
+2026-06-19 00:08:09,143 - INFO - Parsed Row 2: UserType='Electrician', Title='Gift', ID='gift'
+2026-06-19 00:08:09,168 - INFO - Parsed Row 3: UserType='Electrician', Title='History', ID='history'
+2026-06-19 00:08:09,194 - INFO - Parsed Row 4: UserType='Electrician', Title='Wallet', ID='wallet'
+2026-06-19 00:08:09,218 - INFO - Parsed Row 5: UserType='Electrician', Title='Kyc', ID='kycdetails'
+2026-06-19 00:08:09,250 - INFO - Parsed Row 6: UserType='Electrician', Title='Brochure', ID='brochure'
+2026-06-19 00:08:09,279 - INFO - Parsed Row 7: UserType='Electrician', Title='Claim History', ID='claimhistory'
+2026-06-19 00:08:09,309 - INFO - Parsed Row 8: UserType='Electrician', Title='Language', ID='chooselanguage'
+2026-06-19 00:08:09,346 - INFO - Parsed Row 9: UserType='Electrician', Title='Code Details', ID='codedetails'
+2026-06-19 00:08:09,385 - INFO - Parsed Row 10: UserType='Electrician', Title='Help', ID='help'
+2026-06-19 00:08:09,416 - INFO - Parsed Row 11: UserType='Electrician', Title='Refer & Earn', ID='referandearn'
+2026-06-19 00:08:09,445 - INFO - Parsed Row 12: UserType='Electrician', Title='About Us', ID='aboutus'
+2026-06-19 00:08:09,446 - INFO - No matching local icon for row 12: Title='About Us', ID='aboutus'
+2026-06-19 00:08:09,446 - INFO - Found 10 icons to update.
+2026-06-19 00:08:09,446 - INFO - 
+[1/10] Updating: [Electrician] 'Gift' (ID: 'gift') with 'Rewards'
+2026-06-19 00:08:10,841 - INFO -   → Set display title to: Rewards
+2026-06-19 00:08:11,385 - INFO -   → Set icon color to: #F00048
+2026-06-19 00:08:11,473 - INFO -   → Uploaded image: Rewards.png
+2026-06-19 00:08:13,521 - INFO -   → Edit form submitted.
+2026-06-19 00:08:25,560 - INFO -   ✓ Successfully updated: Gift -> Rewards
+2026-06-19 00:08:25,560 - INFO - 
+[2/10] Updating: [Electrician] 'History' (ID: 'history') with 'Scan History'
+2026-06-19 00:08:26,925 - INFO -   → Set display title to: Scan History
+2026-06-19 00:08:27,400 - INFO -   → Set icon color to: #4808F0
+2026-06-19 00:08:27,443 - INFO -   → Uploaded image: Scan History.png
+2026-06-19 00:08:29,492 - INFO -   → Edit form submitted.
+2026-06-19 00:08:41,501 - INFO -   ✓ Successfully updated: History -> Scan History
+2026-06-19 00:08:41,501 - INFO - 
+[3/10] Updating: [Electrician] 'Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-19 00:08:42,886 - INFO -   → Set display title to: My Wallet
+2026-06-19 00:08:43,387 - INFO -   → Set icon color to: #20A020
+2026-06-19 00:08:43,441 - INFO -   → Uploaded image: My Wallet.png
+2026-06-19 00:08:45,492 - INFO -   → Edit form submitted.
+2026-06-19 00:08:57,159 - INFO -   ✓ Successfully updated: Wallet -> My Wallet
+2026-06-19 00:08:57,159 - INFO - 
+[4/10] Updating: [Electrician] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-19 00:08:58,139 - INFO -   → Set display title to: KYC
+2026-06-19 00:08:58,709 - INFO -   → Set icon color to: #F85808
+2026-06-19 00:08:58,758 - INFO -   → Uploaded image: KYC.png
+2026-06-19 00:09:00,808 - INFO -   → Edit form submitted.
+2026-06-19 00:09:12,854 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-19 00:09:12,855 - INFO - 
+[5/10] Updating: [Electrician] 'Brochure' (ID: 'brochure') with 'Prospectus'
+2026-06-19 00:09:13,768 - INFO -   → Set display title to: Prospectus
+2026-06-19 00:09:14,294 - INFO -   → Set icon color to: #0848F8
+2026-06-19 00:09:14,338 - INFO -   → Uploaded image: Prospectus.png
+2026-06-19 00:09:16,376 - INFO -   → Edit form submitted.
+2026-06-19 00:09:28,397 - INFO -   ✓ Successfully updated: Brochure -> Prospectus
+2026-06-19 00:09:28,397 - INFO - 
+[6/10] Updating: [Electrician] 'Claim History' (ID: 'claimhistory') with 'Activity'
+2026-06-19 00:09:30,015 - INFO -   → Set display title to: Activity
+2026-06-19 00:09:30,547 - INFO -   → Set icon color to: #F86008
+2026-06-19 00:09:30,588 - INFO -   → Uploaded image: Activity.png
+2026-06-19 00:09:32,634 - INFO -   → Edit form submitted.
+2026-06-19 00:09:44,184 - INFO -   ✓ Successfully updated: Claim History -> Activity
+2026-06-19 00:09:44,185 - INFO - 
+[7/10] Updating: [Electrician] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-19 00:09:45,639 - INFO -   → Set display title to: Language
+2026-06-19 00:09:46,128 - INFO -   → Set icon color to: #5010E8
+2026-06-19 00:09:46,201 - INFO -   → Uploaded image: Language.png
+2026-06-19 00:09:48,253 - INFO -   → Edit form submitted.
+2026-06-19 00:10:00,297 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-19 00:10:00,298 - INFO - 
+[8/10] Updating: [Electrician] 'Code Details' (ID: 'codedetails') with 'Scan Activity'
+2026-06-19 00:10:01,957 - INFO -   → Set display title to: Scan Activity
+2026-06-19 00:10:02,642 - INFO -   → Set icon color to: #10A010
+2026-06-19 00:10:02,708 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-19 00:10:04,759 - INFO -   → Edit form submitted.
+2026-06-19 00:10:16,415 - INFO -   ✓ Successfully updated: Code Details -> Scan Activity
+2026-06-19 00:10:16,419 - INFO - 
+[9/10] Updating: [Electrician] 'Help' (ID: 'help') with 'Support'
+2026-06-19 00:10:17,686 - INFO -   → Set display title to: Support
+2026-06-19 00:10:18,312 - INFO -   → Set icon color to: #0030F0
+2026-06-19 00:10:18,375 - INFO -   → Uploaded image: Support.png
+2026-06-19 00:10:20,430 - INFO -   → Edit form submitted.
+2026-06-19 00:10:32,395 - INFO -   ✓ Successfully updated: Help -> Support
+2026-06-19 00:10:32,396 - INFO - 
+[10/10] Updating: [Electrician] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-19 00:10:34,349 - INFO -   → Set display title to: Refer & Earn
+2026-06-19 00:10:34,982 - INFO -   → Set icon color to: #089098
+2026-06-19 00:10:35,075 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-19 00:10:37,140 - INFO -   → Edit form submitted.
+2026-06-19 00:10:40,957 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-19 00:10:40,958 - INFO - ============================================================
+2026-06-19 00:10:40,958 - INFO - UPDATE ACCOUNT SUMMARY: ve.jayesh@gmail.com
+2026-06-19 00:10:40,959 - INFO - ✓ Succeeded: 10
+2026-06-19 00:10:40,959 - INFO - ✗ Failed: 0
+2026-06-19 00:10:40,959 - INFO - ============================================================
+2026-06-19 00:10:41,968 - INFO - Automation cancelled by user (Ctrl+C)

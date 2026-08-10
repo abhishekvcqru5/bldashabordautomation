@@ -1,0 +1,9 @@
+2026-06-11 13:29:57,810 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-11 13:29:57,810 - INFO - ============================================================
+2026-06-11 13:29:57,810 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-11 13:29:57,810 - INFO - ============================================================
+2026-06-11 13:29:57,811 - INFO - Processing images from: dashboardicons
+2026-06-11 13:29:57,811 - INFO - Output folder: automation\processed_images
+2026-06-11 13:29:57,812 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-11 13:29:57,812 - ERROR - Fatal error: [WinError 3] The system cannot find the path specified: 'dashboardicons'

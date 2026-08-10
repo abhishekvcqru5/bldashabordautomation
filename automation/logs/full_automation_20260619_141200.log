@@ -1,0 +1,47 @@
+2026-06-19 14:12:15,009 - INFO - User selected: Promotion Banners
+2026-06-19 14:12:15,011 - INFO - ============================================================
+2026-06-19 14:12:15,012 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-19 14:12:15,013 - INFO - ============================================================
+2026-06-19 14:12:15,018 - INFO - Found 1 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-19 14:12:15,102 - INFO -   ⚙ Processing ChatGPT Image Jun 19, 2026, 02_10_46 PM.png  (size 1672×941 → need 1920×1080)
+2026-06-19 14:12:15,437 - INFO -   ✓ ChatGPT Image Jun 19, 2026, 02_10_46 PM.png  →  ChatGPT Image Jun 19, 2026, 02_10_46 PM_processed.jpg  |  1920×1080  |  0.24 MB  |  quality 92
+2026-06-19 14:12:15,439 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-06-19 14:12:15,441 - INFO - ============================================================
+2026-06-19 14:12:15,441 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-19 14:12:15,442 - INFO - ============================================================
+2026-06-19 14:12:15,478 - INFO - ====== WebDriver manager ======
+2026-06-19 14:12:24,993 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 14:12:26,147 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 14:12:27,222 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-19 14:12:27,223 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-19 14:12:29,253 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-19 14:12:29,301 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-19 14:12:29,396 - INFO - ✓ Chrome driver initialized
+2026-06-19 14:12:29,396 - INFO - Opening login page...
+2026-06-19 14:12:31,335 - INFO -   → Policy checkbox checked on login page
+2026-06-19 14:12:31,592 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-19 14:12:31,672 - INFO -   → Policy agreement popup detected
+2026-06-19 14:12:31,794 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-19 14:12:33,213 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-19 14:12:45,040 - INFO - ✓ Login successful
+2026-06-19 14:12:47,042 - INFO - Going to App Settings...
+2026-06-19 14:12:53,733 - INFO -   → Promotion Banners section opened
+2026-06-19 14:12:53,806 - INFO - ✓ Promotion Banners page ready
+2026-06-19 14:12:53,806 - INFO - Starting batch  —  1 banner(s) to publish
+2026-06-19 14:12:53,807 - INFO - ============================================================
+2026-06-19 14:12:53,808 - INFO - [1/1]
+2026-06-19 14:12:53,808 - INFO -   Publishing: [ChatGPT Image Jun 19, 2026, 02_10_46 PM]  (ChatGPT Image Jun 19, 2026, 02_10_46 PM_processed.jpg)
+2026-06-19 14:12:56,710 - INFO -     → Title entered: ChatGPT Image Jun 19, 2026, 02_10_46 PM
+2026-06-19 14:12:58,908 - INFO -     → Image uploaded: ChatGPT Image Jun 19, 2026, 02_10_46 PM_processed.jpg
+2026-06-19 14:12:59,204 - INFO -     → Publish Banner clicked
+2026-06-19 14:13:03,239 - INFO -   ✓ Banner published: ChatGPT Image Jun 19, 2026, 02_10_46 PM
+
+2026-06-19 14:13:04,241 - INFO - ============================================================
+2026-06-19 14:13:04,242 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-06-19 14:13:07,487 - INFO - Browser closed
+2026-06-19 14:13:11,559 - INFO - 
+Task finished at 2026-06-19 14:13:11
+2026-06-19 14:13:11,563 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260619_141200.log
+

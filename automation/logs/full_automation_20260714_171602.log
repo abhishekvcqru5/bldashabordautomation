@@ -1,0 +1,322 @@
+2026-07-14 17:16:30,063 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-07-14 17:16:30,065 - INFO - ============================================================
+2026-07-14 17:16:30,066 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-07-14 17:16:30,066 - INFO - ============================================================
+2026-07-14 17:16:30,118 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-14 17:16:30,119 - INFO - Output folder: automation\processed_images
+2026-07-14 17:16:30,122 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-14 17:16:30,452 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-14 17:16:30,583 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-14 17:16:30,810 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-14 17:16:30,979 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-14 17:16:31,200 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-14 17:16:31,470 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-14 17:16:31,831 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-14 17:16:32,101 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-14 17:16:32,321 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-14 17:16:32,596 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-14 17:16:32,796 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-14 17:16:33,081 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-14 17:16:33,337 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-14 17:16:33,612 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-14 17:16:33,773 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-14 17:16:33,831 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-14 17:16:33,838 - INFO - ✓ 15 images processed successfully.
+
+2026-07-14 17:17:10,876 - INFO - Target User Type: Head Mechanics
+2026-07-14 17:17:11,027 - INFO - Dynamically mapped image 'aboutus.png':
+2026-07-14 17:17:11,028 - INFO -   → Extracted Title: aboutus
+2026-07-14 17:17:11,029 - INFO -   → Matched Identity: aboutus
+2026-07-14 17:17:11,029 - INFO -   → Extracted Color: #70E8A8
+2026-07-14 17:17:11,030 - INFO -   → Toggle Option: side menu
+2026-07-14 17:17:11,166 - INFO - Dynamically mapped image 'Activity.png':
+2026-07-14 17:17:11,167 - INFO -   → Extracted Title: Activity
+2026-07-14 17:17:11,168 - INFO -   → Matched Identity: claimhistory
+2026-07-14 17:17:11,169 - INFO -   → Extracted Color: #F86008
+2026-07-14 17:17:11,169 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:11,250 - INFO - Dynamically mapped image 'KYC.png':
+2026-07-14 17:17:11,250 - INFO -   → Extracted Title: KYC
+2026-07-14 17:17:11,250 - INFO -   → Matched Identity: kycdetails
+2026-07-14 17:17:11,251 - INFO -   → Extracted Color: #F85808
+2026-07-14 17:17:11,251 - INFO -   → Toggle Option: side menu
+2026-07-14 17:17:11,350 - INFO - Dynamically mapped image 'Language.png':
+2026-07-14 17:17:11,352 - INFO -   → Extracted Title: Language
+2026-07-14 17:17:11,353 - INFO -   → Matched Identity: chooselanguage
+2026-07-14 17:17:11,355 - INFO -   → Extracted Color: #5010E8
+2026-07-14 17:17:11,356 - INFO -   → Toggle Option: side menu
+2026-07-14 17:17:11,459 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-07-14 17:17:11,464 - INFO -   → Extracted Title: My Wallet
+2026-07-14 17:17:11,464 - INFO -   → Matched Identity: wallet
+2026-07-14 17:17:11,465 - INFO -   → Extracted Color: #20A020
+2026-07-14 17:17:11,465 - INFO -   → Toggle Option: both
+2026-07-14 17:17:11,546 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-07-14 17:17:11,547 - INFO -   → Extracted Title: Nearby Retailers
+2026-07-14 17:17:11,548 - INFO -   → Matched Identity: retailer
+2026-07-14 17:17:11,548 - INFO -   → Extracted Color: #F87010
+2026-07-14 17:17:11,549 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:11,617 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-07-14 17:17:11,620 - INFO -   → Extracted Title: Product Catalog
+2026-07-14 17:17:11,621 - INFO -   → Matched Identity: productcatalogue
+2026-07-14 17:17:11,621 - INFO -   → Extracted Color: #6028E8
+2026-07-14 17:17:11,622 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:11,700 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-07-14 17:17:11,701 - INFO -   → Extracted Title: Prospectus
+2026-07-14 17:17:11,703 - INFO -   → Matched Identity: brochure
+2026-07-14 17:17:11,704 - INFO -   → Extracted Color: #0848F8
+2026-07-14 17:17:11,706 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:11,781 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-07-14 17:17:11,781 - INFO -   → Extracted Title: Refer & Earn
+2026-07-14 17:17:11,782 - INFO -   → Matched Identity: referandearn
+2026-07-14 17:17:11,783 - INFO -   → Extracted Color: #089098
+2026-07-14 17:17:11,783 - INFO -   → Toggle Option: both
+2026-07-14 17:17:11,850 - INFO - Dynamically mapped image 'Rewards.png':
+2026-07-14 17:17:11,851 - INFO -   → Extracted Title: Rewards
+2026-07-14 17:17:11,851 - INFO -   → Matched Identity: gift
+2026-07-14 17:17:11,852 - INFO -   → Extracted Color: #F00048
+2026-07-14 17:17:11,852 - INFO -   → Toggle Option: both
+2026-07-14 17:17:11,950 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-07-14 17:17:11,951 - INFO -   → Extracted Title: Scan Activity
+2026-07-14 17:17:11,952 - INFO -   → Matched Identity: codedetails
+2026-07-14 17:17:11,953 - INFO -   → Extracted Color: #10A010
+2026-07-14 17:17:11,953 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:12,028 - INFO - Dynamically mapped image 'Scan History.png':
+2026-07-14 17:17:12,030 - INFO -   → Extracted Title: Scan History
+2026-07-14 17:17:12,032 - INFO -   → Matched Identity: history
+2026-07-14 17:17:12,033 - INFO -   → Extracted Color: #4808F0
+2026-07-14 17:17:12,033 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:12,112 - INFO - Dynamically mapped image 'Support.png':
+2026-07-14 17:17:12,113 - INFO -   → Extracted Title: Support
+2026-07-14 17:17:12,113 - INFO -   → Matched Identity: help
+2026-07-14 17:17:12,114 - INFO -   → Extracted Color: #0030F0
+2026-07-14 17:17:12,115 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:12,168 - INFO - Dynamically mapped image 'TDS.png':
+2026-07-14 17:17:12,168 - INFO -   → Extracted Title: TDS
+2026-07-14 17:17:12,169 - INFO -   → Matched Identity: tds
+2026-07-14 17:17:12,170 - INFO -   → Extracted Color: #20C880
+2026-07-14 17:17:12,170 - INFO -   → Toggle Option: side menu
+2026-07-14 17:17:12,229 - INFO - Dynamically mapped image 'Updates.png':
+2026-07-14 17:17:12,230 - INFO -   → Extracted Title: Updates
+2026-07-14 17:17:12,231 - INFO -   → Matched Identity: blog
+2026-07-14 17:17:12,232 - INFO -   → Extracted Color: #F87820
+2026-07-14 17:17:12,233 - INFO -   → Toggle Option: dashboard only
+2026-07-14 17:17:12,234 - INFO - 
+============================================================
+2026-07-14 17:17:12,234 - INFO - Launching Browser and Starting Upload Process
+2026-07-14 17:17:12,235 - INFO - ============================================================
+2026-07-14 17:17:12,300 - INFO - ====== WebDriver manager ======
+2026-07-14 17:17:17,707 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:17:19,022 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:17:20,349 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-14 17:17:20,350 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-14 17:17:22,950 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-14 17:17:22,965 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-14 17:17:23,067 - INFO - ✓ Chrome driver initialized
+2026-07-14 17:17:23,069 - INFO - 
+→ Attempting login...
+
+2026-07-14 17:17:23,071 - INFO - Opening login page...
+2026-07-14 17:17:25,973 - INFO -   → Policy checkbox checked on login page
+2026-07-14 17:17:26,501 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-14 17:17:26,590 - INFO -   → Policy agreement popup detected
+2026-07-14 17:17:26,787 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-14 17:17:27,536 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-14 17:17:34,067 - INFO -   → Policy agreement popup detected
+2026-07-14 17:17:34,354 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-14 17:17:39,506 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-14 17:17:40,786 - INFO - ✓ Login successful
+2026-07-14 17:17:42,789 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-07-14 17:17:42,803 - INFO - Navigating to App Settings...
+2026-07-14 17:17:55,896 - INFO - ✓ Dashboard Icons section loaded
+2026-07-14 17:17:57,897 - INFO - 
+→ Starting batch upload of 15 custom icons...
+
+2026-07-14 17:17:57,899 - INFO - Starting batch – 15 configured entries
+2026-07-14 17:17:57,899 - INFO - Total icons to upload after expansion: 15
+2026-07-14 17:17:57,900 - INFO - ============================================================
+2026-07-14 17:17:57,900 - INFO - [1/15]
+2026-07-14 17:17:57,901 - INFO -   Adding: [Head Mechanics] aboutus  (aboutus)
+2026-07-14 17:18:14,483 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:18:15,756 - INFO -     → Icon identity: aboutus
+2026-07-14 17:18:16,284 - INFO -     → Display title: aboutus
+2026-07-14 17:18:19,231 - INFO -     → Icon color: #70E8A8
+2026-07-14 17:18:19,391 - INFO -     → Toggle: side menu
+2026-07-14 17:18:21,642 - INFO -     → Image uploaded: aboutus.png
+2026-07-14 17:18:41,994 - ERROR -   ✗ Failed to add [aboutus]: Message: 
+
+2026-07-14 17:18:43,848 - INFO -   📸 Screenshot saved: automation\screenshots\error_aboutus_20260714_171841.png
+2026-07-14 17:18:46,448 - INFO - [2/15]
+2026-07-14 17:18:46,452 - INFO -   Adding: [Head Mechanics] Activity  (claimhistory)
+2026-07-14 17:19:01,986 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:19:03,289 - INFO -     → Icon identity: claimhistory
+2026-07-14 17:19:04,691 - INFO -     → Display title: Activity
+2026-07-14 17:19:07,268 - INFO -     → Icon color: #F86008
+2026-07-14 17:19:07,499 - INFO -     → Toggle: dashboard only
+2026-07-14 17:19:09,633 - INFO -     → Image uploaded: Activity.png
+2026-07-14 17:19:10,236 - INFO -     → Form submitted
+2026-07-14 17:19:21,319 - INFO -   ✓ Icon added: Activity
+
+2026-07-14 17:19:22,320 - INFO - [3/15]
+2026-07-14 17:19:22,321 - INFO -   Adding: [Head Mechanics] KYC  (kycdetails)
+2026-07-14 17:19:36,039 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:19:37,650 - INFO -     → Icon identity: kycdetails
+2026-07-14 17:19:38,919 - INFO -     → Display title: KYC
+2026-07-14 17:19:41,209 - INFO -     → Icon color: #F85808
+2026-07-14 17:19:41,353 - INFO -     → Toggle: side menu
+2026-07-14 17:19:43,506 - INFO -     → Image uploaded: KYC.png
+2026-07-14 17:19:44,319 - INFO -     → Form submitted
+2026-07-14 17:19:55,819 - INFO -   ✓ Icon added: KYC
+
+2026-07-14 17:19:56,823 - INFO - [4/15]
+2026-07-14 17:19:56,836 - INFO -   Adding: [Head Mechanics] Language  (chooselanguage)
+2026-07-14 17:20:10,651 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:20:15,451 - INFO -     → Icon identity: chooselanguage
+2026-07-14 17:20:20,569 - INFO -     → Display title: Language
+2026-07-14 17:20:25,535 - INFO -     → Icon color: #5010E8
+2026-07-14 17:20:26,088 - INFO -     → Toggle: side menu
+2026-07-14 17:20:29,197 - INFO -     → Image uploaded: Language.png
+2026-07-14 17:20:29,839 - INFO -     → Form submitted
+2026-07-14 17:20:40,901 - INFO -   ✓ Icon added: Language
+
+2026-07-14 17:20:41,903 - INFO - [5/15]
+2026-07-14 17:20:41,906 - INFO -   Adding: [Head Mechanics] My Wallet  (wallet)
+2026-07-14 17:20:58,302 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:20:59,353 - INFO -     → Icon identity: wallet
+2026-07-14 17:21:01,694 - INFO -     → Display title: My Wallet
+2026-07-14 17:21:05,182 - INFO -     → Icon color: #20A020
+2026-07-14 17:21:05,300 - INFO -     → Toggle: both
+2026-07-14 17:21:07,572 - INFO -     → Image uploaded: My Wallet.png
+2026-07-14 17:21:08,084 - INFO -     → Form submitted
+2026-07-14 17:21:19,117 - INFO -   ✓ Icon added: My Wallet
+
+2026-07-14 17:21:20,133 - INFO - [6/15]
+2026-07-14 17:21:20,149 - INFO -   Adding: [Head Mechanics] Nearby Retailers  (retailer)
+2026-07-14 17:21:34,656 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:21:34,906 - INFO -     → Icon identity: retailer
+2026-07-14 17:21:35,696 - INFO -     → Display title: Nearby Retailers
+2026-07-14 17:21:37,370 - INFO -     → Icon color: #F87010
+2026-07-14 17:21:37,631 - INFO -     → Toggle: dashboard only
+2026-07-14 17:21:39,886 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-14 17:21:40,519 - INFO -     → Form submitted
+2026-07-14 17:21:51,636 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-14 17:21:52,638 - INFO - [7/15]
+2026-07-14 17:21:52,638 - INFO -   Adding: [Head Mechanics] Product Catalog  (productcatalogue)
+2026-07-14 17:22:06,354 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:22:06,985 - INFO -     → Icon identity: productcatalogue
+2026-07-14 17:22:07,916 - INFO -     → Display title: Product Catalog
+2026-07-14 17:22:13,216 - INFO -     → Icon color: #6028E8
+2026-07-14 17:22:13,490 - INFO -     → Toggle: dashboard only
+2026-07-14 17:22:15,902 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-14 17:22:20,319 - INFO -     → Form submitted
+2026-07-14 17:22:32,084 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-14 17:22:33,100 - INFO - [8/15]
+2026-07-14 17:22:33,103 - INFO -   Adding: [Head Mechanics] Prospectus  (brochure)
+2026-07-14 17:22:47,847 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:22:48,256 - INFO -     → Icon identity: brochure
+2026-07-14 17:22:48,686 - INFO -     → Display title: Prospectus
+2026-07-14 17:22:50,493 - INFO -     → Icon color: #0848F8
+2026-07-14 17:22:50,655 - INFO -     → Toggle: dashboard only
+2026-07-14 17:22:52,850 - INFO -     → Image uploaded: Prospectus.png
+2026-07-14 17:22:54,991 - INFO -     → Form submitted
+2026-07-14 17:23:05,914 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-14 17:23:06,931 - INFO - [9/15]
+2026-07-14 17:23:06,946 - INFO -   Adding: [Head Mechanics] Refer & Earn  (referandearn)
+2026-07-14 17:23:22,054 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:23:22,523 - INFO -     → Icon identity: referandearn
+2026-07-14 17:23:23,865 - INFO -     → Display title: Refer & Earn
+2026-07-14 17:23:27,050 - INFO -     → Icon color: #089098
+2026-07-14 17:23:27,239 - INFO -     → Toggle: both
+2026-07-14 17:23:29,553 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-14 17:23:30,845 - INFO -     → Form submitted
+2026-07-14 17:23:41,590 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-14 17:23:42,749 - INFO - [10/15]
+2026-07-14 17:23:42,755 - INFO -   Adding: [Head Mechanics] Rewards  (gift)
+2026-07-14 17:23:59,854 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:24:01,952 - INFO -     → Icon identity: gift
+2026-07-14 17:24:03,388 - INFO -     → Display title: Rewards
+2026-07-14 17:24:08,501 - INFO -     → Icon color: #F00048
+2026-07-14 17:24:09,288 - INFO -     → Toggle: both
+2026-07-14 17:24:11,605 - INFO -     → Image uploaded: Rewards.png
+2026-07-14 17:24:12,737 - INFO -     → Form submitted
+2026-07-14 17:24:23,654 - INFO -   ✓ Icon added: Rewards
+
+2026-07-14 17:24:24,667 - INFO - [11/15]
+2026-07-14 17:24:24,669 - INFO -   Adding: [Head Mechanics] Scan Activity  (codedetails)
+2026-07-14 17:24:37,655 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:24:38,120 - INFO -     → Icon identity: codedetails
+2026-07-14 17:24:38,507 - INFO -     → Display title: Scan Activity
+2026-07-14 17:24:39,603 - INFO -     → Icon color: #10A010
+2026-07-14 17:24:39,665 - INFO -     → Toggle: dashboard only
+2026-07-14 17:24:41,754 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-14 17:24:42,092 - INFO -     → Form submitted
+2026-07-14 17:24:53,439 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-14 17:24:54,453 - INFO - [12/15]
+2026-07-14 17:24:54,457 - INFO -   Adding: [Head Mechanics] Scan History  (history)
+2026-07-14 17:25:18,006 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:25:20,053 - INFO -     → Icon identity: history
+2026-07-14 17:25:24,405 - INFO -     → Display title: Scan History
+2026-07-14 17:25:31,771 - INFO -     → Icon color: #4808F0
+2026-07-14 17:25:32,151 - INFO -     → Toggle: dashboard only
+2026-07-14 17:25:34,583 - INFO -     → Image uploaded: Scan History.png
+2026-07-14 17:25:40,871 - INFO -     → Form submitted
+2026-07-14 17:25:52,521 - INFO -   ✓ Icon added: Scan History
+
+2026-07-14 17:25:53,538 - INFO - [13/15]
+2026-07-14 17:25:53,567 - INFO -   Adding: [Head Mechanics] Support  (help)
+2026-07-14 17:26:13,090 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:26:14,040 - INFO -     → Icon identity: help
+2026-07-14 17:26:16,065 - INFO -     → Display title: Support
+2026-07-14 17:26:19,420 - INFO -     → Icon color: #0030F0
+2026-07-14 17:26:19,888 - INFO -     → Toggle: dashboard only
+2026-07-14 17:26:23,279 - INFO -     → Image uploaded: Support.png
+2026-07-14 17:26:24,874 - INFO -     → Form submitted
+2026-07-14 17:26:36,272 - INFO -   ✓ Icon added: Support
+
+2026-07-14 17:26:37,307 - INFO - [14/15]
+2026-07-14 17:26:37,348 - INFO -   Adding: [Head Mechanics] TDS  (tds)
+2026-07-14 17:26:51,923 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:26:52,489 - INFO -     → Icon identity: tds
+2026-07-14 17:26:53,420 - INFO -     → Display title: TDS
+2026-07-14 17:26:55,667 - INFO -     → Icon color: #20C880
+2026-07-14 17:26:56,239 - INFO -     → Toggle: side menu
+2026-07-14 17:26:58,523 - INFO -     → Image uploaded: TDS.png
+2026-07-14 17:26:59,494 - INFO -     → Form submitted
+2026-07-14 17:27:10,217 - INFO -   ✓ Icon added: TDS
+
+2026-07-14 17:27:11,219 - INFO - [15/15]
+2026-07-14 17:27:11,220 - INFO -   Adding: [Head Mechanics] Updates  (blog)
+2026-07-14 17:27:28,269 - INFO -     → User type selected by exact text: Head Mechanics
+2026-07-14 17:27:28,532 - INFO -     → Icon identity: blog
+2026-07-14 17:27:28,870 - INFO -     → Display title: Updates
+2026-07-14 17:27:30,019 - INFO -     → Icon color: #F87820
+2026-07-14 17:27:30,124 - INFO -     → Toggle: dashboard only
+2026-07-14 17:27:32,254 - INFO -     → Image uploaded: Updates.png
+2026-07-14 17:27:32,585 - INFO -     → Form submitted
+2026-07-14 17:27:43,534 - INFO -   ✓ Icon added: Updates
+
+2026-07-14 17:27:44,537 - INFO - ============================================================
+2026-07-14 17:27:44,538 - INFO - Batch complete → ✓ 14 succeeded  ✗ 1 failed
+2026-07-14 17:27:44,552 - INFO - 
+============================================================
+2026-07-14 17:27:44,554 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-07-14 17:27:44,564 - INFO - ============================================================
+2026-07-14 17:27:44,573 - INFO - ✓ Successful uploads: 14
+2026-07-14 17:27:44,601 - INFO - ✗ Failed uploads: 1
+2026-07-14 17:27:44,605 - INFO - Total processed: 15
+2026-07-14 17:27:44,619 - INFO - Success rate: 93.3%
+2026-07-14 17:27:44,620 - INFO - ============================================================
+2026-07-14 17:27:49,393 - INFO - Browser closed
+2026-07-14 17:27:53,485 - INFO - 
+Task finished at 2026-07-14 17:27:53
+2026-07-14 17:27:53,486 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260714_171602.log
+
+2026-07-15 11:59:44,992 - INFO - Automation cancelled by user (Ctrl+C)

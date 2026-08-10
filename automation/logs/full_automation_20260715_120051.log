@@ -1,0 +1,38 @@
+2026-07-15 12:02:22,510 - INFO - User selected: Intro Screens
+2026-07-15 12:02:22,511 - INFO - ============================================================
+2026-07-15 12:02:22,511 - INFO - INTRO SCREENS — Image Processing
+2026-07-15 12:02:22,512 - INFO - ============================================================
+2026-07-15 12:02:22,514 - INFO - Found 2 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-07-15 12:02:22,562 - INFO -   ⚙ Processing ChatGPT Image Jul 15, 2026, 11_41_22 AM.png  (941×1672 → need 1080×1920)
+2026-07-15 12:02:22,876 - INFO -   ✓ ChatGPT Image Jul 15, 2026, 11_41_22 AM.png  →  ChatGPT Image Jul 15, 2026, 11_41_22 AM_processed.jpg  |  1080×1920  |  0.34 MB  |  quality 92
+2026-07-15 12:02:22,879 - INFO -   ⚙ Processing ChatGPT Image Jul 15, 2026, 11_42_34 AM.png  (941×1672 → need 1080×1920)
+2026-07-15 12:02:23,237 - INFO -   ✓ ChatGPT Image Jul 15, 2026, 11_42_34 AM.png  →  ChatGPT Image Jul 15, 2026, 11_42_34 AM_processed.jpg  |  1080×1920  |  0.37 MB  |  quality 92
+2026-07-15 12:02:23,244 - INFO -   Processed 2/2 intro images successfully
+
+2026-07-15 12:02:24,479 - INFO - ============================================================
+2026-07-15 12:02:24,480 - INFO - INTRO SCREENS — Browser Automation
+2026-07-15 12:02:24,493 - INFO - ============================================================
+2026-07-15 12:02:24,628 - INFO - ====== WebDriver manager ======
+2026-07-15 12:02:32,795 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-15 12:02:35,303 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-15 12:02:37,285 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-15 12:02:37,287 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-15 12:02:39,570 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-15 12:02:39,802 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-15 12:02:40,186 - INFO - ✓ Chrome driver initialized
+2026-07-15 12:02:40,194 - INFO - Opening login page...
+2026-07-15 12:02:44,354 - INFO -   → Policy checkbox checked on login page
+2026-07-15 12:02:45,232 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-15 12:02:45,415 - INFO -   → Policy agreement popup detected
+2026-07-15 12:02:46,000 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-15 12:02:46,822 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-15 12:03:19,017 - ERROR - Login failed: Message: 
+
+2026-07-15 12:03:19,667 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260715_120319.png
+2026-07-15 12:03:19,668 - ERROR - ✗ Login failed. Aborting.
+2026-07-15 12:03:34,599 - INFO - Browser closed
+2026-07-15 12:03:38,780 - INFO - 
+Task finished at 2026-07-15 12:03:38
+2026-07-15 12:03:38,781 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260715_120051.log
+
+2026-07-15 12:03:40,818 - INFO - Automation cancelled by user (Ctrl+C)

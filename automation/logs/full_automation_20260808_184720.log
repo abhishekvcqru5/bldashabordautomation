@@ -1,0 +1,230 @@
+2026-08-08 18:47:38,660 - INFO - User selected: Registration Fields
+2026-08-08 18:47:38,660 - INFO - ============================================================
+2026-08-08 18:47:38,661 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-08-08 18:47:38,661 - INFO - ============================================================
+2026-08-08 18:47:38,675 - INFO - ====== WebDriver manager ======
+2026-08-08 18:47:40,046 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-08 18:47:40,116 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-08 18:47:40,191 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\151.0.7922.77\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-08 18:47:40,191 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\151.0.7922.77\chromedriver-win32\chromedriver.exe
+2026-08-08 18:47:41,778 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-08 18:47:41,809 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-08 18:47:41,900 - INFO - ✓ Chrome driver initialized
+2026-08-08 18:47:41,905 - INFO - Opening login page...
+2026-08-08 18:47:44,077 - INFO -   → Policy checkbox checked on login page
+2026-08-08 18:47:44,192 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-08 18:47:44,212 - INFO -   → Policy agreement popup detected
+2026-08-08 18:47:44,290 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-08 18:47:44,821 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-08 18:47:56,341 - INFO -   → Navigating directly to App Settings URL...
+2026-08-08 18:47:56,666 - INFO - ✓ Login successful and on App Settings page
+2026-08-08 18:47:58,667 - INFO - Going to App Settings...
+2026-08-08 18:47:59,609 - INFO -   → Registration Field section opened
+2026-08-08 18:47:59,685 - INFO - ✓ Registration Fields page ready
+2026-08-08 18:48:00,506 - INFO - Found 4 user types: ['Tile Layer', 'Mason', 'Contractor', 'Painter']
+2026-08-08 18:48:00,506 - INFO - Starting registration fields automation: 24 fields total
+2026-08-08 18:48:00,507 - INFO - ============================================================
+2026-08-08 18:48:00,507 - INFO - Processing User Type: Tile Layer
+2026-08-08 18:48:00,508 - INFO -   Adding field: [Tile Layer] -> First Name
+2026-08-08 18:48:01,039 - INFO -     → User Type selected: Tile Layer
+2026-08-08 18:48:21,348 - INFO -     → System Data Point selected: First Name
+2026-08-08 18:48:21,388 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:48:21,549 - INFO -     → Integrate Now clicked
+2026-08-08 18:48:21,569 - INFO -     → Toast dismissed
+2026-08-08 18:48:21,641 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-08 18:48:21,942 - INFO -   Adding field: [Tile Layer] -> Phone Number
+2026-08-08 18:48:23,250 - INFO -     → User Type selected: Tile Layer
+2026-08-08 18:48:43,809 - INFO -     → System Data Point selected: Phone Number
+2026-08-08 18:48:43,872 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:48:44,045 - INFO -     → Integrate Now clicked
+2026-08-08 18:48:44,069 - INFO -     → Toast dismissed
+2026-08-08 18:48:44,174 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-08 18:48:44,475 - INFO -   Adding field: [Tile Layer] -> Pincode
+2026-08-08 18:48:46,095 - INFO -     → User Type selected: Tile Layer
+2026-08-08 18:49:06,367 - INFO -     → System Data Point selected: Pincode
+2026-08-08 18:49:06,396 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:49:06,506 - INFO -     → Integrate Now clicked
+2026-08-08 18:49:06,516 - INFO -     → Toast dismissed
+2026-08-08 18:49:06,570 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-08 18:49:06,870 - INFO -   Adding field: [Tile Layer] -> City
+2026-08-08 18:49:08,046 - INFO -     → User Type selected: Tile Layer
+2026-08-08 18:49:28,476 - INFO -     → System Data Point selected: City
+2026-08-08 18:49:28,533 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:49:28,669 - INFO -     → Integrate Now clicked
+2026-08-08 18:49:28,687 - INFO -     → Toast dismissed
+2026-08-08 18:49:28,748 - INFO -   ✓ Field added successfully: City
+
+2026-08-08 18:49:29,049 - INFO -   Adding field: [Tile Layer] -> State
+2026-08-08 18:49:30,374 - INFO -     → User Type selected: Tile Layer
+2026-08-08 18:49:50,634 - INFO -     → System Data Point selected: State
+2026-08-08 18:49:50,752 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:49:50,868 - INFO -     → Integrate Now clicked
+2026-08-08 18:49:50,878 - INFO -     → Toast dismissed
+2026-08-08 18:49:50,916 - INFO -   ✓ Field added successfully: State
+
+2026-08-08 18:49:51,218 - INFO -   Adding field: [Tile Layer] -> Address
+2026-08-08 18:49:52,433 - INFO -     → User Type selected: Tile Layer
+2026-08-08 18:50:12,760 - INFO -     → System Data Point selected: Address
+2026-08-08 18:50:12,812 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:50:12,992 - INFO -     → Integrate Now clicked
+2026-08-08 18:50:13,024 - INFO -     → Toast dismissed
+2026-08-08 18:50:13,094 - INFO -   ✓ Field added successfully: Address
+
+2026-08-08 18:50:13,395 - INFO - Processing User Type: Mason
+2026-08-08 18:50:13,396 - INFO -   Adding field: [Mason] -> First Name
+2026-08-08 18:50:14,746 - INFO -     → User Type selected: Mason
+2026-08-08 18:50:35,643 - INFO -     → System Data Point selected: First Name
+2026-08-08 18:50:35,694 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:50:35,892 - INFO -     → Integrate Now clicked
+2026-08-08 18:50:35,906 - INFO -     → Toast dismissed
+2026-08-08 18:50:35,993 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-08 18:50:36,294 - INFO -   Adding field: [Mason] -> Phone Number
+2026-08-08 18:50:37,546 - INFO -     → User Type selected: Mason
+2026-08-08 18:50:57,938 - INFO -     → System Data Point selected: Phone Number
+2026-08-08 18:50:57,968 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:50:58,083 - INFO -     → Integrate Now clicked
+2026-08-08 18:50:58,094 - INFO -     → Toast dismissed
+2026-08-08 18:50:58,155 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-08 18:50:58,457 - INFO -   Adding field: [Mason] -> Pincode
+2026-08-08 18:50:59,728 - INFO -     → User Type selected: Mason
+2026-08-08 18:51:19,827 - INFO -     → System Data Point selected: Pincode
+2026-08-08 18:51:19,845 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:51:20,033 - INFO -     → Integrate Now clicked
+2026-08-08 18:51:20,047 - INFO -     → Toast dismissed
+2026-08-08 18:51:20,100 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-08 18:51:20,401 - INFO -   Adding field: [Mason] -> City
+2026-08-08 18:51:21,666 - INFO -     → User Type selected: Mason
+2026-08-08 18:51:41,915 - INFO -     → System Data Point selected: City
+2026-08-08 18:51:41,973 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:51:42,073 - INFO -     → Integrate Now clicked
+2026-08-08 18:51:42,086 - INFO -     → Toast dismissed
+2026-08-08 18:51:42,134 - INFO -   ✓ Field added successfully: City
+
+2026-08-08 18:51:42,435 - INFO -   Adding field: [Mason] -> State
+2026-08-08 18:51:43,685 - INFO -     → User Type selected: Mason
+2026-08-08 18:52:03,884 - INFO -     → System Data Point selected: State
+2026-08-08 18:52:03,916 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:52:04,053 - INFO -     → Integrate Now clicked
+2026-08-08 18:52:04,068 - INFO -     → Toast dismissed
+2026-08-08 18:52:04,142 - INFO -   ✓ Field added successfully: State
+
+2026-08-08 18:52:04,443 - INFO -   Adding field: [Mason] -> Address
+2026-08-08 18:52:05,948 - INFO -     → User Type selected: Mason
+2026-08-08 18:52:26,171 - INFO -     → System Data Point selected: Address
+2026-08-08 18:52:26,210 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:52:26,328 - INFO -     → Integrate Now clicked
+2026-08-08 18:52:26,343 - INFO -     → Toast dismissed
+2026-08-08 18:52:26,396 - INFO -   ✓ Field added successfully: Address
+
+2026-08-08 18:52:26,698 - INFO - Processing User Type: Contractor
+2026-08-08 18:52:26,698 - INFO -   Adding field: [Contractor] -> First Name
+2026-08-08 18:52:28,009 - INFO -     → User Type selected: Contractor
+2026-08-08 18:52:48,312 - INFO -     → System Data Point selected: First Name
+2026-08-08 18:52:48,343 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:52:48,477 - INFO -     → Integrate Now clicked
+2026-08-08 18:52:48,495 - INFO -     → Toast dismissed
+2026-08-08 18:52:48,570 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-08 18:52:48,871 - INFO -   Adding field: [Contractor] -> Phone Number
+2026-08-08 18:52:49,384 - INFO -     → User Type selected: Contractor
+2026-08-08 18:53:09,666 - INFO -     → System Data Point selected: Phone Number
+2026-08-08 18:53:09,726 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:53:09,873 - INFO -     → Integrate Now clicked
+2026-08-08 18:53:09,889 - INFO -     → Toast dismissed
+2026-08-08 18:53:09,931 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-08 18:53:10,232 - INFO -   Adding field: [Contractor] -> Pincode
+2026-08-08 18:53:10,527 - INFO -     → User Type selected: Contractor
+2026-08-08 18:53:30,819 - INFO -     → System Data Point selected: Pincode
+2026-08-08 18:53:30,857 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:53:30,979 - INFO -     → Integrate Now clicked
+2026-08-08 18:53:30,989 - INFO -     → Toast dismissed
+2026-08-08 18:53:31,028 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-08 18:53:31,330 - INFO -   Adding field: [Contractor] -> City
+2026-08-08 18:53:31,893 - INFO -     → User Type selected: Contractor
+2026-08-08 18:53:52,213 - INFO -     → System Data Point selected: City
+2026-08-08 18:53:52,253 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:53:52,407 - INFO -     → Integrate Now clicked
+2026-08-08 18:53:52,418 - INFO -     → Toast dismissed
+2026-08-08 18:53:52,483 - INFO -   ✓ Field added successfully: City
+
+2026-08-08 18:53:52,784 - INFO -   Adding field: [Contractor] -> State
+2026-08-08 18:53:53,359 - INFO -     → User Type selected: Contractor
+2026-08-08 18:54:13,618 - INFO -     → System Data Point selected: State
+2026-08-08 18:54:13,652 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:54:13,794 - INFO -     → Integrate Now clicked
+2026-08-08 18:54:13,806 - INFO -     → Toast dismissed
+2026-08-08 18:54:13,874 - INFO -   ✓ Field added successfully: State
+
+2026-08-08 18:54:14,175 - INFO -   Adding field: [Contractor] -> Address
+2026-08-08 18:54:14,706 - INFO -     → User Type selected: Contractor
+2026-08-08 18:54:35,101 - INFO -     → System Data Point selected: Address
+2026-08-08 18:54:35,131 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:54:35,252 - INFO -     → Integrate Now clicked
+2026-08-08 18:54:35,264 - INFO -     → Toast dismissed
+2026-08-08 18:54:35,332 - INFO -   ✓ Field added successfully: Address
+
+2026-08-08 18:54:35,633 - INFO - Processing User Type: Painter
+2026-08-08 18:54:35,634 - INFO -   Adding field: [Painter] -> First Name
+2026-08-08 18:54:36,234 - INFO -     → User Type selected: Painter
+2026-08-08 18:54:56,536 - INFO -     → System Data Point selected: First Name
+2026-08-08 18:54:56,587 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:54:56,686 - INFO -     → Integrate Now clicked
+2026-08-08 18:54:56,694 - INFO -     → Toast dismissed
+2026-08-08 18:54:56,734 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-08 18:54:57,035 - INFO -   Adding field: [Painter] -> Phone Number
+2026-08-08 18:54:58,299 - INFO -     → User Type selected: Painter
+2026-08-08 18:55:18,536 - INFO -     → System Data Point selected: Phone Number
+2026-08-08 18:55:18,570 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:55:18,672 - INFO -     → Integrate Now clicked
+2026-08-08 18:55:18,685 - INFO -     → Toast dismissed
+2026-08-08 18:55:18,742 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-08 18:55:19,043 - INFO -   Adding field: [Painter] -> Pincode
+2026-08-08 18:55:20,375 - INFO -     → User Type selected: Painter
+2026-08-08 18:55:40,740 - INFO -     → System Data Point selected: Pincode
+2026-08-08 18:55:40,776 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:55:40,888 - INFO -     → Integrate Now clicked
+2026-08-08 18:55:40,901 - INFO -     → Toast dismissed
+2026-08-08 18:55:40,953 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-08 18:55:41,254 - INFO -   Adding field: [Painter] -> City
+2026-08-08 18:55:42,518 - INFO -     → User Type selected: Painter
+2026-08-08 18:56:02,786 - INFO -     → System Data Point selected: City
+2026-08-08 18:56:02,857 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:56:02,961 - INFO -     → Integrate Now clicked
+2026-08-08 18:56:02,975 - INFO -     → Toast dismissed
+2026-08-08 18:56:03,201 - INFO -   ✓ Field added successfully: City
+
+2026-08-08 18:56:03,507 - INFO -   Adding field: [Painter] -> State
+2026-08-08 18:56:04,996 - INFO -     → User Type selected: Painter
+2026-08-08 18:56:25,246 - INFO -     → System Data Point selected: State
+2026-08-08 18:56:25,276 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:56:25,386 - INFO -     → Integrate Now clicked
+2026-08-08 18:56:25,395 - INFO -     → Toast dismissed
+2026-08-08 18:56:25,452 - INFO -   ✓ Field added successfully: State
+
+2026-08-08 18:56:25,753 - INFO -   Adding field: [Painter] -> Address
+2026-08-08 18:56:26,980 - INFO -     → User Type selected: Painter
+2026-08-08 18:56:47,308 - INFO -     → System Data Point selected: Address
+2026-08-08 18:56:47,337 - INFO -     → Mandatory toggle enabled
+2026-08-08 18:56:47,467 - INFO -     → Integrate Now clicked
+2026-08-08 18:56:47,476 - INFO -     → Toast dismissed
+2026-08-08 18:56:47,537 - INFO -   ✓ Field added successfully: Address
+
+2026-08-08 18:56:47,838 - INFO - ============================================================
+2026-08-08 18:56:47,839 - INFO - Registration fields batch complete → ✓ 24 succeeded  ✗ 0 failed
+2026-08-08 18:56:50,285 - INFO - Browser closed
+2026-08-08 18:56:54,365 - INFO - 
+Task finished at 2026-08-08 18:56:54
+2026-08-08 18:56:54,366 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260808_184720.log
+
+2026-08-08 20:38:41,735 - INFO - Automation cancelled by user (Ctrl+C)

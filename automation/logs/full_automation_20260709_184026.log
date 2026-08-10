@@ -1,0 +1,86 @@
+2026-07-09 18:40:47,361 - INFO - User selected: Ambica Cable Product Catalogue
+2026-07-09 18:40:47,361 - INFO - ============================================================
+2026-07-09 18:40:47,361 - INFO - STARTING AMBICA CABLE PRODUCT CATALOGUE UPLOAD (Option 21)
+2026-07-09 18:40:47,362 - INFO - ============================================================
+2026-07-09 18:40:47,362 - INFO - Fetching data from https://docs.google.com/spreadsheets/d/11t59mHI3fHS-aqdQZ9IXtKJvEQOtIi5BdYgsQNj3mUE/export?format=csv
+2026-07-09 18:40:48,295 - INFO - Successfully fetched 26 rows.
+2026-07-09 18:40:48,318 - INFO - ====== WebDriver manager ======
+2026-07-09 18:40:50,367 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-09 18:40:50,775 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-09 18:40:53,609 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-09 18:40:53,610 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-09 18:40:55,814 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-09 18:40:55,819 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-09 18:40:55,856 - INFO - ✓ Chrome driver initialized
+2026-07-09 18:40:55,856 - INFO - Opening login page...
+2026-07-09 18:40:57,070 - INFO -   → Policy checkbox checked on login page
+2026-07-09 18:40:57,155 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-09 18:40:57,186 - INFO -   → Policy agreement popup detected
+2026-07-09 18:40:57,222 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-09 18:40:57,747 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-09 18:41:09,057 - INFO - ✓ Login successful
+2026-07-09 18:41:11,058 - INFO - Navigating to Product Catalogue...
+2026-07-09 18:41:12,179 - ERROR - Failed to click Product Catalogue menu item: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x112a543+103f3]
+	chromedriver!GetHandleVerifier [0x112a584+10434]
+	chromedriver!(No symbol) [0xf2a700]
+	chromedriver!(No symbol) [0xf27c99]
+	chromedriver!(No symbol) [0xf1af64]
+	chromedriver!(No symbol) [0xf1c95c]
+	chromedriver!(No symbol) [0xf1b3ef]
+	chromedriver!(No symbol) [0xf1ad35]
+	chromedriver!(No symbol) [0xf1aa35]
+	chromedriver!(No symbol) [0xf18c08]
+	chromedriver!(No symbol) [0xf1931a]
+	chromedriver!(No symbol) [0xf2e18e]
+	chromedriver!(No symbol) [0xfb3ec4]
+	chromedriver!(No symbol) [0xf960cc]
+	chromedriver!(No symbol) [0xfb339a]
+	chromedriver!(No symbol) [0xf95e66]
+	chromedriver!(No symbol) [0xf69159]
+	chromedriver!(No symbol) [0xf69f24]
+	chromedriver!GetHandleVerifier [0x13b4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x13b0119+295fc9]
+	chromedriver!GetHandleVerifier [0x13d103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x11437f6+296a6]
+	chromedriver!GetHandleVerifier [0x114a91d+307cd]
+	chromedriver!GetHandleVerifier [0x1132d18+18bc8]
+	chromedriver!GetHandleVerifier [0x1132ec5+18d75]
+	chromedriver!GetHandleVerifier [0x111c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-09 18:41:27,692 - ERROR - Fallback navigation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x112a543+103f3]
+	chromedriver!GetHandleVerifier [0x112a584+10434]
+	chromedriver!(No symbol) [0xf2a700]
+	chromedriver!(No symbol) [0xf73bab]
+	chromedriver!(No symbol) [0xf73dcb]
+	chromedriver!(No symbol) [0xfb5b32]
+	chromedriver!(No symbol) [0xf96114]
+	chromedriver!(No symbol) [0xfb339a]
+	chromedriver!(No symbol) [0xf95e66]
+	chromedriver!(No symbol) [0xf69159]
+	chromedriver!(No symbol) [0xf69f24]
+	chromedriver!GetHandleVerifier [0x13b4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x13b0119+295fc9]
+	chromedriver!GetHandleVerifier [0x13d103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x11437f6+296a6]
+	chromedriver!GetHandleVerifier [0x114a91d+307cd]
+	chromedriver!GetHandleVerifier [0x1132d18+18bc8]
+	chromedriver!GetHandleVerifier [0x1132ec5+18d75]
+	chromedriver!GetHandleVerifier [0x111c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-09 18:41:29,979 - INFO - Browser closed
+2026-07-09 18:41:34,027 - INFO - 
+Task finished at 2026-07-09 18:41:34
+2026-07-09 18:41:34,028 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260709_184026.log
+
+2026-07-09 18:42:40,619 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,599 @@
+2026-06-30 22:45:12,941 - INFO - User selected: Brand Setting
+2026-06-30 22:45:48,129 - INFO -   Found logo asset: logo.png
+2026-06-30 22:45:48,130 - INFO -   Found splash asset: splash.jpg
+2026-06-30 22:45:48,130 - INFO - ============================================================
+2026-06-30 22:45:48,130 - INFO - BRAND SETTING — Image Processing
+2026-06-30 22:45:48,130 - INFO - ============================================================
+2026-06-30 22:45:48,215 - INFO - ✓ Logo  → logo_processed.jpg  |  35.2 KB  |  JPEG q95
+2026-06-30 22:45:48,245 - INFO - ✓ Splash → splash_processed.jpg  |  0.25 MB  |  JPEG q90
+2026-06-30 22:45:48,247 - INFO - 
+2026-06-30 22:45:48,247 - INFO - Extracting brand colours from logo...
+2026-06-30 22:45:48,399 - INFO -   Colours extracted from logo:
+2026-06-30 22:45:48,400 - INFO -     Header Color     →  #001040  (dominant logo colour)
+2026-06-30 22:45:48,400 - INFO -     Background Color →  #000A29  (35% darker)
+2026-06-30 22:45:48,400 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-30 22:45:48,400 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-30 22:45:48,413 - INFO - ✓ Both images ready
+
+2026-06-30 22:45:48,414 - INFO - ============================================================
+2026-06-30 22:45:48,414 - INFO - BRAND SETTING — Browser Automation
+2026-06-30 22:45:48,414 - INFO - ============================================================
+2026-06-30 22:45:48,432 - INFO - ====== WebDriver manager ======
+2026-06-30 22:45:51,269 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 22:45:51,828 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 22:45:52,290 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-30 22:45:52,291 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-30 22:45:55,714 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-30 22:45:55,724 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-30 22:45:55,774 - INFO - ✓ Chrome driver initialized
+2026-06-30 22:45:55,775 - INFO - Opening login page...
+2026-06-30 22:45:57,523 - INFO -   → Policy checkbox checked on login page
+2026-06-30 22:45:57,698 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-30 22:45:57,719 - INFO -   → Policy agreement popup detected
+2026-06-30 22:45:57,785 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 22:45:59,006 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 22:46:05,383 - INFO -   → Policy agreement popup detected
+2026-06-30 22:46:05,489 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 22:46:06,081 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 22:46:06,095 - INFO - ✓ Login successful
+2026-06-30 22:46:08,103 - INFO - Going to App Settings...
+2026-06-30 22:46:14,936 - INFO -   → Identity & Branding section opened
+2026-06-30 22:46:17,104 - INFO -   → Edit Branding popup opened
+2026-06-30 22:46:17,142 - INFO - ✓ Brand setting form is ready
+2026-06-30 22:46:17,145 - INFO -   Setting company name: Velora Elite
+2026-06-30 22:46:18,136 - INFO -     → HeaderColor: #001040
+2026-06-30 22:46:18,847 - INFO -     → FooterColor: #F5F5F5
+2026-06-30 22:46:19,549 - INFO -     → BodyColor: #FFFFFF
+2026-06-30 22:46:20,224 - INFO -     → BackgroundColor: #000A29
+2026-06-30 22:46:22,284 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-30 22:46:24,310 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-06-30 22:46:24,450 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-30 22:46:27,459 - INFO - ✓ Brand settings saved successfully!
+2026-06-30 22:46:29,796 - INFO - Browser closed
+2026-06-30 22:46:33,860 - INFO - 
+Task finished at 2026-06-30 22:46:33
+2026-06-30 22:46:33,860 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260630_224447.log
+
+2026-06-30 22:46:39,142 - INFO - User selected: Intro Screens
+2026-06-30 22:46:39,143 - INFO - ============================================================
+2026-06-30 22:46:39,144 - INFO - INTRO SCREENS — Image Processing
+2026-06-30 22:46:39,144 - INFO - ============================================================
+2026-06-30 22:46:39,145 - INFO - Found 2 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-06-30 22:46:39,157 - INFO -   ⚙ Processing ChatGPT Image Jun 30, 2026, 10_42_39 PM.png  (941×1672 → need 1080×1920)
+2026-06-30 22:46:39,263 - INFO -   ✓ ChatGPT Image Jun 30, 2026, 10_42_39 PM.png  →  ChatGPT Image Jun 30, 2026, 10_42_39 PM_processed.jpg  |  1080×1920  |  0.29 MB  |  quality 92
+2026-06-30 22:46:39,285 - INFO -   ⚙ Processing ChatGPT Image Jun 30, 2026, 10_44_13 PM.png  (941×1672 → need 1080×1920)
+2026-06-30 22:46:39,404 - INFO -   ✓ ChatGPT Image Jun 30, 2026, 10_44_13 PM.png  →  ChatGPT Image Jun 30, 2026, 10_44_13 PM_processed.jpg  |  1080×1920  |  0.35 MB  |  quality 92
+2026-06-30 22:46:39,405 - INFO -   Processed 2/2 intro images successfully
+
+2026-06-30 22:46:43,999 - INFO - ============================================================
+2026-06-30 22:46:43,999 - INFO - INTRO SCREENS — Browser Automation
+2026-06-30 22:46:43,999 - INFO - ============================================================
+2026-06-30 22:46:44,019 - INFO - ====== WebDriver manager ======
+2026-06-30 22:46:45,957 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 22:46:46,398 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 22:46:46,814 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-30 22:46:46,815 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-30 22:46:48,055 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-30 22:46:48,059 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-30 22:46:48,090 - INFO - ✓ Chrome driver initialized
+2026-06-30 22:46:48,091 - INFO - Opening login page...
+2026-06-30 22:46:49,452 - INFO -   → Policy checkbox checked on login page
+2026-06-30 22:46:49,555 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-30 22:46:49,584 - INFO -   → Policy agreement popup detected
+2026-06-30 22:46:49,630 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 22:46:50,382 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 22:46:56,838 - INFO -   → Policy agreement popup detected
+2026-06-30 22:46:56,882 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 22:46:57,424 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 22:46:57,435 - INFO - ✓ Login successful
+2026-06-30 22:46:59,436 - INFO - Going to App Settings...
+2026-06-30 22:47:05,724 - INFO -   → Intro Screens section opened
+2026-06-30 22:47:05,739 - INFO - ✓ Intro Screens page ready
+2026-06-30 22:47:05,740 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-06-30 22:47:05,740 - INFO - ============================================================
+2026-06-30 22:47:05,740 - INFO - [1/2]
+2026-06-30 22:47:05,741 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-30 22:47:08,213 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-30 22:47:09,142 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-30 22:47:11,236 - INFO -     → Image uploaded: ChatGPT Image Jun 30, 2026, 10_42_39 PM_processed.jpg
+2026-06-30 22:47:11,406 - INFO -     → Launch Screen clicked
+2026-06-30 22:47:15,426 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-30 22:47:16,427 - INFO - [2/2]
+2026-06-30 22:47:16,428 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-30 22:47:18,731 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-30 22:47:19,516 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-30 22:47:21,574 - INFO -     → Image uploaded: ChatGPT Image Jun 30, 2026, 10_44_13 PM_processed.jpg
+2026-06-30 22:47:21,739 - INFO -     → Launch Screen clicked
+2026-06-30 22:47:25,751 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-30 22:47:26,752 - INFO - ============================================================
+2026-06-30 22:47:26,753 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-06-30 22:47:29,026 - INFO - Browser closed
+2026-06-30 22:47:33,079 - INFO - 
+Task finished at 2026-06-30 22:47:33
+2026-06-30 22:47:33,079 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260630_224447.log
+
+2026-06-30 22:50:37,817 - INFO - User selected: Registration Fields
+2026-06-30 22:50:37,817 - INFO - ============================================================
+2026-06-30 22:50:37,818 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-30 22:50:37,818 - INFO - ============================================================
+2026-06-30 22:50:37,829 - INFO - ====== WebDriver manager ======
+2026-06-30 22:50:39,321 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 22:50:39,719 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 22:50:40,093 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-30 22:50:40,094 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-30 22:50:41,349 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-30 22:50:41,354 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-30 22:50:41,396 - INFO - ✓ Chrome driver initialized
+2026-06-30 22:50:41,396 - INFO - Opening login page...
+2026-06-30 22:50:42,801 - INFO -   → Policy checkbox checked on login page
+2026-06-30 22:50:42,938 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-30 22:50:42,966 - INFO -   → Policy agreement popup detected
+2026-06-30 22:50:43,034 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 22:50:43,832 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 22:50:50,330 - INFO -   → Policy agreement popup detected
+2026-06-30 22:50:50,366 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 22:50:50,897 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 22:50:50,904 - INFO - ✓ Login successful
+2026-06-30 22:50:52,905 - INFO - Going to App Settings...
+2026-06-30 22:50:54,023 - INFO -   → Registration Field section opened
+2026-06-30 22:50:54,184 - INFO - ✓ Registration Fields page ready
+2026-06-30 22:50:55,329 - INFO - Found 3 user types: ['Retailers', 'Distributors', 'Masons']
+2026-06-30 22:50:55,330 - INFO - Starting registration fields automation: 18 fields total
+2026-06-30 22:50:55,330 - INFO - ============================================================
+2026-06-30 22:50:55,331 - INFO - Processing User Type: Retailers
+2026-06-30 22:50:55,331 - INFO -   Adding field: [Retailers] -> First Name
+2026-06-30 22:50:56,038 - INFO -     → User Type selected: Retailers
+2026-06-30 22:51:16,279 - INFO -     → System Data Point selected: First Name
+2026-06-30 22:51:16,316 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:51:16,469 - INFO -     → Integrate Now clicked
+2026-06-30 22:51:16,491 - INFO -     → Toast dismissed
+2026-06-30 22:51:16,574 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-30 22:51:16,875 - INFO -   Adding field: [Retailers] -> Phone Number
+2026-06-30 22:51:17,462 - INFO -     → User Type selected: Retailers
+2026-06-30 22:51:37,769 - INFO -     → System Data Point selected: Phone Number
+2026-06-30 22:51:37,801 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:51:37,968 - INFO -     → Integrate Now clicked
+2026-06-30 22:51:37,988 - INFO -     → Toast dismissed
+2026-06-30 22:51:38,066 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-30 22:51:38,367 - INFO -   Adding field: [Retailers] -> Pincode
+2026-06-30 22:51:38,975 - INFO -     → User Type selected: Retailers
+2026-06-30 22:51:59,168 - INFO -     → System Data Point selected: Pincode
+2026-06-30 22:51:59,219 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:51:59,423 - INFO -     → Integrate Now clicked
+2026-06-30 22:51:59,441 - INFO -     → Toast dismissed
+2026-06-30 22:51:59,569 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-30 22:51:59,870 - INFO -   Adding field: [Retailers] -> City
+2026-06-30 22:52:00,521 - INFO -     → User Type selected: Retailers
+2026-06-30 22:52:20,989 - INFO -     → System Data Point selected: City
+2026-06-30 22:52:21,070 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:52:21,432 - INFO -     → Integrate Now clicked
+2026-06-30 22:52:21,452 - INFO -     → Toast dismissed
+2026-06-30 22:52:21,539 - INFO -   ✓ Field added successfully: City
+
+2026-06-30 22:52:21,841 - INFO -   Adding field: [Retailers] -> State
+2026-06-30 22:52:22,473 - INFO -     → User Type selected: Retailers
+2026-06-30 22:52:42,620 - INFO -     → System Data Point selected: State
+2026-06-30 22:52:42,681 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:52:42,849 - INFO -     → Integrate Now clicked
+2026-06-30 22:52:42,866 - INFO -     → Toast dismissed
+2026-06-30 22:52:42,958 - INFO -   ✓ Field added successfully: State
+
+2026-06-30 22:52:43,259 - INFO -   Adding field: [Retailers] -> Address
+2026-06-30 22:52:43,689 - INFO -     → User Type selected: Retailers
+2026-06-30 22:53:04,214 - INFO -     → System Data Point selected: Address
+2026-06-30 22:53:04,291 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:53:04,536 - INFO -     → Integrate Now clicked
+2026-06-30 22:53:04,573 - INFO -     → Toast dismissed
+2026-06-30 22:53:04,680 - INFO -   ✓ Field added successfully: Address
+
+2026-06-30 22:53:04,982 - INFO - Processing User Type: Distributors
+2026-06-30 22:53:04,983 - INFO -   Adding field: [Distributors] -> First Name
+2026-06-30 22:53:06,016 - INFO -     → User Type selected: Distributors
+2026-06-30 22:53:26,270 - INFO -     → System Data Point selected: First Name
+2026-06-30 22:53:26,308 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:53:26,467 - INFO -     → Integrate Now clicked
+2026-06-30 22:53:26,487 - INFO -     → Toast dismissed
+2026-06-30 22:53:26,581 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-30 22:53:26,882 - INFO -   Adding field: [Distributors] -> Phone Number
+2026-06-30 22:53:27,559 - INFO -     → User Type selected: Distributors
+2026-06-30 22:53:47,753 - INFO -     → System Data Point selected: Phone Number
+2026-06-30 22:53:47,792 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:53:47,992 - INFO -     → Integrate Now clicked
+2026-06-30 22:53:48,017 - INFO -     → Toast dismissed
+2026-06-30 22:53:48,111 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-30 22:53:48,412 - INFO -   Adding field: [Distributors] -> Pincode
+2026-06-30 22:53:49,007 - INFO -     → User Type selected: Distributors
+2026-06-30 22:54:09,984 - INFO -     → System Data Point selected: Pincode
+2026-06-30 22:54:10,076 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:54:10,351 - INFO -     → Integrate Now clicked
+2026-06-30 22:54:10,388 - INFO -     → Toast dismissed
+2026-06-30 22:54:10,885 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-30 22:54:11,188 - INFO -   Adding field: [Distributors] -> City
+2026-06-30 22:54:11,558 - INFO -     → User Type selected: Distributors
+2026-06-30 22:54:31,813 - INFO -     → System Data Point selected: City
+2026-06-30 22:54:31,843 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:54:32,066 - INFO -     → Integrate Now clicked
+2026-06-30 22:54:32,085 - INFO -     → Toast dismissed
+2026-06-30 22:54:32,264 - INFO -   ✓ Field added successfully: City
+
+2026-06-30 22:54:32,565 - INFO -   Adding field: [Distributors] -> State
+2026-06-30 22:54:33,806 - INFO -     → User Type selected: Distributors
+2026-06-30 22:54:54,119 - INFO -     → System Data Point selected: State
+2026-06-30 22:54:54,255 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:54:54,526 - INFO -     → Integrate Now clicked
+2026-06-30 22:54:54,552 - INFO -     → Toast dismissed
+2026-06-30 22:54:54,675 - INFO -   ✓ Field added successfully: State
+
+2026-06-30 22:54:54,983 - INFO -   Adding field: [Distributors] -> Address
+2026-06-30 22:54:55,690 - INFO -     → User Type selected: Distributors
+2026-06-30 22:55:15,926 - INFO -     → System Data Point selected: Address
+2026-06-30 22:55:15,964 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:55:16,318 - INFO -     → Integrate Now clicked
+2026-06-30 22:55:16,335 - INFO -     → Toast dismissed
+2026-06-30 22:55:16,433 - INFO -   ✓ Field added successfully: Address
+
+2026-06-30 22:55:16,734 - INFO - Processing User Type: Masons
+2026-06-30 22:55:16,735 - INFO -   Adding field: [Masons] -> First Name
+2026-06-30 22:55:17,372 - INFO -     → User Type selected: Masons
+2026-06-30 22:55:37,676 - INFO -     → System Data Point selected: First Name
+2026-06-30 22:55:37,722 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:55:37,942 - INFO -     → Integrate Now clicked
+2026-06-30 22:55:38,004 - INFO -     → Toast dismissed
+2026-06-30 22:55:38,133 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-30 22:55:38,434 - INFO -   Adding field: [Masons] -> Phone Number
+2026-06-30 22:55:39,116 - INFO -     → User Type selected: Masons
+2026-06-30 22:55:59,543 - INFO -     → System Data Point selected: Phone Number
+2026-06-30 22:55:59,663 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:55:59,914 - INFO -     → Integrate Now clicked
+2026-06-30 22:55:59,934 - INFO -     → Toast dismissed
+2026-06-30 22:56:00,074 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-30 22:56:00,375 - INFO -   Adding field: [Masons] -> Pincode
+2026-06-30 22:56:01,273 - INFO -     → User Type selected: Masons
+2026-06-30 22:56:21,481 - INFO -     → System Data Point selected: Pincode
+2026-06-30 22:56:21,531 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:56:21,686 - INFO -     → Integrate Now clicked
+2026-06-30 22:56:21,704 - INFO -     → Toast dismissed
+2026-06-30 22:56:21,778 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-30 22:56:22,086 - INFO -   Adding field: [Masons] -> City
+2026-06-30 22:56:22,882 - INFO -     → User Type selected: Masons
+2026-06-30 22:56:43,188 - INFO -     → System Data Point selected: City
+2026-06-30 22:56:43,236 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:56:43,493 - INFO -     → Integrate Now clicked
+2026-06-30 22:56:43,516 - INFO -     → Toast dismissed
+2026-06-30 22:56:43,708 - INFO -   ✓ Field added successfully: City
+
+2026-06-30 22:56:44,009 - INFO -   Adding field: [Masons] -> State
+2026-06-30 22:56:44,748 - INFO -     → User Type selected: Masons
+2026-06-30 22:57:05,208 - INFO -     → System Data Point selected: State
+2026-06-30 22:57:05,274 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:57:05,457 - INFO -     → Integrate Now clicked
+2026-06-30 22:57:05,475 - INFO -     → Toast dismissed
+2026-06-30 22:57:05,584 - INFO -   ✓ Field added successfully: State
+
+2026-06-30 22:57:05,886 - INFO -   Adding field: [Masons] -> Address
+2026-06-30 22:57:06,275 - INFO -     → User Type selected: Masons
+2026-06-30 22:57:26,575 - INFO -     → System Data Point selected: Address
+2026-06-30 22:57:26,642 - INFO -     → Mandatory toggle enabled
+2026-06-30 22:57:26,952 - INFO -     → Integrate Now clicked
+2026-06-30 22:57:26,973 - INFO -     → Toast dismissed
+2026-06-30 22:57:27,083 - INFO -   ✓ Field added successfully: Address
+
+2026-06-30 22:57:27,384 - INFO - ============================================================
+2026-06-30 22:57:27,385 - INFO - Registration fields batch complete → ✓ 18 succeeded  ✗ 0 failed
+2026-06-30 22:57:29,877 - INFO - Browser closed
+2026-06-30 22:57:33,927 - INFO - 
+Task finished at 2026-06-30 22:57:33
+2026-06-30 22:57:33,927 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260630_224447.log
+
+2026-06-30 23:03:47,354 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-30 23:03:47,356 - INFO - ============================================================
+2026-06-30 23:03:47,357 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-30 23:03:47,357 - INFO - ============================================================
+2026-06-30 23:03:47,387 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-30 23:03:47,388 - INFO - Output folder: automation\processed_images
+2026-06-30 23:03:47,388 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-30 23:03:47,499 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-30 23:03:47,593 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-30 23:03:47,677 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-30 23:03:47,760 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-30 23:03:47,817 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-30 23:03:47,865 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-30 23:03:47,896 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-30 23:03:47,972 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-30 23:03:48,022 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-30 23:03:48,081 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-30 23:03:48,178 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-30 23:03:48,272 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-30 23:03:48,352 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-30 23:03:48,422 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-30 23:03:48,423 - INFO - 
+✓ Processed 14 images successfully
+
+2026-06-30 23:03:48,423 - INFO - ✓ 14 images processed successfully.
+
+2026-06-30 23:04:19,473 - INFO - Target User Type: Retailers
+2026-06-30 23:04:19,549 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-30 23:04:19,550 - INFO -   → Extracted Title: Activity
+2026-06-30 23:04:19,550 - INFO -   → Matched Identity: claimhistory
+2026-06-30 23:04:19,550 - INFO -   → Extracted Color: #F86008
+2026-06-30 23:04:19,550 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,574 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-30 23:04:19,575 - INFO -   → Extracted Title: E-Warranty
+2026-06-30 23:04:19,575 - INFO -   → Matched Identity: e-warrant
+2026-06-30 23:04:19,575 - INFO -   → Extracted Color: #20C078
+2026-06-30 23:04:19,575 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,604 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-30 23:04:19,604 - INFO -   → Extracted Title: KYC
+2026-06-30 23:04:19,605 - INFO -   → Matched Identity: kycdetails
+2026-06-30 23:04:19,605 - INFO -   → Extracted Color: #F85808
+2026-06-30 23:04:19,605 - INFO -   → Toggle Option: side menu
+2026-06-30 23:04:19,637 - INFO - Dynamically mapped image 'Language.png':
+2026-06-30 23:04:19,638 - INFO -   → Extracted Title: Language
+2026-06-30 23:04:19,638 - INFO -   → Matched Identity: chooselanguage
+2026-06-30 23:04:19,639 - INFO -   → Extracted Color: #5010E8
+2026-06-30 23:04:19,639 - INFO -   → Toggle Option: side menu
+2026-06-30 23:04:19,670 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-30 23:04:19,671 - INFO -   → Extracted Title: My Wallet
+2026-06-30 23:04:19,671 - INFO -   → Matched Identity: wallet
+2026-06-30 23:04:19,671 - INFO -   → Extracted Color: #20A020
+2026-06-30 23:04:19,672 - INFO -   → Toggle Option: both
+2026-06-30 23:04:19,701 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-30 23:04:19,702 - INFO -   → Extracted Title: Product Catalog
+2026-06-30 23:04:19,702 - INFO -   → Matched Identity: productcatalogue
+2026-06-30 23:04:19,702 - INFO -   → Extracted Color: #6028E8
+2026-06-30 23:04:19,702 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,726 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-30 23:04:19,730 - INFO -   → Extracted Title: Prospectus
+2026-06-30 23:04:19,730 - INFO -   → Matched Identity: brochure
+2026-06-30 23:04:19,731 - INFO -   → Extracted Color: #0848F8
+2026-06-30 23:04:19,732 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,759 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-30 23:04:19,759 - INFO -   → Extracted Title: Refer & Earn
+2026-06-30 23:04:19,759 - INFO -   → Matched Identity: referandearn
+2026-06-30 23:04:19,760 - INFO -   → Extracted Color: #089098
+2026-06-30 23:04:19,760 - INFO -   → Toggle Option: both
+2026-06-30 23:04:19,792 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-30 23:04:19,793 - INFO -   → Extracted Title: Rewards
+2026-06-30 23:04:19,793 - INFO -   → Matched Identity: gift
+2026-06-30 23:04:19,793 - INFO -   → Extracted Color: #F00048
+2026-06-30 23:04:19,793 - INFO -   → Toggle Option: both
+2026-06-30 23:04:19,822 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-30 23:04:19,823 - INFO -   → Extracted Title: Scan Activity
+2026-06-30 23:04:19,823 - INFO -   → Matched Identity: codedetails
+2026-06-30 23:04:19,823 - INFO -   → Extracted Color: #10A010
+2026-06-30 23:04:19,824 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,852 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-30 23:04:19,852 - INFO -   → Extracted Title: Scan History
+2026-06-30 23:04:19,853 - INFO -   → Matched Identity: history
+2026-06-30 23:04:19,853 - INFO -   → Extracted Color: #4808F0
+2026-06-30 23:04:19,853 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,876 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-30 23:04:19,877 - INFO -   → Extracted Title: Send Points
+2026-06-30 23:04:19,878 - INFO -   → Matched Identity: transferpoints
+2026-06-30 23:04:19,880 - INFO -   → Extracted Color: #F86008
+2026-06-30 23:04:19,880 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,904 - INFO - Dynamically mapped image 'Support.png':
+2026-06-30 23:04:19,904 - INFO -   → Extracted Title: Support
+2026-06-30 23:04:19,905 - INFO -   → Matched Identity: help
+2026-06-30 23:04:19,905 - INFO -   → Extracted Color: #0030F0
+2026-06-30 23:04:19,905 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,935 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-30 23:04:19,935 - INFO -   → Extracted Title: Updates
+2026-06-30 23:04:19,935 - INFO -   → Matched Identity: blog
+2026-06-30 23:04:19,935 - INFO -   → Extracted Color: #F87820
+2026-06-30 23:04:19,936 - INFO -   → Toggle Option: dashboard only
+2026-06-30 23:04:19,936 - INFO - 
+============================================================
+2026-06-30 23:04:19,936 - INFO - Launching Browser and Starting Upload Process
+2026-06-30 23:04:19,936 - INFO - ============================================================
+2026-06-30 23:04:19,953 - INFO - ====== WebDriver manager ======
+2026-06-30 23:04:22,821 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 23:04:23,863 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 23:04:24,800 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-30 23:04:24,801 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-30 23:04:26,316 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-30 23:04:26,373 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-30 23:04:26,459 - INFO - ✓ Chrome driver initialized
+2026-06-30 23:04:26,464 - INFO - 
+→ Attempting login...
+
+2026-06-30 23:04:26,468 - INFO - Opening login page...
+2026-06-30 23:04:28,214 - INFO -   → Policy checkbox checked on login page
+2026-06-30 23:04:28,315 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-30 23:04:28,329 - INFO -   → Policy agreement popup detected
+2026-06-30 23:04:28,377 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 23:04:29,752 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 23:04:41,223 - INFO - ✓ Login successful
+2026-06-30 23:04:43,224 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-30 23:04:43,224 - INFO - Navigating to App Settings...
+2026-06-30 23:04:49,751 - INFO - ✓ Dashboard Icons section loaded
+2026-06-30 23:04:51,752 - INFO - 
+→ Starting batch upload of 14 custom icons...
+
+2026-06-30 23:04:51,753 - INFO - Starting batch – 14 configured entries
+2026-06-30 23:04:51,754 - INFO - Total icons to upload after expansion: 14
+2026-06-30 23:04:51,754 - INFO - ============================================================
+2026-06-30 23:04:51,754 - INFO - [1/14]
+2026-06-30 23:04:51,755 - INFO -   Adding: [Retailers] Activity  (claimhistory)
+2026-06-30 23:05:04,883 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:05:05,055 - INFO -     → Icon identity: claimhistory
+2026-06-30 23:05:05,276 - INFO -     → Display title: Activity
+2026-06-30 23:05:06,091 - INFO -     → Icon color: #F86008
+2026-06-30 23:05:06,148 - INFO -     → Toggle: dashboard only
+2026-06-30 23:05:08,232 - INFO -     → Image uploaded: Activity.png
+2026-06-30 23:05:08,434 - INFO -     → Form submitted
+2026-06-30 23:05:19,356 - INFO -   ✓ Icon added: Activity
+
+2026-06-30 23:05:20,357 - INFO - [2/14]
+2026-06-30 23:05:20,357 - INFO -   Adding: [Retailers] E-Warranty  (e-warrant)
+2026-06-30 23:05:33,087 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:05:33,478 - INFO -     → Icon identity: e-warrant
+2026-06-30 23:05:33,804 - INFO -     → Display title: E-Warranty
+2026-06-30 23:05:34,419 - INFO -     → Icon color: #20C078
+2026-06-30 23:05:34,463 - INFO -     → Toggle: dashboard only
+2026-06-30 23:05:36,522 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-30 23:05:36,673 - INFO -     → Form submitted
+2026-06-30 23:05:47,589 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-30 23:05:48,590 - INFO - [3/14]
+2026-06-30 23:05:48,590 - INFO -   Adding: [Retailers] KYC  (kycdetails)
+2026-06-30 23:06:01,371 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:06:01,537 - INFO -     → Icon identity: kycdetails
+2026-06-30 23:06:01,755 - INFO -     → Display title: KYC
+2026-06-30 23:06:02,507 - INFO -     → Icon color: #F85808
+2026-06-30 23:06:02,577 - INFO -     → Toggle: side menu
+2026-06-30 23:06:04,662 - INFO -     → Image uploaded: KYC.png
+2026-06-30 23:06:04,883 - INFO -     → Form submitted
+2026-06-30 23:06:15,469 - INFO -   ✓ Icon added: KYC
+
+2026-06-30 23:06:16,470 - INFO - [4/14]
+2026-06-30 23:06:16,471 - INFO -   Adding: [Retailers] Language  (chooselanguage)
+2026-06-30 23:06:29,042 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:06:29,140 - INFO -     → Icon identity: chooselanguage
+2026-06-30 23:06:29,306 - INFO -     → Display title: Language
+2026-06-30 23:06:29,885 - INFO -     → Icon color: #5010E8
+2026-06-30 23:06:29,922 - INFO -     → Toggle: side menu
+2026-06-30 23:06:31,972 - INFO -     → Image uploaded: Language.png
+2026-06-30 23:06:32,109 - INFO -     → Form submitted
+2026-06-30 23:06:42,879 - INFO -   ✓ Icon added: Language
+
+2026-06-30 23:06:43,880 - INFO - [5/14]
+2026-06-30 23:06:43,881 - INFO -   Adding: [Retailers] My Wallet  (wallet)
+2026-06-30 23:06:56,654 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:06:56,805 - INFO -     → Icon identity: wallet
+2026-06-30 23:06:57,002 - INFO -     → Display title: My Wallet
+2026-06-30 23:06:57,686 - INFO -     → Icon color: #20A020
+2026-06-30 23:06:57,750 - INFO -     → Toggle: both
+2026-06-30 23:06:59,838 - INFO -     → Image uploaded: My Wallet.png
+2026-06-30 23:06:59,998 - INFO -     → Form submitted
+2026-06-30 23:07:10,820 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-30 23:07:11,821 - INFO - [6/14]
+2026-06-30 23:07:11,822 - INFO -   Adding: [Retailers] Product Catalog  (productcatalogue)
+2026-06-30 23:07:24,481 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:07:24,596 - INFO -     → Icon identity: productcatalogue
+2026-06-30 23:07:24,821 - INFO -     → Display title: Product Catalog
+2026-06-30 23:07:25,438 - INFO -     → Icon color: #6028E8
+2026-06-30 23:07:25,502 - INFO -     → Toggle: dashboard only
+2026-06-30 23:07:27,566 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-30 23:07:27,737 - INFO -     → Form submitted
+2026-06-30 23:07:38,536 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-30 23:07:39,537 - INFO - [7/14]
+2026-06-30 23:07:39,538 - INFO -   Adding: [Retailers] Prospectus  (brochure)
+2026-06-30 23:07:52,384 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:07:52,531 - INFO -     → Icon identity: brochure
+2026-06-30 23:07:52,730 - INFO -     → Display title: Prospectus
+2026-06-30 23:07:53,399 - INFO -     → Icon color: #0848F8
+2026-06-30 23:07:53,454 - INFO -     → Toggle: dashboard only
+2026-06-30 23:07:55,547 - INFO -     → Image uploaded: Prospectus.png
+2026-06-30 23:07:55,762 - INFO -     → Form submitted
+2026-06-30 23:08:06,660 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-30 23:08:07,664 - INFO - [8/14]
+2026-06-30 23:08:07,665 - INFO -   Adding: [Retailers] Refer & Earn  (referandearn)
+2026-06-30 23:08:20,355 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:08:20,517 - INFO -     → Icon identity: referandearn
+2026-06-30 23:08:20,709 - INFO -     → Display title: Refer & Earn
+2026-06-30 23:08:21,570 - INFO -     → Icon color: #089098
+2026-06-30 23:08:21,665 - INFO -     → Toggle: both
+2026-06-30 23:08:23,729 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-30 23:08:23,920 - INFO -     → Form submitted
+2026-06-30 23:08:34,746 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-30 23:08:35,747 - INFO - [9/14]
+2026-06-30 23:08:35,748 - INFO -   Adding: [Retailers] Rewards  (gift)
+2026-06-30 23:08:48,453 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:08:48,601 - INFO -     → Icon identity: gift
+2026-06-30 23:08:48,808 - INFO -     → Display title: Rewards
+2026-06-30 23:08:49,435 - INFO -     → Icon color: #F00048
+2026-06-30 23:08:49,479 - INFO -     → Toggle: both
+2026-06-30 23:08:51,550 - INFO -     → Image uploaded: Rewards.png
+2026-06-30 23:08:51,699 - INFO -     → Form submitted
+2026-06-30 23:09:02,480 - INFO -   ✓ Icon added: Rewards
+
+2026-06-30 23:09:03,481 - INFO - [10/14]
+2026-06-30 23:09:03,481 - INFO -   Adding: [Retailers] Scan Activity  (codedetails)
+2026-06-30 23:09:16,143 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:09:16,256 - INFO -     → Icon identity: codedetails
+2026-06-30 23:09:16,475 - INFO -     → Display title: Scan Activity
+2026-06-30 23:09:17,322 - INFO -     → Icon color: #10A010
+2026-06-30 23:09:17,380 - INFO -     → Toggle: dashboard only
+2026-06-30 23:09:19,442 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-30 23:09:19,617 - INFO -     → Form submitted
+2026-06-30 23:09:30,743 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-30 23:09:31,774 - INFO - [11/14]
+2026-06-30 23:09:31,822 - INFO -   Adding: [Retailers] Scan History  (history)
+2026-06-30 23:09:45,005 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:09:45,183 - INFO -     → Icon identity: history
+2026-06-30 23:09:45,536 - INFO -     → Display title: Scan History
+2026-06-30 23:09:46,544 - INFO -     → Icon color: #4808F0
+2026-06-30 23:09:46,705 - INFO -     → Toggle: dashboard only
+2026-06-30 23:09:48,863 - INFO -     → Image uploaded: Scan History.png
+2026-06-30 23:09:49,042 - INFO -     → Form submitted
+2026-06-30 23:09:59,966 - INFO -   ✓ Icon added: Scan History
+
+2026-06-30 23:10:00,974 - INFO - [12/14]
+2026-06-30 23:10:00,976 - INFO -   Adding: [Retailers] Send Points  (transferpoints)
+2026-06-30 23:10:13,548 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:10:13,652 - INFO -     → Icon identity: transferpoints
+2026-06-30 23:10:13,821 - INFO -     → Display title: Send Points
+2026-06-30 23:10:14,318 - INFO -     → Icon color: #F86008
+2026-06-30 23:10:14,358 - INFO -     → Toggle: dashboard only
+2026-06-30 23:10:16,435 - INFO -     → Image uploaded: Send Points.png
+2026-06-30 23:10:16,568 - INFO -     → Form submitted
+2026-06-30 23:10:27,319 - INFO -   ✓ Icon added: Send Points
+
+2026-06-30 23:10:28,320 - INFO - [13/14]
+2026-06-30 23:10:28,321 - INFO -   Adding: [Retailers] Support  (help)
+2026-06-30 23:10:41,350 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:10:41,574 - INFO -     → Icon identity: help
+2026-06-30 23:10:41,823 - INFO -     → Display title: Support
+2026-06-30 23:10:42,636 - INFO -     → Icon color: #0030F0
+2026-06-30 23:10:42,807 - INFO -     → Toggle: dashboard only
+2026-06-30 23:10:45,156 - INFO -     → Image uploaded: Support.png
+2026-06-30 23:10:45,374 - INFO -     → Form submitted
+2026-06-30 23:10:56,340 - INFO -   ✓ Icon added: Support
+
+2026-06-30 23:10:57,341 - INFO - [14/14]
+2026-06-30 23:10:57,342 - INFO -   Adding: [Retailers] Updates  (blog)
+2026-06-30 23:11:10,053 - INFO -     → User type selected by text: Retailers
+2026-06-30 23:11:10,192 - INFO -     → Icon identity: blog
+2026-06-30 23:11:10,364 - INFO -     → Display title: Updates
+2026-06-30 23:11:10,961 - INFO -     → Icon color: #F87820
+2026-06-30 23:11:11,001 - INFO -     → Toggle: dashboard only
+2026-06-30 23:11:13,076 - INFO -     → Image uploaded: Updates.png
+2026-06-30 23:11:13,207 - INFO -     → Form submitted
+2026-06-30 23:11:23,908 - INFO -   ✓ Icon added: Updates
+
+2026-06-30 23:11:24,909 - INFO - ============================================================
+2026-06-30 23:11:24,910 - INFO - Batch complete → ✓ 14 succeeded  ✗ 0 failed
+2026-06-30 23:11:24,910 - INFO - 
+============================================================
+2026-06-30 23:11:24,910 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-30 23:11:24,911 - INFO - ============================================================
+2026-06-30 23:11:24,912 - INFO - ✓ Successful uploads: 14
+2026-06-30 23:11:24,913 - INFO - ✗ Failed uploads: 0
+2026-06-30 23:11:24,913 - INFO - Total processed: 14
+2026-06-30 23:11:24,914 - INFO - Success rate: 100.0%
+2026-06-30 23:11:24,914 - INFO - ============================================================
+2026-06-30 23:11:27,248 - INFO - Browser closed
+2026-06-30 23:11:31,282 - INFO - 
+Task finished at 2026-06-30 23:11:31
+2026-06-30 23:11:31,284 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260630_224447.log
+

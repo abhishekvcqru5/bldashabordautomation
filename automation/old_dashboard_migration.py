@@ -21,7 +21,7 @@ from banner_promotion import BannerImageProcessor, BannerAutomation
 logger = logging.getLogger(__name__)
 
 OLD_DASHBOARD_URL = "https://www.vcqru.com/login.aspx"
-IMAGE_SAVE_DIR = Path("old_dashboard_intro_image")
+IMAGE_SAVE_DIR = Path(__file__).resolve().parent.parent / "old_dashboard_intro_image"
 
 class OldDashboardExtractor:
     """Extracts data from the old VCQRU dashboard."""
@@ -118,11 +118,11 @@ class OldDashboardExtractor:
                 logger.info(f"    - Email entered: {email}")
                 logger.info("    - Clicking 'login' button...")
                 
-                # Use a real click if possible, fallback to JS
+                # Use JS click for background task reliability, fallback to selenium click
                 try:
-                    login_btn.click()
-                except:
                     self.driver.execute_script("arguments[0].click();", login_btn)
+                except Exception:
+                    login_btn.click()
                 
             except Exception as e:
                 logger.error(f"  ✗ Failed to fill/submit credentials: {e}")
@@ -559,7 +559,7 @@ class OldDashboardExtractor:
         """
         banners = []
         # Save dir for downloaded banners from old dashboard
-        banner_save_dir = Path("old_dashboard_banners")
+        banner_save_dir = Path(__file__).resolve().parent.parent / "old_dashboard_banners"
         banner_save_dir.mkdir(parents=True, exist_ok=True)
         
         try:
@@ -650,6 +650,277 @@ class OldDashboardExtractor:
             self.driver.switch_to.default_content()
             return []
 
+    def navigate_to_gift_settings(self):
+        """Navigate to Build Loyalty -> Gift Setting."""
+        try:
+            logger.info(f"Navigating to gift settings from: {self.driver.current_url}")
+
+            self.driver.switch_to.default_content()
+
+            # 1. Handle any potential popups/modals
+            try:
+                close_buttons = self.driver.find_elements(By.XPATH, "//button[contains(text(), 'Close') or contains(text(), '×')] | //a[contains(@class, 'close')]")
+                for btn in close_buttons:
+                    if btn.is_displayed():
+                        logger.info("    ✓ Found a popup, closing it...")
+                        self.driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(1)
+            except:
+                pass
+
+            time.sleep(5)
+
+            # Build list of contexts to search
+            all_frames = []
+            for tag in ("frame", "iframe"):
+                try:
+                    all_frames.extend(self.driver.find_elements(By.TAG_NAME, tag))
+                except:
+                    pass
+            contexts = [None] + all_frames
+
+            logger.info(f"  → Searching sidebar for Loyalty App across {len(contexts)} context(s)")
+
+            found_gift = False
+            for ctx in contexts:
+                try:
+                    self.driver.switch_to.default_content()
+                    if ctx is not None:
+                        self.driver.switch_to.frame(ctx)
+
+                    # Step 1: Find and click Build Loyalty App menu
+                    loyalty = None
+                    try:
+                        el = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_blapp > a")
+                        if el.is_displayed():
+                            loyalty = el
+                    except:
+                        pass
+
+                    if not loyalty:
+                        # Fallback text search
+                        loyalty = self._find_by_text_js("build loyalty", ["a", "span", "li"])
+
+                    if not loyalty:
+                        continue  # Not in this context
+
+                    logger.info("    ✓ Found Build Loyalty App menu, clicking...")
+                    self.driver.execute_script(
+                        "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", loyalty
+                    )
+                    time.sleep(3)
+
+                    # Step 2: Find and click Gift submenu
+                    gift_link = None
+                    try:
+                        el = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_Libapp6 > a")
+                        if el.is_displayed():
+                            gift_link = el
+                    except:
+                        pass
+
+                    if not gift_link:
+                        # Fallback text search
+                        gift_link = self._find_by_text_js("gift", ["a", "li"])
+
+                    if not gift_link:
+                        # One retry — click loyalty again to re-expand and search again
+                        self.driver.execute_script("arguments[0].click();", loyalty)
+                        time.sleep(2)
+                        gift_link = self.driver.find_element(By.CSS_SELECTOR, "#ctl00_Libapp6 > a")
+
+                    if not gift_link:
+                        continue
+
+                    logger.info("    ✓ Found Gift Setting link, clicking...")
+                    self.driver.execute_script(
+                        "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", gift_link
+                    )
+                    time.sleep(5)
+                    found_gift = True
+                    break
+                except Exception as frame_e:
+                    logger.debug(f"    Context navigation failed: {frame_e}")
+                    continue
+
+            self.driver.switch_to.default_content()
+
+            if not found_gift:
+                logger.error("  ✗ Could not navigate to 'Gift Setting'.")
+                self._ss("gift_menu_not_found")
+                return False
+
+            return True
+
+        except Exception as e:
+            logger.error(f"Navigation failed: {e}")
+            self._ss("nav_exception")
+            return False
+
+    def extract_gifts(self):
+        """
+        Extract gift name, points, value, description, and image from the old dashboard.
+        Returns a list of dicts: {name, points, value, description, image_path}
+        """
+        gifts = []
+        gift_save_dir = Path(__file__).resolve().parent.parent / "old_dashboard_gifts"
+        gift_save_dir.mkdir(parents=True, exist_ok=True)
+
+        try:
+            logger.info("  → Searching for gifts data...")
+
+            # Find all switchable contexts
+            all_frames = []
+            for tag in ("frame", "iframe"):
+                try:
+                    all_frames.extend(self.driver.find_elements(By.TAG_NAME, tag))
+                except:
+                    pass
+            contexts = [None] + all_frames
+
+            table = None
+            for ctx in contexts:
+                try:
+                    self.driver.switch_to.default_content()
+                    if ctx is not None:
+                        self.driver.switch_to.frame(ctx)
+
+                    # Try to find the specific table by ID 'dataTable'
+                    try:
+                        t = self.driver.find_element(By.ID, "dataTable")
+                        if t.is_displayed():
+                            table = t
+                            logger.info("    ✓ Found table with ID: dataTable in context frame")
+                            break
+                    except:
+                        continue
+                except:
+                    continue
+
+            if not table:
+                # If not found in frames, try in default context
+                self.driver.switch_to.default_content()
+                try:
+                    table = self.driver.find_element(By.ID, "dataTable")
+                    logger.info("    ✓ Found table with ID: dataTable in default context")
+                except:
+                    pass
+
+            if not table:
+                logger.warning("    ✗ No 'dataTable' found for gifts. Trying to find any table with relevant headers...")
+                # Try finding any table
+                # We will check if there is any table visible
+                self.driver.switch_to.default_content()
+                for ctx in contexts:
+                    try:
+                        self.driver.switch_to.default_content()
+                        if ctx is not None:
+                            self.driver.switch_to.frame(ctx)
+                        tables = self.driver.find_elements(By.TAG_NAME, "table")
+                        if tables:
+                            table = tables[0]
+                            logger.info("    ✓ Found a table in frame context")
+                            break
+                    except:
+                        continue
+
+            if not table:
+                logger.error("    ✗ Could not find the gifts table.")
+                self._ss("no_gifts_table")
+                return []
+
+            # Let's find the rows
+            all_rows = table.find_elements(By.CSS_SELECTOR, "tbody > tr")
+            if not all_rows:
+                all_rows = table.find_elements(By.TAG_NAME, "tr")
+
+            rows = []
+            for r in all_rows:
+                # Skip header rows
+                if r.find_elements(By.TAG_NAME, "th"):
+                    continue
+                # Skip rows with no tds
+                if not r.find_elements(By.TAG_NAME, "td"):
+                    continue
+                rows.append(r)
+
+            if not rows:
+                logger.warning("    ✗ No rows found in the table.")
+                self._ss("no_gift_rows")
+                return []
+
+            logger.info(f"    → Found {len(rows)} potential gift rows to extract")
+
+            for i, row in enumerate(rows, 1):
+                try:
+                    # selectors from prompt:
+                    # image selector: tr:nth-child(i) > td.gift-imgs > img
+                    # description selector: tr:nth-child(i) > td:nth-child(7)
+                    # value selector: tr:nth-child(i) > td:nth-child(6)
+                    # point selector: tr:nth-child(i) > td:nth-child(5)
+                    # name selector: tr:nth-child(i) > td:nth-child(4)
+                    
+                    try:
+                        img_el = row.find_element(By.CSS_SELECTOR, "td.gift-imgs > img")
+                        img_url = (img_el.get_attribute("src") or "").strip()
+                    except Exception:
+                        # Fallback image search
+                        img_els = row.find_elements(By.TAG_NAME, "img")
+                        img_url = (img_els[0].get_attribute("src") or "").strip() if img_els else ""
+
+                    # Using indices
+                    cells = row.find_elements(By.TAG_NAME, "td")
+                    if len(cells) < 7:
+                        logger.warning(f"      Row {i} has only {len(cells)} cells, skipping")
+                        continue
+                    
+                    name = cells[3].text.strip()
+                    points = cells[4].text.strip()
+                    value = cells[5].text.strip()
+                    description = cells[6].text.strip()
+
+                    if not name or not img_url:
+                        logger.warning(f"      Row {i} is missing name or image URL, skipping")
+                        continue
+
+                    # Download image
+                    from urllib.parse import urlparse
+                    parsed_url = urlparse(img_url)
+                    suffix = Path(parsed_url.path).suffix
+                    if not suffix or suffix.lower() not in [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp"]:
+                        suffix = ".jpg"  # default fallback
+
+                    safe_name = "".join([c if c.isalnum() else "_" for c in name])
+                    img_name = f"gift_{safe_name}_{i}{suffix}"
+                    local_path = gift_save_dir / img_name
+
+                    logger.info(f"    → Downloading image for gift: '{name}'...")
+                    try:
+                        self._download_image_with_session(img_url, local_path)
+                        gifts.append({
+                            "name": name,
+                            "points": points,
+                            "value": value,
+                            "description": description,
+                            "image_path": str(local_path)
+                        })
+                        logger.info(f"    ✓ Extracted gift {i}: '{name}' (Points: {points}, Value: {value})")
+                    except Exception as dl_error:
+                        logger.warning(f"    ⚠ Image download failed for gift '{name}': {dl_error}")
+
+                except Exception as row_e:
+                    logger.debug(f"    ⚠ Error extracting row {i}: {row_e}")
+                    continue
+
+            self.driver.switch_to.default_content()
+            return gifts
+
+        except Exception as e:
+            logger.error(f"Gift extraction failed: {e}")
+            self._ss("gift_extraction_error")
+            self.driver.switch_to.default_content()
+            return []
+
 def run_old_dashboard_migration(email, password, new_auto=None):
     """
     Main migration flow:
@@ -686,7 +957,35 @@ def run_old_dashboard_migration(email, password, new_auto=None):
         opts.binary_location = system_chrome
         logger.info(f"  Using system Chrome binary: {system_chrome}")
     
-    service = Service(ChromeDriverManager().install())
+    driver_path = ChromeDriverManager().install()
+    p = Path(driver_path)
+    found_exe = None
+    if p.is_dir():
+        for name in ("chromedriver.exe", "chromedriver"):
+            if (p / name).exists():
+                found_exe = p / name
+                break
+            for sub in p.glob(f"**/{name}"):
+                found_exe = sub
+                break
+            if found_exe:
+                break
+    elif p.suffix.lower() != ".exe":
+        for name in ("chromedriver.exe", "chromedriver"):
+            if (p.parent / name).exists():
+                found_exe = p.parent / name
+                break
+            for sub in p.parent.glob(f"**/{name}"):
+                found_exe = sub
+                break
+            if found_exe:
+                break
+    
+    if found_exe:
+        driver_path = str(found_exe)
+        logger.info(f"  Resolved webdriver path to: {driver_path}")
+        
+    service = Service(driver_path)
     old_driver = webdriver.Chrome(service=service, options=opts)
     old_driver.maximize_window()
     
@@ -788,7 +1087,35 @@ def run_old_dashboard_banner_migration(email, password):
         opts.binary_location = system_chrome
         logger.info(f"  Using system Chrome binary: {system_chrome}")
     
-    service = Service(ChromeDriverManager().install())
+    driver_path = ChromeDriverManager().install()
+    p = Path(driver_path)
+    found_exe = None
+    if p.is_dir():
+        for name in ("chromedriver.exe", "chromedriver"):
+            if (p / name).exists():
+                found_exe = p / name
+                break
+            for sub in p.glob(f"**/{name}"):
+                found_exe = sub
+                break
+            if found_exe:
+                break
+    elif p.suffix.lower() != ".exe":
+        for name in ("chromedriver.exe", "chromedriver"):
+            if (p.parent / name).exists():
+                found_exe = p.parent / name
+                break
+            for sub in p.parent.glob(f"**/{name}"):
+                found_exe = sub
+                break
+            if found_exe:
+                break
+    
+    if found_exe:
+        driver_path = str(found_exe)
+        logger.info(f"  Resolved webdriver path to: {driver_path}")
+        
+    service = Service(driver_path)
     old_driver = webdriver.Chrome(service=service, options=opts)
     old_driver.maximize_window()
     
@@ -846,4 +1173,249 @@ def run_old_dashboard_banner_migration(email, password):
     except Exception as e:
         logger.error(f"Banner migration failed: {e}")
         if 'old_driver' in locals(): old_driver.quit()
+        return False
+
+def run_old_dashboard_gift_migration(email, password):
+    """
+    Migration flow for gifts:
+    1. Extract gifts from old dashboard.
+    2. Upload them to the new dashboard for all user types.
+    """
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    from gift_management import GiftManagementAutomation
+    
+    print()
+    print("  ─── Old Dashboard Credentials ───")
+    print("  Enter credentials of the old dashboard to copy gifts from.")
+    old_email = input(f"  Old Email    [{email}]: ").strip()
+    if not old_email:
+        old_email = email
+    
+    import sys
+    if not sys.stdin.isatty():
+        old_password = input("  Old Password : ").strip()
+    else:
+        import getpass
+        try:
+            old_password = getpass.getpass("  Old Password : ").strip()
+        except Exception:
+            old_password = input("  Old Password : ").strip()
+        
+    if not old_password:
+        old_password = password
+
+    logger.info("=" * 60)
+    logger.info("OLD DASHBOARD GIFT MIGRATION — Extraction")
+    logger.info("=" * 60)
+
+    # 1. Setup temporary driver for old dashboard
+    opts = Options()
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-dev-shm-usage")
+    opts.add_argument("--disable-notifications")
+    
+    import shutil
+    system_chrome = (
+        shutil.which("google-chrome-stable")
+        or shutil.which("google-chrome")
+        or shutil.which("chromium-browser")
+        or shutil.which("chromium")
+    )
+    if system_chrome:
+        opts.binary_location = system_chrome
+        logger.info(f"  Using system Chrome binary: {system_chrome}")
+    
+    old_driver = None
+    try:
+        driver_path = ChromeDriverManager().install()
+        p = Path(driver_path)
+        found_exe = None
+        if p.is_dir():
+            for name in ("chromedriver.exe", "chromedriver"):
+                if (p / name).exists():
+                    found_exe = p / name
+                    break
+                for sub in p.glob(f"**/{name}"):
+                    found_exe = sub
+                    break
+                if found_exe:
+                    break
+        elif p.suffix.lower() != ".exe":
+            for name in ("chromedriver.exe", "chromedriver"):
+                if (p.parent / name).exists():
+                    found_exe = p.parent / name
+                    break
+                for sub in p.parent.glob(f"**/{name}"):
+                    found_exe = sub
+                    break
+                if found_exe:
+                    break
+        
+        if found_exe:
+            driver_path = str(found_exe)
+            logger.info(f"  Resolved webdriver path to: {driver_path}")
+            
+        service = Service(driver_path)
+        old_driver = webdriver.Chrome(service=service, options=opts)
+    except Exception as err:
+        logger.warning(f"  ⚠ ChromeDriverManager setup failed: {err}. Falling back to default webdriver.Chrome().")
+        try:
+            old_driver = webdriver.Chrome(options=opts)
+        except Exception as fallback_err:
+            logger.error(f"  ✗ Fallback Chrome driver setup also failed: {fallback_err}")
+            return False
+
+    old_driver.maximize_window()
+    
+    extracted_gifts = []
+    try:
+        extractor = OldDashboardExtractor(old_driver)
+        if not extractor.login(old_email, old_password):
+            old_driver.quit()
+            return False
+        
+        if not extractor.navigate_to_gift_settings():
+            old_driver.quit()
+            return False
+        
+        extracted_gifts = extractor.extract_gifts()
+        old_driver.quit()
+
+        if not extracted_gifts:
+            logger.error("No gifts extracted from old dashboard.")
+            return False
+
+        logger.info(f"✓ Extracted {len(extracted_gifts)} gifts.")
+
+    except Exception as e:
+        logger.error(f"Gift extraction failed: {e}")
+        if 'old_driver' in locals(): old_driver.quit()
+        return False
+
+    # 2. Upload to new dashboard using GiftManagementAutomation
+    logger.info("\n" + "=" * 60)
+    logger.info("OLD DASHBOARD GIFT MIGRATION — Uploading to New Dashboard")
+    logger.info("=" * 60)
+
+    from dashboard_automation import VendorPortalAutomation
+    try:
+        with VendorPortalAutomation(email, password, headless=False) as auto:
+            if not auto.login():
+                logger.error("✗ Login failed to new dashboard")
+                return False
+            
+            time.sleep(2)
+            gift_auto = GiftManagementAutomation(auto.driver)
+            
+            if not gift_auto.navigate():
+                logger.error("✗ Failed to navigate to Gift Management")
+                return False
+                
+            # Open Add New Gift modal once to detect select options and if it is multi-select
+            logger.info("Opening Add New Gift modal to detect UserType dropdown...")
+            
+            # Find and click Add New Gift button
+            add_btn = None
+            selectors = [
+                "//button[contains(., 'Add New Gift') or contains(., 'Add Gift') or contains(., 'New Gift')]",
+                "div.px-6.py-4.flex.items-center.justify-between > button",
+                "main div.space-y-8 button"
+            ]
+            for sel in selectors:
+                try:
+                    if sel.startswith("//"):
+                        add_btn = gift_auto.wait.until(EC.element_to_be_clickable((By.XPATH, sel)))
+                    else:
+                        add_btn = gift_auto.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, sel)))
+                    if add_btn:
+                        break
+                except Exception:
+                    continue
+                    
+            if not add_btn:
+                logger.error("✗ Could not locate 'Add New Gift' button during detection phase")
+                return False
+                
+            add_btn.click()
+            time.sleep(2)
+            
+            from selenium.webdriver.support.ui import Select
+            select_el = gift_auto.driver.find_element(By.ID, "UserType")
+            select_obj = Select(select_el)
+            is_multiple = select_obj.is_multiple
+            logger.info(f"Dropdown 'is_multiple' detected as: {is_multiple}")
+            
+            # Extract all user types
+            target_user_types = []
+            for option in select_obj.options:
+                val = option.get_attribute("value")
+                txt = option.text.strip()
+                # Exclude placeholder options (empty value, or containing select)
+                if val and txt and "select" not in txt.lower():
+                    target_user_types.append(txt)
+            
+            logger.info(f"Detected target user types: {target_user_types}")
+            
+            if not target_user_types:
+                logger.error("✗ No user types detected in dropdown. Discarding modal.")
+                cancel_btn = gift_auto.driver.find_element(By.XPATH, "//button[contains(., 'Cancel') or contains(., 'Discard')]")
+                cancel_btn.click()
+                return False
+            
+            # Close/discard modal
+            cancel_btn = gift_auto.driver.find_element(By.XPATH, "//button[contains(., 'Cancel') or contains(., 'Discard')]")
+            cancel_btn.click()
+            time.sleep(2)
+            
+            successful_uploads = 0
+            failed_uploads = 0
+            
+            if is_multiple:
+                logger.info("Proceeding with multi-select upload flow (one upload per gift)...")
+                for idx, gift in enumerate(extracted_gifts, 1):
+                    logger.info(f"Uploading Gift {idx} of {len(extracted_gifts)}: {gift['name']}")
+                    if gift_auto.check_gift_exists(gift['name'], target_user_types[0]):
+                        logger.info(f"  → Gift '{gift['name']}' already exists, skipping.")
+                        successful_uploads += 1
+                        continue
+                    if gift_auto.add_new_gift(gift, target_user_types):
+                        successful_uploads += 1
+                    else:
+                        failed_uploads += 1
+                    time.sleep(1)
+            else:
+                logger.info("Proceeding with single-select sequential upload flow (each gift added once per user type)...")
+                total_ops = len(extracted_gifts) * len(target_user_types)
+                current_op = 0
+                for gift in extracted_gifts:
+                    for utype in target_user_types:
+                        current_op += 1
+                        if gift_auto.check_gift_exists(gift['name'], utype):
+                            logger.info(f"[{current_op}/{total_ops}] Gift '{gift['name']}' already exists for '{utype}', skipping.")
+                            successful_uploads += 1
+                            continue
+                        logger.info(f"[{current_op}/{total_ops}] Uploading: '{gift['name']}' for '{utype}'")
+                        if gift_auto.add_new_gift(gift, [utype]):
+                            successful_uploads += 1
+                        else:
+                            failed_uploads += 1
+                        time.sleep(1)
+                        
+            logger.info("\n" + "=" * 60)
+            logger.info("GIFTS MIGRATION SUMMARY")
+            logger.info("=" * 60)
+            logger.info(f"✓ Successful uploads/assignments: {successful_uploads}")
+            logger.info(f"✗ Failed uploads/assignments: {failed_uploads}")
+            logger.info("=" * 60)
+            
+            return failed_uploads == 0
+            
+    except Exception as e:
+        logger.error(f"Unexpected error in gifts migration automation: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
         return False

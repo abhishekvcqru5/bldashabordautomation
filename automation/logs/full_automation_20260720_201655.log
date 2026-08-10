@@ -1,0 +1,181 @@
+2026-07-20 20:17:14,252 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-07-20 20:17:14,253 - INFO - ============================================================
+2026-07-20 20:17:14,253 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-07-20 20:17:14,253 - INFO - ============================================================
+2026-07-20 20:17:14,261 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-20 20:17:14,262 - INFO - Output folder: automation\processed_images
+2026-07-20 20:17:14,302 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-20 20:17:14,435 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-20 20:17:14,514 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-20 20:17:14,622 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-20 20:17:14,704 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-20 20:17:14,784 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-20 20:17:14,870 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-20 20:17:14,954 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-20 20:17:15,007 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-20 20:17:15,101 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-20 20:17:15,167 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-20 20:17:15,238 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-20 20:17:15,354 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-20 20:17:15,441 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-20 20:17:15,523 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-20 20:17:15,584 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-20 20:17:15,586 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-20 20:17:15,586 - INFO - ✓ 15 images processed successfully.
+
+2026-07-20 20:17:18,022 - INFO - Target User Type: Painters
+2026-07-20 20:17:18,107 - INFO - Dynamically mapped image 'aboutus.png':
+2026-07-20 20:17:18,108 - INFO -   → Extracted Title: aboutus
+2026-07-20 20:17:18,108 - INFO -   → Matched Identity: aboutus
+2026-07-20 20:17:18,110 - INFO -   → Extracted Color: #70E8A8
+2026-07-20 20:17:18,113 - INFO -   → Toggle Option: side menu
+2026-07-20 20:17:18,190 - INFO - Dynamically mapped image 'Activity.png':
+2026-07-20 20:17:18,191 - INFO -   → Extracted Title: Activity
+2026-07-20 20:17:18,192 - INFO -   → Matched Identity: claimhistory
+2026-07-20 20:17:18,192 - INFO -   → Extracted Color: #F86008
+2026-07-20 20:17:18,192 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,275 - INFO - Dynamically mapped image 'KYC.png':
+2026-07-20 20:17:18,277 - INFO -   → Extracted Title: KYC
+2026-07-20 20:17:18,278 - INFO -   → Matched Identity: kycdetails
+2026-07-20 20:17:18,278 - INFO -   → Extracted Color: #F85808
+2026-07-20 20:17:18,279 - INFO -   → Toggle Option: side menu
+2026-07-20 20:17:18,367 - INFO - Dynamically mapped image 'Language.png':
+2026-07-20 20:17:18,369 - INFO -   → Extracted Title: Language
+2026-07-20 20:17:18,370 - INFO -   → Matched Identity: chooselanguage
+2026-07-20 20:17:18,370 - INFO -   → Extracted Color: #5010E8
+2026-07-20 20:17:18,371 - INFO -   → Toggle Option: side menu
+2026-07-20 20:17:18,430 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-07-20 20:17:18,430 - INFO -   → Extracted Title: My Wallet
+2026-07-20 20:17:18,431 - INFO -   → Matched Identity: wallet
+2026-07-20 20:17:18,432 - INFO -   → Extracted Color: #20A020
+2026-07-20 20:17:18,434 - INFO -   → Toggle Option: both
+2026-07-20 20:17:18,487 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-07-20 20:17:18,488 - INFO -   → Extracted Title: Nearby Retailers
+2026-07-20 20:17:18,488 - INFO -   → Matched Identity: retailer
+2026-07-20 20:17:18,489 - INFO -   → Extracted Color: #F87010
+2026-07-20 20:17:18,489 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,542 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-07-20 20:17:18,543 - INFO -   → Extracted Title: Product Catalog
+2026-07-20 20:17:18,544 - INFO -   → Matched Identity: productcatalogue
+2026-07-20 20:17:18,544 - INFO -   → Extracted Color: #6028E8
+2026-07-20 20:17:18,545 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,599 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-07-20 20:17:18,602 - INFO -   → Extracted Title: Prospectus
+2026-07-20 20:17:18,603 - INFO -   → Matched Identity: brochure
+2026-07-20 20:17:18,604 - INFO -   → Extracted Color: #0848F8
+2026-07-20 20:17:18,605 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,667 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-07-20 20:17:18,670 - INFO -   → Extracted Title: Refer & Earn
+2026-07-20 20:17:18,670 - INFO -   → Matched Identity: referandearn
+2026-07-20 20:17:18,671 - INFO -   → Extracted Color: #089098
+2026-07-20 20:17:18,671 - INFO -   → Toggle Option: both
+2026-07-20 20:17:18,727 - INFO - Dynamically mapped image 'Rewards.png':
+2026-07-20 20:17:18,727 - INFO -   → Extracted Title: Rewards
+2026-07-20 20:17:18,728 - INFO -   → Matched Identity: gift
+2026-07-20 20:17:18,728 - INFO -   → Extracted Color: #F00048
+2026-07-20 20:17:18,729 - INFO -   → Toggle Option: both
+2026-07-20 20:17:18,791 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-07-20 20:17:18,791 - INFO -   → Extracted Title: Scan Activity
+2026-07-20 20:17:18,792 - INFO -   → Matched Identity: codedetails
+2026-07-20 20:17:18,792 - INFO -   → Extracted Color: #10A010
+2026-07-20 20:17:18,792 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,848 - INFO - Dynamically mapped image 'Scan History.png':
+2026-07-20 20:17:18,849 - INFO -   → Extracted Title: Scan History
+2026-07-20 20:17:18,850 - INFO -   → Matched Identity: history
+2026-07-20 20:17:18,851 - INFO -   → Extracted Color: #4808F0
+2026-07-20 20:17:18,852 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,899 - INFO - Dynamically mapped image 'Support.png':
+2026-07-20 20:17:18,903 - INFO -   → Extracted Title: Support
+2026-07-20 20:17:18,904 - INFO -   → Matched Identity: help
+2026-07-20 20:17:18,904 - INFO -   → Extracted Color: #0030F0
+2026-07-20 20:17:18,904 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:18,958 - INFO - Dynamically mapped image 'TDS.png':
+2026-07-20 20:17:18,959 - INFO -   → Extracted Title: TDS
+2026-07-20 20:17:18,959 - INFO -   → Matched Identity: tds
+2026-07-20 20:17:18,960 - INFO -   → Extracted Color: #20C880
+2026-07-20 20:17:18,960 - INFO -   → Toggle Option: side menu
+2026-07-20 20:17:19,010 - INFO - Dynamically mapped image 'Updates.png':
+2026-07-20 20:17:19,011 - INFO -   → Extracted Title: Updates
+2026-07-20 20:17:19,011 - INFO -   → Matched Identity: blog
+2026-07-20 20:17:19,012 - INFO -   → Extracted Color: #F87820
+2026-07-20 20:17:19,012 - INFO -   → Toggle Option: dashboard only
+2026-07-20 20:17:19,013 - INFO - 
+============================================================
+2026-07-20 20:17:19,013 - INFO - Launching Browser and Starting Upload Process
+2026-07-20 20:17:19,013 - INFO - ============================================================
+2026-07-20 20:17:19,056 - INFO - ====== WebDriver manager ======
+2026-07-20 20:17:21,657 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:17:21,849 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-20 20:17:22,038 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-20 20:17:22,039 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-20 20:17:23,967 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-20 20:17:24,057 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-20 20:17:24,219 - INFO - ✓ Chrome driver initialized
+2026-07-20 20:17:24,223 - INFO - 
+→ Attempting login...
+
+2026-07-20 20:17:24,224 - INFO - Opening login page...
+2026-07-20 20:17:26,053 - INFO -   → Policy checkbox checked on login page
+2026-07-20 20:17:26,256 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-20 20:17:26,297 - INFO -   → Policy agreement popup detected
+2026-07-20 20:17:26,398 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-20 20:17:26,951 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-20 20:17:31,402 - INFO -   → Navigating directly to App Settings URL...
+2026-07-20 20:17:31,405 - ERROR - Login failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc25843+10883]
+	chromedriver!GetHandleVerifier [0xc25884+108c4]
+	chromedriver!(No symbol) [0xa28f1e]
+	chromedriver!(No symbol) [0xa678e7]
+	chromedriver!(No symbol) [0xa95526]
+	chromedriver!(No symbol) [0xa90762]
+	chromedriver!(No symbol) [0xa90141]
+	chromedriver!(No symbol) [0x9fc731]
+	chromedriver!(No symbol) [0x9fccd3]
+	chromedriver!(No symbol) [0x9fd18d]
+	chromedriver!GetHandleVerifier [0xebced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xeb847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xed94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xc3f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xc4620d+3124d]
+	chromedriver!(No symbol) [0x9fc3e0]
+	chromedriver!(No symbol) [0x9fba92]
+	chromedriver!GetHandleVerifier [0x101ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x75975d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7731e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7731e0b1+231]
+
+2026-07-20 20:17:31,412 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc25843+10883]
+	chromedriver!GetHandleVerifier [0xc25884+108c4]
+	chromedriver!(No symbol) [0xa28f1e]
+	chromedriver!(No symbol) [0xa678e7]
+	chromedriver!(No symbol) [0xa95526]
+	chromedriver!(No symbol) [0xa90762]
+	chromedriver!(No symbol) [0xa90141]
+	chromedriver!(No symbol) [0x9fc731]
+	chromedriver!(No symbol) [0x9fccd3]
+	chromedriver!(No symbol) [0x9fd18d]
+	chromedriver!GetHandleVerifier [0xebced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xeb847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xed94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xc3f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xc4620d+3124d]
+	chromedriver!(No symbol) [0x9fc3e0]
+	chromedriver!(No symbol) [0x9fba92]
+	chromedriver!GetHandleVerifier [0x101ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x75975d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7731e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7731e0b1+231]
+
+2026-07-20 20:17:31,412 - ERROR - ✗ Login failed. Aborting.
+2026-07-20 20:17:33,481 - INFO - Browser closed
+2026-07-20 20:17:35,678 - INFO - 
+Task finished at 2026-07-20 20:17:35
+2026-07-20 20:17:35,679 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260720_201655.log
+
+2026-07-20 20:17:42,852 - ERROR - Fatal error: 

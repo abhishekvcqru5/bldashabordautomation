@@ -1,0 +1,2 @@
+2026-07-07 11:39:55,586 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-07 11:39:55,587 - ERROR - Fatal error: name 'run_missing_icons_upload' is not defined

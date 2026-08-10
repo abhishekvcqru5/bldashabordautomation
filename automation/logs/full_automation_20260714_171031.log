@@ -1,0 +1,67 @@
+2026-07-14 17:11:09,116 - INFO - User selected: Create User Type
+2026-07-14 17:11:43,085 - INFO - User types to be created: ['Head Mechanic', 'Assistant Mechanic']
+2026-07-14 17:11:43,086 - INFO - ============================================================
+2026-07-14 17:11:43,086 - INFO - STEP 1: Processing and Compressing Images
+2026-07-14 17:11:43,087 - INFO - ============================================================
+2026-07-14 17:11:43,122 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-14 17:11:43,128 - INFO - Output folder: automation\processed_images
+2026-07-14 17:11:43,129 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-14 17:11:43,685 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-14 17:11:43,858 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-14 17:11:44,120 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-14 17:11:44,577 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-14 17:11:44,781 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-14 17:11:44,978 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-14 17:11:45,136 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-14 17:11:45,271 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-14 17:11:45,485 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-14 17:11:45,601 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-14 17:11:45,754 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-14 17:11:46,051 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-14 17:11:46,297 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-14 17:11:46,612 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-14 17:11:46,992 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-14 17:11:47,018 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-14 17:11:47,022 - INFO - ✓ 15 images processed and ready
+
+2026-07-14 17:11:47,049 - INFO - ============================================================
+2026-07-14 17:11:47,051 - INFO - STEP 2: Creating User Types & Uploading Icons
+2026-07-14 17:11:47,068 - INFO - ============================================================
+2026-07-14 17:11:47,250 - INFO - ====== WebDriver manager ======
+2026-07-14 17:11:58,842 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:12:00,433 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:12:01,738 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:12:05,019 - INFO - WebDriver version 150.0.7871.115 selected
+2026-07-14 17:12:05,054 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.115/win32/chromedriver-win32.zip
+2026-07-14 17:12:05,068 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.115/win32/chromedriver-win32.zip
+2026-07-14 17:12:06,559 - INFO - Driver downloading response is 200
+2026-07-14 17:12:06,972 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-14 17:12:09,046 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115]
+2026-07-14 17:12:09,071 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-14 17:12:16,667 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-14 17:12:17,071 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-14 17:12:17,518 - INFO - ✓ Chrome driver initialized
+2026-07-14 17:12:17,537 - INFO - 
+→ Attempting login...
+
+2026-07-14 17:12:17,563 - INFO - Opening login page...
+2026-07-14 17:12:22,487 - INFO -   → Policy checkbox checked on login page
+2026-07-14 17:12:23,047 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-14 17:12:23,134 - INFO -   → Policy agreement popup detected
+2026-07-14 17:12:23,357 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-14 17:12:24,000 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-14 17:12:30,243 - INFO -   → Policy agreement popup detected
+2026-07-14 17:12:31,685 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-14 17:12:32,281 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-14 17:12:32,301 - INFO - ✓ Login successful
+2026-07-14 17:12:34,303 - INFO - Going to App Settings...
+2026-07-14 17:12:39,048 - INFO -   → User Type section opened
+2026-07-14 17:12:42,571 - INFO - ✓ User Type page ready
+2026-07-14 17:12:42,573 - INFO - Starting creation of User Type: Head Mechanic
+2026-07-14 17:12:47,100 - INFO -     → Entered name: Head Mechanic
+2026-07-14 17:12:47,702 - INFO -     → Enabled toggle by text fallback: Scan
+2026-07-14 17:12:48,274 - INFO -     → Enabled toggle by text fallback: Claim Reward
+2026-07-14 17:12:58,028 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,56 @@
+2026-07-17 18:17:49,096 - INFO - User selected: Promotion Banners
+2026-07-17 18:17:49,097 - INFO - ============================================================
+2026-07-17 18:17:49,097 - INFO - PROMOTION BANNERS — Image Processing
+2026-07-17 18:17:49,098 - INFO - ============================================================
+2026-07-17 18:17:49,099 - INFO - Found 2 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-07-17 18:17:49,168 - INFO -   ⚙ Processing Screenshot 2026-07-17 181424.png  (size 555×249 → need 1920×1080)
+2026-07-17 18:17:49,290 - INFO -   ✓ Screenshot 2026-07-17 181424.png  →  Screenshot 2026-07-17 181424_processed.jpg  |  1920×1080  |  0.29 MB  |  quality 92
+2026-07-17 18:17:49,306 - INFO -   ⚙ Processing Screenshot 2026-07-17 181435.png  (size 557×257 → need 1920×1080)
+2026-07-17 18:17:49,397 - INFO -   ✓ Screenshot 2026-07-17 181435.png  →  Screenshot 2026-07-17 181435_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-07-17 18:17:49,398 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-07-17 18:17:49,400 - INFO - ============================================================
+2026-07-17 18:17:49,400 - INFO - PROMOTION BANNERS — Browser Automation
+2026-07-17 18:17:49,400 - INFO - ============================================================
+2026-07-17 18:17:49,435 - INFO - ====== WebDriver manager ======
+2026-07-17 18:17:52,917 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 18:17:53,147 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 18:17:53,320 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 18:17:53,322 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 18:17:56,286 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 18:17:56,293 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 18:17:56,340 - INFO - ✓ Chrome driver initialized
+2026-07-17 18:17:56,341 - INFO - Opening login page...
+2026-07-17 18:17:58,049 - INFO -   → Policy checkbox checked on login page
+2026-07-17 18:17:58,198 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 18:17:58,235 - INFO -   → Policy agreement popup detected
+2026-07-17 18:17:58,302 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 18:17:59,464 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 18:18:10,856 - INFO - ✓ Login successful
+2026-07-17 18:18:12,857 - INFO - Going to App Settings...
+2026-07-17 18:18:20,120 - INFO -   → Promotion Banners section opened
+2026-07-17 18:18:20,202 - INFO - ✓ Promotion Banners page ready
+2026-07-17 18:18:20,203 - INFO - Starting batch  —  2 banner(s) to publish
+2026-07-17 18:18:20,205 - INFO - ============================================================
+2026-07-17 18:18:20,206 - INFO - [1/2]
+2026-07-17 18:18:20,232 - INFO -   Publishing: [Screenshot 2026-07-17 181424]  (Screenshot 2026-07-17 181424_processed.jpg)
+2026-07-17 18:18:22,888 - INFO -     → Title entered: Screenshot 2026-07-17 181424
+2026-07-17 18:18:24,973 - INFO -     → Image uploaded: Screenshot 2026-07-17 181424_processed.jpg
+2026-07-17 18:18:25,367 - INFO -     → Publish Banner clicked
+2026-07-17 18:18:29,396 - INFO -   ✓ Banner published: Screenshot 2026-07-17 181424
+
+2026-07-17 18:18:30,400 - INFO - [2/2]
+2026-07-17 18:18:30,400 - INFO -   Publishing: [Screenshot 2026-07-17 181435]  (Screenshot 2026-07-17 181435_processed.jpg)
+2026-07-17 18:18:32,949 - INFO -     → Title entered: Screenshot 2026-07-17 181435
+2026-07-17 18:18:35,017 - INFO -     → Image uploaded: Screenshot 2026-07-17 181435_processed.jpg
+2026-07-17 18:18:35,252 - INFO -     → Publish Banner clicked
+2026-07-17 18:18:39,267 - INFO -   ✓ Banner published: Screenshot 2026-07-17 181435
+
+2026-07-17 18:18:40,269 - INFO - ============================================================
+2026-07-17 18:18:40,269 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-07-17 18:18:42,714 - INFO - Browser closed
+2026-07-17 18:18:46,796 - INFO - 
+Task finished at 2026-07-17 18:18:46
+2026-07-17 18:18:46,796 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_181550.log
+

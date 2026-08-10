@@ -1,0 +1,137 @@
+2026-07-09 19:01:52,581 - INFO - User selected: Ambica Cable Existing Product Images
+2026-07-09 19:01:52,582 - INFO - ============================================================
+2026-07-09 19:01:52,582 - INFO - STARTING AMBICA CABLE PRODUCT IMAGE UPDATER (Option 22)
+2026-07-09 19:01:52,582 - INFO - ============================================================
+2026-07-09 19:01:52,591 - INFO - ====== WebDriver manager ======
+2026-07-09 19:01:53,975 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-09 19:01:54,335 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-09 19:01:54,696 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-09 19:01:54,697 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-09 19:01:55,860 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-09 19:01:55,863 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-09 19:01:55,896 - INFO - ✓ Chrome driver initialized
+2026-07-09 19:01:55,897 - INFO - Opening login page...
+2026-07-09 19:01:57,086 - INFO -   → Policy checkbox checked on login page
+2026-07-09 19:01:57,191 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-09 19:01:57,211 - INFO -   → Policy agreement popup detected
+2026-07-09 19:01:57,261 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-09 19:01:57,785 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-09 19:02:09,032 - INFO - ✓ Login successful
+2026-07-09 19:02:11,033 - INFO - Navigating to Product Catalogue...
+2026-07-09 19:02:17,302 - INFO - Found 83 products in table. Will process up to 26.
+2026-07-09 19:02:17,302 - INFO - Processing row 1/26...
+2026-07-09 19:02:17,344 - INFO - Target product identity for row 1: 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-09 19:02:17,354 - INFO - Found match: '1.5 sq.mm HRFR multistrand copper cable 45 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand copper cable 45 mtr\149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-09 19:02:28,807 - INFO - Successfully updated row 1 with '1.5 sq.mm HRFR multistrand copper cable 45 mtr'
+2026-07-09 19:02:28,807 - INFO - Processing row 2/26...
+2026-07-09 19:02:28,854 - INFO - Target product identity for row 2: 23/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 19:02:28,861 - INFO - Found match: '23_76 twisted flexible wire 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_76 twisted flexible wire 90 mtr\7499c7ff-0d46-4f1b-9e9b-6b8cc30037a3.jpg
+2026-07-09 19:02:40,294 - INFO - Successfully updated row 2 with '23_76 twisted flexible wire 90 mtr'
+2026-07-09 19:02:40,294 - INFO - Processing row 3/26...
+2026-07-09 19:02:40,357 - INFO - Target product identity for row 3: 40/76 Twisted Flexible Wire 90 Mtr
+2026-07-09 19:02:40,382 - INFO - Found match: '40_76 twisted flexible wire 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\40_76 twisted flexible wire 90 mtr\5141e5cc-72aa-4a16-89f1-9d3a0d682b07.jpg
+2026-07-09 19:02:51,813 - INFO - Successfully updated row 3 with '40_76 twisted flexible wire 90 mtr'
+2026-07-09 19:02:51,814 - INFO - Processing row 4/26...
+2026-07-09 19:02:51,885 - INFO - Target product identity for row 4: 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 19:02:51,894 - INFO - Found match: '1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-09 19:03:03,340 - INFO - Successfully updated row 4 with '1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr'
+2026-07-09 19:03:03,341 - INFO - Processing row 5/26...
+2026-07-09 19:03:03,387 - INFO - Target product identity for row 5: 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 19:03:03,401 - INFO - Found match: '1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-09 19:03:14,815 - INFO - Successfully updated row 5 with '1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr'
+2026-07-09 19:03:14,816 - INFO - Processing row 6/26...
+2026-07-09 19:03:14,876 - INFO - Target product identity for row 6: 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-09 19:03:14,905 - INFO - Found match: '6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\83a2b9e7-3b43-431c-b5fc-524092dfffcd.jpg
+2026-07-09 19:03:26,303 - INFO - Successfully updated row 6 with '6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr'
+2026-07-09 19:03:26,304 - INFO - Processing row 7/26...
+2026-07-09 19:03:26,376 - INFO - Target product identity for row 7: 1.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 19:03:26,387 - INFO - Found match: '1.5 sq.mm submersible flat cable 100 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm submersible flat cable 100 mtr\4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-09 19:03:37,765 - INFO - Successfully updated row 7 with '1.5 sq.mm submersible flat cable 100 mtr'
+2026-07-09 19:03:37,765 - INFO - Processing row 8/26...
+2026-07-09 19:03:37,858 - INFO - Target product identity for row 8: 2.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 19:03:37,872 - INFO - Found match: '2.5 sq.mm submersible flat cable 100 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm submersible flat cable 100 mtr\0a43801c-5d34-46e4-b6d4-44bce0fb18b3.jpg
+2026-07-09 19:03:49,242 - INFO - Successfully updated row 8 with '2.5 sq.mm submersible flat cable 100 mtr'
+2026-07-09 19:03:49,243 - INFO - Processing row 9/26...
+2026-07-09 19:03:49,327 - INFO - Target product identity for row 9: 4.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 19:03:49,349 - INFO - Found match: '4.0 sq.mm submersible flat cable 100 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm submersible flat cable 100 mtr\33dceb96-da32-48c4-8781-c72aed016341.jpg
+2026-07-09 19:04:00,911 - INFO - Successfully updated row 9 with '4.0 sq.mm submersible flat cable 100 mtr'
+2026-07-09 19:04:00,913 - INFO - Processing row 10/26...
+2026-07-09 19:04:00,971 - INFO - Target product identity for row 10: 6.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-09 19:04:00,987 - INFO - Found match: '6.0 sq.mm submersible flat cable 100 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm submersible flat cable 100 mtr\5c302982-42e3-4fb0-aa9e-e76259534159.jpg
+2026-07-09 19:04:12,522 - INFO - Successfully updated row 10 with '6.0 sq.mm submersible flat cable 100 mtr'
+2026-07-09 19:04:12,523 - INFO - Processing row 11/26...
+2026-07-09 19:04:12,605 - INFO - Target product identity for row 11: 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-09 19:04:12,618 - INFO - Found match: '2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr\4ef82c0d-fbf5-4239-93f6-3e7a0a43705d.jpg
+2026-07-09 19:04:24,078 - INFO - Successfully updated row 11 with '2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr'
+2026-07-09 19:04:24,079 - INFO - Processing row 12/26...
+2026-07-09 19:04:24,168 - INFO - Target product identity for row 12: 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 19:04:24,193 - INFO - Found match: '6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\1cd58f17-1393-484d-a1f1-35889977d114.jpg
+2026-07-09 19:04:35,592 - INFO - Successfully updated row 12 with '6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt'
+2026-07-09 19:04:35,594 - INFO - Processing row 13/26...
+2026-07-09 19:04:35,662 - INFO - Target product identity for row 13: 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-09 19:04:35,673 - INFO - Found match: '10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-09 19:04:47,062 - INFO - Successfully updated row 13 with '10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt'
+2026-07-09 19:04:47,063 - INFO - Processing row 14/26...
+2026-07-09 19:04:47,144 - INFO - Target product identity for row 14: 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 19:04:47,166 - INFO - Found match: '2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )\65583c12-00ad-4bcf-bc16-d3bf96336ec3.jpg
+2026-07-09 19:04:58,611 - INFO - Successfully updated row 14 with '2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )'
+2026-07-09 19:04:58,612 - INFO - Processing row 15/26...
+2026-07-09 19:04:58,680 - INFO - Target product identity for row 15: 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 19:04:58,697 - INFO - Found match: '4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )\015092c1-4ef0-417e-b174-bca05c4636c1.jpg
+2026-07-09 19:05:10,129 - INFO - Successfully updated row 15 with '4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )'
+2026-07-09 19:05:10,129 - INFO - Processing row 16/26...
+2026-07-09 19:05:10,213 - INFO - Target product identity for row 16: 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )
+2026-07-09 19:05:10,238 - INFO - Found match: '6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded )' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded )\1bc2aee8-1ecf-43fa-ae62-dfefe31bd4c1.jpg
+2026-07-09 19:05:21,789 - INFO - Successfully updated row 16 with '6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded )'
+2026-07-09 19:05:21,789 - INFO - Processing row 17/26...
+2026-07-09 19:05:21,858 - INFO - Target product identity for row 17: 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-09 19:05:21,871 - INFO - Found match: '16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-09 19:05:33,384 - INFO - Successfully updated row 17 with '16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )'
+2026-07-09 19:05:33,386 - INFO - Processing row 18/26...
+2026-07-09 19:05:33,460 - INFO - Target product identity for row 18: 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-09 19:05:33,477 - INFO - Found match: '2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\0e02a005-a483-422f-a268-bb14d7908da3.jpg
+2026-07-09 19:05:44,908 - INFO - Successfully updated row 18 with '2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)'
+2026-07-09 19:05:44,909 - INFO - Processing row 19/26...
+2026-07-09 19:05:44,978 - INFO - Target product identity for row 19: 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-09 19:05:45,003 - INFO - Found match: '4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\2e29f541-6e45-411c-b797-47e80f2272d9.jpg
+2026-07-09 19:05:56,410 - INFO - Successfully updated row 19 with '4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)'
+2026-07-09 19:05:56,411 - INFO - Processing row 20/26...
+2026-07-09 19:05:56,479 - INFO - Target product identity for row 20: 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-09 19:05:56,506 - INFO - Found match: '6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\52903fcd-f5cc-485b-a7dd-646603513a1c.jpg
+2026-07-09 19:06:07,947 - INFO - Successfully updated row 20 with '6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)'
+2026-07-09 19:06:07,947 - INFO - Processing row 21/26...
+2026-07-09 19:06:07,993 - INFO - Target product identity for row 21: 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-09 19:06:08,010 - INFO - Found match: '10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-09 19:06:19,413 - INFO - Successfully updated row 21 with '10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)'
+2026-07-09 19:06:19,414 - INFO - Processing row 22/26...
+2026-07-09 19:06:19,493 - INFO - Target product identity for row 22: Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr
+2026-07-09 19:06:19,520 - INFO - Found match: 'RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR\7e992528-db3d-4c2b-adf6-0b7426529ec7.jpg
+2026-07-09 19:06:30,915 - INFO - Successfully updated row 22 with 'RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR'
+2026-07-09 19:06:30,916 - INFO - Processing row 23/26...
+2026-07-09 19:06:30,978 - INFO - Target product identity for row 23: 23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-09 19:06:30,999 - INFO - Found match: '23_40 x 2 core speaker wire 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 x 2 core speaker wire 90 mtr\01ada75e-b463-4277-8a02-89970f2b153c.jpg
+2026-07-09 19:06:42,386 - INFO - Successfully updated row 23 with '23_40 x 2 core speaker wire 90 mtr'
+2026-07-09 19:06:42,386 - INFO - Processing row 24/26...
+2026-07-09 19:06:42,441 - INFO - Target product identity for row 24: 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-09 19:06:42,456 - INFO - Found match: '14_76 twisted flexible wire 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_76 twisted flexible wire 90 mtr\3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg
+2026-07-09 19:06:53,933 - INFO - Successfully updated row 24 with '14_76 twisted flexible wire 90 mtr'
+2026-07-09 19:06:53,934 - INFO - Processing row 25/26...
+2026-07-09 19:06:53,996 - INFO - Target product identity for row 25: 23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing
+2026-07-09 19:06:54,020 - INFO - Found match: '23_76 twisted flexible wire 90 mtr' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_76 twisted flexible wire 90 mtr\7499c7ff-0d46-4f1b-9e9b-6b8cc30037a3.jpg
+2026-07-09 19:07:05,488 - INFO - Successfully updated row 25 with '23_76 twisted flexible wire 90 mtr'
+2026-07-09 19:07:05,489 - INFO - Processing row 26/26...
+2026-07-09 19:07:05,529 - INFO - Target product identity for row 26: 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing
+2026-07-09 19:07:05,541 - INFO - Found match: '14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing' -> c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing\0922d53e-4c91-4335-9559-9367dffe7dd4.jpg
+2026-07-09 19:07:16,950 - INFO - Successfully updated row 26 with '14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing'
+2026-07-09 19:07:16,951 - INFO - 
+============================================================
+2026-07-09 19:07:16,951 - INFO - AMBICA IMAGE UPDATER SUMMARY
+2026-07-09 19:07:16,952 - INFO - ============================================================
+2026-07-09 19:07:16,952 - INFO - ✓ Successful: 26
+2026-07-09 19:07:16,953 - INFO - ✗ Failed: 0
+2026-07-09 19:07:16,954 - INFO - ============================================================
+2026-07-09 19:07:19,301 - INFO - Browser closed
+2026-07-09 19:07:23,349 - INFO - 
+Task finished at 2026-07-09 19:07:23
+2026-07-09 19:07:23,350 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260709_190123.log
+

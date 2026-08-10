@@ -1,0 +1,88 @@
+2026-07-21 12:43:56,645 - INFO - User selected: Registration Fields
+2026-07-21 12:43:56,645 - INFO - ============================================================
+2026-07-21 12:43:56,646 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-21 12:43:56,646 - INFO - ============================================================
+2026-07-21 12:43:56,660 - INFO - ====== WebDriver manager ======
+2026-07-21 12:43:58,269 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-21 12:43:58,470 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-21 12:43:58,621 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-21 12:43:59,014 - INFO - WebDriver version 150.0.7871.124 selected
+2026-07-21 12:43:59,021 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-21 12:43:59,022 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-21 12:43:59,064 - INFO - Driver downloading response is 200
+2026-07-21 12:43:59,411 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-21 12:43:59,710 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-07-21 12:43:59,713 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-21 12:44:02,236 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-21 12:44:02,243 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-21 12:44:02,289 - INFO - ✓ Chrome driver initialized
+2026-07-21 12:44:02,295 - INFO - Opening login page...
+2026-07-21 12:44:04,251 - INFO -   → Policy checkbox checked on login page
+2026-07-21 12:44:04,586 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-21 12:44:04,641 - INFO -   → Policy agreement popup detected
+2026-07-21 12:44:04,805 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-21 12:44:05,855 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-21 12:44:17,447 - INFO -   → Navigating directly to App Settings URL...
+2026-07-21 12:44:17,984 - INFO - ✓ Login successful and on App Settings page
+2026-07-21 12:44:19,985 - INFO - Going to App Settings...
+2026-07-21 12:44:21,450 - INFO -   → Registration Field section opened
+2026-07-21 12:44:21,577 - INFO - ✓ Registration Fields page ready
+2026-07-21 12:44:22,496 - INFO - Found 1 user types: ['Mason']
+2026-07-21 12:44:22,497 - INFO - Starting registration fields automation: 6 fields total
+2026-07-21 12:44:22,497 - INFO - ============================================================
+2026-07-21 12:44:22,497 - INFO - Processing User Type: Mason
+2026-07-21 12:44:22,498 - INFO -   Adding field: [Mason] -> First Name
+2026-07-21 12:44:23,277 - INFO -     → User Type selected: Mason
+2026-07-21 12:44:43,493 - INFO -     → System Data Point selected: First Name
+2026-07-21 12:44:43,549 - INFO -     → Mandatory toggle enabled
+2026-07-21 12:44:43,680 - INFO -     → Integrate Now clicked
+2026-07-21 12:44:43,700 - INFO -     → Toast dismissed
+2026-07-21 12:44:43,766 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-21 12:44:44,067 - INFO -   Adding field: [Mason] -> Phone Number
+2026-07-21 12:44:44,614 - INFO -     → User Type selected: Mason
+2026-07-21 12:45:04,988 - INFO -     → System Data Point selected: Phone Number
+2026-07-21 12:45:05,034 - INFO -     → Mandatory toggle enabled
+2026-07-21 12:45:05,163 - INFO -     → Integrate Now clicked
+2026-07-21 12:45:05,176 - INFO -     → Toast dismissed
+2026-07-21 12:45:05,243 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-21 12:45:05,543 - INFO -   Adding field: [Mason] -> Pincode
+2026-07-21 12:45:06,132 - INFO -     → User Type selected: Mason
+2026-07-21 12:45:26,476 - INFO -     → System Data Point selected: Pincode
+2026-07-21 12:45:26,505 - INFO -     → Mandatory toggle enabled
+2026-07-21 12:45:26,654 - INFO -     → Integrate Now clicked
+2026-07-21 12:45:26,711 - INFO -     → Toast dismissed
+2026-07-21 12:45:26,835 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-21 12:45:27,135 - INFO -   Adding field: [Mason] -> City
+2026-07-21 12:45:27,685 - INFO -     → User Type selected: Mason
+2026-07-21 12:45:47,959 - INFO -     → System Data Point selected: City
+2026-07-21 12:45:48,066 - INFO -     → Mandatory toggle enabled
+2026-07-21 12:45:48,312 - INFO -     → Integrate Now clicked
+2026-07-21 12:45:48,332 - INFO -     → Toast dismissed
+2026-07-21 12:45:48,400 - INFO -   ✓ Field added successfully: City
+
+2026-07-21 12:45:48,701 - INFO -   Adding field: [Mason] -> State
+2026-07-21 12:45:49,022 - INFO -     → User Type selected: Mason
+2026-07-21 12:46:09,316 - INFO -     → System Data Point selected: State
+2026-07-21 12:46:09,384 - INFO -     → Mandatory toggle enabled
+2026-07-21 12:46:09,634 - INFO -     → Integrate Now clicked
+2026-07-21 12:46:09,650 - INFO -     → Toast dismissed
+2026-07-21 12:46:09,726 - INFO -   ✓ Field added successfully: State
+
+2026-07-21 12:46:10,027 - INFO -   Adding field: [Mason] -> Address
+2026-07-21 12:46:10,567 - INFO -     → User Type selected: Mason
+2026-07-21 12:46:30,936 - INFO -     → System Data Point selected: Address
+2026-07-21 12:46:30,967 - INFO -     → Mandatory toggle enabled
+2026-07-21 12:46:31,095 - INFO -     → Integrate Now clicked
+2026-07-21 12:46:31,111 - INFO -     → Toast dismissed
+2026-07-21 12:46:31,188 - INFO -   ✓ Field added successfully: Address
+
+2026-07-21 12:46:31,489 - INFO - ============================================================
+2026-07-21 12:46:31,489 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-07-21 12:46:33,932 - INFO - Browser closed
+2026-07-21 12:46:37,990 - INFO - 
+Task finished at 2026-07-21 12:46:37
+2026-07-21 12:46:37,992 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260721_124333.log
+

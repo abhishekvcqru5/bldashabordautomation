@@ -1,0 +1,267 @@
+2026-06-22 15:41:18,666 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-22 15:41:18,667 - INFO - ============================================================
+2026-06-22 15:41:18,667 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-22 15:41:18,667 - INFO - ============================================================
+2026-06-22 15:41:18,672 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-22 15:41:18,672 - INFO - Output folder: automation\processed_images
+2026-06-22 15:41:18,682 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-22 15:41:18,733 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-22 15:41:18,777 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-22 15:41:18,810 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-22 15:41:18,841 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-22 15:41:18,866 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-22 15:41:18,884 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-22 15:41:18,917 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-22 15:41:18,943 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-22 15:41:18,971 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-22 15:41:19,012 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-22 15:41:19,040 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-22 15:41:19,065 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-22 15:41:19,066 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-22 15:41:19,066 - INFO - ✓ 12 images processed successfully.
+
+2026-06-22 15:42:12,271 - INFO - Target User Type: Dealor
+2026-06-22 15:42:12,292 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-22 15:42:12,292 - INFO -   → Extracted Title: Activity
+2026-06-22 15:42:12,292 - INFO -   → Matched Identity: claimhistory
+2026-06-22 15:42:12,292 - INFO -   → Extracted Color: #F86008
+2026-06-22 15:42:12,292 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,311 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-22 15:42:12,311 - INFO -   → Extracted Title: KYC
+2026-06-22 15:42:12,312 - INFO -   → Matched Identity: kycdetails
+2026-06-22 15:42:12,312 - INFO -   → Extracted Color: #F85808
+2026-06-22 15:42:12,312 - INFO -   → Toggle Option: side menu
+2026-06-22 15:42:12,328 - INFO - Dynamically mapped image 'Language.png':
+2026-06-22 15:42:12,328 - INFO -   → Extracted Title: Language
+2026-06-22 15:42:12,329 - INFO -   → Matched Identity: chooselanguage
+2026-06-22 15:42:12,329 - INFO -   → Extracted Color: #5010E8
+2026-06-22 15:42:12,329 - INFO -   → Toggle Option: side menu
+2026-06-22 15:42:12,342 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-22 15:42:12,342 - INFO -   → Extracted Title: My Wallet
+2026-06-22 15:42:12,342 - INFO -   → Matched Identity: wallet
+2026-06-22 15:42:12,342 - INFO -   → Extracted Color: #20A020
+2026-06-22 15:42:12,342 - INFO -   → Toggle Option: both
+2026-06-22 15:42:12,358 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-22 15:42:12,358 - INFO -   → Extracted Title: Product Catalog
+2026-06-22 15:42:12,359 - INFO -   → Matched Identity: productcatalogue
+2026-06-22 15:42:12,359 - INFO -   → Extracted Color: #6028E8
+2026-06-22 15:42:12,359 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,373 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-22 15:42:12,373 - INFO -   → Extracted Title: Prospectus
+2026-06-22 15:42:12,373 - INFO -   → Matched Identity: brochure
+2026-06-22 15:42:12,373 - INFO -   → Extracted Color: #0848F8
+2026-06-22 15:42:12,373 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,387 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-22 15:42:12,387 - INFO -   → Extracted Title: Refer & Earn
+2026-06-22 15:42:12,387 - INFO -   → Matched Identity: referandearn
+2026-06-22 15:42:12,388 - INFO -   → Extracted Color: #089098
+2026-06-22 15:42:12,388 - INFO -   → Toggle Option: both
+2026-06-22 15:42:12,401 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-22 15:42:12,402 - INFO -   → Extracted Title: Rewards
+2026-06-22 15:42:12,402 - INFO -   → Matched Identity: gift
+2026-06-22 15:42:12,402 - INFO -   → Extracted Color: #F00048
+2026-06-22 15:42:12,402 - INFO -   → Toggle Option: both
+2026-06-22 15:42:12,418 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-22 15:42:12,418 - INFO -   → Extracted Title: Scan Activity
+2026-06-22 15:42:12,419 - INFO -   → Matched Identity: codedetails
+2026-06-22 15:42:12,419 - INFO -   → Extracted Color: #10A010
+2026-06-22 15:42:12,420 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,437 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-22 15:42:12,437 - INFO -   → Extracted Title: Scan History
+2026-06-22 15:42:12,438 - INFO -   → Matched Identity: history
+2026-06-22 15:42:12,438 - INFO -   → Extracted Color: #4808F0
+2026-06-22 15:42:12,438 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,454 - INFO - Dynamically mapped image 'Support.png':
+2026-06-22 15:42:12,455 - INFO -   → Extracted Title: Support
+2026-06-22 15:42:12,455 - INFO -   → Matched Identity: help
+2026-06-22 15:42:12,455 - INFO -   → Extracted Color: #0030F0
+2026-06-22 15:42:12,455 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,471 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-22 15:42:12,471 - INFO -   → Extracted Title: Updates
+2026-06-22 15:42:12,471 - INFO -   → Matched Identity: blog
+2026-06-22 15:42:12,471 - INFO -   → Extracted Color: #F87820
+2026-06-22 15:42:12,471 - INFO -   → Toggle Option: dashboard only
+2026-06-22 15:42:12,471 - INFO - 
+============================================================
+2026-06-22 15:42:12,472 - INFO - Launching Browser and Starting Upload Process
+2026-06-22 15:42:12,472 - INFO - ============================================================
+2026-06-22 15:42:12,478 - INFO - ====== WebDriver manager ======
+2026-06-22 15:42:13,539 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 15:42:13,901 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 15:42:14,591 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 15:42:14,595 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 15:42:15,748 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 15:42:15,752 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 15:42:15,783 - INFO - ✓ Chrome driver initialized
+2026-06-22 15:42:15,784 - INFO - 
+→ Attempting login...
+
+2026-06-22 15:42:15,784 - INFO - Opening login page...
+2026-06-22 15:42:17,055 - INFO -   → Policy checkbox checked on login page
+2026-06-22 15:42:17,127 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 15:42:17,141 - INFO -   → Policy agreement popup detected
+2026-06-22 15:42:17,176 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 15:42:17,768 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 15:42:29,142 - INFO - ✓ Login successful
+2026-06-22 15:42:31,143 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-22 15:42:31,144 - INFO - Navigating to App Settings...
+2026-06-22 15:42:37,428 - INFO - ✓ Dashboard Icons section loaded
+2026-06-22 15:42:39,429 - INFO - 
+→ Starting batch upload of 12 custom icons...
+
+2026-06-22 15:42:39,429 - INFO - Starting batch – 12 configured entries
+2026-06-22 15:42:39,430 - INFO - Total icons to upload after expansion: 12
+2026-06-22 15:42:39,430 - INFO - ============================================================
+2026-06-22 15:42:39,430 - INFO - [1/12]
+2026-06-22 15:42:39,430 - INFO -   Adding: [Dealor] Activity  (claimhistory)
+2026-06-22 15:42:52,160 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:42:52,246 - INFO -     → Icon identity: claimhistory
+2026-06-22 15:42:52,362 - INFO -     → Display title: Activity
+2026-06-22 15:42:52,793 - INFO -     → Icon color: #F86008
+2026-06-22 15:42:52,815 - INFO -     → Toggle: dashboard only
+2026-06-22 15:42:54,860 - INFO -     → Image uploaded: Activity.png
+2026-06-22 15:42:54,947 - INFO -     → Form submitted
+2026-06-22 15:43:05,911 - INFO -   ✓ Icon added: Activity
+
+2026-06-22 15:43:06,912 - INFO - [2/12]
+2026-06-22 15:43:06,912 - INFO -   Adding: [Dealor] KYC  (kycdetails)
+2026-06-22 15:43:19,546 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:43:19,607 - INFO -     → Icon identity: kycdetails
+2026-06-22 15:43:19,702 - INFO -     → Display title: KYC
+2026-06-22 15:43:20,126 - INFO -     → Icon color: #F85808
+2026-06-22 15:43:20,158 - INFO -     → Toggle: side menu
+2026-06-22 15:43:22,189 - INFO -     → Image uploaded: KYC.png
+2026-06-22 15:43:22,281 - INFO -     → Form submitted
+2026-06-22 15:43:33,263 - INFO -   ✓ Icon added: KYC
+
+2026-06-22 15:43:34,263 - INFO - [3/12]
+2026-06-22 15:43:34,264 - INFO -   Adding: [Dealor] Language  (chooselanguage)
+2026-06-22 15:43:46,697 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:43:46,766 - INFO -     → Icon identity: chooselanguage
+2026-06-22 15:43:46,876 - INFO -     → Display title: Language
+2026-06-22 15:43:47,305 - INFO -     → Icon color: #5010E8
+2026-06-22 15:43:47,326 - INFO -     → Toggle: side menu
+2026-06-22 15:43:49,356 - INFO -     → Image uploaded: Language.png
+2026-06-22 15:43:49,439 - INFO -     → Form submitted
+2026-06-22 15:44:00,403 - INFO -   ✓ Icon added: Language
+
+2026-06-22 15:44:01,404 - INFO - [4/12]
+2026-06-22 15:44:01,404 - INFO -   Adding: [Dealor] My Wallet  (wallet)
+2026-06-22 15:44:14,035 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:44:14,109 - INFO -     → Icon identity: wallet
+2026-06-22 15:44:14,229 - INFO -     → Display title: My Wallet
+2026-06-22 15:44:14,671 - INFO -     → Icon color: #20A020
+2026-06-22 15:44:14,695 - INFO -     → Toggle: both
+2026-06-22 15:44:16,731 - INFO -     → Image uploaded: My Wallet.png
+2026-06-22 15:44:16,811 - INFO -     → Form submitted
+2026-06-22 15:44:27,754 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-22 15:44:28,755 - INFO - [5/12]
+2026-06-22 15:44:28,755 - INFO -   Adding: [Dealor] Product Catalog  (productcatalogue)
+2026-06-22 15:44:41,463 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:44:41,542 - INFO -     → Icon identity: productcatalogue
+2026-06-22 15:44:41,646 - INFO -     → Display title: Product Catalog
+2026-06-22 15:44:42,081 - INFO -     → Icon color: #6028E8
+2026-06-22 15:44:42,104 - INFO -     → Toggle: dashboard only
+2026-06-22 15:44:44,151 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-22 15:44:44,236 - INFO -     → Form submitted
+2026-06-22 15:44:55,143 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-22 15:44:56,144 - INFO - [6/12]
+2026-06-22 15:44:56,144 - INFO -   Adding: [Dealor] Prospectus  (brochure)
+2026-06-22 15:45:08,762 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:45:08,834 - INFO -     → Icon identity: brochure
+2026-06-22 15:45:08,935 - INFO -     → Display title: Prospectus
+2026-06-22 15:45:09,406 - INFO -     → Icon color: #0848F8
+2026-06-22 15:45:09,434 - INFO -     → Toggle: dashboard only
+2026-06-22 15:45:11,460 - INFO -     → Image uploaded: Prospectus.png
+2026-06-22 15:45:11,537 - INFO -     → Form submitted
+2026-06-22 15:45:22,457 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-22 15:45:23,458 - INFO - [7/12]
+2026-06-22 15:45:23,458 - INFO -   Adding: [Dealor] Refer & Earn  (referandearn)
+2026-06-22 15:45:36,071 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:45:36,140 - INFO -     → Icon identity: referandearn
+2026-06-22 15:45:36,230 - INFO -     → Display title: Refer & Earn
+2026-06-22 15:45:36,653 - INFO -     → Icon color: #089098
+2026-06-22 15:45:36,688 - INFO -     → Toggle: both
+2026-06-22 15:45:38,729 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-22 15:45:38,803 - INFO -     → Form submitted
+2026-06-22 15:45:49,722 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-22 15:45:50,723 - INFO - [8/12]
+2026-06-22 15:45:50,723 - INFO -   Adding: [Dealor] Rewards  (gift)
+2026-06-22 15:46:03,357 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:46:03,419 - INFO -     → Icon identity: gift
+2026-06-22 15:46:03,517 - INFO -     → Display title: Rewards
+2026-06-22 15:46:03,941 - INFO -     → Icon color: #F00048
+2026-06-22 15:46:03,962 - INFO -     → Toggle: both
+2026-06-22 15:46:05,996 - INFO -     → Image uploaded: Rewards.png
+2026-06-22 15:46:06,078 - INFO -     → Form submitted
+2026-06-22 15:46:17,017 - INFO -   ✓ Icon added: Rewards
+
+2026-06-22 15:46:18,018 - INFO - [9/12]
+2026-06-22 15:46:18,019 - INFO -   Adding: [Dealor] Scan Activity  (codedetails)
+2026-06-22 15:46:30,618 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:46:30,691 - INFO -     → Icon identity: codedetails
+2026-06-22 15:46:30,791 - INFO -     → Display title: Scan Activity
+2026-06-22 15:46:31,210 - INFO -     → Icon color: #10A010
+2026-06-22 15:46:31,241 - INFO -     → Toggle: dashboard only
+2026-06-22 15:46:33,277 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-22 15:46:33,367 - INFO -     → Form submitted
+2026-06-22 15:46:44,354 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-22 15:46:45,354 - INFO - [10/12]
+2026-06-22 15:46:45,355 - INFO -   Adding: [Dealor] Scan History  (history)
+2026-06-22 15:46:58,211 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:46:58,285 - INFO -     → Icon identity: history
+2026-06-22 15:46:58,369 - INFO -     → Display title: Scan History
+2026-06-22 15:46:58,787 - INFO -     → Icon color: #4808F0
+2026-06-22 15:46:58,817 - INFO -     → Toggle: dashboard only
+2026-06-22 15:47:00,849 - INFO -     → Image uploaded: Scan History.png
+2026-06-22 15:47:00,932 - INFO -     → Form submitted
+2026-06-22 15:47:11,899 - INFO -   ✓ Icon added: Scan History
+
+2026-06-22 15:47:12,899 - INFO - [11/12]
+2026-06-22 15:47:12,900 - INFO -   Adding: [Dealor] Support  (help)
+2026-06-22 15:47:25,494 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:47:25,555 - INFO -     → Icon identity: help
+2026-06-22 15:47:25,661 - INFO -     → Display title: Support
+2026-06-22 15:47:26,085 - INFO -     → Icon color: #0030F0
+2026-06-22 15:47:26,105 - INFO -     → Toggle: dashboard only
+2026-06-22 15:47:28,131 - INFO -     → Image uploaded: Support.png
+2026-06-22 15:47:28,205 - INFO -     → Form submitted
+2026-06-22 15:47:39,123 - INFO -   ✓ Icon added: Support
+
+2026-06-22 15:47:40,126 - INFO - [12/12]
+2026-06-22 15:47:40,126 - INFO -   Adding: [Dealor] Updates  (blog)
+2026-06-22 15:47:52,747 - INFO -     → User type selected by text: Dealor
+2026-06-22 15:47:52,807 - INFO -     → Icon identity: blog
+2026-06-22 15:47:52,903 - INFO -     → Display title: Updates
+2026-06-22 15:47:53,345 - INFO -     → Icon color: #F87820
+2026-06-22 15:47:53,394 - INFO -     → Toggle: dashboard only
+2026-06-22 15:47:55,428 - INFO -     → Image uploaded: Updates.png
+2026-06-22 15:47:55,507 - INFO -     → Form submitted
+2026-06-22 15:48:06,476 - INFO -   ✓ Icon added: Updates
+
+2026-06-22 15:48:07,477 - INFO - ============================================================
+2026-06-22 15:48:07,477 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-06-22 15:48:07,478 - INFO - 
+============================================================
+2026-06-22 15:48:07,478 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-22 15:48:07,478 - INFO - ============================================================
+2026-06-22 15:48:07,478 - INFO - ✓ Successful uploads: 12
+2026-06-22 15:48:07,478 - INFO - ✗ Failed uploads: 0
+2026-06-22 15:48:07,478 - INFO - Total processed: 12
+2026-06-22 15:48:07,478 - INFO - Success rate: 100.0%
+2026-06-22 15:48:07,479 - INFO - ============================================================
+2026-06-22 15:48:09,667 - INFO - Browser closed
+2026-06-22 15:48:13,721 - INFO - 
+Task finished at 2026-06-22 15:48:13
+2026-06-22 15:48:13,721 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_154103.log
+

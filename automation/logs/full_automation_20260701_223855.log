@@ -1,0 +1,100 @@
+2026-07-01 22:39:20,555 - INFO - User selected: Product Management Image Upload
+2026-07-01 22:39:20,556 - INFO - ============================================================
+2026-07-01 22:39:20,556 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-01 22:39:20,556 - INFO - ============================================================
+2026-07-01 22:39:20,561 - INFO - Total folders found: 83
+2026-07-01 22:39:20,562 - INFO - Resuming: 32 products already completed
+2026-07-01 22:39:20,563 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 22:39:20,563 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 22:39:20,563 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,564 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,564 - INFO -   ✓ Already done (skipping): 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing
+2026-07-01 22:39:20,564 - INFO -   ✓ Already done (skipping): 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr
+2026-07-01 22:39:20,564 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing
+2026-07-01 22:39:20,564 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 22:39:20,564 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 22:39:20,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:39:20,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,565 - INFO -   ✓ Already done (skipping): 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing
+2026-07-01 22:39:20,565 - INFO -   ✓ Already done (skipping): 1.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm submersible flat cable 100 mtr
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm submersible flat cable 500 mtr
+2026-07-01 22:39:20,566 - INFO -   ✓ Already done (skipping): 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 22:39:20,567 - INFO -   ✓ Already done (skipping): 10.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:39:20,568 - INFO -   ✓ Already done (skipping): 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-01 22:39:20,568 - INFO -   ✓ Already done (skipping): 14_40 x 2 core white parallel wire 90 mtr
+2026-07-01 22:39:20,568 - INFO -   ✓ Already done (skipping): 14_76 twisted flexible wire 90 mtr
+2026-07-01 22:39:20,588 - INFO - Pending: 51 products to upload
+2026-07-01 22:39:20,589 - INFO - 
+============================================================
+2026-07-01 22:39:20,589 - INFO - BATCH 1/6 — 10 products
+2026-07-01 22:39:20,589 - INFO - ============================================================
+2026-07-01 22:39:20,602 - INFO - ====== WebDriver manager ======
+2026-07-01 22:39:22,745 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:39:23,185 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:39:23,525 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:39:23,526 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:39:24,802 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:39:24,809 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:39:24,869 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:39:24,870 - INFO - Logging in…
+2026-07-01 22:39:24,870 - INFO - Opening login page...
+2026-07-01 22:39:26,204 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:39:26,319 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:39:26,338 - INFO -   → Policy agreement popup detected
+2026-07-01 22:39:26,389 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:39:26,921 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:39:38,415 - INFO - ✓ Login successful
+2026-07-01 22:39:44,006 - INFO - Clicked Product Management
+2026-07-01 22:39:47,050 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:39:47,050 - INFO - Processing: 14_76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-01 22:39:47,207 - INFO -   Matched → '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:39:51,145 - INFO -   Modal opened
+2026-07-01 22:39:52,550 - INFO -   Removed existing image
+2026-07-01 22:39:53,971 - INFO -   Clicked Add button
+2026-07-01 22:39:55,037 - INFO -   Uploaded: 11dbd383-d33e-4ef2-8601-b2d8370a6464.jpg
+2026-07-01 22:39:58,493 - INFO -   Clicked Save
+2026-07-01 22:40:13,601 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:40:14,604 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:40:14,604 - INFO - Processing: 16.0  sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:40:17,612 - INFO -   Matched → '6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:40:23,708 - INFO -   Modal opened
+2026-07-01 22:40:25,242 - INFO -   Removed existing image
+2026-07-01 22:40:26,875 - INFO -   Clicked Add button
+2026-07-01 22:40:27,939 - INFO -   Uploaded: 1943f102-7920-4862-8884-4834bc3093d2.jpg
+2026-07-01 22:40:31,429 - INFO -   Clicked Save
+2026-07-01 22:40:32,028 - INFO -   ✓ Done: 6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 22:40:33,032 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:40:33,033 - INFO - Processing: 16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-01 22:40:34,454 - INFO -   Matched → '16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-01 22:40:38,762 - INFO -   Modal opened
+2026-07-01 22:40:40,164 - INFO -   Removed existing image
+2026-07-01 22:40:41,581 - INFO -   Clicked Add button
+2026-07-01 22:40:42,635 - INFO -   Uploaded: 61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg
+2026-07-01 22:40:46,111 - INFO -   Clicked Save
+2026-07-01 22:40:46,679 - INFO -   ✓ Done: 16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-01 22:40:47,682 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:40:47,682 - INFO - Processing: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-01 22:40:48,884 - INFO -   Matched → '16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-01 22:40:52,920 - INFO -   Modal opened
+2026-07-01 22:40:54,387 - INFO -   Removed existing image
+2026-07-01 22:40:55,851 - INFO -   Clicked Add button
+2026-07-01 22:40:56,932 - INFO -   Uploaded: 0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-01 22:40:59,735 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8926fde58952da5ae2fc8a5565124d26
+2026-07-01 22:41:05,837 - INFO - Automation cancelled by user (Ctrl+C)

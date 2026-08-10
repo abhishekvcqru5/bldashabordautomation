@@ -1,0 +1,461 @@
+2026-07-29 14:48:37,547 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-29 14:48:37,547 - INFO - ============================================================
+2026-07-29 14:48:37,548 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-29 14:48:37,548 - INFO - ============================================================
+2026-07-29 14:48:37,549 - INFO - Processing images from dashboardicons/...
+2026-07-29 14:48:37,554 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-29 14:48:37,555 - INFO - Output folder: automation\processed_images
+2026-07-29 14:48:37,555 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-29 14:48:37,633 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-29 14:48:37,666 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-29 14:48:37,708 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-29 14:48:37,753 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-29 14:48:37,789 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-29 14:48:37,823 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-29 14:48:37,850 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-29 14:48:37,870 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-29 14:48:37,909 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-29 14:48:37,938 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-29 14:48:37,969 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-29 14:48:38,012 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-29 14:48:38,042 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-29 14:48:38,073 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-29 14:48:38,100 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-29 14:48:38,101 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-29 14:48:38,101 - INFO - v 15 images processed.
+2026-07-29 14:48:38,395 - INFO - ====== WebDriver manager ======
+2026-07-29 14:48:40,556 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 14:48:40,749 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-29 14:48:40,949 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-29 14:48:40,951 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-29 14:48:42,221 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-29 14:48:42,225 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-29 14:48:42,263 - INFO - ✓ Chrome driver initialized
+2026-07-29 14:48:42,263 - INFO - Opening login page...
+2026-07-29 14:48:43,541 - INFO -   → Policy checkbox checked on login page
+2026-07-29 14:48:43,640 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-29 14:48:43,659 - INFO -   → Policy agreement popup detected
+2026-07-29 14:48:43,706 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-29 14:48:44,840 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-29 14:48:51,144 - INFO -   → Policy agreement popup detected
+2026-07-29 14:48:51,175 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-29 14:48:51,700 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-29 14:48:51,700 - INFO -   → Navigating directly to App Settings URL...
+2026-07-29 14:48:52,019 - INFO - ✓ Login successful and on App Settings page
+2026-07-29 14:48:54,022 - INFO - Navigating to dashboard icons section...
+2026-07-29 14:48:54,023 - INFO - Navigating to App Settings...
+2026-07-29 14:49:00,273 - INFO - ✓ Dashboard Icons section loaded
+2026-07-29 14:49:00,273 - INFO - Reading all available user types from dropdown...
+2026-07-29 14:49:14,145 - INFO -   Found 3 user types: ['Mechanic', 'Retailer', 'Dealor']
+2026-07-29 14:49:14,179 - INFO - Total rows found in configured icons table: 17
+2026-07-29 14:49:14,492 - INFO - Currently configured icons per user type:
+2026-07-29 14:49:14,492 - INFO -   mechanic: []
+2026-07-29 14:49:14,492 - INFO -   retailer: []
+2026-07-29 14:49:14,492 - INFO -   dealor: ['help', 'wallet', 'codedetails', 'gift', 'claimhistory', 'e-warrant', 'tds', 'aboutus', 'kycdetails', 'blog', 'productcatalogue', 'brochure', 'history', 'referandearn', 'chooselanguage']
+2026-07-29 14:49:14,493 - INFO - Found 30 missing icon uploads:
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] aboutus (ID: aboutus) from aboutus.png
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] Activity (ID: claimhistory) from Activity.png
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] KYC (ID: kycdetails) from KYC.png
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] Language (ID: chooselanguage) from Language.png
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] My Wallet (ID: wallet) from My Wallet.png
+2026-07-29 14:49:14,493 - INFO -   - [Mechanic] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Prospectus (ID: brochure) from Prospectus.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Rewards (ID: gift) from Rewards.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Scan History (ID: history) from Scan History.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Support (ID: help) from Support.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] TDS (ID: tds) from TDS.png
+2026-07-29 14:49:14,494 - INFO -   - [Mechanic] Updates (ID: blog) from Updates.png
+2026-07-29 14:49:14,494 - INFO -   - [Retailer] aboutus (ID: aboutus) from aboutus.png
+2026-07-29 14:49:14,494 - INFO -   - [Retailer] Activity (ID: claimhistory) from Activity.png
+2026-07-29 14:49:14,494 - INFO -   - [Retailer] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] KYC (ID: kycdetails) from KYC.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Language (ID: chooselanguage) from Language.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] My Wallet (ID: wallet) from My Wallet.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Prospectus (ID: brochure) from Prospectus.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Rewards (ID: gift) from Rewards.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Scan History (ID: history) from Scan History.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Support (ID: help) from Support.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] TDS (ID: tds) from TDS.png
+2026-07-29 14:49:14,495 - INFO -   - [Retailer] Updates (ID: blog) from Updates.png
+2026-07-29 14:49:16,638 - INFO - 
+[1/30] Uploading missing icon for Mechanic: aboutus
+2026-07-29 14:49:16,639 - INFO -   Adding: [Mechanic] aboutus  (aboutus)
+2026-07-29 14:49:29,366 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:49:29,426 - INFO -     → Icon identity: aboutus
+2026-07-29 14:49:29,526 - INFO -     → Display title: aboutus
+2026-07-29 14:49:29,996 - INFO -     → Icon color: #70E8A8
+2026-07-29 14:49:30,029 - INFO -     → Toggle: side menu
+2026-07-29 14:49:32,088 - INFO -     → Image uploaded: aboutus.png
+2026-07-29 14:49:32,172 - INFO -     → Form submitted
+2026-07-29 14:49:42,753 - INFO -   ✓ Icon added: aboutus
+
+2026-07-29 14:49:43,754 - INFO - 
+[2/30] Uploading missing icon for Mechanic: Activity
+2026-07-29 14:49:43,755 - INFO -   Adding: [Mechanic] Activity  (claimhistory)
+2026-07-29 14:49:56,513 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:49:56,590 - INFO -     → Icon identity: claimhistory
+2026-07-29 14:49:56,697 - INFO -     → Display title: Activity
+2026-07-29 14:49:57,250 - INFO -     → Icon color: #F86008
+2026-07-29 14:49:57,282 - INFO -     → Toggle: dashboard only
+2026-07-29 14:49:59,339 - INFO -     → Image uploaded: Activity.png
+2026-07-29 14:49:59,448 - INFO -     → Form submitted
+2026-07-29 14:50:10,061 - INFO -   ✓ Icon added: Activity
+
+2026-07-29 14:50:11,062 - INFO - 
+[3/30] Uploading missing icon for Mechanic: E-Warranty
+2026-07-29 14:50:11,063 - INFO -   Adding: [Mechanic] E-Warranty  (e-warrant)
+2026-07-29 14:50:24,054 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:50:24,186 - INFO -     → Icon identity: e-warrant
+2026-07-29 14:50:24,371 - INFO -     → Display title: E-Warranty
+2026-07-29 14:50:25,008 - INFO -     → Icon color: #20C078
+2026-07-29 14:50:25,059 - INFO -     → Toggle: dashboard only
+2026-07-29 14:50:27,136 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-29 14:50:27,301 - INFO -     → Form submitted
+2026-07-29 14:50:37,953 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-29 14:50:38,954 - INFO - 
+[4/30] Uploading missing icon for Mechanic: KYC
+2026-07-29 14:50:38,955 - INFO -   Adding: [Mechanic] KYC  (kycdetails)
+2026-07-29 14:50:51,444 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:50:51,604 - INFO -     → Icon identity: kycdetails
+2026-07-29 14:50:51,889 - INFO -     → Display title: KYC
+2026-07-29 14:50:52,436 - INFO -     → Icon color: #F85808
+2026-07-29 14:50:52,470 - INFO -     → Toggle: side menu
+2026-07-29 14:50:54,512 - INFO -     → Image uploaded: KYC.png
+2026-07-29 14:50:54,684 - INFO -     → Form submitted
+2026-07-29 14:51:05,379 - INFO -   ✓ Icon added: KYC
+
+2026-07-29 14:51:06,391 - INFO - 
+[5/30] Uploading missing icon for Mechanic: Language
+2026-07-29 14:51:06,406 - INFO -   Adding: [Mechanic] Language  (chooselanguage)
+2026-07-29 14:51:19,042 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:51:19,146 - INFO -     → Icon identity: chooselanguage
+2026-07-29 14:51:19,278 - INFO -     → Display title: Language
+2026-07-29 14:51:19,891 - INFO -     → Icon color: #5010E8
+2026-07-29 14:51:19,930 - INFO -     → Toggle: side menu
+2026-07-29 14:51:21,995 - INFO -     → Image uploaded: Language.png
+2026-07-29 14:51:22,102 - INFO -     → Form submitted
+2026-07-29 14:51:32,758 - INFO -   ✓ Icon added: Language
+
+2026-07-29 14:51:33,759 - INFO - 
+[6/30] Uploading missing icon for Mechanic: My Wallet
+2026-07-29 14:51:33,759 - INFO -   Adding: [Mechanic] My Wallet  (wallet)
+2026-07-29 14:51:46,541 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:51:46,709 - INFO -     → Icon identity: wallet
+2026-07-29 14:51:46,930 - INFO -     → Display title: My Wallet
+2026-07-29 14:51:47,607 - INFO -     → Icon color: #20A020
+2026-07-29 14:51:47,695 - INFO -     → Toggle: both
+2026-07-29 14:51:49,814 - INFO -     → Image uploaded: My Wallet.png
+2026-07-29 14:51:49,976 - INFO -     → Form submitted
+2026-07-29 14:52:00,841 - INFO -   ✓ Icon added: My Wallet
+
+2026-07-29 14:52:02,037 - INFO - 
+[7/30] Uploading missing icon for Mechanic: Product Catalog
+2026-07-29 14:52:02,040 - INFO -   Adding: [Mechanic] Product Catalog  (productcatalogue)
+2026-07-29 14:52:15,123 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:52:15,227 - INFO -     → Icon identity: productcatalogue
+2026-07-29 14:52:15,406 - INFO -     → Display title: Product Catalog
+2026-07-29 14:52:16,030 - INFO -     → Icon color: #6028E8
+2026-07-29 14:52:16,075 - INFO -     → Toggle: dashboard only
+2026-07-29 14:52:18,123 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-29 14:52:18,426 - INFO -     → Form submitted
+2026-07-29 14:52:29,054 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-29 14:52:30,055 - INFO - 
+[8/30] Uploading missing icon for Mechanic: Prospectus
+2026-07-29 14:52:30,056 - INFO -   Adding: [Mechanic] Prospectus  (brochure)
+2026-07-29 14:52:42,500 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:52:42,596 - INFO -     → Icon identity: brochure
+2026-07-29 14:52:42,744 - INFO -     → Display title: Prospectus
+2026-07-29 14:52:43,291 - INFO -     → Icon color: #0848F8
+2026-07-29 14:52:43,328 - INFO -     → Toggle: dashboard only
+2026-07-29 14:52:45,387 - INFO -     → Image uploaded: Prospectus.png
+2026-07-29 14:52:45,496 - INFO -     → Form submitted
+2026-07-29 14:52:56,198 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-29 14:52:57,199 - INFO - 
+[9/30] Uploading missing icon for Mechanic: Refer & Earn
+2026-07-29 14:52:57,200 - INFO -   Adding: [Mechanic] Refer & Earn  (referandearn)
+2026-07-29 14:53:09,471 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:53:09,554 - INFO -     → Icon identity: referandearn
+2026-07-29 14:53:09,687 - INFO -     → Display title: Refer & Earn
+2026-07-29 14:53:10,316 - INFO -     → Icon color: #089098
+2026-07-29 14:53:10,346 - INFO -     → Toggle: both
+2026-07-29 14:53:12,381 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-29 14:53:12,480 - INFO -     → Form submitted
+2026-07-29 14:53:23,160 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-29 14:53:24,161 - INFO - 
+[10/30] Uploading missing icon for Mechanic: Rewards
+2026-07-29 14:53:24,162 - INFO -   Adding: [Mechanic] Rewards  (gift)
+2026-07-29 14:53:36,422 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:53:36,499 - INFO -     → Icon identity: gift
+2026-07-29 14:53:36,606 - INFO -     → Display title: Rewards
+2026-07-29 14:53:37,034 - INFO -     → Icon color: #F00048
+2026-07-29 14:53:37,056 - INFO -     → Toggle: both
+2026-07-29 14:53:39,090 - INFO -     → Image uploaded: Rewards.png
+2026-07-29 14:53:39,195 - INFO -     → Form submitted
+2026-07-29 14:53:49,856 - INFO -   ✓ Icon added: Rewards
+
+2026-07-29 14:53:50,998 - INFO - 
+[11/30] Uploading missing icon for Mechanic: Scan Activity
+2026-07-29 14:53:51,035 - INFO -   Adding: [Mechanic] Scan Activity  (codedetails)
+2026-07-29 14:54:03,423 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:54:03,497 - INFO -     → Icon identity: codedetails
+2026-07-29 14:54:03,597 - INFO -     → Display title: Scan Activity
+2026-07-29 14:54:04,076 - INFO -     → Icon color: #10A010
+2026-07-29 14:54:04,098 - INFO -     → Toggle: dashboard only
+2026-07-29 14:54:06,137 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-29 14:54:06,792 - INFO -     → Form submitted
+2026-07-29 14:54:17,615 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-29 14:54:18,616 - INFO - 
+[12/30] Uploading missing icon for Mechanic: Scan History
+2026-07-29 14:54:18,617 - INFO -   Adding: [Mechanic] Scan History  (history)
+2026-07-29 14:54:31,609 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:54:31,820 - INFO -     → Icon identity: history
+2026-07-29 14:54:32,123 - INFO -     → Display title: Scan History
+2026-07-29 14:54:33,011 - INFO -     → Icon color: #4808F0
+2026-07-29 14:54:33,093 - INFO -     → Toggle: dashboard only
+2026-07-29 14:54:35,205 - INFO -     → Image uploaded: Scan History.png
+2026-07-29 14:54:35,491 - INFO -     → Form submitted
+2026-07-29 14:54:46,148 - INFO -   ✓ Icon added: Scan History
+
+2026-07-29 14:54:47,150 - INFO - 
+[13/30] Uploading missing icon for Mechanic: Support
+2026-07-29 14:54:47,152 - INFO -   Adding: [Mechanic] Support  (help)
+2026-07-29 14:55:00,864 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:55:01,076 - INFO -     → Icon identity: help
+2026-07-29 14:55:01,357 - INFO -     → Display title: Support
+2026-07-29 14:55:02,255 - INFO -     → Icon color: #0030F0
+2026-07-29 14:55:02,325 - INFO -     → Toggle: dashboard only
+2026-07-29 14:55:04,427 - INFO -     → Image uploaded: Support.png
+2026-07-29 14:55:04,680 - INFO -     → Form submitted
+2026-07-29 14:55:15,300 - INFO -   ✓ Icon added: Support
+
+2026-07-29 14:55:16,302 - INFO - 
+[14/30] Uploading missing icon for Mechanic: TDS
+2026-07-29 14:55:16,304 - INFO -   Adding: [Mechanic] TDS  (tds)
+2026-07-29 14:55:29,107 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:55:29,304 - INFO -     → Icon identity: tds
+2026-07-29 14:55:29,563 - INFO -     → Display title: TDS
+2026-07-29 14:55:30,379 - INFO -     → Icon color: #20C880
+2026-07-29 14:55:30,470 - INFO -     → Toggle: side menu
+2026-07-29 14:55:32,568 - INFO -     → Image uploaded: TDS.png
+2026-07-29 14:55:32,823 - INFO -     → Form submitted
+2026-07-29 14:55:43,593 - INFO -   ✓ Icon added: TDS
+
+2026-07-29 14:55:44,595 - INFO - 
+[15/30] Uploading missing icon for Mechanic: Updates
+2026-07-29 14:55:44,596 - INFO -   Adding: [Mechanic] Updates  (blog)
+2026-07-29 14:55:58,008 - INFO -     → User type selected by exact text: Mechanic
+2026-07-29 14:55:58,244 - INFO -     → Icon identity: blog
+2026-07-29 14:55:58,545 - INFO -     → Display title: Updates
+2026-07-29 14:55:59,513 - INFO -     → Icon color: #F87820
+2026-07-29 14:55:59,597 - INFO -     → Toggle: dashboard only
+2026-07-29 14:56:01,682 - INFO -     → Image uploaded: Updates.png
+2026-07-29 14:56:01,958 - INFO -     → Form submitted
+2026-07-29 14:56:12,503 - INFO -   ✓ Icon added: Updates
+
+2026-07-29 14:56:13,504 - INFO - 
+[16/30] Uploading missing icon for Retailer: aboutus
+2026-07-29 14:56:13,537 - INFO -   Adding: [Retailer] aboutus  (aboutus)
+2026-07-29 14:56:26,916 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:56:27,144 - INFO -     → Icon identity: aboutus
+2026-07-29 14:56:27,442 - INFO -     → Display title: aboutus
+2026-07-29 14:56:28,260 - INFO -     → Icon color: #70E8A8
+2026-07-29 14:56:28,318 - INFO -     → Toggle: side menu
+2026-07-29 14:56:30,406 - INFO -     → Image uploaded: aboutus.png
+2026-07-29 14:56:30,663 - INFO -     → Form submitted
+2026-07-29 14:56:41,282 - INFO -   ✓ Icon added: aboutus
+
+2026-07-29 14:56:42,284 - INFO - 
+[17/30] Uploading missing icon for Retailer: Activity
+2026-07-29 14:56:42,285 - INFO -   Adding: [Retailer] Activity  (claimhistory)
+2026-07-29 14:56:55,496 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:56:55,694 - INFO -     → Icon identity: claimhistory
+2026-07-29 14:56:55,965 - INFO -     → Display title: Activity
+2026-07-29 14:56:56,847 - INFO -     → Icon color: #F86008
+2026-07-29 14:56:56,964 - INFO -     → Toggle: dashboard only
+2026-07-29 14:56:59,080 - INFO -     → Image uploaded: Activity.png
+2026-07-29 14:56:59,316 - INFO -     → Form submitted
+2026-07-29 14:57:09,950 - INFO -   ✓ Icon added: Activity
+
+2026-07-29 14:57:10,951 - INFO - 
+[18/30] Uploading missing icon for Retailer: E-Warranty
+2026-07-29 14:57:10,952 - INFO -   Adding: [Retailer] E-Warranty  (e-warrant)
+2026-07-29 14:57:24,142 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:57:24,300 - INFO -     → Icon identity: e-warrant
+2026-07-29 14:57:24,548 - INFO -     → Display title: E-Warranty
+2026-07-29 14:57:25,303 - INFO -     → Icon color: #20C078
+2026-07-29 14:57:25,359 - INFO -     → Toggle: dashboard only
+2026-07-29 14:57:27,441 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-29 14:57:27,672 - INFO -     → Form submitted
+2026-07-29 14:57:38,233 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-29 14:57:39,234 - INFO - 
+[19/30] Uploading missing icon for Retailer: KYC
+2026-07-29 14:57:39,235 - INFO -   Adding: [Retailer] KYC  (kycdetails)
+2026-07-29 14:57:52,422 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:57:52,592 - INFO -     → Icon identity: kycdetails
+2026-07-29 14:57:52,812 - INFO -     → Display title: KYC
+2026-07-29 14:57:53,560 - INFO -     → Icon color: #F85808
+2026-07-29 14:57:53,616 - INFO -     → Toggle: side menu
+2026-07-29 14:57:55,709 - INFO -     → Image uploaded: KYC.png
+2026-07-29 14:57:55,940 - INFO -     → Form submitted
+2026-07-29 14:58:06,623 - INFO -   ✓ Icon added: KYC
+
+2026-07-29 14:58:07,625 - INFO - 
+[20/30] Uploading missing icon for Retailer: Language
+2026-07-29 14:58:07,626 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-07-29 14:58:20,794 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:58:20,964 - INFO -     → Icon identity: chooselanguage
+2026-07-29 14:58:21,210 - INFO -     → Display title: Language
+2026-07-29 14:58:21,983 - INFO -     → Icon color: #5010E8
+2026-07-29 14:58:22,038 - INFO -     → Toggle: side menu
+2026-07-29 14:58:24,128 - INFO -     → Image uploaded: Language.png
+2026-07-29 14:58:24,444 - INFO -     → Form submitted
+2026-07-29 14:58:35,027 - INFO -   ✓ Icon added: Language
+
+2026-07-29 14:58:36,028 - INFO - 
+[21/30] Uploading missing icon for Retailer: My Wallet
+2026-07-29 14:58:36,029 - INFO -   Adding: [Retailer] My Wallet  (wallet)
+2026-07-29 14:58:49,494 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:58:49,711 - INFO -     → Icon identity: wallet
+2026-07-29 14:58:50,156 - INFO -     → Display title: My Wallet
+2026-07-29 14:58:51,490 - INFO -     → Icon color: #20A020
+2026-07-29 14:58:51,617 - INFO -     → Toggle: both
+2026-07-29 14:58:53,780 - INFO -     → Image uploaded: My Wallet.png
+2026-07-29 14:58:53,996 - INFO -     → Form submitted
+2026-07-29 14:59:04,710 - INFO -   ✓ Icon added: My Wallet
+
+2026-07-29 14:59:05,711 - INFO - 
+[22/30] Uploading missing icon for Retailer: Product Catalog
+2026-07-29 14:59:05,712 - INFO -   Adding: [Retailer] Product Catalog  (productcatalogue)
+2026-07-29 14:59:19,271 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:59:19,658 - INFO -     → Icon identity: productcatalogue
+2026-07-29 14:59:20,030 - INFO -     → Display title: Product Catalog
+2026-07-29 14:59:20,843 - INFO -     → Icon color: #6028E8
+2026-07-29 14:59:20,906 - INFO -     → Toggle: dashboard only
+2026-07-29 14:59:22,981 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-29 14:59:23,246 - INFO -     → Form submitted
+2026-07-29 14:59:34,055 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-29 14:59:35,056 - INFO - 
+[23/30] Uploading missing icon for Retailer: Prospectus
+2026-07-29 14:59:35,058 - INFO -   Adding: [Retailer] Prospectus  (brochure)
+2026-07-29 14:59:48,242 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 14:59:48,726 - INFO -     → Icon identity: brochure
+2026-07-29 14:59:49,200 - INFO -     → Display title: Prospectus
+2026-07-29 14:59:50,198 - INFO -     → Icon color: #0848F8
+2026-07-29 14:59:50,267 - INFO -     → Toggle: dashboard only
+2026-07-29 14:59:52,377 - INFO -     → Image uploaded: Prospectus.png
+2026-07-29 14:59:52,673 - INFO -     → Form submitted
+2026-07-29 15:00:03,600 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-29 15:00:04,603 - INFO - 
+[24/30] Uploading missing icon for Retailer: Refer & Earn
+2026-07-29 15:00:04,604 - INFO -   Adding: [Retailer] Refer & Earn  (referandearn)
+2026-07-29 15:00:17,759 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:00:17,942 - INFO -     → Icon identity: referandearn
+2026-07-29 15:00:18,200 - INFO -     → Display title: Refer & Earn
+2026-07-29 15:00:18,951 - INFO -     → Icon color: #089098
+2026-07-29 15:00:19,012 - INFO -     → Toggle: both
+2026-07-29 15:00:21,092 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-29 15:00:21,325 - INFO -     → Form submitted
+2026-07-29 15:00:31,888 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-29 15:00:32,890 - INFO - 
+[25/30] Uploading missing icon for Retailer: Rewards
+2026-07-29 15:00:32,890 - INFO -   Adding: [Retailer] Rewards  (gift)
+2026-07-29 15:00:46,053 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:00:46,235 - INFO -     → Icon identity: gift
+2026-07-29 15:00:46,461 - INFO -     → Display title: Rewards
+2026-07-29 15:00:47,214 - INFO -     → Icon color: #F00048
+2026-07-29 15:00:47,275 - INFO -     → Toggle: both
+2026-07-29 15:00:49,354 - INFO -     → Image uploaded: Rewards.png
+2026-07-29 15:00:49,783 - INFO -     → Form submitted
+2026-07-29 15:01:00,324 - INFO -   ✓ Icon added: Rewards
+
+2026-07-29 15:01:01,325 - INFO - 
+[26/30] Uploading missing icon for Retailer: Scan Activity
+2026-07-29 15:01:01,326 - INFO -   Adding: [Retailer] Scan Activity  (codedetails)
+2026-07-29 15:01:14,496 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:01:14,674 - INFO -     → Icon identity: codedetails
+2026-07-29 15:01:14,910 - INFO -     → Display title: Scan Activity
+2026-07-29 15:01:15,660 - INFO -     → Icon color: #10A010
+2026-07-29 15:01:15,713 - INFO -     → Toggle: dashboard only
+2026-07-29 15:01:17,795 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-29 15:01:17,981 - INFO -     → Form submitted
+2026-07-29 15:01:28,554 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-29 15:01:29,555 - INFO - 
+[27/30] Uploading missing icon for Retailer: Scan History
+2026-07-29 15:01:29,556 - INFO -   Adding: [Retailer] Scan History  (history)
+2026-07-29 15:01:42,709 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:01:42,901 - INFO -     → Icon identity: history
+2026-07-29 15:01:43,155 - INFO -     → Display title: Scan History
+2026-07-29 15:01:43,930 - INFO -     → Icon color: #4808F0
+2026-07-29 15:01:43,998 - INFO -     → Toggle: dashboard only
+2026-07-29 15:01:46,080 - INFO -     → Image uploaded: Scan History.png
+2026-07-29 15:01:46,302 - INFO -     → Form submitted
+2026-07-29 15:01:56,825 - INFO -   ✓ Icon added: Scan History
+
+2026-07-29 15:01:57,826 - INFO - 
+[28/30] Uploading missing icon for Retailer: Support
+2026-07-29 15:01:57,827 - INFO -   Adding: [Retailer] Support  (help)
+2026-07-29 15:02:10,965 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:02:11,149 - INFO -     → Icon identity: help
+2026-07-29 15:02:11,417 - INFO -     → Display title: Support
+2026-07-29 15:02:13,061 - INFO -     → Icon color: #0030F0
+2026-07-29 15:02:13,223 - INFO -     → Toggle: dashboard only
+2026-07-29 15:02:15,439 - INFO -     → Image uploaded: Support.png
+2026-07-29 15:02:15,743 - INFO -     → Form submitted
+2026-07-29 15:02:26,676 - INFO -   ✓ Icon added: Support
+
+2026-07-29 15:02:27,677 - INFO - 
+[29/30] Uploading missing icon for Retailer: TDS
+2026-07-29 15:02:27,678 - INFO -   Adding: [Retailer] TDS  (tds)
+2026-07-29 15:02:40,839 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:02:41,026 - INFO -     → Icon identity: tds
+2026-07-29 15:02:41,277 - INFO -     → Display title: TDS
+2026-07-29 15:02:42,038 - INFO -     → Icon color: #20C880
+2026-07-29 15:02:42,122 - INFO -     → Toggle: side menu
+2026-07-29 15:02:44,206 - INFO -     → Image uploaded: TDS.png
+2026-07-29 15:02:44,438 - INFO -     → Form submitted
+2026-07-29 15:02:55,082 - INFO -   ✓ Icon added: TDS
+
+2026-07-29 15:02:56,085 - INFO - 
+[30/30] Uploading missing icon for Retailer: Updates
+2026-07-29 15:02:56,086 - INFO -   Adding: [Retailer] Updates  (blog)
+2026-07-29 15:03:08,929 - INFO -     → User type selected by exact text: Retailer
+2026-07-29 15:03:09,103 - INFO -     → Icon identity: blog
+2026-07-29 15:03:09,446 - INFO -     → Display title: Updates
+2026-07-29 15:03:10,324 - INFO -     → Icon color: #F87820
+2026-07-29 15:03:10,399 - INFO -     → Toggle: dashboard only
+2026-07-29 15:03:12,543 - INFO -     → Image uploaded: Updates.png
+2026-07-29 15:03:12,788 - INFO -     → Form submitted
+2026-07-29 15:03:23,755 - INFO -   ✓ Icon added: Updates
+
+2026-07-29 15:03:24,757 - INFO - 
+============================================================
+2026-07-29 15:03:24,758 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-29 15:03:24,759 - INFO - ============================================================
+2026-07-29 15:03:24,759 - INFO - Successful uploads: 30
+2026-07-29 15:03:24,760 - INFO - Failed uploads: 0
+2026-07-29 15:03:24,760 - INFO - Total processed: 30
+2026-07-29 15:03:24,761 - INFO - ============================================================
+2026-07-29 15:03:28,078 - INFO - Browser closed
+2026-07-29 15:03:32,164 - INFO - 
+Task finished at 2026-07-29 15:03:32
+2026-07-29 15:03:32,164 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260729_144813.log
+

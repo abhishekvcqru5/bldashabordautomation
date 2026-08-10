@@ -1,0 +1,181 @@
+2026-08-03 15:40:54,472 - INFO - User selected: Registration Fields
+2026-08-03 15:40:54,473 - INFO - ============================================================
+2026-08-03 15:40:54,473 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-08-03 15:40:54,473 - INFO - ============================================================
+2026-08-03 15:40:54,486 - INFO - ====== WebDriver manager ======
+2026-08-03 15:40:55,935 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 15:40:56,108 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 15:40:56,255 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-03 15:40:56,256 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-03 15:40:57,401 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-03 15:40:57,404 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-03 15:40:57,441 - INFO - ✓ Chrome driver initialized
+2026-08-03 15:40:57,441 - INFO - Opening login page...
+2026-08-03 15:40:58,669 - INFO -   → Policy checkbox checked on login page
+2026-08-03 15:40:58,762 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-03 15:40:58,784 - INFO -   → Policy agreement popup detected
+2026-08-03 15:40:58,840 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-03 15:40:59,473 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-03 15:41:10,893 - INFO -   → Navigating directly to App Settings URL...
+2026-08-03 15:41:11,257 - INFO - ✓ Login successful and on App Settings page
+2026-08-03 15:41:13,258 - INFO - Going to App Settings...
+2026-08-03 15:41:14,010 - INFO -   → Registration Field section opened
+2026-08-03 15:41:14,077 - INFO - ✓ Registration Fields page ready
+2026-08-03 15:41:14,702 - INFO - Found 3 user types: ['Retailer', 'Dealer', 'Electrician']
+2026-08-03 15:41:14,703 - INFO - Starting registration fields automation: 18 fields total
+2026-08-03 15:41:14,703 - INFO - ============================================================
+2026-08-03 15:41:14,703 - INFO - Processing User Type: Retailer
+2026-08-03 15:41:14,703 - INFO -   Adding field: [Retailer] -> First Name
+2026-08-03 15:41:15,169 - INFO -     → User Type selected: Retailer
+2026-08-03 15:41:35,285 - INFO -     → System Data Point selected: First Name
+2026-08-03 15:41:35,316 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:41:35,426 - INFO -     → Integrate Now clicked
+2026-08-03 15:41:35,449 - INFO -     → Toast dismissed
+2026-08-03 15:41:35,522 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-03 15:41:35,823 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-08-03 15:41:36,367 - INFO -     → User Type selected: Retailer
+2026-08-03 15:41:56,675 - INFO -     → System Data Point selected: Phone Number
+2026-08-03 15:41:56,709 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:41:56,874 - INFO -     → Integrate Now clicked
+2026-08-03 15:41:56,886 - INFO -     → Toast dismissed
+2026-08-03 15:41:56,967 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-03 15:41:57,268 - INFO -   Adding field: [Retailer] -> Pincode
+2026-08-03 15:41:57,828 - INFO -     → User Type selected: Retailer
+2026-08-03 15:42:18,109 - INFO -     → System Data Point selected: Pincode
+2026-08-03 15:42:18,158 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:42:18,333 - INFO -     → Integrate Now clicked
+2026-08-03 15:42:18,348 - INFO -     → Toast dismissed
+2026-08-03 15:42:18,416 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-03 15:42:18,719 - INFO -   Adding field: [Retailer] -> City
+2026-08-03 15:42:19,338 - INFO -     → User Type selected: Retailer
+2026-08-03 15:42:39,699 - INFO -     → System Data Point selected: City
+2026-08-03 15:42:39,751 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:42:39,877 - INFO -     → Integrate Now clicked
+2026-08-03 15:42:39,888 - INFO -     → Toast dismissed
+2026-08-03 15:42:39,941 - INFO -   ✓ Field added successfully: City
+
+2026-08-03 15:42:40,242 - INFO -   Adding field: [Retailer] -> State
+2026-08-03 15:42:40,541 - INFO -     → User Type selected: Retailer
+2026-08-03 15:43:00,674 - INFO -     → System Data Point selected: State
+2026-08-03 15:43:00,709 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:43:00,821 - INFO -     → Integrate Now clicked
+2026-08-03 15:43:00,834 - INFO -     → Toast dismissed
+2026-08-03 15:43:00,901 - INFO -   ✓ Field added successfully: State
+
+2026-08-03 15:43:01,202 - INFO -   Adding field: [Retailer] -> Address
+2026-08-03 15:43:01,753 - INFO -     → User Type selected: Retailer
+2026-08-03 15:43:22,048 - INFO -     → System Data Point selected: Address
+2026-08-03 15:43:22,085 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:43:22,199 - INFO -     → Integrate Now clicked
+2026-08-03 15:43:22,218 - INFO -     → Toast dismissed
+2026-08-03 15:43:22,267 - INFO -   ✓ Field added successfully: Address
+
+2026-08-03 15:43:22,567 - INFO - Processing User Type: Dealer
+2026-08-03 15:43:22,568 - INFO -   Adding field: [Dealer] -> First Name
+2026-08-03 15:43:23,241 - INFO -     → User Type selected: Dealer
+2026-08-03 15:43:43,625 - INFO -     → System Data Point selected: First Name
+2026-08-03 15:43:43,658 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:43:43,822 - INFO -     → Integrate Now clicked
+2026-08-03 15:43:43,838 - INFO -     → Toast dismissed
+2026-08-03 15:43:43,899 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-03 15:43:44,200 - INFO -   Adding field: [Dealer] -> Phone Number
+2026-08-03 15:43:44,770 - INFO -     → User Type selected: Dealer
+2026-08-03 15:44:05,037 - INFO -     → System Data Point selected: Phone Number
+2026-08-03 15:44:05,066 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:44:05,275 - INFO -     → Integrate Now clicked
+2026-08-03 15:44:05,288 - INFO -     → Toast dismissed
+2026-08-03 15:44:05,369 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-03 15:44:05,670 - INFO -   Adding field: [Dealer] -> Pincode
+2026-08-03 15:44:06,215 - INFO -     → User Type selected: Dealer
+2026-08-03 15:44:26,458 - INFO -     → System Data Point selected: Pincode
+2026-08-03 15:44:26,491 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:44:26,615 - INFO -     → Integrate Now clicked
+2026-08-03 15:44:26,625 - INFO -     → Toast dismissed
+2026-08-03 15:44:26,767 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-03 15:44:27,067 - INFO -   Adding field: [Dealer] -> City
+2026-08-03 15:44:27,633 - INFO -     → User Type selected: Dealer
+2026-08-03 15:44:47,981 - INFO -     → System Data Point selected: City
+2026-08-03 15:44:48,019 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:44:48,189 - INFO -     → Integrate Now clicked
+2026-08-03 15:44:48,205 - INFO -     → Toast dismissed
+2026-08-03 15:44:48,261 - INFO -   ✓ Field added successfully: City
+
+2026-08-03 15:44:48,563 - INFO -   Adding field: [Dealer] -> State
+2026-08-03 15:44:48,885 - INFO -     → User Type selected: Dealer
+2026-08-03 15:45:08,997 - INFO -     → System Data Point selected: State
+2026-08-03 15:45:09,043 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:45:09,208 - INFO -     → Integrate Now clicked
+2026-08-03 15:45:09,228 - INFO -     → Toast dismissed
+2026-08-03 15:45:09,300 - INFO -   ✓ Field added successfully: State
+
+2026-08-03 15:45:09,601 - INFO -   Adding field: [Dealer] -> Address
+2026-08-03 15:45:10,201 - INFO -     → User Type selected: Dealer
+2026-08-03 15:45:30,485 - INFO -     → System Data Point selected: Address
+2026-08-03 15:45:30,536 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:45:30,688 - INFO -     → Integrate Now clicked
+2026-08-03 15:45:30,701 - INFO -     → Toast dismissed
+2026-08-03 15:45:30,804 - INFO -   ✓ Field added successfully: Address
+
+2026-08-03 15:45:31,105 - INFO - Processing User Type: Electrician
+2026-08-03 15:45:31,106 - INFO -   Adding field: [Electrician] -> First Name
+2026-08-03 15:45:31,648 - INFO -     → User Type selected: Electrician
+2026-08-03 15:45:51,856 - INFO -     → System Data Point selected: First Name
+2026-08-03 15:45:51,904 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:45:52,025 - INFO -     → Integrate Now clicked
+2026-08-03 15:45:52,040 - INFO -     → Toast dismissed
+2026-08-03 15:45:52,116 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-03 15:45:52,417 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-08-03 15:45:53,691 - INFO -     → User Type selected: Electrician
+2026-08-03 15:46:13,954 - INFO -     → System Data Point selected: Phone Number
+2026-08-03 15:46:13,988 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:46:14,176 - INFO -     → Integrate Now clicked
+2026-08-03 15:46:14,189 - INFO -     → Toast dismissed
+2026-08-03 15:46:14,268 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-03 15:46:14,570 - INFO -   Adding field: [Electrician] -> Pincode
+2026-08-03 15:46:15,823 - INFO -     → User Type selected: Electrician
+2026-08-03 15:46:36,153 - INFO -     → System Data Point selected: Pincode
+2026-08-03 15:46:36,184 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:46:36,321 - INFO -     → Integrate Now clicked
+2026-08-03 15:46:36,357 - INFO -     → Toast dismissed
+2026-08-03 15:46:36,486 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-03 15:46:36,789 - INFO -   Adding field: [Electrician] -> City
+2026-08-03 15:46:38,159 - INFO -     → User Type selected: Electrician
+2026-08-03 15:46:58,356 - INFO -     → System Data Point selected: City
+2026-08-03 15:46:58,405 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:46:58,564 - INFO -     → Integrate Now clicked
+2026-08-03 15:46:58,578 - INFO -     → Toast dismissed
+2026-08-03 15:46:58,652 - INFO -   ✓ Field added successfully: City
+
+2026-08-03 15:46:58,953 - INFO -   Adding field: [Electrician] -> State
+2026-08-03 15:47:00,189 - INFO -     → User Type selected: Electrician
+2026-08-03 15:47:20,420 - INFO -     → System Data Point selected: State
+2026-08-03 15:47:20,488 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:47:20,655 - INFO -     → Integrate Now clicked
+2026-08-03 15:47:20,676 - INFO -     → Toast dismissed
+2026-08-03 15:47:20,777 - INFO -   ✓ Field added successfully: State
+
+2026-08-03 15:47:21,080 - INFO -   Adding field: [Electrician] -> Address
+2026-08-03 15:47:22,641 - INFO -     → User Type selected: Electrician
+2026-08-03 15:47:43,039 - INFO -     → System Data Point selected: Address
+2026-08-03 15:47:43,106 - INFO -     → Mandatory toggle enabled
+2026-08-03 15:47:43,221 - INFO -     → Integrate Now clicked
+2026-08-03 15:47:43,234 - INFO -     → Toast dismissed
+2026-08-03 15:47:43,276 - INFO -   ✓ Field added successfully: Address
+
+2026-08-03 15:47:43,577 - INFO - ============================================================
+2026-08-03 15:47:43,577 - INFO - Registration fields batch complete → ✓ 18 succeeded  ✗ 0 failed
+2026-08-03 15:47:45,948 - INFO - Browser closed
+2026-08-03 15:47:49,999 - INFO - 
+Task finished at 2026-08-03 15:47:49
+2026-08-03 15:47:50,000 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260803_154036.log
+
+2026-08-03 16:16:53,221 - INFO - Automation cancelled by user (Ctrl+C)

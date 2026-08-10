@@ -1,0 +1,85 @@
+2026-07-01 19:47:58,590 - INFO - User selected: Product Management Image Upload
+2026-07-01 19:47:58,593 - INFO - Starting Product Management Image Upload
+2026-07-01 19:47:58,613 - INFO - ====== WebDriver manager ======
+2026-07-01 19:48:01,077 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 19:48:01,720 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 19:48:02,334 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 19:48:02,366 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 19:48:04,015 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 19:48:04,024 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 19:48:04,097 - INFO - ✓ Chrome driver initialized
+2026-07-01 19:48:04,098 - INFO - Logging in...
+2026-07-01 19:48:04,099 - INFO - Opening login page...
+2026-07-01 19:48:05,827 - INFO -   → Policy checkbox checked on login page
+2026-07-01 19:48:06,033 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 19:48:06,068 - INFO -   → Policy agreement popup detected
+2026-07-01 19:48:06,164 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 19:48:06,724 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 19:48:18,460 - INFO - ✓ Login successful
+2026-07-01 19:48:20,462 - INFO - Navigating to App Settings...
+2026-07-01 19:48:24,068 - INFO - Clicked Product Management
+2026-07-01 19:48:27,160 - INFO - Found 83 products in table
+2026-07-01 19:48:27,165 - INFO - Processing folder: 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 19:48:27,940 - INFO - Match found for 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing -> 0.75 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing at row 17
+2026-07-01 19:48:31,777 - INFO - Removed existing image
+2026-07-01 19:48:32,859 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing\9ff3f8b9-d853-444b-a60c-f972f7b3bf59.jpg
+2026-07-01 19:48:34,889 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:48:34,891 - INFO - Processing folder: 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 19:48:37,631 - INFO - Match found for 0.75 sq.mm HRFR Multistrand copper cable 90 mtr -> 0.75 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr at row 67
+2026-07-01 19:48:41,355 - INFO - Removed existing image
+2026-07-01 19:48:42,432 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\0.75 sq.mm HRFR Multistrand copper cable 90 mtr\06327536-cb04-4263-8e06-eb01ae3f154e.jpg
+2026-07-01 19:48:44,457 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:48:44,458 - INFO - Processing folder: 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:48:47,122 - INFO - Match found for 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr -> 0.75 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 57
+2026-07-01 19:48:50,464 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7c6ebeb7295c5402b7ab2c46717f7539
+2026-07-01 19:48:54,553 - INFO - Automation cancelled by user (Ctrl+C)

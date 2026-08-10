@@ -1,0 +1,795 @@
+2026-07-31 14:12:32,940 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-31 14:12:32,943 - INFO - ============================================================
+2026-07-31 14:12:32,943 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-31 14:12:32,944 - INFO - ============================================================
+2026-07-31 14:12:32,945 - INFO - Processing images from dashboardicons/...
+2026-07-31 14:12:32,954 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-31 14:12:32,955 - INFO - Output folder: automation\processed_images
+2026-07-31 14:12:32,955 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-31 14:12:33,123 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-31 14:12:33,195 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-31 14:12:33,287 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-31 14:12:33,362 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-31 14:12:33,435 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-31 14:12:33,499 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-31 14:12:33,537 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-31 14:12:33,625 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-31 14:12:33,682 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-31 14:12:33,748 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-31 14:12:33,842 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-31 14:12:33,909 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-31 14:12:33,981 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-31 14:12:34,045 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-31 14:12:34,046 - INFO - 
+✓ Processed 14 images successfully
+
+2026-07-31 14:12:34,047 - INFO - v 14 images processed.
+2026-07-31 14:12:34,961 - INFO - ====== WebDriver manager ======
+2026-07-31 14:12:39,517 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 14:12:39,712 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 14:12:39,985 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-31 14:12:39,987 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-31 14:12:41,538 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-31 14:12:41,555 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-31 14:12:41,628 - INFO - ✓ Chrome driver initialized
+2026-07-31 14:12:41,632 - INFO - Opening login page...
+2026-07-31 14:12:43,228 - INFO -   → Policy checkbox checked on login page
+2026-07-31 14:12:43,458 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-31 14:12:43,510 - INFO -   → Policy agreement popup detected
+2026-07-31 14:12:43,612 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-31 14:12:44,371 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-31 14:12:55,820 - INFO -   → Navigating directly to App Settings URL...
+2026-07-31 14:12:56,387 - INFO - ✓ Login successful and on App Settings page
+2026-07-31 14:12:58,388 - INFO - Navigating to dashboard icons section...
+2026-07-31 14:12:58,388 - INFO - Navigating to App Settings...
+2026-07-31 14:13:05,289 - INFO - ✓ Dashboard Icons section loaded
+2026-07-31 14:13:05,290 - INFO - Reading all available user types from dropdown...
+2026-07-31 14:13:19,232 - INFO -   Found 1 user types: ['Mason']
+2026-07-31 14:13:19,290 - INFO - Total rows found in configured icons table: 2
+2026-07-31 14:13:19,371 - INFO - Currently configured icons per user type:
+2026-07-31 14:13:19,371 - INFO -   mason: []
+2026-07-31 14:13:19,372 - INFO -   no icons registered
+the master navigation registry is empty. add icons to populate the mobile app dashboard.: []
+2026-07-31 14:13:19,373 - INFO - Found 28 missing icon uploads:
+2026-07-31 14:13:19,374 - INFO -   - [Mason] aboutus (ID: aboutus) from aboutus.png
+2026-07-31 14:13:19,374 - INFO -   - [Mason] Activity (ID: claimhistory) from Activity.png
+2026-07-31 14:13:19,375 - INFO -   - [Mason] KYC (ID: kycdetails) from KYC.png
+2026-07-31 14:13:19,375 - INFO -   - [Mason] Language (ID: chooselanguage) from Language.png
+2026-07-31 14:13:19,376 - INFO -   - [Mason] My Wallet (ID: wallet) from My Wallet.png
+2026-07-31 14:13:19,376 - INFO -   - [Mason] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-31 14:13:19,376 - INFO -   - [Mason] Prospectus (ID: brochure) from Prospectus.png
+2026-07-31 14:13:19,377 - INFO -   - [Mason] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-31 14:13:19,377 - INFO -   - [Mason] Rewards (ID: gift) from Rewards.png
+2026-07-31 14:13:19,377 - INFO -   - [Mason] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-31 14:13:19,378 - INFO -   - [Mason] Scan History (ID: history) from Scan History.png
+2026-07-31 14:13:19,378 - INFO -   - [Mason] Support (ID: help) from Support.png
+2026-07-31 14:13:19,378 - INFO -   - [Mason] TDS (ID: tds) from TDS.png
+2026-07-31 14:13:19,379 - INFO -   - [Mason] Updates (ID: blog) from Updates.png
+2026-07-31 14:13:19,380 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] aboutus (ID: aboutus) from aboutus.png
+2026-07-31 14:13:19,381 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Activity (ID: claimhistory) from Activity.png
+2026-07-31 14:13:19,381 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] KYC (ID: kycdetails) from KYC.png
+2026-07-31 14:13:19,382 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Language (ID: chooselanguage) from Language.png
+2026-07-31 14:13:19,383 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] My Wallet (ID: wallet) from My Wallet.png
+2026-07-31 14:13:19,383 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-31 14:13:19,383 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Prospectus (ID: brochure) from Prospectus.png
+2026-07-31 14:13:19,384 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-31 14:13:19,384 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Rewards (ID: gift) from Rewards.png
+2026-07-31 14:13:19,385 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-31 14:13:19,385 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan History (ID: history) from Scan History.png
+2026-07-31 14:13:19,385 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Support (ID: help) from Support.png
+2026-07-31 14:13:19,385 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] TDS (ID: tds) from TDS.png
+2026-07-31 14:13:19,386 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Updates (ID: blog) from Updates.png
+2026-07-31 14:13:21,547 - INFO - 
+[1/28] Uploading missing icon for Mason: aboutus
+2026-07-31 14:13:21,547 - INFO -   Adding: [Mason] aboutus  (aboutus)
+2026-07-31 14:13:34,348 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:13:34,509 - INFO -     → Icon identity: aboutus
+2026-07-31 14:13:34,784 - INFO -     → Display title: aboutus
+2026-07-31 14:13:35,543 - INFO -     → Icon color: #70E8A8
+2026-07-31 14:13:35,600 - INFO -     → Toggle: side menu
+2026-07-31 14:13:37,690 - INFO -     → Image uploaded: aboutus.png
+2026-07-31 14:13:37,932 - INFO -     → Form submitted
+2026-07-31 14:13:48,804 - INFO -   ✓ Icon added: aboutus
+
+2026-07-31 14:13:49,805 - INFO - 
+[2/28] Uploading missing icon for Mason: Activity
+2026-07-31 14:13:49,806 - INFO -   Adding: [Mason] Activity  (claimhistory)
+2026-07-31 14:14:02,372 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:14:02,525 - INFO -     → Icon identity: claimhistory
+2026-07-31 14:14:02,745 - INFO -     → Display title: Activity
+2026-07-31 14:14:03,426 - INFO -     → Icon color: #F86008
+2026-07-31 14:14:03,492 - INFO -     → Toggle: dashboard only
+2026-07-31 14:14:05,561 - INFO -     → Image uploaded: Activity.png
+2026-07-31 14:14:05,832 - INFO -     → Form submitted
+2026-07-31 14:14:16,436 - INFO -   ✓ Icon added: Activity
+
+2026-07-31 14:14:17,437 - INFO - 
+[3/28] Uploading missing icon for Mason: KYC
+2026-07-31 14:14:17,438 - INFO -   Adding: [Mason] KYC  (kycdetails)
+2026-07-31 14:14:30,084 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:14:30,249 - INFO -     → Icon identity: kycdetails
+2026-07-31 14:14:30,464 - INFO -     → Display title: KYC
+2026-07-31 14:14:31,205 - INFO -     → Icon color: #F85808
+2026-07-31 14:14:31,280 - INFO -     → Toggle: side menu
+2026-07-31 14:14:33,361 - INFO -     → Image uploaded: KYC.png
+2026-07-31 14:14:33,622 - INFO -     → Form submitted
+2026-07-31 14:14:44,176 - INFO -   ✓ Icon added: KYC
+
+2026-07-31 14:14:45,178 - INFO - 
+[4/28] Uploading missing icon for Mason: Language
+2026-07-31 14:14:45,179 - INFO -   Adding: [Mason] Language  (chooselanguage)
+2026-07-31 14:14:57,902 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:14:58,178 - INFO -     → Icon identity: chooselanguage
+2026-07-31 14:14:58,471 - INFO -     → Display title: Language
+2026-07-31 14:14:59,449 - INFO -     → Icon color: #5010E8
+2026-07-31 14:14:59,515 - INFO -     → Toggle: side menu
+2026-07-31 14:15:01,631 - INFO -     → Image uploaded: Language.png
+2026-07-31 14:15:01,950 - INFO -     → Form submitted
+2026-07-31 14:15:12,482 - INFO -   ✓ Icon added: Language
+
+2026-07-31 14:15:13,483 - INFO - 
+[5/28] Uploading missing icon for Mason: My Wallet
+2026-07-31 14:15:13,484 - INFO -   Adding: [Mason] My Wallet  (wallet)
+2026-07-31 14:15:26,656 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:15:26,898 - INFO -     → Icon identity: wallet
+2026-07-31 14:15:27,271 - INFO -     → Display title: My Wallet
+2026-07-31 14:15:28,179 - INFO -     → Icon color: #20A020
+2026-07-31 14:15:28,261 - INFO -     → Toggle: both
+2026-07-31 14:15:30,342 - INFO -     → Image uploaded: My Wallet.png
+2026-07-31 14:15:30,571 - INFO -     → Form submitted
+2026-07-31 14:15:41,251 - INFO -   ✓ Icon added: My Wallet
+
+2026-07-31 14:15:42,254 - INFO - 
+[6/28] Uploading missing icon for Mason: Product Catalog
+2026-07-31 14:15:42,255 - INFO -   Adding: [Mason] Product Catalog  (productcatalogue)
+2026-07-31 14:15:54,915 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:15:55,099 - INFO -     → Icon identity: productcatalogue
+2026-07-31 14:15:55,380 - INFO -     → Display title: Product Catalog
+2026-07-31 14:15:56,211 - INFO -     → Icon color: #6028E8
+2026-07-31 14:15:56,300 - INFO -     → Toggle: dashboard only
+2026-07-31 14:15:58,448 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-31 14:15:58,676 - INFO -     → Form submitted
+2026-07-31 14:16:09,380 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-31 14:16:10,381 - INFO - 
+[7/28] Uploading missing icon for Mason: Prospectus
+2026-07-31 14:16:10,382 - INFO -   Adding: [Mason] Prospectus  (brochure)
+2026-07-31 14:16:23,070 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:16:23,252 - INFO -     → Icon identity: brochure
+2026-07-31 14:16:23,522 - INFO -     → Display title: Prospectus
+2026-07-31 14:16:24,341 - INFO -     → Icon color: #0848F8
+2026-07-31 14:16:24,398 - INFO -     → Toggle: dashboard only
+2026-07-31 14:16:26,553 - INFO -     → Image uploaded: Prospectus.png
+2026-07-31 14:16:26,966 - INFO -     → Form submitted
+2026-07-31 14:16:37,714 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-31 14:16:38,715 - INFO - 
+[8/28] Uploading missing icon for Mason: Refer & Earn
+2026-07-31 14:16:38,716 - INFO -   Adding: [Mason] Refer & Earn  (referandearn)
+2026-07-31 14:16:51,732 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:16:51,933 - INFO -     → Icon identity: referandearn
+2026-07-31 14:16:52,190 - INFO -     → Display title: Refer & Earn
+2026-07-31 14:16:53,075 - INFO -     → Icon color: #089098
+2026-07-31 14:16:53,127 - INFO -     → Toggle: both
+2026-07-31 14:16:55,205 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-31 14:16:55,466 - INFO -     → Form submitted
+2026-07-31 14:17:06,514 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-31 14:17:07,516 - INFO - 
+[9/28] Uploading missing icon for Mason: Rewards
+2026-07-31 14:17:07,516 - INFO -   Adding: [Mason] Rewards  (gift)
+2026-07-31 14:17:20,310 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:17:20,477 - INFO -     → Icon identity: gift
+2026-07-31 14:17:20,678 - INFO -     → Display title: Rewards
+2026-07-31 14:17:21,362 - INFO -     → Icon color: #F00048
+2026-07-31 14:17:21,413 - INFO -     → Toggle: both
+2026-07-31 14:17:23,472 - INFO -     → Image uploaded: Rewards.png
+2026-07-31 14:17:23,663 - INFO -     → Form submitted
+2026-07-31 14:17:34,559 - INFO -   ✓ Icon added: Rewards
+
+2026-07-31 14:17:35,560 - INFO - 
+[10/28] Uploading missing icon for Mason: Scan Activity
+2026-07-31 14:17:35,561 - INFO -   Adding: [Mason] Scan Activity  (codedetails)
+2026-07-31 14:17:48,464 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:17:48,616 - INFO -     → Icon identity: codedetails
+2026-07-31 14:17:48,836 - INFO -     → Display title: Scan Activity
+2026-07-31 14:17:49,568 - INFO -     → Icon color: #10A010
+2026-07-31 14:17:49,634 - INFO -     → Toggle: dashboard only
+2026-07-31 14:17:51,738 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-31 14:17:51,936 - INFO -     → Form submitted
+2026-07-31 14:18:02,865 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-31 14:18:03,867 - INFO - 
+[11/28] Uploading missing icon for Mason: Scan History
+2026-07-31 14:18:03,867 - INFO -   Adding: [Mason] Scan History  (history)
+2026-07-31 14:18:16,714 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:18:16,867 - INFO -     → Icon identity: history
+2026-07-31 14:18:17,073 - INFO -     → Display title: Scan History
+2026-07-31 14:18:17,722 - INFO -     → Icon color: #4808F0
+2026-07-31 14:18:17,775 - INFO -     → Toggle: dashboard only
+2026-07-31 14:18:19,853 - INFO -     → Image uploaded: Scan History.png
+2026-07-31 14:18:20,051 - INFO -     → Form submitted
+2026-07-31 14:18:30,957 - INFO -   ✓ Icon added: Scan History
+
+2026-07-31 14:18:31,959 - INFO - 
+[12/28] Uploading missing icon for Mason: Support
+2026-07-31 14:18:31,959 - INFO -   Adding: [Mason] Support  (help)
+2026-07-31 14:18:44,798 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:18:44,943 - INFO -     → Icon identity: help
+2026-07-31 14:18:45,145 - INFO -     → Display title: Support
+2026-07-31 14:18:45,829 - INFO -     → Icon color: #0030F0
+2026-07-31 14:18:45,925 - INFO -     → Toggle: dashboard only
+2026-07-31 14:18:47,994 - INFO -     → Image uploaded: Support.png
+2026-07-31 14:18:48,194 - INFO -     → Form submitted
+2026-07-31 14:18:58,817 - INFO -   ✓ Icon added: Support
+
+2026-07-31 14:18:59,822 - INFO - 
+[13/28] Uploading missing icon for Mason: TDS
+2026-07-31 14:18:59,826 - INFO -   Adding: [Mason] TDS  (tds)
+2026-07-31 14:19:12,785 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:19:12,970 - INFO -     → Icon identity: tds
+2026-07-31 14:19:13,209 - INFO -     → Display title: TDS
+2026-07-31 14:19:13,988 - INFO -     → Icon color: #20C880
+2026-07-31 14:19:14,070 - INFO -     → Toggle: side menu
+2026-07-31 14:19:16,196 - INFO -     → Image uploaded: TDS.png
+2026-07-31 14:19:16,498 - INFO -     → Form submitted
+2026-07-31 14:19:27,067 - INFO -   ✓ Icon added: TDS
+
+2026-07-31 14:19:28,069 - INFO - 
+[14/28] Uploading missing icon for Mason: Updates
+2026-07-31 14:19:28,069 - INFO -   Adding: [Mason] Updates  (blog)
+2026-07-31 14:19:41,157 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:19:41,365 - INFO -     → Icon identity: blog
+2026-07-31 14:19:41,608 - INFO -     → Display title: Updates
+2026-07-31 14:19:42,369 - INFO -     → Icon color: #F87820
+2026-07-31 14:19:42,430 - INFO -     → Toggle: dashboard only
+2026-07-31 14:19:44,523 - INFO -     → Image uploaded: Updates.png
+2026-07-31 14:19:44,738 - INFO -     → Form submitted
+2026-07-31 14:19:55,303 - INFO -   ✓ Icon added: Updates
+
+2026-07-31 14:19:56,304 - INFO - 
+[15/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: aboutus
+2026-07-31 14:19:56,305 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] aboutus  (aboutus)
+2026-07-31 14:20:09,430 - ERROR -   ✗ Failed to add [aboutus]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:20:11,049 - INFO -   📸 Screenshot saved: automation\screenshots\error_aboutus_20260731_142009.png
+2026-07-31 14:20:13,270 - INFO - 
+[16/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Activity
+2026-07-31 14:20:13,270 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Activity  (claimhistory)
+2026-07-31 14:20:25,880 - ERROR -   ✗ Failed to add [Activity]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:20:27,128 - INFO -   📸 Screenshot saved: automation\screenshots\error_Activity_20260731_142025.png
+2026-07-31 14:20:29,367 - INFO - 
+[17/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: KYC
+2026-07-31 14:20:29,389 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] KYC  (kycdetails)
+2026-07-31 14:20:41,952 - ERROR -   ✗ Failed to add [KYC]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:20:42,920 - INFO -   📸 Screenshot saved: automation\screenshots\error_KYC_20260731_142041.png
+2026-07-31 14:20:45,152 - INFO - 
+[18/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Language
+2026-07-31 14:20:45,165 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Language  (chooselanguage)
+2026-07-31 14:20:58,061 - ERROR -   ✗ Failed to add [Language]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:20:59,060 - INFO -   📸 Screenshot saved: automation\screenshots\error_Language_20260731_142058.png
+2026-07-31 14:21:01,270 - INFO - 
+[19/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: My Wallet
+2026-07-31 14:21:01,317 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] My Wallet  (wallet)
+2026-07-31 14:21:14,323 - ERROR -   ✗ Failed to add [My Wallet]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:21:15,293 - INFO -   📸 Screenshot saved: automation\screenshots\error_My_Wallet_20260731_142114.png
+2026-07-31 14:21:17,503 - INFO - 
+[20/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Product Catalog
+2026-07-31 14:21:17,519 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Product Catalog  (productcatalogue)
+2026-07-31 14:21:30,490 - ERROR -   ✗ Failed to add [Product Catalog]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:21:31,587 - INFO -   📸 Screenshot saved: automation\screenshots\error_Product_Catalog_20260731_142130.png
+2026-07-31 14:21:33,816 - INFO - 
+[21/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Prospectus
+2026-07-31 14:21:33,844 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Prospectus  (brochure)
+2026-07-31 14:21:46,908 - ERROR -   ✗ Failed to add [Prospectus]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:21:47,952 - INFO -   📸 Screenshot saved: automation\screenshots\error_Prospectus_20260731_142146.png
+2026-07-31 14:21:50,184 - INFO - 
+[22/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Refer & Earn
+2026-07-31 14:21:50,194 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Refer & Earn  (referandearn)
+2026-07-31 14:22:03,501 - ERROR -   ✗ Failed to add [Refer & Earn]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:22:05,066 - INFO -   📸 Screenshot saved: automation\screenshots\error_Refer_&_Earn_20260731_142203.png
+2026-07-31 14:22:07,380 - INFO - 
+[23/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Rewards
+2026-07-31 14:22:07,470 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Rewards  (gift)
+2026-07-31 14:22:20,255 - ERROR -   ✗ Failed to add [Rewards]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:22:21,586 - INFO -   📸 Screenshot saved: automation\screenshots\error_Rewards_20260731_142220.png
+2026-07-31 14:22:23,851 - INFO - 
+[24/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Scan Activity
+2026-07-31 14:22:23,902 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan Activity  (codedetails)
+2026-07-31 14:22:36,629 - ERROR -   ✗ Failed to add [Scan Activity]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:22:37,249 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_Activity_20260731_142236.png
+2026-07-31 14:22:39,411 - INFO - 
+[25/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Scan History
+2026-07-31 14:22:39,415 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan History  (history)
+2026-07-31 14:22:51,987 - ERROR -   ✗ Failed to add [Scan History]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:22:52,595 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_History_20260731_142251.png
+2026-07-31 14:22:54,804 - INFO - 
+[26/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Support
+2026-07-31 14:22:54,814 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Support  (help)
+2026-07-31 14:23:07,498 - ERROR -   ✗ Failed to add [Support]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:23:08,957 - INFO -   📸 Screenshot saved: automation\screenshots\error_Support_20260731_142307.png
+2026-07-31 14:23:11,121 - INFO - 
+[27/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: TDS
+2026-07-31 14:23:11,121 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] TDS  (tds)
+2026-07-31 14:23:23,705 - ERROR -   ✗ Failed to add [TDS]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:23:24,645 - INFO -   📸 Screenshot saved: automation\screenshots\error_TDS_20260731_142323.png
+2026-07-31 14:23:26,826 - INFO - 
+[28/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Updates
+2026-07-31 14:23:26,828 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Updates  (blog)
+2026-07-31 14:23:39,932 - ERROR -   ✗ Failed to add [Updates]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x41fe45]
+	chromedriver!(No symbol) [0x421eaa]
+	chromedriver!(No symbol) [0x421f38]
+	chromedriver!(No symbol) [0x462c60]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x45a011]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x459b24]
+	chromedriver!(No symbol) [0x485834]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:23:41,364 - INFO -   📸 Screenshot saved: automation\screenshots\error_Updates_20260731_142339.png
+2026-07-31 14:23:43,888 - INFO - 
+============================================================
+2026-07-31 14:23:44,202 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-31 14:23:44,450 - INFO - ============================================================
+2026-07-31 14:23:44,470 - INFO - Successful uploads: 14
+2026-07-31 14:23:44,472 - INFO - Failed uploads: 14
+2026-07-31 14:23:44,552 - INFO - Total processed: 28
+2026-07-31 14:23:44,553 - INFO - ============================================================
+2026-07-31 14:23:47,929 - INFO - Browser closed
+2026-07-31 14:23:51,996 - INFO - 
+Task finished at 2026-07-31 14:23:51
+2026-07-31 14:23:51,996 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260731_141204.log
+

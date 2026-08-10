@@ -1,0 +1,43 @@
+2026-07-15 12:04:22,186 - INFO - User selected: Brand Setting
+2026-07-15 12:04:35,311 - INFO -   Found logo asset: Logo.jpeg
+2026-07-15 12:04:35,315 - INFO -   Found splash asset: splash.jpeg
+2026-07-15 12:04:35,316 - INFO - ============================================================
+2026-07-15 12:04:35,317 - INFO - BRAND SETTING — Image Processing
+2026-07-15 12:04:35,317 - INFO - ============================================================
+2026-07-15 12:04:35,719 - INFO - ✓ Logo  → logo_processed.jpg  |  21.1 KB  |  JPEG q95
+2026-07-15 12:04:36,008 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-15 12:04:36,016 - INFO - 
+2026-07-15 12:04:36,017 - INFO - Extracting brand colours from logo...
+2026-07-15 12:04:38,950 - INFO -   Colours extracted from logo:
+2026-07-15 12:04:39,087 - INFO -     Header Color     →  #2070B0  (dominant logo colour)
+2026-07-15 12:04:39,098 - INFO -     Background Color →  #144872  (35% darker)
+2026-07-15 12:04:39,102 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-15 12:04:39,102 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-15 12:04:39,304 - INFO - ✓ Both images ready
+
+2026-07-15 12:04:39,313 - INFO - ============================================================
+2026-07-15 12:04:39,314 - INFO - BRAND SETTING — Browser Automation
+2026-07-15 12:04:39,316 - INFO - ============================================================
+2026-07-15 12:04:39,376 - INFO - ====== WebDriver manager ======
+2026-07-15 12:04:45,442 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-15 12:04:47,228 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-15 12:04:48,893 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-15 12:04:48,901 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-15 12:04:51,233 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-15 12:04:51,251 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-15 12:04:51,410 - INFO - ✓ Chrome driver initialized
+2026-07-15 12:04:51,417 - INFO - Opening login page...
+2026-07-15 12:04:54,437 - INFO -   → Policy checkbox checked on login page
+2026-07-15 12:04:54,948 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-15 12:04:55,012 - INFO -   → Policy agreement popup detected
+2026-07-15 12:04:55,202 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-15 12:04:55,813 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-15 12:05:27,980 - ERROR - Login failed: Message: 
+
+2026-07-15 12:05:28,431 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260715_120527.png
+2026-07-15 12:05:28,447 - ERROR - ✗ Login failed. Aborting.
+2026-07-15 12:05:50,093 - INFO - Browser closed
+2026-07-15 12:05:54,153 - INFO - 
+Task finished at 2026-07-15 12:05:54
+2026-07-15 12:05:54,162 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260715_120346.log
+

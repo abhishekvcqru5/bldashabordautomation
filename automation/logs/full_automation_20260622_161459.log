@@ -1,0 +1,569 @@
+2026-06-22 16:15:08,803 - INFO - User selected: Registration Fields
+2026-06-22 16:15:08,803 - INFO - ============================================================
+2026-06-22 16:15:08,803 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-22 16:15:08,804 - INFO - ============================================================
+2026-06-22 16:15:08,812 - INFO - ====== WebDriver manager ======
+2026-06-22 16:15:09,923 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 16:15:10,276 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 16:15:10,618 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 16:15:10,619 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 16:15:11,744 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 16:15:11,747 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 16:15:11,773 - INFO - ✓ Chrome driver initialized
+2026-06-22 16:15:11,774 - INFO - Opening login page...
+2026-06-22 16:15:12,924 - INFO -   → Policy checkbox checked on login page
+2026-06-22 16:15:13,000 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 16:15:13,016 - INFO -   → Policy agreement popup detected
+2026-06-22 16:15:13,052 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 16:15:13,573 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 16:15:19,733 - INFO -   → Policy agreement popup detected
+2026-06-22 16:15:19,747 - INFO -     ✓ Policy checkbox was already checked
+2026-06-22 16:15:20,598 - INFO -     ✓ Clicked Continue button
+2026-06-22 16:15:21,630 - INFO -     ✓ Policy popup dismissed
+2026-06-22 16:15:22,752 - INFO - ✓ Login successful
+2026-06-22 16:15:24,757 - INFO - Going to App Settings...
+2026-06-22 16:15:26,308 - INFO -   → Registration Field section opened
+2026-06-22 16:15:26,398 - INFO - ✓ Registration Fields page ready
+2026-06-22 16:15:27,294 - INFO - Found 6 user types: ['Autoagent', 'Uthgg K Nm', 'User', 'Mechanic', 'Retailer', 'Dealer']
+2026-06-22 16:15:27,295 - INFO - Starting registration fields automation: 36 fields total
+2026-06-22 16:15:27,295 - INFO - ============================================================
+2026-06-22 16:15:27,295 - INFO - Processing User Type: Autoagent
+2026-06-22 16:15:27,295 - INFO -   Adding field: [Autoagent] -> First Name
+2026-06-22 16:15:27,828 - INFO -     → User Type selected: Autoagent
+2026-06-22 16:15:48,180 - INFO -     → System Data Point selected: First Name
+2026-06-22 16:15:48,206 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:15:48,321 - INFO -     → Integrate Now clicked
+2026-06-22 16:15:48,335 - INFO -     → Toast dismissed
+2026-06-22 16:15:48,395 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 16:15:48,696 - INFO -   Adding field: [Autoagent] -> Phone Number
+2026-06-22 16:15:48,964 - INFO -     → User Type selected: Autoagent
+2026-06-22 16:16:09,123 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 16:16:09,194 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:16:09,356 - INFO -     → Integrate Now clicked
+2026-06-22 16:16:09,383 - INFO -     → Toast dismissed
+2026-06-22 16:16:09,466 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 16:16:09,766 - INFO -   Adding field: [Autoagent] -> Pincode
+2026-06-22 16:16:10,335 - INFO -     → User Type selected: Autoagent
+2026-06-22 16:16:30,630 - INFO -     → System Data Point selected: Pincode
+2026-06-22 16:16:30,665 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:16:30,785 - INFO -     → Integrate Now clicked
+2026-06-22 16:16:30,806 - INFO -     → Toast dismissed
+2026-06-22 16:16:30,849 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 16:16:31,150 - INFO -   Adding field: [Autoagent] -> City
+2026-06-22 16:16:31,708 - INFO -     → User Type selected: Autoagent
+2026-06-22 16:16:51,949 - INFO -     → System Data Point selected: City
+2026-06-22 16:16:51,969 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:16:52,121 - INFO -     → Integrate Now clicked
+2026-06-22 16:16:52,132 - INFO -     → Toast dismissed
+2026-06-22 16:16:52,159 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 16:16:52,460 - INFO -   Adding field: [Autoagent] -> State
+2026-06-22 16:16:52,912 - INFO -     → User Type selected: Autoagent
+2026-06-22 16:17:13,132 - INFO -     → System Data Point selected: State
+2026-06-22 16:17:13,166 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:17:13,272 - INFO -     → Integrate Now clicked
+2026-06-22 16:17:13,284 - INFO -     → Toast dismissed
+2026-06-22 16:17:13,316 - INFO -   ✓ Field added successfully: State
+
+2026-06-22 16:17:13,617 - INFO -   Adding field: [Autoagent] -> Address
+2026-06-22 16:17:13,857 - INFO -     → User Type selected: Autoagent
+2026-06-22 16:17:34,060 - INFO -     → System Data Point selected: Address
+2026-06-22 16:17:34,097 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:17:34,199 - INFO -     → Integrate Now clicked
+2026-06-22 16:17:34,208 - INFO -     → Toast dismissed
+2026-06-22 16:17:34,249 - INFO -   ✓ Field added successfully: Address
+
+2026-06-22 16:17:34,549 - INFO - Processing User Type: Uthgg K Nm
+2026-06-22 16:17:34,550 - INFO -   Adding field: [Uthgg K Nm] -> First Name
+2026-06-22 16:17:35,021 - INFO -     → User Type selected: Uthgg K Nm
+2026-06-22 16:17:55,244 - INFO -     → System Data Point selected: First Name
+2026-06-22 16:17:55,270 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:17:55,343 - INFO -     → Integrate Now clicked
+2026-06-22 16:17:55,358 - INFO -     → Toast dismissed
+2026-06-22 16:17:55,386 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 16:17:55,687 - INFO -   Adding field: [Uthgg K Nm] -> Phone Number
+2026-06-22 16:17:56,163 - INFO -     → User Type selected: Uthgg K Nm
+2026-06-22 16:18:16,320 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 16:18:16,358 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:18:16,451 - INFO -     → Integrate Now clicked
+2026-06-22 16:18:16,462 - INFO -     → Toast dismissed
+2026-06-22 16:18:16,495 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 16:18:16,796 - INFO -   Adding field: [Uthgg K Nm] -> Pincode
+2026-06-22 16:18:16,967 - INFO -     → User Type selected: Uthgg K Nm
+2026-06-22 16:18:37,260 - INFO -     → System Data Point selected: Pincode
+2026-06-22 16:18:37,283 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:18:37,387 - INFO -     → Integrate Now clicked
+2026-06-22 16:18:37,400 - INFO -     → Toast dismissed
+2026-06-22 16:18:37,446 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 16:18:37,747 - INFO -   Adding field: [Uthgg K Nm] -> City
+2026-06-22 16:18:37,924 - INFO -     → User Type selected: Uthgg K Nm
+2026-06-22 16:18:58,212 - INFO -     → System Data Point selected: City
+2026-06-22 16:18:58,248 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:18:58,339 - INFO -     → Integrate Now clicked
+2026-06-22 16:18:58,347 - INFO -     → Toast dismissed
+2026-06-22 16:18:58,376 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 16:18:58,677 - INFO -   Adding field: [Uthgg K Nm] -> State
+2026-06-22 16:18:59,131 - INFO -     → User Type selected: Uthgg K Nm
+2026-06-22 16:19:19,365 - INFO -     → System Data Point selected: State
+2026-06-22 16:19:19,383 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:19:19,474 - INFO -     → Integrate Now clicked
+2026-06-22 16:19:19,481 - INFO -     → Toast dismissed
+2026-06-22 16:19:19,510 - INFO -   ✓ Field added successfully: State
+
+2026-06-22 16:19:19,811 - INFO -   Adding field: [Uthgg K Nm] -> Address
+2026-06-22 16:19:19,962 - INFO -     → User Type selected: Uthgg K Nm
+2026-06-22 16:19:40,188 - INFO -     → System Data Point selected: Address
+2026-06-22 16:19:40,209 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:19:40,306 - INFO -     → Integrate Now clicked
+2026-06-22 16:19:40,319 - INFO -     → Toast dismissed
+2026-06-22 16:19:40,351 - INFO -   ✓ Field added successfully: Address
+
+2026-06-22 16:19:40,652 - INFO - Processing User Type: User
+2026-06-22 16:19:40,653 - INFO -   Adding field: [User] -> First Name
+2026-06-22 16:19:41,399 - INFO -     → User Type selected: User
+2026-06-22 16:20:01,647 - INFO -     → System Data Point selected: First Name
+2026-06-22 16:20:01,667 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:20:01,750 - INFO -     → Integrate Now clicked
+2026-06-22 16:20:01,759 - INFO -     → Toast dismissed
+2026-06-22 16:20:01,790 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 16:20:02,090 - INFO -   Adding field: [User] -> Phone Number
+2026-06-22 16:20:02,591 - INFO -     → User Type selected: User
+2026-06-22 16:20:22,854 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 16:20:22,895 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:20:22,984 - INFO -     → Integrate Now clicked
+2026-06-22 16:20:22,994 - INFO -     → Toast dismissed
+2026-06-22 16:20:23,043 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 16:20:23,344 - INFO -   Adding field: [User] -> Pincode
+2026-06-22 16:20:23,805 - INFO -     → User Type selected: User
+2026-06-22 16:20:44,149 - INFO -     → System Data Point selected: Pincode
+2026-06-22 16:20:44,168 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:20:44,259 - INFO -     → Integrate Now clicked
+2026-06-22 16:20:44,270 - INFO -     → Toast dismissed
+2026-06-22 16:20:44,301 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 16:20:44,601 - INFO -   Adding field: [User] -> City
+2026-06-22 16:20:45,128 - INFO -     → User Type selected: User
+2026-06-22 16:21:05,427 - INFO -     → System Data Point selected: City
+2026-06-22 16:21:05,451 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:21:05,582 - INFO -     → Integrate Now clicked
+2026-06-22 16:21:05,593 - INFO -     → Toast dismissed
+2026-06-22 16:21:05,627 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 16:21:05,927 - INFO -   Adding field: [User] -> State
+2026-06-22 16:21:06,455 - INFO -     → User Type selected: User
+2026-06-22 16:21:26,667 - INFO -     → System Data Point selected: State
+2026-06-22 16:21:26,697 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:21:26,857 - INFO -     → Integrate Now clicked
+2026-06-22 16:21:26,870 - INFO -     → Toast dismissed
+2026-06-22 16:21:26,911 - INFO -   ✓ Field added successfully: State
+
+2026-06-22 16:21:27,212 - INFO -   Adding field: [User] -> Address
+2026-06-22 16:21:27,731 - INFO -     → User Type selected: User
+2026-06-22 16:21:48,064 - INFO -     → System Data Point selected: Address
+2026-06-22 16:21:48,110 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:21:48,204 - INFO -     → Integrate Now clicked
+2026-06-22 16:21:48,214 - INFO -     → Toast dismissed
+2026-06-22 16:21:48,305 - INFO -   ✓ Field added successfully: Address
+
+2026-06-22 16:21:48,605 - INFO - Processing User Type: Mechanic
+2026-06-22 16:21:48,605 - INFO -   Adding field: [Mechanic] -> First Name
+2026-06-22 16:21:49,094 - INFO -     → User Type selected: Mechanic
+2026-06-22 16:22:09,538 - INFO -     → System Data Point selected: First Name
+2026-06-22 16:22:09,560 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:22:09,668 - INFO -     → Integrate Now clicked
+2026-06-22 16:22:09,678 - INFO -     → Toast dismissed
+2026-06-22 16:22:09,709 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 16:22:10,010 - INFO -   Adding field: [Mechanic] -> Phone Number
+2026-06-22 16:22:10,556 - INFO -     → User Type selected: Mechanic
+2026-06-22 16:22:30,848 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 16:22:30,865 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:22:30,951 - INFO -     → Integrate Now clicked
+2026-06-22 16:22:30,961 - INFO -     → Toast dismissed
+2026-06-22 16:22:31,013 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 16:22:31,314 - INFO -   Adding field: [Mechanic] -> Pincode
+2026-06-22 16:22:31,774 - INFO -     → User Type selected: Mechanic
+2026-06-22 16:22:52,100 - INFO -     → System Data Point selected: Pincode
+2026-06-22 16:22:52,118 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:22:52,208 - INFO -     → Integrate Now clicked
+2026-06-22 16:22:52,219 - INFO -     → Toast dismissed
+2026-06-22 16:22:52,259 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 16:22:52,560 - INFO -   Adding field: [Mechanic] -> City
+2026-06-22 16:22:53,028 - INFO -     → User Type selected: Mechanic
+2026-06-22 16:23:13,235 - INFO -     → System Data Point selected: City
+2026-06-22 16:23:13,255 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:23:13,352 - INFO -     → Integrate Now clicked
+2026-06-22 16:23:13,363 - INFO -     → Toast dismissed
+2026-06-22 16:23:13,411 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 16:23:13,712 - INFO -   Adding field: [Mechanic] -> State
+2026-06-22 16:23:14,065 - INFO -     → User Type selected: Mechanic
+2026-06-22 16:23:34,477 - INFO -     → System Data Point selected: State
+2026-06-22 16:23:34,494 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:23:34,577 - INFO -     → Integrate Now clicked
+2026-06-22 16:23:34,589 - INFO -     → Toast dismissed
+2026-06-22 16:23:34,616 - INFO -   ✓ Field added successfully: State
+
+2026-06-22 16:23:34,917 - INFO -   Adding field: [Mechanic] -> Address
+2026-06-22 16:23:35,080 - INFO -     → User Type selected: Mechanic
+2026-06-22 16:23:55,309 - INFO -     → System Data Point selected: Address
+2026-06-22 16:23:55,330 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:23:55,422 - INFO -     → Integrate Now clicked
+2026-06-22 16:23:55,431 - INFO -     → Toast dismissed
+2026-06-22 16:23:55,465 - INFO -   ✓ Field added successfully: Address
+
+2026-06-22 16:23:55,766 - INFO - Processing User Type: Retailer
+2026-06-22 16:23:55,766 - INFO -   Adding field: [Retailer] -> First Name
+2026-06-22 16:23:56,252 - INFO -     → User Type selected: Retailer
+2026-06-22 16:24:16,494 - INFO -     → System Data Point selected: First Name
+2026-06-22 16:24:16,521 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:24:16,621 - INFO -     → Integrate Now clicked
+2026-06-22 16:24:16,632 - INFO -     → Toast dismissed
+2026-06-22 16:24:16,674 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-22 16:24:16,974 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-06-22 16:24:18,184 - INFO -     → User Type selected: Retailer
+2026-06-22 16:24:38,502 - INFO -     → System Data Point selected: Phone Number
+2026-06-22 16:24:38,525 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:24:38,607 - INFO -     → Integrate Now clicked
+2026-06-22 16:24:38,624 - INFO -     → Toast dismissed
+2026-06-22 16:24:38,652 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-22 16:24:38,953 - INFO -   Adding field: [Retailer] -> Pincode
+2026-06-22 16:24:40,094 - INFO -     → User Type selected: Retailer
+2026-06-22 16:25:00,316 - INFO -     → System Data Point selected: Pincode
+2026-06-22 16:25:00,349 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:25:00,432 - INFO -     → Integrate Now clicked
+2026-06-22 16:25:00,442 - INFO -     → Toast dismissed
+2026-06-22 16:25:00,470 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-22 16:25:00,770 - INFO -   Adding field: [Retailer] -> City
+2026-06-22 16:25:01,962 - INFO -     → User Type selected: Retailer
+2026-06-22 16:25:22,270 - INFO -     → System Data Point selected: City
+2026-06-22 16:25:22,287 - INFO -     → Mandatory toggle enabled
+2026-06-22 16:25:22,377 - INFO -     → Integrate Now clicked
+2026-06-22 16:25:22,385 - INFO -     → Toast dismissed
+2026-06-22 16:25:22,425 - INFO -   ✓ Field added successfully: City
+
+2026-06-22 16:25:22,725 - INFO -   Adding field: [Retailer] -> State
+2026-06-22 16:25:42,798 - ERROR -   ✗ Failed to add field State for Retailer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:25:42,993 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Retailer_State_20260622_162542.png
+2026-06-22 16:25:58,746 - INFO -   Adding field: [Retailer] -> Address
+2026-06-22 16:26:18,762 - ERROR -   ✗ Failed to add field Address for Retailer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:26:18,970 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Retailer_Address_20260622_162618.png
+2026-06-22 16:26:34,704 - INFO - Processing User Type: Dealer
+2026-06-22 16:26:34,705 - INFO -   Adding field: [Dealer] -> First Name
+2026-06-22 16:26:54,758 - ERROR -   ✗ Failed to add field First Name for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:26:54,941 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_First_Name_20260622_162654.png
+2026-06-22 16:27:10,380 - INFO -   Adding field: [Dealer] -> Phone Number
+2026-06-22 16:27:30,431 - ERROR -   ✗ Failed to add field Phone Number for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:27:30,657 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_Phone_Number_20260622_162730.png
+2026-06-22 16:27:46,397 - INFO -   Adding field: [Dealer] -> Pincode
+2026-06-22 16:28:06,516 - ERROR -   ✗ Failed to add field Pincode for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:28:06,682 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_Pincode_20260622_162806.png
+2026-06-22 16:28:22,606 - INFO -   Adding field: [Dealer] -> City
+2026-06-22 16:28:42,746 - ERROR -   ✗ Failed to add field City for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:28:42,962 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_City_20260622_162842.png
+2026-06-22 16:28:58,795 - INFO -   Adding field: [Dealer] -> State
+2026-06-22 16:29:18,971 - ERROR -   ✗ Failed to add field State for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:29:19,167 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_State_20260622_162918.png
+2026-06-22 16:29:35,016 - INFO -   Adding field: [Dealer] -> Address
+2026-06-22 16:29:55,165 - ERROR -   ✗ Failed to add field Address for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x93a543+103f3]
+	chromedriver!GetHandleVerifier [0x93a584+10434]
+	chromedriver!(No symbol) [0x73a700]
+	chromedriver!(No symbol) [0x783bab]
+	chromedriver!(No symbol) [0x783dcb]
+	chromedriver!(No symbol) [0x7c5b32]
+	chromedriver!(No symbol) [0x7a6114]
+	chromedriver!(No symbol) [0x7c339a]
+	chromedriver!(No symbol) [0x7a5e66]
+	chromedriver!(No symbol) [0x779159]
+	chromedriver!(No symbol) [0x779f24]
+	chromedriver!GetHandleVerifier [0xbc4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xbc0119+295fc9]
+	chromedriver!GetHandleVerifier [0xbe103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x9537f6+296a6]
+	chromedriver!GetHandleVerifier [0x95a91d+307cd]
+	chromedriver!GetHandleVerifier [0x942d18+18bc8]
+	chromedriver!GetHandleVerifier [0x942ec5+18d75]
+	chromedriver!GetHandleVerifier [0x92c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-22 16:29:55,335 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_Address_20260622_162955.png
+2026-06-22 16:30:11,101 - INFO - ============================================================
+2026-06-22 16:30:11,101 - INFO - Registration fields batch complete → ✓ 28 succeeded  ✗ 8 failed
+2026-06-22 16:30:13,351 - INFO - Browser closed
+2026-06-22 16:30:17,405 - INFO - 
+Task finished at 2026-06-22 16:30:17
+2026-06-22 16:30:17,405 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_161459.log
+
+2026-06-22 17:05:40,797 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-22 17:06:37,249 - INFO - Target User Types: ['Mechanic']
+2026-06-22 17:06:37,249 - INFO - Target Dashboard Icons: ['Rewards']
+2026-06-22 17:06:37,267 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-22 17:06:37,268 - INFO - Output folder: automation\processed_images
+2026-06-22 17:06:37,268 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-22 17:06:37,337 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-22 17:06:37,381 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-22 17:06:37,414 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-22 17:06:37,445 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-22 17:06:37,470 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-22 17:06:37,488 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-22 17:06:37,523 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-22 17:06:37,549 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-22 17:06:37,578 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-22 17:06:37,619 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-22 17:06:37,646 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-22 17:06:37,670 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-22 17:06:37,671 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-22 17:06:37,695 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-22 17:06:37,695 - INFO - 
+============================================================
+2026-06-22 17:06:37,695 - INFO - Launching Browser and Starting Upload Process
+2026-06-22 17:06:37,696 - INFO - ============================================================
+2026-06-22 17:06:37,703 - INFO - ====== WebDriver manager ======
+2026-06-22 17:06:38,842 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 17:06:39,326 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 17:06:39,661 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 17:06:39,672 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 17:06:40,879 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 17:06:40,886 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 17:06:40,917 - INFO - ✓ Chrome driver initialized
+2026-06-22 17:06:40,917 - INFO - 
+→ Attempting login...
+
+2026-06-22 17:06:40,918 - INFO - Opening login page...
+2026-06-22 17:06:42,224 - INFO -   → Policy checkbox checked on login page
+2026-06-22 17:06:42,297 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 17:06:42,308 - INFO -   → Policy agreement popup detected
+2026-06-22 17:06:42,339 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 17:06:42,866 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 17:06:49,053 - INFO -   → Policy agreement popup detected
+2026-06-22 17:06:49,070 - INFO -     ✓ Policy checkbox was already checked
+2026-06-22 17:06:49,906 - INFO -     ✓ Clicked Continue button
+2026-06-22 17:06:49,993 - INFO -     ✓ Policy popup dismissed
+2026-06-22 17:06:50,999 - INFO - ✓ Login successful
+2026-06-22 17:06:53,001 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-22 17:06:53,001 - INFO - Navigating to App Settings...
+2026-06-22 17:06:59,213 - INFO - ✓ Dashboard Icons section loaded
+2026-06-22 17:07:01,214 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-22 17:07:01,215 - INFO - Starting batch – 1 configured entries
+2026-06-22 17:07:01,215 - INFO - Total icons to upload after expansion: 1
+2026-06-22 17:07:01,215 - INFO - ============================================================
+2026-06-22 17:07:01,215 - INFO - [1/1]
+2026-06-22 17:07:01,216 - INFO -   Adding: [Mechanic] Rewards  (gift)
+2026-06-22 17:07:14,019 - INFO -     → User type selected by text: Mechanic
+2026-06-22 17:07:14,086 - INFO -     → Icon identity: gift
+2026-06-22 17:07:14,188 - INFO -     → Display title: Rewards
+2026-06-22 17:07:14,603 - INFO -     → Icon color: #F00048
+2026-06-22 17:07:14,630 - INFO -     → Toggle: both
+2026-06-22 17:07:16,663 - INFO -     → Image uploaded: Rewards.png
+2026-06-22 17:07:16,738 - INFO -     → Form submitted
+2026-06-22 17:07:27,405 - INFO -   ✓ Icon added: Rewards
+
+2026-06-22 17:07:28,406 - INFO - ============================================================
+2026-06-22 17:07:28,407 - INFO - Batch complete → ✓ 1 succeeded  ✗ 0 failed
+2026-06-22 17:07:28,408 - INFO - 
+============================================================
+2026-06-22 17:07:28,409 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-22 17:07:28,409 - INFO - ============================================================
+2026-06-22 17:07:28,410 - INFO - ✓ Successful uploads: 1
+2026-06-22 17:07:28,410 - INFO - ✗ Failed uploads: 0
+2026-06-22 17:07:28,410 - INFO - Total processed: 1
+2026-06-22 17:07:28,411 - INFO - Success rate: 100.0%
+2026-06-22 17:07:28,411 - INFO - ============================================================
+2026-06-22 17:07:30,627 - INFO - Browser closed
+2026-06-22 17:07:34,690 - INFO - 
+Task finished at 2026-06-22 17:07:34
+2026-06-22 17:07:34,691 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_161459.log
+

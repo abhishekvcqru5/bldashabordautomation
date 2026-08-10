@@ -1,0 +1,541 @@
+2026-06-29 21:09:59,616 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-29 21:09:59,617 - INFO - ============================================================
+2026-06-29 21:09:59,617 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-29 21:09:59,617 - INFO - ============================================================
+2026-06-29 21:09:59,637 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-29 21:09:59,638 - INFO - Output folder: automation\processed_images
+2026-06-29 21:09:59,638 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-29 21:09:59,757 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-29 21:09:59,854 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-29 21:09:59,863 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-29 21:09:59,914 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-29 21:09:59,952 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-29 21:09:59,985 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-29 21:10:00,012 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-29 21:10:00,036 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-29 21:10:00,074 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-29 21:10:00,103 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-29 21:10:00,135 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-29 21:10:00,180 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-29 21:10:00,217 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-29 21:10:00,247 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-29 21:10:00,274 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-29 21:10:00,275 - INFO - 
+✓ Processed 14 images successfully
+
+2026-06-29 21:10:00,275 - INFO - ✓ 14 images processed successfully.
+
+2026-06-29 21:10:52,826 - INFO - Target User Type: Distributors
+2026-06-29 21:10:52,856 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-29 21:10:52,857 - INFO -   → Extracted Title: Activity
+2026-06-29 21:10:52,857 - INFO -   → Matched Identity: claimhistory
+2026-06-29 21:10:52,857 - INFO -   → Extracted Color: #F86008
+2026-06-29 21:10:52,857 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:52,877 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-29 21:10:52,877 - INFO -   → Extracted Title: ecommerce
+2026-06-29 21:10:52,877 - INFO -   → Matched Identity: gift
+2026-06-29 21:10:52,877 - INFO -   → Extracted Color: #A0E0F8
+2026-06-29 21:10:52,877 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:52,893 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-29 21:10:52,894 - INFO -   → Extracted Title: KYC
+2026-06-29 21:10:52,894 - INFO -   → Matched Identity: kycdetails
+2026-06-29 21:10:52,894 - INFO -   → Extracted Color: #F85808
+2026-06-29 21:10:52,894 - INFO -   → Toggle Option: side menu
+2026-06-29 21:10:52,910 - INFO - Dynamically mapped image 'Language.png':
+2026-06-29 21:10:52,910 - INFO -   → Extracted Title: Language
+2026-06-29 21:10:52,910 - INFO -   → Matched Identity: chooselanguage
+2026-06-29 21:10:52,911 - INFO -   → Extracted Color: #5010E8
+2026-06-29 21:10:52,911 - INFO -   → Toggle Option: side menu
+2026-06-29 21:10:52,925 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-29 21:10:52,926 - INFO -   → Extracted Title: My Wallet
+2026-06-29 21:10:52,926 - INFO -   → Matched Identity: wallet
+2026-06-29 21:10:52,926 - INFO -   → Extracted Color: #20A020
+2026-06-29 21:10:52,926 - INFO -   → Toggle Option: both
+2026-06-29 21:10:52,943 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-29 21:10:52,944 - INFO -   → Extracted Title: Product Catalog
+2026-06-29 21:10:52,944 - INFO -   → Matched Identity: productcatalogue
+2026-06-29 21:10:52,944 - INFO -   → Extracted Color: #6028E8
+2026-06-29 21:10:52,944 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:52,961 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-29 21:10:52,961 - INFO -   → Extracted Title: Prospectus
+2026-06-29 21:10:52,961 - INFO -   → Matched Identity: brochure
+2026-06-29 21:10:52,962 - INFO -   → Extracted Color: #0848F8
+2026-06-29 21:10:52,962 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:52,988 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-29 21:10:52,988 - INFO -   → Extracted Title: Refer & Earn
+2026-06-29 21:10:52,988 - INFO -   → Matched Identity: referandearn
+2026-06-29 21:10:52,989 - INFO -   → Extracted Color: #089098
+2026-06-29 21:10:52,989 - INFO -   → Toggle Option: both
+2026-06-29 21:10:53,005 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-29 21:10:53,005 - INFO -   → Extracted Title: Rewards
+2026-06-29 21:10:53,006 - INFO -   → Matched Identity: gift
+2026-06-29 21:10:53,006 - INFO -   → Extracted Color: #F00048
+2026-06-29 21:10:53,006 - INFO -   → Toggle Option: both
+2026-06-29 21:10:53,029 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-29 21:10:53,029 - INFO -   → Extracted Title: Scan Activity
+2026-06-29 21:10:53,029 - INFO -   → Matched Identity: codedetails
+2026-06-29 21:10:53,029 - INFO -   → Extracted Color: #10A010
+2026-06-29 21:10:53,030 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:53,048 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-29 21:10:53,048 - INFO -   → Extracted Title: Scan History
+2026-06-29 21:10:53,049 - INFO -   → Matched Identity: history
+2026-06-29 21:10:53,049 - INFO -   → Extracted Color: #4808F0
+2026-06-29 21:10:53,050 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:53,066 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-29 21:10:53,067 - INFO -   → Extracted Title: Send Points
+2026-06-29 21:10:53,067 - INFO -   → Matched Identity: transferpoints
+2026-06-29 21:10:53,067 - INFO -   → Extracted Color: #F86008
+2026-06-29 21:10:53,067 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:53,084 - INFO - Dynamically mapped image 'Support.png':
+2026-06-29 21:10:53,085 - INFO -   → Extracted Title: Support
+2026-06-29 21:10:53,085 - INFO -   → Matched Identity: help
+2026-06-29 21:10:53,085 - INFO -   → Extracted Color: #0030F0
+2026-06-29 21:10:53,085 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:53,104 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-29 21:10:53,104 - INFO -   → Extracted Title: Updates
+2026-06-29 21:10:53,105 - INFO -   → Matched Identity: blog
+2026-06-29 21:10:53,105 - INFO -   → Extracted Color: #F87820
+2026-06-29 21:10:53,105 - INFO -   → Toggle Option: dashboard only
+2026-06-29 21:10:53,105 - INFO - 
+============================================================
+2026-06-29 21:10:53,105 - INFO - Launching Browser and Starting Upload Process
+2026-06-29 21:10:53,105 - INFO - ============================================================
+2026-06-29 21:10:53,112 - INFO - ====== WebDriver manager ======
+2026-06-29 21:10:54,323 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 21:10:54,778 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 21:10:55,127 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-29 21:10:55,128 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-29 21:10:56,305 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-29 21:10:56,308 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-29 21:10:56,334 - INFO - ✓ Chrome driver initialized
+2026-06-29 21:10:56,335 - INFO - 
+→ Attempting login...
+
+2026-06-29 21:10:56,335 - INFO - Opening login page...
+2026-06-29 21:10:57,510 - INFO -   → Policy checkbox checked on login page
+2026-06-29 21:10:57,591 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-29 21:10:57,606 - INFO -   → Policy agreement popup detected
+2026-06-29 21:10:57,646 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-29 21:10:58,251 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-29 21:11:04,458 - INFO -   → Policy agreement popup detected
+2026-06-29 21:11:04,495 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-29 21:11:05,029 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-29 21:11:05,038 - INFO - ✓ Login successful
+2026-06-29 21:11:07,038 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-29 21:11:07,039 - INFO - Navigating to App Settings...
+2026-06-29 21:11:13,374 - INFO - ✓ Dashboard Icons section loaded
+2026-06-29 21:11:15,375 - INFO - 
+→ Starting batch upload of 14 custom icons...
+
+2026-06-29 21:11:15,375 - INFO - Starting batch – 14 configured entries
+2026-06-29 21:11:15,376 - INFO - Total icons to upload after expansion: 14
+2026-06-29 21:11:15,376 - INFO - ============================================================
+2026-06-29 21:11:15,376 - INFO - [1/14]
+2026-06-29 21:11:15,376 - INFO -   Adding: [Distributors] Activity  (claimhistory)
+2026-06-29 21:11:28,203 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:11:28,270 - INFO -     → Icon identity: claimhistory
+2026-06-29 21:11:28,371 - INFO -     → Display title: Activity
+2026-06-29 21:11:28,805 - INFO -     → Icon color: #F86008
+2026-06-29 21:11:28,836 - INFO -     → Toggle: dashboard only
+2026-06-29 21:11:30,878 - INFO -     → Image uploaded: Activity.png
+2026-06-29 21:11:30,981 - INFO -     → Form submitted
+2026-06-29 21:11:41,909 - INFO -   ✓ Icon added: Activity
+
+2026-06-29 21:11:42,910 - INFO - [2/14]
+2026-06-29 21:11:42,911 - INFO -   Adding: [Distributors] ecommerce  (gift)
+2026-06-29 21:11:55,603 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:11:55,671 - INFO -     → Icon identity: gift
+2026-06-29 21:11:55,755 - INFO -     → Display title: ecommerce
+2026-06-29 21:11:56,151 - INFO -     → Icon color: #A0E0F8
+2026-06-29 21:11:56,169 - INFO -     → Toggle: dashboard only
+2026-06-29 21:11:58,215 - INFO -     → Image uploaded: ecommerce.png
+2026-06-29 21:11:58,288 - INFO -     → Form submitted
+2026-06-29 21:12:09,322 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-29 21:12:10,322 - INFO - [3/14]
+2026-06-29 21:12:10,323 - INFO -   Adding: [Distributors] KYC  (kycdetails)
+2026-06-29 21:12:23,123 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:12:23,208 - INFO -     → Icon identity: kycdetails
+2026-06-29 21:12:23,300 - INFO -     → Display title: KYC
+2026-06-29 21:12:23,713 - INFO -     → Icon color: #F85808
+2026-06-29 21:12:23,746 - INFO -     → Toggle: side menu
+2026-06-29 21:12:25,780 - INFO -     → Image uploaded: KYC.png
+2026-06-29 21:12:25,867 - INFO -     → Form submitted
+2026-06-29 21:12:36,819 - INFO -   ✓ Icon added: KYC
+
+2026-06-29 21:12:37,820 - INFO - [4/14]
+2026-06-29 21:12:37,821 - INFO -   Adding: [Distributors] Language  (chooselanguage)
+2026-06-29 21:12:50,581 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:12:50,654 - INFO -     → Icon identity: chooselanguage
+2026-06-29 21:12:50,811 - INFO -     → Display title: Language
+2026-06-29 21:12:51,233 - INFO -     → Icon color: #5010E8
+2026-06-29 21:12:51,259 - INFO -     → Toggle: side menu
+2026-06-29 21:12:53,291 - INFO -     → Image uploaded: Language.png
+2026-06-29 21:12:53,387 - INFO -     → Form submitted
+2026-06-29 21:13:04,385 - INFO -   ✓ Icon added: Language
+
+2026-06-29 21:13:05,386 - INFO - [5/14]
+2026-06-29 21:13:05,387 - INFO -   Adding: [Distributors] My Wallet  (wallet)
+2026-06-29 21:13:17,686 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:13:17,757 - INFO -     → Icon identity: wallet
+2026-06-29 21:13:17,849 - INFO -     → Display title: My Wallet
+2026-06-29 21:13:18,288 - INFO -     → Icon color: #20A020
+2026-06-29 21:13:18,315 - INFO -     → Toggle: both
+2026-06-29 21:13:20,355 - INFO -     → Image uploaded: My Wallet.png
+2026-06-29 21:13:20,498 - INFO -     → Form submitted
+2026-06-29 21:13:31,339 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-29 21:13:32,340 - INFO - [6/14]
+2026-06-29 21:13:32,340 - INFO -   Adding: [Distributors] Product Catalog  (productcatalogue)
+2026-06-29 21:13:45,095 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:13:45,177 - INFO -     → Icon identity: productcatalogue
+2026-06-29 21:13:45,287 - INFO -     → Display title: Product Catalog
+2026-06-29 21:13:45,685 - INFO -     → Icon color: #6028E8
+2026-06-29 21:13:45,712 - INFO -     → Toggle: dashboard only
+2026-06-29 21:13:47,741 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-29 21:13:47,820 - INFO -     → Form submitted
+2026-06-29 21:13:58,843 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-29 21:13:59,843 - INFO - [7/14]
+2026-06-29 21:13:59,844 - INFO -   Adding: [Distributors] Prospectus  (brochure)
+2026-06-29 21:14:12,546 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:14:12,860 - INFO -     → Icon identity: brochure
+2026-06-29 21:14:12,978 - INFO -     → Display title: Prospectus
+2026-06-29 21:14:13,454 - INFO -     → Icon color: #0848F8
+2026-06-29 21:14:13,485 - INFO -     → Toggle: dashboard only
+2026-06-29 21:14:15,527 - INFO -     → Image uploaded: Prospectus.png
+2026-06-29 21:14:15,629 - INFO -     → Form submitted
+2026-06-29 21:14:26,189 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-29 21:14:27,191 - INFO - [8/14]
+2026-06-29 21:14:27,191 - INFO -   Adding: [Distributors] Refer & Earn  (referandearn)
+2026-06-29 21:14:39,962 - INFO -     → User type selected by text: Distributors
+2026-06-29 21:14:40,143 - INFO -     → Icon identity: referandearn
+2026-06-29 21:14:40,436 - INFO -     → Display title: Refer & Earn
+2026-06-29 21:14:41,252 - INFO -     → Icon color: #089098
+2026-06-29 21:14:41,387 - INFO -     → Toggle: both
+2026-06-29 21:14:43,488 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-29 21:14:43,737 - INFO -     → Form submitted
+2026-06-29 21:14:54,409 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-29 21:14:55,411 - INFO - [9/14]
+2026-06-29 21:14:55,412 - INFO -   Adding: [Distributors] Rewards  (gift)
+2026-06-29 22:19:14,568 - ERROR -   ✗ Failed to add [Rewards]: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.200)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a700]
+	chromedriver!(No symbol) [0x88999e]
+	chromedriver!(No symbol) [0x8a8079]
+	chromedriver!(No symbol) [0x90c64c]
+	chromedriver!(No symbol) [0x922df9]
+	chromedriver!(No symbol) [0x905e66]
+	chromedriver!(No symbol) [0x8d9159]
+	chromedriver!(No symbol) [0x8d9f24]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!GetHandleVerifier [0xaa2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xaa2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xa8c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:17,638 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:18,760 - INFO - [10/14]
+2026-06-29 22:19:18,828 - INFO -   Adding: [Distributors] Scan Activity  (codedetails)
+2026-06-29 22:19:19,111 - ERROR -   ✗ Failed to add [Scan Activity]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:19,336 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:20,501 - INFO - [11/14]
+2026-06-29 22:19:20,674 - INFO -   Adding: [Distributors] Scan History  (history)
+2026-06-29 22:19:20,944 - ERROR -   ✗ Failed to add [Scan History]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:21,072 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:22,207 - INFO - [12/14]
+2026-06-29 22:19:22,409 - INFO -   Adding: [Distributors] Send Points  (transferpoints)
+2026-06-29 22:19:22,844 - ERROR -   ✗ Failed to add [Send Points]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:22,980 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:24,119 - INFO - [13/14]
+2026-06-29 22:19:24,270 - INFO -   Adding: [Distributors] Support  (help)
+2026-06-29 22:19:24,503 - ERROR -   ✗ Failed to add [Support]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:24,561 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:25,770 - INFO - [14/14]
+2026-06-29 22:19:25,993 - INFO -   Adding: [Distributors] Updates  (blog)
+2026-06-29 22:19:26,426 - ERROR -   ✗ Failed to add [Updates]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:26,707 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xa9a543+103f3]
+	chromedriver!GetHandleVerifier [0xa9a584+10434]
+	chromedriver!(No symbol) [0x89a53e]
+	chromedriver!(No symbol) [0x8d83e7]
+	chromedriver!(No symbol) [0x905f86]
+	chromedriver!(No symbol) [0x901192]
+	chromedriver!(No symbol) [0x900b71]
+	chromedriver!(No symbol) [0x86db2e]
+	chromedriver!(No symbol) [0x86e0ce]
+	chromedriver!(No symbol) [0x86e5ad]
+	chromedriver!GetHandleVerifier [0xd24bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xd20119+295fc9]
+	chromedriver!GetHandleVerifier [0xd4103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xab37f6+296a6]
+	chromedriver!GetHandleVerifier [0xaba91d+307cd]
+	chromedriver!(No symbol) [0x86d6a6]
+	chromedriver!(No symbol) [0x86cd02]
+	chromedriver!GetHandleVerifier [0xe8be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-29 22:19:27,959 - INFO - ============================================================
+2026-06-29 22:19:28,190 - INFO - Batch complete → ✓ 8 succeeded  ✗ 6 failed
+2026-06-29 22:19:28,394 - INFO - 
+============================================================
+2026-06-29 22:19:28,575 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-29 22:19:28,725 - INFO - ============================================================
+2026-06-29 22:19:28,891 - INFO - ✓ Successful uploads: 8
+2026-06-29 22:19:29,090 - INFO - ✗ Failed uploads: 6
+2026-06-29 22:19:29,240 - INFO - Total processed: 14
+2026-06-29 22:19:29,359 - INFO - Success rate: 57.1%
+2026-06-29 22:19:29,436 - INFO - ============================================================
+2026-06-29 22:19:32,817 - INFO - Browser closed
+2026-06-29 22:19:36,930 - INFO - 
+Task finished at 2026-06-29 22:19:36
+2026-06-29 22:19:36,976 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260629_210935.log
+

@@ -1,0 +1,863 @@
+2026-06-18 13:13:18,201 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-18 13:13:18,201 - INFO - ============================================================
+2026-06-18 13:13:18,201 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-18 13:13:18,202 - INFO - ============================================================
+2026-06-18 13:13:18,210 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 13:13:18,211 - INFO - Output folder: automation\processed_images
+2026-06-18 13:13:18,211 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 13:13:18,315 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 13:13:18,376 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 13:13:18,447 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 13:13:18,463 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 13:13:18,527 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 13:13:18,595 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 13:13:18,646 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 13:13:18,698 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 13:13:18,744 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 13:13:18,783 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 13:13:18,811 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 13:13:18,862 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 13:13:18,902 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 13:13:18,949 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 13:13:19,022 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 13:13:19,080 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 13:13:19,124 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 13:13:19,171 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 13:13:19,215 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 13:13:19,216 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 13:13:19,216 - INFO - ✓ 18 images processed successfully.
+
+2026-06-18 13:13:27,127 - INFO - Target User Type: Electrician
+2026-06-18 13:13:27,149 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-18 13:13:27,150 - INFO -   → Extracted Title: Activity
+2026-06-18 13:13:27,150 - INFO -   → Matched Identity: codedetails
+2026-06-18 13:13:27,150 - INFO -   → Extracted Color: #F86008
+2026-06-18 13:13:27,150 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,177 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-18 13:13:27,177 - INFO -   → Extracted Title: E-Warranty
+2026-06-18 13:13:27,178 - INFO -   → Matched Identity: e-warrant
+2026-06-18 13:13:27,178 - INFO -   → Extracted Color: #20C078
+2026-06-18 13:13:27,178 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,211 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-18 13:13:27,211 - INFO -   → Extracted Title: ecommerce
+2026-06-18 13:13:27,211 - INFO -   → Matched Identity: gift
+2026-06-18 13:13:27,212 - INFO -   → Extracted Color: #A0E0F8
+2026-06-18 13:13:27,212 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,233 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-18 13:13:27,233 - INFO -   → Extracted Title: Installation Guide
+2026-06-18 13:13:27,233 - INFO -   → Matched Identity: instalment
+2026-06-18 13:13:27,233 - INFO -   → Extracted Color: #089098
+2026-06-18 13:13:27,233 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,253 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-18 13:13:27,254 - INFO -   → Extracted Title: KYC
+2026-06-18 13:13:27,254 - INFO -   → Matched Identity: kycdetails
+2026-06-18 13:13:27,254 - INFO -   → Extracted Color: #F85808
+2026-06-18 13:13:27,254 - INFO -   → Toggle Option: side menu
+2026-06-18 13:13:27,285 - INFO - Dynamically mapped image 'Language.png':
+2026-06-18 13:13:27,286 - INFO -   → Extracted Title: Language
+2026-06-18 13:13:27,286 - INFO -   → Matched Identity: chooselanguage
+2026-06-18 13:13:27,286 - INFO -   → Extracted Color: #5010E8
+2026-06-18 13:13:27,286 - INFO -   → Toggle Option: side menu
+2026-06-18 13:13:27,310 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-18 13:13:27,311 - INFO -   → Extracted Title: My Wallet
+2026-06-18 13:13:27,311 - INFO -   → Matched Identity: wallet
+2026-06-18 13:13:27,311 - INFO -   → Extracted Color: #20A020
+2026-06-18 13:13:27,312 - INFO -   → Toggle Option: both
+2026-06-18 13:13:27,333 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-18 13:13:27,333 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-18 13:13:27,334 - INFO -   → Matched Identity: retailer
+2026-06-18 13:13:27,334 - INFO -   → Extracted Color: #F87010
+2026-06-18 13:13:27,334 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,361 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-18 13:13:27,361 - INFO -   → Extracted Title: Product Catalog
+2026-06-18 13:13:27,362 - INFO -   → Matched Identity: productcatalogue
+2026-06-18 13:13:27,362 - INFO -   → Extracted Color: #6028E8
+2026-06-18 13:13:27,362 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,385 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-18 13:13:27,385 - INFO -   → Extracted Title: Prospectus
+2026-06-18 13:13:27,385 - INFO -   → Matched Identity: brochure
+2026-06-18 13:13:27,386 - INFO -   → Extracted Color: #0848F8
+2026-06-18 13:13:27,386 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,414 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-18 13:13:27,414 - INFO -   → Extracted Title: Refer & Earn
+2026-06-18 13:13:27,414 - INFO -   → Matched Identity: referandearn
+2026-06-18 13:13:27,414 - INFO -   → Extracted Color: #089098
+2026-06-18 13:13:27,415 - INFO -   → Toggle Option: both
+2026-06-18 13:13:27,437 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-18 13:13:27,437 - INFO -   → Extracted Title: Rewards
+2026-06-18 13:13:27,437 - INFO -   → Matched Identity: gift
+2026-06-18 13:13:27,438 - INFO -   → Extracted Color: #F00048
+2026-06-18 13:13:27,438 - INFO -   → Toggle Option: both
+2026-06-18 13:13:27,463 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-18 13:13:27,464 - INFO -   → Extracted Title: Scan Activity
+2026-06-18 13:13:27,464 - INFO -   → Matched Identity: codedetails
+2026-06-18 13:13:27,464 - INFO -   → Extracted Color: #10A010
+2026-06-18 13:13:27,464 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,496 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-18 13:13:27,497 - INFO -   → Extracted Title: Scan History
+2026-06-18 13:13:27,497 - INFO -   → Matched Identity: history
+2026-06-18 13:13:27,498 - INFO -   → Extracted Color: #4808F0
+2026-06-18 13:13:27,498 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,531 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-18 13:13:27,532 - INFO -   → Extracted Title: Send Points
+2026-06-18 13:13:27,532 - INFO -   → Matched Identity: transferpoints
+2026-06-18 13:13:27,532 - INFO -   → Extracted Color: #F86008
+2026-06-18 13:13:27,532 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,558 - INFO - Dynamically mapped image 'Support.png':
+2026-06-18 13:13:27,559 - INFO -   → Extracted Title: Support
+2026-06-18 13:13:27,559 - INFO -   → Matched Identity: help
+2026-06-18 13:13:27,559 - INFO -   → Extracted Color: #0030F0
+2026-06-18 13:13:27,560 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,588 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-18 13:13:27,589 - INFO -   → Extracted Title: TDS
+2026-06-18 13:13:27,590 - INFO -   → Matched Identity: tds
+2026-06-18 13:13:27,590 - INFO -   → Extracted Color: #20C880
+2026-06-18 13:13:27,591 - INFO -   → Toggle Option: side menu
+2026-06-18 13:13:27,619 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-18 13:13:27,619 - INFO -   → Extracted Title: Updates
+2026-06-18 13:13:27,619 - INFO -   → Matched Identity: blog
+2026-06-18 13:13:27,619 - INFO -   → Extracted Color: #F87820
+2026-06-18 13:13:27,619 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:13:27,620 - INFO - 
+============================================================
+2026-06-18 13:13:27,620 - INFO - Launching Browser and Starting Upload Process
+2026-06-18 13:13:27,621 - INFO - ============================================================
+2026-06-18 13:13:27,637 - INFO - ====== WebDriver manager ======
+2026-06-18 13:13:29,278 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:13:29,772 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:13:30,240 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:13:30,241 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:13:31,451 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 13:13:31,482 - INFO - ✓ Chrome driver initialized
+2026-06-18 13:13:31,483 - INFO - 
+→ Attempting login...
+
+2026-06-18 13:13:31,484 - INFO - Opening login page...
+2026-06-18 13:13:33,116 - INFO -   → Policy checkbox checked on login page
+2026-06-18 13:13:33,235 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 13:14:06,743 - INFO - ✓ Login successful
+2026-06-18 13:14:08,743 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-18 13:14:08,744 - INFO - Navigating to App Settings...
+2026-06-18 13:14:15,046 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 13:14:17,046 - INFO - 
+→ Starting batch upload of 18 custom icons...
+
+2026-06-18 13:14:17,047 - INFO - Starting batch – 18 configured entries
+2026-06-18 13:14:17,048 - INFO - Total icons to upload after expansion: 18
+2026-06-18 13:14:17,048 - INFO - ============================================================
+2026-06-18 13:14:17,049 - INFO - [1/18]
+2026-06-18 13:14:17,049 - INFO -   Adding: [Electrician] Activity  (codedetails)
+2026-06-18 13:14:29,776 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:14:29,859 - INFO -     → Icon identity: codedetails
+2026-06-18 13:14:29,976 - INFO -     → Display title: Activity
+2026-06-18 13:14:30,405 - INFO -     → Icon color: #F86008
+2026-06-18 13:14:30,436 - INFO -     → Toggle: dashboard only
+2026-06-18 13:14:32,471 - INFO -     → Image uploaded: Activity.png
+2026-06-18 13:14:32,582 - INFO -     → Form submitted
+2026-06-18 13:14:43,102 - INFO -   ✓ Icon added: Activity
+
+2026-06-18 13:14:44,103 - INFO - [2/18]
+2026-06-18 13:14:44,103 - INFO -   Adding: [Electrician] E-Warranty  (e-warrant)
+2026-06-18 13:14:56,562 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:14:56,698 - INFO -     → Icon identity: e-warrant
+2026-06-18 13:14:56,909 - INFO -     → Display title: E-Warranty
+2026-06-18 13:14:57,544 - INFO -     → Icon color: #20C078
+2026-06-18 13:14:57,596 - INFO -     → Toggle: dashboard only
+2026-06-18 13:14:59,674 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-18 13:14:59,838 - INFO -     → Form submitted
+2026-06-18 13:15:10,695 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-18 13:15:11,696 - INFO - [3/18]
+2026-06-18 13:15:11,697 - INFO -   Adding: [Electrician] ecommerce  (gift)
+2026-06-18 13:15:24,378 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:15:24,495 - INFO -     → Icon identity: gift
+2026-06-18 13:15:24,678 - INFO -     → Display title: ecommerce
+2026-06-18 13:15:25,615 - INFO -     → Icon color: #A0E0F8
+2026-06-18 13:15:25,687 - INFO -     → Toggle: dashboard only
+2026-06-18 13:15:27,785 - INFO -     → Image uploaded: ecommerce.png
+2026-06-18 13:15:27,947 - INFO -     → Form submitted
+2026-06-18 13:15:38,937 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-18 13:15:39,938 - INFO - [4/18]
+2026-06-18 13:15:39,938 - INFO -   Adding: [Electrician] Installation Guide  (instalment)
+2026-06-18 13:15:52,698 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:15:52,829 - INFO -     → Icon identity: instalment
+2026-06-18 13:15:53,055 - INFO -     → Display title: Installation Guide
+2026-06-18 13:15:53,768 - INFO -     → Icon color: #089098
+2026-06-18 13:15:53,804 - INFO -     → Toggle: dashboard only
+2026-06-18 13:15:55,868 - INFO -     → Image uploaded: Installation Guide.png
+2026-06-18 13:15:56,327 - INFO -     → Form submitted
+2026-06-18 13:16:07,060 - INFO -   ✓ Icon added: Installation Guide
+
+2026-06-18 13:16:08,062 - INFO - [5/18]
+2026-06-18 13:16:08,062 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-06-18 13:16:22,048 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:16:22,214 - INFO -     → Icon identity: kycdetails
+2026-06-18 13:16:22,410 - INFO -     → Display title: KYC
+2026-06-18 13:16:23,089 - INFO -     → Icon color: #F85808
+2026-06-18 13:16:23,151 - INFO -     → Toggle: side menu
+2026-06-18 13:16:25,213 - INFO -     → Image uploaded: KYC.png
+2026-06-18 13:16:25,927 - INFO -     → Form submitted
+2026-06-18 13:16:36,545 - INFO -   ✓ Icon added: KYC
+
+2026-06-18 13:16:37,546 - INFO - [6/18]
+2026-06-18 13:16:37,547 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-06-18 13:16:50,179 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:16:50,283 - INFO -     → Icon identity: chooselanguage
+2026-06-18 13:16:50,437 - INFO -     → Display title: Language
+2026-06-18 13:16:51,019 - INFO -     → Icon color: #5010E8
+2026-06-18 13:16:51,060 - INFO -     → Toggle: side menu
+2026-06-18 13:16:53,197 - INFO -     → Image uploaded: Language.png
+2026-06-18 13:16:53,365 - INFO -     → Form submitted
+2026-06-18 13:17:04,330 - INFO -   ✓ Icon added: Language
+
+2026-06-18 13:17:05,331 - INFO - [7/18]
+2026-06-18 13:17:05,331 - INFO -   Adding: [Electrician] My Wallet  (wallet)
+2026-06-18 13:17:17,911 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:17:18,028 - INFO -     → Icon identity: wallet
+2026-06-18 13:17:18,189 - INFO -     → Display title: My Wallet
+2026-06-18 13:17:18,895 - INFO -     → Icon color: #20A020
+2026-06-18 13:17:18,954 - INFO -     → Toggle: both
+2026-06-18 13:17:21,026 - INFO -     → Image uploaded: My Wallet.png
+2026-06-18 13:17:21,159 - INFO -     → Form submitted
+2026-06-18 13:17:31,817 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-18 13:17:32,818 - INFO - [8/18]
+2026-06-18 13:17:32,818 - INFO -   Adding: [Electrician] Nearby Retailers  (retailer)
+2026-06-18 13:17:46,234 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:17:46,516 - INFO -     → Icon identity: retailer
+2026-06-18 13:17:47,060 - INFO -     → Display title: Nearby Retailers
+2026-06-18 13:17:47,936 - INFO -     → Icon color: #F87010
+2026-06-18 13:17:47,995 - INFO -     → Toggle: dashboard only
+2026-06-18 13:17:50,068 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-06-18 13:17:50,260 - INFO -     → Form submitted
+2026-06-18 13:18:01,037 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-06-18 13:18:02,039 - INFO - [9/18]
+2026-06-18 13:18:02,040 - INFO -   Adding: [Electrician] Product Catalog  (productcatalogue)
+2026-06-18 13:18:14,854 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:18:14,964 - INFO -     → Icon identity: productcatalogue
+2026-06-18 13:18:15,214 - INFO -     → Display title: Product Catalog
+2026-06-18 13:18:15,787 - INFO -     → Icon color: #6028E8
+2026-06-18 13:18:15,828 - INFO -     → Toggle: dashboard only
+2026-06-18 13:18:17,900 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-18 13:18:18,036 - INFO -     → Form submitted
+2026-06-18 13:18:28,928 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-18 13:18:29,929 - INFO - [10/18]
+2026-06-18 13:18:29,929 - INFO -   Adding: [Electrician] Prospectus  (brochure)
+2026-06-18 13:18:42,272 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:18:42,361 - INFO -     → Icon identity: brochure
+2026-06-18 13:18:42,505 - INFO -     → Display title: Prospectus
+2026-06-18 13:18:42,954 - INFO -     → Icon color: #0848F8
+2026-06-18 13:18:42,988 - INFO -     → Toggle: dashboard only
+2026-06-18 13:18:45,029 - INFO -     → Image uploaded: Prospectus.png
+2026-06-18 13:18:45,158 - INFO -     → Form submitted
+2026-06-18 13:18:55,813 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-18 13:18:56,814 - INFO - [11/18]
+2026-06-18 13:18:56,815 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-06-18 13:19:09,210 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:19:09,286 - INFO -     → Icon identity: referandearn
+2026-06-18 13:19:09,399 - INFO -     → Display title: Refer & Earn
+2026-06-18 13:19:09,886 - INFO -     → Icon color: #089098
+2026-06-18 13:19:09,935 - INFO -     → Toggle: both
+2026-06-18 13:19:11,977 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-18 13:19:12,096 - INFO -     → Form submitted
+2026-06-18 13:19:22,722 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-18 13:19:23,723 - INFO - [12/18]
+2026-06-18 13:19:23,726 - INFO -   Adding: [Electrician] Rewards  (gift)
+2026-06-18 13:19:36,086 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:19:36,177 - INFO -     → Icon identity: gift
+2026-06-18 13:19:36,287 - INFO -     → Display title: Rewards
+2026-06-18 13:19:36,781 - INFO -     → Icon color: #F00048
+2026-06-18 13:19:36,808 - INFO -     → Toggle: both
+2026-06-18 13:19:38,846 - INFO -     → Image uploaded: Rewards.png
+2026-06-18 13:19:38,976 - INFO -     → Form submitted
+2026-06-18 13:19:49,616 - INFO -   ✓ Icon added: Rewards
+
+2026-06-18 13:19:50,617 - INFO - [13/18]
+2026-06-18 13:19:50,618 - INFO -   Adding: [Electrician] Scan Activity  (codedetails)
+2026-06-18 13:20:05,400 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:20:05,719 - INFO -     → Icon identity: codedetails
+2026-06-18 13:20:06,200 - INFO -     → Display title: Scan Activity
+2026-06-18 13:20:06,899 - INFO -     → Icon color: #10A010
+2026-06-18 13:20:06,954 - INFO -     → Toggle: dashboard only
+2026-06-18 13:20:09,017 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-18 13:20:09,373 - INFO -     → Form submitted
+2026-06-18 13:20:20,334 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-18 13:20:21,335 - INFO - [14/18]
+2026-06-18 13:20:21,335 - INFO -   Adding: [Electrician] Scan History  (history)
+2026-06-18 13:20:34,784 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:20:34,986 - INFO -     → Icon identity: history
+2026-06-18 13:20:35,197 - INFO -     → Display title: Scan History
+2026-06-18 13:20:35,877 - INFO -     → Icon color: #4808F0
+2026-06-18 13:20:35,918 - INFO -     → Toggle: dashboard only
+2026-06-18 13:20:37,970 - INFO -     → Image uploaded: Scan History.png
+2026-06-18 13:20:38,099 - INFO -     → Form submitted
+2026-06-18 13:20:48,952 - INFO -   ✓ Icon added: Scan History
+
+2026-06-18 13:20:49,952 - INFO - [15/18]
+2026-06-18 13:20:49,953 - INFO -   Adding: [Electrician] Send Points  (transferpoints)
+2026-06-18 13:21:03,118 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:21:03,398 - INFO -     → Icon identity: transferpoints
+2026-06-18 13:21:04,517 - INFO -     → Display title: Send Points
+2026-06-18 13:21:07,871 - INFO -     → Icon color: #F86008
+2026-06-18 13:21:08,069 - INFO -     → Toggle: dashboard only
+2026-06-18 13:21:10,598 - INFO -     → Image uploaded: Send Points.png
+2026-06-18 13:21:10,765 - INFO -     → Form submitted
+2026-06-18 13:21:21,469 - INFO -   ✓ Icon added: Send Points
+
+2026-06-18 13:21:22,482 - INFO - [16/18]
+2026-06-18 13:21:22,483 - INFO -   Adding: [Electrician] Support  (help)
+2026-06-18 13:21:36,260 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:21:36,453 - INFO -     → Icon identity: help
+2026-06-18 13:21:37,217 - INFO -     → Display title: Support
+2026-06-18 13:21:38,093 - INFO -     → Icon color: #0030F0
+2026-06-18 13:21:38,165 - INFO -     → Toggle: dashboard only
+2026-06-18 13:21:40,385 - INFO -     → Image uploaded: Support.png
+2026-06-18 13:21:41,101 - INFO -     → Form submitted
+2026-06-18 13:21:51,875 - INFO -   ✓ Icon added: Support
+
+2026-06-18 13:21:52,877 - INFO - [17/18]
+2026-06-18 13:21:52,879 - INFO -   Adding: [Electrician] TDS  (tds)
+2026-06-18 13:22:05,432 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:22:05,583 - INFO -     → Icon identity: tds
+2026-06-18 13:22:05,716 - INFO -     → Display title: TDS
+2026-06-18 13:22:06,302 - INFO -     → Icon color: #20C880
+2026-06-18 13:22:06,351 - INFO -     → Toggle: side menu
+2026-06-18 13:22:08,496 - INFO -     → Image uploaded: TDS.png
+2026-06-18 13:22:08,884 - INFO -     → Form submitted
+2026-06-18 13:22:19,952 - INFO -   ✓ Icon added: TDS
+
+2026-06-18 13:22:21,048 - INFO - [18/18]
+2026-06-18 13:22:21,068 - INFO -   Adding: [Electrician] Updates  (blog)
+2026-06-18 13:22:34,447 - INFO -     → User type selected by text: Electrician
+2026-06-18 13:22:34,611 - INFO -     → Icon identity: blog
+2026-06-18 13:22:34,817 - INFO -     → Display title: Updates
+2026-06-18 13:22:35,515 - INFO -     → Icon color: #F87820
+2026-06-18 13:22:35,579 - INFO -     → Toggle: dashboard only
+2026-06-18 13:22:37,654 - INFO -     → Image uploaded: Updates.png
+2026-06-18 13:22:37,834 - INFO -     → Form submitted
+2026-06-18 13:22:48,786 - INFO -   ✓ Icon added: Updates
+
+2026-06-18 13:22:49,798 - INFO - ============================================================
+2026-06-18 13:22:49,800 - INFO - Batch complete → ✓ 18 succeeded  ✗ 0 failed
+2026-06-18 13:22:49,801 - INFO - 
+============================================================
+2026-06-18 13:22:49,803 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-18 13:22:49,804 - INFO - ============================================================
+2026-06-18 13:22:49,805 - INFO - ✓ Successful uploads: 18
+2026-06-18 13:22:49,814 - INFO - ✗ Failed uploads: 0
+2026-06-18 13:22:49,815 - INFO - Total processed: 18
+2026-06-18 13:22:49,815 - INFO - Success rate: 100.0%
+2026-06-18 13:22:49,816 - INFO - ============================================================
+2026-06-18 13:22:53,849 - INFO - Browser closed
+2026-06-18 13:22:57,929 - INFO - 
+Task finished at 2026-06-18 13:22:57
+2026-06-18 13:22:57,931 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_131248.log
+
+2026-06-18 13:30:50,581 - INFO - User selected: Registration Fields
+2026-06-18 13:30:50,582 - INFO - ============================================================
+2026-06-18 13:30:50,583 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-18 13:30:50,583 - INFO - ============================================================
+2026-06-18 13:30:50,628 - INFO - ====== WebDriver manager ======
+2026-06-18 13:30:53,971 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:30:55,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:30:55,885 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:30:55,887 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:30:57,501 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 13:30:57,617 - INFO - ✓ Chrome driver initialized
+2026-06-18 13:30:57,619 - INFO - Opening login page...
+2026-06-18 13:31:00,205 - INFO -   → Policy checkbox checked on login page
+2026-06-18 13:31:00,438 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 13:31:00,551 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-18 13:31:00,601 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-18 13:31:03,698 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-18 13:31:04,018 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-18 13:31:12,122 - INFO - ✓ Login successful
+2026-06-18 13:31:14,138 - INFO - Going to App Settings...
+2026-06-18 13:31:16,337 - INFO -   → Registration Field section opened
+2026-06-18 13:31:16,684 - INFO - ✓ Registration Fields page ready
+2026-06-18 13:31:19,067 - INFO - Found 6 user types: ['Electrician', 'Contractor', 'Employee', 'Mechanic', 'Retailer', 'Distribution']
+2026-06-18 13:31:19,069 - INFO - Starting registration fields automation: 36 fields total
+2026-06-18 13:31:19,069 - INFO - ============================================================
+2026-06-18 13:31:19,069 - INFO - Processing User Type: Electrician
+2026-06-18 13:31:19,070 - INFO -   Adding field: [Electrician] -> First Name
+2026-06-18 13:31:20,162 - INFO -     → User Type selected: Electrician
+2026-06-18 13:31:40,936 - INFO -     → System Data Point selected: First Name
+2026-06-18 13:31:41,167 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:31:42,123 - INFO -     → Integrate Now clicked
+2026-06-18 13:31:42,215 - INFO -     → Toast dismissed
+2026-06-18 13:31:42,494 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-18 13:31:42,798 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-06-18 13:31:43,619 - INFO -     → User Type selected: Electrician
+2026-06-18 13:32:04,098 - INFO -     → System Data Point selected: Phone Number
+2026-06-18 13:32:04,162 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:32:04,485 - INFO -     → Integrate Now clicked
+2026-06-18 13:32:04,524 - INFO -     → Toast dismissed
+2026-06-18 13:32:04,657 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-18 13:32:04,961 - INFO -   Adding field: [Electrician] -> Pincode
+2026-06-18 13:32:05,950 - INFO -     → User Type selected: Electrician
+2026-06-18 13:32:27,164 - INFO -     → System Data Point selected: Pincode
+2026-06-18 13:32:27,819 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:32:30,538 - INFO -     → Integrate Now clicked
+2026-06-18 13:32:30,865 - INFO -     → Toast dismissed
+2026-06-18 13:32:31,790 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-18 13:32:32,098 - INFO -   Adding field: [Electrician] -> City
+2026-06-18 13:32:34,737 - INFO -     → User Type selected: Electrician
+2026-06-18 13:32:55,218 - INFO -     → System Data Point selected: City
+2026-06-18 13:32:55,465 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:32:56,054 - INFO -     → Integrate Now clicked
+2026-06-18 13:32:56,130 - INFO -     → Toast dismissed
+2026-06-18 13:32:56,319 - INFO -   ✓ Field added successfully: City
+
+2026-06-18 13:32:56,620 - INFO -   Adding field: [Electrician] -> State
+2026-06-18 13:32:57,603 - INFO -     → User Type selected: Electrician
+2026-06-18 13:33:17,918 - INFO -     → System Data Point selected: State
+2026-06-18 13:33:17,955 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:33:18,169 - INFO -     → Integrate Now clicked
+2026-06-18 13:33:18,200 - INFO -     → Toast dismissed
+2026-06-18 13:33:18,263 - INFO -   ✓ Field added successfully: State
+
+2026-06-18 13:33:18,564 - INFO -   Adding field: [Electrician] -> Address
+2026-06-18 13:33:19,347 - INFO -     → User Type selected: Electrician
+2026-06-18 13:33:39,630 - INFO -     → System Data Point selected: Address
+2026-06-18 13:33:39,688 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:33:39,879 - INFO -     → Integrate Now clicked
+2026-06-18 13:33:39,900 - INFO -     → Toast dismissed
+2026-06-18 13:33:39,969 - INFO -   ✓ Field added successfully: Address
+
+2026-06-18 13:33:40,270 - INFO - Processing User Type: Contractor
+2026-06-18 13:33:40,270 - INFO -   Adding field: [Contractor] -> First Name
+2026-06-18 13:33:41,010 - INFO -     → User Type selected: Contractor
+2026-06-18 13:34:01,233 - INFO -     → System Data Point selected: First Name
+2026-06-18 13:34:01,303 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:34:01,556 - INFO -     → Integrate Now clicked
+2026-06-18 13:34:01,585 - INFO -     → Toast dismissed
+2026-06-18 13:34:01,744 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-18 13:34:02,050 - INFO -   Adding field: [Contractor] -> Phone Number
+2026-06-18 13:34:02,696 - INFO -     → User Type selected: Contractor
+2026-06-18 13:34:23,161 - INFO -     → System Data Point selected: Phone Number
+2026-06-18 13:34:23,243 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:34:23,511 - INFO -     → Integrate Now clicked
+2026-06-18 13:34:23,532 - INFO -     → Toast dismissed
+2026-06-18 13:34:23,619 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-18 13:34:23,919 - INFO -   Adding field: [Contractor] -> Pincode
+2026-06-18 13:34:24,704 - INFO -     → User Type selected: Contractor
+2026-06-18 13:34:44,986 - INFO -     → System Data Point selected: Pincode
+2026-06-18 13:34:45,017 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:34:45,149 - INFO -     → Integrate Now clicked
+2026-06-18 13:34:45,160 - INFO -     → Toast dismissed
+2026-06-18 13:34:45,219 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-18 13:34:45,520 - INFO -   Adding field: [Contractor] -> City
+2026-06-18 13:34:45,865 - INFO -     → User Type selected: Contractor
+2026-06-18 13:35:06,157 - INFO -     → System Data Point selected: City
+2026-06-18 13:35:06,202 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:35:06,352 - INFO -     → Integrate Now clicked
+2026-06-18 13:35:06,367 - INFO -     → Toast dismissed
+2026-06-18 13:35:06,437 - INFO -   ✓ Field added successfully: City
+
+2026-06-18 13:35:06,738 - INFO -   Adding field: [Contractor] -> State
+2026-06-18 13:35:07,397 - INFO -     → User Type selected: Contractor
+2026-06-18 13:35:27,605 - INFO -     → System Data Point selected: State
+2026-06-18 13:35:27,633 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:35:27,764 - INFO -     → Integrate Now clicked
+2026-06-18 13:35:27,777 - INFO -     → Toast dismissed
+2026-06-18 13:35:27,829 - INFO -   ✓ Field added successfully: State
+
+2026-06-18 13:35:28,130 - INFO -   Adding field: [Contractor] -> Address
+2026-06-18 13:35:28,767 - INFO -     → User Type selected: Contractor
+2026-06-18 13:35:49,213 - INFO -     → System Data Point selected: Address
+2026-06-18 13:35:49,268 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:35:49,439 - INFO -     → Integrate Now clicked
+2026-06-18 13:35:49,451 - INFO -     → Toast dismissed
+2026-06-18 13:35:49,531 - INFO -   ✓ Field added successfully: Address
+
+2026-06-18 13:35:49,832 - INFO - Processing User Type: Employee
+2026-06-18 13:35:49,832 - INFO -   Adding field: [Employee] -> First Name
+2026-06-18 13:35:50,448 - INFO -     → User Type selected: Employee
+2026-06-18 13:36:10,756 - INFO -     → System Data Point selected: First Name
+2026-06-18 13:36:10,786 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:36:10,961 - INFO -     → Integrate Now clicked
+2026-06-18 13:36:10,976 - INFO -     → Toast dismissed
+2026-06-18 13:36:11,035 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-18 13:36:11,336 - INFO -   Adding field: [Employee] -> Phone Number
+2026-06-18 13:36:11,917 - INFO -     → User Type selected: Employee
+2026-06-18 13:36:32,326 - INFO -     → System Data Point selected: Phone Number
+2026-06-18 13:36:32,370 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:36:32,553 - INFO -     → Integrate Now clicked
+2026-06-18 13:36:32,568 - INFO -     → Toast dismissed
+2026-06-18 13:36:32,638 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-18 13:36:32,940 - INFO -   Adding field: [Employee] -> Pincode
+2026-06-18 13:36:33,315 - INFO -     → User Type selected: Employee
+2026-06-18 13:36:53,549 - INFO -     → System Data Point selected: Pincode
+2026-06-18 13:36:53,620 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:36:53,784 - INFO -     → Integrate Now clicked
+2026-06-18 13:36:53,804 - INFO -     → Toast dismissed
+2026-06-18 13:36:53,865 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-18 13:36:54,166 - INFO -   Adding field: [Employee] -> City
+2026-06-18 13:36:54,830 - INFO -     → User Type selected: Employee
+2026-06-18 13:37:15,153 - INFO -     → System Data Point selected: City
+2026-06-18 13:37:15,196 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:37:15,343 - INFO -     → Integrate Now clicked
+2026-06-18 13:37:15,358 - INFO -     → Toast dismissed
+2026-06-18 13:37:15,425 - INFO -   ✓ Field added successfully: City
+
+2026-06-18 13:37:15,726 - INFO -   Adding field: [Employee] -> State
+2026-06-18 13:37:16,316 - INFO -     → User Type selected: Employee
+2026-06-18 13:37:36,683 - INFO -     → System Data Point selected: State
+2026-06-18 13:37:36,717 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:37:36,864 - INFO -     → Integrate Now clicked
+2026-06-18 13:37:36,881 - INFO -     → Toast dismissed
+2026-06-18 13:37:36,963 - INFO -   ✓ Field added successfully: State
+
+2026-06-18 13:37:37,264 - INFO -   Adding field: [Employee] -> Address
+2026-06-18 13:37:37,838 - INFO -     → User Type selected: Employee
+2026-06-18 13:37:58,036 - INFO -     → System Data Point selected: Address
+2026-06-18 13:37:58,076 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:37:58,246 - INFO -     → Integrate Now clicked
+2026-06-18 13:37:58,264 - INFO -     → Toast dismissed
+2026-06-18 13:37:58,329 - INFO -   ✓ Field added successfully: Address
+
+2026-06-18 13:37:58,630 - INFO - Processing User Type: Mechanic
+2026-06-18 13:37:58,631 - INFO -   Adding field: [Mechanic] -> First Name
+2026-06-18 13:37:59,281 - INFO -     → User Type selected: Mechanic
+2026-06-18 13:38:19,645 - INFO -     → System Data Point selected: First Name
+2026-06-18 13:38:19,686 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:38:19,827 - INFO -     → Integrate Now clicked
+2026-06-18 13:38:19,842 - INFO -     → Toast dismissed
+2026-06-18 13:38:19,905 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-18 13:38:20,208 - INFO -   Adding field: [Mechanic] -> Phone Number
+2026-06-18 13:38:20,845 - INFO -     → User Type selected: Mechanic
+2026-06-18 13:38:41,226 - INFO -     → System Data Point selected: Phone Number
+2026-06-18 13:38:41,289 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:38:41,610 - INFO -     → Integrate Now clicked
+2026-06-18 13:38:41,630 - INFO -     → Toast dismissed
+2026-06-18 13:38:41,727 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-18 13:38:42,028 - INFO -   Adding field: [Mechanic] -> Pincode
+2026-06-18 13:38:42,414 - INFO -     → User Type selected: Mechanic
+2026-06-18 13:39:02,660 - INFO -     → System Data Point selected: Pincode
+2026-06-18 13:39:02,696 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:39:02,827 - INFO -     → Integrate Now clicked
+2026-06-18 13:39:02,840 - INFO -     → Toast dismissed
+2026-06-18 13:39:02,906 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-18 13:39:03,210 - INFO -   Adding field: [Mechanic] -> City
+2026-06-18 13:39:03,776 - INFO -     → User Type selected: Mechanic
+2026-06-18 13:39:24,081 - INFO -     → System Data Point selected: City
+2026-06-18 13:39:24,122 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:39:24,292 - INFO -     → Integrate Now clicked
+2026-06-18 13:39:24,305 - INFO -     → Toast dismissed
+2026-06-18 13:39:24,386 - INFO -   ✓ Field added successfully: City
+
+2026-06-18 13:39:24,687 - INFO -   Adding field: [Mechanic] -> State
+2026-06-18 13:39:25,036 - INFO -     → User Type selected: Mechanic
+2026-06-18 13:39:45,317 - INFO -     → System Data Point selected: State
+2026-06-18 13:39:45,356 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:39:45,499 - INFO -     → Integrate Now clicked
+2026-06-18 13:39:45,514 - INFO -     → Toast dismissed
+2026-06-18 13:39:45,592 - INFO -   ✓ Field added successfully: State
+
+2026-06-18 13:39:45,893 - INFO -   Adding field: [Mechanic] -> Address
+2026-06-18 13:39:46,511 - INFO -     → User Type selected: Mechanic
+2026-06-18 13:40:06,913 - INFO -     → System Data Point selected: Address
+2026-06-18 13:40:06,952 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:40:07,092 - INFO -     → Integrate Now clicked
+2026-06-18 13:40:07,106 - INFO -     → Toast dismissed
+2026-06-18 13:40:07,164 - INFO -   ✓ Field added successfully: Address
+
+2026-06-18 13:40:07,465 - INFO - Processing User Type: Retailer
+2026-06-18 13:40:07,466 - INFO -   Adding field: [Retailer] -> First Name
+2026-06-18 13:40:08,126 - INFO -     → User Type selected: Retailer
+2026-06-18 13:40:28,442 - INFO -     → System Data Point selected: First Name
+2026-06-18 13:40:28,481 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:40:28,632 - INFO -     → Integrate Now clicked
+2026-06-18 13:40:28,649 - INFO -     → Toast dismissed
+2026-06-18 13:40:28,715 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-18 13:40:29,015 - INFO -   Adding field: [Retailer] -> Phone Number
+2026-06-18 13:40:29,643 - INFO -     → User Type selected: Retailer
+2026-06-18 13:40:49,997 - INFO -     → System Data Point selected: Phone Number
+2026-06-18 13:40:50,177 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:40:50,384 - INFO -     → Integrate Now clicked
+2026-06-18 13:40:50,416 - INFO -     → Toast dismissed
+2026-06-18 13:40:50,488 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-18 13:40:50,796 - INFO -   Adding field: [Retailer] -> Pincode
+2026-06-18 13:40:51,417 - INFO -     → User Type selected: Retailer
+2026-06-18 13:41:11,711 - INFO -     → System Data Point selected: Pincode
+2026-06-18 13:41:11,743 - INFO -     → Mandatory toggle enabled
+2026-06-18 13:41:11,884 - INFO -     → Integrate Now clicked
+2026-06-18 13:41:11,898 - INFO -     → Toast dismissed
+2026-06-18 13:41:11,967 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-18 13:41:12,268 - INFO -   Adding field: [Retailer] -> City
+2026-06-18 13:41:32,570 - ERROR -   ✗ Failed to add field City for Retailer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:41:32,712 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Retailer_City_20260618_134132.png
+2026-06-18 13:41:48,385 - INFO -   Adding field: [Retailer] -> State
+2026-06-18 13:42:08,693 - ERROR -   ✗ Failed to add field State for Retailer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:42:08,813 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Retailer_State_20260618_134208.png
+2026-06-18 13:42:24,467 - INFO -   Adding field: [Retailer] -> Address
+2026-06-18 13:42:44,731 - ERROR -   ✗ Failed to add field Address for Retailer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:42:44,864 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Retailer_Address_20260618_134244.png
+2026-06-18 13:43:00,594 - INFO - Processing User Type: Distribution
+2026-06-18 13:43:00,595 - INFO -   Adding field: [Distribution] -> First Name
+2026-06-18 13:43:20,870 - ERROR -   ✗ Failed to add field First Name for Distribution: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:43:21,018 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Distribution_First_Name_20260618_134320.png
+2026-06-18 13:43:36,632 - INFO -   Adding field: [Distribution] -> Phone Number
+2026-06-18 13:43:56,649 - ERROR -   ✗ Failed to add field Phone Number for Distribution: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:43:56,793 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Distribution_Phone_Number_20260618_134356.png
+2026-06-18 13:44:12,461 - INFO -   Adding field: [Distribution] -> Pincode
+2026-06-18 13:44:32,462 - ERROR -   ✗ Failed to add field Pincode for Distribution: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:44:32,629 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Distribution_Pincode_20260618_134432.png
+2026-06-18 13:44:48,321 - INFO -   Adding field: [Distribution] -> City
+2026-06-18 13:45:08,633 - ERROR -   ✗ Failed to add field City for Distribution: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:45:08,813 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Distribution_City_20260618_134508.png
+2026-06-18 13:45:24,449 - INFO -   Adding field: [Distribution] -> State
+2026-06-18 13:45:44,717 - ERROR -   ✗ Failed to add field State for Distribution: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:45:44,854 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Distribution_State_20260618_134544.png
+2026-06-18 13:46:00,559 - INFO -   Adding field: [Distribution] -> Address
+2026-06-18 13:46:20,570 - ERROR -   ✗ Failed to add field Address for Distribution: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xdaa543+103f3]
+	chromedriver!GetHandleVerifier [0xdaa584+10434]
+	chromedriver!(No symbol) [0xbaa700]
+	chromedriver!(No symbol) [0xbf3bab]
+	chromedriver!(No symbol) [0xbf3dcb]
+	chromedriver!(No symbol) [0xc35b32]
+	chromedriver!(No symbol) [0xc16114]
+	chromedriver!(No symbol) [0xc3339a]
+	chromedriver!(No symbol) [0xc15e66]
+	chromedriver!(No symbol) [0xbe9159]
+	chromedriver!(No symbol) [0xbe9f24]
+	chromedriver!GetHandleVerifier [0x1034bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x1030119+295fc9]
+	chromedriver!GetHandleVerifier [0x105103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xdc37f6+296a6]
+	chromedriver!GetHandleVerifier [0xdca91d+307cd]
+	chromedriver!GetHandleVerifier [0xdb2d18+18bc8]
+	chromedriver!GetHandleVerifier [0xdb2ec5+18d75]
+	chromedriver!GetHandleVerifier [0xd9c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76295d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77abd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77abd7c1+231]
+
+2026-06-18 13:46:20,707 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Distribution_Address_20260618_134620.png
+2026-06-18 13:46:36,394 - INFO - ============================================================
+2026-06-18 13:46:36,395 - INFO - Registration fields batch complete → ✓ 27 succeeded  ✗ 9 failed
+2026-06-18 13:46:38,774 - INFO - Browser closed
+2026-06-18 13:46:42,842 - INFO - 
+Task finished at 2026-06-18 13:46:42
+2026-06-18 13:46:42,843 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_131248.log
+

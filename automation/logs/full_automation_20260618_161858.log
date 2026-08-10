@@ -1,0 +1,373 @@
+2026-06-18 16:19:27,956 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 16:19:37,415 - INFO - ============================================================
+2026-06-18 16:19:37,415 - INFO - UPDATING DASHBOARD ICONS FOR: mahesh@vcqru.com
+2026-06-18 16:19:37,415 - INFO - ============================================================
+2026-06-18 16:19:37,416 - INFO - Processing images from dashboardicons/...
+2026-06-18 16:19:37,425 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 16:19:37,426 - INFO - Output folder: automation\processed_images
+2026-06-18 16:19:37,426 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 16:19:37,588 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 16:19:37,702 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 16:19:37,798 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 16:19:37,878 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 16:19:37,952 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 16:19:37,999 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 16:19:38,065 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 16:19:38,136 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 16:19:38,210 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 16:19:38,326 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 16:19:38,395 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 16:19:38,446 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 16:19:38,447 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-18 16:19:38,447 - INFO - ✓ 12 images processed.
+2026-06-18 16:19:38,486 - INFO - ====== WebDriver manager ======
+2026-06-18 16:19:41,622 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 16:19:42,416 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 16:19:42,926 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 16:19:42,927 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 16:19:44,334 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 16:19:44,388 - INFO - ✓ Chrome driver initialized
+2026-06-18 16:19:44,389 - INFO - Opening login page...
+2026-06-18 16:19:46,604 - INFO -   → Policy checkbox checked on login page
+2026-06-18 16:19:46,808 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 16:19:46,906 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-18 16:19:46,922 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-18 16:19:51,554 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-18 16:19:51,620 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-18 16:20:00,044 - INFO - ✓ Login successful
+2026-06-18 16:20:02,045 - INFO - Navigating to dashboard icons section...
+2026-06-18 16:20:02,045 - INFO - Navigating to App Settings...
+2026-06-18 16:20:08,649 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 16:20:08,713 - INFO - Total rows found: 66
+2026-06-18 16:20:09,325 - INFO - No matching local icon for row 11: Title='Tds', ID='tds'
+2026-06-18 16:20:09,390 - INFO - No matching local icon for row 12: Title='Nearby Retailers', ID='retailer'
+2026-06-18 16:20:09,559 - INFO - No matching local icon for row 15: Title='Installation Guide', ID='instalment'
+2026-06-18 16:20:09,701 - INFO - No matching local icon for row 17: Title='Send Points', ID='transferpoints'
+2026-06-18 16:20:09,747 - INFO - No matching local icon for row 18: Title='E-Warranty', ID='e-warrant'
+2026-06-18 16:20:09,932 - INFO - No matching local icon for row 22: Title='Installation Guide', ID='instalment'
+2026-06-18 16:20:10,025 - INFO - No matching local icon for row 24: Title='Nearby Retailers', ID='retailer'
+2026-06-18 16:20:10,298 - INFO - No matching local icon for row 30: Title='Send Points', ID='transferpoints'
+2026-06-18 16:20:10,396 - INFO - No matching local icon for row 32: Title='E-Warranty', ID='e-warrant'
+2026-06-18 16:20:10,450 - INFO - No matching local icon for row 33: Title='Tds', ID='tds'
+2026-06-18 16:20:10,506 - INFO - No matching local icon for row 34: Title='Ecommerce', ID='ecommerce'
+2026-06-18 16:20:11,034 - INFO - No matching local icon for row 43: Title='Claim History', ID='claimhistory'
+2026-06-18 16:20:11,970 - INFO - No matching local icon for row 59: Title='Tds', ID='tds'
+2026-06-18 16:20:12,026 - INFO - No matching local icon for row 60: Title='Nearby Retailers', ID='retailer'
+2026-06-18 16:20:12,210 - INFO - No matching local icon for row 63: Title='Installation Guide', ID='instalment'
+2026-06-18 16:20:12,327 - INFO - No matching local icon for row 65: Title='Send Points', ID='transferpoints'
+2026-06-18 16:20:12,328 - INFO - Found 45 icons to update.
+2026-06-18 16:20:12,328 - INFO - 
+[1/45] Updating: [Dealer] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 16:20:17,537 - INFO -   → Set display title to: Scan History
+2026-06-18 16:20:17,668 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 16:20:19,711 - INFO -   → Edit form submitted.
+2026-06-18 16:20:30,814 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 16:20:30,814 - INFO - 
+[2/45] Updating: [Dealer] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 16:20:35,897 - INFO -   → Set display title to: Rewards
+2026-06-18 16:20:35,982 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 16:20:38,020 - INFO -   → Edit form submitted.
+2026-06-18 16:20:49,679 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 16:20:49,679 - INFO - 
+[3/45] Updating: [Dealer] 'Support' (ID: 'help') with 'Support'
+2026-06-18 16:20:54,687 - INFO -   → Set display title to: Support
+2026-06-18 16:20:54,751 - INFO -   → Uploaded image: Support.png
+2026-06-18 16:20:56,796 - INFO -   → Edit form submitted.
+2026-06-18 16:21:07,905 - INFO -   ✓ Successfully updated: Support -> Support
+2026-06-18 16:21:07,906 - INFO - 
+[4/45] Updating: [Dealer] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-18 16:21:12,982 - INFO -   → Set display title to: Scan Activity
+2026-06-18 16:21:13,060 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-18 16:21:15,113 - INFO -   → Edit form submitted.
+2026-06-18 16:21:26,674 - INFO -   ✓ Successfully updated: Scan Activity -> Scan Activity
+2026-06-18 16:21:26,675 - INFO - 
+[5/45] Updating: [Dealer] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 16:21:31,752 - INFO -   → Set display title to: Product Catalog
+2026-06-18 16:21:31,821 - INFO -   → Uploaded image: Product Catalog.png
+2026-06-18 16:21:33,868 - INFO -   → Edit form submitted.
+2026-06-18 16:21:45,541 - INFO -   ✓ Successfully updated: Product Catalog -> Product Catalog
+2026-06-18 16:21:45,541 - INFO - 
+[6/45] Updating: [Dealer] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 16:21:50,605 - INFO -   → Set display title to: Prospectus
+2026-06-18 16:21:50,683 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 16:21:52,721 - INFO -   → Edit form submitted.
+2026-06-18 16:22:04,260 - INFO -   ✓ Successfully updated: Prospectus -> Prospectus
+2026-06-18 16:22:04,260 - INFO - 
+[7/45] Updating: [Dealer] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 16:22:09,347 - INFO -   → Set display title to: Language
+2026-06-18 16:22:09,428 - INFO -   → Uploaded image: Language.png
+2026-06-18 16:22:11,465 - INFO -   → Edit form submitted.
+2026-06-18 16:22:23,031 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-18 16:22:23,032 - INFO - 
+[8/45] Updating: [Dealer] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 16:22:28,036 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 16:22:28,104 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 16:22:30,145 - INFO -   → Edit form submitted.
+2026-06-18 16:22:41,736 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 16:22:41,737 - INFO - 
+[9/45] Updating: [Dealer] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 16:22:46,750 - INFO -   → Set display title to: KYC
+2026-06-18 16:22:46,913 - INFO -   → Uploaded image: KYC.png
+2026-06-18 16:22:48,948 - INFO -   → Edit form submitted.
+2026-06-18 16:23:00,093 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 16:23:00,094 - INFO - 
+[10/45] Updating: [Dealer] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 16:23:05,087 - INFO -   → Set display title to: My Wallet
+2026-06-18 16:23:05,189 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 16:23:07,236 - INFO -   → Edit form submitted.
+2026-06-18 16:23:18,402 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 16:23:18,403 - INFO - 
+[11/45] Updating: [Dealer] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 16:23:24,311 - INFO -   → Set display title to: Updates
+2026-06-18 16:23:24,517 - INFO -   → Uploaded image: Updates.png
+2026-06-18 16:23:26,559 - INFO -   → Edit form submitted.
+2026-06-18 16:23:38,097 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 16:23:38,098 - INFO - 
+[12/45] Updating: [Dealer] 'Activity' (ID: 'codedetails') with 'Activity'
+2026-06-18 16:23:43,189 - INFO -   → Set display title to: Activity
+2026-06-18 16:23:43,262 - INFO -   → Uploaded image: Activity.png
+2026-06-18 16:23:45,317 - INFO -   → Edit form submitted.
+2026-06-18 16:23:56,670 - INFO -   ✓ Successfully updated: Activity -> Activity
+2026-06-18 16:23:56,671 - INFO - 
+[13/45] Updating: [Retailer] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 16:24:01,677 - INFO -   → Set display title to: Rewards
+2026-06-18 16:24:01,735 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 16:24:03,773 - INFO -   → Edit form submitted.
+2026-06-18 16:24:15,282 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 16:24:15,282 - INFO - 
+[14/45] Updating: [Retailer] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 16:24:20,281 - INFO -   → Set display title to: My Wallet
+2026-06-18 16:24:20,360 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 16:24:22,394 - INFO -   → Edit form submitted.
+2026-06-18 16:24:33,898 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 16:24:33,898 - INFO - 
+[15/45] Updating: [Retailer] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 16:24:38,927 - INFO -   → Set display title to: KYC
+2026-06-18 16:24:38,993 - INFO -   → Uploaded image: KYC.png
+2026-06-18 16:24:41,025 - INFO -   → Edit form submitted.
+2026-06-18 16:24:52,612 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 16:24:52,613 - INFO - 
+[16/45] Updating: [Retailer] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 16:24:57,702 - INFO -   → Set display title to: Product Catalog
+2026-06-18 16:24:57,764 - INFO -   → Uploaded image: Product Catalog.png
+2026-06-18 16:24:59,801 - INFO -   → Edit form submitted.
+2026-06-18 16:25:10,908 - INFO -   ✓ Successfully updated: Product Catalog -> Product Catalog
+2026-06-18 16:25:10,909 - INFO - 
+[17/45] Updating: [Retailer] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 16:25:16,086 - INFO -   → Set display title to: Prospectus
+2026-06-18 16:25:16,166 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 16:25:18,208 - INFO -   → Edit form submitted.
+2026-06-18 16:25:30,146 - INFO -   ✓ Successfully updated: Prospectus -> Prospectus
+2026-06-18 16:25:30,146 - INFO - 
+[18/45] Updating: [Retailer] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 16:25:36,271 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 16:25:36,334 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 16:25:38,374 - INFO -   → Edit form submitted.
+2026-06-18 16:25:49,935 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 16:25:49,936 - INFO - 
+[19/45] Updating: [Retailer] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-18 16:25:55,114 - INFO -   → Set display title to: Scan Activity
+2026-06-18 16:25:55,234 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-18 16:25:57,278 - INFO -   → Edit form submitted.
+2026-06-18 16:26:08,821 - INFO -   ✓ Successfully updated: Scan Activity -> Scan Activity
+2026-06-18 16:26:08,822 - INFO - 
+[20/45] Updating: [Retailer] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 16:26:14,047 - INFO -   → Set display title to: Scan History
+2026-06-18 16:26:14,124 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 16:26:16,166 - INFO -   → Edit form submitted.
+2026-06-18 16:26:27,819 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 16:26:27,820 - INFO - 
+[21/45] Updating: [Retailer] 'Support' (ID: 'help') with 'Support'
+2026-06-18 16:26:32,879 - INFO -   → Set display title to: Support
+2026-06-18 16:26:32,987 - INFO -   → Uploaded image: Support.png
+2026-06-18 16:26:35,031 - INFO -   → Edit form submitted.
+2026-06-18 16:26:46,639 - INFO -   ✓ Successfully updated: Support -> Support
+2026-06-18 16:26:46,640 - INFO - 
+[22/45] Updating: [Retailer] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 16:26:51,756 - INFO -   → Set display title to: Updates
+2026-06-18 16:26:51,840 - INFO -   → Uploaded image: Updates.png
+2026-06-18 16:26:53,882 - INFO -   → Edit form submitted.
+2026-06-18 16:27:05,472 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 16:27:05,472 - INFO - 
+[23/45] Updating: [Autoagent] 'Gift' (ID: 'gift') with 'Rewards'
+2026-06-18 16:27:10,536 - INFO -   → Set display title to: Rewards
+2026-06-18 16:27:10,627 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 16:27:12,694 - INFO -   → Edit form submitted.
+2026-06-18 16:27:24,265 - INFO -   ✓ Successfully updated: Gift -> Rewards
+2026-06-18 16:27:24,265 - INFO - 
+[24/45] Updating: [Autoagent] 'History' (ID: 'history') with 'Scan History'
+2026-06-18 16:27:29,907 - INFO -   → Set display title to: Scan History
+2026-06-18 16:27:30,087 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 16:27:32,195 - INFO -   → Edit form submitted.
+2026-06-18 16:27:43,381 - INFO -   ✓ Successfully updated: History -> Scan History
+2026-06-18 16:27:43,381 - INFO - 
+[25/45] Updating: [Autoagent] 'Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 16:27:48,635 - INFO -   → Set display title to: My Wallet
+2026-06-18 16:27:48,719 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 16:27:50,763 - INFO -   → Edit form submitted.
+2026-06-18 16:28:01,970 - INFO -   ✓ Successfully updated: Wallet -> My Wallet
+2026-06-18 16:28:01,971 - INFO - 
+[26/45] Updating: [Autoagent] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 16:28:07,106 - INFO -   → Set display title to: KYC
+2026-06-18 16:28:07,199 - INFO -   → Uploaded image: KYC.png
+2026-06-18 16:28:09,244 - INFO -   → Edit form submitted.
+2026-06-18 16:28:20,356 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 16:28:20,356 - INFO - 
+[27/45] Updating: [Autoagent] 'Blog' (ID: 'blog') with 'Updates'
+2026-06-18 16:28:25,428 - INFO -   → Set display title to: Updates
+2026-06-18 16:28:25,495 - INFO -   → Uploaded image: Updates.png
+2026-06-18 16:28:27,535 - INFO -   → Edit form submitted.
+2026-06-18 16:28:38,743 - INFO -   ✓ Successfully updated: Blog -> Updates
+2026-06-18 16:28:38,744 - INFO - 
+[28/45] Updating: [Autoagent] 'Brochure' (ID: 'brochure') with 'Prospectus'
+2026-06-18 16:28:44,071 - INFO -   → Set display title to: Prospectus
+2026-06-18 16:28:44,166 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 16:28:46,200 - INFO -   → Edit form submitted.
+2026-06-18 16:28:57,296 - INFO -   ✓ Successfully updated: Brochure -> Prospectus
+2026-06-18 16:28:57,297 - INFO - 
+[29/45] Updating: [Autoagent] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 16:29:02,318 - INFO -   → Set display title to: Language
+2026-06-18 16:29:02,397 - INFO -   → Uploaded image: Language.png
+2026-06-18 16:29:04,432 - INFO -   → Edit form submitted.
+2026-06-18 16:29:15,889 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-18 16:29:15,890 - INFO - 
+[30/45] Updating: [Autoagent] 'Code Details' (ID: 'codedetails') with 'Activity'
+2026-06-18 16:29:20,971 - INFO -   → Set display title to: Activity
+2026-06-18 16:29:21,033 - INFO -   → Uploaded image: Activity.png
+2026-06-18 16:29:23,070 - INFO -   → Edit form submitted.
+2026-06-18 16:29:34,301 - INFO -   ✓ Successfully updated: Code Details -> Activity
+2026-06-18 16:29:34,302 - INFO - 
+[31/45] Updating: [Autoagent] 'Help' (ID: 'help') with 'Support'
+2026-06-18 16:29:39,390 - INFO -   → Set display title to: Support
+2026-06-18 16:29:39,468 - INFO -   → Uploaded image: Support.png
+2026-06-18 16:29:41,515 - INFO -   → Edit form submitted.
+2026-06-18 16:29:52,972 - INFO -   ✓ Successfully updated: Help -> Support
+2026-06-18 16:29:52,972 - INFO - 
+[32/45] Updating: [Autoagent] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 16:29:57,972 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 16:29:58,038 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 16:30:00,088 - INFO -   → Edit form submitted.
+2026-06-18 16:30:11,355 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 16:30:11,356 - INFO - 
+[33/45] Updating: [Autoagent] 'E-Commerce' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 16:30:16,488 - INFO -   → Set display title to: Product Catalog
+2026-06-18 16:30:16,576 - INFO -   → Uploaded image: Product Catalog.png
+2026-06-18 16:30:18,615 - INFO -   → Edit form submitted.
+2026-06-18 16:30:29,956 - INFO -   ✓ Successfully updated: E-Commerce -> Product Catalog
+2026-06-18 16:30:29,957 - INFO - 
+[34/45] Updating: [User] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-18 16:30:35,097 - INFO -   → Set display title to: Scan History
+2026-06-18 16:30:35,176 - INFO -   → Uploaded image: Scan History.png
+2026-06-18 16:30:37,218 - INFO -   → Edit form submitted.
+2026-06-18 16:30:48,869 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-06-18 16:30:48,870 - INFO - 
+[35/45] Updating: [User] 'Support' (ID: 'help') with 'Support'
+2026-06-18 16:30:53,958 - INFO -   → Set display title to: Support
+2026-06-18 16:30:54,025 - INFO -   → Uploaded image: Support.png
+2026-06-18 16:30:56,069 - INFO -   → Edit form submitted.
+2026-06-18 16:31:07,398 - INFO -   ✓ Successfully updated: Support -> Support
+2026-06-18 16:31:07,399 - INFO - 
+[36/45] Updating: [User] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-18 16:31:12,504 - INFO -   → Set display title to: Rewards
+2026-06-18 16:31:12,572 - INFO -   → Uploaded image: Rewards.png
+2026-06-18 16:31:14,614 - INFO -   → Edit form submitted.
+2026-06-18 16:31:26,152 - INFO -   ✓ Successfully updated: Rewards -> Rewards
+2026-06-18 16:31:26,153 - INFO - 
+[37/45] Updating: [User] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-18 16:31:31,149 - INFO -   → Set display title to: Scan Activity
+2026-06-18 16:31:31,206 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-18 16:31:33,237 - INFO -   → Edit form submitted.
+2026-06-18 16:31:44,656 - INFO -   ✓ Successfully updated: Scan Activity -> Scan Activity
+2026-06-18 16:31:44,657 - INFO - 
+[38/45] Updating: [User] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-18 16:31:49,685 - INFO -   → Set display title to: Product Catalog
+2026-06-18 16:31:49,736 - INFO -   → Uploaded image: Product Catalog.png
+2026-06-18 16:31:51,766 - INFO -   → Edit form submitted.
+2026-06-18 16:32:03,215 - INFO -   ✓ Successfully updated: Product Catalog -> Product Catalog
+2026-06-18 16:32:03,216 - INFO - 
+[39/45] Updating: [User] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-18 16:32:08,198 - INFO -   → Set display title to: Prospectus
+2026-06-18 16:32:08,261 - INFO -   → Uploaded image: Prospectus.png
+2026-06-18 16:32:10,294 - INFO -   → Edit form submitted.
+2026-06-18 16:32:21,909 - INFO -   ✓ Successfully updated: Prospectus -> Prospectus
+2026-06-18 16:32:21,910 - INFO - 
+[40/45] Updating: [User] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-18 16:32:27,031 - INFO -   → Set display title to: Language
+2026-06-18 16:32:27,101 - INFO -   → Uploaded image: Language.png
+2026-06-18 16:32:29,141 - INFO -   → Edit form submitted.
+2026-06-18 16:32:40,761 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-18 16:32:40,762 - INFO - 
+[41/45] Updating: [User] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-18 16:32:45,839 - INFO -   → Set display title to: Refer & Earn
+2026-06-18 16:32:45,982 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-18 16:32:48,033 - INFO -   → Edit form submitted.
+2026-06-18 16:32:59,517 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-18 16:32:59,517 - INFO - 
+[42/45] Updating: [User] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-18 16:33:04,564 - INFO -   → Set display title to: KYC
+2026-06-18 16:33:04,633 - INFO -   → Uploaded image: KYC.png
+2026-06-18 16:33:06,862 - INFO -   → Edit form submitted.
+2026-06-18 16:33:18,485 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-18 16:33:18,486 - INFO - 
+[43/45] Updating: [User] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-18 16:33:23,674 - INFO -   → Set display title to: My Wallet
+2026-06-18 16:33:23,769 - INFO -   → Uploaded image: My Wallet.png
+2026-06-18 16:33:25,808 - INFO -   → Edit form submitted.
+2026-06-18 16:33:37,347 - INFO -   ✓ Successfully updated: My Wallet -> My Wallet
+2026-06-18 16:33:37,347 - INFO - 
+[44/45] Updating: [User] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-18 16:33:42,346 - INFO -   → Set display title to: Updates
+2026-06-18 16:33:42,398 - INFO -   → Uploaded image: Updates.png
+2026-06-18 16:33:44,444 - INFO -   → Edit form submitted.
+2026-06-18 16:33:55,843 - INFO -   ✓ Successfully updated: Updates -> Updates
+2026-06-18 16:33:55,844 - INFO - 
+[45/45] Updating: [User] 'Activity' (ID: 'codedetails') with 'Activity'
+2026-06-18 16:34:00,819 - INFO -   → Set display title to: Activity
+2026-06-18 16:34:00,917 - INFO -   → Uploaded image: Activity.png
+2026-06-18 16:34:02,953 - INFO -   → Edit form submitted.
+2026-06-18 16:34:14,361 - INFO -   ✓ Successfully updated: Activity -> Activity
+2026-06-18 16:34:14,362 - INFO - ============================================================
+2026-06-18 16:34:14,362 - INFO - UPDATE ACCOUNT SUMMARY: mahesh@vcqru.com
+2026-06-18 16:34:14,362 - INFO - ✓ Succeeded: 45
+2026-06-18 16:34:14,362 - INFO - ✗ Failed: 0
+2026-06-18 16:34:14,363 - INFO - ============================================================
+2026-06-18 16:34:16,790 - INFO - Browser closed
+2026-06-18 16:34:20,847 - INFO - 
+Task finished at 2026-06-18 16:34:20
+2026-06-18 16:34:20,848 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_161858.log
+
+2026-06-18 16:34:20,886 - INFO - User selected: Dashboard Icons
+2026-06-18 16:34:20,886 - INFO - ============================================================
+2026-06-18 16:34:20,886 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-18 16:34:20,886 - INFO - ============================================================
+2026-06-18 16:34:20,895 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 16:34:20,895 - INFO - Output folder: automation\processed_images
+2026-06-18 16:34:20,895 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 16:34:20,956 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 16:34:21,062 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 16:34:21,177 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 16:34:21,236 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 16:34:21,334 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 16:34:21,417 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 16:34:21,484 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 16:34:21,539 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 16:34:21,604 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 16:34:21,646 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 16:34:21,674 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 16:34:21,733 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 16:34:21,777 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 16:34:21,824 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 16:34:21,900 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 16:34:22,015 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 16:34:22,065 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 16:34:22,144 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 16:34:22,191 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 16:34:22,191 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 16:34:22,191 - INFO - ✓ 18 images processed successfully.
+

@@ -1,0 +1,457 @@
+2026-06-17 12:24:22,543 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-17 12:24:22,543 - INFO - ============================================================
+2026-06-17 12:24:22,543 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-17 12:24:22,544 - INFO - ============================================================
+2026-06-17 12:24:22,561 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-17 12:24:22,561 - INFO - Output folder: automation\processed_images
+2026-06-17 12:24:22,562 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-17 12:24:22,656 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-17 12:24:22,697 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-17 12:24:22,746 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-17 12:24:22,754 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-17 12:24:22,798 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-17 12:24:22,844 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-17 12:24:22,879 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-17 12:24:22,911 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-17 12:24:22,942 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-17 12:24:22,969 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-17 12:24:22,987 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-17 12:24:23,023 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-17 12:24:23,050 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-17 12:24:23,081 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-17 12:24:23,125 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-17 12:24:23,157 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-17 12:24:23,185 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-17 12:24:23,215 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-17 12:24:23,243 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-17 12:24:23,243 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-17 12:24:23,243 - INFO - ✓ 18 images processed successfully.
+
+2026-06-17 12:24:26,821 - INFO - Target User Type: Applicators
+2026-06-17 12:24:26,841 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-17 12:24:26,841 - INFO -   → Extracted Title: Activity
+2026-06-17 12:24:26,841 - INFO -   → Matched Identity: codedetails
+2026-06-17 12:24:26,841 - INFO -   → Extracted Color: #F86008
+2026-06-17 12:24:26,842 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:26,869 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-17 12:24:26,870 - INFO -   → Extracted Title: E-Warranty
+2026-06-17 12:24:26,870 - INFO -   → Matched Identity: e-warrant
+2026-06-17 12:24:26,870 - INFO -   → Extracted Color: #20C078
+2026-06-17 12:24:26,870 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:26,895 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-17 12:24:26,895 - INFO -   → Extracted Title: ecommerce
+2026-06-17 12:24:26,895 - INFO -   → Matched Identity: gift
+2026-06-17 12:24:26,895 - INFO -   → Extracted Color: #A0E0F8
+2026-06-17 12:24:26,895 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:26,909 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-17 12:24:26,909 - INFO -   → Extracted Title: Installation Guide
+2026-06-17 12:24:26,910 - INFO -   → Matched Identity: instalment
+2026-06-17 12:24:26,910 - INFO -   → Extracted Color: #089098
+2026-06-17 12:24:26,910 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:26,927 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-17 12:24:26,927 - INFO -   → Extracted Title: KYC
+2026-06-17 12:24:26,927 - INFO -   → Matched Identity: kycdetails
+2026-06-17 12:24:26,927 - INFO -   → Extracted Color: #F85808
+2026-06-17 12:24:26,928 - INFO -   → Toggle Option: side menu
+2026-06-17 12:24:26,943 - INFO - Dynamically mapped image 'Language.png':
+2026-06-17 12:24:26,944 - INFO -   → Extracted Title: Language
+2026-06-17 12:24:26,944 - INFO -   → Matched Identity: chooselanguage
+2026-06-17 12:24:26,944 - INFO -   → Extracted Color: #5010E8
+2026-06-17 12:24:26,944 - INFO -   → Toggle Option: side menu
+2026-06-17 12:24:26,958 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-17 12:24:26,958 - INFO -   → Extracted Title: My Wallet
+2026-06-17 12:24:26,958 - INFO -   → Matched Identity: wallet
+2026-06-17 12:24:26,958 - INFO -   → Extracted Color: #20A020
+2026-06-17 12:24:26,959 - INFO -   → Toggle Option: both
+2026-06-17 12:24:26,975 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-17 12:24:26,975 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-17 12:24:26,975 - INFO -   → Matched Identity: retailer
+2026-06-17 12:24:26,975 - INFO -   → Extracted Color: #F87010
+2026-06-17 12:24:26,975 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:26,991 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-17 12:24:26,991 - INFO -   → Extracted Title: Product Catalog
+2026-06-17 12:24:26,991 - INFO -   → Matched Identity: productcatalogue
+2026-06-17 12:24:26,991 - INFO -   → Extracted Color: #6028E8
+2026-06-17 12:24:26,991 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,005 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-17 12:24:27,005 - INFO -   → Extracted Title: Prospectus
+2026-06-17 12:24:27,005 - INFO -   → Matched Identity: brochure
+2026-06-17 12:24:27,005 - INFO -   → Extracted Color: #0848F8
+2026-06-17 12:24:27,005 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,022 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-17 12:24:27,022 - INFO -   → Extracted Title: Refer & Earn
+2026-06-17 12:24:27,022 - INFO -   → Matched Identity: referandearn
+2026-06-17 12:24:27,022 - INFO -   → Extracted Color: #089098
+2026-06-17 12:24:27,023 - INFO -   → Toggle Option: both
+2026-06-17 12:24:27,038 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-17 12:24:27,038 - INFO -   → Extracted Title: Rewards
+2026-06-17 12:24:27,039 - INFO -   → Matched Identity: gift
+2026-06-17 12:24:27,039 - INFO -   → Extracted Color: #F00048
+2026-06-17 12:24:27,039 - INFO -   → Toggle Option: both
+2026-06-17 12:24:27,056 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-17 12:24:27,056 - INFO -   → Extracted Title: Scan Activity
+2026-06-17 12:24:27,056 - INFO -   → Matched Identity: codedetails
+2026-06-17 12:24:27,057 - INFO -   → Extracted Color: #10A010
+2026-06-17 12:24:27,057 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,073 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-17 12:24:27,073 - INFO -   → Extracted Title: Scan History
+2026-06-17 12:24:27,073 - INFO -   → Matched Identity: history
+2026-06-17 12:24:27,073 - INFO -   → Extracted Color: #4808F0
+2026-06-17 12:24:27,073 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,088 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-17 12:24:27,088 - INFO -   → Extracted Title: Send Points
+2026-06-17 12:24:27,088 - INFO -   → Matched Identity: transferpoints
+2026-06-17 12:24:27,088 - INFO -   → Extracted Color: #F86008
+2026-06-17 12:24:27,088 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,104 - INFO - Dynamically mapped image 'Support.png':
+2026-06-17 12:24:27,105 - INFO -   → Extracted Title: Support
+2026-06-17 12:24:27,105 - INFO -   → Matched Identity: help
+2026-06-17 12:24:27,105 - INFO -   → Extracted Color: #0030F0
+2026-06-17 12:24:27,105 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,122 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-17 12:24:27,122 - INFO -   → Extracted Title: TDS
+2026-06-17 12:24:27,123 - INFO -   → Matched Identity: tds
+2026-06-17 12:24:27,123 - INFO -   → Extracted Color: #20C880
+2026-06-17 12:24:27,123 - INFO -   → Toggle Option: side menu
+2026-06-17 12:24:27,140 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-17 12:24:27,141 - INFO -   → Extracted Title: Updates
+2026-06-17 12:24:27,141 - INFO -   → Matched Identity: blog
+2026-06-17 12:24:27,141 - INFO -   → Extracted Color: #F87820
+2026-06-17 12:24:27,141 - INFO -   → Toggle Option: dashboard only
+2026-06-17 12:24:27,141 - INFO - 
+============================================================
+2026-06-17 12:24:27,141 - INFO - Launching Browser and Starting Upload Process
+2026-06-17 12:24:27,141 - INFO - ============================================================
+2026-06-17 12:24:27,149 - INFO - ====== WebDriver manager ======
+2026-06-17 12:24:28,223 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 12:24:28,707 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 12:24:29,190 - INFO - There is no [win64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-06-17 12:24:29,190 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 12:24:30,594 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-17 12:24:30,600 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-17 12:24:30,600 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-17 12:24:30,982 - INFO - Driver downloading response is 200
+2026-06-17 12:24:48,496 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 12:24:48,938 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-17 12:24:48,940 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 12:24:51,430 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 12:24:51,468 - INFO - ✓ Chrome driver initialized
+2026-06-17 12:24:51,469 - INFO - 
+→ Attempting login...
+
+2026-06-17 12:24:51,469 - INFO - Opening login page...
+2026-06-17 12:24:52,857 - INFO -   → Policy checkbox checked on login page
+2026-06-17 12:24:52,929 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 12:24:53,061 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-17 12:24:53,066 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-17 12:24:56,604 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-17 12:24:56,628 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-17 12:25:04,874 - INFO - ✓ Login successful
+2026-06-17 12:25:06,875 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-17 12:25:06,876 - INFO - Navigating to App Settings...
+2026-06-17 12:25:13,125 - INFO - ✓ Dashboard Icons section loaded
+2026-06-17 12:25:15,126 - INFO - 
+→ Starting batch upload of 18 custom icons...
+
+2026-06-17 12:25:15,126 - INFO - Starting batch – 18 configured entries
+2026-06-17 12:25:15,127 - INFO - Total icons to upload after expansion: 18
+2026-06-17 12:25:15,127 - INFO - ============================================================
+2026-06-17 12:25:15,127 - INFO - [1/18]
+2026-06-17 12:25:15,128 - INFO -   Adding: [Applicators] Activity  (codedetails)
+2026-06-17 12:25:27,950 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:25:28,013 - INFO -     → Icon identity: codedetails
+2026-06-17 12:25:28,119 - INFO -     → Display title: Activity
+2026-06-17 12:25:28,500 - INFO -     → Icon color: #F86008
+2026-06-17 12:25:28,527 - INFO -     → Toggle: dashboard only
+2026-06-17 12:25:30,570 - INFO -     → Image uploaded: Activity.png
+2026-06-17 12:25:30,645 - INFO -     → Form submitted
+2026-06-17 12:25:41,232 - INFO -   ✓ Icon added: Activity
+
+2026-06-17 12:25:42,233 - INFO - [2/18]
+2026-06-17 12:25:42,234 - INFO -   Adding: [Applicators] E-Warranty  (e-warrant)
+2026-06-17 12:25:55,064 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:25:55,129 - INFO -     → Icon identity: e-warrant
+2026-06-17 12:25:55,225 - INFO -     → Display title: E-Warranty
+2026-06-17 12:25:55,648 - INFO -     → Icon color: #20C078
+2026-06-17 12:25:55,669 - INFO -     → Toggle: dashboard only
+2026-06-17 12:25:57,704 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-17 12:25:57,783 - INFO -     → Form submitted
+2026-06-17 12:26:08,769 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-17 12:26:09,770 - INFO - [3/18]
+2026-06-17 12:26:09,770 - INFO -   Adding: [Applicators] ecommerce  (gift)
+2026-06-17 12:26:22,562 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:26:22,622 - INFO -     → Icon identity: gift
+2026-06-17 12:26:22,714 - INFO -     → Display title: ecommerce
+2026-06-17 12:26:23,196 - INFO -     → Icon color: #A0E0F8
+2026-06-17 12:26:23,226 - INFO -     → Toggle: dashboard only
+2026-06-17 12:26:25,259 - INFO -     → Image uploaded: ecommerce.png
+2026-06-17 12:26:25,350 - INFO -     → Form submitted
+2026-06-17 12:26:36,316 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-17 12:26:37,317 - INFO - [4/18]
+2026-06-17 12:26:37,317 - INFO -   Adding: [Applicators] Installation Guide  (instalment)
+2026-06-17 12:26:50,171 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:26:50,241 - INFO -     → Icon identity: instalment
+2026-06-17 12:26:50,398 - INFO -     → Display title: Installation Guide
+2026-06-17 12:26:50,892 - INFO -     → Icon color: #089098
+2026-06-17 12:26:50,914 - INFO -     → Toggle: dashboard only
+2026-06-17 12:26:52,967 - INFO -     → Image uploaded: Installation Guide.png
+2026-06-17 12:26:53,061 - INFO -     → Form submitted
+2026-06-17 12:27:03,649 - INFO -   ✓ Icon added: Installation Guide
+
+2026-06-17 12:27:04,650 - INFO - [5/18]
+2026-06-17 12:27:04,652 - INFO -   Adding: [Applicators] KYC  (kycdetails)
+2026-06-17 12:27:17,055 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:27:17,158 - INFO -     → Icon identity: kycdetails
+2026-06-17 12:27:17,294 - INFO -     → Display title: KYC
+2026-06-17 12:27:17,760 - INFO -     → Icon color: #F85808
+2026-06-17 12:27:17,791 - INFO -     → Toggle: side menu
+2026-06-17 12:27:19,825 - INFO -     → Image uploaded: KYC.png
+2026-06-17 12:27:19,920 - INFO -     → Form submitted
+2026-06-17 12:27:30,476 - INFO -   ✓ Icon added: KYC
+
+2026-06-17 12:27:31,477 - INFO - [6/18]
+2026-06-17 12:27:31,478 - INFO -   Adding: [Applicators] Language  (chooselanguage)
+2026-06-17 12:27:44,010 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:27:44,115 - INFO -     → Icon identity: chooselanguage
+2026-06-17 12:27:44,289 - INFO -     → Display title: Language
+2026-06-17 12:27:44,765 - INFO -     → Icon color: #5010E8
+2026-06-17 12:27:44,795 - INFO -     → Toggle: side menu
+2026-06-17 12:27:46,840 - INFO -     → Image uploaded: Language.png
+2026-06-17 12:27:46,927 - INFO -     → Form submitted
+2026-06-17 12:27:57,947 - INFO -   ✓ Icon added: Language
+
+2026-06-17 12:27:58,949 - INFO - [7/18]
+2026-06-17 12:27:58,949 - INFO -   Adding: [Applicators] My Wallet  (wallet)
+2026-06-17 12:28:11,393 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:28:11,471 - INFO -     → Icon identity: wallet
+2026-06-17 12:28:11,587 - INFO -     → Display title: My Wallet
+2026-06-17 12:28:12,103 - INFO -     → Icon color: #20A020
+2026-06-17 12:28:12,159 - INFO -     → Toggle: both
+2026-06-17 12:28:14,199 - INFO -     → Image uploaded: My Wallet.png
+2026-06-17 12:28:14,304 - INFO -     → Form submitted
+2026-06-17 12:28:24,848 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-17 12:28:25,849 - INFO - [8/18]
+2026-06-17 12:28:25,850 - INFO -   Adding: [Applicators] Nearby Retailers  (retailer)
+2026-06-17 12:28:38,350 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:28:38,447 - INFO -     → Icon identity: retailer
+2026-06-17 12:28:38,561 - INFO -     → Display title: Nearby Retailers
+2026-06-17 12:28:39,049 - INFO -     → Icon color: #F87010
+2026-06-17 12:28:39,091 - INFO -     → Toggle: dashboard only
+2026-06-17 12:28:41,162 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-06-17 12:28:41,259 - INFO -     → Form submitted
+2026-06-17 12:28:51,802 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-06-17 12:28:52,803 - INFO - [9/18]
+2026-06-17 12:28:52,804 - INFO -   Adding: [Applicators] Product Catalog  (productcatalogue)
+2026-06-17 12:29:05,688 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:29:05,780 - INFO -     → Icon identity: productcatalogue
+2026-06-17 12:29:05,892 - INFO -     → Display title: Product Catalog
+2026-06-17 12:29:06,426 - INFO -     → Icon color: #6028E8
+2026-06-17 12:29:06,461 - INFO -     → Toggle: dashboard only
+2026-06-17 12:29:08,497 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-17 12:29:08,585 - INFO -     → Form submitted
+2026-06-17 12:29:19,197 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-17 12:29:20,198 - INFO - [10/18]
+2026-06-17 12:29:20,198 - INFO -   Adding: [Applicators] Prospectus  (brochure)
+2026-06-17 12:29:32,609 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:29:32,704 - INFO -     → Icon identity: brochure
+2026-06-17 12:29:32,823 - INFO -     → Display title: Prospectus
+2026-06-17 12:29:33,299 - INFO -     → Icon color: #0848F8
+2026-06-17 12:29:33,323 - INFO -     → Toggle: dashboard only
+2026-06-17 12:29:35,363 - INFO -     → Image uploaded: Prospectus.png
+2026-06-17 12:29:35,486 - INFO -     → Form submitted
+2026-06-17 12:29:46,051 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-17 12:29:47,053 - INFO - [11/18]
+2026-06-17 12:29:47,053 - INFO -   Adding: [Applicators] Refer & Earn  (referandearn)
+2026-06-17 12:29:59,915 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:30:00,024 - INFO -     → Icon identity: referandearn
+2026-06-17 12:30:00,129 - INFO -     → Display title: Refer & Earn
+2026-06-17 12:30:00,648 - INFO -     → Icon color: #089098
+2026-06-17 12:30:00,684 - INFO -     → Toggle: both
+2026-06-17 12:30:02,738 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-17 12:30:02,829 - INFO -     → Form submitted
+2026-06-17 12:30:13,393 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-17 12:30:14,394 - INFO - [12/18]
+2026-06-17 12:30:14,394 - INFO -   Adding: [Applicators] Rewards  (gift)
+2026-06-17 12:30:27,351 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:30:27,467 - INFO -     → Icon identity: gift
+2026-06-17 12:30:27,584 - INFO -     → Display title: Rewards
+2026-06-17 12:30:28,201 - INFO -     → Icon color: #F00048
+2026-06-17 12:30:28,235 - INFO -     → Toggle: both
+2026-06-17 12:30:30,280 - INFO -     → Image uploaded: Rewards.png
+2026-06-17 12:30:30,375 - INFO -     → Form submitted
+2026-06-17 12:30:40,988 - INFO -   ✓ Icon added: Rewards
+
+2026-06-17 12:30:41,990 - INFO - [13/18]
+2026-06-17 12:30:41,990 - INFO -   Adding: [Applicators] Scan Activity  (codedetails)
+2026-06-17 12:30:54,759 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:30:54,832 - INFO -     → Icon identity: codedetails
+2026-06-17 12:30:54,929 - INFO -     → Display title: Scan Activity
+2026-06-17 12:30:55,389 - INFO -     → Icon color: #10A010
+2026-06-17 12:30:55,418 - INFO -     → Toggle: dashboard only
+2026-06-17 12:30:57,457 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-17 12:30:57,545 - INFO -     → Form submitted
+2026-06-17 12:31:08,088 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-17 12:31:09,089 - INFO - [14/18]
+2026-06-17 12:31:09,090 - INFO -   Adding: [Applicators] Scan History  (history)
+2026-06-17 12:31:21,499 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:31:21,606 - INFO -     → Icon identity: history
+2026-06-17 12:31:21,759 - INFO -     → Display title: Scan History
+2026-06-17 12:31:22,311 - INFO -     → Icon color: #4808F0
+2026-06-17 12:31:22,336 - INFO -     → Toggle: dashboard only
+2026-06-17 12:31:24,373 - INFO -     → Image uploaded: Scan History.png
+2026-06-17 12:31:24,503 - INFO -     → Form submitted
+2026-06-17 12:31:35,126 - INFO -   ✓ Icon added: Scan History
+
+2026-06-17 12:31:36,127 - INFO - [15/18]
+2026-06-17 12:31:36,128 - INFO -   Adding: [Applicators] Send Points  (transferpoints)
+2026-06-17 12:31:48,663 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:31:48,777 - INFO -     → Icon identity: transferpoints
+2026-06-17 12:31:48,917 - INFO -     → Display title: Send Points
+2026-06-17 12:31:49,419 - INFO -     → Icon color: #F86008
+2026-06-17 12:31:49,460 - INFO -     → Toggle: dashboard only
+2026-06-17 12:31:51,502 - INFO -     → Image uploaded: Send Points.png
+2026-06-17 12:31:51,599 - INFO -     → Form submitted
+2026-06-17 12:32:02,214 - INFO -   ✓ Icon added: Send Points
+
+2026-06-17 12:32:03,215 - INFO - [16/18]
+2026-06-17 12:32:03,216 - INFO -   Adding: [Applicators] Support  (help)
+2026-06-17 12:32:15,652 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:32:15,771 - INFO -     → Icon identity: help
+2026-06-17 12:32:15,921 - INFO -     → Display title: Support
+2026-06-17 12:32:16,415 - INFO -     → Icon color: #0030F0
+2026-06-17 12:32:16,439 - INFO -     → Toggle: dashboard only
+2026-06-17 12:32:18,483 - INFO -     → Image uploaded: Support.png
+2026-06-17 12:32:18,583 - INFO -     → Form submitted
+2026-06-17 12:32:29,297 - INFO -   ✓ Icon added: Support
+
+2026-06-17 12:32:30,298 - INFO - [17/18]
+2026-06-17 12:32:30,298 - INFO -   Adding: [Applicators] TDS  (tds)
+2026-06-17 12:32:42,847 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:32:42,941 - INFO -     → Icon identity: tds
+2026-06-17 12:32:43,069 - INFO -     → Display title: TDS
+2026-06-17 12:32:43,547 - INFO -     → Icon color: #20C880
+2026-06-17 12:32:43,584 - INFO -     → Toggle: side menu
+2026-06-17 12:32:45,642 - INFO -     → Image uploaded: TDS.png
+2026-06-17 12:32:45,729 - INFO -     → Form submitted
+2026-06-17 12:32:56,384 - INFO -   ✓ Icon added: TDS
+
+2026-06-17 12:32:57,386 - INFO - [18/18]
+2026-06-17 12:32:57,387 - INFO -   Adding: [Applicators] Updates  (blog)
+2026-06-17 12:33:10,277 - INFO -     → User type selected by text: Applicators
+2026-06-17 12:33:10,432 - INFO -     → Icon identity: blog
+2026-06-17 12:33:10,587 - INFO -     → Display title: Updates
+2026-06-17 12:33:11,090 - INFO -     → Icon color: #F87820
+2026-06-17 12:33:11,138 - INFO -     → Toggle: dashboard only
+2026-06-17 12:33:13,200 - INFO -     → Image uploaded: Updates.png
+2026-06-17 12:33:13,292 - INFO -     → Form submitted
+2026-06-17 12:33:23,808 - INFO -   ✓ Icon added: Updates
+
+2026-06-17 12:33:24,809 - INFO - ============================================================
+2026-06-17 12:33:24,810 - INFO - Batch complete → ✓ 18 succeeded  ✗ 0 failed
+2026-06-17 12:33:24,810 - INFO - 
+============================================================
+2026-06-17 12:33:24,811 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-17 12:33:24,811 - INFO - ============================================================
+2026-06-17 12:33:24,811 - INFO - ✓ Successful uploads: 18
+2026-06-17 12:33:24,811 - INFO - ✗ Failed uploads: 0
+2026-06-17 12:33:24,812 - INFO - Total processed: 18
+2026-06-17 12:33:24,812 - INFO - Success rate: 100.0%
+2026-06-17 12:33:24,812 - INFO - ============================================================
+2026-06-17 12:33:27,071 - INFO - Browser closed
+2026-06-17 12:33:31,171 - INFO - 
+Task finished at 2026-06-17 12:33:31
+2026-06-17 12:33:31,172 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_122349.log
+
+2026-06-17 12:36:17,137 - INFO - User selected: Registration Fields (Specific User Types)
+2026-06-17 12:36:29,198 - INFO - Requested user types for registration fields: ['Applicators']
+2026-06-17 12:36:29,198 - INFO - ============================================================
+2026-06-17 12:36:29,198 - INFO - REGISTRATION FIELDS (SPECIFIC) — Browser Automation
+2026-06-17 12:36:29,199 - INFO - ============================================================
+2026-06-17 12:36:29,209 - INFO - ====== WebDriver manager ======
+2026-06-17 12:36:30,150 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 12:36:30,503 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 12:36:30,852 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 12:36:30,853 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 12:36:31,981 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 12:36:32,010 - INFO - ✓ Chrome driver initialized
+2026-06-17 12:36:32,010 - INFO - Opening login page...
+2026-06-17 12:36:33,445 - INFO -   → Policy checkbox checked on login page
+2026-06-17 12:36:33,539 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 12:37:07,317 - INFO - ✓ Login successful
+2026-06-17 12:37:09,318 - INFO - Going to App Settings...
+2026-06-17 12:37:10,202 - INFO -   → Registration Field section opened
+2026-06-17 12:37:10,280 - INFO - ✓ Registration Fields page ready
+2026-06-17 12:37:11,012 - INFO - Found 5 user types: ['Builders', 'Rcc Contractor', 'Tile Contractor', 'Architecture', 'Applicators']
+2026-06-17 12:37:11,013 - INFO -   ✓ Matched user type: 'Applicators'
+2026-06-17 12:37:11,013 - INFO - ============================================================
+2026-06-17 12:37:11,013 - INFO - Starting registration fields automation for 1 user type(s): ['Applicators']  —  6 fields total
+2026-06-17 12:37:11,013 - INFO - ============================================================
+2026-06-17 12:37:11,013 - INFO - Processing User Type: Applicators
+2026-06-17 12:37:11,013 - INFO -   Adding field: [Applicators] -> First Name
+2026-06-17 12:37:11,483 - INFO -     → User Type selected: Applicators
+2026-06-17 12:37:31,839 - INFO -     → System Data Point selected: First Name
+2026-06-17 12:37:31,888 - INFO -     → Mandatory toggle enabled
+2026-06-17 12:37:32,022 - INFO -     → Integrate Now clicked
+2026-06-17 12:37:32,040 - INFO -     → Toast dismissed
+2026-06-17 12:37:32,085 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-17 12:37:32,385 - INFO -   Adding field: [Applicators] -> Phone Number
+2026-06-17 12:37:32,916 - INFO -     → User Type selected: Applicators
+2026-06-17 12:37:53,272 - INFO -     → System Data Point selected: Phone Number
+2026-06-17 12:37:53,301 - INFO -     → Mandatory toggle enabled
+2026-06-17 12:37:53,405 - INFO -     → Integrate Now clicked
+2026-06-17 12:37:53,417 - INFO -     → Toast dismissed
+2026-06-17 12:37:53,463 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-17 12:37:53,763 - INFO -   Adding field: [Applicators] -> Pincode
+2026-06-17 12:37:54,297 - INFO -     → User Type selected: Applicators
+2026-06-17 12:38:14,436 - INFO -     → System Data Point selected: Pincode
+2026-06-17 12:38:14,467 - INFO -     → Mandatory toggle enabled
+2026-06-17 12:38:14,589 - INFO -     → Integrate Now clicked
+2026-06-17 12:38:14,601 - INFO -     → Toast dismissed
+2026-06-17 12:38:14,634 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-17 12:38:14,935 - INFO -   Adding field: [Applicators] -> City
+2026-06-17 12:38:15,157 - INFO -     → User Type selected: Applicators
+2026-06-17 12:38:35,260 - INFO -     → System Data Point selected: City
+2026-06-17 12:38:35,314 - INFO -     → Mandatory toggle enabled
+2026-06-17 12:38:35,421 - INFO -     → Integrate Now clicked
+2026-06-17 12:38:35,429 - INFO -     → Toast dismissed
+2026-06-17 12:38:35,461 - INFO -   ✓ Field added successfully: City
+
+2026-06-17 12:38:35,762 - INFO -   Adding field: [Applicators] -> State
+2026-06-17 12:38:36,302 - INFO -     → User Type selected: Applicators
+2026-06-17 12:38:56,689 - INFO -     → System Data Point selected: State
+2026-06-17 12:38:56,718 - INFO -     → Mandatory toggle enabled
+2026-06-17 12:38:56,825 - INFO -     → Integrate Now clicked
+2026-06-17 12:38:56,836 - INFO -     → Toast dismissed
+2026-06-17 12:38:56,892 - INFO -   ✓ Field added successfully: State
+
+2026-06-17 12:38:57,193 - INFO -   Adding field: [Applicators] -> Address
+2026-06-17 12:38:57,698 - INFO -     → User Type selected: Applicators
+2026-06-17 12:39:18,106 - INFO -     → System Data Point selected: Address
+2026-06-17 12:39:18,136 - INFO -     → Mandatory toggle enabled
+2026-06-17 12:39:18,245 - INFO -     → Integrate Now clicked
+2026-06-17 12:39:18,254 - INFO -     → Toast dismissed
+2026-06-17 12:39:18,285 - INFO -   ✓ Field added successfully: Address
+
+2026-06-17 12:39:18,586 - INFO - ============================================================
+2026-06-17 12:39:18,586 - INFO - Registration fields (specific) batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-06-17 12:39:20,837 - INFO - Browser closed
+2026-06-17 12:39:24,910 - INFO - 
+Task finished at 2026-06-17 12:39:24
+2026-06-17 12:39:24,910 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_122349.log
+

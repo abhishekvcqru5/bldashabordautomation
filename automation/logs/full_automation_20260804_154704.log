@@ -1,0 +1,21 @@
+2026-08-04 16:11:52,725 - INFO - User selected: Old Dashboard
+2026-08-04 16:11:55,123 - INFO -   Old Dashboard → Brand Setting
+2026-08-04 16:11:55,124 - INFO - ============================================================
+2026-08-04 16:11:55,124 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-08-04 16:11:55,124 - INFO - ============================================================
+2026-08-04 16:11:55,156 - INFO - ====== WebDriver manager ======
+2026-08-04 16:11:57,942 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:11:58,208 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:11:58,396 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:11:58,841 - INFO - WebDriver version 150.0.7871.124 selected
+2026-08-04 16:11:58,854 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-04 16:11:58,855 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-04 16:11:58,920 - INFO - Driver downloading response is 200
+2026-08-04 16:11:59,218 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:11:59,583 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-08-04 16:11:59,623 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-04 16:12:03,945 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-08-04 16:12:03,946 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-08-04 16:12:12,294 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8f28bb0321a5f236f3e8a59773dfdca7
+2026-08-04 16:12:18,407 - INFO - Automation cancelled by user (Ctrl+C)

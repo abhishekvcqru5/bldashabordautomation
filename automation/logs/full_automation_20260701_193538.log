@@ -1,0 +1,1369 @@
+2026-07-01 19:36:07,380 - INFO - User selected: Product Management Image Upload
+2026-07-01 19:36:07,381 - INFO - Starting Product Management Image Upload
+2026-07-01 19:36:07,402 - INFO - ====== WebDriver manager ======
+2026-07-01 19:36:10,414 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 19:36:11,226 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 19:36:11,855 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 19:36:11,858 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 19:36:13,652 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 19:36:13,673 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 19:36:13,750 - INFO - ✓ Chrome driver initialized
+2026-07-01 19:36:13,761 - INFO - Logging in...
+2026-07-01 19:36:13,762 - INFO - Opening login page...
+2026-07-01 19:36:15,543 - INFO -   → Policy checkbox checked on login page
+2026-07-01 19:36:15,761 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 19:36:15,803 - INFO -   → Policy agreement popup detected
+2026-07-01 19:36:15,900 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 19:36:16,454 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 19:36:27,841 - INFO - ✓ Login successful
+2026-07-01 19:36:29,843 - INFO - Navigating to App Settings...
+2026-07-01 19:36:33,510 - INFO - Clicked Product Management
+2026-07-01 19:36:36,609 - INFO - Found 83 products in table
+2026-07-01 19:36:36,616 - INFO - Processing folder: 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 19:36:37,485 - INFO - Match found for 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing -> 0.75 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing at row 17
+2026-07-01 19:36:41,305 - INFO - Removed existing image
+2026-07-01 19:36:42,430 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing\9ff3f8b9-d853-444b-a60c-f972f7b3bf59.jpg
+2026-07-01 19:36:44,457 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:36:44,476 - INFO - Processing folder: 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 19:36:47,288 - INFO - Match found for 0.75 sq.mm HRFR Multistrand copper cable 90 mtr -> 0.75 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr at row 67
+2026-07-01 19:36:50,930 - INFO - No existing image to remove or not found
+2026-07-01 19:36:51,000 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\0.75 sq.mm HRFR Multistrand copper cable 90 mtr\06327536-cb04-4263-8e06-eb01ae3f154e.jpg
+2026-07-01 19:36:53,022 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:36:53,024 - INFO - Processing folder: 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:36:55,587 - INFO - Match found for 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr -> 0.75 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 57
+2026-07-01 19:36:59,365 - INFO - Removed existing image
+2026-07-01 19:37:00,429 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\33e14327-b0df-4f38-becd-fa8f74f33421.jpg
+2026-07-01 19:37:02,451 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:02,453 - INFO - Processing folder: 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:37:04,921 - INFO - Match found for 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr -> 0.75 Sq.Mm X2 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 58
+2026-07-01 19:37:08,587 - INFO - Removed existing image
+2026-07-01 19:37:09,666 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr\18bdf688-3738-485c-b7b9-d5b9eb357e6e.jpg
+2026-07-01 19:37:11,687 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:11,689 - INFO - Processing folder: 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing
+2026-07-01 19:37:12,195 - INFO - Match found for 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing -> 1.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 24 Coil Bag Packing at row 11
+2026-07-01 19:37:15,916 - INFO - Removed existing image
+2026-07-01 19:37:17,063 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing\4d4ee46e-cfa1-49d8-b01e-0269807669a5.jpg
+2026-07-01 19:37:19,084 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:19,085 - INFO - Processing folder: 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr
+2026-07-01 19:37:22,455 - INFO - Match found for 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr -> 1.0 Sq.Mm Frlsh Mutistrand Copper Cable 90 Mtr at row 72
+2026-07-01 19:37:26,266 - INFO - Removed existing image
+2026-07-01 19:37:27,334 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm FRLSH mutistrand copper cable 90 mtr\0c6da6f6-cc14-46d0-8469-5f7d37bf6039.jpg
+2026-07-01 19:37:29,358 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:29,359 - INFO - Processing folder: 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing
+2026-07-01 19:37:29,879 - INFO - Match found for 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing -> 1.0 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 48 Coil Carton Packing at row 13
+2026-07-01 19:37:33,661 - INFO - Removed existing image
+2026-07-01 19:37:34,720 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing\04e07bb5-9e7b-4705-8664-c40af5127b10.jpg
+2026-07-01 19:37:36,742 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:36,743 - INFO - Processing folder: 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 19:37:37,497 - INFO - Match found for 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing -> 1.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing at row 18
+2026-07-01 19:37:41,223 - INFO - Removed existing image
+2026-07-01 19:37:42,295 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing\9228c6bc-1b30-4f36-b5df-02410b93c70b.jpg
+2026-07-01 19:37:44,319 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:44,320 - INFO - Processing folder: 1.0 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 19:37:47,385 - INFO - Match found for 1.0 sq.mm HRFR multistrand copper cable 45 mtr -> 1.0 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr at row 74
+2026-07-01 19:37:51,217 - INFO - Removed existing image
+2026-07-01 19:37:52,289 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand copper cable 45 mtr\460d8efa-9bf0-44d7-ac7a-9ef0f9467a8c.jpg
+2026-07-01 19:37:54,327 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:37:54,329 - INFO - Processing folder: 1.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:37:56,998 - INFO - Match found for 1.0 sq.mm HRFR multistrand copper cable 90 mtr -> 1.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr at row 66
+2026-07-01 19:38:00,701 - INFO - Removed existing image
+2026-07-01 19:38:01,765 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand copper cable 90 mtr\75ddb26f-ac6f-4602-b45b-fb2eb86557ed.jpg
+2026-07-01 19:38:03,788 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:03,790 - INFO - Processing folder: 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:38:06,398 - INFO - Match found for 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr -> 1.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 62
+2026-07-01 19:38:10,165 - INFO - Removed existing image
+2026-07-01 19:38:11,234 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\2cf1d5d7-775a-4e75-b7d1-5833f0e202cd.jpg
+2026-07-01 19:38:13,270 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:13,271 - INFO - Processing folder: 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:38:15,624 - INFO - Match found for 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr -> 1.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 56
+2026-07-01 19:38:19,346 - INFO - Removed existing image
+2026-07-01 19:38:20,421 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\33415e8e-f72b-4709-acbf-84630dbfce7d.jpg
+2026-07-01 19:38:22,444 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:22,445 - INFO - Processing folder: 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:38:24,474 - INFO - Match found for 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr -> 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 51
+2026-07-01 19:38:28,270 - INFO - Removed existing image
+2026-07-01 19:38:29,331 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-01 19:38:31,359 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:31,361 - INFO - Processing folder: 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing
+2026-07-01 19:38:34,856 - WARNING - Could not find match for 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing in table
+2026-07-01 19:38:34,857 - INFO - Processing folder: 1.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 19:38:37,633 - INFO - Match found for 1.5 sq.mm FRLSH multistrand copper cable 90 mtr -> 1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr at row 70
+2026-07-01 19:38:41,452 - INFO - Removed existing image
+2026-07-01 19:38:42,519 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\28769457-35cf-44a6-8f7d-6368bdd45fb2.jpg
+2026-07-01 19:38:44,546 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:44,548 - INFO - Processing folder: 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing
+2026-07-01 19:38:45,069 - INFO - Match found for 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing -> 1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing at row 12
+2026-07-01 19:38:49,064 - INFO - Removed existing image
+2026-07-01 19:38:50,135 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing\1ed736bd-e87a-4dcd-a087-89491b94efae.jpg
+2026-07-01 19:38:52,157 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:52,159 - INFO - Processing folder: 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing
+2026-07-01 19:38:52,804 - INFO - Match found for 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing -> 1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing at row 16
+2026-07-01 19:38:56,489 - INFO - Removed existing image
+2026-07-01 19:38:57,550 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing\cf2943aa-a3dd-467b-9085-6cf9d9b71bd9.jpg
+2026-07-01 19:38:59,575 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:38:59,578 - INFO - Processing folder: 1.5 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 19:39:04,571 - INFO - Match found for 1.5 sq.mm HRFR multistrand copper cable 45 mtr -> 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr at row 78
+2026-07-01 19:39:08,380 - INFO - Removed existing image
+2026-07-01 19:39:09,466 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand copper cable 45 mtr\149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-01 19:39:11,487 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:39:11,488 - INFO - Processing folder: 1.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:39:15,320 - INFO - Match found for 1.5 sq.mm HRFR multistrand copper cable 90 mtr -> 1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr at row 65
+2026-07-01 19:39:19,238 - INFO - Removed existing image
+2026-07-01 19:39:20,306 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand copper cable 90 mtr\0b38e7bb-358a-48db-bcb9-c565fa9d5ebf.jpg
+2026-07-01 19:39:22,332 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:39:22,333 - INFO - Processing folder: 1.5 sq.mm submersible flat cable 100 mtr
+2026-07-01 19:39:24,168 - INFO - Match found for 1.5 sq.mm submersible flat cable 100 mtr -> 1.5 Sq.Mm Submersible Flat Cable 100 Mtr at row 46
+2026-07-01 19:39:27,995 - INFO - Removed existing image
+2026-07-01 19:39:29,059 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm submersible flat cable 100 mtr\4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-01 19:39:31,083 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:39:31,084 - INFO - Processing folder: 1.5 sq.mm submersible flat cable 500 mtr
+2026-07-01 19:39:33,384 - INFO - Match found for 1.5 sq.mm submersible flat cable 500 mtr -> 1.5 Sq.Mm Submersible Flat Cable 500 Mtr at row 42
+2026-07-01 19:39:37,265 - INFO - Removed existing image
+2026-07-01 19:39:38,343 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm submersible flat cable 500 mtr\3f28d977-0825-458e-9238-ece8847261e9.jpg
+2026-07-01 19:39:40,360 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:39:40,361 - INFO - Processing folder: 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:39:43,157 - INFO - Match found for 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr -> 1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 61
+2026-07-01 19:39:47,093 - INFO - Removed existing image
+2026-07-01 19:39:48,151 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\0b10deb8-f6d7-4f14-b53d-b178ec9342a1.jpg
+2026-07-01 19:39:50,333 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:39:50,364 - INFO - Processing folder: 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:39:52,985 - INFO - Match found for 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr -> 1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 55
+2026-07-01 19:39:56,864 - INFO - Removed existing image
+2026-07-01 19:39:57,925 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\2167e62a-3e35-4a6d-b1e7-0e766397cf10.jpg
+2026-07-01 19:39:59,946 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:39:59,946 - INFO - Processing folder: 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:40:01,871 - INFO - Match found for 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr -> 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr at row 50
+2026-07-01 19:40:06,120 - INFO - Removed existing image
+2026-07-01 19:40:07,197 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-01 19:40:09,223 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:40:09,225 - INFO - Processing folder: 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-01 19:40:11,493 - INFO - Match found for 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt -> 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt at row 35
+2026-07-01 19:40:15,237 - INFO - Removed existing image
+2026-07-01 19:40:16,335 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-01 19:40:18,357 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:40:18,359 - INFO - Processing folder: 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )
+2026-07-01 19:40:19,840 - INFO - Match found for 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded ) -> 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded ) at row 34
+2026-07-01 19:40:23,790 - INFO - Removed existing image
+2026-07-01 19:40:24,850 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\17eff4a5-d386-471d-8806-8babd11e30e6.jpg
+2026-07-01 19:40:26,872 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:40:26,874 - INFO - Processing folder: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 19:40:27,696 - INFO - Match found for 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded) -> 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) at row 21
+2026-07-01 19:40:31,553 - INFO - Removed existing image
+2026-07-01 19:40:32,619 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-01 19:40:34,638 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:40:34,639 - INFO - Processing folder: 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 19:40:35,971 - INFO - Match found for 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded) -> 10.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) at row 25
+2026-07-01 19:40:39,713 - INFO - Removed existing image
+2026-07-01 19:40:40,774 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\0716cdf9-c146-49cd-ac15-f410e6598ba4.jpg
+2026-07-01 19:40:42,801 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:40:42,802 - INFO - Processing folder: 10.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:40:46,338 - INFO - Match found for 10.0 sq.mm HRFR multistrand copper cable 90 mtr -> 10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr at row 76
+2026-07-01 19:40:50,342 - INFO - Removed existing image
+2026-07-01 19:40:51,410 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm HRFR multistrand copper cable 90 mtr\63137fc6-1845-4160-ad12-edf623cf92b4.jpg
+2026-07-01 19:40:53,429 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:40:53,431 - INFO - Processing folder: 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-01 19:40:57,371 - WARNING - Could not find match for 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing in table
+2026-07-01 19:40:57,371 - INFO - Processing folder: 14_40 x 2 core white parallel wire 90 mtr
+2026-07-01 19:40:57,486 - INFO - Match found for 14_40 x 2 core white parallel wire 90 mtr -> 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing at row 2
+2026-07-01 19:41:01,225 - INFO - Removed existing image
+2026-07-01 19:41:02,305 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_40 x 2 core white parallel wire 90 mtr\1c295799-1941-446a-8424-b50de4966935.jpg
+2026-07-01 19:41:04,328 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:04,329 - INFO - Processing folder: 14_76 twisted flexible wire 90 mtr
+2026-07-01 19:41:04,568 - INFO - Match found for 14_76 twisted flexible wire 90 mtr -> 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing at row 5
+2026-07-01 19:41:08,351 - INFO - Removed existing image
+2026-07-01 19:41:09,455 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_76 twisted flexible wire 90 mtr\3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg
+2026-07-01 19:41:11,481 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:11,482 - INFO - Processing folder: 14_76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-01 19:41:11,700 - INFO - Match found for 14_76 twisted flexible wire 90 mtr, 25 coils bag packing -> 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing at row 5
+2026-07-01 19:41:15,387 - INFO - Removed existing image
+2026-07-01 19:41:16,457 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_76 twisted flexible wire 90 mtr, 25 coils bag packing\11dbd383-d33e-4ef2-8601-b2d8370a6464.jpg
+2026-07-01 19:41:18,479 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:18,480 - INFO - Processing folder: 16.0  sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:41:21,820 - WARNING - Could not find match for 16.0  sq.mm HRFR multistrand copper cable 90 mtr in table
+2026-07-01 19:41:21,821 - INFO - Processing folder: 16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-01 19:41:23,403 - INFO - Match found for 16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr -> 16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr at row 33
+2026-07-01 19:41:27,402 - INFO - Removed existing image
+2026-07-01 19:41:28,466 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg
+2026-07-01 19:41:30,487 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:30,488 - INFO - Processing folder: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-01 19:41:31,718 - INFO - Match found for 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded ) -> 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) at row 29
+2026-07-01 19:41:35,369 - INFO - Removed existing image
+2026-07-01 19:41:36,437 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-01 19:41:38,461 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:38,462 - INFO - Processing folder: 2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-01 19:41:39,903 - INFO - Match found for 2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr -> 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr at row 38
+2026-07-01 19:41:43,715 - INFO - Removed existing image
+2026-07-01 19:41:44,778 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr\4ef82c0d-fbf5-4239-93f6-3e7a0a43705d.jpg
+2026-07-01 19:41:46,799 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:46,800 - INFO - Processing folder: 2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )
+2026-07-01 19:41:48,023 - INFO - Match found for 2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded ) -> 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) at row 32
+2026-07-01 19:41:51,836 - INFO - Removed existing image
+2026-07-01 19:41:52,895 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )\65583c12-00ad-4bcf-bc16-d3bf96336ec3.jpg
+2026-07-01 19:41:54,915 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:41:54,916 - INFO - Processing folder: 2.5 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 19:41:55,853 - INFO - Match found for 2.5 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded) -> 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) at row 24
+2026-07-01 19:41:59,679 - INFO - Removed existing image
+2026-07-01 19:42:00,740 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\14b9ecf7-3401-41f1-b625-6772a9a45542.jpg
+2026-07-01 19:42:02,761 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:02,762 - INFO - Processing folder: 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 19:42:03,831 - INFO - Match found for 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded) -> 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) at row 28
+2026-07-01 19:42:07,504 - INFO - Removed existing image
+2026-07-01 19:42:08,569 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\0e02a005-a483-422f-a268-bb14d7908da3.jpg
+2026-07-01 19:42:10,591 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:10,593 - INFO - Processing folder: 2.5 sq.mm FRLSH multistrand cable 90 mtr, 12 coil bag packing
+2026-07-01 19:42:10,967 - INFO - Match found for 2.5 sq.mm FRLSH multistrand cable 90 mtr, 12 coil bag packing -> 2.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 12 Coil Bag Packing at row 9
+2026-07-01 19:42:14,773 - INFO - Removed existing image
+2026-07-01 19:42:15,910 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm FRLSH multistrand cable 90 mtr, 12 coil bag packing\9d5f9766-d588-4536-8a6f-b6e6ac06a25e.jpg
+2026-07-01 19:42:17,962 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:17,963 - INFO - Processing folder: 2.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 19:42:20,631 - INFO - Match found for 2.5 sq.mm FRLSH multistrand copper cable 90 mtr -> 2.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr at row 69
+2026-07-01 19:42:24,718 - INFO - Removed existing image
+2026-07-01 19:42:25,869 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm FRLSH multistrand copper cable 90 mtr\12eb6008-288e-4179-a65f-6d920dd23ce9.jpg
+2026-07-01 19:42:27,892 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:27,893 - INFO - Processing folder: 2.5 sq.mm HRFR multistrand cable 90 mtr, 12 coil carton packing
+2026-07-01 19:42:28,486 - INFO - Match found for 2.5 sq.mm HRFR multistrand cable 90 mtr, 12 coil carton packing -> 2.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 12 Coil Carton Packing at row 15
+2026-07-01 19:42:32,367 - INFO - Removed existing image
+2026-07-01 19:42:33,436 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm HRFR multistrand cable 90 mtr, 12 coil carton packing\0a5e4c6d-e51f-4129-840e-eb6e8add256b.jpg
+2026-07-01 19:42:35,455 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:35,456 - INFO - Processing folder: 2.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:42:38,005 - INFO - Match found for 2.5 sq.mm HRFR multistrand copper cable 90 mtr -> 2.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr at row 64
+2026-07-01 19:42:41,953 - INFO - Removed existing image
+2026-07-01 19:42:43,027 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm HRFR multistrand copper cable 90 mtr\54b9aa2d-d084-4814-b287-620c51caa96b.jpg
+2026-07-01 19:42:45,047 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:45,048 - INFO - Processing folder: 2.5 sq.mm submersible flat cable 100 mtr
+2026-07-01 19:42:47,350 - INFO - Match found for 2.5 sq.mm submersible flat cable 100 mtr -> 2.5 Sq.Mm Submersible Flat Cable 100 Mtr at row 45
+2026-07-01 19:42:51,164 - INFO - Removed existing image
+2026-07-01 19:42:52,238 - INFO - Uploaded c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm submersible flat cable 100 mtr\0a43801c-5d34-46e4-b6d4-44bce0fb18b3.jpg
+2026-07-01 19:42:54,293 - ERROR - Failed to click save: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.fixed.inset-0.z-50 div.p-5.border-t button"}
+  (Session info: chrome=149.0.7827.201); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x583bab]
+	chromedriver!(No symbol) [0x583dcb]
+	chromedriver!(No symbol) [0x5c5b32]
+	chromedriver!(No symbol) [0x5a6114]
+	chromedriver!(No symbol) [0x5c339a]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:42:54,295 - INFO - Processing folder: 2.5 sq.mm submersible flat cable 500 mtr
+2026-07-01 19:42:56,464 - INFO - Match found for 2.5 sq.mm submersible flat cable 500 mtr -> 2.5 Sq.Mm Submersible Flat Cable 500 Mtr at row 41
+2026-07-01 19:43:00,652 - INFO - No existing image to remove or not found
+2026-07-01 19:43:00,939 - ERROR - Failed to upload image: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a53e]
+	chromedriver!(No symbol) [0x5783e7]
+	chromedriver!(No symbol) [0x5a5f86]
+	chromedriver!(No symbol) [0x5a1192]
+	chromedriver!(No symbol) [0x5a0b71]
+	chromedriver!(No symbol) [0x50db2e]
+	chromedriver!(No symbol) [0x50e0ce]
+	chromedriver!(No symbol) [0x50e5ad]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!(No symbol) [0x50d6a6]
+	chromedriver!(No symbol) [0x50cd02]
+	chromedriver!GetHandleVerifier [0xb2be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:43:00,945 - ERROR - Failed to click save: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a53e]
+	chromedriver!(No symbol) [0x5783e7]
+	chromedriver!(No symbol) [0x5a5f86]
+	chromedriver!(No symbol) [0x5a1192]
+	chromedriver!(No symbol) [0x5a0b71]
+	chromedriver!(No symbol) [0x50db2e]
+	chromedriver!(No symbol) [0x50e0ce]
+	chromedriver!(No symbol) [0x50e5ad]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!(No symbol) [0x50d6a6]
+	chromedriver!(No symbol) [0x50cd02]
+	chromedriver!GetHandleVerifier [0xb2be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:43:00,947 - INFO - Processing folder: 2.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:43:03,042 - INFO - Browser closed
+2026-07-01 19:43:03,043 - ERROR - Error in run_product_management_upload: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a53e]
+	chromedriver!(No symbol) [0x5783e7]
+	chromedriver!(No symbol) [0x5a5f86]
+	chromedriver!(No symbol) [0x5a1192]
+	chromedriver!(No symbol) [0x5a0b71]
+	chromedriver!(No symbol) [0x50db2e]
+	chromedriver!(No symbol) [0x50e0ce]
+	chromedriver!(No symbol) [0x50e5ad]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!(No symbol) [0x50d6a6]
+	chromedriver!(No symbol) [0x50cd02]
+	chromedriver!GetHandleVerifier [0xb2be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 19:43:07,109 - INFO - 
+Task finished at 2026-07-01 19:43:07
+2026-07-01 19:43:07,113 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260701_193538.log
+
+2026-07-01 19:47:27,811 - INFO - Automation cancelled by user (Ctrl+C)

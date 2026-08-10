@@ -1,0 +1,61 @@
+2026-07-27 16:30:13,874 - INFO - User selected: Brand Setting
+2026-07-27 16:30:18,474 - INFO -   Found logo asset: Logo.png
+2026-07-27 16:30:18,475 - INFO -   Found splash asset: splash.jpeg
+2026-07-27 16:30:18,476 - INFO - ============================================================
+2026-07-27 16:30:18,476 - INFO - BRAND SETTING — Image Processing
+2026-07-27 16:30:18,476 - INFO - ============================================================
+2026-07-27 16:30:18,548 - INFO - ✓ Logo  → logo_processed.jpg  |  17.6 KB  |  JPEG q95
+2026-07-27 16:30:18,633 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-27 16:30:18,636 - INFO - 
+2026-07-27 16:30:18,636 - INFO - Extracting brand colours from logo...
+2026-07-27 16:30:18,889 - INFO -   Colours extracted from logo:
+2026-07-27 16:30:18,890 - INFO -     Header Color     →  #304070  (dominant logo colour)
+2026-07-27 16:30:18,890 - INFO -     Background Color →  #1F2948  (35% darker)
+2026-07-27 16:30:18,891 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-27 16:30:18,891 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-27 16:30:18,905 - INFO - ✓ Both images ready
+
+2026-07-27 16:30:18,905 - INFO - ============================================================
+2026-07-27 16:30:18,906 - INFO - BRAND SETTING — Browser Automation
+2026-07-27 16:30:18,906 - INFO - ============================================================
+2026-07-27 16:30:18,931 - INFO - ====== WebDriver manager ======
+2026-07-27 16:30:21,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-27 16:30:21,225 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-27 16:30:21,395 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-27 16:30:21,834 - INFO - WebDriver version 150.0.7871.124 selected
+2026-07-27 16:30:21,844 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-27 16:30:21,845 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-27 16:30:21,891 - INFO - Driver downloading response is 200
+2026-07-27 16:30:22,302 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-27 16:30:22,586 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-07-27 16:30:22,590 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-27 16:30:25,396 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-27 16:30:25,405 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-27 16:30:25,455 - INFO - ✓ Chrome driver initialized
+2026-07-27 16:30:25,456 - INFO - Opening login page...
+2026-07-27 16:30:26,897 - INFO -   → Policy checkbox checked on login page
+2026-07-27 16:30:27,070 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-27 16:30:27,115 - INFO -   → Policy agreement popup detected
+2026-07-27 16:30:27,202 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-27 16:30:28,005 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-27 16:30:39,624 - INFO -   → Navigating directly to App Settings URL...
+2026-07-27 16:30:40,210 - INFO - ✓ Login successful and on App Settings page
+2026-07-27 16:30:42,214 - INFO - Going to App Settings...
+2026-07-27 16:30:48,788 - INFO -   → Identity & Branding section opened
+2026-07-27 16:30:50,963 - INFO -   → Edit Branding popup opened
+2026-07-27 16:30:50,982 - INFO - ✓ Brand setting form is ready
+2026-07-27 16:30:50,982 - INFO -   Setting company name: Kalp Connect
+2026-07-27 16:30:52,037 - INFO -     → HeaderColor: #304070
+2026-07-27 16:30:52,896 - INFO -     → FooterColor: #F5F5F5
+2026-07-27 16:30:53,677 - INFO -     → BodyColor: #FFFFFF
+2026-07-27 16:30:54,464 - INFO -     → BackgroundColor: #1F2948
+2026-07-27 16:30:56,573 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-27 16:30:58,609 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-27 16:30:58,856 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-27 16:31:01,898 - INFO - ✓ Brand settings saved successfully!
+2026-07-27 16:31:04,636 - INFO - Browser closed
+2026-07-27 16:31:08,719 - INFO - 
+Task finished at 2026-07-27 16:31:08
+2026-07-27 16:31:08,719 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260727_162953.log
+
+2026-07-27 16:32:12,413 - INFO - Automation cancelled by user (Ctrl+C)

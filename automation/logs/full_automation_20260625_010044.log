@@ -1,0 +1,84 @@
+2026-06-25 01:01:17,316 - INFO - User selected: Registration Fields
+2026-06-25 01:01:17,317 - INFO - ============================================================
+2026-06-25 01:01:17,318 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-25 01:01:17,318 - INFO - ============================================================
+2026-06-25 01:01:17,368 - INFO - ====== WebDriver manager ======
+2026-06-25 01:01:21,080 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-25 01:01:21,943 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-25 01:01:22,901 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-25 01:01:22,903 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-25 01:01:25,171 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-25 01:01:25,213 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-25 01:01:25,370 - INFO - ✓ Chrome driver initialized
+2026-06-25 01:01:25,375 - INFO - Opening login page...
+2026-06-25 01:01:27,434 - INFO -   → Policy checkbox checked on login page
+2026-06-25 01:01:27,738 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-25 01:01:27,817 - INFO -   → Policy agreement popup detected
+2026-06-25 01:01:27,998 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-25 01:01:29,066 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-25 01:01:35,215 - INFO -   → Policy agreement popup detected
+2026-06-25 01:01:35,319 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-25 01:01:35,918 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-25 01:01:35,943 - INFO - ✓ Login successful
+2026-06-25 01:01:37,949 - INFO - Going to App Settings...
+2026-06-25 01:01:40,996 - INFO -   → Registration Field section opened
+2026-06-25 01:01:41,599 - INFO - ✓ Registration Fields page ready
+2026-06-25 01:01:43,944 - INFO - Found 1 user types: ['Electrician']
+2026-06-25 01:01:43,945 - INFO - Starting registration fields automation: 6 fields total
+2026-06-25 01:01:43,945 - INFO - ============================================================
+2026-06-25 01:01:43,946 - INFO - Processing User Type: Electrician
+2026-06-25 01:01:43,947 - INFO -   Adding field: [Electrician] -> First Name
+2026-06-25 01:01:45,037 - INFO -     → User Type selected: Electrician
+2026-06-25 01:02:05,828 - INFO -     → System Data Point selected: First Name
+2026-06-25 01:02:06,081 - INFO -     → Mandatory toggle enabled
+2026-06-25 01:02:06,587 - INFO -     → Integrate Now clicked
+2026-06-25 01:02:06,718 - INFO -     → Toast dismissed
+2026-06-25 01:02:07,081 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-25 01:02:07,382 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-06-25 01:02:08,599 - INFO -     → User Type selected: Electrician
+2026-06-25 01:02:31,352 - INFO -     → System Data Point selected: Phone Number
+2026-06-25 01:02:31,560 - INFO -     → Mandatory toggle enabled
+2026-06-25 01:02:32,594 - INFO -     → Integrate Now clicked
+2026-06-25 01:02:32,720 - INFO -     → Toast dismissed
+2026-06-25 01:02:33,150 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-25 01:02:33,452 - INFO -   Adding field: [Electrician] -> Pincode
+2026-06-25 01:02:35,006 - INFO -     → User Type selected: Electrician
+2026-06-25 01:02:56,145 - INFO -     → System Data Point selected: Pincode
+2026-06-25 01:02:56,800 - INFO -     → Mandatory toggle enabled
+2026-06-25 01:03:02,787 - INFO -     → Integrate Now clicked
+2026-06-25 01:03:03,369 - INFO -     → Toast dismissed
+2026-06-25 01:03:04,066 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-25 01:03:04,387 - INFO -   Adding field: [Electrician] -> City
+2026-06-25 01:03:07,105 - INFO -     → User Type selected: Electrician
+2026-06-25 01:03:28,996 - INFO -     → System Data Point selected: City
+2026-06-25 01:03:29,389 - INFO -     → Mandatory toggle enabled
+2026-06-25 01:03:30,498 - INFO -     → Integrate Now clicked
+2026-06-25 01:03:30,937 - INFO -     → Toast dismissed
+2026-06-25 01:03:31,333 - INFO -   ✓ Field added successfully: City
+
+2026-06-25 01:03:31,650 - INFO -   Adding field: [Electrician] -> State
+2026-06-25 01:03:33,268 - INFO -     → User Type selected: Electrician
+2026-06-25 01:03:53,787 - INFO -     → System Data Point selected: State
+2026-06-25 01:03:54,038 - INFO -     → Mandatory toggle enabled
+2026-06-25 01:03:54,616 - INFO -     → Integrate Now clicked
+2026-06-25 01:03:54,794 - INFO -     → Toast dismissed
+2026-06-25 01:03:55,086 - INFO -   ✓ Field added successfully: State
+
+2026-06-25 01:03:55,393 - INFO -   Adding field: [Electrician] -> Address
+2026-06-25 01:03:56,528 - INFO -     → User Type selected: Electrician
+2026-06-25 01:04:16,954 - INFO -     → System Data Point selected: Address
+2026-06-25 01:04:17,069 - INFO -     → Mandatory toggle enabled
+2026-06-25 01:04:17,511 - INFO -     → Integrate Now clicked
+2026-06-25 01:04:17,547 - INFO -     → Toast dismissed
+2026-06-25 01:04:17,678 - INFO -   ✓ Field added successfully: Address
+
+2026-06-25 01:04:17,993 - INFO - ============================================================
+2026-06-25 01:04:17,996 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-06-25 01:04:24,277 - INFO - Browser closed
+2026-06-25 01:04:28,318 - INFO - 
+Task finished at 2026-06-25 01:04:28
+2026-06-25 01:04:28,319 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260625_010044.log
+

@@ -1,0 +1,305 @@
+2026-06-29 15:50:54,905 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-29 15:51:47,057 - INFO - Target User Types: ['PAINTERS']
+2026-06-29 15:51:47,057 - INFO - Target Dashboard Icons: ['Product Catalog']
+2026-06-29 15:51:47,076 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-29 15:51:47,076 - INFO - Output folder: automation\processed_images
+2026-06-29 15:51:47,077 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-29 15:51:47,145 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-29 15:51:47,193 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-29 15:51:47,204 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-29 15:51:47,247 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-29 15:51:47,280 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-29 15:51:47,312 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-29 15:51:47,337 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-29 15:51:47,355 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-29 15:51:47,389 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-29 15:51:47,418 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-29 15:51:47,447 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-29 15:51:47,490 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-29 15:51:47,519 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-29 15:51:47,544 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-29 15:51:47,544 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-29 15:51:47,564 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-29 15:51:47,564 - INFO - 
+============================================================
+2026-06-29 15:51:47,564 - INFO - Launching Browser and Starting Upload Process
+2026-06-29 15:51:47,564 - INFO - ============================================================
+2026-06-29 15:51:47,572 - INFO - ====== WebDriver manager ======
+2026-06-29 15:51:48,921 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 15:51:49,444 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 15:51:49,904 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 15:51:50,822 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-29 15:51:50,828 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-29 15:51:50,828 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-29 15:51:51,124 - INFO - Driver downloading response is 200
+2026-06-29 15:51:51,609 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 15:51:52,092 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-29 15:51:52,095 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-29 15:51:54,475 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-29 15:51:54,477 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-29 15:51:54,499 - INFO - ✓ Chrome driver initialized
+2026-06-29 15:51:54,499 - INFO - 
+→ Attempting login...
+
+2026-06-29 15:51:54,499 - INFO - Opening login page...
+2026-06-29 15:51:55,671 - INFO -   → Policy checkbox checked on login page
+2026-06-29 15:51:55,747 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-29 15:51:55,763 - INFO -   → Policy agreement popup detected
+2026-06-29 15:51:55,798 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-29 15:51:56,324 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-29 15:52:07,622 - INFO - ✓ Login successful
+2026-06-29 15:52:09,623 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-29 15:52:09,623 - INFO - Navigating to App Settings...
+2026-06-29 15:52:15,983 - INFO - ✓ Dashboard Icons section loaded
+2026-06-29 15:52:17,984 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-29 15:52:17,985 - INFO - Starting batch – 1 configured entries
+2026-06-29 15:52:17,985 - INFO - Total icons to upload after expansion: 1
+2026-06-29 15:52:17,986 - INFO - ============================================================
+2026-06-29 15:52:17,986 - INFO - [1/1]
+2026-06-29 15:52:17,986 - INFO -   Adding: [PAINTERS] Product Catalog  (productcatalogue)
+2026-06-29 15:52:30,676 - INFO -     → User type selected by text: PAINTERS
+2026-06-29 15:52:30,730 - INFO -     → Icon identity: productcatalogue
+2026-06-29 15:52:30,855 - INFO -     → Display title: Product Catalog
+2026-06-29 15:52:31,245 - INFO -     → Icon color: #6028E8
+2026-06-29 15:52:31,273 - INFO -     → Toggle: dashboard only
+2026-06-29 15:52:33,316 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-29 15:52:33,392 - INFO -     → Form submitted
+2026-06-29 15:52:44,331 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-29 15:52:45,331 - INFO - ============================================================
+2026-06-29 15:52:45,332 - INFO - Batch complete → ✓ 1 succeeded  ✗ 0 failed
+2026-06-29 15:52:45,333 - INFO - 
+============================================================
+2026-06-29 15:52:45,333 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-29 15:52:45,333 - INFO - ============================================================
+2026-06-29 15:52:45,334 - INFO - ✓ Successful uploads: 1
+2026-06-29 15:52:45,334 - INFO - ✗ Failed uploads: 0
+2026-06-29 15:52:45,334 - INFO - Total processed: 1
+2026-06-29 15:52:45,335 - INFO - Success rate: 100.0%
+2026-06-29 15:52:45,335 - INFO - ============================================================
+2026-06-29 15:52:47,566 - INFO - Browser closed
+2026-06-29 15:52:51,625 - INFO - 
+Task finished at 2026-06-29 15:52:51
+2026-06-29 15:52:51,626 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260629_155006.log
+
+2026-06-29 15:54:15,594 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-29 15:54:18,397 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-29 15:54:20,838 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-06-29 15:54:23,183 - INFO - 
+>>> Starting update [1/1] for iNP...
+2026-06-29 15:54:23,183 - INFO - ============================================================
+2026-06-29 15:54:23,184 - INFO - UPDATING DASHBOARD ICONS FOR: tanweer999@gmail.com
+2026-06-29 15:54:23,184 - INFO - ============================================================
+2026-06-29 15:54:23,184 - INFO - Processing images from dashboardicons/...
+2026-06-29 15:54:23,188 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-29 15:54:23,189 - INFO - Output folder: automation\processed_images
+2026-06-29 15:54:23,189 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-29 15:54:23,229 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-29 15:54:23,275 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-29 15:54:23,283 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-29 15:54:23,327 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-29 15:54:23,360 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-29 15:54:23,391 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-29 15:54:23,416 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-29 15:54:23,435 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-29 15:54:23,469 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-29 15:54:23,496 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-29 15:54:23,524 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-29 15:54:23,564 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-29 15:54:23,591 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-29 15:54:23,616 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-29 15:54:23,616 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-29 15:54:23,617 - INFO - ✓ 13 images processed.
+2026-06-29 15:54:23,821 - INFO - ====== WebDriver manager ======
+2026-06-29 15:54:25,000 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 15:54:25,405 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-29 15:54:25,739 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-29 15:54:25,740 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-29 15:54:26,928 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-29 15:54:26,935 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-29 15:54:26,973 - INFO - ✓ Chrome driver initialized
+2026-06-29 15:54:26,973 - INFO - Opening login page...
+2026-06-29 15:54:28,137 - INFO -   → Policy checkbox checked on login page
+2026-06-29 15:54:28,205 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-29 15:54:28,217 - INFO -   → Policy agreement popup detected
+2026-06-29 15:54:28,251 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-29 15:54:28,775 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-29 15:54:40,195 - INFO - ✓ Login successful
+2026-06-29 15:54:42,196 - INFO - Navigating to dashboard icons section...
+2026-06-29 15:54:42,197 - INFO - Navigating to App Settings...
+2026-06-29 15:54:48,466 - INFO - ✓ Dashboard Icons section loaded
+2026-06-29 15:54:48,485 - INFO - Total rows found: 27
+2026-06-29 15:54:48,532 - INFO - Parsed Row 2: UserType='Painters', Title='Reward', ID='gift'
+2026-06-29 15:54:48,548 - INFO - Parsed Row 3: UserType='Painters', Title='History', ID='history'
+2026-06-29 15:54:48,565 - INFO - Parsed Row 4: UserType='Painters', Title='Wallet', ID='wallet'
+2026-06-29 15:54:48,584 - INFO - Parsed Row 5: UserType='Painters', Title='Kyc', ID='kycdetails'
+2026-06-29 15:54:48,603 - INFO - Parsed Row 6: UserType='Painters', Title='Blog', ID='blog'
+2026-06-29 15:54:48,620 - INFO - Parsed Row 7: UserType='Painters', Title='Brochure', ID='brochure'
+2026-06-29 15:54:48,639 - INFO - Parsed Row 8: UserType='Painters', Title='Claim History', ID='claimhistory'
+2026-06-29 15:54:48,658 - INFO - Parsed Row 9: UserType='Painters', Title='Language', ID='chooselanguage'
+2026-06-29 15:54:48,691 - INFO - Parsed Row 10: UserType='Painters', Title='Code Details', ID='codedetails'
+2026-06-29 15:54:48,708 - INFO - Parsed Row 11: UserType='Painters', Title='Help', ID='help'
+2026-06-29 15:54:48,727 - INFO - Parsed Row 12: UserType='Painters', Title='Refer & Earn', ID='referandearn'
+2026-06-29 15:54:48,744 - INFO - Parsed Row 13: UserType='Painters', Title='Product Catalog', ID='productcatalogue'
+2026-06-29 15:54:48,778 - INFO - Parsed Row 15: UserType='Dealor', Title='Activity', ID='claimhistory'
+2026-06-29 15:54:48,794 - INFO - Parsed Row 16: UserType='Dealor', Title='Kyc', ID='kycdetails'
+2026-06-29 15:54:48,811 - INFO - Parsed Row 17: UserType='Dealor', Title='Language', ID='chooselanguage'
+2026-06-29 15:54:48,829 - INFO - Parsed Row 18: UserType='Dealor', Title='My Wallet', ID='wallet'
+2026-06-29 15:54:48,848 - INFO - Parsed Row 19: UserType='Dealor', Title='Product Catalog', ID='productcatalogue'
+2026-06-29 15:54:48,865 - INFO - Parsed Row 20: UserType='Dealor', Title='Prospectus', ID='brochure'
+2026-06-29 15:54:48,884 - INFO - Parsed Row 21: UserType='Dealor', Title='Refer & Earn', ID='referandearn'
+2026-06-29 15:54:48,903 - INFO - Parsed Row 22: UserType='Dealor', Title='Rewards', ID='gift'
+2026-06-29 15:54:48,920 - INFO - Parsed Row 23: UserType='Dealor', Title='Scan Activity', ID='codedetails'
+2026-06-29 15:54:48,939 - INFO - Parsed Row 24: UserType='Dealor', Title='Scan History', ID='history'
+2026-06-29 15:54:48,959 - INFO - Parsed Row 25: UserType='Dealor', Title='Support', ID='help'
+2026-06-29 15:54:48,980 - INFO - Parsed Row 26: UserType='Dealor', Title='Updates', ID='blog'
+2026-06-29 15:54:48,980 - INFO - Found 24 icons to update.
+2026-06-29 15:54:48,980 - INFO - 
+[1/24] Updating: [Painters] 'Reward' (ID: 'gift') with 'Rewards'
+2026-06-29 15:54:50,229 - INFO -   → Set display title to: Rewards
+2026-06-29 15:54:50,612 - INFO -   → Set icon color to: #F00048
+2026-06-29 15:54:50,648 - INFO -   → Uploaded image: Rewards.png
+2026-06-29 15:54:52,698 - INFO -   → Edit form submitted.
+2026-06-29 15:55:04,653 - INFO -   ✓ Successfully updated: Reward -> Rewards
+2026-06-29 15:55:04,654 - INFO - 
+[2/24] Updating: [Painters] 'History' (ID: 'history') with 'Scan History'
+2026-06-29 15:55:05,927 - INFO -   → Set display title to: Scan History
+2026-06-29 15:55:06,344 - INFO -   → Set icon color to: #4808F0
+2026-06-29 15:55:06,377 - INFO -   → Uploaded image: Scan History.png
+2026-06-29 15:55:08,410 - INFO -   → Edit form submitted.
+2026-06-29 15:55:20,426 - INFO -   ✓ Successfully updated: History -> Scan History
+2026-06-29 15:55:20,426 - INFO - 
+[3/24] Updating: [Painters] 'Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-29 15:55:21,676 - INFO -   → Set display title to: My Wallet
+2026-06-29 15:55:22,061 - INFO -   → Set icon color to: #20A020
+2026-06-29 15:55:22,095 - INFO -   → Uploaded image: My Wallet.png
+2026-06-29 15:55:24,130 - INFO -   → Edit form submitted.
+2026-06-29 15:55:36,084 - INFO -   ✓ Successfully updated: Wallet -> My Wallet
+2026-06-29 15:55:36,085 - INFO - 
+[4/24] Updating: [Painters] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-29 15:55:36,830 - INFO -   → Set display title to: KYC
+2026-06-29 15:55:37,192 - INFO -   → Set icon color to: #F85808
+2026-06-29 15:55:37,223 - INFO -   → Uploaded image: KYC.png
+2026-06-29 15:55:39,251 - INFO -   → Edit form submitted.
+2026-06-29 15:55:51,279 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-06-29 15:55:51,280 - INFO - 
+[5/24] Updating: [Painters] 'Blog' (ID: 'blog') with 'Updates'
+2026-06-29 15:55:52,607 - INFO -   → Set display title to: Updates
+2026-06-29 15:55:52,990 - INFO -   → Set icon color to: #F87820
+2026-06-29 15:55:53,014 - INFO -   → Uploaded image: Updates.png
+2026-06-29 15:55:55,051 - INFO -   → Edit form submitted.
+2026-06-29 15:56:07,028 - INFO -   ✓ Successfully updated: Blog -> Updates
+2026-06-29 15:56:07,029 - INFO - 
+[6/24] Updating: [Painters] 'Brochure' (ID: 'brochure') with 'Prospectus'
+2026-06-29 15:56:08,334 - INFO -   → Set display title to: Prospectus
+2026-06-29 15:56:08,721 - INFO -   → Set icon color to: #0848F8
+2026-06-29 15:56:08,751 - INFO -   → Uploaded image: Prospectus.png
+2026-06-29 15:56:10,791 - INFO -   → Edit form submitted.
+2026-06-29 15:56:22,787 - INFO -   ✓ Successfully updated: Brochure -> Prospectus
+2026-06-29 15:56:22,788 - INFO - 
+[7/24] Updating: [Painters] 'Claim History' (ID: 'claimhistory') with 'Activity'
+2026-06-29 15:56:24,143 - INFO -   → Set display title to: Activity
+2026-06-29 15:56:24,528 - INFO -   → Set icon color to: #F86008
+2026-06-29 15:56:24,555 - INFO -   → Uploaded image: Activity.png
+2026-06-29 15:56:26,585 - INFO -   → Edit form submitted.
+2026-06-29 15:56:38,576 - INFO -   ✓ Successfully updated: Claim History -> Activity
+2026-06-29 15:56:38,577 - INFO - 
+[8/24] Updating: [Painters] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-29 15:56:39,922 - INFO -   → Set display title to: Language
+2026-06-29 15:56:40,312 - INFO -   → Set icon color to: #5010E8
+2026-06-29 15:56:40,343 - INFO -   → Uploaded image: Language.png
+2026-06-29 15:56:42,377 - INFO -   → Edit form submitted.
+2026-06-29 15:56:54,374 - INFO -   ✓ Successfully updated: Language -> Language
+2026-06-29 15:56:54,375 - INFO - 
+[9/24] Updating: [Painters] 'Code Details' (ID: 'codedetails') with 'Scan Activity'
+2026-06-29 15:56:55,761 - INFO -   → Set display title to: Scan Activity
+2026-06-29 15:56:56,146 - INFO -   → Set icon color to: #10A010
+2026-06-29 15:56:56,171 - INFO -   → Uploaded image: Scan Activity.png
+2026-06-29 15:56:58,200 - INFO -   → Edit form submitted.
+2026-06-29 15:57:10,199 - INFO -   ✓ Successfully updated: Code Details -> Scan Activity
+2026-06-29 15:57:10,200 - INFO - 
+[10/24] Updating: [Painters] 'Help' (ID: 'help') with 'Support'
+2026-06-29 15:57:11,073 - INFO -   → Set display title to: Support
+2026-06-29 15:57:11,460 - INFO -   → Set icon color to: #0030F0
+2026-06-29 15:57:11,489 - INFO -   → Uploaded image: Support.png
+2026-06-29 15:57:13,517 - INFO -   → Edit form submitted.
+2026-06-29 15:57:25,512 - INFO -   ✓ Successfully updated: Help -> Support
+2026-06-29 15:57:25,512 - INFO - 
+[11/24] Updating: [Painters] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-29 15:57:26,931 - INFO -   → Set display title to: Refer & Earn
+2026-06-29 15:57:27,326 - INFO -   → Set icon color to: #089098
+2026-06-29 15:57:27,361 - INFO -   → Uploaded image: Refer & Earn.png
+2026-06-29 15:57:29,407 - INFO -   → Edit form submitted.
+2026-06-29 15:57:33,025 - INFO -   ✓ Successfully updated: Refer & Earn -> Refer & Earn
+2026-06-29 15:57:33,026 - INFO - 
+[12/24] Updating: [Painters] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-29 15:57:33,029 - ERROR -   ✗ Could not find row for [Painters] 'Product Catalog' (ID: 'productcatalogue') on page.
+2026-06-29 15:57:33,029 - INFO - 
+[13/24] Updating: [Dealor] 'Activity' (ID: 'claimhistory') with 'Activity'
+2026-06-29 15:57:33,033 - ERROR -   ✗ Could not find row for [Dealor] 'Activity' (ID: 'claimhistory') on page.
+2026-06-29 15:57:33,034 - INFO - 
+[14/24] Updating: [Dealor] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-06-29 15:57:33,036 - ERROR -   ✗ Could not find row for [Dealor] 'Kyc' (ID: 'kycdetails') on page.
+2026-06-29 15:57:33,037 - INFO - 
+[15/24] Updating: [Dealor] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-06-29 15:57:33,039 - ERROR -   ✗ Could not find row for [Dealor] 'Language' (ID: 'chooselanguage') on page.
+2026-06-29 15:57:33,040 - INFO - 
+[16/24] Updating: [Dealor] 'My Wallet' (ID: 'wallet') with 'My Wallet'
+2026-06-29 15:57:33,042 - ERROR -   ✗ Could not find row for [Dealor] 'My Wallet' (ID: 'wallet') on page.
+2026-06-29 15:57:33,042 - INFO - 
+[17/24] Updating: [Dealor] 'Product Catalog' (ID: 'productcatalogue') with 'Product Catalog'
+2026-06-29 15:57:33,044 - ERROR -   ✗ Could not find row for [Dealor] 'Product Catalog' (ID: 'productcatalogue') on page.
+2026-06-29 15:57:33,044 - INFO - 
+[18/24] Updating: [Dealor] 'Prospectus' (ID: 'brochure') with 'Prospectus'
+2026-06-29 15:57:33,046 - ERROR -   ✗ Could not find row for [Dealor] 'Prospectus' (ID: 'brochure') on page.
+2026-06-29 15:57:33,046 - INFO - 
+[19/24] Updating: [Dealor] 'Refer & Earn' (ID: 'referandearn') with 'Refer & Earn'
+2026-06-29 15:57:33,047 - ERROR -   ✗ Could not find row for [Dealor] 'Refer & Earn' (ID: 'referandearn') on page.
+2026-06-29 15:57:33,047 - INFO - 
+[20/24] Updating: [Dealor] 'Rewards' (ID: 'gift') with 'Rewards'
+2026-06-29 15:57:33,049 - ERROR -   ✗ Could not find row for [Dealor] 'Rewards' (ID: 'gift') on page.
+2026-06-29 15:57:33,049 - INFO - 
+[21/24] Updating: [Dealor] 'Scan Activity' (ID: 'codedetails') with 'Scan Activity'
+2026-06-29 15:57:33,050 - ERROR -   ✗ Could not find row for [Dealor] 'Scan Activity' (ID: 'codedetails') on page.
+2026-06-29 15:57:33,050 - INFO - 
+[22/24] Updating: [Dealor] 'Scan History' (ID: 'history') with 'Scan History'
+2026-06-29 15:57:33,052 - ERROR -   ✗ Could not find row for [Dealor] 'Scan History' (ID: 'history') on page.
+2026-06-29 15:57:33,052 - INFO - 
+[23/24] Updating: [Dealor] 'Support' (ID: 'help') with 'Support'
+2026-06-29 15:57:33,053 - ERROR -   ✗ Could not find row for [Dealor] 'Support' (ID: 'help') on page.
+2026-06-29 15:57:33,054 - INFO - 
+[24/24] Updating: [Dealor] 'Updates' (ID: 'blog') with 'Updates'
+2026-06-29 15:57:33,055 - ERROR -   ✗ Could not find row for [Dealor] 'Updates' (ID: 'blog') on page.
+2026-06-29 15:57:33,055 - INFO - ============================================================
+2026-06-29 15:57:33,055 - INFO - UPDATE ACCOUNT SUMMARY: tanweer999@gmail.com
+2026-06-29 15:57:33,056 - INFO - ✓ Succeeded: 11
+2026-06-29 15:57:33,056 - INFO - ✗ Failed: 13
+2026-06-29 15:57:33,056 - INFO - ============================================================
+2026-06-29 15:57:35,067 - INFO - Browser closed
+2026-06-29 15:57:39,116 - ERROR -   ✗ Update errors for iNP (tanweer999@gmail.com)
+2026-06-29 15:57:39,117 - INFO - 
+============================================================
+2026-06-29 15:57:39,117 - INFO - BATCH UPDATE — FINAL SUMMARY
+2026-06-29 15:57:39,117 - INFO - ============================================================
+2026-06-29 15:57:39,118 - INFO -   Total accounts  : 1
+2026-06-29 15:57:39,118 - INFO -   ✓ Succeeded     : 0
+2026-06-29 15:57:39,118 - INFO -   ✗ Login failed  : 0
+2026-06-29 15:57:39,119 - INFO -   ✗ Update errors : 1
+2026-06-29 15:57:39,119 - WARNING - 
+  ─── ACCOUNTS WITH UPDATE ERRORS ───
+2026-06-29 15:57:39,120 - WARNING -     ✗   iNP (tanweer999@gmail.com)
+2026-06-29 15:57:39,120 - INFO - ============================================================
+2026-06-29 15:57:39,121 - INFO - 
+Task finished at 2026-06-29 15:57:39
+2026-06-29 15:57:39,121 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260629_155006.log
+

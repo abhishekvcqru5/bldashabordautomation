@@ -1,0 +1,56 @@
+2026-07-03 00:57:01,824 - INFO - User selected: Brand Setting
+2026-07-03 00:57:37,088 - ERROR - No file named 'logo' found in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting/  (checked extensions: .bmp, .gif, .jpeg, .jpg, .png, .tiff, .webp)
+2026-07-03 00:57:37,142 - INFO -   Found splash asset: splash.jpg
+2026-07-03 00:57:37,292 - INFO - 
+Task finished at 2026-07-03 00:57:37
+2026-07-03 00:57:37,296 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260703_005549.log
+
+2026-07-03 00:58:19,089 - INFO - User selected: Brand Setting
+2026-07-03 00:58:23,708 - ERROR - No file named 'logo' found in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting/  (checked extensions: .bmp, .gif, .jpeg, .jpg, .png, .tiff, .webp)
+2026-07-03 00:58:23,709 - INFO -   Found splash asset: splash.jpg
+2026-07-03 00:58:23,710 - INFO - 
+Task finished at 2026-07-03 00:58:23
+2026-07-03 00:58:23,711 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260703_005549.log
+
+2026-07-03 00:59:18,388 - INFO - User selected: Brand Setting
+2026-07-03 00:59:21,624 - INFO -   Found logo asset: logo.png
+2026-07-03 00:59:21,624 - INFO -   Found splash asset: splash.jpg
+2026-07-03 00:59:21,626 - INFO - ============================================================
+2026-07-03 00:59:21,626 - INFO - BRAND SETTING — Image Processing
+2026-07-03 00:59:21,627 - INFO - ============================================================
+2026-07-03 00:59:21,886 - INFO - ✓ Logo  → logo_processed.jpg  |  35.1 KB  |  JPEG q95
+2026-07-03 00:59:21,923 - INFO - ✓ Splash → splash_processed.jpg  |  0.25 MB  |  JPEG q90
+2026-07-03 00:59:21,924 - INFO - 
+2026-07-03 00:59:21,925 - INFO - Extracting brand colours from logo...
+2026-07-03 00:59:23,065 - INFO -   Colours extracted from logo:
+2026-07-03 00:59:23,066 - INFO -     Header Color     →  #002050  (dominant logo colour)
+2026-07-03 00:59:23,066 - INFO -     Background Color →  #001434  (35% darker)
+2026-07-03 00:59:23,066 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-03 00:59:23,067 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-03 00:59:23,184 - INFO - ✓ Both images ready
+
+2026-07-03 00:59:23,185 - INFO - ============================================================
+2026-07-03 00:59:23,185 - INFO - BRAND SETTING — Browser Automation
+2026-07-03 00:59:23,186 - INFO - ============================================================
+2026-07-03 00:59:23,219 - INFO - ====== WebDriver manager ======
+2026-07-03 00:59:26,007 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-03 00:59:26,758 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-03 00:59:27,304 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-03 00:59:28,775 - INFO - WebDriver version 149.0.7827.155 selected
+2026-07-03 00:59:28,791 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-07-03 00:59:28,791 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-07-03 00:59:29,465 - INFO - Driver downloading response is 200
+2026-07-03 00:59:30,530 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-03 00:59:31,169 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-07-03 00:59:31,173 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-03 00:59:34,471 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-03 00:59:34,486 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-03 00:59:34,548 - INFO - ✓ Chrome driver initialized
+2026-07-03 00:59:34,554 - INFO - Opening login page...
+2026-07-03 00:59:36,172 - INFO -   → Policy checkbox checked on login page
+2026-07-03 00:59:36,362 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-03 00:59:36,409 - INFO -   → Policy agreement popup detected
+2026-07-03 00:59:36,480 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-03 00:59:37,040 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-03 00:59:45,271 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/4a2354ea38e11b080ab61ce077cfd89a
+2026-07-03 00:59:49,385 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,480 @@
+2026-08-03 19:30:55,888 - INFO - User selected: Intro Screens
+2026-08-03 19:30:55,889 - INFO - ============================================================
+2026-08-03 19:30:55,889 - INFO - INTRO SCREENS — Image Processing
+2026-08-03 19:30:55,890 - INFO - ============================================================
+2026-08-03 19:30:55,891 - INFO - Found 10 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-08-03 19:30:55,904 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_31_57 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,001 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_31_57 PM.png  →  ChatGPT Image Jul 30, 2026, 07_31_57 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-08-03 19:30:56,002 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_36_36 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,080 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_36_36 PM.png  →  ChatGPT Image Jul 30, 2026, 07_36_36 PM_processed.jpg  |  1080×1920  |  0.41 MB  |  quality 92
+2026-08-03 19:30:56,082 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_40_53 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,164 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_40_53 PM.png  →  ChatGPT Image Jul 30, 2026, 07_40_53 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-08-03 19:30:56,165 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_42_36 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,244 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_42_36 PM.png  →  ChatGPT Image Jul 30, 2026, 07_42_36 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-08-03 19:30:56,245 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_44_10 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,328 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_44_10 PM.png  →  ChatGPT Image Jul 30, 2026, 07_44_10 PM_processed.jpg  |  1080×1920  |  0.48 MB  |  quality 92
+2026-08-03 19:30:56,330 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_45_39 PM.png  (941×1671 → need 1080×1920)
+2026-08-03 19:30:56,409 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_45_39 PM.png  →  ChatGPT Image Jul 30, 2026, 07_45_39 PM_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-08-03 19:30:56,410 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 10_58_53 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,489 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 10_58_53 PM.png  →  ChatGPT Image Jul 30, 2026, 10_58_53 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-08-03 19:30:56,491 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 11_00_55 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,571 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 11_00_55 PM.png  →  ChatGPT Image Jul 30, 2026, 11_00_55 PM_processed.jpg  |  1080×1920  |  0.43 MB  |  quality 92
+2026-08-03 19:30:56,572 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 11_03_09 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,646 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 11_03_09 PM.png  →  ChatGPT Image Jul 30, 2026, 11_03_09 PM_processed.jpg  |  1080×1920  |  0.37 MB  |  quality 92
+2026-08-03 19:30:56,648 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 11_18_09 PM.png  (941×1672 → need 1080×1920)
+2026-08-03 19:30:56,727 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 11_18_09 PM.png  →  ChatGPT Image Jul 30, 2026, 11_18_09 PM_processed.jpg  |  1080×1920  |  0.38 MB  |  quality 92
+2026-08-03 19:30:56,728 - INFO -   Processed 10/10 intro images successfully
+
+2026-08-03 19:30:58,209 - INFO - ============================================================
+2026-08-03 19:30:58,210 - INFO - INTRO SCREENS — Browser Automation
+2026-08-03 19:30:58,210 - INFO - ============================================================
+2026-08-03 19:30:58,227 - INFO - ====== WebDriver manager ======
+2026-08-03 19:30:59,404 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 19:30:59,566 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-03 19:30:59,708 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-03 19:30:59,709 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-03 19:31:00,968 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-03 19:31:00,977 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-03 19:31:01,010 - INFO - ✓ Chrome driver initialized
+2026-08-03 19:31:01,010 - INFO - Opening login page...
+2026-08-03 19:31:02,191 - INFO -   → Policy checkbox checked on login page
+2026-08-03 19:31:02,264 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-03 19:31:02,278 - INFO -   → Policy agreement popup detected
+2026-08-03 19:31:02,337 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-03 19:31:02,896 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-03 19:31:09,127 - INFO -   → Policy agreement popup detected
+2026-08-03 19:31:09,149 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-03 19:31:09,682 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-03 19:31:09,682 - INFO -   → Navigating directly to App Settings URL...
+2026-08-03 19:31:09,868 - INFO - ✓ Login successful and on App Settings page
+2026-08-03 19:31:11,869 - INFO - Going to App Settings...
+2026-08-03 19:31:18,055 - INFO -   → Intro Screens section opened
+2026-08-03 19:31:18,068 - INFO - ✓ Intro Screens page ready
+2026-08-03 19:31:18,068 - INFO - Starting batch  —  10 intro screen(s) to launch
+2026-08-03 19:31:18,068 - INFO - ============================================================
+2026-08-03 19:31:18,068 - INFO - [1/10]
+2026-08-03 19:31:18,068 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-08-03 19:31:20,348 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-08-03 19:31:20,871 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-08-03 19:31:22,935 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_31_57 PM_processed.jpg
+2026-08-03 19:31:23,014 - INFO -     → Launch Screen clicked
+2026-08-03 19:31:27,034 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-08-03 19:31:28,035 - INFO - [2/10]
+2026-08-03 19:31:28,035 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-08-03 19:31:30,254 - INFO -     → Header: Scan, Earn, Celebrate
+2026-08-03 19:31:30,796 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-08-03 19:31:32,834 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_36_36 PM_processed.jpg
+2026-08-03 19:31:32,901 - INFO -     → Launch Screen clicked
+2026-08-03 19:31:36,916 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-08-03 19:31:37,917 - INFO - [3/10]
+2026-08-03 19:31:37,917 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-08-03 19:31:40,028 - ERROR -   ✗ Failed to launch screen [Earn Points, Unlock Rewards]: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=150.0.7871.187)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed90e0]
+	chromedriver!(No symbol) [0xec836e]
+	chromedriver!(No symbol) [0xee6a59]
+	chromedriver!(No symbol) [0xf4bf5d]
+	chromedriver!(No symbol) [0xf62c09]
+	chromedriver!(No symbol) [0xf45406]
+	chromedriver!(No symbol) [0xf18659]
+	chromedriver!(No symbol) [0xf19424]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!GetHandleVerifier [0x10de318+19358]
+	chromedriver!GetHandleVerifier [0x10de4c5+19505]
+	chromedriver!GetHandleVerifier [0x10c70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:40,133 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:41,136 - INFO - [4/10]
+2026-08-03 19:31:41,136 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-08-03 19:31:41,137 - ERROR -   ✗ Failed to launch screen [Scan, Earn, Celebrate]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:41,139 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:42,141 - INFO - [5/10]
+2026-08-03 19:31:42,142 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-08-03 19:31:42,144 - ERROR -   ✗ Failed to launch screen [Earn Points, Unlock Rewards]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:42,147 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:43,149 - INFO - [6/10]
+2026-08-03 19:31:43,150 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-08-03 19:31:43,153 - ERROR -   ✗ Failed to launch screen [Scan, Earn, Celebrate]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:43,158 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:44,161 - INFO - [7/10]
+2026-08-03 19:31:44,162 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-08-03 19:31:44,165 - ERROR -   ✗ Failed to launch screen [Earn Points, Unlock Rewards]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:44,170 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:45,176 - INFO - [8/10]
+2026-08-03 19:31:45,176 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-08-03 19:31:45,180 - ERROR -   ✗ Failed to launch screen [Scan, Earn, Celebrate]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:45,185 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:46,191 - INFO - [9/10]
+2026-08-03 19:31:46,191 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-08-03 19:31:46,195 - ERROR -   ✗ Failed to launch screen [Earn Points, Unlock Rewards]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:46,199 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:47,203 - INFO - [10/10]
+2026-08-03 19:31:47,203 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-08-03 19:31:47,208 - ERROR -   ✗ Failed to launch screen [Scan, Earn, Celebrate]: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:47,212 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x10d5843+10883]
+	chromedriver!GetHandleVerifier [0x10d5884+108c4]
+	chromedriver!(No symbol) [0xed8f1e]
+	chromedriver!(No symbol) [0xf178e7]
+	chromedriver!(No symbol) [0xf45526]
+	chromedriver!(No symbol) [0xf40762]
+	chromedriver!(No symbol) [0xf40141]
+	chromedriver!(No symbol) [0xeac731]
+	chromedriver!(No symbol) [0xeaccd3]
+	chromedriver!(No symbol) [0xead18d]
+	chromedriver!GetHandleVerifier [0x136ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x136847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x13894eb+2c452b]
+	chromedriver!GetHandleVerifier [0x10ef566+2a5a6]
+	chromedriver!GetHandleVerifier [0x10f620d+3124d]
+	chromedriver!(No symbol) [0xeac3e0]
+	chromedriver!(No symbol) [0xeaba92]
+	chromedriver!GetHandleVerifier [0x14cec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-03 19:31:48,216 - INFO - ============================================================
+2026-08-03 19:31:48,216 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 8 failed
+2026-08-03 19:31:50,254 - INFO - Browser closed
+2026-08-03 19:31:54,355 - INFO - 
+Task finished at 2026-08-03 19:31:54
+2026-08-03 19:31:54,355 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260803_193027.log
+
+2026-08-03 19:32:03,563 - INFO - Automation cancelled by user (Ctrl+C)

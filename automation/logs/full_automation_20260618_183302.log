@@ -1,0 +1,127 @@
+2026-06-18 18:33:13,018 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 18:33:39,212 - INFO - ============================================================
+2026-06-18 18:33:39,212 - INFO - UPDATING DASHBOARD ICONS FOR: mahesh@vcqru.com
+2026-06-18 18:33:39,212 - INFO - Filters applied -> User Type: autoagent, Icon ID: claimhistory
+2026-06-18 18:33:39,212 - INFO - ============================================================
+2026-06-18 18:33:39,213 - INFO - Processing images from dashboardicons/...
+2026-06-18 18:33:39,219 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 18:33:39,219 - INFO - Output folder: automation\processed_images
+2026-06-18 18:33:39,219 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 18:33:39,297 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 18:33:39,352 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 18:33:39,410 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 18:33:39,421 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 18:33:39,475 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 18:33:39,523 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 18:33:39,562 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 18:33:39,596 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 18:33:39,632 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 18:33:39,675 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 18:33:39,699 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 18:33:39,735 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 18:33:39,764 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 18:33:39,797 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 18:33:39,846 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 18:33:39,880 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 18:33:39,913 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 18:33:39,947 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 18:33:39,976 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 18:33:39,976 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 18:33:39,976 - INFO - ✓ 18 images processed.
+2026-06-18 18:33:40,339 - INFO - ====== WebDriver manager ======
+2026-06-18 18:33:41,911 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:33:42,368 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 18:33:42,805 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 18:33:42,806 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 18:33:44,201 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 18:33:44,235 - INFO - ✓ Chrome driver initialized
+2026-06-18 18:33:44,235 - INFO - Opening login page...
+2026-06-18 18:33:45,722 - INFO -   → Policy checkbox checked on login page
+2026-06-18 18:33:45,813 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 18:34:19,949 - INFO - ✓ Login successful
+2026-06-18 18:34:21,950 - INFO - Navigating to dashboard icons section...
+2026-06-18 18:34:21,950 - INFO - Navigating to App Settings...
+2026-06-18 18:34:28,272 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 18:34:28,304 - INFO - Total rows found: 66
+2026-06-18 18:34:28,387 - INFO - Parsed Row 2: UserType='Dealer', Title='Scan History', ID='history'
+2026-06-18 18:34:28,413 - INFO - Parsed Row 3: UserType='Dealer', Title='Rewards', ID='gift'
+2026-06-18 18:34:28,435 - INFO - Parsed Row 4: UserType='Dealer', Title='Support', ID='help'
+2026-06-18 18:34:28,461 - INFO - Parsed Row 5: UserType='Dealer', Title='Activity', ID='codedetails'
+2026-06-18 18:34:28,483 - INFO - Parsed Row 6: UserType='Dealer', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:34:28,505 - INFO - Parsed Row 7: UserType='Dealer', Title='Prospectus', ID='brochure'
+2026-06-18 18:34:28,529 - INFO - Parsed Row 8: UserType='Dealer', Title='Language', ID='chooselanguage'
+2026-06-18 18:34:28,550 - INFO - Parsed Row 9: UserType='Dealer', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:34:28,575 - INFO - Parsed Row 10: UserType='Dealer', Title='Kyc', ID='kycdetails'
+2026-06-18 18:34:28,603 - INFO - Parsed Row 11: UserType='Dealer', Title='Tds', ID='tds'
+2026-06-18 18:34:28,629 - INFO - Parsed Row 12: UserType='Dealer', Title='Nearby Retailers', ID='retailer'
+2026-06-18 18:34:28,650 - INFO - Parsed Row 13: UserType='Dealer', Title='My Wallet', ID='wallet'
+2026-06-18 18:34:28,674 - INFO - Parsed Row 14: UserType='Dealer', Title='Updates', ID='blog'
+2026-06-18 18:34:28,696 - INFO - Parsed Row 15: UserType='Dealer', Title='Installation Guide', ID='instalment'
+2026-06-18 18:34:28,717 - INFO - Parsed Row 16: UserType='Dealer', Title='Activity', ID='codedetails'
+2026-06-18 18:34:28,736 - INFO - Parsed Row 17: UserType='Dealer', Title='Send Points', ID='transferpoints'
+2026-06-18 18:34:28,756 - INFO - Parsed Row 18: UserType='Dealer', Title='E-Warranty', ID='e-warrant'
+2026-06-18 18:34:28,795 - INFO - Parsed Row 20: UserType='Retailer', Title='Rewards', ID='gift'
+2026-06-18 18:34:28,817 - INFO - Parsed Row 21: UserType='Retailer', Title='My Wallet', ID='wallet'
+2026-06-18 18:34:28,836 - INFO - Parsed Row 22: UserType='Retailer', Title='Installation Guide', ID='instalment'
+2026-06-18 18:34:28,856 - INFO - Parsed Row 23: UserType='Retailer', Title='Kyc', ID='kycdetails'
+2026-06-18 18:34:28,899 - INFO - Parsed Row 24: UserType='Retailer', Title='Nearby Retailers', ID='retailer'
+2026-06-18 18:34:28,917 - INFO - Parsed Row 25: UserType='Retailer', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:34:28,935 - INFO - Parsed Row 26: UserType='Retailer', Title='Prospectus', ID='brochure'
+2026-06-18 18:34:28,965 - INFO - Parsed Row 27: UserType='Retailer', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:34:29,002 - INFO - Parsed Row 28: UserType='Retailer', Title='Scan Activity', ID='codedetails'
+2026-06-18 18:34:29,069 - INFO - Parsed Row 29: UserType='Retailer', Title='Scan History', ID='history'
+2026-06-18 18:34:29,099 - INFO - Parsed Row 30: UserType='Retailer', Title='Send Points', ID='transferpoints'
+2026-06-18 18:34:29,131 - INFO - Parsed Row 31: UserType='Retailer', Title='Support', ID='help'
+2026-06-18 18:34:29,161 - INFO - Parsed Row 32: UserType='Retailer', Title='E-Warranty', ID='e-warrant'
+2026-06-18 18:34:29,180 - INFO - Parsed Row 33: UserType='Retailer', Title='Tds', ID='tds'
+2026-06-18 18:34:29,201 - INFO - Parsed Row 34: UserType='Retailer', Title='Ecommerce', ID='ecommerce'
+2026-06-18 18:34:29,225 - INFO - Parsed Row 35: UserType='Retailer', Title='Updates', ID='blog'
+2026-06-18 18:34:29,270 - INFO - Parsed Row 37: UserType='Autoagent', Title='Rewards', ID='gift'
+2026-06-18 18:34:29,296 - INFO - Parsed Row 38: UserType='Autoagent', Title='Scan History', ID='history'
+2026-06-18 18:34:29,319 - INFO - Parsed Row 39: UserType='Autoagent', Title='My Wallet', ID='wallet'
+2026-06-18 18:34:29,345 - INFO - Parsed Row 40: UserType='Autoagent', Title='Kyc', ID='kycdetails'
+2026-06-18 18:34:29,367 - INFO - Parsed Row 41: UserType='Autoagent', Title='Updates', ID='blog'
+2026-06-18 18:34:29,390 - INFO - Parsed Row 42: UserType='Autoagent', Title='Prospectus', ID='brochure'
+2026-06-18 18:34:29,416 - INFO - Parsed Row 43: UserType='Autoagent', Title='Activity', ID='claimhistory'
+2026-06-18 18:34:29,436 - INFO - Parsed Row 44: UserType='Autoagent', Title='Language', ID='chooselanguage'
+2026-06-18 18:34:29,461 - INFO - Parsed Row 45: UserType='Autoagent', Title='Activity', ID='codedetails'
+2026-06-18 18:34:29,483 - INFO - Parsed Row 46: UserType='Autoagent', Title='Support', ID='help'
+2026-06-18 18:34:29,506 - INFO - Parsed Row 47: UserType='Autoagent', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:34:29,527 - INFO - Parsed Row 48: UserType='Autoagent', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:34:29,563 - INFO - Parsed Row 50: UserType='User', Title='Scan History', ID='history'
+2026-06-18 18:34:29,585 - INFO - Parsed Row 51: UserType='User', Title='Support', ID='help'
+2026-06-18 18:34:29,608 - INFO - Parsed Row 52: UserType='User', Title='Rewards', ID='gift'
+2026-06-18 18:34:29,632 - INFO - Parsed Row 53: UserType='User', Title='Scan Activity', ID='codedetails'
+2026-06-18 18:34:29,661 - INFO - Parsed Row 54: UserType='User', Title='Product Catalog', ID='productcatalogue'
+2026-06-18 18:34:29,684 - INFO - Parsed Row 55: UserType='User', Title='Prospectus', ID='brochure'
+2026-06-18 18:34:29,714 - INFO - Parsed Row 56: UserType='User', Title='Language', ID='chooselanguage'
+2026-06-18 18:34:29,737 - INFO - Parsed Row 57: UserType='User', Title='Refer & Earn', ID='referandearn'
+2026-06-18 18:34:29,766 - INFO - Parsed Row 58: UserType='User', Title='Kyc', ID='kycdetails'
+2026-06-18 18:34:29,786 - INFO - Parsed Row 59: UserType='User', Title='Tds', ID='tds'
+2026-06-18 18:34:29,812 - INFO - Parsed Row 60: UserType='User', Title='Nearby Retailers', ID='retailer'
+2026-06-18 18:34:29,835 - INFO - Parsed Row 61: UserType='User', Title='My Wallet', ID='wallet'
+2026-06-18 18:34:29,855 - INFO - Parsed Row 62: UserType='User', Title='Updates', ID='blog'
+2026-06-18 18:34:29,879 - INFO - Parsed Row 63: UserType='User', Title='Installation Guide', ID='instalment'
+2026-06-18 18:34:29,903 - INFO - Parsed Row 64: UserType='User', Title='Activity', ID='codedetails'
+2026-06-18 18:34:29,926 - INFO - Parsed Row 65: UserType='User', Title='Send Points', ID='transferpoints'
+2026-06-18 18:34:29,927 - INFO - Found 1 icons to update.
+2026-06-18 18:34:29,927 - INFO - 
+[1/1] Updating: [Autoagent] 'Activity' (ID: 'claimhistory') with 'Activity'
+2026-06-18 18:34:31,778 - INFO -   → Set display title to: Activity
+2026-06-18 18:34:32,213 - INFO -   → Set icon color to: #F86008
+2026-06-18 18:34:32,256 - INFO -   → Uploaded image: Activity.png
+2026-06-18 18:34:34,301 - INFO -   → Edit form submitted.
+2026-06-18 18:34:45,965 - INFO -   ✓ Successfully updated: Activity -> Activity
+2026-06-18 18:34:45,966 - INFO - ============================================================
+2026-06-18 18:34:45,966 - INFO - UPDATE ACCOUNT SUMMARY: mahesh@vcqru.com
+2026-06-18 18:34:45,966 - INFO - ✓ Succeeded: 1
+2026-06-18 18:34:45,967 - INFO - ✗ Failed: 0
+2026-06-18 18:34:45,967 - INFO - ============================================================
+2026-06-18 18:34:48,391 - INFO - Browser closed
+2026-06-18 18:34:52,474 - INFO - 
+Task finished at 2026-06-18 18:34:52
+2026-06-18 18:34:52,474 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_183302.log
+

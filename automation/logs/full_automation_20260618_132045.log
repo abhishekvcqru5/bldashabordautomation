@@ -1,0 +1,366 @@
+2026-06-18 13:21:02,899 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-18 13:21:02,901 - INFO - ============================================================
+2026-06-18 13:21:02,902 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-18 13:21:02,904 - INFO - ============================================================
+2026-06-18 13:21:02,935 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 13:21:02,936 - INFO - Output folder: automation\processed_images
+2026-06-18 13:21:02,943 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 13:21:03,112 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 13:21:03,277 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-18 13:21:03,469 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-18 13:21:03,503 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-18 13:21:03,693 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-18 13:21:03,919 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 13:21:04,236 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 13:21:04,511 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 13:21:04,715 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-18 13:21:04,959 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 13:21:05,051 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 13:21:05,302 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 13:21:05,461 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 13:21:05,616 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 13:21:05,804 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 13:21:05,947 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-18 13:21:06,049 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 13:21:06,180 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-18 13:21:06,636 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 13:21:06,647 - INFO - 
+✓ Processed 18 images successfully
+
+2026-06-18 13:21:06,669 - INFO - ✓ 18 images processed successfully.
+
+2026-06-18 13:21:15,228 - INFO - Target User Type: Mechanic
+2026-06-18 13:21:15,260 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-18 13:21:15,261 - INFO -   → Extracted Title: Activity
+2026-06-18 13:21:15,262 - INFO -   → Matched Identity: codedetails
+2026-06-18 13:21:15,263 - INFO -   → Extracted Color: #F86008
+2026-06-18 13:21:15,263 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,296 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-18 13:21:15,296 - INFO -   → Extracted Title: E-Warranty
+2026-06-18 13:21:15,296 - INFO -   → Matched Identity: e-warrant
+2026-06-18 13:21:15,297 - INFO -   → Extracted Color: #20C078
+2026-06-18 13:21:15,297 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,332 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-18 13:21:15,332 - INFO -   → Extracted Title: ecommerce
+2026-06-18 13:21:15,332 - INFO -   → Matched Identity: gift
+2026-06-18 13:21:15,333 - INFO -   → Extracted Color: #A0E0F8
+2026-06-18 13:21:15,333 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,356 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-18 13:21:15,358 - INFO -   → Extracted Title: Installation Guide
+2026-06-18 13:21:15,358 - INFO -   → Matched Identity: instalment
+2026-06-18 13:21:15,359 - INFO -   → Extracted Color: #089098
+2026-06-18 13:21:15,359 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,383 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-18 13:21:15,383 - INFO -   → Extracted Title: KYC
+2026-06-18 13:21:15,383 - INFO -   → Matched Identity: kycdetails
+2026-06-18 13:21:15,383 - INFO -   → Extracted Color: #F85808
+2026-06-18 13:21:15,384 - INFO -   → Toggle Option: side menu
+2026-06-18 13:21:15,410 - INFO - Dynamically mapped image 'Language.png':
+2026-06-18 13:21:15,410 - INFO -   → Extracted Title: Language
+2026-06-18 13:21:15,411 - INFO -   → Matched Identity: chooselanguage
+2026-06-18 13:21:15,411 - INFO -   → Extracted Color: #5010E8
+2026-06-18 13:21:15,411 - INFO -   → Toggle Option: side menu
+2026-06-18 13:21:15,435 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-18 13:21:15,435 - INFO -   → Extracted Title: My Wallet
+2026-06-18 13:21:15,435 - INFO -   → Matched Identity: wallet
+2026-06-18 13:21:15,436 - INFO -   → Extracted Color: #20A020
+2026-06-18 13:21:15,436 - INFO -   → Toggle Option: both
+2026-06-18 13:21:15,465 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-18 13:21:15,465 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-18 13:21:15,466 - INFO -   → Matched Identity: retailer
+2026-06-18 13:21:15,466 - INFO -   → Extracted Color: #F87010
+2026-06-18 13:21:15,466 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,487 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-18 13:21:15,488 - INFO -   → Extracted Title: Product Catalog
+2026-06-18 13:21:15,488 - INFO -   → Matched Identity: productcatalogue
+2026-06-18 13:21:15,491 - INFO -   → Extracted Color: #6028E8
+2026-06-18 13:21:15,492 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,515 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-18 13:21:15,515 - INFO -   → Extracted Title: Prospectus
+2026-06-18 13:21:15,515 - INFO -   → Matched Identity: brochure
+2026-06-18 13:21:15,515 - INFO -   → Extracted Color: #0848F8
+2026-06-18 13:21:15,516 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,545 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-18 13:21:15,546 - INFO -   → Extracted Title: Refer & Earn
+2026-06-18 13:21:15,546 - INFO -   → Matched Identity: referandearn
+2026-06-18 13:21:15,546 - INFO -   → Extracted Color: #089098
+2026-06-18 13:21:15,546 - INFO -   → Toggle Option: both
+2026-06-18 13:21:15,568 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-18 13:21:15,569 - INFO -   → Extracted Title: Rewards
+2026-06-18 13:21:15,569 - INFO -   → Matched Identity: gift
+2026-06-18 13:21:15,569 - INFO -   → Extracted Color: #F00048
+2026-06-18 13:21:15,570 - INFO -   → Toggle Option: both
+2026-06-18 13:21:15,597 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-18 13:21:15,597 - INFO -   → Extracted Title: Scan Activity
+2026-06-18 13:21:15,598 - INFO -   → Matched Identity: codedetails
+2026-06-18 13:21:15,598 - INFO -   → Extracted Color: #10A010
+2026-06-18 13:21:15,598 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,622 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-18 13:21:15,626 - INFO -   → Extracted Title: Scan History
+2026-06-18 13:21:15,627 - INFO -   → Matched Identity: history
+2026-06-18 13:21:15,627 - INFO -   → Extracted Color: #4808F0
+2026-06-18 13:21:15,627 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,651 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-18 13:21:15,652 - INFO -   → Extracted Title: Send Points
+2026-06-18 13:21:15,652 - INFO -   → Matched Identity: transferpoints
+2026-06-18 13:21:15,652 - INFO -   → Extracted Color: #F86008
+2026-06-18 13:21:15,652 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,682 - INFO - Dynamically mapped image 'Support.png':
+2026-06-18 13:21:15,683 - INFO -   → Extracted Title: Support
+2026-06-18 13:21:15,683 - INFO -   → Matched Identity: help
+2026-06-18 13:21:15,683 - INFO -   → Extracted Color: #0030F0
+2026-06-18 13:21:15,684 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,714 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-18 13:21:15,715 - INFO -   → Extracted Title: TDS
+2026-06-18 13:21:15,715 - INFO -   → Matched Identity: tds
+2026-06-18 13:21:15,715 - INFO -   → Extracted Color: #20C880
+2026-06-18 13:21:15,716 - INFO -   → Toggle Option: side menu
+2026-06-18 13:21:15,745 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-18 13:21:15,745 - INFO -   → Extracted Title: Updates
+2026-06-18 13:21:15,745 - INFO -   → Matched Identity: blog
+2026-06-18 13:21:15,746 - INFO -   → Extracted Color: #F87820
+2026-06-18 13:21:15,746 - INFO -   → Toggle Option: dashboard only
+2026-06-18 13:21:15,746 - INFO - 
+============================================================
+2026-06-18 13:21:15,746 - INFO - Launching Browser and Starting Upload Process
+2026-06-18 13:21:15,747 - INFO - ============================================================
+2026-06-18 13:21:15,765 - INFO - ====== WebDriver manager ======
+2026-06-18 13:21:17,471 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:21:18,563 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 13:21:19,566 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 13:21:19,568 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 13:21:21,334 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 13:21:21,450 - INFO - ✓ Chrome driver initialized
+2026-06-18 13:21:21,450 - INFO - 
+→ Attempting login...
+
+2026-06-18 13:21:21,451 - INFO - Opening login page...
+2026-06-18 13:21:23,868 - INFO -   → Policy checkbox checked on login page
+2026-06-18 13:21:24,114 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 13:21:57,881 - INFO - ✓ Login successful
+2026-06-18 13:21:59,882 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-18 13:21:59,882 - INFO - Navigating to App Settings...
+2026-06-18 13:22:06,532 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 13:22:08,533 - INFO - 
+→ Starting batch upload of 18 custom icons...
+
+2026-06-18 13:22:08,552 - INFO - Starting batch – 18 configured entries
+2026-06-18 13:22:08,594 - INFO - Total icons to upload after expansion: 18
+2026-06-18 13:22:08,613 - INFO - ============================================================
+2026-06-18 13:22:08,641 - INFO - [1/18]
+2026-06-18 13:22:08,645 - INFO -   Adding: [Mechanic] Activity  (codedetails)
+2026-06-18 13:22:22,253 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:22:22,912 - INFO -     → Icon identity: codedetails
+2026-06-18 13:22:23,231 - INFO -     → Display title: Activity
+2026-06-18 13:22:24,231 - INFO -     → Icon color: #F86008
+2026-06-18 13:22:24,296 - INFO -     → Toggle: dashboard only
+2026-06-18 13:22:26,463 - INFO -     → Image uploaded: Activity.png
+2026-06-18 13:22:26,646 - INFO -     → Form submitted
+2026-06-18 13:22:37,648 - INFO -   ✓ Icon added: Activity
+
+2026-06-18 13:22:38,649 - INFO - [2/18]
+2026-06-18 13:22:38,650 - INFO -   Adding: [Mechanic] E-Warranty  (e-warrant)
+2026-06-18 13:22:53,348 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:22:54,034 - INFO -     → Icon identity: e-warrant
+2026-06-18 13:22:54,265 - INFO -     → Display title: E-Warranty
+2026-06-18 13:22:55,363 - INFO -     → Icon color: #20C078
+2026-06-18 13:22:55,412 - INFO -     → Toggle: dashboard only
+2026-06-18 13:22:57,552 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-18 13:22:58,611 - INFO -     → Form submitted
+2026-06-18 13:23:09,671 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-18 13:23:10,676 - INFO - [3/18]
+2026-06-18 13:23:10,677 - INFO -   Adding: [Mechanic] ecommerce  (gift)
+2026-06-18 13:23:24,101 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:23:24,248 - INFO -     → Icon identity: gift
+2026-06-18 13:23:24,545 - INFO -     → Display title: ecommerce
+2026-06-18 13:23:25,735 - INFO -     → Icon color: #A0E0F8
+2026-06-18 13:23:25,828 - INFO -     → Toggle: dashboard only
+2026-06-18 13:23:28,230 - INFO -     → Image uploaded: ecommerce.png
+2026-06-18 13:23:28,419 - INFO -     → Form submitted
+2026-06-18 13:23:39,421 - INFO -   ✓ Icon added: ecommerce
+
+2026-06-18 13:23:40,424 - INFO - [4/18]
+2026-06-18 13:23:40,425 - INFO -   Adding: [Mechanic] Installation Guide  (instalment)
+2026-06-18 13:23:54,028 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:23:54,180 - INFO -     → Icon identity: instalment
+2026-06-18 13:23:54,453 - INFO -     → Display title: Installation Guide
+2026-06-18 13:23:55,337 - INFO -     → Icon color: #089098
+2026-06-18 13:23:55,434 - INFO -     → Toggle: dashboard only
+2026-06-18 13:23:57,659 - INFO -     → Image uploaded: Installation Guide.png
+2026-06-18 13:23:57,885 - INFO -     → Form submitted
+2026-06-18 13:24:08,746 - INFO -   ✓ Icon added: Installation Guide
+
+2026-06-18 13:24:09,746 - INFO - [5/18]
+2026-06-18 13:24:09,747 - INFO -   Adding: [Mechanic] KYC  (kycdetails)
+2026-06-18 13:24:27,131 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:24:28,223 - INFO -     → Icon identity: kycdetails
+2026-06-18 13:24:29,264 - INFO -     → Display title: KYC
+2026-06-18 13:24:35,737 - INFO -     → Icon color: #F85808
+2026-06-18 13:24:36,147 - INFO -     → Toggle: side menu
+2026-06-18 13:24:38,869 - INFO -     → Image uploaded: KYC.png
+2026-06-18 13:24:42,130 - INFO -     → Form submitted
+2026-06-18 13:24:53,330 - INFO -   ✓ Icon added: KYC
+
+2026-06-18 13:24:54,333 - INFO - [6/18]
+2026-06-18 13:24:54,337 - INFO -   Adding: [Mechanic] Language  (chooselanguage)
+2026-06-18 13:25:07,768 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:25:08,033 - INFO -     → Icon identity: chooselanguage
+2026-06-18 13:25:08,519 - INFO -     → Display title: Language
+2026-06-18 13:25:10,029 - INFO -     → Icon color: #5010E8
+2026-06-18 13:25:10,071 - INFO -     → Toggle: side menu
+2026-06-18 13:25:12,143 - INFO -     → Image uploaded: Language.png
+2026-06-18 13:25:12,420 - INFO -     → Form submitted
+2026-06-18 13:25:23,277 - INFO -   ✓ Icon added: Language
+
+2026-06-18 13:25:24,286 - INFO - [7/18]
+2026-06-18 13:25:24,300 - INFO -   Adding: [Mechanic] My Wallet  (wallet)
+2026-06-18 13:25:40,102 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:25:40,337 - INFO -     → Icon identity: wallet
+2026-06-18 13:25:40,607 - INFO -     → Display title: My Wallet
+2026-06-18 13:25:41,680 - INFO -     → Icon color: #20A020
+2026-06-18 13:25:41,750 - INFO -     → Toggle: both
+2026-06-18 13:25:43,984 - INFO -     → Image uploaded: My Wallet.png
+2026-06-18 13:25:44,418 - INFO -     → Form submitted
+2026-06-18 13:25:55,297 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-18 13:25:56,300 - INFO - [8/18]
+2026-06-18 13:25:56,316 - INFO -   Adding: [Mechanic] Nearby Retailers  (retailer)
+2026-06-18 13:26:13,166 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:26:15,393 - INFO -     → Icon identity: retailer
+2026-06-18 13:26:16,079 - INFO -     → Display title: Nearby Retailers
+2026-06-18 13:26:17,219 - INFO -     → Icon color: #F87010
+2026-06-18 13:26:17,454 - INFO -     → Toggle: dashboard only
+2026-06-18 13:26:19,603 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-06-18 13:26:19,982 - INFO -     → Form submitted
+2026-06-18 13:26:30,588 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-06-18 13:26:31,598 - INFO - [9/18]
+2026-06-18 13:26:31,599 - INFO -   Adding: [Mechanic] Product Catalog  (productcatalogue)
+2026-06-18 13:26:47,022 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:26:47,355 - INFO -     → Icon identity: productcatalogue
+2026-06-18 13:26:48,069 - INFO -     → Display title: Product Catalog
+2026-06-18 13:26:50,221 - INFO -     → Icon color: #6028E8
+2026-06-18 13:26:50,720 - INFO -     → Toggle: dashboard only
+2026-06-18 13:26:52,963 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-18 13:26:53,147 - INFO -     → Form submitted
+2026-06-18 13:27:04,220 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-18 13:27:05,221 - INFO - [10/18]
+2026-06-18 13:27:05,222 - INFO -   Adding: [Mechanic] Prospectus  (brochure)
+2026-06-18 13:27:18,516 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:27:18,703 - INFO -     → Icon identity: brochure
+2026-06-18 13:27:19,023 - INFO -     → Display title: Prospectus
+2026-06-18 13:27:21,785 - INFO -     → Icon color: #0848F8
+2026-06-18 13:27:21,999 - INFO -     → Toggle: dashboard only
+2026-06-18 13:27:24,093 - INFO -     → Image uploaded: Prospectus.png
+2026-06-18 13:27:24,366 - INFO -     → Form submitted
+2026-06-18 13:27:35,575 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-18 13:27:36,579 - INFO - [11/18]
+2026-06-18 13:27:36,580 - INFO -   Adding: [Mechanic] Refer & Earn  (referandearn)
+2026-06-18 13:27:50,516 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:27:50,983 - INFO -     → Icon identity: referandearn
+2026-06-18 13:27:51,981 - INFO -     → Display title: Refer & Earn
+2026-06-18 13:27:53,037 - INFO -     → Icon color: #089098
+2026-06-18 13:27:53,093 - INFO -     → Toggle: both
+2026-06-18 13:27:55,200 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-18 13:27:55,469 - INFO -     → Form submitted
+2026-06-18 13:28:06,202 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-18 13:28:07,203 - INFO - [12/18]
+2026-06-18 13:28:07,204 - INFO -   Adding: [Mechanic] Rewards  (gift)
+2026-06-18 13:28:20,630 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:28:20,904 - INFO -     → Icon identity: gift
+2026-06-18 13:28:21,185 - INFO -     → Display title: Rewards
+2026-06-18 13:28:22,239 - INFO -     → Icon color: #F00048
+2026-06-18 13:28:22,304 - INFO -     → Toggle: both
+2026-06-18 13:28:24,463 - INFO -     → Image uploaded: Rewards.png
+2026-06-18 13:28:24,716 - INFO -     → Form submitted
+2026-06-18 13:28:35,704 - INFO -   ✓ Icon added: Rewards
+
+2026-06-18 13:28:36,713 - INFO - [13/18]
+2026-06-18 13:28:36,716 - INFO -   Adding: [Mechanic] Scan Activity  (codedetails)
+2026-06-18 13:28:49,892 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:28:50,062 - INFO -     → Icon identity: codedetails
+2026-06-18 13:28:50,300 - INFO -     → Display title: Scan Activity
+2026-06-18 13:28:51,026 - INFO -     → Icon color: #10A010
+2026-06-18 13:28:51,086 - INFO -     → Toggle: dashboard only
+2026-06-18 13:28:53,163 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-18 13:28:53,415 - INFO -     → Form submitted
+2026-06-18 13:29:04,353 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-18 13:29:05,371 - INFO - [14/18]
+2026-06-18 13:29:05,379 - INFO -   Adding: [Mechanic] Scan History  (history)
+2026-06-18 13:29:22,035 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:29:22,607 - INFO -     → Icon identity: history
+2026-06-18 13:29:23,316 - INFO -     → Display title: Scan History
+2026-06-18 13:29:24,820 - INFO -     → Icon color: #4808F0
+2026-06-18 13:29:24,901 - INFO -     → Toggle: dashboard only
+2026-06-18 13:29:27,086 - INFO -     → Image uploaded: Scan History.png
+2026-06-18 13:29:27,519 - INFO -     → Form submitted
+2026-06-18 13:29:38,183 - INFO -   ✓ Icon added: Scan History
+
+2026-06-18 13:29:39,184 - INFO - [15/18]
+2026-06-18 13:29:39,185 - INFO -   Adding: [Mechanic] Send Points  (transferpoints)
+2026-06-18 13:29:53,940 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:29:54,404 - INFO -     → Icon identity: transferpoints
+2026-06-18 13:29:54,968 - INFO -     → Display title: Send Points
+2026-06-18 13:29:56,092 - INFO -     → Icon color: #F86008
+2026-06-18 13:29:56,138 - INFO -     → Toggle: dashboard only
+2026-06-18 13:29:58,311 - INFO -     → Image uploaded: Send Points.png
+2026-06-18 13:29:58,720 - INFO -     → Form submitted
+2026-06-18 13:30:09,261 - INFO -   ✓ Icon added: Send Points
+
+2026-06-18 13:30:10,262 - INFO - [16/18]
+2026-06-18 13:30:10,262 - INFO -   Adding: [Mechanic] Support  (help)
+2026-06-18 13:30:24,217 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:30:24,538 - INFO -     → Icon identity: help
+2026-06-18 13:30:24,955 - INFO -     → Display title: Support
+2026-06-18 13:30:25,878 - INFO -     → Icon color: #0030F0
+2026-06-18 13:30:25,954 - INFO -     → Toggle: dashboard only
+2026-06-18 13:30:28,134 - INFO -     → Image uploaded: Support.png
+2026-06-18 13:30:28,586 - INFO -     → Form submitted
+2026-06-18 13:30:39,371 - INFO -   ✓ Icon added: Support
+
+2026-06-18 13:30:40,371 - INFO - [17/18]
+2026-06-18 13:30:40,375 - INFO -   Adding: [Mechanic] TDS  (tds)
+2026-06-18 13:30:54,059 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:30:54,249 - INFO -     → Icon identity: tds
+2026-06-18 13:30:54,531 - INFO -     → Display title: TDS
+2026-06-18 13:30:55,214 - INFO -     → Icon color: #20C880
+2026-06-18 13:30:55,265 - INFO -     → Toggle: side menu
+2026-06-18 13:30:57,365 - INFO -     → Image uploaded: TDS.png
+2026-06-18 13:30:58,109 - INFO -     → Form submitted
+2026-06-18 13:31:09,204 - INFO -   ✓ Icon added: TDS
+
+2026-06-18 13:31:10,216 - INFO - [18/18]
+2026-06-18 13:31:10,217 - INFO -   Adding: [Mechanic] Updates  (blog)
+2026-06-18 13:31:29,971 - INFO -     → User type selected by text: Mechanic
+2026-06-18 13:31:31,098 - INFO -     → Icon identity: blog
+2026-06-18 13:31:32,455 - INFO -     → Display title: Updates
+2026-06-18 13:31:35,241 - INFO -     → Icon color: #F87820
+2026-06-18 13:31:35,472 - INFO -     → Toggle: dashboard only
+2026-06-18 13:31:37,753 - INFO -     → Image uploaded: Updates.png
+2026-06-18 13:31:38,749 - INFO -     → Form submitted
+2026-06-18 13:31:39,969 - INFO -   ✓ Icon added: Updates
+
+2026-06-18 13:31:40,970 - INFO - ============================================================
+2026-06-18 13:31:40,970 - INFO - Batch complete → ✓ 18 succeeded  ✗ 0 failed
+2026-06-18 13:31:40,971 - INFO - 
+============================================================
+2026-06-18 13:31:40,980 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-18 13:31:40,984 - INFO - ============================================================
+2026-06-18 13:31:40,985 - INFO - ✓ Successful uploads: 18
+2026-06-18 13:31:40,986 - INFO - ✗ Failed uploads: 0
+2026-06-18 13:31:40,987 - INFO - Total processed: 18
+2026-06-18 13:31:40,988 - INFO - Success rate: 100.0%
+2026-06-18 13:31:40,988 - INFO - ============================================================
+2026-06-18 13:31:45,131 - INFO - Browser closed
+2026-06-18 13:31:49,212 - INFO - 
+Task finished at 2026-06-18 13:31:49
+2026-06-18 13:31:49,213 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_132045.log
+

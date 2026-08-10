@@ -1,0 +1,92 @@
+2026-06-26 12:26:35,594 - INFO - User selected: Brand Setting
+2026-06-26 12:26:45,408 - INFO -   Found logo asset: logo.png
+2026-06-26 12:26:45,409 - INFO -   Found splash asset: splash.jpg
+2026-06-26 12:26:45,410 - INFO - ============================================================
+2026-06-26 12:26:45,411 - INFO - BRAND SETTING — Image Processing
+2026-06-26 12:26:45,412 - INFO - ============================================================
+2026-06-26 12:26:45,604 - INFO - ✓ Logo  → logo_processed.jpg  |  22.4 KB  |  JPEG q95
+2026-06-26 12:26:45,697 - INFO - ✓ Splash → splash_processed.jpg  |  0.25 MB  |  JPEG q90
+2026-06-26 12:26:45,704 - INFO - 
+2026-06-26 12:26:45,708 - INFO - Extracting brand colours from logo...
+2026-06-26 12:26:46,129 - INFO -   Colours extracted from logo:
+2026-06-26 12:26:46,143 - INFO -     Header Color     →  #001080  (dominant logo colour)
+2026-06-26 12:26:46,145 - INFO -     Background Color →  #000A53  (35% darker)
+2026-06-26 12:26:46,146 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-26 12:26:46,147 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-26 12:26:46,197 - INFO - ✓ Both images ready
+
+2026-06-26 12:26:46,198 - INFO - ============================================================
+2026-06-26 12:26:46,199 - INFO - BRAND SETTING — Browser Automation
+2026-06-26 12:26:46,209 - INFO - ============================================================
+2026-06-26 12:26:46,272 - INFO - ====== WebDriver manager ======
+2026-06-26 12:26:54,258 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-26 12:26:56,299 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-26 12:26:58,151 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-26 12:26:58,158 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-26 12:27:16,198 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-26 12:27:16,307 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-26 12:27:16,943 - INFO - ✓ Chrome driver initialized
+2026-06-26 12:27:16,945 - INFO - Opening login page...
+2026-06-26 12:27:47,018 - ERROR - Login failed: Message: timeout: Timed out receiving message from renderer: 29.579
+  (Session info: chrome=149.0.7827.196)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x74a543+103f3]
+	chromedriver!GetHandleVerifier [0x74a584+10434]
+	chromedriver!(No symbol) [0x54a700]
+	chromedriver!(No symbol) [0x53ad03]
+	chromedriver!(No symbol) [0x53aa35]
+	chromedriver!(No symbol) [0x538c08]
+	chromedriver!(No symbol) [0x539456]
+	chromedriver!(No symbol) [0x5460fb]
+	chromedriver!(No symbol) [0x557bfe]
+	chromedriver!(No symbol) [0x55dc76]
+	chromedriver!(No symbol) [0x539adc]
+	chromedriver!(No symbol) [0x557957]
+	chromedriver!(No symbol) [0x5d3699]
+	chromedriver!(No symbol) [0x5b5e66]
+	chromedriver!(No symbol) [0x589159]
+	chromedriver!(No symbol) [0x589f24]
+	chromedriver!GetHandleVerifier [0x9d4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9d0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9f103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7637f6+296a6]
+	chromedriver!GetHandleVerifier [0x76a91d+307cd]
+	chromedriver!GetHandleVerifier [0x752d18+18bc8]
+	chromedriver!GetHandleVerifier [0x752ec5+18d75]
+	chromedriver!GetHandleVerifier [0x73c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-26 12:28:17,141 - WARNING - Screenshot failed: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=149.0.7827.196)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x74a543+103f3]
+	chromedriver!GetHandleVerifier [0x74a584+10434]
+	chromedriver!(No symbol) [0x54a700]
+	chromedriver!(No symbol) [0x53ad03]
+	chromedriver!(No symbol) [0x53aa35]
+	chromedriver!(No symbol) [0x538c08]
+	chromedriver!(No symbol) [0x539456]
+	chromedriver!(No symbol) [0x5460fb]
+	chromedriver!(No symbol) [0x557bfe]
+	chromedriver!(No symbol) [0x55dc76]
+	chromedriver!(No symbol) [0x539adc]
+	chromedriver!(No symbol) [0x557957]
+	chromedriver!(No symbol) [0x5d32aa]
+	chromedriver!(No symbol) [0x5b5e66]
+	chromedriver!(No symbol) [0x589159]
+	chromedriver!(No symbol) [0x589f24]
+	chromedriver!GetHandleVerifier [0x9d4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9d0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9f103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7637f6+296a6]
+	chromedriver!GetHandleVerifier [0x76a91d+307cd]
+	chromedriver!GetHandleVerifier [0x752d18+18bc8]
+	chromedriver!GetHandleVerifier [0x752ec5+18d75]
+	chromedriver!GetHandleVerifier [0x73c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-26 12:28:17,143 - ERROR - ✗ Login failed. Aborting.

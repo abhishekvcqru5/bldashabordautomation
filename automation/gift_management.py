@@ -48,6 +48,24 @@ class GiftManagementAutomation:
             self._ss("nav_error")
             return False
 
+    def check_gift_exists(self, gift_name, user_type):
+        """
+        Check if a gift with the given name and user type already exists in the table.
+        """
+        try:
+            # Wait up to 5 seconds for table to load
+            WebDriverWait(self.driver, 5).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "table > tbody > tr"))
+            )
+            rows = self.driver.find_elements(By.CSS_SELECTOR, "table > tbody > tr")
+            for row in rows:
+                text = row.text.lower()
+                if gift_name.lower().strip() in text and user_type.lower().strip() in text:
+                    return True
+            return False
+        except Exception:
+            return False
+
     def process_gifts(self, image_path):
         try:
             # Wait for table to load
@@ -201,7 +219,10 @@ class GiftManagementAutomation:
 
             self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", add_btn)
             time.sleep(0.5)
-            add_btn.click()
+            try:
+                add_btn.click()
+            except Exception:
+                self.driver.execute_script("arguments[0].click();", add_btn)
             time.sleep(2)
             logger.info("    → 'Add New Gift' clicked")
 
@@ -232,6 +253,16 @@ class GiftManagementAutomation:
             gift_point_field.clear()
             gift_point_field.send_keys(str(gift_data.get("points")))
             logger.info(f"    → Entered points: {gift_data.get('points')}")
+
+            # 5.1 Enter Gift Value (if provided)
+            if "value" in gift_data:
+                try:
+                    gift_value_field = self.driver.find_element(By.ID, "Gift_value")
+                    gift_value_field.clear()
+                    gift_value_field.send_keys(str(gift_data.get("value")))
+                    logger.info(f"    → Entered value: {gift_data.get('value')}")
+                except Exception as val_e:
+                    logger.warning(f"    ⚠ Could not find or fill Gift_value field: {val_e}")
 
             # 6. Interact with User Type dropdown
             select_el = self.driver.find_element(By.ID, "UserType")
@@ -293,10 +324,19 @@ class GiftManagementAutomation:
             logger.info(f"  ✓ Offering created for '{name}'")
 
             # Wait for modal to disappear/table to reload
-            self.wait.until(
-                EC.invisibility_of_element_located((By.CSS_SELECTOR, "div.fixed.inset-0"))
-            )
-            time.sleep(1)
+            try:
+                self.wait.until(
+                    EC.invisibility_of_element_located((By.CSS_SELECTOR, "div.fixed.inset-0"))
+                )
+            except Exception:
+                pass
+            try:
+                self.wait.until(
+                    EC.invisibility_of_element_located((By.XPATH, "//div[contains(@class, 'backdrop-blur') or contains(@class, 'bg-black/60')]"))
+                )
+            except Exception:
+                pass
+            time.sleep(2)
             return True
 
         except Exception as e:
@@ -335,7 +375,7 @@ def run_gift_management(email, password, image_path):
 def run_narmada_gifts(email, password):
     from dashboard_automation import VendorPortalAutomation
     
-    narmada_folder = Path("narmada")
+    narmada_folder = Path(__file__).resolve().parent.parent / "narmada"
     if not narmada_folder.exists():
         logger.error(f"Narmada images folder not found at: {narmada_folder.absolute()}")
         return False

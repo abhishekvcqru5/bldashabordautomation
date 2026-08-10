@@ -69,7 +69,7 @@ class ImageProcessor:
                 # If still too large (> 50KB), convert to palette mode (P) to compress while maintaining transparency
                 if file_size > self.MAX_SIZE_BYTES:
                     logger.info(f"PNG {img_path.name} is {file_size / 1024:.1f} KB, compressing via quantize...")
-                    quantized_img = img.quantize(colors=256, method=Image.Resampling.MAXCOVERAGE)
+                    quantized_img = img.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
                     quantized_img.save(output_path, 'PNG', optimize=True)
                     file_size = output_path.stat().st_size
                     

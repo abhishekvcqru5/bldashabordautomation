@@ -1,0 +1,89 @@
+2026-06-11 19:05:36,500 - INFO - User selected: Brand Setting
+2026-06-11 19:05:40,401 - INFO -   Found logo asset: logo.png
+2026-06-11 19:05:40,403 - INFO -   Found splash asset: splash.png
+2026-06-11 19:05:40,404 - INFO - ============================================================
+2026-06-11 19:05:40,404 - INFO - BRAND SETTING — Image Processing
+2026-06-11 19:05:40,405 - INFO - ============================================================
+2026-06-11 19:05:40,684 - INFO - ✓ Logo  → logo_processed.jpg  |  60.9 KB  |  JPEG q95
+2026-06-11 19:05:40,893 - INFO - ✓ Splash → splash_processed.jpg  |  0.10 MB  |  JPEG q90
+2026-06-11 19:05:40,895 - INFO - 
+2026-06-11 19:05:40,896 - INFO - Extracting brand colours from logo...
+2026-06-11 19:05:44,019 - INFO -   Colours extracted from logo:
+2026-06-11 19:05:44,021 - INFO -     Header Color     →  #100040  (dominant logo colour)
+2026-06-11 19:05:44,023 - INFO -     Background Color →  #0A0029  (35% darker)
+2026-06-11 19:05:44,025 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-11 19:05:44,025 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-11 19:05:44,216 - INFO - ✓ Both images ready
+
+2026-06-11 19:05:44,217 - INFO - ============================================================
+2026-06-11 19:05:44,217 - INFO - BRAND SETTING — Browser Automation
+2026-06-11 19:05:44,217 - INFO - ============================================================
+2026-06-11 19:05:44,254 - INFO - ====== WebDriver manager ======
+2026-06-11 19:05:47,680 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 19:05:51,805 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-11 19:05:53,254 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-11 19:05:53,256 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-11 19:05:56,918 - INFO - ✓ Chrome driver initialized
+2026-06-11 19:05:56,924 - INFO - Opening login page...
+2026-06-11 19:05:59,526 - INFO -   → Policy checkbox checked on login page
+2026-06-11 19:05:59,794 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-11 19:06:14,942 - INFO - ✓ Login successful
+2026-06-11 19:06:16,944 - INFO - Going to App Settings...
+2026-06-11 19:06:23,456 - INFO -   → Identity & Branding section opened
+2026-06-11 19:06:25,718 - INFO -   → Edit Branding popup opened
+2026-06-11 19:06:25,742 - INFO - ✓ Brand setting form is ready
+2026-06-11 19:06:25,742 - INFO -   Setting company name: Uphaar
+2026-06-11 19:06:27,369 - INFO -     → HeaderColor: #100040
+2026-06-11 19:06:28,251 - INFO -     → FooterColor: #F5F5F5
+2026-06-11 19:06:29,768 - INFO -     → BodyColor: #FFFFFF
+2026-06-11 19:06:30,719 - INFO -     → BackgroundColor: #0A0029
+2026-06-11 19:06:32,856 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-11 19:06:34,910 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-06-11 19:06:35,154 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-11 19:06:38,172 - INFO - ✓ Brand settings saved successfully!
+2026-06-11 19:06:40,649 - INFO - Browser closed
+2026-06-11 19:06:44,712 - INFO - 
+Task finished at 2026-06-11 19:06:44
+2026-06-11 19:06:44,716 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_190520.log
+
+2026-06-11 19:07:05,087 - INFO - User selected: Promotion Banners
+2026-06-11 19:07:05,088 - INFO - ============================================================
+2026-06-11 19:07:05,088 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-11 19:07:05,088 - INFO - ============================================================
+2026-06-11 19:07:05,090 - ERROR - Banner folder not found: banner
+2026-06-11 19:07:05,090 - ERROR - No banner images could be processed. Aborting.
+2026-06-11 19:07:05,090 - INFO - 
+Task finished at 2026-06-11 19:07:05
+2026-06-11 19:07:05,091 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_190520.log
+
+2026-06-11 19:07:11,533 - INFO - User selected: Promotion Banners
+2026-06-11 19:07:11,534 - INFO - ============================================================
+2026-06-11 19:07:11,534 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-11 19:07:11,534 - INFO - ============================================================
+2026-06-11 19:07:11,535 - ERROR - Banner folder not found: banner
+2026-06-11 19:07:11,535 - ERROR - No banner images could be processed. Aborting.
+2026-06-11 19:07:11,536 - INFO - 
+Task finished at 2026-06-11 19:07:11
+2026-06-11 19:07:11,536 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_190520.log
+
+2026-06-11 19:07:15,940 - INFO - User selected: Promotion Banners
+2026-06-11 19:07:15,941 - INFO - ============================================================
+2026-06-11 19:07:15,941 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-11 19:07:15,941 - INFO - ============================================================
+2026-06-11 19:07:15,942 - ERROR - Banner folder not found: banner
+2026-06-11 19:07:15,942 - ERROR - No banner images could be processed. Aborting.
+2026-06-11 19:07:15,942 - INFO - 
+Task finished at 2026-06-11 19:07:15
+2026-06-11 19:07:15,943 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_190520.log
+
+2026-06-11 19:44:18,119 - INFO - User selected: Promotion Banners
+2026-06-11 19:44:18,206 - INFO - ============================================================
+2026-06-11 19:44:18,209 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-11 19:44:18,217 - INFO - ============================================================
+2026-06-11 19:44:18,373 - ERROR - Banner folder not found: banner
+2026-06-11 19:44:18,375 - ERROR - No banner images could be processed. Aborting.
+2026-06-11 19:44:18,441 - INFO - 
+Task finished at 2026-06-11 19:44:18
+2026-06-11 19:44:18,458 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260611_190520.log
+
+2026-06-11 19:50:30,439 - INFO - Automation cancelled by user (Ctrl+C)

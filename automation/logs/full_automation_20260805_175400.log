@@ -1,0 +1,55 @@
+2026-08-05 17:54:15,513 - INFO - User selected: Brand Setting
+2026-08-05 17:54:31,693 - INFO -   Found logo asset: Logo.png
+2026-08-05 17:54:31,694 - INFO -   Found splash asset: splash.jpeg
+2026-08-05 17:54:31,694 - INFO - ============================================================
+2026-08-05 17:54:31,694 - INFO - BRAND SETTING — Image Processing
+2026-08-05 17:54:31,694 - INFO - ============================================================
+2026-08-05 17:54:31,820 - INFO - ✓ Logo  → logo_processed.jpg  |  90.5 KB  |  JPEG q95
+2026-08-05 17:54:31,862 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-08-05 17:54:31,863 - INFO - 
+2026-08-05 17:54:31,864 - INFO - Extracting brand colours from logo...
+2026-08-05 17:54:31,968 - INFO -   Colours extracted from logo:
+2026-08-05 17:54:31,968 - INFO -     Header Color     →  #D08020  (dominant logo colour)
+2026-08-05 17:54:31,968 - INFO -     Background Color →  #875314  (35% darker)
+2026-08-05 17:54:31,969 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-08-05 17:54:31,969 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-08-05 17:54:31,977 - INFO - ✓ Both images ready
+
+2026-08-05 17:54:31,978 - INFO - ============================================================
+2026-08-05 17:54:31,978 - INFO - BRAND SETTING — Browser Automation
+2026-08-05 17:54:31,978 - INFO - ============================================================
+2026-08-05 17:54:31,991 - INFO - ====== WebDriver manager ======
+2026-08-05 17:54:33,284 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 17:54:33,800 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 17:54:34,325 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-05 17:54:34,339 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-05 17:54:35,652 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-05 17:54:35,655 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-05 17:54:35,692 - INFO - ✓ Chrome driver initialized
+2026-08-05 17:54:35,693 - INFO - Opening login page...
+2026-08-05 17:54:38,772 - INFO -   → Policy checkbox checked on login page
+2026-08-05 17:54:38,883 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-05 17:54:38,899 - INFO -   → Policy agreement popup detected
+2026-08-05 17:54:38,951 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-05 17:54:39,546 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-05 17:54:50,877 - INFO -   → Navigating directly to App Settings URL...
+2026-08-05 17:54:51,333 - INFO - ✓ Login successful and on App Settings page
+2026-08-05 17:54:53,334 - INFO - Going to App Settings...
+2026-08-05 17:54:59,527 - INFO -   → Identity & Branding section opened
+2026-08-05 17:55:01,622 - INFO -   → Edit Branding popup opened
+2026-08-05 17:55:01,638 - INFO - ✓ Brand setting form is ready
+2026-08-05 17:55:01,638 - INFO -   Setting company name: Mr Bludip Tools
+2026-08-05 17:55:02,400 - INFO -     → HeaderColor: #D08020
+2026-08-05 17:55:03,020 - INFO -     → FooterColor: #F5F5F5
+2026-08-05 17:55:03,601 - INFO -     → BodyColor: #FFFFFF
+2026-08-05 17:55:04,211 - INFO -     → BackgroundColor: #875314
+2026-08-05 17:55:06,256 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-08-05 17:55:08,278 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-08-05 17:55:08,370 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-08-05 17:55:11,380 - INFO - ✓ Brand settings saved successfully!
+2026-08-05 17:55:13,674 - INFO - Browser closed
+2026-08-05 17:55:17,776 - INFO - 
+Task finished at 2026-08-05 17:55:17
+2026-08-05 17:55:17,776 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260805_175400.log
+
+2026-08-05 18:00:41,867 - INFO - Automation cancelled by user (Ctrl+C)

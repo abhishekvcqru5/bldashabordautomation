@@ -1,0 +1,799 @@
+2026-08-04 16:20:08,760 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-08-04 16:20:08,762 - INFO - ============================================================
+2026-08-04 16:20:08,763 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-08-04 16:20:08,764 - INFO - ============================================================
+2026-08-04 16:20:08,771 - INFO - Processing images from dashboardicons/...
+2026-08-04 16:20:08,795 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-08-04 16:20:08,796 - INFO - Output folder: automation\processed_images
+2026-08-04 16:20:08,797 - INFO - Target: 512x512 px, max 50 KB
+
+2026-08-04 16:20:09,002 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-08-04 16:20:09,127 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-08-04 16:20:09,251 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-08-04 16:20:09,383 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-08-04 16:20:09,474 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-08-04 16:20:09,552 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-08-04 16:20:09,597 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-08-04 16:20:09,695 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-08-04 16:20:09,797 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-08-04 16:20:09,904 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-08-04 16:20:10,023 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-08-04 16:20:10,134 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-08-04 16:20:10,210 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-08-04 16:20:10,292 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-08-04 16:20:10,293 - INFO - 
+✓ Processed 14 images successfully
+
+2026-08-04 16:20:10,294 - INFO - v 14 images processed.
+2026-08-04 16:20:11,219 - INFO - ====== WebDriver manager ======
+2026-08-04 16:20:16,504 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:20:16,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-04 16:20:16,913 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-08-04 16:20:16,914 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-04 16:20:18,844 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-04 16:20:18,854 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-04 16:20:18,926 - INFO - ✓ Chrome driver initialized
+2026-08-04 16:20:18,927 - INFO - Opening login page...
+2026-08-04 16:20:20,569 - INFO -   → Policy checkbox checked on login page
+2026-08-04 16:20:20,805 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-04 16:20:20,865 - INFO -   → Policy agreement popup detected
+2026-08-04 16:20:20,988 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-04 16:20:21,582 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-04 16:20:27,825 - INFO -   → Policy agreement popup detected
+2026-08-04 16:20:27,894 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-04 16:20:28,466 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-04 16:20:28,467 - INFO -   → Navigating directly to App Settings URL...
+2026-08-04 16:20:29,352 - INFO - ✓ Login successful and on App Settings page
+2026-08-04 16:20:31,354 - INFO - Navigating to dashboard icons section...
+2026-08-04 16:20:31,359 - INFO - Navigating to App Settings...
+2026-08-04 16:20:37,984 - INFO - ✓ Dashboard Icons section loaded
+2026-08-04 16:20:37,985 - INFO - Reading all available user types from dropdown...
+2026-08-04 16:20:51,926 - INFO -   Found 1 user types: ['Mechanics']
+2026-08-04 16:20:52,108 - INFO - Total rows found in configured icons table: 2
+2026-08-04 16:20:52,889 - INFO - Currently configured icons per user type:
+2026-08-04 16:20:52,894 - INFO -   mechanics: []
+2026-08-04 16:20:52,904 - INFO -   no icons registered
+the master navigation registry is empty. add icons to populate the mobile app dashboard.: []
+2026-08-04 16:20:52,908 - INFO - Found 28 missing icon uploads:
+2026-08-04 16:20:52,915 - INFO -   - [Mechanics] aboutus (ID: aboutus) from aboutus.png
+2026-08-04 16:20:52,918 - INFO -   - [Mechanics] Activity (ID: claimhistory) from Activity.png
+2026-08-04 16:20:52,926 - INFO -   - [Mechanics] KYC (ID: kycdetails) from KYC.png
+2026-08-04 16:20:52,926 - INFO -   - [Mechanics] Language (ID: chooselanguage) from Language.png
+2026-08-04 16:20:52,936 - INFO -   - [Mechanics] My Wallet (ID: wallet) from My Wallet.png
+2026-08-04 16:20:52,943 - INFO -   - [Mechanics] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-08-04 16:20:52,947 - INFO -   - [Mechanics] Prospectus (ID: brochure) from Prospectus.png
+2026-08-04 16:20:52,957 - INFO -   - [Mechanics] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-08-04 16:20:52,962 - INFO -   - [Mechanics] Rewards (ID: gift) from Rewards.png
+2026-08-04 16:20:52,964 - INFO -   - [Mechanics] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-08-04 16:20:52,968 - INFO -   - [Mechanics] Scan History (ID: history) from Scan History.png
+2026-08-04 16:20:52,973 - INFO -   - [Mechanics] Support (ID: help) from Support.png
+2026-08-04 16:20:52,985 - INFO -   - [Mechanics] TDS (ID: tds) from TDS.png
+2026-08-04 16:20:52,990 - INFO -   - [Mechanics] Updates (ID: blog) from Updates.png
+2026-08-04 16:20:52,995 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] aboutus (ID: aboutus) from aboutus.png
+2026-08-04 16:20:53,007 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Activity (ID: claimhistory) from Activity.png
+2026-08-04 16:20:53,011 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] KYC (ID: kycdetails) from KYC.png
+2026-08-04 16:20:53,020 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Language (ID: chooselanguage) from Language.png
+2026-08-04 16:20:53,025 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] My Wallet (ID: wallet) from My Wallet.png
+2026-08-04 16:20:53,026 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-08-04 16:20:53,028 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Prospectus (ID: brochure) from Prospectus.png
+2026-08-04 16:20:53,030 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-08-04 16:20:53,042 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Rewards (ID: gift) from Rewards.png
+2026-08-04 16:20:53,051 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-08-04 16:20:53,059 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan History (ID: history) from Scan History.png
+2026-08-04 16:20:53,064 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Support (ID: help) from Support.png
+2026-08-04 16:20:53,074 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] TDS (ID: tds) from TDS.png
+2026-08-04 16:20:53,077 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Updates (ID: blog) from Updates.png
+2026-08-04 16:23:39,424 - INFO - 
+[1/28] Uploading missing icon for Mechanics: aboutus
+2026-08-04 16:23:39,425 - INFO -   Adding: [Mechanics] aboutus  (aboutus)
+2026-08-04 16:23:52,282 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:23:52,443 - INFO -     → Icon identity: aboutus
+2026-08-04 16:23:52,680 - INFO -     → Display title: aboutus
+2026-08-04 16:23:53,533 - INFO -     → Icon color: #70E8A8
+2026-08-04 16:23:53,591 - INFO -     → Toggle: side menu
+2026-08-04 16:23:55,681 - INFO -     → Image uploaded: aboutus.png
+2026-08-04 16:23:55,918 - INFO -     → Form submitted
+2026-08-04 16:24:06,945 - INFO -   ✓ Icon added: aboutus
+
+2026-08-04 16:24:07,946 - INFO - 
+[2/28] Uploading missing icon for Mechanics: Activity
+2026-08-04 16:24:07,947 - INFO -   Adding: [Mechanics] Activity  (claimhistory)
+2026-08-04 16:24:20,668 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:24:20,889 - INFO -     → Icon identity: claimhistory
+2026-08-04 16:24:21,127 - INFO -     → Display title: Activity
+2026-08-04 16:24:21,977 - INFO -     → Icon color: #F86008
+2026-08-04 16:24:22,073 - INFO -     → Toggle: dashboard only
+2026-08-04 16:24:24,173 - INFO -     → Image uploaded: Activity.png
+2026-08-04 16:24:24,409 - INFO -     → Form submitted
+2026-08-04 16:24:35,007 - INFO -   ✓ Icon added: Activity
+
+2026-08-04 16:24:36,009 - INFO - 
+[3/28] Uploading missing icon for Mechanics: KYC
+2026-08-04 16:24:36,009 - INFO -   Adding: [Mechanics] KYC  (kycdetails)
+2026-08-04 16:24:49,303 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:24:49,580 - INFO -     → Icon identity: kycdetails
+2026-08-04 16:24:49,840 - INFO -     → Display title: KYC
+2026-08-04 16:24:50,680 - INFO -     → Icon color: #F85808
+2026-08-04 16:24:50,793 - INFO -     → Toggle: side menu
+2026-08-04 16:24:53,113 - INFO -     → Image uploaded: KYC.png
+2026-08-04 16:24:53,378 - INFO -     → Form submitted
+2026-08-04 16:25:04,039 - INFO -   ✓ Icon added: KYC
+
+2026-08-04 16:25:05,041 - INFO - 
+[4/28] Uploading missing icon for Mechanics: Language
+2026-08-04 16:25:05,042 - INFO -   Adding: [Mechanics] Language  (chooselanguage)
+2026-08-04 16:25:17,943 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:25:18,095 - INFO -     → Icon identity: chooselanguage
+2026-08-04 16:25:18,311 - INFO -     → Display title: Language
+2026-08-04 16:25:19,159 - INFO -     → Icon color: #5010E8
+2026-08-04 16:25:19,222 - INFO -     → Toggle: side menu
+2026-08-04 16:25:21,309 - INFO -     → Image uploaded: Language.png
+2026-08-04 16:25:21,562 - INFO -     → Form submitted
+2026-08-04 16:25:32,563 - INFO -   ✓ Icon added: Language
+
+2026-08-04 16:25:33,564 - INFO - 
+[5/28] Uploading missing icon for Mechanics: My Wallet
+2026-08-04 16:25:33,566 - INFO -   Adding: [Mechanics] My Wallet  (wallet)
+2026-08-04 16:25:46,230 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:25:46,673 - INFO -     → Icon identity: wallet
+2026-08-04 16:25:46,972 - INFO -     → Display title: My Wallet
+2026-08-04 16:25:47,883 - INFO -     → Icon color: #20A020
+2026-08-04 16:25:47,975 - INFO -     → Toggle: both
+2026-08-04 16:25:50,070 - INFO -     → Image uploaded: My Wallet.png
+2026-08-04 16:25:50,313 - INFO -     → Form submitted
+2026-08-04 16:26:00,912 - INFO -   ✓ Icon added: My Wallet
+
+2026-08-04 16:26:01,913 - INFO - 
+[6/28] Uploading missing icon for Mechanics: Product Catalog
+2026-08-04 16:26:01,914 - INFO -   Adding: [Mechanics] Product Catalog  (productcatalogue)
+2026-08-04 16:26:14,943 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:26:15,123 - INFO -     → Icon identity: productcatalogue
+2026-08-04 16:26:15,435 - INFO -     → Display title: Product Catalog
+2026-08-04 16:26:16,180 - INFO -     → Icon color: #6028E8
+2026-08-04 16:26:16,242 - INFO -     → Toggle: dashboard only
+2026-08-04 16:26:18,330 - INFO -     → Image uploaded: Product Catalog.png
+2026-08-04 16:26:18,562 - INFO -     → Form submitted
+2026-08-04 16:26:29,595 - INFO -   ✓ Icon added: Product Catalog
+
+2026-08-04 16:26:30,597 - INFO - 
+[7/28] Uploading missing icon for Mechanics: Prospectus
+2026-08-04 16:26:30,597 - INFO -   Adding: [Mechanics] Prospectus  (brochure)
+2026-08-04 16:26:43,513 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:26:43,689 - INFO -     → Icon identity: brochure
+2026-08-04 16:26:43,928 - INFO -     → Display title: Prospectus
+2026-08-04 16:26:44,667 - INFO -     → Icon color: #0848F8
+2026-08-04 16:26:44,721 - INFO -     → Toggle: dashboard only
+2026-08-04 16:26:46,807 - INFO -     → Image uploaded: Prospectus.png
+2026-08-04 16:26:47,027 - INFO -     → Form submitted
+2026-08-04 16:26:57,980 - INFO -   ✓ Icon added: Prospectus
+
+2026-08-04 16:26:58,982 - INFO - 
+[8/28] Uploading missing icon for Mechanics: Refer & Earn
+2026-08-04 16:26:58,983 - INFO -   Adding: [Mechanics] Refer & Earn  (referandearn)
+2026-08-04 16:27:11,909 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:27:12,077 - INFO -     → Icon identity: referandearn
+2026-08-04 16:27:12,331 - INFO -     → Display title: Refer & Earn
+2026-08-04 16:27:13,093 - INFO -     → Icon color: #089098
+2026-08-04 16:27:13,155 - INFO -     → Toggle: both
+2026-08-04 16:27:15,243 - INFO -     → Image uploaded: Refer & Earn.png
+2026-08-04 16:27:15,466 - INFO -     → Form submitted
+2026-08-04 16:27:26,424 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-08-04 16:27:27,427 - INFO - 
+[9/28] Uploading missing icon for Mechanics: Rewards
+2026-08-04 16:27:27,428 - INFO -   Adding: [Mechanics] Rewards  (gift)
+2026-08-04 16:27:40,508 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:27:40,674 - INFO -     → Icon identity: gift
+2026-08-04 16:27:40,907 - INFO -     → Display title: Rewards
+2026-08-04 16:27:41,625 - INFO -     → Icon color: #F00048
+2026-08-04 16:27:41,681 - INFO -     → Toggle: both
+2026-08-04 16:27:43,763 - INFO -     → Image uploaded: Rewards.png
+2026-08-04 16:27:43,992 - INFO -     → Form submitted
+2026-08-04 16:27:55,061 - INFO -   ✓ Icon added: Rewards
+
+2026-08-04 16:27:56,062 - INFO - 
+[10/28] Uploading missing icon for Mechanics: Scan Activity
+2026-08-04 16:27:56,062 - INFO -   Adding: [Mechanics] Scan Activity  (codedetails)
+2026-08-04 16:28:08,986 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:28:09,204 - INFO -     → Icon identity: codedetails
+2026-08-04 16:28:09,478 - INFO -     → Display title: Scan Activity
+2026-08-04 16:28:10,273 - INFO -     → Icon color: #10A010
+2026-08-04 16:28:10,344 - INFO -     → Toggle: dashboard only
+2026-08-04 16:28:12,432 - INFO -     → Image uploaded: Scan Activity.png
+2026-08-04 16:28:12,665 - INFO -     → Form submitted
+2026-08-04 16:28:23,629 - INFO -   ✓ Icon added: Scan Activity
+
+2026-08-04 16:28:24,630 - INFO - 
+[11/28] Uploading missing icon for Mechanics: Scan History
+2026-08-04 16:28:24,631 - INFO -   Adding: [Mechanics] Scan History  (history)
+2026-08-04 16:28:37,530 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:28:37,709 - INFO -     → Icon identity: history
+2026-08-04 16:28:37,956 - INFO -     → Display title: Scan History
+2026-08-04 16:28:39,095 - INFO -     → Icon color: #4808F0
+2026-08-04 16:28:39,223 - INFO -     → Toggle: dashboard only
+2026-08-04 16:28:41,410 - INFO -     → Image uploaded: Scan History.png
+2026-08-04 16:28:41,648 - INFO -     → Form submitted
+2026-08-04 16:28:52,671 - INFO -   ✓ Icon added: Scan History
+
+2026-08-04 16:28:53,673 - INFO - 
+[12/28] Uploading missing icon for Mechanics: Support
+2026-08-04 16:28:53,674 - INFO -   Adding: [Mechanics] Support  (help)
+2026-08-04 16:29:06,346 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:29:06,422 - INFO -     → Icon identity: help
+2026-08-04 16:29:06,523 - INFO -     → Display title: Support
+2026-08-04 16:29:06,973 - INFO -     → Icon color: #0030F0
+2026-08-04 16:29:06,995 - INFO -     → Toggle: dashboard only
+2026-08-04 16:29:09,033 - INFO -     → Image uploaded: Support.png
+2026-08-04 16:29:09,110 - INFO -     → Form submitted
+2026-08-04 16:29:19,713 - INFO -   ✓ Icon added: Support
+
+2026-08-04 16:29:20,714 - INFO - 
+[13/28] Uploading missing icon for Mechanics: TDS
+2026-08-04 16:29:20,715 - INFO -   Adding: [Mechanics] TDS  (tds)
+2026-08-04 16:29:33,003 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:29:33,091 - INFO -     → Icon identity: tds
+2026-08-04 16:29:33,258 - INFO -     → Display title: TDS
+2026-08-04 16:29:33,757 - INFO -     → Icon color: #20C880
+2026-08-04 16:29:33,792 - INFO -     → Toggle: side menu
+2026-08-04 16:29:35,827 - INFO -     → Image uploaded: TDS.png
+2026-08-04 16:29:35,915 - INFO -     → Form submitted
+2026-08-04 16:29:46,477 - INFO -   ✓ Icon added: TDS
+
+2026-08-04 16:29:47,478 - INFO - 
+[14/28] Uploading missing icon for Mechanics: Updates
+2026-08-04 16:29:47,479 - INFO -   Adding: [Mechanics] Updates  (blog)
+2026-08-04 16:29:59,864 - INFO -     → User type selected by exact text: Mechanics
+2026-08-04 16:29:59,955 - INFO -     → Icon identity: blog
+2026-08-04 16:30:00,072 - INFO -     → Display title: Updates
+2026-08-04 16:30:00,525 - INFO -     → Icon color: #F87820
+2026-08-04 16:30:00,557 - INFO -     → Toggle: dashboard only
+2026-08-04 16:30:02,630 - INFO -     → Image uploaded: Updates.png
+2026-08-04 16:30:02,733 - INFO -     → Form submitted
+2026-08-04 16:30:13,744 - INFO -   ✓ Icon added: Updates
+
+2026-08-04 16:30:14,745 - INFO - 
+[15/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: aboutus
+2026-08-04 16:30:14,745 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] aboutus  (aboutus)
+2026-08-04 16:30:27,095 - ERROR -   ✗ Failed to add [aboutus]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:30:27,799 - INFO -   📸 Screenshot saved: automation\screenshots\error_aboutus_20260804_163027.png
+2026-08-04 16:30:29,899 - INFO - 
+[16/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Activity
+2026-08-04 16:30:29,900 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Activity  (claimhistory)
+2026-08-04 16:30:42,304 - ERROR -   ✗ Failed to add [Activity]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:30:42,543 - INFO -   📸 Screenshot saved: automation\screenshots\error_Activity_20260804_163042.png
+2026-08-04 16:30:44,601 - INFO - 
+[17/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: KYC
+2026-08-04 16:30:44,602 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] KYC  (kycdetails)
+2026-08-04 16:30:56,895 - ERROR -   ✗ Failed to add [KYC]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:30:57,169 - INFO -   📸 Screenshot saved: automation\screenshots\error_KYC_20260804_163056.png
+2026-08-04 16:30:59,236 - INFO - 
+[18/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Language
+2026-08-04 16:30:59,237 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Language  (chooselanguage)
+2026-08-04 16:31:11,577 - ERROR -   ✗ Failed to add [Language]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:31:11,839 - INFO -   📸 Screenshot saved: automation\screenshots\error_Language_20260804_163111.png
+2026-08-04 16:31:13,906 - INFO - 
+[19/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: My Wallet
+2026-08-04 16:31:13,907 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] My Wallet  (wallet)
+2026-08-04 16:31:26,286 - ERROR -   ✗ Failed to add [My Wallet]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:31:26,686 - INFO -   📸 Screenshot saved: automation\screenshots\error_My_Wallet_20260804_163126.png
+2026-08-04 16:31:28,777 - INFO - 
+[20/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Product Catalog
+2026-08-04 16:31:28,778 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Product Catalog  (productcatalogue)
+2026-08-04 16:31:41,412 - ERROR -   ✗ Failed to add [Product Catalog]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:31:41,709 - INFO -   📸 Screenshot saved: automation\screenshots\error_Product_Catalog_20260804_163141.png
+2026-08-04 16:31:43,859 - INFO - 
+[21/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Prospectus
+2026-08-04 16:31:43,859 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Prospectus  (brochure)
+2026-08-04 16:31:56,511 - ERROR -   ✗ Failed to add [Prospectus]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:31:56,944 - INFO -   📸 Screenshot saved: automation\screenshots\error_Prospectus_20260804_163156.png
+2026-08-04 16:31:59,010 - INFO - 
+[22/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Refer & Earn
+2026-08-04 16:31:59,010 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Refer & Earn  (referandearn)
+2026-08-04 16:32:11,651 - ERROR -   ✗ Failed to add [Refer & Earn]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:32:11,872 - INFO -   📸 Screenshot saved: automation\screenshots\error_Refer_&_Earn_20260804_163211.png
+2026-08-04 16:32:13,939 - INFO - 
+[23/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Rewards
+2026-08-04 16:32:13,939 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Rewards  (gift)
+2026-08-04 16:32:26,628 - ERROR -   ✗ Failed to add [Rewards]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:32:26,855 - INFO -   📸 Screenshot saved: automation\screenshots\error_Rewards_20260804_163226.png
+2026-08-04 16:32:28,912 - INFO - 
+[24/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Scan Activity
+2026-08-04 16:32:28,913 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan Activity  (codedetails)
+2026-08-04 16:32:41,257 - ERROR -   ✗ Failed to add [Scan Activity]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:32:41,855 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_Activity_20260804_163241.png
+2026-08-04 16:32:43,915 - INFO - 
+[25/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Scan History
+2026-08-04 16:32:43,916 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan History  (history)
+2026-08-04 16:32:56,664 - ERROR -   ✗ Failed to add [Scan History]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:32:57,172 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_History_20260804_163256.png
+2026-08-04 16:32:59,232 - INFO - 
+[26/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Support
+2026-08-04 16:32:59,233 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Support  (help)
+2026-08-04 16:33:11,508 - ERROR -   ✗ Failed to add [Support]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:33:11,900 - INFO -   📸 Screenshot saved: automation\screenshots\error_Support_20260804_163311.png
+2026-08-04 16:33:13,972 - INFO - 
+[27/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: TDS
+2026-08-04 16:33:13,973 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] TDS  (tds)
+2026-08-04 16:33:26,624 - ERROR -   ✗ Failed to add [TDS]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:33:26,921 - INFO -   📸 Screenshot saved: automation\screenshots\error_TDS_20260804_163326.png
+2026-08-04 16:33:28,980 - INFO - 
+[28/28] Uploading missing icon for No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.: Updates
+2026-08-04 16:33:28,981 - INFO -   Adding: [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Updates  (blog)
+2026-08-04 16:33:41,238 - ERROR -   ✗ Failed to add [Updates]: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=150.0.7871.187); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb05843+10883]
+	chromedriver!GetHandleVerifier [0xb05884+108c4]
+	chromedriver!(No symbol) [0x9090e0]
+	chromedriver!(No symbol) [0x90fe45]
+	chromedriver!(No symbol) [0x911eaa]
+	chromedriver!(No symbol) [0x911f38]
+	chromedriver!(No symbol) [0x952c60]
+	chromedriver!(No symbol) [0x95338b]
+	chromedriver!(No symbol) [0x94a011]
+	chromedriver!(No symbol) [0x9756b4]
+	chromedriver!(No symbol) [0x949b24]
+	chromedriver!(No symbol) [0x975834]
+	chromedriver!(No symbol) [0x9931aa]
+	chromedriver!(No symbol) [0x975406]
+	chromedriver!(No symbol) [0x948659]
+	chromedriver!(No symbol) [0x949424]
+	chromedriver!GetHandleVerifier [0xd9ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xd9847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xdb94eb+2c452b]
+	chromedriver!GetHandleVerifier [0xb1f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xb2620d+3124d]
+	chromedriver!GetHandleVerifier [0xb0e318+19358]
+	chromedriver!GetHandleVerifier [0xb0e4c5+19505]
+	chromedriver!GetHandleVerifier [0xaf70af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-04 16:33:41,799 - INFO -   📸 Screenshot saved: automation\screenshots\error_Updates_20260804_163341.png
+2026-08-04 16:33:43,880 - INFO - 
+============================================================
+2026-08-04 16:33:43,880 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-08-04 16:33:43,881 - INFO - ============================================================
+2026-08-04 16:33:43,881 - INFO - Successful uploads: 14
+2026-08-04 16:33:43,882 - INFO - Failed uploads: 14
+2026-08-04 16:33:43,883 - INFO - Total processed: 28
+2026-08-04 16:33:43,883 - INFO - ============================================================
+2026-08-04 16:33:46,150 - INFO - Browser closed
+2026-08-04 16:33:50,218 - INFO - 
+Task finished at 2026-08-04 16:33:50
+2026-08-04 16:33:50,219 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260804_161941.log
+
+2026-08-04 17:03:06,565 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,231 @@
+2026-07-31 12:45:25,488 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-31 12:45:25,488 - INFO - ============================================================
+2026-07-31 12:45:25,489 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-31 12:45:25,489 - INFO - ============================================================
+2026-07-31 12:45:25,489 - INFO - Processing images from dashboardicons/...
+2026-07-31 12:45:25,496 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-31 12:45:25,497 - INFO - Output folder: automation\processed_images
+2026-07-31 12:45:25,497 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-31 12:45:25,596 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-31 12:45:25,630 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-31 12:45:25,687 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-31 12:45:25,725 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-31 12:45:25,763 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-31 12:45:25,791 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-31 12:45:25,809 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-31 12:45:25,847 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-31 12:45:25,881 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-31 12:45:25,915 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-31 12:45:25,966 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-31 12:45:25,999 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-31 12:45:26,037 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-31 12:45:26,071 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-31 12:45:26,072 - INFO - 
+✓ Processed 14 images successfully
+
+2026-07-31 12:45:26,072 - INFO - v 14 images processed.
+2026-07-31 12:45:26,406 - INFO - ====== WebDriver manager ======
+2026-07-31 12:45:30,093 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 12:45:30,317 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-31 12:45:30,535 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-31 12:45:30,538 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-31 12:45:31,862 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-31 12:45:31,867 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-31 12:45:31,949 - INFO - ✓ Chrome driver initialized
+2026-07-31 12:45:31,950 - INFO - Opening login page...
+2026-07-31 12:45:33,341 - INFO -   → Policy checkbox checked on login page
+2026-07-31 12:45:33,512 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-31 12:45:33,566 - INFO -   → Policy agreement popup detected
+2026-07-31 12:45:33,630 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-31 12:45:34,367 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-31 12:45:40,629 - INFO -   → Policy agreement popup detected
+2026-07-31 12:45:40,665 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-31 12:45:41,194 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-31 12:45:41,194 - INFO -   → Navigating directly to App Settings URL...
+2026-07-31 12:45:41,487 - INFO - ✓ Login successful and on App Settings page
+2026-07-31 12:45:43,489 - INFO - Navigating to dashboard icons section...
+2026-07-31 12:45:43,489 - INFO - Navigating to App Settings...
+2026-07-31 12:45:49,800 - INFO - ✓ Dashboard Icons section loaded
+2026-07-31 12:45:49,800 - INFO - Reading all available user types from dropdown...
+2026-07-31 12:46:03,308 - INFO -   Found 1 user types: ['Mason']
+2026-07-31 12:46:03,332 - INFO - Total rows found in configured icons table: 2
+2026-07-31 12:46:03,361 - INFO - Currently configured icons per user type:
+2026-07-31 12:46:03,361 - INFO -   mason: []
+2026-07-31 12:46:03,361 - INFO -   no icons registered
+the master navigation registry is empty. add icons to populate the mobile app dashboard.: []
+2026-07-31 12:46:03,361 - INFO - Found 28 missing icon uploads:
+2026-07-31 12:46:03,362 - INFO -   - [Mason] aboutus (ID: aboutus) from aboutus.png
+2026-07-31 12:46:03,362 - INFO -   - [Mason] Activity (ID: claimhistory) from Activity.png
+2026-07-31 12:46:03,362 - INFO -   - [Mason] KYC (ID: kycdetails) from KYC.png
+2026-07-31 12:46:03,362 - INFO -   - [Mason] Language (ID: chooselanguage) from Language.png
+2026-07-31 12:46:03,362 - INFO -   - [Mason] My Wallet (ID: wallet) from My Wallet.png
+2026-07-31 12:46:03,362 - INFO -   - [Mason] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-31 12:46:03,363 - INFO -   - [Mason] Prospectus (ID: brochure) from Prospectus.png
+2026-07-31 12:46:03,363 - INFO -   - [Mason] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-31 12:46:03,363 - INFO -   - [Mason] Rewards (ID: gift) from Rewards.png
+2026-07-31 12:46:03,363 - INFO -   - [Mason] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-31 12:46:03,364 - INFO -   - [Mason] Scan History (ID: history) from Scan History.png
+2026-07-31 12:46:03,364 - INFO -   - [Mason] Support (ID: help) from Support.png
+2026-07-31 12:46:03,364 - INFO -   - [Mason] TDS (ID: tds) from TDS.png
+2026-07-31 12:46:03,364 - INFO -   - [Mason] Updates (ID: blog) from Updates.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] aboutus (ID: aboutus) from aboutus.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Activity (ID: claimhistory) from Activity.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] KYC (ID: kycdetails) from KYC.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Language (ID: chooselanguage) from Language.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] My Wallet (ID: wallet) from My Wallet.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-31 12:46:03,365 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Prospectus (ID: brochure) from Prospectus.png
+2026-07-31 12:46:03,366 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-31 12:46:03,366 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Rewards (ID: gift) from Rewards.png
+2026-07-31 12:46:03,366 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan Activity (ID: codedetails) from Scan Activity.png
+2026-07-31 12:46:03,366 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Scan History (ID: history) from Scan History.png
+2026-07-31 12:46:03,366 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Support (ID: help) from Support.png
+2026-07-31 12:46:03,366 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] TDS (ID: tds) from TDS.png
+2026-07-31 12:46:03,367 - INFO -   - [No Icons Registered
+The Master Navigation Registry Is Empty. Add Icons To Populate The Mobile App Dashboard.] Updates (ID: blog) from Updates.png
+2026-07-31 14:06:57,034 - INFO - 
+[1/28] Uploading missing icon for Mason: aboutus
+2026-07-31 14:06:57,036 - INFO -   Adding: [Mason] aboutus  (aboutus)
+2026-07-31 14:07:09,905 - INFO -     → User type selected by exact text: Mason
+2026-07-31 14:07:10,079 - INFO -     → Icon identity: aboutus
+2026-07-31 14:07:10,365 - INFO -     → Display title: aboutus
+2026-07-31 14:07:11,488 - INFO -     → Icon color: #70E8A8
+2026-07-31 14:07:11,556 - INFO -     → Toggle: side menu
+2026-07-31 14:07:13,662 - INFO -     → Image uploaded: aboutus.png
+2026-07-31 14:07:13,904 - INFO -     → Form submitted
+2026-07-31 14:07:15,284 - INFO -   ✓ Icon added: aboutus
+
+2026-07-31 14:07:16,285 - INFO - 
+[2/28] Uploading missing icon for Mason: Activity
+2026-07-31 14:07:16,286 - INFO -   Adding: [Mason] Activity  (claimhistory)
+2026-07-31 14:07:36,870 - ERROR -   ✗ Failed to add [Activity]: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x46316b]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x4a5942]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:07:37,223 - INFO -   📸 Screenshot saved: automation\screenshots\error_Activity_20260731_140736.png
+2026-07-31 14:07:38,258 - INFO - 
+[3/28] Uploading missing icon for Mason: KYC
+2026-07-31 14:07:38,259 - INFO -   Adding: [Mason] KYC  (kycdetails)
+2026-07-31 14:07:58,686 - ERROR -   ✗ Failed to add [KYC]: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x46316b]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x4a5942]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:07:59,017 - INFO -   📸 Screenshot saved: automation\screenshots\error_KYC_20260731_140758.png
+2026-07-31 14:08:00,044 - INFO - 
+[4/28] Uploading missing icon for Mason: Language
+2026-07-31 14:08:00,045 - INFO -   Adding: [Mason] Language  (chooselanguage)
+2026-07-31 14:08:20,122 - ERROR -   ✗ Failed to add [Language]: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x46316b]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x4a5942]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:08:20,534 - INFO -   📸 Screenshot saved: automation\screenshots\error_Language_20260731_140820.png
+2026-07-31 14:08:21,555 - INFO - 
+[5/28] Uploading missing icon for Mason: My Wallet
+2026-07-31 14:08:21,555 - INFO -   Adding: [Mason] My Wallet  (wallet)
+2026-07-31 14:08:42,002 - ERROR -   ✗ Failed to add [My Wallet]: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x615843+10883]
+	chromedriver!GetHandleVerifier [0x615884+108c4]
+	chromedriver!(No symbol) [0x4190e0]
+	chromedriver!(No symbol) [0x46316b]
+	chromedriver!(No symbol) [0x46338b]
+	chromedriver!(No symbol) [0x4a5942]
+	chromedriver!(No symbol) [0x4856b4]
+	chromedriver!(No symbol) [0x4a31aa]
+	chromedriver!(No symbol) [0x485406]
+	chromedriver!(No symbol) [0x458659]
+	chromedriver!(No symbol) [0x459424]
+	chromedriver!GetHandleVerifier [0x8aced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x8a847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x8c94eb+2c452b]
+	chromedriver!GetHandleVerifier [0x62f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x63620d+3124d]
+	chromedriver!GetHandleVerifier [0x61e318+19358]
+	chromedriver!GetHandleVerifier [0x61e4c5+19505]
+	chromedriver!GetHandleVerifier [0x6070af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x76725d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e4e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e4df91+231]
+
+2026-07-31 14:08:42,288 - INFO -   📸 Screenshot saved: automation\screenshots\error_My_Wallet_20260731_140842.png
+2026-07-31 14:08:43,314 - INFO - 
+[6/28] Uploading missing icon for Mason: Product Catalog
+2026-07-31 14:08:43,315 - INFO -   Adding: [Mason] Product Catalog  (productcatalogue)
+2026-07-31 14:08:56,889 - INFO - Automation cancelled by user (Ctrl+C)

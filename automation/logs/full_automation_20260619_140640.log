@@ -1,0 +1,50 @@
+2026-06-19 14:09:01,735 - INFO - User selected: Promotion Banners
+2026-06-19 14:09:01,736 - INFO - ============================================================
+2026-06-19 14:09:01,737 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-19 14:09:01,737 - INFO - ============================================================
+2026-06-19 14:09:01,740 - INFO - Found 1 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-19 14:09:01,856 - INFO -   ⚙ Processing ChatGPT Image Jun 19, 2026, 02_06_17 PM.png  (size 1672×941 → need 1920×1080)
+2026-06-19 14:09:02,144 - INFO -   ✓ ChatGPT Image Jun 19, 2026, 02_06_17 PM.png  →  ChatGPT Image Jun 19, 2026, 02_06_17 PM_processed.jpg  |  1920×1080  |  0.24 MB  |  quality 92
+2026-06-19 14:09:02,150 - INFO - 
+  Processed 1/1 banners successfully
+
+2026-06-19 14:09:02,155 - INFO - ============================================================
+2026-06-19 14:09:02,156 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-19 14:09:02,157 - INFO - ============================================================
+2026-06-19 14:09:02,206 - INFO - ====== WebDriver manager ======
+2026-06-19 14:09:11,900 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 14:09:13,372 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-19 14:09:14,439 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-19 14:09:14,442 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-19 14:09:19,373 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-19 14:09:19,389 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-19 14:09:19,498 - INFO - ✓ Chrome driver initialized
+2026-06-19 14:09:19,499 - INFO - Opening login page...
+2026-06-19 14:09:21,599 - INFO -   → Policy checkbox checked on login page
+2026-06-19 14:09:21,857 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-19 14:09:21,928 - INFO -   → Policy agreement popup detected
+2026-06-19 14:09:22,068 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-19 14:09:23,584 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-19 14:09:29,714 - INFO -   → Policy agreement popup detected
+2026-06-19 14:09:29,840 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-19 14:09:30,418 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-19 14:09:30,439 - INFO - ✓ Login successful
+2026-06-19 14:09:32,440 - INFO - Going to App Settings...
+2026-06-19 14:09:39,597 - INFO -   → Promotion Banners section opened
+2026-06-19 14:09:39,636 - INFO - ✓ Promotion Banners page ready
+2026-06-19 14:09:39,672 - INFO - Starting batch  —  1 banner(s) to publish
+2026-06-19 14:09:39,672 - INFO - ============================================================
+2026-06-19 14:09:39,673 - INFO - [1/1]
+2026-06-19 14:09:39,673 - INFO -   Publishing: [ChatGPT Image Jun 19, 2026, 02_06_17 PM]  (ChatGPT Image Jun 19, 2026, 02_06_17 PM_processed.jpg)
+2026-06-19 14:09:42,507 - INFO -     → Title entered: ChatGPT Image Jun 19, 2026, 02_06_17 PM
+2026-06-19 14:09:44,636 - INFO -     → Image uploaded: ChatGPT Image Jun 19, 2026, 02_06_17 PM_processed.jpg
+2026-06-19 14:09:44,940 - INFO -     → Publish Banner clicked
+2026-06-19 14:09:49,090 - INFO -   ✓ Banner published: ChatGPT Image Jun 19, 2026, 02_06_17 PM
+
+2026-06-19 14:09:50,107 - INFO - ============================================================
+2026-06-19 14:09:50,141 - INFO - Banners done  →  ✓ 1 published   ✗ 0 failed
+2026-06-19 14:09:53,677 - INFO - Browser closed
+2026-06-19 14:09:57,741 - INFO - 
+Task finished at 2026-06-19 14:09:57
+2026-06-19 14:09:57,742 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260619_140640.log
+

@@ -1,0 +1,30 @@
+2026-06-17 16:16:00,561 - INFO - User selected: Old Dashboard
+2026-06-17 16:16:12,214 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 16:16:12,231 - INFO - ====== WebDriver manager ======
+2026-06-17 16:16:14,133 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:16:15,077 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:16:15,819 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:16:15,820 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:16:17,028 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:16:21,471 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 16:16:23,471 - INFO -     → Filling credentials for Shrinarmadagroup@gmail.com …
+2026-06-17 16:16:23,617 - INFO -       Email → field #login_txt_id
+2026-06-17 16:16:23,715 - INFO -       Password → field #login_txt_pass
+2026-06-17 16:16:23,897 - INFO -       Login button clicked: #btnVendor
+2026-06-17 16:16:23,897 - INFO -     → Waiting for post-login redirect …
+2026-06-17 16:16:55,321 - ERROR -   ✗ Login timed out — still on login page or unknown state
+2026-06-17 16:16:55,638 - INFO -   📸 Screenshot saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\screenshots\old_prod_login_timeout_20260617_161655.png
+2026-06-17 16:16:55,639 - INFO -   ⚠ Primary credentials failed on old dashboard. Trying old default credentials (mahesh@vcqru.com) ...
+2026-06-17 16:16:55,639 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:17:00,146 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 16:17:02,147 - INFO -     → Filling credentials for mahesh@vcqru.com …
+2026-06-17 16:17:02,280 - INFO -       Email → field #login_txt_id
+2026-06-17 16:17:02,395 - INFO -       Password → field #login_txt_pass
+2026-06-17 16:17:02,486 - INFO -       Login button clicked: #btnVendor
+2026-06-17 16:17:02,486 - INFO -     → Waiting for post-login redirect …
+2026-06-17 16:17:33,622 - ERROR -   ✗ Login timed out — still on login page or unknown state
+2026-06-17 16:17:33,797 - INFO -   📸 Screenshot saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\screenshots\old_prod_login_timeout_20260617_161733.png
+2026-06-17 16:17:40,070 - INFO - 
+Task finished at 2026-06-17 16:17:40
+2026-06-17 16:17:40,070 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_161600.log
+

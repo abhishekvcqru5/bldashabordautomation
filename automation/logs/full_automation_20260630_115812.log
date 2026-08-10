@@ -1,0 +1,54 @@
+2026-06-30 11:58:41,049 - INFO - User selected: Brand Setting
+2026-06-30 11:58:47,552 - INFO -   Found logo asset: logo.png
+2026-06-30 11:58:47,552 - INFO -   Found splash asset: splash.jpg
+2026-06-30 11:58:47,553 - INFO - ============================================================
+2026-06-30 11:58:47,553 - INFO - BRAND SETTING — Image Processing
+2026-06-30 11:58:47,553 - INFO - ============================================================
+2026-06-30 11:58:47,609 - INFO - ✓ Logo  → logo_processed.jpg  |  24.5 KB  |  JPEG q95
+2026-06-30 11:58:47,631 - INFO - ✓ Splash → splash_processed.jpg  |  0.25 MB  |  JPEG q90
+2026-06-30 11:58:47,632 - INFO - 
+2026-06-30 11:58:47,633 - INFO - Extracting brand colours from logo...
+2026-06-30 11:58:47,754 - INFO -   Colours extracted from logo:
+2026-06-30 11:58:47,754 - INFO -     Header Color     →  #E00010  (dominant logo colour)
+2026-06-30 11:58:47,755 - INFO -     Background Color →  #91000A  (35% darker)
+2026-06-30 11:58:47,755 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-30 11:58:47,755 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-30 11:58:47,765 - INFO - ✓ Both images ready
+
+2026-06-30 11:58:47,765 - INFO - ============================================================
+2026-06-30 11:58:47,765 - INFO - BRAND SETTING — Browser Automation
+2026-06-30 11:58:47,765 - INFO - ============================================================
+2026-06-30 11:58:47,777 - INFO - ====== WebDriver manager ======
+2026-06-30 11:58:50,027 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 11:58:50,553 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-30 11:58:51,065 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-30 11:58:51,067 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-30 11:58:53,606 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-30 11:58:53,618 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-30 11:58:53,668 - INFO - ✓ Chrome driver initialized
+2026-06-30 11:58:53,669 - INFO - Opening login page...
+2026-06-30 11:58:55,378 - INFO -   → Policy checkbox checked on login page
+2026-06-30 11:58:55,567 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-30 11:58:55,598 - INFO -   → Policy agreement popup detected
+2026-06-30 11:58:55,722 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-30 11:58:56,308 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-30 11:59:07,687 - INFO - ✓ Login successful
+2026-06-30 11:59:09,688 - INFO - Going to App Settings...
+2026-06-30 11:59:16,427 - INFO -   → Identity & Branding section opened
+2026-06-30 11:59:18,540 - INFO -   → Edit Branding popup opened
+2026-06-30 11:59:18,566 - INFO - ✓ Brand setting form is ready
+2026-06-30 11:59:18,566 - INFO -   Setting company name: FLEXTRA
+2026-06-30 11:59:19,624 - INFO -     → HeaderColor: #E00010
+2026-06-30 11:59:20,375 - INFO -     → FooterColor: #F5F5F5
+2026-06-30 11:59:21,180 - INFO -     → BodyColor: #FFFFFF
+2026-06-30 11:59:21,901 - INFO -     → BackgroundColor: #91000A
+2026-06-30 11:59:24,006 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-30 11:59:26,048 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-06-30 11:59:26,236 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-30 11:59:29,255 - INFO - ✓ Brand settings saved successfully!
+2026-06-30 11:59:31,692 - INFO - Browser closed
+2026-06-30 11:59:35,742 - INFO - 
+Task finished at 2026-06-30 11:59:35
+2026-06-30 11:59:35,742 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260630_115812.log
+
+2026-06-30 12:00:27,543 - INFO - Automation cancelled by user (Ctrl+C)

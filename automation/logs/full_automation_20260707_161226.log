@@ -1,0 +1,276 @@
+2026-07-07 16:13:42,751 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-07-07 16:13:53,480 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-07-07 16:13:54,432 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-07-07 16:13:58,550 - INFO - 
+>>> Starting update [1/1] for vcqru...
+2026-07-07 16:13:58,551 - INFO - ============================================================
+2026-07-07 16:13:58,551 - INFO - UPDATING DASHBOARD ICONS FOR: bhabhra.sangeeta@mahindra.com
+2026-07-07 16:13:58,589 - INFO - ============================================================
+2026-07-07 16:13:58,590 - INFO - Processing images from dashboardicons/...
+2026-07-07 16:13:58,602 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-07 16:13:58,603 - INFO - Output folder: automation\processed_images
+2026-07-07 16:13:58,603 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-07 16:13:58,741 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-07 16:13:58,855 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-07 16:13:58,984 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-07 16:13:59,129 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-07 16:13:59,228 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-07 16:13:59,292 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-07 16:13:59,349 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-07 16:13:59,430 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-07 16:13:59,494 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-07 16:13:59,566 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-07 16:13:59,679 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-07 16:13:59,761 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-07 16:13:59,855 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-07 16:13:59,931 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-07 16:13:59,932 - INFO - 
+✓ Processed 14 images successfully
+
+2026-07-07 16:13:59,932 - INFO - ✓ 14 images processed.
+2026-07-07 16:14:00,582 - INFO - ====== WebDriver manager ======
+2026-07-07 16:14:07,477 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 16:14:08,929 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 16:14:11,434 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-07 16:14:11,436 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-07 16:14:19,572 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-07 16:14:19,589 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-07 16:14:19,658 - INFO - ✓ Chrome driver initialized
+2026-07-07 16:14:19,659 - INFO - Opening login page...
+2026-07-07 16:14:21,347 - INFO -   → Policy checkbox checked on login page
+2026-07-07 16:14:21,819 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-07 16:14:21,858 - INFO -   → Policy agreement popup detected
+2026-07-07 16:14:21,971 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-07 16:14:22,534 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-07 16:14:34,411 - INFO - ✓ Login successful
+2026-07-07 16:14:36,412 - INFO - Navigating to dashboard icons section...
+2026-07-07 16:14:36,413 - INFO - Navigating to App Settings...
+2026-07-07 16:14:43,239 - INFO - ✓ Dashboard Icons section loaded
+2026-07-07 16:14:43,325 - INFO - Total rows found: 34
+2026-07-07 16:14:43,604 - INFO - Parsed Row 2: UserType='M Star', Title='Reward History', ID='history'
+2026-07-07 16:14:43,660 - INFO - Parsed Row 3: UserType='M Star', Title='My Rewards', ID='wallet'
+2026-07-07 16:14:43,723 - INFO - Parsed Row 4: UserType='M Star', Title='Tips & Offers', ID='blog'
+2026-07-07 16:14:43,832 - INFO - Parsed Row 5: UserType='M Star', Title='Products', ID='productcatalogue'
+2026-07-07 16:14:43,940 - INFO - Parsed Row 6: UserType='M Star', Title='Language', ID='chooselanguage'
+2026-07-07 16:14:44,014 - INFO - Parsed Row 7: UserType='M Star', Title='About Us', ID='aboutus'
+2026-07-07 16:14:44,015 - INFO - No matching local icon for row 7: Title='About Us', ID='aboutus'
+2026-07-07 16:14:44,088 - INFO - Parsed Row 8: UserType='M Star', Title='Scan History', ID='codedetails'
+2026-07-07 16:14:44,155 - INFO - Parsed Row 9: UserType='M Star', Title='Contact Us', ID='contactus'
+2026-07-07 16:14:44,156 - INFO - No matching local icon for row 9: Title='Contact Us', ID='contactus'
+2026-07-07 16:14:44,237 - INFO - Parsed Row 10: UserType='M Star', Title='Kyc', ID='kycdetails'
+2026-07-07 16:14:44,297 - INFO - Parsed Row 11: UserType='M Star', Title='Tax Details', ID='tds'
+2026-07-07 16:14:44,407 - INFO - Parsed Row 13: UserType='Sbu', Title='Reward History', ID='history'
+2026-07-07 16:14:44,461 - INFO - Parsed Row 14: UserType='Sbu', Title='My Rewards', ID='wallet'
+2026-07-07 16:14:44,512 - INFO - Parsed Row 15: UserType='Sbu', Title='Tips & Offers', ID='blog'
+2026-07-07 16:14:44,574 - INFO - Parsed Row 16: UserType='Sbu', Title='Products', ID='productcatalogue'
+2026-07-07 16:14:44,629 - INFO - Parsed Row 17: UserType='Sbu', Title='Langauge', ID='chooselanguage'
+2026-07-07 16:14:44,689 - INFO - Parsed Row 18: UserType='Sbu', Title='About Us', ID='aboutus'
+2026-07-07 16:14:44,690 - INFO - No matching local icon for row 18: Title='About Us', ID='aboutus'
+2026-07-07 16:14:44,757 - INFO - Parsed Row 19: UserType='Sbu', Title='Scan History', ID='codedetails'
+2026-07-07 16:14:44,810 - INFO - Parsed Row 20: UserType='Sbu', Title='Contact Us', ID='contactus'
+2026-07-07 16:14:44,812 - INFO - No matching local icon for row 20: Title='Contact Us', ID='contactus'
+2026-07-07 16:14:44,871 - INFO - Parsed Row 21: UserType='Sbu', Title='Kyc', ID='kycdetails'
+2026-07-07 16:14:44,931 - INFO - Parsed Row 22: UserType='Sbu', Title='Tax Details', ID='tds'
+2026-07-07 16:14:45,035 - INFO - Parsed Row 24: UserType='Tech Master', Title='Reward History', ID='history'
+2026-07-07 16:14:45,093 - INFO - Parsed Row 25: UserType='Tech Master', Title='My Rewards', ID='wallet'
+2026-07-07 16:14:45,148 - INFO - Parsed Row 26: UserType='Tech Master', Title='Tips & Offers', ID='blog'
+2026-07-07 16:14:45,208 - INFO - Parsed Row 27: UserType='Tech Master', Title='Products', ID='productcatalogue'
+2026-07-07 16:14:45,262 - INFO - Parsed Row 28: UserType='Tech Master', Title='Language', ID='chooselanguage'
+2026-07-07 16:14:45,323 - INFO - Parsed Row 29: UserType='Tech Master', Title='About Us', ID='aboutus'
+2026-07-07 16:14:45,324 - INFO - No matching local icon for row 29: Title='About Us', ID='aboutus'
+2026-07-07 16:14:45,389 - INFO - Parsed Row 30: UserType='Tech Master', Title='Scan History', ID='codedetails'
+2026-07-07 16:14:45,447 - INFO - Parsed Row 31: UserType='Tech Master', Title='Contact Us', ID='contactus'
+2026-07-07 16:14:45,448 - INFO - No matching local icon for row 31: Title='Contact Us', ID='contactus'
+2026-07-07 16:14:45,526 - INFO - Parsed Row 32: UserType='Tech Master', Title='Kyc', ID='kycdetails'
+2026-07-07 16:14:45,590 - INFO - Parsed Row 33: UserType='Tech Master', Title='Tax Details', ID='tds'
+2026-07-07 16:14:45,591 - INFO - Found 24 icons to update.
+2026-07-07 16:14:45,591 - INFO - 
+[1/24] Updating: [M Star] 'Reward History' (ID: 'history') with 'Scan History'
+2026-07-07 16:14:46,843 - INFO -   → Set display title to: Scan History
+2026-07-07 16:14:48,351 - INFO -   → Set icon color to: #4808F0
+2026-07-07 16:14:48,491 - INFO -   → Uploaded image: Scan History.png
+2026-07-07 16:14:50,585 - INFO -   → Edit form submitted.
+2026-07-07 16:15:02,688 - INFO -   ✓ Successfully updated: Reward History -> Scan History
+2026-07-07 16:15:02,689 - INFO - 
+[2/24] Updating: [M Star] 'My Rewards' (ID: 'wallet') with 'Rewards'
+2026-07-07 16:15:04,383 - INFO -   → Set display title to: Rewards
+2026-07-07 16:15:05,080 - INFO -   → Set icon color to: #F00048
+2026-07-07 16:15:05,157 - INFO -   → Uploaded image: Rewards.png
+2026-07-07 16:15:07,325 - INFO -   → Edit form submitted.
+2026-07-07 16:15:19,488 - INFO -   ✓ Successfully updated: My Rewards -> Rewards
+2026-07-07 16:15:19,489 - INFO - 
+[3/24] Updating: [M Star] 'Tips & Offers' (ID: 'blog') with 'Updates'
+2026-07-07 16:15:21,372 - INFO -   → Set display title to: Updates
+2026-07-07 16:15:22,137 - INFO -   → Set icon color to: #F87820
+2026-07-07 16:15:22,217 - INFO -   → Uploaded image: Updates.png
+2026-07-07 16:15:24,300 - INFO -   → Edit form submitted.
+2026-07-07 16:15:36,257 - INFO -   ✓ Successfully updated: Tips & Offers -> Updates
+2026-07-07 16:15:36,258 - INFO - 
+[4/24] Updating: [M Star] 'Products' (ID: 'productcatalogue') with 'Product Catalog'
+2026-07-07 16:15:37,518 - INFO -   → Set display title to: Product Catalog
+2026-07-07 16:15:38,226 - INFO -   → Set icon color to: #6028E8
+2026-07-07 16:15:38,303 - INFO -   → Uploaded image: Product Catalog.png
+2026-07-07 16:15:40,379 - INFO -   → Edit form submitted.
+2026-07-07 16:15:52,390 - INFO -   ✓ Successfully updated: Products -> Product Catalog
+2026-07-07 16:15:52,391 - INFO - 
+[5/24] Updating: [M Star] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-07-07 16:15:54,236 - INFO -   → Set display title to: Language
+2026-07-07 16:15:54,989 - INFO -   → Set icon color to: #5010E8
+2026-07-07 16:15:55,066 - INFO -   → Uploaded image: Language.png
+2026-07-07 16:15:57,147 - INFO -   → Edit form submitted.
+2026-07-07 16:16:09,156 - INFO -   ✓ Successfully updated: Language -> Language
+2026-07-07 16:16:09,156 - INFO - 
+[6/24] Updating: [M Star] 'Scan History' (ID: 'codedetails') with 'Scan History'
+2026-07-07 16:16:10,766 - INFO -   → Set display title to: Scan History
+2026-07-07 16:16:11,567 - INFO -   → Set icon color to: #4808F0
+2026-07-07 16:16:11,647 - INFO -   → Uploaded image: Scan History.png
+2026-07-07 16:16:13,724 - INFO -   → Edit form submitted.
+2026-07-07 16:16:25,724 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-07-07 16:16:25,725 - INFO - 
+[7/24] Updating: [M Star] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-07-07 16:16:27,622 - INFO -   → Set display title to: KYC
+2026-07-07 16:16:28,305 - INFO -   → Set icon color to: #F85808
+2026-07-07 16:16:28,390 - INFO -   → Uploaded image: KYC.png
+2026-07-07 16:16:30,480 - INFO -   → Edit form submitted.
+2026-07-07 16:16:42,573 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-07-07 16:16:42,574 - INFO - 
+[8/24] Updating: [M Star] 'Tax Details' (ID: 'tds') with 'TDS'
+2026-07-07 16:16:44,659 - INFO -   → Set display title to: TDS
+2026-07-07 16:16:45,364 - INFO -   → Set icon color to: #20C880
+2026-07-07 16:16:45,450 - INFO -   → Uploaded image: TDS.png
+2026-07-07 16:16:47,528 - INFO -   → Edit form submitted.
+2026-07-07 16:16:59,556 - INFO -   ✓ Successfully updated: Tax Details -> TDS
+2026-07-07 16:16:59,557 - INFO - 
+[9/24] Updating: [Sbu] 'Reward History' (ID: 'history') with 'Scan History'
+2026-07-07 16:17:01,409 - INFO -   → Set display title to: Scan History
+2026-07-07 16:17:02,133 - INFO -   → Set icon color to: #4808F0
+2026-07-07 16:17:02,208 - INFO -   → Uploaded image: Scan History.png
+2026-07-07 16:17:04,295 - INFO -   → Edit form submitted.
+2026-07-07 16:17:16,241 - INFO -   ✓ Successfully updated: Reward History -> Scan History
+2026-07-07 16:17:16,242 - INFO - 
+[10/24] Updating: [Sbu] 'My Rewards' (ID: 'wallet') with 'Rewards'
+2026-07-07 16:17:18,136 - INFO -   → Set display title to: Rewards
+2026-07-07 16:17:18,804 - INFO -   → Set icon color to: #F00048
+2026-07-07 16:17:18,884 - INFO -   → Uploaded image: Rewards.png
+2026-07-07 16:17:20,984 - INFO -   → Edit form submitted.
+2026-07-07 16:17:33,002 - INFO -   ✓ Successfully updated: My Rewards -> Rewards
+2026-07-07 16:17:33,003 - INFO - 
+[11/24] Updating: [Sbu] 'Tips & Offers' (ID: 'blog') with 'Updates'
+2026-07-07 16:17:34,933 - INFO -   → Set display title to: Updates
+2026-07-07 16:17:35,779 - INFO -   → Set icon color to: #F87820
+2026-07-07 16:17:35,873 - INFO -   → Uploaded image: Updates.png
+2026-07-07 16:17:37,953 - INFO -   → Edit form submitted.
+2026-07-07 16:17:49,960 - INFO -   ✓ Successfully updated: Tips & Offers -> Updates
+2026-07-07 16:17:49,962 - INFO - 
+[12/24] Updating: [Sbu] 'Products' (ID: 'productcatalogue') with 'Product Catalog'
+2026-07-07 16:17:51,971 - INFO -   → Set display title to: Product Catalog
+2026-07-07 16:17:52,733 - INFO -   → Set icon color to: #6028E8
+2026-07-07 16:17:52,974 - INFO -   → Uploaded image: Product Catalog.png
+2026-07-07 16:17:55,053 - INFO -   → Edit form submitted.
+2026-07-07 16:18:07,032 - INFO -   ✓ Successfully updated: Products -> Product Catalog
+2026-07-07 16:18:07,033 - INFO - 
+[13/24] Updating: [Sbu] 'Langauge' (ID: 'chooselanguage') with 'Language'
+2026-07-07 16:18:09,223 - INFO -   → Set display title to: Language
+2026-07-07 16:18:09,926 - INFO -   → Set icon color to: #5010E8
+2026-07-07 16:18:10,009 - INFO -   → Uploaded image: Language.png
+2026-07-07 16:18:12,090 - INFO -   → Edit form submitted.
+2026-07-07 16:18:24,082 - INFO -   ✓ Successfully updated: Langauge -> Language
+2026-07-07 16:18:24,083 - INFO - 
+[14/24] Updating: [Sbu] 'Scan History' (ID: 'codedetails') with 'Scan History'
+2026-07-07 16:18:25,930 - INFO -   → Set display title to: Scan History
+2026-07-07 16:18:26,636 - INFO -   → Set icon color to: #4808F0
+2026-07-07 16:18:26,708 - INFO -   → Uploaded image: Scan History.png
+2026-07-07 16:18:28,792 - INFO -   → Edit form submitted.
+2026-07-07 16:18:40,864 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-07-07 16:18:40,865 - INFO - 
+[15/24] Updating: [Sbu] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-07-07 16:18:43,027 - INFO -   → Set display title to: KYC
+2026-07-07 16:18:43,754 - INFO -   → Set icon color to: #F85808
+2026-07-07 16:18:43,823 - INFO -   → Uploaded image: KYC.png
+2026-07-07 16:18:45,900 - INFO -   → Edit form submitted.
+2026-07-07 16:18:57,981 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-07-07 16:18:57,982 - INFO - 
+[16/24] Updating: [Sbu] 'Tax Details' (ID: 'tds') with 'TDS'
+2026-07-07 16:18:59,820 - INFO -   → Set display title to: TDS
+2026-07-07 16:19:00,553 - INFO -   → Set icon color to: #20C880
+2026-07-07 16:19:00,699 - INFO -   → Uploaded image: TDS.png
+2026-07-07 16:19:02,780 - INFO -   → Edit form submitted.
+2026-07-07 16:19:14,860 - INFO -   ✓ Successfully updated: Tax Details -> TDS
+2026-07-07 16:19:14,861 - INFO - 
+[17/24] Updating: [Tech Master] 'Reward History' (ID: 'history') with 'Scan History'
+2026-07-07 16:19:17,115 - INFO -   → Set display title to: Scan History
+2026-07-07 16:19:17,857 - INFO -   → Set icon color to: #4808F0
+2026-07-07 16:19:17,939 - INFO -   → Uploaded image: Scan History.png
+2026-07-07 16:19:20,027 - INFO -   → Edit form submitted.
+2026-07-07 16:19:32,130 - INFO -   ✓ Successfully updated: Reward History -> Scan History
+2026-07-07 16:19:32,131 - INFO - 
+[18/24] Updating: [Tech Master] 'My Rewards' (ID: 'wallet') with 'Rewards'
+2026-07-07 16:19:34,398 - INFO -   → Set display title to: Rewards
+2026-07-07 16:19:35,280 - INFO -   → Set icon color to: #F00048
+2026-07-07 16:19:35,353 - INFO -   → Uploaded image: Rewards.png
+2026-07-07 16:19:37,435 - INFO -   → Edit form submitted.
+2026-07-07 16:19:49,548 - INFO -   ✓ Successfully updated: My Rewards -> Rewards
+2026-07-07 16:19:49,550 - INFO - 
+[19/24] Updating: [Tech Master] 'Tips & Offers' (ID: 'blog') with 'Updates'
+2026-07-07 16:19:51,907 - INFO -   → Set display title to: Updates
+2026-07-07 16:19:52,625 - INFO -   → Set icon color to: #F87820
+2026-07-07 16:19:52,693 - INFO -   → Uploaded image: Updates.png
+2026-07-07 16:19:54,771 - INFO -   → Edit form submitted.
+2026-07-07 16:20:06,842 - INFO -   ✓ Successfully updated: Tips & Offers -> Updates
+2026-07-07 16:20:06,843 - INFO - 
+[20/24] Updating: [Tech Master] 'Products' (ID: 'productcatalogue') with 'Product Catalog'
+2026-07-07 16:20:08,942 - INFO -   → Set display title to: Product Catalog
+2026-07-07 16:20:09,473 - INFO -   → Set icon color to: #6028E8
+2026-07-07 16:20:09,520 - INFO -   → Uploaded image: Product Catalog.png
+2026-07-07 16:20:11,555 - INFO -   → Edit form submitted.
+2026-07-07 16:20:23,167 - INFO -   ✓ Successfully updated: Products -> Product Catalog
+2026-07-07 16:20:23,168 - INFO - 
+[21/24] Updating: [Tech Master] 'Language' (ID: 'chooselanguage') with 'Language'
+2026-07-07 16:20:24,155 - INFO -   → Set display title to: Language
+2026-07-07 16:20:24,552 - INFO -   → Set icon color to: #5010E8
+2026-07-07 16:20:24,581 - INFO -   → Uploaded image: Language.png
+2026-07-07 16:20:26,608 - INFO -   → Edit form submitted.
+2026-07-07 16:20:38,228 - INFO -   ✓ Successfully updated: Language -> Language
+2026-07-07 16:20:38,229 - INFO - 
+[22/24] Updating: [Tech Master] 'Scan History' (ID: 'codedetails') with 'Scan History'
+2026-07-07 16:20:39,680 - INFO -   → Set display title to: Scan History
+2026-07-07 16:20:40,076 - INFO -   → Set icon color to: #4808F0
+2026-07-07 16:20:40,108 - INFO -   → Uploaded image: Scan History.png
+2026-07-07 16:20:42,139 - INFO -   → Edit form submitted.
+2026-07-07 16:20:53,776 - INFO -   ✓ Successfully updated: Scan History -> Scan History
+2026-07-07 16:20:53,777 - INFO - 
+[23/24] Updating: [Tech Master] 'Kyc' (ID: 'kycdetails') with 'KYC'
+2026-07-07 16:20:55,427 - INFO -   → Set display title to: KYC
+2026-07-07 16:20:55,796 - INFO -   → Set icon color to: #F85808
+2026-07-07 16:20:55,822 - INFO -   → Uploaded image: KYC.png
+2026-07-07 16:20:57,854 - INFO -   → Edit form submitted.
+2026-07-07 16:21:09,462 - INFO -   ✓ Successfully updated: Kyc -> KYC
+2026-07-07 16:21:09,462 - INFO - 
+[24/24] Updating: [Tech Master] 'Tax Details' (ID: 'tds') with 'TDS'
+2026-07-07 16:21:11,014 - INFO -   → Set display title to: TDS
+2026-07-07 16:21:11,399 - INFO -   → Set icon color to: #20C880
+2026-07-07 16:21:11,438 - INFO -   → Uploaded image: TDS.png
+2026-07-07 16:21:13,469 - INFO -   → Edit form submitted.
+2026-07-07 16:21:25,103 - INFO -   ✓ Successfully updated: Tax Details -> TDS
+2026-07-07 16:21:25,103 - INFO - ============================================================
+2026-07-07 16:21:25,104 - INFO - UPDATE ACCOUNT SUMMARY: bhabhra.sangeeta@mahindra.com
+2026-07-07 16:21:25,104 - INFO - ✓ Succeeded: 24
+2026-07-07 16:21:25,104 - INFO - ✗ Failed: 0
+2026-07-07 16:21:25,104 - INFO - ============================================================
+2026-07-07 16:21:27,347 - INFO - Browser closed
+2026-07-07 16:21:31,411 - INFO -   ✓ Completed update for vcqru
+2026-07-07 16:21:31,412 - INFO - 
+============================================================
+2026-07-07 16:21:31,412 - INFO - BATCH UPDATE — FINAL SUMMARY
+2026-07-07 16:21:31,413 - INFO - ============================================================
+2026-07-07 16:21:31,413 - INFO -   Total accounts  : 1
+2026-07-07 16:21:31,413 - INFO -   ✓ Succeeded     : 1
+2026-07-07 16:21:31,414 - INFO -   ✗ Login failed  : 0
+2026-07-07 16:21:31,414 - INFO -   ✗ Update errors : 0
+2026-07-07 16:21:31,415 - INFO - ============================================================
+2026-07-07 16:21:31,415 - INFO - 
+Task finished at 2026-07-07 16:21:31
+2026-07-07 16:21:31,416 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260707_161226.log
+
+2026-07-07 16:33:21,585 - INFO - Automation cancelled by user (Ctrl+C)

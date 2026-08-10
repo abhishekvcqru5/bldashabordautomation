@@ -1,0 +1,14 @@
+2026-06-18 16:32:48,629 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 16:32:56,801 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-18 16:32:58,084 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-06-18 16:33:00,568 - INFO - 
+Task finished at 2026-06-18 16:33:00
+2026-06-18 16:33:00,569 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_163229.log
+
+2026-06-18 16:33:13,361 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 16:33:20,812 - INFO - Downloading credentials from Google Sheet: https://docs.google.com/spreadsheets/d/13WzwuUF6GY7mi5FPh-ISZdAAWX_a3DCsmnn4clnRk0g/export?format=csv&gid=0
+2026-06-18 16:33:21,839 - INFO - Found 1 credential sets (fully populated) in Google Sheet.
+2026-06-18 16:33:25,209 - INFO - 
+Task finished at 2026-06-18 16:33:25
+2026-06-18 16:33:25,210 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_163229.log
+

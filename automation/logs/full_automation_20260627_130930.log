@@ -1,0 +1,88 @@
+2026-06-27 13:10:14,329 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-27 13:10:50,627 - INFO - Target User Types: ['0']
+2026-06-27 13:10:50,628 - INFO - Target Dashboard Icons: ['KYC']
+2026-06-27 13:10:50,643 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-27 13:10:50,643 - INFO - Output folder: automation\processed_images
+2026-06-27 13:10:50,644 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-27 13:10:50,726 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-27 13:10:50,795 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-27 13:10:50,813 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-27 13:10:50,872 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-27 13:10:50,917 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-27 13:10:50,964 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-27 13:10:51,005 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-27 13:10:51,029 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-27 13:10:51,084 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-27 13:10:51,125 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-27 13:10:51,173 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-27 13:10:51,236 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-27 13:10:51,284 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-27 13:10:51,334 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-27 13:10:51,335 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-27 13:10:51,382 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-27 13:10:51,383 - INFO - 
+============================================================
+2026-06-27 13:10:51,383 - INFO - Launching Browser and Starting Upload Process
+2026-06-27 13:10:51,383 - INFO - ============================================================
+2026-06-27 13:10:51,401 - INFO - ====== WebDriver manager ======
+2026-06-27 13:10:54,097 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-27 13:10:54,656 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-27 13:10:55,126 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-27 13:10:56,146 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-27 13:10:56,155 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-27 13:10:56,156 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-27 13:10:56,539 - INFO - Driver downloading response is 200
+2026-06-27 13:10:57,000 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-27 13:10:57,568 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-27 13:10:57,574 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-27 13:11:00,831 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-27 13:11:00,845 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-27 13:11:00,915 - INFO - ✓ Chrome driver initialized
+2026-06-27 13:11:00,917 - INFO - 
+→ Attempting login...
+
+2026-06-27 13:11:00,918 - INFO - Opening login page...
+2026-06-27 13:11:02,478 - INFO -   → Policy checkbox checked on login page
+2026-06-27 13:11:02,648 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-27 13:11:02,684 - INFO -   → Policy agreement popup detected
+2026-06-27 13:11:02,751 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-27 13:11:03,298 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-27 13:11:09,573 - INFO -   → Policy agreement popup detected
+2026-06-27 13:11:09,615 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-27 13:11:10,145 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-27 13:11:10,157 - INFO - ✓ Login successful
+2026-06-27 13:11:12,158 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-27 13:11:12,159 - INFO - Navigating to App Settings...
+2026-06-27 13:11:18,729 - INFO - ✓ Dashboard Icons section loaded
+2026-06-27 13:11:20,730 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-27 13:11:20,731 - INFO - Starting batch – 1 configured entries
+2026-06-27 13:11:20,731 - INFO - Total icons to upload after expansion: 1
+2026-06-27 13:11:20,732 - INFO - ============================================================
+2026-06-27 13:11:20,732 - INFO - [1/1]
+2026-06-27 13:11:20,732 - INFO -   Adding: [0] KYC  (kycdetails)
+2026-06-27 13:11:33,119 - ERROR -   ✗ Failed to add [KYC]: Message: Cannot locate option with value: 0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-27 13:11:33,674 - INFO -   📸 Screenshot saved: automation\screenshots\error_KYC_20260627_131133.png
+2026-06-27 13:11:35,843 - INFO - ============================================================
+2026-06-27 13:11:35,844 - INFO - Batch complete → ✓ 0 succeeded  ✗ 1 failed
+2026-06-27 13:11:35,844 - INFO - 
+============================================================
+2026-06-27 13:11:35,845 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-27 13:11:35,845 - INFO - ============================================================
+2026-06-27 13:11:35,846 - INFO - ✓ Successful uploads: 0
+2026-06-27 13:11:35,846 - INFO - ✗ Failed uploads: 1
+2026-06-27 13:11:35,846 - INFO - Total processed: 1
+2026-06-27 13:11:35,847 - INFO - Success rate: 0.0%
+2026-06-27 13:11:35,847 - INFO - ============================================================
+2026-06-27 13:11:38,338 - INFO - Browser closed
+2026-06-27 13:11:42,420 - INFO - 
+Task finished at 2026-06-27 13:11:42
+2026-06-27 13:11:42,420 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260627_130930.log
+

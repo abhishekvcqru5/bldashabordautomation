@@ -1,0 +1,173 @@
+2026-07-17 15:11:59,334 - INFO - User selected: Brand Setting
+2026-07-17 15:13:34,652 - INFO -   Found logo asset: Logo.png
+2026-07-17 15:13:34,684 - INFO -   Found splash asset: splash.jpeg
+2026-07-17 15:13:34,687 - INFO - ============================================================
+2026-07-17 15:13:34,689 - INFO - BRAND SETTING — Image Processing
+2026-07-17 15:13:34,705 - INFO - ============================================================
+2026-07-17 15:13:36,100 - INFO - ✓ Logo  → logo_processed.jpg  |  32.6 KB  |  JPEG q95
+2026-07-17 15:13:36,521 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-17 15:13:36,533 - INFO - 
+2026-07-17 15:13:36,534 - INFO - Extracting brand colours from logo...
+2026-07-17 15:13:38,052 - INFO -   Colours extracted from logo:
+2026-07-17 15:13:38,056 - INFO -     Header Color     →  #E00010  (dominant logo colour)
+2026-07-17 15:13:38,058 - INFO -     Background Color →  #91000A  (35% darker)
+2026-07-17 15:13:38,065 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-17 15:13:38,068 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-17 15:13:38,188 - INFO - ✓ Both images ready
+
+2026-07-17 15:13:38,203 - INFO - ============================================================
+2026-07-17 15:13:38,210 - INFO - BRAND SETTING — Browser Automation
+2026-07-17 15:13:38,224 - INFO - ============================================================
+2026-07-17 15:13:38,652 - INFO - ====== WebDriver manager ======
+2026-07-17 15:14:21,974 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 15:14:22,919 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 15:14:23,269 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 15:14:23,286 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 15:14:35,090 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 15:14:35,225 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 15:14:35,427 - INFO - ✓ Chrome driver initialized
+2026-07-17 15:14:35,439 - INFO - Opening login page...
+2026-07-17 15:14:41,889 - INFO -   → Policy checkbox checked on login page
+2026-07-17 15:14:43,176 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 15:14:43,609 - INFO -   → Policy agreement popup detected
+2026-07-17 15:14:44,293 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 15:14:45,156 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 15:14:54,243 - INFO -   → Policy agreement popup detected
+2026-07-17 15:14:55,121 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 15:14:56,624 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 15:14:57,158 - INFO - ✓ Login successful
+2026-07-17 15:14:59,218 - INFO - Going to App Settings...
+2026-07-17 15:15:10,009 - INFO -   → Identity & Branding section opened
+2026-07-17 15:15:14,810 - INFO -   → Edit Branding popup opened
+2026-07-17 15:15:15,150 - INFO - ✓ Brand setting form is ready
+2026-07-17 15:15:15,160 - INFO -   Setting company name: Delta Oil Doctor
+2026-07-17 15:15:25,506 - INFO -     → HeaderColor: #E00010
+2026-07-17 15:15:28,841 - INFO -     → FooterColor: #F5F5F5
+2026-07-17 15:15:31,236 - INFO -     → BodyColor: #FFFFFF
+2026-07-17 15:15:33,547 - INFO -     → BackgroundColor: #91000A
+2026-07-17 15:15:36,525 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-17 15:15:38,785 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-17 15:15:39,492 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-17 15:15:42,591 - INFO - ✓ Brand settings saved successfully!
+2026-07-17 15:15:51,320 - INFO - Browser closed
+2026-07-17 15:15:55,385 - INFO - 
+Task finished at 2026-07-17 15:15:55
+2026-07-17 15:15:55,405 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_143726.log
+
+2026-07-17 16:25:54,280 - INFO - User selected: Intro Screens
+2026-07-17 16:25:54,301 - INFO - ============================================================
+2026-07-17 16:25:54,302 - INFO - INTRO SCREENS — Image Processing
+2026-07-17 16:25:54,310 - INFO - ============================================================
+2026-07-17 16:25:54,355 - INFO - Found 2 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-07-17 16:25:54,464 - INFO -   ⚙ Processing ChatGPT Image Jul 17, 2026, 04_23_14 PM.png  (941×1672 → need 1080×1920)
+2026-07-17 16:25:54,790 - INFO -   ✓ ChatGPT Image Jul 17, 2026, 04_23_14 PM.png  →  ChatGPT Image Jul 17, 2026, 04_23_14 PM_processed.jpg  |  1080×1920  |  0.48 MB  |  quality 92
+2026-07-17 16:25:54,828 - INFO -   ⚙ Processing ChatGPT Image Jul 17, 2026, 04_25_17 PM.png  (941×1672 → need 1080×1920)
+2026-07-17 16:25:55,127 - INFO -   ✓ ChatGPT Image Jul 17, 2026, 04_25_17 PM.png  →  ChatGPT Image Jul 17, 2026, 04_25_17 PM_processed.jpg  |  1080×1920  |  0.51 MB  |  quality 92
+2026-07-17 16:25:55,130 - INFO -   Processed 2/2 intro images successfully
+
+2026-07-17 16:25:58,080 - INFO - ============================================================
+2026-07-17 16:25:58,080 - INFO - INTRO SCREENS — Browser Automation
+2026-07-17 16:25:58,080 - INFO - ============================================================
+2026-07-17 16:25:58,171 - INFO - ====== WebDriver manager ======
+2026-07-17 16:26:02,135 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 16:26:02,633 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 16:26:02,801 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 16:26:02,805 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 16:26:06,645 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 16:26:06,653 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 16:26:06,735 - INFO - ✓ Chrome driver initialized
+2026-07-17 16:26:06,736 - INFO - Opening login page...
+2026-07-17 16:26:08,571 - INFO -   → Policy checkbox checked on login page
+2026-07-17 16:26:08,817 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 16:26:08,880 - INFO -   → Policy agreement popup detected
+2026-07-17 16:26:08,989 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 16:26:09,569 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 16:26:15,785 - INFO -   → Policy agreement popup detected
+2026-07-17 16:26:15,891 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 16:26:16,457 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 16:26:16,477 - INFO - ✓ Login successful
+2026-07-17 16:26:18,517 - INFO - Going to App Settings...
+2026-07-17 16:26:25,363 - INFO -   → Intro Screens section opened
+2026-07-17 16:26:25,404 - INFO - ✓ Intro Screens page ready
+2026-07-17 16:26:25,448 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-07-17 16:26:25,449 - INFO - ============================================================
+2026-07-17 16:26:25,450 - INFO - [1/2]
+2026-07-17 16:26:25,451 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-17 16:26:28,316 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-17 16:26:29,781 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-17 16:26:32,001 - INFO -     → Image uploaded: ChatGPT Image Jul 17, 2026, 04_23_14 PM_processed.jpg
+2026-07-17 16:26:32,277 - INFO -     → Launch Screen clicked
+2026-07-17 16:26:36,303 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-17 16:26:37,306 - INFO - [2/2]
+2026-07-17 16:26:37,307 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-07-17 16:26:39,913 - INFO -     → Header: Scan, Earn, Celebrate
+2026-07-17 16:26:41,448 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-07-17 16:26:43,549 - INFO -     → Image uploaded: ChatGPT Image Jul 17, 2026, 04_25_17 PM_processed.jpg
+2026-07-17 16:26:43,881 - INFO -     → Launch Screen clicked
+2026-07-17 16:26:47,916 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-07-17 16:26:48,924 - INFO - ============================================================
+2026-07-17 16:26:48,927 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-07-17 16:26:51,859 - INFO - Browser closed
+2026-07-17 16:26:55,914 - INFO - 
+Task finished at 2026-07-17 16:26:55
+2026-07-17 16:26:55,916 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_143726.log
+
+2026-07-17 16:49:01,930 - INFO - User selected: Promotion Banners
+2026-07-17 16:49:01,933 - INFO - ============================================================
+2026-07-17 16:49:01,933 - INFO - PROMOTION BANNERS — Image Processing
+2026-07-17 16:49:01,934 - INFO - ============================================================
+2026-07-17 16:49:01,947 - INFO - Found 2 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-07-17 16:49:01,999 - INFO -   ⚙ Processing ChatGPT Image Jul 17, 2026, 04_47_04 PM.png  (size 1672×941 → need 1920×1080)
+2026-07-17 16:49:02,222 - INFO -   ✓ ChatGPT Image Jul 17, 2026, 04_47_04 PM.png  →  ChatGPT Image Jul 17, 2026, 04_47_04 PM_processed.jpg  |  1920×1080  |  0.14 MB  |  quality 92
+2026-07-17 16:49:02,259 - INFO -   ⚙ Processing ChatGPT Image Jul 17, 2026, 04_48_24 PM.png  (size 1672×941 → need 1920×1080)
+2026-07-17 16:49:02,433 - INFO -   ✓ ChatGPT Image Jul 17, 2026, 04_48_24 PM.png  →  ChatGPT Image Jul 17, 2026, 04_48_24 PM_processed.jpg  |  1920×1080  |  0.11 MB  |  quality 92
+2026-07-17 16:49:02,435 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-07-17 16:49:02,439 - INFO - ============================================================
+2026-07-17 16:49:02,441 - INFO - PROMOTION BANNERS — Browser Automation
+2026-07-17 16:49:02,442 - INFO - ============================================================
+2026-07-17 16:49:02,495 - INFO - ====== WebDriver manager ======
+2026-07-17 16:49:06,852 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 16:49:07,102 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 16:49:07,305 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 16:49:07,308 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 16:49:09,945 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 16:49:09,977 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 16:49:10,078 - INFO - ✓ Chrome driver initialized
+2026-07-17 16:49:10,083 - INFO - Opening login page...
+2026-07-17 16:49:13,176 - INFO -   → Policy checkbox checked on login page
+2026-07-17 16:49:14,115 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 16:49:14,180 - INFO -   → Policy agreement popup detected
+2026-07-17 16:49:14,511 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 16:49:15,061 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 16:49:26,493 - INFO - ✓ Login successful
+2026-07-17 16:49:28,501 - INFO - Going to App Settings...
+2026-07-17 16:49:34,738 - INFO -   → Promotion Banners section opened
+2026-07-17 16:49:34,752 - INFO - ✓ Promotion Banners page ready
+2026-07-17 16:49:34,753 - INFO - Starting batch  —  2 banner(s) to publish
+2026-07-17 16:49:34,753 - INFO - ============================================================
+2026-07-17 16:49:34,755 - INFO - [1/2]
+2026-07-17 16:49:34,757 - INFO -   Publishing: [ChatGPT Image Jul 17, 2026, 04_47_04 PM]  (ChatGPT Image Jul 17, 2026, 04_47_04 PM_processed.jpg)
+2026-07-17 16:49:37,016 - INFO -     → Title entered: ChatGPT Image Jul 17, 2026, 04_47_04 PM
+2026-07-17 16:49:39,053 - INFO -     → Image uploaded: ChatGPT Image Jul 17, 2026, 04_47_04 PM_processed.jpg
+2026-07-17 16:49:39,167 - INFO -     → Publish Banner clicked
+2026-07-17 16:49:43,182 - INFO -   ✓ Banner published: ChatGPT Image Jul 17, 2026, 04_47_04 PM
+
+2026-07-17 16:49:44,184 - INFO - [2/2]
+2026-07-17 16:49:44,184 - INFO -   Publishing: [ChatGPT Image Jul 17, 2026, 04_48_24 PM]  (ChatGPT Image Jul 17, 2026, 04_48_24 PM_processed.jpg)
+2026-07-17 16:49:46,451 - INFO -     → Title entered: ChatGPT Image Jul 17, 2026, 04_48_24 PM
+2026-07-17 16:49:48,477 - INFO -     → Image uploaded: ChatGPT Image Jul 17, 2026, 04_48_24 PM_processed.jpg
+2026-07-17 16:49:48,568 - INFO -     → Publish Banner clicked
+2026-07-17 16:49:52,582 - INFO -   ✓ Banner published: ChatGPT Image Jul 17, 2026, 04_48_24 PM
+
+2026-07-17 16:49:53,582 - INFO - ============================================================
+2026-07-17 16:49:53,583 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-07-17 16:49:55,918 - INFO - Browser closed
+2026-07-17 16:49:59,968 - INFO - 
+Task finished at 2026-07-17 16:49:59
+2026-07-17 16:49:59,969 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_143726.log
+
+2026-07-17 18:15:47,329 - INFO - Automation cancelled by user (Ctrl+C)

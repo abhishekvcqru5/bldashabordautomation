@@ -1,0 +1,753 @@
+2026-07-01 22:37:01,502 - INFO - User selected: Product Management Image Upload
+2026-07-01 22:37:01,502 - INFO - ============================================================
+2026-07-01 22:37:01,502 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-01 22:37:01,502 - INFO - ============================================================
+2026-07-01 22:37:01,505 - INFO - Total folders found: 83
+2026-07-01 22:37:01,506 - INFO - Resuming: 28 products already completed
+2026-07-01 22:37:01,506 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 22:37:01,506 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 22:37:01,506 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 22:37:01,507 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm submersible flat cable 100 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm submersible flat cable 500 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 22:37:01,508 - INFO -   ✓ Already done (skipping): 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 22:37:01,523 - INFO - Pending: 55 products to upload
+2026-07-01 22:37:01,523 - INFO - 
+============================================================
+2026-07-01 22:37:01,523 - INFO - BATCH 1/6 — 10 products
+2026-07-01 22:37:01,524 - INFO - ============================================================
+2026-07-01 22:37:01,534 - INFO - ====== WebDriver manager ======
+2026-07-01 22:37:02,820 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:37:03,125 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:37:03,388 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:37:03,389 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:37:04,729 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:37:04,732 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:37:04,759 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:37:04,760 - INFO - Logging in…
+2026-07-01 22:37:04,760 - INFO - Opening login page...
+2026-07-01 22:37:06,209 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:37:06,283 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:37:06,297 - INFO -   → Policy agreement popup detected
+2026-07-01 22:37:06,331 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:37:06,854 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:37:12,986 - INFO -   → Policy agreement popup detected
+2026-07-01 22:37:13,017 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 22:37:13,867 - INFO -     ✓ Clicked Continue button
+2026-07-01 22:37:13,981 - INFO -     ✓ Policy popup dismissed
+2026-07-01 22:37:14,986 - INFO - ✓ Login successful
+2026-07-01 22:37:20,519 - INFO - Clicked Product Management
+2026-07-01 22:37:23,565 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:37:23,565 - INFO - Processing: 10.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:37:24,662 - INFO -   Matched → '10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:37:28,473 - INFO -   Modal opened
+2026-07-01 22:37:29,857 - INFO -   Removed existing image
+2026-07-01 22:37:31,235 - INFO -   Clicked Add button
+2026-07-01 22:37:32,270 - INFO -   Uploaded: 63137fc6-1845-4160-ad12-edf623cf92b4.jpg
+2026-07-01 22:37:35,689 - INFO -   Clicked Save
+2026-07-01 22:37:36,772 - INFO -   ✓ Done: 10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 22:37:37,775 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:37:37,776 - INFO - Processing: 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-01 22:37:37,850 - INFO -   Matched → '14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing'
+2026-07-01 22:37:41,732 - INFO -   Modal opened
+2026-07-01 22:37:43,134 - INFO -   Removed existing image
+2026-07-01 22:37:44,509 - INFO -   Clicked Add button
+2026-07-01 22:37:45,534 - INFO -   Uploaded: 0922d53e-4c91-4335-9559-9367dffe7dd4.jpg
+2026-07-01 22:37:48,913 - INFO -   Clicked Save
+2026-07-01 22:38:03,952 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:38:04,953 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:38:04,954 - INFO - Processing: 14_40 x 2 core white parallel wire 90 mtr
+2026-07-01 22:38:05,002 - INFO -   Matched → '14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing'
+2026-07-01 22:38:10,856 - INFO -   Modal opened
+2026-07-01 22:38:12,232 - INFO -   Removed existing image
+2026-07-01 22:38:13,620 - INFO -   Clicked Add button
+2026-07-01 22:38:14,646 - INFO -   Uploaded: 1c295799-1941-446a-8424-b50de4966935.jpg
+2026-07-01 22:38:18,033 - INFO -   Clicked Save
+2026-07-01 22:38:33,075 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:38:34,077 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:38:34,077 - INFO - Processing: 14_76 twisted flexible wire 90 mtr
+2026-07-01 22:38:34,154 - INFO -   Matched → '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:38:40,058 - INFO -   Modal opened
+2026-07-01 22:38:41,426 - INFO -   Removed existing image
+2026-07-01 22:38:42,799 - INFO -   Clicked Add button
+2026-07-01 22:38:43,822 - INFO -   Uploaded: 3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg
+2026-07-01 22:38:47,208 - INFO -   Clicked Save
+2026-07-01 22:39:02,315 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:39:03,317 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:39:03,318 - INFO - Processing: 14_76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-01 22:39:03,488 - INFO -   Matched → '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:39:09,351 - INFO -   Modal opened
+2026-07-01 22:39:10,808 - INFO -   Removed existing image
+2026-07-01 22:39:12,213 - INFO -   Clicked Add button
+2026-07-01 22:39:13,262 - INFO -   Uploaded: 11dbd383-d33e-4ef2-8601-b2d8370a6464.jpg
+2026-07-01 22:39:16,656 - INFO -   Clicked Save
+2026-07-01 22:39:31,732 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:39:32,735 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:39:32,735 - INFO - Processing: 16.0  sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:39:35,177 - INFO -   Matched → '6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:39:41,028 - INFO -   Modal opened
+2026-07-01 22:39:42,423 - INFO -   Removed existing image
+2026-07-01 22:39:43,849 - INFO -   Clicked Add button
+2026-07-01 22:39:44,897 - INFO -   Uploaded: 1943f102-7920-4862-8884-4834bc3093d2.jpg
+2026-07-01 22:39:48,331 - INFO -   Clicked Save
+2026-07-01 22:39:48,894 - INFO -   ✓ Done: 6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 22:39:49,896 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:39:49,896 - INFO - Processing: 16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-01 22:39:50,804 - INFO -   Matched → '16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-01 22:39:54,722 - INFO -   Modal opened
+2026-07-01 22:39:56,139 - INFO -   Removed existing image
+2026-07-01 22:39:57,570 - INFO -   Clicked Add button
+2026-07-01 22:39:58,611 - INFO -   Uploaded: 61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg
+2026-07-01 22:40:02,057 - INFO -   Clicked Save
+2026-07-01 22:40:02,631 - INFO -   ✓ Done: 16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-01 22:40:03,646 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:40:03,646 - INFO - Processing: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-01 22:40:04,634 - INFO -   Matched → '16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-01 22:40:08,697 - INFO -   Modal opened
+2026-07-01 22:40:10,112 - INFO -   Removed existing image
+2026-07-01 22:40:11,557 - INFO -   Clicked Add button
+2026-07-01 22:40:12,617 - INFO -   Uploaded: 0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-01 22:40:16,108 - INFO -   Clicked Save
+2026-07-01 22:40:31,462 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:40:32,465 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:40:32,466 - INFO - Processing: 2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-01 22:40:33,524 - INFO -   Matched → '2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-01 22:40:39,551 - INFO -   Modal opened
+2026-07-01 22:40:40,964 - INFO -   Removed existing image
+2026-07-01 22:40:42,505 - INFO -   Clicked Add button
+2026-07-01 22:40:43,549 - INFO -   Uploaded: 4ef82c0d-fbf5-4239-93f6-3e7a0a43705d.jpg
+2026-07-01 22:40:47,006 - INFO -   Clicked Save
+2026-07-01 22:41:02,182 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:41:03,184 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:41:03,184 - INFO - Processing: 2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )
+2026-07-01 22:41:03,884 - INFO -   Matched → '2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-01 22:41:09,743 - INFO -   Modal opened
+2026-07-01 22:41:11,146 - INFO -   Removed existing image
+2026-07-01 22:41:12,537 - INFO -   Clicked Add button
+2026-07-01 22:41:13,570 - INFO -   Uploaded: 65583c12-00ad-4bcf-bc16-d3bf96336ec3.jpg
+2026-07-01 22:41:16,955 - INFO -   Clicked Save
+2026-07-01 22:41:32,017 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:41:35,459 - INFO - Browser closed
+2026-07-01 22:41:35,459 - INFO - 
+============================================================
+2026-07-01 22:41:35,459 - INFO - BATCH 2/6 — 10 products
+2026-07-01 22:41:35,460 - INFO - ============================================================
+2026-07-01 22:41:35,476 - INFO - ====== WebDriver manager ======
+2026-07-01 22:41:36,576 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:41:36,824 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:41:37,073 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:41:37,074 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:41:38,215 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:41:38,218 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:41:38,244 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:41:42,290 - INFO - Logging in…
+2026-07-01 22:41:42,290 - INFO - Opening login page...
+2026-07-01 22:41:43,431 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:41:43,512 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:41:43,529 - INFO -   → Policy agreement popup detected
+2026-07-01 22:41:43,564 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:41:44,093 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:41:50,212 - INFO -   → Policy agreement popup detected
+2026-07-01 22:41:50,229 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 22:41:51,066 - INFO -     ✓ Clicked Continue button
+2026-07-01 22:41:51,647 - INFO -     ✓ Policy popup dismissed
+2026-07-01 22:41:52,655 - INFO - ✓ Login successful
+2026-07-01 22:41:58,239 - INFO - Clicked Product Management
+2026-07-01 22:42:01,260 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:42:01,261 - INFO - Processing: 2.5 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 22:42:01,561 - INFO -   Matched → '2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-01 22:42:05,361 - INFO -   Modal opened
+2026-07-01 22:42:06,815 - INFO -   Removed existing image
+2026-07-01 22:42:08,232 - INFO -   Clicked Add button
+2026-07-01 22:42:09,273 - INFO -   Uploaded: 14b9ecf7-3401-41f1-b625-6772a9a45542.jpg
+2026-07-01 22:42:12,695 - INFO -   Clicked Save
+2026-07-01 22:42:13,768 - INFO -   ✓ Done: 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-01 22:42:14,770 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:42:14,771 - INFO - Processing: 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 22:42:15,288 - INFO -   Matched → '2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-01 22:42:19,149 - INFO -   Modal opened
+2026-07-01 22:42:20,523 - INFO -   Removed existing image
+2026-07-01 22:42:21,917 - INFO -   Clicked Add button
+2026-07-01 22:42:22,950 - INFO -   Uploaded: 0e02a005-a483-422f-a268-bb14d7908da3.jpg
+2026-07-01 22:42:26,352 - INFO -   Clicked Save
+2026-07-01 22:42:41,580 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:42:42,583 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:42:42,583 - INFO - Processing: 2.5 sq.mm FRLSH multistrand cable 90 mtr, 12 coil bag packing
+2026-07-01 22:42:42,785 - INFO -   Matched → '2.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 12 Coil Bag Packing'
+2026-07-01 22:42:48,690 - INFO -   Modal opened
+2026-07-01 22:42:50,068 - INFO -   Removed existing image
+2026-07-01 22:42:51,451 - INFO -   Clicked Add button
+2026-07-01 22:42:52,478 - INFO -   Uploaded: 9d5f9766-d588-4536-8a6f-b6e6ac06a25e.jpg
+2026-07-01 22:42:55,902 - INFO -   Clicked Save
+2026-07-01 22:42:57,003 - INFO -   ✓ Done: 2.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 12 Coil Bag Packing
+2026-07-01 22:42:58,004 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:42:58,004 - INFO - Processing: 2.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 22:42:59,373 - INFO -   Matched → '2.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:43:03,235 - INFO -   Modal opened
+2026-07-01 22:43:04,620 - INFO -   Removed existing image
+2026-07-01 22:43:06,002 - INFO -   Clicked Add button
+2026-07-01 22:43:07,030 - INFO -   Uploaded: 12eb6008-288e-4179-a65f-6d920dd23ce9.jpg
+2026-07-01 22:43:10,430 - INFO -   Clicked Save
+2026-07-01 22:43:11,500 - INFO -   ✓ Done: 2.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr
+2026-07-01 22:43:12,502 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:43:12,502 - INFO - Processing: 2.5 sq.mm HRFR multistrand cable 90 mtr, 12 coil carton packing
+2026-07-01 22:43:12,747 - INFO -   Matched → '2.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 12 Coil Carton Packing'
+2026-07-01 22:43:16,619 - INFO -   Modal opened
+2026-07-01 22:43:18,004 - INFO -   Removed existing image
+2026-07-01 22:43:19,392 - INFO -   Clicked Add button
+2026-07-01 22:43:20,419 - INFO -   Uploaded: 0a5e4c6d-e51f-4129-840e-eb6e8add256b.jpg
+2026-07-01 22:43:23,833 - INFO -   Clicked Save
+2026-07-01 22:43:24,390 - INFO -   ✓ Done: 2.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 12 Coil Carton Packing
+2026-07-01 22:43:25,395 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:43:25,395 - INFO - Processing: 2.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:43:26,487 - INFO -   Matched → '2.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:43:30,284 - INFO -   Modal opened
+2026-07-01 22:43:31,672 - INFO -   Removed existing image
+2026-07-01 22:43:33,049 - INFO -   Clicked Add button
+2026-07-01 22:43:34,084 - INFO -   Uploaded: 54b9aa2d-d084-4814-b287-620c51caa96b.jpg
+2026-07-01 22:43:37,477 - INFO -   Clicked Save
+2026-07-01 22:43:38,053 - INFO -   ✓ Done: 2.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 22:43:39,055 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:43:39,056 - INFO - Processing: 2.5 sq.mm submersible flat cable 100 mtr
+2026-07-01 22:43:39,814 - INFO -   Matched → '2.5 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-01 22:43:43,719 - INFO -   Modal opened
+2026-07-01 22:43:45,122 - INFO -   Removed existing image
+2026-07-01 22:43:46,545 - INFO -   Clicked Add button
+2026-07-01 22:43:47,573 - INFO -   Uploaded: 0a43801c-5d34-46e4-b6d4-44bce0fb18b3.jpg
+2026-07-01 22:43:51,017 - INFO -   Clicked Save
+2026-07-01 22:44:06,096 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:44:07,097 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:44:07,097 - INFO - Processing: 2.5 sq.mm submersible flat cable 500 mtr
+2026-07-01 22:44:07,790 - INFO -   Matched → '2.5 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-01 22:44:13,583 - INFO -   Modal opened
+2026-07-01 22:44:14,951 - INFO -   Removed existing image
+2026-07-01 22:44:16,325 - INFO -   Clicked Add button
+2026-07-01 22:44:17,353 - INFO -   Uploaded: 373a0fc1-76f0-4525-aa85-655e91140b0a.jpg
+2026-07-01 22:44:20,744 - INFO -   Clicked Save
+2026-07-01 22:44:21,279 - INFO -   ✓ Done: 2.5 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-01 22:44:22,281 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:44:22,282 - INFO - Processing: 2.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:44:23,639 - INFO -   Matched → '2.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:44:27,512 - INFO -   Modal opened
+2026-07-01 22:44:28,886 - INFO -   Removed existing image
+2026-07-01 22:44:30,266 - INFO -   Clicked Add button
+2026-07-01 22:44:31,290 - INFO -   Uploaded: 16e0d918-8a9d-4642-bbf2-6ef3159aef53.jpg
+2026-07-01 22:44:34,683 - INFO -   Clicked Save
+2026-07-01 22:44:35,734 - INFO -   ✓ Done: 2.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:44:36,736 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:44:36,736 - INFO - Processing: 2.5 sq.mm x 3 core FRLSH  round copper flexible cable 90 mtr
+2026-07-01 22:44:37,620 - INFO -   Matched → '2.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:44:41,449 - INFO -   Modal opened
+2026-07-01 22:44:42,821 - INFO -   Removed existing image
+2026-07-01 22:44:44,199 - INFO -   Clicked Add button
+2026-07-01 22:44:45,226 - INFO -   Uploaded: 090f0e01-3c59-47d5-a907-6b2259069bc7.jpg
+2026-07-01 22:44:48,616 - INFO -   Clicked Save
+2026-07-01 22:44:49,144 - INFO -   ✓ Done: 2.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:44:52,360 - INFO - Browser closed
+2026-07-01 22:44:52,360 - INFO - 
+============================================================
+2026-07-01 22:44:52,361 - INFO - BATCH 3/6 — 10 products
+2026-07-01 22:44:52,361 - INFO - ============================================================
+2026-07-01 22:44:52,371 - INFO - ====== WebDriver manager ======
+2026-07-01 22:44:53,342 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:44:53,597 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:44:53,878 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:44:53,878 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:44:55,014 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:44:55,016 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:44:55,044 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:44:59,092 - INFO - Logging in…
+2026-07-01 22:44:59,093 - INFO - Opening login page...
+2026-07-01 22:45:00,247 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:45:00,318 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:45:00,331 - INFO -   → Policy agreement popup detected
+2026-07-01 22:45:00,362 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:45:00,883 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:45:07,016 - INFO -   → Policy agreement popup detected
+2026-07-01 22:45:07,031 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 22:45:07,858 - INFO -     ✓ Clicked Continue button
+2026-07-01 22:45:07,954 - INFO -     ✓ Policy popup dismissed
+2026-07-01 22:45:08,961 - INFO - ✓ Login successful
+2026-07-01 22:45:14,457 - INFO - Clicked Product Management
+2026-07-01 22:45:17,489 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:45:17,489 - INFO - Processing: 2.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:45:18,082 - INFO -   Matched → '2.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:45:21,915 - INFO -   Modal opened
+2026-07-01 22:45:23,294 - INFO -   Removed existing image
+2026-07-01 22:45:24,687 - INFO -   Clicked Add button
+2026-07-01 22:45:25,787 - INFO -   Uploaded: 1f209f31-ac7e-4cef-a51c-936585c31598.jpg
+2026-07-01 22:45:29,192 - INFO -   Clicked Save
+2026-07-01 22:45:29,718 - INFO -   ✓ Done: 2.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:45:30,719 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:45:30,719 - INFO - Processing: 23_40 x 2 core copper flat wire 90 mtr
+2026-07-01 22:45:30,834 - INFO -   Matched → '23/40 X 2 Core Copper Flat Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:45:34,707 - INFO -   Modal opened
+2026-07-01 22:45:36,075 - INFO -   Removed existing image
+2026-07-01 22:45:37,452 - INFO -   Clicked Add button
+2026-07-01 22:45:38,479 - INFO -   Uploaded: 21399117-796d-4fd9-87af-bf89f0137504.jpg
+2026-07-01 22:45:41,864 - INFO -   Clicked Save
+2026-07-01 22:45:42,407 - INFO -   ✓ Done: 23/40 X 2 Core Copper Flat Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-01 22:45:43,412 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:45:43,413 - INFO - Processing: 23_40 X 2 core copper flat wire 90 mtr, 25 coils bag packing
+2026-07-01 22:45:43,587 - INFO -   Matched → '23/40 X 2 Core Copper Flat Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:45:47,470 - INFO -   Modal opened
+2026-07-01 22:45:48,843 - INFO -   Removed existing image
+2026-07-01 22:45:50,215 - INFO -   Clicked Add button
+2026-07-01 22:45:51,240 - INFO -   Uploaded: c334b267-6954-402b-8dd5-2fdef6be088b.jpg
+2026-07-01 22:45:54,647 - INFO -   Clicked Save
+2026-07-01 22:45:55,179 - INFO -   ✓ Done: 23/40 X 2 Core Copper Flat Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-01 22:45:56,181 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:45:56,181 - INFO - Processing: 23_40 x 2 core speaker wire 90 mtr
+2026-07-01 22:45:56,309 - INFO -   Matched → '23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:46:00,199 - INFO -   Modal opened
+2026-07-01 22:46:01,566 - INFO -   Removed existing image
+2026-07-01 22:46:02,940 - INFO -   Clicked Add button
+2026-07-01 22:46:03,970 - INFO -   Uploaded: 01ada75e-b463-4277-8a02-89970f2b153c.jpg
+2026-07-01 22:46:07,350 - INFO -   Clicked Save
+2026-07-01 22:46:22,411 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:46:23,413 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:46:23,413 - INFO - Processing: 23_40 x 2 core speaker wire 90 mtr, 25 coils bag packing
+2026-07-01 22:46:23,548 - INFO -   Matched → '23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:46:29,479 - INFO -   Modal opened
+2026-07-01 22:46:30,897 - INFO -   Removed existing image
+2026-07-01 22:46:32,304 - INFO -   Clicked Add button
+2026-07-01 22:46:33,335 - INFO -   Uploaded: 3b09a09c-2314-4714-8b60-8a8caa95abbf.jpg
+2026-07-01 22:46:36,798 - INFO -   Clicked Save
+2026-07-01 22:46:52,104 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:46:53,105 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:46:53,105 - INFO - Processing: 23_40 x 2 core white parallel wire 90 mtr
+2026-07-01 22:46:53,141 - INFO -   Matched → '23/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:46:58,996 - INFO -   Modal opened
+2026-07-01 22:47:00,414 - INFO -   Removed existing image
+2026-07-01 22:47:01,817 - INFO -   Clicked Add button
+2026-07-01 22:47:02,864 - INFO -   Uploaded: 7cc8f51c-a587-4400-ab53-802972249bcc.jpg
+2026-07-01 22:47:06,299 - INFO -   Clicked Save
+2026-07-01 22:47:07,370 - INFO -   ✓ Done: 23/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-01 22:47:08,371 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:47:08,371 - INFO - Processing: 23_40 x 2 core white parallel wire 90 mtr, 25 coils bag packing
+2026-07-01 22:47:08,404 - INFO -   Matched → '23/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-01 22:47:12,522 - INFO -   Modal opened
+2026-07-01 22:47:13,941 - INFO -   Removed existing image
+2026-07-01 22:47:15,349 - INFO -   Clicked Add button
+2026-07-01 22:47:16,378 - INFO -   Uploaded: 852ae48f-8be8-4138-9afc-657a5e62e400.jpg
+2026-07-01 22:47:19,802 - INFO -   Clicked Save
+2026-07-01 22:47:20,381 - INFO -   ✓ Done: 23/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-01 22:47:21,383 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:47:21,383 - INFO - Processing: 23_76 twisted flexible wire 90 mtr
+2026-07-01 22:47:21,484 - INFO -   Matched → '23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing'
+2026-07-01 22:47:25,387 - INFO -   Modal opened
+2026-07-01 22:47:26,829 - INFO -   Removed existing image
+2026-07-01 22:47:28,241 - INFO -   Clicked Add button
+2026-07-01 22:47:29,278 - INFO -   Uploaded: 7499c7ff-0d46-4f1b-9e9b-6b8cc30037a3.jpg
+2026-07-01 22:47:32,680 - INFO -   Clicked Save
+2026-07-01 22:47:47,980 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:47:48,981 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:47:48,982 - INFO - Processing: 23_76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-01 22:47:49,044 - INFO -   Matched → '23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing'
+2026-07-01 22:47:54,967 - INFO -   Modal opened
+2026-07-01 22:47:56,454 - INFO -   Removed existing image
+2026-07-01 22:47:57,875 - INFO -   Clicked Add button
+2026-07-01 22:47:58,903 - INFO -   Uploaded: a0d9256f-864a-4c48-a77f-dbfbf03d7800.jpg
+2026-07-01 22:48:02,310 - INFO -   Clicked Save
+2026-07-01 22:48:17,694 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:48:18,696 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:48:18,696 - INFO - Processing: 4.0 sq.mm aluminium  7 stranded twin flat cable 90 mtr
+2026-07-01 22:48:19,526 - INFO -   Matched → '4.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-01 22:48:25,397 - INFO -   Modal opened
+2026-07-01 22:48:26,819 - INFO -   Removed existing image
+2026-07-01 22:48:28,235 - INFO -   Clicked Add button
+2026-07-01 22:48:29,274 - INFO -   Uploaded: 1498350a-6235-416a-8406-7fe8e84615ce.jpg
+2026-07-01 22:48:32,724 - INFO -   Clicked Save
+2026-07-01 22:48:33,282 - INFO -   ✓ Done: 4.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-01 22:48:36,960 - INFO - Browser closed
+2026-07-01 22:48:36,961 - INFO - 
+============================================================
+2026-07-01 22:48:36,961 - INFO - BATCH 4/6 — 10 products
+2026-07-01 22:48:36,961 - INFO - ============================================================
+2026-07-01 22:48:36,983 - INFO - ====== WebDriver manager ======
+2026-07-01 22:48:38,416 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:48:39,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:48:39,639 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:48:39,639 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:48:40,900 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:48:40,905 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:48:40,948 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:48:44,994 - INFO - Logging in…
+2026-07-01 22:48:44,994 - INFO - Opening login page...
+2026-07-01 22:48:46,231 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:48:46,349 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:48:46,366 - INFO -   → Policy agreement popup detected
+2026-07-01 22:48:46,414 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:48:46,950 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:48:53,092 - INFO -   → Policy agreement popup detected
+2026-07-01 22:48:53,113 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 22:48:53,951 - INFO -     ✓ Clicked Continue button
+2026-07-01 22:48:54,686 - INFO -     ✓ Policy popup dismissed
+2026-07-01 22:48:55,702 - INFO - ✓ Login successful
+2026-07-01 22:49:01,628 - INFO - Clicked Product Management
+2026-07-01 22:49:04,652 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:49:04,652 - INFO - Processing: 4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )
+2026-07-01 22:49:05,400 - INFO -   Matched → '4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-01 22:49:09,313 - INFO -   Modal opened
+2026-07-01 22:49:10,744 - INFO -   Removed existing image
+2026-07-01 22:49:12,174 - INFO -   Clicked Add button
+2026-07-01 22:49:13,234 - INFO -   Uploaded: 015092c1-4ef0-417e-b174-bca05c4636c1.jpg
+2026-07-01 22:49:16,701 - INFO -   Clicked Save
+2026-07-01 22:49:32,200 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:49:33,203 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:49:33,203 - INFO - Processing: 4.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 22:49:33,841 - INFO -   Matched → '4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-01 22:49:40,122 - INFO -   Modal opened
+2026-07-01 22:49:41,548 - INFO -   Removed existing image
+2026-07-01 22:49:42,955 - INFO -   Clicked Add button
+2026-07-01 22:49:44,001 - INFO -   Uploaded: 22e9c1b7-4aa4-4373-93b9-89c450fe8a59.jpg
+2026-07-01 22:49:47,434 - INFO -   Clicked Save
+2026-07-01 22:49:48,515 - INFO -   ✓ Done: 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-01 22:49:49,517 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:49:49,517 - INFO - Processing: 4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 22:49:50,307 - INFO -   Matched → '4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-01 22:49:54,226 - INFO -   Modal opened
+2026-07-01 22:49:55,637 - INFO -   Removed existing image
+2026-07-01 22:49:57,048 - INFO -   Clicked Add button
+2026-07-01 22:49:58,084 - INFO -   Uploaded: 2e29f541-6e45-411c-b797-47e80f2272d9.jpg
+2026-07-01 22:50:01,510 - INFO -   Clicked Save
+2026-07-01 22:50:16,895 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:50:17,898 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:50:17,898 - INFO - Processing: 4.0 sq.mm FRLSH multistrand cable 90 mtr, 10 coil bag packing
+2026-07-01 22:50:18,120 - INFO -   Matched → '4.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 10 Coil Bag Packing'
+2026-07-01 22:50:23,987 - INFO -   Modal opened
+2026-07-01 22:50:25,397 - INFO -   Removed existing image
+2026-07-01 22:50:26,804 - INFO -   Clicked Add button
+2026-07-01 22:50:27,849 - INFO -   Uploaded: 6fac99cf-effe-481f-9d86-50a074e40739.jpg
+2026-07-01 22:50:31,290 - INFO -   Clicked Save
+2026-07-01 22:50:32,357 - INFO -   ✓ Done: 4.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 10 Coil Bag Packing
+2026-07-01 22:50:33,360 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:50:33,362 - INFO - Processing: 4.0 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 22:50:35,645 - INFO -   Matched → '4.0 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:50:39,516 - INFO -   Modal opened
+2026-07-01 22:50:40,923 - INFO -   Removed existing image
+2026-07-01 22:50:42,348 - INFO -   Clicked Add button
+2026-07-01 22:50:43,385 - INFO -   Uploaded: 07123e35-e7bd-4740-b15d-c86aaddff76f.jpg
+2026-07-01 22:50:46,875 - INFO -   Clicked Save
+2026-07-01 22:50:47,988 - INFO -   ✓ Done: 4.0 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr
+2026-07-01 22:50:48,991 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:50:48,991 - INFO - Processing: 4.0 sq.mm HRFR multistrand cable 90 mtr, 10 coil carton packing
+2026-07-01 22:50:49,307 - INFO -   Matched → '4.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 10 Coil Carton Packing'
+2026-07-01 22:50:53,194 - INFO -   Modal opened
+2026-07-01 22:50:54,624 - INFO -   Removed existing image
+2026-07-01 22:50:56,061 - INFO -   Clicked Add button
+2026-07-01 22:50:57,104 - INFO -   Uploaded: f7e57ee3-06cb-40cf-949d-b3b6e45419aa.jpg
+2026-07-01 22:51:00,550 - INFO -   Clicked Save
+2026-07-01 22:51:01,100 - INFO -   ✓ Done: 4.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 10 Coil Carton Packing
+2026-07-01 22:51:02,102 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:51:02,103 - INFO - Processing: 4.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:51:03,915 - INFO -   Matched → '4.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:51:07,800 - INFO -   Modal opened
+2026-07-01 22:51:09,205 - INFO -   Removed existing image
+2026-07-01 22:51:10,617 - INFO -   Clicked Add button
+2026-07-01 22:51:11,650 - INFO -   Uploaded: 065a0b8d-9d49-49f6-923b-274ec0ac91fb.jpg
+2026-07-01 22:51:15,089 - INFO -   Clicked Save
+2026-07-01 22:51:15,651 - INFO -   ✓ Done: 4.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 22:51:16,653 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:51:16,653 - INFO - Processing: 4.0 sq.mm submersible flat cable 100 mtr
+2026-07-01 22:51:17,804 - INFO -   Matched → '4.0 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-01 22:51:21,740 - INFO -   Modal opened
+2026-07-01 22:51:23,133 - INFO -   Removed existing image
+2026-07-01 22:51:24,561 - INFO -   Clicked Add button
+2026-07-01 22:51:25,603 - INFO -   Uploaded: 33dceb96-da32-48c4-8781-c72aed016341.jpg
+2026-07-01 22:51:29,009 - INFO -   Clicked Save
+2026-07-01 22:51:44,265 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:51:45,268 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:51:45,268 - INFO - Processing: 4.0 sq.mm submersible flat cable 500 mtr
+2026-07-01 22:51:46,194 - INFO -   Matched → '4.0 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-01 22:51:53,583 - INFO -   Modal opened
+2026-07-01 22:51:55,689 - INFO -   Removed existing image
+2026-07-01 22:51:57,423 - INFO -   Clicked Add button
+2026-07-01 22:51:58,585 - INFO -   Uploaded: 43141eae-fd11-41e4-ba94-58fd2d5aa300.jpg
+2026-07-01 22:52:02,085 - INFO -   Clicked Save
+2026-07-01 22:52:02,719 - INFO -   ✓ Done: 4.0 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-01 22:52:03,722 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:52:03,722 - INFO - Processing: 4.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:52:06,352 - INFO -   Matched → '4.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:52:10,249 - INFO -   Modal opened
+2026-07-01 22:52:11,787 - INFO -   Removed existing image
+2026-07-01 22:52:13,620 - INFO -   Clicked Add button
+2026-07-01 22:52:14,741 - INFO -   Uploaded: 24f48718-f9c7-47bf-a43b-d62c579c2eed.jpg
+2026-07-01 22:52:18,452 - INFO -   Clicked Save
+2026-07-01 22:52:19,001 - INFO -   ✓ Done: 4.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:52:23,050 - INFO - Browser closed
+2026-07-01 22:52:23,050 - INFO - 
+============================================================
+2026-07-01 22:52:23,050 - INFO - BATCH 5/6 — 10 products
+2026-07-01 22:52:23,050 - INFO - ============================================================
+2026-07-01 22:52:23,077 - INFO - ====== WebDriver manager ======
+2026-07-01 22:52:25,191 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:52:26,171 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:52:27,024 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:52:27,027 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:52:28,708 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:52:28,721 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:52:28,825 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:52:32,876 - INFO - Logging in…
+2026-07-01 22:52:32,876 - INFO - Opening login page...
+2026-07-01 22:52:34,278 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:52:34,430 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:52:34,472 - INFO -   → Policy agreement popup detected
+2026-07-01 22:52:34,527 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:52:35,057 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:52:41,432 - INFO -   → Policy agreement popup detected
+2026-07-01 22:52:41,715 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 22:52:43,170 - INFO -     ✓ Clicked Continue button
+2026-07-01 22:52:44,108 - INFO -     ✓ Policy popup dismissed
+2026-07-01 22:52:45,617 - INFO - ✓ Login successful
+2026-07-01 22:52:51,319 - INFO - Clicked Product Management
+2026-07-01 22:52:54,348 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:52:54,348 - INFO - Processing: 4.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:52:56,017 - INFO -   Matched → '4.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:53:00,047 - INFO -   Modal opened
+2026-07-01 22:53:01,533 - INFO -   Removed existing image
+2026-07-01 22:53:03,017 - INFO -   Clicked Add button
+2026-07-01 22:53:04,144 - INFO -   Uploaded: 15ddaf06-6d0c-4ab8-90c1-b2f08eca6c14.jpg
+2026-07-01 22:53:07,648 - INFO -   Clicked Save
+2026-07-01 22:53:08,795 - INFO -   ✓ Done: 4.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:53:09,797 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:53:09,797 - INFO - Processing: 4.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:53:11,933 - INFO -   Matched → '4.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:53:15,967 - INFO -   Modal opened
+2026-07-01 22:53:17,589 - INFO -   Removed existing image
+2026-07-01 22:53:19,100 - INFO -   Clicked Add button
+2026-07-01 22:53:20,156 - INFO -   Uploaded: 3cb6c0fc-e776-4603-aebf-233789f9b855.jpg
+2026-07-01 22:53:23,634 - INFO -   Clicked Save
+2026-07-01 22:53:24,754 - INFO -   ✓ Done: 4.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:53:25,756 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:53:25,756 - INFO - Processing: 40_76 twisted flexible wire 90 mtr
+2026-07-01 22:53:25,904 - INFO -   Matched → '40/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing'
+2026-07-01 22:53:30,171 - INFO -   Modal opened
+2026-07-01 22:53:31,670 - INFO -   Removed existing image
+2026-07-01 22:53:33,172 - INFO -   Clicked Add button
+2026-07-01 22:53:34,221 - INFO -   Uploaded: 5141e5cc-72aa-4a16-89f1-9d3a0d682b07.jpg
+2026-07-01 22:53:37,699 - INFO -   Clicked Save
+2026-07-01 22:53:38,804 - INFO -   ✓ Done: 40/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing
+2026-07-01 22:53:39,806 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:53:39,807 - INFO - Processing: 40_76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-01 22:53:39,935 - INFO -   Matched → '40/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing'
+2026-07-01 22:53:44,236 - INFO -   Modal opened
+2026-07-01 22:53:45,678 - INFO -   Removed existing image
+2026-07-01 22:53:47,120 - INFO -   Clicked Add button
+2026-07-01 22:53:48,173 - INFO -   Uploaded: 26872ccb-3904-4e06-a3b9-6332fc6f6c56.jpg
+2026-07-01 22:53:51,702 - INFO -   Clicked Save
+2026-07-01 22:53:52,820 - INFO -   ✓ Done: 40/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing
+2026-07-01 22:53:53,822 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:53:53,822 - INFO - Processing: 6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-01 22:53:55,356 - INFO -   Matched → '16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-01 22:53:59,539 - INFO -   Modal opened
+2026-07-01 22:54:01,038 - INFO -   Removed existing image
+2026-07-01 22:54:02,490 - INFO -   Clicked Add button
+2026-07-01 22:54:03,538 - INFO -   Uploaded: 1cd58f17-1393-484d-a1f1-35889977d114.jpg
+2026-07-01 22:54:07,023 - INFO -   Clicked Save
+2026-07-01 22:54:07,584 - INFO -   ✓ Done: 16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-01 22:54:08,586 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:54:08,586 - INFO - Processing: 6.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 22:54:09,477 - INFO -   Matched → '6.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-01 22:54:13,673 - INFO -   Modal opened
+2026-07-01 22:54:15,092 - INFO -   Removed existing image
+2026-07-01 22:54:16,542 - INFO -   Clicked Add button
+2026-07-01 22:54:17,590 - INFO -   Uploaded: 30a7ed70-5c01-4501-b9be-4d96886dfb18.jpg
+2026-07-01 22:54:21,099 - INFO -   Clicked Save
+2026-07-01 22:54:21,797 - INFO -   ✓ Done: 6.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-01 22:54:22,799 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:54:22,799 - INFO - Processing: 6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 22:54:23,755 - INFO -   Matched → '6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-01 22:54:27,873 - INFO -   Modal opened
+2026-07-01 22:54:29,331 - INFO -   Removed existing image
+2026-07-01 22:54:31,197 - INFO -   Clicked Add button
+2026-07-01 22:54:32,247 - INFO -   Uploaded: 52903fcd-f5cc-485b-a7dd-646603513a1c.jpg
+2026-07-01 22:54:35,715 - INFO -   Clicked Save
+2026-07-01 22:54:50,942 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:54:51,944 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:54:51,945 - INFO - Processing: 6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded )
+2026-07-01 22:54:52,785 - INFO -   Matched → '6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )'
+2026-07-01 22:54:58,702 - INFO -   Modal opened
+2026-07-01 22:55:00,133 - INFO -   Removed existing image
+2026-07-01 22:55:01,591 - INFO -   Clicked Add button
+2026-07-01 22:55:02,645 - INFO -   Uploaded: 1bc2aee8-1ecf-43fa-ae62-dfefe31bd4c1.jpg
+2026-07-01 22:55:06,089 - INFO -   Clicked Save
+2026-07-01 22:55:21,119 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:55:22,122 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:55:22,122 - INFO - Processing: 6.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:55:26,090 - INFO -   Matched → '6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 22:55:32,122 - INFO -   Modal opened
+2026-07-01 22:55:33,580 - INFO -   Removed existing image
+2026-07-01 22:55:35,035 - INFO -   Clicked Add button
+2026-07-01 22:55:36,299 - INFO -   Uploaded: 1f92e74d-88c1-4abe-9474-588e05d81af8.jpg
+2026-07-01 22:55:39,799 - INFO -   Clicked Save
+2026-07-01 22:55:40,380 - INFO -   ✓ Done: 6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 22:55:41,383 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:55:41,383 - INFO - Processing: 6.0 sq.mm submersible flat cable 100 mtr
+2026-07-01 22:55:43,489 - INFO -   Matched → '6.0 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-01 22:55:47,954 - INFO -   Modal opened
+2026-07-01 22:55:49,614 - INFO -   Removed existing image
+2026-07-01 22:55:51,091 - INFO -   Clicked Add button
+2026-07-01 22:55:52,141 - INFO -   Uploaded: 5c302982-42e3-4fb0-aa9e-e76259534159.jpg
+2026-07-01 22:55:55,585 - INFO -   Clicked Save
+2026-07-01 22:56:10,598 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:56:14,425 - INFO - Browser closed
+2026-07-01 22:56:14,425 - INFO - 
+============================================================
+2026-07-01 22:56:14,425 - INFO - BATCH 6/6 — 5 products
+2026-07-01 22:56:14,425 - INFO - ============================================================
+2026-07-01 22:56:14,448 - INFO - ====== WebDriver manager ======
+2026-07-01 22:56:16,639 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:56:17,545 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 22:56:18,384 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 22:56:18,385 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 22:56:19,773 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 22:56:19,783 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 22:56:19,836 - INFO - ✓ Chrome driver initialized
+2026-07-01 22:56:23,877 - INFO - Logging in…
+2026-07-01 22:56:23,877 - INFO - Opening login page...
+2026-07-01 22:56:25,287 - INFO -   → Policy checkbox checked on login page
+2026-07-01 22:56:25,515 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 22:56:25,548 - INFO -   → Policy agreement popup detected
+2026-07-01 22:56:25,609 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 22:56:26,148 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 22:56:32,526 - INFO -   → Policy agreement popup detected
+2026-07-01 22:56:32,605 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 22:56:33,599 - INFO -     ✓ Clicked Continue button
+2026-07-01 22:56:33,773 - INFO -     ✓ Policy popup dismissed
+2026-07-01 22:56:34,813 - INFO - ✓ Login successful
+2026-07-01 22:56:40,512 - INFO - Clicked Product Management
+2026-07-01 22:56:43,560 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:56:43,561 - INFO - Processing: 6.0 sq.mm submersible flat cable 500 mtr
+2026-07-01 22:56:45,902 - INFO -   Matched → '6.0 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-01 22:56:50,064 - INFO -   Modal opened
+2026-07-01 22:56:51,539 - INFO -   Removed existing image
+2026-07-01 22:56:53,053 - INFO -   Clicked Add button
+2026-07-01 22:56:54,599 - INFO -   Uploaded: 6f9df82e-7efd-4f31-b66d-343c1e673c7e.jpg
+2026-07-01 22:56:58,197 - INFO -   Clicked Save
+2026-07-01 22:56:58,755 - INFO -   ✓ Done: 6.0 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-01 22:56:59,758 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:56:59,758 - INFO - Processing: 6.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:57:02,772 - INFO -   Matched → '6.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:57:06,840 - INFO -   Modal opened
+2026-07-01 22:57:08,403 - INFO -   Removed existing image
+2026-07-01 22:57:09,882 - INFO -   Clicked Add button
+2026-07-01 22:57:10,950 - INFO -   Uploaded: 04b30ed1-e9e4-475c-a5eb-4c274538502d.jpg
+2026-07-01 22:57:14,720 - INFO -   Clicked Save
+2026-07-01 22:57:15,539 - INFO -   ✓ Done: 6.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 22:57:16,544 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:57:16,545 - INFO - Processing: 6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 22:57:19,303 - INFO -   Matched → '6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 22:57:23,866 - INFO -   Modal opened
+2026-07-01 22:57:25,436 - INFO -   Removed existing image
+2026-07-01 22:57:26,923 - INFO -   Clicked Add button
+2026-07-01 22:57:27,985 - INFO -   Uploaded: 83a2b9e7-3b43-431c-b5fc-524092dfffcd.jpg
+2026-07-01 22:57:31,538 - INFO -   Clicked Save
+2026-07-01 22:57:47,019 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:57:48,021 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:57:48,022 - INFO - Processing: RADILITE 23 AWG CAT 6 UTP CCA CABLE 305 MTR
+2026-07-01 22:57:48,703 - INFO -   Matched → 'Radilite 23 Awg Cat 6 Utp Cca Cable 305 Mtr'
+2026-07-01 22:57:54,686 - INFO -   Modal opened
+2026-07-01 22:57:56,122 - INFO -   Removed existing image
+2026-07-01 22:57:57,586 - INFO -   Clicked Add button
+2026-07-01 22:57:58,635 - INFO -   Uploaded: 5af46a52-351b-4de4-a9ef-146faa5f43f1.jpg
+2026-07-01 22:58:02,083 - INFO -   Clicked Save
+2026-07-01 22:58:02,633 - INFO -   ✓ Done: Radilite 23 Awg Cat 6 Utp Cca Cable 305 Mtr
+2026-07-01 22:58:03,635 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:58:03,635 - INFO - Processing: RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR
+2026-07-01 22:58:04,054 - INFO -   Matched → 'Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr'
+2026-07-01 22:58:07,880 - INFO -   Modal opened
+2026-07-01 22:58:09,276 - INFO -   Removed existing image
+2026-07-01 22:58:10,705 - INFO -   Clicked Add button
+2026-07-01 22:58:11,741 - INFO -   Uploaded: 7e992528-db3d-4c2b-adf6-0b7426529ec7.jpg
+2026-07-01 22:58:15,140 - INFO -   Clicked Save
+2026-07-01 22:58:30,604 - WARNING -   Modal did not close in 15s — continuing anyway
+2026-07-01 22:58:34,721 - INFO - Browser closed
+2026-07-01 22:58:34,721 - INFO - 
+============================================================
+2026-07-01 22:58:34,721 - INFO - PRODUCT MANAGEMENT UPLOAD — FINAL SUMMARY
+2026-07-01 22:58:34,721 - INFO -   ✓ Succeeded this run : 55
+2026-07-01 22:58:34,721 - INFO -   ✗ Failed this run    : 0
+2026-07-01 22:58:34,722 - INFO -   Total done (all runs): 83
+2026-07-01 22:58:34,722 - INFO -   Progress file        : C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\ambica_upload_progress.json
+2026-07-01 22:58:34,722 - INFO - ============================================================
+2026-07-01 22:58:38,778 - INFO - 
+Task finished at 2026-07-01 22:58:38
+2026-07-01 22:58:38,778 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260701_223701.log
+

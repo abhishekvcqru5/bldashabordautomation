@@ -1,0 +1,434 @@
+2026-06-20 12:12:00,505 - INFO - User selected: Brand Setting
+2026-06-20 12:12:10,757 - INFO -   Found logo asset: logo.png
+2026-06-20 12:12:10,777 - INFO -   Found splash asset: splash.png
+2026-06-20 12:12:10,793 - INFO - ============================================================
+2026-06-20 12:12:10,796 - INFO - BRAND SETTING — Image Processing
+2026-06-20 12:12:10,813 - INFO - ============================================================
+2026-06-20 12:12:11,360 - INFO - ✓ Logo  → logo_processed.jpg  |  19.7 KB  |  JPEG q95
+2026-06-20 12:12:11,427 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-20 12:12:12,566 - INFO - ✓ Splash → splash_processed.png  |  1.07 MB  |  PNG lossless
+2026-06-20 12:12:12,568 - INFO - 
+2026-06-20 12:12:12,570 - INFO - Extracting brand colours from logo...
+2026-06-20 12:12:12,877 - INFO -   Colours extracted from logo:
+2026-06-20 12:12:12,878 - INFO -     Header Color     →  #00A0E0  (dominant logo colour)
+2026-06-20 12:12:12,879 - INFO -     Background Color →  #006891  (35% darker)
+2026-06-20 12:12:12,879 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-20 12:12:12,880 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-20 12:12:12,901 - INFO - ✓ Both images ready
+
+2026-06-20 12:12:12,902 - INFO - ============================================================
+2026-06-20 12:12:12,905 - INFO - BRAND SETTING — Browser Automation
+2026-06-20 12:12:12,907 - INFO - ============================================================
+2026-06-20 12:12:12,948 - INFO - ====== WebDriver manager ======
+2026-06-20 12:12:16,866 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:12:17,865 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:12:18,667 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-20 12:12:18,670 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-20 12:12:22,659 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-20 12:12:22,692 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-20 12:12:22,845 - INFO - ✓ Chrome driver initialized
+2026-06-20 12:12:22,846 - INFO - Opening login page...
+2026-06-20 12:12:34,816 - INFO -   → Policy checkbox checked on login page
+2026-06-20 12:12:35,083 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-20 12:12:35,139 - INFO -   → Policy agreement popup detected
+2026-06-20 12:12:35,259 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-20 12:12:36,143 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-20 12:12:47,902 - INFO - ✓ Login successful
+2026-06-20 12:12:49,905 - INFO - Going to App Settings...
+2026-06-20 12:12:57,667 - INFO -   → Identity & Branding section opened
+2026-06-20 12:12:59,974 - INFO -   → Edit Branding popup opened
+2026-06-20 12:13:00,033 - INFO - ✓ Brand setting form is ready
+2026-06-20 12:13:00,041 - INFO -   Setting company name: Eriston
+2026-06-20 12:13:01,617 - INFO -     → HeaderColor: #00A0E0
+2026-06-20 12:13:02,701 - INFO -     → FooterColor: #F5F5F5
+2026-06-20 12:13:03,767 - INFO -     → BodyColor: #FFFFFF
+2026-06-20 12:13:04,837 - INFO -     → BackgroundColor: #006891
+2026-06-20 12:13:06,963 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-20 12:13:09,038 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-20 12:13:09,343 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-20 12:13:12,366 - INFO - ✓ Brand settings saved successfully!
+2026-06-20 12:13:15,109 - INFO - Browser closed
+2026-06-20 12:13:19,169 - INFO - 
+Task finished at 2026-06-20 12:13:19
+2026-06-20 12:13:19,171 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260620_120242.log
+
+2026-06-20 12:14:28,132 - INFO - User selected: Promotion Banners
+2026-06-20 12:14:28,133 - INFO - ============================================================
+2026-06-20 12:14:28,133 - INFO - PROMOTION BANNERS — Image Processing
+2026-06-20 12:14:28,134 - INFO - ============================================================
+2026-06-20 12:14:28,137 - INFO - Found 2 banner image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner/
+2026-06-20 12:14:28,193 - INFO -   ⚙ Processing 6b957a72-bc31-4979-9180-b20c263be38b.png  (size 1717×916 → need 1920×1080)
+2026-06-20 12:14:28,478 - INFO -   ✓ 6b957a72-bc31-4979-9180-b20c263be38b.png  →  6b957a72-bc31-4979-9180-b20c263be38b_processed.jpg  |  1920×1080  |  0.43 MB  |  quality 92
+2026-06-20 12:14:28,521 - INFO -   ⚙ Processing be65ac88-ebbb-478f-8b9f-1a473b087814.png  (size 1693×929 → need 1920×1080)
+2026-06-20 12:14:28,765 - INFO -   ✓ be65ac88-ebbb-478f-8b9f-1a473b087814.png  →  be65ac88-ebbb-478f-8b9f-1a473b087814_processed.jpg  |  1920×1080  |  0.46 MB  |  quality 92
+2026-06-20 12:14:28,767 - INFO - 
+  Processed 2/2 banners successfully
+
+2026-06-20 12:14:28,772 - INFO - ============================================================
+2026-06-20 12:14:28,773 - INFO - PROMOTION BANNERS — Browser Automation
+2026-06-20 12:14:28,773 - INFO - ============================================================
+2026-06-20 12:14:28,801 - INFO - ====== WebDriver manager ======
+2026-06-20 12:14:31,961 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:14:32,807 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:14:33,684 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-20 12:14:33,687 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-20 12:14:35,523 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-20 12:14:35,546 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-20 12:14:35,818 - INFO - ✓ Chrome driver initialized
+2026-06-20 12:14:35,831 - INFO - Opening login page...
+2026-06-20 12:14:38,374 - INFO -   → Policy checkbox checked on login page
+2026-06-20 12:14:38,650 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-20 12:14:38,716 - INFO -   → Policy agreement popup detected
+2026-06-20 12:14:38,825 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-20 12:14:40,312 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-20 12:14:52,006 - INFO - ✓ Login successful
+2026-06-20 12:14:54,009 - INFO - Going to App Settings...
+2026-06-20 12:15:00,751 - INFO -   → Promotion Banners section opened
+2026-06-20 12:15:00,782 - INFO - ✓ Promotion Banners page ready
+2026-06-20 12:15:00,782 - INFO - Starting batch  —  2 banner(s) to publish
+2026-06-20 12:15:00,783 - INFO - ============================================================
+2026-06-20 12:15:00,783 - INFO - [1/2]
+2026-06-20 12:15:00,784 - INFO -   Publishing: [6b957a72-bc31-4979-9180-b20c263be38b]  (6b957a72-bc31-4979-9180-b20c263be38b_processed.jpg)
+2026-06-20 12:15:03,384 - INFO -     → Title entered: 6b957a72-bc31-4979-9180-b20c263be38b
+2026-06-20 12:15:05,481 - INFO -     → Image uploaded: 6b957a72-bc31-4979-9180-b20c263be38b_processed.jpg
+2026-06-20 12:15:05,741 - INFO -     → Publish Banner clicked
+2026-06-20 12:15:09,769 - INFO -   ✓ Banner published: 6b957a72-bc31-4979-9180-b20c263be38b
+
+2026-06-20 12:15:10,772 - INFO - [2/2]
+2026-06-20 12:15:10,775 - INFO -   Publishing: [be65ac88-ebbb-478f-8b9f-1a473b087814]  (be65ac88-ebbb-478f-8b9f-1a473b087814_processed.jpg)
+2026-06-20 12:15:13,614 - INFO -     → Title entered: be65ac88-ebbb-478f-8b9f-1a473b087814
+2026-06-20 12:15:15,731 - INFO -     → Image uploaded: be65ac88-ebbb-478f-8b9f-1a473b087814_processed.jpg
+2026-06-20 12:15:15,981 - INFO -     → Publish Banner clicked
+2026-06-20 12:15:20,013 - INFO -   ✓ Banner published: be65ac88-ebbb-478f-8b9f-1a473b087814
+
+2026-06-20 12:15:21,014 - INFO - ============================================================
+2026-06-20 12:15:21,015 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-06-20 12:15:23,602 - INFO - Browser closed
+2026-06-20 12:15:27,679 - INFO - 
+Task finished at 2026-06-20 12:15:27
+2026-06-20 12:15:27,679 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260620_120242.log
+
+2026-06-20 12:15:33,940 - INFO - User selected: Intro Screens
+2026-06-20 12:15:33,941 - INFO - ============================================================
+2026-06-20 12:15:33,941 - INFO - INTRO SCREENS — Image Processing
+2026-06-20 12:15:33,942 - INFO - ============================================================
+2026-06-20 12:15:33,944 - INFO - Found 2 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-06-20 12:15:33,987 - INFO -   ⚙ Processing 80d2d7b6-9484-4b89-bc07-772b3a9180cc.png  (1024×1536 → need 1080×1920)
+2026-06-20 12:15:34,205 - INFO -   ✓ 80d2d7b6-9484-4b89-bc07-772b3a9180cc.png  →  80d2d7b6-9484-4b89-bc07-772b3a9180cc_processed.jpg  |  1080×1920  |  0.51 MB  |  quality 92
+2026-06-20 12:15:34,246 - INFO -   ⚙ Processing b462c18b-929a-4e30-8737-ffd7e3c68cca.png  (1024×1536 → need 1080×1920)
+2026-06-20 12:15:34,442 - INFO -   ✓ b462c18b-929a-4e30-8737-ffd7e3c68cca.png  →  b462c18b-929a-4e30-8737-ffd7e3c68cca_processed.jpg  |  1080×1920  |  0.49 MB  |  quality 92
+2026-06-20 12:15:34,444 - INFO -   Processed 2/2 intro images successfully
+
+2026-06-20 12:15:39,032 - INFO - ============================================================
+2026-06-20 12:15:39,033 - INFO - INTRO SCREENS — Browser Automation
+2026-06-20 12:15:39,033 - INFO - ============================================================
+2026-06-20 12:15:39,052 - INFO - ====== WebDriver manager ======
+2026-06-20 12:15:41,779 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:15:42,562 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:15:43,344 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-20 12:15:43,346 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-20 12:15:45,133 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-20 12:15:45,143 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-20 12:15:45,224 - INFO - ✓ Chrome driver initialized
+2026-06-20 12:15:45,245 - INFO - Opening login page...
+2026-06-20 12:15:47,048 - INFO -   → Policy checkbox checked on login page
+2026-06-20 12:15:47,281 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-20 12:15:47,334 - INFO -   → Policy agreement popup detected
+2026-06-20 12:15:47,439 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-20 12:15:49,110 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-20 12:16:00,864 - INFO - ✓ Login successful
+2026-06-20 12:16:02,865 - INFO - Going to App Settings...
+2026-06-20 12:16:09,594 - INFO -   → Intro Screens section opened
+2026-06-20 12:16:09,682 - INFO - ✓ Intro Screens page ready
+2026-06-20 12:16:09,684 - INFO - Starting batch  —  2 intro screen(s) to launch
+2026-06-20 12:16:09,693 - INFO - ============================================================
+2026-06-20 12:16:09,701 - INFO - [1/2]
+2026-06-20 12:16:09,710 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-06-20 12:16:13,395 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-06-20 12:16:14,708 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-06-20 12:16:16,838 - INFO -     → Image uploaded: 80d2d7b6-9484-4b89-bc07-772b3a9180cc_processed.jpg
+2026-06-20 12:16:17,132 - INFO -     → Launch Screen clicked
+2026-06-20 12:16:21,167 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-06-20 12:16:22,168 - INFO - [2/2]
+2026-06-20 12:16:22,169 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-06-20 12:16:24,713 - INFO -     → Header: Scan, Earn, Celebrate
+2026-06-20 12:16:25,864 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-06-20 12:16:28,038 - INFO -     → Image uploaded: b462c18b-929a-4e30-8737-ffd7e3c68cca_processed.jpg
+2026-06-20 12:16:28,333 - INFO -     → Launch Screen clicked
+2026-06-20 12:16:32,364 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-06-20 12:16:33,365 - INFO - ============================================================
+2026-06-20 12:16:33,366 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 0 failed
+2026-06-20 12:16:36,945 - INFO - Browser closed
+2026-06-20 12:16:41,004 - INFO - 
+Task finished at 2026-06-20 12:16:41
+2026-06-20 12:16:41,005 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260620_120242.log
+
+2026-06-20 12:28:14,288 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-20 12:28:14,346 - INFO - ============================================================
+2026-06-20 12:28:14,348 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-20 12:28:14,348 - INFO - ============================================================
+2026-06-20 12:28:14,433 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-20 12:28:14,434 - INFO - Output folder: automation\processed_images
+2026-06-20 12:28:14,436 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-20 12:28:14,650 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-20 12:28:14,917 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-20 12:28:15,033 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-20 12:28:15,143 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-20 12:28:15,228 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-20 12:28:15,291 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-20 12:28:15,492 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-20 12:28:15,710 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-20 12:28:15,832 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-20 12:28:16,062 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-20 12:28:16,175 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-20 12:28:16,283 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-20 12:28:16,288 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-20 12:28:16,291 - INFO - ✓ 12 images processed successfully.
+
+2026-06-20 12:28:21,343 - INFO - Target User Type: Electrician
+2026-06-20 12:28:21,592 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-20 12:28:21,592 - INFO -   → Extracted Title: Activity
+2026-06-20 12:28:21,593 - INFO -   → Matched Identity: claimhistory
+2026-06-20 12:28:21,593 - INFO -   → Extracted Color: #F86008
+2026-06-20 12:28:21,594 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:21,663 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-20 12:28:21,664 - INFO -   → Extracted Title: KYC
+2026-06-20 12:28:21,664 - INFO -   → Matched Identity: kycdetails
+2026-06-20 12:28:21,664 - INFO -   → Extracted Color: #F85808
+2026-06-20 12:28:21,665 - INFO -   → Toggle Option: side menu
+2026-06-20 12:28:21,729 - INFO - Dynamically mapped image 'Language.png':
+2026-06-20 12:28:21,730 - INFO -   → Extracted Title: Language
+2026-06-20 12:28:21,731 - INFO -   → Matched Identity: chooselanguage
+2026-06-20 12:28:21,731 - INFO -   → Extracted Color: #5010E8
+2026-06-20 12:28:21,732 - INFO -   → Toggle Option: side menu
+2026-06-20 12:28:21,826 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-20 12:28:21,827 - INFO -   → Extracted Title: My Wallet
+2026-06-20 12:28:21,827 - INFO -   → Matched Identity: wallet
+2026-06-20 12:28:21,828 - INFO -   → Extracted Color: #20A020
+2026-06-20 12:28:21,828 - INFO -   → Toggle Option: both
+2026-06-20 12:28:21,885 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-20 12:28:21,886 - INFO -   → Extracted Title: Product Catalog
+2026-06-20 12:28:21,890 - INFO -   → Matched Identity: productcatalogue
+2026-06-20 12:28:21,891 - INFO -   → Extracted Color: #6028E8
+2026-06-20 12:28:21,892 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:21,951 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-20 12:28:21,952 - INFO -   → Extracted Title: Prospectus
+2026-06-20 12:28:21,952 - INFO -   → Matched Identity: brochure
+2026-06-20 12:28:21,952 - INFO -   → Extracted Color: #0848F8
+2026-06-20 12:28:21,956 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:22,010 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-20 12:28:22,011 - INFO -   → Extracted Title: Refer & Earn
+2026-06-20 12:28:22,011 - INFO -   → Matched Identity: referandearn
+2026-06-20 12:28:22,012 - INFO -   → Extracted Color: #089098
+2026-06-20 12:28:22,012 - INFO -   → Toggle Option: both
+2026-06-20 12:28:22,059 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-20 12:28:22,060 - INFO -   → Extracted Title: Rewards
+2026-06-20 12:28:22,060 - INFO -   → Matched Identity: gift
+2026-06-20 12:28:22,060 - INFO -   → Extracted Color: #F00048
+2026-06-20 12:28:22,061 - INFO -   → Toggle Option: both
+2026-06-20 12:28:22,127 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-20 12:28:22,127 - INFO -   → Extracted Title: Scan Activity
+2026-06-20 12:28:22,128 - INFO -   → Matched Identity: codedetails
+2026-06-20 12:28:22,128 - INFO -   → Extracted Color: #10A010
+2026-06-20 12:28:22,128 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:22,182 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-20 12:28:22,182 - INFO -   → Extracted Title: Scan History
+2026-06-20 12:28:22,183 - INFO -   → Matched Identity: history
+2026-06-20 12:28:22,183 - INFO -   → Extracted Color: #4808F0
+2026-06-20 12:28:22,183 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:22,235 - INFO - Dynamically mapped image 'Support.png':
+2026-06-20 12:28:22,239 - INFO -   → Extracted Title: Support
+2026-06-20 12:28:22,240 - INFO -   → Matched Identity: help
+2026-06-20 12:28:22,241 - INFO -   → Extracted Color: #0030F0
+2026-06-20 12:28:22,242 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:22,297 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-20 12:28:22,297 - INFO -   → Extracted Title: Updates
+2026-06-20 12:28:22,297 - INFO -   → Matched Identity: blog
+2026-06-20 12:28:22,298 - INFO -   → Extracted Color: #F87820
+2026-06-20 12:28:22,298 - INFO -   → Toggle Option: dashboard only
+2026-06-20 12:28:22,299 - INFO - 
+============================================================
+2026-06-20 12:28:22,299 - INFO - Launching Browser and Starting Upload Process
+2026-06-20 12:28:22,299 - INFO - ============================================================
+2026-06-20 12:28:22,369 - INFO - ====== WebDriver manager ======
+2026-06-20 12:28:25,889 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:28:27,718 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-20 12:28:29,491 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-20 12:28:29,493 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-20 12:28:36,869 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-20 12:28:37,001 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-20 12:28:37,149 - INFO - ✓ Chrome driver initialized
+2026-06-20 12:28:37,159 - INFO - 
+→ Attempting login...
+
+2026-06-20 12:28:37,160 - INFO - Opening login page...
+2026-06-20 12:28:40,599 - INFO -   → Policy checkbox checked on login page
+2026-06-20 12:28:41,131 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-20 12:28:41,210 - INFO -   → Policy agreement popup detected
+2026-06-20 12:28:41,429 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-20 12:28:42,647 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-20 12:28:54,732 - INFO - ✓ Login successful
+2026-06-20 12:28:56,748 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-20 12:28:56,751 - INFO - Navigating to App Settings...
+2026-06-20 12:29:04,116 - INFO - ✓ Dashboard Icons section loaded
+2026-06-20 12:29:06,117 - INFO - 
+→ Starting batch upload of 12 custom icons...
+
+2026-06-20 12:29:06,123 - INFO - Starting batch – 12 configured entries
+2026-06-20 12:29:06,128 - INFO - Total icons to upload after expansion: 12
+2026-06-20 12:29:06,128 - INFO - ============================================================
+2026-06-20 12:29:06,129 - INFO - [1/12]
+2026-06-20 12:29:06,131 - INFO -   Adding: [Electrician] Activity  (claimhistory)
+2026-06-20 12:29:20,158 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:29:20,449 - INFO -     → Icon identity: claimhistory
+2026-06-20 12:29:20,964 - INFO -     → Display title: Activity
+2026-06-20 12:29:22,101 - INFO -     → Icon color: #F86008
+2026-06-20 12:29:22,218 - INFO -     → Toggle: dashboard only
+2026-06-20 12:29:24,430 - INFO -     → Image uploaded: Activity.png
+2026-06-20 12:29:24,947 - INFO -     → Form submitted
+2026-06-20 12:29:35,498 - INFO -   ✓ Icon added: Activity
+
+2026-06-20 12:29:36,500 - INFO - [2/12]
+2026-06-20 12:29:36,501 - INFO -   Adding: [Electrician] KYC  (kycdetails)
+2026-06-20 12:29:52,830 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:29:54,107 - INFO -     → Icon identity: kycdetails
+2026-06-20 12:29:54,834 - INFO -     → Display title: KYC
+2026-06-20 12:29:57,035 - INFO -     → Icon color: #F85808
+2026-06-20 12:29:57,354 - INFO -     → Toggle: side menu
+2026-06-20 12:29:59,689 - INFO -     → Image uploaded: KYC.png
+2026-06-20 12:30:00,833 - INFO -     → Form submitted
+2026-06-20 12:30:11,849 - INFO -   ✓ Icon added: KYC
+
+2026-06-20 12:30:12,926 - INFO - [3/12]
+2026-06-20 12:30:13,001 - INFO -   Adding: [Electrician] Language  (chooselanguage)
+2026-06-20 12:30:25,723 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:30:25,924 - INFO -     → Icon identity: chooselanguage
+2026-06-20 12:30:26,181 - INFO -     → Display title: Language
+2026-06-20 12:30:27,008 - INFO -     → Icon color: #5010E8
+2026-06-20 12:30:27,083 - INFO -     → Toggle: side menu
+2026-06-20 12:30:29,177 - INFO -     → Image uploaded: Language.png
+2026-06-20 12:30:29,471 - INFO -     → Form submitted
+2026-06-20 12:30:40,343 - INFO -   ✓ Icon added: Language
+
+2026-06-20 12:30:41,347 - INFO - [4/12]
+2026-06-20 12:30:41,356 - INFO -   Adding: [Electrician] My Wallet  (wallet)
+2026-06-20 12:30:54,360 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:30:54,533 - INFO -     → Icon identity: wallet
+2026-06-20 12:30:54,810 - INFO -     → Display title: My Wallet
+2026-06-20 12:30:55,866 - INFO -     → Icon color: #20A020
+2026-06-20 12:30:56,092 - INFO -     → Toggle: both
+2026-06-20 12:30:58,213 - INFO -     → Image uploaded: My Wallet.png
+2026-06-20 12:30:58,449 - INFO -     → Form submitted
+2026-06-20 12:31:09,056 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-20 12:31:10,058 - INFO - [5/12]
+2026-06-20 12:31:10,059 - INFO -   Adding: [Electrician] Product Catalog  (productcatalogue)
+2026-06-20 12:31:23,548 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:31:23,865 - INFO -     → Icon identity: productcatalogue
+2026-06-20 12:31:24,241 - INFO -     → Display title: Product Catalog
+2026-06-20 12:31:25,314 - INFO -     → Icon color: #6028E8
+2026-06-20 12:31:25,409 - INFO -     → Toggle: dashboard only
+2026-06-20 12:31:27,502 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-20 12:31:27,789 - INFO -     → Form submitted
+2026-06-20 12:31:38,441 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-20 12:31:39,442 - INFO - [6/12]
+2026-06-20 12:31:39,443 - INFO -   Adding: [Electrician] Prospectus  (brochure)
+2026-06-20 12:31:52,460 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:31:52,641 - INFO -     → Icon identity: brochure
+2026-06-20 12:31:52,882 - INFO -     → Display title: Prospectus
+2026-06-20 12:31:53,643 - INFO -     → Icon color: #0848F8
+2026-06-20 12:31:53,710 - INFO -     → Toggle: dashboard only
+2026-06-20 12:31:55,807 - INFO -     → Image uploaded: Prospectus.png
+2026-06-20 12:31:56,033 - INFO -     → Form submitted
+2026-06-20 12:32:06,982 - INFO -   ✓ Icon added: Prospectus
+
+2026-06-20 12:32:07,983 - INFO - [7/12]
+2026-06-20 12:32:07,984 - INFO -   Adding: [Electrician] Refer & Earn  (referandearn)
+2026-06-20 12:32:20,962 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:32:21,132 - INFO -     → Icon identity: referandearn
+2026-06-20 12:32:21,395 - INFO -     → Display title: Refer & Earn
+2026-06-20 12:32:22,208 - INFO -     → Icon color: #089098
+2026-06-20 12:32:22,281 - INFO -     → Toggle: both
+2026-06-20 12:32:24,369 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-20 12:32:24,599 - INFO -     → Form submitted
+2026-06-20 12:32:35,614 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-20 12:32:36,615 - INFO - [8/12]
+2026-06-20 12:32:36,615 - INFO -   Adding: [Electrician] Rewards  (gift)
+2026-06-20 12:32:49,645 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:32:49,842 - INFO -     → Icon identity: gift
+2026-06-20 12:32:50,108 - INFO -     → Display title: Rewards
+2026-06-20 12:32:50,908 - INFO -     → Icon color: #F00048
+2026-06-20 12:32:50,968 - INFO -     → Toggle: both
+2026-06-20 12:32:53,204 - INFO -     → Image uploaded: Rewards.png
+2026-06-20 12:32:53,464 - INFO -     → Form submitted
+2026-06-20 12:33:04,471 - INFO -   ✓ Icon added: Rewards
+
+2026-06-20 12:33:05,473 - INFO - [9/12]
+2026-06-20 12:33:05,473 - INFO -   Adding: [Electrician] Scan Activity  (codedetails)
+2026-06-20 12:33:18,441 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:33:18,613 - INFO -     → Icon identity: codedetails
+2026-06-20 12:33:18,924 - INFO -     → Display title: Scan Activity
+2026-06-20 12:33:19,680 - INFO -     → Icon color: #10A010
+2026-06-20 12:33:19,747 - INFO -     → Toggle: dashboard only
+2026-06-20 12:33:21,834 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-20 12:33:22,045 - INFO -     → Form submitted
+2026-06-20 12:33:33,021 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-20 12:33:34,023 - INFO - [10/12]
+2026-06-20 12:33:34,024 - INFO -   Adding: [Electrician] Scan History  (history)
+2026-06-20 12:33:46,725 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:33:46,892 - INFO -     → Icon identity: history
+2026-06-20 12:33:47,138 - INFO -     → Display title: Scan History
+2026-06-20 12:33:47,934 - INFO -     → Icon color: #4808F0
+2026-06-20 12:33:48,001 - INFO -     → Toggle: dashboard only
+2026-06-20 12:33:50,080 - INFO -     → Image uploaded: Scan History.png
+2026-06-20 12:33:50,283 - INFO -     → Form submitted
+2026-06-20 12:34:01,292 - INFO -   ✓ Icon added: Scan History
+
+2026-06-20 12:34:02,293 - INFO - [11/12]
+2026-06-20 12:34:02,294 - INFO -   Adding: [Electrician] Support  (help)
+2026-06-20 12:34:15,101 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:34:15,328 - INFO -     → Icon identity: help
+2026-06-20 12:34:15,643 - INFO -     → Display title: Support
+2026-06-20 12:34:16,525 - INFO -     → Icon color: #0030F0
+2026-06-20 12:34:16,791 - INFO -     → Toggle: dashboard only
+2026-06-20 12:34:18,923 - INFO -     → Image uploaded: Support.png
+2026-06-20 12:34:19,176 - INFO -     → Form submitted
+2026-06-20 12:34:29,732 - INFO -   ✓ Icon added: Support
+
+2026-06-20 12:34:30,733 - INFO - [12/12]
+2026-06-20 12:34:30,734 - INFO -   Adding: [Electrician] Updates  (blog)
+2026-06-20 12:34:43,921 - INFO -     → User type selected by text: Electrician
+2026-06-20 12:34:44,141 - INFO -     → Icon identity: blog
+2026-06-20 12:34:44,449 - INFO -     → Display title: Updates
+2026-06-20 12:34:45,375 - INFO -     → Icon color: #F87820
+2026-06-20 12:34:45,442 - INFO -     → Toggle: dashboard only
+2026-06-20 12:34:47,550 - INFO -     → Image uploaded: Updates.png
+2026-06-20 12:34:47,810 - INFO -     → Form submitted
+2026-06-20 12:34:58,700 - INFO -   ✓ Icon added: Updates
+
+2026-06-20 12:34:59,701 - INFO - ============================================================
+2026-06-20 12:34:59,702 - INFO - Batch complete → ✓ 12 succeeded  ✗ 0 failed
+2026-06-20 12:34:59,705 - INFO - 
+============================================================
+2026-06-20 12:34:59,706 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-20 12:34:59,706 - INFO - ============================================================
+2026-06-20 12:34:59,707 - INFO - ✓ Successful uploads: 12
+2026-06-20 12:34:59,708 - INFO - ✗ Failed uploads: 0
+2026-06-20 12:34:59,709 - INFO - Total processed: 12
+2026-06-20 12:34:59,709 - INFO - Success rate: 100.0%
+2026-06-20 12:34:59,710 - INFO - ============================================================
+2026-06-20 12:35:02,437 - INFO - Browser closed
+2026-06-20 12:35:06,516 - INFO - 
+Task finished at 2026-06-20 12:35:06
+2026-06-20 12:35:06,517 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260620_120242.log
+

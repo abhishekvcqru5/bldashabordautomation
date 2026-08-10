@@ -1,0 +1,80 @@
+2026-07-17 12:01:28,308 - INFO - User selected: Copy Dashboard Icons Sequence (Source to Others)
+2026-07-17 12:01:28,308 - INFO - ============================================================
+2026-07-17 12:01:28,308 - INFO - COPY DASHBOARD ICONS SEQUENCE (Option 23)
+2026-07-17 12:01:28,309 - INFO - ============================================================
+2026-07-17 12:01:28,327 - INFO - ====== WebDriver manager ======
+2026-07-17 12:01:29,562 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 12:01:29,734 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 12:01:29,899 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 12:01:29,900 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 12:01:31,728 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 12:01:31,732 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 12:01:31,759 - INFO - ✓ Chrome driver initialized
+2026-07-17 12:01:31,759 - INFO - Opening login page...
+2026-07-17 12:01:32,949 - INFO -   → Policy checkbox checked on login page
+2026-07-17 12:01:33,030 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 12:01:33,048 - INFO -   → Policy agreement popup detected
+2026-07-17 12:01:33,084 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 12:01:33,610 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 12:01:44,866 - INFO - ✓ Login successful
+2026-07-17 12:01:46,866 - INFO - Navigating to dashboard icons section...
+2026-07-17 12:01:46,866 - INFO - Navigating to App Settings...
+2026-07-17 12:01:53,345 - INFO - ✓ Dashboard Icons section loaded
+2026-07-17 12:01:53,370 - INFO - Total rows found in configured icons table: 57
+2026-07-17 12:02:14,592 - INFO - Source User Type selected: Customer
+2026-07-17 12:02:15,512 - INFO - Copied sequence map: {'e-warrant': '4.1', 'productcatalogue': '4.2', 'brochure': '4.3', 'wallet': '4.4', 'help': '4.5', 'claimhistory': '4.6', 'gift': '4.7', 'referandearn': '4.8', 'kycdetails': '4.9', 'chooselanguage': '4.10', 'codedetails': '4.11', 'history': '4.12', 'blog': '4.13'}
+2026-07-17 12:02:20,285 - INFO - Updating: [Distributors] 'Activity' (ID: 'claimhistory') from sequence 1.1 -> 4.6
+2026-07-17 12:02:21,550 - INFO -   → Set order sequence to: 4.6
+2026-07-17 12:02:21,595 - INFO -   → Sequence form submitted.
+2026-07-17 12:02:36,693 - ERROR -   ✗ Failed to update sequence for [Distributors] 'Activity': Message: 
+
+2026-07-17 12:02:37,781 - INFO - Updating: [Distributors] 'Activity' (ID: 'claimhistory') from sequence 1.1 -> 4.6
+2026-07-17 12:02:38,997 - INFO -   → Set order sequence to: 4.6
+2026-07-17 12:02:39,037 - INFO -   → Sequence form submitted.
+2026-07-17 12:02:54,136 - ERROR -   ✗ Failed to update sequence for [Distributors] 'Activity': Message: 
+
+2026-07-17 12:02:55,233 - INFO - Updating: [Distributors] 'Activity' (ID: 'claimhistory') from sequence 1.1 -> 4.6
+2026-07-17 12:02:55,990 - INFO -   → Set order sequence to: 4.6
+2026-07-17 12:02:56,031 - INFO -   → Sequence form submitted.
+2026-07-17 12:03:11,305 - ERROR -   ✗ Failed to update sequence for [Distributors] 'Activity': Message: 
+
+2026-07-17 12:03:12,418 - INFO - Updating: [Distributors] 'Kyc' (ID: 'kycdetails') from sequence 1.2 -> 4.9
+2026-07-17 12:03:13,519 - ERROR -   ✗ Failed to update sequence for [Distributors] 'Kyc': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=150.0.7871.115)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd55843+10883]
+	chromedriver!GetHandleVerifier [0xd55884+108c4]
+	chromedriver!(No symbol) [0xb590e0]
+	chromedriver!(No symbol) [0xb38013]
+	chromedriver!(No symbol) [0xbcbd7b]
+	chromedriver!(No symbol) [0xbe2c09]
+	chromedriver!(No symbol) [0xbc5406]
+	chromedriver!(No symbol) [0xb98659]
+	chromedriver!(No symbol) [0xb99424]
+	chromedriver!GetHandleVerifier [0xfeced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xfe847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x10094eb+2c452b]
+	chromedriver!GetHandleVerifier [0xd6f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xd7620d+3124d]
+	chromedriver!GetHandleVerifier [0xd5e318+19358]
+	chromedriver!GetHandleVerifier [0xd5e4c5+19505]
+	chromedriver!GetHandleVerifier [0xd470af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x75d75d49+19]
+	ntdll!RtlInitializeExceptionChain [0x779ce12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x779ce0b1+231]
+
+2026-07-17 12:03:13,527 - INFO - All dashboard icons are in the correct sequence order!
+2026-07-17 12:03:13,528 - INFO - 
+============================================================
+2026-07-17 12:03:13,529 - INFO - SEQUENCE UPDATE SUMMARY
+2026-07-17 12:03:13,529 - INFO - ============================================================
+2026-07-17 12:03:13,530 - INFO - ✓ Successful sequence updates: 0
+2026-07-17 12:03:13,531 - INFO - ✗ Failed sequence updates: 4
+2026-07-17 12:03:13,531 - INFO - Total actions attempted: 4
+2026-07-17 12:03:13,532 - INFO - ============================================================
+2026-07-17 12:03:15,759 - INFO - Browser closed
+2026-07-17 12:03:19,799 - INFO - 
+Task finished at 2026-07-17 12:03:19
+2026-07-17 12:03:19,800 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_120029.log
+

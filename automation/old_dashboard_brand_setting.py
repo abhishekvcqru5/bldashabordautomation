@@ -37,8 +37,8 @@ logger = logging.getLogger(__name__)
 
 # ── Constants ────────────────────────────────────────────────────────────────
 OLD_DASHBOARD_URL = "https://www.vcqru.com/login.aspx"
-BRAND_SAVE_DIR = Path("brandsetting")
-SCREENSHOTS_DIR = Path("automation/screenshots")
+BRAND_SAVE_DIR = Path(__file__).resolve().parent.parent / "brandsetting"
+SCREENSHOTS_DIR = Path(__file__).resolve().parent / "screenshots"
 WAIT_TIME = 25  # seconds for WebDriverWait
 
 
@@ -602,7 +602,35 @@ def run_old_dashboard_brand_setting(email: str, password: str) -> bool:
         opts.binary_location = system_chrome
         logger.info(f"  Using system Chrome binary: {system_chrome}")
     
-    service = Service(ChromeDriverManager().install())
+    driver_path = ChromeDriverManager().install()
+    p = Path(driver_path)
+    found_exe = None
+    if p.is_dir():
+        for name in ("chromedriver.exe", "chromedriver"):
+            if (p / name).exists():
+                found_exe = p / name
+                break
+            for sub in p.glob(f"**/{name}"):
+                found_exe = sub
+                break
+            if found_exe:
+                break
+    elif p.suffix.lower() != ".exe":
+        for name in ("chromedriver.exe", "chromedriver"):
+            if (p.parent / name).exists():
+                found_exe = p.parent / name
+                break
+            for sub in p.parent.glob(f"**/{name}"):
+                found_exe = sub
+                break
+            if found_exe:
+                break
+    
+    if found_exe:
+        driver_path = str(found_exe)
+        logger.info(f"  Resolved webdriver path to: {driver_path}")
+        
+    service = Service(driver_path)
     driver = webdriver.Chrome(service=service, options=opts)
     driver.maximize_window()
 

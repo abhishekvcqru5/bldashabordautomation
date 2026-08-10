@@ -1,0 +1,11 @@
+2026-06-17 16:10:56,409 - INFO - User selected: Old Dashboard
+2026-06-17 16:11:20,543 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 16:11:20,560 - INFO - ====== WebDriver manager ======
+2026-06-17 16:11:22,478 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:11:22,993 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:11:23,779 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:11:23,779 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:12:08,703 - INFO - 
+Task finished at 2026-06-17 16:12:08
+2026-06-17 16:12:08,703 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_161056.log
+

@@ -1,0 +1,201 @@
+2026-06-22 10:42:46,134 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-22 10:42:46,135 - INFO - ============================================================
+2026-06-22 10:42:46,135 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-22 10:42:46,135 - INFO - ============================================================
+2026-06-22 10:42:46,139 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-22 10:42:46,139 - INFO - Output folder: automation\processed_images
+2026-06-22 10:42:46,140 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-22 10:42:46,251 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-22 10:42:46,295 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-22 10:42:46,328 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-22 10:42:46,361 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-22 10:42:46,386 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-22 10:42:46,403 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-22 10:42:46,462 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-22 10:42:46,496 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-22 10:42:46,525 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-22 10:42:46,567 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-22 10:42:46,595 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-22 10:42:46,620 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-22 10:42:46,620 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-22 10:42:46,621 - INFO - ✓ 12 images processed successfully.
+
+2026-06-22 10:42:49,051 - INFO - Target User Type: Applicators
+2026-06-22 10:42:49,073 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-22 10:42:49,073 - INFO -   → Extracted Title: Activity
+2026-06-22 10:42:49,074 - INFO -   → Matched Identity: claimhistory
+2026-06-22 10:42:49,074 - INFO -   → Extracted Color: #F86008
+2026-06-22 10:42:49,074 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,104 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-22 10:42:49,104 - INFO -   → Extracted Title: KYC
+2026-06-22 10:42:49,104 - INFO -   → Matched Identity: kycdetails
+2026-06-22 10:42:49,105 - INFO -   → Extracted Color: #F85808
+2026-06-22 10:42:49,105 - INFO -   → Toggle Option: side menu
+2026-06-22 10:42:49,122 - INFO - Dynamically mapped image 'Language.png':
+2026-06-22 10:42:49,122 - INFO -   → Extracted Title: Language
+2026-06-22 10:42:49,122 - INFO -   → Matched Identity: chooselanguage
+2026-06-22 10:42:49,123 - INFO -   → Extracted Color: #5010E8
+2026-06-22 10:42:49,123 - INFO -   → Toggle Option: side menu
+2026-06-22 10:42:49,136 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-22 10:42:49,137 - INFO -   → Extracted Title: My Wallet
+2026-06-22 10:42:49,137 - INFO -   → Matched Identity: wallet
+2026-06-22 10:42:49,137 - INFO -   → Extracted Color: #20A020
+2026-06-22 10:42:49,137 - INFO -   → Toggle Option: both
+2026-06-22 10:42:49,150 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-22 10:42:49,151 - INFO -   → Extracted Title: Product Catalog
+2026-06-22 10:42:49,151 - INFO -   → Matched Identity: productcatalogue
+2026-06-22 10:42:49,151 - INFO -   → Extracted Color: #6028E8
+2026-06-22 10:42:49,151 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,165 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-22 10:42:49,165 - INFO -   → Extracted Title: Prospectus
+2026-06-22 10:42:49,165 - INFO -   → Matched Identity: brochure
+2026-06-22 10:42:49,165 - INFO -   → Extracted Color: #0848F8
+2026-06-22 10:42:49,165 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,182 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-22 10:42:49,183 - INFO -   → Extracted Title: Refer & Earn
+2026-06-22 10:42:49,183 - INFO -   → Matched Identity: referandearn
+2026-06-22 10:42:49,183 - INFO -   → Extracted Color: #089098
+2026-06-22 10:42:49,183 - INFO -   → Toggle Option: both
+2026-06-22 10:42:49,198 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-22 10:42:49,198 - INFO -   → Extracted Title: Rewards
+2026-06-22 10:42:49,198 - INFO -   → Matched Identity: gift
+2026-06-22 10:42:49,198 - INFO -   → Extracted Color: #F00048
+2026-06-22 10:42:49,198 - INFO -   → Toggle Option: both
+2026-06-22 10:42:49,214 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-22 10:42:49,215 - INFO -   → Extracted Title: Scan Activity
+2026-06-22 10:42:49,215 - INFO -   → Matched Identity: codedetails
+2026-06-22 10:42:49,215 - INFO -   → Extracted Color: #10A010
+2026-06-22 10:42:49,215 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,231 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-22 10:42:49,231 - INFO -   → Extracted Title: Scan History
+2026-06-22 10:42:49,231 - INFO -   → Matched Identity: history
+2026-06-22 10:42:49,231 - INFO -   → Extracted Color: #4808F0
+2026-06-22 10:42:49,231 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,245 - INFO - Dynamically mapped image 'Support.png':
+2026-06-22 10:42:49,246 - INFO -   → Extracted Title: Support
+2026-06-22 10:42:49,246 - INFO -   → Matched Identity: help
+2026-06-22 10:42:49,246 - INFO -   → Extracted Color: #0030F0
+2026-06-22 10:42:49,246 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,259 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-22 10:42:49,259 - INFO -   → Extracted Title: Updates
+2026-06-22 10:42:49,259 - INFO -   → Matched Identity: blog
+2026-06-22 10:42:49,259 - INFO -   → Extracted Color: #F87820
+2026-06-22 10:42:49,259 - INFO -   → Toggle Option: dashboard only
+2026-06-22 10:42:49,260 - INFO - 
+============================================================
+2026-06-22 10:42:49,260 - INFO - Launching Browser and Starting Upload Process
+2026-06-22 10:42:49,260 - INFO - ============================================================
+2026-06-22 10:42:49,267 - INFO - ====== WebDriver manager ======
+2026-06-22 10:42:50,272 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 10:42:50,698 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 10:42:51,048 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 10:42:51,902 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-22 10:42:51,909 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-22 10:42:51,910 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-06-22 10:42:52,147 - INFO - Driver downloading response is 200
+2026-06-22 10:42:52,772 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 10:42:53,212 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-22 10:42:53,214 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 10:42:55,384 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-22 10:42:55,386 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-22 10:42:55,420 - INFO - ✓ Chrome driver initialized
+2026-06-22 10:42:55,420 - INFO - 
+→ Attempting login...
+
+2026-06-22 10:42:55,420 - INFO - Opening login page...
+2026-06-22 10:42:56,650 - INFO -   → Policy checkbox checked on login page
+2026-06-22 10:42:56,719 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-22 10:42:56,745 - INFO -   → Policy agreement popup detected
+2026-06-22 10:42:56,781 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-22 10:42:57,304 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-22 10:43:08,582 - INFO - ✓ Login successful
+2026-06-22 10:43:10,583 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-22 10:43:10,584 - INFO - Navigating to App Settings...
+2026-06-22 10:43:16,981 - INFO - ✓ Dashboard Icons section loaded
+2026-06-22 10:43:18,981 - INFO - 
+→ Starting batch upload of 12 custom icons...
+
+2026-06-22 10:43:18,982 - INFO - Starting batch – 12 configured entries
+2026-06-22 10:43:18,982 - INFO - Total icons to upload after expansion: 12
+2026-06-22 10:43:18,982 - INFO - ============================================================
+2026-06-22 10:43:18,982 - INFO - [1/12]
+2026-06-22 10:43:18,982 - INFO -   Adding: [Applicators] Activity  (claimhistory)
+2026-06-22 10:43:31,701 - ERROR -   ✗ Failed to add [Activity]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:43:31,955 - INFO -   📸 Screenshot saved: automation\screenshots\error_Activity_20260622_104331.png
+2026-06-22 10:43:34,036 - INFO - [2/12]
+2026-06-22 10:43:34,036 - INFO -   Adding: [Applicators] KYC  (kycdetails)
+2026-06-22 10:43:46,645 - ERROR -   ✗ Failed to add [KYC]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:43:46,896 - INFO -   📸 Screenshot saved: automation\screenshots\error_KYC_20260622_104346.png
+2026-06-22 10:43:48,991 - INFO - [3/12]
+2026-06-22 10:43:48,992 - INFO -   Adding: [Applicators] Language  (chooselanguage)
+2026-06-22 10:44:01,617 - ERROR -   ✗ Failed to add [Language]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:44:01,939 - INFO -   📸 Screenshot saved: automation\screenshots\error_Language_20260622_104401.png
+2026-06-22 10:44:04,003 - INFO - [4/12]
+2026-06-22 10:44:04,003 - INFO -   Adding: [Applicators] My Wallet  (wallet)
+2026-06-22 10:44:16,686 - ERROR -   ✗ Failed to add [My Wallet]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:44:16,936 - INFO -   📸 Screenshot saved: automation\screenshots\error_My_Wallet_20260622_104416.png
+2026-06-22 10:44:19,008 - INFO - [5/12]
+2026-06-22 10:44:19,008 - INFO -   Adding: [Applicators] Product Catalog  (productcatalogue)
+2026-06-22 10:44:31,221 - ERROR -   ✗ Failed to add [Product Catalog]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:44:31,792 - INFO -   📸 Screenshot saved: automation\screenshots\error_Product_Catalog_20260622_104431.png
+2026-06-22 10:44:33,988 - INFO - [6/12]
+2026-06-22 10:44:33,989 - INFO -   Adding: [Applicators] Prospectus  (brochure)
+2026-06-22 10:44:46,306 - ERROR -   ✗ Failed to add [Prospectus]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:44:46,722 - INFO -   📸 Screenshot saved: automation\screenshots\error_Prospectus_20260622_104446.png
+2026-06-22 10:44:48,818 - INFO - [7/12]
+2026-06-22 10:44:48,818 - INFO -   Adding: [Applicators] Refer & Earn  (referandearn)
+2026-06-22 10:45:01,238 - ERROR -   ✗ Failed to add [Refer & Earn]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:45:01,867 - INFO -   📸 Screenshot saved: automation\screenshots\error_Refer_&_Earn_20260622_104501.png
+2026-06-22 10:45:03,951 - INFO - [8/12]
+2026-06-22 10:45:03,951 - INFO -   Adding: [Applicators] Rewards  (gift)
+2026-06-22 10:45:16,500 - ERROR -   ✗ Failed to add [Rewards]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:45:17,026 - INFO -   📸 Screenshot saved: automation\screenshots\error_Rewards_20260622_104516.png
+2026-06-22 10:45:19,117 - INFO - [9/12]
+2026-06-22 10:45:19,118 - INFO -   Adding: [Applicators] Scan Activity  (codedetails)
+2026-06-22 10:45:31,553 - ERROR -   ✗ Failed to add [Scan Activity]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:45:32,061 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_Activity_20260622_104531.png
+2026-06-22 10:45:34,174 - INFO - [10/12]
+2026-06-22 10:45:34,175 - INFO -   Adding: [Applicators] Scan History  (history)
+2026-06-22 10:45:46,546 - ERROR -   ✗ Failed to add [Scan History]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:45:46,899 - INFO -   📸 Screenshot saved: automation\screenshots\error_Scan_History_20260622_104546.png
+2026-06-22 10:45:48,987 - INFO - [11/12]
+2026-06-22 10:45:48,987 - INFO -   Adding: [Applicators] Support  (help)
+2026-06-22 10:46:01,302 - ERROR -   ✗ Failed to add [Support]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:46:01,737 - INFO -   📸 Screenshot saved: automation\screenshots\error_Support_20260622_104601.png
+2026-06-22 10:46:03,821 - INFO - [12/12]
+2026-06-22 10:46:03,821 - INFO -   Adding: [Applicators] Updates  (blog)
+2026-06-22 10:46:16,192 - ERROR -   ✗ Failed to add [Updates]: Message: Cannot locate option with value: Applicators; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-22 10:46:16,845 - INFO -   📸 Screenshot saved: automation\screenshots\error_Updates_20260622_104616.png
+2026-06-22 10:46:18,938 - INFO - ============================================================
+2026-06-22 10:46:18,939 - INFO - Batch complete → ✓ 0 succeeded  ✗ 12 failed
+2026-06-22 10:46:18,939 - INFO - 
+============================================================
+2026-06-22 10:46:18,940 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-22 10:46:18,940 - INFO - ============================================================
+2026-06-22 10:46:18,941 - INFO - ✓ Successful uploads: 0
+2026-06-22 10:46:18,942 - INFO - ✗ Failed uploads: 12
+2026-06-22 10:46:18,943 - INFO - Total processed: 12
+2026-06-22 10:46:18,943 - INFO - Success rate: 0.0%
+2026-06-22 10:46:18,944 - INFO - ============================================================
+2026-06-22 10:46:21,165 - INFO - Browser closed
+2026-06-22 10:46:25,229 - INFO - 
+Task finished at 2026-06-22 10:46:25
+2026-06-22 10:46:25,230 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260622_104208.log
+

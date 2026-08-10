@@ -1,0 +1,351 @@
+2026-07-24 11:35:48,978 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-07-24 11:35:48,978 - INFO - ============================================================
+2026-07-24 11:35:48,979 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-07-24 11:35:48,979 - INFO - ============================================================
+2026-07-24 11:35:48,985 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-24 11:35:48,985 - INFO - Output folder: automation\processed_images
+2026-07-24 11:35:48,996 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-24 11:35:49,100 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-24 11:35:49,132 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-24 11:35:49,182 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-24 11:35:49,220 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-24 11:35:49,255 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-24 11:35:49,287 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-24 11:35:49,314 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-24 11:35:49,333 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-24 11:35:49,370 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-24 11:35:49,400 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-24 11:35:49,431 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-24 11:35:49,474 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-24 11:35:49,503 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-24 11:35:49,536 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-24 11:35:49,562 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-24 11:35:49,562 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-24 11:35:49,563 - INFO - ✓ 15 images processed successfully.
+
+2026-07-24 11:35:53,562 - INFO - Target User Type: Dealor
+2026-07-24 11:35:53,713 - INFO - Dynamically mapped image 'aboutus.png':
+2026-07-24 11:35:53,715 - INFO -   → Extracted Title: aboutus
+2026-07-24 11:35:53,716 - INFO -   → Matched Identity: aboutus
+2026-07-24 11:35:53,717 - INFO -   → Extracted Color: #70E8A8
+2026-07-24 11:35:53,717 - INFO -   → Toggle Option: side menu
+2026-07-24 11:35:53,746 - INFO - Dynamically mapped image 'Activity.png':
+2026-07-24 11:35:53,747 - INFO -   → Extracted Title: Activity
+2026-07-24 11:35:53,748 - INFO -   → Matched Identity: claimhistory
+2026-07-24 11:35:53,749 - INFO -   → Extracted Color: #F86008
+2026-07-24 11:35:53,749 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:53,776 - INFO - Dynamically mapped image 'KYC.png':
+2026-07-24 11:35:53,777 - INFO -   → Extracted Title: KYC
+2026-07-24 11:35:53,777 - INFO -   → Matched Identity: kycdetails
+2026-07-24 11:35:53,777 - INFO -   → Extracted Color: #F85808
+2026-07-24 11:35:53,777 - INFO -   → Toggle Option: side menu
+2026-07-24 11:35:53,809 - INFO - Dynamically mapped image 'Language.png':
+2026-07-24 11:35:53,810 - INFO -   → Extracted Title: Language
+2026-07-24 11:35:53,810 - INFO -   → Matched Identity: chooselanguage
+2026-07-24 11:35:53,810 - INFO -   → Extracted Color: #5010E8
+2026-07-24 11:35:53,810 - INFO -   → Toggle Option: side menu
+2026-07-24 11:35:53,840 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-07-24 11:35:53,840 - INFO -   → Extracted Title: My Wallet
+2026-07-24 11:35:53,841 - INFO -   → Matched Identity: wallet
+2026-07-24 11:35:53,841 - INFO -   → Extracted Color: #20A020
+2026-07-24 11:35:53,841 - INFO -   → Toggle Option: both
+2026-07-24 11:35:53,870 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-07-24 11:35:53,871 - INFO -   → Extracted Title: Nearby Retailers
+2026-07-24 11:35:53,871 - INFO -   → Matched Identity: retailer
+2026-07-24 11:35:53,871 - INFO -   → Extracted Color: #F87010
+2026-07-24 11:35:53,871 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:53,900 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-07-24 11:35:53,900 - INFO -   → Extracted Title: Product Catalog
+2026-07-24 11:35:53,901 - INFO -   → Matched Identity: productcatalogue
+2026-07-24 11:35:53,901 - INFO -   → Extracted Color: #6028E8
+2026-07-24 11:35:53,902 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:53,951 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-07-24 11:35:53,952 - INFO -   → Extracted Title: Prospectus
+2026-07-24 11:35:53,952 - INFO -   → Matched Identity: brochure
+2026-07-24 11:35:53,953 - INFO -   → Extracted Color: #0848F8
+2026-07-24 11:35:53,953 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:54,068 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-07-24 11:35:54,069 - INFO -   → Extracted Title: Refer & Earn
+2026-07-24 11:35:54,070 - INFO -   → Matched Identity: referandearn
+2026-07-24 11:35:54,070 - INFO -   → Extracted Color: #089098
+2026-07-24 11:35:54,071 - INFO -   → Toggle Option: both
+2026-07-24 11:35:54,135 - INFO - Dynamically mapped image 'Rewards.png':
+2026-07-24 11:35:54,136 - INFO -   → Extracted Title: Rewards
+2026-07-24 11:35:54,136 - INFO -   → Matched Identity: gift
+2026-07-24 11:35:54,137 - INFO -   → Extracted Color: #F00048
+2026-07-24 11:35:54,137 - INFO -   → Toggle Option: both
+2026-07-24 11:35:54,193 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-07-24 11:35:54,193 - INFO -   → Extracted Title: Scan Activity
+2026-07-24 11:35:54,194 - INFO -   → Matched Identity: codedetails
+2026-07-24 11:35:54,194 - INFO -   → Extracted Color: #10A010
+2026-07-24 11:35:54,195 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:54,344 - INFO - Dynamically mapped image 'Scan History.png':
+2026-07-24 11:35:54,411 - INFO -   → Extracted Title: Scan History
+2026-07-24 11:35:54,424 - INFO -   → Matched Identity: history
+2026-07-24 11:35:54,438 - INFO -   → Extracted Color: #4808F0
+2026-07-24 11:35:54,478 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:54,558 - INFO - Dynamically mapped image 'Support.png':
+2026-07-24 11:35:54,559 - INFO -   → Extracted Title: Support
+2026-07-24 11:35:54,559 - INFO -   → Matched Identity: help
+2026-07-24 11:35:54,560 - INFO -   → Extracted Color: #0030F0
+2026-07-24 11:35:54,560 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:54,608 - INFO - Dynamically mapped image 'TDS.png':
+2026-07-24 11:35:54,608 - INFO -   → Extracted Title: TDS
+2026-07-24 11:35:54,608 - INFO -   → Matched Identity: tds
+2026-07-24 11:35:54,609 - INFO -   → Extracted Color: #20C880
+2026-07-24 11:35:54,609 - INFO -   → Toggle Option: side menu
+2026-07-24 11:35:54,676 - INFO - Dynamically mapped image 'Updates.png':
+2026-07-24 11:35:54,677 - INFO -   → Extracted Title: Updates
+2026-07-24 11:35:54,677 - INFO -   → Matched Identity: blog
+2026-07-24 11:35:54,678 - INFO -   → Extracted Color: #F87820
+2026-07-24 11:35:54,678 - INFO -   → Toggle Option: dashboard only
+2026-07-24 11:35:54,678 - INFO - 
+============================================================
+2026-07-24 11:35:54,679 - INFO - Launching Browser and Starting Upload Process
+2026-07-24 11:35:54,679 - INFO - ============================================================
+2026-07-24 11:35:54,742 - INFO - ====== WebDriver manager ======
+2026-07-24 11:35:58,102 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 11:35:58,350 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 11:35:58,628 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-24 11:35:58,629 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-24 11:36:00,486 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-24 11:36:00,513 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-24 11:36:00,730 - INFO - ✓ Chrome driver initialized
+2026-07-24 11:36:00,735 - INFO - 
+→ Attempting login...
+
+2026-07-24 11:36:00,739 - INFO - Opening login page...
+2026-07-24 11:36:02,850 - INFO -   → Policy checkbox checked on login page
+2026-07-24 11:36:03,124 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-24 11:36:03,184 - INFO -   → Policy agreement popup detected
+2026-07-24 11:36:03,287 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-24 11:36:04,494 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 11:36:10,718 - INFO -   → Policy agreement popup detected
+2026-07-24 11:36:10,868 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-24 11:36:11,441 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 11:36:11,442 - INFO -   → Navigating directly to App Settings URL...
+2026-07-24 11:36:12,054 - INFO - ✓ Login successful and on App Settings page
+2026-07-24 11:36:14,056 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-07-24 11:36:14,059 - INFO - Navigating to App Settings...
+2026-07-24 11:36:20,874 - INFO - ✓ Dashboard Icons section loaded
+2026-07-24 11:36:22,875 - INFO - 
+→ Starting batch upload of 15 custom icons...
+
+2026-07-24 11:36:22,876 - INFO - Starting batch – 15 configured entries
+2026-07-24 11:36:22,876 - INFO - Total icons to upload after expansion: 15
+2026-07-24 11:36:22,876 - INFO - ============================================================
+2026-07-24 11:36:22,877 - INFO - [1/15]
+2026-07-24 11:36:22,877 - INFO -   Adding: [Dealor] aboutus  (aboutus)
+2026-07-24 11:36:36,213 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:36:36,396 - INFO -     → Icon identity: aboutus
+2026-07-24 11:36:36,716 - INFO -     → Display title: aboutus
+2026-07-24 11:36:37,605 - INFO -     → Icon color: #70E8A8
+2026-07-24 11:36:37,667 - INFO -     → Toggle: side menu
+2026-07-24 11:36:39,769 - INFO -     → Image uploaded: aboutus.png
+2026-07-24 11:36:39,971 - INFO -     → Form submitted
+2026-07-24 11:36:50,913 - INFO -   ✓ Icon added: aboutus
+
+2026-07-24 11:36:51,915 - INFO - [2/15]
+2026-07-24 11:36:51,916 - INFO -   Adding: [Dealor] Activity  (claimhistory)
+2026-07-24 11:37:05,003 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:37:05,192 - INFO -     → Icon identity: claimhistory
+2026-07-24 11:37:05,467 - INFO -     → Display title: Activity
+2026-07-24 11:37:06,238 - INFO -     → Icon color: #F86008
+2026-07-24 11:37:06,305 - INFO -     → Toggle: dashboard only
+2026-07-24 11:37:08,455 - INFO -     → Image uploaded: Activity.png
+2026-07-24 11:37:08,657 - INFO -     → Form submitted
+2026-07-24 11:37:19,613 - INFO -   ✓ Icon added: Activity
+
+2026-07-24 11:37:20,615 - INFO - [3/15]
+2026-07-24 11:37:20,616 - INFO -   Adding: [Dealor] KYC  (kycdetails)
+2026-07-24 11:37:33,578 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:37:33,765 - INFO -     → Icon identity: kycdetails
+2026-07-24 11:37:34,002 - INFO -     → Display title: KYC
+2026-07-24 11:37:34,761 - INFO -     → Icon color: #F85808
+2026-07-24 11:37:34,818 - INFO -     → Toggle: side menu
+2026-07-24 11:37:36,906 - INFO -     → Image uploaded: KYC.png
+2026-07-24 11:37:37,116 - INFO -     → Form submitted
+2026-07-24 11:37:48,095 - INFO -   ✓ Icon added: KYC
+
+2026-07-24 11:37:49,097 - INFO - [4/15]
+2026-07-24 11:37:49,099 - INFO -   Adding: [Dealor] Language  (chooselanguage)
+2026-07-24 11:38:02,109 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:38:02,295 - INFO -     → Icon identity: chooselanguage
+2026-07-24 11:38:02,572 - INFO -     → Display title: Language
+2026-07-24 11:38:03,395 - INFO -     → Icon color: #5010E8
+2026-07-24 11:38:03,489 - INFO -     → Toggle: side menu
+2026-07-24 11:38:05,591 - INFO -     → Image uploaded: Language.png
+2026-07-24 11:38:06,021 - INFO -     → Form submitted
+2026-07-24 11:38:17,066 - INFO -   ✓ Icon added: Language
+
+2026-07-24 11:38:18,067 - INFO - [5/15]
+2026-07-24 11:38:18,068 - INFO -   Adding: [Dealor] My Wallet  (wallet)
+2026-07-24 11:38:32,362 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:38:32,627 - INFO -     → Icon identity: wallet
+2026-07-24 11:38:32,971 - INFO -     → Display title: My Wallet
+2026-07-24 11:38:34,317 - INFO -     → Icon color: #20A020
+2026-07-24 11:38:34,424 - INFO -     → Toggle: both
+2026-07-24 11:38:36,542 - INFO -     → Image uploaded: My Wallet.png
+2026-07-24 11:38:36,891 - INFO -     → Form submitted
+2026-07-24 11:38:47,727 - INFO -   ✓ Icon added: My Wallet
+
+2026-07-24 11:38:48,728 - INFO - [6/15]
+2026-07-24 11:38:48,729 - INFO -   Adding: [Dealor] Nearby Retailers  (retailer)
+2026-07-24 11:39:01,937 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:39:02,773 - INFO -     → Icon identity: retailer
+2026-07-24 11:39:03,293 - INFO -     → Display title: Nearby Retailers
+2026-07-24 11:39:04,440 - INFO -     → Icon color: #F87010
+2026-07-24 11:39:04,526 - INFO -     → Toggle: dashboard only
+2026-07-24 11:39:06,639 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-24 11:39:06,851 - INFO -     → Form submitted
+2026-07-24 11:39:17,848 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-24 11:39:18,849 - INFO - [7/15]
+2026-07-24 11:39:18,850 - INFO -   Adding: [Dealor] Product Catalog  (productcatalogue)
+2026-07-24 11:39:31,948 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:39:32,139 - INFO -     → Icon identity: productcatalogue
+2026-07-24 11:39:32,420 - INFO -     → Display title: Product Catalog
+2026-07-24 11:39:33,141 - INFO -     → Icon color: #6028E8
+2026-07-24 11:39:33,191 - INFO -     → Toggle: dashboard only
+2026-07-24 11:39:35,274 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-24 11:39:35,474 - INFO -     → Form submitted
+2026-07-24 11:39:46,409 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-24 11:39:47,410 - INFO - [8/15]
+2026-07-24 11:39:47,411 - INFO -   Adding: [Dealor] Prospectus  (brochure)
+2026-07-24 11:40:00,359 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:40:00,528 - INFO -     → Icon identity: brochure
+2026-07-24 11:40:00,943 - INFO -     → Display title: Prospectus
+2026-07-24 11:40:01,671 - INFO -     → Icon color: #0848F8
+2026-07-24 11:40:01,818 - INFO -     → Toggle: dashboard only
+2026-07-24 11:40:03,904 - INFO -     → Image uploaded: Prospectus.png
+2026-07-24 11:40:03,994 - INFO -     → Form submitted
+2026-07-24 11:40:14,958 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-24 11:40:15,959 - INFO - [9/15]
+2026-07-24 11:40:15,959 - INFO -   Adding: [Dealor] Refer & Earn  (referandearn)
+2026-07-24 11:40:28,581 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:40:28,649 - INFO -     → Icon identity: referandearn
+2026-07-24 11:40:28,749 - INFO -     → Display title: Refer & Earn
+2026-07-24 11:40:29,167 - INFO -     → Icon color: #089098
+2026-07-24 11:40:29,187 - INFO -     → Toggle: both
+2026-07-24 11:40:31,229 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-24 11:40:31,325 - INFO -     → Form submitted
+2026-07-24 11:40:42,286 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-24 11:40:43,287 - INFO - [10/15]
+2026-07-24 11:40:43,288 - INFO -   Adding: [Dealor] Rewards  (gift)
+2026-07-24 11:40:55,671 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:40:55,734 - INFO -     → Icon identity: gift
+2026-07-24 11:40:55,830 - INFO -     → Display title: Rewards
+2026-07-24 11:40:56,212 - INFO -     → Icon color: #F00048
+2026-07-24 11:40:56,251 - INFO -     → Toggle: both
+2026-07-24 11:40:58,292 - INFO -     → Image uploaded: Rewards.png
+2026-07-24 11:40:58,370 - INFO -     → Form submitted
+2026-07-24 11:41:09,158 - INFO -   ✓ Icon added: Rewards
+
+2026-07-24 11:41:10,161 - INFO - [11/15]
+2026-07-24 11:41:10,161 - INFO -   Adding: [Dealor] Scan Activity  (codedetails)
+2026-07-24 11:41:22,497 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:41:22,569 - INFO -     → Icon identity: codedetails
+2026-07-24 11:41:22,692 - INFO -     → Display title: Scan Activity
+2026-07-24 11:41:23,071 - INFO -     → Icon color: #10A010
+2026-07-24 11:41:23,091 - INFO -     → Toggle: dashboard only
+2026-07-24 11:41:25,124 - INFO -     → Image uploaded: Scan Activity.png
+2026-07-24 11:41:25,204 - INFO -     → Form submitted
+2026-07-24 11:41:35,893 - INFO -   ✓ Icon added: Scan Activity
+
+2026-07-24 11:41:36,894 - INFO - [12/15]
+2026-07-24 11:41:36,894 - INFO -   Adding: [Dealor] Scan History  (history)
+2026-07-24 11:41:49,309 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:41:49,376 - INFO -     → Icon identity: history
+2026-07-24 11:41:49,477 - INFO -     → Display title: Scan History
+2026-07-24 11:41:49,886 - INFO -     → Icon color: #4808F0
+2026-07-24 11:41:49,906 - INFO -     → Toggle: dashboard only
+2026-07-24 11:41:51,942 - INFO -     → Image uploaded: Scan History.png
+2026-07-24 11:41:52,024 - INFO -     → Form submitted
+2026-07-24 11:42:02,604 - INFO -   ✓ Icon added: Scan History
+
+2026-07-24 11:42:03,606 - INFO - [13/15]
+2026-07-24 11:42:03,606 - INFO -   Adding: [Dealor] Support  (help)
+2026-07-24 11:42:16,055 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:42:16,155 - INFO -     → Icon identity: help
+2026-07-24 11:42:16,272 - INFO -     → Display title: Support
+2026-07-24 11:42:16,809 - INFO -     → Icon color: #0030F0
+2026-07-24 11:42:16,842 - INFO -     → Toggle: dashboard only
+2026-07-24 11:42:18,892 - INFO -     → Image uploaded: Support.png
+2026-07-24 11:42:19,016 - INFO -     → Form submitted
+2026-07-24 11:42:29,797 - INFO -   ✓ Icon added: Support
+
+2026-07-24 11:42:30,798 - INFO - [14/15]
+2026-07-24 11:42:30,799 - INFO -   Adding: [Dealor] TDS  (tds)
+2026-07-24 11:42:43,516 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:42:43,585 - INFO -     → Icon identity: tds
+2026-07-24 11:42:43,681 - INFO -     → Display title: TDS
+2026-07-24 11:42:44,186 - INFO -     → Icon color: #20C880
+2026-07-24 11:42:44,272 - INFO -     → Toggle: side menu
+2026-07-24 11:42:46,312 - INFO -     → Image uploaded: TDS.png
+2026-07-24 11:42:46,416 - INFO -     → Form submitted
+2026-07-24 11:42:57,029 - INFO -   ✓ Icon added: TDS
+
+2026-07-24 11:42:58,031 - INFO - [15/15]
+2026-07-24 11:42:58,032 - INFO -   Adding: [Dealor] Updates  (blog)
+2026-07-24 11:43:10,701 - INFO -     → User type selected by exact text: Dealor
+2026-07-24 11:43:10,774 - INFO -     → Icon identity: blog
+2026-07-24 11:43:10,873 - INFO -     → Display title: Updates
+2026-07-24 11:43:11,306 - INFO -     → Icon color: #F87820
+2026-07-24 11:43:11,335 - INFO -     → Toggle: dashboard only
+2026-07-24 11:43:13,369 - INFO -     → Image uploaded: Updates.png
+2026-07-24 11:43:13,438 - INFO -     → Form submitted
+2026-07-24 11:43:23,969 - INFO -   ✓ Icon added: Updates
+
+2026-07-24 11:43:24,971 - INFO - ============================================================
+2026-07-24 11:43:24,971 - INFO - Batch complete → ✓ 15 succeeded  ✗ 0 failed
+2026-07-24 11:43:24,972 - INFO - 
+============================================================
+2026-07-24 11:43:24,972 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-07-24 11:43:24,972 - INFO - ============================================================
+2026-07-24 11:43:24,973 - INFO - ✓ Successful uploads: 15
+2026-07-24 11:43:24,973 - INFO - ✗ Failed uploads: 0
+2026-07-24 11:43:24,974 - INFO - Total processed: 15
+2026-07-24 11:43:24,974 - INFO - Success rate: 100.0%
+2026-07-24 11:43:24,975 - INFO - ============================================================
+2026-07-24 11:43:27,264 - INFO - Browser closed
+2026-07-24 11:43:31,329 - INFO - 
+Task finished at 2026-07-24 11:43:31
+2026-07-24 11:43:31,329 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260724_113520.log
+
+2026-07-24 11:43:42,789 - INFO - User selected: Registration Fields
+2026-07-24 11:43:42,789 - INFO - ============================================================
+2026-07-24 11:43:42,789 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-24 11:43:42,789 - INFO - ============================================================
+2026-07-24 11:43:42,803 - INFO - ====== WebDriver manager ======
+2026-07-24 11:43:43,979 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 11:43:44,140 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-24 11:43:44,295 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-24 11:43:44,296 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-24 11:43:45,485 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-24 11:43:45,489 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-24 11:43:45,529 - INFO - ✓ Chrome driver initialized
+2026-07-24 11:43:45,529 - INFO - Opening login page...
+2026-07-24 11:43:46,760 - INFO -   → Policy checkbox checked on login page
+2026-07-24 11:43:46,850 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-24 11:43:46,869 - INFO -   → Policy agreement popup detected
+2026-07-24 11:43:46,907 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-24 11:43:47,435 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-24 11:43:58,771 - INFO -   → Navigating directly to App Settings URL...
+2026-07-24 11:44:19,319 - ERROR - Login failed: Message: 
+
+2026-07-24 11:44:19,541 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260724_114419.png
+2026-07-24 11:44:19,542 - ERROR - ✗ Login failed. Aborting.
+2026-07-24 11:44:21,765 - INFO - Browser closed
+2026-07-24 11:44:25,828 - INFO - 
+Task finished at 2026-07-24 11:44:25
+2026-07-24 11:44:25,829 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260724_113520.log
+
+2026-07-24 11:46:27,350 - INFO - Automation cancelled by user (Ctrl+C)

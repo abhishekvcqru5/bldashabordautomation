@@ -1,0 +1,430 @@
+2026-07-01 19:53:05,469 - INFO - User selected: Product Management Image Upload
+2026-07-01 19:53:05,470 - INFO - Starting Product Management Image Upload (Ambica Cables)
+2026-07-01 19:53:05,478 - INFO - Total folders to process: 83
+2026-07-01 19:53:05,504 - INFO - ====== WebDriver manager ======
+2026-07-01 19:53:08,789 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 19:53:09,806 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 19:53:11,096 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 19:53:11,135 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 19:53:13,336 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 19:53:13,354 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 19:53:13,435 - INFO - ✓ Chrome driver initialized
+2026-07-01 19:53:13,436 - INFO - Logging in…
+2026-07-01 19:53:13,436 - INFO - Opening login page...
+2026-07-01 19:53:17,264 - INFO -   → Policy checkbox checked on login page
+2026-07-01 19:53:17,811 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 19:53:17,865 - INFO -   → Policy agreement popup detected
+2026-07-01 19:53:17,996 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 19:53:18,700 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 19:53:25,158 - INFO -   → Policy agreement popup detected
+2026-07-01 19:53:25,222 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 19:53:26,312 - INFO -     ✓ Clicked Continue button
+2026-07-01 19:53:27,295 - INFO -     ✓ Policy popup dismissed
+2026-07-01 19:53:28,398 - INFO - ✓ Login successful
+2026-07-01 19:53:30,399 - INFO - Navigating to App Settings…
+2026-07-01 19:53:34,630 - INFO - Clicked Product Management
+2026-07-01 19:53:37,684 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:53:37,684 - INFO - Processing: 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 19:53:37,768 - INFO -   Table has 83 rows
+2026-07-01 19:53:38,968 - INFO -   Matched → '0.75 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing'
+2026-07-01 19:53:43,382 - INFO -   Modal opened
+2026-07-01 19:53:44,985 - INFO -   Removed existing image
+2026-07-01 19:53:46,646 - INFO -   Clicked Add button
+2026-07-01 19:53:47,847 - INFO -   Uploaded: 9ff3f8b9-d853-444b-a60c-f972f7b3bf59.jpg
+2026-07-01 19:53:51,628 - INFO -   Clicked Save
+2026-07-01 19:53:52,299 - INFO -   ✓ Saved successfully: 0.75 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing
+2026-07-01 19:53:53,301 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:53:53,301 - INFO - Processing: 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 19:53:53,631 - INFO -   Table has 83 rows
+2026-07-01 19:53:58,433 - INFO -   Matched → '0.75 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 19:54:02,776 - INFO -   Modal opened
+2026-07-01 19:54:04,452 - INFO -   Removed existing image
+2026-07-01 19:54:06,339 - INFO -   Clicked Add button
+2026-07-01 19:54:07,491 - INFO -   Uploaded: 06327536-cb04-4263-8e06-eb01ae3f154e.jpg
+2026-07-01 19:54:11,286 - INFO -   Clicked Save
+2026-07-01 19:54:12,154 - INFO -   ✓ Saved successfully: 0.75 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 19:54:13,164 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:54:13,164 - INFO - Processing: 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:54:13,652 - INFO -   Table has 83 rows
+2026-07-01 19:54:19,122 - INFO -   Matched → '0.75 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 19:54:23,554 - INFO -   Modal opened
+2026-07-01 19:54:25,079 - INFO -   Removed existing image
+2026-07-01 19:54:26,626 - INFO -   Clicked Add button
+2026-07-01 19:54:27,705 - INFO -   Uploaded: 33e14327-b0df-4f38-becd-fa8f74f33421.jpg
+2026-07-01 19:54:31,299 - INFO -   Clicked Save
+2026-07-01 19:54:31,917 - INFO -   ✓ Saved successfully: 0.75 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 19:54:32,918 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:54:32,919 - INFO - Processing: 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:54:32,978 - INFO -   Table has 83 rows
+2026-07-01 19:54:37,545 - INFO -   Matched → '0.75 Sq.Mm X2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 19:54:41,829 - INFO -   Modal opened
+2026-07-01 19:54:44,382 - INFO -   Removed existing image
+2026-07-01 19:54:46,133 - INFO -   Clicked Add button
+2026-07-01 19:54:47,245 - INFO -   Uploaded: 18bdf688-3738-485c-b7b9-d5b9eb357e6e.jpg
+2026-07-01 19:54:50,915 - INFO -   Clicked Save
+2026-07-01 19:54:51,569 - INFO -   ✓ Saved successfully: 0.75 Sq.Mm X2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 19:54:52,570 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:54:52,571 - INFO - Processing: 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing
+2026-07-01 19:54:52,655 - INFO -   Table has 83 rows
+2026-07-01 19:54:53,658 - INFO -   Matched → '1.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 24 Coil Bag Packing'
+2026-07-01 19:54:58,603 - INFO -   Modal opened
+2026-07-01 19:55:00,369 - INFO -   Removed existing image
+2026-07-01 19:55:02,029 - INFO -   Clicked Add button
+2026-07-01 19:55:03,121 - INFO -   Uploaded: 4d4ee46e-cfa1-49d8-b01e-0269807669a5.jpg
+2026-07-01 19:55:07,356 - INFO -   Clicked Save
+2026-07-01 19:55:08,165 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 24 Coil Bag Packing
+2026-07-01 19:55:09,168 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:55:09,168 - INFO - Processing: 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr
+2026-07-01 19:55:09,316 - INFO -   Table has 83 rows
+2026-07-01 19:55:14,468 - INFO -   Matched → '1.0 Sq.Mm Frlsh Mutistrand Copper Cable 90 Mtr'
+2026-07-01 19:55:18,953 - INFO -   Modal opened
+2026-07-01 19:55:20,523 - INFO -   Removed existing image
+2026-07-01 19:55:22,199 - INFO -   Clicked Add button
+2026-07-01 19:55:23,300 - INFO -   Uploaded: 0c6da6f6-cc14-46d0-8469-5f7d37bf6039.jpg
+2026-07-01 19:55:26,936 - INFO -   Clicked Save
+2026-07-01 19:55:27,583 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm Frlsh Mutistrand Copper Cable 90 Mtr
+2026-07-01 19:55:28,584 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:55:28,585 - INFO - Processing: 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing
+2026-07-01 19:55:28,658 - INFO -   Table has 83 rows
+2026-07-01 19:55:29,691 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 48 Coil Carton Packing'
+2026-07-01 19:55:34,412 - INFO -   Modal opened
+2026-07-01 19:55:36,168 - INFO -   Removed existing image
+2026-07-01 19:55:37,812 - INFO -   Clicked Add button
+2026-07-01 19:55:38,929 - INFO -   Uploaded: 04e07bb5-9e7b-4705-8664-c40af5127b10.jpg
+2026-07-01 19:55:42,772 - INFO -   Clicked Save
+2026-07-01 19:55:43,465 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 48 Coil Carton Packing
+2026-07-01 19:55:44,465 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:55:44,466 - INFO - Processing: 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 19:55:44,548 - INFO -   Table has 83 rows
+2026-07-01 19:55:46,614 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing'
+2026-07-01 19:55:51,230 - INFO -   Modal opened
+2026-07-01 19:55:52,873 - INFO -   Removed existing image
+2026-07-01 19:55:54,885 - INFO -   Clicked Add button
+2026-07-01 19:55:56,001 - INFO -   Uploaded: 9228c6bc-1b30-4f36-b5df-02410b93c70b.jpg
+2026-07-01 19:55:59,595 - INFO -   Clicked Save
+2026-07-01 19:56:00,185 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing
+2026-07-01 19:56:01,186 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:56:01,187 - INFO - Processing: 1.0 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 19:56:01,259 - INFO -   Table has 83 rows
+2026-07-01 19:56:06,919 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr'
+2026-07-01 19:56:11,193 - INFO -   Modal opened
+2026-07-01 19:56:12,963 - INFO -   Removed existing image
+2026-07-01 19:56:14,833 - INFO -   Clicked Add button
+2026-07-01 19:56:15,938 - INFO -   Uploaded: 460d8efa-9bf0-44d7-ac7a-9ef0f9467a8c.jpg
+2026-07-01 19:56:19,700 - INFO -   Clicked Save
+2026-07-01 19:56:20,455 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-01 19:56:21,456 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:56:21,460 - INFO - Processing: 1.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:56:21,533 - INFO -   Table has 83 rows
+2026-07-01 19:56:27,371 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 19:56:31,766 - INFO -   Modal opened
+2026-07-01 19:56:33,318 - INFO -   Removed existing image
+2026-07-01 19:56:34,956 - INFO -   Clicked Add button
+2026-07-01 19:56:36,051 - INFO -   Uploaded: 75ddb26f-ac6f-4602-b45b-fb2eb86557ed.jpg
+2026-07-01 19:56:39,649 - INFO -   Clicked Save
+2026-07-01 19:56:40,261 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 19:56:41,262 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:56:41,262 - INFO - Processing: 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:56:41,311 - INFO -   Table has 83 rows
+2026-07-01 19:56:44,725 - INFO -   Matched → '1.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 19:56:49,013 - INFO -   Modal opened
+2026-07-01 19:56:50,554 - INFO -   Removed existing image
+2026-07-01 19:56:52,117 - INFO -   Clicked Add button
+2026-07-01 19:56:53,211 - INFO -   Uploaded: 2cf1d5d7-775a-4e75-b7d1-5833f0e202cd.jpg
+2026-07-01 19:56:56,803 - INFO -   Clicked Save
+2026-07-01 19:56:57,404 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 19:56:58,405 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:56:58,405 - INFO - Processing: 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:56:58,462 - INFO -   Table has 83 rows
+2026-07-01 19:57:02,171 - INFO -   Matched → '1.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 19:57:06,362 - INFO -   Modal opened
+2026-07-01 19:57:07,899 - INFO -   Removed existing image
+2026-07-01 19:57:09,522 - INFO -   Clicked Add button
+2026-07-01 19:57:10,597 - INFO -   Uploaded: 33415e8e-f72b-4709-acbf-84630dbfce7d.jpg
+2026-07-01 19:57:14,220 - INFO -   Clicked Save
+2026-07-01 19:57:14,807 - INFO -   ✓ Saved successfully: 1.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 19:57:15,808 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:57:15,809 - INFO - Processing: 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 19:57:15,852 - INFO -   Table has 83 rows
+2026-07-01 19:57:18,935 - INFO -   Matched → '1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 19:57:23,139 - INFO -   Modal opened
+2026-07-01 19:57:24,656 - INFO -   Removed existing image
+2026-07-01 19:57:26,234 - INFO -   Clicked Add button
+2026-07-01 19:57:27,321 - INFO -   Uploaded: 1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-01 19:57:30,916 - INFO -   Clicked Save
+2026-07-01 19:57:45,983 - WARNING -   Modal did not close — assuming save worked, continuing
+2026-07-01 19:57:46,988 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:57:46,989 - INFO - Processing: 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing
+2026-07-01 19:57:47,080 - INFO -   Table has 83 rows
+2026-07-01 19:57:48,042 - INFO -   Matched → '1.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 20 Coil Bag Packing'
+2026-07-01 19:57:54,667 - INFO -   Modal opened
+2026-07-01 19:57:56,183 - INFO -   Removed existing image
+2026-07-01 19:57:57,837 - INFO -   Clicked Add button
+2026-07-01 19:57:58,941 - INFO -   Uploaded: a2eed846-b160-4064-b48c-0fa6a19b56d5.jpg
+2026-07-01 19:58:02,540 - INFO -   Clicked Save
+2026-07-01 19:58:03,120 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 20 Coil Bag Packing
+2026-07-01 19:58:04,121 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:58:04,122 - INFO - Processing: 1.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-01 19:58:04,174 - INFO -   Table has 83 rows
+2026-07-01 19:58:07,921 - INFO -   Matched → '1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr'
+2026-07-01 19:58:12,102 - INFO -   Modal opened
+2026-07-01 19:58:13,697 - INFO -   Removed existing image
+2026-07-01 19:58:15,301 - INFO -   Clicked Add button
+2026-07-01 19:58:16,421 - INFO -   Uploaded: 28769457-35cf-44a6-8f7d-6368bdd45fb2.jpg
+2026-07-01 19:58:20,102 - INFO -   Clicked Save
+2026-07-01 19:58:20,767 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr
+2026-07-01 19:58:21,768 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:58:21,769 - INFO - Processing: 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing
+2026-07-01 19:58:21,820 - INFO -   Table has 83 rows
+2026-07-01 19:58:22,696 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing'
+2026-07-01 19:58:27,037 - INFO -   Modal opened
+2026-07-01 19:58:28,670 - INFO -   Removed existing image
+2026-07-01 19:58:30,372 - INFO -   Clicked Add button
+2026-07-01 19:58:31,482 - INFO -   Uploaded: 1ed736bd-e87a-4dcd-a087-89491b94efae.jpg
+2026-07-01 19:58:35,248 - INFO -   Clicked Save
+2026-07-01 19:58:35,904 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing
+2026-07-01 19:58:36,906 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:58:36,906 - INFO - Processing: 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing
+2026-07-01 19:58:36,954 - INFO -   Table has 83 rows
+2026-07-01 19:58:38,167 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing'
+2026-07-01 19:58:42,564 - INFO -   Modal opened
+2026-07-01 19:58:44,101 - INFO -   Removed existing image
+2026-07-01 19:58:45,688 - INFO -   Clicked Add button
+2026-07-01 19:58:46,770 - INFO -   Uploaded: cf2943aa-a3dd-467b-9085-6cf9d9b71bd9.jpg
+2026-07-01 19:58:50,478 - INFO -   Clicked Save
+2026-07-01 19:58:51,221 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing
+2026-07-01 19:58:52,222 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:58:52,223 - INFO - Processing: 1.5 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 19:58:52,300 - INFO -   Table has 83 rows
+2026-07-01 19:58:57,566 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr'
+2026-07-01 19:59:01,867 - INFO -   Modal opened
+2026-07-01 19:59:03,481 - INFO -   Removed existing image
+2026-07-01 19:59:05,127 - INFO -   Clicked Add button
+2026-07-01 19:59:06,237 - INFO -   Uploaded: 149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-01 19:59:09,931 - INFO -   Clicked Save
+2026-07-01 19:59:25,380 - WARNING -   Modal did not close — assuming save worked, continuing
+2026-07-01 19:59:26,381 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:59:26,382 - INFO - Processing: 1.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 19:59:26,468 - INFO -   Table has 83 rows
+2026-07-01 19:59:30,600 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 19:59:36,704 - INFO -   Modal opened
+2026-07-01 19:59:38,356 - INFO -   Removed existing image
+2026-07-01 19:59:40,054 - INFO -   Clicked Add button
+2026-07-01 19:59:41,168 - INFO -   Uploaded: 0b38e7bb-358a-48db-bcb9-c565fa9d5ebf.jpg
+2026-07-01 19:59:44,836 - INFO -   Clicked Save
+2026-07-01 19:59:45,384 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 19:59:46,386 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 19:59:46,387 - INFO - Processing: 1.5 sq.mm submersible flat cable 100 mtr
+2026-07-01 19:59:46,479 - INFO -   Table has 83 rows
+2026-07-01 19:59:50,269 - INFO -   Matched → '1.5 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-01 19:59:54,499 - INFO -   Modal opened
+2026-07-01 19:59:56,032 - INFO -   Removed existing image
+2026-07-01 19:59:57,664 - INFO -   Clicked Add button
+2026-07-01 19:59:58,757 - INFO -   Uploaded: 4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-01 20:00:02,317 - INFO -   Clicked Save
+2026-07-01 20:00:17,648 - WARNING -   Modal did not close — assuming save worked, continuing
+2026-07-01 20:00:18,649 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:00:18,649 - INFO - Processing: 1.5 sq.mm submersible flat cable 500 mtr
+2026-07-01 20:00:18,713 - INFO -   Table has 83 rows
+2026-07-01 20:00:21,179 - INFO -   Matched → '1.5 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-01 20:00:27,261 - INFO -   Modal opened
+2026-07-01 20:00:28,772 - INFO -   Removed existing image
+2026-07-01 20:00:30,444 - INFO -   Clicked Add button
+2026-07-01 20:00:31,523 - INFO -   Uploaded: 3f28d977-0825-458e-9238-ece8847261e9.jpg
+2026-07-01 20:00:35,122 - INFO -   Clicked Save
+2026-07-01 20:00:35,707 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-01 20:00:36,710 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:00:36,711 - INFO - Processing: 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 20:00:37,069 - INFO -   Table has 83 rows
+2026-07-01 20:00:40,327 - INFO -   Matched → '1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 20:00:44,606 - INFO -   Modal opened
+2026-07-01 20:00:46,097 - INFO -   Removed existing image
+2026-07-01 20:00:47,665 - INFO -   Clicked Add button
+2026-07-01 20:00:48,737 - INFO -   Uploaded: 0b10deb8-f6d7-4f14-b53d-b178ec9342a1.jpg
+2026-07-01 20:00:52,297 - INFO -   Clicked Save
+2026-07-01 20:00:52,882 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 20:00:53,883 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:00:53,883 - INFO - Processing: 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 20:00:53,920 - INFO -   Table has 83 rows
+2026-07-01 20:00:57,039 - INFO -   Matched → '1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 20:01:01,254 - INFO -   Modal opened
+2026-07-01 20:01:02,775 - INFO -   Removed existing image
+2026-07-01 20:01:04,383 - INFO -   Clicked Add button
+2026-07-01 20:01:05,451 - INFO -   Uploaded: 2167e62a-3e35-4a6d-b1e7-0e766397cf10.jpg
+2026-07-01 20:01:09,002 - INFO -   Clicked Save
+2026-07-01 20:01:09,586 - INFO -   ✓ Saved successfully: 1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 20:01:10,587 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:01:10,588 - INFO - Processing: 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 20:01:10,632 - INFO -   Table has 83 rows
+2026-07-01 20:01:13,453 - INFO -   Matched → '1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 20:01:17,585 - INFO -   Modal opened
+2026-07-01 20:01:19,127 - INFO -   Removed existing image
+2026-07-01 20:01:20,691 - INFO -   Clicked Add button
+2026-07-01 20:01:21,783 - INFO -   Uploaded: 06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-01 20:01:25,459 - INFO -   Clicked Save
+2026-07-01 20:01:40,888 - WARNING -   Modal did not close — assuming save worked, continuing
+2026-07-01 20:01:41,889 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:01:41,889 - INFO - Processing: 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-01 20:01:41,930 - INFO -   Table has 83 rows
+2026-07-01 20:01:43,600 - INFO -   Matched → '10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt'
+2026-07-01 20:01:49,668 - INFO -   Modal opened
+2026-07-01 20:01:51,190 - INFO -   Removed existing image
+2026-07-01 20:01:52,739 - INFO -   Clicked Add button
+2026-07-01 20:01:53,815 - INFO -   Uploaded: 06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-01 20:01:57,359 - INFO -   Clicked Save
+2026-07-01 20:02:12,881 - WARNING -   Modal did not close — assuming save worked, continuing
+2026-07-01 20:02:13,882 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:02:13,883 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )
+2026-07-01 20:02:13,925 - INFO -   Table has 83 rows
+2026-07-01 20:02:15,483 - INFO -   Matched → '10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded )'
+2026-07-01 20:02:21,448 - INFO -   Modal opened
+2026-07-01 20:02:22,945 - INFO -   Removed existing image
+2026-07-01 20:02:25,116 - INFO -   Clicked Add button
+2026-07-01 20:02:26,399 - INFO -   Uploaded: 17eff4a5-d386-471d-8806-8babd11e30e6.jpg
+2026-07-01 20:02:30,109 - INFO -   Clicked Save
+2026-07-01 20:02:30,722 - INFO -   ✓ Saved successfully: 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded )
+2026-07-01 20:02:31,724 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:02:31,724 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-01 20:02:31,771 - INFO -   Table has 83 rows
+2026-07-01 20:02:33,056 - INFO -   Matched → '10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-01 20:02:37,305 - INFO -   Modal opened
+2026-07-01 20:02:38,793 - INFO -   Removed existing image
+2026-07-01 20:02:40,350 - INFO -   Clicked Add button
+2026-07-01 20:02:41,422 - INFO -   Uploaded: 2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-01 20:02:44,969 - INFO -   Clicked Save
+2026-07-01 20:03:00,009 - WARNING -   Modal did not close — assuming save worked, continuing
+2026-07-01 20:03:01,011 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 20:03:01,012 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-01 20:03:01,053 - INFO -   Table has 83 rows
+2026-07-01 20:03:02,337 - INFO -   Matched → '10.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-01 20:03:08,414 - INFO -   Modal opened
+2026-07-01 20:03:09,939 - INFO -   Removed existing image
+2026-07-01 20:03:11,529 - INFO -   Clicked Add button
+2026-07-01 22:11:50,729 - ERROR -   Failed to upload image: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a700]
+	chromedriver!(No symbol) [0x52ad03]
+	chromedriver!(No symbol) [0x52aa35]
+	chromedriver!(No symbol) [0x528c08]
+	chromedriver!(No symbol) [0x529456]
+	chromedriver!(No symbol) [0x5360fb]
+	chromedriver!(No symbol) [0x547bfe]
+	chromedriver!(No symbol) [0x54dc76]
+	chromedriver!(No symbol) [0x529adc]
+	chromedriver!(No symbol) [0x547489]
+	chromedriver!(No symbol) [0x5c3699]
+	chromedriver!(No symbol) [0x5a5e66]
+	chromedriver!(No symbol) [0x579159]
+	chromedriver!(No symbol) [0x579f24]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!GetHandleVerifier [0x742d18+18bc8]
+	chromedriver!GetHandleVerifier [0x742ec5+18d75]
+	chromedriver!GetHandleVerifier [0x72c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 22:11:53,868 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 22:11:53,868 - INFO - Processing: 10.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 22:13:42,557 - INFO - Browser closed
+2026-07-01 22:13:42,557 - ERROR - Fatal error in run_product_management_upload: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a53e]
+	chromedriver!(No symbol) [0x5783e7]
+	chromedriver!(No symbol) [0x5a5f86]
+	chromedriver!(No symbol) [0x5a1192]
+	chromedriver!(No symbol) [0x5a0b71]
+	chromedriver!(No symbol) [0x50db2e]
+	chromedriver!(No symbol) [0x50e0ce]
+	chromedriver!(No symbol) [0x50e5ad]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!(No symbol) [0x50d6a6]
+	chromedriver!(No symbol) [0x50cd02]
+	chromedriver!GetHandleVerifier [0xb2be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-01 22:13:43,127 - ERROR - Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\product_management_upload.py", line 146, in run_product_management_upload
+    rows = driver.find_elements(By.CSS_SELECTOR, "table > tbody > tr")
+  File "C:\Users\admin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 771, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x73a543+103f3]
+	chromedriver!GetHandleVerifier [0x73a584+10434]
+	chromedriver!(No symbol) [0x53a53e]
+	chromedriver!(No symbol) [0x5783e7]
+	chromedriver!(No symbol) [0x5a5f86]
+	chromedriver!(No symbol) [0x5a1192]
+	chromedriver!(No symbol) [0x5a0b71]
+	chromedriver!(No symbol) [0x50db2e]
+	chromedriver!(No symbol) [0x50e0ce]
+	chromedriver!(No symbol) [0x50e5ad]
+	chromedriver!GetHandleVerifier [0x9c4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x9c0119+295fc9]
+	chromedriver!GetHandleVerifier [0x9e103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x7537f6+296a6]
+	chromedriver!GetHandleVerifier [0x75a91d+307cd]
+	chromedriver!(No symbol) [0x50d6a6]
+	chromedriver!(No symbol) [0x50cd02]
+	chromedriver!GetHandleVerifier [0xb2be1f+401ccf]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+
+2026-07-01 22:13:47,205 - INFO - 
+Task finished at 2026-07-01 22:13:47
+2026-07-01 22:13:47,205 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260701_195305.log
+

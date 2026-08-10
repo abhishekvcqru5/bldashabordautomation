@@ -1,0 +1,74 @@
+2026-06-17 16:20:21,566 - INFO - User selected: Old Dashboard
+2026-06-17 16:21:08,867 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 16:21:08,886 - INFO - ====== WebDriver manager ======
+2026-06-17 16:21:10,722 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:21:14,928 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:21:15,566 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:21:15,567 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:21:16,709 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
+2026-06-17 16:21:16,709 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:21:23,411 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 16:21:25,412 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
+2026-06-17 16:21:25,583 - INFO -       Email → field #login_txt_id
+2026-06-17 16:21:25,809 - INFO -       Password → field #login_txt_pass
+2026-06-17 16:21:25,979 - INFO -       Login button clicked: #btnVendor
+2026-06-17 16:21:25,979 - INFO -     → Waiting for post-login redirect …
+2026-06-17 16:21:27,742 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-17 16:21:29,771 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-17 16:21:29,827 - INFO -     ✓ Found and clicked Build Loyalty App menu
+2026-06-17 16:21:34,045 - INFO -     ✓ Found and clicked Product Catalogue submenu
+2026-06-17 16:21:42,262 - INFO - ✓ Clicked Add Product Details button
+2026-06-17 16:21:42,307 - INFO - Found 12 rows in table.
+2026-06-17 16:21:42,413 - INFO - Extracted: Nano (5 litres)
+2026-06-17 16:21:42,496 - INFO - Extracted: Nano (1 litres)
+2026-06-17 16:21:42,579 - INFO - Extracted: Everclear 505
+2026-06-17 16:21:42,667 - INFO - Extracted: Everclear 510
+2026-06-17 16:21:42,899 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 16:21:42,995 - INFO - Extracted: Akepox Claro
+2026-06-17 16:21:43,091 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 16:21:43,183 - INFO - Extracted: Akepox 5010
+2026-06-17 16:21:43,292 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 16:21:43,391 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 16:21:43,476 - INFO - Extracted: L Special
+2026-06-17 16:21:43,596 - INFO - Extracted: Crackbond
+2026-06-17 16:21:45,928 - INFO - ====== WebDriver manager ======
+2026-06-17 16:21:47,826 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:21:48,323 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 16:21:48,837 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 16:21:48,837 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 16:21:50,131 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 16:21:50,180 - INFO - ✓ Chrome driver initialized
+2026-06-17 16:21:50,180 - INFO - Opening login page...
+2026-06-17 16:21:51,728 - INFO -   → Policy checkbox checked on login page
+2026-06-17 16:21:51,877 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 16:22:25,922 - INFO - ✓ Login successful
+2026-06-17 16:22:32,229 - INFO - ✓ Navigated to Product Management
+2026-06-17 16:22:35,731 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:22:38,763 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 16:22:42,076 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:22:45,113 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 16:22:48,727 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:22:51,775 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 16:22:55,185 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:22:58,226 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 16:23:01,329 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:04,363 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 16:23:07,946 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:11,011 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 16:23:14,259 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:17,292 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 16:23:20,463 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:23,506 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 16:23:27,131 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:30,161 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 16:23:33,226 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:36,260 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 16:23:39,829 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:42,861 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 16:23:45,913 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 16:23:48,949 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 16:23:51,218 - INFO - Browser closed
+2026-06-17 16:23:59,320 - INFO - 
+Task finished at 2026-06-17 16:23:59
+2026-06-17 16:23:59,320 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_162021.log
+

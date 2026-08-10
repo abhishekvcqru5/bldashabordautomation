@@ -1,0 +1,74 @@
+2026-06-18 16:17:35,033 - INFO - User selected: Update Dashboard Icons (Option 16)
+2026-06-18 16:17:41,743 - INFO - ============================================================
+2026-06-18 16:17:41,743 - INFO - UPDATING DASHBOARD ICONS FOR: mahesh@vcqru.com
+2026-06-18 16:17:41,744 - INFO - ============================================================
+2026-06-18 16:17:41,745 - INFO - Processing images from dashboardicons/...
+2026-06-18 16:17:41,753 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 16:17:41,754 - INFO - Output folder: automation\processed_images
+2026-06-18 16:17:41,754 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 16:17:41,918 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 16:17:42,052 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 16:17:42,153 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 16:17:42,241 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 16:17:42,310 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 16:17:42,362 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 16:17:42,444 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 16:17:42,508 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 16:17:42,577 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 16:17:42,673 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 16:17:42,739 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 16:17:42,828 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 16:17:42,829 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-18 16:17:42,829 - INFO - ✓ 12 images processed.
+2026-06-18 16:17:42,854 - INFO - ====== WebDriver manager ======
+2026-06-18 16:17:46,173 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 16:17:46,857 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-18 16:17:47,653 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-18 16:17:47,653 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-18 16:17:49,267 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-18 16:17:49,391 - INFO - ✓ Chrome driver initialized
+2026-06-18 16:17:49,392 - INFO - Opening login page...
+2026-06-18 16:17:52,769 - INFO -   → Policy checkbox checked on login page
+2026-06-18 16:17:52,998 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-18 16:17:53,076 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-18 16:17:53,093 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-18 16:18:01,959 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-18 16:18:02,059 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-18 16:18:10,347 - INFO - ✓ Login successful
+2026-06-18 16:18:12,348 - INFO - Navigating to dashboard icons section...
+2026-06-18 16:18:12,348 - INFO - Navigating to App Settings...
+2026-06-18 16:18:18,900 - INFO - ✓ Dashboard Icons section loaded
+2026-06-18 16:18:18,901 - ERROR - ✗ Table not found on dashboard icons page.
+2026-06-18 16:18:21,372 - INFO - Browser closed
+2026-06-18 16:18:25,422 - INFO - 
+Task finished at 2026-06-18 16:18:25
+2026-06-18 16:18:25,423 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260618_161604.log
+
+2026-06-18 16:18:25,424 - INFO - User selected: Dashboard Icons
+2026-06-18 16:18:25,424 - INFO - ============================================================
+2026-06-18 16:18:25,424 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-18 16:18:25,424 - INFO - ============================================================
+2026-06-18 16:18:25,433 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-18 16:18:25,433 - INFO - Output folder: automation\processed_images
+2026-06-18 16:18:25,433 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-18 16:18:25,537 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-18 16:18:25,723 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-18 16:18:25,803 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-18 16:18:25,879 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-18 16:18:25,950 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-18 16:18:26,031 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-18 16:18:26,132 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-18 16:18:26,213 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-18 16:18:26,287 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-18 16:18:26,397 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-18 16:18:26,527 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-18 16:18:26,602 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-18 16:18:26,603 - INFO - 
+✓ Processed 12 images successfully
+
+2026-06-18 16:18:26,603 - INFO - ✓ 12 images processed successfully.
+

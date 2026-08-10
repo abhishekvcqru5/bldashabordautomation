@@ -1,0 +1,142 @@
+2026-07-30 23:38:31,149 - INFO - User selected: Intro Screens
+2026-07-30 23:38:31,152 - INFO - ============================================================
+2026-07-30 23:38:31,153 - INFO - INTRO SCREENS — Image Processing
+2026-07-30 23:38:31,154 - INFO - ============================================================
+2026-07-30 23:38:31,194 - INFO - Found 10 intro image(s) in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\introscreen/
+2026-07-30 23:38:31,291 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_31_57 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:31,673 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_31_57 PM.png  →  ChatGPT Image Jul 30, 2026, 07_31_57 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-07-30 23:38:31,702 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_36_36 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:31,888 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_36_36 PM.png  →  ChatGPT Image Jul 30, 2026, 07_36_36 PM_processed.jpg  |  1080×1920  |  0.41 MB  |  quality 92
+2026-07-30 23:38:31,911 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_40_53 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:32,143 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_40_53 PM.png  →  ChatGPT Image Jul 30, 2026, 07_40_53 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-07-30 23:38:32,184 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_42_36 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:32,436 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_42_36 PM.png  →  ChatGPT Image Jul 30, 2026, 07_42_36 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-07-30 23:38:32,471 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_44_10 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:32,740 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_44_10 PM.png  →  ChatGPT Image Jul 30, 2026, 07_44_10 PM_processed.jpg  |  1080×1920  |  0.48 MB  |  quality 92
+2026-07-30 23:38:32,768 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 07_45_39 PM.png  (941×1671 → need 1080×1920)
+2026-07-30 23:38:32,973 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 07_45_39 PM.png  →  ChatGPT Image Jul 30, 2026, 07_45_39 PM_processed.jpg  |  1080×1920  |  0.42 MB  |  quality 92
+2026-07-30 23:38:33,007 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 10_58_53 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:33,255 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 10_58_53 PM.png  →  ChatGPT Image Jul 30, 2026, 10_58_53 PM_processed.jpg  |  1080×1920  |  0.40 MB  |  quality 92
+2026-07-30 23:38:33,289 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 11_00_55 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:33,555 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 11_00_55 PM.png  →  ChatGPT Image Jul 30, 2026, 11_00_55 PM_processed.jpg  |  1080×1920  |  0.43 MB  |  quality 92
+2026-07-30 23:38:33,593 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 11_03_09 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:33,817 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 11_03_09 PM.png  →  ChatGPT Image Jul 30, 2026, 11_03_09 PM_processed.jpg  |  1080×1920  |  0.37 MB  |  quality 92
+2026-07-30 23:38:33,843 - INFO -   ⚙ Processing ChatGPT Image Jul 30, 2026, 11_18_09 PM.png  (941×1672 → need 1080×1920)
+2026-07-30 23:38:34,203 - INFO -   ✓ ChatGPT Image Jul 30, 2026, 11_18_09 PM.png  →  ChatGPT Image Jul 30, 2026, 11_18_09 PM_processed.jpg  |  1080×1920  |  0.38 MB  |  quality 92
+2026-07-30 23:38:34,205 - INFO -   Processed 10/10 intro images successfully
+
+2026-07-30 23:38:37,718 - INFO - ============================================================
+2026-07-30 23:38:37,719 - INFO - INTRO SCREENS — Browser Automation
+2026-07-30 23:38:37,719 - INFO - ============================================================
+2026-07-30 23:38:37,757 - INFO - ====== WebDriver manager ======
+2026-07-30 23:38:40,883 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-30 23:38:41,204 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-30 23:38:41,370 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-30 23:38:41,372 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-30 23:38:45,982 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-30 23:38:46,008 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-30 23:38:46,220 - INFO - ✓ Chrome driver initialized
+2026-07-30 23:38:46,221 - INFO - Opening login page...
+2026-07-30 23:38:48,304 - INFO -   → Policy checkbox checked on login page
+2026-07-30 23:38:48,513 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-30 23:38:48,576 - INFO -   → Policy agreement popup detected
+2026-07-30 23:38:48,671 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-30 23:38:49,789 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-30 23:38:56,177 - INFO -   → Policy agreement popup detected
+2026-07-30 23:38:56,257 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-30 23:38:56,825 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-30 23:38:56,825 - INFO -   → Navigating directly to App Settings URL...
+2026-07-30 23:38:57,373 - INFO - ✓ Login successful and on App Settings page
+2026-07-30 23:38:59,374 - INFO - Going to App Settings...
+2026-07-30 23:39:05,990 - INFO -   → Intro Screens section opened
+2026-07-30 23:39:06,090 - INFO - ✓ Intro Screens page ready
+2026-07-30 23:39:06,091 - INFO - Starting batch  —  10 intro screen(s) to launch
+2026-07-30 23:39:06,092 - INFO - ============================================================
+2026-07-30 23:39:06,092 - INFO - [1/10]
+2026-07-30 23:39:06,093 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-30 23:39:08,989 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-30 23:39:10,293 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-30 23:39:12,380 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_31_57 PM_processed.jpg
+2026-07-30 23:39:12,612 - INFO -     → Launch Screen clicked
+2026-07-30 23:39:16,793 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-30 23:39:17,795 - INFO - [2/10]
+2026-07-30 23:39:17,795 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-07-30 23:39:20,306 - INFO -     → Header: Scan, Earn, Celebrate
+2026-07-30 23:39:21,359 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-07-30 23:39:23,436 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_36_36 PM_processed.jpg
+2026-07-30 23:39:23,822 - INFO -     → Launch Screen clicked
+2026-07-30 23:39:27,864 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-07-30 23:39:28,875 - INFO - [3/10]
+2026-07-30 23:39:28,890 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-30 23:39:31,667 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-30 23:39:32,796 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-30 23:39:34,876 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_40_53 PM_processed.jpg
+2026-07-30 23:39:35,147 - INFO -     → Launch Screen clicked
+2026-07-30 23:39:39,177 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-30 23:39:40,179 - INFO - [4/10]
+2026-07-30 23:39:40,179 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-07-30 23:39:42,780 - INFO -     → Header: Scan, Earn, Celebrate
+2026-07-30 23:39:43,994 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-07-30 23:39:46,079 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_42_36 PM_processed.jpg
+2026-07-30 23:39:46,388 - INFO -     → Launch Screen clicked
+2026-07-30 23:39:50,413 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-07-30 23:39:51,415 - INFO - [5/10]
+2026-07-30 23:39:51,416 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-30 23:39:54,013 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-30 23:39:55,241 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-30 23:39:57,357 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_44_10 PM_processed.jpg
+2026-07-30 23:39:57,595 - INFO -     → Launch Screen clicked
+2026-07-30 23:40:01,624 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-30 23:40:02,625 - INFO - [6/10]
+2026-07-30 23:40:02,626 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-07-30 23:40:05,254 - INFO -     → Header: Scan, Earn, Celebrate
+2026-07-30 23:40:06,425 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-07-30 23:40:08,509 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 07_45_39 PM_processed.jpg
+2026-07-30 23:40:08,761 - INFO -     → Launch Screen clicked
+2026-07-30 23:40:12,787 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-07-30 23:40:13,789 - INFO - [7/10]
+2026-07-30 23:40:13,790 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-30 23:40:16,392 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-30 23:40:17,550 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-30 23:40:19,629 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 10_58_53 PM_processed.jpg
+2026-07-30 23:40:19,876 - INFO -     → Launch Screen clicked
+2026-07-30 23:40:23,900 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-30 23:40:24,902 - INFO - [8/10]
+2026-07-30 23:40:24,903 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-07-30 23:40:27,463 - INFO -     → Header: Scan, Earn, Celebrate
+2026-07-30 23:40:28,728 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-07-30 23:40:30,810 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 11_00_55 PM_processed.jpg
+2026-07-30 23:40:31,058 - INFO -     → Launch Screen clicked
+2026-07-30 23:40:35,086 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-07-30 23:40:36,088 - INFO - [9/10]
+2026-07-30 23:40:36,089 - INFO -   Launching screen: [Earn Points, Unlock Rewards]
+2026-07-30 23:40:39,003 - INFO -     → Header: Earn Points, Unlock Rewards
+2026-07-30 23:40:40,276 - INFO -     → Description: Turn every purchase or scan into valuable points. Accumulate...
+2026-07-30 23:40:42,359 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 11_03_09 PM_processed.jpg
+2026-07-30 23:40:42,614 - INFO -     → Launch Screen clicked
+2026-07-30 23:40:46,657 - INFO -   ✓ Intro screen launched: Earn Points, Unlock Rewards
+
+2026-07-30 23:40:47,658 - INFO - [10/10]
+2026-07-30 23:40:47,659 - INFO -   Launching screen: [Scan, Earn, Celebrate]
+2026-07-30 23:40:50,525 - INFO -     → Header: Scan, Earn, Celebrate
+2026-07-30 23:40:52,095 - INFO -     → Description: With every QR scan, you step closer to amazing rewards. Enjo...
+2026-07-30 23:40:54,228 - INFO -     → Image uploaded: ChatGPT Image Jul 30, 2026, 11_18_09 PM_processed.jpg
+2026-07-30 23:40:54,507 - INFO -     → Launch Screen clicked
+2026-07-30 23:40:58,531 - INFO -   ✓ Intro screen launched: Scan, Earn, Celebrate
+
+2026-07-30 23:40:59,532 - INFO - ============================================================
+2026-07-30 23:40:59,534 - INFO - Intro screens done  →  ✓ 10 launched   ✗ 0 failed
+2026-07-30 23:41:02,649 - INFO - Browser closed
+2026-07-30 23:41:06,726 - INFO - 
+Task finished at 2026-07-30 23:41:06
+2026-07-30 23:41:06,727 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260730_233615.log
+
+2026-07-31 11:59:17,641 - INFO - Automation cancelled by user (Ctrl+C)

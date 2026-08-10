@@ -1,0 +1,352 @@
+2026-07-07 11:57:56,151 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-07 11:57:56,151 - INFO - ============================================================
+2026-07-07 11:57:56,152 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-07 11:57:56,152 - INFO - ============================================================
+2026-07-07 11:57:56,153 - INFO - Processing images from dashboardicons/...
+2026-07-07 11:57:56,161 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-07 11:57:56,172 - INFO - Output folder: automation\processed_images
+2026-07-07 11:57:56,172 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-07 11:57:56,225 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-07 11:57:56,268 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-07 11:57:56,336 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-07-07 11:57:56,365 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-07-07 11:57:56,419 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-07-07 11:57:56,464 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-07 11:57:56,498 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-07 11:57:56,529 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-07 11:57:56,558 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-07-07 11:57:56,583 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-07 11:57:56,601 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-07 11:57:56,634 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-07 11:57:56,660 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-07 11:57:56,688 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-07 11:57:56,730 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-07 11:57:56,762 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-07-07 11:57:56,788 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-07 11:57:56,817 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-07 11:57:56,851 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-07 11:57:56,852 - INFO - 
+✓ Processed 18 images successfully
+
+2026-07-07 11:57:56,852 - INFO - v 18 images processed.
+2026-07-07 11:57:57,141 - INFO - ====== WebDriver manager ======
+2026-07-07 11:57:58,614 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 11:57:58,954 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-07 11:57:59,284 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-07 11:57:59,284 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-07 11:58:00,399 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-07 11:58:00,401 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-07 11:58:00,436 - INFO - ✓ Chrome driver initialized
+2026-07-07 11:58:00,437 - INFO - Opening login page...
+2026-07-07 11:58:01,598 - INFO -   → Policy checkbox checked on login page
+2026-07-07 11:58:01,675 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-07 11:58:01,691 - INFO -   → Policy agreement popup detected
+2026-07-07 11:58:01,735 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-07 11:58:02,266 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-07 11:58:08,427 - INFO -   → Policy agreement popup detected
+2026-07-07 11:58:08,444 - INFO -     ✓ Policy checkbox was already checked
+2026-07-07 11:58:09,288 - INFO -     ✓ Clicked Continue button
+2026-07-07 11:58:09,933 - INFO -     ✓ Policy popup dismissed
+2026-07-07 11:58:10,939 - INFO - ✓ Login successful
+2026-07-07 11:58:12,940 - INFO - Navigating to dashboard icons section...
+2026-07-07 11:58:12,940 - INFO - Navigating to App Settings...
+2026-07-07 11:58:19,218 - INFO - ✓ Dashboard Icons section loaded
+2026-07-07 11:58:19,218 - INFO - Reading all available user types from dropdown...
+2026-07-07 11:58:33,353 - INFO -   Found 6 user types: ['AutoAgent', 'uthgg k nm', 'User', 'Mechanic', 'Retailer', 'Dealer']
+2026-07-07 11:58:33,382 - INFO - Total rows found in configured icons table: 90
+2026-07-07 11:58:35,092 - INFO - Currently configured icons per user type:
+2026-07-07 11:58:35,092 - INFO -   autoagent: ['codedetails', 'blog', 'claimhistory', 'wallet', 'productcatalogue', 'e-warrant', 'gift', 'chooselanguage', 'tds', 'transferpoints', 'kycdetails', 'brochure', 'help', 'instalment', 'referandearn', 'history', 'retailer']
+2026-07-07 11:58:35,092 - INFO -   uthgg k nm: ['codedetails', 'productcatalogue', 'claimhistory', 'wallet', 'blog', 'e-warrant', 'gift', 'chooselanguage', 'tds', 'transferpoints', 'kycdetails', 'brochure', 'help', 'instalment', 'referandearn', 'history', 'retailer']
+2026-07-07 11:58:35,092 - INFO -   user: ['codedetails', 'productcatalogue', 'blog', 'wallet', 'gift', 'chooselanguage', 'tds', 'kycdetails', 'help', 'brochure', 'referandearn', 'history']
+2026-07-07 11:58:35,093 - INFO -   mechanic: ['codedetails', 'productcatalogue', 'claimhistory', 'wallet', 'blog', 'gift', 'chooselanguage', 'kycdetails', 'brochure', 'help', 'referandearn', 'history']
+2026-07-07 11:58:35,093 - INFO -   retailer: ['codedetails', 'productcatalogue', 'blog', 'wallet', 'gift', 'tds', 'kycdetails', 'brochure', 'help', 'referandearn', 'history']
+2026-07-07 11:58:35,093 - INFO -   dealer: ['codedetails', 'productcatalogue', 'blog', 'wallet', 'gift', 'chooselanguage', 'tds', 'kycdetails', 'help', 'brochure', 'referandearn', 'history', 'ecommerce']
+2026-07-07 11:58:35,093 - INFO - Found 21 missing icon uploads:
+2026-07-07 11:58:35,093 - INFO -   - [User] Activity (ID: claimhistory) from Activity.png
+2026-07-07 11:58:35,093 - INFO -   - [User] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:58:35,094 - INFO -   - [User] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:58:35,094 - INFO -   - [User] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:58:35,094 - INFO -   - [User] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:58:35,094 - INFO -   - [Mechanic] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:58:35,094 - INFO -   - [Mechanic] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:58:35,095 - INFO -   - [Mechanic] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:58:35,095 - INFO -   - [Mechanic] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:58:35,095 - INFO -   - [Mechanic] TDS (ID: tds) from TDS.png
+2026-07-07 11:58:35,095 - INFO -   - [Retailer] Activity (ID: claimhistory) from Activity.png
+2026-07-07 11:58:35,095 - INFO -   - [Retailer] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:58:35,095 - INFO -   - [Retailer] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:58:35,095 - INFO -   - [Retailer] Language (ID: chooselanguage) from Language.png
+2026-07-07 11:58:35,095 - INFO -   - [Retailer] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:58:35,095 - INFO -   - [Retailer] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:58:35,095 - INFO -   - [Dealer] Activity (ID: claimhistory) from Activity.png
+2026-07-07 11:58:35,096 - INFO -   - [Dealer] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-07 11:58:35,096 - INFO -   - [Dealer] Installation Guide (ID: instalment) from Installation Guide.png
+2026-07-07 11:58:35,096 - INFO -   - [Dealer] Nearby Retailers (ID: retailer) from Nearby Retailers.png
+2026-07-07 11:58:35,096 - INFO -   - [Dealer] Send Points (ID: transferpoints) from Send Points.png
+2026-07-07 11:58:42,983 - INFO - 
+[1/21] Uploading missing icon for User: Activity
+2026-07-07 11:58:42,984 - INFO -   Adding: [User] Activity  (claimhistory)
+2026-07-07 11:58:55,835 - INFO -     → User type selected by exact text: User
+2026-07-07 11:58:55,937 - INFO -     → Icon identity: claimhistory
+2026-07-07 11:58:56,121 - INFO -     → Display title: Activity
+2026-07-07 11:58:56,559 - INFO -     → Icon color: #F86008
+2026-07-07 11:58:56,593 - INFO -     → Toggle: dashboard only
+2026-07-07 11:58:58,650 - INFO -     → Image uploaded: Activity.png
+2026-07-07 11:58:58,768 - INFO -     → Form submitted
+2026-07-07 11:59:09,704 - INFO -   ✓ Icon added: Activity
+
+2026-07-07 11:59:10,705 - INFO - 
+[2/21] Uploading missing icon for User: E-Warranty
+2026-07-07 11:59:10,706 - INFO -   Adding: [User] E-Warranty  (e-warrant)
+2026-07-07 11:59:23,257 - INFO -     → User type selected by exact text: User
+2026-07-07 11:59:23,337 - INFO -     → Icon identity: e-warrant
+2026-07-07 11:59:23,504 - INFO -     → Display title: E-Warranty
+2026-07-07 11:59:24,015 - INFO -     → Icon color: #20C078
+2026-07-07 11:59:24,053 - INFO -     → Toggle: dashboard only
+2026-07-07 11:59:26,096 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-07 11:59:26,199 - INFO -     → Form submitted
+2026-07-07 11:59:37,066 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-07 11:59:38,067 - INFO - 
+[3/21] Uploading missing icon for User: Installation Guide
+2026-07-07 11:59:38,068 - INFO -   Adding: [User] Installation Guide  (instalment)
+2026-07-07 11:59:50,379 - INFO -     → User type selected by exact text: User
+2026-07-07 11:59:50,454 - INFO -     → Icon identity: instalment
+2026-07-07 11:59:50,552 - INFO -     → Display title: Installation Guide
+2026-07-07 11:59:50,955 - INFO -     → Icon color: #089098
+2026-07-07 11:59:50,982 - INFO -     → Toggle: dashboard only
+2026-07-07 11:59:53,009 - INFO -     → Image uploaded: Installation Guide.png
+2026-07-07 11:59:53,083 - INFO -     → Form submitted
+2026-07-07 12:00:03,709 - INFO -   ✓ Icon added: Installation Guide
+
+2026-07-07 12:00:04,710 - INFO - 
+[4/21] Uploading missing icon for User: Nearby Retailers
+2026-07-07 12:00:04,711 - INFO -   Adding: [User] Nearby Retailers  (retailer)
+2026-07-07 12:00:17,421 - INFO -     → User type selected by exact text: User
+2026-07-07 12:00:17,572 - INFO -     → Icon identity: retailer
+2026-07-07 12:00:17,795 - INFO -     → Display title: Nearby Retailers
+2026-07-07 12:00:18,284 - INFO -     → Icon color: #F87010
+2026-07-07 12:00:18,314 - INFO -     → Toggle: dashboard only
+2026-07-07 12:00:20,350 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-07 12:00:20,468 - INFO -     → Form submitted
+2026-07-07 12:00:31,290 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-07 12:00:32,301 - INFO - 
+[5/21] Uploading missing icon for User: Send Points
+2026-07-07 12:00:32,305 - INFO -   Adding: [User] Send Points  (transferpoints)
+2026-07-07 12:00:45,107 - INFO -     → User type selected by exact text: User
+2026-07-07 12:00:45,172 - INFO -     → Icon identity: transferpoints
+2026-07-07 12:00:45,290 - INFO -     → Display title: Send Points
+2026-07-07 12:00:45,678 - INFO -     → Icon color: #F86008
+2026-07-07 12:00:45,698 - INFO -     → Toggle: dashboard only
+2026-07-07 12:00:47,722 - INFO -     → Image uploaded: Send Points.png
+2026-07-07 12:00:47,788 - INFO -     → Form submitted
+2026-07-07 12:00:58,395 - INFO -   ✓ Icon added: Send Points
+
+2026-07-07 12:00:59,396 - INFO - 
+[6/21] Uploading missing icon for Mechanic: E-Warranty
+2026-07-07 12:00:59,397 - INFO -   Adding: [Mechanic] E-Warranty  (e-warrant)
+2026-07-07 12:01:12,206 - INFO -     → User type selected by exact text: Mechanic
+2026-07-07 12:01:12,268 - INFO -     → Icon identity: e-warrant
+2026-07-07 12:01:12,369 - INFO -     → Display title: E-Warranty
+2026-07-07 12:01:12,769 - INFO -     → Icon color: #20C078
+2026-07-07 12:01:12,789 - INFO -     → Toggle: dashboard only
+2026-07-07 12:01:14,815 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-07 12:01:14,928 - INFO -     → Form submitted
+2026-07-07 12:01:25,578 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-07 12:01:26,579 - INFO - 
+[7/21] Uploading missing icon for Mechanic: Installation Guide
+2026-07-07 12:01:26,580 - INFO -   Adding: [Mechanic] Installation Guide  (instalment)
+2026-07-07 12:01:38,893 - INFO -     → User type selected by exact text: Mechanic
+2026-07-07 12:01:38,959 - INFO -     → Icon identity: instalment
+2026-07-07 12:01:39,100 - INFO -     → Display title: Installation Guide
+2026-07-07 12:01:39,509 - INFO -     → Icon color: #089098
+2026-07-07 12:01:39,533 - INFO -     → Toggle: dashboard only
+2026-07-07 12:01:41,571 - INFO -     → Image uploaded: Installation Guide.png
+2026-07-07 12:01:41,662 - INFO -     → Form submitted
+2026-07-07 12:01:52,350 - INFO -   ✓ Icon added: Installation Guide
+
+2026-07-07 12:01:53,351 - INFO - 
+[8/21] Uploading missing icon for Mechanic: Nearby Retailers
+2026-07-07 12:01:53,352 - INFO -   Adding: [Mechanic] Nearby Retailers  (retailer)
+2026-07-07 12:02:05,628 - INFO -     → User type selected by exact text: Mechanic
+2026-07-07 12:02:05,684 - INFO -     → Icon identity: retailer
+2026-07-07 12:02:05,772 - INFO -     → Display title: Nearby Retailers
+2026-07-07 12:02:06,149 - INFO -     → Icon color: #F87010
+2026-07-07 12:02:06,173 - INFO -     → Toggle: dashboard only
+2026-07-07 12:02:08,199 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-07 12:02:08,273 - INFO -     → Form submitted
+2026-07-07 12:02:18,936 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-07 12:02:19,937 - INFO - 
+[9/21] Uploading missing icon for Mechanic: Send Points
+2026-07-07 12:02:19,937 - INFO -   Adding: [Mechanic] Send Points  (transferpoints)
+2026-07-07 12:02:32,279 - INFO -     → User type selected by exact text: Mechanic
+2026-07-07 12:02:32,372 - INFO -     → Icon identity: transferpoints
+2026-07-07 12:02:32,467 - INFO -     → Display title: Send Points
+2026-07-07 12:02:32,864 - INFO -     → Icon color: #F86008
+2026-07-07 12:02:32,883 - INFO -     → Toggle: dashboard only
+2026-07-07 12:02:34,907 - INFO -     → Image uploaded: Send Points.png
+2026-07-07 12:02:34,976 - INFO -     → Form submitted
+2026-07-07 12:02:45,685 - INFO -   ✓ Icon added: Send Points
+
+2026-07-07 12:02:46,686 - INFO - 
+[10/21] Uploading missing icon for Mechanic: TDS
+2026-07-07 12:02:46,686 - INFO -   Adding: [Mechanic] TDS  (tds)
+2026-07-07 12:02:59,081 - INFO -     → User type selected by exact text: Mechanic
+2026-07-07 12:02:59,151 - INFO -     → Icon identity: tds
+2026-07-07 12:02:59,233 - INFO -     → Display title: TDS
+2026-07-07 12:02:59,636 - INFO -     → Icon color: #20C880
+2026-07-07 12:02:59,660 - INFO -     → Toggle: side menu
+2026-07-07 12:03:01,703 - INFO -     → Image uploaded: TDS.png
+2026-07-07 12:03:01,777 - INFO -     → Form submitted
+2026-07-07 12:03:12,432 - INFO -   ✓ Icon added: TDS
+
+2026-07-07 12:03:13,433 - INFO - 
+[11/21] Uploading missing icon for Retailer: Activity
+2026-07-07 12:03:13,434 - INFO -   Adding: [Retailer] Activity  (claimhistory)
+2026-07-07 12:03:25,857 - INFO -     → User type selected by exact text: Retailer
+2026-07-07 12:03:25,918 - INFO -     → Icon identity: claimhistory
+2026-07-07 12:03:26,011 - INFO -     → Display title: Activity
+2026-07-07 12:03:26,391 - INFO -     → Icon color: #F86008
+2026-07-07 12:03:26,422 - INFO -     → Toggle: dashboard only
+2026-07-07 12:03:28,450 - INFO -     → Image uploaded: Activity.png
+2026-07-07 12:03:28,517 - INFO -     → Form submitted
+2026-07-07 12:03:39,180 - INFO -   ✓ Icon added: Activity
+
+2026-07-07 12:03:40,181 - INFO - 
+[12/21] Uploading missing icon for Retailer: E-Warranty
+2026-07-07 12:03:40,182 - INFO -   Adding: [Retailer] E-Warranty  (e-warrant)
+2026-07-07 12:03:52,565 - INFO -     → User type selected by exact text: Retailer
+2026-07-07 12:03:52,630 - INFO -     → Icon identity: e-warrant
+2026-07-07 12:03:52,722 - INFO -     → Display title: E-Warranty
+2026-07-07 12:03:53,117 - INFO -     → Icon color: #20C078
+2026-07-07 12:03:53,136 - INFO -     → Toggle: dashboard only
+2026-07-07 12:03:55,162 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-07 12:03:55,233 - INFO -     → Form submitted
+2026-07-07 12:04:05,837 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-07 12:04:06,838 - INFO - 
+[13/21] Uploading missing icon for Retailer: Installation Guide
+2026-07-07 12:04:06,838 - INFO -   Adding: [Retailer] Installation Guide  (instalment)
+2026-07-07 12:04:19,405 - INFO -     → User type selected by exact text: Retailer
+2026-07-07 12:04:19,516 - INFO -     → Icon identity: instalment
+2026-07-07 12:04:19,694 - INFO -     → Display title: Installation Guide
+2026-07-07 12:04:20,227 - INFO -     → Icon color: #089098
+2026-07-07 12:04:20,264 - INFO -     → Toggle: dashboard only
+2026-07-07 12:04:22,303 - INFO -     → Image uploaded: Installation Guide.png
+2026-07-07 12:04:22,401 - INFO -     → Form submitted
+2026-07-07 12:04:33,150 - INFO -   ✓ Icon added: Installation Guide
+
+2026-07-07 12:04:34,151 - INFO - 
+[14/21] Uploading missing icon for Retailer: Language
+2026-07-07 12:04:34,152 - INFO -   Adding: [Retailer] Language  (chooselanguage)
+2026-07-07 12:04:46,764 - INFO -     → User type selected by exact text: Retailer
+2026-07-07 12:04:46,840 - INFO -     → Icon identity: chooselanguage
+2026-07-07 12:04:47,019 - INFO -     → Display title: Language
+2026-07-07 12:04:47,561 - INFO -     → Icon color: #5010E8
+2026-07-07 12:04:47,595 - INFO -     → Toggle: side menu
+2026-07-07 12:04:49,639 - INFO -     → Image uploaded: Language.png
+2026-07-07 12:04:49,738 - INFO -     → Form submitted
+2026-07-07 12:05:00,437 - INFO -   ✓ Icon added: Language
+
+2026-07-07 12:05:01,438 - INFO - 
+[15/21] Uploading missing icon for Retailer: Nearby Retailers
+2026-07-07 12:05:01,439 - INFO -   Adding: [Retailer] Nearby Retailers  (retailer)
+2026-07-07 12:05:14,146 - INFO -     → User type selected by exact text: Retailer
+2026-07-07 12:05:14,239 - INFO -     → Icon identity: retailer
+2026-07-07 12:05:14,410 - INFO -     → Display title: Nearby Retailers
+2026-07-07 12:05:14,968 - INFO -     → Icon color: #F87010
+2026-07-07 12:05:15,009 - INFO -     → Toggle: dashboard only
+2026-07-07 12:05:17,060 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-07 12:05:17,191 - INFO -     → Form submitted
+2026-07-07 12:05:27,991 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-07 12:05:28,992 - INFO - 
+[16/21] Uploading missing icon for Retailer: Send Points
+2026-07-07 12:05:28,993 - INFO -   Adding: [Retailer] Send Points  (transferpoints)
+2026-07-07 12:05:41,655 - INFO -     → User type selected by exact text: Retailer
+2026-07-07 12:05:41,784 - INFO -     → Icon identity: transferpoints
+2026-07-07 12:05:41,916 - INFO -     → Display title: Send Points
+2026-07-07 12:05:42,436 - INFO -     → Icon color: #F86008
+2026-07-07 12:05:42,459 - INFO -     → Toggle: dashboard only
+2026-07-07 12:05:44,514 - INFO -     → Image uploaded: Send Points.png
+2026-07-07 12:05:44,582 - INFO -     → Form submitted
+2026-07-07 12:05:55,201 - INFO -   ✓ Icon added: Send Points
+
+2026-07-07 12:05:56,202 - INFO - 
+[17/21] Uploading missing icon for Dealer: Activity
+2026-07-07 12:05:56,203 - INFO -   Adding: [Dealer] Activity  (claimhistory)
+2026-07-07 12:06:08,578 - INFO -     → User type selected by exact text: Dealer
+2026-07-07 12:06:08,651 - INFO -     → Icon identity: claimhistory
+2026-07-07 12:06:08,739 - INFO -     → Display title: Activity
+2026-07-07 12:06:09,129 - INFO -     → Icon color: #F86008
+2026-07-07 12:06:09,149 - INFO -     → Toggle: dashboard only
+2026-07-07 12:06:11,178 - INFO -     → Image uploaded: Activity.png
+2026-07-07 12:06:11,255 - INFO -     → Form submitted
+2026-07-07 12:06:21,868 - INFO -   ✓ Icon added: Activity
+
+2026-07-07 12:06:22,869 - INFO - 
+[18/21] Uploading missing icon for Dealer: E-Warranty
+2026-07-07 12:06:22,869 - INFO -   Adding: [Dealer] E-Warranty  (e-warrant)
+2026-07-07 12:06:35,463 - INFO -     → User type selected by exact text: Dealer
+2026-07-07 12:06:35,566 - INFO -     → Icon identity: e-warrant
+2026-07-07 12:06:35,691 - INFO -     → Display title: E-Warranty
+2026-07-07 12:06:36,356 - INFO -     → Icon color: #20C078
+2026-07-07 12:06:36,387 - INFO -     → Toggle: dashboard only
+2026-07-07 12:06:38,426 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-07 12:06:38,512 - INFO -     → Form submitted
+2026-07-07 12:06:49,267 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-07 12:06:50,268 - INFO - 
+[19/21] Uploading missing icon for Dealer: Installation Guide
+2026-07-07 12:06:50,268 - INFO -   Adding: [Dealer] Installation Guide  (instalment)
+2026-07-07 12:07:02,892 - INFO -     → User type selected by exact text: Dealer
+2026-07-07 12:07:02,974 - INFO -     → Icon identity: instalment
+2026-07-07 12:07:03,160 - INFO -     → Display title: Installation Guide
+2026-07-07 12:07:03,664 - INFO -     → Icon color: #089098
+2026-07-07 12:07:03,697 - INFO -     → Toggle: dashboard only
+2026-07-07 12:07:05,752 - INFO -     → Image uploaded: Installation Guide.png
+2026-07-07 12:07:05,870 - INFO -     → Form submitted
+2026-07-07 12:07:16,596 - INFO -   ✓ Icon added: Installation Guide
+
+2026-07-07 12:07:17,597 - INFO - 
+[20/21] Uploading missing icon for Dealer: Nearby Retailers
+2026-07-07 12:07:17,597 - INFO -   Adding: [Dealer] Nearby Retailers  (retailer)
+2026-07-07 12:07:30,457 - INFO -     → User type selected by exact text: Dealer
+2026-07-07 12:07:30,593 - INFO -     → Icon identity: retailer
+2026-07-07 12:07:30,749 - INFO -     → Display title: Nearby Retailers
+2026-07-07 12:07:31,287 - INFO -     → Icon color: #F87010
+2026-07-07 12:07:31,321 - INFO -     → Toggle: dashboard only
+2026-07-07 12:07:33,366 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-07-07 12:07:33,492 - INFO -     → Form submitted
+2026-07-07 12:07:44,324 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-07-07 12:07:45,325 - INFO - 
+[21/21] Uploading missing icon for Dealer: Send Points
+2026-07-07 12:07:45,325 - INFO -   Adding: [Dealer] Send Points  (transferpoints)
+2026-07-07 12:07:57,874 - INFO -     → User type selected by exact text: Dealer
+2026-07-07 12:07:58,013 - INFO -     → Icon identity: transferpoints
+2026-07-07 12:07:58,124 - INFO -     → Display title: Send Points
+2026-07-07 12:07:58,568 - INFO -     → Icon color: #F86008
+2026-07-07 12:07:58,599 - INFO -     → Toggle: dashboard only
+2026-07-07 12:08:00,635 - INFO -     → Image uploaded: Send Points.png
+2026-07-07 12:08:00,738 - INFO -     → Form submitted
+2026-07-07 12:08:11,446 - INFO -   ✓ Icon added: Send Points
+
+2026-07-07 12:08:12,447 - INFO - 
+============================================================
+2026-07-07 12:08:12,447 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-07 12:08:12,448 - INFO - ============================================================
+2026-07-07 12:08:12,448 - INFO - Successful uploads: 21
+2026-07-07 12:08:12,449 - INFO - Failed uploads: 0
+2026-07-07 12:08:12,449 - INFO - Total processed: 21
+2026-07-07 12:08:12,449 - INFO - ============================================================
+2026-07-07 12:08:14,777 - INFO - Browser closed
+2026-07-07 12:08:18,829 - INFO - 
+Task finished at 2026-07-07 12:08:18
+2026-07-07 12:08:18,830 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260707_115740.log
+
+2026-07-07 12:32:59,472 - INFO - Automation cancelled by user (Ctrl+C)

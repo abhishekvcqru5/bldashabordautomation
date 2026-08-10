@@ -1,0 +1,756 @@
+2026-07-13 11:52:16,429 - INFO - User selected: Old Dashboard
+2026-07-13 11:52:19,123 - INFO -   Old Dashboard → Brand Setting
+2026-07-13 11:52:19,123 - INFO - ============================================================
+2026-07-13 11:52:19,123 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-07-13 11:52:19,124 - INFO - ============================================================
+2026-07-13 11:52:19,133 - INFO - ====== WebDriver manager ======
+2026-07-13 11:52:20,544 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 11:52:20,998 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 11:52:21,384 - INFO - There is no [win64] chromedriver "150.0.7871.115" for browser google-chrome "150.0.7871" in cache
+2026-07-13 11:52:21,385 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 11:52:22,288 - INFO - WebDriver version 150.0.7871.115 selected
+2026-07-13 11:52:22,299 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.115/win32/chromedriver-win32.zip
+2026-07-13 11:52:22,300 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.115/win32/chromedriver-win32.zip
+2026-07-13 11:52:22,612 - INFO - Driver downloading response is 200
+2026-07-13 11:52:22,925 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 11:52:23,435 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115]
+2026-07-13 11:52:23,438 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 11:52:26,331 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-07-13 11:52:26,332 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-07-13 11:52:33,358 - INFO -     → Vendor selected via ID: chkadmin
+2026-07-13 11:52:35,359 - INFO -     → Filling credentials …
+2026-07-13 11:52:35,605 - INFO -       Email → field #login_txt_id
+2026-07-13 11:52:35,740 - INFO -       Password → field #login_txt_pass
+2026-07-13 11:52:35,829 - INFO -       Login button clicked: #btnVendor
+2026-07-13 11:52:35,830 - INFO -     → Waiting for post-login redirect …
+2026-07-13 11:52:38,102 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 11:52:38,103 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-07-13 11:53:52,666 - INFO - 
+[3/4] Extracting brand data …
+2026-07-13 11:53:52,917 - INFO - 
+[4/4] Saving assets to disk …
+2026-07-13 11:53:52,917 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-07-13 11:53:53,741 - INFO -   ✓ Downloaded: splash.jpeg  (139.8 KB)
+2026-07-13 11:53:53,746 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-07-13 11:53:55,993 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-07-13 11:53:56,006 - INFO - ====== WebDriver manager ======
+2026-07-13 11:53:57,255 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 11:53:57,664 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 11:53:58,071 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 11:53:58,072 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 11:53:59,304 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 11:53:59,318 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 11:53:59,378 - INFO - ✓ Chrome driver initialized
+2026-07-13 11:53:59,378 - INFO - Opening login page...
+2026-07-13 11:54:00,988 - INFO -   → Policy checkbox checked on login page
+2026-07-13 11:54:01,141 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 11:54:01,168 - INFO -   → Policy agreement popup detected
+2026-07-13 11:54:01,256 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 11:54:01,804 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 11:54:08,145 - INFO -   → Policy agreement popup detected
+2026-07-13 11:54:08,173 - INFO -     ✓ Policy checkbox was already checked
+2026-07-13 11:54:09,023 - INFO -     ✓ Clicked Continue button
+2026-07-13 11:54:09,866 - INFO -     ✓ Policy popup dismissed
+2026-07-13 11:54:10,877 - INFO - ✓ Login successful
+2026-07-13 11:54:10,972 - INFO - ✓ Logo  → logo_processed.jpg  |  33.8 KB  |  JPEG q95
+2026-07-13 11:54:11,123 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-13 11:54:11,481 - INFO -   Colours extracted from logo:
+2026-07-13 11:54:11,482 - INFO -     Header Color     →  #008000  (dominant logo colour)
+2026-07-13 11:54:11,482 - INFO -     Background Color →  #005300  (35% darker)
+2026-07-13 11:54:11,482 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-13 11:54:11,483 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-13 11:54:11,500 - INFO - Going to App Settings...
+2026-07-13 11:54:17,954 - INFO -   → Identity & Branding section opened
+2026-07-13 11:54:20,110 - INFO -   → Edit Branding popup opened
+2026-07-13 11:54:20,150 - INFO - ✓ Brand setting form is ready
+2026-07-13 11:54:20,151 - INFO -   Setting company name: Yash Paints
+2026-07-13 11:54:21,347 - INFO -     → HeaderColor: #008000
+2026-07-13 11:54:22,146 - INFO -     → FooterColor: #F5F5F5
+2026-07-13 11:54:22,940 - INFO -     → BodyColor: #FFFFFF
+2026-07-13 11:54:23,772 - INFO -     → BackgroundColor: #005300
+2026-07-13 11:54:25,828 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-13 11:54:27,859 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-13 11:54:28,006 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-13 11:54:31,022 - INFO - ✓ Brand settings saved successfully!
+2026-07-13 11:54:31,023 - INFO - Going to App Settings for Support Network...
+2026-07-13 11:54:34,233 - INFO -   → Support Network section opened
+2026-07-13 11:54:37,312 - INFO -   → Edit Support Network popup opened
+2026-07-13 11:54:39,313 - INFO - ✓ Support Network form is ready
+2026-07-13 11:54:39,562 - INFO -     ✓ phone filled
+2026-07-13 11:54:39,821 - INFO -     ✓ email filled
+2026-07-13 11:54:39,822 - INFO -     ⏭ Skipping empty field: website
+2026-07-13 11:54:40,185 - INFO -     ✓ terms_conditions filled
+2026-07-13 11:54:41,001 - INFO -     ✓ support_content filled
+2026-07-13 11:54:41,012 - INFO -     ⏭ Skipping empty field: privacy_policy
+2026-07-13 11:54:42,067 - INFO -   → Save clicked
+2026-07-13 11:54:45,068 - INFO - ✓ Support Network saved successfully!
+2026-07-13 11:54:47,523 - INFO - Browser closed
+2026-07-13 11:54:51,586 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57861): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c72d2a2598bf3c4fca2b918fb076a323
+2026-07-13 11:54:55,664 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57861): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c72d2a2598bf3c4fca2b918fb076a323
+2026-07-13 11:54:59,724 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57861): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c72d2a2598bf3c4fca2b918fb076a323
+2026-07-13 11:55:07,876 - INFO -   Browser closed
+2026-07-13 11:55:07,876 - INFO - 
+Task finished at 2026-07-13 11:55:07
+2026-07-13 11:55:07,876 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:00:03,294 - INFO - User selected: Old Dashboard
+2026-07-13 12:00:04,906 - INFO -   Old Dashboard → Brand Setting
+2026-07-13 12:00:04,906 - INFO - ============================================================
+2026-07-13 12:00:04,906 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-07-13 12:00:04,907 - INFO - ============================================================
+2026-07-13 12:00:04,915 - INFO - ====== WebDriver manager ======
+2026-07-13 12:00:06,399 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:00:14,927 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:00:15,317 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:00:15,318 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:00:16,498 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-07-13 12:00:16,498 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-07-13 12:00:20,917 - INFO -     → Vendor selected via ID: chkadmin
+2026-07-13 12:00:22,917 - INFO -     → Filling credentials …
+2026-07-13 12:00:23,112 - INFO -       Email → field #login_txt_id
+2026-07-13 12:00:23,276 - INFO -       Password → field #login_txt_pass
+2026-07-13 12:00:23,414 - INFO -       Login button clicked: #btnVendor
+2026-07-13 12:00:23,414 - INFO -     → Waiting for post-login redirect …
+2026-07-13 12:00:24,765 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:00:24,766 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-07-13 12:00:38,582 - INFO - 
+[3/4] Extracting brand data …
+2026-07-13 12:00:38,814 - INFO - 
+[4/4] Saving assets to disk …
+2026-07-13 12:00:38,815 - INFO -   ↩ Already exists, skipping download: logo.png
+2026-07-13 12:00:38,815 - INFO -   ↩ Already exists, skipping download: splash.jpeg
+2026-07-13 12:00:38,817 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-07-13 12:00:41,143 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-07-13 12:00:41,153 - INFO - ====== WebDriver manager ======
+2026-07-13 12:00:42,625 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:00:43,060 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:00:43,483 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:00:43,484 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:00:44,661 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 12:00:44,667 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 12:00:44,708 - INFO - ✓ Chrome driver initialized
+2026-07-13 12:00:44,709 - INFO - Opening login page...
+2026-07-13 12:00:46,053 - INFO -   → Policy checkbox checked on login page
+2026-07-13 12:00:46,236 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 12:00:46,269 - INFO -   → Policy agreement popup detected
+2026-07-13 12:00:46,371 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 12:00:46,914 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 12:00:53,087 - INFO -   → Policy agreement popup detected
+2026-07-13 12:00:53,108 - INFO -     ✓ Policy checkbox was already checked
+2026-07-13 12:00:53,944 - INFO -     ✓ Clicked Continue button
+2026-07-13 12:00:54,071 - INFO -     ✓ Policy popup dismissed
+2026-07-13 12:00:55,083 - INFO - ✓ Login successful
+2026-07-13 12:00:55,107 - INFO - ✓ Logo  → logo_processed.jpg  |  33.8 KB  |  JPEG q95
+2026-07-13 12:00:55,263 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-13 12:00:55,665 - INFO -   Colours extracted from logo:
+2026-07-13 12:00:55,666 - INFO -     Header Color     →  #008000  (dominant logo colour)
+2026-07-13 12:00:55,666 - INFO -     Background Color →  #005300  (35% darker)
+2026-07-13 12:00:55,666 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-13 12:00:55,666 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-13 12:00:55,688 - INFO - Going to App Settings...
+2026-07-13 12:01:02,162 - INFO -   → Identity & Branding section opened
+2026-07-13 12:01:04,323 - INFO -   → Edit Branding popup opened
+2026-07-13 12:01:04,340 - INFO - ✓ Brand setting form is ready
+2026-07-13 12:01:04,340 - INFO -   Setting company name: Yash Paints
+2026-07-13 12:01:05,269 - INFO -     → HeaderColor: #008000
+2026-07-13 12:01:05,995 - INFO -     → FooterColor: #F5F5F5
+2026-07-13 12:01:06,734 - INFO -     → BodyColor: #FFFFFF
+2026-07-13 12:01:07,486 - INFO -     → BackgroundColor: #005300
+2026-07-13 12:01:09,553 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-13 12:01:11,603 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-13 12:01:11,786 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-13 12:01:14,801 - INFO - ✓ Brand settings saved successfully!
+2026-07-13 12:01:14,801 - INFO - Going to App Settings for Support Network...
+2026-07-13 12:01:17,982 - INFO -   → Support Network section opened
+2026-07-13 12:01:21,061 - INFO -   → Edit Support Network popup opened
+2026-07-13 12:01:23,064 - INFO - ✓ Support Network form is ready
+2026-07-13 12:01:23,300 - INFO -     ✓ phone filled
+2026-07-13 12:01:23,649 - INFO -     ✓ email filled
+2026-07-13 12:01:24,134 - INFO -     ✓ website filled
+2026-07-13 12:01:24,484 - INFO -     ✓ terms_conditions filled
+2026-07-13 12:01:25,332 - INFO -     ✓ support_content filled
+2026-07-13 12:01:26,016 - INFO -     ✓ privacy_policy filled
+2026-07-13 12:01:27,066 - INFO -   → Save clicked
+2026-07-13 12:01:30,067 - INFO - ✓ Support Network saved successfully!
+2026-07-13 12:01:32,394 - INFO - Browser closed
+2026-07-13 12:01:36,462 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59760): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/934a298240bb72f1a8dcc7fef29c1b27
+2026-07-13 12:01:40,520 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59760): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/934a298240bb72f1a8dcc7fef29c1b27
+2026-07-13 12:01:44,560 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59760): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/934a298240bb72f1a8dcc7fef29c1b27
+2026-07-13 12:01:52,682 - INFO -   Browser closed
+2026-07-13 12:01:52,683 - INFO - 
+Task finished at 2026-07-13 12:01:52
+2026-07-13 12:01:52,684 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:02:17,285 - INFO - User selected: Old Dashboard
+2026-07-13 12:02:19,100 - INFO -   Old Dashboard → Brand Setting
+2026-07-13 12:02:19,101 - INFO - ============================================================
+2026-07-13 12:02:19,101 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-07-13 12:02:19,101 - INFO - ============================================================
+2026-07-13 12:02:19,112 - INFO - ====== WebDriver manager ======
+2026-07-13 12:02:20,604 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:02:29,177 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:02:29,547 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:02:29,548 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:02:30,714 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-07-13 12:02:30,717 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-07-13 12:02:36,376 - INFO -     → Vendor selected via ID: chkadmin
+2026-07-13 12:02:38,377 - INFO -     → Filling credentials …
+2026-07-13 12:02:38,548 - INFO -       Email → field #login_txt_id
+2026-07-13 12:02:38,672 - INFO -       Password → field #login_txt_pass
+2026-07-13 12:02:38,763 - INFO -       Login button clicked: #btnVendor
+2026-07-13 12:02:38,763 - INFO -     → Waiting for post-login redirect …
+2026-07-13 12:02:40,164 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:02:40,165 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-07-13 12:02:54,092 - INFO - 
+[3/4] Extracting brand data …
+2026-07-13 12:02:54,462 - INFO - 
+[4/4] Saving assets to disk …
+2026-07-13 12:02:55,162 - INFO -   ✓ Downloaded: logo.png  (6.9 KB)
+2026-07-13 12:02:56,076 - INFO -   ✓ Downloaded: splash.jpeg  (139.8 KB)
+2026-07-13 12:02:56,079 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-07-13 12:02:58,476 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-07-13 12:02:58,487 - INFO - ====== WebDriver manager ======
+2026-07-13 12:03:00,204 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:03:00,648 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:03:01,075 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:03:01,076 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:03:02,271 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 12:03:02,280 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 12:03:02,328 - INFO - ✓ Chrome driver initialized
+2026-07-13 12:03:02,329 - INFO - Opening login page...
+2026-07-13 12:03:03,714 - INFO -   → Policy checkbox checked on login page
+2026-07-13 12:03:03,832 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 12:03:03,853 - INFO -   → Policy agreement popup detected
+2026-07-13 12:03:03,932 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 12:03:04,469 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 12:03:10,781 - INFO -   → Policy agreement popup detected
+2026-07-13 12:03:10,816 - INFO -     ✓ Policy checkbox was already checked
+2026-07-13 12:03:11,680 - INFO -     ✓ Clicked Continue button
+2026-07-13 12:03:12,432 - INFO -     ✓ Policy popup dismissed
+2026-07-13 12:03:13,442 - INFO - ✓ Login successful
+2026-07-13 12:03:13,483 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-07-13 12:03:13,639 - INFO - ✓ Logo  → logo_processed.png  |  74.2 KB  |  PNG lossless
+2026-07-13 12:03:13,815 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-13 12:03:13,852 - INFO -   Colours extracted from logo:
+2026-07-13 12:03:13,853 - INFO -     Header Color     →  #E06020  (dominant logo colour)
+2026-07-13 12:03:13,853 - INFO -     Background Color →  #913E14  (35% darker)
+2026-07-13 12:03:13,854 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-13 12:03:13,854 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-13 12:03:13,855 - INFO - Going to App Settings...
+2026-07-13 12:03:20,315 - INFO -   → Identity & Branding section opened
+2026-07-13 12:03:22,418 - INFO -   → Edit Branding popup opened
+2026-07-13 12:03:22,436 - INFO - ✓ Brand setting form is ready
+2026-07-13 12:03:22,437 - INFO -   Setting company name: Yash Paints
+2026-07-13 12:03:23,395 - INFO -     → HeaderColor: #E06020
+2026-07-13 12:03:24,138 - INFO -     → FooterColor: #F5F5F5
+2026-07-13 12:03:24,931 - INFO -     → BodyColor: #FFFFFF
+2026-07-13 12:03:25,677 - INFO -     → BackgroundColor: #913E14
+2026-07-13 12:03:27,736 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-07-13 12:03:29,770 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-13 12:03:29,906 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-13 12:03:32,923 - INFO - ✓ Brand settings saved successfully!
+2026-07-13 12:03:32,923 - INFO - Going to App Settings for Support Network...
+2026-07-13 12:03:36,073 - INFO -   → Support Network section opened
+2026-07-13 12:03:39,123 - INFO -   → Edit Support Network popup opened
+2026-07-13 12:03:41,123 - INFO - ✓ Support Network form is ready
+2026-07-13 12:03:41,394 - INFO -     ✓ phone filled
+2026-07-13 12:03:41,677 - INFO -     ✓ email filled
+2026-07-13 12:03:41,919 - INFO -     ✓ website filled
+2026-07-13 12:03:42,237 - INFO -     ✓ terms_conditions filled
+2026-07-13 12:03:43,048 - INFO -     ✓ support_content filled
+2026-07-13 12:03:43,554 - INFO -     ✓ privacy_policy filled
+2026-07-13 12:03:44,600 - INFO -   → Save clicked
+2026-07-13 12:03:47,601 - INFO - ✓ Support Network saved successfully!
+2026-07-13 12:03:49,895 - INFO - Browser closed
+2026-07-13 12:03:53,959 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54899): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/daeb6d16c64df640860997d6c2b88e44
+2026-07-13 12:03:58,027 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54899): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/daeb6d16c64df640860997d6c2b88e44
+2026-07-13 12:04:02,077 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54899): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/daeb6d16c64df640860997d6c2b88e44
+2026-07-13 12:04:10,193 - INFO -   Browser closed
+2026-07-13 12:04:10,194 - INFO - 
+Task finished at 2026-07-13 12:04:10
+2026-07-13 12:04:10,194 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:04:21,852 - INFO - User selected: Old Dashboard
+2026-07-13 12:04:32,519 - INFO -   Old Dashboard → Introduction Setting
+2026-07-13 12:04:32,520 - INFO - ============================================================
+2026-07-13 12:04:32,520 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-07-13 12:04:32,520 - INFO - ============================================================
+2026-07-13 12:04:32,533 - INFO - ====== WebDriver manager ======
+2026-07-13 12:04:33,837 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:04:42,346 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:04:42,763 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:04:42,764 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:04:44,070 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 12:04:50,221 - INFO -   → Identifying 'Vendor' login tab...
+2026-07-13 12:04:50,366 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-07-13 12:04:53,367 - INFO -   → Filling Vendor credentials...
+2026-07-13 12:04:53,643 - INFO -     - Email entered: yashpaintsindustries@gmail.com
+2026-07-13 12:04:53,645 - INFO -     - Clicking 'login' button...
+2026-07-13 12:04:53,657 - INFO -   → Waiting for successful login redirect...
+2026-07-13 12:04:54,934 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:04:54,939 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:05:00,031 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-07-13 12:05:00,057 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-07-13 12:05:03,135 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-07-13 12:05:09,328 - INFO -   → Searching for introduction screens data...
+2026-07-13 12:05:09,372 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-07-13 12:05:09,450 - INFO -     → Found 3 potential rows to extract
+2026-07-13 12:05:09,548 - INFO -     → Downloading image for: Welcome to the Yash Paint App...
+2026-07-13 12:05:10,301 - INFO -     ✓ Extracted 1/3
+2026-07-13 12:05:10,385 - INFO -     → Downloading image for: KYC...
+2026-07-13 12:05:11,285 - INFO -     ✓ Extracted 2/3
+2026-07-13 12:05:11,342 - INFO -     → Downloading image for: Join Now & Unlock Rewards...
+2026-07-13 12:05:12,315 - INFO -     ✓ Extracted 3/3
+2026-07-13 12:05:14,592 - INFO - ✓ Extracted 3 screens.
+2026-07-13 12:05:14,593 - INFO - 
+============================================================
+2026-07-13 12:05:14,593 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-07-13 12:05:14,593 - INFO - ============================================================
+2026-07-13 12:05:14,611 - INFO -   ⚙ Processing old_intro_1_20260713_120509.jpg  (360×800 → need 1080×1920)
+2026-07-13 12:05:14,667 - INFO -   ✓ old_intro_1_20260713_120509.jpg  →  old_intro_1_20260713_120509_processed.jpg  |  1080×1920  |  0.25 MB  |  quality 92
+2026-07-13 12:05:14,680 - INFO -   ⚙ Processing old_intro_2_20260713_120510.jpg  (360×800 → need 1080×1920)
+2026-07-13 12:05:14,730 - INFO -   ✓ old_intro_2_20260713_120510.jpg  →  old_intro_2_20260713_120510_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-07-13 12:05:14,748 - INFO -   ⚙ Processing old_intro_3_20260713_120511.jpg  (360×800 → need 1080×1920)
+2026-07-13 12:05:14,802 - INFO -   ✓ old_intro_3_20260713_120511.jpg  →  old_intro_3_20260713_120511_processed.jpg  |  1080×1920  |  0.12 MB  |  quality 92
+2026-07-13 12:05:14,803 - INFO - 
+============================================================
+2026-07-13 12:05:14,804 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-07-13 12:05:14,804 - INFO - ============================================================
+2026-07-13 12:05:14,816 - INFO - ====== WebDriver manager ======
+2026-07-13 12:05:16,261 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:05:16,675 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:05:17,105 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:05:17,106 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:05:18,246 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 12:05:18,251 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 12:05:18,284 - INFO - ✓ Chrome driver initialized
+2026-07-13 12:05:18,285 - INFO - Opening login page...
+2026-07-13 12:05:19,742 - INFO -   → Policy checkbox checked on login page
+2026-07-13 12:05:19,908 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 12:05:19,935 - INFO -   → Policy agreement popup detected
+2026-07-13 12:05:20,003 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 12:05:20,555 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 12:05:31,993 - INFO - ✓ Login successful
+2026-07-13 12:05:31,997 - INFO - Going to App Settings...
+2026-07-13 12:05:38,207 - INFO -   → Intro Screens section opened
+2026-07-13 12:05:38,224 - INFO - ✓ Intro Screens page ready
+2026-07-13 12:05:38,224 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-07-13 12:05:38,224 - INFO - ============================================================
+2026-07-13 12:05:38,227 - INFO - [1/3]
+2026-07-13 12:05:38,227 - INFO -   Launching screen: [Welcome to the Yash Paint App]
+2026-07-13 12:05:40,534 - INFO -     → Header: Welcome to the Yash Paint App
+2026-07-13 12:05:40,787 - INFO -     → Description: Signup and earn Rewards on every scan...
+2026-07-13 12:05:42,833 - INFO -     → Image uploaded: old_intro_1_20260713_120509_processed.jpg
+2026-07-13 12:05:42,958 - INFO -     → Launch Screen clicked
+2026-07-13 12:05:46,973 - INFO -   ✓ Intro screen launched: Welcome to the Yash Paint App
+
+2026-07-13 12:05:47,975 - INFO - [2/3]
+2026-07-13 12:05:47,976 - INFO -   Launching screen: [KYC]
+2026-07-13 12:05:49,115 - ERROR -   ✗ Failed to launch screen [KYC]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1153, 86). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=150.0.7871.101)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x5617b3+10673]
+	chromedriver!GetHandleVerifier [0x5617f4+106b4]
+	chromedriver!(No symbol) [0x3490a0]
+	chromedriver!(No symbol) [0x398ff8]
+	chromedriver!(No symbol) [0x397689]
+	chromedriver!(No symbol) [0x395475]
+	chromedriver!(No symbol) [0x394697]
+	chromedriver!(No symbol) [0x38a0ba]
+	chromedriver!(No symbol) [0x3b56bc]
+	chromedriver!(No symbol) [0x389af4]
+	chromedriver!(No symbol) [0x3b5884]
+	chromedriver!(No symbol) [0x3d31fd]
+	chromedriver!(No symbol) [0x3b5456]
+	chromedriver!(No symbol) [0x388629]
+	chromedriver!(No symbol) [0x3893f4]
+	chromedriver!GetHandleVerifier [0x7d7c06+286ac6]
+	chromedriver!GetHandleVerifier [0x7d328b+28214b]
+	chromedriver!GetHandleVerifier [0x7f384b+2a270b]
+	chromedriver!GetHandleVerifier [0x57b7c6+2a686]
+	chromedriver!GetHandleVerifier [0x5824ed+313ad]
+	chromedriver!GetHandleVerifier [0x56a158+19018]
+	chromedriver!GetHandleVerifier [0x56a305+191c5]
+	chromedriver!GetHandleVerifier [0x55323f+20ff]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-13 12:05:49,786 - INFO -   📸 Screenshot: automation\screenshots\intro_error_slide_20260713_120549.png
+2026-07-13 12:05:51,958 - INFO - [3/3]
+2026-07-13 12:05:52,000 - INFO -   Launching screen: [Join Now & Unlock Rewards]
+2026-07-13 12:05:54,781 - INFO -     → Header: Join Now & Unlock Rewards
+2026-07-13 12:05:55,171 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes...
+2026-07-13 12:05:57,393 - INFO -     → Image uploaded: old_intro_3_20260713_120511_processed.jpg
+2026-07-13 12:05:57,634 - INFO -     → Launch Screen clicked
+2026-07-13 12:06:01,648 - INFO -   ✓ Intro screen launched: Join Now & Unlock Rewards
+
+2026-07-13 12:06:02,649 - INFO - ============================================================
+2026-07-13 12:06:02,650 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 1 failed
+2026-07-13 12:06:05,013 - INFO - Browser closed
+2026-07-13 12:06:13,110 - INFO - 
+Task finished at 2026-07-13 12:06:13
+2026-07-13 12:06:13,110 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:07:29,684 - INFO - User selected: Promotion Banners
+2026-07-13 12:07:29,684 - INFO - ============================================================
+2026-07-13 12:07:29,684 - INFO - PROMOTION BANNERS — Image Processing
+2026-07-13 12:07:29,685 - INFO - ============================================================
+2026-07-13 12:07:29,686 - WARNING - No images found in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner
+2026-07-13 12:07:29,686 - ERROR - No banner images could be processed. Aborting.
+2026-07-13 12:07:29,686 - INFO - 
+Task finished at 2026-07-13 12:07:29
+2026-07-13 12:07:29,686 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:07:36,227 - INFO - User selected: Promotion Banners
+2026-07-13 12:07:36,228 - INFO - ============================================================
+2026-07-13 12:07:36,228 - INFO - PROMOTION BANNERS — Image Processing
+2026-07-13 12:07:36,228 - INFO - ============================================================
+2026-07-13 12:07:36,229 - WARNING - No images found in C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\banner
+2026-07-13 12:07:36,229 - ERROR - No banner images could be processed. Aborting.
+2026-07-13 12:07:36,229 - INFO - 
+Task finished at 2026-07-13 12:07:36
+2026-07-13 12:07:36,229 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:07:48,541 - INFO - User selected: Old Dashboard
+2026-07-13 12:07:50,901 - INFO -   Old Dashboard → Banner BL
+2026-07-13 12:07:50,901 - INFO - ============================================================
+2026-07-13 12:07:50,901 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-07-13 12:07:50,901 - INFO - ============================================================
+2026-07-13 12:07:50,915 - INFO - ====== WebDriver manager ======
+2026-07-13 12:07:52,256 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:07:52,739 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:07:53,145 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:07:53,146 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:07:54,378 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 12:07:59,940 - INFO -   → Identifying 'Vendor' login tab...
+2026-07-13 12:08:00,116 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-07-13 12:08:03,117 - INFO -   → Filling Vendor credentials...
+2026-07-13 12:08:03,365 - INFO -     - Email entered: yashpaintsindustries@gmail.com
+2026-07-13 12:08:03,366 - INFO -     - Clicking 'login' button...
+2026-07-13 12:08:03,374 - INFO -   → Waiting for successful login redirect...
+2026-07-13 12:08:04,614 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:08:04,620 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:08:09,688 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-07-13 12:08:09,739 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-07-13 12:08:12,805 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-07-13 12:08:19,183 - INFO -   → Searching for banner images data...
+2026-07-13 12:08:19,400 - INFO -     ✓ Found 9 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-07-13 12:08:19,404 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.11%20PM%20(1)%20(1).jpeg
+2026-07-13 12:08:20,308 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.10%20PM%20(1).jpeg
+2026-07-13 12:08:21,223 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.11%20PM.jpeg
+2026-07-13 12:08:22,088 - INFO -     → Downloading banner 4: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.10%20PM.jpeg
+2026-07-13 12:08:22,873 - INFO -     → Downloading banner 5: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202025-07-25%20at%2012.12.37%20PM.jpeg
+2026-07-13 12:08:23,741 - INFO -     → Downloading banner 6: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.12%20PM.jpeg
+2026-07-13 12:08:24,785 - INFO -     → Downloading banner 7: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.12%20PM%20(2).jpeg
+2026-07-13 12:08:25,785 - INFO -     → Downloading banner 8: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.13%20PM.jpeg
+2026-07-13 12:08:26,803 - INFO -     → Downloading banner 9: https://www.vcqru.com/assets/images/VcqruWhatsApp%20Image%202024-09-21%20at%203.12.12%20PM%20(1).jpeg
+2026-07-13 12:08:30,161 - INFO - ✓ Extracted 9 banners.
+2026-07-13 12:08:30,161 - INFO - 
+============================================================
+2026-07-13 12:08:30,161 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-07-13 12:08:30,161 - INFO - ============================================================
+2026-07-13 12:08:30,170 - INFO -   ⚙ Processing old_banner_1_20260713_120819.jpg  (size 1280×1097 → need 1920×1080)
+2026-07-13 12:08:30,236 - INFO -   ✓ old_banner_1_20260713_120819.jpg  →  old_banner_1_20260713_120819_processed.jpg  |  1920×1080  |  0.27 MB  |  quality 92
+2026-07-13 12:08:30,250 - INFO -   ⚙ Processing old_banner_2_20260713_120820.jpg  (size 441×580 → need 1920×1080)
+2026-07-13 12:08:30,300 - INFO -   ✓ old_banner_2_20260713_120820.jpg  →  old_banner_2_20260713_120820_processed.jpg  |  1920×1080  |  0.20 MB  |  quality 92
+2026-07-13 12:08:30,317 - INFO -   ⚙ Processing old_banner_3_20260713_120821.jpg  (size 441×600 → need 1920×1080)
+2026-07-13 12:08:30,380 - INFO -   ✓ old_banner_3_20260713_120821.jpg  →  old_banner_3_20260713_120821_processed.jpg  |  1920×1080  |  0.20 MB  |  quality 92
+2026-07-13 12:08:30,395 - INFO -   ⚙ Processing old_banner_4_20260713_120822.jpg  (size 716×604 → need 1920×1080)
+2026-07-13 12:08:30,458 - INFO -   ✓ old_banner_4_20260713_120822.jpg  →  old_banner_4_20260713_120822_processed.jpg  |  1920×1080  |  0.32 MB  |  quality 92
+2026-07-13 12:08:30,471 - INFO -   ⚙ Processing old_banner_5_20260713_120822.jpg  (size 767×1177 → need 1920×1080)
+2026-07-13 12:08:30,546 - INFO -   ✓ old_banner_5_20260713_120822.jpg  →  old_banner_5_20260713_120822_processed.jpg  |  1920×1080  |  0.28 MB  |  quality 92
+2026-07-13 12:08:30,561 - INFO -   ⚙ Processing old_banner_6_20260713_120823.jpg  (size 1600×1280 → need 1920×1080)
+2026-07-13 12:08:30,637 - INFO -   ✓ old_banner_6_20260713_120823.jpg  →  old_banner_6_20260713_120823_processed.jpg  |  1920×1080  |  0.14 MB  |  quality 92
+2026-07-13 12:08:30,652 - INFO -   ⚙ Processing old_banner_7_20260713_120824.jpg  (size 576×866 → need 1920×1080)
+2026-07-13 12:08:30,719 - INFO -   ✓ old_banner_7_20260713_120824.jpg  →  old_banner_7_20260713_120824_processed.jpg  |  1920×1080  |  0.21 MB  |  quality 92
+2026-07-13 12:08:30,733 - INFO -   ⚙ Processing old_banner_8_20260713_120825.jpg  (size 576×864 → need 1920×1080)
+2026-07-13 12:08:30,806 - INFO -   ✓ old_banner_8_20260713_120825.jpg  →  old_banner_8_20260713_120825_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-07-13 12:08:30,823 - INFO -   ⚙ Processing old_banner_9_20260713_120826.jpg  (size 576×779 → need 1920×1080)
+2026-07-13 12:08:30,896 - INFO -   ✓ old_banner_9_20260713_120826.jpg  →  old_banner_9_20260713_120826_processed.jpg  |  1920×1080  |  0.17 MB  |  quality 92
+2026-07-13 12:08:30,897 - INFO - 
+============================================================
+2026-07-13 12:08:30,898 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-07-13 12:08:30,898 - INFO - ============================================================
+2026-07-13 12:08:30,907 - INFO - ====== WebDriver manager ======
+2026-07-13 12:08:32,578 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:08:33,074 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:08:33,511 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:08:33,512 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:08:34,739 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 12:08:34,751 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 12:08:34,808 - INFO - ✓ Chrome driver initialized
+2026-07-13 12:08:34,815 - INFO - Opening login page...
+2026-07-13 12:08:36,206 - INFO -   → Policy checkbox checked on login page
+2026-07-13 12:08:36,338 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 12:08:36,365 - INFO -   → Policy agreement popup detected
+2026-07-13 12:08:36,416 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 12:08:36,957 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 12:08:43,139 - INFO -   → Policy agreement popup detected
+2026-07-13 12:08:43,159 - INFO -     ✓ Policy checkbox was already checked
+2026-07-13 12:08:44,001 - INFO -     ✓ Clicked Continue button
+2026-07-13 12:08:44,649 - INFO -     ✓ Policy popup dismissed
+2026-07-13 12:08:45,664 - INFO - ✓ Login successful
+2026-07-13 12:08:45,665 - INFO - Going to App Settings...
+2026-07-13 12:08:52,080 - INFO -   → Promotion Banners section opened
+2026-07-13 12:08:52,097 - INFO - ✓ Promotion Banners page ready
+2026-07-13 12:08:52,097 - INFO - Starting batch  —  9 banner(s) to publish
+2026-07-13 12:08:52,098 - INFO - ============================================================
+2026-07-13 12:08:52,098 - INFO - [1/9]
+2026-07-13 12:08:52,099 - INFO -   Publishing: [old_banner_1]  (old_banner_1_20260713_120819_processed.jpg)
+2026-07-13 12:08:54,330 - INFO -     → Title entered: old_banner_1
+2026-07-13 12:08:56,380 - INFO -     → Image uploaded: old_banner_1_20260713_120819_processed.jpg
+2026-07-13 12:08:56,529 - INFO -     → Publish Banner clicked
+2026-07-13 12:09:00,562 - INFO -   ✓ Banner published: old_banner_1
+
+2026-07-13 12:09:01,564 - INFO - [2/9]
+2026-07-13 12:09:01,565 - INFO -   Publishing: [old_banner_2]  (old_banner_2_20260713_120820_processed.jpg)
+2026-07-13 12:09:02,729 - ERROR -   ✗ Failed to publish [old_banner_2]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1144, 260). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=150.0.7871.101)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x5617b3+10673]
+	chromedriver!GetHandleVerifier [0x5617f4+106b4]
+	chromedriver!(No symbol) [0x3490a0]
+	chromedriver!(No symbol) [0x398ff8]
+	chromedriver!(No symbol) [0x397689]
+	chromedriver!(No symbol) [0x395475]
+	chromedriver!(No symbol) [0x394697]
+	chromedriver!(No symbol) [0x38a0ba]
+	chromedriver!(No symbol) [0x3b56bc]
+	chromedriver!(No symbol) [0x389af4]
+	chromedriver!(No symbol) [0x3b5884]
+	chromedriver!(No symbol) [0x3d31fd]
+	chromedriver!(No symbol) [0x3b5456]
+	chromedriver!(No symbol) [0x388629]
+	chromedriver!(No symbol) [0x3893f4]
+	chromedriver!GetHandleVerifier [0x7d7c06+286ac6]
+	chromedriver!GetHandleVerifier [0x7d328b+28214b]
+	chromedriver!GetHandleVerifier [0x7f384b+2a270b]
+	chromedriver!GetHandleVerifier [0x57b7c6+2a686]
+	chromedriver!GetHandleVerifier [0x5824ed+313ad]
+	chromedriver!GetHandleVerifier [0x56a158+19018]
+	chromedriver!GetHandleVerifier [0x56a305+191c5]
+	chromedriver!GetHandleVerifier [0x55323f+20ff]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-13 12:09:03,046 - INFO -   📸 Screenshot: automation\screenshots\banner_error_old_banner_2_20260713_120902.png
+2026-07-13 12:09:05,214 - INFO - [3/9]
+2026-07-13 12:09:05,214 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260713_120821_processed.jpg)
+2026-07-13 12:09:07,495 - INFO -     → Title entered: old_banner_3
+2026-07-13 12:09:09,538 - INFO -     → Image uploaded: old_banner_3_20260713_120821_processed.jpg
+2026-07-13 12:09:09,680 - INFO -     → Publish Banner clicked
+2026-07-13 12:09:13,691 - INFO -   ✓ Banner published: old_banner_3
+
+2026-07-13 12:09:14,692 - INFO - [4/9]
+2026-07-13 12:09:14,692 - INFO -   Publishing: [old_banner_4]  (old_banner_4_20260713_120822_processed.jpg)
+2026-07-13 12:09:16,941 - INFO -     → Title entered: old_banner_4
+2026-07-13 12:09:18,989 - INFO -     → Image uploaded: old_banner_4_20260713_120822_processed.jpg
+2026-07-13 12:09:19,121 - INFO -     → Publish Banner clicked
+2026-07-13 12:09:23,150 - INFO -   ✓ Banner published: old_banner_4
+
+2026-07-13 12:09:24,152 - INFO - [5/9]
+2026-07-13 12:09:24,152 - INFO -   Publishing: [old_banner_5]  (old_banner_5_20260713_120822_processed.jpg)
+2026-07-13 12:09:26,382 - INFO -     → Title entered: old_banner_5
+2026-07-13 12:09:28,424 - INFO -     → Image uploaded: old_banner_5_20260713_120822_processed.jpg
+2026-07-13 12:09:28,550 - INFO -     → Publish Banner clicked
+2026-07-13 12:09:32,565 - INFO -   ✓ Banner published: old_banner_5
+
+2026-07-13 12:09:33,566 - INFO - [6/9]
+2026-07-13 12:09:33,567 - INFO -   Publishing: [old_banner_6]  (old_banner_6_20260713_120823_processed.jpg)
+2026-07-13 12:09:35,814 - INFO -     → Title entered: old_banner_6
+2026-07-13 12:09:37,851 - INFO -     → Image uploaded: old_banner_6_20260713_120823_processed.jpg
+2026-07-13 12:09:37,945 - INFO -     → Publish Banner clicked
+2026-07-13 12:09:41,959 - INFO -   ✓ Banner published: old_banner_6
+
+2026-07-13 12:09:42,960 - INFO - [7/9]
+2026-07-13 12:09:42,961 - INFO -   Publishing: [old_banner_7]  (old_banner_7_20260713_120824_processed.jpg)
+2026-07-13 12:09:45,238 - INFO -     → Title entered: old_banner_7
+2026-07-13 12:09:47,299 - INFO -     → Image uploaded: old_banner_7_20260713_120824_processed.jpg
+2026-07-13 12:09:47,439 - INFO -     → Publish Banner clicked
+2026-07-13 12:09:51,458 - INFO -   ✓ Banner published: old_banner_7
+
+2026-07-13 12:09:52,460 - INFO - [8/9]
+2026-07-13 12:09:52,461 - INFO -   Publishing: [old_banner_8]  (old_banner_8_20260713_120825_processed.jpg)
+2026-07-13 12:09:53,613 - ERROR -   ✗ Failed to publish [old_banner_8]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1144, 260). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=150.0.7871.101)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x5617b3+10673]
+	chromedriver!GetHandleVerifier [0x5617f4+106b4]
+	chromedriver!(No symbol) [0x3490a0]
+	chromedriver!(No symbol) [0x398ff8]
+	chromedriver!(No symbol) [0x397689]
+	chromedriver!(No symbol) [0x395475]
+	chromedriver!(No symbol) [0x394697]
+	chromedriver!(No symbol) [0x38a0ba]
+	chromedriver!(No symbol) [0x3b56bc]
+	chromedriver!(No symbol) [0x389af4]
+	chromedriver!(No symbol) [0x3b5884]
+	chromedriver!(No symbol) [0x3d31fd]
+	chromedriver!(No symbol) [0x3b5456]
+	chromedriver!(No symbol) [0x388629]
+	chromedriver!(No symbol) [0x3893f4]
+	chromedriver!GetHandleVerifier [0x7d7c06+286ac6]
+	chromedriver!GetHandleVerifier [0x7d328b+28214b]
+	chromedriver!GetHandleVerifier [0x7f384b+2a270b]
+	chromedriver!GetHandleVerifier [0x57b7c6+2a686]
+	chromedriver!GetHandleVerifier [0x5824ed+313ad]
+	chromedriver!GetHandleVerifier [0x56a158+19018]
+	chromedriver!GetHandleVerifier [0x56a305+191c5]
+	chromedriver!GetHandleVerifier [0x55323f+20ff]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-13 12:09:54,116 - INFO -   📸 Screenshot: automation\screenshots\banner_error_old_banner_8_20260713_120953.png
+2026-07-13 12:09:56,217 - INFO - [9/9]
+2026-07-13 12:09:56,217 - INFO -   Publishing: [old_banner_9]  (old_banner_9_20260713_120826_processed.jpg)
+2026-07-13 12:09:58,491 - INFO -     → Title entered: old_banner_9
+2026-07-13 12:10:00,535 - INFO -     → Image uploaded: old_banner_9_20260713_120826_processed.jpg
+2026-07-13 12:10:00,696 - INFO -     → Publish Banner clicked
+2026-07-13 12:10:04,714 - INFO -   ✓ Banner published: old_banner_9
+
+2026-07-13 12:10:05,715 - INFO - ============================================================
+2026-07-13 12:10:05,716 - INFO - Banners done  →  ✓ 7 published   ✗ 2 failed
+2026-07-13 12:10:08,141 - INFO - Browser closed
+2026-07-13 12:10:16,258 - INFO - 
+Task finished at 2026-07-13 12:10:16
+2026-07-13 12:10:16,259 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+
+2026-07-13 12:10:23,726 - INFO - User selected: Old Dashboard
+2026-07-13 12:11:20,056 - INFO - User selected: Old Dashboard
+2026-07-13 12:11:21,949 - INFO -   Old Dashboard → Introduction Setting
+2026-07-13 12:11:21,949 - INFO - ============================================================
+2026-07-13 12:11:21,950 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-07-13 12:11:21,950 - INFO - ============================================================
+2026-07-13 12:11:21,957 - INFO - ====== WebDriver manager ======
+2026-07-13 12:11:23,316 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:11:23,792 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:11:24,238 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:11:24,239 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:11:25,499 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 12:11:31,403 - INFO -   → Identifying 'Vendor' login tab...
+2026-07-13 12:11:31,582 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-07-13 12:11:34,583 - INFO -   → Filling Vendor credentials...
+2026-07-13 12:11:34,864 - INFO -     - Email entered: yashpaintsindustries@gmail.com
+2026-07-13 12:11:34,864 - INFO -     - Clicking 'login' button...
+2026-07-13 12:11:34,874 - INFO -   → Waiting for successful login redirect...
+2026-07-13 12:11:36,671 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:11:36,676 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-07-13 12:11:41,725 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-07-13 12:11:41,748 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-07-13 12:11:44,796 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-07-13 12:11:50,621 - INFO -   → Searching for introduction screens data...
+2026-07-13 12:11:50,673 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-07-13 12:11:50,775 - INFO -     → Found 3 potential rows to extract
+2026-07-13 12:11:50,849 - INFO -     → Downloading image for: Welcome to the Yash Paint App...
+2026-07-13 12:11:51,576 - INFO -     ✓ Extracted 1/3
+2026-07-13 12:11:51,635 - INFO -     → Downloading image for: KYC...
+2026-07-13 12:11:52,297 - INFO -     ✓ Extracted 2/3
+2026-07-13 12:11:52,363 - INFO -     → Downloading image for: Join Now & Unlock Rewards...
+2026-07-13 12:11:53,024 - INFO -     ✓ Extracted 3/3
+2026-07-13 12:11:55,476 - INFO - ✓ Extracted 3 screens.
+2026-07-13 12:11:55,477 - INFO - 
+============================================================
+2026-07-13 12:11:55,477 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-07-13 12:11:55,477 - INFO - ============================================================
+2026-07-13 12:11:55,498 - INFO -   ⚙ Processing old_intro_1_20260713_121150.jpg  (360×800 → need 1080×1920)
+2026-07-13 12:11:55,546 - INFO -   ✓ old_intro_1_20260713_121150.jpg  →  old_intro_1_20260713_121150_processed.jpg  |  1080×1920  |  0.25 MB  |  quality 92
+2026-07-13 12:11:55,563 - INFO -   ⚙ Processing old_intro_2_20260713_121151.jpg  (360×800 → need 1080×1920)
+2026-07-13 12:11:55,619 - INFO -   ✓ old_intro_2_20260713_121151.jpg  →  old_intro_2_20260713_121151_processed.jpg  |  1080×1920  |  0.27 MB  |  quality 92
+2026-07-13 12:11:55,636 - INFO -   ⚙ Processing old_intro_3_20260713_121152.jpg  (360×800 → need 1080×1920)
+2026-07-13 12:11:55,687 - INFO -   ✓ old_intro_3_20260713_121152.jpg  →  old_intro_3_20260713_121152_processed.jpg  |  1080×1920  |  0.12 MB  |  quality 92
+2026-07-13 12:11:55,688 - INFO - 
+============================================================
+2026-07-13 12:11:55,689 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-07-13 12:11:55,689 - INFO - ============================================================
+2026-07-13 12:11:55,699 - INFO - ====== WebDriver manager ======
+2026-07-13 12:11:57,214 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:11:57,677 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-13 12:11:58,210 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-13 12:11:58,211 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
+2026-07-13 12:11:59,439 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-13 12:11:59,450 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-13 12:11:59,519 - INFO - ✓ Chrome driver initialized
+2026-07-13 12:11:59,519 - INFO - Opening login page...
+2026-07-13 12:12:00,935 - INFO -   → Policy checkbox checked on login page
+2026-07-13 12:12:01,066 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-13 12:12:01,091 - INFO -   → Policy agreement popup detected
+2026-07-13 12:12:01,156 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-13 12:12:01,702 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-13 12:12:07,852 - INFO -   → Policy agreement popup detected
+2026-07-13 12:12:07,868 - INFO -     ✓ Policy checkbox was already checked
+2026-07-13 12:12:08,703 - INFO -     ✓ Clicked Continue button
+2026-07-13 12:12:09,317 - INFO -     ✓ Policy popup dismissed
+2026-07-13 12:12:10,335 - INFO - ✓ Login successful
+2026-07-13 12:12:10,335 - INFO - Going to App Settings...
+2026-07-13 12:12:16,696 - INFO -   → Intro Screens section opened
+2026-07-13 12:12:16,709 - INFO - ✓ Intro Screens page ready
+2026-07-13 12:12:16,710 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-07-13 12:12:16,710 - INFO - ============================================================
+2026-07-13 12:12:16,710 - INFO - [1/3]
+2026-07-13 12:12:16,710 - INFO -   Launching screen: [Welcome to the Yash Paint App]
+2026-07-13 12:12:19,059 - INFO -     → Header: Welcome to the Yash Paint App
+2026-07-13 12:12:19,350 - INFO -     → Description: Signup and earn Rewards on every scan...
+2026-07-13 12:12:21,417 - INFO -     → Image uploaded: old_intro_1_20260713_121150_processed.jpg
+2026-07-13 12:12:21,545 - INFO -     → Launch Screen clicked
+2026-07-13 12:12:25,556 - INFO -   ✓ Intro screen launched: Welcome to the Yash Paint App
+
+2026-07-13 12:12:26,558 - INFO - [2/3]
+2026-07-13 12:12:26,561 - INFO -   Launching screen: [KYC]
+2026-07-13 12:12:27,712 - ERROR -   ✗ Failed to launch screen [KYC]: Message: element click intercepted: Element <button type="button" class="inline-flex items-center justify-center transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed gap-2 focus:outline-none font-semibold rounded-lg active:scale-[0.98] disabled:active:scale-100 focus:ring-2 focus:ring-offset-2 px-4 py-2.5 text-xs bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200 dark:shadow-none focus:ring-indigo-500">...</button> is not clickable at point (1153, 86). Other element would receive the click: <div class="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"></div>
+  (Session info: chrome=150.0.7871.101)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x5617b3+10673]
+	chromedriver!GetHandleVerifier [0x5617f4+106b4]
+	chromedriver!(No symbol) [0x3490a0]
+	chromedriver!(No symbol) [0x398ff8]
+	chromedriver!(No symbol) [0x397689]
+	chromedriver!(No symbol) [0x395475]
+	chromedriver!(No symbol) [0x394697]
+	chromedriver!(No symbol) [0x38a0ba]
+	chromedriver!(No symbol) [0x3b56bc]
+	chromedriver!(No symbol) [0x389af4]
+	chromedriver!(No symbol) [0x3b5884]
+	chromedriver!(No symbol) [0x3d31fd]
+	chromedriver!(No symbol) [0x3b5456]
+	chromedriver!(No symbol) [0x388629]
+	chromedriver!(No symbol) [0x3893f4]
+	chromedriver!GetHandleVerifier [0x7d7c06+286ac6]
+	chromedriver!GetHandleVerifier [0x7d328b+28214b]
+	chromedriver!GetHandleVerifier [0x7f384b+2a270b]
+	chromedriver!GetHandleVerifier [0x57b7c6+2a686]
+	chromedriver!GetHandleVerifier [0x5824ed+313ad]
+	chromedriver!GetHandleVerifier [0x56a158+19018]
+	chromedriver!GetHandleVerifier [0x56a305+191c5]
+	chromedriver!GetHandleVerifier [0x55323f+20ff]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-07-13 12:12:28,116 - INFO -   📸 Screenshot: automation\screenshots\intro_error_slide_20260713_121227.png
+2026-07-13 12:12:30,246 - INFO - [3/3]
+2026-07-13 12:12:30,248 - INFO -   Launching screen: [Join Now & Unlock Rewards]
+2026-07-13 12:12:32,577 - INFO -     → Header: Join Now & Unlock Rewards
+2026-07-13 12:12:32,904 - INFO -     → Description: Stay updated on the latest offers and loyalty schemes...
+2026-07-13 12:12:34,965 - INFO -     → Image uploaded: old_intro_3_20260713_121152_processed.jpg
+2026-07-13 12:12:35,085 - INFO -     → Launch Screen clicked
+2026-07-13 12:12:39,115 - INFO -   ✓ Intro screen launched: Join Now & Unlock Rewards
+
+2026-07-13 12:12:40,116 - INFO - ============================================================
+2026-07-13 12:12:40,117 - INFO - Intro screens done  →  ✓ 2 launched   ✗ 1 failed
+2026-07-13 12:12:42,810 - INFO - Browser closed
+2026-07-13 12:12:50,923 - INFO - 
+Task finished at 2026-07-13 12:12:50
+2026-07-13 12:12:50,923 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260713_115201.log
+

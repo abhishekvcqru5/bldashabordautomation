@@ -1,0 +1,80 @@
+2026-06-08 23:00:49,695 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-08 23:01:02,640 - INFO - Target User Types: ['E-Warranty']
+2026-06-08 23:01:02,641 - INFO - Target Dashboard Icons: ['Retailer']
+2026-06-08 23:01:02,658 - INFO - Processing images from: dashboardicons
+2026-06-08 23:01:02,659 - INFO - Output folder: automation\processed_images
+2026-06-08 23:01:02,659 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-08 23:01:02,764 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-08 23:01:02,807 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-08 23:01:02,850 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-08 23:01:02,894 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-08 23:01:02,927 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-08 23:01:02,958 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-08 23:01:02,991 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-08 23:01:03,017 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-08 23:01:03,035 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-08 23:01:03,070 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-08 23:01:03,097 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-08 23:01:03,127 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-08 23:01:03,168 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-08 23:01:03,201 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-08 23:01:03,228 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-08 23:01:03,258 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-08 23:01:03,284 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-08 23:01:03,285 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-08 23:01:03,303 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-08 23:01:03,303 - INFO - 
+============================================================
+2026-06-08 23:01:03,303 - INFO - Launching Browser and Starting Upload Process
+2026-06-08 23:01:03,304 - INFO - ============================================================
+2026-06-08 23:01:03,311 - INFO - ====== WebDriver manager ======
+2026-06-08 23:01:04,456 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 23:01:04,874 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 23:01:05,225 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-08 23:01:05,226 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-08 23:01:07,190 - INFO - ✓ Chrome driver initialized
+2026-06-08 23:01:07,190 - INFO - 
+→ Attempting login...
+
+2026-06-08 23:01:07,191 - INFO - Opening login page...
+2026-06-08 23:01:08,739 - INFO -   → Policy checkbox checked on login page
+2026-06-08 23:01:08,820 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-08 23:01:17,717 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-08 23:01:17,747 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-08 23:01:17,826 - INFO - ✓ Login successful
+2026-06-08 23:01:19,827 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-08 23:01:19,828 - INFO - Navigating to App Settings...
+2026-06-08 23:01:26,135 - INFO - ✓ Dashboard Icons section loaded
+2026-06-08 23:01:28,136 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-08 23:01:28,137 - INFO - Starting batch – 1 configured entries
+2026-06-08 23:01:28,137 - INFO - Total icons to upload after expansion: 1
+2026-06-08 23:01:28,138 - INFO - ============================================================
+2026-06-08 23:01:28,138 - INFO - [1/1]
+2026-06-08 23:01:28,138 - INFO -   Adding: [E-Warranty] Nearby Retailers  (retailer)
+2026-06-08 23:01:40,699 - ERROR -   ✗ Failed to add [Nearby Retailers]: Message: Cannot locate option with value: E-Warranty; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2026-06-08 23:01:40,960 - INFO -   📸 Screenshot saved: automation\screenshots\error_Nearby_Retailers_20260608_230140.png
+2026-06-08 23:01:43,023 - INFO - ============================================================
+2026-06-08 23:01:43,024 - INFO - Batch complete → ✓ 0 succeeded  ✗ 1 failed
+2026-06-08 23:01:43,024 - INFO - 
+============================================================
+2026-06-08 23:01:43,025 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-08 23:01:43,025 - INFO - ============================================================
+2026-06-08 23:01:43,025 - INFO - ✓ Successful uploads: 0
+2026-06-08 23:01:43,026 - INFO - ✗ Failed uploads: 1
+2026-06-08 23:01:43,027 - INFO - Total processed: 1
+2026-06-08 23:01:43,027 - INFO - Success rate: 0.0%
+2026-06-08 23:01:43,027 - INFO - ============================================================
+2026-06-08 23:01:45,244 - INFO - Browser closed
+2026-06-08 23:01:49,311 - INFO - 
+Task finished at 2026-06-08 23:01:49
+2026-06-08 23:01:49,311 - INFO - Log: automation\logs\full_automation_20260608_230029.log
+
+2026-06-08 23:03:24,822 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,1042 @@
+2026-07-01 23:58:00,213 - INFO - User selected: Product Management Image Upload
+2026-07-01 23:58:00,214 - INFO - ============================================================
+2026-07-01 23:58:00,215 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-01 23:58:00,215 - INFO - ============================================================
+2026-07-01 23:58:00,218 - INFO - Total folders found: 83
+2026-07-01 23:58:00,219 - INFO - Resuming: 4 products already completed
+2026-07-01 23:58:00,220 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 23:58:00,230 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-01 23:58:00,230 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 23:58:00,230 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 23:58:00,258 - INFO - Pending: 79 products to upload
+2026-07-01 23:58:00,258 - INFO - 
+============================================================
+2026-07-01 23:58:00,259 - INFO - BATCH 1/8 — 10 products
+2026-07-01 23:58:00,259 - INFO - ============================================================
+2026-07-01 23:58:00,271 - INFO - ====== WebDriver manager ======
+2026-07-01 23:58:01,694 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 23:58:02,020 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-01 23:58:02,315 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-01 23:58:02,316 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-01 23:58:03,469 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-01 23:58:03,473 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-01 23:58:03,505 - INFO - ✓ Chrome driver initialized
+2026-07-01 23:58:03,506 - INFO - Logging in…
+2026-07-01 23:58:03,506 - INFO - Opening login page...
+2026-07-01 23:58:04,776 - INFO -   → Policy checkbox checked on login page
+2026-07-01 23:58:04,880 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-01 23:58:04,906 - INFO -   → Policy agreement popup detected
+2026-07-01 23:58:04,972 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-01 23:58:05,522 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-01 23:58:11,713 - INFO -   → Policy agreement popup detected
+2026-07-01 23:58:11,741 - INFO -     ✓ Policy checkbox was already checked
+2026-07-01 23:58:12,581 - INFO -     ✓ Clicked Continue button
+2026-07-01 23:58:12,745 - INFO -     ✓ Policy popup dismissed
+2026-07-01 23:58:13,756 - INFO - ✓ Login successful
+2026-07-01 23:58:19,360 - INFO - Clicked Product Management
+2026-07-01 23:58:22,379 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:58:22,379 - INFO - Processing: 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing
+2026-07-01 23:58:22,380 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing\4d4ee46e-cfa1-49d8-b01e-0269807669a5.jpg
+2026-07-01 23:58:22,708 - INFO -   Matched → '1.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 24 Coil Bag Packing'
+2026-07-01 23:58:26,593 - INFO -   Modal opened
+2026-07-01 23:58:28,019 - INFO -   Removed existing image
+2026-07-01 23:58:29,491 - INFO -   Uploaded via hidden input: 4d4ee46e-cfa1-49d8-b01e-0269807669a5.jpg
+2026-07-01 23:58:32,926 - INFO -   Clicked Save
+2026-07-01 23:58:33,490 - INFO -   ✓ Done: 1.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 24 Coil Bag Packing
+2026-07-01 23:58:34,493 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:58:34,493 - INFO - Processing: 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr
+2026-07-01 23:58:34,494 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm FRLSH mutistrand copper cable 90 mtr\0c6da6f6-cc14-46d0-8469-5f7d37bf6039.jpg
+2026-07-01 23:58:37,083 - INFO -   Matched → '1.0 Sq.Mm Frlsh Mutistrand Copper Cable 90 Mtr'
+2026-07-01 23:58:41,239 - INFO -   Modal opened
+2026-07-01 23:58:42,728 - INFO -   Removed existing image
+2026-07-01 23:58:44,209 - INFO -   Uploaded via hidden input: 0c6da6f6-cc14-46d0-8469-5f7d37bf6039.jpg
+2026-07-01 23:58:47,712 - INFO -   Clicked Save
+2026-07-01 23:58:48,308 - INFO -   ✓ Done: 1.0 Sq.Mm Frlsh Mutistrand Copper Cable 90 Mtr
+2026-07-01 23:58:49,311 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:58:49,312 - INFO - Processing: 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing
+2026-07-01 23:58:49,312 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing\04e07bb5-9e7b-4705-8664-c40af5127b10.jpg
+2026-07-01 23:58:50,299 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 48 Coil Carton Packing'
+2026-07-01 23:58:54,596 - INFO -   Modal opened
+2026-07-01 23:58:56,121 - INFO -   Removed existing image
+2026-07-01 23:58:57,590 - INFO -   Uploaded via hidden input: 04e07bb5-9e7b-4705-8664-c40af5127b10.jpg
+2026-07-01 23:59:01,132 - INFO -   Clicked Save
+2026-07-01 23:59:01,709 - INFO -   ✓ Done: 1.0 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 48 Coil Carton Packing
+2026-07-01 23:59:02,711 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:59:02,729 - INFO - Processing: 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-01 23:59:02,741 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing\9228c6bc-1b30-4f36-b5df-02410b93c70b.jpg
+2026-07-01 23:59:04,080 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing'
+2026-07-01 23:59:08,041 - INFO -   Modal opened
+2026-07-01 23:59:09,447 - INFO -   Removed existing image
+2026-07-01 23:59:10,893 - INFO -   Uploaded via hidden input: 9228c6bc-1b30-4f36-b5df-02410b93c70b.jpg
+2026-07-01 23:59:14,351 - INFO -   Clicked Save
+2026-07-01 23:59:14,910 - INFO -   ✓ Done: 1.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 24 Coils Carton Packing
+2026-07-01 23:59:15,913 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:59:15,913 - INFO - Processing: 1.0 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-01 23:59:15,914 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand copper cable 45 mtr\460d8efa-9bf0-44d7-ac7a-9ef0f9467a8c.jpg
+2026-07-01 23:59:18,209 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr'
+2026-07-01 23:59:22,170 - INFO -   Modal opened
+2026-07-01 23:59:23,584 - INFO -   Removed existing image
+2026-07-01 23:59:25,026 - INFO -   Uploaded via hidden input: 460d8efa-9bf0-44d7-ac7a-9ef0f9467a8c.jpg
+2026-07-01 23:59:28,453 - INFO -   Clicked Save
+2026-07-01 23:59:28,996 - INFO -   ✓ Done: 1.0 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-01 23:59:30,001 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:59:30,002 - INFO - Processing: 1.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-01 23:59:30,004 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm HRFR multistrand copper cable 90 mtr\75ddb26f-ac6f-4602-b45b-fb2eb86557ed.jpg
+2026-07-01 23:59:31,446 - INFO -   Matched → '1.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-01 23:59:35,374 - INFO -   Modal opened
+2026-07-01 23:59:36,773 - INFO -   Removed existing image
+2026-07-01 23:59:38,213 - INFO -   Uploaded via hidden input: 75ddb26f-ac6f-4602-b45b-fb2eb86557ed.jpg
+2026-07-01 23:59:41,712 - INFO -   Clicked Save
+2026-07-01 23:59:42,277 - INFO -   ✓ Done: 1.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-01 23:59:43,286 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:59:43,292 - INFO - Processing: 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 23:59:43,296 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\2cf1d5d7-775a-4e75-b7d1-5833f0e202cd.jpg
+2026-07-01 23:59:45,910 - INFO -   Matched → '1.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-01 23:59:49,788 - INFO -   Modal opened
+2026-07-01 23:59:51,192 - INFO -   Removed existing image
+2026-07-01 23:59:52,640 - INFO -   Uploaded via hidden input: 2cf1d5d7-775a-4e75-b7d1-5833f0e202cd.jpg
+2026-07-01 23:59:56,062 - INFO -   Clicked Save
+2026-07-01 23:59:56,672 - INFO -   ✓ Done: 1.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-01 23:59:57,674 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-01 23:59:57,674 - INFO - Processing: 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-01 23:59:57,674 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\33415e8e-f72b-4709-acbf-84630dbfce7d.jpg
+2026-07-01 23:59:59,412 - INFO -   Matched → '1.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:00:03,544 - INFO -   Modal opened
+2026-07-02 00:00:04,977 - INFO -   Removed existing image
+2026-07-02 00:00:06,428 - INFO -   Uploaded via hidden input: 33415e8e-f72b-4709-acbf-84630dbfce7d.jpg
+2026-07-02 00:00:09,857 - INFO -   Clicked Save
+2026-07-02 00:00:10,457 - INFO -   ✓ Done: 1.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:00:11,459 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:00:11,460 - INFO - Processing: 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:00:11,461 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-02 00:00:13,175 - INFO -   Matched → '1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:00:17,103 - INFO -   Modal opened
+2026-07-02 00:00:18,507 - INFO -   Removed existing image
+2026-07-02 00:00:19,993 - INFO -   Uploaded via hidden input: 1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-02 00:00:23,430 - INFO -   Clicked Save
+2026-07-02 00:00:38,827 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:00:42,847 - INFO -   ✓ Done (force-closed modal): 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:00:43,849 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:00:43,850 - INFO - Processing: 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing
+2026-07-02 00:00:43,850 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing\a2eed846-b160-4064-b48c-0fa6a19b56d5.jpg
+2026-07-02 00:00:44,059 - INFO -   Matched → '1.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 20 Coil Bag Packing'
+2026-07-02 00:00:48,005 - INFO -   Modal opened
+2026-07-02 00:00:49,400 - INFO -   Removed existing image
+2026-07-02 00:00:50,846 - INFO -   Uploaded via hidden input: a2eed846-b160-4064-b48c-0fa6a19b56d5.jpg
+2026-07-02 00:00:54,344 - INFO -   Clicked Save
+2026-07-02 00:00:54,904 - INFO -   ✓ Done: 1.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 20 Coil Bag Packing
+2026-07-02 00:00:58,248 - INFO - Browser closed
+2026-07-02 00:00:58,249 - INFO - 
+============================================================
+2026-07-02 00:00:58,249 - INFO - BATCH 2/8 — 10 products
+2026-07-02 00:00:58,249 - INFO - ============================================================
+2026-07-02 00:00:58,261 - INFO - ====== WebDriver manager ======
+2026-07-02 00:00:59,637 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:00:59,979 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:01:00,417 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:01:01,236 - INFO - WebDriver version 149.0.7827.155 selected
+2026-07-02 00:01:01,244 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-07-02 00:01:01,244 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win32/chromedriver-win32.zip
+2026-07-02 00:01:01,874 - INFO - Driver downloading response is 200
+2026-07-02 00:01:02,851 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:01:03,576 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-07-02 00:01:04,816 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:01:04,837 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:01:04,896 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:01:08,947 - INFO - Logging in…
+2026-07-02 00:01:08,948 - INFO - Opening login page...
+2026-07-02 00:01:10,265 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:01:10,404 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:01:10,424 - INFO -   → Policy agreement popup detected
+2026-07-02 00:01:10,483 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:01:11,022 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:01:17,281 - INFO -   → Policy agreement popup detected
+2026-07-02 00:01:17,313 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 00:01:18,165 - INFO -     ✓ Clicked Continue button
+2026-07-02 00:01:19,041 - INFO -     ✓ Policy popup dismissed
+2026-07-02 00:01:20,057 - INFO - ✓ Login successful
+2026-07-02 00:01:25,970 - INFO - Clicked Product Management
+2026-07-02 00:01:29,014 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:01:29,020 - INFO - Processing: 1.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-02 00:01:29,023 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\28769457-35cf-44a6-8f7d-6368bdd45fb2.jpg
+2026-07-02 00:01:31,199 - INFO -   Matched → '1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:01:35,155 - INFO -   Modal opened
+2026-07-02 00:01:36,591 - INFO -   Removed existing image
+2026-07-02 00:01:38,147 - INFO -   Uploaded via hidden input: 28769457-35cf-44a6-8f7d-6368bdd45fb2.jpg
+2026-07-02 00:01:41,681 - INFO -   Clicked Save
+2026-07-02 00:01:42,263 - INFO -   ✓ Done: 1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr
+2026-07-02 00:01:43,268 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:01:43,269 - INFO - Processing: 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing
+2026-07-02 00:01:43,269 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing\1ed736bd-e87a-4dcd-a087-89491b94efae.jpg
+2026-07-02 00:01:43,723 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing'
+2026-07-02 00:01:47,651 - INFO -   Modal opened
+2026-07-02 00:01:49,047 - INFO -   Removed existing image
+2026-07-02 00:01:50,499 - INFO -   Uploaded via hidden input: 1ed736bd-e87a-4dcd-a087-89491b94efae.jpg
+2026-07-02 00:01:53,929 - INFO -   Clicked Save
+2026-07-02 00:01:54,478 - INFO -   ✓ Done: 1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing
+2026-07-02 00:01:55,479 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:01:55,480 - INFO - Processing: 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing
+2026-07-02 00:01:55,480 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing\cf2943aa-a3dd-467b-9085-6cf9d9b71bd9.jpg
+2026-07-02 00:01:56,059 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing'
+2026-07-02 00:02:00,106 - INFO -   Modal opened
+2026-07-02 00:02:01,540 - INFO -   Removed existing image
+2026-07-02 00:02:02,995 - INFO -   Uploaded via hidden input: cf2943aa-a3dd-467b-9085-6cf9d9b71bd9.jpg
+2026-07-02 00:02:06,441 - INFO -   Clicked Save
+2026-07-02 00:02:07,037 - INFO -   ✓ Done: 1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing
+2026-07-02 00:02:08,039 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:02:08,040 - INFO - Processing: 1.5 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-02 00:02:08,040 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand copper cable 45 mtr\149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-02 00:02:11,344 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr'
+2026-07-02 00:02:15,304 - INFO -   Modal opened
+2026-07-02 00:02:16,716 - INFO -   Removed existing image
+2026-07-02 00:02:18,185 - INFO -   Uploaded via hidden input: 149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-02 00:02:21,619 - INFO -   Clicked Save
+2026-07-02 00:02:37,121 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:02:41,156 - INFO -   ✓ Done (force-closed modal): 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr
+2026-07-02 00:02:42,161 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:02:42,170 - INFO - Processing: 1.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 00:02:42,171 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm HRFR multistrand copper cable 90 mtr\0b38e7bb-358a-48db-bcb9-c565fa9d5ebf.jpg
+2026-07-02 00:02:44,486 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:02:48,429 - INFO -   Modal opened
+2026-07-02 00:02:49,864 - INFO -   Removed existing image
+2026-07-02 00:02:51,319 - INFO -   Uploaded via hidden input: 0b38e7bb-358a-48db-bcb9-c565fa9d5ebf.jpg
+2026-07-02 00:02:54,790 - INFO -   Clicked Save
+2026-07-02 00:02:55,352 - INFO -   ✓ Done: 1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-02 00:02:56,354 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:02:56,355 - INFO - Processing: 1.5 sq.mm submersible flat cable 100 mtr
+2026-07-02 00:02:56,356 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm submersible flat cable 100 mtr\4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-02 00:02:57,825 - INFO -   Matched → '1.5 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-02 00:03:01,747 - INFO -   Modal opened
+2026-07-02 00:03:03,185 - INFO -   Removed existing image
+2026-07-02 00:03:04,640 - INFO -   Uploaded via hidden input: 4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-02 00:03:08,040 - INFO -   Clicked Save
+2026-07-02 00:03:23,443 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:03:27,470 - INFO -   ✓ Done (force-closed modal): 1.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-02 00:03:28,472 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:03:28,474 - INFO - Processing: 1.5 sq.mm submersible flat cable 500 mtr
+2026-07-02 00:03:28,474 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm submersible flat cable 500 mtr\3f28d977-0825-458e-9238-ece8847261e9.jpg
+2026-07-02 00:03:29,236 - INFO -   Matched → '1.5 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-02 00:03:33,178 - INFO -   Modal opened
+2026-07-02 00:03:34,624 - INFO -   Removed existing image
+2026-07-02 00:03:36,086 - INFO -   Uploaded via hidden input: 3f28d977-0825-458e-9238-ece8847261e9.jpg
+2026-07-02 00:03:39,522 - INFO -   Clicked Save
+2026-07-02 00:03:40,065 - INFO -   ✓ Done: 1.5 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-02 00:03:41,072 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:03:41,074 - INFO - Processing: 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:03:41,075 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\0b10deb8-f6d7-4f14-b53d-b178ec9342a1.jpg
+2026-07-02 00:03:43,674 - INFO -   Matched → '1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:03:47,629 - INFO -   Modal opened
+2026-07-02 00:03:49,044 - INFO -   Removed existing image
+2026-07-02 00:03:50,497 - INFO -   Uploaded via hidden input: 0b10deb8-f6d7-4f14-b53d-b178ec9342a1.jpg
+2026-07-02 00:03:53,976 - INFO -   Clicked Save
+2026-07-02 00:03:54,518 - INFO -   ✓ Done: 1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:03:55,520 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:03:55,521 - INFO - Processing: 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:03:55,521 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\2167e62a-3e35-4a6d-b1e7-0e766397cf10.jpg
+2026-07-02 00:03:57,243 - INFO -   Matched → '1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:04:01,190 - INFO -   Modal opened
+2026-07-02 00:04:02,743 - INFO -   Removed existing image
+2026-07-02 00:04:04,193 - INFO -   Uploaded via hidden input: 2167e62a-3e35-4a6d-b1e7-0e766397cf10.jpg
+2026-07-02 00:04:07,630 - INFO -   Clicked Save
+2026-07-02 00:04:08,225 - INFO -   ✓ Done: 1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:04:09,227 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:04:09,228 - INFO - Processing: 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:04:09,228 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-02 00:04:11,195 - INFO -   Matched → '1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:04:15,106 - INFO -   Modal opened
+2026-07-02 00:04:16,525 - INFO -   Removed existing image
+2026-07-02 00:04:17,987 - INFO -   Uploaded via hidden input: 06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-02 00:04:21,407 - INFO -   Clicked Save
+2026-07-02 00:04:36,833 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:04:40,757 - INFO -   ✓ Done (force-closed modal): 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:04:44,083 - INFO - Browser closed
+2026-07-02 00:04:44,084 - INFO - 
+============================================================
+2026-07-02 00:04:44,084 - INFO - BATCH 3/8 — 10 products
+2026-07-02 00:04:44,084 - INFO - ============================================================
+2026-07-02 00:04:44,094 - INFO - ====== WebDriver manager ======
+2026-07-02 00:04:45,190 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:04:45,506 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:04:45,820 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 00:04:47,025 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:04:47,030 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:04:47,083 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:04:51,120 - INFO - Logging in…
+2026-07-02 00:04:51,120 - INFO - Opening login page...
+2026-07-02 00:04:52,375 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:04:52,487 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:04:52,508 - INFO -   → Policy agreement popup detected
+2026-07-02 00:04:52,559 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:04:53,108 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:04:59,274 - INFO -   → Policy agreement popup detected
+2026-07-02 00:04:59,295 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 00:05:00,143 - INFO -     ✓ Clicked Continue button
+2026-07-02 00:05:00,859 - INFO -     ✓ Policy popup dismissed
+2026-07-02 00:05:01,872 - INFO - ✓ Login successful
+2026-07-02 00:05:07,485 - INFO - Clicked Product Management
+2026-07-02 00:05:10,547 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:05:10,550 - INFO - Processing: 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-02 00:05:10,552 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-02 00:05:12,038 - INFO -   Matched → '10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt'
+2026-07-02 00:05:16,332 - INFO -   Modal opened
+2026-07-02 00:05:17,989 - INFO -   Removed existing image
+2026-07-02 00:05:19,513 - INFO -   Uploaded via hidden input: 06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-02 00:05:23,039 - INFO -   Clicked Save
+2026-07-02 00:05:38,061 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:05:42,018 - INFO -   ✓ Done (force-closed modal): 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-02 00:05:43,020 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:05:43,021 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )
+2026-07-02 00:05:43,021 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\17eff4a5-d386-471d-8806-8babd11e30e6.jpg
+2026-07-02 00:05:43,798 - INFO -   Matched → '10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded )'
+2026-07-02 00:05:47,711 - INFO -   Modal opened
+2026-07-02 00:05:49,117 - INFO -   Removed existing image
+2026-07-02 00:05:50,609 - INFO -   Uploaded via hidden input: 17eff4a5-d386-471d-8806-8babd11e30e6.jpg
+2026-07-02 00:05:54,058 - INFO -   Clicked Save
+2026-07-02 00:05:54,607 - INFO -   ✓ Done: 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded )
+2026-07-02 00:05:55,609 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:05:55,610 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-02 00:05:55,610 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-02 00:05:56,267 - INFO -   Matched → '10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-02 00:06:00,244 - INFO -   Modal opened
+2026-07-02 00:06:01,669 - INFO -   Removed existing image
+2026-07-02 00:06:03,117 - INFO -   Uploaded via hidden input: 2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-02 00:06:06,588 - INFO -   Clicked Save
+2026-07-02 00:06:22,018 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:06:25,958 - INFO -   ✓ Done (force-closed modal): 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-02 00:06:26,960 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:06:26,961 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-02 00:06:26,961 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\0716cdf9-c146-49cd-ac15-f410e6598ba4.jpg
+2026-07-02 00:06:27,538 - INFO -   Matched → '10.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-02 00:06:31,530 - INFO -   Modal opened
+2026-07-02 00:06:32,938 - INFO -   Removed existing image
+2026-07-02 00:06:34,419 - INFO -   Uploaded via hidden input: 0716cdf9-c146-49cd-ac15-f410e6598ba4.jpg
+2026-07-02 00:06:37,871 - INFO -   Clicked Save
+2026-07-02 00:06:38,410 - INFO -   ✓ Done: 10.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-02 00:06:39,413 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:06:39,413 - INFO - Processing: 10.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 00:06:39,414 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\10.0 sq.mm HRFR multistrand copper cable 90 mtr\63137fc6-1845-4160-ad12-edf623cf92b4.jpg
+2026-07-02 00:06:41,952 - INFO -   Matched → '10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:06:45,859 - INFO -   Modal opened
+2026-07-02 00:06:47,260 - INFO -   Removed existing image
+2026-07-02 00:06:48,705 - INFO -   Uploaded via hidden input: 63137fc6-1845-4160-ad12-edf623cf92b4.jpg
+2026-07-02 00:06:52,124 - INFO -   Clicked Save
+2026-07-02 00:06:52,676 - INFO -   ✓ Done: 10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-02 00:06:53,679 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:06:53,679 - INFO - Processing: 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-02 00:06:53,680 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing\0922d53e-4c91-4335-9559-9367dffe7dd4.jpg
+2026-07-02 00:06:53,758 - INFO -   Matched → '14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing'
+2026-07-02 00:06:57,813 - INFO -   Modal opened
+2026-07-02 00:06:59,210 - INFO -   Removed existing image
+2026-07-02 00:07:00,666 - INFO -   Uploaded via hidden input: 0922d53e-4c91-4335-9559-9367dffe7dd4.jpg
+2026-07-02 00:07:04,077 - INFO -   Clicked Save
+2026-07-02 00:07:19,520 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:07:23,523 - INFO -   ✓ Done (force-closed modal): 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing
+2026-07-02 00:07:24,527 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:07:24,527 - INFO - Processing: 14_40 x 2 core white parallel wire 90 mtr
+2026-07-02 00:07:24,528 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_40 x 2 core white parallel wire 90 mtr\1c295799-1941-446a-8424-b50de4966935.jpg
+2026-07-02 00:07:26,988 - INFO -   Matched → '14/40 X 2 Core White Parallel Wire 90 Mtr'
+2026-07-02 00:07:30,863 - INFO -   Modal opened
+2026-07-02 00:07:32,286 - INFO -   Removed existing image
+2026-07-02 00:07:33,728 - INFO -   Uploaded via hidden input: 1c295799-1941-446a-8424-b50de4966935.jpg
+2026-07-02 00:07:37,160 - INFO -   Clicked Save
+2026-07-02 00:07:37,721 - INFO -   ✓ Done: 14/40 X 2 Core White Parallel Wire 90 Mtr
+2026-07-02 00:07:38,724 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:07:38,725 - INFO - Processing: 14_76 twisted flexible wire 90 mtr
+2026-07-02 00:07:38,725 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_76 twisted flexible wire 90 mtr\3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg
+2026-07-02 00:07:41,863 - INFO -   Matched → '14/76 Twisted Flexible Wire 90 Mtr'
+2026-07-02 00:07:45,805 - INFO -   Modal opened
+2026-07-02 00:07:47,236 - INFO -   Removed existing image
+2026-07-02 00:07:48,684 - INFO -   Uploaded via hidden input: 3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg
+2026-07-02 00:07:52,109 - INFO -   Clicked Save
+2026-07-02 00:07:52,661 - INFO -   ✓ Done: 14/76 Twisted Flexible Wire 90 Mtr
+2026-07-02 00:07:53,664 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:07:53,664 - INFO - Processing: 14_76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-02 00:07:53,665 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\14_76 twisted flexible wire 90 mtr, 25 coils bag packing\11dbd383-d33e-4ef2-8601-b2d8370a6464.jpg
+2026-07-02 00:07:53,812 - INFO -   Matched → '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-02 00:07:57,755 - INFO -   Modal opened
+2026-07-02 00:07:59,173 - INFO -   Removed existing image
+2026-07-02 00:08:00,637 - INFO -   Uploaded via hidden input: 11dbd383-d33e-4ef2-8601-b2d8370a6464.jpg
+2026-07-02 00:08:04,062 - INFO -   Clicked Save
+2026-07-02 00:08:19,556 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:08:23,501 - INFO -   ✓ Done (force-closed modal): 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-02 00:08:24,503 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:08:24,504 - INFO - Processing: 16.0  sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 00:08:24,504 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\16.0  sq.mm HRFR multistrand copper cable 90 mtr\1943f102-7920-4862-8884-4834bc3093d2.jpg
+2026-07-02 00:08:26,574 - INFO -   Matched → '16.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:08:30,464 - INFO -   Modal opened
+2026-07-02 00:08:31,891 - INFO -   Removed existing image
+2026-07-02 00:08:33,340 - INFO -   Uploaded via hidden input: 1943f102-7920-4862-8884-4834bc3093d2.jpg
+2026-07-02 00:08:36,787 - INFO -   Clicked Save
+2026-07-02 00:08:37,349 - INFO -   ✓ Done: 16.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-02 00:08:40,866 - INFO - Browser closed
+2026-07-02 00:08:40,867 - INFO - 
+============================================================
+2026-07-02 00:08:40,867 - INFO - BATCH 4/8 — 10 products
+2026-07-02 00:08:40,867 - INFO - ============================================================
+2026-07-02 00:08:40,877 - INFO - ====== WebDriver manager ======
+2026-07-02 00:08:42,472 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:08:43,071 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:08:43,619 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 00:08:44,829 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:08:44,836 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:08:44,893 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:08:48,947 - INFO - Logging in…
+2026-07-02 00:08:48,948 - INFO - Opening login page...
+2026-07-02 00:08:50,225 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:08:50,372 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:08:50,393 - INFO -   → Policy agreement popup detected
+2026-07-02 00:08:50,449 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:08:50,981 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:08:57,163 - INFO -   → Policy agreement popup detected
+2026-07-02 00:08:57,190 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 00:08:58,027 - INFO -     ✓ Clicked Continue button
+2026-07-02 00:08:58,960 - INFO -     ✓ Policy popup dismissed
+2026-07-02 00:09:00,011 - INFO - ✓ Login successful
+2026-07-02 00:09:05,613 - INFO - Clicked Product Management
+2026-07-02 00:09:08,642 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:09:08,643 - INFO - Processing: 16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-02 00:09:08,643 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg
+2026-07-02 00:09:09,431 - INFO -   Matched → '16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-02 00:09:13,356 - INFO -   Modal opened
+2026-07-02 00:09:14,789 - INFO -   Removed existing image
+2026-07-02 00:09:16,259 - INFO -   Uploaded via hidden input: 61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg
+2026-07-02 00:09:19,718 - INFO -   Clicked Save
+2026-07-02 00:09:20,258 - INFO -   ✓ Done: 16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-02 00:09:21,260 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:09:21,261 - INFO - Processing: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-02 00:09:21,261 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-02 00:09:22,123 - INFO -   Matched → '16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-02 00:09:26,081 - INFO -   Modal opened
+2026-07-02 00:09:27,525 - INFO -   Removed existing image
+2026-07-02 00:09:28,991 - INFO -   Uploaded via hidden input: 0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-02 00:09:32,433 - INFO -   Clicked Save
+2026-07-02 00:09:47,552 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:09:51,530 - INFO -   ✓ Done (force-closed modal): 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-02 00:09:52,534 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:09:52,535 - INFO - Processing: 2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-02 00:09:52,535 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr\4ef82c0d-fbf5-4239-93f6-3e7a0a43705d.jpg
+2026-07-02 00:09:53,414 - INFO -   Matched → '2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-02 00:09:57,296 - INFO -   Modal opened
+2026-07-02 00:09:58,715 - INFO -   Removed existing image
+2026-07-02 00:10:00,156 - INFO -   Uploaded via hidden input: 4ef82c0d-fbf5-4239-93f6-3e7a0a43705d.jpg
+2026-07-02 00:10:03,612 - INFO -   Clicked Save
+2026-07-02 00:10:19,136 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:10:23,060 - INFO -   ✓ Done (force-closed modal): 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-02 00:10:24,063 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:10:24,064 - INFO - Processing: 2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )
+2026-07-02 00:10:24,064 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )\65583c12-00ad-4bcf-bc16-d3bf96336ec3.jpg
+2026-07-02 00:10:24,861 - INFO -   Matched → '2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-02 00:10:28,788 - INFO -   Modal opened
+2026-07-02 00:10:30,196 - INFO -   Removed existing image
+2026-07-02 00:10:31,635 - INFO -   Uploaded via hidden input: 65583c12-00ad-4bcf-bc16-d3bf96336ec3.jpg
+2026-07-02 00:10:35,071 - INFO -   Clicked Save
+2026-07-02 00:10:50,073 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:10:53,970 - INFO -   ✓ Done (force-closed modal): 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-02 00:10:54,973 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:10:54,973 - INFO - Processing: 2.5 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-02 00:10:54,973 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\14b9ecf7-3401-41f1-b625-6772a9a45542.jpg
+2026-07-02 00:10:55,537 - INFO -   Matched → '2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-02 00:10:59,409 - INFO -   Modal opened
+2026-07-02 00:11:00,846 - INFO -   Removed existing image
+2026-07-02 00:11:02,292 - INFO -   Uploaded via hidden input: 14b9ecf7-3401-41f1-b625-6772a9a45542.jpg
+2026-07-02 00:11:05,716 - INFO -   Clicked Save
+2026-07-02 00:11:06,257 - INFO -   ✓ Done: 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-02 00:11:07,260 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:11:07,261 - INFO - Processing: 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-02 00:11:07,261 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\0e02a005-a483-422f-a268-bb14d7908da3.jpg
+2026-07-02 00:11:08,096 - INFO -   Matched → '2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-02 00:11:12,325 - INFO -   Modal opened
+2026-07-02 00:11:13,744 - INFO -   Removed existing image
+2026-07-02 00:11:15,186 - INFO -   Uploaded via hidden input: 0e02a005-a483-422f-a268-bb14d7908da3.jpg
+2026-07-02 00:11:18,585 - INFO -   Clicked Save
+2026-07-02 00:11:33,997 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:11:38,034 - INFO -   ✓ Done (force-closed modal): 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-02 00:11:39,037 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:11:39,039 - INFO - Processing: 2.5 sq.mm FRLSH multistrand cable 90 mtr, 12 coil bag packing
+2026-07-02 00:11:39,039 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm FRLSH multistrand cable 90 mtr, 12 coil bag packing\9d5f9766-d588-4536-8a6f-b6e6ac06a25e.jpg
+2026-07-02 00:11:39,293 - INFO -   Matched → '2.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 12 Coil Bag Packing'
+2026-07-02 00:11:43,356 - INFO -   Modal opened
+2026-07-02 00:11:44,795 - INFO -   Removed existing image
+2026-07-02 00:11:46,248 - INFO -   Uploaded via hidden input: 9d5f9766-d588-4536-8a6f-b6e6ac06a25e.jpg
+2026-07-02 00:11:49,707 - INFO -   Clicked Save
+2026-07-02 00:11:50,286 - INFO -   ✓ Done: 2.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 12 Coil Bag Packing
+2026-07-02 00:11:51,289 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:11:51,290 - INFO - Processing: 2.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-02 00:11:51,290 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm FRLSH multistrand copper cable 90 mtr\12eb6008-288e-4179-a65f-6d920dd23ce9.jpg
+2026-07-02 00:11:55,318 - INFO -   Matched → '2.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:11:59,212 - INFO -   Modal opened
+2026-07-02 00:12:00,645 - INFO -   Removed existing image
+2026-07-02 00:12:02,094 - INFO -   Uploaded via hidden input: 12eb6008-288e-4179-a65f-6d920dd23ce9.jpg
+2026-07-02 00:12:05,529 - INFO -   Clicked Save
+2026-07-02 00:12:06,085 - INFO -   ✓ Done: 2.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr
+2026-07-02 00:12:07,089 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:12:07,089 - INFO - Processing: 2.5 sq.mm HRFR multistrand cable 90 mtr, 12 coil carton packing
+2026-07-02 00:12:07,090 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm HRFR multistrand cable 90 mtr, 12 coil carton packing\0a5e4c6d-e51f-4129-840e-eb6e8add256b.jpg
+2026-07-02 00:12:07,514 - INFO -   Matched → '2.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 12 Coil Carton Packing'
+2026-07-02 00:12:11,425 - INFO -   Modal opened
+2026-07-02 00:12:12,848 - INFO -   Removed existing image
+2026-07-02 00:12:14,326 - INFO -   Uploaded via hidden input: 0a5e4c6d-e51f-4129-840e-eb6e8add256b.jpg
+2026-07-02 00:12:17,758 - INFO -   Clicked Save
+2026-07-02 00:12:18,306 - INFO -   ✓ Done: 2.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 12 Coil Carton Packing
+2026-07-02 00:12:19,308 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:12:19,309 - INFO - Processing: 2.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 00:12:19,309 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm HRFR multistrand copper cable 90 mtr\54b9aa2d-d084-4814-b287-620c51caa96b.jpg
+2026-07-02 00:12:21,576 - INFO -   Matched → '2.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:12:25,523 - INFO -   Modal opened
+2026-07-02 00:12:26,962 - INFO -   Removed existing image
+2026-07-02 00:12:28,422 - INFO -   Uploaded via hidden input: 54b9aa2d-d084-4814-b287-620c51caa96b.jpg
+2026-07-02 00:12:31,875 - INFO -   Clicked Save
+2026-07-02 00:12:32,479 - INFO -   ✓ Done: 2.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-02 00:12:35,852 - INFO - Browser closed
+2026-07-02 00:12:35,852 - INFO - 
+============================================================
+2026-07-02 00:12:35,852 - INFO - BATCH 5/8 — 10 products
+2026-07-02 00:12:35,853 - INFO - ============================================================
+2026-07-02 00:12:35,861 - INFO - ====== WebDriver manager ======
+2026-07-02 00:12:37,270 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:12:37,610 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:12:37,936 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 00:12:39,168 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:12:39,176 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:12:39,227 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:12:43,267 - INFO - Logging in…
+2026-07-02 00:12:43,268 - INFO - Opening login page...
+2026-07-02 00:12:44,608 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:12:44,771 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:12:44,807 - INFO -   → Policy agreement popup detected
+2026-07-02 00:12:44,858 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:12:45,407 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:12:51,557 - INFO -   → Policy agreement popup detected
+2026-07-02 00:12:51,577 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 00:12:52,429 - INFO -     ✓ Clicked Continue button
+2026-07-02 00:12:53,276 - INFO -     ✓ Policy popup dismissed
+2026-07-02 00:12:54,293 - INFO - ✓ Login successful
+2026-07-02 00:12:59,864 - INFO - Clicked Product Management
+2026-07-02 00:13:02,894 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:13:02,894 - INFO - Processing: 2.5 sq.mm submersible flat cable 100 mtr
+2026-07-02 00:13:02,894 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm submersible flat cable 100 mtr\0a43801c-5d34-46e4-b6d4-44bce0fb18b3.jpg
+2026-07-02 00:13:03,848 - INFO -   Matched → '2.5 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-02 00:13:07,740 - INFO -   Modal opened
+2026-07-02 00:13:09,159 - INFO -   Removed existing image
+2026-07-02 00:13:10,663 - INFO -   Uploaded via hidden input: 0a43801c-5d34-46e4-b6d4-44bce0fb18b3.jpg
+2026-07-02 00:13:14,233 - INFO -   Clicked Save
+2026-07-02 00:13:29,653 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:13:33,630 - INFO -   ✓ Done (force-closed modal): 2.5 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-02 00:13:34,632 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:13:34,635 - INFO - Processing: 2.5 sq.mm submersible flat cable 500 mtr
+2026-07-02 00:13:34,636 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm submersible flat cable 500 mtr\373a0fc1-76f0-4525-aa85-655e91140b0a.jpg
+2026-07-02 00:13:35,493 - INFO -   Matched → '2.5 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-02 00:13:39,410 - INFO -   Modal opened
+2026-07-02 00:13:40,861 - INFO -   Removed existing image
+2026-07-02 00:13:42,341 - INFO -   Uploaded via hidden input: 373a0fc1-76f0-4525-aa85-655e91140b0a.jpg
+2026-07-02 00:13:45,828 - INFO -   Clicked Save
+2026-07-02 00:13:46,374 - INFO -   ✓ Done: 2.5 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-02 00:13:47,377 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:13:47,378 - INFO - Processing: 2.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:13:47,378 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\16e0d918-8a9d-4642-bbf2-6ef3159aef53.jpg
+2026-07-02 00:13:49,645 - INFO -   Matched → '2.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:13:53,566 - INFO -   Modal opened
+2026-07-02 00:13:54,995 - INFO -   Removed existing image
+2026-07-02 00:13:56,456 - INFO -   Uploaded via hidden input: 16e0d918-8a9d-4642-bbf2-6ef3159aef53.jpg
+2026-07-02 00:13:59,896 - INFO -   Clicked Save
+2026-07-02 00:14:00,452 - INFO -   ✓ Done: 2.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:14:01,455 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:14:01,455 - INFO - Processing: 2.5 sq.mm x 3 core FRLSH  round copper flexible cable 90 mtr
+2026-07-02 00:14:01,456 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm x 3 core FRLSH  round copper flexible cable 90 mtr\090f0e01-3c59-47d5-a907-6b2259069bc7.jpg
+2026-07-02 00:14:03,542 - INFO -   Matched → '2.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:14:07,461 - INFO -   Modal opened
+2026-07-02 00:14:08,996 - INFO -   Removed existing image
+2026-07-02 00:14:10,445 - INFO -   Uploaded via hidden input: 090f0e01-3c59-47d5-a907-6b2259069bc7.jpg
+2026-07-02 00:14:13,893 - INFO -   Clicked Save
+2026-07-02 00:14:14,439 - INFO -   ✓ Done: 2.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:14:15,443 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:14:15,443 - INFO - Processing: 2.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:14:15,443 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\2.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\1f209f31-ac7e-4cef-a51c-936585c31598.jpg
+2026-07-02 00:14:17,077 - INFO -   Matched → '2.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:14:21,072 - INFO -   Modal opened
+2026-07-02 00:14:22,480 - INFO -   Removed existing image
+2026-07-02 00:14:23,925 - INFO -   Uploaded via hidden input: 1f209f31-ac7e-4cef-a51c-936585c31598.jpg
+2026-07-02 00:14:27,338 - INFO -   Clicked Save
+2026-07-02 00:14:27,917 - INFO -   ✓ Done: 2.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:14:28,919 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:14:28,920 - INFO - Processing: 23_40 x 2 core copper flat wire 90 mtr
+2026-07-02 00:14:28,920 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 x 2 core copper flat wire 90 mtr\21399117-796d-4fd9-87af-bf89f0137504.jpg
+2026-07-02 00:14:31,226 - INFO -   Matched → '23/40 X 2 Core Copper Flat Wire 90 Mtr'
+2026-07-02 00:14:35,123 - INFO -   Modal opened
+2026-07-02 00:14:36,502 - INFO -   Removed existing image
+2026-07-02 00:14:37,946 - INFO -   Uploaded via hidden input: 21399117-796d-4fd9-87af-bf89f0137504.jpg
+2026-07-02 00:14:41,420 - INFO -   Clicked Save
+2026-07-02 00:14:41,985 - INFO -   ✓ Done: 23/40 X 2 Core Copper Flat Wire 90 Mtr
+2026-07-02 00:14:42,989 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:14:42,990 - INFO - Processing: 23_40 X 2 core copper flat wire 90 mtr, 25 coils bag packing
+2026-07-02 00:14:42,990 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 X 2 core copper flat wire 90 mtr, 25 coils bag packing\c334b267-6954-402b-8dd5-2fdef6be088b.jpg
+2026-07-02 00:14:43,261 - INFO -   Matched → '23/40 X 2 Core Copper Flat Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-02 00:14:47,360 - INFO -   Modal opened
+2026-07-02 00:14:48,743 - INFO -   Removed existing image
+2026-07-02 00:14:50,181 - INFO -   Uploaded via hidden input: c334b267-6954-402b-8dd5-2fdef6be088b.jpg
+2026-07-02 00:14:53,608 - INFO -   Clicked Save
+2026-07-02 00:14:54,225 - INFO -   ✓ Done: 23/40 X 2 Core Copper Flat Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-02 00:14:55,228 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:14:55,228 - INFO - Processing: 23_40 x 2 core speaker wire 90 mtr
+2026-07-02 00:14:55,229 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 x 2 core speaker wire 90 mtr\01ada75e-b463-4277-8a02-89970f2b153c.jpg
+2026-07-02 00:14:57,978 - INFO -   Matched → '23/40 X 2 Core Speaker Wire 90 Mtr'
+2026-07-02 00:15:01,830 - INFO -   Modal opened
+2026-07-02 00:15:03,232 - INFO -   Removed existing image
+2026-07-02 00:15:04,686 - INFO -   Uploaded via hidden input: 01ada75e-b463-4277-8a02-89970f2b153c.jpg
+2026-07-02 00:15:08,110 - INFO -   Clicked Save
+2026-07-02 00:15:08,648 - INFO -   ✓ Done: 23/40 X 2 Core Speaker Wire 90 Mtr
+2026-07-02 00:15:09,650 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:15:09,652 - INFO - Processing: 23_40 x 2 core speaker wire 90 mtr, 25 coils bag packing
+2026-07-02 00:15:09,654 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 x 2 core speaker wire 90 mtr, 25 coils bag packing\3b09a09c-2314-4714-8b60-8a8caa95abbf.jpg
+2026-07-02 00:15:09,875 - INFO -   Matched → '23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-02 00:15:13,823 - INFO -   Modal opened
+2026-07-02 00:15:15,223 - INFO -   Removed existing image
+2026-07-02 00:15:16,662 - INFO -   Uploaded via hidden input: 3b09a09c-2314-4714-8b60-8a8caa95abbf.jpg
+2026-07-02 00:15:20,101 - INFO -   Clicked Save
+2026-07-02 00:15:35,452 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:15:39,389 - INFO -   ✓ Done (force-closed modal): 23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-02 00:15:40,392 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:15:40,393 - INFO - Processing: 23_40 x 2 core white parallel wire 90 mtr
+2026-07-02 00:15:40,393 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 x 2 core white parallel wire 90 mtr\7cc8f51c-a587-4400-ab53-802972249bcc.jpg
+2026-07-02 00:15:42,692 - INFO -   Matched → '23/40 X 2 Core White Parallel Wire 90 Mtr'
+2026-07-02 00:15:46,531 - INFO -   Modal opened
+2026-07-02 00:15:47,917 - INFO -   Removed existing image
+2026-07-02 00:15:49,386 - INFO -   Uploaded via hidden input: 7cc8f51c-a587-4400-ab53-802972249bcc.jpg
+2026-07-02 00:15:52,912 - INFO -   Clicked Save
+2026-07-02 00:15:53,476 - INFO -   ✓ Done: 23/40 X 2 Core White Parallel Wire 90 Mtr
+2026-07-02 00:15:56,863 - INFO - Browser closed
+2026-07-02 00:15:56,863 - INFO - 
+============================================================
+2026-07-02 00:15:56,863 - INFO - BATCH 6/8 — 10 products
+2026-07-02 00:15:56,863 - INFO - ============================================================
+2026-07-02 00:15:56,872 - INFO - ====== WebDriver manager ======
+2026-07-02 00:15:58,242 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:15:58,596 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:15:58,918 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 00:16:00,120 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:16:00,125 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:16:00,162 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:16:04,198 - INFO - Logging in…
+2026-07-02 00:16:04,198 - INFO - Opening login page...
+2026-07-02 00:16:05,494 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:16:05,626 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:16:05,643 - INFO -   → Policy agreement popup detected
+2026-07-02 00:16:05,689 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:16:06,224 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:16:12,374 - INFO -   → Policy agreement popup detected
+2026-07-02 00:16:12,393 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 00:16:13,252 - INFO -     ✓ Clicked Continue button
+2026-07-02 00:16:13,980 - INFO -     ✓ Policy popup dismissed
+2026-07-02 00:16:14,994 - INFO - ✓ Login successful
+2026-07-02 00:16:20,613 - INFO - Clicked Product Management
+2026-07-02 00:16:23,637 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:16:23,638 - INFO - Processing: 23_40 x 2 core white parallel wire 90 mtr, 25 coils bag packing
+2026-07-02 00:16:23,638 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_40 x 2 core white parallel wire 90 mtr, 25 coils bag packing\852ae48f-8be8-4138-9afc-657a5e62e400.jpg
+2026-07-02 00:16:23,688 - INFO -   Matched → '23/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coils Bag Packing'
+2026-07-02 00:16:27,572 - INFO -   Modal opened
+2026-07-02 00:16:28,984 - INFO -   Removed existing image
+2026-07-02 00:16:30,441 - INFO -   Uploaded via hidden input: 852ae48f-8be8-4138-9afc-657a5e62e400.jpg
+2026-07-02 00:16:33,878 - INFO -   Clicked Save
+2026-07-02 00:16:34,429 - INFO -   ✓ Done: 23/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coils Bag Packing
+2026-07-02 00:16:35,431 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:16:35,431 - INFO - Processing: 23_76 twisted flexible wire 90 mtr
+2026-07-02 00:16:35,432 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_76 twisted flexible wire 90 mtr\7499c7ff-0d46-4f1b-9e9b-6b8cc30037a3.jpg
+2026-07-02 00:16:37,646 - INFO -   Matched → '23/76 Twisted Flexible Wire 90 Mtr'
+2026-07-02 00:16:41,659 - INFO -   Modal opened
+2026-07-02 00:16:43,054 - INFO -   Removed existing image
+2026-07-02 00:16:44,503 - INFO -   Uploaded via hidden input: 7499c7ff-0d46-4f1b-9e9b-6b8cc30037a3.jpg
+2026-07-02 00:16:47,914 - INFO -   Clicked Save
+2026-07-02 00:17:03,416 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:17:07,401 - INFO -   ✓ Done (force-closed modal): 23/76 Twisted Flexible Wire 90 Mtr
+2026-07-02 00:17:08,404 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:17:08,404 - INFO - Processing: 23_76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-02 00:17:08,405 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\23_76 twisted flexible wire 90 mtr, 20 coils bag packing\a0d9256f-864a-4c48-a77f-dbfbf03d7800.jpg
+2026-07-02 00:17:08,506 - INFO -   Matched → '23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing'
+2026-07-02 00:17:12,392 - INFO -   Modal opened
+2026-07-02 00:17:13,820 - INFO -   Removed existing image
+2026-07-02 00:17:15,288 - INFO -   Uploaded via hidden input: a0d9256f-864a-4c48-a77f-dbfbf03d7800.jpg
+2026-07-02 00:17:18,698 - INFO -   Clicked Save
+2026-07-02 00:17:34,139 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:17:38,097 - INFO -   ✓ Done (force-closed modal): 23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing
+2026-07-02 00:17:39,101 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:17:39,101 - INFO - Processing: 4.0 sq.mm aluminium  7 stranded twin flat cable 90 mtr
+2026-07-02 00:17:39,102 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm aluminium  7 stranded twin flat cable 90 mtr\1498350a-6235-416a-8406-7fe8e84615ce.jpg
+2026-07-02 00:17:40,001 - INFO -   Matched → '4.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr'
+2026-07-02 00:17:43,964 - INFO -   Modal opened
+2026-07-02 00:17:45,426 - INFO -   Removed existing image
+2026-07-02 00:17:46,895 - INFO -   Uploaded via hidden input: 1498350a-6235-416a-8406-7fe8e84615ce.jpg
+2026-07-02 00:17:50,359 - INFO -   Clicked Save
+2026-07-02 00:17:50,935 - INFO -   ✓ Done: 4.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr
+2026-07-02 00:17:51,939 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:17:51,940 - INFO - Processing: 4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )
+2026-07-02 00:17:51,941 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded )\015092c1-4ef0-417e-b174-bca05c4636c1.jpg
+2026-07-02 00:17:52,794 - INFO -   Matched → '4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )'
+2026-07-02 00:17:56,858 - INFO -   Modal opened
+2026-07-02 00:17:58,274 - INFO -   Removed existing image
+2026-07-02 00:17:59,731 - INFO -   Uploaded via hidden input: 015092c1-4ef0-417e-b174-bca05c4636c1.jpg
+2026-07-02 00:18:03,227 - INFO -   Clicked Save
+2026-07-02 00:18:18,610 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:18:22,921 - INFO -   ✓ Done (force-closed modal): 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded )
+2026-07-02 00:18:23,924 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:18:23,925 - INFO - Processing: 4.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-02 00:18:23,925 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\22e9c1b7-4aa4-4373-93b9-89c450fe8a59.jpg
+2026-07-02 00:18:24,317 - INFO -   Matched → '4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-02 00:18:28,191 - INFO -   Modal opened
+2026-07-02 00:18:29,697 - INFO -   Removed existing image
+2026-07-02 00:18:31,134 - INFO -   Uploaded via hidden input: 22e9c1b7-4aa4-4373-93b9-89c450fe8a59.jpg
+2026-07-02 00:18:34,731 - INFO -   Clicked Save
+2026-07-02 00:18:35,336 - INFO -   ✓ Done: 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-02 00:18:36,339 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:18:36,340 - INFO - Processing: 4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-02 00:18:36,340 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\2e29f541-6e45-411c-b797-47e80f2272d9.jpg
+2026-07-02 00:18:37,291 - INFO -   Matched → '4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-02 00:18:41,423 - INFO -   Modal opened
+2026-07-02 00:18:42,842 - INFO -   Removed existing image
+2026-07-02 00:18:44,286 - INFO -   Uploaded via hidden input: 2e29f541-6e45-411c-b797-47e80f2272d9.jpg
+2026-07-02 00:18:47,711 - INFO -   Clicked Save
+2026-07-02 00:19:03,140 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:19:07,120 - INFO -   ✓ Done (force-closed modal): 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-02 00:19:08,123 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:19:08,123 - INFO - Processing: 4.0 sq.mm FRLSH multistrand cable 90 mtr, 10 coil bag packing
+2026-07-02 00:19:08,123 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm FRLSH multistrand cable 90 mtr, 10 coil bag packing\6fac99cf-effe-481f-9d86-50a074e40739.jpg
+2026-07-02 00:19:08,316 - INFO -   Matched → '4.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 10 Coil Bag Packing'
+2026-07-02 00:19:12,324 - INFO -   Modal opened
+2026-07-02 00:19:13,741 - INFO -   Removed existing image
+2026-07-02 00:19:15,190 - INFO -   Uploaded via hidden input: 6fac99cf-effe-481f-9d86-50a074e40739.jpg
+2026-07-02 00:19:18,646 - INFO -   Clicked Save
+2026-07-02 00:19:19,211 - INFO -   ✓ Done: 4.0 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 10 Coil Bag Packing
+2026-07-02 00:19:20,214 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:19:20,215 - INFO - Processing: 4.0 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-02 00:19:20,215 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm FRLSH multistrand copper cable 90 mtr\07123e35-e7bd-4740-b15d-c86aaddff76f.jpg
+2026-07-02 00:19:22,713 - INFO -   Matched → '4.0 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:19:26,759 - INFO -   Modal opened
+2026-07-02 00:19:28,166 - INFO -   Removed existing image
+2026-07-02 00:19:29,623 - INFO -   Uploaded via hidden input: 07123e35-e7bd-4740-b15d-c86aaddff76f.jpg
+2026-07-02 00:19:33,086 - INFO -   Clicked Save
+2026-07-02 00:19:33,648 - INFO -   ✓ Done: 4.0 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr
+2026-07-02 00:19:34,652 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:19:34,654 - INFO - Processing: 4.0 sq.mm HRFR multistrand cable 90 mtr, 10 coil carton packing
+2026-07-02 00:19:34,655 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm HRFR multistrand cable 90 mtr, 10 coil carton packing\f7e57ee3-06cb-40cf-949d-b3b6e45419aa.jpg
+2026-07-02 00:19:35,094 - INFO -   Matched → '4.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 10 Coil Carton Packing'
+2026-07-02 00:19:38,996 - INFO -   Modal opened
+2026-07-02 00:19:40,391 - INFO -   Removed existing image
+2026-07-02 00:19:41,840 - INFO -   Uploaded via hidden input: f7e57ee3-06cb-40cf-949d-b3b6e45419aa.jpg
+2026-07-02 00:19:45,452 - INFO -   Clicked Save
+2026-07-02 00:19:46,009 - INFO -   ✓ Done: 4.0 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 10 Coil Carton Packing
+2026-07-02 00:19:49,368 - INFO - Browser closed
+2026-07-02 00:19:49,369 - INFO - 
+============================================================
+2026-07-02 00:19:49,369 - INFO - BATCH 7/8 — 10 products
+2026-07-02 00:19:49,369 - INFO - ============================================================
+2026-07-02 00:19:49,377 - INFO - ====== WebDriver manager ======
+2026-07-02 00:19:50,927 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:19:51,288 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:19:51,672 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 00:19:52,878 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:19:52,883 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:19:52,927 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:19:56,996 - INFO - Logging in…
+2026-07-02 00:19:56,997 - INFO - Opening login page...
+2026-07-02 00:19:58,493 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:19:58,656 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:19:58,692 - INFO -   → Policy agreement popup detected
+2026-07-02 00:19:58,780 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:19:59,312 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:20:05,494 - INFO -   → Policy agreement popup detected
+2026-07-02 00:20:05,517 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 00:20:06,380 - INFO -     ✓ Clicked Continue button
+2026-07-02 00:20:06,594 - INFO -     ✓ Policy popup dismissed
+2026-07-02 00:20:07,607 - INFO - ✓ Login successful
+2026-07-02 00:20:13,233 - INFO - Clicked Product Management
+2026-07-02 00:20:16,272 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:20:16,273 - INFO - Processing: 4.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 00:20:16,273 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm HRFR multistrand copper cable 90 mtr\065a0b8d-9d49-49f6-923b-274ec0ac91fb.jpg
+2026-07-02 00:20:17,968 - INFO -   Matched → '4.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:20:21,911 - INFO -   Modal opened
+2026-07-02 00:20:23,367 - INFO -   Removed existing image
+2026-07-02 00:20:24,831 - INFO -   Uploaded via hidden input: 065a0b8d-9d49-49f6-923b-274ec0ac91fb.jpg
+2026-07-02 00:20:28,319 - INFO -   Clicked Save
+2026-07-02 00:20:28,880 - INFO -   ✓ Done: 4.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-02 00:20:29,883 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:20:29,886 - INFO - Processing: 4.0 sq.mm submersible flat cable 100 mtr
+2026-07-02 00:20:29,886 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm submersible flat cable 100 mtr\33dceb96-da32-48c4-8781-c72aed016341.jpg
+2026-07-02 00:20:31,328 - INFO -   Matched → '4.0 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-02 00:20:35,459 - INFO -   Modal opened
+2026-07-02 00:20:36,869 - INFO -   Removed existing image
+2026-07-02 00:20:38,314 - INFO -   Uploaded via hidden input: 33dceb96-da32-48c4-8781-c72aed016341.jpg
+2026-07-02 00:20:41,717 - INFO -   Clicked Save
+2026-07-02 00:20:56,745 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:21:00,840 - INFO -   ✓ Done (force-closed modal): 4.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-02 00:21:01,842 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:21:01,842 - INFO - Processing: 4.0 sq.mm submersible flat cable 500 mtr
+2026-07-02 00:21:01,843 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm submersible flat cable 500 mtr\43141eae-fd11-41e4-ba94-58fd2d5aa300.jpg
+2026-07-02 00:21:02,707 - INFO -   Matched → '4.0 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-02 00:21:06,609 - INFO -   Modal opened
+2026-07-02 00:21:08,076 - INFO -   Removed existing image
+2026-07-02 00:21:09,515 - INFO -   Uploaded via hidden input: 43141eae-fd11-41e4-ba94-58fd2d5aa300.jpg
+2026-07-02 00:21:12,976 - INFO -   Clicked Save
+2026-07-02 00:21:13,544 - INFO -   ✓ Done: 4.0 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-02 00:21:14,547 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:21:14,547 - INFO - Processing: 4.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:21:14,548 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\24f48718-f9c7-47bf-a43b-d62c579c2eed.jpg
+2026-07-02 00:21:16,192 - INFO -   Matched → '4.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:21:20,103 - INFO -   Modal opened
+2026-07-02 00:21:21,528 - INFO -   Removed existing image
+2026-07-02 00:21:22,987 - INFO -   Uploaded via hidden input: 24f48718-f9c7-47bf-a43b-d62c579c2eed.jpg
+2026-07-02 00:21:26,490 - INFO -   Clicked Save
+2026-07-02 00:21:27,031 - INFO -   ✓ Done: 4.0 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:21:28,035 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:21:28,040 - INFO - Processing: 4.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:21:28,042 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\15ddaf06-6d0c-4ab8-90c1-b2f08eca6c14.jpg
+2026-07-02 00:21:30,177 - INFO -   Matched → '4.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:21:34,085 - INFO -   Modal opened
+2026-07-02 00:21:35,508 - INFO -   Removed existing image
+2026-07-02 00:21:36,998 - INFO -   Uploaded via hidden input: 15ddaf06-6d0c-4ab8-90c1-b2f08eca6c14.jpg
+2026-07-02 00:21:40,411 - INFO -   Clicked Save
+2026-07-02 00:21:40,945 - INFO -   ✓ Done: 4.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:21:41,947 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:21:41,948 - INFO - Processing: 4.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:21:41,948 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\4.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\3cb6c0fc-e776-4603-aebf-233789f9b855.jpg
+2026-07-02 00:21:43,194 - INFO -   Matched → '4.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:21:47,203 - INFO -   Modal opened
+2026-07-02 00:21:48,578 - INFO -   Removed existing image
+2026-07-02 00:21:50,043 - INFO -   Uploaded via hidden input: 3cb6c0fc-e776-4603-aebf-233789f9b855.jpg
+2026-07-02 00:21:53,475 - INFO -   Clicked Save
+2026-07-02 00:21:54,016 - INFO -   ✓ Done: 4.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:21:55,022 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:21:55,024 - INFO - Processing: 40_76 twisted flexible wire 90 mtr
+2026-07-02 00:21:55,025 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\40_76 twisted flexible wire 90 mtr\5141e5cc-72aa-4a16-89f1-9d3a0d682b07.jpg
+2026-07-02 00:21:56,574 - INFO -   Matched → '40/76 Twisted Flexible Wire 90 Mtr'
+2026-07-02 00:22:00,663 - INFO -   Modal opened
+2026-07-02 00:22:02,143 - INFO -   Removed existing image
+2026-07-02 00:22:03,597 - INFO -   Uploaded via hidden input: 5141e5cc-72aa-4a16-89f1-9d3a0d682b07.jpg
+2026-07-02 00:22:07,011 - INFO -   Clicked Save
+2026-07-02 00:22:22,500 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:22:26,443 - INFO -   ✓ Done (force-closed modal): 40/76 Twisted Flexible Wire 90 Mtr
+2026-07-02 00:22:27,446 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:22:27,446 - INFO - Processing: 40_76 twisted flexible wire 90 mtr, 20 coils bag packing
+2026-07-02 00:22:27,447 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\40_76 twisted flexible wire 90 mtr, 20 coils bag packing\26872ccb-3904-4e06-a3b9-6332fc6f6c56.jpg
+2026-07-02 00:22:27,529 - INFO -   Matched → '40/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing'
+2026-07-02 00:22:31,594 - INFO -   Modal opened
+2026-07-02 00:22:33,021 - INFO -   Removed existing image
+2026-07-02 00:22:34,475 - INFO -   Uploaded via hidden input: 26872ccb-3904-4e06-a3b9-6332fc6f6c56.jpg
+2026-07-02 00:22:37,939 - INFO -   Clicked Save
+2026-07-02 00:22:38,485 - INFO -   ✓ Done: 40/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing
+2026-07-02 00:22:39,489 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:22:39,490 - INFO - Processing: 6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-02 00:22:39,490 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\1cd58f17-1393-484d-a1f1-35889977d114.jpg
+2026-07-02 00:22:40,970 - INFO -   Matched → '6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt'
+2026-07-02 00:22:45,788 - INFO -   Modal opened
+2026-07-02 00:22:47,193 - INFO -   Removed existing image
+2026-07-02 00:22:48,642 - INFO -   Uploaded via hidden input: 1cd58f17-1393-484d-a1f1-35889977d114.jpg
+2026-07-02 00:22:52,065 - INFO -   Clicked Save
+2026-07-02 00:23:07,466 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:23:11,465 - INFO -   ✓ Done (force-closed modal): 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt
+2026-07-02 00:23:12,469 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:23:12,471 - INFO - Processing: 6.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-02 00:23:12,472 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\30a7ed70-5c01-4501-b9be-4d96886dfb18.jpg
+2026-07-02 00:23:13,296 - INFO -   Matched → '6.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)'
+2026-07-02 00:23:17,488 - INFO -   Modal opened
+2026-07-02 00:23:19,025 - INFO -   Removed existing image
+2026-07-02 00:23:20,495 - INFO -   Uploaded via hidden input: 30a7ed70-5c01-4501-b9be-4d96886dfb18.jpg
+2026-07-02 00:23:24,056 - INFO -   Clicked Save
+2026-07-02 00:23:24,630 - INFO -   ✓ Done: 6.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded)
+2026-07-02 00:23:28,187 - INFO - Browser closed
+2026-07-02 00:23:28,187 - INFO - 
+============================================================
+2026-07-02 00:23:28,188 - INFO - BATCH 8/8 — 9 products
+2026-07-02 00:23:28,188 - INFO - ============================================================
+2026-07-02 00:23:28,204 - INFO - ====== WebDriver manager ======
+2026-07-02 00:23:29,665 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:23:30,415 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 00:23:31,238 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 00:23:32,561 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 00:23:32,573 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 00:23:32,624 - INFO - ✓ Chrome driver initialized
+2026-07-02 00:23:36,682 - INFO - Logging in…
+2026-07-02 00:23:36,682 - INFO - Opening login page...
+2026-07-02 00:23:38,025 - INFO -   → Policy checkbox checked on login page
+2026-07-02 00:23:38,184 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 00:23:38,220 - INFO -   → Policy agreement popup detected
+2026-07-02 00:23:38,270 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 00:23:38,805 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 00:23:50,303 - INFO - ✓ Login successful
+2026-07-02 00:23:55,881 - INFO - Clicked Product Management
+2026-07-02 00:23:58,915 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:23:58,916 - INFO - Processing: 6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-02 00:23:58,916 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\52903fcd-f5cc-485b-a7dd-646603513a1c.jpg
+2026-07-02 00:23:59,644 - INFO -   Matched → '6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)'
+2026-07-02 00:24:03,919 - INFO -   Modal opened
+2026-07-02 00:24:05,424 - INFO -   Removed existing image
+2026-07-02 00:24:06,958 - INFO -   Uploaded via hidden input: 52903fcd-f5cc-485b-a7dd-646603513a1c.jpg
+2026-07-02 00:24:10,519 - INFO -   Clicked Save
+2026-07-02 00:24:25,961 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:24:30,214 - INFO -   ✓ Done (force-closed modal): 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded)
+2026-07-02 00:24:31,217 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:24:31,220 - INFO - Processing: 6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded )
+2026-07-02 00:24:31,221 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded )\1bc2aee8-1ecf-43fa-ae62-dfefe31bd4c1.jpg
+2026-07-02 00:24:32,437 - INFO -   Matched → '6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )'
+2026-07-02 00:24:36,642 - INFO -   Modal opened
+2026-07-02 00:24:38,142 - INFO -   Removed existing image
+2026-07-02 00:24:39,615 - INFO -   Uploaded via hidden input: 1bc2aee8-1ecf-43fa-ae62-dfefe31bd4c1.jpg
+2026-07-02 00:24:43,051 - INFO -   Clicked Save
+2026-07-02 00:24:58,557 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:25:02,477 - INFO -   ✓ Done (force-closed modal): 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded )
+2026-07-02 00:25:03,480 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:25:03,480 - INFO - Processing: 6.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 00:25:03,480 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm HRFR multistrand copper cable 90 mtr\1f92e74d-88c1-4abe-9474-588e05d81af8.jpg
+2026-07-02 00:25:05,338 - INFO -   Matched → '6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr'
+2026-07-02 00:25:09,233 - INFO -   Modal opened
+2026-07-02 00:25:10,687 - INFO -   Removed existing image
+2026-07-02 00:25:12,162 - INFO -   Uploaded via hidden input: 1f92e74d-88c1-4abe-9474-588e05d81af8.jpg
+2026-07-02 00:25:15,614 - INFO -   Clicked Save
+2026-07-02 00:25:16,194 - INFO -   ✓ Done: 6.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr
+2026-07-02 00:25:17,196 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:25:17,197 - INFO - Processing: 6.0 sq.mm submersible flat cable 100 mtr
+2026-07-02 00:25:17,197 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm submersible flat cable 100 mtr\5c302982-42e3-4fb0-aa9e-e76259534159.jpg
+2026-07-02 00:25:18,529 - INFO -   Matched → '6.0 Sq.Mm Submersible Flat Cable 100 Mtr'
+2026-07-02 00:25:22,659 - INFO -   Modal opened
+2026-07-02 00:25:24,061 - INFO -   Removed existing image
+2026-07-02 00:25:25,507 - INFO -   Uploaded via hidden input: 5c302982-42e3-4fb0-aa9e-e76259534159.jpg
+2026-07-02 00:25:29,028 - INFO -   Clicked Save
+2026-07-02 00:25:44,472 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:25:48,402 - INFO -   ✓ Done (force-closed modal): 6.0 Sq.Mm Submersible Flat Cable 100 Mtr
+2026-07-02 00:25:49,404 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:25:49,407 - INFO - Processing: 6.0 sq.mm submersible flat cable 500 mtr
+2026-07-02 00:25:49,407 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm submersible flat cable 500 mtr\6f9df82e-7efd-4f31-b66d-343c1e673c7e.jpg
+2026-07-02 00:25:50,430 - INFO -   Matched → '6.0 Sq.Mm Submersible Flat Cable 500 Mtr'
+2026-07-02 00:25:54,426 - INFO -   Modal opened
+2026-07-02 00:25:55,816 - INFO -   Removed existing image
+2026-07-02 00:25:57,261 - INFO -   Uploaded via hidden input: 6f9df82e-7efd-4f31-b66d-343c1e673c7e.jpg
+2026-07-02 00:26:00,753 - INFO -   Clicked Save
+2026-07-02 00:26:01,302 - INFO -   ✓ Done: 6.0 Sq.Mm Submersible Flat Cable 500 Mtr
+2026-07-02 00:26:02,305 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:26:02,307 - INFO - Processing: 6.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:26:02,307 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\04b30ed1-e9e4-475c-a5eb-4c274538502d.jpg
+2026-07-02 00:26:03,478 - INFO -   Matched → '6.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:26:07,378 - INFO -   Modal opened
+2026-07-02 00:26:08,792 - INFO -   Removed existing image
+2026-07-02 00:26:10,230 - INFO -   Uploaded via hidden input: 04b30ed1-e9e4-475c-a5eb-4c274538502d.jpg
+2026-07-02 00:26:13,733 - INFO -   Clicked Save
+2026-07-02 00:26:14,405 - INFO -   ✓ Done: 6.0 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:26:15,409 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:26:15,410 - INFO - Processing: 6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 00:26:15,410 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\83a2b9e7-3b43-431c-b5fc-524092dfffcd.jpg
+2026-07-02 00:26:17,566 - INFO -   Matched → '6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr'
+2026-07-02 00:26:21,501 - INFO -   Modal opened
+2026-07-02 00:26:22,923 - INFO -   Removed existing image
+2026-07-02 00:26:24,366 - INFO -   Uploaded via hidden input: 83a2b9e7-3b43-431c-b5fc-524092dfffcd.jpg
+2026-07-02 00:26:27,847 - INFO -   Clicked Save
+2026-07-02 00:26:43,285 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:26:47,277 - INFO -   ✓ Done (force-closed modal): 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr
+2026-07-02 00:26:48,279 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:26:48,280 - INFO - Processing: RADILITE 23 AWG CAT 6 UTP CCA CABLE 305 MTR
+2026-07-02 00:26:48,280 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\RADILITE 23 AWG CAT 6 UTP CCA CABLE 305 MTR\5af46a52-351b-4de4-a9ef-146faa5f43f1.jpg
+2026-07-02 00:26:48,772 - INFO -   Matched → 'Radilite 23 Awg Cat 6 Utp Cca Cable 305 Mtr'
+2026-07-02 00:26:52,828 - INFO -   Modal opened
+2026-07-02 00:26:54,233 - INFO -   Removed existing image
+2026-07-02 00:26:55,688 - INFO -   Uploaded via hidden input: 5af46a52-351b-4de4-a9ef-146faa5f43f1.jpg
+2026-07-02 00:26:59,130 - INFO -   Clicked Save
+2026-07-02 00:26:59,672 - INFO -   ✓ Done: Radilite 23 Awg Cat 6 Utp Cca Cable 305 Mtr
+2026-07-02 00:27:00,675 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 00:27:00,675 - INFO - Processing: RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR
+2026-07-02 00:27:00,676 - INFO - Image path: c:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\ambica cables\RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR\7e992528-db3d-4c2b-adf6-0b7426529ec7.jpg
+2026-07-02 00:27:01,349 - INFO -   Matched → 'Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr'
+2026-07-02 00:27:05,328 - INFO -   Modal opened
+2026-07-02 00:27:06,726 - INFO -   Removed existing image
+2026-07-02 00:27:08,173 - INFO -   Uploaded via hidden input: 7e992528-db3d-4c2b-adf6-0b7426529ec7.jpg
+2026-07-02 00:27:11,583 - INFO -   Clicked Save
+2026-07-02 00:27:27,103 - WARNING -   Modal did not auto-close — trying to force-close
+2026-07-02 00:27:31,080 - INFO -   ✓ Done (force-closed modal): Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr
+2026-07-02 00:27:34,931 - INFO - Browser closed
+2026-07-02 00:27:34,932 - INFO - 
+============================================================
+2026-07-02 00:27:34,932 - INFO - PRODUCT MANAGEMENT UPLOAD — FINAL SUMMARY
+2026-07-02 00:27:34,932 - INFO -   ✓ Succeeded this run : 79
+2026-07-02 00:27:34,933 - INFO -   ✗ Failed this run    : 0
+2026-07-02 00:27:34,933 - INFO -   Total done (all runs): 83
+2026-07-02 00:27:34,934 - INFO -   Progress file        : C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\ambica_upload_progress.json
+2026-07-02 00:27:34,935 - INFO - ============================================================
+2026-07-02 00:27:39,013 - INFO - 
+Task finished at 2026-07-02 00:27:39
+2026-07-02 00:27:39,014 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260701_235742.log
+

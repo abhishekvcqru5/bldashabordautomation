@@ -1,0 +1,113 @@
+2026-07-02 12:14:06,839 - INFO - User selected: Product Management Image Upload
+2026-07-02 12:14:06,839 - INFO - ============================================================
+2026-07-02 12:14:06,839 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-02 12:14:06,840 - INFO - ============================================================
+2026-07-02 12:14:06,843 - INFO - Total folders found: 83
+2026-07-02 12:14:06,844 - INFO - Resuming: 2 products already completed
+2026-07-02 12:14:06,845 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-02 12:14:06,856 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-02 12:14:06,887 - INFO - Pending: 81 products to upload
+2026-07-02 12:14:06,887 - INFO - 
+============================================================
+2026-07-02 12:14:06,887 - INFO - BATCH 1/9 — 10 products
+2026-07-02 12:14:06,887 - INFO - ============================================================
+2026-07-02 12:14:06,898 - INFO - ====== WebDriver manager ======
+2026-07-02 12:14:08,381 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:14:08,867 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:14:09,420 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 12:14:10,637 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 12:14:10,641 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 12:14:10,674 - INFO - ✓ Chrome driver initialized
+2026-07-02 12:14:10,674 - INFO - Logging in…
+2026-07-02 12:14:10,674 - INFO - Opening login page...
+2026-07-02 12:14:12,089 - INFO -   → Policy checkbox checked on login page
+2026-07-02 12:14:12,234 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 12:14:12,248 - INFO -   → Policy agreement popup detected
+2026-07-02 12:14:12,296 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 12:14:12,827 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 12:14:19,023 - INFO -   → Policy agreement popup detected
+2026-07-02 12:14:19,056 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 12:14:19,888 - INFO -     ✓ Clicked Continue button
+2026-07-02 12:14:20,475 - INFO -     ✓ Policy popup dismissed
+2026-07-02 12:14:21,487 - INFO - ✓ Login successful
+2026-07-02 12:14:27,026 - INFO - Clicked Product Management
+2026-07-02 12:14:30,056 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:14:30,057 - INFO - Processing: 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:14:30,057 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\33e14327-b0df-4f38-becd-fa8f74f33421.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\41e8b367-1eb2-4772-95a8-724981fe5f51.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\9e422bdc-cb8c-457a-8296-d512bc69e55a.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\af81b838-52b5-412b-96d6-b884aa41fbff.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\ddeb01d3-ede1-4d76-9149-dac79f60ad4b.jpg']
+2026-07-02 12:14:32,934 - INFO -   Matched → '0.75 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 75' (Score: 10.77)
+2026-07-02 12:14:37,402 - INFO -   Modal opened
+2026-07-02 12:14:40,390 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:14:40,845 - INFO -   Sequentially uploaded: 33e14327-b0df-4f38-becd-fa8f74f33421.jpg
+2026-07-02 12:14:45,214 - INFO -   Sequentially uploaded: 41e8b367-1eb2-4772-95a8-724981fe5f51.jpg
+2026-07-02 12:14:49,616 - INFO -   Sequentially uploaded: 9e422bdc-cb8c-457a-8296-d512bc69e55a.jpg
+2026-07-02 12:14:53,990 - INFO -   Sequentially uploaded: af81b838-52b5-412b-96d6-b884aa41fbff.jpg
+2026-07-02 12:14:58,370 - INFO -   Sequentially uploaded: ddeb01d3-ede1-4d76-9149-dac79f60ad4b.jpg
+2026-07-02 12:15:00,893 - INFO -   Clicked Save Changes
+2026-07-02 12:15:00,929 - INFO -   ✓ Done: 0.75 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 75
+2026-07-02 12:15:01,932 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:15:01,933 - INFO - Processing: 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:15:01,933 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr\\18bdf688-3738-485c-b7b9-d5b9eb357e6e.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr\\6cd415fc-fad4-4846-b099-e89dcfeff4c4.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr\\7ea99acb-bcb3-4a99-92d0-38722ee4f95d.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr\\e2495ee5-63e1-444b-9dd4-2307b243a205.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr\\eedc06a9-af66-41ef-b81e-4f09cec5cb29.jpg']
+2026-07-02 12:15:06,135 - INFO -   Matched → '0.75 Sq.Mm X2 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 74' (Score: 10.77)
+2026-07-02 12:15:10,648 - INFO -   Modal opened
+2026-07-02 12:15:13,654 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:15:14,106 - INFO -   Sequentially uploaded: 18bdf688-3738-485c-b7b9-d5b9eb357e6e.jpg
+2026-07-02 12:15:18,469 - INFO -   Sequentially uploaded: 6cd415fc-fad4-4846-b099-e89dcfeff4c4.jpg
+2026-07-02 12:15:22,881 - INFO -   Sequentially uploaded: 7ea99acb-bcb3-4a99-92d0-38722ee4f95d.jpg
+2026-07-02 12:15:27,292 - INFO -   Sequentially uploaded: e2495ee5-63e1-444b-9dd4-2307b243a205.jpg
+2026-07-02 12:15:31,674 - INFO -   Sequentially uploaded: eedc06a9-af66-41ef-b81e-4f09cec5cb29.jpg
+2026-07-02 12:15:34,156 - INFO -   Clicked Save Changes
+2026-07-02 12:15:34,188 - INFO -   ✓ Done: 0.75 Sq.Mm X2 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 74
+2026-07-02 12:15:34,888 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/545012c74df112eda92c1b346c6e08cb
+2026-07-02 12:15:38,945 - INFO - Automation cancelled by user (Ctrl+C)

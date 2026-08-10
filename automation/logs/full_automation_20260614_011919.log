@@ -1,0 +1,693 @@
+2026-06-14 01:19:43,636 - INFO - User selected: Old Dashboard
+2026-06-14 01:19:46,238 - INFO -   Old Dashboard → Brand Setting
+2026-06-14 01:19:46,238 - INFO - ============================================================
+2026-06-14 01:19:46,239 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-14 01:19:46,239 - INFO - ============================================================
+2026-06-14 01:19:46,269 - INFO - ====== WebDriver manager ======
+2026-06-14 01:19:50,616 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:19:51,866 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:19:52,873 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:19:54,959 - INFO - WebDriver version 149.0.7827.115 selected
+2026-06-14 01:19:54,996 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.115/win32/chromedriver-win32.zip
+2026-06-14 01:19:55,004 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.115/win32/chromedriver-win32.zip
+2026-06-14 01:19:55,985 - INFO - Driver downloading response is 200
+2026-06-14 01:19:57,088 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:19:58,307 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115]
+2026-06-14 01:19:58,314 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:20:03,150 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-06-14 01:20:03,152 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-14 01:20:08,608 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-14 01:20:10,609 - INFO -     → Filling credentials …
+2026-06-14 01:20:11,145 - INFO -       Email → field #login_txt_id
+2026-06-14 01:20:11,430 - INFO -       Password → field #login_txt_pass
+2026-06-14 01:20:11,694 - INFO -       Login button clicked: #btnVendor
+2026-06-14 01:20:11,695 - INFO -     → Waiting for post-login redirect …
+2026-06-14 01:20:19,635 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-14 01:20:19,636 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-06-14 01:20:34,088 - INFO - 
+[3/4] Extracting brand data …
+2026-06-14 01:20:34,523 - INFO - 
+[4/4] Saving assets to disk …
+2026-06-14 01:20:35,704 - INFO -   ✓ Downloaded: logo.png  (8.1 KB)
+2026-06-14 01:20:37,235 - INFO -   ✓ Downloaded: splash.png  (165.7 KB)
+2026-06-14 01:20:37,257 - INFO -   ✓ brand_info.json saved: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\brandsetting\brand_info.json
+2026-06-14 01:20:40,521 - INFO - 
+[5/5] Transferring to current dashboard (app.vcqru.com) …
+2026-06-14 01:20:40,555 - INFO - ====== WebDriver manager ======
+2026-06-14 01:20:43,621 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:20:44,571 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:20:45,578 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:20:45,579 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:20:47,144 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-14 01:20:47,208 - INFO - ✓ Chrome driver initialized
+2026-06-14 01:20:47,209 - INFO - Opening login page...
+2026-06-14 01:20:49,263 - INFO -   → Policy checkbox checked on login page
+2026-06-14 01:20:49,519 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-14 01:20:49,629 - INFO -   → 'Enable Location Access' popup detected, clicking Allow...
+2026-06-14 01:20:49,646 - INFO -     ✓ Clicked 'Allow Location Access'
+2026-06-14 01:21:16,060 - INFO - ✓ Login successful
+2026-06-14 01:21:16,295 - INFO -   Logo has transparency — preserving (saving as PNG)
+2026-06-14 01:21:16,679 - INFO - ✓ Logo  → logo_processed.png  |  94.3 KB  |  PNG lossless
+2026-06-14 01:21:16,807 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-14 01:21:18,226 - INFO - ✓ Splash → splash_processed.png  |  1.07 MB  |  PNG lossless
+2026-06-14 01:21:18,260 - INFO -   Colours extracted from logo:
+2026-06-14 01:21:18,260 - INFO -     Header Color     →  #805030  (dominant logo colour)
+2026-06-14 01:21:18,262 - INFO -     Background Color →  #53341F  (35% darker)
+2026-06-14 01:21:18,263 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-14 01:21:18,264 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-14 01:21:18,269 - INFO - Going to App Settings...
+2026-06-14 01:21:24,720 - INFO -   → Identity & Branding section opened
+2026-06-14 01:21:26,988 - INFO -   → Edit Branding popup opened
+2026-06-14 01:21:27,029 - INFO - ✓ Brand setting form is ready
+2026-06-14 01:21:27,031 - INFO -   Setting company name: Basewood
+2026-06-14 01:21:28,278 - INFO -     → HeaderColor: #805030
+2026-06-14 01:21:29,446 - INFO -     → FooterColor: #F5F5F5
+2026-06-14 01:21:30,326 - INFO -     → BodyColor: #FFFFFF
+2026-06-14 01:21:31,295 - INFO -     → BackgroundColor: #53341F
+2026-06-14 01:21:33,393 - INFO -   ✓ Logo uploaded:   logo_processed.png
+2026-06-14 01:21:36,028 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-14 01:21:36,903 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-14 01:21:39,944 - INFO - ✓ Brand settings saved successfully!
+2026-06-14 01:21:39,945 - INFO - Going to App Settings for Support Network...
+2026-06-14 01:21:43,161 - INFO -   → Support Network section opened
+2026-06-14 01:21:46,350 - INFO -   → Edit Support Network popup opened
+2026-06-14 01:21:48,352 - INFO - ✓ Support Network form is ready
+2026-06-14 01:21:48,661 - INFO -     ✓ phone filled
+2026-06-14 01:21:49,029 - INFO -     ✓ email filled
+2026-06-14 01:21:49,523 - INFO -     ✓ website filled
+2026-06-14 01:21:50,248 - INFO -     ✓ terms_conditions filled
+2026-06-14 01:21:51,292 - INFO -     ✓ support_content filled
+2026-06-14 01:21:52,093 - INFO -     ✓ privacy_policy filled
+2026-06-14 01:21:53,160 - INFO -   → Save clicked
+2026-06-14 01:21:56,211 - INFO - ✓ Support Network saved successfully!
+2026-06-14 01:22:03,033 - INFO - Browser closed
+2026-06-14 01:22:07,090 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49745): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/758ef938123604e769485130e04aab8e
+2026-06-14 01:22:11,150 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49745): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/758ef938123604e769485130e04aab8e
+2026-06-14 01:22:15,200 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49745): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/758ef938123604e769485130e04aab8e
+2026-06-14 01:22:23,303 - INFO -   Browser closed
+2026-06-14 01:22:23,305 - INFO - 
+Task finished at 2026-06-14 01:22:23
+2026-06-14 01:22:23,306 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260614_011919.log
+
+2026-06-14 01:22:37,360 - INFO - User selected: Old Dashboard
+2026-06-14 01:22:40,494 - INFO -   Old Dashboard → Introduction Setting
+2026-06-14 01:22:40,514 - INFO - ============================================================
+2026-06-14 01:22:40,522 - INFO - OLD DASHBOARD MIGRATION — Extraction
+2026-06-14 01:22:40,524 - INFO - ============================================================
+2026-06-14 01:22:40,568 - INFO - ====== WebDriver manager ======
+2026-06-14 01:22:46,586 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:22:56,000 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:22:57,010 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:22:57,012 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:23:01,925 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-14 01:23:17,373 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-14 01:23:18,579 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-14 01:23:21,584 - INFO -   → Filling Vendor credentials...
+2026-06-14 01:23:24,162 - INFO -     - Email entered: info@namamiindustries.in
+2026-06-14 01:23:24,163 - INFO -     - Clicking 'login' button...
+2026-06-14 01:23:24,291 - INFO -   → Waiting for successful login redirect...
+2026-06-14 01:23:32,229 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-14 01:23:32,246 - INFO - Navigating to intro settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-14 01:23:37,603 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-14 01:23:37,676 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-14 01:23:41,282 - INFO -     ✓ Found Introduction Setting link, clicking...
+2026-06-14 01:23:49,641 - INFO -   → Searching for introduction screens data...
+2026-06-14 01:23:51,477 - INFO -     ✓ Found table with ID: dataTable in context frame
+2026-06-14 01:23:56,044 - INFO -     → Found 3 potential rows to extract
+2026-06-14 01:23:56,316 - INFO -     → Downloading image for: Beyond Just a Door...
+2026-06-14 01:23:58,661 - INFO -     ✓ Extracted 1/3
+2026-06-14 01:24:01,041 - INFO -     → Downloading image for: Beyond Just Cooking...
+2026-06-14 01:24:04,342 - INFO -     ✓ Extracted 2/3
+2026-06-14 01:24:06,861 - INFO -     → Downloading image for: Beyond Just Furniture...
+2026-06-14 01:24:08,713 - INFO -     ✓ Extracted 3/3
+2026-06-14 01:24:22,939 - INFO - ✓ Extracted 3 screens.
+2026-06-14 01:24:22,951 - INFO - 
+============================================================
+2026-06-14 01:24:22,984 - INFO - OLD DASHBOARD MIGRATION — Processing Images
+2026-06-14 01:24:22,985 - INFO - ============================================================
+2026-06-14 01:24:23,107 - INFO -   ⚙ Processing old_intro_1_20260614_012356.jpg  (480×1080 → need 1080×1920)
+2026-06-14 01:24:24,277 - INFO -   ✓ old_intro_1_20260614_012356.jpg  →  old_intro_1_20260614_012356_processed.jpg  |  1080×1920  |  0.33 MB  |  quality 92
+2026-06-14 01:24:24,314 - INFO -   ⚙ Processing old_intro_2_20260614_012401.jpg  (480×1080 → need 1080×1920)
+2026-06-14 01:24:24,795 - INFO -   ✓ old_intro_2_20260614_012401.jpg  →  old_intro_2_20260614_012401_processed.jpg  |  1080×1920  |  0.28 MB  |  quality 92
+2026-06-14 01:24:25,239 - INFO -   ⚙ Processing old_intro_3_20260614_012406.jpg  (480×1080 → need 1080×1920)
+2026-06-14 01:24:25,403 - INFO -   ✓ old_intro_3_20260614_012406.jpg  →  old_intro_3_20260614_012406_processed.jpg  |  1080×1920  |  0.31 MB  |  quality 92
+2026-06-14 01:24:25,406 - INFO - 
+============================================================
+2026-06-14 01:24:25,407 - INFO - OLD DASHBOARD MIGRATION — Uploading to New Dashboard
+2026-06-14 01:24:25,407 - INFO - ============================================================
+2026-06-14 01:24:25,458 - INFO - ====== WebDriver manager ======
+2026-06-14 01:24:38,423 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:24:39,979 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:24:41,029 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:24:41,034 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:24:45,316 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-14 01:24:45,397 - INFO - ✓ Chrome driver initialized
+2026-06-14 01:24:45,400 - INFO - Opening login page...
+2026-06-14 01:24:49,058 - INFO -   → Policy checkbox checked on login page
+2026-06-14 01:24:49,513 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-14 01:25:23,863 - INFO - ✓ Login successful
+2026-06-14 01:25:23,864 - INFO - Going to App Settings...
+2026-06-14 01:25:30,678 - INFO -   → Intro Screens section opened
+2026-06-14 01:25:30,763 - INFO - ✓ Intro Screens page ready
+2026-06-14 01:25:30,764 - INFO - Starting batch  —  3 intro screen(s) to launch
+2026-06-14 01:25:30,769 - INFO - ============================================================
+2026-06-14 01:25:30,775 - INFO - [1/3]
+2026-06-14 01:25:30,780 - INFO -   Launching screen: [Beyond Just a Door]
+2026-06-14 01:25:35,536 - INFO -     → Header: Beyond Just a Door
+2026-06-14 01:25:36,981 - INFO -     → Description: Crafting Grand Entrances and Secure Sanctuaries....
+2026-06-14 01:25:39,476 - INFO -     → Image uploaded: old_intro_1_20260614_012356_processed.jpg
+2026-06-14 01:25:40,513 - INFO -     → Launch Screen clicked
+2026-06-14 01:25:44,543 - INFO -   ✓ Intro screen launched: Beyond Just a Door
+
+2026-06-14 01:25:45,595 - INFO - [2/3]
+2026-06-14 01:25:45,689 - INFO -   Launching screen: [Beyond Just Cooking]
+2026-06-14 01:25:50,676 - INFO -     → Header: Beyond Just Cooking
+2026-06-14 01:25:52,545 - INFO -     → Description: Designing Culinary Experiences, Igniting Inspirations....
+2026-06-14 01:25:54,695 - INFO -     → Image uploaded: old_intro_2_20260614_012401_processed.jpg
+2026-06-14 01:25:56,194 - INFO -     → Launch Screen clicked
+2026-06-14 01:26:00,313 - INFO -   ✓ Intro screen launched: Beyond Just Cooking
+
+2026-06-14 01:26:01,325 - INFO - [3/3]
+2026-06-14 01:26:01,331 - INFO -   Launching screen: [Beyond Just Furniture]
+2026-06-14 01:26:04,339 - INFO -     → Header: Beyond Just Furniture
+2026-06-14 01:26:05,546 - INFO -     → Description: Elevating Spaces, Enhancing Lifestyles....
+2026-06-14 01:26:07,906 - INFO -     → Image uploaded: old_intro_3_20260614_012406_processed.jpg
+2026-06-14 01:26:08,331 - INFO -     → Launch Screen clicked
+2026-06-14 01:26:12,375 - INFO -   ✓ Intro screen launched: Beyond Just Furniture
+
+2026-06-14 01:26:13,377 - INFO - ============================================================
+2026-06-14 01:26:13,377 - INFO - Intro screens done  →  ✓ 3 launched   ✗ 0 failed
+2026-06-14 01:26:16,270 - INFO - Browser closed
+2026-06-14 01:26:24,386 - INFO - 
+Task finished at 2026-06-14 01:26:24
+2026-06-14 01:26:24,387 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260614_011919.log
+
+2026-06-14 01:26:27,668 - INFO - User selected: Old Dashboard
+2026-06-14 01:26:30,646 - INFO -   Old Dashboard → Banner BL
+2026-06-14 01:26:30,647 - INFO - ============================================================
+2026-06-14 01:26:30,648 - INFO - OLD DASHBOARD BANNER MIGRATION — Extraction
+2026-06-14 01:26:30,648 - INFO - ============================================================
+2026-06-14 01:26:30,685 - INFO - ====== WebDriver manager ======
+2026-06-14 01:26:34,999 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:26:36,075 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:26:37,288 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:26:37,291 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:26:39,411 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-14 01:26:46,429 - INFO -   → Identifying 'Vendor' login tab...
+2026-06-14 01:26:46,913 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
+2026-06-14 01:26:49,918 - INFO -   → Filling Vendor credentials...
+2026-06-14 01:26:50,341 - INFO -     - Email entered: info@namamiindustries.in
+2026-06-14 01:26:50,341 - INFO -     - Clicking 'login' button...
+2026-06-14 01:26:50,359 - INFO -   → Waiting for successful login redirect...
+2026-06-14 01:26:58,090 - INFO - ✓ Redirected to: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-14 01:26:58,100 - INFO - Navigating to banner settings from: https://www.vcqru.com/Manufacturer/pie.aspx
+2026-06-14 01:27:03,328 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-14 01:27:03,597 - INFO -     ✓ Found Build Loyalty App menu, clicking...
+2026-06-14 01:27:06,917 - INFO -     ✓ Found Banner Setting link, clicking...
+2026-06-14 01:27:12,690 - INFO -   → Searching for banner images data...
+2026-06-14 01:27:14,714 - INFO -     ✓ Found 4 banners via selector: #page-content-wrapper > div > div > div > div > div.card-body.card-body-nopadding > div.col-lg-12 img in frame 0
+2026-06-14 01:27:14,994 - INFO -     → Downloading banner 1: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner%20copy.png
+2026-06-14 01:27:20,843 - INFO -     → Downloading banner 2: https://www.vcqru.com/assets/images/VcqruApp-Alert-Banner-Hindi.png
+2026-06-14 01:27:24,803 - INFO -     → Downloading banner 3: https://www.vcqru.com/assets/images/Vcqrubanner-2%20(3).png
+2026-06-14 01:27:27,264 - INFO -     → Downloading banner 4: https://www.vcqru.com/assets/images/Vcqrubanner-1%20(2).png
+2026-06-14 01:27:31,334 - INFO - ✓ Extracted 4 banners.
+2026-06-14 01:27:31,335 - INFO - 
+============================================================
+2026-06-14 01:27:31,335 - INFO - OLD DASHBOARD BANNER MIGRATION — Processing Images
+2026-06-14 01:27:31,336 - INFO - ============================================================
+2026-06-14 01:27:32,475 - INFO -   ⚙ Processing old_banner_1_20260614_012714.jpg  (Cannot read: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_1_20260614_012714.jpg')
+2026-06-14 01:27:32,490 - ERROR -   Processing error for old_banner_1_20260614_012714.jpg: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_1_20260614_012714.jpg'
+2026-06-14 01:27:32,853 - INFO -   ⚙ Processing old_banner_2_20260614_012720.jpg  (Cannot read: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_2_20260614_012720.jpg')
+2026-06-14 01:27:32,855 - ERROR -   Processing error for old_banner_2_20260614_012720.jpg: cannot identify image file 'C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\old_dashboard_banners\\old_banner_2_20260614_012720.jpg'
+2026-06-14 01:27:32,879 - INFO -   ⚙ Processing old_banner_3_20260614_012724.jpg  (size 328×157 → need 1920×1080)
+2026-06-14 01:27:32,990 - INFO -   ✓ old_banner_3_20260614_012724.jpg  →  old_banner_3_20260614_012724_processed.jpg  |  1920×1080  |  0.17 MB  |  quality 92
+2026-06-14 01:27:33,010 - INFO -   ⚙ Processing old_banner_4_20260614_012727.jpg  (size 328×157 → need 1920×1080)
+2026-06-14 01:27:33,094 - INFO -   ✓ old_banner_4_20260614_012727.jpg  →  old_banner_4_20260614_012727_processed.jpg  |  1920×1080  |  0.19 MB  |  quality 92
+2026-06-14 01:27:33,095 - INFO - 
+============================================================
+2026-06-14 01:27:33,096 - INFO - OLD DASHBOARD BANNER MIGRATION — Uploading to New Dashboard
+2026-06-14 01:27:33,096 - INFO - ============================================================
+2026-06-14 01:27:33,123 - INFO - ====== WebDriver manager ======
+2026-06-14 01:27:36,108 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:27:36,837 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:27:37,990 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:27:37,992 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:27:40,011 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-14 01:27:40,097 - INFO - ✓ Chrome driver initialized
+2026-06-14 01:27:40,098 - INFO - Opening login page...
+2026-06-14 01:27:41,947 - INFO -   → Policy checkbox checked on login page
+2026-06-14 01:27:42,127 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-14 01:28:16,148 - INFO - ✓ Login successful
+2026-06-14 01:28:16,154 - INFO - Going to App Settings...
+2026-06-14 01:28:22,570 - INFO -   → Promotion Banners section opened
+2026-06-14 01:28:22,596 - INFO - ✓ Promotion Banners page ready
+2026-06-14 01:28:22,598 - INFO - Starting batch  —  2 banner(s) to publish
+2026-06-14 01:28:22,601 - INFO - ============================================================
+2026-06-14 01:28:22,603 - INFO - [1/2]
+2026-06-14 01:28:22,606 - INFO -   Publishing: [old_banner_3]  (old_banner_3_20260614_012724_processed.jpg)
+2026-06-14 01:28:25,155 - INFO -     → Title entered: old_banner_3
+2026-06-14 01:28:27,264 - INFO -     → Image uploaded: old_banner_3_20260614_012724_processed.jpg
+2026-06-14 01:28:27,925 - INFO -     → Publish Banner clicked
+2026-06-14 01:28:31,980 - INFO -   ✓ Banner published: old_banner_3
+
+2026-06-14 01:28:32,988 - INFO - [2/2]
+2026-06-14 01:28:32,988 - INFO -   Publishing: [old_banner_4]  (old_banner_4_20260614_012727_processed.jpg)
+2026-06-14 01:28:35,505 - INFO -     → Title entered: old_banner_4
+2026-06-14 01:28:37,610 - INFO -     → Image uploaded: old_banner_4_20260614_012727_processed.jpg
+2026-06-14 01:28:37,759 - INFO -     → Publish Banner clicked
+2026-06-14 01:28:41,792 - INFO -   ✓ Banner published: old_banner_4
+
+2026-06-14 01:28:42,794 - INFO - ============================================================
+2026-06-14 01:28:42,795 - INFO - Banners done  →  ✓ 2 published   ✗ 0 failed
+2026-06-14 01:28:47,035 - INFO - Browser closed
+2026-06-14 01:28:55,140 - INFO - 
+Task finished at 2026-06-14 01:28:55
+2026-06-14 01:28:55,141 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260614_011919.log
+
+2026-06-14 01:29:10,621 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-14 01:29:10,623 - INFO - ============================================================
+2026-06-14 01:29:10,623 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-14 01:29:10,624 - INFO - ============================================================
+2026-06-14 01:29:10,667 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-14 01:29:10,667 - INFO - Output folder: automation\processed_images
+2026-06-14 01:29:10,667 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-14 01:29:10,770 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-14 01:29:10,897 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-14 01:29:11,053 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-14 01:29:11,258 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-14 01:29:11,385 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-14 01:29:11,467 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-14 01:29:11,530 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-14 01:29:11,592 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-14 01:29:11,630 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-14 01:29:11,712 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-14 01:29:11,774 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-14 01:29:11,836 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-14 01:29:11,928 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-14 01:29:12,009 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-14 01:29:12,062 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-14 01:29:12,122 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-14 01:29:12,190 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-14 01:29:12,191 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-14 01:29:12,192 - INFO - ✓ 17 images processed successfully.
+
+2026-06-14 01:30:00,652 - INFO - Target User Type: Carpenter
+2026-06-14 01:30:00,747 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-14 01:30:00,747 - INFO -   → Extracted Title: Activity
+2026-06-14 01:30:00,747 - INFO -   → Matched Identity: codedetails
+2026-06-14 01:30:00,748 - INFO -   → Extracted Color: #F86008
+2026-06-14 01:30:00,748 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:00,777 - INFO - Dynamically mapped image 'E-Warranty.png':
+2026-06-14 01:30:00,777 - INFO -   → Extracted Title: E-Warranty
+2026-06-14 01:30:00,778 - INFO -   → Matched Identity: e-warrant
+2026-06-14 01:30:00,778 - INFO -   → Extracted Color: #20C078
+2026-06-14 01:30:00,778 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:00,806 - INFO - Dynamically mapped image 'Installation Guide.png':
+2026-06-14 01:30:00,806 - INFO -   → Extracted Title: Installation Guide
+2026-06-14 01:30:00,806 - INFO -   → Matched Identity: instalment
+2026-06-14 01:30:00,806 - INFO -   → Extracted Color: #089098
+2026-06-14 01:30:00,807 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:00,828 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-14 01:30:00,828 - INFO -   → Extracted Title: KYC
+2026-06-14 01:30:00,829 - INFO -   → Matched Identity: kycdetails
+2026-06-14 01:30:00,829 - INFO -   → Extracted Color: #F85808
+2026-06-14 01:30:00,829 - INFO -   → Toggle Option: side menu
+2026-06-14 01:30:00,887 - INFO - Dynamically mapped image 'Language.png':
+2026-06-14 01:30:00,887 - INFO -   → Extracted Title: Language
+2026-06-14 01:30:00,888 - INFO -   → Matched Identity: chooselanguage
+2026-06-14 01:30:00,888 - INFO -   → Extracted Color: #5010E8
+2026-06-14 01:30:00,888 - INFO -   → Toggle Option: side menu
+2026-06-14 01:30:00,911 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-14 01:30:00,911 - INFO -   → Extracted Title: My Wallet
+2026-06-14 01:30:00,911 - INFO -   → Matched Identity: wallet
+2026-06-14 01:30:00,912 - INFO -   → Extracted Color: #20A020
+2026-06-14 01:30:00,912 - INFO -   → Toggle Option: both
+2026-06-14 01:30:00,939 - INFO - Dynamically mapped image 'Nearby Retailers.png':
+2026-06-14 01:30:00,940 - INFO -   → Extracted Title: Nearby Retailers
+2026-06-14 01:30:00,940 - INFO -   → Matched Identity: retailer
+2026-06-14 01:30:00,940 - INFO -   → Extracted Color: #F87010
+2026-06-14 01:30:00,940 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:00,964 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-14 01:30:00,964 - INFO -   → Extracted Title: Product Catalog
+2026-06-14 01:30:00,964 - INFO -   → Matched Identity: productcatalogue
+2026-06-14 01:30:00,965 - INFO -   → Extracted Color: #6028E8
+2026-06-14 01:30:00,967 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:00,996 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-14 01:30:00,997 - INFO -   → Extracted Title: Prospectus
+2026-06-14 01:30:00,997 - INFO -   → Matched Identity: brochure
+2026-06-14 01:30:00,997 - INFO -   → Extracted Color: #0848F8
+2026-06-14 01:30:00,997 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:01,027 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-14 01:30:01,028 - INFO -   → Extracted Title: Refer & Earn
+2026-06-14 01:30:01,028 - INFO -   → Matched Identity: referandearn
+2026-06-14 01:30:01,029 - INFO -   → Extracted Color: #089098
+2026-06-14 01:30:01,029 - INFO -   → Toggle Option: both
+2026-06-14 01:30:01,060 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-14 01:30:01,060 - INFO -   → Extracted Title: Rewards
+2026-06-14 01:30:01,060 - INFO -   → Matched Identity: gift
+2026-06-14 01:30:01,060 - INFO -   → Extracted Color: #F00048
+2026-06-14 01:30:01,061 - INFO -   → Toggle Option: both
+2026-06-14 01:30:01,089 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-14 01:30:01,089 - INFO -   → Extracted Title: Scan Activity
+2026-06-14 01:30:01,089 - INFO -   → Matched Identity: codedetails
+2026-06-14 01:30:01,089 - INFO -   → Extracted Color: #10A010
+2026-06-14 01:30:01,090 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:01,114 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-14 01:30:01,116 - INFO -   → Extracted Title: Scan History
+2026-06-14 01:30:01,118 - INFO -   → Matched Identity: history
+2026-06-14 01:30:01,118 - INFO -   → Extracted Color: #4808F0
+2026-06-14 01:30:01,119 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:01,140 - INFO - Dynamically mapped image 'Send Points.png':
+2026-06-14 01:30:01,140 - INFO -   → Extracted Title: Send Points
+2026-06-14 01:30:01,140 - INFO -   → Matched Identity: transferpoints
+2026-06-14 01:30:01,140 - INFO -   → Extracted Color: #F86008
+2026-06-14 01:30:01,140 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:01,166 - INFO - Dynamically mapped image 'Support.png':
+2026-06-14 01:30:01,168 - INFO -   → Extracted Title: Support
+2026-06-14 01:30:01,170 - INFO -   → Matched Identity: help
+2026-06-14 01:30:01,171 - INFO -   → Extracted Color: #0030F0
+2026-06-14 01:30:01,171 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:01,200 - INFO - Dynamically mapped image 'TDS.png':
+2026-06-14 01:30:01,204 - INFO -   → Extracted Title: TDS
+2026-06-14 01:30:01,205 - INFO -   → Matched Identity: tds
+2026-06-14 01:30:01,205 - INFO -   → Extracted Color: #20C880
+2026-06-14 01:30:01,206 - INFO -   → Toggle Option: side menu
+2026-06-14 01:30:01,237 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-14 01:30:01,237 - INFO -   → Extracted Title: Updates
+2026-06-14 01:30:01,237 - INFO -   → Matched Identity: blog
+2026-06-14 01:30:01,238 - INFO -   → Extracted Color: #F87820
+2026-06-14 01:30:01,238 - INFO -   → Toggle Option: dashboard only
+2026-06-14 01:30:01,238 - INFO - 
+============================================================
+2026-06-14 01:30:01,238 - INFO - Launching Browser and Starting Upload Process
+2026-06-14 01:30:01,238 - INFO - ============================================================
+2026-06-14 01:30:01,281 - INFO - ====== WebDriver manager ======
+2026-06-14 01:30:03,135 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:30:03,619 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:30:04,072 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:30:04,073 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:30:06,757 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-14 01:30:06,823 - INFO - ✓ Chrome driver initialized
+2026-06-14 01:30:06,824 - INFO - 
+→ Attempting login...
+
+2026-06-14 01:30:06,825 - INFO - Opening login page...
+2026-06-14 01:30:08,609 - INFO -   → Policy checkbox checked on login page
+2026-06-14 01:30:08,760 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-14 01:30:42,609 - INFO - ✓ Login successful
+2026-06-14 01:30:44,610 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-14 01:30:44,611 - INFO - Navigating to App Settings...
+2026-06-14 01:30:51,109 - INFO - ✓ Dashboard Icons section loaded
+2026-06-14 01:30:53,110 - INFO - 
+→ Starting batch upload of 17 custom icons...
+
+2026-06-14 01:30:53,111 - INFO - Starting batch – 17 configured entries
+2026-06-14 01:30:53,111 - INFO - Total icons to upload after expansion: 17
+2026-06-14 01:30:53,111 - INFO - ============================================================
+2026-06-14 01:30:53,112 - INFO - [1/17]
+2026-06-14 01:30:53,112 - INFO -   Adding: [Carpenter] Activity  (codedetails)
+2026-06-14 01:31:06,074 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:31:06,191 - INFO -     → Icon identity: codedetails
+2026-06-14 01:31:06,396 - INFO -     → Display title: Activity
+2026-06-14 01:31:07,336 - INFO -     → Icon color: #F86008
+2026-06-14 01:31:07,416 - INFO -     → Toggle: dashboard only
+2026-06-14 01:31:09,523 - INFO -     → Image uploaded: Activity.png
+2026-06-14 01:31:09,712 - INFO -     → Form submitted
+2026-06-14 01:31:20,356 - INFO -   ✓ Icon added: Activity
+
+2026-06-14 01:31:21,357 - INFO - [2/17]
+2026-06-14 01:31:21,357 - INFO -   Adding: [Carpenter] E-Warranty  (e-warrant)
+2026-06-14 01:31:33,731 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:31:33,852 - INFO -     → Icon identity: e-warrant
+2026-06-14 01:31:34,004 - INFO -     → Display title: E-Warranty
+2026-06-14 01:31:34,598 - INFO -     → Icon color: #20C078
+2026-06-14 01:31:34,643 - INFO -     → Toggle: dashboard only
+2026-06-14 01:31:36,790 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-14 01:31:36,969 - INFO -     → Form submitted
+2026-06-14 01:31:47,580 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-14 01:31:48,581 - INFO - [3/17]
+2026-06-14 01:31:48,582 - INFO -   Adding: [Carpenter] Installation Guide  (instalment)
+2026-06-14 01:32:01,088 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:32:01,221 - INFO -     → Icon identity: instalment
+2026-06-14 01:32:01,411 - INFO -     → Display title: Installation Guide
+2026-06-14 01:32:02,043 - INFO -     → Icon color: #089098
+2026-06-14 01:32:02,085 - INFO -     → Toggle: dashboard only
+2026-06-14 01:32:04,154 - INFO -     → Image uploaded: Installation Guide.png
+2026-06-14 01:32:04,297 - INFO -     → Form submitted
+2026-06-14 01:32:14,917 - INFO -   ✓ Icon added: Installation Guide
+
+2026-06-14 01:32:15,918 - INFO - [4/17]
+2026-06-14 01:32:15,918 - INFO -   Adding: [Carpenter] KYC  (kycdetails)
+2026-06-14 01:32:28,723 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:32:28,835 - INFO -     → Icon identity: kycdetails
+2026-06-14 01:32:28,961 - INFO -     → Display title: KYC
+2026-06-14 01:32:29,536 - INFO -     → Icon color: #F85808
+2026-06-14 01:32:29,575 - INFO -     → Toggle: side menu
+2026-06-14 01:32:31,636 - INFO -     → Image uploaded: KYC.png
+2026-06-14 01:32:31,771 - INFO -     → Form submitted
+2026-06-14 01:32:42,408 - INFO -   ✓ Icon added: KYC
+
+2026-06-14 01:32:43,408 - INFO - [5/17]
+2026-06-14 01:32:43,409 - INFO -   Adding: [Carpenter] Language  (chooselanguage)
+2026-06-14 01:32:55,769 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:32:55,995 - INFO -     → Icon identity: chooselanguage
+2026-06-14 01:32:56,184 - INFO -     → Display title: Language
+2026-06-14 01:32:56,808 - INFO -     → Icon color: #5010E8
+2026-06-14 01:32:56,841 - INFO -     → Toggle: side menu
+2026-06-14 01:32:58,897 - INFO -     → Image uploaded: Language.png
+2026-06-14 01:32:59,055 - INFO -     → Form submitted
+2026-06-14 01:33:09,605 - INFO -   ✓ Icon added: Language
+
+2026-06-14 01:33:10,606 - INFO - [6/17]
+2026-06-14 01:33:10,606 - INFO -   Adding: [Carpenter] My Wallet  (wallet)
+2026-06-14 01:33:23,013 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:33:23,121 - INFO -     → Icon identity: wallet
+2026-06-14 01:33:23,267 - INFO -     → Display title: My Wallet
+2026-06-14 01:33:23,819 - INFO -     → Icon color: #20A020
+2026-06-14 01:33:23,875 - INFO -     → Toggle: both
+2026-06-14 01:33:25,927 - INFO -     → Image uploaded: My Wallet.png
+2026-06-14 01:33:26,060 - INFO -     → Form submitted
+2026-06-14 01:33:36,629 - INFO -   ✓ Icon added: My Wallet
+
+2026-06-14 01:33:37,630 - INFO - [7/17]
+2026-06-14 01:33:37,631 - INFO -   Adding: [Carpenter] Nearby Retailers  (retailer)
+2026-06-14 01:33:50,479 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:33:50,612 - INFO -     → Icon identity: retailer
+2026-06-14 01:33:50,821 - INFO -     → Display title: Nearby Retailers
+2026-06-14 01:33:51,416 - INFO -     → Icon color: #F87010
+2026-06-14 01:33:51,469 - INFO -     → Toggle: dashboard only
+2026-06-14 01:33:53,524 - INFO -     → Image uploaded: Nearby Retailers.png
+2026-06-14 01:33:53,687 - INFO -     → Form submitted
+2026-06-14 01:34:04,346 - INFO -   ✓ Icon added: Nearby Retailers
+
+2026-06-14 01:34:05,346 - INFO - [8/17]
+2026-06-14 01:34:05,347 - INFO -   Adding: [Carpenter] Product Catalog  (productcatalogue)
+2026-06-14 01:34:18,021 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:34:18,210 - INFO -     → Icon identity: productcatalogue
+2026-06-14 01:34:18,426 - INFO -     → Display title: Product Catalog
+2026-06-14 01:34:19,088 - INFO -     → Icon color: #6028E8
+2026-06-14 01:34:19,148 - INFO -     → Toggle: dashboard only
+2026-06-14 01:34:21,210 - INFO -     → Image uploaded: Product Catalog.png
+2026-06-14 01:34:21,334 - INFO -     → Form submitted
+2026-06-14 01:34:32,102 - INFO -   ✓ Icon added: Product Catalog
+
+2026-06-14 01:34:33,104 - INFO - [9/17]
+2026-06-14 01:34:33,104 - INFO -   Adding: [Carpenter] Prospectus  (brochure)
+2026-06-14 01:34:45,626 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:34:45,743 - INFO -     → Icon identity: brochure
+2026-06-14 01:34:45,929 - INFO -     → Display title: Prospectus
+2026-06-14 01:34:47,102 - INFO -     → Icon color: #0848F8
+2026-06-14 01:34:47,191 - INFO -     → Toggle: dashboard only
+2026-06-14 01:34:49,376 - INFO -     → Image uploaded: Prospectus.png
+2026-06-14 01:35:09,571 - ERROR -   ✗ Failed to add [Prospectus]: Message: 
+
+2026-06-14 01:35:10,255 - INFO -   📸 Screenshot saved: automation\screenshots\error_Prospectus_20260614_013509.png
+2026-06-14 01:35:12,361 - INFO - [10/17]
+2026-06-14 01:35:12,362 - INFO -   Adding: [Carpenter] Refer & Earn  (referandearn)
+2026-06-14 01:35:25,096 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:35:25,182 - INFO -     → Icon identity: referandearn
+2026-06-14 01:35:25,317 - INFO -     → Display title: Refer & Earn
+2026-06-14 01:35:26,009 - INFO -     → Icon color: #089098
+2026-06-14 01:35:26,047 - INFO -     → Toggle: both
+2026-06-14 01:35:28,088 - INFO -     → Image uploaded: Refer & Earn.png
+2026-06-14 01:35:28,205 - INFO -     → Form submitted
+2026-06-14 01:35:38,898 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-06-14 01:35:39,900 - INFO - [11/17]
+2026-06-14 01:35:39,900 - INFO -   Adding: [Carpenter] Rewards  (gift)
+2026-06-14 01:35:52,358 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:35:52,461 - INFO -     → Icon identity: gift
+2026-06-14 01:35:52,592 - INFO -     → Display title: Rewards
+2026-06-14 01:35:53,084 - INFO -     → Icon color: #F00048
+2026-06-14 01:35:53,110 - INFO -     → Toggle: both
+2026-06-14 01:35:55,160 - INFO -     → Image uploaded: Rewards.png
+2026-06-14 01:35:55,264 - INFO -     → Form submitted
+2026-06-14 01:36:05,859 - INFO -   ✓ Icon added: Rewards
+
+2026-06-14 01:36:06,860 - INFO - [12/17]
+2026-06-14 01:36:06,861 - INFO -   Adding: [Carpenter] Scan Activity  (codedetails)
+2026-06-14 01:36:19,251 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:36:19,336 - INFO -     → Icon identity: codedetails
+2026-06-14 01:36:19,459 - INFO -     → Display title: Scan Activity
+2026-06-14 01:36:19,961 - INFO -     → Icon color: #10A010
+2026-06-14 01:36:20,006 - INFO -     → Toggle: dashboard only
+2026-06-14 01:36:22,093 - INFO -     → Image uploaded: Scan Activity.png
+2026-06-14 01:36:22,200 - INFO -     → Form submitted
+2026-06-14 01:36:32,834 - INFO -   ✓ Icon added: Scan Activity
+
+2026-06-14 01:36:33,835 - INFO - [13/17]
+2026-06-14 01:36:33,835 - INFO -   Adding: [Carpenter] Scan History  (history)
+2026-06-14 01:36:46,224 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:36:46,367 - INFO -     → Icon identity: history
+2026-06-14 01:36:46,480 - INFO -     → Display title: Scan History
+2026-06-14 01:36:47,054 - INFO -     → Icon color: #4808F0
+2026-06-14 01:36:47,093 - INFO -     → Toggle: dashboard only
+2026-06-14 01:36:49,127 - INFO -     → Image uploaded: Scan History.png
+2026-06-14 01:36:49,241 - INFO -     → Form submitted
+2026-06-14 01:36:59,789 - INFO -   ✓ Icon added: Scan History
+
+2026-06-14 01:37:00,789 - INFO - [14/17]
+2026-06-14 01:37:00,790 - INFO -   Adding: [Carpenter] Send Points  (transferpoints)
+2026-06-14 01:37:13,720 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:37:13,899 - INFO -     → Icon identity: transferpoints
+2026-06-14 01:37:14,092 - INFO -     → Display title: Send Points
+2026-06-14 01:37:14,721 - INFO -     → Icon color: #F86008
+2026-06-14 01:37:14,780 - INFO -     → Toggle: dashboard only
+2026-06-14 01:37:16,861 - INFO -     → Image uploaded: Send Points.png
+2026-06-14 01:37:17,011 - INFO -     → Form submitted
+2026-06-14 01:37:27,659 - INFO -   ✓ Icon added: Send Points
+
+2026-06-14 01:37:28,661 - INFO - [15/17]
+2026-06-14 01:37:28,661 - INFO -   Adding: [Carpenter] Support  (help)
+2026-06-14 01:37:40,968 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:37:41,074 - INFO -     → Icon identity: help
+2026-06-14 01:37:41,204 - INFO -     → Display title: Support
+2026-06-14 01:37:41,698 - INFO -     → Icon color: #0030F0
+2026-06-14 01:37:41,731 - INFO -     → Toggle: dashboard only
+2026-06-14 01:37:43,814 - INFO -     → Image uploaded: Support.png
+2026-06-14 01:37:43,947 - INFO -     → Form submitted
+2026-06-14 01:37:54,920 - INFO -   ✓ Icon added: Support
+
+2026-06-14 01:37:55,921 - INFO - [16/17]
+2026-06-14 01:37:55,921 - INFO -   Adding: [Carpenter] TDS  (tds)
+2026-06-14 01:38:08,613 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:38:08,707 - INFO -     → Icon identity: tds
+2026-06-14 01:38:08,817 - INFO -     → Display title: TDS
+2026-06-14 01:38:09,332 - INFO -     → Icon color: #20C880
+2026-06-14 01:38:09,387 - INFO -     → Toggle: side menu
+2026-06-14 01:38:11,438 - INFO -     → Image uploaded: TDS.png
+2026-06-14 01:38:11,556 - INFO -     → Form submitted
+2026-06-14 01:38:22,542 - INFO -   ✓ Icon added: TDS
+
+2026-06-14 01:38:23,543 - INFO - [17/17]
+2026-06-14 01:38:23,543 - INFO -   Adding: [Carpenter] Updates  (blog)
+2026-06-14 01:38:36,167 - INFO -     → User type selected by text: Carpenter
+2026-06-14 01:38:36,246 - INFO -     → Icon identity: blog
+2026-06-14 01:38:36,362 - INFO -     → Display title: Updates
+2026-06-14 01:38:36,871 - INFO -     → Icon color: #F87820
+2026-06-14 01:38:36,904 - INFO -     → Toggle: dashboard only
+2026-06-14 01:38:38,942 - INFO -     → Image uploaded: Updates.png
+2026-06-14 01:38:39,053 - INFO -     → Form submitted
+2026-06-14 01:38:49,992 - INFO -   ✓ Icon added: Updates
+
+2026-06-14 01:38:50,993 - INFO - ============================================================
+2026-06-14 01:38:50,993 - INFO - Batch complete → ✓ 16 succeeded  ✗ 1 failed
+2026-06-14 01:38:50,994 - INFO - 
+============================================================
+2026-06-14 01:38:50,994 - INFO - CUSTOM AUTOMATION SUMMARY
+2026-06-14 01:38:50,994 - INFO - ============================================================
+2026-06-14 01:38:50,994 - INFO - ✓ Successful uploads: 16
+2026-06-14 01:38:50,994 - INFO - ✗ Failed uploads: 1
+2026-06-14 01:38:50,994 - INFO - Total processed: 17
+2026-06-14 01:38:51,006 - INFO - Success rate: 94.1%
+2026-06-14 01:38:51,006 - INFO - ============================================================
+2026-06-14 01:38:53,315 - INFO - Browser closed
+2026-06-14 01:38:57,366 - INFO - 
+Task finished at 2026-06-14 01:38:57
+2026-06-14 01:38:57,366 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260614_011919.log
+
+2026-06-14 01:39:13,376 - INFO - User selected: Registration Fields
+2026-06-14 01:39:13,376 - INFO - ============================================================
+2026-06-14 01:39:13,376 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-06-14 01:39:13,376 - INFO - ============================================================
+2026-06-14 01:39:13,388 - INFO - ====== WebDriver manager ======
+2026-06-14 01:39:14,875 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:39:15,251 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-14 01:39:15,618 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-14 01:39:15,619 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
+2026-06-14 01:39:16,978 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-14 01:39:17,039 - INFO - ✓ Chrome driver initialized
+2026-06-14 01:39:17,040 - INFO - Opening login page...
+2026-06-14 01:39:19,338 - INFO -   → Policy checkbox checked on login page
+2026-06-14 01:39:19,459 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-14 01:39:53,412 - INFO - ✓ Login successful
+2026-06-14 01:39:55,425 - INFO - Going to App Settings...
+2026-06-14 01:39:56,431 - INFO -   → Registration Field section opened
+2026-06-14 01:39:56,509 - INFO - ✓ Registration Fields page ready
+2026-06-14 01:39:57,306 - INFO - Found 1 user types: ['Carpenter']
+2026-06-14 01:39:57,306 - INFO - Starting registration fields automation: 6 fields total
+2026-06-14 01:39:57,306 - INFO - ============================================================
+2026-06-14 01:39:57,306 - INFO - Processing User Type: Carpenter
+2026-06-14 01:39:57,307 - INFO -   Adding field: [Carpenter] -> First Name
+2026-06-14 01:39:57,810 - INFO -     → User Type selected: Carpenter
+2026-06-14 01:40:18,011 - INFO -     → System Data Point selected: First Name
+2026-06-14 01:40:18,053 - INFO -     → Mandatory toggle enabled
+2026-06-14 01:40:18,220 - INFO -     → Integrate Now clicked
+2026-06-14 01:40:18,241 - INFO -     → Toast dismissed
+2026-06-14 01:40:18,319 - INFO -   ✓ Field added successfully: First Name
+
+2026-06-14 01:40:18,620 - INFO -   Adding field: [Carpenter] -> Phone Number
+2026-06-14 01:40:19,192 - INFO -     → User Type selected: Carpenter
+2026-06-14 01:40:39,431 - INFO -     → System Data Point selected: Phone Number
+2026-06-14 01:40:39,465 - INFO -     → Mandatory toggle enabled
+2026-06-14 01:40:39,623 - INFO -     → Integrate Now clicked
+2026-06-14 01:40:39,637 - INFO -     → Toast dismissed
+2026-06-14 01:40:39,708 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-06-14 01:40:40,009 - INFO -   Adding field: [Carpenter] -> Pincode
+2026-06-14 01:40:40,603 - INFO -     → User Type selected: Carpenter
+2026-06-14 01:41:00,892 - INFO -     → System Data Point selected: Pincode
+2026-06-14 01:41:00,944 - INFO -     → Mandatory toggle enabled
+2026-06-14 01:41:01,164 - INFO -     → Integrate Now clicked
+2026-06-14 01:41:01,195 - INFO -     → Toast dismissed
+2026-06-14 01:41:01,291 - INFO -   ✓ Field added successfully: Pincode
+
+2026-06-14 01:41:01,592 - INFO -   Adding field: [Carpenter] -> City
+2026-06-14 01:41:02,205 - INFO -     → User Type selected: Carpenter
+2026-06-14 01:41:22,546 - INFO -     → System Data Point selected: City
+2026-06-14 01:41:22,578 - INFO -     → Mandatory toggle enabled
+2026-06-14 01:41:22,707 - INFO -     → Integrate Now clicked
+2026-06-14 01:41:22,720 - INFO -     → Toast dismissed
+2026-06-14 01:41:22,772 - INFO -   ✓ Field added successfully: City
+
+2026-06-14 01:41:23,073 - INFO -   Adding field: [Carpenter] -> State
+2026-06-14 01:41:23,797 - INFO -     → User Type selected: Carpenter
+2026-06-14 01:41:43,980 - INFO -     → System Data Point selected: State
+2026-06-14 01:41:44,019 - INFO -     → Mandatory toggle enabled
+2026-06-14 01:41:44,162 - INFO -     → Integrate Now clicked
+2026-06-14 01:41:44,180 - INFO -     → Toast dismissed
+2026-06-14 01:41:44,244 - INFO -   ✓ Field added successfully: State
+
+2026-06-14 01:41:44,545 - INFO -   Adding field: [Carpenter] -> Address
+2026-06-14 01:41:45,067 - INFO -     → User Type selected: Carpenter
+2026-06-14 01:42:05,215 - INFO -     → System Data Point selected: Address
+2026-06-14 01:42:05,241 - INFO -     → Mandatory toggle enabled
+2026-06-14 01:42:05,346 - INFO -     → Integrate Now clicked
+2026-06-14 01:42:05,358 - INFO -     → Toast dismissed
+2026-06-14 01:42:05,408 - INFO -   ✓ Field added successfully: Address
+
+2026-06-14 01:42:05,709 - INFO - ============================================================
+2026-06-14 01:42:05,709 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-06-14 01:42:08,097 - INFO - Browser closed
+2026-06-14 01:42:12,134 - INFO - 
+Task finished at 2026-06-14 01:42:12
+2026-06-14 01:42:12,134 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260614_011919.log
+

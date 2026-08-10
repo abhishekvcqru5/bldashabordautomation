@@ -1,0 +1,51 @@
+2026-06-10 18:42:32,949 - INFO - User selected: Brand Setting
+2026-06-10 18:42:36,583 - INFO -   Found logo asset: logo.png
+2026-06-10 18:42:36,584 - INFO -   Found splash asset: splash.png
+2026-06-10 18:42:36,584 - INFO - ============================================================
+2026-06-10 18:42:36,584 - INFO - BRAND SETTING — Image Processing
+2026-06-10 18:42:36,584 - INFO - ============================================================
+2026-06-10 18:42:36,732 - INFO - ✓ Logo  → logo_processed.jpg  |  103.2 KB  |  JPEG q95
+2026-06-10 18:42:36,761 - INFO -   Splash has transparency — preserving (saving as PNG)
+2026-06-10 18:42:36,938 - INFO - ✓ Splash → splash_processed.png  |  0.26 MB  |  PNG lossless
+2026-06-10 18:42:36,939 - INFO - 
+2026-06-10 18:42:36,939 - INFO - Extracting brand colours from logo...
+2026-06-10 18:42:37,638 - INFO -   Colours extracted from logo:
+2026-06-10 18:42:37,639 - INFO -     Header Color     →  #F00000  (dominant logo colour)
+2026-06-10 18:42:37,639 - INFO -     Background Color →  #9C0000  (35% darker)
+2026-06-10 18:42:37,639 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-06-10 18:42:37,640 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-06-10 18:42:37,693 - INFO - ✓ Both images ready
+
+2026-06-10 18:42:37,693 - INFO - ============================================================
+2026-06-10 18:42:37,693 - INFO - BRAND SETTING — Browser Automation
+2026-06-10 18:42:37,693 - INFO - ============================================================
+2026-06-10 18:42:37,713 - INFO - ====== WebDriver manager ======
+2026-06-10 18:42:39,139 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 18:42:39,751 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-10 18:42:40,291 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-10 18:42:40,291 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.55\chromedriver-win32\chromedriver.exe
+2026-06-10 18:42:42,513 - INFO - ✓ Chrome driver initialized
+2026-06-10 18:42:42,513 - INFO - Opening login page...
+2026-06-10 18:42:43,956 - INFO -   → Policy checkbox checked on login page
+2026-06-10 18:42:44,030 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-10 18:42:51,509 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-10 18:42:51,545 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-10 18:42:51,635 - INFO - ✓ Login successful
+2026-06-10 18:42:53,636 - INFO - Going to App Settings...
+2026-06-10 18:42:59,965 - INFO -   → Identity & Branding section opened
+2026-06-10 18:43:02,057 - INFO -   → Edit Branding popup opened
+2026-06-10 18:43:02,073 - INFO - ✓ Brand setting form is ready
+2026-06-10 18:43:02,073 - INFO -   Setting company name: VCQRU
+2026-06-10 18:43:02,878 - INFO -     → HeaderColor: #F00000
+2026-06-10 18:43:03,514 - INFO -     → FooterColor: #F5F5F5
+2026-06-10 18:43:04,158 - INFO -     → BodyColor: #FFFFFF
+2026-06-10 18:43:04,802 - INFO -     → BackgroundColor: #9C0000
+2026-06-10 18:43:06,874 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-06-10 18:43:08,901 - INFO -   ✓ Splash uploaded: splash_processed.png
+2026-06-10 18:43:09,013 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-06-10 18:43:12,025 - INFO - ✓ Brand settings saved successfully!
+2026-06-10 18:43:14,466 - INFO - Browser closed
+2026-06-10 18:43:18,550 - INFO - 
+Task finished at 2026-06-10 18:43:18
+2026-06-10 18:43:18,550 - INFO - Log: automation\logs\full_automation_20260610_184211.log
+

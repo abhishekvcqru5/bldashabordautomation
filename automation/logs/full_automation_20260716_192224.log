@@ -1,0 +1,158 @@
+2026-07-16 19:22:50,324 - INFO - User selected: Registration Fields
+2026-07-16 19:22:50,325 - INFO - ============================================================
+2026-07-16 19:22:50,325 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-16 19:22:50,326 - INFO - ============================================================
+2026-07-16 19:22:50,352 - INFO - ====== WebDriver manager ======
+2026-07-16 19:22:53,089 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-16 19:22:53,907 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-16 19:22:54,415 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-16 19:22:54,424 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-16 19:22:56,740 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-16 19:22:56,756 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-16 19:22:56,841 - INFO - ✓ Chrome driver initialized
+2026-07-16 19:22:56,842 - INFO - Opening login page...
+2026-07-16 19:22:58,903 - INFO -   → Policy checkbox checked on login page
+2026-07-16 19:22:59,158 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-16 19:22:59,241 - INFO -   → Policy agreement popup detected
+2026-07-16 19:22:59,605 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-16 19:23:00,921 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-16 19:23:07,174 - INFO -   → Policy agreement popup detected
+2026-07-16 19:23:07,359 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-16 19:23:07,931 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-16 19:23:07,946 - INFO - ✓ Login successful
+2026-07-16 19:23:09,991 - INFO - Going to App Settings...
+2026-07-16 19:23:13,785 - INFO -   → Registration Field section opened
+2026-07-16 19:23:14,586 - INFO - ✓ Registration Fields page ready
+2026-07-16 19:23:15,844 - INFO - Found 1 user types: ['Electrician']
+2026-07-16 19:23:15,845 - INFO - Starting registration fields automation: 6 fields total
+2026-07-16 19:23:15,846 - INFO - ============================================================
+2026-07-16 19:23:15,846 - INFO - Processing User Type: Electrician
+2026-07-16 19:23:15,847 - INFO -   Adding field: [Electrician] -> First Name
+2026-07-16 19:23:16,717 - INFO -     → User Type selected: Electrician
+2026-07-16 19:23:46,109 - INFO -     → System Data Point selected: First Name
+2026-07-16 19:23:47,184 - INFO -     → Mandatory toggle enabled
+2026-07-16 19:24:00,123 - INFO -     → Integrate Now clicked
+2026-07-16 19:24:05,518 - INFO -     → Toast dismissed
+2026-07-16 19:24:10,026 - INFO -   ✓ Field added successfully: First Name
+
+2026-07-16 19:24:10,339 - INFO -   Adding field: [Electrician] -> Phone Number
+2026-07-16 19:24:14,325 - INFO -     → User Type selected: Electrician
+2026-07-16 19:24:36,037 - INFO -     → System Data Point selected: Phone Number
+2026-07-16 19:24:36,168 - INFO -     → Mandatory toggle enabled
+2026-07-16 19:24:37,201 - INFO -     → Integrate Now clicked
+2026-07-16 19:24:37,842 - INFO -     → Toast dismissed
+2026-07-16 19:24:38,324 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-07-16 19:24:38,625 - INFO -   Adding field: [Electrician] -> Pincode
+2026-07-16 19:24:40,790 - INFO -     → User Type selected: Electrician
+2026-07-16 19:25:01,209 - INFO -     → System Data Point selected: Pincode
+2026-07-16 19:25:01,339 - INFO -     → Mandatory toggle enabled
+2026-07-16 19:25:01,733 - INFO -     → Integrate Now clicked
+2026-07-16 19:25:01,776 - INFO -     → Toast dismissed
+2026-07-16 19:25:01,952 - INFO -   ✓ Field added successfully: Pincode
+
+2026-07-16 19:25:02,255 - INFO -   Adding field: [Electrician] -> City
+2026-07-16 19:25:03,205 - INFO -     → User Type selected: Electrician
+2026-07-16 19:25:23,624 - INFO -     → System Data Point selected: City
+2026-07-16 19:25:23,733 - INFO -     → Mandatory toggle enabled
+2026-07-16 19:25:24,126 - INFO -     → Integrate Now clicked
+2026-07-16 19:25:24,171 - INFO -     → Toast dismissed
+2026-07-16 19:25:24,324 - INFO -   ✓ Field added successfully: City
+
+2026-07-16 19:25:24,625 - INFO -   Adding field: [Electrician] -> State
+2026-07-16 19:25:25,275 - INFO -     → User Type selected: Electrician
+2026-07-16 19:25:45,553 - INFO -     → System Data Point selected: State
+2026-07-16 19:25:45,638 - INFO -     → Mandatory toggle enabled
+2026-07-16 19:25:46,123 - INFO -     → Integrate Now clicked
+2026-07-16 19:25:46,153 - INFO -     → Toast dismissed
+2026-07-16 19:25:46,267 - INFO -   ✓ Field added successfully: State
+
+2026-07-16 19:25:46,569 - INFO -   Adding field: [Electrician] -> Address
+2026-07-16 19:25:47,588 - INFO -     → User Type selected: Electrician
+2026-07-16 19:26:07,905 - INFO -     → System Data Point selected: Address
+2026-07-16 19:26:07,980 - INFO -     → Mandatory toggle enabled
+2026-07-16 19:26:08,240 - INFO -     → Integrate Now clicked
+2026-07-16 19:26:08,269 - INFO -     → Toast dismissed
+2026-07-16 19:26:08,417 - INFO -   ✓ Field added successfully: Address
+
+2026-07-16 19:26:08,718 - INFO - ============================================================
+2026-07-16 19:26:08,719 - INFO - Registration fields batch complete → ✓ 6 succeeded  ✗ 0 failed
+2026-07-16 19:26:11,515 - INFO - Browser closed
+2026-07-16 19:26:15,588 - INFO - 
+Task finished at 2026-07-16 19:26:15
+2026-07-16 19:26:15,588 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260716_192224.log
+
+2026-07-17 10:24:42,914 - INFO - User selected: Registration Fields
+2026-07-17 10:24:42,965 - INFO - ============================================================
+2026-07-17 10:24:42,966 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-07-17 10:24:42,967 - INFO - ============================================================
+2026-07-17 10:24:43,053 - INFO - ====== WebDriver manager ======
+2026-07-17 10:24:47,046 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 10:24:47,475 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 10:24:47,690 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 10:24:48,186 - INFO - WebDriver version 150.0.7871.124 selected
+2026-07-17 10:24:48,204 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-17 10:24:48,204 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-17 10:24:48,300 - INFO - Driver downloading response is 200
+2026-07-17 10:24:48,700 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 10:24:49,152 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-07-17 10:24:49,161 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 10:24:53,129 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 10:24:53,136 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 10:24:53,278 - INFO - ✓ Chrome driver initialized
+2026-07-17 10:24:53,282 - INFO - Opening login page...
+2026-07-17 10:24:55,137 - INFO -   → Policy checkbox checked on login page
+2026-07-17 10:24:55,388 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 10:24:55,419 - INFO -   → Policy agreement popup detected
+2026-07-17 10:24:55,535 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 10:24:56,352 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 10:25:05,704 - ERROR - Login failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xda5843+10883]
+	chromedriver!GetHandleVerifier [0xda5884+108c4]
+	chromedriver!(No symbol) [0xba8f1e]
+	chromedriver!(No symbol) [0xbe78e7]
+	chromedriver!(No symbol) [0xc15526]
+	chromedriver!(No symbol) [0xc10762]
+	chromedriver!(No symbol) [0xc10141]
+	chromedriver!(No symbol) [0xb7c731]
+	chromedriver!(No symbol) [0xb7ccd3]
+	chromedriver!(No symbol) [0xb7d18d]
+	chromedriver!GetHandleVerifier [0x103ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x103847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x10594eb+2c452b]
+	chromedriver!GetHandleVerifier [0xdbf566+2a5a6]
+	chromedriver!GetHandleVerifier [0xdc620d+3124d]
+	chromedriver!(No symbol) [0xb7c3e0]
+	chromedriver!(No symbol) [0xb7ba92]
+	chromedriver!GetHandleVerifier [0x119ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x75d75d49+19]
+	ntdll!RtlInitializeExceptionChain [0x779ce12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x779ce0b1+231]
+
+2026-07-17 10:25:05,714 - WARNING - Screenshot failed: Message: invalid session id
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xda5843+10883]
+	chromedriver!GetHandleVerifier [0xda5884+108c4]
+	chromedriver!(No symbol) [0xba8f1e]
+	chromedriver!(No symbol) [0xbe78e7]
+	chromedriver!(No symbol) [0xc15526]
+	chromedriver!(No symbol) [0xc10762]
+	chromedriver!(No symbol) [0xc10141]
+	chromedriver!(No symbol) [0xb7c731]
+	chromedriver!(No symbol) [0xb7ccd3]
+	chromedriver!(No symbol) [0xb7d18d]
+	chromedriver!GetHandleVerifier [0x103ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0x103847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x10594eb+2c452b]
+	chromedriver!GetHandleVerifier [0xdbf566+2a5a6]
+	chromedriver!GetHandleVerifier [0xdc620d+3124d]
+	chromedriver!(No symbol) [0xb7c3e0]
+	chromedriver!(No symbol) [0xb7ba92]
+	chromedriver!GetHandleVerifier [0x119ec1f+409c5f]
+	KERNEL32!BaseThreadInitThunk [0x75d75d49+19]
+	ntdll!RtlInitializeExceptionChain [0x779ce12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x779ce0b1+231]
+
+2026-07-17 10:25:05,715 - ERROR - ✗ Login failed. Aborting.
+2026-07-17 10:25:06,328 - INFO - Automation cancelled by user (Ctrl+C)

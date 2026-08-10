@@ -1,0 +1,225 @@
+2026-06-23 13:01:19,266 - INFO - User selected: Dynamic Dashboard Icons (Auto Name & Color)
+2026-06-23 13:01:19,267 - INFO - ============================================================
+2026-06-23 13:01:19,267 - INFO - Custom Dashboard Icons Upload (Option 11)
+2026-06-23 13:01:19,267 - INFO - ============================================================
+2026-06-23 13:01:19,273 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-23 13:01:19,273 - INFO - Output folder: automation\processed_images
+2026-06-23 13:01:19,284 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-23 13:01:19,382 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-23 13:01:19,483 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-23 13:01:19,503 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-23 13:01:19,605 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-23 13:01:19,674 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-23 13:01:19,751 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-23 13:01:19,808 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-23 13:01:19,853 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-23 13:01:19,927 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-23 13:01:19,991 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-23 13:01:20,061 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-23 13:01:20,152 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-23 13:01:20,212 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-23 13:01:20,270 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-23 13:01:20,271 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-23 13:01:20,271 - INFO - ✓ 13 images processed successfully.
+
+2026-06-23 13:01:23,738 - INFO - Target User Type: Dealer
+2026-06-23 13:01:23,770 - INFO - Dynamically mapped image 'Activity.png':
+2026-06-23 13:01:23,771 - INFO -   → Extracted Title: Activity
+2026-06-23 13:01:23,771 - INFO -   → Matched Identity: claimhistory
+2026-06-23 13:01:23,771 - INFO -   → Extracted Color: #F86008
+2026-06-23 13:01:23,771 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:23,808 - INFO - Dynamically mapped image 'ecommerce.png':
+2026-06-23 13:01:23,808 - INFO -   → Extracted Title: ecommerce
+2026-06-23 13:01:23,809 - INFO -   → Matched Identity: gift
+2026-06-23 13:01:23,809 - INFO -   → Extracted Color: #A0E0F8
+2026-06-23 13:01:23,809 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:23,837 - INFO - Dynamically mapped image 'KYC.png':
+2026-06-23 13:01:23,838 - INFO -   → Extracted Title: KYC
+2026-06-23 13:01:23,838 - INFO -   → Matched Identity: kycdetails
+2026-06-23 13:01:23,838 - INFO -   → Extracted Color: #F85808
+2026-06-23 13:01:23,839 - INFO -   → Toggle Option: side menu
+2026-06-23 13:01:23,876 - INFO - Dynamically mapped image 'Language.png':
+2026-06-23 13:01:23,876 - INFO -   → Extracted Title: Language
+2026-06-23 13:01:23,877 - INFO -   → Matched Identity: chooselanguage
+2026-06-23 13:01:23,877 - INFO -   → Extracted Color: #5010E8
+2026-06-23 13:01:23,877 - INFO -   → Toggle Option: side menu
+2026-06-23 13:01:23,907 - INFO - Dynamically mapped image 'My Wallet.png':
+2026-06-23 13:01:23,907 - INFO -   → Extracted Title: My Wallet
+2026-06-23 13:01:23,907 - INFO -   → Matched Identity: wallet
+2026-06-23 13:01:23,908 - INFO -   → Extracted Color: #20A020
+2026-06-23 13:01:23,908 - INFO -   → Toggle Option: both
+2026-06-23 13:01:23,939 - INFO - Dynamically mapped image 'Product Catalog.png':
+2026-06-23 13:01:23,939 - INFO -   → Extracted Title: Product Catalog
+2026-06-23 13:01:23,940 - INFO -   → Matched Identity: productcatalogue
+2026-06-23 13:01:23,940 - INFO -   → Extracted Color: #6028E8
+2026-06-23 13:01:23,941 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:23,976 - INFO - Dynamically mapped image 'Prospectus.png':
+2026-06-23 13:01:23,977 - INFO -   → Extracted Title: Prospectus
+2026-06-23 13:01:23,977 - INFO -   → Matched Identity: brochure
+2026-06-23 13:01:23,977 - INFO -   → Extracted Color: #0848F8
+2026-06-23 13:01:23,978 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:24,011 - INFO - Dynamically mapped image 'Refer & Earn.png':
+2026-06-23 13:01:24,012 - INFO -   → Extracted Title: Refer & Earn
+2026-06-23 13:01:24,012 - INFO -   → Matched Identity: referandearn
+2026-06-23 13:01:24,012 - INFO -   → Extracted Color: #089098
+2026-06-23 13:01:24,013 - INFO -   → Toggle Option: both
+2026-06-23 13:01:24,043 - INFO - Dynamically mapped image 'Rewards.png':
+2026-06-23 13:01:24,044 - INFO -   → Extracted Title: Rewards
+2026-06-23 13:01:24,044 - INFO -   → Matched Identity: gift
+2026-06-23 13:01:24,044 - INFO -   → Extracted Color: #F00048
+2026-06-23 13:01:24,044 - INFO -   → Toggle Option: both
+2026-06-23 13:01:24,082 - INFO - Dynamically mapped image 'Scan Activity.png':
+2026-06-23 13:01:24,082 - INFO -   → Extracted Title: Scan Activity
+2026-06-23 13:01:24,083 - INFO -   → Matched Identity: codedetails
+2026-06-23 13:01:24,083 - INFO -   → Extracted Color: #10A010
+2026-06-23 13:01:24,083 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:24,112 - INFO - Dynamically mapped image 'Scan History.png':
+2026-06-23 13:01:24,113 - INFO -   → Extracted Title: Scan History
+2026-06-23 13:01:24,115 - INFO -   → Matched Identity: history
+2026-06-23 13:01:24,115 - INFO -   → Extracted Color: #4808F0
+2026-06-23 13:01:24,116 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:24,145 - INFO - Dynamically mapped image 'Support.png':
+2026-06-23 13:01:24,145 - INFO -   → Extracted Title: Support
+2026-06-23 13:01:24,145 - INFO -   → Matched Identity: help
+2026-06-23 13:01:24,146 - INFO -   → Extracted Color: #0030F0
+2026-06-23 13:01:24,147 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:24,177 - INFO - Dynamically mapped image 'Updates.png':
+2026-06-23 13:01:24,178 - INFO -   → Extracted Title: Updates
+2026-06-23 13:01:24,178 - INFO -   → Matched Identity: blog
+2026-06-23 13:01:24,179 - INFO -   → Extracted Color: #F87820
+2026-06-23 13:01:24,179 - INFO -   → Toggle Option: dashboard only
+2026-06-23 13:01:24,180 - INFO - 
+============================================================
+2026-06-23 13:01:24,180 - INFO - Launching Browser and Starting Upload Process
+2026-06-23 13:01:24,181 - INFO - ============================================================
+2026-06-23 13:01:24,195 - INFO - ====== WebDriver manager ======
+2026-06-23 13:01:26,654 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 13:01:27,358 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 13:01:28,008 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-23 13:01:28,009 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-23 13:01:29,214 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-23 13:01:29,220 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-23 13:01:29,259 - INFO - ✓ Chrome driver initialized
+2026-06-23 13:01:29,259 - INFO - 
+→ Attempting login...
+
+2026-06-23 13:01:29,260 - INFO - Opening login page...
+2026-06-23 13:01:30,489 - INFO -   → Policy checkbox checked on login page
+2026-06-23 13:01:30,612 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-23 13:01:30,641 - INFO -   → Policy agreement popup detected
+2026-06-23 13:01:30,713 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-23 13:01:31,274 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-23 13:01:31,291 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.115)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x68a543+103f3]
+	chromedriver!GetHandleVerifier [0x68a584+10434]
+	chromedriver!(No symbol) [0x48a700]
+	chromedriver!(No symbol) [0x469603]
+	chromedriver!(No symbol) [0x4fc45b]
+	chromedriver!(No symbol) [0x512df9]
+	chromedriver!(No symbol) [0x4f5e66]
+	chromedriver!(No symbol) [0x4c9159]
+	chromedriver!(No symbol) [0x4c9f24]
+	chromedriver!GetHandleVerifier [0x914bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x910119+295fc9]
+	chromedriver!GetHandleVerifier [0x93103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6a37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6aa91d+307cd]
+	chromedriver!GetHandleVerifier [0x692d18+18bc8]
+	chromedriver!GetHandleVerifier [0x692ec5+18d75]
+	chromedriver!GetHandleVerifier [0x67c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-23 13:01:31,296 - WARNING - Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.115)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x68a543+103f3]
+	chromedriver!GetHandleVerifier [0x68a584+10434]
+	chromedriver!(No symbol) [0x48a700]
+	chromedriver!(No symbol) [0x469603]
+	chromedriver!(No symbol) [0x4fc45b]
+	chromedriver!(No symbol) [0x512df9]
+	chromedriver!(No symbol) [0x4f5e66]
+	chromedriver!(No symbol) [0x4c9159]
+	chromedriver!(No symbol) [0x4c9f24]
+	chromedriver!GetHandleVerifier [0x914bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x910119+295fc9]
+	chromedriver!GetHandleVerifier [0x93103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6a37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6aa91d+307cd]
+	chromedriver!GetHandleVerifier [0x692d18+18bc8]
+	chromedriver!GetHandleVerifier [0x692ec5+18d75]
+	chromedriver!GetHandleVerifier [0x67c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+
+2026-06-23 13:01:31,298 - ERROR - ✗ Login failed. Aborting.
+2026-06-23 13:01:33,480 - INFO - Browser closed
+2026-06-23 13:01:35,673 - INFO - 
+Task finished at 2026-06-23 13:01:35
+2026-06-23 13:01:35,673 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260623_130100.log
+
+2026-06-23 13:01:50,444 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-23 13:02:25,857 - INFO - Target User Types: ['Dealer']
+2026-06-23 13:02:25,857 - INFO - Target Dashboard Icons: ['ecommerce']
+2026-06-23 13:02:25,862 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-06-23 13:02:25,863 - INFO - Output folder: automation\processed_images
+2026-06-23 13:02:25,864 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-23 13:02:25,900 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-23 13:02:25,948 - INFO - PNG ecommerce.png is 64.4 KB, compressing via quantize...
+2026-06-23 13:02:25,955 - INFO - ✓ Processed PNG: ecommerce.png | Size: 11.6 KB
+2026-06-23 13:02:25,999 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-23 13:02:26,033 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-23 13:02:26,063 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-23 13:02:26,089 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-23 13:02:26,106 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-23 13:02:26,140 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-23 13:02:26,167 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-23 13:02:26,196 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-23 13:02:26,238 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-23 13:02:26,265 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-23 13:02:26,290 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-23 13:02:26,290 - INFO - 
+✓ Processed 13 images successfully
+
+2026-06-23 13:02:26,311 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-23 13:02:26,311 - INFO - 
+============================================================
+2026-06-23 13:02:26,311 - INFO - Launching Browser and Starting Upload Process
+2026-06-23 13:02:26,311 - INFO - ============================================================
+2026-06-23 13:02:26,320 - INFO - ====== WebDriver manager ======
+2026-06-23 13:02:27,637 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 13:02:28,960 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-23 13:02:29,295 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-23 13:02:29,295 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-23 13:02:30,475 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-06-23 13:02:30,483 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-06-23 13:02:30,512 - INFO - ✓ Chrome driver initialized
+2026-06-23 13:02:30,513 - INFO - 
+→ Attempting login...
+
+2026-06-23 13:02:30,513 - INFO - Opening login page...
+2026-06-23 13:02:31,709 - INFO -   → Policy checkbox checked on login page
+2026-06-23 13:02:31,794 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-06-23 13:02:31,810 - INFO -   → Policy agreement popup detected
+2026-06-23 13:02:31,849 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-06-23 13:02:32,370 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-06-23 13:03:04,022 - ERROR - Login failed: Message: 
+
+2026-06-23 13:03:04,241 - INFO -   📸 Screenshot saved: automation\screenshots\login_error_20260623_130304.png
+2026-06-23 13:03:04,242 - ERROR - ✗ Login failed. Aborting.
+2026-06-23 13:03:06,639 - INFO - Browser closed
+2026-06-23 13:03:10,724 - INFO - 
+Task finished at 2026-06-23 13:03:10
+2026-06-23 13:03:10,725 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260623_130100.log
+

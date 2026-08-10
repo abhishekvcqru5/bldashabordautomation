@@ -1,0 +1,219 @@
+2026-07-28 17:40:11,070 - INFO - User selected: Upload Missing Dashboard Icons (All User Types)
+2026-07-28 17:40:11,071 - INFO - ============================================================
+2026-07-28 17:40:11,071 - INFO - UPLOAD MISSING DASHBOARD ICONS FOR ALL USER TYPES (Option 20)
+2026-07-28 17:40:11,072 - INFO - ============================================================
+2026-07-28 17:40:11,072 - INFO - Processing images from dashboardicons/...
+2026-07-28 17:40:11,091 - INFO - Processing images from: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\dashboardicons
+2026-07-28 17:40:11,092 - INFO - Output folder: automation\processed_images
+2026-07-28 17:40:11,092 - INFO - Target: 512x512 px, max 50 KB
+
+2026-07-28 17:40:11,225 - INFO - ✓ Processed PNG: aboutus.png | Size: 38.0 KB
+2026-07-28 17:40:11,259 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-07-28 17:40:11,305 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-07-28 17:40:11,351 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-07-28 17:40:11,389 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-07-28 17:40:11,425 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-07-28 17:40:11,452 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-07-28 17:40:11,472 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-07-28 17:40:11,510 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-07-28 17:40:11,542 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-07-28 17:40:11,574 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-07-28 17:40:11,621 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-07-28 17:40:11,651 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-07-28 17:40:11,684 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-07-28 17:40:11,713 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-07-28 17:40:11,713 - INFO - 
+✓ Processed 15 images successfully
+
+2026-07-28 17:40:11,714 - INFO - v 15 images processed.
+2026-07-28 17:40:11,983 - INFO - ====== WebDriver manager ======
+2026-07-28 17:40:14,010 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-28 17:40:14,277 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-28 17:40:14,464 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-28 17:40:14,918 - INFO - WebDriver version 150.0.7871.124 selected
+2026-07-28 17:40:14,926 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-28 17:40:14,926 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-07-28 17:40:14,992 - INFO - Driver downloading response is 200
+2026-07-28 17:40:16,016 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-28 17:40:16,288 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-07-28 17:40:16,292 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-28 17:40:18,687 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-28 17:40:18,690 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-28 17:40:18,740 - INFO - ✓ Chrome driver initialized
+2026-07-28 17:40:18,741 - INFO - Opening login page...
+2026-07-28 17:40:20,598 - INFO -   → Policy checkbox checked on login page
+2026-07-28 17:40:20,700 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-28 17:40:20,736 - INFO -   → Policy agreement popup detected
+2026-07-28 17:40:20,780 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-28 17:40:21,411 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-28 17:40:27,566 - INFO -   → Policy agreement popup detected
+2026-07-28 17:40:27,596 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-28 17:40:28,124 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-28 17:40:28,125 - INFO -   → Navigating directly to App Settings URL...
+2026-07-28 17:40:28,384 - INFO - ✓ Login successful and on App Settings page
+2026-07-28 17:40:30,384 - INFO - Navigating to dashboard icons section...
+2026-07-28 17:40:30,385 - INFO - Navigating to App Settings...
+2026-07-28 17:40:36,774 - INFO - ✓ Dashboard Icons section loaded
+2026-07-28 17:40:36,776 - INFO - Reading all available user types from dropdown...
+2026-07-28 17:40:50,196 - INFO -   Found 1 user types: ['Dealor']
+2026-07-28 17:40:50,245 - INFO - Total rows found in configured icons table: 6
+2026-07-28 17:40:50,392 - INFO - Currently configured icons per user type:
+2026-07-28 17:40:50,393 - INFO -   dealor: ['chooselanguage', 'codedetails', 'wallet', 'aboutus']
+2026-07-28 17:40:50,393 - INFO - Found 11 missing icon uploads:
+2026-07-28 17:40:50,394 - INFO -   - [Dealor] Activity (ID: claimhistory) from Activity.png
+2026-07-28 17:40:50,394 - INFO -   - [Dealor] E-Warranty (ID: e-warrant) from E-Warranty.png
+2026-07-28 17:40:50,395 - INFO -   - [Dealor] KYC (ID: kycdetails) from KYC.png
+2026-07-28 17:40:50,395 - INFO -   - [Dealor] Product Catalog (ID: productcatalogue) from Product Catalog.png
+2026-07-28 17:40:50,395 - INFO -   - [Dealor] Prospectus (ID: brochure) from Prospectus.png
+2026-07-28 17:40:50,396 - INFO -   - [Dealor] Refer & Earn (ID: referandearn) from Refer & Earn.png
+2026-07-28 17:40:50,396 - INFO -   - [Dealor] Rewards (ID: gift) from Rewards.png
+2026-07-28 17:40:50,396 - INFO -   - [Dealor] Scan History (ID: history) from Scan History.png
+2026-07-28 17:40:50,396 - INFO -   - [Dealor] Support (ID: help) from Support.png
+2026-07-28 17:40:50,397 - INFO -   - [Dealor] TDS (ID: tds) from TDS.png
+2026-07-28 17:40:50,397 - INFO -   - [Dealor] Updates (ID: blog) from Updates.png
+2026-07-28 17:41:21,523 - INFO - 
+[1/11] Uploading missing icon for Dealor: Activity
+2026-07-28 17:41:21,524 - INFO -   Adding: [Dealor] Activity  (claimhistory)
+2026-07-28 17:41:33,892 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:41:33,967 - INFO -     → Icon identity: claimhistory
+2026-07-28 17:41:34,082 - INFO -     → Display title: Activity
+2026-07-28 17:41:34,529 - INFO -     → Icon color: #F86008
+2026-07-28 17:41:34,553 - INFO -     → Toggle: dashboard only
+2026-07-28 17:41:36,598 - INFO -     → Image uploaded: Activity.png
+2026-07-28 17:41:36,699 - INFO -     → Form submitted
+2026-07-28 17:41:47,392 - INFO -   ✓ Icon added: Activity
+
+2026-07-28 17:41:48,393 - INFO - 
+[2/11] Uploading missing icon for Dealor: E-Warranty
+2026-07-28 17:41:48,394 - INFO -   Adding: [Dealor] E-Warranty  (e-warrant)
+2026-07-28 17:42:01,003 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:42:01,146 - INFO -     → Icon identity: e-warrant
+2026-07-28 17:42:01,349 - INFO -     → Display title: E-Warranty
+2026-07-28 17:42:01,952 - INFO -     → Icon color: #20C078
+2026-07-28 17:42:01,981 - INFO -     → Toggle: dashboard only
+2026-07-28 17:42:04,027 - INFO -     → Image uploaded: E-Warranty.png
+2026-07-28 17:42:04,148 - INFO -     → Form submitted
+2026-07-28 17:42:15,063 - INFO -   ✓ Icon added: E-Warranty
+
+2026-07-28 17:42:16,065 - INFO - 
+[3/11] Uploading missing icon for Dealor: KYC
+2026-07-28 17:42:16,065 - INFO -   Adding: [Dealor] KYC  (kycdetails)
+2026-07-28 17:42:28,588 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:42:28,675 - INFO -     → Icon identity: kycdetails
+2026-07-28 17:42:28,848 - INFO -     → Display title: KYC
+2026-07-28 17:42:29,377 - INFO -     → Icon color: #F85808
+2026-07-28 17:42:29,435 - INFO -     → Toggle: side menu
+2026-07-28 17:42:31,500 - INFO -     → Image uploaded: KYC.png
+2026-07-28 17:42:31,701 - INFO -     → Form submitted
+2026-07-28 17:42:42,392 - INFO -   ✓ Icon added: KYC
+
+2026-07-28 17:42:43,394 - INFO - 
+[4/11] Uploading missing icon for Dealor: Product Catalog
+2026-07-28 17:42:43,394 - INFO -   Adding: [Dealor] Product Catalog  (productcatalogue)
+2026-07-28 17:42:56,016 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:42:56,124 - INFO -     → Icon identity: productcatalogue
+2026-07-28 17:42:56,267 - INFO -     → Display title: Product Catalog
+2026-07-28 17:42:56,838 - INFO -     → Icon color: #6028E8
+2026-07-28 17:42:56,873 - INFO -     → Toggle: dashboard only
+2026-07-28 17:42:58,914 - INFO -     → Image uploaded: Product Catalog.png
+2026-07-28 17:42:59,037 - INFO -     → Form submitted
+2026-07-28 17:43:09,911 - INFO -   ✓ Icon added: Product Catalog
+
+2026-07-28 17:43:10,912 - INFO - 
+[5/11] Uploading missing icon for Dealor: Prospectus
+2026-07-28 17:43:10,913 - INFO -   Adding: [Dealor] Prospectus  (brochure)
+2026-07-28 17:43:23,444 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:43:23,613 - INFO -     → Icon identity: brochure
+2026-07-28 17:43:23,743 - INFO -     → Display title: Prospectus
+2026-07-28 17:43:24,307 - INFO -     → Icon color: #0848F8
+2026-07-28 17:43:24,345 - INFO -     → Toggle: dashboard only
+2026-07-28 17:43:26,395 - INFO -     → Image uploaded: Prospectus.png
+2026-07-28 17:43:26,511 - INFO -     → Form submitted
+2026-07-28 17:43:37,301 - INFO -   ✓ Icon added: Prospectus
+
+2026-07-28 17:43:38,302 - INFO - 
+[6/11] Uploading missing icon for Dealor: Refer & Earn
+2026-07-28 17:43:38,303 - INFO -   Adding: [Dealor] Refer & Earn  (referandearn)
+2026-07-28 17:43:50,933 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:43:51,018 - INFO -     → Icon identity: referandearn
+2026-07-28 17:43:51,225 - INFO -     → Display title: Refer & Earn
+2026-07-28 17:43:51,882 - INFO -     → Icon color: #089098
+2026-07-28 17:43:51,916 - INFO -     → Toggle: both
+2026-07-28 17:43:53,962 - INFO -     → Image uploaded: Refer & Earn.png
+2026-07-28 17:43:54,062 - INFO -     → Form submitted
+2026-07-28 17:44:04,765 - INFO -   ✓ Icon added: Refer & Earn
+
+2026-07-28 17:44:05,766 - INFO - 
+[7/11] Uploading missing icon for Dealor: Rewards
+2026-07-28 17:44:05,766 - INFO -   Adding: [Dealor] Rewards  (gift)
+2026-07-28 17:44:18,549 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:44:18,632 - INFO -     → Icon identity: gift
+2026-07-28 17:44:18,809 - INFO -     → Display title: Rewards
+2026-07-28 17:44:19,395 - INFO -     → Icon color: #F00048
+2026-07-28 17:44:19,439 - INFO -     → Toggle: both
+2026-07-28 17:44:21,486 - INFO -     → Image uploaded: Rewards.png
+2026-07-28 17:44:21,584 - INFO -     → Form submitted
+2026-07-28 17:44:32,376 - INFO -   ✓ Icon added: Rewards
+
+2026-07-28 17:44:33,377 - INFO - 
+[8/11] Uploading missing icon for Dealor: Scan History
+2026-07-28 17:44:33,377 - INFO -   Adding: [Dealor] Scan History  (history)
+2026-07-28 17:44:45,965 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:44:46,122 - INFO -     → Icon identity: history
+2026-07-28 17:44:46,300 - INFO -     → Display title: Scan History
+2026-07-28 17:44:46,893 - INFO -     → Icon color: #4808F0
+2026-07-28 17:44:46,948 - INFO -     → Toggle: dashboard only
+2026-07-28 17:44:49,001 - INFO -     → Image uploaded: Scan History.png
+2026-07-28 17:44:49,101 - INFO -     → Form submitted
+2026-07-28 17:44:59,897 - INFO -   ✓ Icon added: Scan History
+
+2026-07-28 17:45:00,898 - INFO - 
+[9/11] Uploading missing icon for Dealor: Support
+2026-07-28 17:45:00,898 - INFO -   Adding: [Dealor] Support  (help)
+2026-07-28 17:45:13,504 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:45:13,608 - INFO -     → Icon identity: help
+2026-07-28 17:45:13,765 - INFO -     → Display title: Support
+2026-07-28 17:45:14,317 - INFO -     → Icon color: #0030F0
+2026-07-28 17:45:14,350 - INFO -     → Toggle: dashboard only
+2026-07-28 17:45:16,423 - INFO -     → Image uploaded: Support.png
+2026-07-28 17:45:16,549 - INFO -     → Form submitted
+2026-07-28 17:45:27,248 - INFO -   ✓ Icon added: Support
+
+2026-07-28 17:45:28,249 - INFO - 
+[10/11] Uploading missing icon for Dealor: TDS
+2026-07-28 17:45:28,249 - INFO -   Adding: [Dealor] TDS  (tds)
+2026-07-28 17:45:40,888 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:45:40,981 - INFO -     → Icon identity: tds
+2026-07-28 17:45:41,112 - INFO -     → Display title: TDS
+2026-07-28 17:45:41,622 - INFO -     → Icon color: #20C880
+2026-07-28 17:45:41,708 - INFO -     → Toggle: side menu
+2026-07-28 17:45:43,748 - INFO -     → Image uploaded: TDS.png
+2026-07-28 17:45:43,877 - INFO -     → Form submitted
+2026-07-28 17:45:54,696 - INFO -   ✓ Icon added: TDS
+
+2026-07-28 17:45:55,697 - INFO - 
+[11/11] Uploading missing icon for Dealor: Updates
+2026-07-28 17:45:55,698 - INFO -   Adding: [Dealor] Updates  (blog)
+2026-07-28 17:46:08,220 - INFO -     → User type selected by exact text: Dealor
+2026-07-28 17:46:08,327 - INFO -     → Icon identity: blog
+2026-07-28 17:46:08,451 - INFO -     → Display title: Updates
+2026-07-28 17:46:09,040 - INFO -     → Icon color: #F87820
+2026-07-28 17:46:09,074 - INFO -     → Toggle: dashboard only
+2026-07-28 17:46:11,118 - INFO -     → Image uploaded: Updates.png
+2026-07-28 17:46:11,226 - INFO -     → Form submitted
+2026-07-28 17:46:22,014 - INFO -   ✓ Icon added: Updates
+
+2026-07-28 17:46:23,015 - INFO - 
+============================================================
+2026-07-28 17:46:23,016 - INFO - MISSING ICONS UPLOAD SUMMARY
+2026-07-28 17:46:23,016 - INFO - ============================================================
+2026-07-28 17:46:23,017 - INFO - Successful uploads: 11
+2026-07-28 17:46:23,017 - INFO - Failed uploads: 0
+2026-07-28 17:46:23,018 - INFO - Total processed: 11
+2026-07-28 17:46:23,019 - INFO - ============================================================
+2026-07-28 17:46:25,504 - INFO - Browser closed
+2026-07-28 17:46:29,573 - INFO - 
+Task finished at 2026-07-28 17:46:29
+2026-07-28 17:46:29,573 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260728_173916.log
+
+2026-07-29 00:31:26,743 - INFO - Automation cancelled by user (Ctrl+C)

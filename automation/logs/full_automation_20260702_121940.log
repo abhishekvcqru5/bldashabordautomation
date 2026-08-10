@@ -1,0 +1,921 @@
+2026-07-02 12:19:56,555 - INFO - User selected: Product Management Image Upload
+2026-07-02 12:19:56,556 - INFO - ============================================================
+2026-07-02 12:19:56,556 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-02 12:19:56,556 - INFO - ============================================================
+2026-07-02 12:19:56,559 - INFO - Total folders found: 83
+2026-07-02 12:19:56,560 - INFO - Resuming: 12 products already completed
+2026-07-02 12:19:56,560 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-02 12:19:56,564 - INFO -   ✓ Already done (skipping): 0.75 sq.mm HRFR Multistrand copper cable 90 mtr
+2026-07-02 12:19:56,565 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:19:56,565 - INFO -   ✓ Already done (skipping): 0.75 sq.mm x2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:19:56,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm FRLSH multistrand cable 90 mtr, 24 coil bag packing
+2026-07-02 12:19:56,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm FRLSH mutistrand copper cable 90 mtr
+2026-07-02 12:19:56,565 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand cable 45 mtr, 48 coil carton packing
+2026-07-02 12:19:56,566 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand cable 90 mtr, 24 coils carton packing
+2026-07-02 12:19:56,566 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-02 12:19:56,566 - INFO -   ✓ Already done (skipping): 1.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 12:19:56,566 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:19:56,567 - INFO -   ✓ Already done (skipping): 1.0 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:19:56,598 - INFO - Pending: 71 products to upload
+2026-07-02 12:19:56,598 - INFO - 
+============================================================
+2026-07-02 12:19:56,599 - INFO - BATCH 1/8 — 10 products
+2026-07-02 12:19:56,599 - INFO - ============================================================
+2026-07-02 12:19:56,615 - INFO - ====== WebDriver manager ======
+2026-07-02 12:19:58,382 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:19:59,019 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:19:59,675 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 12:20:01,071 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 12:20:01,076 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 12:20:01,147 - INFO - ✓ Chrome driver initialized
+2026-07-02 12:20:01,151 - INFO - Logging in…
+2026-07-02 12:20:01,151 - INFO - Opening login page...
+2026-07-02 12:20:02,789 - INFO -   → Policy checkbox checked on login page
+2026-07-02 12:20:02,954 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 12:20:02,986 - INFO -   → Policy agreement popup detected
+2026-07-02 12:20:03,105 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 12:20:03,675 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 12:20:09,948 - INFO -   → Policy agreement popup detected
+2026-07-02 12:20:09,973 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 12:20:10,827 - INFO -     ✓ Clicked Continue button
+2026-07-02 12:20:11,759 - INFO -     ✓ Policy popup dismissed
+2026-07-02 12:20:12,784 - INFO - ✓ Login successful
+2026-07-02 12:20:18,593 - INFO - Clicked Product Management
+2026-07-02 12:20:21,660 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:20:21,661 - INFO - Processing: 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:20:21,664 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\1e127bac-213d-4f5a-84cd-938567636288.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\4a554d64-aab4-4c1b-ac56-1e4eddd11a7e.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\5d66a9e2-f4e2-4a01-8aec-579b3bb687a0.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\c215522f-3a11-44f6-8ebd-701e2fa2bf70.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\f3aab9db-378b-4f59-903c-eec29d31d6b3.jpg']
+2026-07-02 12:20:25,561 - INFO -   Matched → '+4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81' (Score: 10.76)
+2026-07-02 12:20:30,191 - INFO -   Modal opened
+2026-07-02 12:20:31,788 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:20:33,881 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:20:35,870 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:20:37,941 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:20:39,904 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:20:43,384 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:20:43,845 - INFO -   Sequentially uploaded: 1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-02 12:20:47,325 - INFO -   Sequentially uploaded: 4a554d64-aab4-4c1b-ac56-1e4eddd11a7e.jpg
+2026-07-02 12:20:50,792 - INFO -   Sequentially uploaded: 5d66a9e2-f4e2-4a01-8aec-579b3bb687a0.jpg
+2026-07-02 12:20:54,260 - INFO -   Sequentially uploaded: c215522f-3a11-44f6-8ebd-701e2fa2bf70.jpg
+2026-07-02 12:20:57,751 - INFO -   Sequentially uploaded: f3aab9db-378b-4f59-903c-eec29d31d6b3.jpg
+2026-07-02 12:21:01,243 - INFO -   Clicked Save Changes
+2026-07-02 12:21:01,305 - INFO -   ✓ Done: +4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81
+2026-07-02 12:21:02,307 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:21:02,309 - INFO - Processing: 1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing
+2026-07-02 12:21:02,309 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm FRLSH  multistrand cable 90 mtr, 20 coil bag packing\\a2eed846-b160-4064-b48c-0fa6a19b56d5.jpg']
+2026-07-02 12:21:06,588 - INFO -   Matched → '1.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 20 Coil Bag Packing MULTISTRAND CABLES ID: 167' (Score: 10.82)
+2026-07-02 12:21:13,077 - INFO -   Modal opened
+2026-07-02 12:21:14,612 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:21:18,099 - INFO -   Uploaded 1 images at once
+2026-07-02 12:21:22,600 - INFO -   Clicked Save Changes
+2026-07-02 12:21:22,639 - INFO -   ✓ Done: 1.5 Sq.Mm Frlsh Multistrand Cable 90 Mtr, 20 Coil Bag Packing MULTISTRAND CABLES ID: 167
+2026-07-02 12:21:23,642 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:21:23,643 - INFO - Processing: 1.5 sq.mm FRLSH multistrand copper cable 90 mtr
+2026-07-02 12:21:23,643 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\\28769457-35cf-44a6-8f7d-6368bdd45fb2.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\\327b47c0-cb58-473e-b6cc-b4b7d30c78e4.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\\7f521cea-d9c8-477c-b83c-4e43ff275bb9.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\\9d229e56-c027-46c0-8e4b-b5d362d40861.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm FRLSH multistrand copper cable 90 mtr\\e1d80aaf-f6cc-4d40-82af-f70a66e89c9c.jpg']
+2026-07-02 12:21:28,759 - INFO -   Matched → '1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 62' (Score: 10.79)
+2026-07-02 12:21:33,342 - INFO -   Modal opened
+2026-07-02 12:21:36,337 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:21:36,786 - INFO -   Sequentially uploaded: 28769457-35cf-44a6-8f7d-6368bdd45fb2.jpg
+2026-07-02 12:21:40,244 - INFO -   Sequentially uploaded: 327b47c0-cb58-473e-b6cc-b4b7d30c78e4.jpg
+2026-07-02 12:21:43,706 - INFO -   Sequentially uploaded: 7f521cea-d9c8-477c-b83c-4e43ff275bb9.jpg
+2026-07-02 12:21:47,171 - INFO -   Sequentially uploaded: 9d229e56-c027-46c0-8e4b-b5d362d40861.jpg
+2026-07-02 12:21:50,659 - INFO -   Sequentially uploaded: e1d80aaf-f6cc-4d40-82af-f70a66e89c9c.jpg
+2026-07-02 12:21:54,289 - INFO -   Clicked Save Changes
+2026-07-02 12:21:54,373 - INFO -   ✓ Done: 1.5 Sq.Mm Frlsh Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 62
+2026-07-02 12:21:55,375 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:21:55,376 - INFO - Processing: 1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing
+2026-07-02 12:21:55,376 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand cable 45 mtr, 40 coil carton packing\\1ed736bd-e87a-4dcd-a087-89491b94efae.jpg']
+2026-07-02 12:21:59,857 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing MULTISTRAND CABLES ID: 165' (Score: 10.83)
+2026-07-02 12:22:04,437 - INFO -   Modal opened
+2026-07-02 12:22:05,958 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:22:09,427 - INFO -   Uploaded 1 images at once
+2026-07-02 12:22:13,956 - INFO -   Clicked Save Changes
+2026-07-02 12:22:14,016 - INFO -   ✓ Done: 1.5 Sq.Mm Hrfr Multistrand Cable 45 Mtr, 40 Coil Carton Packing MULTISTRAND CABLES ID: 165
+2026-07-02 12:22:15,023 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:22:15,023 - INFO - Processing: 1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing
+2026-07-02 12:22:15,024 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand cable 90 mtr, 20 coils carton packing\\cf2943aa-a3dd-467b-9085-6cf9d9b71bd9.jpg']
+2026-07-02 12:22:20,321 - INFO -   Matched → '1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing MULTISTRAND CABLES ID: 161' (Score: 10.83)
+2026-07-02 12:22:25,274 - INFO -   Modal opened
+2026-07-02 12:22:26,799 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:22:30,255 - INFO -   Uploaded 1 images at once
+2026-07-02 12:22:34,763 - INFO -   Clicked Save Changes
+2026-07-02 12:22:34,892 - INFO -   ✓ Done: 1.5 Sq.Mm Hrfr Multistrand Cable 90 Mtr, 20 Coils Carton Packing MULTISTRAND CABLES ID: 161
+2026-07-02 12:22:35,894 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:22:35,899 - INFO - Processing: 1.5 sq.mm HRFR multistrand copper cable 45 mtr
+2026-07-02 12:22:35,900 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 45 mtr\\149912aa-1c26-4857-9163-3db7356611d1.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 45 mtr\\53a64f60-176d-4d6b-bc5a-0609533d1548.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 45 mtr\\adfd1387-d45c-4e1e-8d5a-86a4f0d34f06.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 45 mtr\\d00a973b-47b8-4e45-b06d-1be40f83514d.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 45 mtr\\d2180bee-3c4c-47ec-9492-d76c0afa8156.jpg']
+2026-07-02 12:22:40,361 - INFO -   Matched → '+4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27' (Score: 10.77)
+2026-07-02 12:22:44,948 - INFO -   Modal opened
+2026-07-02 12:22:46,467 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:22:48,430 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:22:50,386 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:22:52,356 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:22:54,331 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:22:57,757 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:22:58,210 - INFO -   Sequentially uploaded: 149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-02 12:23:01,709 - INFO -   Sequentially uploaded: 53a64f60-176d-4d6b-bc5a-0609533d1548.jpg
+2026-07-02 12:23:05,196 - INFO -   Sequentially uploaded: adfd1387-d45c-4e1e-8d5a-86a4f0d34f06.jpg
+2026-07-02 12:23:08,679 - INFO -   Sequentially uploaded: d00a973b-47b8-4e45-b06d-1be40f83514d.jpg
+2026-07-02 12:23:12,160 - INFO -   Sequentially uploaded: d2180bee-3c4c-47ec-9492-d76c0afa8156.jpg
+2026-07-02 12:23:18,367 - INFO -   Clicked Save Changes
+2026-07-02 12:23:18,423 - INFO -   ✓ Done: +4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27
+2026-07-02 12:23:19,426 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:23:19,427 - INFO - Processing: 1.5 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 12:23:19,431 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 90 mtr\\0b38e7bb-358a-48db-bcb9-c565fa9d5ebf.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 90 mtr\\38df5724-dcf4-4222-b792-dea6fd0cf512.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 90 mtr\\6a5ba7b8-ce6e-4509-843f-3b109f03aa95.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 90 mtr\\7e8752f9-0e14-4cc2-b877-9f2957fdaed6.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm HRFR multistrand copper cable 90 mtr\\d48c102e-3abc-4aae-95a0-b8b66d50c147.jpg']
+2026-07-02 12:23:28,893 - INFO -   Matched → '+3 1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 67' (Score: 10.77)
+2026-07-02 12:23:35,587 - INFO -   Modal opened
+2026-07-02 12:23:37,107 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:23:39,155 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:23:41,193 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:23:43,205 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:23:46,655 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:23:47,140 - INFO -   Sequentially uploaded: 0b38e7bb-358a-48db-bcb9-c565fa9d5ebf.jpg
+2026-07-02 12:23:50,618 - INFO -   Sequentially uploaded: 38df5724-dcf4-4222-b792-dea6fd0cf512.jpg
+2026-07-02 12:23:54,090 - INFO -   Sequentially uploaded: 6a5ba7b8-ce6e-4509-843f-3b109f03aa95.jpg
+2026-07-02 12:23:57,572 - INFO -   Sequentially uploaded: 7e8752f9-0e14-4cc2-b877-9f2957fdaed6.jpg
+2026-07-02 12:24:01,133 - INFO -   Sequentially uploaded: d48c102e-3abc-4aae-95a0-b8b66d50c147.jpg
+2026-07-02 12:24:04,627 - INFO -   Clicked Save Changes
+2026-07-02 12:24:04,677 - INFO -   ✓ Done: +3 1.5 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 67
+2026-07-02 12:24:05,681 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:24:05,686 - INFO - Processing: 1.5 sq.mm submersible flat cable 100 mtr
+2026-07-02 12:24:05,687 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 100 mtr\\4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 100 mtr\\4fbb431b-60c9-4ccd-9150-481d3575c05d.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 100 mtr\\c837ef8c-bcf2-40ee-85c4-7922d52a5fd4.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 100 mtr\\e63b0f2d-2aab-4062-8c2f-0dbdded6aabc.jpg']
+2026-07-02 12:24:11,668 - INFO -   Matched → '+3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86' (Score: 10.75)
+2026-07-02 12:24:16,643 - INFO -   Modal opened
+2026-07-02 12:24:18,179 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:24:20,221 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:24:22,266 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:24:24,255 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:24:28,034 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:24:28,861 - INFO -   Sequentially uploaded: 4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-02 12:24:32,374 - INFO -   Sequentially uploaded: 4fbb431b-60c9-4ccd-9150-481d3575c05d.jpg
+2026-07-02 12:24:35,858 - INFO -   Sequentially uploaded: c837ef8c-bcf2-40ee-85c4-7922d52a5fd4.jpg
+2026-07-02 12:24:39,321 - INFO -   Sequentially uploaded: e63b0f2d-2aab-4062-8c2f-0dbdded6aabc.jpg
+2026-07-02 12:24:42,857 - INFO -   Clicked Save Changes
+2026-07-02 12:24:42,888 - INFO -   ✓ Done: +3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86
+2026-07-02 12:24:43,891 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:24:43,892 - INFO - Processing: 1.5 sq.mm submersible flat cable 500 mtr
+2026-07-02 12:24:43,892 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 500 mtr\\3f28d977-0825-458e-9238-ece8847261e9.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 500 mtr\\422aa130-efe4-47dd-892f-1bcaec71411e.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 500 mtr\\62bc934a-7849-4096-82ca-d375d681533b.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm submersible flat cable 500 mtr\\81516ba4-d4c3-446b-9a29-c1951162b1d6.jpg']
+2026-07-02 12:24:50,506 - INFO -   Matched → '+2 1.5 Sq.Mm Submersible Flat Cable 500 Mtr SUBMERSIBLE CABLES ID: 91' (Score: 10.75)
+2026-07-02 12:24:57,886 - INFO -   Modal opened
+2026-07-02 12:24:59,560 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:25:01,810 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:25:03,873 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:25:07,576 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:25:08,083 - INFO -   Sequentially uploaded: 3f28d977-0825-458e-9238-ece8847261e9.jpg
+2026-07-02 12:25:11,561 - INFO -   Sequentially uploaded: 422aa130-efe4-47dd-892f-1bcaec71411e.jpg
+2026-07-02 12:25:15,657 - INFO -   Sequentially uploaded: 62bc934a-7849-4096-82ca-d375d681533b.jpg
+2026-07-02 12:25:19,276 - INFO -   Sequentially uploaded: 81516ba4-d4c3-446b-9a29-c1951162b1d6.jpg
+2026-07-02 12:25:22,738 - INFO -   Clicked Save Changes
+2026-07-02 12:25:22,772 - INFO -   ✓ Done: +2 1.5 Sq.Mm Submersible Flat Cable 500 Mtr SUBMERSIBLE CABLES ID: 91
+2026-07-02 12:25:23,773 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:25:23,774 - INFO - Processing: 1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:25:23,774 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\\0b10deb8-f6d7-4f14-b53d-b178ec9342a1.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\\1d99bcde-58e3-4b1b-9e37-898a011f2b3b.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\\38af6ce6-6ee9-47ab-aea8-92b3653db9b2.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\\94a76ab7-b4a3-42c6-846e-8963af600b44.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 2 core FRLSH round copper flexible cable 90 mtr\\bdaa377a-e9ab-47a4-a061-a151e776067a.jpg']
+2026-07-02 12:25:28,091 - INFO -   Matched → '+3 1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 71' (Score: 10.76)
+2026-07-02 12:25:32,640 - INFO -   Modal opened
+2026-07-02 12:25:34,172 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:25:36,183 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:25:38,173 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:25:40,171 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:25:43,649 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:25:44,097 - INFO -   Sequentially uploaded: 0b10deb8-f6d7-4f14-b53d-b178ec9342a1.jpg
+2026-07-02 12:25:47,568 - INFO -   Sequentially uploaded: 1d99bcde-58e3-4b1b-9e37-898a011f2b3b.jpg
+2026-07-02 12:25:51,244 - INFO -   Sequentially uploaded: 38af6ce6-6ee9-47ab-aea8-92b3653db9b2.jpg
+2026-07-02 12:25:54,711 - INFO -   Sequentially uploaded: 94a76ab7-b4a3-42c6-846e-8963af600b44.jpg
+2026-07-02 12:25:58,174 - INFO -   Sequentially uploaded: bdaa377a-e9ab-47a4-a061-a151e776067a.jpg
+2026-07-02 12:26:01,705 - INFO -   Clicked Save Changes
+2026-07-02 12:26:01,737 - INFO -   ✓ Done: +3 1.5 Sq.Mm X 2 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 71
+2026-07-02 12:26:05,102 - INFO - Browser closed
+2026-07-02 12:26:05,106 - INFO - 
+============================================================
+2026-07-02 12:26:05,106 - INFO - BATCH 2/8 — 10 products
+2026-07-02 12:26:05,107 - INFO - ============================================================
+2026-07-02 12:26:05,128 - INFO - ====== WebDriver manager ======
+2026-07-02 12:26:07,140 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:26:07,765 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:26:08,310 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 12:26:09,547 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 12:26:09,558 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 12:26:09,607 - INFO - ✓ Chrome driver initialized
+2026-07-02 12:26:13,662 - INFO - Logging in…
+2026-07-02 12:26:13,663 - INFO - Opening login page...
+2026-07-02 12:26:15,244 - INFO -   → Policy checkbox checked on login page
+2026-07-02 12:26:15,403 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 12:26:15,430 - INFO -   → Policy agreement popup detected
+2026-07-02 12:26:15,502 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 12:26:16,090 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 12:26:22,329 - INFO -   → Policy agreement popup detected
+2026-07-02 12:26:22,359 - INFO -     ✓ Policy checkbox was already checked
+2026-07-02 12:26:23,338 - INFO -     ✓ Clicked Continue button
+2026-07-02 12:26:23,692 - INFO -     ✓ Policy popup dismissed
+2026-07-02 12:26:24,720 - INFO - ✓ Login successful
+2026-07-02 12:26:30,619 - INFO - Clicked Product Management
+2026-07-02 12:26:33,701 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:26:33,702 - INFO - Processing: 1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:26:33,702 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\2167e62a-3e35-4a6d-b1e7-0e766397cf10.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\4cb3d3a4-0cdc-4006-bb06-6e8c218bf75c.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\5dc18281-078e-4034-81d9-ad35436b0dcf.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\761a54d3-7259-4f63-a8c0-46da8a78d62b.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 3 core FRLSH round copper flexible cable 90 mtr\\c7c83d1b-1975-4cfc-9de1-bf91fbc79108.jpg']
+2026-07-02 12:26:37,161 - INFO -   Matched → '+3 1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 77' (Score: 10.76)
+2026-07-02 12:26:42,879 - INFO -   Modal opened
+2026-07-02 12:26:44,422 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:26:46,424 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:26:48,390 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:26:50,421 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:26:54,391 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:26:55,022 - INFO -   Sequentially uploaded: 2167e62a-3e35-4a6d-b1e7-0e766397cf10.jpg
+2026-07-02 12:26:58,526 - INFO -   Sequentially uploaded: 4cb3d3a4-0cdc-4006-bb06-6e8c218bf75c.jpg
+2026-07-02 12:27:01,985 - INFO -   Sequentially uploaded: 5dc18281-078e-4034-81d9-ad35436b0dcf.jpg
+2026-07-02 12:27:05,449 - INFO -   Sequentially uploaded: 761a54d3-7259-4f63-a8c0-46da8a78d62b.jpg
+2026-07-02 12:27:08,907 - INFO -   Sequentially uploaded: c7c83d1b-1975-4cfc-9de1-bf91fbc79108.jpg
+2026-07-02 12:27:12,437 - INFO -   Clicked Save Changes
+2026-07-02 12:27:12,484 - INFO -   ✓ Done: +3 1.5 Sq.Mm X 3 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 77
+2026-07-02 12:27:13,487 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:27:13,488 - INFO - Processing: 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr
+2026-07-02 12:27:13,488 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\06e0def0-078c-4946-b42d-64c9777aa8c4.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\6685ea72-6153-49b5-a96b-37f3cf69bf2c.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\b66adddd-95b5-4d01-b1dd-a66bb08ca6bf.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\dde74ee4-7b2f-4fa3-a39c-6f754a70ab0e.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr\\e220c25b-6f72-4d8a-8585-9b8e85da4f58.jpg']
+2026-07-02 12:27:17,854 - INFO -   Matched → '+4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82' (Score: 10.76)
+2026-07-02 12:27:22,446 - INFO -   Modal opened
+2026-07-02 12:27:23,964 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:27:25,975 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:27:28,257 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:27:30,288 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:27:32,403 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:27:35,859 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:27:36,334 - INFO -   Sequentially uploaded: 06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-02 12:27:39,804 - INFO -   Sequentially uploaded: 6685ea72-6153-49b5-a96b-37f3cf69bf2c.jpg
+2026-07-02 12:27:43,271 - INFO -   Sequentially uploaded: b66adddd-95b5-4d01-b1dd-a66bb08ca6bf.jpg
+2026-07-02 12:27:46,755 - INFO -   Sequentially uploaded: dde74ee4-7b2f-4fa3-a39c-6f754a70ab0e.jpg
+2026-07-02 12:27:51,835 - INFO -   Sequentially uploaded: e220c25b-6f72-4d8a-8585-9b8e85da4f58.jpg
+2026-07-02 12:27:55,703 - INFO -   Clicked Save Changes
+2026-07-02 12:27:55,773 - INFO -   ✓ Done: +4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82
+2026-07-02 12:27:56,776 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:27:56,776 - INFO - Processing: 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt
+2026-07-02 12:27:56,777 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\\06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\\53b021ae-9f1e-4993-8553-057e097e4e19.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\\b2537121-218c-4a81-b070-dd3ce46a982f.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\\ce5b7bff-e2f1-4644-b653-e9ab2af6c971.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt\\ec85430d-10ff-4ebf-b9a0-80ecc7d609a4.jpg']
+2026-07-02 12:28:06,120 - INFO -   Matched → '+4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98' (Score: 10.74)
+2026-07-02 12:28:12,753 - INFO -   Modal opened
+2026-07-02 12:28:14,281 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:28:16,326 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:28:18,384 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:28:20,388 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:28:22,504 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:28:26,086 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:28:26,572 - INFO -   Sequentially uploaded: 06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-02 12:28:30,054 - INFO -   Sequentially uploaded: 53b021ae-9f1e-4993-8553-057e097e4e19.jpg
+2026-07-02 12:28:33,540 - INFO -   Sequentially uploaded: b2537121-218c-4a81-b070-dd3ce46a982f.jpg
+2026-07-02 12:28:37,016 - INFO -   Sequentially uploaded: ce5b7bff-e2f1-4644-b653-e9ab2af6c971.jpg
+2026-07-02 12:28:40,647 - INFO -   Sequentially uploaded: ec85430d-10ff-4ebf-b9a0-80ecc7d609a4.jpg
+2026-07-02 12:28:44,140 - INFO -   Clicked Save Changes
+2026-07-02 12:28:44,176 - INFO -   ✓ Done: +4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98
+2026-07-02 12:28:45,181 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:28:45,182 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )
+2026-07-02 12:28:45,182 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\\17eff4a5-d386-471d-8806-8babd11e30e6.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\\18c26077-d633-4c2d-a76f-a92facb93762.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\\1ca9c0be-ffb6-4907-b327-838cf36ae570.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\\969d4f41-263f-4d42-98f0-db2483e5d575.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mt ( 7 stranded )\\f2fb9310-6a3d-44bc-9c2c-a8915c74b9f9.jpg']
+2026-07-02 12:28:50,740 - INFO -   Matched → '+3 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 99' (Score: 10.74)
+2026-07-02 12:28:57,356 - INFO -   Modal opened
+2026-07-02 12:28:58,879 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:29:00,854 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:29:02,891 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:29:04,881 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:29:08,374 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:29:08,835 - INFO -   Sequentially uploaded: 17eff4a5-d386-471d-8806-8babd11e30e6.jpg
+2026-07-02 12:29:12,306 - INFO -   Sequentially uploaded: 18c26077-d633-4c2d-a76f-a92facb93762.jpg
+2026-07-02 12:29:15,874 - INFO -   Sequentially uploaded: 1ca9c0be-ffb6-4907-b327-838cf36ae570.jpg
+2026-07-02 12:29:19,508 - INFO -   Sequentially uploaded: 969d4f41-263f-4d42-98f0-db2483e5d575.jpg
+2026-07-02 12:29:22,990 - INFO -   Sequentially uploaded: f2fb9310-6a3d-44bc-9c2c-a8915c74b9f9.jpg
+2026-07-02 12:29:26,505 - INFO -   Clicked Save Changes
+2026-07-02 12:29:26,559 - INFO -   ✓ Done: +3 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mt ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 99
+2026-07-02 12:29:27,561 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:29:27,566 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)
+2026-07-02 12:29:27,567 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\\2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\\97958f8e-03ec-49ea-8894-ec97068856eb.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\\f4788749-a2ab-4d66-aeac-770ec5457fd8.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\\fa940a6a-4d2c-483f-82bb-9cdf72db90fa.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded)\\fabc86fe-7773-48fd-9ed9-fcda7c196c82.jpg']
+2026-07-02 12:29:33,208 - INFO -   Matched → '+4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112' (Score: 10.74)
+2026-07-02 12:29:38,003 - INFO -   Modal opened
+2026-07-02 12:29:39,535 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:29:41,507 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:29:43,470 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:29:45,459 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:29:47,488 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:29:50,968 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:29:51,419 - INFO -   Sequentially uploaded: 2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-02 12:29:54,876 - INFO -   Sequentially uploaded: 97958f8e-03ec-49ea-8894-ec97068856eb.jpg
+2026-07-02 12:29:58,454 - INFO -   Sequentially uploaded: f4788749-a2ab-4d66-aeac-770ec5457fd8.jpg
+2026-07-02 12:30:01,952 - INFO -   Sequentially uploaded: fa940a6a-4d2c-483f-82bb-9cdf72db90fa.jpg
+2026-07-02 12:30:05,409 - INFO -   Sequentially uploaded: fabc86fe-7773-48fd-9ed9-fcda7c196c82.jpg
+2026-07-02 12:30:08,902 - INFO -   Clicked Save Changes
+2026-07-02 12:30:08,936 - INFO -   ✓ Done: +4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112
+2026-07-02 12:30:09,966 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:30:09,967 - INFO - Processing: 10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)
+2026-07-02 12:30:09,968 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\\0716cdf9-c146-49cd-ac15-f410e6598ba4.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\\570c4805-8655-423a-86d7-c00800f42611.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\\7090cb79-61b3-40a7-9edb-45279fdb752b.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\\80bb00db-7dde-4887-8a9b-4a854d0dc700.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded)\\c75630a3-2ec9-4eb0-b07c-6a634d8531ab.jpg']
+2026-07-02 12:30:14,255 - INFO -   Matched → '+4 10.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 108' (Score: 10.73)
+2026-07-02 12:30:21,029 - INFO -   Modal opened
+2026-07-02 12:30:22,567 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:30:24,568 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:30:26,540 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:30:28,499 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:30:30,616 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:30:34,076 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:30:34,561 - INFO -   Sequentially uploaded: 0716cdf9-c146-49cd-ac15-f410e6598ba4.jpg
+2026-07-02 12:30:38,008 - INFO -   Sequentially uploaded: 570c4805-8655-423a-86d7-c00800f42611.jpg
+2026-07-02 12:30:41,467 - INFO -   Sequentially uploaded: 7090cb79-61b3-40a7-9edb-45279fdb752b.jpg
+2026-07-02 12:30:44,927 - INFO -   Sequentially uploaded: 80bb00db-7dde-4887-8a9b-4a854d0dc700.jpg
+2026-07-02 12:30:48,401 - INFO -   Sequentially uploaded: c75630a3-2ec9-4eb0-b07c-6a634d8531ab.jpg
+2026-07-02 12:30:52,015 - INFO -   Clicked Save Changes
+2026-07-02 12:30:52,063 - INFO -   ✓ Done: +4 10.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 108
+2026-07-02 12:30:53,069 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:30:53,070 - INFO - Processing: 10.0 sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 12:30:53,070 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm HRFR multistrand copper cable 90 mtr\\63137fc6-1845-4160-ad12-edf623cf92b4.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm HRFR multistrand copper cable 90 mtr\\6df78ac7-ad8d-4d4c-b7cf-0bfc93dbdb33.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm HRFR multistrand copper cable 90 mtr\\7c059445-ad7f-49f4-80a1-0dd0eec883b8.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm HRFR multistrand copper cable 90 mtr\\8cdba001-6462-4593-8a25-6e9f159d3341.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\10.0 sq.mm HRFR multistrand copper cable 90 mtr\\ef8f5c72-60fd-4577-979b-9d3b4520ab7a.jpg']
+2026-07-02 12:30:58,238 - INFO -   Matched → '+4 10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 29' (Score: 10.78)
+2026-07-02 12:31:03,038 - INFO -   Modal opened
+2026-07-02 12:31:04,577 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:31:06,659 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:31:08,634 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:31:10,637 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:31:12,625 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:31:16,344 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:31:16,889 - INFO -   Sequentially uploaded: 63137fc6-1845-4160-ad12-edf623cf92b4.jpg
+2026-07-02 12:31:20,718 - INFO -   Sequentially uploaded: 6df78ac7-ad8d-4d4c-b7cf-0bfc93dbdb33.jpg
+2026-07-02 12:31:24,188 - INFO -   Sequentially uploaded: 7c059445-ad7f-49f4-80a1-0dd0eec883b8.jpg
+2026-07-02 12:31:27,692 - INFO -   Sequentially uploaded: 8cdba001-6462-4593-8a25-6e9f159d3341.jpg
+2026-07-02 12:31:31,180 - INFO -   Sequentially uploaded: ef8f5c72-60fd-4577-979b-9d3b4520ab7a.jpg
+2026-07-02 12:31:34,851 - INFO -   Clicked Save Changes
+2026-07-02 12:31:34,903 - INFO -   ✓ Done: +4 10.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 29
+2026-07-02 12:31:35,907 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:31:35,908 - INFO - Processing: 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing
+2026-07-02 12:31:35,908 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing\\0922d53e-4c91-4335-9559-9367dffe7dd4.jpg']
+2026-07-02 12:31:41,406 - INFO -   Matched → '14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175' (Score: 10.78)
+2026-07-02 12:31:46,035 - INFO -   Modal opened
+2026-07-02 12:31:47,566 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:31:51,109 - INFO -   Uploaded 1 images at once
+2026-07-02 12:31:55,650 - INFO -   Clicked Save Changes
+2026-07-02 12:31:55,706 - INFO -   ✓ Done: 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175
+2026-07-02 12:31:56,709 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:31:56,709 - INFO - Processing: 14_40 x 2 core white parallel wire 90 mtr
+2026-07-02 12:31:56,709 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_40 x 2 core white parallel wire 90 mtr\\1c295799-1941-446a-8424-b50de4966935.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_40 x 2 core white parallel wire 90 mtr\\6447bdb2-b9f9-4b29-af8f-f5a76b68176f.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_40 x 2 core white parallel wire 90 mtr\\b9c6e516-a808-4877-b3af-55efb65cb579.jpg']
+2026-07-02 12:32:01,491 - INFO -   Matched → '+2 14/40 X 2 Core White Parallel Wire 90 Mtr 2 CORE WHITE PARALLEL WIRE ID: 18' (Score: 10.70)
+2026-07-02 12:32:08,071 - INFO -   Modal opened
+2026-07-02 12:32:09,611 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:32:11,660 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:32:14,089 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:32:17,753 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:32:18,269 - INFO -   Sequentially uploaded: 1c295799-1941-446a-8424-b50de4966935.jpg
+2026-07-02 12:32:21,742 - INFO -   Sequentially uploaded: 6447bdb2-b9f9-4b29-af8f-f5a76b68176f.jpg
+2026-07-02 12:32:25,277 - INFO -   Sequentially uploaded: b9c6e516-a808-4877-b3af-55efb65cb579.jpg
+2026-07-02 12:32:28,757 - INFO -   Clicked Save Changes
+2026-07-02 12:32:28,789 - INFO -   ✓ Done: +2 14/40 X 2 Core White Parallel Wire 90 Mtr 2 CORE WHITE PARALLEL WIRE ID: 18
+2026-07-02 12:32:29,793 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:32:29,793 - INFO - Processing: 14_76 twisted flexible wire 90 mtr
+2026-07-02 12:32:29,794 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_76 twisted flexible wire 90 mtr\\3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_76 twisted flexible wire 90 mtr\\46c590fe-4f84-4e48-b9dc-e898dba45271.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_76 twisted flexible wire 90 mtr\\5fb49ece-4eb7-4447-bf22-057f32238ca0.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_76 twisted flexible wire 90 mtr\\c4b9311c-2921-4775-abfd-6f64e2c02415.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_76 twisted flexible wire 90 mtr\\f119e133-e62a-4151-a056-bb1a95875331.jpg']
+2026-07-02 12:32:35,417 - INFO -   Matched → '+4 14/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 16' (Score: 10.69)
+2026-07-02 12:32:39,968 - INFO -   Modal opened
+2026-07-02 12:32:41,494 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:32:43,458 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:32:45,467 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:32:47,445 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:32:49,537 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:32:53,106 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:32:53,572 - INFO -   Sequentially uploaded: 3f59a06e-2fca-497b-88e8-ea32fcb1fbfe.jpg
+2026-07-02 12:32:57,053 - INFO -   Sequentially uploaded: 46c590fe-4f84-4e48-b9dc-e898dba45271.jpg
+2026-07-02 12:33:00,737 - INFO -   Sequentially uploaded: 5fb49ece-4eb7-4447-bf22-057f32238ca0.jpg
+2026-07-02 12:33:04,225 - INFO -   Sequentially uploaded: c4b9311c-2921-4775-abfd-6f64e2c02415.jpg
+2026-07-02 12:33:07,708 - INFO -   Sequentially uploaded: f119e133-e62a-4151-a056-bb1a95875331.jpg
+2026-07-02 12:33:11,193 - INFO -   Clicked Save Changes
+2026-07-02 12:33:11,271 - INFO -   ✓ Done: +4 14/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 16
+2026-07-02 12:33:15,013 - INFO - Browser closed
+2026-07-02 12:33:15,014 - INFO - 
+============================================================
+2026-07-02 12:33:15,014 - INFO - BATCH 3/8 — 10 products
+2026-07-02 12:33:15,015 - INFO - ============================================================
+2026-07-02 12:33:15,034 - INFO - ====== WebDriver manager ======
+2026-07-02 12:33:17,559 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:33:18,267 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-02 12:33:18,942 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver.exe] found in cache
+2026-07-02 12:33:20,820 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-02 12:33:20,837 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-02 12:33:20,995 - INFO - ✓ Chrome driver initialized
+2026-07-02 12:33:25,078 - INFO - Logging in…
+2026-07-02 12:33:25,080 - INFO - Opening login page...
+2026-07-02 12:33:26,910 - INFO -   → Policy checkbox checked on login page
+2026-07-02 12:33:27,083 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-02 12:33:27,104 - INFO -   → Policy agreement popup detected
+2026-07-02 12:33:27,190 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-02 12:33:27,755 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-02 12:33:43,606 - INFO - ✓ Login successful
+2026-07-02 12:33:49,240 - INFO - Clicked Product Management
+2026-07-02 12:33:52,309 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:33:52,310 - INFO - Processing: 14_76 twisted flexible wire 90 mtr, 25 coils bag packing
+2026-07-02 12:33:52,311 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\14_76 twisted flexible wire 90 mtr, 25 coils bag packing\\11dbd383-d33e-4ef2-8601-b2d8370a6464.jpg']
+2026-07-02 12:33:59,377 - INFO -   Matched → '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172' (Score: 10.79)
+2026-07-02 12:34:04,411 - INFO -   Modal opened
+2026-07-02 12:34:05,990 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:34:09,741 - INFO -   Uploaded 1 images at once
+2026-07-02 12:34:14,437 - INFO -   Clicked Save Changes
+2026-07-02 12:34:14,606 - INFO -   ✓ Done: 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172
+2026-07-02 12:34:15,609 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:34:15,610 - INFO - Processing: 16.0  sq.mm HRFR multistrand copper cable 90 mtr
+2026-07-02 12:34:15,610 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0  sq.mm HRFR multistrand copper cable 90 mtr\\1943f102-7920-4862-8884-4834bc3093d2.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0  sq.mm HRFR multistrand copper cable 90 mtr\\7c6d68d2-fb11-4f67-bf97-aabd35d6b1e1.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0  sq.mm HRFR multistrand copper cable 90 mtr\\cbce8530-8fb9-4d91-b88a-ab683ad282c6.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0  sq.mm HRFR multistrand copper cable 90 mtr\\ce6821d2-34f8-4448-8851-84f1aa465c78.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0  sq.mm HRFR multistrand copper cable 90 mtr\\f56a6e5d-d120-4013-b888-f9127b7bd253.jpg']
+2026-07-02 12:34:22,055 - INFO -   Matched → '+4 16.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 28' (Score: 10.78)
+2026-07-02 12:34:28,694 - INFO -   Modal opened
+2026-07-02 12:34:30,240 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:34:32,590 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:34:34,900 - INFO -   Removing an existing image (remaining: 3)
+2026-07-02 12:34:36,909 - INFO -   Removing an existing image (remaining: 2)
+2026-07-02 12:34:39,001 - INFO -   Removing an existing image (remaining: 1)
+2026-07-02 12:34:42,572 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:34:43,034 - INFO -   Sequentially uploaded: 1943f102-7920-4862-8884-4834bc3093d2.jpg
+2026-07-02 12:34:46,523 - INFO -   Sequentially uploaded: 7c6d68d2-fb11-4f67-bf97-aabd35d6b1e1.jpg
+2026-07-02 12:34:49,988 - INFO -   Sequentially uploaded: cbce8530-8fb9-4d91-b88a-ab683ad282c6.jpg
+2026-07-02 12:34:53,472 - INFO -   Sequentially uploaded: ce6821d2-34f8-4448-8851-84f1aa465c78.jpg
+2026-07-02 12:34:56,934 - INFO -   Sequentially uploaded: f56a6e5d-d120-4013-b888-f9127b7bd253.jpg
+2026-07-02 12:35:00,671 - INFO -   Clicked Save Changes
+2026-07-02 12:35:00,755 - INFO -   ✓ Done: +4 16.0 Sq.Mm Hrfr Multistrand Copper Cable 90 Mtr MULTISTRAND CABLES ID: 28
+2026-07-02 12:35:01,758 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:35:01,759 - INFO - Processing: 16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr
+2026-07-02 12:35:01,759 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\\61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\\669e4de6-d29c-46fd-a485-05f477ffbd20.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\\a489c66e-92ad-48c0-9e70-fcfdb527be18.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\\ac58acce-72da-4219-be9a-04edd670b13c.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm aluminium 7 stranded twin flat cable 90 mtr\\ad88e400-914c-43c5-8cf7-12367ed6c5b3.jpg']
+2026-07-02 12:35:09,427 - INFO -   Matched → '16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 100' (Score: 10.74)
+2026-07-02 12:35:14,040 - INFO -   Modal opened
+2026-07-02 12:35:17,067 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x69a543+103f3]
+	chromedriver!GetHandleVerifier [0x69a584+10434]
+	chromedriver!(No symbol) [0x49a700]
+	chromedriver!(No symbol) [0x4df182]
+	chromedriver!(No symbol) [0x5060cc]
+	chromedriver!(No symbol) [0x4da624]
+	chromedriver!(No symbol) [0x506294]
+	chromedriver!(No symbol) [0x52339a]
+	chromedriver!(No symbol) [0x505e66]
+	chromedriver!(No symbol) [0x4d9159]
+	chromedriver!(No symbol) [0x4d9f24]
+	chromedriver!GetHandleVerifier [0x924bba+29aa6a]
+	chromedriver!GetHandleVerifier [0x920119+295fc9]
+	chromedriver!GetHandleVerifier [0x94103e+2b6eee]
+	chromedriver!GetHandleVerifier [0x6b37f6+296a6]
+	chromedriver!GetHandleVerifier [0x6ba91d+307cd]
+	chromedriver!GetHandleVerifier [0x6a2d18+18bc8]
+	chromedriver!GetHandleVerifier [0x6a2ec5+18d75]
+	chromedriver!GetHandleVerifier [0x68c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-02 12:35:17,546 - INFO -   Sequentially uploaded: 61e3845b-0d86-4ef3-9e6b-47445546f49f.jpg
+2026-07-02 12:35:21,158 - INFO -   Sequentially uploaded: 669e4de6-d29c-46fd-a485-05f477ffbd20.jpg
+2026-07-02 12:35:24,941 - INFO -   Sequentially uploaded: a489c66e-92ad-48c0-9e70-fcfdb527be18.jpg
+2026-07-02 12:35:28,413 - INFO -   Sequentially uploaded: ac58acce-72da-4219-be9a-04edd670b13c.jpg
+2026-07-02 12:35:31,894 - INFO -   Sequentially uploaded: ad88e400-914c-43c5-8cf7-12367ed6c5b3.jpg
+2026-07-02 12:35:35,530 - INFO -   Clicked Save Changes
+2026-07-02 12:35:35,604 - INFO -   ✓ Done: 16.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 100
+2026-07-02 12:35:36,606 - INFO - 
+────────────────────────────────────────────────────────────
+2026-07-02 12:35:36,609 - INFO - Processing: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )
+2026-07-02 12:35:36,610 - INFO - Image paths: ['c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\\0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\\23651305-ef69-4f27-869a-a4c6e9809526.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\\37e559c9-f58f-4606-8fbd-1da100867d20.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\\721ad283-cddb-4f34-98b3-3919c2f7ab31.jpg', 'c:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\ambica cables\\16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded )\\a1922248-bb26-4c57-b5e1-fda1c664ac27.jpg']
+2026-07-02 12:35:43,341 - INFO -   Matched → '+4 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 104' (Score: 10.73)
+2026-07-02 12:35:48,192 - INFO -   Modal opened
+2026-07-02 12:35:49,967 - INFO -   Removing an existing image (remaining: 5)
+2026-07-02 12:35:52,552 - INFO -   Removing an existing image (remaining: 4)
+2026-07-02 12:35:52,788 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/b92e8fb4747201d67acc67b7b2167747
+2026-07-02 12:35:56,872 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=52503): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/b92e8fb4747201d67acc67b7b2167747
+2026-07-02 12:36:00,913 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=52503): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/b92e8fb4747201d67acc67b7b2167747
+2026-07-02 12:36:09,039 - INFO - Browser closed
+2026-07-02 12:36:09,040 - INFO - Automation cancelled by user (Ctrl+C)

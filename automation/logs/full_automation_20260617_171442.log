@@ -1,0 +1,347 @@
+2026-06-17 17:14:42,314 - INFO - User selected: Old Dashboard
+2026-06-17 17:14:54,558 - INFO -   Old Dashboard → Product Catalogue
+2026-06-17 17:14:54,573 - INFO - ====== WebDriver manager ======
+2026-06-17 17:14:55,808 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:14:56,190 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:14:56,583 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 17:14:56,583 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 17:14:57,718 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
+2026-06-17 17:14:57,718 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 17:15:03,787 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-17 17:15:05,787 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
+2026-06-17 17:15:05,953 - INFO -       Email → field #login_txt_id
+2026-06-17 17:15:06,038 - INFO -       Password → field #login_txt_pass
+2026-06-17 17:15:06,113 - INFO -       Login button clicked: #btnVendor
+2026-06-17 17:15:06,113 - INFO -     → Waiting for post-login redirect …
+2026-06-17 17:15:07,881 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-17 17:15:09,912 - INFO -   → Searching sidebar for Loyalty App across 1 context(s)
+2026-06-17 17:15:09,972 - INFO -     ✓ Found and clicked Build Loyalty App menu
+2026-06-17 17:15:14,722 - INFO -     ✓ Found and clicked Product Catalogue submenu
+2026-06-17 17:15:22,845 - INFO - ✓ Clicked Add Product Details button
+2026-06-17 17:15:22,873 - INFO - Found 48 rows in table.
+2026-06-17 17:15:22,883 - INFO - DEBUG: First row has 11 cells.
+2026-06-17 17:15:22,897 - INFO - DEBUG: Cell 0 outerHTML: <td>1</td>
+2026-06-17 17:15:22,906 - INFO - DEBUG: Cell 1 outerHTML: <td>Polyester-based</td>
+2026-06-17 17:15:22,914 - INFO - DEBUG: Cell 2 outerHTML: <td>Polyester-based</td>
+2026-06-17 17:15:22,923 - INFO - DEBUG: Cell 3 outerHTML: <td>Crackbond</td>
+2026-06-17 17:15:22,930 - INFO - DEBUG: Cell 4 outerHTML: <td style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Crackbond">
+    Crackbond
+</td>
+2026-06-17 17:15:22,939 - INFO - DEBUG: Cell 5 outerHTML: <td>
+                                                                    -
+                                                                </td>
+2026-06-17 17:15:22,947 - INFO - DEBUG: Cell 6 outerHTML: <td>5.00</td>
+2026-06-17 17:15:22,958 - INFO - DEBUG: Cell 7 outerHTML: <td>5.00</td>
+2026-06-17 17:15:22,967 - INFO - DEBUG: Cell 8 outerHTML: <td>0</td>
+2026-06-17 17:15:22,976 - INFO - DEBUG: Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td>
+2026-06-17 17:15:22,986 - INFO - DEBUG: Cell 10 outerHTML: <td>
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnEditProduct" value="Edit" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnEditProduct">
+                                                                    <input type="submit" name="ctl00$ContentPlaceHolder1$Repeater1$ctl00$btnDelete" value="Delete" id="ctl00_ContentPlaceHolder1_Repeater1_ctl00_btnDelete">
+                                                                </td>
+2026-06-17 17:15:23,076 - INFO - DEBUG: Row 1 (Crackbond) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,076 - INFO - Extracted: Crackbond
+2026-06-17 17:15:23,169 - INFO - DEBUG: Row 2 (L Special) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,169 - INFO - Extracted: L Special
+2026-06-17 17:15:23,249 - INFO - DEBUG: Row 3 (Diamond Clear Gel) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,249 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 17:15:23,340 - INFO - DEBUG: Row 4 (Diamond Clear Liquid) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,340 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 17:15:23,429 - INFO - DEBUG: Row 5 (Akepox 5010) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,429 - INFO - Extracted: Akepox 5010
+2026-06-17 17:15:23,534 - INFO - DEBUG: Row 6 (Akepox 1005 (5 liters)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,534 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 17:15:23,703 - INFO - DEBUG: Row 7 (Akepox Claro) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,704 - INFO - Extracted: Akepox Claro
+2026-06-17 17:15:23,786 - INFO - DEBUG: Row 8 (Gel 500 Ultra) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,786 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 17:15:23,865 - INFO - DEBUG: Row 9 (Everclear 510) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,865 - INFO - Extracted: Everclear 510
+2026-06-17 17:15:23,954 - INFO - DEBUG: Row 10 (Everclear 505) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:23,955 - INFO - Extracted: Everclear 505
+2026-06-17 17:15:24,035 - INFO - DEBUG: Row 11 (Nano (1 litres)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,035 - INFO - Extracted: Nano (1 litres)
+2026-06-17 17:15:24,120 - INFO - DEBUG: Row 12 (Nano (5 litres)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,121 - INFO - Extracted: Nano (5 litres)
+2026-06-17 17:15:24,200 - INFO - DEBUG: Row 13 (Nano (5 litres)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,200 - INFO - Extracted: Nano (5 litres)
+2026-06-17 17:15:24,283 - INFO - DEBUG: Row 14 (Nano (1 litres)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,284 - INFO - Extracted: Nano (1 litres)
+2026-06-17 17:15:24,380 - INFO - DEBUG: Row 15 (Everclear 505) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,381 - INFO - Extracted: Everclear 505
+2026-06-17 17:15:24,464 - INFO - DEBUG: Row 16 (Everclear 510) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,464 - INFO - Extracted: Everclear 510
+2026-06-17 17:15:24,546 - INFO - DEBUG: Row 17 (Gel 500 Ultra) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,546 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 17:15:24,632 - INFO - DEBUG: Row 18 (Akepox Claro) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,633 - INFO - Extracted: Akepox Claro
+2026-06-17 17:15:24,722 - INFO - DEBUG: Row 19 (Akepox 1005 (5 liters)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,722 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 17:15:24,800 - INFO - DEBUG: Row 20 (Akepox 5010) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,800 - INFO - Extracted: Akepox 5010
+2026-06-17 17:15:24,908 - INFO - DEBUG: Row 21 (Diamond Clear Liquid) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,908 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 17:15:24,987 - INFO - DEBUG: Row 22 (Diamond Clear Gel) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:24,987 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 17:15:25,066 - INFO - DEBUG: Row 23 (L Special) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,067 - INFO - Extracted: L Special
+2026-06-17 17:15:25,155 - INFO - DEBUG: Row 24 (Crackbond) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,155 - INFO - Extracted: Crackbond
+2026-06-17 17:15:25,239 - INFO - DEBUG: Row 25 (Crackbond) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,239 - INFO - Extracted: Crackbond
+2026-06-17 17:15:25,315 - INFO - DEBUG: Row 26 (L Special) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,315 - INFO - Extracted: L Special
+2026-06-17 17:15:25,392 - INFO - DEBUG: Row 27 (Diamond Clear Gel) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,393 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 17:15:25,476 - INFO - DEBUG: Row 28 (Diamond Clear Liquid) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,476 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 17:15:25,542 - INFO - DEBUG: Row 29 (Akepox 5010) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,542 - INFO - Extracted: Akepox 5010
+2026-06-17 17:15:25,607 - INFO - DEBUG: Row 30 (Akepox 1005 (5 liters)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,607 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 17:15:25,673 - INFO - DEBUG: Row 31 (Akepox Claro) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,673 - INFO - Extracted: Akepox Claro
+2026-06-17 17:15:25,736 - INFO - DEBUG: Row 32 (Gel 500 Ultra) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,736 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 17:15:25,799 - INFO - DEBUG: Row 33 (Everclear 510) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,799 - INFO - Extracted: Everclear 510
+2026-06-17 17:15:25,865 - INFO - DEBUG: Row 34 (Everclear 505) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,865 - INFO - Extracted: Everclear 505
+2026-06-17 17:15:25,930 - INFO - DEBUG: Row 35 (Nano (1 litres)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:25,930 - INFO - Extracted: Nano (1 litres)
+2026-06-17 17:15:26,012 - INFO - DEBUG: Row 36 (Nano (5 litres)) Cell 9 outerHTML: <td>
+                                                                    
+                                                                </td> img_url: None
+2026-06-17 17:15:26,012 - INFO - Extracted: Nano (5 litres)
+2026-06-17 17:15:26,080 - INFO - DEBUG: Row 37 (Nano (5 litres)) Cell 9 outerHTML: <td>
+                                                                    /Uploads/5861d6c7-8b9a-4c94-8857-feeed9a09e4a.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,081 - INFO - Extracted: Nano (5 litres)
+2026-06-17 17:15:26,182 - INFO - DEBUG: Row 38 (Nano (1 litres)) Cell 9 outerHTML: <td>
+                                                                    /Uploads/73df0cd5-9870-496f-b042-14dcb88bd5db.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,182 - INFO - Extracted: Nano (1 litres)
+2026-06-17 17:15:26,271 - INFO - DEBUG: Row 39 (Everclear 505) Cell 9 outerHTML: <td>
+                                                                    /Uploads/2cb04464-b0d6-4052-8ceb-8f6eae9770aa.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,272 - INFO - Extracted: Everclear 505
+2026-06-17 17:15:26,364 - INFO - DEBUG: Row 40 (Everclear 510) Cell 9 outerHTML: <td>
+                                                                    /Uploads/a9b0d52c-60ef-486d-a00b-9e6d715e5347.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,365 - INFO - Extracted: Everclear 510
+2026-06-17 17:15:26,442 - INFO - DEBUG: Row 41 (Gel 500 Ultra) Cell 9 outerHTML: <td>
+                                                                    /Uploads/f7cdc325-a848-4d3c-9dd8-092958f06c51.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,442 - INFO - Extracted: Gel 500 Ultra
+2026-06-17 17:15:26,524 - INFO - DEBUG: Row 42 (Akepox Claro) Cell 9 outerHTML: <td>
+                                                                    /Uploads/15a08ab6-5a1e-4f7e-a7f3-75f5eabf29c2.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,524 - INFO - Extracted: Akepox Claro
+2026-06-17 17:15:26,609 - INFO - DEBUG: Row 43 (Akepox 1005 (5 liters)) Cell 9 outerHTML: <td>
+                                                                    /Uploads/d0cd3209-cb7e-400c-b5f8-960225019856.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,609 - INFO - Extracted: Akepox 1005 (5 liters)
+2026-06-17 17:15:26,689 - INFO - DEBUG: Row 44 (Akepox 5010) Cell 9 outerHTML: <td>
+                                                                    /Uploads/bec703eb-ab33-45a7-bb2f-0527d15319ab.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,689 - INFO - Extracted: Akepox 5010
+2026-06-17 17:15:26,772 - INFO - DEBUG: Row 45 (Diamond Clear Liquid) Cell 9 outerHTML: <td>
+                                                                    /Uploads/d5abc0b3-845c-48ec-8747-8a5003489e6f.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,773 - INFO - Extracted: Diamond Clear Liquid
+2026-06-17 17:15:26,873 - INFO - DEBUG: Row 46 (Diamond Clear Gel) Cell 9 outerHTML: <td>
+                                                                    /Uploads/6bc53e8a-e0aa-47f4-9496-d06367dc025e.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,873 - INFO - Extracted: Diamond Clear Gel
+2026-06-17 17:15:26,959 - INFO - DEBUG: Row 47 (L Special) Cell 9 outerHTML: <td>
+                                                                    /Uploads/50faa262-5c74-414e-b64c-fb523a49636f.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:26,960 - INFO - Extracted: L Special
+2026-06-17 17:15:27,029 - INFO - DEBUG: Row 48 (Crackbond) Cell 9 outerHTML: <td>
+                                                                    /Uploads/a7efa15c-2df3-437c-9a0d-784c3becbe89.jpg
+                                                                </td> img_url: None
+2026-06-17 17:15:27,029 - INFO - Extracted: Crackbond
+2026-06-17 17:15:29,268 - INFO - ====== WebDriver manager ======
+2026-06-17 17:15:30,493 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:15:30,864 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-17 17:15:32,628 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-17 17:15:32,629 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-17 17:15:33,785 - INFO -   ✓ Geolocation overridden via CDP
+2026-06-17 17:15:33,810 - INFO - ✓ Chrome driver initialized
+2026-06-17 17:15:33,810 - INFO - Opening login page...
+2026-06-17 17:15:35,340 - INFO -   → Policy checkbox checked on login page
+2026-06-17 17:15:35,413 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-17 17:16:09,343 - INFO - ✓ Login successful
+2026-06-17 17:16:15,653 - INFO - ✓ Navigated to Product Management
+2026-06-17 17:16:18,443 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:21,469 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 17:16:24,225 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:27,259 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 17:16:30,115 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:33,145 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 17:16:35,947 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:38,976 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 17:16:41,994 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:45,033 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 17:16:48,262 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:51,295 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 17:16:54,058 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:16:57,072 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 17:16:59,953 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:02,983 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 17:17:05,779 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:08,804 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 17:17:11,613 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:14,640 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 17:17:17,614 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:20,632 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 17:17:23,402 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:26,417 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 17:17:29,322 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:32,358 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 17:17:35,260 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:38,281 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 17:17:41,115 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:44,136 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 17:17:46,990 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:50,025 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 17:17:52,863 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:17:55,906 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 17:17:58,889 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:01,920 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 17:18:04,819 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:07,846 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 17:18:10,751 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:13,790 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 17:18:16,906 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:19,943 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 17:18:22,907 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:25,957 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 17:18:28,857 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:31,902 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 17:18:34,811 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:37,842 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 17:18:40,660 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:43,692 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 17:18:46,515 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:49,533 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 17:18:52,344 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:18:55,380 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 17:18:58,246 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:01,264 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 17:19:04,201 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:07,235 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 17:19:10,071 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:13,107 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 17:19:15,929 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:18,948 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 17:19:21,809 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:24,860 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 17:19:27,728 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:30,753 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 17:19:33,635 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:36,669 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 17:19:39,603 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:42,640 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 17:19:45,404 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:48,435 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 17:19:51,338 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:19:54,376 - INFO - ✓ Uploaded Nano (5 litres) successfully
+2026-06-17 17:19:57,127 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:00,143 - INFO - ✓ Uploaded Nano (1 litres) successfully
+2026-06-17 17:20:03,040 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:06,081 - INFO - ✓ Uploaded Everclear 505 successfully
+2026-06-17 17:20:09,144 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:12,178 - INFO - ✓ Uploaded Everclear 510 successfully
+2026-06-17 17:20:15,014 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:18,045 - INFO - ✓ Uploaded Gel 500 Ultra successfully
+2026-06-17 17:20:20,869 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:23,905 - INFO - ✓ Uploaded Akepox Claro successfully
+2026-06-17 17:20:26,822 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:29,836 - INFO - ✓ Uploaded Akepox 1005 (5 liters) successfully
+2026-06-17 17:20:32,716 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:35,751 - INFO - ✓ Uploaded Akepox 5010 successfully
+2026-06-17 17:20:38,725 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:41,742 - INFO - ✓ Uploaded Diamond Clear Liquid successfully
+2026-06-17 17:20:44,527 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:47,577 - INFO - ✓ Uploaded Diamond Clear Gel successfully
+2026-06-17 17:20:50,431 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:53,473 - INFO - ✓ Uploaded L Special successfully
+2026-06-17 17:20:56,224 - INFO -   → Toggle was enabled, clicked to disable it
+2026-06-17 17:20:59,255 - INFO - ✓ Uploaded Crackbond successfully
+2026-06-17 17:21:01,468 - INFO - Browser closed
+2026-06-17 17:21:09,552 - INFO - 
+Task finished at 2026-06-17 17:21:09
+2026-06-17 17:21:09,552 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260617_171442.log
+

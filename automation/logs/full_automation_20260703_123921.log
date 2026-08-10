@@ -1,0 +1,1170 @@
+2026-07-03 12:39:35,232 - INFO - User selected: Product Management Image Upload
+2026-07-03 12:39:35,232 - INFO - ============================================================
+2026-07-03 12:39:35,233 - INFO - PRODUCT MANAGEMENT IMAGE UPLOAD — Ambica Cables
+2026-07-03 12:39:35,233 - INFO - ============================================================
+2026-07-03 12:39:43,337 - INFO - 
+============================================================
+2026-07-03 12:39:43,337 - INFO - SCANNING FOR BROKEN/EMPTY THUMBNAILS...
+2026-07-03 12:39:43,337 - INFO - ============================================================
+2026-07-03 12:39:43,384 - INFO - ====== WebDriver manager ======
+2026-07-03 12:39:44,429 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-03 12:39:44,889 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-03 12:39:45,243 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-03 12:39:45,245 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-07-03 12:39:46,916 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-03 12:39:46,920 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-03 12:39:46,945 - INFO - ✓ Chrome driver initialized
+2026-07-03 12:39:46,946 - INFO - Opening login page...
+2026-07-03 12:39:48,191 - INFO -   → Policy checkbox checked on login page
+2026-07-03 12:39:48,269 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-03 12:39:48,283 - INFO -   → Policy agreement popup detected
+2026-07-03 12:39:48,321 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-03 12:39:48,843 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-03 12:40:00,132 - INFO - ✓ Login successful
+2026-07-03 12:40:05,822 - INFO - Clicked Product Management
+2026-07-03 12:40:08,846 - INFO - 
+── Scanning page 1 for broken thumbnails...
+2026-07-03 12:40:12,801 - INFO -   Found 26 broken thumbnail(s) on page 1
+2026-07-03 12:40:12,801 - INFO -   Products: ['14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175', '23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 173', '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172', '23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing SPEAKER WIRE ID: 170', '+3 Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr CAT 6 CABLE ID: 113', '+4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112', '+4 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 107', '+4 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 106', '+4 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 105', '+4 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 104', '+4 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 103', '+4 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 102', '+4 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 101', '+4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98', '+4 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 97', '+4 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 95', '+3 6.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 90', '+3 4.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 88', '+3 2.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 87', '+3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86', '+4 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 85', '+4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82', '+4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81', '+4 40/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 61', '+4 23/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 37', '+4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27']
+2026-07-03 12:40:12,802 - INFO - 
+  → Fixing broken thumbnail: 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175
+2026-07-03 12:40:12,932 - INFO -     Matched folder: 14_40  x 2 core white parallel wire 90 mtr, 25 coil bag packing (1 images)
+2026-07-03 12:40:13,051 - INFO -   Using provided row for: '14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175'
+2026-07-03 12:40:17,406 - INFO -   Modal opened
+2026-07-03 12:40:18,921 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:40:22,267 - INFO -   Uploaded 1 images at once
+2026-07-03 12:40:22,789 - INFO -     ✓ Upload confirmed (all thumbnails rendered)
+2026-07-03 12:40:23,274 - INFO -   Clicked Save Changes
+2026-07-03 12:40:23,309 - INFO -   ✓ Done: 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175
+2026-07-03 12:40:24,309 - INFO -     ✓ Fixed: 14/40 X 2 Core White Parallel Wire 90 Mtr, 25 Coil Bag Packing 2 CORE WHITE PARALLEL WIRE ID: 175
+2026-07-03 12:40:26,311 - INFO - 
+  → Fixing broken thumbnail: 23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 173
+2026-07-03 12:40:26,502 - INFO -     Matched folder: 23_76 twisted flexible wire 90 mtr, 20 coils bag packing (1 images)
+2026-07-03 12:40:26,603 - INFO -   Using provided row for: '23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 173'
+2026-07-03 12:40:32,956 - INFO -   Modal opened
+2026-07-03 12:40:34,470 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:40:37,797 - INFO -   Uploaded 1 images at once
+2026-07-03 12:40:38,316 - INFO -     ✓ Upload confirmed (all thumbnails rendered)
+2026-07-03 12:40:38,705 - INFO -   Clicked Save Changes
+2026-07-03 12:40:38,720 - INFO -   ✓ Done: 23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 173
+2026-07-03 12:40:39,721 - INFO -     ✓ Fixed: 23/76 Twisted Flexible Wire 90 Mtr, 20 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 173
+2026-07-03 12:40:41,722 - INFO - 
+  → Fixing broken thumbnail: 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172
+2026-07-03 12:40:41,920 - INFO -     Matched folder: 14_76 twisted flexible wire 90 mtr, 25 coils bag packing (1 images)
+2026-07-03 12:40:42,034 - INFO -   Using provided row for: '14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172'
+2026-07-03 12:40:48,425 - INFO -   Modal opened
+2026-07-03 12:40:49,936 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:40:53,289 - INFO -   Uploaded 1 images at once
+2026-07-03 12:40:53,320 - INFO -     ✓ Upload confirmed (all thumbnails rendered)
+2026-07-03 12:40:53,717 - INFO -   Clicked Save Changes
+2026-07-03 12:40:53,740 - INFO -   ✓ Done: 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172
+2026-07-03 12:40:54,741 - INFO -     ✓ Fixed: 14/76 Twisted Flexible Wire 90 Mtr, 25 Coils Bag Packing TWISTED FLEXIBLE WIRE ID: 172
+2026-07-03 12:40:56,742 - INFO - 
+  → Fixing broken thumbnail: 23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing SPEAKER WIRE ID: 170
+2026-07-03 12:40:56,933 - INFO -     Matched folder: 23_40 x 2 core speaker wire 90 mtr, 25 coils bag packing (1 images)
+2026-07-03 12:40:57,047 - INFO -   Using provided row for: '23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing SPEAKER WIRE ID: 170'
+2026-07-03 12:41:03,422 - INFO -   Modal opened
+2026-07-03 12:41:04,937 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:41:08,272 - INFO -   Uploaded 1 images at once
+2026-07-03 12:41:08,305 - INFO -     ✓ Upload confirmed (all thumbnails rendered)
+2026-07-03 12:41:08,701 - INFO -   Clicked Save Changes
+2026-07-03 12:41:08,726 - INFO -   ✓ Done: 23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing SPEAKER WIRE ID: 170
+2026-07-03 12:41:09,727 - INFO -     ✓ Fixed: 23/40 X 2 Core Speaker Wire 90 Mtr, 25 Coils Bag Packing SPEAKER WIRE ID: 170
+2026-07-03 12:41:11,727 - INFO - 
+  → Fixing broken thumbnail: +3 Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr CAT 6 CABLE ID: 113
+2026-07-03 12:41:12,188 - INFO -     Matched folder: RADILITE 23 AWG CAT 6 UTP COPPER CABLE 305 MTR (4 images)
+2026-07-03 12:41:12,283 - INFO -   Using provided row for: '+3 Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr CAT 6 CABLE ID: 113'
+2026-07-03 12:41:18,723 - INFO -   Modal opened
+2026-07-03 12:41:20,238 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:41:22,133 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:41:24,049 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:41:25,949 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:41:29,399 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:41:29,831 - INFO -   Sent path to file input: 7e992528-db3d-4c2b-adf6-0b7426529ec7.jpg
+2026-07-03 12:41:29,859 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:41:31,319 - INFO -   Sent path to file input: a3b89709-a381-414b-a2d5-dc112391beb1.jpg
+2026-07-03 12:41:31,342 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:41:32,778 - INFO -   Sent path to file input: f8b0621b-a9b1-4f95-b48c-55f35a809caa.jpg
+2026-07-03 12:41:32,807 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:41:34,241 - INFO -   Sent path to file input: f8c25423-73b9-4af0-8b58-5cc6f4b55b1e.jpg
+2026-07-03 12:41:34,767 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:41:35,786 - INFO -   ✓ Sanity check passed: all 4 thumbnails rendered
+2026-07-03 12:41:36,187 - INFO -   Clicked Save Changes
+2026-07-03 12:41:36,205 - INFO -   ✓ Done: +3 Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr CAT 6 CABLE ID: 113
+2026-07-03 12:41:37,206 - INFO -     ✓ Fixed: +3 Radilite 23 Awg Cat 6 Utp Copper Cable 305 Mtr CAT 6 CABLE ID: 113
+2026-07-03 12:41:39,206 - INFO - 
+  → Fixing broken thumbnail: +4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112
+2026-07-03 12:41:39,668 - INFO -     Matched folder: 10.0 sq.mm aluminium twin flat cable 450 mtr (SOLID stranded) (5 images)
+2026-07-03 12:41:39,777 - INFO -   Using provided row for: '+4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112'
+2026-07-03 12:41:46,213 - INFO -   Modal opened
+2026-07-03 12:41:47,724 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:41:49,630 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:41:51,590 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:41:53,538 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:41:55,451 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:41:58,789 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:41:59,227 - INFO -   Sent path to file input: 2f2db0f6-59c5-4179-8517-50fe86cfa5bf.jpg
+2026-07-03 12:41:59,750 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:01,194 - INFO -   Sent path to file input: 97958f8e-03ec-49ea-8894-ec97068856eb.jpg
+2026-07-03 12:42:01,719 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:03,160 - INFO -   Sent path to file input: f4788749-a2ab-4d66-aeac-770ec5457fd8.jpg
+2026-07-03 12:42:03,708 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:05,138 - INFO -   Sent path to file input: fa940a6a-4d2c-483f-82bb-9cdf72db90fa.jpg
+2026-07-03 12:42:05,662 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:07,115 - INFO -   Sent path to file input: fabc86fe-7773-48fd-9ed9-fcda7c196c82.jpg
+2026-07-03 12:42:07,300 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:08,316 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:42:08,701 - INFO -   Clicked Save Changes
+2026-07-03 12:42:08,724 - INFO -   ✓ Done: +4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112
+2026-07-03 12:42:09,725 - INFO -     ✓ Fixed: +4 10.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 112
+2026-07-03 12:42:11,726 - INFO - 
+  → Fixing broken thumbnail: +4 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 107
+2026-07-03 12:42:12,324 - INFO -     Matched folder: 6.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded) (5 images)
+2026-07-03 12:42:12,461 - INFO -   Using provided row for: '+4 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 107'
+2026-07-03 12:42:18,809 - INFO -   Modal opened
+2026-07-03 12:42:20,331 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:42:22,237 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:42:24,127 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:42:26,022 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:42:27,923 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:42:31,255 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:42:31,688 - INFO -   Sent path to file input: 52903fcd-f5cc-485b-a7dd-646603513a1c.jpg
+2026-07-03 12:42:31,709 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:33,145 - INFO -   Sent path to file input: 52ace011-95db-4f07-8c5b-01a18fcf7da2.jpg
+2026-07-03 12:42:33,668 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:35,108 - INFO -   Sent path to file input: 82b08e52-5ee5-46b9-85ba-6492903c3bc5.jpg
+2026-07-03 12:42:35,633 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:37,073 - INFO -   Sent path to file input: a84fef82-ca7f-4607-8e33-29e22358a905.jpg
+2026-07-03 12:42:37,599 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:39,037 - INFO -   Sent path to file input: c9b94f12-e82e-44b4-8cf2-b220fe498d17.jpg
+2026-07-03 12:42:39,559 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:42:40,579 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:42:40,969 - INFO -   Clicked Save Changes
+2026-07-03 12:42:40,986 - INFO -   ✓ Done: +4 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 107
+2026-07-03 12:42:41,986 - INFO -     ✓ Fixed: +4 6.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 107
+2026-07-03 12:42:43,987 - INFO - 
+  → Fixing broken thumbnail: +4 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 106
+2026-07-03 12:42:44,589 - INFO -     Matched folder: 4.0 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded) (5 images)
+2026-07-03 12:42:44,702 - INFO -   Using provided row for: '+4 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 106'
+2026-07-03 12:42:51,036 - INFO -   Modal opened
+2026-07-03 12:42:52,551 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:42:54,451 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:42:56,340 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:42:58,232 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:43:00,114 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:43:03,439 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:43:03,875 - INFO -   Sent path to file input: 2e29f541-6e45-411c-b797-47e80f2272d9.jpg
+2026-07-03 12:43:04,398 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:05,835 - INFO -   Sent path to file input: 4b43e896-15c8-4fd9-a752-4fe6d69db678.jpg
+2026-07-03 12:43:05,875 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:07,319 - INFO -   Sent path to file input: 4c33cbe4-db4b-4aa6-a084-8b122d4aea54.jpg
+2026-07-03 12:43:07,842 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:09,293 - INFO -   Sent path to file input: 5005caa5-705c-4d1e-a9e6-214d870da433.jpg
+2026-07-03 12:43:09,819 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:11,259 - INFO -   Sent path to file input: 6ee7ff99-f290-475d-9c2e-e0e0604a41ef.jpg
+2026-07-03 12:43:11,793 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:12,809 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:43:13,208 - INFO -   Clicked Save Changes
+2026-07-03 12:43:13,236 - INFO -   ✓ Done: +4 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 106
+2026-07-03 12:43:14,237 - INFO -     ✓ Fixed: +4 4.0 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 106
+2026-07-03 12:43:16,238 - INFO - 
+  → Fixing broken thumbnail: +4 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 105
+2026-07-03 12:43:16,933 - INFO -     Matched folder: 2.5 sq.mm aluminium twin flat cable 90 mtr (SOLID stranded) (5 images)
+2026-07-03 12:43:17,062 - INFO -   Using provided row for: '+4 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 105'
+2026-07-03 12:43:23,426 - INFO -   Modal opened
+2026-07-03 12:43:24,941 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:43:26,833 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:43:28,731 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:43:30,620 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:43:32,541 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:43:35,884 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:43:36,324 - INFO -   Sent path to file input: 0e02a005-a483-422f-a268-bb14d7908da3.jpg
+2026-07-03 12:43:36,366 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:37,807 - INFO -   Sent path to file input: 24834c23-c603-4ffb-b09f-7ddccbbac933.jpg
+2026-07-03 12:43:38,332 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:39,772 - INFO -   Sent path to file input: 4b767766-764a-458c-9553-16333eb6ffd2.jpg
+2026-07-03 12:43:40,299 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:41,732 - INFO -   Sent path to file input: 7942e64b-80b0-4e8f-803c-6b43657827db.jpg
+2026-07-03 12:43:42,266 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:43,728 - INFO -   Sent path to file input: d238280b-525a-44f7-b693-6a9b175aad3d.jpg
+2026-07-03 12:43:44,257 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:43:45,273 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:43:45,674 - INFO -   Clicked Save Changes
+2026-07-03 12:43:45,690 - INFO -   ✓ Done: +4 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 105
+2026-07-03 12:43:46,691 - INFO -     ✓ Fixed: +4 2.5 Sq.Mm Aluminium Twin Flat Cable 90 Mtr (Solid Stranded) ALUMINIUM TWIN FLAT (SOLID STRAND) ID: 105
+2026-07-03 12:43:48,692 - INFO - 
+  → Fixing broken thumbnail: +4 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 104
+2026-07-03 12:43:49,325 - INFO -     Matched folder: 16.0 sq.mm alumnium twin flat cable 450 mtr ( 7 stranded ) (5 images)
+2026-07-03 12:43:49,436 - INFO -   Using provided row for: '+4 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 104'
+2026-07-03 12:43:55,781 - INFO -   Modal opened
+2026-07-03 12:43:57,297 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:43:59,186 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:44:01,081 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:44:02,981 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:44:04,874 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:44:08,193 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:44:08,628 - INFO -   Sent path to file input: 0b17c8dd-8a0e-440b-82d1-1f52e376e76b.jpg
+2026-07-03 12:44:08,683 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:10,116 - INFO -   Sent path to file input: 23651305-ef69-4f27-869a-a4c6e9809526.jpg
+2026-07-03 12:44:10,642 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:12,087 - INFO -   Sent path to file input: 37e559c9-f58f-4606-8fbd-1da100867d20.jpg
+2026-07-03 12:44:12,610 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:14,046 - INFO -   Sent path to file input: 721ad283-cddb-4f34-98b3-3919c2f7ab31.jpg
+2026-07-03 12:44:14,576 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:16,035 - INFO -   Sent path to file input: a1922248-bb26-4c57-b5e1-fda1c664ac27.jpg
+2026-07-03 12:44:16,558 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:17,576 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:44:17,980 - INFO -   Clicked Save Changes
+2026-07-03 12:44:18,002 - INFO -   ✓ Done: +4 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 104
+2026-07-03 12:44:19,002 - INFO -     ✓ Fixed: +4 16.0 Sq.Mm Alumnium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 104
+2026-07-03 12:44:21,003 - INFO - 
+  → Fixing broken thumbnail: +4 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 103
+2026-07-03 12:44:21,691 - INFO -     Matched folder: 6.0 sq.mm alumnium twin flat cable 450  ( 7 stranded ) (5 images)
+2026-07-03 12:44:21,807 - INFO -   Using provided row for: '+4 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 103'
+2026-07-03 12:44:28,154 - INFO -   Modal opened
+2026-07-03 12:44:29,669 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:44:31,569 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:44:33,460 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:44:35,379 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:44:37,366 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:44:40,723 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:44:41,156 - INFO -   Sent path to file input: 1bc2aee8-1ecf-43fa-ae62-dfefe31bd4c1.jpg
+2026-07-03 12:44:41,685 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:43,128 - INFO -   Sent path to file input: 28447e20-31d6-4da6-b769-d37b810b01ef.jpg
+2026-07-03 12:44:43,655 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:45,097 - INFO -   Sent path to file input: 72ffc15d-8228-4c50-808c-e04cb63c7ba5.jpg
+2026-07-03 12:44:45,621 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:47,062 - INFO -   Sent path to file input: 98336557-c8cc-4a8e-8550-d6f65b2729fb.jpg
+2026-07-03 12:44:47,585 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:49,029 - INFO -   Sent path to file input: b858128d-f406-4afe-a9fc-34916d8a4e14.jpg
+2026-07-03 12:44:49,051 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:44:50,062 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:44:50,460 - INFO -   Clicked Save Changes
+2026-07-03 12:44:50,482 - INFO -   ✓ Done: +4 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 103
+2026-07-03 12:44:51,483 - INFO -     ✓ Fixed: +4 6.0 Sq.Mm Alumnium Twin Flat Cable 450 ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 103
+2026-07-03 12:44:53,483 - INFO - 
+  → Fixing broken thumbnail: +4 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 102
+2026-07-03 12:44:54,210 - INFO -     Matched folder: 4.0 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded ) (5 images)
+2026-07-03 12:44:54,338 - INFO -   Using provided row for: '+4 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 102'
+2026-07-03 12:45:00,743 - INFO -   Modal opened
+2026-07-03 12:45:02,257 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:45:04,144 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:45:06,039 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:45:07,934 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:45:09,831 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:45:13,162 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:45:13,601 - INFO -   Sent path to file input: 015092c1-4ef0-417e-b174-bca05c4636c1.jpg
+2026-07-03 12:45:13,622 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:15,070 - INFO -   Sent path to file input: 364d75ef-7387-4423-878d-0cef65e8841e.jpg
+2026-07-03 12:45:15,610 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:17,050 - INFO -   Sent path to file input: 4ec34afe-beff-46b1-8aa9-d044650f65a4.jpg
+2026-07-03 12:45:17,570 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:19,017 - INFO -   Sent path to file input: 7576295e-eb01-4c7d-850a-86f45802ad3a.jpg
+2026-07-03 12:45:19,035 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:20,473 - INFO -   Sent path to file input: 877dc403-576c-4ed7-a819-3a5c1546b249.jpg
+2026-07-03 12:45:20,508 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:21,520 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:45:21,911 - INFO -   Clicked Save Changes
+2026-07-03 12:45:21,929 - INFO -   ✓ Done: +4 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 102
+2026-07-03 12:45:22,930 - INFO -     ✓ Fixed: +4 4.0 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 102
+2026-07-03 12:45:24,931 - INFO - 
+  → Fixing broken thumbnail: +4 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 101
+2026-07-03 12:45:25,655 - INFO -     Matched folder: 2.5 sq.mm aluminium twin flat cable 450 mtr ( 7 stranded ) (5 images)
+2026-07-03 12:45:25,776 - INFO -   Using provided row for: '+4 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 101'
+2026-07-03 12:45:32,202 - INFO -   Modal opened
+2026-07-03 12:45:33,723 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:45:35,659 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:45:37,604 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:45:39,532 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:45:41,494 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:45:44,877 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:45:45,326 - INFO -   Sent path to file input: 65583c12-00ad-4bcf-bc16-d3bf96336ec3.jpg
+2026-07-03 12:45:45,856 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:47,321 - INFO -   Sent path to file input: 6a5da478-bd47-4ffb-a092-8e1824883fdd.jpg
+2026-07-03 12:45:47,849 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:49,321 - INFO -   Sent path to file input: 9b617b82-8e84-4981-a330-889de168a5d2.jpg
+2026-07-03 12:45:49,843 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:51,279 - INFO -   Sent path to file input: afa96f25-48b9-4d79-996e-cee02008ba39.jpg
+2026-07-03 12:45:51,818 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:53,260 - INFO -   Sent path to file input: b707cd7b-7001-4849-829c-e9e301dfca39.jpg
+2026-07-03 12:45:53,786 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:45:54,798 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:45:55,234 - INFO -   Clicked Save Changes
+2026-07-03 12:45:55,274 - INFO -   ✓ Done: +4 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 101
+2026-07-03 12:45:56,275 - INFO -     ✓ Fixed: +4 2.5 Sq.Mm Aluminium Twin Flat Cable 450 Mtr ( 7 Stranded ) ALUMINIUM TWIN FLAT (7 STRANDS) ID: 101
+2026-07-03 12:45:58,276 - INFO - 
+  → Fixing broken thumbnail: +4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98
+2026-07-03 12:45:59,099 - INFO -     Matched folder: 10.0 sq.mm aluminium 7 stranded twin flat cable 90 mt (5 images)
+2026-07-03 12:45:59,199 - INFO -   Using provided row for: '+4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98'
+2026-07-03 12:46:05,618 - INFO -   Modal opened
+2026-07-03 12:46:07,133 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:46:09,027 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:46:10,936 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:46:12,866 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:46:14,789 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:46:18,131 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:46:18,572 - INFO -   Sent path to file input: 06257a74-3663-48e4-bbb7-a21d0dd37ad9.jpg
+2026-07-03 12:46:18,597 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:20,057 - INFO -   Sent path to file input: 53b021ae-9f1e-4993-8553-057e097e4e19.jpg
+2026-07-03 12:46:20,098 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:21,551 - INFO -   Sent path to file input: b2537121-218c-4a81-b070-dd3ce46a982f.jpg
+2026-07-03 12:46:21,579 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:23,035 - INFO -   Sent path to file input: ce5b7bff-e2f1-4644-b653-e9ab2af6c971.jpg
+2026-07-03 12:46:23,074 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:24,516 - INFO -   Sent path to file input: ec85430d-10ff-4ebf-b9a0-80ecc7d609a4.jpg
+2026-07-03 12:46:24,553 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:25,571 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:46:25,990 - INFO -   Clicked Save Changes
+2026-07-03 12:46:26,025 - INFO -   ✓ Done: +4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98
+2026-07-03 12:46:27,026 - INFO -     ✓ Fixed: +4 10.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 98
+2026-07-03 12:46:29,027 - INFO - 
+  → Fixing broken thumbnail: +4 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 97
+2026-07-03 12:46:30,490 - INFO -     Matched folder: 6.0 sq.mm aluminium 7 stranded twin flat cable 90 mt (5 images)
+2026-07-03 12:46:30,723 - INFO -   Using provided row for: '+4 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 97'
+2026-07-03 12:46:37,143 - INFO -   Modal opened
+2026-07-03 12:46:38,656 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:46:40,561 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:46:42,463 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:46:44,365 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:46:46,267 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:46:49,636 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:46:50,078 - INFO -   Sent path to file input: 1cd58f17-1393-484d-a1f1-35889977d114.jpg
+2026-07-03 12:46:50,609 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:52,053 - INFO -   Sent path to file input: 353c74e1-3cc0-4f5f-9f3e-58e06f5c27b2.jpg
+2026-07-03 12:46:52,083 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:53,527 - INFO -   Sent path to file input: bdbd2dfa-28cf-44df-a419-78c23b140bd6.jpg
+2026-07-03 12:46:53,571 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:55,016 - INFO -   Sent path to file input: c64ad54d-8125-4818-bc42-5b5eebb97cd2.jpg
+2026-07-03 12:46:55,547 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:56,989 - INFO -   Sent path to file input: d38e94ba-7f14-4ff6-9145-c99796baaaf4.jpg
+2026-07-03 12:46:57,015 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:46:58,027 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:46:58,439 - INFO -   Clicked Save Changes
+2026-07-03 12:46:58,457 - INFO -   ✓ Done: +4 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 97
+2026-07-03 12:46:59,458 - INFO -     ✓ Fixed: +4 6.0 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mt ALUMINIUM TWIN FLAT (7 STRANDS) ID: 97
+2026-07-03 12:47:01,459 - INFO - 
+  → Fixing broken thumbnail: +4 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 95
+2026-07-03 12:47:02,333 - INFO -     Matched folder: 2.5 sq.mm aluminium 7 stranded twin flat cable 90 mtr (5 images)
+2026-07-03 12:47:02,444 - INFO -   Using provided row for: '+4 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 95'
+2026-07-03 12:47:08,820 - INFO -   Modal opened
+2026-07-03 12:47:10,336 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:47:12,251 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:47:14,160 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:47:16,073 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:47:17,969 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:47:21,331 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:47:21,788 - INFO -   Sent path to file input: 4ef82c0d-fbf5-4239-93f6-3e7a0a43705d.jpg
+2026-07-03 12:47:21,814 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:23,268 - INFO -   Sent path to file input: 95e2a2b9-aa59-4ca5-a0f2-153da39b24d0.jpg
+2026-07-03 12:47:23,806 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:25,257 - INFO -   Sent path to file input: a52927fb-3b14-48aa-b155-ff5afa3758fc.jpg
+2026-07-03 12:47:25,787 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:27,227 - INFO -   Sent path to file input: d8585920-db77-4c6a-afa7-6ff04dce6150.jpg
+2026-07-03 12:47:27,252 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:28,697 - INFO -   Sent path to file input: da69aacc-a339-4277-9975-4eba9041f525.jpg
+2026-07-03 12:47:29,242 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:30,259 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:47:30,662 - INFO -   Clicked Save Changes
+2026-07-03 12:47:30,685 - INFO -   ✓ Done: +4 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 95
+2026-07-03 12:47:31,686 - INFO -     ✓ Fixed: +4 2.5 Sq.Mm Aluminium 7 Stranded Twin Flat Cable 90 Mtr ALUMINIUM TWIN FLAT (7 STRANDS) ID: 95
+2026-07-03 12:47:33,687 - INFO - 
+  → Fixing broken thumbnail: +3 6.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 90
+2026-07-03 12:47:34,620 - INFO -     Matched folder: 6.0 sq.mm submersible flat cable 100 mtr (4 images)
+2026-07-03 12:47:34,760 - INFO -   Using provided row for: '+3 6.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 90'
+2026-07-03 12:47:41,177 - INFO -   Modal opened
+2026-07-03 12:47:42,699 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:47:44,622 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:47:46,519 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:47:48,428 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:47:51,769 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:47:52,206 - INFO -   Sent path to file input: 5c302982-42e3-4fb0-aa9e-e76259534159.jpg
+2026-07-03 12:47:52,226 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:53,673 - INFO -   Sent path to file input: 6b295e33-f164-4e0a-b6a9-4aa3d14fc89d.jpg
+2026-07-03 12:47:54,200 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:55,647 - INFO -   Sent path to file input: a9be9746-871a-4ae8-b712-7b808707aad3.jpg
+2026-07-03 12:47:56,177 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:57,616 - INFO -   Sent path to file input: c901d184-f232-49b8-a5b5-ebb1a789de70.jpg
+2026-07-03 12:47:58,138 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:47:59,153 - INFO -   ✓ Sanity check passed: all 4 thumbnails rendered
+2026-07-03 12:47:59,558 - INFO -   Clicked Save Changes
+2026-07-03 12:47:59,581 - INFO -   ✓ Done: +3 6.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 90
+2026-07-03 12:48:00,581 - INFO -     ✓ Fixed: +3 6.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 90
+2026-07-03 12:48:02,582 - INFO - 
+  → Fixing broken thumbnail: +3 4.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 88
+2026-07-03 12:48:03,570 - INFO -     Matched folder: 4.0 sq.mm submersible flat cable 100 mtr (4 images)
+2026-07-03 12:48:03,683 - INFO -   Using provided row for: '+3 4.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 88'
+2026-07-03 12:48:10,097 - INFO -   Modal opened
+2026-07-03 12:48:11,609 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:48:13,525 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:48:15,422 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:48:17,327 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:48:20,683 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:48:21,127 - INFO -   Sent path to file input: 33dceb96-da32-48c4-8781-c72aed016341.jpg
+2026-07-03 12:48:21,666 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:23,110 - INFO -   Sent path to file input: 532b7742-6cf2-43bc-83cc-40316cbf0e97.jpg
+2026-07-03 12:48:23,134 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:24,584 - INFO -   Sent path to file input: 7b8568aa-4075-42e2-b510-c7b1d41c7b98.jpg
+2026-07-03 12:48:25,115 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:26,554 - INFO -   Sent path to file input: edfa5598-0bc2-4da3-a947-7d65ef2fe06d.jpg
+2026-07-03 12:48:26,575 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:27,592 - INFO -   ✓ Sanity check passed: all 4 thumbnails rendered
+2026-07-03 12:48:28,001 - INFO -   Clicked Save Changes
+2026-07-03 12:48:28,019 - INFO -   ✓ Done: +3 4.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 88
+2026-07-03 12:48:29,019 - INFO -     ✓ Fixed: +3 4.0 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 88
+2026-07-03 12:48:31,021 - INFO - 
+  → Fixing broken thumbnail: +3 2.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 87
+2026-07-03 12:48:32,002 - INFO -     Matched folder: 2.5 sq.mm submersible flat cable 100 mtr (4 images)
+2026-07-03 12:48:32,110 - INFO -   Using provided row for: '+3 2.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 87'
+2026-07-03 12:48:38,558 - INFO -   Modal opened
+2026-07-03 12:48:40,073 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:48:41,981 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:48:43,876 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:48:45,774 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:48:49,123 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:48:49,575 - INFO -   Sent path to file input: 0a43801c-5d34-46e4-b6d4-44bce0fb18b3.jpg
+2026-07-03 12:48:50,101 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:51,538 - INFO -   Sent path to file input: 3f3bdc2d-b1a2-48c7-aa6b-9a227bfc3dba.jpg
+2026-07-03 12:48:52,060 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:53,499 - INFO -   Sent path to file input: 99f7e485-3e3e-436e-89af-23ad4b1fd748.jpg
+2026-07-03 12:48:54,024 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:55,465 - INFO -   Sent path to file input: ab85c952-f94a-4479-ac61-94ad05724273.jpg
+2026-07-03 12:48:55,994 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:48:57,012 - INFO -   ✓ Sanity check passed: all 4 thumbnails rendered
+2026-07-03 12:48:57,398 - INFO -   Clicked Save Changes
+2026-07-03 12:48:57,422 - INFO -   ✓ Done: +3 2.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 87
+2026-07-03 12:48:58,423 - INFO -     ✓ Fixed: +3 2.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 87
+2026-07-03 12:49:00,424 - INFO - 
+  → Fixing broken thumbnail: +3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86
+2026-07-03 12:49:01,453 - INFO -     Matched folder: 1.5 sq.mm submersible flat cable 100 mtr (4 images)
+2026-07-03 12:49:01,578 - INFO -   Using provided row for: '+3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86'
+2026-07-03 12:49:08,017 - INFO -   Modal opened
+2026-07-03 12:49:09,531 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:49:11,434 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:49:13,350 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:49:15,238 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:49:18,574 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:49:19,023 - INFO -   Sent path to file input: 4d3c9c03-645c-4283-9046-7bc15ad862fb.jpg
+2026-07-03 12:49:19,058 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:20,508 - INFO -   Sent path to file input: 4fbb431b-60c9-4ccd-9150-481d3575c05d.jpg
+2026-07-03 12:49:21,044 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:22,494 - INFO -   Sent path to file input: c837ef8c-bcf2-40ee-85c4-7922d52a5fd4.jpg
+2026-07-03 12:49:23,041 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:24,521 - INFO -   Sent path to file input: e63b0f2d-2aab-4062-8c2f-0dbdded6aabc.jpg
+2026-07-03 12:49:24,554 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:25,572 - INFO -   ✓ Sanity check passed: all 4 thumbnails rendered
+2026-07-03 12:49:25,991 - INFO -   Clicked Save Changes
+2026-07-03 12:49:26,014 - INFO -   ✓ Done: +3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86
+2026-07-03 12:49:27,015 - INFO -     ✓ Fixed: +3 1.5 Sq.Mm Submersible Flat Cable 100 Mtr SUBMERSIBLE CABLES ID: 86
+2026-07-03 12:49:29,017 - INFO - 
+  → Fixing broken thumbnail: +4 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 85
+2026-07-03 12:49:30,519 - INFO -     Matched folder: 6.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr (5 images)
+2026-07-03 12:49:30,649 - INFO -   Using provided row for: '+4 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 85'
+2026-07-03 12:49:37,041 - INFO -   Modal opened
+2026-07-03 12:49:38,557 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:49:40,473 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:49:42,369 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:49:44,274 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:49:46,176 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:49:49,503 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:49:49,941 - INFO -   Sent path to file input: 83a2b9e7-3b43-431c-b5fc-524092dfffcd.jpg
+2026-07-03 12:49:50,466 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:51,901 - INFO -   Sent path to file input: 918f48b4-61a7-435c-a05b-d5193e98dfd8.jpg
+2026-07-03 12:49:52,427 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:53,868 - INFO -   Sent path to file input: e67174db-78f0-4ab7-a2eb-44a8270d29e1.jpg
+2026-07-03 12:49:53,896 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:55,332 - INFO -   Sent path to file input: f2ad9c5f-7071-46f8-b4ff-752c240fb3f5.jpg
+2026-07-03 12:49:55,856 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:57,302 - INFO -   Sent path to file input: f5b411db-d0c4-4375-9a34-52e9b6709730.jpg
+2026-07-03 12:49:57,331 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:49:58,347 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:49:58,761 - INFO -   Clicked Save Changes
+2026-07-03 12:49:58,782 - INFO -   ✓ Done: +4 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 85
+2026-07-03 12:49:59,783 - INFO -     ✓ Fixed: +4 6.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 85
+2026-07-03 12:50:01,784 - INFO - 
+  → Fixing broken thumbnail: +4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82
+2026-07-03 12:50:02,932 - INFO -     Matched folder: 1.5 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr (5 images)
+2026-07-03 12:50:03,059 - INFO -   Using provided row for: '+4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82'
+2026-07-03 12:50:09,467 - INFO -   Modal opened
+2026-07-03 12:50:10,984 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:50:12,884 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:50:14,798 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:50:16,701 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:50:18,599 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:50:21,956 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:50:22,393 - INFO -   Sent path to file input: 06e0def0-078c-4946-b42d-64c9777aa8c4.jpg
+2026-07-03 12:50:22,918 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:24,367 - INFO -   Sent path to file input: 6685ea72-6153-49b5-a96b-37f3cf69bf2c.jpg
+2026-07-03 12:50:24,888 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:26,332 - INFO -   Sent path to file input: b66adddd-95b5-4d01-b1dd-a66bb08ca6bf.jpg
+2026-07-03 12:50:26,857 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:28,330 - INFO -   Sent path to file input: dde74ee4-7b2f-4fa3-a39c-6f754a70ab0e.jpg
+2026-07-03 12:50:28,354 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:29,792 - INFO -   Sent path to file input: e220c25b-6f72-4d8a-8585-9b8e85da4f58.jpg
+2026-07-03 12:50:29,813 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:30,827 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:50:31,275 - INFO -   Clicked Save Changes
+2026-07-03 12:50:31,294 - INFO -   ✓ Done: +4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82
+2026-07-03 12:50:32,296 - INFO -     ✓ Fixed: +4 1.5 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 82
+2026-07-03 12:50:34,296 - INFO - 
+  → Fixing broken thumbnail: +4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81
+2026-07-03 12:50:35,486 - INFO -     Matched folder: 1.0 sq.mm x 4 core FRLSH round copper flexible cable 90 mtr (5 images)
+2026-07-03 12:50:35,608 - INFO -   Using provided row for: '+4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81'
+2026-07-03 12:50:42,043 - INFO -   Modal opened
+2026-07-03 12:50:43,559 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:50:45,492 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:50:47,394 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:50:49,305 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:50:51,219 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:50:54,549 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:50:54,985 - INFO -   Sent path to file input: 1e127bac-213d-4f5a-84cd-938567636288.jpg
+2026-07-03 12:50:55,506 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:56,969 - INFO -   Sent path to file input: 4a554d64-aab4-4c1b-ac56-1e4eddd11a7e.jpg
+2026-07-03 12:50:57,492 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:50:58,928 - INFO -   Sent path to file input: 5d66a9e2-f4e2-4a01-8aec-579b3bb687a0.jpg
+2026-07-03 12:50:59,460 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:00,902 - INFO -   Sent path to file input: c215522f-3a11-44f6-8ebd-701e2fa2bf70.jpg
+2026-07-03 12:51:01,431 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:02,868 - INFO -   Sent path to file input: f3aab9db-378b-4f59-903c-eec29d31d6b3.jpg
+2026-07-03 12:51:02,893 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:03,906 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:51:04,316 - INFO -   Clicked Save Changes
+2026-07-03 12:51:04,336 - INFO -   ✓ Done: +4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81
+2026-07-03 12:51:05,337 - INFO -     ✓ Fixed: +4 1.0 Sq.Mm X 4 Core Frlsh Round Copper Flexible Cable 90 Mtr MULTICORE ROUND COPPER CABLE ID: 81
+2026-07-03 12:51:07,338 - INFO - 
+  → Fixing broken thumbnail: +4 40/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 61
+2026-07-03 12:51:08,874 - INFO -     Matched folder: 40_76 twisted flexible wire 90 mtr (5 images)
+2026-07-03 12:51:08,988 - INFO -   Using provided row for: '+4 40/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 61'
+2026-07-03 12:51:15,368 - INFO -   Modal opened
+2026-07-03 12:51:16,883 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:51:18,782 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:51:20,681 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:51:22,569 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:51:24,462 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:51:27,791 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:51:28,223 - INFO -   Sent path to file input: 5141e5cc-72aa-4a16-89f1-9d3a0d682b07.jpg
+2026-07-03 12:51:28,749 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:30,187 - INFO -   Sent path to file input: 977982bc-2f65-4550-89fa-daaf502491bf.jpg
+2026-07-03 12:51:30,713 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:32,154 - INFO -   Sent path to file input: e4aed1e6-7cad-49ff-8783-91ed27f2d697.jpg
+2026-07-03 12:51:32,680 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:34,116 - INFO -   Sent path to file input: e986bd53-5fc7-45dd-b54c-5d2f7aa96f81.jpg
+2026-07-03 12:51:34,138 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:35,580 - INFO -   Sent path to file input: fbfce1e7-829b-4601-a540-5a636fe7db89.jpg
+2026-07-03 12:51:36,110 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:51:37,123 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:51:37,540 - INFO -   Clicked Save Changes
+2026-07-03 12:51:37,559 - INFO -   ✓ Done: +4 40/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 61
+2026-07-03 12:51:38,559 - INFO -     ✓ Fixed: +4 40/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 61
+2026-07-03 12:51:40,560 - INFO - 
+  → Fixing broken thumbnail: +4 23/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 37
+2026-07-03 12:51:42,220 - INFO -     Matched folder: 23_76 twisted flexible wire 90 mtr (5 images)
+2026-07-03 12:51:42,336 - INFO -   Using provided row for: '+4 23/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 37'
+2026-07-03 12:51:48,709 - INFO -   Modal opened
+2026-07-03 12:51:50,225 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:51:52,125 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:51:54,020 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:51:55,927 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:51:57,814 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:52:01,148 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:52:01,583 - INFO -   Sent path to file input: 7499c7ff-0d46-4f1b-9e9b-6b8cc30037a3.jpg
+2026-07-03 12:52:01,618 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:03,053 - INFO -   Sent path to file input: a43a9c89-81d5-45f5-ac50-8ba34b191956.jpg
+2026-07-03 12:52:03,575 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:05,010 - INFO -   Sent path to file input: e3f7cbc5-bce1-4542-805d-c89d0a933479.jpg
+2026-07-03 12:52:05,537 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:06,976 - INFO -   Sent path to file input: e59ecbeb-222d-470f-9602-1813489fe0a4.jpg
+2026-07-03 12:52:07,026 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:08,464 - INFO -   Sent path to file input: ef6769fa-b53a-4596-a5af-4eab10407eee.jpg
+2026-07-03 12:52:08,487 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:09,506 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:52:09,907 - INFO -   Clicked Save Changes
+2026-07-03 12:52:09,922 - INFO -   ✓ Done: +4 23/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 37
+2026-07-03 12:52:10,923 - INFO -     ✓ Fixed: +4 23/76 Twisted Flexible Wire 90 Mtr TWISTED FLEXIBLE WIRE ID: 37
+2026-07-03 12:52:12,924 - INFO - 
+  → Fixing broken thumbnail: +4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27
+2026-07-03 12:52:14,556 - INFO -     Matched folder: 1.5 sq.mm HRFR multistrand copper cable 45 mtr (5 images)
+2026-07-03 12:52:14,672 - INFO -   Using provided row for: '+4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27'
+2026-07-03 12:52:21,039 - INFO -   Modal opened
+2026-07-03 12:52:22,551 - INFO -   Removing an existing image (remaining: 5)
+2026-07-03 12:52:24,450 - INFO -   Removing an existing image (remaining: 4)
+2026-07-03 12:52:26,352 - INFO -   Removing an existing image (remaining: 3)
+2026-07-03 12:52:28,274 - INFO -   Removing an existing image (remaining: 2)
+2026-07-03 12:52:30,197 - INFO -   Removing an existing image (remaining: 1)
+2026-07-03 12:52:33,535 - INFO -   Batch upload failed: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=149.0.7827.201)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc1a543+103f3]
+	chromedriver!GetHandleVerifier [0xc1a584+10434]
+	chromedriver!(No symbol) [0xa1a700]
+	chromedriver!(No symbol) [0xa5f182]
+	chromedriver!(No symbol) [0xa860cc]
+	chromedriver!(No symbol) [0xa5a624]
+	chromedriver!(No symbol) [0xa86294]
+	chromedriver!(No symbol) [0xaa339a]
+	chromedriver!(No symbol) [0xa85e66]
+	chromedriver!(No symbol) [0xa59159]
+	chromedriver!(No symbol) [0xa59f24]
+	chromedriver!GetHandleVerifier [0xea4bba+29aa6a]
+	chromedriver!GetHandleVerifier [0xea0119+295fc9]
+	chromedriver!GetHandleVerifier [0xec103e+2b6eee]
+	chromedriver!GetHandleVerifier [0xc337f6+296a6]
+	chromedriver!GetHandleVerifier [0xc3a91d+307cd]
+	chromedriver!GetHandleVerifier [0xc22d18+18bc8]
+	chromedriver!GetHandleVerifier [0xc22ec5+18d75]
+	chromedriver!GetHandleVerifier [0xc0c05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x762d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77a1e12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77a1e0b1+231]
+. Trying sequential upload...
+2026-07-03 12:52:33,975 - INFO -   Sent path to file input: 149912aa-1c26-4857-9163-3db7356611d1.jpg
+2026-07-03 12:52:33,999 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:35,459 - INFO -   Sent path to file input: 53a64f60-176d-4d6b-bc5a-0609533d1548.jpg
+2026-07-03 12:52:35,985 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:37,423 - INFO -   Sent path to file input: adfd1387-d45c-4e1e-8d5a-86a4f0d34f06.jpg
+2026-07-03 12:52:37,951 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:39,387 - INFO -   Sent path to file input: d00a973b-47b8-4e45-b06d-1be40f83514d.jpg
+2026-07-03 12:52:39,434 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:40,877 - INFO -   Sent path to file input: d2180bee-3c4c-47ec-9492-d76c0afa8156.jpg
+2026-07-03 12:52:40,923 - INFO -     ✓ Upload confirmed (thumbnail rendered)
+2026-07-03 12:52:41,935 - INFO -   ✓ Sanity check passed: all 5 thumbnails rendered
+2026-07-03 12:52:42,338 - INFO -   Clicked Save Changes
+2026-07-03 12:52:42,358 - INFO -   ✓ Done: +4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27
+2026-07-03 12:52:43,358 - INFO -     ✓ Fixed: +4 1.5 Sq.Mm Hrfr Multistrand Copper Cable 45 Mtr MULTISTRAND CABLES ID: 27
+2026-07-03 12:52:45,376 - INFO -   No more pages after page 1. Scan complete.
+2026-07-03 12:52:45,376 - INFO - 
+============================================================
+2026-07-03 12:52:45,377 - INFO - SCAN SUMMARY
+2026-07-03 12:52:45,377 - INFO -   ✓ Broken thumbnails fixed : 26
+2026-07-03 12:52:45,377 - INFO -   ✗ Could not fix           : 0
+2026-07-03 12:52:45,377 - INFO - ============================================================
+2026-07-03 12:52:47,639 - INFO - Browser closed
+2026-07-03 12:52:51,695 - INFO - 
+Task finished at 2026-07-03 12:52:51
+2026-07-03 12:52:51,696 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260703_123921.log
+
+2026-07-03 16:10:49,253 - INFO - Automation cancelled by user (Ctrl+C)

@@ -1,0 +1,85 @@
+2026-06-08 23:03:37,788 - INFO - User selected: Add Specific Icons to Specific User Types
+2026-06-08 23:04:03,097 - INFO - Target User Types: ['Retailer']
+2026-06-08 23:04:03,098 - INFO - Target Dashboard Icons: ['E-Warranty']
+2026-06-08 23:04:03,104 - INFO - Processing images from: dashboardicons
+2026-06-08 23:04:03,105 - INFO - Output folder: automation\processed_images
+2026-06-08 23:04:03,105 - INFO - Target: 512x512 px, max 50 KB
+
+2026-06-08 23:04:03,163 - INFO - ✓ Processed PNG: Activity.png | Size: 19.5 KB
+2026-06-08 23:04:03,204 - INFO - ✓ Processed PNG: E-Warranty.png | Size: 48.4 KB
+2026-06-08 23:04:03,247 - INFO - ✓ Processed PNG: Installation Guide.png | Size: 19.5 KB
+2026-06-08 23:04:03,290 - INFO - ✓ Processed PNG: KYC.png | Size: 38.7 KB
+2026-06-08 23:04:03,324 - INFO - ✓ Processed PNG: Language.png | Size: 13.8 KB
+2026-06-08 23:04:03,356 - INFO - ✓ Processed PNG: My Wallet.png | Size: 15.0 KB
+2026-06-08 23:04:03,387 - INFO - ✓ Processed PNG: Nearby Retailers.png | Size: 14.7 KB
+2026-06-08 23:04:03,413 - INFO - ✓ Processed PNG: Product Catalog.png | Size: 11.0 KB
+2026-06-08 23:04:03,431 - INFO - ✓ Processed PNG: Prospectus.png | Size: 8.8 KB
+2026-06-08 23:04:03,465 - INFO - ✓ Processed PNG: Refer & Earn.png | Size: 14.7 KB
+2026-06-08 23:04:03,492 - INFO - ✓ Processed PNG: Rewards.png | Size: 10.5 KB
+2026-06-08 23:04:03,526 - INFO - ✓ Processed PNG: Scan Activity.png | Size: 12.5 KB
+2026-06-08 23:04:03,570 - INFO - ✓ Processed PNG: Scan History.png | Size: 19.4 KB
+2026-06-08 23:04:03,602 - INFO - ✓ Processed PNG: Send Points.png | Size: 13.5 KB
+2026-06-08 23:04:03,629 - INFO - ✓ Processed PNG: Support.png | Size: 10.7 KB
+2026-06-08 23:04:03,659 - INFO - ✓ Processed PNG: TDS.png | Size: 12.8 KB
+2026-06-08 23:04:03,685 - INFO - ✓ Processed PNG: Updates.png | Size: 8.9 KB
+2026-06-08 23:04:03,685 - INFO - 
+✓ Processed 17 images successfully
+
+2026-06-08 23:04:03,704 - INFO - Generated 1 upload tasks for 1 user types.
+2026-06-08 23:04:03,705 - INFO - 
+============================================================
+2026-06-08 23:04:03,705 - INFO - Launching Browser and Starting Upload Process
+2026-06-08 23:04:03,705 - INFO - ============================================================
+2026-06-08 23:04:03,712 - INFO - ====== WebDriver manager ======
+2026-06-08 23:04:04,974 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 23:04:05,396 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-08 23:04:05,739 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-08 23:04:05,739 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32\chromedriver.exe
+2026-06-08 23:04:06,914 - INFO - ✓ Chrome driver initialized
+2026-06-08 23:04:06,915 - INFO - 
+→ Attempting login...
+
+2026-06-08 23:04:06,915 - INFO - Opening login page...
+2026-06-08 23:04:08,304 - INFO -   → Policy checkbox checked on login page
+2026-06-08 23:04:08,374 - INFO -   → Credentials submitted, waiting for dashboard or select service...
+2026-06-08 23:04:13,530 - INFO -   → 'Select Service' popup detected, proceeding...
+2026-06-08 23:04:13,560 - INFO -     ✓ Clicked 'Continue To Dashboard'
+2026-06-08 23:04:13,629 - INFO - ✓ Login successful
+2026-06-08 23:04:15,630 - INFO - 
+→ Navigating to dashboard icons section...
+
+2026-06-08 23:04:15,630 - INFO - Navigating to App Settings...
+2026-06-08 23:04:21,993 - INFO - ✓ Dashboard Icons section loaded
+2026-06-08 23:04:23,994 - INFO - 
+→ Starting batch upload of 1 custom icons...
+
+2026-06-08 23:04:23,995 - INFO - Starting batch – 1 configured entries
+2026-06-08 23:04:23,995 - INFO - Total icons to upload after expansion: 1
+2026-06-08 23:04:23,996 - INFO - ============================================================
+2026-06-08 23:04:23,996 - INFO - [1/1]
+2026-06-08 23:04:23,996 - INFO -   Adding: [Retailer] E-Warranty  (e-warrant)
+2026-06-08 23:04:36,624 - INFO -     → User type: Retailer
+2026-06-08 23:04:36,697 - INFO -     → Icon identity: e-warrant
+2026-06-08 23:04:36,803 - INFO -     → Display title: E-Warranty
+2026-06-08 23:04:37,223 - INFO -     → Icon color: #20C078
+2026-06-08 23:04:37,251 - INFO -     → Toggle: dashboard only
+2026-06-08 23:04:39,287 - INFO -     → Image uploaded: E-Warranty.png
+2026-06-08 23:04:39,365 - INFO -     → Form submitted
+2026-06-08 23:04:49,905 - INFO -   ✓ Icon added: E-Warranty
+
+2026-06-08 23:04:50,906 - INFO - ============================================================
+2026-06-08 23:04:50,906 - INFO - Batch complete → ✓ 1 succeeded  ✗ 0 failed
+2026-06-08 23:04:50,906 - INFO - 
+============================================================
+2026-06-08 23:04:50,907 - INFO - SPECIFIC ICONS AUTOMATION SUMMARY
+2026-06-08 23:04:50,907 - INFO - ============================================================
+2026-06-08 23:04:50,907 - INFO - ✓ Successful uploads: 1
+2026-06-08 23:04:50,907 - INFO - ✗ Failed uploads: 0
+2026-06-08 23:04:50,907 - INFO - Total processed: 1
+2026-06-08 23:04:50,907 - INFO - Success rate: 100.0%
+2026-06-08 23:04:50,907 - INFO - ============================================================
+2026-06-08 23:04:53,128 - INFO - Browser closed
+2026-06-08 23:04:57,179 - INFO - 
+Task finished at 2026-06-08 23:04:57
+2026-06-08 23:04:57,179 - INFO - Log: automation\logs\full_automation_20260608_230326.log
+

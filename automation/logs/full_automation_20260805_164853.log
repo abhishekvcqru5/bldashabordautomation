@@ -1,0 +1,158 @@
+2026-08-05 16:49:11,391 - INFO - User selected: Registration Fields
+2026-08-05 16:49:11,391 - INFO - ============================================================
+2026-08-05 16:49:11,391 - INFO - REGISTRATION FIELDS — Browser Automation
+2026-08-05 16:49:11,392 - INFO - ============================================================
+2026-08-05 16:49:11,406 - INFO - ====== WebDriver manager ======
+2026-08-05 16:49:13,501 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 16:49:13,709 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 16:49:13,882 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 16:49:14,532 - INFO - WebDriver version 150.0.7871.124 selected
+2026-08-05 16:49:14,539 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-05 16:49:14,539 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-05 16:49:14,792 - INFO - Driver downloading response is 200
+2026-08-05 16:49:16,015 - INFO - Get LATEST chromedriver version for google-chrome
+2026-08-05 16:49:16,322 - INFO - Driver has been saved in cache [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-08-05 16:49:16,325 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-08-05 16:49:18,626 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-08-05 16:49:18,630 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-08-05 16:49:18,671 - INFO - ✓ Chrome driver initialized
+2026-08-05 16:49:18,671 - INFO - Opening login page...
+2026-08-05 16:49:20,109 - INFO -   → Policy checkbox checked on login page
+2026-08-05 16:49:20,221 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-08-05 16:49:20,238 - INFO -   → Policy agreement popup detected
+2026-08-05 16:49:20,276 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-08-05 16:49:20,800 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-08-05 16:49:32,390 - INFO -   → Navigating directly to App Settings URL...
+2026-08-05 16:49:32,764 - INFO - ✓ Login successful and on App Settings page
+2026-08-05 16:49:34,764 - INFO - Going to App Settings...
+2026-08-05 16:49:35,674 - INFO -   → Registration Field section opened
+2026-08-05 16:49:35,775 - INFO - ✓ Registration Fields page ready
+2026-08-05 16:49:36,526 - INFO - Found 2 user types: ['Plumber', 'Dealer']
+2026-08-05 16:49:36,526 - INFO - Starting registration fields automation: 12 fields total
+2026-08-05 16:49:36,527 - INFO - ============================================================
+2026-08-05 16:49:36,527 - INFO - Processing User Type: Plumber
+2026-08-05 16:49:36,528 - INFO -   Adding field: [Plumber] -> First Name
+2026-08-05 16:49:37,067 - INFO -     → User Type selected: Plumber
+2026-08-05 16:49:57,342 - INFO -     → System Data Point selected: First Name
+2026-08-05 16:49:57,385 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:49:57,490 - INFO -     → Integrate Now clicked
+2026-08-05 16:49:57,505 - INFO -     → Toast dismissed
+2026-08-05 16:49:57,552 - INFO -   ✓ Field added successfully: First Name
+
+2026-08-05 16:49:57,853 - INFO -   Adding field: [Plumber] -> Phone Number
+2026-08-05 16:49:58,517 - INFO -     → User Type selected: Plumber
+2026-08-05 16:50:18,760 - INFO -     → System Data Point selected: Phone Number
+2026-08-05 16:50:18,802 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:50:18,927 - INFO -     → Integrate Now clicked
+2026-08-05 16:50:18,939 - INFO -     → Toast dismissed
+2026-08-05 16:50:18,980 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-05 16:50:19,281 - INFO -   Adding field: [Plumber] -> Pincode
+2026-08-05 16:50:19,822 - INFO -     → User Type selected: Plumber
+2026-08-05 16:50:40,149 - INFO -     → System Data Point selected: Pincode
+2026-08-05 16:50:40,177 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:50:40,281 - INFO -     → Integrate Now clicked
+2026-08-05 16:50:40,298 - INFO -     → Toast dismissed
+2026-08-05 16:50:40,334 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-05 16:50:40,635 - INFO -   Adding field: [Plumber] -> City
+2026-08-05 16:50:41,158 - INFO -     → User Type selected: Plumber
+2026-08-05 16:51:01,433 - INFO -     → System Data Point selected: City
+2026-08-05 16:51:01,508 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:51:01,615 - INFO -     → Integrate Now clicked
+2026-08-05 16:51:01,632 - INFO -     → Toast dismissed
+2026-08-05 16:51:01,671 - INFO -   ✓ Field added successfully: City
+
+2026-08-05 16:51:01,972 - INFO -   Adding field: [Plumber] -> State
+2026-08-05 16:51:02,451 - INFO -     → User Type selected: Plumber
+2026-08-05 16:51:22,766 - INFO -     → System Data Point selected: State
+2026-08-05 16:51:22,792 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:51:22,886 - INFO -     → Integrate Now clicked
+2026-08-05 16:51:22,897 - INFO -     → Toast dismissed
+2026-08-05 16:51:22,927 - INFO -   ✓ Field added successfully: State
+
+2026-08-05 16:51:23,227 - INFO -   Adding field: [Plumber] -> Address
+2026-08-05 16:51:23,712 - INFO -     → User Type selected: Plumber
+2026-08-05 16:51:44,060 - INFO -     → System Data Point selected: Address
+2026-08-05 16:51:44,101 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:51:44,274 - INFO -     → Integrate Now clicked
+2026-08-05 16:51:44,291 - INFO -     → Toast dismissed
+2026-08-05 16:51:44,369 - INFO -   ✓ Field added successfully: Address
+
+2026-08-05 16:51:44,670 - INFO - Processing User Type: Dealer
+2026-08-05 16:51:44,671 - INFO -   Adding field: [Dealer] -> First Name
+2026-08-05 16:51:45,023 - INFO -     → User Type selected: Dealer
+2026-08-05 16:52:25,358 - ERROR -   ✗ Failed to add field First Name for Dealer: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x775843+10883]
+	chromedriver!GetHandleVerifier [0x775884+108c4]
+	chromedriver!(No symbol) [0x5790e0]
+	chromedriver!(No symbol) [0x5c316b]
+	chromedriver!(No symbol) [0x5c338b]
+	chromedriver!(No symbol) [0x605942]
+	chromedriver!(No symbol) [0x5e56b4]
+	chromedriver!(No symbol) [0x6031aa]
+	chromedriver!(No symbol) [0x5e5406]
+	chromedriver!(No symbol) [0x5b8659]
+	chromedriver!(No symbol) [0x5b9424]
+	chromedriver!GetHandleVerifier [0xa0ced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xa0847b+2a34bb]
+	chromedriver!GetHandleVerifier [0xa294eb+2c452b]
+	chromedriver!GetHandleVerifier [0x78f566+2a5a6]
+	chromedriver!GetHandleVerifier [0x79620d+3124d]
+	chromedriver!GetHandleVerifier [0x77e318+19358]
+	chromedriver!GetHandleVerifier [0x77e4c5+19505]
+	chromedriver!GetHandleVerifier [0x7670af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x750d5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7724e00b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7724df91+231]
+
+2026-08-05 16:52:25,544 - INFO -   📸 Screenshot saved: automation\screenshots\reg_error_Dealer_First_Name_20260805_165225.png
+2026-08-05 16:52:41,319 - INFO -   Adding field: [Dealer] -> Phone Number
+2026-08-05 16:52:41,471 - INFO -     → User Type selected: Dealer
+2026-08-05 16:53:01,573 - INFO -     → System Data Point selected: Phone Number
+2026-08-05 16:53:01,620 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:53:01,726 - INFO -     → Integrate Now clicked
+2026-08-05 16:53:01,736 - INFO -     → Toast dismissed
+2026-08-05 16:53:01,772 - INFO -   ✓ Field added successfully: Phone Number
+
+2026-08-05 16:53:02,073 - INFO -   Adding field: [Dealer] -> Pincode
+2026-08-05 16:53:02,560 - INFO -     → User Type selected: Dealer
+2026-08-05 16:53:22,656 - INFO -     → System Data Point selected: Pincode
+2026-08-05 16:53:22,681 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:53:22,768 - INFO -     → Integrate Now clicked
+2026-08-05 16:53:22,782 - INFO -     → Toast dismissed
+2026-08-05 16:53:22,814 - INFO -   ✓ Field added successfully: Pincode
+
+2026-08-05 16:53:23,115 - INFO -   Adding field: [Dealer] -> City
+2026-08-05 16:53:23,263 - INFO -     → User Type selected: Dealer
+2026-08-05 16:53:43,512 - INFO -     → System Data Point selected: City
+2026-08-05 16:53:43,530 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:53:43,686 - INFO -     → Integrate Now clicked
+2026-08-05 16:53:43,694 - INFO -     → Toast dismissed
+2026-08-05 16:53:43,723 - INFO -   ✓ Field added successfully: City
+
+2026-08-05 16:53:44,024 - INFO -   Adding field: [Dealer] -> State
+2026-08-05 16:53:44,481 - INFO -     → User Type selected: Dealer
+2026-08-05 16:54:04,605 - INFO -     → System Data Point selected: State
+2026-08-05 16:54:04,622 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:54:04,713 - INFO -     → Integrate Now clicked
+2026-08-05 16:54:04,724 - INFO -     → Toast dismissed
+2026-08-05 16:54:04,758 - INFO -   ✓ Field added successfully: State
+
+2026-08-05 16:54:05,059 - INFO -   Adding field: [Dealer] -> Address
+2026-08-05 16:54:05,539 - INFO -     → User Type selected: Dealer
+2026-08-05 16:54:25,669 - INFO -     → System Data Point selected: Address
+2026-08-05 16:54:25,691 - INFO -     → Mandatory toggle enabled
+2026-08-05 16:54:25,769 - INFO -     → Integrate Now clicked
+2026-08-05 16:54:25,778 - INFO -     → Toast dismissed
+2026-08-05 16:54:25,811 - INFO -   ✓ Field added successfully: Address
+
+2026-08-05 16:54:26,112 - INFO - ============================================================
+2026-08-05 16:54:26,112 - INFO - Registration fields batch complete → ✓ 11 succeeded  ✗ 1 failed
+2026-08-05 16:54:28,344 - INFO - Browser closed
+2026-08-05 16:54:32,410 - INFO - 
+Task finished at 2026-08-05 16:54:32
+2026-08-05 16:54:32,411 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260805_164853.log
+
+2026-08-05 17:52:54,828 - INFO - Automation cancelled by user (Ctrl+C)

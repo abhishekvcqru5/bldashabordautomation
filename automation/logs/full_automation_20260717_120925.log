@@ -1,0 +1,128 @@
+2026-07-17 12:09:50,712 - INFO - User selected: Copy Dashboard Icons Sequence (Source to Others)
+2026-07-17 12:09:50,712 - INFO - ============================================================
+2026-07-17 12:09:50,713 - INFO - COPY DASHBOARD ICONS SEQUENCE (Option 23)
+2026-07-17 12:09:50,713 - INFO - ============================================================
+2026-07-17 12:09:50,727 - INFO - ====== WebDriver manager ======
+2026-07-17 12:09:52,237 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 12:09:52,434 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 12:09:52,608 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 12:09:52,608 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 12:09:54,228 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 12:09:54,230 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 12:09:54,264 - INFO - ✓ Chrome driver initialized
+2026-07-17 12:09:54,264 - INFO - Opening login page...
+2026-07-17 12:09:55,528 - INFO -   → Policy checkbox checked on login page
+2026-07-17 12:09:55,597 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 12:09:55,610 - INFO -   → Policy agreement popup detected
+2026-07-17 12:09:55,643 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 12:09:56,171 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 12:10:07,641 - INFO - ✓ Login successful
+2026-07-17 12:10:09,642 - INFO - Navigating to dashboard icons section...
+2026-07-17 12:10:09,642 - INFO - Navigating to App Settings...
+2026-07-17 12:10:15,925 - INFO - ✓ Dashboard Icons section loaded
+2026-07-17 12:10:15,957 - INFO - Total rows found in configured icons table: 57
+2026-07-17 12:10:16,012 - INFO - Detected sequence prefix for 'Distributors': '1'
+2026-07-17 12:10:16,248 - INFO - Detected sequence prefix for 'Dealers': '2'
+2026-07-17 12:10:16,481 - INFO - Detected sequence prefix for 'Retailers': '3'
+2026-07-17 12:10:16,696 - INFO - Detected sequence prefix for 'Customer': '4'
+2026-07-17 12:10:22,348 - INFO - Source User Type selected: Customer
+2026-07-17 12:10:23,085 - INFO - Copied relative sequence map: {'e-warrant': '1', 'productcatalogue': '2', 'brochure': '3', 'wallet': '4', 'help': '5', 'claimhistory': '6', 'gift': '7', 'referandearn': '8', 'kycdetails': '9', 'chooselanguage': '10', 'codedetails': '11', 'history': '12', 'blog': '13'}
+2026-07-17 12:10:36,735 - INFO - Updating: [Distributors] 'Activity' (ID: 'claimhistory') from sequence 1.1 -> 1.6
+2026-07-17 12:10:38,007 - INFO -   → Set order sequence to: 1.6
+2026-07-17 12:10:38,045 - INFO -   → Sequence form submitted.
+2026-07-17 12:10:53,266 - ERROR -   ✗ Failed to update sequence for [Distributors] 'Activity': Message: 
+
+2026-07-17 12:10:54,424 - INFO - Updating: [Distributors] 'Activity' (ID: 'claimhistory') from sequence 1.1 -> 1.6
+2026-07-17 12:10:55,018 - ERROR -   ✗ Failed to update sequence for [Distributors] 'Activity': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=150.0.7871.115)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd55843+10883]
+	chromedriver!GetHandleVerifier [0xd55884+108c4]
+	chromedriver!(No symbol) [0xb590e0]
+	chromedriver!(No symbol) [0xb4836e]
+	chromedriver!(No symbol) [0xb66a59]
+	chromedriver!(No symbol) [0xbcbf5d]
+	chromedriver!(No symbol) [0xbe2c09]
+	chromedriver!(No symbol) [0xbc5406]
+	chromedriver!(No symbol) [0xb98659]
+	chromedriver!(No symbol) [0xb99424]
+	chromedriver!GetHandleVerifier [0xfeced6+2a7f16]
+	chromedriver!GetHandleVerifier [0xfe847b+2a34bb]
+	chromedriver!GetHandleVerifier [0x10094eb+2c452b]
+	chromedriver!GetHandleVerifier [0xd6f566+2a5a6]
+	chromedriver!GetHandleVerifier [0xd7620d+3124d]
+	chromedriver!GetHandleVerifier [0xd5e318+19358]
+	chromedriver!GetHandleVerifier [0xd5e4c5+19505]
+	chromedriver!GetHandleVerifier [0xd470af+20ef]
+	KERNEL32!BaseThreadInitThunk [0x75d75d49+19]
+	ntdll!RtlInitializeExceptionChain [0x779ce12b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x779ce0b1+231]
+
+2026-07-17 12:10:55,213 - INFO - All dashboard icons are in the correct sequence order!
+2026-07-17 12:10:55,213 - INFO - 
+============================================================
+2026-07-17 12:10:55,213 - INFO - SEQUENCE UPDATE SUMMARY
+2026-07-17 12:10:55,213 - INFO - ============================================================
+2026-07-17 12:10:55,214 - INFO - ✓ Successful sequence updates: 0
+2026-07-17 12:10:55,214 - INFO - ✗ Failed sequence updates: 2
+2026-07-17 12:10:55,214 - INFO - Total actions attempted: 2
+2026-07-17 12:10:55,214 - INFO - ============================================================
+2026-07-17 12:10:57,275 - INFO - Browser closed
+2026-07-17 12:11:01,340 - INFO - 
+Task finished at 2026-07-17 12:11:01
+2026-07-17 12:11:01,341 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_120925.log
+
+2026-07-17 12:34:33,474 - INFO - User selected: Brand Setting
+2026-07-17 12:34:48,753 - INFO -   Found logo asset: Logo.jpg
+2026-07-17 12:34:48,754 - INFO -   Found splash asset: splash.jpeg
+2026-07-17 12:34:48,757 - INFO - ============================================================
+2026-07-17 12:34:48,757 - INFO - BRAND SETTING — Image Processing
+2026-07-17 12:34:48,763 - INFO - ============================================================
+2026-07-17 12:34:49,081 - INFO - ✓ Logo  → logo_processed.jpg  |  23.2 KB  |  JPEG q95
+2026-07-17 12:34:49,183 - INFO - ✓ Splash → splash_processed.jpg  |  0.09 MB  |  JPEG q90
+2026-07-17 12:34:49,185 - INFO - 
+2026-07-17 12:34:49,185 - INFO - Extracting brand colours from logo...
+2026-07-17 12:34:49,483 - INFO -   Colours extracted from logo:
+2026-07-17 12:34:49,483 - INFO -     Header Color     →  #004090  (dominant logo colour)
+2026-07-17 12:34:49,484 - INFO -     Background Color →  #00295D  (35% darker)
+2026-07-17 12:34:49,484 - INFO -     Body Color       →  #FFFFFF  (always white)
+2026-07-17 12:34:49,484 - INFO -     Footer Color     →  #F5F5F5  (always light)
+2026-07-17 12:34:49,502 - INFO - ✓ Both images ready
+
+2026-07-17 12:34:49,502 - INFO - ============================================================
+2026-07-17 12:34:49,503 - INFO - BRAND SETTING — Browser Automation
+2026-07-17 12:34:49,503 - INFO - ============================================================
+2026-07-17 12:34:49,550 - INFO - ====== WebDriver manager ======
+2026-07-17 12:34:52,056 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 12:34:52,217 - INFO - Get LATEST chromedriver version for google-chrome
+2026-07-17 12:34:52,368 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-07-17 12:34:52,369 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
+2026-07-17 12:34:54,002 - INFO -   ✓ Geolocation permission granted via CDP (Browser.grantPermissions)
+2026-07-17 12:34:54,006 - INFO -   ✓ Geolocation coordinates overridden via CDP
+2026-07-17 12:34:54,063 - INFO - ✓ Chrome driver initialized
+2026-07-17 12:34:54,063 - INFO - Opening login page...
+2026-07-17 12:34:55,522 - INFO -   → Policy checkbox checked on login page
+2026-07-17 12:34:55,706 - INFO -   → Credentials submitted, waiting for post-login popups...
+2026-07-17 12:34:55,739 - INFO -   → Policy agreement popup detected
+2026-07-17 12:34:55,812 - WARNING -     ⚠ Could not find policy checkbox — attempting Continue anyway
+2026-07-17 12:34:56,347 - WARNING -     ⚠ Could not find Continue button in policy popup
+2026-07-17 12:35:07,957 - INFO - ✓ Login successful
+2026-07-17 12:35:09,958 - INFO - Going to App Settings...
+2026-07-17 12:35:16,291 - INFO -   → Identity & Branding section opened
+2026-07-17 12:35:18,437 - INFO -   → Edit Branding popup opened
+2026-07-17 12:35:18,452 - INFO - ✓ Brand setting form is ready
+2026-07-17 12:35:18,453 - INFO -   Setting company name: Tibco Connect
+2026-07-17 12:35:19,397 - INFO -     → HeaderColor: #004090
+2026-07-17 12:35:20,149 - INFO -     → FooterColor: #F5F5F5
+2026-07-17 12:35:20,862 - INFO -     → BodyColor: #FFFFFF
+2026-07-17 12:35:21,668 - INFO -     → BackgroundColor: #00295D
+2026-07-17 12:35:23,743 - INFO -   ✓ Logo uploaded:   logo_processed.jpg
+2026-07-17 12:35:25,782 - INFO -   ✓ Splash uploaded: splash_processed.jpg
+2026-07-17 12:35:25,922 - INFO -   → Save Changes clicked, waiting for confirmation...
+2026-07-17 12:35:28,936 - INFO - ✓ Brand settings saved successfully!
+2026-07-17 12:35:31,278 - INFO - Browser closed
+2026-07-17 12:35:35,350 - INFO - 
+Task finished at 2026-07-17 12:35:35
+2026-07-17 12:35:35,350 - INFO - Log: C:\Users\admin\Desktop\newbldashboardproject\bldashabordautomation\automation\logs\full_automation_20260717_120925.log
+

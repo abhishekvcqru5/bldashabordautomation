@@ -1,0 +1,24 @@
+2026-06-22 12:47:28,838 - INFO - User selected: Old Dashboard
+2026-06-22 12:47:30,543 - INFO -   Old Dashboard → Brand Setting
+2026-06-22 12:47:30,543 - INFO - ============================================================
+2026-06-22 12:47:30,544 - INFO - OLD DASHBOARD — Brand Setting Extraction
+2026-06-22 12:47:30,544 - INFO - ============================================================
+2026-06-22 12:47:30,551 - INFO - ====== WebDriver manager ======
+2026-06-22 12:47:31,554 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 12:47:31,909 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-22 12:47:32,259 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-06-22 12:47:32,260 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
+2026-06-22 12:47:33,425 - INFO - 
+[1/4] Logging in to old dashboard …
+2026-06-22 12:47:33,426 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-22 12:47:40,411 - INFO -     → Vendor selected via ID: chkadmin
+2026-06-22 12:47:42,412 - INFO -     → Filling credentials …
+2026-06-22 12:47:42,563 - INFO -       Email → field #login_txt_id
+2026-06-22 12:47:42,650 - INFO -       Password → field #login_txt_pass
+2026-06-22 12:47:42,729 - INFO -       Login button clicked: #btnVendor
+2026-06-22 12:47:42,729 - INFO -     → Waiting for post-login redirect …
+2026-06-22 12:47:45,867 - INFO -   ✓ Logged in. Current URL: https://www.vcqru.com/Manufacturer/Frmcodeverification.aspx
+2026-06-22 12:47:45,867 - INFO - 
+[2/4] Navigating to Build Loyalty App → Brand Setting …
+2026-06-22 12:47:58,755 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/632766039568a0ad5f6880d600c5e445
+2026-06-22 12:48:04,867 - INFO - Automation cancelled by user (Ctrl+C)
