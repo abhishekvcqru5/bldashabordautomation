@@ -18,7 +18,7 @@ from selenium.webdriver.support.ui import Select
 
 logger = logging.getLogger(__name__)
 
-OLD_DASHBOARD_URL = "https://www.vcqru.com/login.aspx"
+OLD_DASHBOARD_URL = "https://www.vcqru.com/loginVcqru.aspx"
 PRODUCT_IMAGE_DIR = Path(__file__).resolve().parent.parent / "product_catalogue"
 SCREENSHOTS_DIR = Path(__file__).resolve().parent / "screenshots"
 
@@ -340,7 +340,8 @@ class ProductCatalogueAutomation:
         """Navigate to App Setting -> Product Management."""
         try:
             # Navigate to App Settings directly to be sure
-            self.driver.get("https://app.vcqru.com/vendor/app-settings")
+            app_settings_url = getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings")
+            self.driver.get(app_settings_url)
             time.sleep(3)
             
             # Selector provided by user for the 6th button (Product Management)

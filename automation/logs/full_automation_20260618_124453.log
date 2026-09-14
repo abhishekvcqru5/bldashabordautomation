@@ -10,7 +10,7 @@
 2026-06-18 12:45:40,461 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
 2026-06-18 12:45:45,140 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-06-18 12:45:45,150 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-18 12:45:45,150 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-18 12:45:50,116 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-18 12:45:52,117 - INFO -     → Filling credentials …
 2026-06-18 12:45:52,960 - INFO -       Email → field #login_txt_id
@@ -107,7 +107,7 @@ Task finished at 2026-06-18 12:47:53
 2026-06-18 12:48:15,595 - INFO - Get LATEST chromedriver version for google-chrome
 2026-06-18 12:48:16,291 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-06-18 12:48:16,292 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
-2026-06-18 12:48:17,834 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-18 12:48:17,834 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-06-18 12:48:22,127 - INFO -   → Identifying 'Vendor' login tab...
 2026-06-18 12:48:22,304 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-06-18 12:48:25,306 - INFO -   → Filling Vendor credentials...
@@ -186,7 +186,7 @@ Task finished at 2026-06-18 12:50:46
 2026-06-18 12:52:02,507 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-06-18 12:52:02,513 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
 2026-06-18 12:52:24,668 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
-2026-06-18 12:52:24,678 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-18 12:52:24,678 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-18 12:53:06,533 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-18 12:53:08,533 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
 2026-06-18 12:53:13,447 - INFO -       Email → field #login_txt_id

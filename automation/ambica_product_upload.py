@@ -119,7 +119,8 @@ def run_ambica_product_upload(email: str, password: str) -> bool:
             # We'll use the provided CSS selector for the Product Catalogue menu item directly, assuming it's visible or on the dashboard
             try:
                 # First ensure we are on the main dashboard where App Settings might be, or navigate to App Settings
-                driver.get("https://app.vcqru.com/vendor/app-settings")
+                app_settings_url = getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings")
+                driver.get(app_settings_url)
                 time.sleep(3)
                 
                 menu_item = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PRODUCT_CATALOGUE_MENU)))

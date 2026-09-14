@@ -28,12 +28,22 @@ class VendorPortalAutomation:
     BASE_URL = "https://app.vcqru.com/vendor/login"
     APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
 
-    def __init__(self, email, password, headless=False):
+    def __init__(self, email, password, headless=False, base_url=None):
         self.email = email
         self.password = password
         self.wait_time = 20
         self.driver = None
         self.headless = headless
+
+        self.base_url = base_url or VendorPortalAutomation.BASE_URL
+        if "/vendor/login" in self.base_url:
+            self.base_domain = self.base_url.rsplit("/vendor/login", 1)[0]
+        elif "/vendor" in self.base_url:
+            self.base_domain = self.base_url.rsplit("/vendor", 1)[0]
+        else:
+            self.base_domain = self.base_url.rstrip("/")
+
+        self.app_settings_url = f"{self.base_domain}/vendor/app-settings"
 
     # ─────────────────────────────────────────────
     # Toast & Click Helpers
@@ -43,6 +53,15 @@ class VendorPortalAutomation:
     def _wait_toast_gone(self):
         """Wait until any toast message is gone before trying to click main actions."""
         try:
+            toasts = self.driver.find_elements(By.XPATH, self._XPATH_TOAST)
+            for t in toasts:
+                try:
+                    if t.is_displayed():
+                        txt = t.text.strip().replace("\n", " ")
+                        if txt:
+                            logger.info(f"    🔔 Toast notification: {txt}")
+                except Exception:
+                    pass
             WebDriverWait(self.driver, 10).until(
                 EC.invisibility_of_element_located((By.XPATH, self._XPATH_TOAST))
             )
@@ -140,7 +159,7 @@ class VendorPortalAutomation:
                     "Browser.grantPermissions",
                     {
                         "permissions": ["geolocation"],
-                        "origin": "https://app.vcqru.com"
+                        "origin": self.base_domain
                     }
                 )
                 logger.info("  ✓ Geolocation permission granted via CDP (Browser.grantPermissions)")
@@ -287,8 +306,8 @@ class VendorPortalAutomation:
     # ─────────────────────────────────────────────
     def login(self):
         try:
-            logger.info(f"Opening login page...")
-            self.driver.get(self.BASE_URL)
+            logger.info(f"Opening login page ({self.base_url})...")
+            self.driver.get(self.base_url)
 
             # 1) Enter email
             WebDriverWait(self.driver, self.wait_time).until(
@@ -334,7 +353,7 @@ class VendorPortalAutomation:
 
             # 4) Navigate directly to App Settings URL
             logger.info("  → Navigating directly to App Settings URL...")
-            self.driver.get(self.APP_SETTINGS)
+            self.driver.get(self.app_settings_url)
             
             WebDriverWait(self.driver, self.wait_time).until(
                 EC.url_contains("/vendor/app-settings")
@@ -354,7 +373,7 @@ class VendorPortalAutomation:
     def navigate_to_dashboard_icons(self):
         try:
             logger.info("Navigating to App Settings...")
-            self.driver.get(self.APP_SETTINGS)
+            self.driver.get(self.app_settings_url)
             time.sleep(3)
 
             # Click the "Dashboard Icons" card / button
@@ -574,8 +593,89 @@ class VendorPortalAutomation:
             # ── 6. Upload image ─────────────────────────────────
             img_path = icon_data.get("image_path", "")
             if img_path and Path(img_path).exists():
-                file_input = self.driver.find_element(By.XPATH, "//input[@type='file']")
-                file_input.send_keys(str(Path(img_path).absolute()))
+                abs_img_path = str(Path(img_path).resolve())
+
+                # Find active modal container
+                modal_elem = None
+                try:
+                    modals = self.driver.find_elements(
+                        By.XPATH, "//div[contains(@class,'fixed') and contains(@class,'inset-0')]"
+                    )
+                    for m in modals:
+                        if m.is_displayed():
+                            modal_elem = m
+                            break
+                except Exception:
+                    pass
+
+                # Locate file input specifically inside the modal
+                file_input = None
+                if modal_elem:
+                    m_inputs = modal_elem.find_elements(By.XPATH, ".//input[@type='file']")
+                    if m_inputs:
+                        file_input = m_inputs[-1]
+
+                if not file_input:
+                    for xpath in [
+                        "//div[contains(@class,'fixed')]//*[contains(text(),'Click to upload media')]/ancestor::div[1]//input[@type='file']",
+                        "//div[contains(@class,'fixed')]//*[contains(text(),'Click to upload media')]/following::input[@type='file'][1]",
+                        "//div[contains(@class,'fixed')]//*[contains(text(),'Click to upload media')]/preceding::input[@type='file'][1]",
+                        "//div[contains(@class,'fixed')]//input[@type='file']",
+                    ]:
+                        try:
+                            els = self.driver.find_elements(By.XPATH, xpath)
+                            if els:
+                                file_input = els[-1]
+                                break
+                        except Exception:
+                            continue
+
+                if not file_input:
+                    all_inputs = self.driver.find_elements(By.XPATH, "//input[@type='file']")
+                    if all_inputs:
+                        file_input = all_inputs[-1]
+
+                if not file_input:
+                    logger.error("    ✗ Could not locate file input inside modal!")
+                    self.driver.find_element(
+                        By.XPATH, "//button[contains(text(),'Discard')]"
+                    ).click()
+                    time.sleep(1)
+                    return False
+
+                # Scroll dropzone into view if present
+                try:
+                    dropzone = (modal_elem or self.driver).find_element(
+                        By.XPATH, ".//*[contains(text(),'Click to upload media')]"
+                    )
+                    self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", dropzone)
+                    time.sleep(0.3)
+                except Exception:
+                    self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", file_input)
+                    time.sleep(0.3)
+
+                # Make file input visible so Chrome allows send_keys reliably
+                try:
+                    self.driver.execute_script("""
+                        arguments[0].style.cssText = 'display:block !important; visibility:visible !important;'
+                            + 'opacity:1 !important; width:1px !important; height:1px !important;'
+                            + 'position:fixed !important; top:0 !important; left:0 !important; z-index:99999;';
+                    """, file_input)
+                except Exception:
+                    pass
+
+                # Attach file
+                file_input.send_keys(abs_img_path)
+
+                # Dispatch events specifically on THIS file_input
+                try:
+                    self.driver.execute_script("""
+                        arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+                        arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+                    """, file_input)
+                except Exception:
+                    pass
+
                 time.sleep(2)  # let preview load
                 logger.info(f"    → Image uploaded: {Path(img_path).name}")
             else:
@@ -587,21 +687,130 @@ class VendorPortalAutomation:
                 time.sleep(1)
                 return False
 
-            # ── 7. Submit ───────────────────────────────────────
-            WebDriverWait(self.driver, self.wait_time).until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Add Icon')]")
-                )
-            ).click()
-            logger.info("    → Form submitted")
+            # Dispatch events on all form inputs in modal to ensure React Hook Form captures everything
+            try:
+                if modal_elem:
+                    self.driver.execute_script("""
+                        var m = arguments[0];
+                        var inputs = m.querySelectorAll('input, select, textarea');
+                        for (var i = 0; i < inputs.length; i++) {
+                            inputs[i].dispatchEvent(new Event('input', { bubbles: true }));
+                            inputs[i].dispatchEvent(new Event('change', { bubbles: true }));
+                        }
+                    """, modal_elem)
+                else:
+                    self.driver.execute_script("""
+                        var nameInput = document.querySelector("input[name='Name']");
+                        if (nameInput) {
+                            nameInput.dispatchEvent(new Event('input', {bubbles: true}));
+                            nameInput.dispatchEvent(new Event('change', {bubbles: true}));
+                        }
+                    """)
+            except Exception:
+                pass
 
-            # ── 8. Wait for form to close (list reappears) ──────
-            WebDriverWait(self.driver, self.wait_time).until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//button[contains(text(),'Add New Icon')]")
+            # ── 7. Submit ───────────────────────────────────────
+            submit_btn = None
+            submit_selectors = [
+                # Exact CSS matching modal footer submit button
+                (By.CSS_SELECTOR, "div.fixed.inset-0 div[class*='border-t'] button.bg-indigo-600"),
+                (By.CSS_SELECTOR, "div.fixed[class*='z-'] div[class*='border-t'] button.bg-indigo-600"),
+                # XPath matching Add Icon text inside fixed modal
+                (By.XPATH, "//div[contains(@class,'fixed')]//button[contains(., 'Add Icon')]"),
+                (By.XPATH, "//div[contains(@class,'fixed')]//button[normalize-space()='Add Icon']"),
+                # Next sibling of Discard button inside modal
+                (By.XPATH, "//div[contains(@class,'fixed')]//button[contains(., 'Discard')]/following-sibling::button"),
+                # Fallback to any Add Icon button
+                (By.XPATH, "//button[normalize-space()='Add Icon']"),
+                (By.XPATH, "//button[contains(., 'Add Icon')]"),
+            ]
+
+            for by_type, selector in submit_selectors:
+                try:
+                    candidates = self.driver.find_elements(by_type, selector)
+                    for cand in candidates:
+                        if cand.is_displayed():
+                            submit_btn = cand
+                            break
+                    if submit_btn:
+                        break
+                except Exception:
+                    continue
+
+            if not submit_btn:
+                submit_btn = WebDriverWait(self.driver, self.wait_time).until(
+                    EC.element_to_be_clickable(
+                        (By.XPATH, "//button[contains(., 'Add Icon')]")
+                    )
                 )
-            )
-            # Wait for the success toast to vanish before next click
+
+            # Check if button is disabled
+            if submit_btn.get_attribute("disabled"):
+                logger.warning(f"    ⚠ 'Add Icon' button is disabled! Form fields might be incomplete.")
+                err_els = self.driver.find_elements(
+                    By.XPATH, "//div[contains(@class,'fixed')]//p[contains(@class,'text-red') or contains(@class,'text-destructive')] | //div[contains(@class,'fixed')]//span[contains(@class,'text-red')]"
+                )
+                for el in err_els:
+                    if el.is_displayed() and el.text.strip():
+                        logger.warning(f"      Field error: {el.text.strip()}")
+
+            # Scroll into center of view
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", submit_btn)
+            time.sleep(0.5)
+
+            # Click using native click first, fallback to JS click
+            try:
+                submit_btn.click()
+                logger.info("    → Form submitted (native click)")
+            except Exception:
+                self.driver.execute_script("arguments[0].click();", submit_btn)
+                logger.info("    → Form submitted (JS click)")
+
+            # Secondary click if modal remains open after 1s
+            time.sleep(1.0)
+            try:
+                if submit_btn.is_displayed():
+                    self.driver.execute_script("arguments[0].click();", submit_btn)
+            except Exception:
+                pass
+
+            # ── 8. Wait for modal to close (submitting succeeded) ──────
+            try:
+                WebDriverWait(self.driver, 8).until(
+                    EC.invisibility_of_element_located(
+                        (By.XPATH, "//div[contains(@class,'fixed')]//button[contains(., 'Add Icon')]")
+                    )
+                )
+            except Exception:
+                # Modal didn't close - collect any validation error text
+                err_text = []
+                try:
+                    err_els = self.driver.find_elements(
+                        By.XPATH, "//div[contains(@class,'fixed')]//p[contains(@class,'text-red') or contains(@class,'text-destructive')] | //div[contains(@class,'fixed')]//span[contains(@class,'text-red')]"
+                    )
+                    for el in err_els:
+                        if el.is_displayed() and el.text.strip():
+                            err_text.append(el.text.strip())
+                except Exception:
+                    pass
+
+                self._take_screenshot(f"error_submit_{display.replace(' ', '_')}")
+                # Try to discard modal so next attempt isn't blocked
+                try:
+                    self.driver.find_element(
+                        By.XPATH, "//div[contains(@class,'fixed')]//button[contains(.,'Discard')]"
+                    ).click()
+                    time.sleep(1)
+                except Exception:
+                    pass
+
+                if err_text:
+                    logger.error(f"  ✗ Form validation error for [{display}]: {', '.join(err_text)}")
+                else:
+                    logger.error(f"  ✗ Modal did not close after submitting [{display}]")
+                return False
+
+            # Wait for any success toast to vanish before next icon
             self._wait_toast_gone()
             time.sleep(0.5)
             logger.info(f"  ✓ Icon added: {display}\n")

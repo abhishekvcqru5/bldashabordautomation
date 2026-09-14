@@ -16,7 +16,7 @@
 2026-06-13 09:57:06,819 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
 2026-06-13 09:57:10,189 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-06-13 09:57:10,190 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-13 09:57:10,190 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-13 09:57:17,086 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-13 09:57:19,087 - INFO -     → Filling credentials …
 2026-06-13 09:57:19,334 - INFO -       Email → field #login_txt_id
@@ -43,7 +43,7 @@ Task finished at 2026-06-13 09:58:27
 2026-06-13 09:58:40,478 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
 2026-06-13 09:58:41,911 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-06-13 09:58:41,930 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-13 09:58:41,930 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-13 09:58:48,315 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-13 09:58:50,316 - INFO -     → Filling credentials …
 2026-06-13 09:58:50,563 - INFO -       Email → field #login_txt_id

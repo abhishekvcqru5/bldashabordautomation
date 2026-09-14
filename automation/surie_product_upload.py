@@ -58,7 +58,8 @@ class SurieProductAutomation:
             selector = "#root > div.flex.h-screen.bg-gray-50.dark\\:bg-dark-900.overflow-hidden.text-gray-900.dark\\:text-gray-100.transition-colors.transition-all.duration-200 > div.flex-1.flex.flex-col.min-w-0.overflow-hidden > main > div.grid.grid-cols-1.md\\:grid-cols-2.lg\\:grid-cols-3.gap-5 > button:nth-child(6) > h3"
             
             # Navigate to App Settings directly to be sure
-            self.driver.get("https://app.vcqru.com/vendor/app-settings")
+            app_settings_url = getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings")
+            self.driver.get(app_settings_url)
             time.sleep(3)
             
             btn = self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, selector)))

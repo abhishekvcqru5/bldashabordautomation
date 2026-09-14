@@ -3,7 +3,7 @@
 2026-05-02 17:03:15,510 - INFO - OLD DASHBOARD MIGRATION — Extraction
 2026-05-02 17:03:15,511 - INFO - ============================================================
 2026-05-02 17:03:15,953 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
-2026-05-02 17:03:17,685 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 17:03:17,685 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-05-02 17:03:23,175 - INFO -   → Attempting to select Vendor mode...
 2026-05-02 17:03:43,315 - INFO -     ✓ Selected Vendor via JS click on checkbox
 2026-05-02 17:03:45,317 - INFO -   → Locating credential fields...

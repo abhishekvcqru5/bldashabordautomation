@@ -7,7 +7,7 @@
 2026-06-12 18:12:56,633 - INFO - Get LATEST chromedriver version for google-chrome
 2026-06-12 18:12:59,063 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-06-12 18:12:59,071 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.115\chromedriver-win32\chromedriver.exe
-2026-06-12 18:13:04,232 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-12 18:13:04,232 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-06-12 18:13:12,101 - INFO -   → Identifying 'Vendor' login tab...
 2026-06-12 18:13:13,497 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-06-12 18:13:16,498 - INFO -   → Filling Vendor credentials...

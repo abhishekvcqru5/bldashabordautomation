@@ -20,7 +20,7 @@ from banner_promotion import BannerImageProcessor, BannerAutomation
 
 logger = logging.getLogger(__name__)
 
-OLD_DASHBOARD_URL = "https://www.vcqru.com/login.aspx"
+OLD_DASHBOARD_URL = "https://www.vcqru.com/loginVcqru.aspx"
 IMAGE_SAVE_DIR = Path(__file__).resolve().parent.parent / "old_dashboard_intro_image"
 
 class OldDashboardExtractor:

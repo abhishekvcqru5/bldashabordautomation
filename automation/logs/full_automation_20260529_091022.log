@@ -10,7 +10,7 @@
 2026-05-29 09:10:43,491 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
 2026-05-29 09:10:44,422 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-05-29 09:10:44,422 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-29 09:10:44,422 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-05-29 09:10:50,763 - INFO -     → Vendor selected via ID: chkadmin
 2026-05-29 09:10:52,764 - INFO -     → Filling credentials …
 2026-05-29 09:10:53,040 - INFO -       Email → field #login_txt_id
@@ -92,7 +92,7 @@ Task finished at 2026-05-29 09:12:03
 2026-05-29 09:12:10,540 - INFO - Get LATEST chromedriver version for google-chrome
 2026-05-29 09:12:10,614 - INFO - Get LATEST chromedriver version for google-chrome
 2026-05-29 09:12:10,698 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
-2026-05-29 09:12:11,576 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-29 09:12:11,576 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-05-29 09:12:17,927 - INFO -   → Identifying 'Vendor' login tab...
 2026-05-29 09:12:18,236 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-05-29 09:12:21,236 - INFO -   → Filling Vendor credentials...
@@ -183,7 +183,7 @@ Task finished at 2026-05-29 09:13:38
 2026-05-29 09:13:46,050 - INFO - Get LATEST chromedriver version for google-chrome
 2026-05-29 09:13:46,215 - INFO - Get LATEST chromedriver version for google-chrome
 2026-05-29 09:13:46,282 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
-2026-05-29 09:13:47,187 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-29 09:13:47,187 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-05-29 09:13:53,856 - INFO -   → Identifying 'Vendor' login tab...
 2026-05-29 09:13:54,123 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-05-29 09:13:57,124 - INFO -   → Filling Vendor credentials...

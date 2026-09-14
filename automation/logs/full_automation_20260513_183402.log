@@ -6,7 +6,7 @@
 2026-05-13 18:34:57,035 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
 2026-05-13 18:35:00,226 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-05-13 18:35:00,227 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-13 18:35:00,227 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-05-13 18:35:07,135 - INFO -     → Vendor selected via ID: chkadmin
 2026-05-13 18:35:09,136 - INFO -     → Filling credentials …
 2026-05-13 18:35:09,476 - INFO -       Email → field #login_txt_id

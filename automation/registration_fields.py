@@ -17,7 +17,12 @@ from selenium.common.exceptions import (
 
 logger = logging.getLogger(__name__)
 
+from dashboard_automation import VendorPortalAutomation
+
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
+
+def get_app_settings_url():
+    return getattr(VendorPortalAutomation, "APP_SETTINGS", APP_SETTINGS)
 
 # XPaths kept as constants to avoid rebuilding strings repeatedly
 _XPATH_ADD_BTN   = "//button[contains(text(),'Add Registration Field')]"
@@ -133,7 +138,7 @@ class RegistrationFieldsAutomation:
         """Navigate to App Settings -> Registration Field section."""
         try:
             logger.info("Going to App Settings...")
-            self.driver.get(APP_SETTINGS)
+            self.driver.get(get_app_settings_url())
 
             # Wait for the Registration Field card/button — no blind sleep
             self._wait_clickable(By.XPATH, _XPATH_REG_FIELD).click()

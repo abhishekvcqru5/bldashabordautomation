@@ -61,7 +61,8 @@ def run_ambica_image_updater(email: str, password: str) -> bool:
 
             logger.info("Navigating to Product Catalogue...")
             try:
-                driver.get("https://app.vcqru.com/vendor/app-settings")
+                app_settings_url = getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings")
+                driver.get(app_settings_url)
                 time.sleep(3)
                 menu_item = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PRODUCT_CATALOGUE_MENU)))
                 menu_item.click()
@@ -176,7 +177,8 @@ def run_ambica_image_updater(email: str, password: str) -> bool:
                     driver.refresh()
                     time.sleep(5)
                     try:
-                        driver.get("https://app.vcqru.com/vendor/app-settings")
+                        app_settings_url = getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings")
+                        driver.get(app_settings_url)
                         time.sleep(3)
                         menu_item = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, PRODUCT_CATALOGUE_MENU)))
                         menu_item.click()

@@ -16,6 +16,6 @@
 2026-08-04 16:11:59,623 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32\chromedriver.exe
 2026-08-04 16:12:03,945 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-08-04 16:12:03,946 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-08-04 16:12:03,946 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-08-04 16:12:12,294 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8f28bb0321a5f236f3e8a59773dfdca7
 2026-08-04 16:12:18,407 - INFO - Automation cancelled by user (Ctrl+C)

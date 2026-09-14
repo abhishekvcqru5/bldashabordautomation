@@ -10,7 +10,7 @@
 2026-06-22 12:49:47,240 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
 2026-06-22 12:49:48,396 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-06-22 12:49:48,396 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-22 12:49:48,396 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-22 12:49:54,138 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-22 12:49:56,139 - INFO -     → Filling credentials …
 2026-06-22 12:49:56,276 - INFO -       Email → field #login_txt_id
@@ -100,7 +100,7 @@ Task finished at 2026-06-22 12:51:23
 2026-06-22 12:52:56,340 - INFO - Get LATEST chromedriver version for google-chrome
 2026-06-22 12:52:56,690 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-06-22 12:52:56,691 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
-2026-06-22 12:52:57,847 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-22 12:52:57,847 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-06-22 12:53:03,730 - INFO -   → Identifying 'Vendor' login tab...
 2026-06-22 12:53:03,873 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-06-22 12:53:06,874 - INFO -   → Filling Vendor credentials...
@@ -200,7 +200,7 @@ Task finished at 2026-06-22 12:54:24
 2026-06-22 12:55:30,230 - INFO - Get LATEST chromedriver version for google-chrome
 2026-06-22 12:55:30,615 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-06-22 12:55:30,615 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
-2026-06-22 12:55:31,800 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-06-22 12:55:31,800 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-06-22 12:55:36,015 - INFO -   → Identifying 'Vendor' login tab...
 2026-06-22 12:55:36,200 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-06-22 12:55:39,201 - INFO -   → Filling Vendor credentials...

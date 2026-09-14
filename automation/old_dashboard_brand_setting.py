@@ -1,7 +1,7 @@
 """
 Old Dashboard — Brand Setting Extractor
 ========================================
-Connects to the OLD VCQRU dashboard (https://www.vcqru.com/login.aspx),
+Connects to the OLD VCQRU dashboard (https://www.vcqru.com/loginVcqru.aspx),
 logs in as Vendor, then navigates to:
     Build Loyalty App → Brand Setting
 
@@ -36,7 +36,7 @@ from dashboard_automation import VendorPortalAutomation
 logger = logging.getLogger(__name__)
 
 # ── Constants ────────────────────────────────────────────────────────────────
-OLD_DASHBOARD_URL = "https://www.vcqru.com/login.aspx"
+OLD_DASHBOARD_URL = "https://www.vcqru.com/loginVcqru.aspx"
 BRAND_SAVE_DIR = Path(__file__).resolve().parent.parent / "brandsetting"
 SCREENSHOTS_DIR = Path(__file__).resolve().parent / "screenshots"
 WAIT_TIME = 25  # seconds for WebDriverWait

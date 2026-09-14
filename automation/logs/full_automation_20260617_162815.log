@@ -6,7 +6,7 @@
 2026-06-17 16:28:47,907 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-06-17 16:28:47,907 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
 2026-06-17 16:28:49,124 - INFO - Attempting login to old dashboard with provided credentials (jackson.monteiro@akemiindia.com) ...
-2026-06-17 16:28:49,124 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-17 16:28:49,124 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-17 16:28:55,123 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-17 16:28:57,123 - INFO -     → Filling credentials for jackson.monteiro@akemiindia.com …
 2026-06-17 16:28:57,261 - INFO -       Email → field #login_txt_id

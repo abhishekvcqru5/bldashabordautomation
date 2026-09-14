@@ -10,7 +10,7 @@
 2026-06-22 12:46:16,718 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win32\chromedriver.exe
 2026-06-22 12:46:18,753 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-06-22 12:46:18,754 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-06-22 12:46:18,754 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-06-22 12:46:25,047 - INFO -     → Vendor selected via ID: chkadmin
 2026-06-22 12:46:27,048 - INFO -     → Filling credentials …
 2026-06-22 12:46:27,189 - INFO -       Email → field #login_txt_id

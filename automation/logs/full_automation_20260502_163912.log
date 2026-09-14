@@ -3,7 +3,7 @@
 2026-05-02 16:39:39,099 - INFO - OLD DASHBOARD MIGRATION — Extraction
 2026-05-02 16:39:39,100 - INFO - ============================================================
 2026-05-02 16:39:39,889 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.97); currently, chromedriver 148.0.7778.97 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
-2026-05-02 16:39:41,025 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-05-02 16:39:41,025 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-05-02 16:40:03,632 - ERROR - Old dashboard login failed: Message: 
 Stacktrace:
 #0 0x610caafa63ea <unknown>

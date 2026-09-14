@@ -17,7 +17,7 @@
 2026-07-13 11:52:23,438 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
 2026-07-13 11:52:26,331 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-07-13 11:52:26,332 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-07-13 11:52:26,332 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-07-13 11:52:33,358 - INFO -     → Vendor selected via ID: chkadmin
 2026-07-13 11:52:35,359 - INFO -     → Filling credentials …
 2026-07-13 11:52:35,605 - INFO -       Email → field #login_txt_id
@@ -108,7 +108,7 @@ Task finished at 2026-07-13 11:55:07
 2026-07-13 12:00:15,318 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
 2026-07-13 12:00:16,498 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-07-13 12:00:16,498 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-07-13 12:00:16,498 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-07-13 12:00:20,917 - INFO -     → Vendor selected via ID: chkadmin
 2026-07-13 12:00:22,917 - INFO -     → Filling credentials …
 2026-07-13 12:00:23,112 - INFO -       Email → field #login_txt_id
@@ -199,7 +199,7 @@ Task finished at 2026-07-13 12:01:52
 2026-07-13 12:02:29,548 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
 2026-07-13 12:02:30,714 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-07-13 12:02:30,717 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-07-13 12:02:30,717 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-07-13 12:02:36,376 - INFO -     → Vendor selected via ID: chkadmin
 2026-07-13 12:02:38,377 - INFO -     → Filling credentials …
 2026-07-13 12:02:38,548 - INFO -       Email → field #login_txt_id
@@ -289,7 +289,7 @@ Task finished at 2026-07-13 12:04:10
 2026-07-13 12:04:42,346 - INFO - Get LATEST chromedriver version for google-chrome
 2026-07-13 12:04:42,763 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-07-13 12:04:42,764 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
-2026-07-13 12:04:44,070 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 12:04:44,070 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-07-13 12:04:50,221 - INFO -   → Identifying 'Vendor' login tab...
 2026-07-13 12:04:50,366 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-07-13 12:04:53,367 - INFO -   → Filling Vendor credentials...
@@ -431,7 +431,7 @@ Task finished at 2026-07-13 12:07:36
 2026-07-13 12:07:52,739 - INFO - Get LATEST chromedriver version for google-chrome
 2026-07-13 12:07:53,145 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-07-13 12:07:53,146 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
-2026-07-13 12:07:54,378 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 12:07:54,378 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-07-13 12:07:59,940 - INFO -   → Identifying 'Vendor' login tab...
 2026-07-13 12:08:00,116 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-07-13 12:08:03,117 - INFO -   → Filling Vendor credentials...
@@ -638,7 +638,7 @@ Task finished at 2026-07-13 12:10:16
 2026-07-13 12:11:23,792 - INFO - Get LATEST chromedriver version for google-chrome
 2026-07-13 12:11:24,238 - INFO - Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
 2026-07-13 12:11:24,239 - INFO -   Resolved webdriver path to: C:\Users\admin\.wdm\drivers\chromedriver\win64\150.0.7871.115\chromedriver-win32\chromedriver.exe
-2026-07-13 12:11:25,499 - INFO - Opening old dashboard login: https://www.vcqru.com/login.aspx
+2026-07-13 12:11:25,499 - INFO - Opening old dashboard login: https://www.vcqru.com/loginVcqru.aspx
 2026-07-13 12:11:31,403 - INFO -   → Identifying 'Vendor' login tab...
 2026-07-13 12:11:31,582 - INFO -     ✓ Selected Vendor via direct ID 'chkadmin'
 2026-07-13 12:11:34,583 - INFO -   → Filling Vendor credentials...

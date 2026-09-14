@@ -9,7 +9,12 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 
 logger = logging.getLogger(__name__)
 
+from dashboard_automation import VendorPortalAutomation
+
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
+
+def get_app_settings_url():
+    return getattr(VendorPortalAutomation, "APP_SETTINGS", APP_SETTINGS)
 
 class GiftManagementAutomation:
     def __init__(self, driver, wait_time=20):
@@ -29,7 +34,7 @@ class GiftManagementAutomation:
     def navigate(self):
         try:
             logger.info("Going to App Settings...")
-            self.driver.get(APP_SETTINGS)
+            self.driver.get(get_app_settings_url())
             time.sleep(3)
 
             # Click Gift Management

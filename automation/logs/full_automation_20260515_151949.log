@@ -6,7 +6,7 @@
 2026-05-15 15:20:05,091 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
 2026-05-15 15:20:06,673 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-05-15 15:20:06,673 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 15:20:06,673 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-05-15 15:20:13,886 - INFO -     → Vendor selected via ID: chkadmin
 2026-05-15 15:20:15,887 - INFO -     → Filling credentials …
 2026-05-15 15:20:16,153 - INFO -       Email → field #login_txt_id
@@ -82,7 +82,7 @@ Task finished at 2026-05-15 15:21:44
 2026-05-15 15:26:51,568 - WARNING - The chromedriver version (147.0.7727.55) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.167); currently, chromedriver 148.0.7778.167 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
 2026-05-15 15:26:52,740 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-05-15 15:26:52,740 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-15 15:26:52,740 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-05-15 15:26:59,823 - INFO -     → Vendor selected via ID: chkadmin
 2026-05-15 15:27:01,823 - INFO -     → Filling credentials …
 2026-05-15 15:27:02,084 - INFO -       Email → field #login_txt_id

@@ -23,12 +23,18 @@ from PIL import Image
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementClickInterceptedException
 
 logger = logging.getLogger(__name__)
 
+from dashboard_automation import VendorPortalAutomation
+
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
+
+def get_app_settings_url():
+    return getattr(VendorPortalAutomation, "APP_SETTINGS", APP_SETTINGS)
 BANNER_FOLDER = Path(__file__).resolve().parent.parent / "banner"
-PROCESSED_DIR = Path("automation/processed_banners")
+PROCESSED_DIR = Path(__file__).resolve().parent / "processed_banners"
 
 SUPPORTED_EXT = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp"}
 
@@ -207,7 +213,7 @@ class BannerAutomation:
     # ── helpers ───────────────────────────────────────────────
     def _ss(self, name):
         try:
-            d = Path("automation/screenshots")
+            d = Path(__file__).resolve().parent / "screenshots"
             d.mkdir(parents=True, exist_ok=True)
             p = d / f"banner_{name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
             self.driver.save_screenshot(str(p))
@@ -215,15 +221,50 @@ class BannerAutomation:
         except Exception as e:
             logger.warning(f"Screenshot failed: {e}")
 
+    def _dismiss_any_modal(self):
+        """Dismiss any active popup/modal or backdrop if still visible."""
+        try:
+            cancels = self.driver.find_elements(
+                By.XPATH, "//button[contains(text(),'Cancel') or contains(.,'Cancel')]"
+            )
+            for btn in cancels:
+                if btn.is_displayed():
+                    try:
+                        btn.click()
+                        time.sleep(1)
+                    except Exception:
+                        self.driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(1)
+
+            close_buttons = self.driver.find_elements(
+                By.XPATH, "//div[contains(@class,'fixed')]//button[*[local-name()='svg']]"
+            )
+            for btn in close_buttons:
+                if btn.is_displayed():
+                    try:
+                        btn.click()
+                        time.sleep(1)
+                    except Exception:
+                        self.driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(1)
+
+            WebDriverWait(self.driver, 4).until(
+                EC.invisibility_of_element_located(
+                    (By.XPATH, "//div[contains(@class,'backdrop-blur') or contains(@class,'bg-black/60')]")
+                )
+            )
+        except Exception:
+            pass
+
     # ── navigation ────────────────────────────────────────────
     def navigate(self):
         """
         App Settings → Promotion Banners section.
-        Returns True when "Deploy New Banner" button is visible.
+        Returns True when "Deploy New Banner" button is visible and clickable.
         """
         try:
             logger.info("Going to App Settings...")
-            self.driver.get(APP_SETTINGS)
+            self.driver.get(get_app_settings_url())
             time.sleep(3)
 
             self.wait.until(
@@ -234,9 +275,8 @@ class BannerAutomation:
             time.sleep(3)
             logger.info("  → Promotion Banners section opened")
 
-            # Confirm the Deploy button is present
             self.wait.until(
-                EC.presence_of_element_located(
+                EC.element_to_be_clickable(
                     (By.XPATH, "//button[contains(text(),'Deploy New Banner')]")
                 )
             )
@@ -257,40 +297,156 @@ class BannerAutomation:
         try:
             logger.info(f"  Publishing: [{title}]  ({Path(image_path).name})")
 
+            # 0. Clear any lingering modal/backdrop
+            self._dismiss_any_modal()
+
             # 1. Open popup
-            self.wait.until(
+            deploy_btn = self.wait.until(
                 EC.element_to_be_clickable(
                     (By.XPATH, "//button[contains(text(),'Deploy New Banner')]")
                 )
-            ).click()
+            )
+            try:
+                deploy_btn.click()
+            except Exception:
+                self.driver.execute_script("arguments[0].click();", deploy_btn)
             time.sleep(2)
 
             # 2. Banner Title
-            title_field = self.wait.until(
-                EC.presence_of_element_located((By.NAME, "Title"))
-            )
+            title_field = None
+            for xpath in [
+                "//*[contains(text(),'Banner Title')]/following::input[1]",
+                "//input[@name='Title' or @name='title']",
+                "//input[contains(@placeholder,'title') or contains(@placeholder,'Title')]",
+                "//div[contains(@class,'fixed')]//input[not(@type='file') and not(@type='hidden')]",
+            ]:
+                try:
+                    els = self.driver.find_elements(By.XPATH, xpath)
+                    for el in els:
+                        if el.is_displayed():
+                            title_field = el
+                            break
+                    if title_field:
+                        break
+                except Exception:
+                    continue
+
+            if not title_field:
+                title_field = self.wait.until(
+                    EC.visibility_of_element_located(
+                        (By.XPATH, "//*[contains(text(),'Banner Title')]/following::input[1] | //input[@name='Title' or @name='title']")
+                    )
+                )
+
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", title_field)
             title_field.clear()
             title_field.send_keys(title)
+            try:
+                self.driver.execute_script(
+                    "arguments[0].dispatchEvent(new Event('input', { bubbles: true })); arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+                    title_field
+                )
+            except Exception:
+                pass
             logger.info(f"    → Title entered: {title}")
 
             # 3. Upload image
-            file_input = self.driver.find_element(By.XPATH, "//input[@type='file']")
-            file_input.send_keys(str(Path(image_path).absolute()))
+            file_input = None
+            for xpath in [
+                "//*[contains(text(),'Promotional Image')]/following::input[@type='file'][1]",
+                "//*[contains(text(),'Click to upload media')]/ancestor::div[1]//input[@type='file']",
+                "//*[contains(text(),'Click to upload media')]/following::input[@type='file'][1]",
+                "//*[contains(text(),'Click to upload media')]/preceding::input[@type='file'][1]",
+            ]:
+                try:
+                    els = self.driver.find_elements(By.XPATH, xpath)
+                    if els:
+                        file_input = els[0]
+                        break
+                except Exception:
+                    continue
+
+            if not file_input:
+                all_inputs = self.driver.find_elements(By.XPATH, "//input[@type='file']")
+                if all_inputs:
+                    file_input = all_inputs[-1]
+
+            if not file_input:
+                raise NoSuchElementException("Could not locate file input inside banner modal")
+
+            try:
+                self.driver.execute_script("""
+                    arguments[0].style.cssText = 'display:block !important; visibility:visible !important;'
+                        + 'opacity:1 !important; width:1px !important; height:1px !important;'
+                        + 'position:fixed !important; top:0 !important; left:0 !important; z-index:99999;';
+                """, file_input)
+            except Exception:
+                pass
+
+            abs_path = str(Path(image_path).resolve())
+            file_input.send_keys(abs_path)
+            try:
+                self.driver.execute_script(
+                    "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+                    file_input
+                )
+            except Exception:
+                pass
             time.sleep(2)
             logger.info(f"    → Image uploaded: {Path(image_path).name}")
 
             # 4. Publish Banner
-            self.wait.until(
+            publish_btn = self.wait.until(
                 EC.element_to_be_clickable(
                     (By.XPATH, "//button[contains(text(),'Publish Banner')]")
                 )
-            ).click()
-            logger.info("    → Publish Banner clicked")
-            time.sleep(3)
+            )
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", publish_btn)
+            try:
+                publish_btn.click()
+            except Exception:
+                self.driver.execute_script("arguments[0].click();", publish_btn)
+            logger.info("    → Publish Banner clicked, waiting for completion...")
 
-            # 5. Wait for popup to close (Deploy New Banner button reappears)
+            # 5. Wait for popup to actually close
+            modal_closed = False
+            start_wait = time.time()
+            while time.time() - start_wait < 25:
+                err_nodes = self.driver.find_elements(
+                    By.XPATH,
+                    "//div[contains(@class,'fixed')]//*[contains(text(),'required') or contains(@class,'text-red')]"
+                )
+                visible_errs = [e.text.strip() for e in err_nodes if e.is_displayed() and e.text.strip()]
+                if visible_errs and (time.time() - start_wait > 4):
+                    logger.error(f"  ✗ Form validation error: {', '.join(visible_errs)}")
+                    break
+
+                btns = self.driver.find_elements(
+                    By.XPATH, "//button[contains(text(),'Publish Banner')]"
+                )
+                visible_btns = [b for b in btns if b.is_displayed()]
+                if not visible_btns:
+                    modal_closed = True
+                    break
+                time.sleep(0.5)
+
+            if not modal_closed:
+                logger.error(f"  ✗ Modal did not close for banner [{title}]")
+                self._ss(f"error_{title}")
+                self._dismiss_any_modal()
+                return False
+
+            try:
+                WebDriverWait(self.driver, 10).until(
+                    EC.invisibility_of_element_located(
+                        (By.XPATH, "//div[contains(@class,'backdrop-blur') or contains(@class,'bg-black/60')]")
+                    )
+                )
+            except Exception:
+                pass
+
             self.wait.until(
-                EC.presence_of_element_located(
+                EC.element_to_be_clickable(
                     (By.XPATH, "//button[contains(text(),'Deploy New Banner')]")
                 )
             )
@@ -301,14 +457,7 @@ class BannerAutomation:
         except Exception as e:
             logger.error(f"  ✗ Failed to publish [{title}]: {e}")
             self._ss(f"error_{title}")
-            # Try cancel so popup doesn't block the next one
-            try:
-                self.driver.find_element(
-                    By.XPATH, "//button[contains(text(),'Cancel')]"
-                ).click()
-                time.sleep(1)
-            except Exception:
-                pass
+            self._dismiss_any_modal()
             return False
 
     # ── batch ─────────────────────────────────────────────────
@@ -327,11 +476,12 @@ class BannerAutomation:
 
         for idx, (title, img_path) in enumerate(banners, 1):
             logger.info(f"[{idx}/{total}]")
+            self._dismiss_any_modal()
             if self.publish_banner(title, img_path):
                 successful += 1
             else:
                 failed += 1
-            time.sleep(1)
+            time.sleep(2)
 
         logger.info("=" * 60)
         logger.info(f"Banners done  →  ✓ {successful} published   ✗ {failed} failed")

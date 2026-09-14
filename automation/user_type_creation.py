@@ -15,7 +15,12 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 logger = logging.getLogger(__name__)
 
+from dashboard_automation import VendorPortalAutomation
+
 APP_SETTINGS = "https://app.vcqru.com/vendor/app-settings"
+
+def get_app_settings_url():
+    return getattr(VendorPortalAutomation, "APP_SETTINGS", APP_SETTINGS)
 
 
 class UserTypeAutomation:
@@ -44,7 +49,7 @@ class UserTypeAutomation:
         """Navigate to App Settings -> User Type section."""
         try:
             logger.info("Going to App Settings...")
-            self.driver.get(APP_SETTINGS)
+            self.driver.get(get_app_settings_url())
             time.sleep(3)
 
             # Locate the "User Type" card and click it.

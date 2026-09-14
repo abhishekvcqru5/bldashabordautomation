@@ -10,7 +10,7 @@
 2026-05-27 11:56:28,808 - INFO - Driver [/home/adminmac/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver] found in cache
 2026-05-27 11:56:31,789 - INFO - 
 [1/4] Logging in to old dashboard …
-2026-05-27 11:56:31,789 - INFO -   → Opening: https://www.vcqru.com/login.aspx
+2026-05-27 11:56:31,789 - INFO -   → Opening: https://www.vcqru.com/loginVcqru.aspx
 2026-05-27 11:56:40,620 - INFO -     → Vendor selected via ID: chkadmin
 2026-05-27 11:56:42,621 - INFO -     → Filling credentials …
 2026-05-27 11:56:42,872 - INFO -       Email → field #login_txt_id

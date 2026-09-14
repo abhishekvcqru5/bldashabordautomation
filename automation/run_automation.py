@@ -71,6 +71,34 @@ def print_banner():
     logger.info(banner)
 
 
+def ask_environment():
+    """Prompt the user to select Live or UAT environment at runtime."""
+    print()
+    print("  ┌──────────────────────────────────────────────────────────┐")
+    print("  │   Select Target Environment                              │")
+    print("  ├──────────────────────────────────────────────────────────┤")
+    print("  │   1. LIVE (Normal Dashboard: https://app.vcqru.com)     │")
+    print("  │   2. UAT  (UAT Dashboard:    https://appuat.vcqru.com)  │")
+    print("  └──────────────────────────────────────────────────────────┘")
+    print()
+    env_choice = input("  Select Environment (1 for Live, 2 for UAT) [Default: 1]: ").strip().lower()
+
+    if env_choice in ("2", "uat", "u", "2. uat"):
+        login_url = "https://appuat.vcqru.com/vendor/login"
+        env_name = "UAT"
+    else:
+        login_url = "https://app.vcqru.com/vendor/login"
+        env_name = "LIVE"
+
+    print(f"  ✓ Target Environment set to: {env_name} ({login_url})\n")
+    logger.info(f"Selected Environment: {env_name} ({login_url})")
+
+    # Update default class attributes on VendorPortalAutomation
+    VendorPortalAutomation.BASE_URL = login_url
+    VendorPortalAutomation.APP_SETTINGS = login_url.replace("/vendor/login", "/vendor/app-settings")
+    return login_url
+
+
 def ask_credentials():
     """Prompt the user for login credentials at runtime."""
     print()
@@ -84,6 +112,10 @@ def ask_credentials():
 def main(email=None, password=None):
     """Main execution flow"""
     print_banner()
+    
+    env_override = os.getenv("VENDOR_LOGIN_URL") or os.getenv("AUTOMATION_ENV")
+    if not env_override and VendorPortalAutomation.BASE_URL == "https://app.vcqru.com/vendor/login":
+        ask_environment()
 
     logger.info(
         f"Automation started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
@@ -760,6 +792,9 @@ FILENAME_TO_ICON_IDENTITY = {
     "referandearn": "referandearn",
     "scan activity": "codedetails",
     "code details": "codedetails",
+    "scan qr": "codedetails",
+    "scan qr code": "codedetails",
+    "scanqr": "codedetails",
     "scan history": "history",
     "history": "history",
     "send points": "transferpoints",
@@ -1460,10 +1495,28 @@ def run_single_update(email, password, target_user_type=None, target_icon_id=Non
 
                     # Upload processed image
                     img_path = str(Path(loc["processed_path"]).absolute())
-                    file_input = WebDriverWait(automation.driver, 5).until(
-                        EC.presence_of_element_located((By.XPATH, "//input[@type='file']"))
-                    )
+                    try:
+                        file_input = automation.driver.find_elements(By.XPATH, "//div[contains(@class,'fixed')]//input[@type='file']")[-1]
+                    except Exception:
+                        file_input = WebDriverWait(automation.driver, 5).until(
+                            EC.presence_of_element_located((By.XPATH, "//input[@type='file']"))
+                        )
+                    try:
+                        automation.driver.execute_script("""
+                            arguments[0].style.cssText = 'display:block !important; visibility:visible !important;'
+                                + 'opacity:1 !important; width:1px !important; height:1px !important;'
+                                + 'position:fixed !important; top:0 !important; left:0 !important; z-index:99999;';
+                        """, file_input)
+                    except Exception:
+                        pass
                     file_input.send_keys(img_path)
+                    try:
+                        automation.driver.execute_script("""
+                            arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+                            arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+                        """, file_input)
+                    except Exception:
+                        pass
                     logger.info(f"  → Uploaded image: {loc['filename']}")
                     time.sleep(2) # Let preview load
 
@@ -1951,10 +2004,28 @@ def run_dashboard_icons_special_five_update(email, password, target_user_type=No
 
                         # Upload processed image
                         img_path = str(Path(target["processed_path"]).absolute())
-                        file_input = WebDriverWait(automation.driver, 5).until(
-                            EC.presence_of_element_located((By.XPATH, "//input[@type='file']"))
-                        )
+                        try:
+                            file_input = automation.driver.find_elements(By.XPATH, "//div[contains(@class,'fixed')]//input[@type='file']")[-1]
+                        except Exception:
+                            file_input = WebDriverWait(automation.driver, 5).until(
+                                EC.presence_of_element_located((By.XPATH, "//input[@type='file']"))
+                            )
+                        try:
+                            automation.driver.execute_script("""
+                                arguments[0].style.cssText = 'display:block !important; visibility:visible !important;'
+                                    + 'opacity:1 !important; width:1px !important; height:1px !important;'
+                                    + 'position:fixed !important; top:0 !important; left:0 !important; z-index:99999;';
+                        """, file_input)
+                        except Exception:
+                            pass
                         file_input.send_keys(img_path)
+                        try:
+                            automation.driver.execute_script("""
+                                arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+                                arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+                            """, file_input)
+                        except Exception:
+                            pass
                         logger.info(f"  → Uploaded image: {target['filename']}")
                         time.sleep(2) # Let preview load
 
@@ -2206,41 +2277,55 @@ def run_missing_icons_upload(email, password) -> bool:
             for text_lower in utype_dropdown_map:
                 configured_by_user_type[text_lower] = set()
 
-            current_user_type = "all"
+            current_user_type = None
             for row in rows:
                 cells = row.find_elements(By.TAG_NAME, "td")
                 if len(cells) == 1:
                     hdr_text = cells[0].text.strip()
+                    # Skip empty table notice rows like "No Icons Registered The Master Navigation Registry Is Empty..."
+                    if not hdr_text or any(w in hdr_text.lower() for w in ["no icons registered", "empty", "no data"]):
+                        current_user_type = None
+                        continue
+
                     # Example: "Dealer 13 Icons Configured"
                     match = re.search(r'^([a-zA-Z\s\-\_]+?)\s+\d+', hdr_text)
-                    if match:
-                        current_user_type = match.group(1).strip().lower()
+                    candidate = match.group(1).strip().lower() if match else hdr_text.strip().lower()
+
+                    # Match candidate against known valid user types from dropdown
+                    matched_ut = None
+                    if candidate in utype_dropdown_map:
+                        matched_ut = candidate
                     else:
-                        current_user_type = hdr_text.strip().lower()
-                    
-                    if current_user_type not in configured_by_user_type:
-                        configured_by_user_type[current_user_type] = set()
+                        for ut in utype_dropdown_map:
+                            if ut == candidate or ut in candidate or candidate in ut:
+                                matched_ut = ut
+                                break
+
+                    if matched_ut:
+                        current_user_type = matched_ut
+                        if current_user_type not in configured_by_user_type:
+                            configured_by_user_type[current_user_type] = set()
+                    else:
+                        current_user_type = None
                     continue
 
-                if len(cells) >= 6:
+                if len(cells) >= 6 and current_user_type and current_user_type in configured_by_user_type:
                     cell_1_text = cells[1].text.strip().replace("\n", " ")
                     id_match = re.search(r'ID:\s*([a-zA-Z0-9_\-]+)', cell_1_text)
                     if id_match:
                         icon_id = id_match.group(1).strip()
-                        configured_by_user_type[current_user_type.strip()].add(icon_id)
+                        configured_by_user_type[current_user_type].add(icon_id)
 
             # Let's log what we found
             logger.info("Currently configured icons per user type:")
             for ut, icons in configured_by_user_type.items():
                 logger.info(f"  {ut}: {list(icons)}")
 
-            # Calculate missing icons for each user type
+            # Calculate missing icons for each valid user type from dropdown
             missing_tasks = []
-            for ut_clean, configured_set in configured_by_user_type.items():
-                if ut_clean in utype_dropdown_map:
-                    target_ut_name = utype_dropdown_map[ut_clean]["text"]
-                else:
-                    target_ut_name = ut_clean.title()
+            for ut_clean, ut_info in utype_dropdown_map.items():
+                configured_set = configured_by_user_type.get(ut_clean, set())
+                target_ut_name = ut_info["text"]
                 
                 # Keep track of identities we've already planned to upload for this user type in this run,
                 # to avoid duplicate uploads if there are multiple local files mapping to the same identity
@@ -2366,6 +2451,8 @@ def run_copy_dashboard_sequence(email, password) -> bool:
                 cells = row.find_elements(By.TAG_NAME, "td")
                 if len(cells) == 1:
                     hdr_text = cells[0].text.strip()
+                    if not hdr_text or any(w in hdr_text.lower() for w in ["no icons registered", "empty", "no data"]):
+                        continue
                     # Match pattern: e.g. "Customer 12" -> "Customer"
                     match = re.search(r'^([a-zA-Z\s\-\_]+?)\s+\d+', hdr_text)
                     ut_name = match.group(1).strip() if match else hdr_text.strip()
@@ -2707,6 +2794,21 @@ if __name__ == "__main__":
             sys.stdout.reconfigure(encoding='utf-8')
         if hasattr(sys.stderr, 'reconfigure'):
             sys.stderr.reconfigure(encoding='utf-8')
+        # Environment selection (Live vs UAT)
+        env_override = os.getenv("VENDOR_LOGIN_URL") or os.getenv("AUTOMATION_ENV")
+        if env_override:
+            if "appuat.vcqru.com" in env_override or env_override.lower() == "uat":
+                login_url = "https://appuat.vcqru.com/vendor/login"
+                env_name = "UAT"
+            else:
+                login_url = "https://app.vcqru.com/vendor/login"
+                env_name = "LIVE"
+            logger.info(f"Unattended Environment selected: {env_name} ({login_url})")
+            VendorPortalAutomation.BASE_URL = login_url
+            VendorPortalAutomation.APP_SETTINGS = login_url.replace("/vendor/login", "/vendor/app-settings")
+        else:
+            ask_environment()
+
         # Check environment variables first, fall back to interactive prompting
         email = os.getenv("VENDOR_EMAIL", "").strip()
         password = os.getenv("VENDOR_PASSWORD", "").strip()

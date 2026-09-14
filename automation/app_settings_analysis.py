@@ -212,7 +212,8 @@ def run_app_settings_analysis(email: str, password: str) -> bool:
             # ── 2. Extract Identity & Branding ────────────────────────────────
             logger.info("\n→ Extracting Identity & Branding settings...")
             try:
-                auto.driver.get("https://app.vcqru.com/vendor/app-settings?brand-setting")
+                app_settings_url = getattr(auto, "app_settings_url", getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings"))
+                auto.driver.get(f"{app_settings_url}?brand-setting")
                 time.sleep(3)
                 
                 edit_btn = auto.driver.find_element(By.XPATH, "//button[contains(text(),'Edit Branding')]")
@@ -258,7 +259,8 @@ def run_app_settings_analysis(email: str, password: str) -> bool:
             # ── 3. Extract Support Network ────────────────────────────────────
             logger.info("\n→ Extracting Support Network settings...")
             try:
-                auto.driver.get("https://app.vcqru.com/vendor/app-settings?support-network")
+                app_settings_url = getattr(auto, "app_settings_url", getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings"))
+                auto.driver.get(f"{app_settings_url}?support-network")
                 time.sleep(3)
                 
                 edit_btn = auto.driver.find_element(By.XPATH, "//button[contains(normalize-space(.),'Edit Details') or contains(normalize-space(.),'Edit Support')]")
@@ -291,7 +293,8 @@ def run_app_settings_analysis(email: str, password: str) -> bool:
             # ── 4. Extract Dashboard Icons ───────────────────────────────────
             logger.info("\n→ Extracting Dashboard Icons...")
             try:
-                auto.driver.get("https://app.vcqru.com/vendor/app-settings?dashboard-icons")
+                app_settings_url = getattr(auto, "app_settings_url", getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings"))
+                auto.driver.get(f"{app_settings_url}?dashboard-icons")
                 time.sleep(4)
                 
                 table = auto.driver.find_element(By.TAG_NAME, "table")
@@ -354,7 +357,8 @@ def run_app_settings_analysis(email: str, password: str) -> bool:
             # ── 5. Extract Gifts List (Gifts Management) ──────────────────────
             logger.info("\n→ Extracting Gift Management settings...")
             try:
-                auto.driver.get("https://app.vcqru.com/vendor/app-settings?gift-management")
+                app_settings_url = getattr(auto, "app_settings_url", getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings"))
+                auto.driver.get(f"{app_settings_url}?gift-management")
                 time.sleep(4)
                 
                 table = auto.driver.find_element(By.TAG_NAME, "table")
@@ -415,7 +419,8 @@ def run_app_settings_analysis(email: str, password: str) -> bool:
             # ── 6. Extract KYC Rules ──────────────────────────────────────────
             logger.info("\n→ Extracting KYC rules...")
             try:
-                auto.driver.get("https://app.vcqru.com/vendor/app-settings?kyc-setting")
+                app_settings_url = getattr(auto, "app_settings_url", getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings"))
+                auto.driver.get(f"{app_settings_url}?kyc-setting")
                 time.sleep(4)
                 
                 kyc_items = ["Aadhaar Card", "PAN Card", "Bank Account Details", "VPA/UPI Details", "QR Code Check", "Admin Approval", "Dashboard Access", "Claim Required"]
@@ -444,7 +449,8 @@ def run_app_settings_analysis(email: str, password: str) -> bool:
             # ── 7. Extract Claim Settings ─────────────────────────────────────
             logger.info("\n→ Extracting Claim Settings policies...")
             try:
-                auto.driver.get("https://app.vcqru.com/vendor/app-settings?claim-setting")
+                app_settings_url = getattr(auto, "app_settings_url", getattr(VendorPortalAutomation, "APP_SETTINGS", "https://app.vcqru.com/vendor/app-settings"))
+                auto.driver.get(f"{app_settings_url}?claim-setting")
                 time.sleep(4)
                 
                 cbs = auto.driver.find_elements(By.XPATH, "//input[@type='checkbox']")
