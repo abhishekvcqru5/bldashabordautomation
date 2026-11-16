@@ -17,6 +17,7 @@ from pathlib import Path
 
 from PIL import Image
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -249,39 +250,42 @@ class BrandImageProcessor:
 
     # ── public methods ────────────────────────────────────────
     def process_logo(self, input_path):
-        """Process App Logo → 512×512, max 2 MB. Preserves transparency."""
+        """Process App Logo → 512×512 on clean white background, max 2 MB."""
         src = Path(input_path)
         if not src.exists():
             logger.error(f"Logo file not found: {input_path}")
             return None
         try:
             raw = Image.open(src)
-            transparent = self._has_transparency(raw)
+            if raw.mode != "RGBA":
+                raw = raw.convert("RGBA")
 
-            if transparent:
-                img = self._to_rgba(raw)
-                img = self._force_resize(img, self.LOGO_TARGET)
-                logger.info("  Logo has transparency — preserving (saving as PNG)")
-            else:
-                img = self._to_rgb(raw)
-                img = self._force_resize(img, self.LOGO_TARGET)
+            # Fit logo proportionally on a pure white 512×512 canvas
+            canvas = Image.new("RGBA", self.LOGO_TARGET, (255, 255, 255, 255))
+            max_w = int(self.LOGO_TARGET[0] * 0.92)
+            max_h = int(self.LOGO_TARGET[1] * 0.92)
+            w, h = raw.size
+            ratio = min(max_w / w, max_h / h)
+            new_w = max(1, int(w * ratio))
+            new_h = max(1, int(h * ratio))
 
-            out, ok, note = self._save(
-                img,
-                self.out / "logo_processed",
-                self.LOGO_MAX_BYTES,
-                start_quality=95,
-                transparent=transparent,
-            )
+            resized_logo = raw.resize((new_w, new_h), Image.Resampling.LANCZOS)
+            offset_x = (self.LOGO_TARGET[0] - new_w) // 2
+            offset_y = (self.LOGO_TARGET[1] - new_h) // 2
+
+            mask = resized_logo.split()[-1] if resized_logo.mode == "RGBA" else None
+            canvas.paste(resized_logo, (offset_x, offset_y), mask=mask)
+
+            out = self.out / "logo_processed.png"
+            canvas.save(out, "PNG", optimize=True)
+
+            # Also save JPG version
+            out_jpg = self.out / "logo_processed.jpg"
+            canvas.convert("RGB").save(out_jpg, "JPEG", quality=95, optimize=True)
+
             kb = out.stat().st_size / 1024
-            if ok:
-                logger.info(f"✓ Logo  → {out.name}  |  {kb:.1f} KB  |  {note}")
-                return str(out)
-            logger.error(
-                f"Logo still exceeds 2 MB after processing ({kb:.0f} KB). "
-                "Please provide a smaller source image."
-            )
-            return None
+            logger.info(f"✓ Logo  → {out.name}  |  512×512 (white background)  |  {kb:.1f} KB")
+            return str(out)
         except Exception as e:
             logger.error(f"Logo processing error: {e}")
             return None
@@ -466,8 +470,21 @@ class BrandSettingAutomation:
             # ── Company Name ──────────────────────────────────
             logger.info(f"  Setting company name: {company_name}")
             field = self.driver.find_element(By.NAME, "CompanyName")
-            field.clear()
+            field.click()
+            field.send_keys(Keys.CONTROL + "a")
+            field.send_keys(Keys.DELETE)
             field.send_keys(company_name)
+            self.driver.execute_script("""
+                var el = arguments[0];
+                var val = arguments[1];
+                try {
+                    var setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
+                    setter.call(el, val);
+                } catch (e) {}
+                el.dispatchEvent(new Event('input', { bubbles: true }));
+                el.dispatchEvent(new Event('change', { bubbles: true }));
+                el.dispatchEvent(new Event('blur', { bubbles: true }));
+            """, field, company_name)
 
             # ── Colors (all optional) ─────────────────────────
             if colors:
@@ -483,42 +500,301 @@ class BrandSettingAutomation:
                         self._set_color(field_name, hex_val)
 
             # ── File uploads ──────────────────────────────────
-            # The portal has exactly 2 file inputs: [0]=logo, [1]=splash
-            file_inputs = self.driver.find_elements(By.XPATH, "//input[@type='file']")
-            if len(file_inputs) < 2:
-                logger.error(f"Expected 2 file inputs, found {len(file_inputs)}")
+            comp_input = self.driver.find_element(By.NAME, "CompanyName")
+            modal = self.driver.execute_script("""
+                var el = arguments[0];
+                var p = el.parentElement;
+                while (p && p !== document.body) {
+                    var txt = p.innerText || "";
+                    if (txt.includes('Customize Branding') || txt.includes('App Logo') || txt.includes('Save Changes')) {
+                        if (txt.includes('Save Changes') || txt.includes('Cancel')) {
+                            return p;
+                        }
+                    }
+                    p = p.parentElement;
+                }
+                return el.closest('form') || el.closest('div[role="dialog"]') || document.body;
+            """, comp_input)
+
+            # Look for file inputs inside this real modal
+            inputs = self.driver.execute_script("""
+                var modal = arguments[0];
+                var allInps = modal.querySelectorAll('input[type="file"]');
+                var logoInp = null;
+                var splashInp = null;
+
+                // Find by label / text container
+                var allDivs = modal.querySelectorAll('div');
+                for (var i = 0; i < allDivs.length; i++) {
+                    var d = allDivs[i];
+                    var txt = (d.innerText || "").trim();
+                    if (!logoInp && (txt.startsWith('App Logo') || (txt.includes('App Logo') && txt.length < 200))) {
+                        var fi = d.querySelector('input[type="file"]');
+                        if (fi) logoInp = fi;
+                    }
+                    if (!splashInp && (txt.startsWith('Splash Screen') || (txt.includes('Splash Screen') && txt.length < 200))) {
+                        var fi = d.querySelector('input[type="file"]');
+                        if (fi) splashInp = fi;
+                    }
+                }
+
+                if (!logoInp && allInps.length > 0) logoInp = allInps[0];
+                if (!splashInp && allInps.length > 1) splashInp = allInps[1];
+
+                return [logoInp, splashInp];
+            """, modal)
+
+            logo_input = inputs[0] if inputs and len(inputs) > 0 else None
+            splash_input = inputs[1] if inputs and len(inputs) > 1 else None
+
+            if not logo_input:
+                logger.error("  ✗ Could not find App Logo file input inside Customize Branding modal")
+                self._ss("missing_logo_input")
                 return False
 
+            # Upload Logo (512×512)
             if logo_path and Path(logo_path).exists():
-                file_inputs[0].send_keys(str(Path(logo_path).absolute()))
-                time.sleep(2)
-                logger.info(f"  ✓ Logo uploaded:   {Path(logo_path).name}")
+                abs_logo = str(Path(logo_path).resolve())
+                self.driver.execute_script("""
+                    var el = arguments[0];
+                    el.style.display = 'block';
+                    el.style.visibility = 'visible';
+                    el.style.opacity = '1';
+                    el.style.width = '1px';
+                    el.style.height = '1px';
+                    el.style.position = 'absolute';
+                """, logo_input)
+                time.sleep(0.2)
+                logo_input.send_keys(abs_logo)
+                time.sleep(1)
+                self.driver.execute_script("""
+                    arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+                """, logo_input)
+                time.sleep(1.5)
+
+                logo_state = self.driver.execute_script("""
+                    var inp = arguments[0];
+                    var container = inp.closest('div[role="presentation"]') || inp.parentElement;
+                    var img = container ? container.querySelector('img') : null;
+                    return {
+                        hasFiles: Boolean(inp.files && inp.files.length > 0),
+                        hasPreview: Boolean(img)
+                    };
+                """, logo_input)
+                logger.info(f"  ✓ Logo upload state: {logo_state}")
+
+                if not logo_state.get("hasPreview"):
+                    logger.info("    → Triggering dropzone DataTransfer fallback for App Logo...")
+                    import base64
+                    with open(abs_logo, "rb") as f:
+                        b64_content = base64.b64encode(f.read()).decode("utf-8")
+                    ext = Path(abs_logo).suffix.lower()
+                    mime = "image/png" if ext == ".png" else "image/jpeg"
+                    self.driver.execute_script("""
+                        var inp = arguments[0];
+                        var b64 = arguments[1];
+                        var name = arguments[2];
+                        var mime = arguments[3];
+
+                        var dropzone = inp.closest('div[role="presentation"]') || inp.parentElement;
+                        if (!dropzone) return;
+
+                        var bin = atob(b64);
+                        var arr = new Uint8Array(bin.length);
+                        for (var i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+                        var file = new File([arr], name, { type: mime, lastModified: Date.now() });
+
+                        var dt = new DataTransfer();
+                        dt.items.add(file);
+
+                        inp.files = dt.files;
+                        inp.dispatchEvent(new Event('change', { bubbles: true }));
+
+                        dropzone.dispatchEvent(new DragEvent('dragenter', { bubbles: true, dataTransfer: dt }));
+                        dropzone.dispatchEvent(new DragEvent('dragover', { bubbles: true, dataTransfer: dt }));
+                        dropzone.dispatchEvent(new DragEvent('drop', { bubbles: true, cancelable: true, dataTransfer: dt }));
+                    """, logo_input, b64_content, Path(abs_logo).name, mime)
+                    time.sleep(2)
             else:
                 logger.warning(f"  ⚠ Logo not found: {logo_path}")
 
-            if splash_path and Path(splash_path).exists():
-                file_inputs[1].send_keys(str(Path(splash_path).absolute()))
-                time.sleep(2)
-                logger.info(f"  ✓ Splash uploaded: {Path(splash_path).name}")
+            # Upload Splash (1080×1080)
+            if splash_input and splash_path and Path(splash_path).exists():
+                abs_splash = str(Path(splash_path).resolve())
+                self.driver.execute_script("""
+                    var el = arguments[0];
+                    el.style.display = 'block';
+                    el.style.visibility = 'visible';
+                    el.style.opacity = '1';
+                    el.style.width = '1px';
+                    el.style.height = '1px';
+                    el.style.position = 'absolute';
+                """, splash_input)
+                time.sleep(0.2)
+                splash_input.send_keys(abs_splash)
+                time.sleep(1)
+                self.driver.execute_script("""
+                    arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+                """, splash_input)
+                time.sleep(1.5)
+
+                splash_state = self.driver.execute_script("""
+                    var inp = arguments[0];
+                    var container = inp.closest('div[role="presentation"]') || inp.parentElement;
+                    var img = container ? container.querySelector('img') : null;
+                    return {
+                        hasFiles: Boolean(inp.files && inp.files.length > 0),
+                        hasPreview: Boolean(img)
+                    };
+                """, splash_input)
+                logger.info(f"  ✓ Splash upload state: {splash_state}")
+
+                if not splash_state.get("hasPreview"):
+                    logger.info("    → Triggering dropzone DataTransfer fallback for Splash Screen...")
+                    import base64
+                    with open(abs_splash, "rb") as f:
+                        b64_content = base64.b64encode(f.read()).decode("utf-8")
+                    ext = Path(abs_splash).suffix.lower()
+                    mime = "image/png" if ext == ".png" else "image/jpeg"
+                    self.driver.execute_script("""
+                        var inp = arguments[0];
+                        var b64 = arguments[1];
+                        var name = arguments[2];
+                        var mime = arguments[3];
+
+                        var dropzone = inp.closest('div[role="presentation"]') || inp.parentElement;
+                        if (!dropzone) return;
+
+                        var bin = atob(b64);
+                        var arr = new Uint8Array(bin.length);
+                        for (var i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+                        var file = new File([arr], name, { type: mime, lastModified: Date.now() });
+
+                        var dt = new DataTransfer();
+                        dt.items.add(file);
+
+                        inp.files = dt.files;
+                        inp.dispatchEvent(new Event('change', { bubbles: true }));
+
+                        dropzone.dispatchEvent(new DragEvent('dragenter', { bubbles: true, dataTransfer: dt }));
+                        dropzone.dispatchEvent(new DragEvent('dragover', { bubbles: true, dataTransfer: dt }));
+                        dropzone.dispatchEvent(new DragEvent('drop', { bubbles: true, cancelable: true, dataTransfer: dt }));
+                    """, splash_input, b64_content, Path(abs_splash).name, mime)
+                    time.sleep(2)
             else:
-                logger.warning(f"  ⚠ Splash not found: {splash_path}")
+                logger.warning(f"  ⚠ Splash not found or splash input missing")
+
+            time.sleep(1)
+
+            # ── Check form validation notices inside modal ────
+            try:
+                form_errors = self.driver.execute_script("""
+                    var m = arguments[0];
+                    var errs = [];
+                    var els = m.querySelectorAll('[class*="text-red"], [class*="error"], [class*="invalid"]');
+                    for (var i = 0; i < els.length; i++) {
+                        if (els[i].offsetParent !== null) {
+                            var t = (els[i].innerText || els[i].textContent || "").trim();
+                            if (t && t !== "Click to upload media" && !errs.includes(t)) {
+                                errs.push(t);
+                            }
+                        }
+                    }
+                    return errs;
+                """, modal)
+                if form_errors:
+                    logger.warning(f"  ⚠ Form validation notice: {form_errors}")
+            except Exception:
+                pass
 
             # ── Save Changes ──────────────────────────────────
-            self.wait.until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(),'Save Changes')]")
-                )
-            ).click()
-            logger.info("  → Save Changes clicked, waiting for confirmation...")
-            time.sleep(3)
+            save_btn = None
+            save_xpaths = [
+                "/html/body/div[2]/div[2]/div[3]/button[2]",
+                "//body/div[2]/div[2]/div[3]/button[2]",
+                "//div[contains(@class,'p-5') and contains(@class,'border-t')]//button[contains(.,'Save Changes') or contains(@class,'bg-indigo-600')]",
+                "//button[normalize-space(.)='Save Changes']",
+                "//button[contains(.,'Save Changes')]",
+                "//button[@type='submit']",
+            ]
+            for xp in save_xpaths:
+                try:
+                    cand = self.driver.find_element(By.XPATH, xp)
+                    if cand and cand.is_displayed():
+                        save_btn = cand
+                        break
+                except Exception:
+                    continue
 
-            # Form closes → Edit Branding button reappears
-            self.wait.until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//button[contains(text(),'Edit Branding')]")
-                )
-            )
-            logger.info("✓ Brand settings saved successfully!")
+            if not save_btn:
+                try:
+                    save_btn = self.wait.until(
+                        EC.element_to_be_clickable(
+                            (By.CSS_SELECTOR, "div.p-5.border-t button.bg-indigo-600, button[type='submit']")
+                        )
+                    )
+                except Exception:
+                    pass
+
+            if not save_btn:
+                logger.error("  ✗ Could not find Save/Submit button on brand form")
+                self._ss("save_btn_not_found")
+                return False
+
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", save_btn)
+            time.sleep(0.5)
+
+            # Click via native + JavaScript
+            try:
+                save_btn.click()
+                logger.info("  → Save Changes clicked (native)")
+            except Exception as click_err:
+                logger.warning(f"  ⚠ Native click failed: {click_err}")
+
+            self.driver.execute_script("""
+                var btn = arguments[0];
+                try { btn.click(); } catch (e) {}
+                if (btn.form) {
+                    try { btn.form.requestSubmit(btn); } catch (e2) {}
+                }
+            """, save_btn)
+            logger.info("  → Save Changes clicked, waiting for modal to close...")
+
+            # Wait for modal to close
+            modal_closed = False
+            for i in range(25):
+                time.sleep(1)
+                is_visible = self.driver.execute_script("""
+                    var el = document.querySelector('input[name="CompanyName"]');
+                    return el ? (el.offsetParent !== null) : false;
+                """)
+                if not is_visible:
+                    modal_closed = True
+                    logger.info(f"  ✓ Brand modal closed after {i+1}s")
+                    break
+
+                if i in (3, 7, 12, 18):
+                    logger.info(f"  → Retrying submit click at {i+1}s...")
+                    self.driver.execute_script("""
+                        var btn = arguments[0];
+                        try { btn.click(); } catch (e) {}
+                        if (btn.form) {
+                            try { btn.form.requestSubmit(btn); } catch (e2) {}
+                        }
+                    """, save_btn)
+
+            if not modal_closed:
+                logger.warning("  ⚠ Modal did not close automatically; capturing screenshot & HTML snippet")
+                self._ss("modal_not_closed")
+                modal_snippet = self.driver.execute_script("""
+                    var comp = document.querySelector('input[name="CompanyName"]');
+                    var m = comp ? (comp.closest('div.fixed') || comp.parentElement.parentElement.parentElement) : null;
+                    return m ? m.outerHTML.substring(0, 1500) : "No modal container found";
+                """)
+                logger.warning(f"  Modal HTML snippet: {modal_snippet}")
+
+            time.sleep(2)
+            logger.info("✓ Brand settings process finished!")
             return True
 
         except Exception as e:

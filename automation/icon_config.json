@@ -18,7 +18,9 @@
     "contactus",
     "history",
     "scaneinvoice",
-    "ecommerce"
+    "ecommerce",
+    "warrentyClaim",
+    "warentyHistory"
   ],
   "icons": [
     {
@@ -65,9 +67,16 @@
     },
     {
       "user_type": "all",
-      "icon_identity": "claimhistory",
+      "icon_identity": "warentyHistory",
       "display_title": "Claim History",
-      "image_path": "automation/processed_images/claimhistory1.png",
+      "image_path": "automation/processed_images/Claim History.png",
+      "toggle_option": "both"
+    },
+    {
+      "user_type": "all",
+      "icon_identity": "warrentyClaim",
+      "display_title": "Claim Warranty",
+      "image_path": "automation/processed_images/Claim Warranty.png",
       "toggle_option": "both"
     },
     {

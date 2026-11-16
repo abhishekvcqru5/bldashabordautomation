@@ -8,7 +8,7 @@ opts.add_argument("--headless=new")
 driver = webdriver.Chrome(options=opts)
 
 try:
-    driver.get("https://www.vcqru.com/login.aspx")
+    driver.get("https://www.vcqru.com/loginVcqru.aspx")
     time.sleep(5)
     print("--- Page Source Snippet ---")
     inputs = driver.find_elements(By.TAG_NAME, "input")

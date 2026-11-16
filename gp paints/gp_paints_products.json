@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "product name": "GP Glanza Premium Wall Putty 40kg",
+    "category name": "Wall Putty",
+    "sub-classification": "Premium Putty",
+    "product narrative / description": "GLANZA Premium Wall Putty (40kg) is a white cement-based premium putty formulated with imported polymers and reinforcing fillers for interior and exterior walls. Provides velvety smooth finish, fills minor cracks, protects against heavy rain, dampness, and flaking. Coverage: 400-600 sq.ft per 40kg bag (2 coats). Features QR code for instant painter loyalty rewards.",
+    "listing price (₹)": "1180",
+    "offer price (₹)": "950",
+    "unit inventory": "50",
+    "loyalty yield": "50",
+    "image_path": "C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\gp paints\\product_images\\gp_glanza_premium_wall_putty_sq.jpg"
+  },
+  {
+    "id": 2,
+    "product name": "GP Elegant Sparkling White Wash 40kg",
+    "category name": "White Wash",
+    "sub-classification": "Waterproof Series",
+    "product narrative / description": "GP Paints Elegant Sparkling White Wash (40kg) is an advanced polymer-modified waterproof formulation for concrete and cement walls (interior & exterior). Delivers a brilliant sparkling white finish with zero brush marks, anti-fungus, and anti-algae protection. Coverage: 25-30 sq.ft/kg (2 coats). Features Scan & Earn QR loyalty rewards.",
+    "listing price (₹)": "980",
+    "offer price (₹)": "750",
+    "unit inventory": "50",
+    "loyalty yield": "40",
+    "image_path": "C:\\Users\\admin\\Desktop\\newbldashboardproject\\bldashabordautomation\\gp paints\\product_images\\gp_elegant_sparkling_white_wash_sq.jpg"
+  }
+]

@@ -512,23 +512,47 @@ class VendorPortalAutomation:
                     logger.info(f"    → User type selected by value (fallback): {target}")
 
             # ── 3. Select Icon Identity ─────────────────────────
+            target_identity = str(icon_data.get("icon_identity", "")).strip()
+            icon_select = self.driver.find_element(By.NAME, "IconName")
+            select_obj = Select(icon_select)
+            identity_selected = False
+
+            # Direct select by value
             try:
-                Select(self.driver.find_element(By.NAME, "IconName")).select_by_value(
-                    icon_data["icon_identity"]
-                )
-            except Exception as first_err:
+                select_obj.select_by_value(target_identity)
+                identity_selected = True
+            except Exception:
+                pass
+
+            # Direct select by visible text
+            if not identity_selected:
                 try:
-                    icon_select = self.driver.find_element(By.NAME, "IconName")
-                    opts = [f"value='{o.get_attribute('value')}', text='{o.text}'" for o in Select(icon_select).options]
-                    logger.info(f"    Available IconName options: {opts}")
-                except Exception as log_err:
-                    logger.warning(f"Could not log available IconName options: {log_err}")
-                try:
-                    Select(
-                        self.driver.find_element(By.NAME, "IconName")
-                    ).select_by_visible_text(icon_data["icon_identity"])
+                    select_obj.select_by_visible_text(target_identity)
+                    identity_selected = True
                 except Exception:
-                    raise first_err
+                    pass
+
+            # Case-insensitive / normalized match on value or text
+            if not identity_selected:
+                target_lower = target_identity.lower()
+                for opt in select_obj.options:
+                    val = (opt.get_attribute("value") or "").strip()
+                    txt = (opt.text or "").strip()
+                    if val.lower() == target_lower:
+                        select_obj.select_by_value(val)
+                        identity_selected = True
+                        break
+                    elif txt.lower() == target_lower:
+                        select_obj.select_by_visible_text(txt)
+                        identity_selected = True
+                        break
+
+            if not identity_selected:
+                # Log available options for debugging and fallback
+                opts = [f"value='{o.get_attribute('value')}', text='{o.text}'" for o in select_obj.options]
+                logger.warning(f"Could not directly match '{target_identity}'. Available IconName options: {opts}")
+                select_obj.select_by_value(target_identity)
+
             logger.info(f"    → Icon identity: {icon_data['icon_identity']}")
 
             # ── 4. Enter Display Title ──────────────────────────

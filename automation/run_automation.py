@@ -39,12 +39,17 @@ from old_dashboard_migration import run_old_dashboard_migration, run_old_dashboa
 from old_dashboard_brand_setting import run_old_dashboard_brand_setting
 from product_catalogue_migration import run_product_catalogue_migration
 from surie_product_upload import run_surie_product_upload
-from gift_management import run_gift_management, run_narmada_gifts
+from gift_management import run_gift_management, run_narmada_gifts, run_interactive_gifts_upload
+from painter_gifts_upload import run_painter_gifts_upload
+from homepride_gifts_upload import run_homepride_gifts_upload
 from user_type_creation import UserTypeAutomation
 from app_settings_analysis import run_app_settings_analysis
 from product_management_upload import run_product_management_upload
 from ambica_product_upload import run_ambica_product_upload
 from ambica_product_image_updater import run_ambica_image_updater
+from hi_choice_product_upload import run_hichoice_product_upload
+from hi_choice_pending_upload import run_hichoice_pending_product_upload
+from gp_paints_product_upload import run_gp_paints_product_upload
 
 # Setup logging
 log_dir = Path(__file__).resolve().parent / "logs"
@@ -269,6 +274,10 @@ def find_brand_asset(folder, base_name):
 def run_brand_setting(email, password):
     """Process brand images and update Identity & Branding on the portal."""
     import json
+    import importlib
+    import brand_setting
+    importlib.reload(brand_setting)
+    from brand_setting import BrandImageProcessor, BrandSettingAutomation, extract_colors_from_logo
 
     # ── Ask company name at runtime ───────────────────────────
     print()
@@ -301,14 +310,62 @@ def run_brand_setting(email, password):
         )
         return False
 
+    # ── Ensure source files in brand_folder are exact dimensions ──
+    try:
+        from PIL import Image
+        with Image.open(logo_src) as lim:
+            if lim.size != (512, 512):
+                logger.info(f"  Resizing source logo {logo_src.name} from {lim.size} to (512, 512)...")
+                raw = lim.convert("RGBA")
+                canvas = Image.new("RGBA", (512, 512), (255, 255, 255, 255))
+                max_w, max_h = 470, 470
+                w, h = raw.size
+                ratio = min(max_w / w, max_h / h)
+                new_w, new_h = max(1, int(w * ratio)), max(1, int(h * ratio))
+                resized = raw.resize((new_w, new_h), Image.Resampling.LANCZOS)
+                canvas.paste(resized, ((512 - new_w) // 2, (512 - new_h) // 2), mask=resized.split()[-1])
+                canvas.save(logo_src, "PNG", optimize=True)
+                logger.info(f"  ✓ Source logo fitted on 512×512 white canvas: {logo_src.name}")
+        with Image.open(splash_src) as sim:
+            if sim.size != (1080, 1080):
+                logger.info(f"  Resizing source splash {splash_src.name} from {sim.size} to (1080, 1080)...")
+                sim_resized = sim.resize((1080, 1080), Image.Resampling.LANCZOS)
+                s_fmt = "JPEG" if splash_src.suffix.lower() in (".jpg", ".jpeg") else "PNG"
+                if s_fmt == "JPEG" and sim_resized.mode in ("RGBA", "P"):
+                    bg = Image.new("RGB", sim_resized.size, (255, 255, 255))
+                    bg.paste(sim_resized, mask=sim_resized.split()[-1] if sim_resized.mode == "RGBA" else None)
+                    sim_resized = bg
+                sim_resized.save(splash_src, s_fmt, quality=95, optimize=True)
+                logger.info(f"  ✓ Source splash resized to 1080×1080: {splash_src.name}")
+    except Exception as resize_err:
+        logger.warning(f"  ⚠ Could not in-place resize source files: {resize_err}")
+
     # ── Process images ────────────────────────────────────────
     logger.info("=" * 60)
     logger.info("BRAND SETTING — Image Processing")
     logger.info("=" * 60)
 
     processor = BrandImageProcessor()
-    logo_path = processor.process_logo(logo_src)
-    splash_path = processor.process_splash(splash_src)
+    from PIL import Image
+    try:
+        with Image.open(logo_src) as lim:
+            if lim.size == (512, 512):
+                logo_path = str(logo_src.resolve())
+                logger.info(f"✓ Logo  → {logo_src.name}  |  512×512 (source image used directly)")
+            else:
+                logo_path = processor.process_logo(logo_src)
+    except Exception:
+        logo_path = processor.process_logo(logo_src)
+
+    try:
+        with Image.open(splash_src) as sim:
+            if sim.size == (1080, 1080):
+                splash_path = str(splash_src.resolve())
+                logger.info(f"✓ Splash → {splash_src.name}  |  1080×1080 (source image used directly)")
+            else:
+                splash_path = processor.process_splash(splash_src)
+    except Exception:
+        splash_path = processor.process_splash(splash_src)
 
     # ── Auto-extract colors from logo at runtime ─────────────
     logger.info("")
@@ -802,9 +859,29 @@ FILENAME_TO_ICON_IDENTITY = {
     "support": "help",
     "help": "help",
     "tds": "tds",
-    "claim history": "claimhistory",
-    "e-warranty": "e-warrant",
-    "ewarranty": "e-warrant",
+    "warranty claim history": "warentyHistory",
+    "warrantyclaimhistory": "warentyHistory",
+    "warranty history": "warentyHistory",
+    "warenty history": "warentyHistory",
+    "warentyhistory": "warentyHistory",
+    "warrantyhistory": "warentyHistory",
+    "claim warranty history": "warentyHistory",
+    "claimwarrantyhistory": "warentyHistory",
+    "claim history": "warentyHistory",
+    "claimhistory": "warentyHistory",
+    "claim warranty": "warrentyClaim",
+    "claimwarranty": "warrentyClaim",
+    "claim warrenty": "warrentyClaim",
+    "claimwarrenty": "warrentyClaim",
+    "warranty claim": "warrentyClaim",
+    "warrantyclaim": "warrentyClaim",
+    "warrenty claim": "warrentyClaim",
+    "warrentyclaim": "warrentyClaim",
+    "e-warranty": "warrentyClaim",
+    "ewarranty": "warrentyClaim",
+    "e warranty": "warrentyClaim",
+    "warranty": "warrentyClaim",
+    "warrenty": "warrentyClaim",
     "ecommerce": "ecommerce",
     "e-commerce": "ecommerce",
     "e commerce": "ecommerce",
@@ -822,9 +899,10 @@ def get_icon_identity(filename_stem: str) -> str:
     stem_lower = filename_stem.lower().strip()
     if stem_lower in FILENAME_TO_ICON_IDENTITY:
         return FILENAME_TO_ICON_IDENTITY[stem_lower]
-    for key, val in FILENAME_TO_ICON_IDENTITY.items():
+    # Check longer / more specific keys first so e.g. "warranty claim history" matches before "claim history"
+    for key in sorted(FILENAME_TO_ICON_IDENTITY.keys(), key=len, reverse=True):
         if key in stem_lower or stem_lower in key:
-            return val
+            return FILENAME_TO_ICON_IDENTITY[key]
     return "gift"
 
 
@@ -832,7 +910,7 @@ def get_toggle_option(filename_stem: str) -> str:
     """Determine portal toggle selection based on filename stem."""
     stem_lower = filename_stem.lower().strip()
     # Both
-    if any(x in stem_lower for x in ["rewards", "refer", "wallet"]):
+    if any(x in stem_lower for x in ["rewards", "refer", "wallet", "warranty", "warenty", "warrenty", "claim history", "claim warranty", "claimhistory", "claimwarranty"]):
         return "both"
     # Side menu
     elif any(x in stem_lower for x in ["kyc", "language", "claim", "tds", "about"]):
@@ -1264,9 +1342,9 @@ def run_single_update(email, password, target_user_type=None, target_icon_id=Non
         if stem_lower in FILENAME_TO_ICON_IDENTITY:
             clean_identity = FILENAME_TO_ICON_IDENTITY[stem_lower]
         else:
-            for key, val in FILENAME_TO_ICON_IDENTITY.items():
+            for key in sorted(FILENAME_TO_ICON_IDENTITY.keys(), key=len, reverse=True):
                 if key in stem_lower or stem_lower in key:
-                    clean_identity = val
+                    clean_identity = FILENAME_TO_ICON_IDENTITY[key]
                     break
         local_icons.append({
             "filename": filename,
@@ -1403,7 +1481,7 @@ def run_single_update(email, password, target_user_type=None, target_icon_id=Non
                             continue
                         if len(cells) >= 6 and current_ut.lower() == user_type.lower():
                             cell_text = cells[1].text.strip().replace("\n", " ")
-                            if f"ID: {icon_id}" in cell_text or f"ID:{icon_id}" in cell_text or title.lower() in cell_text.lower():
+                            if (icon_id and f"id: {icon_id.lower()}" in cell_text.lower()) or (icon_id and f"id:{icon_id.lower()}" in cell_text.lower()) or (icon_id and icon_id.lower() in cell_text.lower()) or title.lower() in cell_text.lower():
                                 return r, r_idx
                 except Exception:
                     pass
@@ -2727,6 +2805,451 @@ def run_copy_dashboard_sequence(email, password) -> bool:
         return False
 
 
+
+def run_dashboard_icons_custom_names_update(email, password) -> bool:
+    """
+    Option 27:
+    Update specific dashboard icons by entering their names matching files in dashboardicons/.
+    Prompts for:
+      1. Target User Type (or all user types if left blank)
+      2. Number of icons to update
+      3. Names of each icon (stem or filename from dashboardicons/)
+    Locates matching rows in the portal and updates them (Actions -> Edit Config),
+    or adds them if not yet present on the portal.
+    """
+    print()
+    print("  ╔══════════════════════════════════════════════════════════════╗")
+    print("  ║   UPDATE SPECIFIC DASHBOARD ICONS BY NAME (Option 27)        ║")
+    print("  ╚══════════════════════════════════════════════════════════════╝")
+    print()
+
+    # 1. Ask for Target User Type (e.g. Retailer, Dealer, or leave blank for all)
+    target_user_type = input("  Target User Type (e.g. Retailer, or leave blank for all): ").strip()
+    if not target_user_type:
+        target_user_type = None
+
+    # 2. Ask how many dashboard icons
+    while True:
+        try:
+            num_input = input("  How many dashboard icons do you want to update? ").strip()
+            if not num_input:
+                print("  ❌ Number cannot be empty.")
+                continue
+            num_icons = int(num_input)
+            if num_icons <= 0:
+                print("  ❌ Please enter a positive integer.")
+                continue
+            break
+        except ValueError:
+            print("  ❌ Invalid number. Please enter an integer.")
+
+    # 3. Collect dashboard icon names one-by-one
+    target_icon_names = []
+    for i in range(num_icons):
+        while True:
+            name = input(f"  Enter Dashboard Icon #{i + 1} Name: ").strip()
+            if not name:
+                print("  ❌ Name cannot be empty.")
+                continue
+            if name.lower() in [ic.lower() for ic in target_icon_names]:
+                print("  ❌ Icon name already entered. Please use a unique name.")
+                continue
+            target_icon_names.append(name)
+            break
+
+    logger.info(f"Target User Type: {target_user_type or 'All'}")
+    logger.info(f"Requested Icons: {target_icon_names}")
+
+    # 4. Process images from dashboardicons/
+    input_dir = str(Path(__file__).resolve().parent.parent / "dashboardicons")
+    output_dir = "automation/processed_images"
+
+    logger.info(f"Processing images from '{input_dir}'...")
+    processor = ImageProcessor(input_dir, output_dir)
+    processed_images = processor.process_all_images()
+
+    if not processed_images:
+        logger.error("No images were found/processed from 'dashboardicons/'. Aborting.")
+        print("  ❌ No images found in dashboardicons/.")
+        return False
+
+    # 5. Map each requested icon name to processed images
+    matched_targets = []
+    for entered_name in target_icon_names:
+        clean_entered = Path(entered_name).stem.strip()
+        orig_filename, processed_path = find_matching_processed_image(clean_entered, processed_images)
+        if not processed_path:
+            orig_filename, processed_path = find_matching_processed_image(entered_name, processed_images)
+
+        if not processed_path:
+            logger.warning(f"⚠ Could not find matching image for '{entered_name}' in dashboardicons/")
+            avail = [Path(k).stem for k in processed_images.keys()]
+            print(f"  ⚠ Image not found for '{entered_name}'. Available in dashboardicons/: {', '.join(avail)}")
+            continue
+
+        stem = Path(orig_filename).stem
+        display_title = stem
+        icon_identity = get_icon_identity(stem)
+        icon_color = extract_dominant_color(processed_path)
+        toggle_option = get_toggle_option(stem)
+
+        matched_targets.append({
+            "stem": stem,
+            "display_title": display_title,
+            "filename": orig_filename,
+            "processed_path": processed_path,
+            "identity": icon_identity,
+            "color": icon_color,
+            "toggle_option": toggle_option,
+            "match_ids": [icon_identity.lower()],
+            "match_titles": [display_title.lower(), stem.lower(), clean_entered.lower(), entered_name.lower()]
+        })
+
+    if not matched_targets:
+        logger.error("No requested dashboard icons could be matched with images in dashboardicons/. Aborting.")
+        print("  ❌ No matching icons found. Aborting.")
+        return False
+
+    print()
+    print(f"  ✓ Matched {len(matched_targets)} icons from dashboardicons/:")
+    for t in matched_targets:
+        print(f"    • {t['display_title']} (ID: {t['identity']}, Color: {t['color']}, File: {t['filename']})")
+    print()
+
+    # 6. Launch browser automation and perform updates
+    try:
+        import re
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support.ui import WebDriverWait
+        from selenium.webdriver.support import expected_conditions as EC
+
+        with VendorPortalAutomation(email, password, headless=False) as automation:
+            logger.info("→ Logging into vendor portal...")
+            if not automation.login():
+                logger.error("✗ Login failed.")
+                return False
+
+            time.sleep(2)
+
+            # Navigate to Dashboard Icons
+            logger.info("→ Navigating to dashboard icons section...")
+            if not automation.navigate_to_dashboard_icons():
+                logger.error("✗ Navigation to Dashboard Icons failed.")
+                return False
+
+            # Get all available user types in dropdown
+            logger.info("Reading all available user types from dropdown...")
+            available_user_types = automation.get_available_user_types()
+            if not available_user_types:
+                logger.warning("No user types retrieved from dropdown.")
+
+            utypes_to_process = []
+            for val, text in available_user_types:
+                text_clean = text.strip()
+                if target_user_type and text_clean.lower() != target_user_type.lower():
+                    continue
+                utypes_to_process.append((val, text_clean))
+
+            if not utypes_to_process:
+                if target_user_type:
+                    utypes_to_process = [(target_user_type, target_user_type)]
+                else:
+                    utypes_to_process = [("All", "All")]
+
+            logger.info(f"User types to process: {[t[1] for t in utypes_to_process]}")
+
+            # Retrieve configured icons table to find existing ones
+            try:
+                table = WebDriverWait(automation.driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "table"))
+                )
+                rows = table.find_elements(By.TAG_NAME, "tr")
+            except Exception:
+                logger.warning("Table not found on page. Assuming no configured icons exist yet.")
+                rows = []
+
+            # Parse configured rows grouped by user type
+            existing_by_user_type = {}
+            current_user_type = "All"
+
+            for idx, row in enumerate(rows):
+                cells = row.find_elements(By.TAG_NAME, "td")
+                if len(cells) == 1:
+                    hdr_text = cells[0].text.strip()
+                    match = re.search(r'^([a-zA-Z\s]+?)\s+\d+', hdr_text)
+                    if match:
+                        current_user_type = match.group(1).strip().title()
+                    else:
+                        current_user_type = hdr_text.title()
+                    continue
+
+                if len(cells) >= 6:
+                    cell_1_text = cells[1].text.strip().replace("\n", " ")
+                    color_match = re.search(r'(#[A-Fa-f0-9]{6})', cell_1_text)
+                    id_match = re.search(r'ID:\s*([a-zA-Z0-9_\-]+)', cell_1_text)
+
+                    icon_id = id_match.group(1) if id_match else ""
+                    title = cell_1_text
+                    if color_match:
+                        title = title.split(color_match.group(1))[0].strip()
+                    elif "ID:" in title:
+                        title = title.split("ID:")[0].strip()
+                    title = title.replace("•", "").strip(" •-")
+
+                    existing_by_user_type.setdefault(current_user_type.lower().strip(), []).append({
+                        "title": title,
+                        "icon_id": icon_id,
+                        "row_index": idx
+                    })
+
+            # Build tasks (edit existing vs add new)
+            tasks_to_run = []
+            for utype_val, utype_text in utypes_to_process:
+                ut_key = utype_text.lower().strip()
+                existing_list = existing_by_user_type.get(ut_key, [])
+
+                for target in matched_targets:
+                    matched_row = None
+
+                    # 1. Match by ID
+                    for row_data in existing_list:
+                        if row_data["icon_id"] and row_data["icon_id"].lower().strip() in target["match_ids"]:
+                            matched_row = row_data
+                            break
+
+                    # 2. Match by Title (exact or normalized)
+                    if not matched_row:
+                        for row_data in existing_list:
+                            row_t_norm = row_data["title"].lower().replace("and", "&").replace("  ", " ").strip()
+                            for m_t in target["match_titles"]:
+                                m_t_norm = m_t.lower().replace("and", "&").replace("  ", " ").strip()
+                                if row_t_norm == m_t_norm or m_t_norm in row_t_norm or row_t_norm in m_t_norm:
+                                    matched_row = row_data
+                                    break
+                            if matched_row:
+                                break
+
+                    if matched_row:
+                        tasks_to_run.append({
+                            "action": "edit",
+                            "user_type_val": utype_val,
+                            "user_type_text": utype_text,
+                            "title_on_page": matched_row["title"],
+                            "icon_id_on_page": matched_row["icon_id"],
+                            "target": target
+                        })
+                    else:
+                        tasks_to_run.append({
+                            "action": "add",
+                            "user_type_val": utype_val,
+                            "user_type_text": utype_text,
+                            "target": target
+                        })
+
+            logger.info(f"Planned tasks: {len(tasks_to_run)}")
+            for t in tasks_to_run:
+                logger.info(f"  - [{t['user_type_text']}] {t['action'].upper()} -> {t['target']['display_title']} (ID: {t['target']['identity']})")
+
+            # Dynamic row locator to avoid stale elements
+            def find_target_row(driver, user_type, title, icon_id):
+                try:
+                    tbl = driver.find_element(By.TAG_NAME, "table")
+                    current_rows = tbl.find_elements(By.TAG_NAME, "tr")
+                    current_ut = "All"
+                    for r_idx, r in enumerate(current_rows):
+                        cells = r.find_elements(By.TAG_NAME, "td")
+                        if len(cells) == 1:
+                            hdr_text = cells[0].text.strip()
+                            match = re.search(r'^([a-zA-Z\s]+?)\s+\d+', hdr_text)
+                            if match:
+                                current_ut = match.group(1).strip().title()
+                            else:
+                                current_ut = hdr_text.title()
+                            continue
+                        if len(cells) >= 6 and (user_type.lower() == "all" or current_ut.lower() == user_type.lower()):
+                            cell_text = cells[1].text.strip().replace("\n", " ")
+                            id_match = (icon_id and (
+                                f"id: {icon_id.lower()}" in cell_text.lower() or 
+                                f"id:{icon_id.lower()}" in cell_text.lower() or 
+                                icon_id.lower() in cell_text.lower()
+                            ))
+                            title_match = (title and title.lower() in cell_text.lower())
+                            if id_match or title_match:
+                                return r, r_idx
+                except Exception:
+                    pass
+                return None, -1
+
+            successful = 0
+            failed = 0
+
+            for idx_task, task in enumerate(tasks_to_run, 1):
+                action = task["action"]
+                ut_text = task["user_type_text"]
+                ut_val = task["user_type_val"]
+                target = task["target"]
+
+                logger.info(f"\n[{idx_task}/{len(tasks_to_run)}] {action.upper()}: [{ut_text}] {target['display_title']} (ID: {target['identity']})")
+
+                if action == "edit":
+                    title_on_page = task["title_on_page"]
+                    icon_id_on_page = task["icon_id_on_page"]
+                    try:
+                        target_row, current_row_idx = find_target_row(automation.driver, ut_text, title_on_page, icon_id_on_page)
+                        if not target_row:
+                            logger.error(f"  ✗ Could not find row on page for [{ut_text}] '{title_on_page}'.")
+                            failed += 1
+                            continue
+
+                        cells = target_row.find_elements(By.TAG_NAME, "td")
+                        if len(cells) < 6:
+                            logger.error("  ✗ Target row is invalid.")
+                            failed += 1
+                            continue
+
+                        # Click action button in last cell
+                        last_cell = cells[-1]
+                        action_btn = last_cell.find_element(By.XPATH, ".//button[contains(., 'Actions')]")
+                        automation.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", action_btn)
+                        time.sleep(0.5)
+                        automation.driver.execute_script("arguments[0].click();", action_btn)
+
+                        # Click Edit Config
+                        edit_btn = WebDriverWait(automation.driver, 5).until(
+                            EC.element_to_be_clickable((By.XPATH, "//span[text()='Edit Config']/ancestor::button"))
+                        )
+                        automation.driver.execute_script("arguments[0].click();", edit_btn)
+
+                        # Set Name
+                        name_input = WebDriverWait(automation.driver, 10).until(
+                            EC.element_to_be_clickable((By.NAME, "Name"))
+                        )
+                        automation.driver.execute_script("arguments[0].value = '';", name_input)
+                        name_input.send_keys(target["display_title"])
+                        logger.info(f"  → Display title: {target['display_title']}")
+
+                        # Set Color
+                        hex_color = target.get("color")
+                        if hex_color:
+                            try:
+                                color_inputs = automation.driver.find_elements(By.NAME, "IconColor")
+                                color_picker = None
+                                color_text = None
+                                for ci in color_inputs:
+                                    if ci.get_attribute("type") == "color":
+                                        color_picker = ci
+                                    elif ci.get_attribute("type") == "text":
+                                        color_text = ci
+
+                                if color_picker:
+                                    automation.driver.execute_script(
+                                        """
+                                        var setter = Object.getOwnPropertyDescriptor(
+                                            window.HTMLInputElement.prototype, 'value').set;
+                                        setter.call(arguments[0], arguments[1]);
+                                        arguments[0].dispatchEvent(new Event('input',  {bubbles:true}));
+                                        arguments[0].dispatchEvent(new Event('change', {bubbles:true}));
+                                        """,
+                                        color_picker,
+                                        hex_color,
+                                    )
+
+                                if color_text:
+                                    from selenium.webdriver.common.keys import Keys
+                                    color_text.click()
+                                    time.sleep(0.1)
+                                    color_text.send_keys(Keys.CONTROL + "a")
+                                    color_text.send_keys(Keys.DELETE)
+                                    color_text.send_keys(hex_color)
+                                    time.sleep(0.1)
+                                    automation.driver.execute_script("arguments[0].blur()", color_text)
+                                logger.info(f"  → Icon color: {hex_color}")
+                            except Exception as ce:
+                                logger.warning(f"  ⚠ Could not set icon color: {ce}")
+
+                        # Upload processed image
+                        img_path = str(Path(target["processed_path"]).absolute())
+                        file_input = None
+                        try:
+                            file_input = automation.driver.find_elements(By.XPATH, "//div[contains(@class,'fixed')]//input[@type='file']")[-1]
+                        except Exception:
+                            file_input = WebDriverWait(automation.driver, 5).until(
+                                EC.presence_of_element_located((By.XPATH, "//input[@type='file']"))
+                            )
+                        try:
+                            automation.driver.execute_script("""
+                                arguments[0].style.cssText = 'display:block !important; visibility:visible !important;'
+                                    + 'opacity:1 !important; width:1px !important; height:1px !important;'
+                                    + 'position:fixed !important; top:0 !important; left:0 !important; z-index:99999;';
+                            """, file_input)
+                        except Exception:
+                            pass
+                        file_input.send_keys(img_path)
+                        try:
+                            automation.driver.execute_script("""
+                                arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+                                arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+                            """, file_input)
+                        except Exception:
+                            pass
+                        logger.info(f"  → Uploaded image: {target['filename']}")
+                        time.sleep(2)
+
+                        # Submit modal
+                        submit_btn = WebDriverWait(automation.driver, 5).until(
+                            EC.element_to_be_clickable((By.XPATH, "//div[contains(@class,'p-5')]//button[contains(@class,'bg-indigo-600')]"))
+                        )
+                        automation.driver.execute_script("arguments[0].click();", submit_btn)
+                        logger.info("  → Edit form submitted.")
+
+                        WebDriverWait(automation.driver, 15).until(
+                            EC.invisibility_of_element_located((By.XPATH, "//div[contains(@class,'p-5')]//button[contains(@class,'bg-indigo-600')]"))
+                        )
+                        automation._wait_toast_gone()
+                        time.sleep(1)
+                        logger.info(f"  ✓ Successfully updated: [{ut_text}] {title_on_page} -> {target['display_title']}")
+                        successful += 1
+
+                    except Exception as ex:
+                        logger.error(f"  ✗ Failed to update row: {ex}")
+                        try:
+                            discard = automation.driver.find_element(By.XPATH, "//button[contains(text(),'Cancel') or contains(text(),'Discard')]")
+                            automation.driver.execute_script("arguments[0].click();", discard)
+                            time.sleep(1)
+                        except Exception:
+                            pass
+                        failed += 1
+
+                elif action == "add":
+                    add_data = {
+                        "user_type": ut_val,
+                        "icon_identity": target["identity"],
+                        "display_title": target["display_title"],
+                        "image_path": target["processed_path"],
+                        "toggle_option": target["toggle_option"],
+                        "icon_color": target["color"]
+                    }
+                    if automation.add_icon(add_data):
+                        successful += 1
+                    else:
+                        failed += 1
+
+                time.sleep(1)
+
+            logger.info("=" * 60)
+            logger.info(f"OPTION 27 SUMMARY: {email}")
+            logger.info(f"✓ Succeeded: {successful}")
+            logger.info(f"✗ Failed: {failed}")
+            logger.info("=" * 60)
+            return failed == 0
+
+    except Exception as e:
+        logger.error(f"Unexpected error in Option 27: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return False
+
+
 def show_old_dashboard_menu() -> str:
     """
     Sub-menu for Old Dashboard operations.
@@ -2780,6 +3303,13 @@ def show_menu():
     print("║   Press 21: Ambica Cable Product Catalogue                   ║")
     print("║   Press 22: Ambica Cable Existing Product Images             ║")
     print("║   Press 23: Copy Dashboard Icons Sequence (Source to Others) ║")
+    print("║   Press 24: Gift Option (Upload Gifts from Folder)           ║")
+    print("║   Press 25: Painter Scheme Gifts (Auto 22 Gifts from PDF)    ║")
+    print("║   Press 26: HomePride Gift Scheme (Auto 11 Tiers / Scheme)   ║")
+    print("║   Press 27: Update Dashboard Icons by Name (From Folder)     ║")
+    print("║   Press 28: Hi-Choice Product Catalogue Upload               ║")
+    print("║   Press 29: Hi-Choice Pending Products Catalogue Upload       ║")
+    print("║   Press 30: GP Paints Product Catalogue Upload               ║")
     print("║   Press 0 : Exit                                             ║")
     print("║                                                              ║")
     print("╚══════════════════════════════════════════════════════════════╝")
@@ -2833,7 +3363,7 @@ if __name__ == "__main__":
                 sys.exit(0)
 
             # ── Invalid ───────────────────────────────────────────────
-            elif choice not in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "11", "12", "13", "14", "15", "16", "16.1", "17", "18", "20", "21", "22", "23"}:
+            elif choice not in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "11", "12", "13", "14", "15", "16", "16.1", "17", "18", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"}:
                 print(
                     f"\n  ❌ Invalid choice '{choice}'. Please enter a valid option.\n"
                 )
@@ -3034,6 +3564,36 @@ if __name__ == "__main__":
             elif choice == "23":
                 logger.info("User selected: Copy Dashboard Icons Sequence (Source to Others)")
                 success = run_copy_dashboard_sequence(email, password)
+
+            elif choice == "24":
+                logger.info("User selected: Gift Option (Upload Gifts from Folder) — launching GUI")
+                from gift_option_ui import launch_gift_ui
+                launch_gift_ui(email=email, password=password)
+                success = True
+
+            elif choice == "25":
+                logger.info("User selected: Painter Scheme Gifts (Auto 22 Gifts from PDF)")
+                success = run_painter_gifts_upload(email, password)
+
+            elif choice == "26":
+                logger.info("User selected: HomePride Gift Scheme (Auto 11 Tiers / Scheme)")
+                success = run_homepride_gifts_upload(email, password)
+
+            elif choice == "27":
+                logger.info("User selected: Update Dashboard Icons by Name (From Folder)")
+                success = run_dashboard_icons_custom_names_update(email, password)
+
+            elif choice == "28":
+                logger.info("User selected: Hi-Choice Product Catalogue Upload")
+                success = run_hichoice_product_upload(email, password)
+
+            elif choice == "29":
+                logger.info("User selected: Hi-Choice Pending Products Catalogue Upload")
+                success = run_hichoice_pending_product_upload(email, password)
+
+            elif choice == "30":
+                logger.info("User selected: GP Paints Product Catalogue Upload")
+                success = run_gp_paints_product_upload(email, password)
 
             # ── Result summary ────────────────────────────────────────
             logger.info(

@@ -1,0 +1,123 @@
+/* Premium dark theme with glassmorphism */
+
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --bg-gradient: linear-gradient(135deg, hsl(220, 40%, 12%), hsl(260, 30%, 8%));
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --accent: hsl(260, 80%, 60%);
+  --text-primary: #e0e0e0;
+  --text-muted: #a0a0a0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--accent);
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.field input,
+.field textarea {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: var(--text-muted);
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+  width: 100%;
+  padding: 0.9rem;
+  margin-top: 0.5rem;
+  background: var(--accent);
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+.btn:hover {
+  background: hsl(260, 80%, 55%);
+  transform: translateY(-2px);
+}
+
+.result {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: rgba(0, 128, 0, 0.15);
+  color: #b2ffb2;
+  font-weight: 500;
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-gradient: linear-gradient(135deg, hsl(220, 40%, 95%), hsl(260, 30%, 90%));
+    --card-bg: rgba(255, 255, 255, 0.65);
+    --text-primary: #202020;
+    --text-muted: #555555;
+    --accent: hsl(260, 70%, 45%);
+  }
+}
